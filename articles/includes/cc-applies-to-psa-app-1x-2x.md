@@ -1,1 +1,1 @@
-Velja za aplikacijo Project Service, različici 2.x in 1.x
+<span data-ttu-id="80fbc-101">Velja za aplikacijo Project Service, različici 2.x in 1.x</span><span class="sxs-lookup"><span data-stu-id="80fbc-101">Applies to Project Service app versions 2.x and 1.x</span></span>

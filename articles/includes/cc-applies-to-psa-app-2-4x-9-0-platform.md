@@ -1,1 +1,1 @@
-Velja za aplikacijo Project Service, različice 2.4.4.30 ali starejše različice, v Dynamics 365 (online), različice 9.x
+<span data-ttu-id="9312a-101">Velja za aplikacijo Project Service, različice 2.4.4.30 ali starejše različice, v Dynamics 365 (online), različice 9.x</span><span class="sxs-lookup"><span data-stu-id="9312a-101">Applies to Project Service app version 2.4.4.30 or earlier on Dynamics 365 (online) version 9.x</span></span>

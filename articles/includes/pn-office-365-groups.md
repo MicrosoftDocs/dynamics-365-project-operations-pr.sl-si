@@ -1,1 +1,1 @@
-Skupine storitve Office 365
+<span data-ttu-id="d1c6d-101">Skupine storitve Office 365</span><span class="sxs-lookup"><span data-stu-id="d1c6d-101">Office 365 Groups</span></span>

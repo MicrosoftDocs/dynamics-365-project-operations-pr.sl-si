@@ -1,1 +1,1 @@
-Več informacij:
+<span data-ttu-id="3366f-101">Več informacij:</span><span class="sxs-lookup"><span data-stu-id="3366f-101">More information:</span></span>

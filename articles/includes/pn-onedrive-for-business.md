@@ -1,1 +1,1 @@
-OneDrive za podjetja
+<span data-ttu-id="f0c62-101">OneDrive za podjetja</span><span class="sxs-lookup"><span data-stu-id="f0c62-101">OneDrive for Business</span></span>
