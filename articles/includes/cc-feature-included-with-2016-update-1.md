@@ -1,0 +1,1 @@
+Ta funkcija je podprta v paketu posodobitev Dynamics CRM Online 2016 Update 1. Ali bi želeli imeti to funkcijo? [Poiščite skrbnika za Dynamics 365 ali osebo za podporo](../basics/find-administrator-support.md)
