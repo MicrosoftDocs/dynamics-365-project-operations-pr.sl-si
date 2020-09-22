@@ -1,0 +1,1 @@
+# <a name="welcome-to-dynamics-365-project-operations"></a>Dobrodošli v storitvi dynamics-365-project-operations!
