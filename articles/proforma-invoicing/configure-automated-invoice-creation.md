@@ -1,55 +1,47 @@
 ---
-title: Konfiguracija avtomatiziranega ustvarjanja računov
-description: Ta tema vsebuje informacije o tem, kako nastaviti sistem za samodejno ustvarjanje računov.
+title: Konfiguracija samodejnega ustvarjanja računov
+description: Ta tema vsebuje informacije o tem, kako konfigurirati sistem za samodejno ustvarjanje računov.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 764fd4568619e4f5676ee3cbf7fce14ffb069548
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.author: rumant
+ms.openlocfilehash: 4e7572f2bc6201960ac01ce521adf39ac2577dbe
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898146"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084649"
 ---
-# <a name="configure-automated-invoice-creation"></a>Konfiguracija avtomatiziranega ustvarjanja računov
+# <a name="configure-automatic-invoice-creation"></a><span data-ttu-id="9bac1-103">Konfiguracija samodejnega ustvarjanja računov</span><span class="sxs-lookup"><span data-stu-id="9bac1-103">Configure automatic invoice creation</span></span>
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+<span data-ttu-id="9bac1-104">_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_</span><span class="sxs-lookup"><span data-stu-id="9bac1-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-Dokončajte naslednje korake, da konfigurirate samodejni zagon računa v storitvi Project Operations.
 
-1. Odprite **Nastavitve** \> **Paketna opravila**.
-2. Ustvarite paketno opravilo in ga poimenujte **Ustvarjanje računov v storitvi Project Operations**. Ime paketnega opravila mora vključevati izraz »Ustvarjanje računov«.
-3. V polju **Vrsta posla** izberite **Brez**. Možnosti **Pogostost: dnevno** in **Je aktivno** sta nastavljeni na **Da**.
-4. Izberite **Zaženi potek dela**. V pogovornem oknu **Poišči zapis** vidite tri poteke dela:
+<span data-ttu-id="9bac1-105">Izvedite naslednje korake, da v aplikaciji Dynamics 365 Project Operations konfigurirate samodejno izdajanje računov.</span><span class="sxs-lookup"><span data-stu-id="9bac1-105">Complete the following steps to configure an automated invoice run in Dynamics 365 Project operations.</span></span>
 
-    - ProcessRunCaller
-    - ProcessRunner
-    - UpdateRoleUtilization
+1. <span data-ttu-id="9bac1-106">Odprite zavihek **Nastavitve** > **Paketna opravila**.</span><span class="sxs-lookup"><span data-stu-id="9bac1-106">Go to **Settings** > **Batch jobs**.</span></span>
+2. <span data-ttu-id="9bac1-107">Ustvarite paketno opravilo in ga poimenujte **Ustvarjanje računov v storitvi Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="9bac1-107">Create a batch job, and name it **Project operations create invoices**.</span></span> <span data-ttu-id="9bac1-108">Ime paketnega opravila mora vključevati izraz »ustvarjanje računov«.</span><span class="sxs-lookup"><span data-stu-id="9bac1-108">The name of the batch job must include the words "create invoices."</span></span>
+3. <span data-ttu-id="9bac1-109">V polju **Vrsta posla** izberite možnost **Brez**.</span><span class="sxs-lookup"><span data-stu-id="9bac1-109">In the **Job Type** field, select **None**.</span></span> <span data-ttu-id="9bac1-110">Možnosti **Pogostost: dnevno** in **Je aktivno** sta nastavljeni na **Da**.</span><span class="sxs-lookup"><span data-stu-id="9bac1-110">By default, the **Frequency Daily** and **Is Active** options are set to **Yes**.</span></span>
+4. <span data-ttu-id="9bac1-111">Izberite **Zaženi potek dela**.</span><span class="sxs-lookup"><span data-stu-id="9bac1-111">Select **Run Workflow**.</span></span> <span data-ttu-id="9bac1-112">V pogovornem oknu **Poišči zapis** vidite tri poteke dela:</span><span class="sxs-lookup"><span data-stu-id="9bac1-112">In the **Look Up Record** dialog box, you will see three workflows:</span></span>
 
-5. Izberite **ProcessRunCaller** in nato **Dodaj**.
-6. V naslednjem pogovornem oknu izberite **V redu**. Poteku dela **Spanje** sledi potek dela **Proces**.
+    - <span data-ttu-id="9bac1-113">ProcessRunCaller</span><span class="sxs-lookup"><span data-stu-id="9bac1-113">ProcessRunCaller</span></span>
+    - <span data-ttu-id="9bac1-114">ProcessRunner</span><span class="sxs-lookup"><span data-stu-id="9bac1-114">ProcessRunner</span></span>
+    - <span data-ttu-id="9bac1-115">UpdateRoleUtilization</span><span class="sxs-lookup"><span data-stu-id="9bac1-115">UpdateRoleUtilization</span></span>
 
-    V 5. koraku lahko izberete tudi **ProcessRunner**. Ko nato izberete **V redu**, poteku dela **Proces** sledi potek dela **Spanje**.
+5. <span data-ttu-id="9bac1-116">Izberite **ProcessRunCaller** in nato **Dodaj**.</span><span class="sxs-lookup"><span data-stu-id="9bac1-116">Select **ProcessRunCaller** , and then select **Add**.</span></span>
+6. <span data-ttu-id="9bac1-117">V naslednjem pogovornem oknu izberite **V redu**.</span><span class="sxs-lookup"><span data-stu-id="9bac1-117">In the next dialog box, select **OK**.</span></span> <span data-ttu-id="9bac1-118">Poteku dela **Spanje** sledi potek dela **Proces**.</span><span class="sxs-lookup"><span data-stu-id="9bac1-118">A **Sleep** workflow is followed by a **Process** workflow.</span></span>
 
-Poteka dela **ProcessRunCaller** in **ProcessRunner** ustvarita račune. **ProcessRunCaller** prikliče **ProcessRunner**. **ProcessRunner** je potek dela, ki dejansko ustvari račune. Gre skozi vse vrstice pogodbe, za katere je treba ustvariti račune, in ustvari račune za te vrstice. Opravilo preveri datume izdaje računa za vrstice pogodbe, da ugotovi, za katere vrstice pogodbe je treba ustvariti račune. Če imajo vrstice pogodbe, ki pripadajo eni pogodbi, enak datum izdaje računa, se transakcije združijo v en račun, ki ima dve vrstici računa. Če ni transakcij, za katere bi se lahko ustvarili računi, opravilo preskoči ustvarjanje računa.
+  > [!NOTE]
+  > <span data-ttu-id="9bac1-119">V 5. koraku lahko izberete tudi **ProcessRunner**.</span><span class="sxs-lookup"><span data-stu-id="9bac1-119">You can also select **ProcessRunner** in step 5.</span></span> <span data-ttu-id="9bac1-120">Ko nato izberete **V redu** , poteku dela **Proces** sledi potek dela **Spanje**.</span><span class="sxs-lookup"><span data-stu-id="9bac1-120">Then, when you select **OK** , a **Process** workflow is followed by a **Sleep** workflow.</span></span>
 
-Ko se potek dela **processrunner** preneha izvajati, prikliče potek dela **ProcessRunCaller**, navede končni čas in se zapre. **ProcessRunCaller** nato zažene časovnik, ki se izvaja 24 ur od navedenega končnega časa. Ko se časovnik preneha izvajati, se **ProcessRunCaller** zapre.
+<span data-ttu-id="9bac1-121">Poteka dela **ProcessRunCaller** in **ProcessRunner** ustvarita račune.</span><span class="sxs-lookup"><span data-stu-id="9bac1-121">The **ProcessRunCaller** and **ProcessRunner** workflows create invoices.</span></span> <span data-ttu-id="9bac1-122">**ProcessRunCaller** prikliče **ProcessRunner**.</span><span class="sxs-lookup"><span data-stu-id="9bac1-122">**ProcessRunCaller** calls **ProcessRunner**.</span></span> <span data-ttu-id="9bac1-123">**ProcessRunner** je potek dela, ki dejansko ustvari račune.</span><span class="sxs-lookup"><span data-stu-id="9bac1-123">**ProcessRunner** is the workflow that actually creates the invoices.</span></span> <span data-ttu-id="9bac1-124">Gre skozi vse vrstice pogodbe, za katere je treba ustvariti račune, in ustvari račune za te vrstice.</span><span class="sxs-lookup"><span data-stu-id="9bac1-124">It goes through all the contract lines that invoices must be created for, and it creates invoices for those lines.</span></span> <span data-ttu-id="9bac1-125">Opravilo preveri datume izdaje računa za vrstice pogodbe, da ugotovi, za katere vrstice pogodbe je treba ustvariti račune.</span><span class="sxs-lookup"><span data-stu-id="9bac1-125">To determine the contract lines that invoices must be created for, the job looks at invoice run dates for the contract lines.</span></span> <span data-ttu-id="9bac1-126">Če imajo vrstice pogodbe, ki pripadajo eni pogodbi, enak datum izdaje računa, se transakcije združijo v en račun, ki ima dve vrstici računa.</span><span class="sxs-lookup"><span data-stu-id="9bac1-126">If contract lines that belong to one contract have the same invoice run date, the transactions are combined into one invoice that has two invoice lines.</span></span> <span data-ttu-id="9bac1-127">Če ni transakcij, za katere bi se lahko ustvarili računi, opravilo preskoči ustvarjanje računa.</span><span class="sxs-lookup"><span data-stu-id="9bac1-127">If there are no transactions to create invoices for, the job skips invoice creation.</span></span>
 
-Paketna obdelava za ustvarjanje računov je ponavljajoče se opravilo. Če se paketna obdelava zažene večkrat, se ustvari več primerkov opravila in pride do napak. Zato paketno obdelavo zaženite samo enkrat in jo znova zaženite le, če se preneha izvajati.
+<span data-ttu-id="9bac1-128">Ko se potek dela **processrunner** preneha izvajati, prikliče potek dela **ProcessRunCaller** , navede končni čas in se zapre.</span><span class="sxs-lookup"><span data-stu-id="9bac1-128">After **ProcessRunner** has finished running, it calls **ProcessRunCaller** , provides the end time, and is closed.</span></span> <span data-ttu-id="9bac1-129">**ProcessRunCaller** nato zažene časovnik, ki se izvaja 24 ur od navedenega končnega časa.</span><span class="sxs-lookup"><span data-stu-id="9bac1-129">**ProcessRunCaller** then starts a timer that runs for 24 hours from the specified end time.</span></span> <span data-ttu-id="9bac1-130">Ko se časovnik preneha izvajati, se **ProcessRunCaller** zapre.</span><span class="sxs-lookup"><span data-stu-id="9bac1-130">At the end of the timer, **ProcessRunCaller** is closed.</span></span>
+
+<span data-ttu-id="9bac1-131">Paketna obdelava za ustvarjanje računov je ponavljajoče se opravilo.</span><span class="sxs-lookup"><span data-stu-id="9bac1-131">The batch process job for creating invoices is a recurrent job.</span></span> <span data-ttu-id="9bac1-132">Če se paketna obdelava zažene večkrat, se ustvari več primerkov opravila in pride do napak.</span><span class="sxs-lookup"><span data-stu-id="9bac1-132">If this batch process is run many times, multiple instances of the job are created and cause errors.</span></span> <span data-ttu-id="9bac1-133">Zato paketno obdelavo zaženite samo enkrat in jo znova zaženite le, če se preneha izvajati.</span><span class="sxs-lookup"><span data-stu-id="9bac1-133">Therefore, you should start the batch process only one time, and you should restart it only if it stops running.</span></span>
 
 > [!NOTE]
-> Paketno izdajanje računov se izvaja samo za podrobnosti pogodbe, ki so konfigurirane z razporedi izdajanja računov. V podrobnostih pogodbe z načinom obračunavanja s fiksno ceno morajo biti nastavljeni mejniki. V podrobnostih pogodbe z načinom obračunavanja za časovne in materialne transakcije je treba nastaviti datumski urnik računov. Enako velja v podrobnosti pogodbe za projekt.     
+> <span data-ttu-id="9bac1-134">Paketno izdajanje računov se izvaja samo za podrobnosti pogodbe, ki so konfigurirane z razporedi izdajanja računov.</span><span class="sxs-lookup"><span data-stu-id="9bac1-134">Batch invoicing only runs for project contract lines that are configured by invoice schedules.</span></span> <span data-ttu-id="9bac1-135">V podrobnostih pogodbe z načinom obračunavanja s fiksno ceno morajo biti nastavljeni mejniki.</span><span class="sxs-lookup"><span data-stu-id="9bac1-135">A contract line with a fixed price billing method must have milestones configured.</span></span> <span data-ttu-id="9bac1-136">V podrobnostih pogodbe z načinom obračunavanja za časovne in materialne transakcije je treba nastaviti datumski urnik računov.</span><span class="sxs-lookup"><span data-stu-id="9bac1-136">A project contract line with a time and material billing method will need a date-based invoice schedule set up.</span></span> <span data-ttu-id="9bac1-137">Enako velja v podrobnosti pogodbe za projekt.</span><span class="sxs-lookup"><span data-stu-id="9bac1-137">The same applies to a project-based contract line.</span></span>     

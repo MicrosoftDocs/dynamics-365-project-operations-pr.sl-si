@@ -1,0 +1,105 @@
+---
+title: Ustvarjanje naprednih pogodb za obračunavanje na podlagi napredka
+description: Ta tema razlaga, kako ustvariti projektne pogodbe, da boste lahko ustvarili račune za stranke na podlagi odstotka opravljenega dela.
+author: RadhikaRS
+manager: AnnBe
+ms.date: 03/26/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: andchoi
+ms.dyn365.ops.version: 7
+ms.search.validFrom: 2019-01-15
+ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: sl-SI
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084885"
+---
+# <a name="create-advanced-contracts-for-billing-based-on-progress"></a><span data-ttu-id="a7169-103">Ustvarjanje naprednih pogodb za obračunavanje na podlagi napredka</span><span class="sxs-lookup"><span data-stu-id="a7169-103">Create advanced contracts for billing based on progress</span></span>
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="a7169-104">Ta tema razlaga, kako ustvariti projektne pogodbe, da boste lahko ustvarili račune za stranke na podlagi odstotka opravljenega dela.</span><span class="sxs-lookup"><span data-stu-id="a7169-104">This topic explains how to create project contracts so that you can create invoices for customers, based on a percentage of completed work.</span></span> <span data-ttu-id="a7169-105">Zneski računov se samodejno izračunajo za proračunske kategorije dela, ki ste jih nastavili za projekt.</span><span class="sxs-lookup"><span data-stu-id="a7169-105">Invoice amounts are automatically calculated for the budget categories of work that you set up for a project.</span></span> <span data-ttu-id="a7169-106">Čas računa je nastavljen, ko se s stranko dogovorite za projektno pogodbo.</span><span class="sxs-lookup"><span data-stu-id="a7169-106">The invoice timing is set when you negotiate the project contract with the customer.</span></span>
+
+<span data-ttu-id="a7169-107">S postopki v tej temi nastavite pogodbo, z njo povezani projekt in obračunska pravila, ki izračunajo zneske računov za proračunske kategorije del, ki ste jih nastavili za projekt.</span><span class="sxs-lookup"><span data-stu-id="a7169-107">Use the procedures in this topic to set up a contract, an associated project, and the billing rules that calculate invoice amounts for the budget categories of work that you set up for the project.</span></span>
+
+<span data-ttu-id="a7169-108">Ko ustvarite pogodbo in projekt, lahko nastavite podrobnosti o projektu.</span><span class="sxs-lookup"><span data-stu-id="a7169-108">After you've created the contract and the project, you can set up the details of the project.</span></span> <span data-ttu-id="a7169-109">Na primer, določite lahko dejavnosti in projektu dodelite delavce.</span><span class="sxs-lookup"><span data-stu-id="a7169-109">For example, you can define activities and assign workers to the project.</span></span>
+
+## <a name="example"></a><span data-ttu-id="a7169-110">Primer</span><span class="sxs-lookup"><span data-stu-id="a7169-110">Example</span></span>
+
+<span data-ttu-id="a7169-111">Vaša organizacija je podjetje za razvoj programske opreme.</span><span class="sxs-lookup"><span data-stu-id="a7169-111">Your organization is a software development firm.</span></span> <span data-ttu-id="a7169-112">Strinjate se, da boste za stranko razvili paket za obračun plač za skupno plačilo v višini 20.000 ameriških dolarjev.</span><span class="sxs-lookup"><span data-stu-id="a7169-112">You agree to develop a payroll accounting package for a customer for a total fee of 20,000 US dollars (USD).</span></span> <span data-ttu-id="a7169-113">Vaša organizacija se strinja, da bo stranki izdala račune, ko boste izpolnili določene odstotke projekta.</span><span class="sxs-lookup"><span data-stu-id="a7169-113">Your organization agrees to invoice the customer as you complete specific percentages of the project.</span></span> <span data-ttu-id="a7169-114">Za delo nastavite naslednje projektne kategorije, da jih lahko uporabite v postopku obračunavanja:</span><span class="sxs-lookup"><span data-stu-id="a7169-114">You set up the following project categories for the work, so that you can use them in the billing process:</span></span>
+
+- <span data-ttu-id="a7169-115">Svetovanje</span><span class="sxs-lookup"><span data-stu-id="a7169-115">Consulting</span></span>
+- <span data-ttu-id="a7169-116">Oblikovanje</span><span class="sxs-lookup"><span data-stu-id="a7169-116">Design</span></span>
+- <span data-ttu-id="a7169-117">Namestitev</span><span class="sxs-lookup"><span data-stu-id="a7169-117">Installation</span></span>
+
+<span data-ttu-id="a7169-118">Nastavite tudi obračunska pravila, ki samodejno izračunajo zneske računov za delež opravljenega projektnega dela za posamezno kategorijo.</span><span class="sxs-lookup"><span data-stu-id="a7169-118">You also set up billing rules that automatically calculate the invoice amounts for the percentage of project work that is completed in each category.</span></span>
+
+<span data-ttu-id="a7169-119">Upravitelj proračuna izdela proračun za kategorije projekta.</span><span class="sxs-lookup"><span data-stu-id="a7169-119">The budget manager creates a budget for the project categories.</span></span> <span data-ttu-id="a7169-120">Količina opravljenega dela se samodejno izračuna kot odstotek dejanskega dela v primerjavi s predvidenimi zneski.</span><span class="sxs-lookup"><span data-stu-id="a7169-120">The amount of completed work is automatically calculated as a percentage of actual work in comparison to the budgeted amounts.</span></span>
+
+## <a name="prerequisites"></a><span data-ttu-id="a7169-121">Zahteve</span><span class="sxs-lookup"><span data-stu-id="a7169-121">Prerequisites</span></span>
+
+<span data-ttu-id="a7169-122">Preden ustvarite projekt, ki uporablja obračunska pravila, morate nastaviti zaporedja števil za obračunska pravila in dnevnik dajatev, ki se uporablja za knjiženje obračuna napredka.</span><span class="sxs-lookup"><span data-stu-id="a7169-122">Before you create a project that uses billing rules, you must set up the number sequences for billing rules and a fee journal that is used to post progress billings.</span></span>
+
+1. <span data-ttu-id="a7169-123">Odprite **Vodenje projektov in računovodstvo** \> **Nastavitev** \> **Vodenje projekta in računovodski parametri**.</span><span class="sxs-lookup"><span data-stu-id="a7169-123">Go to **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.</span></span>
+2. <span data-ttu-id="a7169-124">Na strani **Vodenje projekta in računovodski parametri** na zavihku **Zaporedja števil** nastavite zaporedje števil, ki ga želite uporabiti pri ustvarjanju obračunskih pravil.</span><span class="sxs-lookup"><span data-stu-id="a7169-124">On the **Project management and accounting parameters** page, on the **Number sequences** tab, set up the number sequence that you want to use when billing rules are created.</span></span>
+3. <span data-ttu-id="a7169-125">Odprite **Vodenje projektov in računovodstvo** \> **Dnevniki** \> **Dajatev**.</span><span class="sxs-lookup"><span data-stu-id="a7169-125">Go to **Project management and accounting** \> **Journals** \> **Fee**.</span></span>
+4. <span data-ttu-id="a7169-126">Na strani **Dnevnik dajatev** izberite **Novo** in vnesite ime dnevnika.</span><span class="sxs-lookup"><span data-stu-id="a7169-126">On the **Fee journal** page, select **New** , and enter the journal name.</span></span>
+
+## <a name="create-a-contract-for-progress-billings"></a><span data-ttu-id="a7169-127">Ustvarjanje pogodbe za obračun napredka</span><span class="sxs-lookup"><span data-stu-id="a7169-127">Create a contract for progress billings</span></span>
+
+<span data-ttu-id="a7169-128">S tem postopkom ustvarite projektno pogodbo za projekt s fiksno ceno.</span><span class="sxs-lookup"><span data-stu-id="a7169-128">Use this procedure to create a project contract for a fixed-price project.</span></span> <span data-ttu-id="a7169-129">Račun za projekt ustvarite, ko je opravljen določen odstotek dela za projekt.</span><span class="sxs-lookup"><span data-stu-id="a7169-129">You create a project invoice when the work that is completed on the project reaches a specified percentage.</span></span>
+
+1. <span data-ttu-id="a7169-130">Odprite **Vodenje projektov in računovodstvo** \> **Projekti** \> **Projektne pogodbe**.</span><span class="sxs-lookup"><span data-stu-id="a7169-130">Go to **Project management and accounting** \> **Projects** \> **Project contracts**.</span></span>
+2. <span data-ttu-id="a7169-131">Na strani **Projektne pogodbe** izberite **Novo**.</span><span class="sxs-lookup"><span data-stu-id="a7169-131">On the **Project contracts** page, select **New**.</span></span>
+3. <span data-ttu-id="a7169-132">V pogovornem oknu **Nova projektna pogodba** nastavite naslednja polja:</span><span class="sxs-lookup"><span data-stu-id="a7169-132">In the **New project contract** dialog box, set the following fields:</span></span>
+
+    - <span data-ttu-id="a7169-133">**Ime**</span><span class="sxs-lookup"><span data-stu-id="a7169-133">**Name**</span></span>
+    - <span data-ttu-id="a7169-134">**Vrsta financiranja**</span><span class="sxs-lookup"><span data-stu-id="a7169-134">**Funding type**</span></span>
+    - <span data-ttu-id="a7169-135">**Vir financiranja**</span><span class="sxs-lookup"><span data-stu-id="a7169-135">**Funding source**</span></span>
+    - <span data-ttu-id="a7169-136">**Prodajna valuta** – ta valuta se privzeto uporablja za račune strank, ki so povezani s projektno pogodbo.</span><span class="sxs-lookup"><span data-stu-id="a7169-136">**Sales currency** – By default, this currency is used for customer invoices that are associated with the project contract.</span></span> <span data-ttu-id="a7169-137">Vendar lahko prodajno valuto spremenite za posamezen račun za stranko.</span><span class="sxs-lookup"><span data-stu-id="a7169-137">However, you can change the sales currency on a specific customer invoice.</span></span>
+
+4. <span data-ttu-id="a7169-138">Izberite **V redu**.</span><span class="sxs-lookup"><span data-stu-id="a7169-138">Select **OK**.</span></span> <span data-ttu-id="a7169-139">Podatki se kopirajo v glavo strani **Projektne pogodbe**.</span><span class="sxs-lookup"><span data-stu-id="a7169-139">The information is copied to the header of the **Project contracts** page.</span></span>
+5. <span data-ttu-id="a7169-140">Na strani **Projektne pogodbe** izpolnite ostale potrebne podatke za projekt.</span><span class="sxs-lookup"><span data-stu-id="a7169-140">On the **Project contracts** page, fill in the rest of the required information for the project.</span></span>
+
+## <a name="create-a-project-for-progress-billings"></a><span data-ttu-id="a7169-141">Ustvarjanje projekta za obračun napredka</span><span class="sxs-lookup"><span data-stu-id="a7169-141">Create a project for progress billings</span></span>
+
+<span data-ttu-id="a7169-142">Upoštevajte ta navodila, da ustvarite projekt in morebitne podprojekte, povezane s projektno pogodbo.</span><span class="sxs-lookup"><span data-stu-id="a7169-142">Follow these steps to create a project and any subprojects that are associated with a project contract.</span></span>
+
+1. <span data-ttu-id="a7169-143">Odprite **Vodenje projekta in računovodstvo** \> **Projekti** \> **Vsi projekti**.</span><span class="sxs-lookup"><span data-stu-id="a7169-143">Go to **Project management and accounting** \> **Projects** \> **All projects**.</span></span>
+2. <span data-ttu-id="a7169-144">Na strani **Vsi projekti** izberite **Novo**.</span><span class="sxs-lookup"><span data-stu-id="a7169-144">On the **All projects** page, select **New**.</span></span>
+3. <span data-ttu-id="a7169-145">V pogovornem oknu **Nov projekt** v polju **Vrsta projekta** izberite **Čas in material**.</span><span class="sxs-lookup"><span data-stu-id="a7169-145">In the **New project** dialog box, in the **Project type** field, select **Time and material**.</span></span>
+4. <span data-ttu-id="a7169-146">Izberite skupino projektov.</span><span class="sxs-lookup"><span data-stu-id="a7169-146">Select a project group.</span></span> <span data-ttu-id="a7169-147">Skupina projektov opredeli podatke o objavljanju za projekte, ki so dodeljeni skupini.</span><span class="sxs-lookup"><span data-stu-id="a7169-147">A project group defines the posting information for the projects that are assigned to the group.</span></span>
+5. <span data-ttu-id="a7169-148">Izberite **Ustvarjanje projekta**.</span><span class="sxs-lookup"><span data-stu-id="a7169-148">Select **Create project**.</span></span>
+6. <span data-ttu-id="a7169-149">Ko je projekt ustvarjen, nastavite stopnjo projekta na **V teku**.</span><span class="sxs-lookup"><span data-stu-id="a7169-149">After the project is created, set the project stage to **In process**.</span></span>
+
+## <a name="create-a-budget-for-a-project"></a><span data-ttu-id="a7169-150">Ustvarjanje proračuna za projekt</span><span class="sxs-lookup"><span data-stu-id="a7169-150">Create a budget for a project</span></span>
+
+<span data-ttu-id="a7169-151">Kategorije proračuna se uporabljajo za samodejni izračun zneskov računov za delež opravljenega dela za posamezno kategorijo.</span><span class="sxs-lookup"><span data-stu-id="a7169-151">Budget categories are used to automatically calculate the invoice amounts for the percentage of work that is completed for each category.</span></span> <span data-ttu-id="a7169-152">Upoštevajte ta navodila, da ustvarite kategorije proračuna za ocenjene stroške.</span><span class="sxs-lookup"><span data-stu-id="a7169-152">Follow these steps to create budget categories for the estimated costs.</span></span>
+
+1. <span data-ttu-id="a7169-153">Odprite **Vodenje projekta in računovodstvo** \> **Projekti** \> **Vsi projekti**.</span><span class="sxs-lookup"><span data-stu-id="a7169-153">Go to **Project management and accounting** \> **Projects** \> **All projects**.</span></span>
+2. <span data-ttu-id="a7169-154">Na strani **Vsi projekti** izberite in odprite želeni projekt.</span><span class="sxs-lookup"><span data-stu-id="a7169-154">On the **All projects** page, select and open the project that you want.</span></span>
+3. <span data-ttu-id="a7169-155">Na strani **Projekti** v podoknu za dejanja se pomaknite do zavihka **Načrt** in v skupini **Proračun** izberite **Proračun projekta**.</span><span class="sxs-lookup"><span data-stu-id="a7169-155">On the **Projects** page, on the Action Pane, on the **Plan** tab, in the **Budget** group, select **Project budget**.</span></span>
+4. <span data-ttu-id="a7169-156">Na strani **Proračun projekta** vnesite ocenjeni strošek za vsako kategorijo v projektu.</span><span class="sxs-lookup"><span data-stu-id="a7169-156">On the **Project budget** page, enter an estimated cost for each category in the project.</span></span>
+
+## <a name="create-billing-rules-for-progress-billings"></a><span data-ttu-id="a7169-157">Ustvarjanje obračunskih pravil za obračun napredka</span><span class="sxs-lookup"><span data-stu-id="a7169-157">Create billing rules for progress billings</span></span>
+
+1. <span data-ttu-id="a7169-158">Odprite **Vodenje projektov in računovodstvo** \> **Projekti** \> **Projektne pogodbe**.</span><span class="sxs-lookup"><span data-stu-id="a7169-158">Go to **Project management and accounting** \> **Projects** \> **Project contracts**.</span></span>
+2. <span data-ttu-id="a7169-159">Na strani **Projektne pogodbe** izberite in odprite projektno pogodbo.</span><span class="sxs-lookup"><span data-stu-id="a7169-159">On the **Project contracts** page, select and open a project contract.</span></span>
+3. <span data-ttu-id="a7169-160">Na strani projektne pogodbe na zavihku za hitri dostop **Obračunska pravila** izberite **Dodaj**.</span><span class="sxs-lookup"><span data-stu-id="a7169-160">On the project contract page, on the **Billing rules** FastTab, select **Add**.</span></span>
+4. <span data-ttu-id="a7169-161">Na strani **Obračunsko pravilo** v polju **Vrsta vrstice** izberite **Napredek**.</span><span class="sxs-lookup"><span data-stu-id="a7169-161">On the **Billing rule** page, in the **Line type** field, select **Progress**.</span></span>
+5. <span data-ttu-id="a7169-162">Na zavihku za hitri dostop **Podrobnosti vrstice obračunskega pravila** v polje **Vrednost pogodbe** vnesite skupno vrednost pogodbe.</span><span class="sxs-lookup"><span data-stu-id="a7169-162">On the **Billing rule line details** FastTab, in the **Contract value** field, enter the total value of the contract.</span></span>
+6. <span data-ttu-id="a7169-163">V polju **Kategorija** izberite kategorijo, v katero želite objaviti transakcijo dajatve.</span><span class="sxs-lookup"><span data-stu-id="a7169-163">In the **Category** field, select the category to post the fee transaction to.</span></span>
+7. <span data-ttu-id="a7169-164">V polju **Projekt** izberite projekt, ki uporablja to obračunsko pravilo.</span><span class="sxs-lookup"><span data-stu-id="a7169-164">In the **Project** field, select the project that uses this billing rule.</span></span>
+8. <span data-ttu-id="a7169-165">Izbirno: obračunsko pravilo dodelite dodatnim projektom.</span><span class="sxs-lookup"><span data-stu-id="a7169-165">Optional: Assign the billing rule to additional projects.</span></span> <span data-ttu-id="a7169-166">Na zavihku za hitri dostop **Projekt** v razdelku **Razpoložljivi projekti** izberite projekt in nato izberite puščico desno, da dodate projekt v razdelek **Izbrani projekti**.</span><span class="sxs-lookup"><span data-stu-id="a7169-166">On the **Project** FastTab, in the **Available projects** section, select a project, and then select the right arrow button to add the project to the **Selected projects** section.</span></span>
+9. <span data-ttu-id="a7169-167">Izbirno: izračunajte odstotno vrednost, ki jo kupec zadrži pri plačilih za račun.</span><span class="sxs-lookup"><span data-stu-id="a7169-167">Optional: Calculate the percentage amount that the customer withholds from payments on an invoice.</span></span> <span data-ttu-id="a7169-168">Na zavihku za hitri dostop **Pogoji zadržanja plačila** izberite vir financiranja in nato v polju **Odstotek zadrževanja** vnesite odstotek zadrževanja.</span><span class="sxs-lookup"><span data-stu-id="a7169-168">On the **Payment retention terms** FastTab, select the funding source, and then, in the **Retention percentage** field, enter the retention percentage.</span></span>
+10. <span data-ttu-id="a7169-169">Ponovite te korake, da ustvarite dodatna obračunska pravila za projektno pogodbo.</span><span class="sxs-lookup"><span data-stu-id="a7169-169">Repeat these steps to create additional billing rules for the project contract.</span></span>

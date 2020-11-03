@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,224 +15,224 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897066"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084758"
 ---
-# <a name="expense-using-mobile"></a>Obravnavanje stroškov z mobilno napravo
+# <a name="expense-using-mobile"></a><span data-ttu-id="77b95-103">Obravnavanje stroškov z mobilno napravo</span><span class="sxs-lookup"><span data-stu-id="77b95-103">Expense using mobile</span></span>
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+<span data-ttu-id="77b95-104">_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_</span><span class="sxs-lookup"><span data-stu-id="77b95-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Ta tema vsebuje informacije o mobilnem delovnem prostoru **Upravljanje stroškov**. Ta delovni prostor omogoča uporabnikom, da zajamejo in naložijo potrdilo, da ga lahko pozneje priložijo poročilu o stroških. Uporabniki lahko tudi hitro ustvarijo vrstico stroškov z uporabo priloženega potrdila ter ustvarijo in upravljajo svoja poročila o stroških. Poleg tega lahko odobritelji uporabljajo mobilni delovni prostor **Upravljanje stroškov**, da si ogledajo poročila o stroških, ki so jim dodeljena, in jih odobrijo ali zavrnejo.
+<span data-ttu-id="77b95-105">Ta tema vsebuje informacije o mobilnem delovnem prostoru **Upravljanje stroškov**.</span><span class="sxs-lookup"><span data-stu-id="77b95-105">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="77b95-106">Ta delovni prostor omogoča uporabnikom, da zajamejo in naložijo potrdilo, da ga lahko pozneje priložijo poročilu o stroških.</span><span class="sxs-lookup"><span data-stu-id="77b95-106">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="77b95-107">Uporabniki lahko tudi hitro ustvarijo vrstico stroškov z uporabo priloženega potrdila ter ustvarijo in upravljajo svoja poročila o stroških.</span><span class="sxs-lookup"><span data-stu-id="77b95-107">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="77b95-108">Poleg tega lahko odobritelji uporabljajo mobilni delovni prostor **Upravljanje stroškov** , da si ogledajo poročila o stroških, ki so jim dodeljena, in jih odobrijo ali zavrnejo.</span><span class="sxs-lookup"><span data-stu-id="77b95-108">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
-Ta mobilni delovni prostor je namenjen uporabi z mobilno aplikacijo Dynamics 365 Unified Ops.
+<span data-ttu-id="77b95-109">Ta mobilni delovni prostor je namenjen uporabi z mobilno aplikacijo Dynamics 365 Unified Ops.</span><span class="sxs-lookup"><span data-stu-id="77b95-109">This mobile workspace is intended to be used with the Dynamics 365 Unified Ops mobile app.</span></span>
 
-Številne organizacije zahtevajo, da se kopija potrdila priloži poročilu o stroških, povezanih s potovanjem ali poslovanjem, ki ga zaposleni predloži v povračilo. Mobilni delovni prostor **Upravljanje stroškov** uporabnikom omogoča hitro ustvarjanje novih vrstic stroškov na mobilni napravi po lastni izbiri z uporabo priložene fotografije potrdila. Druga možnost je, da uporabniki fotografijo potrdila zajamejo in nato pozneje priložijo poročilu o stroških. Zaposleni lahko tudi ustvarijo in upravljajo svoja poročila o stroških ter jih nato z uporabo mobilne naprave predložijo v odobritev in povračilo.
+<span data-ttu-id="77b95-110">Številne organizacije zahtevajo, da se kopija potrdila priloži poročilu o stroških, povezanih s potovanjem ali poslovanjem, ki ga zaposleni predloži v povračilo.</span><span class="sxs-lookup"><span data-stu-id="77b95-110">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="77b95-111">Mobilni delovni prostor **Upravljanje stroškov** uporabnikom omogoča hitro ustvarjanje novih vrstic stroškov na mobilni napravi po lastni izbiri z uporabo priložene fotografije potrdila.</span><span class="sxs-lookup"><span data-stu-id="77b95-111">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="77b95-112">Druga možnost je, da uporabniki fotografijo potrdila zajamejo in nato pozneje priložijo poročilu o stroških.</span><span class="sxs-lookup"><span data-stu-id="77b95-112">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="77b95-113">Zaposleni lahko tudi ustvarijo in upravljajo svoja poročila o stroških ter jih nato z uporabo mobilne naprave predložijo v odobritev in povračilo.</span><span class="sxs-lookup"><span data-stu-id="77b95-113">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
-Natančneje, mobilni delovni prostor **Upravljanje stroškov** uporabnikom omogoča izvajanje teh opravil:
+<span data-ttu-id="77b95-114">Natančneje, mobilni delovni prostor **Upravljanje stroškov** uporabnikom omogoča izvajanje teh opravil:</span><span class="sxs-lookup"><span data-stu-id="77b95-114">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- Snemanje fotografije potrdila. Nalaganje fotografije potrdila in pozneje priložitev k poročilu o stroških.
-- Nalaganje datoteke kot zajeto potrdilo. Nato lahko to datoteko pozneje priložite k poročilu o stroških.
-- Ustvarjanje nove vrstice stroška z uporabo priloženega potrdila. Nato lahko postavko vrstice pozneje dodate v poročilo o stroških ter ga predložite v odobritev in povračilo.
+- <span data-ttu-id="77b95-115">Snemanje fotografije potrdila.</span><span class="sxs-lookup"><span data-stu-id="77b95-115">Take a photo of a receipt.</span></span> <span data-ttu-id="77b95-116">Nalaganje fotografije potrdila in pozneje priložitev k poročilu o stroških.</span><span class="sxs-lookup"><span data-stu-id="77b95-116">Upload the receipt photo and attach it to an expense report later.</span></span>
+- <span data-ttu-id="77b95-117">Nalaganje datoteke kot zajeto potrdilo.</span><span class="sxs-lookup"><span data-stu-id="77b95-117">Upload a file as a captured receipt.</span></span> <span data-ttu-id="77b95-118">Nato lahko to datoteko pozneje priložite k poročilu o stroških.</span><span class="sxs-lookup"><span data-stu-id="77b95-118">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="77b95-119">Ustvarjanje nove vrstice stroška z uporabo priloženega potrdila.</span><span class="sxs-lookup"><span data-stu-id="77b95-119">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="77b95-120">Nato lahko postavko vrstice pozneje dodate v poročilo o stroških ter ga predložite v odobritev in povračilo.</span><span class="sxs-lookup"><span data-stu-id="77b95-120">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-Uporabite lahko tudi te funkcije:
+<span data-ttu-id="77b95-121">Uporabite lahko tudi te funkcije:</span><span class="sxs-lookup"><span data-stu-id="77b95-121">You can also use these features:</span></span>
 
-- Ustvarjanje novega poročila o stroških.
-- Prilaganje transakcij kreditne kartice in drugih prej ustvarjenih stroškov v poročilo o stroških.
-- Ustvarjanje novih stroškov za poročilo o stroških.
-- Prilaganje potrdila kateremu koli strošku za poročilo o stroških, bodisi s fotografiranjem potrdila ali nalaganjem datoteke kot zajeto potrdilo.
-- Odvisno od politike podjetja glede stroškov dodajte seznam gostov strošku.
-- Odvisno od politike podjetja glede stroškov razčlenite stroške.
-- Predložite poročilo o stroških v odobritev in povračilo.
-- Odobrite ali zavrnite poročila o stroških, za katere ste dodeljeni odobritelj.
+- <span data-ttu-id="77b95-122">Ustvarjanje novega poročila o stroških.</span><span class="sxs-lookup"><span data-stu-id="77b95-122">Create a new expense report.</span></span>
+- <span data-ttu-id="77b95-123">Prilaganje transakcij kreditne kartice in drugih prej ustvarjenih stroškov v poročilo o stroških.</span><span class="sxs-lookup"><span data-stu-id="77b95-123">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="77b95-124">Ustvarjanje novih stroškov za poročilo o stroških.</span><span class="sxs-lookup"><span data-stu-id="77b95-124">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="77b95-125">Prilaganje potrdila kateremu koli strošku za poročilo o stroških, bodisi s fotografiranjem potrdila ali nalaganjem datoteke kot zajeto potrdilo.</span><span class="sxs-lookup"><span data-stu-id="77b95-125">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="77b95-126">Odvisno od politike podjetja glede stroškov dodajte seznam gostov strošku.</span><span class="sxs-lookup"><span data-stu-id="77b95-126">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="77b95-127">Odvisno od politike podjetja glede stroškov razčlenite stroške.</span><span class="sxs-lookup"><span data-stu-id="77b95-127">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="77b95-128">Predložite poročilo o stroških v odobritev in povračilo.</span><span class="sxs-lookup"><span data-stu-id="77b95-128">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="77b95-129">Odobrite ali zavrnite poročila o stroških, za katere ste dodeljeni odobritelj.</span><span class="sxs-lookup"><span data-stu-id="77b95-129">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>Zahteve
-Predpogoji se razlikujejo glede na različico, ki je uvedena za organizacijo.
+## <a name="prerequisites"></a><span data-ttu-id="77b95-130">Zahteve</span><span class="sxs-lookup"><span data-stu-id="77b95-130">Prerequisites</span></span>
+<span data-ttu-id="77b95-131">Predpogoji se razlikujejo glede na različico, ki je uvedena za organizacijo.</span><span class="sxs-lookup"><span data-stu-id="77b95-131">The prerequisites vary, based on the version that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Predpogoji, če uporabljate Dynamics 365 Finance 
-Če je bila za vašo organizacijo uvedena rešitev Finance, mora skrbnik sistema objaviti mobilni delovni prostor **Upravljanje stroškov**. 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a><span data-ttu-id="77b95-132">Predpogoji, če uporabljate Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="77b95-132">Prerequisites if you use Dynamics 365 Finance</span></span> 
+<span data-ttu-id="77b95-133">Če je bila za vašo organizacijo uvedena rešitev Finance, mora skrbnik sistema objaviti mobilni delovni prostor **Upravljanje stroškov**.</span><span class="sxs-lookup"><span data-stu-id="77b95-133">If Finance has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> 
 
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Predpogoji, če uporabljate različico 1611 s posodobitvijo platforme na 3 ali novejšo
-Če je bila za vašo organizacijo uvedena različica 1611 s posodobitvijo platforme na 3 ali novejšo, mora sistemski skrbnik izpolniti naslednje predpogoje. 
+### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="77b95-134">Predpogoji, če uporabljate različico 1611 s posodobitvijo platforme na 3 ali novejšo</span><span class="sxs-lookup"><span data-stu-id="77b95-134">Prerequisites if you use version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="77b95-135">Če je bila za vašo organizacijo uvedena različica 1611 s posodobitvijo platforme na 3 ali novejšo, mora sistemski skrbnik izpolniti naslednje predpogoje.</span><span class="sxs-lookup"><span data-stu-id="77b95-135">If version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Predpogoj</th>
-<th>Vloga</th>
-<th>Opis</th>
+<th><span data-ttu-id="77b95-136">Predpogoj</span><span class="sxs-lookup"><span data-stu-id="77b95-136">Prerequisite</span></span></th>
+<th><span data-ttu-id="77b95-137">Vloga</span><span class="sxs-lookup"><span data-stu-id="77b95-137">Role</span></span></th>
+<th><span data-ttu-id="77b95-138">Opis</span><span class="sxs-lookup"><span data-stu-id="77b95-138">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Uvedba hitrega popravka KB 4019015.</td>
-<td>Skrbnik sistema</td>
-<td>KB 4019015 je posodobitev X ++ ali hitri popravek za metapodatke, ki vsebuje mobilni delovni prostor za <strong>Upravljanje stroškov</strong>. Za uvedbo hitrega popravka KB 4019015 v sistem mora skrbnik sistema upoštevati naslednje korake.
+<td><span data-ttu-id="77b95-139">Uvedba hitrega popravka KB 4019015.</span><span class="sxs-lookup"><span data-stu-id="77b95-139">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="77b95-140">Skrbnik sistema</span><span class="sxs-lookup"><span data-stu-id="77b95-140">System administrator</span></span></td>
+<td><span data-ttu-id="77b95-141">KB 4019015 je posodobitev X ++ ali hitri popravek za metapodatke, ki vsebuje mobilni delovni prostor za <strong>Upravljanje stroškov</strong>.</span><span class="sxs-lookup"><span data-stu-id="77b95-141">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="77b95-142">Za uvedbo hitrega popravka KB 4019015 v sistem mora skrbnik sistema upoštevati naslednje korake.</span><span class="sxs-lookup"><span data-stu-id="77b95-142">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Prenos posodobitev s storitve Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Namestitev hitrega popravka za metapodatke</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Ustvarjanje paketa za uvajanje</a> z modeloma <strong>ApplicationSuite</strong> in <strong>ExpenseMobile</strong>, ki ga nato naložite na portal LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Uporaba paketa za uvajanje</a>.</li>
+<li><span data-ttu-id="77b95-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Prenos posodobitev s storitve Lifecycle Services</a>.</span><span class="sxs-lookup"><span data-stu-id="77b95-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Download updates from Lifecycle Services</a>.</span></span></li>
+<li><span data-ttu-id="77b95-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Namestitev hitrega popravka za metapodatke</a>.</span><span class="sxs-lookup"><span data-stu-id="77b95-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="77b95-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Ustvarjanje paketa za uvajanje</a> z modeloma <strong>ApplicationSuite</strong> in <strong>ExpenseMobile</strong>, ki ga nato naložite na portal LCS.</span><span class="sxs-lookup"><span data-stu-id="77b95-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="77b95-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Uporaba paketa za uvajanje</a>.</span><span class="sxs-lookup"><span data-stu-id="77b95-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Objava mobilnega delovnega prostora <strong>Upravljanje stroškov</strong>.</td>
-<td>Skrbnik sistema</td>
-<td>Glejte <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Objava mobilnega delovnega prostora</a>.</td>
+<td><span data-ttu-id="77b95-147">Objava mobilnega delovnega prostora <strong>Upravljanje stroškov</strong>.</span><span class="sxs-lookup"><span data-stu-id="77b95-147">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="77b95-148">Skrbnik sistema</span><span class="sxs-lookup"><span data-stu-id="77b95-148">System administrator</span></span></td>
+<td><span data-ttu-id="77b95-149">Glejte <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Objava mobilnega delovnega prostora</a>.</span><span class="sxs-lookup"><span data-stu-id="77b95-149">See <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops
-Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:
+## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a><span data-ttu-id="77b95-150">Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops</span><span class="sxs-lookup"><span data-stu-id="77b95-150">Download and install the Dynamics 365 Unified Ops mobile app</span></span>
+<span data-ttu-id="77b95-151">Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:</span><span class="sxs-lookup"><span data-stu-id="77b95-151">Download and install the Dynamics 365 Unified Ops mobile app:</span></span>
 
-- [Za telefone s sistemom Android](https://go.microsoft.com/fwlink/?linkid=850662)
-- [Za naprave iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="77b95-152">Za telefone s sistemom Android</span><span class="sxs-lookup"><span data-stu-id="77b95-152">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="77b95-153">Za naprave iPhone</span><span class="sxs-lookup"><span data-stu-id="77b95-153">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Prijavite se v mobilno aplikacijo
-1. Zaženite aplikacijo v mobilni napravi.
-2. Vnesite URL za Dynamics 365.
-4. Ko se prvič prijavite, boste pozvani k vnosu uporabniškega imena in gesla. Vnesite svoje poverilnice.
-5. Po prijavi se prikažejo razpoložljivi delovni prostori za vaše podjetje. Če skrbnik sistema pozneje objavi nov delovni prostor, boste morali osvežiti seznam mobilnih delovnih prostorov.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="77b95-154">Prijavite se v mobilno aplikacijo</span><span class="sxs-lookup"><span data-stu-id="77b95-154">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="77b95-155">Zaženite aplikacijo v mobilni napravi.</span><span class="sxs-lookup"><span data-stu-id="77b95-155">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="77b95-156">Vnesite URL za Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="77b95-156">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="77b95-157">Ko se prvič prijavite, boste pozvani k vnosu uporabniškega imena in gesla.</span><span class="sxs-lookup"><span data-stu-id="77b95-157">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="77b95-158">Vnesite svoje poverilnice.</span><span class="sxs-lookup"><span data-stu-id="77b95-158">Enter your credentials.</span></span>
+5. <span data-ttu-id="77b95-159">Po prijavi se prikažejo razpoložljivi delovni prostori za vaše podjetje.</span><span class="sxs-lookup"><span data-stu-id="77b95-159">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="77b95-160">Če skrbnik sistema pozneje objavi nov delovni prostor, boste morali osvežiti seznam mobilnih delovnih prostorov.</span><span class="sxs-lookup"><span data-stu-id="77b95-160">If your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Zajemite račun s pomočjo mobilnega delovnega prostora za upravljanje stroškov
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="77b95-161">Zajemite račun s pomočjo mobilnega delovnega prostora za upravljanje stroškov</span><span class="sxs-lookup"><span data-stu-id="77b95-161">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. V mobilni napravi odprite delovni prostor **Upravljanje stroškov**.
-2. Izberite **Zajem potrdila**.
-3. Izberite **Fotografiraj** ali **Izbira slike**.
-4. Sledite enemu od teh postopkov:
+1. <span data-ttu-id="77b95-162">V mobilni napravi odprite delovni prostor **Upravljanje stroškov**.</span><span class="sxs-lookup"><span data-stu-id="77b95-162">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="77b95-163">Izberite **Zajem potrdila**.</span><span class="sxs-lookup"><span data-stu-id="77b95-163">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="77b95-164">Izberite **Fotografiraj** ali **Izbira slike**.</span><span class="sxs-lookup"><span data-stu-id="77b95-164">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="77b95-165">Sledite enemu od teh postopkov:</span><span class="sxs-lookup"><span data-stu-id="77b95-165">Follow one of these steps:</span></span>
 
-   - Če ste izbrali **Fotografiraj**, sledite tem korakom:
+   - <span data-ttu-id="77b95-166">Če ste izbrali **Fotografiraj** , sledite tem korakom:</span><span class="sxs-lookup"><span data-stu-id="77b95-166">If you selected **Take photo** , follow these steps:</span></span>
 
-      1. Odprla se bo kamera v vaši mobilni napravi, da boste lahko fotografirali potrdilo. 
-      2. Ko končate s fotografiranjem, izberite **V redu**, da sprejmete fotografijo.
-      3. Izbirno: Vnesite ime fotografije in vnesite morebitne opombe.
+      1. <span data-ttu-id="77b95-167">Odprla se bo kamera v vaši mobilni napravi, da boste lahko fotografirali potrdilo.</span><span class="sxs-lookup"><span data-stu-id="77b95-167">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> 
+      2. <span data-ttu-id="77b95-168">Ko končate s fotografiranjem, izberite **V redu** , da sprejmete fotografijo.</span><span class="sxs-lookup"><span data-stu-id="77b95-168">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+      3. <span data-ttu-id="77b95-169">Izbirno: Vnesite ime fotografije in vnesite morebitne opombe.</span><span class="sxs-lookup"><span data-stu-id="77b95-169">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - Če ste izbrali **Izbira slike**, sledite tem korakom:
+    - <span data-ttu-id="77b95-170">Če ste izbrali **Izbira slike** , sledite tem korakom:</span><span class="sxs-lookup"><span data-stu-id="77b95-170">If you selected **Choose image** , follow these steps:</span></span>
 
-        1. Izberite sliko s seznama.
-        2. Izbirno: Vnesite ime slike in vnesite morebitne opombe.
+        1. <span data-ttu-id="77b95-171">Izberite sliko s seznama.</span><span class="sxs-lookup"><span data-stu-id="77b95-171">Select an image in the list.</span></span>
+        2. <span data-ttu-id="77b95-172">Izbirno: Vnesite ime slike in vnesite morebitne opombe.</span><span class="sxs-lookup"><span data-stu-id="77b95-172">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. Izberite **Dokončano**.
+5. <span data-ttu-id="77b95-173">Izberite **Dokončano**.</span><span class="sxs-lookup"><span data-stu-id="77b95-173">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Hitro vnesite strošek s pomočjo mobilnega delovnega prostora za upravljanje stroškov
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="77b95-174">Hitro vnesite strošek s pomočjo mobilnega delovnega prostora za upravljanje stroškov</span><span class="sxs-lookup"><span data-stu-id="77b95-174">Quickly enter expenses by using the Expense management mobile workspace</span></span>
 
-1. V mobilni napravi odprite delovni prostor **Upravljanje stroškov**.
-2. Izberite **Hiter vnos stroška**.
-3. Izberite kategorijo stroška. Videli boste seznam kategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Če vaše kategorije ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po kategoriji stroškov ali preklopite na iskanje po vrsti stroška.
-4. Vnesite datum transakcije stroška.
-5. Izbirno: Vpišite trgovca za strošek.
-6. Vnesite znesek stroška.
-7. Izberite valuto stroška. Videli boste seznam kod valut, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 400 valut, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Če vaše valute ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po valuti ali preklopite na iskanje po imenu.
-8. Izberite **Fotografiraj** ali **Izbira slike**.
-9. Sledite enemu od teh postopkov:
+1. <span data-ttu-id="77b95-175">V mobilni napravi odprite delovni prostor **Upravljanje stroškov**.</span><span class="sxs-lookup"><span data-stu-id="77b95-175">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="77b95-176">Izberite **Hiter vnos stroška**.</span><span class="sxs-lookup"><span data-stu-id="77b95-176">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="77b95-177">Izberite kategorijo stroška.</span><span class="sxs-lookup"><span data-stu-id="77b95-177">Select the expense category.</span></span> <span data-ttu-id="77b95-178">Videli boste seznam kategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave.</span><span class="sxs-lookup"><span data-stu-id="77b95-178">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="77b95-179">Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni.</span><span class="sxs-lookup"><span data-stu-id="77b95-179">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="77b95-180">Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="77b95-180">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="77b95-181">Če vaše kategorije ni na seznamu, izberite **Iskanje** , da izvedete spletno iskanje.</span><span class="sxs-lookup"><span data-stu-id="77b95-181">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="77b95-182">Iščite po kategoriji stroškov ali preklopite na iskanje po vrsti stroška.</span><span class="sxs-lookup"><span data-stu-id="77b95-182">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="77b95-183">Vnesite datum transakcije stroška.</span><span class="sxs-lookup"><span data-stu-id="77b95-183">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="77b95-184">Izbirno: Vpišite trgovca za strošek.</span><span class="sxs-lookup"><span data-stu-id="77b95-184">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="77b95-185">Vnesite znesek stroška.</span><span class="sxs-lookup"><span data-stu-id="77b95-185">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="77b95-186">Izberite valuto stroška.</span><span class="sxs-lookup"><span data-stu-id="77b95-186">Select the currency of the expense.</span></span> <span data-ttu-id="77b95-187">Videli boste seznam kod valut, ki so naložene v vašo aplikacijo za uporabo brez povezave.</span><span class="sxs-lookup"><span data-stu-id="77b95-187">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="77b95-188">Privzeto je naloženih 400 valut, vendar jih lahko razvijalec spremeni.</span><span class="sxs-lookup"><span data-stu-id="77b95-188">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="77b95-189">Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="77b95-189">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="77b95-190">Če vaše valute ni na seznamu, izberite **Iskanje** , da izvedete spletno iskanje.</span><span class="sxs-lookup"><span data-stu-id="77b95-190">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="77b95-191">Iščite po valuti ali preklopite na iskanje po imenu.</span><span class="sxs-lookup"><span data-stu-id="77b95-191">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="77b95-192">Izberite **Fotografiraj** ali **Izbira slike**.</span><span class="sxs-lookup"><span data-stu-id="77b95-192">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="77b95-193">Sledite enemu od teh postopkov:</span><span class="sxs-lookup"><span data-stu-id="77b95-193">Follow one of these steps:</span></span>
 
-    - Če ste izbrali **Fotografiraj**, se bo odprla kamera v vaši mobilni napravi, da boste lahko fotografirali potrdilo. Ko končate s fotografiranjem, izberite **V redu**, da sprejmete fotografijo.
-    - Če ste izbrali **Izbira slike**, izberite sliko na seznamu.
+    - <span data-ttu-id="77b95-194">Če ste izbrali **Fotografiraj** , se bo odprla kamera v vaši mobilni napravi, da boste lahko fotografirali potrdilo.</span><span class="sxs-lookup"><span data-stu-id="77b95-194">If you selected **Take photo** , you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="77b95-195">Ko končate s fotografiranjem, izberite **V redu** , da sprejmete fotografijo.</span><span class="sxs-lookup"><span data-stu-id="77b95-195">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="77b95-196">Če ste izbrali **Izbira slike** , izberite sliko na seznamu.</span><span class="sxs-lookup"><span data-stu-id="77b95-196">If you selected **Choose image** , select an image in the list.</span></span>
 
-10. Izberite **Dokončano**.
+10. <span data-ttu-id="77b95-197">Izberite **Dokončano**.</span><span class="sxs-lookup"><span data-stu-id="77b95-197">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Odobrite poročilo o stroških z uporabo mobilnega delovnega prostora za upravljanje stroškov (če uporabljate posodobitev iz julija 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="77b95-198">Odobrite poročilo o stroških z uporabo mobilnega delovnega prostora za upravljanje stroškov (če uporabljate posodobitev iz julija 2017)</span><span class="sxs-lookup"><span data-stu-id="77b95-198">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. V mobilni napravi odprite delovni prostor **Upravljanje stroškov**.
-2. **Odobritve stroškov** prikazuje število poročil o stroških, ki so vam dodeljena v odobritev. Številka se posodobi približno vsakih 30 minut. Izberite **Odobritve stroškov**.
+1. <span data-ttu-id="77b95-199">V mobilni napravi odprite delovni prostor **Upravljanje stroškov**.</span><span class="sxs-lookup"><span data-stu-id="77b95-199">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="77b95-200">**Odobritve stroškov** prikazuje število poročil o stroških, ki so vam dodeljena v odobritev.</span><span class="sxs-lookup"><span data-stu-id="77b95-200">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="77b95-201">Številka se posodobi približno vsakih 30 minut.</span><span class="sxs-lookup"><span data-stu-id="77b95-201">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="77b95-202">Izberite **Odobritve stroškov**.</span><span class="sxs-lookup"><span data-stu-id="77b95-202">Select **Expense approvals**.</span></span>
 
-    Prikazan je seznam poročil o stroških, ki so vam dodeljena v odobritev.
+    <span data-ttu-id="77b95-203">Prikazan je seznam poročil o stroških, ki so vam dodeljena v odobritev.</span><span class="sxs-lookup"><span data-stu-id="77b95-203">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. Izberite poročilo o stroških, da si zanj ogledate podrobnosti o stroških.
-4. Izberite strošek, da si zanj ogledate podrobnosti. Informacije, ki so prikazane za strošek, vključujejo podrobnosti o potrdilu, gostu in razčlenitvi.
-5. Nazaj na strani **Poročilo o stroških** izberite odobritev ali zavrnitev poročila o stroških.
-6. Vnesite morebitne opombe za dejanje odobritve.
-7. Izberite **Dokončano**.
+3. <span data-ttu-id="77b95-204">Izberite poročilo o stroških, da si zanj ogledate podrobnosti o stroških.</span><span class="sxs-lookup"><span data-stu-id="77b95-204">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="77b95-205">Izberite strošek, da si zanj ogledate podrobnosti.</span><span class="sxs-lookup"><span data-stu-id="77b95-205">Select an expense to view the details for it.</span></span> <span data-ttu-id="77b95-206">Informacije, ki so prikazane za strošek, vključujejo podrobnosti o potrdilu, gostu in razčlenitvi.</span><span class="sxs-lookup"><span data-stu-id="77b95-206">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="77b95-207">Nazaj na strani **Poročilo o stroških** izberite odobritev ali zavrnitev poročila o stroških.</span><span class="sxs-lookup"><span data-stu-id="77b95-207">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="77b95-208">Vnesite morebitne opombe za dejanje odobritve.</span><span class="sxs-lookup"><span data-stu-id="77b95-208">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="77b95-209">Izberite **Dokončano**.</span><span class="sxs-lookup"><span data-stu-id="77b95-209">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Ustvarite novo poročilo o stroških in ga predložite v odobritev z uporabo mobilnega delovnega prostora za upravljanje stroškov (če uporabljate posodobitev iz julija 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="77b95-210">Ustvarite novo poročilo o stroških in ga predložite v odobritev z uporabo mobilnega delovnega prostora za upravljanje stroškov (če uporabljate posodobitev iz julija 2017)</span><span class="sxs-lookup"><span data-stu-id="77b95-210">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. V mobilni napravi odprite delovni prostor **Upravljanje stroškov**.
-2. Izberite **Vnos stroška**.
-3. Izberite **Novo poročilo** ali izberite obstoječe poročilo o stroških na seznamu.
-4. Za nova poročila o stroških vnesite namen in morebitne dodatne informacije, ki so na voljo. Te informacije se razlikujejo, odvisno od načina, kako je za vaše podjetje konfigurirano upravljanje stroškov.
-5. Izberite **Dokončano**.
-6. Če želite poročilu o stroških dodati obstoječe stroške, na primer transakcije s kreditnimi karticami, izberite **Priloži**.
-7. Na seznamu izberite enega ali več stroškov.
-8. Izberite **Dokončano**.
-9. Če želite poročilu o stroških dodati nove stroške, izberite **Nov strošek**.
-10. Izberite kategorijo za strošek. Videli boste seznam kategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Če vaše kategorije ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po kategoriji stroškov ali preklopite na iskanje po vrsti stroška.
-11. Izbirno: Vpišite trgovca za strošek.
-12. Vnesite datum transakcije stroška.
-13. Vnesite znesek stroška.
-14. Izberite valuto stroška. Videli boste seznam kod valut, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 400 valut, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Če vaše valute ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po valuti ali preklopite na iskanje po imenu.
-15. Izberite **Dokončano**.
-16. Če želite strošku dodati več podrobnosti, izberite **Dodaj več podrobnosti**. Polja, ki so na voljo, so odvisna od konfiguracije upravljanja stroškov za vaše podjetje.
-17. Če je s politiko podjetja zahtevano potrdilo za strošek, izberite **Potrdila**, nato pa sledite tem korakom:
+1. <span data-ttu-id="77b95-211">V mobilni napravi odprite delovni prostor **Upravljanje stroškov**.</span><span class="sxs-lookup"><span data-stu-id="77b95-211">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="77b95-212">Izberite **Vnos stroška**.</span><span class="sxs-lookup"><span data-stu-id="77b95-212">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="77b95-213">Izberite **Novo poročilo** ali izberite obstoječe poročilo o stroških na seznamu.</span><span class="sxs-lookup"><span data-stu-id="77b95-213">Select **New report** , or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="77b95-214">Za nova poročila o stroških vnesite namen in morebitne dodatne informacije, ki so na voljo.</span><span class="sxs-lookup"><span data-stu-id="77b95-214">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="77b95-215">Te informacije se razlikujejo, odvisno od načina, kako je za vaše podjetje konfigurirano upravljanje stroškov.</span><span class="sxs-lookup"><span data-stu-id="77b95-215">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="77b95-216">Izberite **Dokončano**.</span><span class="sxs-lookup"><span data-stu-id="77b95-216">Select **Done**.</span></span>
+6. <span data-ttu-id="77b95-217">Če želite poročilu o stroških dodati obstoječe stroške, na primer transakcije s kreditnimi karticami, izberite **Priloži**.</span><span class="sxs-lookup"><span data-stu-id="77b95-217">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="77b95-218">Na seznamu izberite enega ali več stroškov.</span><span class="sxs-lookup"><span data-stu-id="77b95-218">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="77b95-219">Izberite **Dokončano**.</span><span class="sxs-lookup"><span data-stu-id="77b95-219">Select **Done**.</span></span>
+9. <span data-ttu-id="77b95-220">Če želite poročilu o stroških dodati nove stroške, izberite **Nov strošek**.</span><span class="sxs-lookup"><span data-stu-id="77b95-220">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="77b95-221">Izberite kategorijo za strošek.</span><span class="sxs-lookup"><span data-stu-id="77b95-221">Select the category for the expense.</span></span> <span data-ttu-id="77b95-222">Videli boste seznam kategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave.</span><span class="sxs-lookup"><span data-stu-id="77b95-222">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="77b95-223">Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni.</span><span class="sxs-lookup"><span data-stu-id="77b95-223">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="77b95-224">Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="77b95-224">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="77b95-225">Če vaše kategorije ni na seznamu, izberite **Iskanje** , da izvedete spletno iskanje.</span><span class="sxs-lookup"><span data-stu-id="77b95-225">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="77b95-226">Iščite po kategoriji stroškov ali preklopite na iskanje po vrsti stroška.</span><span class="sxs-lookup"><span data-stu-id="77b95-226">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="77b95-227">Izbirno: Vpišite trgovca za strošek.</span><span class="sxs-lookup"><span data-stu-id="77b95-227">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="77b95-228">Vnesite datum transakcije stroška.</span><span class="sxs-lookup"><span data-stu-id="77b95-228">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="77b95-229">Vnesite znesek stroška.</span><span class="sxs-lookup"><span data-stu-id="77b95-229">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="77b95-230">Izberite valuto stroška.</span><span class="sxs-lookup"><span data-stu-id="77b95-230">Select the currency of the expense.</span></span> <span data-ttu-id="77b95-231">Videli boste seznam kod valut, ki so naložene v vašo aplikacijo za uporabo brez povezave.</span><span class="sxs-lookup"><span data-stu-id="77b95-231">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="77b95-232">Privzeto je naloženih 400 valut, vendar jih lahko razvijalec spremeni.</span><span class="sxs-lookup"><span data-stu-id="77b95-232">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="77b95-233">Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="77b95-233">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="77b95-234">Če vaše valute ni na seznamu, izberite **Iskanje** , da izvedete spletno iskanje.</span><span class="sxs-lookup"><span data-stu-id="77b95-234">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="77b95-235">Iščite po valuti ali preklopite na iskanje po imenu.</span><span class="sxs-lookup"><span data-stu-id="77b95-235">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="77b95-236">Izberite **Dokončano**.</span><span class="sxs-lookup"><span data-stu-id="77b95-236">Select **Done**.</span></span>
+16. <span data-ttu-id="77b95-237">Če želite strošku dodati več podrobnosti, izberite **Dodaj več podrobnosti**.</span><span class="sxs-lookup"><span data-stu-id="77b95-237">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="77b95-238">Polja, ki so na voljo, so odvisna od konfiguracije upravljanja stroškov za vaše podjetje.</span><span class="sxs-lookup"><span data-stu-id="77b95-238">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="77b95-239">Če je s politiko podjetja zahtevano potrdilo za strošek, izberite **Potrdila** , nato pa sledite tem korakom:</span><span class="sxs-lookup"><span data-stu-id="77b95-239">If company policy requires a receipt for the expense, select **Receipts** , and then follow these steps:</span></span>
 
-    1. Izberite **Zajemi potrdilo** ali **Priloži potrdilo**.
-    2. Sledite enemu od teh postopkov:
+    1. <span data-ttu-id="77b95-240">Izberite **Zajemi potrdilo** ali **Priloži potrdilo**.</span><span class="sxs-lookup"><span data-stu-id="77b95-240">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="77b95-241">Sledite enemu od teh postopkov:</span><span class="sxs-lookup"><span data-stu-id="77b95-241">Follow one of these steps:</span></span>
 
-        - Če ste izbrali **Zajemi potrdilo**, sledite tem korakom:
+        - <span data-ttu-id="77b95-242">Če ste izbrali **Zajemi potrdilo** , sledite tem korakom:</span><span class="sxs-lookup"><span data-stu-id="77b95-242">If you selected **Capture receipt** , follow these steps:</span></span>
 
-            1. Izberite **Fotografiraj** ali **Izbira slike**.
-            2. Sledite enemu od teh postopkov:
+            1. <span data-ttu-id="77b95-243">Izberite **Fotografiraj** ali **Izbira slike**.</span><span class="sxs-lookup"><span data-stu-id="77b95-243">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="77b95-244">Sledite enemu od teh postopkov:</span><span class="sxs-lookup"><span data-stu-id="77b95-244">Follow one of these steps:</span></span>
 
-                - Če ste izbrali **Fotografiraj**, sledite tem korakom:
+                - <span data-ttu-id="77b95-245">Če ste izbrali **Fotografiraj** , sledite tem korakom:</span><span class="sxs-lookup"><span data-stu-id="77b95-245">If you selected **Take photo** , follow these steps:</span></span>
 
-                    1. Odprla se bo kamera v vaši mobilni napravi, da boste lahko fotografirali potrdilo. Ko končate s fotografiranjem, izberite **V redu**, da sprejmete fotografijo.
-                    2. Izbirno: Vnesite ime fotografije in vnesite morebitne opombe.
+                    1. <span data-ttu-id="77b95-246">Odprla se bo kamera v vaši mobilni napravi, da boste lahko fotografirali potrdilo.</span><span class="sxs-lookup"><span data-stu-id="77b95-246">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="77b95-247">Ko končate s fotografiranjem, izberite **V redu** , da sprejmete fotografijo.</span><span class="sxs-lookup"><span data-stu-id="77b95-247">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="77b95-248">Izbirno: Vnesite ime fotografije in vnesite morebitne opombe.</span><span class="sxs-lookup"><span data-stu-id="77b95-248">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - Če ste izbrali **Izbira slike**, sledite tem korakom:
+                - <span data-ttu-id="77b95-249">Če ste izbrali **Izbira slike** , sledite tem korakom:</span><span class="sxs-lookup"><span data-stu-id="77b95-249">If you selected **Choose image** , follow these steps:</span></span>
 
-                    1. Izberite sliko s seznama.
-                    2. Izbirno: Vnesite ime slike in vnesite morebitne opombe.
+                    1. <span data-ttu-id="77b95-250">Izberite sliko s seznama.</span><span class="sxs-lookup"><span data-stu-id="77b95-250">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="77b95-251">Izbirno: Vnesite ime slike in vnesite morebitne opombe.</span><span class="sxs-lookup"><span data-stu-id="77b95-251">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  Izberite **Dokončano**.
+            3.  <span data-ttu-id="77b95-252">Izberite **Dokončano**.</span><span class="sxs-lookup"><span data-stu-id="77b95-252">Select **Done**.</span></span>
 
-        - Če ste izbrali **Priloži potrdilo**, sledite tem korakom:
+        - <span data-ttu-id="77b95-253">Če ste izbrali **Priloži potrdilo** , sledite tem korakom:</span><span class="sxs-lookup"><span data-stu-id="77b95-253">If you selected **Attach receipt** , follow these steps:</span></span>
 
-            1.  Izberite eno ali več slik na seznamu.
-            2.  Izberite **Dokončano**.
+            1.  <span data-ttu-id="77b95-254">Izberite eno ali več slik na seznamu.</span><span class="sxs-lookup"><span data-stu-id="77b95-254">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="77b95-255">Izberite **Dokončano**.</span><span class="sxs-lookup"><span data-stu-id="77b95-255">Select **Done**.</span></span>
 
-    3. Izberite gumb **Nazaj** za vrnitev na podrobnosti o stroških.
+    3. <span data-ttu-id="77b95-256">Izberite gumb **Nazaj** za vrnitev na podrobnosti o stroških.</span><span class="sxs-lookup"><span data-stu-id="77b95-256">Select the **Back** button to return to the expense details.</span></span>
 
-18. Če so s politiko podjetja zahtevani gosti za strošek, izberite **Gosti**, nato pa sledite tem korakom:
+18. <span data-ttu-id="77b95-257">Če so s politiko podjetja zahtevani gosti za strošek, izberite **Gosti** , nato pa sledite tem korakom:</span><span class="sxs-lookup"><span data-stu-id="77b95-257">If company policy requires guests for the expense, select **Guests** , and then follow these steps:</span></span>
 
-    1. Izberite **Gost**, **Prejšnji gostje** ali **Sodelavci**.
-    2. Sledite enemu od teh postopkov:
+    1. <span data-ttu-id="77b95-258">Izberite **Gost** , **Prejšnji gostje** ali **Sodelavci**.</span><span class="sxs-lookup"><span data-stu-id="77b95-258">Select **Guest** , **Previous guests** , or **Coworkers**.</span></span>
+    2. <span data-ttu-id="77b95-259">Sledite enemu od teh postopkov:</span><span class="sxs-lookup"><span data-stu-id="77b95-259">Follow one of these steps:</span></span>
 
-        - Če ste izbrali **Gost**, sledite tem korakom:
+        - <span data-ttu-id="77b95-260">Če ste izbrali **Gost** , sledite tem korakom:</span><span class="sxs-lookup"><span data-stu-id="77b95-260">If you selected **Guest** , follow these steps:</span></span>
 
-            1. Vnesite ime gosta.
-            2. Izbirno: vnesite organizacijo in/ali državo gosta.
-            3. Izbirno: vnesite naziv gosta.
-            4. Izberite **Dokončano**.
+            1. <span data-ttu-id="77b95-261">Vnesite ime gosta.</span><span class="sxs-lookup"><span data-stu-id="77b95-261">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="77b95-262">Izbirno: vnesite organizacijo in/ali državo gosta.</span><span class="sxs-lookup"><span data-stu-id="77b95-262">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="77b95-263">Izbirno: vnesite naziv gosta.</span><span class="sxs-lookup"><span data-stu-id="77b95-263">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="77b95-264">Izberite **Dokončano**.</span><span class="sxs-lookup"><span data-stu-id="77b95-264">Select **Done**.</span></span>
 
-        - Če ste izbrali **Prejšnji gostje**, sledite tem korakom:
+        - <span data-ttu-id="77b95-265">Če ste izbrali **Prejšnji gostje** , sledite tem korakom:</span><span class="sxs-lookup"><span data-stu-id="77b95-265">If you selected **Previous guests** , follow these steps:</span></span>
 
-            1. Na seznamu izberite enega ali več prejšnjih gostov. Prikaže se seznam prejšnjih gostov, ki ste jih dodali v prejšnja poročila o stroških, ki so naloženi v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Če vaš prejšnji gost ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po imenu ali preklopite na iskanje po organizaciji, državi ali nazivu.
-            2. Izberite **Dokončano**.
+            1. <span data-ttu-id="77b95-266">Na seznamu izberite enega ali več prejšnjih gostov.</span><span class="sxs-lookup"><span data-stu-id="77b95-266">Select one or more previous guests in the list.</span></span> <span data-ttu-id="77b95-267">Prikaže se seznam prejšnjih gostov, ki ste jih dodali v prejšnja poročila o stroških, ki so naloženi v vašo aplikacijo za uporabo brez povezave.</span><span class="sxs-lookup"><span data-stu-id="77b95-267">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="77b95-268">Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni.</span><span class="sxs-lookup"><span data-stu-id="77b95-268">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="77b95-269">Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="77b95-269">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="77b95-270">Če vaš prejšnji gost ni na seznamu, izberite **Iskanje** , da izvedete spletno iskanje.</span><span class="sxs-lookup"><span data-stu-id="77b95-270">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="77b95-271">Iščite po imenu ali preklopite na iskanje po organizaciji, državi ali nazivu.</span><span class="sxs-lookup"><span data-stu-id="77b95-271">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="77b95-272">Izberite **Dokončano**.</span><span class="sxs-lookup"><span data-stu-id="77b95-272">Select **Done**.</span></span>
 
-        - Če ste izbrali **Sodelavci**, sledite tem korakom:
+        - <span data-ttu-id="77b95-273">Če ste izbrali **Sodelavci** , sledite tem korakom:</span><span class="sxs-lookup"><span data-stu-id="77b95-273">If you selected **Coworkers** , follow these steps:</span></span>
 
-            1. Na seznamu izberite enega ali več sodelavcev. Videli boste seznam sodelavcev, ki so naloženi v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Če sodelavca ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po imenu ali preklopite na iskanje po podjetju ali nazivu.
-            2. Izberite **Dokončano**.
+            1. <span data-ttu-id="77b95-274">Na seznamu izberite enega ali več sodelavcev.</span><span class="sxs-lookup"><span data-stu-id="77b95-274">Select one or more coworkers in the list.</span></span> <span data-ttu-id="77b95-275">Videli boste seznam sodelavcev, ki so naloženi v vašo aplikacijo za uporabo brez povezave.</span><span class="sxs-lookup"><span data-stu-id="77b95-275">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="77b95-276">Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni.</span><span class="sxs-lookup"><span data-stu-id="77b95-276">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="77b95-277">Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="77b95-277">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="77b95-278">Če sodelavca ni na seznamu, izberite **Iskanje** , da izvedete spletno iskanje.</span><span class="sxs-lookup"><span data-stu-id="77b95-278">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="77b95-279">Iščite po imenu ali preklopite na iskanje po podjetju ali nazivu.</span><span class="sxs-lookup"><span data-stu-id="77b95-279">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="77b95-280">Izberite **Dokončano**.</span><span class="sxs-lookup"><span data-stu-id="77b95-280">Select **Done**.</span></span>
 
-    3. Izberite gumb **Nazaj** za vrnitev na podrobnosti o stroških.
+    3. <span data-ttu-id="77b95-281">Izberite gumb **Nazaj** za vrnitev na podrobnosti o stroških.</span><span class="sxs-lookup"><span data-stu-id="77b95-281">Select the **Back** button to return to the expense details.</span></span>
 
-19. Če je s politiko podjetja zahtevana razčlenitev stroška, izberite **Razčleni**, nato pa sledite tem korakom:
+19. <span data-ttu-id="77b95-282">Če je s politiko podjetja zahtevana razčlenitev stroška, izberite **Razčleni** , nato pa sledite tem korakom:</span><span class="sxs-lookup"><span data-stu-id="77b95-282">If company policy requires that the expense be itemized, select **Itemize** , and then follow these steps:</span></span>
 
-    1. Izberite prvi datum za razčlenitev.
-    2. Izberite **Dodaj razčlenitev**.
-    3. Izberite podkategorijo za razčlenitev stroška. Videli boste seznam podkategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Če vaše podkategorije ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iskanje po imenu podkategorije stroškov.
-    4. Vnesite znesek transakcije za razčlenitev.
-    5. Uredite datum transakcije, če je potrebno.
-    6. Izberite **Dokončano**.
-    7. Ponavljajte prejšnje korake, dokler ne dokončate dodajanja vseh razčlenitev za izbrani datum.
-    8. Za dodatne dni lahko izberete **Kopiraj na naslednji dan**, da kopirate razčlenitve na naslednji dan. Lahko pa izberete datum za razčlenitev in nato dodate razčlenitve, kot ste storili za prvi datum.
-    9. Ko končate z razčlenitvijo stroškov, izberite gumb **Nazaj** za vrnitev na podrobnosti o stroških.
+    1. <span data-ttu-id="77b95-283">Izberite prvi datum za razčlenitev.</span><span class="sxs-lookup"><span data-stu-id="77b95-283">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="77b95-284">Izberite **Dodaj razčlenitev**.</span><span class="sxs-lookup"><span data-stu-id="77b95-284">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="77b95-285">Izberite podkategorijo za razčlenitev stroška.</span><span class="sxs-lookup"><span data-stu-id="77b95-285">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="77b95-286">Videli boste seznam podkategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave.</span><span class="sxs-lookup"><span data-stu-id="77b95-286">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="77b95-287">Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni.</span><span class="sxs-lookup"><span data-stu-id="77b95-287">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="77b95-288">Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="77b95-288">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="77b95-289">Če vaše podkategorije ni na seznamu, izberite **Iskanje** , da izvedete spletno iskanje.</span><span class="sxs-lookup"><span data-stu-id="77b95-289">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="77b95-290">Iskanje po imenu podkategorije stroškov.</span><span class="sxs-lookup"><span data-stu-id="77b95-290">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="77b95-291">Vnesite znesek transakcije za razčlenitev.</span><span class="sxs-lookup"><span data-stu-id="77b95-291">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="77b95-292">Uredite datum transakcije, če je potrebno.</span><span class="sxs-lookup"><span data-stu-id="77b95-292">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="77b95-293">Izberite **Dokončano**.</span><span class="sxs-lookup"><span data-stu-id="77b95-293">Select **Done**.</span></span>
+    7. <span data-ttu-id="77b95-294">Ponavljajte prejšnje korake, dokler ne dokončate dodajanja vseh razčlenitev za izbrani datum.</span><span class="sxs-lookup"><span data-stu-id="77b95-294">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="77b95-295">Za dodatne dni lahko izberete **Kopiraj na naslednji dan** , da kopirate razčlenitve na naslednji dan.</span><span class="sxs-lookup"><span data-stu-id="77b95-295">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="77b95-296">Lahko pa izberete datum za razčlenitev in nato dodate razčlenitve, kot ste storili za prvi datum.</span><span class="sxs-lookup"><span data-stu-id="77b95-296">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="77b95-297">Ko končate z razčlenitvijo stroškov, izberite gumb **Nazaj** za vrnitev na podrobnosti o stroških.</span><span class="sxs-lookup"><span data-stu-id="77b95-297">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. Izberite gumb **Nazaj** za vrnitev na stran **Poročilo o stroških**.
-21. Ponavljajte prejšnje korake, dokler ne končate z dodajanjem vseh stroškov.
-22. Izberite **Pošlji**.
-23. Vnesite morebitne opombe za odobritelja.
-24. Izberite **Dokončano**.
+20. <span data-ttu-id="77b95-298">Izberite gumb **Nazaj** za vrnitev na stran **Poročilo o stroških**.</span><span class="sxs-lookup"><span data-stu-id="77b95-298">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="77b95-299">Ponavljajte prejšnje korake, dokler ne končate z dodajanjem vseh stroškov.</span><span class="sxs-lookup"><span data-stu-id="77b95-299">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="77b95-300">Izberite **Pošlji**.</span><span class="sxs-lookup"><span data-stu-id="77b95-300">Select **Submit**.</span></span>
+23. <span data-ttu-id="77b95-301">Vnesite morebitne opombe za odobritelja.</span><span class="sxs-lookup"><span data-stu-id="77b95-301">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="77b95-302">Izberite **Dokončano**.</span><span class="sxs-lookup"><span data-stu-id="77b95-302">Select **Done**.</span></span>

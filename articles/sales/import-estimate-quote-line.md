@@ -3,67 +3,67 @@ title: Uvoz ocene projekta v vrstico ponudbe, ki temelji na projektu
 description: Ta tema vsebuje informacije o tem, kako uvoziti ocene projekta v vrstico ponudbe.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75511f0d7ef1d2d1b3bf5cc598a8f51d0c553939
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908601"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084672"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Uvoz ocene projekta v vrstico ponudbe, ki temelji na projektu
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a><span data-ttu-id="de4a0-103">Uvoz ocene projekta v vrstico ponudbe, ki temelji na projektu</span><span class="sxs-lookup"><span data-stu-id="de4a0-103">Import estimates for a project to a project-based quote line</span></span>
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+<span data-ttu-id="de4a0-104">_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_</span><span class="sxs-lookup"><span data-stu-id="de4a0-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 
-Če je projekt ustvarjen v predprodajni fazi, lahko izberete uvoz finančne ocene iz projekta v vrstico ponudbe, ki temelji na projektu.
+<span data-ttu-id="de4a0-105">Če je projekt ustvarjen v predprodajni fazi, lahko izberete uvoz finančne ocene iz projekta v vrstico ponudbe, ki temelji na projektu.</span><span class="sxs-lookup"><span data-stu-id="de4a0-105">If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.</span></span>
 
-1. Prepričajte se, da so v vrstici ponudbe, ki temelji na projektu, podatki vneseni v polje **Projekt**.
-2. Na zavihku **Podrobnosti vrstice ponudbe** izberite možnost **Uvozi iz ocene projekta**.
-3. V pogovornem oknu izberite eno od naslednjih možnosti povzemanja.
+1. <span data-ttu-id="de4a0-106">Prepričajte se, da so v vrstici ponudbe, ki temelji na projektu, podatki vneseni v polje **Projekt**.</span><span class="sxs-lookup"><span data-stu-id="de4a0-106">Make sure that the project-based quote line has the project information in the **Project** field.</span></span>
+2. <span data-ttu-id="de4a0-107">Na zavihku **Podrobnosti vrstice ponudbe** izberite možnost **Uvozi iz ocene projekta**.</span><span class="sxs-lookup"><span data-stu-id="de4a0-107">On the **Quote line details** tab, select **Import from Project Estimation**.</span></span>
+3. <span data-ttu-id="de4a0-108">V pogovornem oknu izberite eno od naslednjih možnosti povzemanja:</span><span class="sxs-lookup"><span data-stu-id="de4a0-108">On the dialog page opens, select one of the following summarization options:</span></span>
 
-  - **Razred transakcije**
-  - **Kategorija**
-  - **Vloga** 
-  - **Projektno opravilo**
+  - <span data-ttu-id="de4a0-109">**Razred transakcije**</span><span class="sxs-lookup"><span data-stu-id="de4a0-109">**Transaction class**</span></span>
+  - <span data-ttu-id="de4a0-110">**Kategorija**</span><span class="sxs-lookup"><span data-stu-id="de4a0-110">**Category**</span></span>
+  - <span data-ttu-id="de4a0-111">**Vloga**</span><span class="sxs-lookup"><span data-stu-id="de4a0-111">**Role**</span></span> 
+  - <span data-ttu-id="de4a0-112">**Projektno opravilo**</span><span class="sxs-lookup"><span data-stu-id="de4a0-112">**Project task**</span></span>
 
-Na podlagi vaše izbire je prekopirana ocena iz projekta za vse razrede transakcij, ki so vključeni v tej vrstici ponudbe. Če želite preveriti, kateri razredi transakcij so vključeni, izberite zavihek **Splošno** v vrstici ponudbe, ki temelji na projektu, in preverite vrednosti za polja **Vključi čas**, **Vključi stroške** in **Vključi dajatve**.
+<span data-ttu-id="de4a0-113">Na podlagi vaše izbire je prekopirana ocena iz projekta za vse razrede transakcij, ki so vključeni v tej vrstici ponudbe.</span><span class="sxs-lookup"><span data-stu-id="de4a0-113">Based on your selection, the estimate from the project for all transaction classes included on this quote line are copied over.</span></span> <span data-ttu-id="de4a0-114">Če želite preveriti, kateri razredi transakcij so vključeni, izberite zavihek **Splošno** v vrstici ponudbe, ki temelji na projektu, in preverite vrednosti za polja **Vključi čas** , **Vključi stroške** in **Vključi dajatve**.</span><span class="sxs-lookup"><span data-stu-id="de4a0-114">To check what transaction classes are included, select the **General** tab on the project-based quote line, and check the values for **Include Time** , **Include Expenses** , and **Include Fees**.</span></span>
 
-Pri uvozu ocen sistem privzeto določi cene na podlagi cenikov projekta, priloženih ponudbi, in vrste obračuna, nastavljene v vrstici ponudbe, ki temelji na projektu. Če je vloga ali kategorija v vrstici ponudbe, ki temelji na projektu, nastavljena kot nezaračunljiva, bo uvožena ocenjevalna vrstica nastavljena kot nezaračunljiva in ne bo prispevala k ponudbeni vrednosti ponudbene vrstice.
+<span data-ttu-id="de4a0-115">Pri uvozu ocen sistem privzeto določi cene na podlagi cenikov projekta, priloženih ponudbi, in vrste obračuna, nastavljene v vrstici ponudbe, ki temelji na projektu.</span><span class="sxs-lookup"><span data-stu-id="de4a0-115">When you import estimates, the system will default pricing based on the project price lists attached to the quote and the billing type set up on the project-based quote line.</span></span> <span data-ttu-id="de4a0-116">Če je vloga ali kategorija v vrstici ponudbe, ki temelji na projektu, nastavljena kot nezaračunljiva, bo uvožena ocenjevalna vrstica nastavljena kot nezaračunljiva in ne bo prispevala k ponudbeni vrednosti ponudbene vrstice.</span><span class="sxs-lookup"><span data-stu-id="de4a0-116">If a role or category is set up on the project-based quote line as non-chargeable, the imported estimate line will set as non-chargeable and won't add up to the quoted value of quote line.</span></span>
 
-Če ima vrstica ponudbe podrobnosti o vrstici, sta polji **Vrednost ponudbe** in **Ocenjeni davek** v vrstici ponudbe povzeti in ju ni mogoče urejati.
+<span data-ttu-id="de4a0-117">Če ima vrstica ponudbe podrobnosti o vrstici, sta polji **Vrednost ponudbe** in **Ocenjeni davek** v vrstici ponudbe povzeti in ju ni mogoče urejati.</span><span class="sxs-lookup"><span data-stu-id="de4a0-117">When a quote line has line details, the **Quote Value** and the **Estimated Tax** fields on the quote line are summarized and can't be edited.</span></span>
 
-Če je izbranih več možnosti povzetka, se poskuša povzetek ustvariti po vseh izbranih možnostih. To pomeni, da bo izhodnih podatkov iz uvoženih ponudb več, kot če bi izbrali samo eno možnost povzetka.
+<span data-ttu-id="de4a0-118">Če je izbranih več možnosti povzetka, sistem poskuša povzetek ustvariti po vseh izbranih možnostih.</span><span class="sxs-lookup"><span data-stu-id="de4a0-118">When multiple summarization options are selected, the system attempts to summarize by all selected options.</span></span> <span data-ttu-id="de4a0-119">To pomeni, da bo izhodnih podatkov iz uvoženih ponudb več, kot če bi izbrali samo eno možnost povzetka.</span><span class="sxs-lookup"><span data-stu-id="de4a0-119">The result is that the output of imported quote lines will be more than if you selected only one summarization option.</span></span>
 
-Če ima projekt na primer naslednje vrstice ocen za stroške.
+<span data-ttu-id="de4a0-120">Če ima projekt na primer naslednje vrstice ocen za stroške.</span><span class="sxs-lookup"><span data-stu-id="de4a0-120">For example, if the project has the following estimate lines for expenses.</span></span>
 
-| Opravilo | Kategoriji | Datum | Količina | Cena enote | Znesek |
+| <span data-ttu-id="de4a0-121">Opravilo</span><span class="sxs-lookup"><span data-stu-id="de4a0-121">Task</span></span> | <span data-ttu-id="de4a0-122">Kategoriji</span><span class="sxs-lookup"><span data-stu-id="de4a0-122">Category</span></span> | <span data-ttu-id="de4a0-123">Datum</span><span class="sxs-lookup"><span data-stu-id="de4a0-123">Date</span></span> | <span data-ttu-id="de4a0-124">Količina</span><span class="sxs-lookup"><span data-stu-id="de4a0-124">Quantity</span></span> | <span data-ttu-id="de4a0-125">Cena enote</span><span class="sxs-lookup"><span data-stu-id="de4a0-125">Unit price</span></span> | <span data-ttu-id="de4a0-126">Znesek</span><span class="sxs-lookup"><span data-stu-id="de4a0-126">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Opravilo A | Letalska vozovnica | 10. 1. 2020 | 4 | 400 | 1600 |
-| Opravilo B | Hotel | 1. 10. 2020 | 4 | 200 | 800 |
-| Opravilo C | Hotel | 1. 11. 2020 | 2 | 200 | 400 |
+| <span data-ttu-id="de4a0-127">Opravilo A</span><span class="sxs-lookup"><span data-stu-id="de4a0-127">Task A</span></span> | <span data-ttu-id="de4a0-128">Letalska vozovnica</span><span class="sxs-lookup"><span data-stu-id="de4a0-128">Airfare</span></span> | <span data-ttu-id="de4a0-129">10. 1. 2020</span><span class="sxs-lookup"><span data-stu-id="de4a0-129">10/1/2020</span></span> | <span data-ttu-id="de4a0-130">4</span><span class="sxs-lookup"><span data-stu-id="de4a0-130">4</span></span> | <span data-ttu-id="de4a0-131">400</span><span class="sxs-lookup"><span data-stu-id="de4a0-131">400</span></span> | <span data-ttu-id="de4a0-132">1600</span><span class="sxs-lookup"><span data-stu-id="de4a0-132">1600</span></span> |
+| <span data-ttu-id="de4a0-133">Opravilo B</span><span class="sxs-lookup"><span data-stu-id="de4a0-133">Task B</span></span> | <span data-ttu-id="de4a0-134">Hotel</span><span class="sxs-lookup"><span data-stu-id="de4a0-134">Hotel</span></span> | <span data-ttu-id="de4a0-135">1. 10. 2020</span><span class="sxs-lookup"><span data-stu-id="de4a0-135">10/1/2020</span></span> | <span data-ttu-id="de4a0-136">4</span><span class="sxs-lookup"><span data-stu-id="de4a0-136">4</span></span> | <span data-ttu-id="de4a0-137">200</span><span class="sxs-lookup"><span data-stu-id="de4a0-137">200</span></span> | <span data-ttu-id="de4a0-138">800</span><span class="sxs-lookup"><span data-stu-id="de4a0-138">800</span></span> |
+| <span data-ttu-id="de4a0-139">Opravilo C</span><span class="sxs-lookup"><span data-stu-id="de4a0-139">Task C</span></span> | <span data-ttu-id="de4a0-140">Hotel</span><span class="sxs-lookup"><span data-stu-id="de4a0-140">Hotel</span></span> | <span data-ttu-id="de4a0-141">1. 11. 2020</span><span class="sxs-lookup"><span data-stu-id="de4a0-141">11/1/2020</span></span> | <span data-ttu-id="de4a0-142">2</span><span class="sxs-lookup"><span data-stu-id="de4a0-142">2</span></span> | <span data-ttu-id="de4a0-143">200</span><span class="sxs-lookup"><span data-stu-id="de4a0-143">200</span></span> | <span data-ttu-id="de4a0-144">400</span><span class="sxs-lookup"><span data-stu-id="de4a0-144">400</span></span> |
 
-Če uporabnik izbere povzetek po razredu transakcij, bodo uvoženi naslednji podatki.
+<span data-ttu-id="de4a0-145">Če uporabnik izbere povzetek po razredu transakcij, bodo uvoženi naslednji podatki.</span><span class="sxs-lookup"><span data-stu-id="de4a0-145">When the user selects to summarize by Transaction class, the following information will be imported.</span></span>
 
-| Opravilo | Kategoriji | Datum | Količina | Cena enote | Znesek |
+| <span data-ttu-id="de4a0-146">Opravilo</span><span class="sxs-lookup"><span data-stu-id="de4a0-146">Task</span></span> | <span data-ttu-id="de4a0-147">Kategoriji</span><span class="sxs-lookup"><span data-stu-id="de4a0-147">Category</span></span> | <span data-ttu-id="de4a0-148">Datum</span><span class="sxs-lookup"><span data-stu-id="de4a0-148">Date</span></span> | <span data-ttu-id="de4a0-149">Količina</span><span class="sxs-lookup"><span data-stu-id="de4a0-149">Quantity</span></span> | <span data-ttu-id="de4a0-150">Cena enote</span><span class="sxs-lookup"><span data-stu-id="de4a0-150">Unit price</span></span> | <span data-ttu-id="de4a0-151">Znesek</span><span class="sxs-lookup"><span data-stu-id="de4a0-151">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| | | 1. 10. 2020 | 3.34 | 840 | 2800 |
+| | | <span data-ttu-id="de4a0-152">1. 10. 2020</span><span class="sxs-lookup"><span data-stu-id="de4a0-152">10/1/2020</span></span> | <span data-ttu-id="de4a0-153">3.34</span><span class="sxs-lookup"><span data-stu-id="de4a0-153">3.34</span></span> | <span data-ttu-id="de4a0-154">840</span><span class="sxs-lookup"><span data-stu-id="de4a0-154">840</span></span> | <span data-ttu-id="de4a0-155">2800</span><span class="sxs-lookup"><span data-stu-id="de4a0-155">2800</span></span> |
 
-Če uporabnik izbere povzetek po razredu transakcij in kategorij, bodo uvoženi naslednji podatki.
+<span data-ttu-id="de4a0-156">Če uporabnik izbere povzetek po razredu transakcij in kategorij, bodo uvoženi naslednji podatki.</span><span class="sxs-lookup"><span data-stu-id="de4a0-156">When the user selects to summarize by Transaction class and Category, the following information will be imported.</span></span>
 
-| Opravilo | Kategoriji | Datum | Količina | Cena enote | Znesek |
+| <span data-ttu-id="de4a0-157">Opravilo</span><span class="sxs-lookup"><span data-stu-id="de4a0-157">Task</span></span> | <span data-ttu-id="de4a0-158">Kategoriji</span><span class="sxs-lookup"><span data-stu-id="de4a0-158">Category</span></span> | <span data-ttu-id="de4a0-159">Datum</span><span class="sxs-lookup"><span data-stu-id="de4a0-159">Date</span></span> | <span data-ttu-id="de4a0-160">Količina</span><span class="sxs-lookup"><span data-stu-id="de4a0-160">Quantity</span></span> | <span data-ttu-id="de4a0-161">Cena enote</span><span class="sxs-lookup"><span data-stu-id="de4a0-161">Unit price</span></span> | <span data-ttu-id="de4a0-162">Znesek</span><span class="sxs-lookup"><span data-stu-id="de4a0-162">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Opravilo A | Letalska vozovnica | 1. 10. 2020 | 4 | 400 | 1600 |
-| | Hotel | 1. 10. 2020 | 6 | 200 | 1200 |
+| <span data-ttu-id="de4a0-163">Opravilo A</span><span class="sxs-lookup"><span data-stu-id="de4a0-163">Task A</span></span> | <span data-ttu-id="de4a0-164">Letalska vozovnica</span><span class="sxs-lookup"><span data-stu-id="de4a0-164">Airfare</span></span> | <span data-ttu-id="de4a0-165">1. 10. 2020</span><span class="sxs-lookup"><span data-stu-id="de4a0-165">10/1/2020</span></span> | <span data-ttu-id="de4a0-166">4</span><span class="sxs-lookup"><span data-stu-id="de4a0-166">4</span></span> | <span data-ttu-id="de4a0-167">400</span><span class="sxs-lookup"><span data-stu-id="de4a0-167">400</span></span> | <span data-ttu-id="de4a0-168">1600</span><span class="sxs-lookup"><span data-stu-id="de4a0-168">1600</span></span> |
+| | <span data-ttu-id="de4a0-169">Hotel</span><span class="sxs-lookup"><span data-stu-id="de4a0-169">Hotel</span></span> | <span data-ttu-id="de4a0-170">1. 10. 2020</span><span class="sxs-lookup"><span data-stu-id="de4a0-170">10/1/2020</span></span> | <span data-ttu-id="de4a0-171">6</span><span class="sxs-lookup"><span data-stu-id="de4a0-171">6</span></span> | <span data-ttu-id="de4a0-172">200</span><span class="sxs-lookup"><span data-stu-id="de4a0-172">200</span></span> | <span data-ttu-id="de4a0-173">1200</span><span class="sxs-lookup"><span data-stu-id="de4a0-173">1200</span></span> |
 
-Če uporabnik izbere povzetek po razredu transakcij, kategorij in opravilu listnega vozlišča, bodo uvoženi naslednji podatki. Upoštevajte, da je ta rezultat enak tistemu na projektu.
+<span data-ttu-id="de4a0-174">Če uporabnik izbere povzetek po razredu transakcij, kategorij in opravilu listnega vozlišča, bodo uvoženi naslednji podatki.</span><span class="sxs-lookup"><span data-stu-id="de4a0-174">When the user selects to summarize by Transaction class, Category, and Leaf Node Task, the following information will be imported.</span></span> <span data-ttu-id="de4a0-175">Upoštevajte, da je ta rezultat enak tistemu na projektu.</span><span class="sxs-lookup"><span data-stu-id="de4a0-175">Notice that this result is the same as what was on the project.</span></span>
 
-| Opravilo | Kategoriji | Datum | Količina | Cena enote | Znesek |
+| <span data-ttu-id="de4a0-176">Opravilo</span><span class="sxs-lookup"><span data-stu-id="de4a0-176">Task</span></span> | <span data-ttu-id="de4a0-177">Kategoriji</span><span class="sxs-lookup"><span data-stu-id="de4a0-177">Category</span></span> | <span data-ttu-id="de4a0-178">Datum</span><span class="sxs-lookup"><span data-stu-id="de4a0-178">Date</span></span> | <span data-ttu-id="de4a0-179">Količina</span><span class="sxs-lookup"><span data-stu-id="de4a0-179">Quantity</span></span> | <span data-ttu-id="de4a0-180">Cena enote</span><span class="sxs-lookup"><span data-stu-id="de4a0-180">Unit price</span></span> | <span data-ttu-id="de4a0-181">Znesek</span><span class="sxs-lookup"><span data-stu-id="de4a0-181">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Opravilo A | Letalska vozovnica | 10. 1. 2020 | 4 | 400 | 1600 |
-| Opravilo B | Hotel | 1. 10. 2020 | 4 | 200 | 800 |
-| Opravilo C | Hotel | 1. 11. 2020 | 2 | 200 | 400 |
+| <span data-ttu-id="de4a0-182">Opravilo A</span><span class="sxs-lookup"><span data-stu-id="de4a0-182">Task A</span></span> | <span data-ttu-id="de4a0-183">Letalska vozovnica</span><span class="sxs-lookup"><span data-stu-id="de4a0-183">Airfare</span></span> | <span data-ttu-id="de4a0-184">10. 1. 2020</span><span class="sxs-lookup"><span data-stu-id="de4a0-184">10/1/2020</span></span> | <span data-ttu-id="de4a0-185">4</span><span class="sxs-lookup"><span data-stu-id="de4a0-185">4</span></span> | <span data-ttu-id="de4a0-186">400</span><span class="sxs-lookup"><span data-stu-id="de4a0-186">400</span></span> | <span data-ttu-id="de4a0-187">1600</span><span class="sxs-lookup"><span data-stu-id="de4a0-187">1600</span></span> |
+| <span data-ttu-id="de4a0-188">Opravilo B</span><span class="sxs-lookup"><span data-stu-id="de4a0-188">Task B</span></span> | <span data-ttu-id="de4a0-189">Hotel</span><span class="sxs-lookup"><span data-stu-id="de4a0-189">Hotel</span></span> | <span data-ttu-id="de4a0-190">1. 10. 2020</span><span class="sxs-lookup"><span data-stu-id="de4a0-190">10/1/2020</span></span> | <span data-ttu-id="de4a0-191">4</span><span class="sxs-lookup"><span data-stu-id="de4a0-191">4</span></span> | <span data-ttu-id="de4a0-192">200</span><span class="sxs-lookup"><span data-stu-id="de4a0-192">200</span></span> | <span data-ttu-id="de4a0-193">800</span><span class="sxs-lookup"><span data-stu-id="de4a0-193">800</span></span> |
+| <span data-ttu-id="de4a0-194">Opravilo C</span><span class="sxs-lookup"><span data-stu-id="de4a0-194">Task C</span></span> | <span data-ttu-id="de4a0-195">Hotel</span><span class="sxs-lookup"><span data-stu-id="de4a0-195">Hotel</span></span> | <span data-ttu-id="de4a0-196">1. 11. 2020</span><span class="sxs-lookup"><span data-stu-id="de4a0-196">11/1/2020</span></span> | <span data-ttu-id="de4a0-197">2</span><span class="sxs-lookup"><span data-stu-id="de4a0-197">2</span></span> | <span data-ttu-id="de4a0-198">200</span><span class="sxs-lookup"><span data-stu-id="de4a0-198">200</span></span> | <span data-ttu-id="de4a0-199">400</span><span class="sxs-lookup"><span data-stu-id="de4a0-199">400</span></span> |

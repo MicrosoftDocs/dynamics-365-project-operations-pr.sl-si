@@ -9,42 +9,42 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 4a8e605109e48b50da68abeee989f8ac8d3d659c
-ms.sourcegitcommit: cf79185c8c84c55fbae55f9cfc1b17840e072b49
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930111"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084644"
 ---
-# <a name="resource-management-modes-overview"></a>Pregled načinov upravljanja virov
+# <a name="resource-management-modes-overview"></a><span data-ttu-id="9e281-103">Pregled načinov upravljanja virov</span><span class="sxs-lookup"><span data-stu-id="9e281-103">Resource management modes overview</span></span>
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+<span data-ttu-id="9e281-104">_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_</span><span class="sxs-lookup"><span data-stu-id="9e281-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 
-Dynamics 365 Project Operations podpira dva načina za izvajanje celotnega poteka rezervacije. Način upravljanja je opredeljen kot projektni parameter in ga je mogoče spremeniti ob spremembi vašega poslovanja.    
+<span data-ttu-id="9e281-105">Dynamics 365 Project Operations podpira dva načina za izvajanje celotnega poteka rezervacije.</span><span class="sxs-lookup"><span data-stu-id="9e281-105">Dynamics 365 Project Operations supports two modes in order for you to execute the overall booking flow.</span></span> <span data-ttu-id="9e281-106">Način upravljanja je opredeljen kot projektni parameter in ga je mogoče spremeniti ob spremembi vašega poslovanja.</span><span class="sxs-lookup"><span data-stu-id="9e281-106">The mode of management is defined as a project parameter and can be modified if your business needs change.</span></span>    
 
-## <a name="central-mode"></a>Osrednji način
-Organizacijam, ki centralizirajo dodelitev virov projektom, osrednji način omogoča, da lahko vodje projektov določijo zahtevane pogoje za vire na ravni projekta. Izpolnjevanje zahtevanih pogojev za vire je preneseno na upravitelja virov. Vodje projektov lahko sprejmejo ali zavrnejo vire, ki jih predlaga upravitelj virov.
+## <a name="central-mode"></a><span data-ttu-id="9e281-107">Osrednji način</span><span class="sxs-lookup"><span data-stu-id="9e281-107">Central mode</span></span>
+<span data-ttu-id="9e281-108">Organizacijam, ki centralizirajo dodelitev virov projektom, osrednji način omogoča, da lahko vodje projektov določijo zahtevane pogoje za vire na ravni projekta.</span><span class="sxs-lookup"><span data-stu-id="9e281-108">For organizations who centralize the allocation for resources to projects, the Central mode provides a way to ensure Project managers can define resource requirements at the project level.</span></span> <span data-ttu-id="9e281-109">Izpolnjevanje zahtevanih pogojev za vire je preneseno na upravitelja virov.</span><span class="sxs-lookup"><span data-stu-id="9e281-109">Fulfillment of the resource requirements is delegated to a Resource manager.</span></span> <span data-ttu-id="9e281-110">Vodje projektov lahko sprejmejo ali zavrnejo vire, ki jih predlaga upravitelj virov.</span><span class="sxs-lookup"><span data-stu-id="9e281-110">Project managers can accept or reject resources that are proposed by the Resource manager.</span></span>
 
 ![Osrednji način](./media/resource-management-central.png)
 
-Za upravljanje virov v osrednjem načinu glejte:
+<span data-ttu-id="9e281-112">Za upravljanje virov v osrednjem načinu glejte:</span><span class="sxs-lookup"><span data-stu-id="9e281-112">To manage resources with the Central mode, see:</span></span>
 
-- [Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in ustvarjanje zahtevanih pogojev za vir](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Rezervacija poimenovanih virov iz zahtevanih pogojev za vire](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Pošiljanje zahteve za vir](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Izpolnjevanje zahteve za vir](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Sprejem ali zavrnitev predlaganega projektnega vira iz zahteve za vir](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [<span data-ttu-id="9e281-113">Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in ustvarjanje zahtevanih pogojev za vir</span><span class="sxs-lookup"><span data-stu-id="9e281-113">Assign generic bookable resources to a task and generate resource requirements</span></span>](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
+- [<span data-ttu-id="9e281-114">Rezervacija poimenovanih virov iz zahtevanih pogojev za vire</span><span class="sxs-lookup"><span data-stu-id="9e281-114">Book named resources from resource requirements</span></span>](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [<span data-ttu-id="9e281-115">Pošiljanje zahteve za vir</span><span class="sxs-lookup"><span data-stu-id="9e281-115">Submit a resource request</span></span>](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
+- [<span data-ttu-id="9e281-116">Izpolnjevanje zahteve za vir</span><span class="sxs-lookup"><span data-stu-id="9e281-116">Fulfill a resource request</span></span>](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
+- [<span data-ttu-id="9e281-117">Sprejem ali zavrnitev predlaganega projektnega vira iz zahteve za vir</span><span class="sxs-lookup"><span data-stu-id="9e281-117">Accept or reject a proposed project resource from a resource request</span></span>](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
 
-## <a name="hybrid-mode"></a>Hibridni način
-Organizacijam, ki potrebujejo prilagodljivost pri dodeljevanju virov, hibridni način omogoča, da vodje projektov in upravitelji virov rezervirajo vire.
+## <a name="hybrid-mode"></a><span data-ttu-id="9e281-118">Hibridni način</span><span class="sxs-lookup"><span data-stu-id="9e281-118">Hybrid mode</span></span>
+<span data-ttu-id="9e281-119">Organizacijam, ki potrebujejo prilagodljivost pri dodeljevanju virov, hibridni način omogoča, da vodje projektov in upravitelji virov rezervirajo vire.</span><span class="sxs-lookup"><span data-stu-id="9e281-119">For organizations who require flexibility in the allocation of resources, the hybrid mode enables both Project managers and Resource managers the ability to book resources.</span></span>
 
 ![Hibridni način](./media/resource-management-hybrid.png)
 
-Poleg podprtega postopka v osrednjem načinu glejte tudi naslednje teme za upravljanje vseh drugih podprtih potekov za rezervacije v hibridnem načinu:
+<span data-ttu-id="9e281-121">Poleg podprtega postopka v osrednjem načinu glejte tudi naslednje teme za upravljanje vseh drugih podprtih potekov za rezervacije v hibridnem načinu:</span><span class="sxs-lookup"><span data-stu-id="9e281-121">In addition to the supported Central mode process, see the following topics to manage all other supported booking flows in the Hybrid mode:</span></span>
 
-Rezervacija vira neposredno iz projekta:
-- [Rezervacija poimenovanih virov, ki jih je mogoče rezervirati, za projektno ekipo in dodelitev opravil](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+<span data-ttu-id="9e281-122">Rezervacija vira neposredno iz projekta:</span><span class="sxs-lookup"><span data-stu-id="9e281-122">Book a resource directly to a project:</span></span>
+- [<span data-ttu-id="9e281-123">Rezervacija poimenovanih virov, ki jih je mogoče rezervirati, za projektno ekipo in dodelitev opravil</span><span class="sxs-lookup"><span data-stu-id="9e281-123">Book named bookable resources to a project team and assign tasks</span></span>](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
 
-Rezervacija vira iz zahtevanega pogoja za vir:
-- [Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in ustvarjanje zahtevanih pogojev za vir](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Rezervacija poimenovanih virov iz zahtevanih pogojev za vire](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+<span data-ttu-id="9e281-124">Rezervacija vira iz zahtevanega pogoja za vir:</span><span class="sxs-lookup"><span data-stu-id="9e281-124">Book a resource from a resource requirement:</span></span>
+- [<span data-ttu-id="9e281-125">Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in ustvarjanje zahtevanih pogojev za vir</span><span class="sxs-lookup"><span data-stu-id="9e281-125">Assign generic bookable resources to a task and generate resource requirements</span></span>](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
+- [<span data-ttu-id="9e281-126">Rezervacija poimenovanih virov iz zahtevanih pogojev za vire</span><span class="sxs-lookup"><span data-stu-id="9e281-126">Book named resources from resource requirements</span></span>](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)

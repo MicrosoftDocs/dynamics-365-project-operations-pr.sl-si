@@ -9,169 +9,189 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906339"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084623"
 ---
-# <a name="project-based-quote-lines"></a>Podrobnosti ponudb, ki temeljijo na projektih
+# <a name="project-based-quote-lines"></a><span data-ttu-id="8a22f-103">Podrobnosti ponudb, ki temeljijo na projektih</span><span class="sxs-lookup"><span data-stu-id="8a22f-103">Project-based quote lines</span></span>
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+<span data-ttu-id="8a22f-104">_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_</span><span class="sxs-lookup"><span data-stu-id="8a22f-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-Podrobnosti ponudb, ki temeljijo na projektu, so oblikovane tako, da pripomorejo k oceni projektnega dela v okviru interakcije. Struktura podrobnosti ponudb, ki temelji na projektu, je razširjena za ocene projektov z naslednjimi koncepti:
+<span data-ttu-id="8a22f-105">Podrobnosti ponudb, ki temeljijo na projektu, so oblikovane tako, da pripomorejo k oceni projektnega dela v okviru interakcije.</span><span class="sxs-lookup"><span data-stu-id="8a22f-105">Project-based quote lines are designed to help estimate the project work on an engagement.</span></span> <span data-ttu-id="8a22f-106">Struktura podrobnosti ponudb, ki temelji na projektu, je razširjena za ocene projektov z naslednjimi koncepti:</span><span class="sxs-lookup"><span data-stu-id="8a22f-106">The structure of a project-based quote line is extended for project estimates with the following concepts:</span></span>
 
-- Način obračunavanja
-- Preslikavanje projektov
-- Vključuje razrede transakcij
-- Omejitev »Ni dovoljeno preseči«
-- Nastavitev možnosti zaračunavanja
-- Ocena z uporabo podrobnosti ponudb
-- Stranke podrobnosti ponudbe
+- <span data-ttu-id="8a22f-107">Način obračunavanja</span><span class="sxs-lookup"><span data-stu-id="8a22f-107">Billing Method</span></span>
+- <span data-ttu-id="8a22f-108">Preslikavanje projektov</span><span class="sxs-lookup"><span data-stu-id="8a22f-108">Project Mapping</span></span>
+- <span data-ttu-id="8a22f-109">Vključuje razrede transakcij</span><span class="sxs-lookup"><span data-stu-id="8a22f-109">Included Transaction classes</span></span>
+- <span data-ttu-id="8a22f-110">Omejitev »Ni dovoljeno preseči«</span><span class="sxs-lookup"><span data-stu-id="8a22f-110">Not-to-Exceed Limit</span></span>
+- <span data-ttu-id="8a22f-111">Nastavitev možnosti zaračunavanja</span><span class="sxs-lookup"><span data-stu-id="8a22f-111">Chargeability setup</span></span>
+- <span data-ttu-id="8a22f-112">Ocena z uporabo podrobnosti ponudb</span><span class="sxs-lookup"><span data-stu-id="8a22f-112">Estimation using Quote Line Details</span></span>
+- <span data-ttu-id="8a22f-113">Stranke podrobnosti ponudbe</span><span class="sxs-lookup"><span data-stu-id="8a22f-113">Quote line Customers</span></span>
 
-Naslednja tabela vsebuje informacije o poljih na zavihku **Splošno** pri podrobnosti ponudbe, ki temelji na projektu. Ta polja pomagajo nastaviti osnovo za podrobno, temeljito oceno projektnega dela.
+<span data-ttu-id="8a22f-114">Naslednja tabela vsebuje informacije o poljih na zavihku **Splošno** pri podrobnosti ponudbe, ki temelji na projektu.</span><span class="sxs-lookup"><span data-stu-id="8a22f-114">The following table provides information about the fields on the **General** tab of project-based quote line.</span></span> <span data-ttu-id="8a22f-115">Ta polja pomagajo nastaviti osnovo za podrobno, temeljito oceno projektnega dela.</span><span class="sxs-lookup"><span data-stu-id="8a22f-115">These fields help set up the basis for a detailed, ground-up estimation for project work.</span></span>
 
-| **Polje** | **Ustreznost, namen in smernice** | **Nadaljnji vpliv** |
+| <span data-ttu-id="8a22f-116">**Polje**</span><span class="sxs-lookup"><span data-stu-id="8a22f-116">**Field**</span></span> | <span data-ttu-id="8a22f-117">**Ustreznost, namen in smernice**</span><span class="sxs-lookup"><span data-stu-id="8a22f-117">**Relevance, purpose, and guidance**</span></span> | <span data-ttu-id="8a22f-118">**Nadaljnji vpliv**</span><span class="sxs-lookup"><span data-stu-id="8a22f-118">**Downstream impact**</span></span> |
 | --- | --- | --- |
-| Imenu | Ime podrobnosti ponudbe, ki bi vam pomagala prepoznati ločeno komponento ponudbe, ki jo ocenjujete. | Kopirano v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
-| Način obračunavanja | V ponudbi, ustvarjeni iz priložnosti, se ta vrednost kopira iz ustreznega polja v vrstici priložnosti. To polje vključuje dva glavna pogodbena modela, ki ju podpira Dynamics 365 Project Operations:</br>- fiksna cena</br>- čas in material| Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
-| Project | S tem izbirnim poljem določite projekt, ki se bo uporabljal za izvedbo dela za to interakcijo. Ko je projekt preslikan v podrobnost ponudbe, pripomore k nastavitvi opravil, ki se zaračunajo, in tudi k pripravi ocene, ki temelji na projektu, pri vrstici ponudbe v obliki podrobnosti vrstice ponudbe. Če projekt ni preslikan na vrstico ponudbe, ki temelji na projektu, morate oceno ustvariti ročno z izdelavo vsake podrobnosti vrstice ponudbe. | Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
-| Vključi čas | Zastava **Da**/**Ne** označuje, ali bodo časovne transakcije ali stroški dela za izbrani projekt vključeni v oceno v tej vrstici ponudbe. Vrednost **Ne** označuje, da časovne transakcije ali stroški dela ne bodo vključeni v oceno v tej vrstici ponudbe. Vrednost **Da** označuje, da bodo časovne transakcije ali stroški dela vključeni v oceno v tej vrstici ponudbe. | Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
-| Vključi strošek | Zastava **Da**/**Ne** označuje, ali bodo stroški dela za izbrani projekt vključeni v oceno v tej vrstici ponudbe. Vrednost **Ne** označuje, da strošek ne bo vključen v oceno v tej vrstici ponudbe. Vrednost **Ne** označuje, da bo strošek vključen v oceno v tej vrstici ponudbe. | Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
-| Vključi dajatev | Zastava **Da**/**Ne** označuje, ali bodo dajatve za izbrani projekt vključene v oceno v tej vrstici ponudbe. Vrednost **Ne** označuje, da dajatve ne bodo vključene v oceno v tej vrstici ponudbe. Vrednost **Da** označuje, da bodo dajatve vključene v oceno v tej vrstici ponudbe. | Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
-| Znesek ponudbe | To je znesek, ki bo stranki podan v ponudbi za vso delo, napovedano v tej podrobnosti ponudbe, ki temelji na projektu. V ponudbi, ustvarjeni iz priložnosti, se ta vrednost kopira iz polja **Proračun stranke** v vrstici priložnosti. Če ima vrstica ponudbe, ki temelji na projektu, podrobnosti, je to polje zaklenjeno za urejanje in je povzeto iz zneska v podrobnostih vrstice ponudbe. | Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
-| Predvideni davek | To je polje, ki ga je mogoče urejati in v katerem lahko uporabnik doda predviden znesek davka v vrstico ponudbe. Če ima vrstica ponudbe, ki temelji na projektu, podrobnosti, je to polje zaklenjeno za urejanje in je povzeto iz zneska davka v podrobnostih vrstice ponudbe. | Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
-| Znesek ponudbe po obdavčitvi | To polje je znesek v podrobnosti ponudbe po obdavčitvi in je samo za branje. Znesek v tem polju se izračuna kot *znesek ponudbe + davek*. | Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
-| Omejitev »Ni dovoljeno preseči« | To polje je mogoče urejati in je na voljo samo v podrobnostih ponudb, ki temeljijo na projektih in imajo način obračunavanja **Čas in material**. | Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
-| Proračun stranke | To polje je mogoče urejati in se kopira iz ustreznega polja v vrstici priložnosti, če je bila ponudba ustvarjena iz priložnosti. | Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
+| <span data-ttu-id="8a22f-119">Imenu</span><span class="sxs-lookup"><span data-stu-id="8a22f-119">Name</span></span> | <span data-ttu-id="8a22f-120">Ime podrobnosti ponudbe, ki bi vam pomagala prepoznati ločeno komponento ponudbe, ki jo ocenjujete.</span><span class="sxs-lookup"><span data-stu-id="8a22f-120">The name of quote line which should help you identify the discrete component of the quote that is being estimated.</span></span> | <span data-ttu-id="8a22f-121">Kopirano v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena.</span><span class="sxs-lookup"><span data-stu-id="8a22f-121">Copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="8a22f-122">Način obračunavanja</span><span class="sxs-lookup"><span data-stu-id="8a22f-122">Billing Method</span></span> | <span data-ttu-id="8a22f-123">V ponudbi, ustvarjeni iz priložnosti, se ta vrednost kopira iz ustreznega polja v vrstici priložnosti.</span><span class="sxs-lookup"><span data-stu-id="8a22f-123">On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line.</span></span> <span data-ttu-id="8a22f-124">To polje vključuje dva glavna pogodbena modela, ki ju podpira Dynamics 365 Project Operations:</span><span class="sxs-lookup"><span data-stu-id="8a22f-124">This field includes the two main contracting models supported by Dynamics 365 Project Operations:</span></span></br><span data-ttu-id="8a22f-125">- fiksna cena</span><span class="sxs-lookup"><span data-stu-id="8a22f-125">- Fixed price</span></span></br><span data-ttu-id="8a22f-126">- čas in material</span><span class="sxs-lookup"><span data-stu-id="8a22f-126">- Time and material.</span></span>| <span data-ttu-id="8a22f-127">Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena.</span><span class="sxs-lookup"><span data-stu-id="8a22f-127">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="8a22f-128">Project</span><span class="sxs-lookup"><span data-stu-id="8a22f-128">Project</span></span> | <span data-ttu-id="8a22f-129">S tem izbirnim poljem določite projekt, ki se bo uporabljal za izvedbo dela za to interakcijo.</span><span class="sxs-lookup"><span data-stu-id="8a22f-129">Use this optional field to identify the project that will be used to deliver the work on this engagement.</span></span> <span data-ttu-id="8a22f-130">Ko je projekt preslikan v podrobnost ponudbe, pripomore k nastavitvi opravil, ki se zaračunajo, in tudi k pripravi ocene, ki temelji na projektu, pri vrstici ponudbe v obliki podrobnosti vrstice ponudbe.</span><span class="sxs-lookup"><span data-stu-id="8a22f-130">When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details.</span></span> <span data-ttu-id="8a22f-131">Če projekt ni preslikan na vrstico ponudbe, ki temelji na projektu, morate oceno ustvariti ročno z izdelavo vsake podrobnosti vrstice ponudbe.</span><span class="sxs-lookup"><span data-stu-id="8a22f-131">When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail.</span></span> | <span data-ttu-id="8a22f-132">Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena.</span><span class="sxs-lookup"><span data-stu-id="8a22f-132">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="8a22f-133">Vključi čas</span><span class="sxs-lookup"><span data-stu-id="8a22f-133">Include Time</span></span> | <span data-ttu-id="8a22f-134">Zastava **Da**/**Ne** označuje, ali bodo časovne transakcije ali stroški dela za izbrani projekt vključeni v oceno v tej vrstici ponudbe.</span><span class="sxs-lookup"><span data-stu-id="8a22f-134">A **Yes**/**No** flag indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="8a22f-135">Vrednost **Ne** označuje, da časovne transakcije ali stroški dela ne bodo vključeni v oceno v tej vrstici ponudbe.</span><span class="sxs-lookup"><span data-stu-id="8a22f-135">A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="8a22f-136">Vrednost **Da** označuje, da bodo časovne transakcije ali stroški dela vključeni v oceno v tej vrstici ponudbe.</span><span class="sxs-lookup"><span data-stu-id="8a22f-136">A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="8a22f-137">Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena.</span><span class="sxs-lookup"><span data-stu-id="8a22f-137">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="8a22f-138">Vključi strošek</span><span class="sxs-lookup"><span data-stu-id="8a22f-138">Include Expense</span></span> | <span data-ttu-id="8a22f-139">Zastava **Da**/**Ne** označuje, ali bodo stroški dela za izbrani projekt vključeni v oceno v tej vrstici ponudbe.</span><span class="sxs-lookup"><span data-stu-id="8a22f-139">A **Yes**/**No** flag indicates if expense costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="8a22f-140">Vrednost **Ne** označuje, da strošek ne bo vključen v oceno v tej vrstici ponudbe.</span><span class="sxs-lookup"><span data-stu-id="8a22f-140">A **No** value indicates that the expense cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="8a22f-141">Vrednost **Ne** označuje, da bo strošek vključen v oceno v tej vrstici ponudbe.</span><span class="sxs-lookup"><span data-stu-id="8a22f-141">A **Yes** value indicates that the expense cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="8a22f-142">Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena.</span><span class="sxs-lookup"><span data-stu-id="8a22f-142">This field value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="8a22f-143">Vključi dajatev</span><span class="sxs-lookup"><span data-stu-id="8a22f-143">Include Fee</span></span> | <span data-ttu-id="8a22f-144">Zastava **Da**/**Ne** označuje, ali bodo dajatve za izbrani projekt vključene v oceno v tej vrstici ponudbe.</span><span class="sxs-lookup"><span data-stu-id="8a22f-144">A **Yes**/**No** flag indicates if fees on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="8a22f-145">Vrednost **Ne** označuje, da dajatve ne bodo vključene v oceno v tej vrstici ponudbe.</span><span class="sxs-lookup"><span data-stu-id="8a22f-145">A **No** value indicates that the Fees will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="8a22f-146">Vrednost **Da** označuje, da bodo dajatve vključene v oceno v tej vrstici ponudbe.</span><span class="sxs-lookup"><span data-stu-id="8a22f-146">A **Yes** value indicates that the Fees will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="8a22f-147">Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena.</span><span class="sxs-lookup"><span data-stu-id="8a22f-147">This field value is copied to the Project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="8a22f-148">Znesek ponudbe</span><span class="sxs-lookup"><span data-stu-id="8a22f-148">Quoted Amount</span></span> | <span data-ttu-id="8a22f-149">To je znesek, ki bo stranki podan v ponudbi za vso delo, napovedano v tej podrobnosti ponudbe, ki temelji na projektu.</span><span class="sxs-lookup"><span data-stu-id="8a22f-149">This is amount that will be quoted to the customer for all the work forecasted on this project-based quote line.</span></span> <span data-ttu-id="8a22f-150">V ponudbi, ustvarjeni iz priložnosti, se ta vrednost kopira iz polja **Proračun stranke** v vrstici priložnosti.</span><span class="sxs-lookup"><span data-stu-id="8a22f-150">On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line.</span></span> <span data-ttu-id="8a22f-151">Če ima vrstica ponudbe, ki temelji na projektu, podrobnosti, je to polje zaklenjeno za urejanje in je povzeto iz zneska v podrobnostih vrstice ponudbe.</span><span class="sxs-lookup"><span data-stu-id="8a22f-151">When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details.</span></span> | <span data-ttu-id="8a22f-152">Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena.</span><span class="sxs-lookup"><span data-stu-id="8a22f-152">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="8a22f-153">Predvideni davek</span><span class="sxs-lookup"><span data-stu-id="8a22f-153">Estimated Tax</span></span> | <span data-ttu-id="8a22f-154">To je polje, ki ga je mogoče urejati in v katerem lahko uporabnik doda predviden znesek davka v vrstico ponudbe.</span><span class="sxs-lookup"><span data-stu-id="8a22f-154">This is an editable field for the user to add the estimated tax amount on the quote line.</span></span> <span data-ttu-id="8a22f-155">Če ima vrstica ponudbe, ki temelji na projektu, podrobnosti, je to polje zaklenjeno za urejanje in je povzeto iz zneska davka v podrobnostih vrstice ponudbe.</span><span class="sxs-lookup"><span data-stu-id="8a22f-155">When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details.</span></span> | <span data-ttu-id="8a22f-156">Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena.</span><span class="sxs-lookup"><span data-stu-id="8a22f-156">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="8a22f-157">Znesek ponudbe po obdavčitvi</span><span class="sxs-lookup"><span data-stu-id="8a22f-157">Quoted Amount after Tax</span></span> | <span data-ttu-id="8a22f-158">To polje je znesek v podrobnosti ponudbe po obdavčitvi in je samo za branje.</span><span class="sxs-lookup"><span data-stu-id="8a22f-158">This field is the quote line amount after tax and is read-only.</span></span> <span data-ttu-id="8a22f-159">Znesek v tem polju se izračuna kot *znesek ponudbe + davek*.</span><span class="sxs-lookup"><span data-stu-id="8a22f-159">The amount in this field is calculated as *Quoted Amount + Tax*.</span></span> | <span data-ttu-id="8a22f-160">Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena.</span><span class="sxs-lookup"><span data-stu-id="8a22f-160">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="8a22f-161">Omejitev »Ni dovoljeno preseči«</span><span class="sxs-lookup"><span data-stu-id="8a22f-161">Not-to-exceed Limit</span></span> | <span data-ttu-id="8a22f-162">To polje je mogoče urejati in je na voljo samo v podrobnostih ponudb, ki temeljijo na projektih in imajo način obračunavanja **Čas in material**.</span><span class="sxs-lookup"><span data-stu-id="8a22f-162">This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method.</span></span> | <span data-ttu-id="8a22f-163">Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena.</span><span class="sxs-lookup"><span data-stu-id="8a22f-163">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="8a22f-164">Proračun stranke</span><span class="sxs-lookup"><span data-stu-id="8a22f-164">Customer Budget</span></span> | <span data-ttu-id="8a22f-165">To polje je mogoče urejati in se kopira iz ustreznega polja v vrstici priložnosti, če je bila ponudba ustvarjena iz priložnosti.</span><span class="sxs-lookup"><span data-stu-id="8a22f-165">This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity.</span></span> | <span data-ttu-id="8a22f-166">Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena.</span><span class="sxs-lookup"><span data-stu-id="8a22f-166">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
 
-## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Pravila za preverjanje veljavnosti polj na zavihku Splošno v podrobnostih ponudb, ki temeljijo na projektih
+## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a><span data-ttu-id="8a22f-167">Pravila za preverjanje veljavnosti polj na zavihku Splošno v podrobnostih ponudb, ki temeljijo na projektih</span><span class="sxs-lookup"><span data-stu-id="8a22f-167">Validation rules for fields on the General tab of project-based quote lines</span></span>
 
-**1. pravilo**: določen razred transakcije v izbranem projektu je mogoče vključiti samo v eno podrobnost ponudbe, ki temelji na projektih.
+<span data-ttu-id="8a22f-168">**1. pravilo** : določen razred transakcije v izbranem projektu je mogoče vključiti samo v eno podrobnost ponudbe, ki temelji na projektih.</span><span class="sxs-lookup"><span data-stu-id="8a22f-168">**Rule 1** : A certain transaction class on the selected project can only be included on one project-based quote line of a quote.</span></span>
 
-**2. pravilo** : če ima priložnost več ponudb, so lahko podrobnosti ponudbe za različne ponudbe, ki se vse sklicujejo na isti projekt in vključujejo isti razred transakcije.
+<span data-ttu-id="8a22f-169">**2. pravilo** : če ima priložnost več ponudb, so lahko podrobnosti ponudbe za različne ponudbe, ki se vse sklicujejo na isti projekt in vključujejo isti razred transakcije.</span><span class="sxs-lookup"><span data-stu-id="8a22f-169">**Rule 2** : If an opportunity has multiple quotes, there can be quote lines from different quotes that all reference the same project and include the same transaction class.</span></span>
 
-**3. pravilo**: če ponudbe ne pripadajo isti priložnosti, ne morejo vključevati istega projekta in razreda transakcije.
+<span data-ttu-id="8a22f-170">**3. pravilo** : če ponudbe ne pripadajo isti priložnosti, ne morejo vključevati istega projekta in razreda transakcije.</span><span class="sxs-lookup"><span data-stu-id="8a22f-170">**Rule 3** : If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.</span></span>
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
             <td width="61" valign="top">
-                <p>
+                <p><span data-ttu-id="8a22f-171">
                     <strong>Priložnost</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="8a22f-171">
+                    <strong>Opportunity</strong>
+                </span></span></p>
             </td>
             <td width="41" valign="top">
-                <p>
+                <p><span data-ttu-id="8a22f-172">
                     <strong>Ponudba</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="8a22f-172">
+                    <strong>Quote</strong>
+                </span></span></p>
             </td>
             <td width="42" valign="top">
-                <p>
+                <p><span data-ttu-id="8a22f-173">
                     <strong>Podrobnost ponudbe</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="8a22f-173">
+                    <strong>Quote line</strong>
+                </span></span></p>
             </td>
             <td width="42" valign="top">
-                <p>
+                <p><span data-ttu-id="8a22f-174">
                     <strong>Projekt</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="8a22f-174">
+                    <strong>Project</strong>
+                </span></span></p>
             </td>
             <td width="48" valign="top">
-                <p>
+                <p><span data-ttu-id="8a22f-175">
                     <strong>Vključi čas</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="8a22f-175">
+                    <strong>Include time</strong>
+                </span></span></p>
             </td>
             <td width="48" valign="top">
-                <p>
+                <p><span data-ttu-id="8a22f-176">
                     <strong>Vključi strošek</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="8a22f-176">
+                    <strong>Include expense</strong>
+                </span></span></p>
             </td>
             <td width="42" valign="top">
-                <p>
+                <p><span data-ttu-id="8a22f-177">
                     <strong>Vključi</strong>
-                </p>
-                <p>
+                </span><span class="sxs-lookup"><span data-stu-id="8a22f-177">
+                    <strong>Include</strong>
+                </span></span></p>
+                <p><span data-ttu-id="8a22f-178">
                     <strong>dajatev</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="8a22f-178">
+                    <strong>fee</strong>
+                </span></span></p>
             </td>
             <td width="54" valign="top">
-                <p>
+                <p><span data-ttu-id="8a22f-179">
                     <strong>Veljavno/neveljavno</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="8a22f-179">
+                    <strong>Valid/ Not valid</strong>
+                </span></span></p>
             </td>
             <td width="308" valign="top">
-                <p>
+                <p><span data-ttu-id="8a22f-180">
                     <strong>Razlog</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="8a22f-180">
+                    <strong>Reason</strong>
+                </span></span></p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-Pril1 </p>
+<span data-ttu-id="8a22f-181">Pril1</span><span class="sxs-lookup"><span data-stu-id="8a22f-181">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-Pon1 </p>
+<span data-ttu-id="8a22f-182">Pon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-182">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-PodrPon1 </p>
+<span data-ttu-id="8a22f-183">PodrPon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-183">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Proj1 </p>
+<span data-ttu-id="8a22f-184">Proj1</span><span class="sxs-lookup"><span data-stu-id="8a22f-184">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-185">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-185">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-186">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-186">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-187">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-187">Yes</span></span> </p>
             </td>
             <td width="54" rowspan="2" valign="top">
                 <p>
-Neveljavno </p>
+<span data-ttu-id="8a22f-188">Neveljavno</span><span class="sxs-lookup"><span data-stu-id="8a22f-188">Not valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-Kršitev 1. pravila. Čas, stroški in dajatve za projekt Proj1 so vključeni v obe podrobnosti ponudbe: PodrPon1 in PodrPon2.
+<span data-ttu-id="8a22f-189">Kršitev 1. pravila.</span><span class="sxs-lookup"><span data-stu-id="8a22f-189">Violation of Rule #1.</span></span> <span data-ttu-id="8a22f-190">Čas, stroški in dajatve za projekt Proj1 so vključeni v obe podrobnosti ponudbe: PodrPon1 in PodrPon2.</span><span class="sxs-lookup"><span data-stu-id="8a22f-190">Time, Expense, and Fees on P1 project are included on both quote lines, QL1 and QL2.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-Pril1 </p>
+<span data-ttu-id="8a22f-191">Pril1</span><span class="sxs-lookup"><span data-stu-id="8a22f-191">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-Pon1 </p>
+<span data-ttu-id="8a22f-192">Pon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-192">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-PodrPon2 </p>
+<span data-ttu-id="8a22f-193">PodrPon2</span><span class="sxs-lookup"><span data-stu-id="8a22f-193">QL2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Proj1 </p>
+<span data-ttu-id="8a22f-194">Proj1</span><span class="sxs-lookup"><span data-stu-id="8a22f-194">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-195">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-195">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-196">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-196">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-197">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-197">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -197,70 +217,70 @@ Da </p>
         <tr>
             <td width="61" valign="top">
                 <p>
-Pril1 </p>
+<span data-ttu-id="8a22f-198">Pril1</span><span class="sxs-lookup"><span data-stu-id="8a22f-198">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-Pon1 </p>
+<span data-ttu-id="8a22f-199">Pon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-199">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-PodrPon1 </p>
+<span data-ttu-id="8a22f-200">PodrPon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-200">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Proj1 </p>
+<span data-ttu-id="8a22f-201">Proj1</span><span class="sxs-lookup"><span data-stu-id="8a22f-201">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-202">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-202">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-No </p>
+<span data-ttu-id="8a22f-203">No</span><span class="sxs-lookup"><span data-stu-id="8a22f-203">No</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-204">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-204">Yes</span></span> </p>
             </td>
             <td width="54" rowspan="2" valign="top">
                 <p>
-Neveljavno </p>
+<span data-ttu-id="8a22f-205">Neveljavno</span><span class="sxs-lookup"><span data-stu-id="8a22f-205">Not valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-Kršitev 1. pravila. Čas in dajatve za projekt Proj1 so vključeni v obe podrobnosti ponudbe: PodrPon1 in PodrPon2.
+<span data-ttu-id="8a22f-206">Kršitev 1. pravila.</span><span class="sxs-lookup"><span data-stu-id="8a22f-206">Violation of Rule #1.</span></span> <span data-ttu-id="8a22f-207">Čas in dajatve za projekt Proj1 so vključeni v obe podrobnosti ponudbe: PodrPon1 in PodrPon2.</span><span class="sxs-lookup"><span data-stu-id="8a22f-207">Time and Fees on P1 project are included on both quote lines, QL1 and QL2.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-Pril1 </p>
+<span data-ttu-id="8a22f-208">Pril1</span><span class="sxs-lookup"><span data-stu-id="8a22f-208">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-Pon1 </p>
+<span data-ttu-id="8a22f-209">Pon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-209">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-PodrPon2 </p>
+<span data-ttu-id="8a22f-210">PodrPon2</span><span class="sxs-lookup"><span data-stu-id="8a22f-210">QL2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Proj1 </p>
+<span data-ttu-id="8a22f-211">Proj1</span><span class="sxs-lookup"><span data-stu-id="8a22f-211">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-212">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-212">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-213">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-213">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-214">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-214">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -286,72 +306,72 @@ Da </p>
         <tr>
             <td width="61" valign="top">
                 <p>
-Pril1 </p>
+<span data-ttu-id="8a22f-215">Pril1</span><span class="sxs-lookup"><span data-stu-id="8a22f-215">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-Pon1 </p>
+<span data-ttu-id="8a22f-216">Pon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-216">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-PodrPon1 </p>
+<span data-ttu-id="8a22f-217">PodrPon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-217">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Proj1 </p>
+<span data-ttu-id="8a22f-218">Proj1</span><span class="sxs-lookup"><span data-stu-id="8a22f-218">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-219">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-219">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-No </p>
+<span data-ttu-id="8a22f-220">No</span><span class="sxs-lookup"><span data-stu-id="8a22f-220">No</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-221">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-221">Yes</span></span> </p>
             </td>
             <td width="54" rowspan="2" valign="top">
                 <p>
-Veljavno </p>
+<span data-ttu-id="8a22f-222">Veljavno</span><span class="sxs-lookup"><span data-stu-id="8a22f-222">Valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                  <p>
-Čas in dajatve za projekt Proj1 so vključeni v PodrPon1.
-Stroški za projekt P1 so vključeni v PodrPon2.
-Ni prekrivanja glede tega, kar je vključeno v vsako podrobnost ponudbe, tako da je veljavno.
+<span data-ttu-id="8a22f-223">Čas in dajatve za projekt Proj1 so vključeni v PodrPon1.</span><span class="sxs-lookup"><span data-stu-id="8a22f-223">Time and fees on P1 project are included on QL1.</span></span>
+<span data-ttu-id="8a22f-224">Stroški za projekt P1 so vključeni v PodrPon2.</span><span class="sxs-lookup"><span data-stu-id="8a22f-224">Expense on P1 project is included on QL2.</span></span>
+<span data-ttu-id="8a22f-225">Ni prekrivanja glede tega, kar je vključeno v vsako podrobnost ponudbe, tako da je veljavno.</span><span class="sxs-lookup"><span data-stu-id="8a22f-225">There is no overlap in what is being included on each quote line so it is valid.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-Pril1 </p>
+<span data-ttu-id="8a22f-226">Pril1</span><span class="sxs-lookup"><span data-stu-id="8a22f-226">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-Pon1 </p>
+<span data-ttu-id="8a22f-227">Pon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-227">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-PodrPon2 </p>
+<span data-ttu-id="8a22f-228">PodrPon2</span><span class="sxs-lookup"><span data-stu-id="8a22f-228">QL2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Proj1 </p>
+<span data-ttu-id="8a22f-229">Proj1</span><span class="sxs-lookup"><span data-stu-id="8a22f-229">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-No </p>
+<span data-ttu-id="8a22f-230">No</span><span class="sxs-lookup"><span data-stu-id="8a22f-230">No</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-231">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-231">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-No </p>
+<span data-ttu-id="8a22f-232">No</span><span class="sxs-lookup"><span data-stu-id="8a22f-232">No</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -377,75 +397,75 @@ No </p>
         <tr>
             <td width="61" valign="top">
                 <p>
-Pril1 </p>
+<span data-ttu-id="8a22f-233">Pril1</span><span class="sxs-lookup"><span data-stu-id="8a22f-233">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-Pon1 </p>
+<span data-ttu-id="8a22f-234">Pon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-234">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-PodrPon1 </p>
+<span data-ttu-id="8a22f-235">PodrPon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-235">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Proj1 </p>
+<span data-ttu-id="8a22f-236">Proj1</span><span class="sxs-lookup"><span data-stu-id="8a22f-236">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-237">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-237">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-238">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-238">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-239">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-239">Yes</span></span> </p>
             </td>
             <td width="54" rowspan="2" valign="top">
                 <p>
-Neveljavno </p>
+<span data-ttu-id="8a22f-240">Neveljavno</span><span class="sxs-lookup"><span data-stu-id="8a22f-240">Not valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-Kršitev zgornjega 1. pravila </p>
+<span data-ttu-id="8a22f-241">Kršitev zgornjega 1. pravila</span><span class="sxs-lookup"><span data-stu-id="8a22f-241">Violation of Rule #1 above</span></span> </p>
                 <p>
-Pon1 vključuje čas, stroške in dajatve za celoten projekt P1.
+<span data-ttu-id="8a22f-242">Pon1 vključuje čas, stroške in dajatve za celoten projekt P1.</span><span class="sxs-lookup"><span data-stu-id="8a22f-242">Q1 includes Time, Expenses, and Fees for the whole project P1.</span></span>
                 </p>
                 <p>
-PodrPon2 vključuje čas, stroške in dajatve za celoten projekt P1 ter se prekriva s tistim, kar je vključeno v Pon1.
+<span data-ttu-id="8a22f-243">PodrPon2 vključuje čas, stroške in dajatve za celoten projekt P1 ter se prekriva s tistim, kar je vključeno v Pon1.</span><span class="sxs-lookup"><span data-stu-id="8a22f-243">QL2 includes Time, Expenses, and Fees for the whole project P1 and overlaps with what is included on Q1.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-Pril1 </p>
+<span data-ttu-id="8a22f-244">Pril1</span><span class="sxs-lookup"><span data-stu-id="8a22f-244">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-Pon1 </p>
+<span data-ttu-id="8a22f-245">Pon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-245">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-PodrPon2 </p>
+<span data-ttu-id="8a22f-246">PodrPon2</span><span class="sxs-lookup"><span data-stu-id="8a22f-246">QL2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Proj1 </p>
+<span data-ttu-id="8a22f-247">Proj1</span><span class="sxs-lookup"><span data-stu-id="8a22f-247">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-248">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-248">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-249">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-249">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-250">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-250">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -471,70 +491,70 @@ Da </p>
         <tr>
             <td width="61" valign="top">
                 <p>
-Pril1 </p>
+<span data-ttu-id="8a22f-251">Pril1</span><span class="sxs-lookup"><span data-stu-id="8a22f-251">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-Pon1 </p>
+<span data-ttu-id="8a22f-252">Pon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-252">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-PodrPon1 </p>
+<span data-ttu-id="8a22f-253">PodrPon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-253">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Proj1 </p>
+<span data-ttu-id="8a22f-254">Proj1</span><span class="sxs-lookup"><span data-stu-id="8a22f-254">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-255">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-255">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-256">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-256">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-257">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-257">Yes</span></span> </p>
             </td>
             <td width="54" valign="top">
                 <p>
-Veljavno </p>
+<span data-ttu-id="8a22f-258">Veljavno</span><span class="sxs-lookup"><span data-stu-id="8a22f-258">Valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-Glede na 2. pravilo sta Pon1 in Pon2 dve ponudbi za isto priložnost, tako da lahko oba ocenjujeta enake komponente projekta.
+<span data-ttu-id="8a22f-259">Glede na 2. pravilo sta Pon1 in Pon2 dve ponudbi za isto priložnost, tako da lahko oba ocenjujeta enake komponente projekta.</span><span class="sxs-lookup"><span data-stu-id="8a22f-259">Based on Rule #2, Q1 and Q2 are two quotes on the same opportunity, so they can both estimate for the same components of a project.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-Pril1 </p>
+<span data-ttu-id="8a22f-260">Pril1</span><span class="sxs-lookup"><span data-stu-id="8a22f-260">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-Pon2 </p>
+<span data-ttu-id="8a22f-261">Pon2</span><span class="sxs-lookup"><span data-stu-id="8a22f-261">Q2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-PodrPon1 pri Pon2 </p>
+<span data-ttu-id="8a22f-262">PodrPon1 pri Pon2</span><span class="sxs-lookup"><span data-stu-id="8a22f-262">QL1 on Q2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Proj1 </p>
+<span data-ttu-id="8a22f-263">Proj1</span><span class="sxs-lookup"><span data-stu-id="8a22f-263">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-264">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-264">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-265">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-265">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-266">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-266">Yes</span></span> </p>
             </td>
             <td width="54" valign="top">
             </td>
@@ -562,74 +582,74 @@ Da </p>
         <tr>
             <td width="61" valign="top">
                 <p>
-Pril1 </p>
+<span data-ttu-id="8a22f-267">Pril1</span><span class="sxs-lookup"><span data-stu-id="8a22f-267">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-Pon1 </p>
+<span data-ttu-id="8a22f-268">Pon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-268">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-PodrPon1 </p>
+<span data-ttu-id="8a22f-269">PodrPon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-269">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Proj1 </p>
+<span data-ttu-id="8a22f-270">Proj1</span><span class="sxs-lookup"><span data-stu-id="8a22f-270">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-271">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-271">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-272">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-272">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-273">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-273">Yes</span></span> </p>
             </td>
             <td width="54" valign="top">
                 <p>
-Veljavno </p>
+<span data-ttu-id="8a22f-274">Veljavno</span><span class="sxs-lookup"><span data-stu-id="8a22f-274">Valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-Glede na 3. pravilo sta Pon1 in Pon2 dve ponudbi za različni priložnosti, tako da ne moreta obe ocenjevati enakih komponent istega projekta.
+<span data-ttu-id="8a22f-275">Glede na 3. pravilo sta Pon1 in Pon2 dve ponudbi za različni priložnosti, tako da ne moreta obe ocenjevati enakih komponent istega projekta.</span><span class="sxs-lookup"><span data-stu-id="8a22f-275">Based on Rule #3, Q1 and Q2 are two quotes on different opportunities, so they can't estimate for the same components of the same project.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-Pril2 </p>
+<span data-ttu-id="8a22f-276">Pril2</span><span class="sxs-lookup"><span data-stu-id="8a22f-276">O2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-Pon1 </p>
+<span data-ttu-id="8a22f-277">Pon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-277">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-PodrPon1 </p>
+<span data-ttu-id="8a22f-278">PodrPon1</span><span class="sxs-lookup"><span data-stu-id="8a22f-278">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Proj1 </p>
+<span data-ttu-id="8a22f-279">Proj1</span><span class="sxs-lookup"><span data-stu-id="8a22f-279">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-280">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-280">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-281">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-281">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="8a22f-282">Da</span><span class="sxs-lookup"><span data-stu-id="8a22f-282">Yes</span></span> </p>
             </td>
             <td width="54" valign="top">
                 <p>
-Neveljavno </p>
+<span data-ttu-id="8a22f-283">Neveljavno</span><span class="sxs-lookup"><span data-stu-id="8a22f-283">Not Valid</span></span> </p>
             </td>
         </tr>
     </tbody>

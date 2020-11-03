@@ -9,37 +9,37 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961948"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084604"
 ---
-# <a name="define-resource-calendars"></a>Določanje koledarjev virov
+# <a name="define-resource-calendars"></a><span data-ttu-id="62791-103">Določanje koledarjev virov</span><span class="sxs-lookup"><span data-stu-id="62791-103">Define resource calendars</span></span>
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+<span data-ttu-id="62791-104">_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_</span><span class="sxs-lookup"><span data-stu-id="62791-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Vsak projektni vir, ki ga je mogoče rezervirati, mora imeti koledar delovnega časa, ki določa njegovo razpoložljivost. Delovni čas za vir lahko določimo na dva načina: 
+<span data-ttu-id="62791-105">Vsak projektni vir, ki ga je mogoče rezervirati, mora imeti koledar delovnega časa, ki določa njegovo razpoložljivost.</span><span class="sxs-lookup"><span data-stu-id="62791-105">Each bookable resource working on a project must have a calendar of working hours to define their availability.</span></span> <span data-ttu-id="62791-106">Delovni čas za vir lahko določimo na dva načina:</span><span class="sxs-lookup"><span data-stu-id="62791-106">Workings hours for a resource can be defined in two ways:</span></span> 
 
-   - Določanje pravil posameznega koledarja za vir
-   - Uporaba obstoječe predloge koledarja za vir
+   - <span data-ttu-id="62791-107">Določanje pravil posameznega koledarja za vir</span><span class="sxs-lookup"><span data-stu-id="62791-107">Define individual calendar rules for a resource</span></span>
+   - <span data-ttu-id="62791-108">Uporaba obstoječe predloge koledarja za vir</span><span class="sxs-lookup"><span data-stu-id="62791-108">Apply an existing calendar template for the resource</span></span>
 
-## <a name="define-a-resources-working-hours"></a>Določanje delovnega časa za vir
+## <a name="define-a-resources-working-hours"></a><span data-ttu-id="62791-109">Določanje delovnega časa za vir</span><span class="sxs-lookup"><span data-stu-id="62791-109">Define a resource's working hours</span></span>
 
-1. Na meniju **Viri** izberite možnost **Viri**.
-2. V pogledu mreže izberite ustrezni **razpoložljivi vir**.
-3. Nastrani **Podrobnosti vira** izberite zavihek **Delovni čas**. Privzeto koledar razpoložljivih virov privzame delovni čas privzete predloge delovnega časa, ki je določena za organizacijo.
-4. Če želite posodobiti delovni čas, z desno miškino tipko kliknite začetni datum predlaganega pravila koledarja, ki ga želite določiti. Z menijem pravila koledarja določite pravilo koledarja za posamezen dan, preostanek niza ali celoten koledar.
-5. Po izbiri možnosti lahko določite:
+1. <span data-ttu-id="62791-110">Na meniju **Viri** izberite možnost **Viri**.</span><span class="sxs-lookup"><span data-stu-id="62791-110">On the **Resources** menu, select **Resources**.</span></span>
+2. <span data-ttu-id="62791-111">V pogledu mreže izberite ustrezni **razpoložljivi vir**.</span><span class="sxs-lookup"><span data-stu-id="62791-111">From the grid view, select the applicable **Bookable Resource**.</span></span>
+3. <span data-ttu-id="62791-112">Nastrani **Podrobnosti vira** izberite zavihek **Delovni čas**. Privzeto koledar razpoložljivih virov privzame delovni čas privzete predloge delovnega časa, ki je določena za organizacijo.</span><span class="sxs-lookup"><span data-stu-id="62791-112">On the **Resource Details** page, select the **Working Hours** tab. By default, the bookable resources calendar defaults to the working hours of the default work hour template that is defined for the organization.</span></span>
+4. <span data-ttu-id="62791-113">Če želite posodobiti delovni čas, z desno miškino tipko kliknite začetni datum predlaganega pravila koledarja, ki ga želite določiti.</span><span class="sxs-lookup"><span data-stu-id="62791-113">To update the working hours, right-click on the start date of the proposed calendar rule to be defined.</span></span> <span data-ttu-id="62791-114">Z menijem pravila koledarja določite pravilo koledarja za posamezen dan, preostanek niza ali celoten koledar.</span><span class="sxs-lookup"><span data-stu-id="62791-114">Use the calendar rule menu to define a calendar rule for a specific day, the remainder of the series, or the entire calendar.</span></span>
+5. <span data-ttu-id="62791-115">Po izbiri možnosti lahko določite:</span><span class="sxs-lookup"><span data-stu-id="62791-115">After the option is selected, you can then define:</span></span>
 
-    - Dan v tednu, za katerega velja delovni čas
-    - Delovni čas znotraj posameznega dneva
-    - Časovni pas koledarskega pravila
-    - Če je primerno, lahko za pravilo določite tudi čas neobratovanja.
+    - <span data-ttu-id="62791-116">Dan v tednu, za katerega velja delovni čas</span><span class="sxs-lookup"><span data-stu-id="62791-116">The day of the week where the working hours will apply.</span></span>
+    - <span data-ttu-id="62791-117">Delovni čas znotraj posameznega dneva</span><span class="sxs-lookup"><span data-stu-id="62791-117">The working times within each day.</span></span>
+    - <span data-ttu-id="62791-118">Časovni pas koledarskega pravila</span><span class="sxs-lookup"><span data-stu-id="62791-118">The time zone for the calendar rule.</span></span>
+    - <span data-ttu-id="62791-119">Če je primerno, lahko za pravilo določite tudi čas neobratovanja.</span><span class="sxs-lookup"><span data-stu-id="62791-119">If applicable, non-working time can also be specified for the rule.</span></span>
 
-## <a name="applying-a-calendar-template-to-a-resource"></a>Uporaba predloge koledarja za vir
+## <a name="applying-a-calendar-template-to-a-resource"></a><span data-ttu-id="62791-120">Uporaba predloge koledarja za vir</span><span class="sxs-lookup"><span data-stu-id="62791-120">Applying a calendar template to a resource</span></span>
 
-1. Na meniju **Viri** izberite možnost **Viri**.
-2. V pogledu mreže izberite do 25 **razpoložljivih virov**, ki jih želite posodobiti.
-3. Izberite možnost **Nastavitve koledarja** za prikaz seznama razpoložljivih predlog delovnega časa v pogovornem oknu.
-4. Izberite predlogo, ki jo želite uporabiti, in nato izberite možnost **Uporabi**.
+1. <span data-ttu-id="62791-121">Na meniju **Viri** izberite možnost **Viri**.</span><span class="sxs-lookup"><span data-stu-id="62791-121">On the **Resources** menu, select **Resources**.</span></span>
+2. <span data-ttu-id="62791-122">V pogledu mreže izberite do 25 **razpoložljivih virov** , ki jih želite posodobiti.</span><span class="sxs-lookup"><span data-stu-id="62791-122">From the grid view, select up to 25 **Bookable Resources** to update.</span></span>
+3. <span data-ttu-id="62791-123">Izberite možnost **Nastavitve koledarja** za prikaz seznama razpoložljivih predlog delovnega časa v pogovornem oknu.</span><span class="sxs-lookup"><span data-stu-id="62791-123">Select **Set Calendar** and a dialog will prompt you with a list of available work hour templates.</span></span>
+4. <span data-ttu-id="62791-124">Izberite predlogo, ki jo želite uporabiti, in nato izberite možnost **Uporabi**.</span><span class="sxs-lookup"><span data-stu-id="62791-124">Select the template you want to use, and then select **Apply**.</span></span>
