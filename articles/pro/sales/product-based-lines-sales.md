@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896256"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084682"
 ---
 # <a name="product-based-opportunity-lines"></a>Podrobnosti priložnosti, ki temeljijo na izdelkih
 
@@ -25,4 +25,4 @@ Podrobnosti, ki temeljijo na izdelkih, so lahko kataloški izdelki ali izdelki, 
 
 Eden od konceptov glede podrobnosti priložnosti, ki temeljijo na izdelkih in je značilen za priložnosti, ki temeljijo na projektih, je **Proračun stranke**. S tem poljem sledite znesku, ki ga je stranka pripravljena plačati za vrstično postavko.
 
-Če je metoda prihodka za povzetek priložnosti nastavljena na **Izračuna sistem**, so vrednosti proračuna strank pri podrobnostih, ki temeljijo na izdelkih ali projektih, povzete za izračun ocenjenega prihodka.
+Če je metoda prihodka za povzetek priložnosti nastavljena na **Izračuna sistem** , so vrednosti proračuna strank pri podrobnostih, ki temeljijo na izdelkih ali projektih, povzete za izračun ocenjenega prihodka.

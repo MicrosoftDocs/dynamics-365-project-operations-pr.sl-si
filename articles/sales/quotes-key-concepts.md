@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b252f6e02d0809c352d3665731ec5e02e4e9a73f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 42ea1eb71b3285159b3fdf79ba34a562f948fd6e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898462"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084922"
 ---
 # <a name="quotes---key-concepts"></a>Ponudbe – ključni pojmi
 
@@ -31,20 +30,20 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, 
 
 V storitvi Dynamics 365 Project Operations obstajata dve vrsti ponudb, projektne in prodajne. Vrsti ponudb se razlikujeta na naslednje načine:
 
-- **Mreže za vrstične postavke**: v prodajni ponudbi obstaja samo ena mreža za vrstične postavke. V projektni ponudbi sta dve mreži za vrstične postavke. Ena mreža je za projektne vrstice in druga je za vrstice izdelka.
-- **Aktivacija in popravki**: prodajna ponudba podpira aktivacijo in popravke. Ti procesi niso podprti pri projektni ponudbi.
-- **Priložena naročila**: prodajni ponudbi lahko priložite več naročil. Projektni ponudbi lahko priložite samo eno projektno pogodbo.
-- **Dobitna ponudba**: ko dobite prodajno ponudbo, lahko povezana priložnost ostane odprta. Ko je projektna ponudba pridobljena, se povezana priložnost zapre.
-- **Polja in koncepti**: prodajna ponudba ne vsebuje nekaterih polj in konceptov, ki so vključeni v projektno ponudbo. Polja vključujejo **pogodbeno enoto**, **upravitelja kupcev** in **ime stika za plačilo**.  
-- **Vrsta**: prodajne in projektne ponudbe so določene tudi s poljem, ki temelji na naboru možnosti in se imenuje **Vrsta**. Za prodajno ponudbo ima to polje vrednost **Temelji na elementu**. Za projektno ponudbo pa ima polje vrednost **Temelji na delu**.
+- **Mreže za vrstične postavke** : v prodajni ponudbi obstaja samo ena mreža za vrstične postavke. V projektni ponudbi sta dve mreži za vrstične postavke. Ena mreža je za projektne vrstice in druga je za vrstice izdelka.
+- **Aktivacija in popravki** : prodajna ponudba podpira aktivacijo in popravke. Ti procesi niso podprti pri projektni ponudbi.
+- **Priložena naročila** : prodajni ponudbi lahko priložite več naročil. Projektni ponudbi lahko priložite samo eno projektno pogodbo.
+- **Dobitna ponudba** : ko dobite prodajno ponudbo, lahko povezana priložnost ostane odprta. Ko je projektna ponudba pridobljena, se povezana priložnost zapre.
+- **Polja in koncepti** : prodajna ponudba ne vsebuje nekaterih polj in konceptov, ki so vključeni v projektno ponudbo. Polja vključujejo **pogodbeno enoto** , **upravitelja kupcev** in **ime stika za plačilo**.  
+- **Vrsta** : prodajne in projektne ponudbe so določene tudi s poljem, ki temelji na naboru možnosti in se imenuje **Vrsta**. Za prodajno ponudbo ima to polje vrednost **Temelji na elementu**. Za projektno ponudbo pa ima polje vrednost **Temelji na delu**.
 
 V tej temi se osredotočamo na podrobnosti projektnih ponudb.
 
 Projektna ponudba v storitvi Project Operations ima lahko več vrstičnih postavk ali vrstic ponudbe. U bistvu ima projektna ponudba dve mreži za vrstične postavke. Ena mreža je za vrstice, ki temeljijo na projektih in omogočajo podrobne ocene. Druga mreža je za vrstice, ki temeljijo na izdelkih in uporabljajo enostavno ceno enote in pristop na podlagi količine.
 
-- **Na podlagi projektov**: ponudbena vrednost je določena po tem, ko ocenite, koliko dela je potrebno. Delo lahko ocenite na visoki ravni, neposredno kot podrobnosti vrstice pod vsako ponudbeno vrstico ali na podlagi začetnih ocen z uporabo projekta in projektnega načrta. Vrstice ponudbe, ki temeljijo na projektih, so na voljo samo v ponudbah, ki temeljijo na projektih in so ustvarjene s storitvijo Project Operations. Ta vrsta vrstice ponudb je prilagojena oblika vrstic ponudb iz kataloga, na voljo v aplikaciji Microsoft Dynamics 365 Sales.
+- **Na podlagi projektov** : ponudbena vrednost je določena po tem, ko ocenite, koliko dela je potrebno. Delo lahko ocenite na visoki ravni, neposredno kot podrobnosti vrstice pod vsako ponudbeno vrstico ali na podlagi začetnih ocen z uporabo projekta in projektnega načrta. Vrstice ponudbe, ki temeljijo na projektih, so na voljo samo v ponudbah, ki temeljijo na projektih in so ustvarjene s storitvijo Project Operations. Ta vrsta vrstice ponudb je prilagojena oblika vrstic ponudb iz kataloga, na voljo v aplikaciji Microsoft Dynamics 365 Sales.
 
-- **Na podlagi izdelkov**: ponudbena vrednost je določena na podlagi količine prodanih enot in prodajne cene enote. Izdelek v vrstici, ki temelji na izdelku, lahko izhaja iz kataloga izdelkov aplikacije Sales, lahko pa gre za izdelek, ki ga določite. Ta vrsta vrstice ponudbe je na voljo tudi v ponudbah, ki temeljijo na projektih in so ustvarjene s storitvijo Project Operations.
+- **Na podlagi izdelkov** : ponudbena vrednost je določena na podlagi količine prodanih enot in prodajne cene enote. Izdelek v vrstici, ki temelji na izdelku, lahko izhaja iz kataloga izdelkov aplikacije Sales, lahko pa gre za izdelek, ki ga določite. Ta vrsta vrstice ponudbe je na voljo tudi v ponudbah, ki temeljijo na projektih in so ustvarjene s storitvijo Project Operations.
 
 Znesek v ponudbi je skupna vrednost iz vrstic, ki temeljijo na izdelkih, in vrstic, ki temeljijo na projektih.
 
@@ -76,12 +75,12 @@ Project Operations podpira vse tri vrste razporedov izdajanja računov za vrstic
 
 Organizacije, ki ponujajo strokovne storitve, svojim kupcem običajno dajejo ponudbe in jim zaračunajo glede na razvrstitev stroškov. Stroški so predstavljeni z naslednjimi klasifikacijami transakcij:
 
-- **Čas**: ta klasifikacija predstavlja stroške dela ali časa človeških virov v projektu.
-- **Strošek**: ta klasifikacija predstavlja vse druge vrste stroškov v projektu. Ker so stroški lahko razvrščeni na splošno, večina organizacij ustvari podkategorije, kot so potni stroški, stroški najema avtomobila, hotelski stroški ali stroški pisarniškega materiala.
-- **Nadomestilo**: ta klasifikacija predstavlja razne dodatne stroške, kazni in druge elemente, ki se zaračunajo kupcu. 
-- **Davek**: ta klasifikacija predstavlja davčne zneske, ki jih uporabniki dodajo med vnašanjem stroškov.
-- **Materialna transakcija**: ta klasifikacija predstavlja dejanske vrednosti iz vrstice izdelkov na potrjenem računu projekta.
-- **Mejnik**: to klasifikacijo uporablja logika obračunavanja fiksnih cen.
+- **Čas** : ta klasifikacija predstavlja stroške dela ali časa človeških virov v projektu.
+- **Strošek** : ta klasifikacija predstavlja vse druge vrste stroškov v projektu. Ker so stroški lahko razvrščeni na splošno, večina organizacij ustvari podkategorije, kot so potni stroški, stroški najema avtomobila, hotelski stroški ali stroški pisarniškega materiala.
+- **Nadomestilo** : ta klasifikacija predstavlja razne dodatne stroške, kazni in druge elemente, ki se zaračunajo kupcu. 
+- **Davek** : ta klasifikacija predstavlja davčne zneske, ki jih uporabniki dodajo med vnašanjem stroškov.
+- **Materialna transakcija** : ta klasifikacija predstavlja dejanske vrednosti iz vrstice izdelkov na potrjenem računu projekta.
+- **Mejnik** : to klasifikacijo uporablja logika obračunavanja fiksnih cen.
 
 Z vsako vrstico ponudbe je mogoče povezati eno ali več teh klasifikacij transakcij. Ko je ponudba pridobljena, se preslikava med klasifikacijo transakcije in vrstico ponudbe prenese v podrobnosti pogodbe.
   
@@ -91,16 +90,16 @@ Ponudba lahko na primer vsebuje naslednji vrstici ponudbe:
 - Povezani potni stroški, ki uporabljajo način obračunavanja »Fiksna cena«. Vsi potni stroški za primer projekta **Uvedba Dynamics AX** so zaračunani po fiksni denarni vrednosti.
 
 > [!NOTE]
-> Kombinacija projekta in klasifikacij transakcij **Čas**, **Strošek** in **Nadomestilo**, ki so povezane z vrstico ponudbe ali podrobnostmi pogodbe, mora biti edinstvena. Če je ista kombinacija razreda projekta in transakcije povezana z več kot enimi podrobnostmi pogodbe ali vrsticami ponudbe, storitev Project Operations ne bo pravilno delovala.
+> Kombinacija projekta in klasifikacij transakcij **Čas** , **Strošek** in **Nadomestilo** , ki so povezane z vrstico ponudbe ali podrobnostmi pogodbe, mora biti edinstvena. Če je ista kombinacija razreda projekta in transakcije povezana z več kot enimi podrobnostmi pogodbe ali vrsticami ponudbe, storitev Project Operations ne bo pravilno delovala.
 
 ## <a name="billing-types"></a>Vrste obračunavanja
 
 Polje **Vrsta obračunavanja** določa pojem zaračunavanja. To je nabor možnosti, ki ima naslednje možne vrednosti:
 
-- **Se zaračuna**: strošek, ki se obračuna s to vlogo/kategorijo, se šteje kot neposreden strošek, ki spodbuja izvedbo projekta, stranka pa bo plačala za to delo. Plačilo se lahko upravlja kot dogovor, zasnovan na času in materialu ali fiksni ceni. Zaposleni, ki porabi ta čas, pa bo dobil ustrezno plačilo za svojo zaračunano porabo.
-- **Se ne zaračuna**: strošek, ki se obračuna s to vlogo/kategorijo, se šteje kot neposreden strošek, ki spodbuja izvedbo projekta, tudi če stranka tega dejstva ne upošteva in ne želi plačati za to delo. Zaposleni, ki porabi ta čas, ne bo plačan za zaračunano porabo za ta čas.
-- **Brezplačno**: strošek, ki se obračuna s to vlogo/kategorijo, se šteje kot neposreden strošek, ki spodbuja izvedbo projekta, stranka pa to dejstvo priznava. Zaposleni, ki porabi ta čas, bo plačan za zaračunano porabo za ta čas. Vendar se ta strošek ne zaračuna kupcu.
-- **Ni na voljo**: s to možnostjo se spremljajo stroški, nastali pri internih projektih, ki ne zahtevajo sledenja prihodkom.
+- **Se zaračuna** : strošek, ki se obračuna s to vlogo/kategorijo, se šteje kot neposreden strošek, ki spodbuja izvedbo projekta, stranka pa bo plačala za to delo. Plačilo se lahko upravlja kot dogovor, zasnovan na času in materialu ali fiksni ceni. Zaposleni, ki porabi ta čas, pa bo dobil ustrezno plačilo za svojo zaračunano porabo.
+- **Se ne zaračuna** : strošek, ki se obračuna s to vlogo/kategorijo, se šteje kot neposreden strošek, ki spodbuja izvedbo projekta, tudi če stranka tega dejstva ne upošteva in ne želi plačati za to delo. Zaposleni, ki porabi ta čas, ne bo plačan za zaračunano porabo za ta čas.
+- **Brezplačno** : strošek, ki se obračuna s to vlogo/kategorijo, se šteje kot neposreden strošek, ki spodbuja izvedbo projekta, stranka pa to dejstvo priznava. Zaposleni, ki porabi ta čas, bo plačan za zaračunano porabo za ta čas. Vendar se ta strošek ne zaračuna kupcu.
+- **Ni na voljo** : s to možnostjo se spremljajo stroški, nastali pri internih projektih, ki ne zahtevajo sledenja prihodkom.
 
 ## <a name="invoice-schedule"></a>Razpored izdajanja računov
 
@@ -116,16 +115,16 @@ Te tri vrednosti atributov se uporabljajo za ustvarjanje pogojnega nabora datumo
 
 Pogostost izdajanja računov je entiteta, ki shranjuje vrednosti atributov, ki pomagajo izraziti pogostost ustvarjanja računa. Naslednji atributi izražajo ali določajo entiteto pogostosti izdajanja računov:
 
-- **Obdobje**: podprta so mesečna, dvotedenska in tedenska obdobja. 
-- **Izvajanje na obdobje**: za tedenska in dvotedenska obdobja lahko določite samo eno izvajanje na obdobje. Za mesečna obdobja lahko določite eno ali do štiri izvajanja na obdobje. 
-- **Dnevi izvajanja**: dnevi, ko je treba izvesti izdajanje računov. Ta atribut lahko konfigurirate na dva načina:
-  - **Delavniki**: lahko na primer določite, da se izdajanje računov izvaja vsak ponedeljek ali vsak drug ponedeljek. Takšna vrsta konfiguracije je lahko bolj všeč strankam, ki morajo nastaviti izvajanje izdajanja računov ob delovnih dneh. 
-  - **Koledarski dnevi**: lahko na primer določite, da se izdajanje računov izvaja sedmi in enaindvajseti dan vsakega meseca. Tovrstna konfiguracija bo morda všeč nekaterim organizacijam, ker zagotavlja, da se izdajanje računov izvaja vsak mesec po fiksnem razporedu.
+- **Obdobje** : podprta so mesečna, dvotedenska in tedenska obdobja. 
+- **Izvajanje na obdobje** : za tedenska in dvotedenska obdobja lahko določite samo eno izvajanje na obdobje. Za mesečna obdobja lahko določite eno ali do štiri izvajanja na obdobje. 
+- **Dnevi izvajanja** : dnevi, ko je treba izvesti izdajanje računov. Ta atribut lahko konfigurirate na dva načina:
+  - **Delavniki** : lahko na primer določite, da se izdajanje računov izvaja vsak ponedeljek ali vsak drug ponedeljek. Takšna vrsta konfiguracije je lahko bolj všeč strankam, ki morajo nastaviti izvajanje izdajanja računov ob delovnih dneh. 
+  - **Koledarski dnevi** : lahko na primer določite, da se izdajanje računov izvaja sedmi in enaindvajseti dan vsakega meseca. Tovrstna konfiguracija bo morda všeč nekaterim organizacijam, ker zagotavlja, da se izdajanje računov izvaja vsak mesec po fiksnem razporedu.
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Razpored izdajanja računov za vrstico ponudbo fiksne cene
 
-Za vrstico ponudbe fiksne cene lahko uporabite mrežo **Razpored izdajanja računov**, da ustvarite mejnike obračunavanja, ki so enaki vrednosti v vrstici ponudbe.
+Za vrstico ponudbe fiksne cene lahko uporabite mrežo **Razpored izdajanja računov** , da ustvarite mejnike obračunavanja, ki so enaki vrednosti v vrstici ponudbe.
 
-- Da ustvarite mejnike obračunavanja, ki so enako razdeljeni, izberite pogostost izvajanja računov, vnesite začetni datum obračunavanja v vrstico ponudbe in izberite **Zahtevani datum zaključka** za ponudbo v razdelku glave ponudbe **Povzetek**. Nato izberite **Ustvari periodične mejnike**, da ustvarite enakomerno razdeljene mejnike na podlagi izbrane pogostosti izdajanja računov. 
+- Da ustvarite mejnike obračunavanja, ki so enako razdeljeni, izberite pogostost izvajanja računov, vnesite začetni datum obračunavanja v vrstico ponudbe in izberite **Zahtevani datum zaključka** za ponudbo v razdelku glave ponudbe **Povzetek**. Nato izberite **Ustvari periodične mejnike** , da ustvarite enakomerno razdeljene mejnike na podlagi izbrane pogostosti izdajanja računov. 
 - Če želite ustvariti mejnik obračunavanja za enkratno izplačilo, ustvarite mejnik in nato vnesite vrednost vrstice ponudbe kot znesek mejnika.
 - Če želite ustvariti mejnike obračunavanja, ki temeljijo na določenih opravilih v načrtu projekta, ustvarite mejnik in ga preslikajte v element projektnega razporeda v uporabniškem vmesniku mejnika obračunavanja.

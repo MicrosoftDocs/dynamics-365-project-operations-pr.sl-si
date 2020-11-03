@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966867"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084660"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Ocenjevanje vrstice ponudbe, ki temelji na projektih
 
@@ -30,7 +30,7 @@ Za oceno vrstice ponudbe, ki temelji na projektu, v vrstici izberite zavihek **P
 
 Če želite ustvariti oceno na vrstici ponudbe, ki temelji na projektu, izberite zavihek **Podrobnosti vrstice ponudbe**. V elementu vrstice, ki ga ustvarite na tem zavihku, bo povzeta ponudbena vrednost te vrstice ponudbe. 
 
-Če želite ustvariti podrobnosti vrstice ponudbe, izberite možnost **+ Nova podrobnost vrstice ponudbe** na podmreži **Podrobnosti vrstice ponudbe**. Odpre se drsnik za hitro ustvarjanje. Oblikujejo se naslednja polja na obrazcu **Vrstica ponudbe**:
+Če želite ustvariti podrobnosti vrstice ponudbe, izberite možnost **+ Nova podrobnost vrstice ponudbe** na podmreži **Podrobnosti vrstice ponudbe**. Odpre se drsnik za hitro ustvarjanje. Oblikujejo se naslednja polja na obrazcu **Vrstica ponudbe** :
 
 | **Polje** | **Mesto** | **Ustreznost, namen in smernice** | **Nadaljnji vpliv** |
 | --- | --- | --- | --- |
@@ -50,7 +50,7 @@ Za oceno vrstice ponudbe, ki temelji na projektu, v vrstici izberite zavihek **P
 
 ## <a name="update-prices-on-quote-line-details"></a>Posodobitev cen v podrobnostih vrstice ponudbe
 
-Če ste spremenili cene na ceniku projekta, ki je priložen ponudbi, ali na ceniku naročnika, lahko na strani **Ponudba** izberete možnost **Izračunaj znova**, da osvežite cene na podrobnostih posamezne vrstice ponudbe za odražanje vnesenih sprememb. Če izberete **Izračunaj znova**, se prikaže opozorilo, ki vas obvesti, da bodo ponastavljene cene na podrobnostih vrstice ponudbe za vse vrstice. Izberite možnost **Da**, da osvežite cene za prodajo in podrobnosti cen v vrstici ponudbe.
+Če ste spremenili cene na ceniku projekta, ki je priložen ponudbi, ali na ceniku naročnika, lahko na strani **Ponudba** izberete možnost **Izračunaj znova** , da osvežite cene na podrobnostih posamezne vrstice ponudbe za odražanje vnesenih sprememb. Če izberete **Izračunaj znova** , se prikaže opozorilo, ki vas obvesti, da bodo ponastavljene cene na podrobnostih vrstice ponudbe za vse vrstice. Izberite možnost **Da** , da osvežite cene za prodajo in podrobnosti cen v vrstici ponudbe.
 
 ## <a name="access-quote-line-details-for-cost"></a>Dostop do podrobnosti vrstice ponudbe za cene
 

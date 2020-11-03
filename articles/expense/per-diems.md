@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908608"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084630"
 ---
 # <a name="per-diems"></a>Dnevnice
 
@@ -30,4 +30,4 @@ Dnevnica je dodatek, ki se izplača delavcu, ki dela na terenu. V razdelku »Upr
 4. Če želite znižati odstotek za obrok za zajtrk, kosilo ali večerjo, posodobite polja na strani **Parametri upravljanja stroškov** na zavihku **Dnevnica**. 
     
 ## <a name="submit-expenses-using-per-diem"></a>Pošiljanje stroškov z možnostjo dnevnic
-Če želite poslati stroške z možnostjo dnevnic, uporabite kategorijo stroška **Dnevnica**, ko ustvarite poročilo o stroških. Vnesite **Začetni datum dnevnic**, **Končni datum dnevnic** in **Lokacija dnevnic**. Znesek se izračuna na podlagi vrednosti dnevnic za izbrano lokacijo, znižanje za obrok pa na podlagi stopnje vrednosti dnevnic.
+Če želite poslati stroške z možnostjo dnevnic, uporabite kategorijo stroška **Dnevnica** , ko ustvarite poročilo o stroških. Vnesite **Začetni datum dnevnic** , **Končni datum dnevnic** in **Lokacija dnevnic**. Znesek se izračuna na podlagi vrednosti dnevnic za izbrano lokacijo, znižanje za obrok pa na podlagi stopnje vrednosti dnevnic.

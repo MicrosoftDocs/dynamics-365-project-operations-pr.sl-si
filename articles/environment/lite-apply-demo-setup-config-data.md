@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949077"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084621"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Uporaba predstavitvenih podatkov za nastavitev in konfiguracijo za poenostavljeno uvedbo storitve Project Operations – od posla do izstavitve predračuna
 
@@ -25,7 +25,7 @@ _**Poenostavljena uvedba – od posla do izstavitve predračuna_
 
 ![Selitev konfiguracije](./media/1ConfigurationMigration.png)
 
-4. Na 2. strani čarovnika CMT izberite **Office 365** kot možnost **Vrsta uvajanja**.
+4. Na 2. strani čarovnika CMT izberite **Microsoft 365** kot možnost **Vrsta uvajanja**.
 5. Izberite potrditvena polja **Prikaži seznam organizacij, ki so na voljo** in **Pokaži napredno**.
 6. Izberite regijo vašega najemnika, vnesite poverilnice in nato izberite **Prijava**.
 

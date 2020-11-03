@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908603"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084647"
 ---
 # <a name="project-team-members"></a>Člani projektne ekipe
 
@@ -47,16 +47,16 @@ V naslednji tabeli so navedeni ključni atributi člana projektne skupine.
 
 Iz mreže članov ekipe lahko izvedete naslednja dejanja:
 
-- **Rezerviraj**: za organizacije, ki uporabljajo metodologijo hibridnih rezervacij, bo dejanje rezervacije uporabnikom omogočilo, da rezervirajo imenovani vir na podlagi zahtev, ki jih ustvari splošni član ekipe.
-- **Ustvari zahtevo**: s tem dejanjem se ustvari zahteva.
-- **Navedi vzorec**: omogoča vodjem projektov, da natančno prilagodijo krivulje potreb po virih. Vodje projektov se lahko prilagodijo specifičnim potrebam projekta, kadar privzeta porazdelitev ne ustreza.
-- **Pošlji zahtevo**: za organizacije, ki uporabljajo centralno metodologijo rezervacij.
-- **Uredi**: atribute članov ekipe lahko urejate, vključno z organizacijsko enoto, vlogo in imenom položaja.
-- **Upravljaj rezervacije**: ko je treba posodobiti rezervacije virov, upravljanje rezervacij omogoča vodji projekta, da prilagodi:
+- **Rezerviraj** : za organizacije, ki uporabljajo metodologijo hibridnih rezervacij, bo dejanje rezervacije uporabnikom omogočilo, da rezervirajo imenovani vir na podlagi zahtev, ki jih ustvari splošni član ekipe.
+- **Ustvari zahtevo** : s tem dejanjem se ustvari zahteva.
+- **Navedi vzorec** : omogoča vodjem projektov, da natančno prilagodijo krivulje potreb po virih. Vodje projektov se lahko prilagodijo specifičnim potrebam projekta, kadar privzeta porazdelitev ne ustreza.
+- **Pošlji zahtevo** : za organizacije, ki uporabljajo centralno metodologijo rezervacij.
+- **Uredi** : atribute članov ekipe lahko urejate, vključno z organizacijsko enoto, vlogo in imenom položaja.
+- **Upravljaj rezervacije** : ko je treba posodobiti rezervacije virov, upravljanje rezervacij omogoča vodji projekta, da prilagodi:
 
     - Začetek
     - Konec
     - Dodelitev skupnega obsega dela
 
-- **Novo**: poleg dodajanja virov neposredno iz razporeda lahko vodje projektov iz mreže članov ekipe dodajo nove imenovane ali splošne člane ekipe.
-- **Izbriši**: z izbiro enega ali več članov ekipe lahko vodja projekta izbriše vire, ki ne bodo več sodelovali v projektu. Če izbrišete člana ekipe, boste izbrisali tudi vse povezane dodelitve virov in preklicali vse obstoječe rezervacije.
+- **Novo** : poleg dodajanja virov neposredno iz razporeda lahko vodje projektov iz mreže članov ekipe dodajo nove imenovane ali splošne člane ekipe.
+- **Izbriši** : z izbiro enega ali več članov ekipe lahko vodja projekta izbriše vire, ki ne bodo več sodelovali v projektu. Če izbrišete člana ekipe, boste izbrisali tudi vse povezane dodelitve virov in preklicali vse obstoječe rezervacije.

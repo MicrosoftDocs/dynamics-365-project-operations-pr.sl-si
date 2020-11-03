@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906339"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084623"
 ---
 # <a name="project-based-quote-lines"></a>Podrobnosti ponudb, ki temeljijo na projektih
 
@@ -47,11 +47,11 @@ Naslednja tabela vsebuje informacije o poljih na zavihku **Splošno** pri podrob
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Pravila za preverjanje veljavnosti polj na zavihku Splošno v podrobnostih ponudb, ki temeljijo na projektih
 
-**1. pravilo**: določen razred transakcije v izbranem projektu je mogoče vključiti samo v eno podrobnost ponudbe, ki temelji na projektih.
+**1. pravilo** : določen razred transakcije v izbranem projektu je mogoče vključiti samo v eno podrobnost ponudbe, ki temelji na projektih.
 
 **2. pravilo** : če ima priložnost več ponudb, so lahko podrobnosti ponudbe za različne ponudbe, ki se vse sklicujejo na isti projekt in vključujejo isti razred transakcije.
 
-**3. pravilo**: če ponudbe ne pripadajo isti priložnosti, ne morejo vključevati istega projekta in razreda transakcije.
+**3. pravilo** : če ponudbe ne pripadajo isti priložnosti, ne morejo vključevati istega projekta in razreda transakcije.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

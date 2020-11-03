@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 483775e1334a281026dbfaf214d06d235255f13e
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 12c7971204b485ee7cb222cd9cffdfdfde93dcf4
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896841"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084719"
 ---
 # <a name="set-up-credit-card-integration"></a>Nastavitev integracije kreditne kartice
 
@@ -34,7 +33,7 @@ Transakcije s kreditnimi karticami, povezane s stroški, lahko nastavite tako, d
 1. Na strani **Transakcije s kreditnimi karticami** izberite **Uvoz transakcij**. Če prvič odpirate upravljanje podatkov, mora sistem posodobiti seznam podatkovnih entitet, preden lahko nadaljujete.
 2. V polje **Ime** vnesite enolični opis opravila uvoza.
 3. V polju **Izvorna oblika zapisa podatkov** izberite obliko zapisa datoteke, ki vsebuje transakcije s kreditno kartico za uvoz.
-4. Izberite **Naloži**, nato pa poiščite in izberite datoteko za uvoz.
+4. Izberite **Naloži** , nato pa poiščite in izberite datoteko za uvoz.
 5. Ko je datoteka naložena, preverite preslikavo datoteke transakcij s kreditnimi karticami in stolpce podatkovne entitete transakcij s kreditnimi karticami, tako da izberete povezavo **Prikaz zemljevida** na ploščici. Če obstajajo napake pri preslikavi ali če morate spremeniti preslikavo, naredite spremembe preslikave bodisi iz zavihka **Upodobitev preslikave** ali zavihka **Podrobnosti preslikave**.
 6. Za avtomatizacijo transakcij s kreditnimi karticami izberite **Ustvari ponavljajoči se podatkovni posel**. Nato lahko nastavite ponavljanje, ki opredeljuje, kako pogosto naj se transakcije s kreditnimi karticami uvozijo. Ko končate, izberite **V redu**.
 7. Če želite izbrano datoteko uvoziti zdaj, izberite **Uvozi**.

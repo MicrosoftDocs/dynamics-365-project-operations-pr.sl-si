@@ -3,26 +3,198 @@ title: Potrditev predračuna
 description: Ta tema vsebuje informacije o potrditvi predračuna.
 author: rumant
 manager: AnnBe
-ms.date: 06/21/2020
+ms.date: 10/13/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: be6b8efe7afb4d78cda6864baaa687a9c005117a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.author: rumant
+ms.openlocfilehash: 560bb68cba865a6af60504114126ae6ea73dde2d
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896076"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084601"
 ---
-# <a name="confirming-a-proforma-invoice"></a>Potrditev predračuna
+# <a name="confirm-a-proforma-invoice"></a>Potrditev predračuna
+
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+
+Po potrditvi predračuna se stanje računa projekta posodobi na **Potrjeno**. Ko je račun potrjen, postane na voljo samo za branje. V prihodnje je račun lahko popravljen le, če popravke ali dobropis zahteva stranka oz. če je račun označen kot plačan.
+
+V spodnji tabeli so navedeni dejanski podatki, ki jih je ustvaril sistem. Ti dejanski podatki so ustvarjeni, ko se pred potrditvijo osnutka računa za projekt izvedejo določene operacije.
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="416" valign="top">
+                <p>
+                    <strong>Scenarij</strong>
+                </p>
+            </td>
+            <td width="608" valign="top">
+                <p>
+                    <strong>Dejanski podatki, ustvarjeni ob potrditvi</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Izdajanje računov za časovno transakcijo brez sprememb na osnutku računa
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje neobračunane prodaje za ure in znesek ob prvotni odobritvi časa.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Dejanska vrednost obračunane prodaje za ure in znesek ob prvotni odobritvi časa
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Izdajanje računov za časovno transakcijo, ki je bila urejena za zmanjšanje količine
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje neobračunane prodaje za ure in znesek ob prvotni odobritvi časa.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nova dejanska vrednost neobračunane prodaje, ki se zaračuna za ure in znesek na urejeni podrobnosti vrstice računa, storniranje neobračunane dejanske vrednosti prodaje in enakovredna obračunana dejanska vrednost prodaje
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nova dejanska vrednost neobračunane prodaje, ki po odštetju popravljenih vrednosti ni zaračunljiva za preostanek ur in zneska na urejeni podrobnosti vrstice računa, storniranje neobračunane dejanske vrednosti prodaje in enakovredna obračunana dejanska vrednost prodaje.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Izdajanje računov za časovno transakcijo, ki je bila urejena za povečanje količine
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje neobračunane prodaje za ure in znesek ob prvotni odobritvi časa.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nova dejanska vrednost neobračunane prodaje, ki se zaračuna za ure in znesek na urejeni podrobnosti vrstice računa, storniranje neobračunane dejanske vrednosti prodaje in enakovredna obračunana dejanska vrednost prodaje
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Izdajanje računov za transakcijo stroška brez sprememb na osnutku računa
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje neobračunane prodaje za količino in znesek ob prvotni odobritvi stroškov
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Obračunana dejanska vrednost prodaje za količino in znesek ob prvotni odobritvi stroškov
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Izdajanje računov za transakcijo stroška, ki je bila urejena za zmanjšanje količine
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje neobračunane prodaje za količino in znesek ob prvotni odobritvi stroškov
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nova dejanska vrednost neplačane prodaje, ki se zaračuna za količino in znesek na urejeni podrobnosti vrstice računa, storniranje neobračunane dejanske vrednosti prodaje in enakovredna obračunana dejanska vrednost prodaje 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nova dejanska vrednost neobračunane prodaje, ki po odštetju popravljenih vrednosti ni zaračunljiva za preostanek količine in zneska na urejeni podrobnosti vrstice računa, storniranje neobračunane dejanske vrednosti prodaje in enakovredna obračunana dejanska vrednost prodaje
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Izdajanje računov za transakcijo stroška, ki je bila urejena za povečanje količine
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje neobračunane prodaje za količino in znesek ob prvotni odobritvi stroškov
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nova dejanska vrednost neplačane prodaje, ki se zaračuna za količino in znesek na urejeni podrobnosti vrstice računa, storniranje neobračunane dejanske vrednosti prodaje in enakovredna obračunana dejanska vrednost prodaje
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Izdajanje računa za dajatev
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje neobračunane prodaje za znesek dajatev v prvotni vrstici dnevnika
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Obračunana dejanska vrednost prodaje za količino in znesek v prvotni vrstici dnevnika
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+Izdajanje računa za mejnik
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Obračunana dejanska vrednost prodaje za znesek mejnika iz prvotnega mejnika v podrobnosti projektne pogodbe
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>

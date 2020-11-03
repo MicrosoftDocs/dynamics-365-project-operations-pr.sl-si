@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02c1bafbe907a657689b610ae792f88085320903
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897021"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084721"
 ---
 # <a name="match-a-receipt-to-an-expense-using-ocr"></a>Ujemanje potrdila s stroškom z uporabo OCR
 
@@ -50,8 +49,8 @@ Za samodejno prilaganje potrdil, ki vključujejo transakcije s kreditnimi kartic
   1. Na poročilu o stroških na zavihku **Potrdila** priložite potrdilo z izbiro možnosti **Dodaj potrdila**.
   2. Pod naloženo sliko potrdila opazite možnosti **Ustvari** in **Išči ujemanje**.
 
-      - Izberite **Ustvari**, da ustvarite ročno vneseno transakcijo stroška in izpolnite vrednosti, ki so izvlečene iz potrdila.
-      - Če izberete **Išči ujemanje**, sistem poskuša poiskati ujemanje obstoječega stroška s potrdilom.
+      - Izberite **Ustvari** , da ustvarite ročno vneseno transakcijo stroška in izpolnite vrednosti, ki so izvlečene iz potrdila.
+      - Če izberete **Išči ujemanje** , sistem poskuša poiskati ujemanje obstoječega stroška s potrdilom.
 
 ## <a name="installation"></a>Namestitev
 
@@ -74,7 +73,7 @@ Ko vklopite te funkcije, se zgodijo naslednja dejanja:
 
 - Obstoječi delovni prostor **Upravljanje stroškov** se nadomesti z novim delovnim prostorom.
 - Dodana je nova postavka menija za vidljivost polja stroška.
-- Še vedno lahko odprete prejšnjo stran **Poročila o stroških**, tako da obiščete **Upravljanje stroškov > Moji stroški > Poročila o stroških**.
+- Še vedno lahko odprete prejšnjo stran **Poročila o stroških** , tako da obiščete **Upravljanje stroškov > Moji stroški > Poročila o stroških**.
 - Poteki dela in morebitne odobritve vas še vedno vodijo na obstoječo stran s poročili o stroških.
 - Potrdila bodo obdelana prek Microsoft Azure Cognitive Services ter metapodatki bodo izvlečeni in dodani.
 - Dodana je možnost, ki omogoča ustvarjanje poročila o stroških, ki vključuje ujemajoča se nepovezana potrdila.

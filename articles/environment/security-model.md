@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896751"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084641"
 ---
 # <a name="security-model"></a>Varnostni model
 
@@ -36,10 +36,11 @@ Prednostne zmogljivosti Project Operations vključujejo naslednje vloge:
 
 
 Microsoft Project za splet vključuje naslednje vloge:
-| Vloga                          | Opis                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Uporabnik projekta | Sodelujoči uporabnik projekta, ki lahko ustvari lastne projekte in si ogleda vse projekte, ki so v skupni rabi z njimi.| Uporabnik|
-| Sistem projekta | Vloga, uporabljena za kontekst aplikacije. Stranke ne bi smele uporabljati te sistemske vloge. | Globalno|
+
+| Vloga           | Opis                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Uporabnik projekta   | Sodelujoči uporabnik projekta, ki lahko ustvari lastne projekte in si ogleda vse projekte, ki so v skupni rabi z njimi. | Uporabnik   |
+| Sistem projekta | Vloga, uporabljena za kontekst aplikacije. Stranke ne bi smele uporabljati te sistemske vloge.                                    | Globalno |
 
 ## <a name="security-enforcement"></a>Izvajanje varnosti
 Dejanja, ki se izvajajo na ravni projekta, se izvajajo v kontekstu prijavljenega uporabnika. To pomeni, da mora uporabnik za ustvarjanje, odpiranje ali brisanje projekta imeti na voljo dostop do CDS. Dostop do CDS je mogoče odobriti prek katerega koli razpoložljivega mehanizma v platformi. Uporabnik z večjim obsegom lahko na primer dostopa do projekta, če je bilo izvedeno izrecno dejanje za skupno rabo projekta, ki uporabniku omogoča dostop.
@@ -56,6 +57,8 @@ Skupine omogočajo skupno uporabo dovoljenj za projekt in podporne artefakte. Na
 Project Operations ne ustvari skupine z implicitnim dejanjem, ampak samo z dejanskim pritiskom na Skupine.
 
 Iskanje članov skupine v pogovornem oknu **Upravljanje skupine** je omejeno na tiste, ki so nastavljeni kot del varnostne skupine okolja. Za več informacij glejte [Nadzor uporabniškega dostopa do okolij: varnostne skupine in licence](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Skupinski način](./media/groupsmode.png)
 
 1. Projekt je plod in last uporabnika, ki ga je ustvaril.
 2. Lastnik projekta je posodobljen v skladu z ekipo.

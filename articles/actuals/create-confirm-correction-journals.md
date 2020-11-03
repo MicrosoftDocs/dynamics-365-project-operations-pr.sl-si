@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 274f99527804b0db81b26201a22eb5a8cbe86c9a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896976"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084753"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Ustvarjanje in potrjevanje dnevnikov popravkov
 
@@ -54,7 +53,7 @@ Za popravljanje posameznega ali več časovnih vnosov za projekt izvedite nasled
 
 7. Če se popravki prikažejo po pričakovanjih, izberite **Potrdi**. V pogovornem oknu izberite **V redu**.
 
-8. Vrnite se na območje **Prodaja**, izberite **Projekti** in nato odprite projekt, za katerega ste pravkar posodobili časovne vnose. 
+8. Vrnite se na območje **Prodaja** , izberite **Projekti** in nato odprite projekt, za katerega ste pravkar posodobili časovne vnose. 
 
 9. Na strani **Projekti** v zavihku **Opravljeno delo** si oglejte spremembe, ki ste jih izvedli. 
 
@@ -74,13 +73,13 @@ Za popravljanje enega ali več vnosov stroškov opravite naslednje korake.
 
 2. Na seznamu **Odobreni stroški** izberite projekt, ki ga želite popraviti, nato pa izberite **Popravi vnose**. Novi dnevnik popravkov bo ustvarjen samodejno z dodeljeno vrsto **Popravek stroška**. 
 
-3. Na strani **Novi dnevnik** vnesite **Opis** za popravek in na zavihku **Popravek stroška** v razdelku **Nove vrednosti za stroške** izberite podatkovna polja, ki jih želite popraviti za izbrane vrstice stroškov. Strošek lahko na primer dodelite za drug **Projekt** ali popravite možnosti **Kategorija stroška**, **Datum stroška** ali **Vir, ki ga je mogoče rezervirati**.
+3. Na strani **Novi dnevnik** vnesite **Opis** za popravek in na zavihku **Popravek stroška** v razdelku **Nove vrednosti za stroške** izberite podatkovna polja, ki jih želite popraviti za izbrane vrstice stroškov. Strošek lahko na primer dodelite za drug **Projekt** ali popravite možnosti **Kategorija stroška** , **Datum stroška** ali **Vir, ki ga je mogoče rezervirati**.
 
 4. Izberite **Predogled**. V pogovornem oknu izberite **V redu**. 
 
 5. Na zavihku **Vrstice dnevnika** preverite popravke. Lahko si ogledate seznam prvotnih dejanskih vrednosti, povezanih z izbranimi vnosi stroškov, ki so bili razveljavljani, ter popravljene ustrezne vrstice, ki so bile ustvarjene.
 
-6. Če so popravljene vrednosti v skladu s pričakovanji, izberite **Potrdi**. V pogovornem oknu izberite **V redu**. Če vrednosti niso prikazane v skladu s pričakovanji, izberite **Prekliči**, da se vrnete na seznam **Odobreni stroški**. Ponovite korake od 2. do 5. 
+6. Če so popravljene vrednosti v skladu s pričakovanji, izberite **Potrdi**. V pogovornem oknu izberite **V redu**. Če vrednosti niso prikazane v skladu s pričakovanji, izberite **Prekliči** , da se vrnete na seznam **Odobreni stroški**. Ponovite korake od 2. do 5. 
 
 > [!NOTE]
 > Popravljene dejanske vrednosti bodo imele iste vrednosti, kot ste jih izbrali v razdelku **Nove vrednosti za stroške**.

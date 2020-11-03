@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907383"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084607"
 ---
 # <a name="project-tracking-overview"></a>Pregled sledenja projektom
 

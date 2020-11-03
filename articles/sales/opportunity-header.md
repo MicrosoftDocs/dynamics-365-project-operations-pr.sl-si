@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908599"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084631"
 ---
 # <a name="opportunity-headersummary"></a>Glava/povzetek priložnosti
 
@@ -28,7 +28,7 @@ Naslednja tabela vključuje polja pri priložnosti, ki temelji na projektih, ki 
 
 | **Polje** | **Mesto** | **Ustreznost, namen in smernice** | **Nadaljnji vpliv** |
 | --- | --- | --- | --- |
-| Vnesi | Zavihek »Splošno« (skrito) | To polje z naborom možnosti ima naslednje možnosti:</br>- temelji na delu (na voljo samo ob namestitvi storitve Project Operations)</br>- temelji na elementu (na voljo samo, če sta nameščeni storitvi Project Operations in Sales)</br>- temelji na vzdrževanju storitev (na voljo, ko je nameščena storitev Field Service) | Ko uporabljate Project Operations, je vrednost tega polja samodejno nastavljena na **Temelji na delu**, ki priložnost uvršča med priložnosti, ki temeljijo na projektih. Priložnost mora temeljiti na projektu, da lahko omogoča vse razširitve in funkcije, specifične za projekt, v nadaljnjem prodajnem postopku za ta posel. |
+| Vnesi | Zavihek »Splošno« (skrito) | To polje z naborom možnosti ima naslednje možnosti:</br>- temelji na delu (na voljo samo ob namestitvi storitve Project Operations)</br>- temelji na elementu (na voljo samo, če sta nameščeni storitvi Project Operations in Sales)</br>- temelji na vzdrževanju storitev (na voljo, ko je nameščena storitev Field Service) | Ko uporabljate Project Operations, je vrednost tega polja samodejno nastavljena na **Temelji na delu** , ki priložnost uvršča med priložnosti, ki temeljijo na projektih. Priložnost mora temeljiti na projektu, da lahko omogoča vse razširitve in funkcije, specifične za projekt, v nadaljnjem prodajnem postopku za ta posel. |
 | Lastniško podjetje | Zavihek Splošno | To je podjetje ali pravna oseba, ki bo projekt dostavila stranki. | Podatki tega polja bodo kopirani v ustrezno polje v projektni ponudbi, ki je ustvarjena iz te priložnosti. |
 | Stik | Zavihek Splošno | Sklic na primarni stik stranke za ta posel. | |
 | Račun | Zavihek Splošno | Sklic na zapis strankinega podjetja ali kupca. | |

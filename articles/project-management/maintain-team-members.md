@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961949"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084622"
 ---
 # <a name="maintain-team-members"></a>Vzdrževanje članov ekipe
 
@@ -21,11 +21,11 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoč
 
 Poimenovani vir lahko v projektno ekipo dodate tako, da ga neposredno rezervirate v ekipi.
 
-1. V storitvi Dynamics 365 Project Operations odprite možnost **Projekti**in odprite projekt, za katerega želite izvesti rezervacijo.
+1. V storitvi Dynamics 365 Project Operations odprite možnost **Projekti** in odprite projekt, za katerega želite izvesti rezervacijo.
 2. Na strani **Projekt** na zavihku **Ekipa** izberite **Novo**. 
 3. V pogovornem oknu **Hitro ustvarjanje člana projektne ekipe** izberite vir, ki ga je mogoče rezervirati. Polje **Vloga** bo izpolnjeno s privzeto vlogo vira, če ima dodeljeno. Vlogo lahko spremenite. 
 4. Izberite začetni in končni datum obdobja, v katerem potrebujete vir, in izberite način dodeljevanja zmogljivosti vira. 
-5. V polju **Odobritelj projekta** izberite **Da**, če želite članu ekipe dodeliti vlogo odobritelja projekta. Član ekipe bo tako lahko odobril poslane časovne vnose in vnose stroškov za ta projekt. 
+5. V polju **Odobritelj projekta** izberite **Da** , če želite članu ekipe dodeliti vlogo odobritelja projekta. Član ekipe bo tako lahko odobril poslane časovne vnose in vnose stroškov za ta projekt. 
 6. Izberite **Shrani**.
 
 Rezervirani vir lahko sedaj dodelite opravilom za projekt. Na strani **Projekt** na zavihku **Razpored** dodelite opravila novemu viru. V polju **Viri** na mreži opravil se odpre izbirnik za vire, v katerem so prikazani člani ekipe, ki jih lahko izberete.

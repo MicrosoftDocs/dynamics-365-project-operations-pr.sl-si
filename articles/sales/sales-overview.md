@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3892270"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084955"
 ---
 # <a name="sales-processes-overview"></a>Pregled prodajnih procesov
 
@@ -57,12 +56,12 @@ V prodajnem postopku lahko vaše podjetje ima šest naslednjih faz:
  
 Vaša organizacija lahko uporabi različne entitete, da tekom svojega razvoja predstavi isti posel. V začetnih fazah prodajnega postopka je posel predstavljen kot entiteta priložnosti. Ko pa mine nekaj časa in imate na voljo več podrobnosti, lahko uporabite splošnejše ocene, da ustvarite eno ali več ponudb. Če eno od teh ponudb pregledajo notranje zainteresirane skupine in zainteresirane skupine strank, posel predstavlja entiteta ponudbe. Ko stranka sprejme ponudbo, posel predstavlja projektna pogodba ali izjava SOW. Za podporo tega delovanja so poteki poslovnega procesa strukturirani tako, da je vsaka faza v procesu povezana z drugo tabelo zbirke podatkov.
 
-Fazo prodajnega postopka **Potrjevanje** je mogoče shraniti v entiteto priložnosti. Fazi **Ocena** in **Notranji pregled** je mogoče shraniti v entiteto ponudbe. Faze **Pogodba**, **Dostava** in **Zapiranje** je mogoče shraniti v entiteto projektne pogodbe.
+Fazo prodajnega postopka **Potrjevanje** je mogoče shraniti v entiteto priložnosti. Fazi **Ocena** in **Notranji pregled** je mogoče shraniti v entiteto ponudbe. Faze **Pogodba** , **Dostava** in **Zapiranje** je mogoče shraniti v entiteto projektne pogodbe.
 
 Ko boste posle premikali skozi faze, boste pozvani, da ustvarite ustrezen zapis entitete za pomoč in vodenje pri procesu. Faze so lahko pogojne. Če na primer potrebujete notranji pregled ponudbe samo, če ponudba uporablja seznam po meri, lahko ta pogoj konfigurirate v ustrezni fazi poslovnega procesa. Faza **Notranji pregled** je nato prikazana samo za ponudbe, ki uporabljajo cenik po meri. Fazi **Ocena** sledi faza **Pogodba** pri vseh drugih poslih in ponudbah.
 
 > [!NOTE]
-> Project Operations ima posebne strani za zapise entitet priložnosti, ponudbe, naročila in računa. Morate ustvariti te zapise na straneh s podatki o projektu za te entitete. Sicer ne boste mogli odpreti zapisov s strani **Podatki o projektu**. Če želite odpreti zapis s strani **Podatki o projektu**, morate izbrisati zapis in ga poustvariti z uporabo strani **Podatki o projektu**, kjer poslovna logika za vsako od teh vrst entitet zagotavlja, da je polje **Vrsta** zapisa pravilno nastavljeno in vsi obvezni koncepti pravilno začeti.
+> Project Operations ima posebne strani za zapise entitet priložnosti, ponudbe, naročila in računa. Morate ustvariti te zapise na straneh s podatki o projektu za te entitete. Sicer ne boste mogli odpreti zapisov s strani **Podatki o projektu**. Če želite odpreti zapis s strani **Podatki o projektu** , morate izbrisati zapis in ga poustvariti z uporabo strani **Podatki o projektu** , kjer poslovna logika za vsako od teh vrst entitet zagotavlja, da je polje **Vrsta** zapisa pravilno nastavljeno in vsi obvezni koncepti pravilno začeti.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Sledenje popravkom ponudb in projektnih načrtov v prodajnem ciklu

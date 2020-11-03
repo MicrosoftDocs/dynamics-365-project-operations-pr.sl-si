@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908607"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084686"
 ---
 # <a name="project-based-quote-lines-pro"></a>Podrobnosti ponudb, ki temeljijo na projektih (Pro)
 
@@ -36,7 +36,7 @@ Naslednja tabela vsebuje informacije o poljih na zavihku **Splošno** pri podrob
 | Imenu | Ime podrobnosti ponudbe, ki bi vam pomagala prepoznati ločeno komponento ponudbe, ki jo ocenjujete. | Kopirano v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
 | Način obračunavanja | V ponudbi, ustvarjeni iz priložnosti, se ta vrednost kopira iz ustreznega polja v vrstici priložnosti. To polje vključuje dva glavna pogodbena modela, ki ju podpira Dynamics 365 Project Operations:</br>- fiksna cena</br>- čas in material| Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
 | Project | S tem izbirnim poljem določite projekt, ki se bo uporabljal za izvedbo dela za to interakcijo. Ko je projekt preslikan v podrobnost ponudbe, pripomore k nastavitvi opravil, ki se zaračunajo, in tudi k pripravi ocene, ki temelji na projektu, pri vrstici ponudbe v obliki podrobnosti vrstice ponudbe. Če projekt ni preslikan na vrstico ponudbe, ki temelji na projektu, morate oceno ustvariti ročno z izdelavo vsake podrobnosti vrstice ponudbe. | Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena.|
-| Vključena opravila | Označuje, ali se ta podrobnost ponudbe uporablja za vsa ali nekatera projektna opravila za izbrani projekt. To polje ima lahko naslednje vrednosti:</br>- vsa opravila projekta</br>- samo izbrana opravila projekta</br>Prazna vrednost v tem polju je enaka možnosti **Vsa projektna opravila**. | Ko je izbrana možnost **Samo izbrana opravila projekta**, lahko na strani projekta na zavihku **Nastavitev obračunavanja opravil** izberete povezavo posameznih opravil s to podrobnostjo ponudbe. Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
+| Vključena opravila | Označuje, ali se ta podrobnost ponudbe uporablja za vsa ali nekatera projektna opravila za izbrani projekt. To polje ima lahko naslednje vrednosti:</br>- vsa opravila projekta</br>- samo izbrana opravila projekta</br>Prazna vrednost v tem polju je enaka možnosti **Vsa projektna opravila**. | Ko je izbrana možnost **Samo izbrana opravila projekta** , lahko na strani projekta na zavihku **Nastavitev obračunavanja opravil** izberete povezavo posameznih opravil s to podrobnostjo ponudbe. Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
 | Vključi čas | Zastava **Da**/**Ne** označuje, ali bodo časovne transakcije ali stroški dela za izbrani projekt vključeni v oceno v tej vrstici ponudbe. Vrednost **Ne** označuje, da časovne transakcije ali stroški dela ne bodo vključeni v oceno v tej vrstici ponudbe. Vrednost **Da** označuje, da bodo časovne transakcije ali stroški dela vključeni v oceno v tej vrstici ponudbe. | Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
 | Vključi strošek | Zastava **Da**/**Ne** označuje, ali bodo stroški dela za izbrani projekt vključeni v oceno v tej vrstici ponudbe. Vrednost **Ne** označuje, da strošek ne bo vključen v oceno v tej vrstici ponudbe. Vrednost **Ne** označuje, da bo strošek vključen v oceno v tej vrstici ponudbe. | Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
 | Vključi dajatev | Zastava **Da**/**Ne** označuje, ali bodo dajatve za izbrani projekt vključene v oceno v tej vrstici ponudbe. Vrednost **Ne** označuje, da dajatve ne bodo vključene v oceno v tej vrstici ponudbe. Vrednost **Da** označuje, da bodo dajatve vključene v oceno v tej vrstici ponudbe. | Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
@@ -49,15 +49,15 @@ Naslednja tabela vsebuje informacije o poljih na zavihku **Splošno** pri podrob
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Pravila za preverjanje veljavnosti polj na zavihku Splošno v podrobnostih ponudb, ki temeljijo na projektih
 
-**1. pravilo**: če je polje **Vključena opravila** prazno ali če je nastavljeno na **Vsa opravila projekta**, je projekt vključen v podrobnost ponudbe.
+**1. pravilo** : če je polje **Vključena opravila** prazno ali če je nastavljeno na **Vsa opravila projekta** , je projekt vključen v podrobnost ponudbe.
 
-**2. pravilo**: če je polje **Vključena opravila** prazno ali če je nastavljeno na **Vsa opravila projekta**, je projekt in izbran razred transakcije mogoče vključiti samo v eno podrobnost ponudbe, ki temelji na projektu.
+**2. pravilo** : če je polje **Vključena opravila** prazno ali če je nastavljeno na **Vsa opravila projekta** , je projekt in izbran razred transakcije mogoče vključiti samo v eno podrobnost ponudbe, ki temelji na projektu.
 
-**3. pravilo**: če je polje **Vključena opravila** nastavljeno na **Samo izbrana opravila projekta**, je projekt in izbran razred transakcije mogoče vključiti v več podrobnosti ponudbe, ki temeljijo na projektu.
+**3. pravilo** : če je polje **Vključena opravila** nastavljeno na **Samo izbrana opravila projekta** , je projekt in izbran razred transakcije mogoče vključiti v več podrobnosti ponudbe, ki temeljijo na projektu.
 
 **4. pravilo** : če ima priložnost več ponudb, so lahko podrobnosti ponudbe za različne ponudbe, ki se vse sklicujejo na isti projekt in vključujejo isti razred transakcije.
 
-**5. pravilo**: če ponudbe ne pripadajo isti priložnosti, ne morejo vključevati istega projekta in razreda transakcije.
+**5. pravilo** : če ponudbe ne pripadajo isti priložnosti, ne morejo vključevati istega projekta in razreda transakcije.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

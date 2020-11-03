@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906336"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084625"
 ---
 # <a name="travel-requisitions"></a>Zahteve za pot
 
@@ -52,7 +52,7 @@ Izberite zahtevo za pot, ki jo želite odobriti, in nato izberite **Potek dela**
 
 1. Ustvarite novo poročilo o stroških in v glavi poročila o stroških ter na seznamu odobrenih zahtev za pot izberite **Preslikava v zahtevo za pot**.
 2. Polje **Znesek zahteve za pot** polje se samodejno posodobi v glavi poročila o stroških.
-3. Dodajte vse stroške, nastale na potovanju. Če je omogočeno polje **Vnaprej odobreno**, se usklajeni znesek in odobreni znesek za določeno kategorijo stroškov posodobita.
+3. Dodajte vse stroške, nastale na potovanju. Če je omogočeno polje **Vnaprej odobreno** , se usklajeni znesek in odobreni znesek za določeno kategorijo stroškov posodobita.
 
 > [!NOTE]
 > Ko preslikate poročilo o stroških v odobreno zahtevo za pot, znesek transakcije ne sme biti večji od odobrenega zneska. 

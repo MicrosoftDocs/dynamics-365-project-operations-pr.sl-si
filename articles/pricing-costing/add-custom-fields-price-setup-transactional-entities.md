@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a27bfe881fdb6431941fa860d279e3e7b526f623
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898326"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084796"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Dodajanje zahtevanih polj po meri v entitete za nastavitev cene in transakcijske entitete
 
@@ -39,10 +38,10 @@ Ko ustvarite polja in entitete po meri, morate nastaviti entitete za nastavitev 
 ### <a name="option-set-based-custom-pricing-dimensions"></a>Cenovne razsežnosti po meri na osnovi nabora možnosti
 Če cenovna razsežnost po meri temelji na naboru možnosti, jo dodajte kot polje v ključne entitete. V spodnjem postopku se za cenovne razsežnosti na osnovi nabora možnosti uporabljata možnosti **Lokacija dela vira** in **Delovni čas vira**. Najprej ju morate dodati kot polji v entiteti za določanje cene **Cena vloge** in **Pribitek na ceno vloge**.
 
-1. V storitvi Project Operations izberite **Nastavitve** > **Rešitve**, nato pa dvokliknite **\<your organization name> cenovne razsežnosti**. 
+1. V storitvi Project Operations izberite **Nastavitve** > **Rešitve** , nato pa dvokliknite **\<your organization name> cenovne razsežnosti**. 
 2. V raziskovalcu rešitev v podoknu za krmarjenje na levi izberite **Entitete > Cena vloge**.
 3. Razširite entiteto **Cena vloge** in izberite **Polja**.
-4. Izberite **Novo**, da ustvarite novo polje z imenom **Lokacija dela vira**, in kot vrsto polja izberite **Nabor možnosti**. 
+4. Izberite **Novo** , da ustvarite novo polje z imenom **Lokacija dela vira** , in kot vrsto polja izberite **Nabor možnosti**. 
 5. Izberite **Uporabi obstoječi nabor možnosti** in nabor možnosti **Lokacija dela vira** ter nato izberite **Shrani**.
 6. Ponovite korake od 1 do 5, da dodate to polje v entiteto **Pribitek na ceno vloge**. 
 7. Ponovite korake od 1 do 5 za nabor možnosti **Delovni čas vira**.
@@ -50,24 +49,24 @@ Ko ustvarite polja in entitete po meri, morate nastaviti entitete za nastavitev 
 > [!IMPORTANT]
 > Če dodate polje v več entitet, uporabite isto ime polja v vseh entitetah. 
 
-V fazah prodaje in ocenjevanja za projekt se za oceno vrednosti ponudbe/projekta uporabijo ocene obsega dela, ki je potreben za dokončanje dela z oznako **Lokalno** in **Na lokaciji**, in sicer z vrednostma **Redni delovni čas** in **Nadure**. Polji **Lokacija dela vira** in **Delovni čas vira** bosta dodani entitetam ocenjevanja **Podrobnost vrstice ponudbe**, **Podrobnost vrstice pogodbe**, **Član projektne ekipe** in **Vrstica ocene**.
+V fazah prodaje in ocenjevanja za projekt se za oceno vrednosti ponudbe/projekta uporabijo ocene obsega dela, ki je potreben za dokončanje dela z oznako **Lokalno** in **Na lokaciji** , in sicer z vrednostma **Redni delovni čas** in **Nadure**. Polji **Lokacija dela vira** in **Delovni čas vira** bosta dodani entitetam ocenjevanja **Podrobnost vrstice ponudbe** , **Podrobnost vrstice pogodbe** , **Član projektne ekipe** in **Vrstica ocene**.
 
-1. V storitvi Project Operations izberite **Nastavitve** > **Rešitve**, nato dvokliknite **\<your organization name> cenovne razsežnosti**. 
+1. V storitvi Project Operations izberite **Nastavitve** > **Rešitve** , nato dvokliknite **\<your organization name> cenovne razsežnosti**. 
 2. V raziskovalcu rešitev v podoknu za krmarjenje na levi izberite **Entitete > Podrobnost vrstice ponudbe**.
 3. Razširite entiteto **Podrobnost vrstice ponudbe** in izberite **Polja**.
-4. Izberite **Novo**, da ustvarite novo polje z imenom **Lokacija dela vira**, in izberite vrsto polja **Nabor možnosti**. 
+4. Izberite **Novo** , da ustvarite novo polje z imenom **Lokacija dela vira** , in izberite vrsto polja **Nabor možnosti**. 
 5. Izberite **Uporabi obstoječi nabor možnosti** in **Lokacija dela vira** ter nato izberite **Shrani**.
-6. Ponovite korake od 1 do 5, da dodate to polje v entitete **Podrobnost vrstice projektne pogodbe**, **Član projektne ekipe** in **Vrstica ocene**.
+6. Ponovite korake od 1 do 5, da dodate to polje v entitete **Podrobnost vrstice projektne pogodbe** , **Član projektne ekipe** in **Vrstica ocene**.
 7. Ponovite korake od 1 do 6 za nabor možnosti **Delovni čas vira**. 
 
-Za namene dostave in izdajanja računov je treba za opravljeno delo natančno določiti ceno. V opravljenih delih projekta izberite, ali je bilo izvedeno **lokalno** ali **na lokaciji** in ali je bilo opravljeno med **rednim delovnim časom** ali **nadurami**. Polji **Lokacija dela vira** in **Delovni čas vira** morata biti dodani v entitete **Časovni vnos**, **Dejansko**, **Podrobnosti vrstice računa** in **Vrstica dnevnika**.
+Za namene dostave in izdajanja računov je treba za opravljeno delo natančno določiti ceno. V opravljenih delih projekta izberite, ali je bilo izvedeno **lokalno** ali **na lokaciji** in ali je bilo opravljeno med **rednim delovnim časom** ali **nadurami**. Polji **Lokacija dela vira** in **Delovni čas vira** morata biti dodani v entitete **Časovni vnos** , **Dejansko** , **Podrobnosti vrstice računa** in **Vrstica dnevnika**.
 
-1. Izberite **Nastavitve** > **Rešitve**, nato dvokliknite **\<your organization name> cenovne razsežnosti**.
+1. Izberite **Nastavitve** > **Rešitve** , nato dvokliknite **\<your organization name> cenovne razsežnosti**.
 2. V raziskovalcu rešitev v podoknu za krmarjenje na levi izberite **Entitete > Časovni vnos**.
 3. Razširite entiteto **Podrobnost vrstice ponudbe** in nato izberite **Polja**.
-4. Izberite **Novo**, da ustvarite novo polje z imenom **Lokacija dela vira**, in kot vrsto polja izberite **Nabor možnosti**. 
+4. Izberite **Novo** , da ustvarite novo polje z imenom **Lokacija dela vira** , in kot vrsto polja izberite **Nabor možnosti**. 
 5. Izberite **Uporabi obstoječi nabor možnosti** in nabor možnosti **Lokacija dela vira** ter nato izberite **Shrani**.
-6. Ponovite korake od 1 do 5, da dodate to polje v entitete **Dejansko**, **Podrobnost vrstice računa** in **Vrstica dnevnika**.
+6. Ponovite korake od 1 do 5, da dodate to polje v entitete **Dejansko** , **Podrobnost vrstice računa** in **Vrstica dnevnika**.
 7. Ponovite korake od 1 do 6 za nabor možnosti **Delovni čas vira**. 
 
 S tem dokončate spremembe sheme, ki so potrebne za razsežnosti po meri na osnovi nabora možnosti.
@@ -76,16 +75,16 @@ S tem dokončate spremembe sheme, ki so potrebne za razsežnosti po meri na osno
 
 Če je cenovna razsežnost po meri entiteta, dodate odnose 1: N med entiteto razsežnosti in ključnimi entitetami. Pri uporabi zgornjega primera za standardni naziv je razumno pričakovati, da je vsakemu zaposlenemu dodeljen standardni naziv. Zato potrebujete odnos 1:N za standardni naziv proti viru, ki ga je mogoče rezervirati, ali odnos N:1 za vir, ki ga je mogoče rezervirati, proti standardnemu nazivu.
 
-1. V storitvi Project Operations izberite **Nastavitve** > **Rešitve**, nato dvokliknite **\<your organization name> cenovne razsežnosti**. 
+1. V storitvi Project Operations izberite **Nastavitve** > **Rešitve** , nato dvokliknite **\<your organization name> cenovne razsežnosti**. 
 2. V raziskovalcu rešitev v podoknu za krmarjenje na levi izberite **Entitete > Standardni naziv**.
 3. Razširite entiteto **Standardni naziv** in izberite **Odnosi 1: N**.
-4. Izberite **Novo**, da ustvarite nov odnos 1: N, ki se imenuje **Standardni naziv proti viru, ki ga je mogoče rezervirati**. Vnesite zahtevane informacije in izberite **Shrani**.
+4. Izberite **Novo** , da ustvarite nov odnos 1: N, ki se imenuje **Standardni naziv proti viru, ki ga je mogoče rezervirati**. Vnesite zahtevane informacije in izberite **Shrani**.
 
 Standardni naziv morate dodati tudi entitetam za določanje cene **Cena vloge** in **Pribitek na ceno vloge**. Tudi to zaključite z uporabo odnosov 1: N med entitetama **Standardni naziv** in **Cena vloge** ter entitetama **Standardni naziv** in **Pribitek na ceno vloge**.
 
 1. V raziskovalcu rešitev v podoknu za krmarjenje na levi izberite **Entitete > Standardni naziv**.
 2. Razširite entiteto **Standardni naziv** in izberite **Odnosi 1: N**.
-3. Izberite **Novo**, da ustvarite nov odnos 1: N, ki se imenuje **Standardni naziv proti ceni vloge**. Vnesite zahtevane informacije in izberite **Shrani**.
+3. Izberite **Novo** , da ustvarite nov odnos 1: N, ki se imenuje **Standardni naziv proti ceni vloge**. Vnesite zahtevane informacije in izberite **Shrani**.
 4. Ponovite korake od 1 do 4, da ustvarite odnose 1: N med entitetama **Standardni naziv** in **Pribitek na ceno vloge**.
 
 V fazah prodaje in ocenjevanja za projekt so za določanje cene ponudbe/projekta pri vsakem standardnem nazivu potrebne ocene obsega dela. To pomeni, da so potrebni odnosi 1: N od standardnega naziva proti vsaki od teh entitet ocenjevanja: 
@@ -95,11 +94,11 @@ V fazah prodaje in ocenjevanja za projekt so za določanje cene ponudbe/projekta
 - **Član projektne ekipe**
 - **Vrstica ocene**
 
-5. Ponovite korake od 1 do 5, da ustvarite odnose 1: N med entiteto **Standardni naziv** in entitetami **Podrobnost vrstice ponudbe**, **Podrobnost vrstice projektne pogodbe**, **Član projektne ekipe** in **Vrstica ocene**.
+5. Ponovite korake od 1 do 5, da ustvarite odnose 1: N med entiteto **Standardni naziv** in entitetami **Podrobnost vrstice ponudbe** , **Podrobnost vrstice projektne pogodbe** , **Član projektne ekipe** in **Vrstica ocene**.
 
-  V fazah dostave in izdajanja računov mora biti v opravljenih delih projekta za delo, ki ga opravi posamezni standardni naziv, natančno določena cena. To pomeni, da potrebujete odnos 1: N med entiteto **Standardni naziv** in entitetami **Časovni vnos**, **Dejansko**, **Podrobnost vrstice računa** in **Vrstica dnevnika**.
+  V fazah dostave in izdajanja računov mora biti v opravljenih delih projekta za delo, ki ga opravi posamezni standardni naziv, natančno določena cena. To pomeni, da potrebujete odnos 1: N med entiteto **Standardni naziv** in entitetami **Časovni vnos** , **Dejansko** , **Podrobnost vrstice računa** in **Vrstica dnevnika**.
 
-6. Ponovite korake od 1 do 6, da ustvarite odnos 1: N med entiteto **Standardni naziv** in entitetami **Časovni vnos**, **Dejansko**, **Podrobnost vrstice računa** in **Vrstica dnevnika**.
+6. Ponovite korake od 1 do 6, da ustvarite odnos 1: N med entiteto **Standardni naziv** in entitetami **Časovni vnos** , **Dejansko** , **Podrobnost vrstice računa** in **Vrstica dnevnika**.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Nastavitev privzete vrednosti razsežnosti z uporabo funkcij preslikave v platformi
 Pri časovnem vnosu je uporabno, če sistem nastavi privzeto vrednost standardnega naziva v časovnem vnosu iz vira, ki ga je mogoče rezervirati in ki beleži časovni vnos. Uporabite spodnje korake, da dodate preslikave polj v odnosu 1: N iz entitete **Vir, ki ga je mogoče rezervirati** v entiteto **Časovni vnos**.
@@ -107,7 +106,7 @@ Pri časovnem vnosu je uporabno, če sistem nastavi privzeto vrednost standardne
 1. V raziskovalcu rešitev v podoknu za krmarjenje na levi izberite **Entitete > Standardni naziv**.
 2. Razširite entiteto **Standardni naziv** in izberite **Odnosi 1: N**.
 3. Dvokliknite **Vir, ki ga je mogoče rezervirati, v časovni vnos**. Na strani **Odnos** izberite **Uporabi preslikave polj**. 
-4. Izberite **Novo**, da ustvarite novo preslikavo polja med poljem **Standardni naziv** v entiteti **Vir, ki ga je mogoče rezervirati** in sklicnim poljem **Standardni naziv** v entiteti **Časovni vnos**. 
+4. Izberite **Novo** , da ustvarite novo preslikavo polja med poljem **Standardni naziv** v entiteti **Vir, ki ga je mogoče rezervirati** in sklicnim poljem **Standardni naziv** v entiteti **Časovni vnos**. 
 
 S tem dokončate spremembe sheme, ki so potrebne za razsežnosti po meri na osnovi entitete.
 

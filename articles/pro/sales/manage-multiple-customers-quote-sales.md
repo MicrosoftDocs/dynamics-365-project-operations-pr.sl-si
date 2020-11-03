@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966866"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084656"
 ---
 # <a name="managing-multiple-customers-on-project-quotes-sales"></a>Upravljanje več strank v projektnih ponudbah (Sales)
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ponudbe za projekte podpirajo scenarij, v katerem predlog vključuje več strank, ki bodo financirale posel. Na zavihku **Povzetek** ponudbe je polje **Potencialna stranka**, ki opredeljuje primarno stranko posla. Druge stranke za posel lahko nastavite na zavihku **Stranke** pri ponudbi za projekt.
+Ponudbe za projekte podpirajo scenarij, v katerem predlog vključuje več strank, ki bodo financirale posel. Na zavihku **Povzetek** ponudbe je polje **Potencialna stranka** , ki opredeljuje primarno stranko posla. Druge stranke za posel lahko nastavite na zavihku **Stranke** pri ponudbi za projekt.
 
 Vse stranke ponudbe na zavihku **Stranke** ponudbe za projekt so privzeto nastavljene kot stranke v podrobnostih ponudbe pri katerih koli **novih** podrobnostih ponudbe, ki temeljijo na projektu, ustvarjenih za ponudbo. Morebitne obstoječe podrobnosti ponudbe, ki temelji na projektu, ne bodo podedovale novih zapisov strank o ponudbah, ki so bili ustvarjeni pozneje.
 
@@ -31,7 +31,7 @@ Stranke ponudbe in stranke v podrobnostih ponudbe lahko kadar koli dodate, posod
 
 Stranka, ki je na zavihku s povzetkom ponudbe projekta kot potencialna stranka, je primarna stranka ponudbe. Ko poskušate izbrisati primarno stranko s seznama strank v ponudbi, bo prikazana napaka, da zapisa primarne stranke v ponudbi ni mogoče izbrisati.
 
-Primarne stranke se ne sme posodabljati s seznama strank na ponudbi. Na primarno stranko pa lahko vplivate tako, da spremenite potencialno stranko na zavihku ponudbe **Povzetek**. Ko je to polje posodobljeno na **Povzetek ponudbe**, je na novo izbrana potencialna stranka dodana kot stranka za novo ponudbo z nastavljeno zastavico **Primarno**. Stara potencialna stranka bo še vedno stranka na ponudbi.
+Primarne stranke se ne sme posodabljati s seznama strank na ponudbi. Na primarno stranko pa lahko vplivate tako, da spremenite potencialno stranko na zavihku ponudbe **Povzetek**. Ko je to polje posodobljeno na **Povzetek ponudbe** , je na novo izbrana potencialna stranka dodana kot stranka za novo ponudbo z nastavljeno zastavico **Primarno**. Stara potencialna stranka bo še vedno stranka na ponudbi.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Ustvarjanje, posodobitev oz. brisanje zapisa stranke ponudbe
 

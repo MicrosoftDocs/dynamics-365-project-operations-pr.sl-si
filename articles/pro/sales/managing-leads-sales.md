@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896346"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084685"
 ---
 # <a name="manage-leads-pro"></a>Upravljanje možnih strank (Pro)
 
@@ -23,7 +23,7 @@ Možne stranke, ki temeljijo na projektu, je mogoče upravljati in potrditi v st
 
 ## <a name="list-of-project-sales-leads"></a>Seznam možnih strank, ki temeljijo na projektu
 
-V razdelku **Prodaja** v levem podoknu za krmarjenje odprite stran s seznamom **Možne stranke**, da si ogledate seznam z vsemi zapisi vseh možnih strank v sistemu. Prikazani seznam možnih strank temelji na delu in drugih vrstah možnih strank, ki jih lahko ustvarite, če imate tudi aplikacijo Dynamics 365 Sales ali Dynamics 365 Field Service.
+V razdelku **Prodaja** v levem podoknu za krmarjenje odprite stran s seznamom **Možne stranke** , da si ogledate seznam z vsemi zapisi vseh možnih strank v sistemu. Prikazani seznam možnih strank temelji na delu in drugih vrstah možnih strank, ki jih lahko ustvarite, če imate tudi aplikacijo Dynamics 365 Sales ali Dynamics 365 Field Service.
 
 Ustvarite lahko filtrirani pogled, da si ogledate samo možne stranke, ki temeljijo na projektu, tako da ustvarite filter pri vrednosti **Vrsta**. Na primer, izberete lahko, da se prikazujejo samo možne stranke, ki temeljijo na delu.
 
@@ -34,7 +34,7 @@ Ko je možna stranka, ki temelji na projektu, potrjena, se ustvarita priložnost
 - Obračunavanje časa in materiala ter fiksnih cen
 - Več cenikov z datumom začetka veljavnosti za človeške vire, stroške in material, ki so bili potrebni pri projektih.
 
-Če želite potrjeni možni stranki omogočiti samodejno ustvarjanje priložnosti, nastavite atribut **Vrsta** na **Temelji na delu**, ko ustvarite možno stranko. Če izberete drugo vrsto, možna stranka ne bo ustvarila priložnosti, ki temelji na projektu, ko je potrjena. Če priložnost, ki temelji na projektu, ni ustvarjena, zmogljivosti, specifične za projekt, ne bodo na voljo v nadaljnjih prodajnih postopkih.
+Če želite potrjeni možni stranki omogočiti samodejno ustvarjanje priložnosti, nastavite atribut **Vrsta** na **Temelji na delu** , ko ustvarite možno stranko. Če izberete drugo vrsto, možna stranka ne bo ustvarila priložnosti, ki temelji na projektu, ko je potrjena. Če priložnost, ki temelji na projektu, ni ustvarjena, zmogljivosti, specifične za projekt, ne bodo na voljo v nadaljnjih prodajnih postopkih.
 
 Naslednja tabela vključuje pomembne informacije glede polj za možno stranko in posledice teh polj v nadaljnjih postopkih.
 
@@ -49,7 +49,7 @@ Naslednja tabela vključuje pomembne informacije glede polj za možno stranko in
 
 ## <a name="qualify-a-new-project-based-lead"></a>Potrjevanje nove možne stranke, ki temelji na projektu
 
-Možne stranke, ki imajo vrednost **Vrsta** nastavljeno na **Temelji na delu**, se imenujejo možne stranke, ki temeljijo na projektu. Ko je potrjena možna stranka, ki temelji na projektu, se ustvari naslednje:
+Možne stranke, ki imajo vrednost **Vrsta** nastavljeno na **Temelji na delu** , se imenujejo možne stranke, ki temeljijo na projektu. Ko je potrjena možna stranka, ki temelji na projektu, se ustvari naslednje:
 
 - Kupec, ki uporablja polje **Podjetje** pri možni stranki.
 - Zapis stika, povezan s kupcem na podlagi vrednosti v poljih **Ime** in **Priimek** pri možni stranki.

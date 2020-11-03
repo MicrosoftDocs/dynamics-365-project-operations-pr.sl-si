@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 212b80a7fde8368eedd7572dd5f9278cc53fae98
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897381"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084723"
 ---
 # <a name="review-proposed-resources"></a>Pregled predlaganih virov
 
@@ -72,7 +71,7 @@ Ker pogled **Uporaba vira** temelji na plošči razporeda, lahko rezultate filtr
 
 Zaradi mreže morate nastaviti ciljno uporabo za vlogo ali posamezni vir. To nastavite v možnosti **Viri** \> **Vloge virov**.
 
-Poleg tega morate vsakemu viru, ki ga je mogoče rezervirati, dodati tudi privzeto vlogo. Odprite možnost **Viri** \> **Viri**. Na zavihku **Project Service** preverite, ali je vloga vira določena in ali je polje **Je privzeto** nastavljeno na **Da**. Kjer je vrednost **Je privzeto = Ne**, lahko dodate dodatne vloge. Vloga, pri kateri je vrednost **Je privzeto = Da**, se uporablja za oceno uporabe vira v primerjavi s ciljem za to vlogo.
+Poleg tega morate vsakemu viru, ki ga je mogoče rezervirati, dodati tudi privzeto vlogo. Odprite možnost **Viri** \> **Viri**. Na zavihku **Project Service** preverite, ali je vloga vira določena in ali je polje **Je privzeto** nastavljeno na **Da**. Kjer je vrednost **Je privzeto = Ne** , lahko dodate dodatne vloge. Vloga, pri kateri je vrednost **Je privzeto = Da** , se uporablja za oceno uporabe vira v primerjavi s ciljem za to vlogo.
 
 Na zavihku **Project Service** lahko nastavite tudi posamično ciljno uporabo za vir. Izračun uporabe nato uporabi to ciljno uporabo za oceno cilja vira namesto cilja privzete vloge vira.
 

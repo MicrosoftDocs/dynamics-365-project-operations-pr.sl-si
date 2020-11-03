@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffb89a954b8af9d726c64cceeafca638c3393130
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965890"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084632"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Upravljanje več strank v podrobnostih ponudb, ki temeljijo na projektih
+
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
 Podrobnosti ponudb, ki temeljijo na projektu, podpirajo scenarije, kjer ima vsaka podrobnost ponudbe seznam strank, ki zanj plačujejo. Ta seznam strank pri podrobnostih ponudb, ki temeljijo na projektu, je lahko enak seznamu strank v ponudbi. Seznam strank lahko spremenite tudi tako, da je drugačen. Za ustvarjanje morebitne pogodbe za projekt, ko pridobite ponudbo za projekt, se seznam strank pri podrobnostih ponudb, ki temeljijo na projektu, kopira v ustrezno podrobnost pogodbe, ki temelji na projektu. Stranke v ponudbi, ki temelji na projektu, se kopirajo v pogodbo za projekt.
 
@@ -31,11 +33,11 @@ Naslednja tabela prikazuje polja pri zapisu stranke podrobnosti ponudbe za podro
 
 | Polje | LOkacija | Opis in navodila | Nadaljnji vpliv |
 | --- | --- | --- | --- |
-| **Kupec** | Mreža, ki jo je mogoče urejati, na zavihku **Stranke v podrobnostih ponudbe**, glavni obrazec in obrazec za hitro ustvarjanje za stranko v podrobnostih ponudbe. | Navedeni so vsi aktivni kupci. Po ustvarjanju zapisa je to polje zaklenjeno. Če želite posodobiti polje, izbrišite in znova ustvarite zapis. Če ste zabeležili dejanske vrednosti, zapisa ne morete izbrisati. | Ko na glavnem seznamu kupcev izberete kupca, ki ga želite dodati, se stranka v podrobnostih ponudbe doda tudi kot stranka ponudbe. Ko je ponudba pridobljena, se stranke v podrobnostih ponudbe kopirajo v stranke v podrobnostih pogodbe za projekt. |
-| **Odstotek delitve za izstavitev računa** | Mreža, ki jo je mogoče urejati, na zavihku **Stranke v podrobnostih ponudbe**, glavni obrazec in obrazec za hitro ustvarjanje za stranko v podrobnostih ponudbe. | Predstavlja odstotek vsake neobračunane prodajne transakcije, ki bo pripisana tej stranki v podrobnostih ponudbe. | Kopirano med stranke v podrobnostih pogodbe za projekt. |
-| **Omejitev »Ni dovoljeno preseči«** | Mreža, ki jo je mogoče urejati, na zavihku **Stranke v podrobnostih ponudbe**, glavni obrazec in obrazec za hitro ustvarjanje za stranko v podrobnostih ponudbe. | Označuje, ali obstaja dogovorjena omejitev ali zgornja meja skupnega zneska, ki bo tej stranki zaračunan za to podrobnost ponudbe. | Kopirano med stranke v podrobnostih pogodbe za projekt, ko je pridobljena ponudba. |
-| **Lastniško podjetje** | Mreža, ki jo je mogoče urejati, na zavihku **Stranke v podrobnostih ponudbe**, glavni obrazec in obrazec za hitro ustvarjanje za stranko v podrobnostih ponudbe. | Pravna oseba, pri kateri je ta stranka nastavljena v modulu **Vodenje projektov in računovodstvo**. To polje je samo za branje in je nastavljeno na lastniško podjetje same ponudbe. Seznam strank, ki jih želite dodati v polje **Kupec**, je že filtrirano na seznam od lastniškega podjetja v modulu Project Operations **Vodenje projektov in računovodstvo**. | Lastniško podjetje je enako konceptu pravne osebe. Vsi stroški in prihodki, ki nastanejo pri tem projektu, se zabeležijo v glavni knjigi lastniškega podjetja. |
-| **Je zaokroževanje** | Mreža, ki jo je mogoče urejati, na zavihku **Stranke v podrobnostih ponudbe**, glavni obrazec in obrazec za hitro ustvarjanje za stranko v podrobnostih ponudbe. | Označuje, ali je ta stranka privzeta stranka za zaokroževanje za to podrobnost ponudbe, ki temelji na projektu. | Kopirano med stranke v pogodbi za projekt, ko je pridobljena ponudba. |
+| **Kupec** | Mreža, ki jo je mogoče urejati, na zavihku **Stranke v podrobnostih ponudbe** , glavni obrazec in obrazec za hitro ustvarjanje za stranko v podrobnostih ponudbe. | Navedeni so vsi aktivni kupci. Po ustvarjanju zapisa je to polje zaklenjeno. Če želite posodobiti polje, izbrišite in znova ustvarite zapis. Če ste zabeležili dejanske vrednosti, zapisa ne morete izbrisati. | Ko na glavnem seznamu kupcev izberete kupca, ki ga želite dodati, se stranka v podrobnostih ponudbe doda tudi kot stranka ponudbe. Ko je ponudba pridobljena, se stranke v podrobnostih ponudbe kopirajo v stranke v podrobnostih pogodbe za projekt. |
+| **Odstotek delitve za izstavitev računa** | Mreža, ki jo je mogoče urejati, na zavihku **Stranke v podrobnostih ponudbe** , glavni obrazec in obrazec za hitro ustvarjanje za stranko v podrobnostih ponudbe. | Predstavlja odstotek vsake neobračunane prodajne transakcije, ki bo pripisana tej stranki v podrobnostih ponudbe. | Kopirano med stranke v podrobnostih pogodbe za projekt. |
+| **Omejitev »Ni dovoljeno preseči«** | Mreža, ki jo je mogoče urejati, na zavihku **Stranke v podrobnostih ponudbe** , glavni obrazec in obrazec za hitro ustvarjanje za stranko v podrobnostih ponudbe. | Označuje, ali obstaja dogovorjena omejitev ali zgornja meja skupnega zneska, ki bo tej stranki zaračunan za to podrobnost ponudbe. | Kopirano med stranke v podrobnostih pogodbe za projekt, ko je pridobljena ponudba. |
+| **Lastniško podjetje** | Mreža, ki jo je mogoče urejati, na zavihku **Stranke v podrobnostih ponudbe** , glavni obrazec in obrazec za hitro ustvarjanje za stranko v podrobnostih ponudbe. | Pravna oseba, pri kateri je ta stranka nastavljena v modulu **Vodenje projektov in računovodstvo**. To polje je samo za branje in je nastavljeno na lastniško podjetje same ponudbe. Seznam strank, ki jih želite dodati v polje **Kupec** , je že filtrirano na seznam od lastniškega podjetja v modulu Project Operations **Vodenje projektov in računovodstvo**. | Lastniško podjetje je enako konceptu pravne osebe. Vsi stroški in prihodki, ki nastanejo pri tem projektu, se zabeležijo v glavni knjigi lastniškega podjetja. |
+| **Je zaokroževanje** | Mreža, ki jo je mogoče urejati, na zavihku **Stranke v podrobnostih ponudbe** , glavni obrazec in obrazec za hitro ustvarjanje za stranko v podrobnostih ponudbe. | Označuje, ali je ta stranka privzeta stranka za zaokroževanje za to podrobnost ponudbe, ki temelji na projektu. | Kopirano med stranke v pogodbi za projekt, ko je pridobljena ponudba. |
 
 ## <a name="edit-billing-split-percentages"></a>Urejanje odstotkov razdelitve stroškov
 

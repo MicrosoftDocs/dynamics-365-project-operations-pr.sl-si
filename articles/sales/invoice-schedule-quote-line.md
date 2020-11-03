@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908611"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084689"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Razporedi računov v vrsticah ponudbe, ki temeljijo na projektu
 
@@ -32,7 +32,7 @@ Kadar je način obračunavanja za ponudbeno vrstico , ki temelji na projektu, mo
 3. Odprite vrstico ponudbe za čas in material, za katero morate ustvariti razpored računov na podlagi datuma. 
 4. Na zavihku **Razpored računov** izberite vrednost za polji **Začetek obračunavanja** in **Pogostost izdajanja računov**. 
 5. V podmreži izberite možnost **Ustvari razpored računov**.
-6. Aplikacija ustvari razpored računov s polji za **Datum izdaje računa**, **Datum zaključka transakcije** in **Stanje izdaje**, ki so nastavljeni na naslednji način:
+6. Aplikacija ustvari razpored računov s polji za **Datum izdaje računa** , **Datum zaključka transakcije** in **Stanje izdaje** , ki so nastavljeni na naslednji način:
 
     - **Datum izdaje računa** je nastavljen na datum, ki je določen glede na pogostost izdajanja računov.
     - **Datum zaključka transakcije** je nastavljen na dan pred **datumom izdaje računa**.

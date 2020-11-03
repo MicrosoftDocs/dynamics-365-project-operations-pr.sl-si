@@ -3,17 +3,17 @@ title: Omogočanje novega okolja
 description: Ta tema vsebuje informacije o omogočanju novega okolja v storitvi Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949382"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084643"
 ---
 # <a name="provision-a-new-environment"></a>Omogočanje novega okolja
 
@@ -26,21 +26,21 @@ Ta tema ponuja informacije o tem, kako omogočiti novo okolje Dynamics 365 Proje
 Uporabite naslednje korake, da omogočite avtomatizirano omogočanje uporabe storitve Project Operations za vaš projekt LCS.
 
 1. Odprite [LCS](https://lcs.dynamics.com/v2) in izberite ploščico **Upravljanje funkcije predogleda**.
-2. V seznamu **Funkcija predogleda** izberite **Project Operations** in izberite **Omogoči funkcijo predogleda**, da omogočite storitev Project Operations.
+2. V seznamu **Funkcija predogleda** izberite **Funkcija Project Operations** in izberite **Omogoči funkcijo predogleda** , da omogočite storitev Project Operations.
 
 > [!NOTE]
 > Ta korak se izvede samo enkrat za posamezni projekt LCS.
 
 ## <a name="provision-a-project-operations-environment"></a>Omogočanje uporabe okolja Project Operations
 
-1. Odprite novo [predstavitveno okolje](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance ali [preskusno/produkcijsko okolje](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) za uvedbo. 
+1. Odprite novo [predstavitveno okolje](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance ali [preskusno/produkcijsko okolje](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) za uvedbo. 
 2. Sprehodite se skozi čarovnika **Omogočanje okolja**. 
 
 > [!IMPORTANT]
 > Prepričajte se, da je izbrana različica aplikacije 10.0.13 ali novejša.
 
 3. če želite omogočiti storitev Project Operations odprite možnost **Napredne nastavitve** in izberite **Common Data Service**. 
-4. Omogočite **Nastavitev Common Data Service**, tako da izberete **Da** in vnesite podatke v zahtevana polja:
+4. Omogočite **Nastavitev Common Data Service** , tako da izberete **Da** in vnesite podatke v zahtevana polja:
 
   - Imenu
   - Regija
@@ -54,7 +54,7 @@ Uporabite naslednje korake, da omogočite avtomatizirano omogočanje uporabe sto
 ![Nastavitve uvedbe](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
-> Izberite možnost **Strinjam se**, da potrdite pogoje storitve, nato izberite **Končano**, da se vrnete v nastavitve uvajanja.
+> Izberite možnost **Strinjam se** , da potrdite pogoje storitve, nato izberite **Končano** , da se vrnete v nastavitve uvajanja.
 
 ![Soglasje uvedbe](./media/2DeploymentConsent.png)
 
@@ -116,7 +116,7 @@ Vzdrževanje okolja bo trajalo nekaj časa. Ko bo končano, se bo okolje vrnilo 
 
 ![Povezava do CDS](./media/12LinktoCDS.png)
 
-4. Izberite **Uporabi rešitev**, če želite dostopati do entitet, ki bodo preslikane v integraciji.
+4. Izberite **Uporabi rešitev** , če želite dostopati do entitet, ki bodo preslikane v integraciji.
 
 ![Uporaba rešitev](./media/13ApplySolutions.png)
 
@@ -165,18 +165,19 @@ Osveževanje bo trajalo približno 20 minut. Ko bo končano, boste prejeli obves
 | **Integracijska entiteta za odnose projektne transakcije (msdyn\_transactionconnections)** | No | No | Ni na voljo | No | Ni na voljo |
 | **Mejniki podrobnosti pogodbe o integraciji storitve Project Operations (msdyn\_contractlinesscheduleofvalues)** | No | No | Ni na voljo | No | Ni na voljo |
 | **Integracijska entiteta za ocene stroškov v storitvi Project Operations (msdyn\_estimateslines)** | No | No | Ni na voljo | No | Ni na voljo |
-| **Integracijska entiteta za oceno časa v storitvi Project Operations (msdyn\_resourceassignments)** | No | No | Ni na voljo | No | Ni na voljo |
+| **Entiteta za izvoz kategorije stroškov projekta pri integraciji storitve Project Operations (msdyn\_expensecategories)** | No | No | Ni na voljo | No | Ni na voljo |
 | **Entiteta za izvoz stroškov projekta pri integraciji storitve Project Operations (msdyn\_expenses)** | Da | No | Ni na voljo | No | Ni na voljo |
 | **Integracijska entiteta za oceno časa v storitvi Project Operations (msdyn\_resourceassignments)** | Da | No | Ni na voljo | No | Ni na voljo |
 
+
 4. Če želite osvežiti entiteto, izberite ime zemljevida in nato **Osveži entitete**. 
-5. Po zaključenem osveževanju nadaljujte z izvajanjem zemljevida.
+
 
 ![Osveži zemljevid](./media/20RefreshMapping.png)
 
-Preden omogočite naslednji zemljevid, preverite, ali je zemljevid v tabeli v stanju **Se izvaja**. Izvajanje zemljevidov z večjim številom predhodnih zahtev lahko traja nekaj časa.
+5. Po zaključenem osveževanju izvajajte zemljevid. Preden omogočite naslednji zemljevid, preverite, ali je zemljevid v tabeli v stanju **Se izvaja**. Izvajanje zemljevidov z večjim številom predhodnih zahtev lahko traja nekaj časa.
 
-Za izvajanje zemljevida s predhodnimi zahtevami omogočite preklopno stikalo **Prikaz zemljevidov povezanih entitet**. Če je v tabeli možnost **Predpogoj za začetno sinhronizacijo** nastavljena na **Ne**, preverite, ali je zastavica **Začetna sinhronizacija** nastavljena na **Izklopljeno** na vseh zahtevanih zemljevidih, preden jih zaženete.
+Za izvajanje zemljevida s predhodnimi zahtevami omogočite preklopno stikalo **Prikaz zemljevidov povezanih entitet**. Če je v tabeli možnost **Predpogoj za začetno sinhronizacijo** nastavljena na **Ne** , preverite, ali je zastavica **Začetna sinhronizacija** nastavljena na **Izklopljeno** na vseh zahtevanih zemljevidih, preden jih zaženete.
 
 ![Zagon zemljevida](./media/21RunMap.png)
 

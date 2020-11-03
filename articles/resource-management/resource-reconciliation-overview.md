@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1b60ed9d15f51ff01f27bcc231f5db27513a838f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e2b16a6e1c48769ed4d903e546804ba1c4e1c4fa
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897471"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084698"
 ---
 # <a name="resource-reconciliation-overview"></a>Pregled uskladitve virov
 
@@ -47,7 +46,7 @@ Ko si ogledujete čas na višji ravni, kot je dnevna raven (npr. na ravni meseca
 Ko prikažete čas na višjih ravneh, imajo celice na zavihku **Usklajevanje** kazalnik, ki vas obvesti, da obstajajo razlike na nižjih ravneh. Z dvojnim klikom v celici lahko povečate prikaz in si ogledate razliko. Nato lahko kliknete z desno tipko miške, da pomanjšate prikaz. Če izberete vir in nato uporabite kontrolnik **Naslednja razlika** v orodni vrstici mreže, se lahko pomaknete na naslednjo razliko med rezervacijami in dodelitvami za ta vir. Nato lahko za vrnitev uporabite kontrolnik **Prejšnja razlika**. Prav tako lahko v meniju **Nastavitve** izklopite kazalnik razlike in delovanje krmarjenja.
 
 
-Če imate dodelitve opravil za vir, a nimate rezervacij, na strani **Projekti** na zavihku **Usklajevanje** izberite primanjkljaj rezervacij in nato **Podaljšaj rezervacijo**. Prikaže se pogovorno **Podaljšaj rezervacijo** in prikaže rezervacijo, ki je potrebna za odpravo primanjkljaja vira. Prikazuje tudi obstoječe rezervacije vira za vse projekte ali druge entitete, ki jih je mogoče razporediti. Če izberete **V redu**, da ustvarite rezervacijo za vir, lahko ne glede na razpoložljivost tega vira ustvarite prekomerno rezervacijo.
+Če imate dodelitve opravil za vir, a nimate rezervacij, na strani **Projekti** na zavihku **Usklajevanje** izberite primanjkljaj rezervacij in nato **Podaljšaj rezervacijo**. Prikaže se pogovorno **Podaljšaj rezervacijo** in prikaže rezervacijo, ki je potrebna za odpravo primanjkljaja vira. Prikazuje tudi obstoječe rezervacije vira za vse projekte ali druge entitete, ki jih je mogoče razporediti. Če izberete **V redu** , da ustvarite rezervacijo za vir, lahko ne glede na razpoložljivost tega vira ustvarite prekomerno rezervacijo.
 
 Vodja projekta ali upravitelj virov lahko nato s ploščo razporeda reši vse primere, kjer ima vir preveliko število rezervacij glede na svojo zmogljivost.
 

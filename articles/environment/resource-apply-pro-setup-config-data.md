@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949080"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084629"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Nastavitev in uporaba konfiguracijskih podatkov v storitvi Common Data Service za Project Operations
 
@@ -27,7 +27,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
 
 ![Selitev konfiguracije](./media/1ConfigurationMigration.png)
 
-4. Na 2. strani čarovnika CMT izberite **Office 365** kot možnost **Vrsta uvajanja**.
+4. Na 2. strani čarovnika CMT izberite **Microsoft 365** kot možnost **Vrsta uvajanja**.
 5. Izberite potrditvena polja **Prikaži seznam organizacij, ki so na voljo** in **Pokaži napredno**.
 6. Izberite regijo vašega najemnika, vnesite poverilnice in nato izberite **Prijava**.
 
@@ -75,7 +75,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
 
 ![Odpri okolje](./media/7OpenEnvironment.png)
 
-2. Odprite **Projekti** > **Viri** in nato izberite **Novo**, da za svojega uporabnika ustvarite vir, ki ga je mogoče rezervirati.
+2. Odprite **Projekti** > **Viri** in nato izberite **Novo** , da za svojega uporabnika ustvarite vir, ki ga je mogoče rezervirati.
 
 ![Viri, ki jih je mogoče rezervirati](./media/8BookableResources.png)
 
@@ -114,10 +114,10 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
  
 12. Posodobite naslednja polja:
 
- - **Privzeto podjetje**: USPM
- - **Privzeta organizacijska enota**: Contoso Robotics Global
- - **Pogostost izdajanja računov**: sedmi in zadnji dan
- - **Predloga delovnega časa**: preklopite na predlogo, ki ste jo ustvarili.
+ - **Privzeto podjetje** : USPM
+ - **Privzeta organizacijska enota** : Contoso Robotics Global
+ - **Pogostost izdajanja računov** : sedmi in zadnji dan
+ - **Predloga delovnega časa** : preklopite na predlogo, ki ste jo ustvarili.
 
 13. Izberite **Shrani**. 
 

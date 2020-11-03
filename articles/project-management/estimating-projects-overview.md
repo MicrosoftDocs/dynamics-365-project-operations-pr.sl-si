@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 6eb26bab511ec09201ab70c3e2808dece3f74c4c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968063"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084645"
 ---
 # <a name="estimate-projects-overview"></a>Pregled ocenjevanja projektov
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-V ponudbi, ki temelji na projektu, lahko uporabite entiteto **Podrobnosti vrstice ponudbe**, da ocenite, koliko dela je potrebnega za dokončanje projekta. To oceno lahko nato delite s stranko.
+V ponudbi, ki temelji na projektu, lahko uporabite entiteto **Podrobnosti vrstice ponudbe** , da ocenite, koliko dela je potrebnega za dokončanje projekta. To oceno lahko nato delite s stranko.
 
 Vrstice ponudbe na osnovi projekta lahko imajo nič do mnogo podrobnosti vrstice ponudbe. Podrobnosti vrstice ponudbe se uporabljajo za oceno časa, stroškov ali pristojbin. Microsoft Dynamics 365 Project Operations v podrobnostih vrstice ponudbe ne dovoli ocen za material. Te se imenujejo razredi transakcije. Predvideni znesek davka je prav tako mogoče vnesti v razred transakcij.
 
@@ -74,8 +74,8 @@ Spodnja tabela vam bo v pomoč pri razumevanju poslovne logike v fazi ocenjevanj
 2. Izberite **Iskanje** in poiščite vtičnik, ki ga želite posodobiti.
 3. Izberite vtičnik in nato na glavni strani kliknite **Izberi**.
 4. V vtičniku izberite korak za posodobitev, ga kliknite z desno miškino tipko in nato izberite **Posodobi**.
-5. V pogovornem oknu **Posodobi obstoječi korak** v polju **Atributi filtriranja** izberite gumb s tremi pikami (**...**):
+5. V pogovornem oknu **Posodobi obstoječi korak** v polju **Atributi filtriranja** izberite gumb s tremi pikami ( **...** ):
 6. V pogovornem oknu **Izberite atribute** izberite potrditvena polja za atribute po meri.
-7. Izberite **V redu**, da zaprete pogovorno okno, in nato **Posodobi korak**.
+7. Izberite **V redu** , da zaprete pogovorno okno, in nato **Posodobi korak**.
 8. Ponovite korake od 1 do 7 za drugi vtičnik.
 9. Zaprite **PluginRegistrationTool**.

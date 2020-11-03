@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 28397fd49ad4cdb2c820ef4b6f198f410995ba0f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084853"
 ---
 # <a name="products"></a>Izdelki
 
@@ -39,22 +38,22 @@ Izdelki so hrbtenica vašega podjetja. Katalog izdelkov v storitvi Dynamics 365 
 
     -  **Ime**
     -  **ID izdelka**
-    -  **Nadrejeno**: izberite nadrejeno družino izdelkov za izdelek. Če ustvarjate podrejeni izdelek v družini izdelkov, sem vnesite ime nadrejene družine izdelkov. Tega ni mogoče spremeniti, ko je zapis shranjen.
-    -  **Veljavno od**/**Veljavno do**: določite obdobje veljavnosti izdelka tako, da izberete datum pri možnosti **Veljavno od** in **Veljavno do**.
-    -  **Skupina enot**: izberite skupino enot. Skupina enot je zbirka različnih enot, v katerih se prodaja izdelek, in določa, kako se posamezne elemente združuje v večje količine. Če kot izdelek na primer dodajate semena, ste morda ustvarili skupino enot »Semena« in kot njeno primarno enoto določili »paket«.
-    -  **Privzeta enota**: izberite najbolj običajno enoto, v kateri boste prodajali izdelek. Enote so količine ali meritve, v katerih prodajate svoje izdelke. Če na primer kot izdelek dodate semena, lahko izdelek prodajate v paketih, v škatlah ali na paletah. Vsaka od teh enot postane enota izdelka. Če se semena večinoma prodajajo v paketih, to izberite kot enoto.
-    -  **Privzeti cenik**: če je izdelek nov, je to polje na voljo samo za branje. Če želite izbrati privzeti cenik, morate najprej izpolniti vsa obvezna polja in zapis shraniti. Čeprav privzeti cenik ni obvezen, vam priporočamo, da ga nastavite za posamezen izdelek, potem ko shranite zapis o izdelku. Če v zapisu o stranki ni cenika, lahko prodajna ekipa za oblikovanje ponudb, naročil in računov uporabi privzeti cenik.
-    -  **Podprte decimalke**: vnesti morate celo število med 0 in 5. Če izdelka ni mogoče razdeliti po delih, vnesite 0. Natančnost polja **Količina** v ponudbi, naročilu ali zapisku zmnožka računa je preverjena z vrednostjo v tem polju, če za izdelek ni povezanega cenika.
-    -  **Zadeva**: povežite ta izdelek z zadevo. Z zadevami lahko razvrstite izdelke v kategorije in filtrirate poročila.
+    -  **Nadrejeno** : izberite nadrejeno družino izdelkov za izdelek. Če ustvarjate podrejeni izdelek v družini izdelkov, sem vnesite ime nadrejene družine izdelkov. Tega ni mogoče spremeniti, ko je zapis shranjen.
+    -  **Veljavno od**/**Veljavno do** : določite obdobje veljavnosti izdelka tako, da izberete datum pri možnosti **Veljavno od** in **Veljavno do**.
+    -  **Skupina enot** : izberite skupino enot. Skupina enot je zbirka različnih enot, v katerih se prodaja izdelek, in določa, kako se posamezne elemente združuje v večje količine. Če kot izdelek na primer dodajate semena, ste morda ustvarili skupino enot »Semena« in kot njeno primarno enoto določili »paket«.
+    -  **Privzeta enota** : izberite najbolj običajno enoto, v kateri boste prodajali izdelek. Enote so količine ali meritve, v katerih prodajate svoje izdelke. Če na primer kot izdelek dodate semena, lahko izdelek prodajate v paketih, v škatlah ali na paletah. Vsaka od teh enot postane enota izdelka. Če se semena večinoma prodajajo v paketih, to izberite kot enoto.
+    -  **Privzeti cenik** : če je izdelek nov, je to polje na voljo samo za branje. Če želite izbrati privzeti cenik, morate najprej izpolniti vsa obvezna polja in zapis shraniti. Čeprav privzeti cenik ni obvezen, vam priporočamo, da ga nastavite za posamezen izdelek, potem ko shranite zapis o izdelku. Če v zapisu o stranki ni cenika, lahko prodajna ekipa za oblikovanje ponudb, naročil in računov uporabi privzeti cenik.
+    -  **Podprte decimalke** : vnesti morate celo število med 0 in 5. Če izdelka ni mogoče razdeliti po delih, vnesite 0. Natančnost polja **Količina** v ponudbi, naročilu ali zapisku zmnožka računa je preverjena z vrednostjo v tem polju, če za izdelek ni povezanega cenika.
+    -  **Zadeva** : povežite ta izdelek z zadevo. Z zadevami lahko razvrstite izdelke v kategorije in filtrirate poročila.
 
 4.  Izberite **Shrani**.
 5.  Na zavihku **Dodatne podrobnosti** v razdelku **Elementi cenika** izberite **Več ukazov** in nato izberite **Dodaj nov element cenika**.
-7.  Na zavihku **Dodatne podrobnosti**, v razdelku **Odnos izdelka** izberite ikono **Več ukazov** in nato izberite **Dodaj nov odnos izdelka**.
-8.  Na obrazcu **Nov odnos med izdelki** vnesite naslednje podrobnosti in v ukazni vrstici izberite **Shrani in zapri**:
+7.  Na zavihku **Dodatne podrobnosti** , v razdelku **Odnos izdelka** izberite ikono **Več ukazov** in nato izberite **Dodaj nov odnos izdelka**.
+8.  Na obrazcu **Nov odnos med izdelki** vnesite naslednje podrobnosti in v ukazni vrstici izberite **Shrani in zapri** :
 
-    -   **Sorodni izdelek**: izberite izdelek, ki ga želite dodati kot sorodni izdelek obstoječemu zapisu izdelka, s katerim delate.
-    -   **Vrsta prodajnih odnosov**: izberite, ali želite dodati izdelek kot izdelek za povečano prodajo, izdelek za navzkrižno prodajo, dodatek ali nadomestek.
-    -   **Smer**: izberite, ali bo odnos med izdelki enosmeren ali dvosmeren. Ko izberete enosmeren, bo izdelek, ki ga izberete v možnosti **Sorodni izdelek**, prikazan kot priporočilo za obstoječi izdelek, ne pa tudi obratno.
+    -   **Sorodni izdelek** : izberite izdelek, ki ga želite dodati kot sorodni izdelek obstoječemu zapisu izdelka, s katerim delate.
+    -   **Vrsta prodajnih odnosov** : izberite, ali želite dodati izdelek kot izdelek za povečano prodajo, izdelek za navzkrižno prodajo, dodatek ali nadomestek.
+    -   **Smer** : izberite, ali bo odnos med izdelki enosmeren ali dvosmeren. Ko izberete enosmeren, bo izdelek, ki ga izberete v možnosti **Sorodni izdelek** , prikazan kot priporočilo za obstoječi izdelek, ne pa tudi obratno.
 
 9.  Na obrazcu izdelka izberite **Shrani**.
 
@@ -120,8 +119,8 @@ Sistem preveri, da so kot količniki za količino označene samo številske last
 
 Na primer, če obstajajo naslednje lastnosti: 
 
-- **Št. uporabnikov**: število uporabnikov. 
-- **Št. mesecev**: število mesecev naročnine.
+- **Št. uporabnikov** : število uporabnikov. 
+- **Št. mesecev** : število mesecev naročnine.
 - **Inventarna številka izdelka** 
 
 Lastnosti **Št. uporabnikov** in **Št. mesecev** lahko označite kot količnike za količino tako, da uredite lastnosti vrstice izdelkov. 

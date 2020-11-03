@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 74f8889022e42a7bbd37879df870401c0e103446
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897696"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084706"
 ---
 # <a name="booking-allocation-methods"></a>Načini rezervacije dodelitev
 
@@ -72,7 +71,7 @@ Način obremenitve na začetku upošteva obstoječe rezervacije in razpoložljiv
 Ker se upošteva razpoložljiva zmogljivost, lahko prejmete sporočilo o napaki, če vir nima preostale zmogljivosti, ki bi jo rezervacija lahko prevzela. S tem načinom ne morete doseči prevelikega števila rezervacij.
 
 ### <a name="none"></a><a name="none"></a>Ni priprav ali omejitev
-Način »Brez« je na voljo samo, če rezervacijo ustvarite na zavihku **Ekipa** znotraj projekta. Ta način projektu doda vir kot člana ekipe, vendar ne ustvari rezervacij, ki bi prevzele zmogljivost vira. Ta način se uporablja, če je privzeti vodja projekta kot član ekipe dodan, ko se ustvari projekt. Vodja projekta kot uporabnik, ki je ustvaril projekt, se projektu privzeto doda, tako da ima zapis entitete projekta lastnika in da obstaja en odobritelj pri projektu. Ker ta uporabnik nima rezervacij, lahko, če želite rezervirati vir, izbrišete vir in ga nato znova dodate ter pri tem uporabite drug način dodeljevanja, ali pa dodate vir opravilom in nato na zavihku **Uskladitev** uporabite možnost **Podaljšanje rezervacij**, s katero ustvarite rezervacije za dodelitve.
+Način »Brez« je na voljo samo, če rezervacijo ustvarite na zavihku **Ekipa** znotraj projekta. Ta način projektu doda vir kot člana ekipe, vendar ne ustvari rezervacij, ki bi prevzele zmogljivost vira. Ta način se uporablja, če je privzeti vodja projekta kot član ekipe dodan, ko se ustvari projekt. Vodja projekta kot uporabnik, ki je ustvaril projekt, se projektu privzeto doda, tako da ima zapis entitete projekta lastnika in da obstaja en odobritelj pri projektu. Ker ta uporabnik nima rezervacij, lahko, če želite rezervirati vir, izbrišete vir in ga nato znova dodate ter pri tem uporabite drug način dodeljevanja, ali pa dodate vir opravilom in nato na zavihku **Uskladitev** uporabite možnost **Podaljšanje rezervacij** , s katero ustvarite rezervacije za dodelitve.
 
 ## <a name="allocation-methods-that-lead-to-overbooking"></a>Načini dodelitev, ki vodijo v preveliko število rezervacij
 Če povzamemo, naslednji načini dodeljevanja vodijo v preveliko število rezervacij, če je vir že dodeljen za druge projekte (ali za druge delovne naloge ali entitete za razporejanje):

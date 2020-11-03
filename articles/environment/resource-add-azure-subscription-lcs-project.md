@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949081"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084627"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>Dodajanje naročnine na Azure projektu LCS
 
@@ -31,7 +31,7 @@ Okolja, ki se jih gosti v oblaku, je treba uvesti z obstoječo naročnino na Azu
 
 ![Povezovalniki Azure](./media/2AzureConnectors.png)
 
-3. Znova izberite **Pooblasti**, da zagotovite soglasje skrbnika.
+3. Znova izberite **Pooblasti** , da zagotovite soglasje skrbnika.
 
 ![Podelitev soglasja skrbnika](./media/3GrantAdminConsent.png)
 
@@ -57,11 +57,11 @@ Pooblastitev je zdaj končana.
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Dodajanje povezovalnika naročnine na projekt LCS
 
-1. V projektu LCS na strani z **nastavitvami Microsoft Azure** izberite **Dodaj**, da dodate nov povezovalnik.
+1. V projektu LCS na strani z **nastavitvami Microsoft Azure** izberite **Dodaj** , da dodate nov povezovalnik.
 2. Vnesite ID naročnine na Azure. ID naročnine na Azure lahko najdete v [portalu Azure](https://ms.portal.azure.com/), pod možnostjo **Nastavitve** v spodnjem levem kotu zaslona.
 3. V polju **Konfiguriraj za uporabo storitve Azure Resource Manager** izberite **Da**.
 4. Prepričajte se, da se domena najemnika AAD za naročnino AAD ujema z naročnino na Azure, ki jo uporabljate in je lastnik domene, in izberite **Naprej**.
-5. Na zaslonu **Nastavitev Microsoft Azure** izberite **Naprej**, da potrdite izbiro. Če se na tem zaslonu prikaže napaka, se vrnite v razdelek [Omogočite dostop do storitev za uvajanje Dynamics za naročnino Azure](#provide) v tej temi in se prepričajte, da ste opravili vse korake.
+5. Na zaslonu **Nastavitev Microsoft Azure** izberite **Naprej** , da potrdite izbiro. Če se na tem zaslonu prikaže napaka, se vrnite v razdelek [Omogočite dostop do storitev za uvajanje Dynamics za naročnino Azure](#provide) v tej temi in se prepričajte, da ste opravili vse korake.
 6. Prenesite potrdilo za upravljanje storitve Azure v lokalno mapo v računalniku in ga nato naložite na portal za upravljanje storitve Azure tako, da odprete **Nastavitve** > **Potrdila za upravljanje**. To potrdilo bo storitvi LCS omogočilo komunikacijo s storitvijo Azure v vašem imenu. Ta korak lahko preskočite, če ima vaš uporabnik dostop do naročnine.
 7. Izberite **Naprej**.
 8. Izberite regijo Azure, v kateri želite uvesti to možnost, in izberite podatkovno središče, ki je blizu mesta, kjer nameravate uporabljati ta sistem.
