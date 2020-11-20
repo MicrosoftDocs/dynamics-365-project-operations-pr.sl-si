@@ -1,93 +1,93 @@
 ---
-title: Prijava za naročnino predogleda
+title: Prijava za naročnino na predogledno različico – poenostavljena različica
 description: Ta tema vsebuje informacije o tem, kako se lahko naročite in uvedete poenostavljeno uvedbo storitve Project Operations – od posla do izstavitve predračuna.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084619"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175911"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a><span data-ttu-id="2354e-103">Prijavite se na naročnino predogleda za poenostavljeno uvedbo – od posla do izstavitve predračuna</span><span class="sxs-lookup"><span data-stu-id="2354e-103">Sign up for a preview subscription for lite deployment – deal to proforma invoicing</span></span>
+# <a name="sign-up-for-a-preview-subscription---lite"></a><span data-ttu-id="c5f54-103">Prijava za naročnino na predogledno različico – poenostavljena različica</span><span class="sxs-lookup"><span data-stu-id="c5f54-103">Sign up for a preview subscription - lite</span></span> 
 
-<span data-ttu-id="2354e-104">Ta tema pojasnjuje, kako se lahko naročite na ponudbo partnerja za predogled in nastavite poenostavljeno uvedbo storitve Dynamics 365 Project Operations – od posla do izstavitve predračuna.</span><span class="sxs-lookup"><span data-stu-id="2354e-104">This topic explains how to subscribe to the preview partner offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
+<span data-ttu-id="c5f54-104">Ta tema pojasnjuje, kako se lahko naročite na ponudbo partnerja za predogled in nastavite poenostavljeno uvedbo storitve Dynamics 365 Project Operations – od posla do izstavitve predračuna.</span><span class="sxs-lookup"><span data-stu-id="c5f54-104">This topic explains how to subscribe to the preview partner offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2354e-105">Ta postopek se bo spremenil v prihodnjih izdajah storitve Project Operations.</span><span class="sxs-lookup"><span data-stu-id="2354e-105">This process will change in upcoming releases of Project Operations.</span></span>
+> <span data-ttu-id="c5f54-105">Ta postopek se bo spremenil v prihodnjih izdajah storitve Project Operations.</span><span class="sxs-lookup"><span data-stu-id="c5f54-105">This process will change in upcoming releases of Project Operations.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="2354e-106">Zahteve</span><span class="sxs-lookup"><span data-stu-id="2354e-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="c5f54-106">Zahteve</span><span class="sxs-lookup"><span data-stu-id="c5f54-106">Prerequisites</span></span>
 
-- <span data-ttu-id="2354e-107">Prejeli boste e-poštno sporočilo z vabilom k sodelovanju v predogledu.</span><span class="sxs-lookup"><span data-stu-id="2354e-107">You'll receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="2354e-108">Predogled lahko zahtevate na [spletnem mestu storitve Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span><span class="sxs-lookup"><span data-stu-id="2354e-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
-- <span data-ttu-id="2354e-109">Uporabnik, ki uvede predogled, mora imeti pravice globalnega skrbnika za najemnika imenika Azure.</span><span class="sxs-lookup"><span data-stu-id="2354e-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
-- <span data-ttu-id="2354e-110">Preglejte vse pogoje in določila.</span><span class="sxs-lookup"><span data-stu-id="2354e-110">Review all terms and conditions.</span></span>
+- <span data-ttu-id="c5f54-107">Prejeli boste e-poštno sporočilo z vabilom k sodelovanju v predogledu.</span><span class="sxs-lookup"><span data-stu-id="c5f54-107">You'll receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="c5f54-108">Predogled lahko zahtevate na [spletnem mestu storitve Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span><span class="sxs-lookup"><span data-stu-id="c5f54-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
+- <span data-ttu-id="c5f54-109">Uporabnik, ki uvede predogled, mora imeti pravice globalnega skrbnika za najemnika imenika Azure.</span><span class="sxs-lookup"><span data-stu-id="c5f54-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
+- <span data-ttu-id="c5f54-110">Preglejte vse pogoje in določila.</span><span class="sxs-lookup"><span data-stu-id="c5f54-110">Review all terms and conditions.</span></span>
 
-## <a name="subscribe"></a><span data-ttu-id="2354e-111">Naročite se</span><span class="sxs-lookup"><span data-stu-id="2354e-111">Subscribe</span></span>
+## <a name="subscribe"></a><span data-ttu-id="c5f54-111">Naročite se</span><span class="sxs-lookup"><span data-stu-id="c5f54-111">Subscribe</span></span>
 
-<span data-ttu-id="2354e-112">Ko prejmete odobritev [zahteve za predogled](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), boste od Microsofta po elektronski pošti prejeli dve ponudbi.</span><span class="sxs-lookup"><span data-stu-id="2354e-112">When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you'll receive two offers from Microsoft by email.</span></span> <span data-ttu-id="2354e-113">Te ponudbe omogočajo uvedbo predogleda Project Operations:</span><span class="sxs-lookup"><span data-stu-id="2354e-113">These offers allow you to deploy the Project Operations Preview:</span></span>
+<span data-ttu-id="c5f54-112">Ko prejmete odobritev [zahteve za predogled](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), boste od Microsofta po elektronski pošti prejeli dve ponudbi.</span><span class="sxs-lookup"><span data-stu-id="c5f54-112">When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you'll receive two offers from Microsoft by email.</span></span> <span data-ttu-id="c5f54-113">Te ponudbe omogočajo uvedbo predogleda Project Operations:</span><span class="sxs-lookup"><span data-stu-id="c5f54-113">These offers allow you to deploy the Project Operations Preview:</span></span>
 
-- <span data-ttu-id="2354e-114">Dynamics 365 Project Operations (CRM) – preskus predogleda</span><span class="sxs-lookup"><span data-stu-id="2354e-114">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
-- <span data-ttu-id="2354e-115">Office 365 Project Operations – poskusna različica</span><span class="sxs-lookup"><span data-stu-id="2354e-115">Office 365 Project Operations - Preview Trial</span></span>
+- <span data-ttu-id="c5f54-114">Dynamics 365 Project Operations (CRM) – preskus predogleda</span><span class="sxs-lookup"><span data-stu-id="c5f54-114">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
+- <span data-ttu-id="c5f54-115">Office 365 Project Operations – poskusna različica</span><span class="sxs-lookup"><span data-stu-id="c5f54-115">Office 365 Project Operations - Preview Trial</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="2354e-116">To nalogo mora opraviti samo ena oseba in sicer skrbnik najemnika v organizaciji.</span><span class="sxs-lookup"><span data-stu-id="2354e-116">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="2354e-117">Če niste naročnik te izdaje, počakajte, da se organizacija prijavi in prejmete svoje uporabniške poverilnice.</span><span class="sxs-lookup"><span data-stu-id="2354e-117">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
+> <span data-ttu-id="c5f54-116">To nalogo mora opraviti samo ena oseba in sicer skrbnik najemnika v organizaciji.</span><span class="sxs-lookup"><span data-stu-id="c5f54-116">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="c5f54-117">Če niste naročnik te izdaje, počakajte, da se organizacija prijavi in prejmete svoje uporabniške poverilnice.</span><span class="sxs-lookup"><span data-stu-id="c5f54-117">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="2354e-118">Dynamics 365 Project Operations (CRM) – preskus predogleda</span><span class="sxs-lookup"><span data-stu-id="2354e-118">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="c5f54-118">Dynamics 365 Project Operations (CRM) – preskus predogleda</span><span class="sxs-lookup"><span data-stu-id="c5f54-118">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
 
-<span data-ttu-id="2354e-119">Preden začnete, se prepričajte, da ste prijavljeni v brskalnik z uporabnikovim službenim računom v najemniku, kjer želite imeti predogled aplikacije Project Operations.</span><span class="sxs-lookup"><span data-stu-id="2354e-119">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
+<span data-ttu-id="c5f54-119">Preden začnete, se prepričajte, da ste prijavljeni v brskalnik z uporabnikovim službenim računom v najemniku, kjer želite imeti predogled aplikacije Project Operations.</span><span class="sxs-lookup"><span data-stu-id="c5f54-119">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
 
-1. <span data-ttu-id="2354e-120">Unovčite kodo prve ponudbe **Dynamics 365 Project Operations (CRM) – preskusna različica** , tako da jo prilepite v URL brskalnika.</span><span class="sxs-lookup"><span data-stu-id="2354e-120">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
+1. <span data-ttu-id="c5f54-120">Unovčite kodo prve ponudbe **Dynamics 365 Project Operations (CRM) – preskusna različica**, tako da jo prilepite v URL brskalnika.</span><span class="sxs-lookup"><span data-stu-id="c5f54-120">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
 
 ![Prevzem ponudbe](./media/16RedeemFirstOfferNew.png)
 
-2. <span data-ttu-id="2354e-122">Potrdite svoje naročilo.</span><span class="sxs-lookup"><span data-stu-id="2354e-122">Confirm your order.</span></span>
-<span data-ttu-id="2354e-123">![Potrdite naročilo](./media/17ConfirmOrderNew.png)</span><span class="sxs-lookup"><span data-stu-id="2354e-123">![Confirm the order](./media/17ConfirmOrderNew.png)</span></span>
+2. <span data-ttu-id="c5f54-122">Potrdite svoje naročilo.</span><span class="sxs-lookup"><span data-stu-id="c5f54-122">Confirm your order.</span></span>
+<span data-ttu-id="c5f54-123">![Potrdite naročilo](./media/17ConfirmOrderNew.png)</span><span class="sxs-lookup"><span data-stu-id="c5f54-123">![Confirm the order](./media/17ConfirmOrderNew.png)</span></span>
 
-<span data-ttu-id="2354e-124">Videli boste, da je bila ponudba za potrditev uspešno izkoriščena.</span><span class="sxs-lookup"><span data-stu-id="2354e-124">You'll see confirmation offer was successfully redeemed.</span></span>
+<span data-ttu-id="c5f54-124">Videli boste, da je bila ponudba za potrditev uspešno izkoriščena.</span><span class="sxs-lookup"><span data-stu-id="c5f54-124">You'll see confirmation offer was successfully redeemed.</span></span>
 
 ![Potrditev](./media/18OrderConfirmationNew.png)
 
-### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="2354e-126">Office 365 Project Operations – poskusna različica</span><span class="sxs-lookup"><span data-stu-id="2354e-126">Office 365 Project Operations - Preview Trial</span></span>
+### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="c5f54-126">Office 365 Project Operations – poskusna različica</span><span class="sxs-lookup"><span data-stu-id="c5f54-126">Office 365 Project Operations - Preview Trial</span></span>
 
-<span data-ttu-id="2354e-127">Ponovite enake korake kot pri kodi prve ponudbe.</span><span class="sxs-lookup"><span data-stu-id="2354e-127">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="2354e-128">Ne pozabite dodati kode druge ponudbe z istim uporabniškim računom, ki je bil uporabljen za kodo prve ponudbe.</span><span class="sxs-lookup"><span data-stu-id="2354e-128">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
+<span data-ttu-id="c5f54-127">Ponovite enake korake kot pri kodi prve ponudbe.</span><span class="sxs-lookup"><span data-stu-id="c5f54-127">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="c5f54-128">Ne pozabite dodati kode druge ponudbe z istim uporabniškim računom, ki je bil uporabljen za kodo prve ponudbe.</span><span class="sxs-lookup"><span data-stu-id="c5f54-128">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
 
-## <a name="assign-licenses"></a><span data-ttu-id="2354e-129">Dodeljevanje licenc</span><span class="sxs-lookup"><span data-stu-id="2354e-129">Assign licenses</span></span>
+## <a name="assign-licenses"></a><span data-ttu-id="c5f54-129">Dodeljevanje licenc</span><span class="sxs-lookup"><span data-stu-id="c5f54-129">Assign licenses</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="2354e-130">Potrebovali boste skrbniški dostop do portala Microsoft 365 vaše organizacije, če želite dokončati naslednje korake.</span><span class="sxs-lookup"><span data-stu-id="2354e-130">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
+> <span data-ttu-id="c5f54-130">Potrebovali boste skrbniški dostop do portala Microsoft 365 vaše organizacije, če želite dokončati naslednje korake.</span><span class="sxs-lookup"><span data-stu-id="c5f54-130">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
 
 
-1. <span data-ttu-id="2354e-131">Odprite [skrbniško središče za Microsoft 365](https://portal.office.com/), da dodelite licence svojim uporabnikom.</span><span class="sxs-lookup"><span data-stu-id="2354e-131">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
+1. <span data-ttu-id="c5f54-131">Odprite [skrbniško središče za Microsoft 365](https://portal.office.com/), da dodelite licence svojim uporabnikom.</span><span class="sxs-lookup"><span data-stu-id="c5f54-131">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
 
 ![Začetna stran skrbniškega središča](./media/14AdminPortal.png)
 
-2. <span data-ttu-id="2354e-133">Na strani **Aktivni uporabniki** izberite uporabnike, ki jim želite dodeliti licenco.</span><span class="sxs-lookup"><span data-stu-id="2354e-133">On the **Active users** page, select the users that you want to assign a license to.</span></span>
+2. <span data-ttu-id="c5f54-133">Na strani **Aktivni uporabniki** izberite uporabnike, ki jim želite dodeliti licenco.</span><span class="sxs-lookup"><span data-stu-id="c5f54-133">On the **Active users** page, select the users that you want to assign a license to.</span></span>
 
 ![Dodeljevanje licenc](./media/15AssignLicenses.png)
 
-3. <span data-ttu-id="2354e-135">Preverite, ali sta izbrani licenci za **Dynamics 365 Project Operations (CRM) predogledna različica** in **Office 365 Project Operations – predogledna različica**.</span><span class="sxs-lookup"><span data-stu-id="2354e-135">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected.</span></span> 
-4. <span data-ttu-id="2354e-136">Izberite **Shrani spremembe**.</span><span class="sxs-lookup"><span data-stu-id="2354e-136">Select **Save changes**.</span></span>
+3. <span data-ttu-id="c5f54-135">Preverite, ali sta izbrani licenci za **Dynamics 365 Project Operations (CRM) predogledna različica** in **Office 365 Project Operations – predogledna različica**.</span><span class="sxs-lookup"><span data-stu-id="c5f54-135">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected.</span></span> 
+4. <span data-ttu-id="c5f54-136">Izberite **Shrani spremembe**.</span><span class="sxs-lookup"><span data-stu-id="c5f54-136">Select **Save changes**.</span></span>
 
-## <a name="create-a-new-cds-environment"></a><span data-ttu-id="2354e-137">Ustvarjanje novega okolja CDS</span><span class="sxs-lookup"><span data-stu-id="2354e-137">Create a new CDS environment</span></span>
+## <a name="create-a-new-cds-environment"></a><span data-ttu-id="c5f54-137">Ustvarjanje novega okolja CDS</span><span class="sxs-lookup"><span data-stu-id="c5f54-137">Create a new CDS environment</span></span>
 
-1. <span data-ttu-id="2354e-138">Zagotovite si novo okolje za uvajanje CDS Project Operations tako, da upoštevate navodila v temi [Model za uvajanje CDS](lite-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="2354e-138">Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md).</span></span> <span data-ttu-id="2354e-139">Ko izberete vrsto okolja, obvezno izberite **Poskusna različica (na podlagi naročnine)**.</span><span class="sxs-lookup"><span data-stu-id="2354e-139">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
-<span data-ttu-id="2354e-140">![Novo okolje](./media/19CreateEnvironment.png)</span><span class="sxs-lookup"><span data-stu-id="2354e-140">![New environment](./media/19CreateEnvironment.png)</span></span>
+1. <span data-ttu-id="c5f54-138">Zagotovite si novo okolje za uvajanje CDS Project Operations tako, da upoštevate navodila v temi [Model za uvajanje CDS](lite-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="c5f54-138">Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md).</span></span> <span data-ttu-id="c5f54-139">Ko izberete vrsto okolja, obvezno izberite **Poskusna različica (na podlagi naročnine)**.</span><span class="sxs-lookup"><span data-stu-id="c5f54-139">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
+<span data-ttu-id="c5f54-140">![Novo okolje](./media/19CreateEnvironment.png)</span><span class="sxs-lookup"><span data-stu-id="c5f54-140">![New environment](./media/19CreateEnvironment.png)</span></span>
 
-2. <span data-ttu-id="2354e-141">Izberite nastavitev **Omogoči aplikacije Dynamics 365** in pustite polje **Samodejno uvedi te aplikacije** prazno.</span><span class="sxs-lookup"><span data-stu-id="2354e-141">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
-3. <span data-ttu-id="2354e-142">Izberite **Shrani** , da ustvarite okolje.</span><span class="sxs-lookup"><span data-stu-id="2354e-142">Select **Save** to create the environment.</span></span>
+2. <span data-ttu-id="c5f54-141">Izberite nastavitev **Omogoči aplikacije Dynamics 365** in pustite polje **Samodejno uvedi te aplikacije** prazno.</span><span class="sxs-lookup"><span data-stu-id="c5f54-141">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
+3. <span data-ttu-id="c5f54-142">Izberite **Shrani**, da ustvarite okolje.</span><span class="sxs-lookup"><span data-stu-id="c5f54-142">Select **Save** to create the environment.</span></span>
 
 ![Dodaj zbirko podatkov](./media/20CreateEnvironment1.png)
 
-4. <span data-ttu-id="2354e-144">Ko je okolje ustvarjeno, namestite rešitev **Microsoft Dynamics 365 Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="2354e-144">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
+4. <span data-ttu-id="c5f54-144">Ko je okolje ustvarjeno, namestite rešitev **Microsoft Dynamics 365 Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="c5f54-144">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
 
 ![Namestitev rešitve](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="2354e-146">Namestitev predstavitvenih podatkov za nastavitev in konfiguracijo CDS</span><span class="sxs-lookup"><span data-stu-id="2354e-146">Install a CDS configuration and setup demo data</span></span>
+## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="c5f54-146">Namestitev predstavitvenih podatkov za nastavitev in konfiguracijo CDS</span><span class="sxs-lookup"><span data-stu-id="c5f54-146">Install a CDS configuration and setup demo data</span></span>
 
-<span data-ttu-id="2354e-147">Namestite konfiguracijo CDS in nastavite predstavitvene podatke ob upoštevanju navodil v temi [Uporaba predstavitvenih podatkov za nastavitev in konfiguracijo](lite-apply-demo-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="2354e-147">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>
+<span data-ttu-id="c5f54-147">Namestite konfiguracijo CDS in nastavite predstavitvene podatke ob upoštevanju navodil v temi [Uporaba predstavitvenih podatkov za nastavitev in konfiguracijo](lite-apply-demo-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="c5f54-147">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>
