@@ -3,10 +3,10 @@ title: Pregled predlaganih virov
 description: Ta tema vsebuje informacije o tem, kako predlagati projektne vire.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084723"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401193"
 ---
 # <a name="review-proposed-resources"></a>Pregled predlaganih virov
 
@@ -47,35 +47,6 @@ Upravitelji virov lahko za obdelavo zahtev za vire uporabijo katerega koli od sp
 - Predlagajo manj virov, kot jih zahtevajo. V tem primeru je predlagana zmogljivost vira manjša od zahtevanih ur, ki jih je določila oseba, ki je podala zahtevo. Ko torej oseba, ki je podala zahtevo, sprejme predlagane vire, se ustvari neizpolnjena zahteva za vir, ki predstavlja preostalo povpraševanje.
 - Rezervirajo več virov, da zadostijo povpraševanju, če ni vira, ki bi lahko sam opravil delo.
 - Rezervirajo manj virov, kot jih zahtevajo. V tem primeru bo število rezerviranih ur manjše od zahtevanih ur. Sistem vas vodi k predlaganju virov namesto rezervacij, da lahko oseba, ki je podala zahtevo, preveri in spremlja preostalo povpraševanje.
-
-## <a name="billable-utilization"></a>Zaračunana uporaba
-
-Viri lahko imajo ciljno zaračunano uporabo. Ta ciljna uporaba je opredeljena kot atribut privzete vloge vira ali nastavljena v zapisu posameznega vira, ki ga je mogoče rezervirati. Izračuni uporabe temeljijo na dejanskih urah, ki so jih viri poročali na podlagi odobrenih časovnih vnosov.
-
-Za izračun uporabe se uporabljajo naslednje enačbe:
-
-- Zaračunana uporaba = dejanske zaračunane ure ÷ zmogljivost vira
-- Nezaračunana uporaba = dejanski čas z ID-jem vrste obračunavanja = se ne zaračuna, brezplačno ali ni na voljo ÷ zmogljivost vira
-- Za interno uporabo = dejanski čas brez prodajne pogodbe ÷ zmogljivost vira
-- Zmogljivost vira = delovni čas vira – odsotnost – prosti dnevi
-
-Pogled **Uporaba vira** lahko najdete v podoknu **Viri**.
-
-Vsaka celica v mreži predstavlja delež zaračunane uporabe vira v določenem obdobju, na primer dnevu, tednu ali mesecu. Za obarvanje celic se uporabljajo naslednje enačbe:
-
-- **Zelena:** zaračunana uporaba \>= ciljna uporaba za vir
-- **Rumena:** ciljna uporaba – 20 \<= zaračunana uporaba \< ciljna uporaba
-- **Rdeča:** zaračunana uporaba \< ciljna uporaba – 20
-
-Ker pogled **Uporaba vira** temelji na plošči razporeda, lahko rezultate filtrirate z možnostmi filtriranja na plošči razporeda.
-
-Zaradi mreže morate nastaviti ciljno uporabo za vlogo ali posamezni vir. To nastavite v možnosti **Viri** \> **Vloge virov**.
-
-Poleg tega morate vsakemu viru, ki ga je mogoče rezervirati, dodati tudi privzeto vlogo. Odprite možnost **Viri** \> **Viri**. Na zavihku **Project Service** preverite, ali je vloga vira določena in ali je polje **Je privzeto** nastavljeno na **Da**. Kjer je vrednost **Je privzeto = Ne** , lahko dodate dodatne vloge. Vloga, pri kateri je vrednost **Je privzeto = Da** , se uporablja za oceno uporabe vira v primerjavi s ciljem za to vlogo.
-
-Na zavihku **Project Service** lahko nastavite tudi posamično ciljno uporabo za vir. Izračun uporabe nato uporabi to ciljno uporabo za oceno cilja vira namesto cilja privzete vloge vira.
-
-Uporaba se za posamezen vir prikaže samo, če je vir odobril čas, ki se zaračuna, v obdobju, ki je prikazan v mreži.
 
 ## <a name="resource-availability"></a>razpoložljivosti vira
 

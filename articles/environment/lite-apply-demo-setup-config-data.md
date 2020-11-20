@@ -1,23 +1,30 @@
 ---
-title: Uporaba predstavitvenih podatkov za nastavitev in konfiguracijo
+title: Uporaba nastavitve predstavitvenega načina in konfiguracijskih podatkov – poenostavljena različica
 description: Ta tema vsebuje informacije o uporabi predstavitvenih podatkov za nastavitev in konfiguracijo za storitev Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084621"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401283"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Uporaba predstavitvenih podatkov za nastavitev in konfiguracijo za poenostavljeno uvedbo storitve Project Operations – od posla do izstavitve predračuna
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Uporaba nastavitve predstavitvenega načina in konfiguracijskih podatkov za Project Operations – poenostavljena različica 
 
 _**Poenostavljena uvedba – od posla do izstavitve predračuna_
+
+## <a name="prerequisites"></a>Zahteve
+
+Preden začnete konfiguracijo morate imeti omogočeno okolje Common Data Service (CDS) za Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Navodila
 
 1. Prenesite [paket glavnih podatkov](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Pomaknite se do mape *ProjOpsDemoDataSetupAndMaster – integrirani CMT* in zaženite izvedljivo datoteko *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Poenostavljena uvedba – od posla do izstavitve predračuna_
 10. Uvoz bo trajal od približno dveh do deset minut, odvisno od hitrosti vašega omrežja. Ko se konča, zapustite čarovnik CMT. 
 11. Preverite, ali ima vaša organizacija podatke o naslednjih 20 entitetah:
 
-- Valuta
-- Organizacijska enota
-- Stik
-- Skupina davka
-- Skupina strank
-- Enota
-- Skupina enot
-- Cenik
-- Cenik parametrov projekta
-- Pogostost izdajanja računov
-- Podrobnost o pogostosti izdajanja računov
-- Kategorija vira, ki ga je mogoče rezervirati
-- Kategorija transakcije
-- Kategorija stroška
-- Cena vloge
-- Cena kategorije transakcije
-- Značilnost
-- Vir, ki ga je mogoče rezervirati
-- Povezava kategorije vira, ki ga je mogoče rezervirati
-- Lastnost vira, ki ga je mogoče rezervirati
+-   Valuta
+-   Račun
+-   Organizacijska enota
+-   Stik
+-   Skupina davka
+-   Skupina strank
+-   Enota
+-   Skupina enot
+-   Cenik
+-   Cenik parametrov projekta 
+-   Pogostost izdajanja računov
+-   Kategorija vira, ki ga je mogoče rezervirati
+-   Kategorija transakcije
+-   Kategorija stroška
+-   Cena vloge
+-   Cena kategorije transakcije
+-   Značilnost
+-   Vir, ki ga je mogoče rezervirati
+-   Povezava kategorije vira, ki ga je mogoče rezervirati
+-   Lastnost vira, ki ga je mogoče rezervirati
 
 ![Zaključek uvoza](./media/6CompleteImport.png)

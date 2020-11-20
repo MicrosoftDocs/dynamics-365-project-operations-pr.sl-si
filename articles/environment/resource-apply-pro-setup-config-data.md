@@ -1,23 +1,33 @@
 ---
-title: Nastavitev in uporaba konfiguracijskih podatkov v storitvi Common Data Service za Project Operations
+title: Nastavitev in uporabo konfiguracijskih podatkov v storitvi Common Data Service
 description: Ta tema vsebuje informacije o nastavitvi in uporabi konfiguracijskih podatkov v storitvi Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084629"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401148"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Nastavitev in uporaba konfiguracijskih podatkov v storitvi Common Data Service za Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Nastavitev in uporabo konfiguracijskih podatkov v storitvi Common Data Service 
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+
+## <a name="prerequisites"></a>Zahteve
+
+Preden začnete konfigurirati podatke v storitvi Common Data Service (CDS), morajo biti izpolnjeni naslednji predpogoji:
+
+1.  Omogočanje okolja CDS v okolju storitve Dynamics 365 Finance za Project Operations.
+2.  Podatki o pravni osebi iz storitve Dynamics 365 Finance so v skupni rabi z okoljem CDS. To pomeni, da ima entiteta **Podjetje** v CDS-ju naslednje zapise podjetja:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Namestitev podatkov za nastavitev in konfiguracijo
 
@@ -75,7 +85,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
 
 ![Odpri okolje](./media/7OpenEnvironment.png)
 
-2. Odprite **Projekti** > **Viri** in nato izberite **Novo** , da za svojega uporabnika ustvarite vir, ki ga je mogoče rezervirati.
+2. Odprite **Projekti** > **Viri** in nato izberite **Novo**, da za svojega uporabnika ustvarite vir, ki ga je mogoče rezervirati.
 
 ![Viri, ki jih je mogoče rezervirati](./media/8BookableResources.png)
 
@@ -114,10 +124,10 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
  
 12. Posodobite naslednja polja:
 
- - **Privzeto podjetje** : USPM
- - **Privzeta organizacijska enota** : Contoso Robotics Global
- - **Pogostost izdajanja računov** : sedmi in zadnji dan
- - **Predloga delovnega časa** : preklopite na predlogo, ki ste jo ustvarili.
+ - **Privzeto podjetje**: USPM
+ - **Privzeta organizacijska enota**: Contoso Robotics Global
+ - **Pogostost izdajanja računov**: sedmi in zadnji dan
+ - **Predloga delovnega časa**: preklopite na predlogo, ki ste jo ustvarili.
 
 13. Izberite **Shrani**. 
 
