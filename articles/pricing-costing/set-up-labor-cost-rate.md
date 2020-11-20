@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084653"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180617"
 ---
 # <a name="set-up-labor-cost-rates"></a>Nastavitev mer stroškov dela
 
@@ -28,7 +28,7 @@ Vsak cenik ima nabor stopenj dela (cene vlog), ki se uskladijo z vsebino in datu
 
 Naslednja tabela vključuje nekatera polja, ki so pomembna pri oblikovanju stopenj dela v ceniku z lastnimi cenami.
 
-| Polje | Lokacija | Ustreznost, namen in smernice | Nadaljnji vpliv |
+| Polje | LOkacija | Opis | Nadaljnji vpliv |
 | --- | --- | --- | --- |
 | Vloga | Zavihek **Splošno** in strani **Hitro ustvarjanje** | Izberite vlogo, za katero velja mera stroškov. | Vloga v dohodni vrstici ocene ali dejanske vrednosti se bo ujemala s to vrstico, da nastavi privzeto ceno vloge. |
 | Podjetje, ki zagotavlja vire | Zavihek **Splošno** in strani **Hitro ustvarjanje** | Izberite pravno osebo, ki ji je dodeljena vloga. Na primer razvijalec iz podjetja Fabrikam Indija ali razvijalec iz podjetja Fabrikam ZDA. | Podjetje, ki zagotavlja vire, v dohodni vrstici ocene ali dejanske vrednosti se bo ujemala s to vrstico, da nastavi privzeto mero stroškov vloge. |
@@ -53,9 +53,9 @@ Stroški za razvijalca iz podjetja Fabrikam Indija – robotika so 100 USD, ko 
 
 | Vloga | Podjetje, ki zagotavlja vire | Enota vira | Mera stroškov |
 | --- | --- | --- | --- |
-| Razvijalec | Fabrikam Indija | Fabrikam Indija – robotika | 100 USD |
-| Razvijalec | Fabrikam Filipini | Fabrikam Filipini – robotika | 90 USD |
-| Razvijalec | Fabrikam ZDA | Fabrikam ZDA – robotika | 150 USD |
+| Razvijalec | Fabrikam Indija | Fabrikam Indija – Robotika | 100 USD |
+| Razvijalec | Fabrikam Filipini | Fabrikam Filipini – Robotika | 90 USD |
+| Razvijalec | Fabrikam ZDA | Fabrikam ZDA – Robotika | 150 USD |
 
 3. Ta cenik z lastnimi cenami priložite organizacijski enoti podjetja Fabrikam ZDA – robotika.
 

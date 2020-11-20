@@ -1,21 +1,21 @@
 ---
-title: Ključni pojmi projektnih ponudb
+title: Ponudbe – ključni pojmi – poenostavljeno
 description: Ta tema vsebuje informacije o uporabi projektnih ponudb v aplikaciji Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084680"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178026"
 ---
-# <a name="project-quote-key-concepts"></a>Ključni pojmi projektnih ponudb
+# <a name="quotes---key-concepts---lite"></a>Ponudbe – ključni pojmi – poenostavljeno
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 

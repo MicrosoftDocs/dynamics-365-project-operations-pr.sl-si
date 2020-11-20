@@ -1,26 +1,26 @@
 ---
-title: Podrobnosti pogodb, ki temeljijo na stroškovnih izdelkih
+title: Podrobnosti pogodbe, ki temeljijo na stroškovnih izdelkih – poenostavljena različica
 description: Ta tema vsebuje informacije o ustvarjanju
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4084987"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177261"
 ---
-# <a name="costing-product-based-contract-lines"></a>Podrobnosti pogodb, ki temeljijo na stroškovnih izdelkih
+# <a name="cost-product-based-contract-lines---lite"></a>Podrobnosti pogodbe, ki temeljijo na stroškovnih izdelkih – poenostavljena različica
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
 
-Podrobnosti pogodbe na podlagi izdelkov v storitvi Dynamics 365 Project Operations vključujejo polje **Lastna cena** , ki označuje lastno ceno izdelka za izračune nadaljnje donosnosti.
+Podrobnosti pogodbe na podlagi izdelkov v storitvi Dynamics 365 Project Operations vključujejo polje **Lastna cena**, ki označuje lastno ceno izdelka za izračune nadaljnje donosnosti.
 
 Ko se za kataloški izdelek ustvarijo podrobnosti pogodbe na podlagi izdelka, je cena za podrobnosti pogodbe samodejno privzeta iz polja **Standardna cena** v katalogu izdelkov. Polje **Standardna cena** v katalogu izdelkov je nastavljeno v osnovni valuti organizacije. Ko se stroški na enoto privzamejo iz podrobnosti pogodbe, se pretvorijo v prodajno valuto v pogodbi.
 

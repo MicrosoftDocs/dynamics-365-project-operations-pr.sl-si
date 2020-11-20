@@ -5,19 +5,19 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084780"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180733"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Nastavitev deležev obračunavanja za deleže obračunavanja dela 
+# <a name="set-up-labor-bill-rates"></a>Nastavitev obračunske stopnje za delo
 
-**Velja za** : za scenarije v aplikaciji Project Operations, ki temeljijo na virih/nezalogi
+**Velja za**: za scenarije v aplikaciji Project Operations, ki temeljijo na virih/nezalogi
 
 Vsak cenik ima nabor cen vlog ali stopenj dela, ki veljajo za kontekst in datum veljavnosti cenika, ki sta vključena v glavo cenika. Deleže obračunavanja za čas lahko v aplikaciji Dynamics 365 Project Operations nastavite samo v eni valuti, ki je valuta v glavi cenika.
 
@@ -27,7 +27,7 @@ Vsak cenik ima nabor cen vlog ali stopenj dela, ki veljajo za kontekst in datum 
 
    Spodnja tabela vsebuje polja, ki so na zavihku **Splošno** in v podoknu **Hitro ustvarjanje** vrstice za ceno vloge, ki jo morate upoštevati pri ustvarjanju cen vloge v prodajnem ceniku:
 
-    | Polje | LOkacija | Ustreznost, namen in smernice | Nadaljnji vpliv |
+    | Polje | LOkacija | Opis | Nadaljnji vpliv |
     | --- | --- | --- | --- |
     | Vloga | Zavihek **Splošno** in podokno **Hitro ustvarjanje** | Izberite vlogo, za katero nastavljate delež obračunavanja. | Vloga v dohodni vrstici ocene ali dejanske vrednosti se bo ujemala s to vrstico, da nastavi privzeti delež obračunavanja vloge. |
     | Podjetje, ki zagotavlja vire | Zavihek **Splošno** in podokno **Hitro ustvarjanje** | Izberite podjetje ali pravno osebo, iz katere prihaja vloga. Na primer razvijalec iz podjetja Fabrikam Indija ali razvijalec iz podjetja Fabrikam ZDA. | Podjetje, ki zagotavlja vire, v dohodni vrstici ocene ali dejanske vrednosti se bo ujemala s to vrstico, da nastavi privzeti delež obračunavanja vloge. |
@@ -45,7 +45,7 @@ Na primer, urna postavka razvijalca iz oddelka robotike podjetja Fabrikam India,
 
 ### <a name="example-set-up-a-bill-rate"></a>Primer: nastavitev deleža obračunavanja 
 
-1. Ustvarite prodajni cenik, ki se imenuje *Delež obračunavanja za podjetje Fabrikam ZDA* , in nastavite datumsko veljavnost.
+1. Ustvarite prodajni cenik, ki se imenuje *Delež obračunavanja za podjetje Fabrikam ZDA*, in nastavite datumsko veljavnost.
 2. V prodajni cenik vnesite naslednje podatke o stopnjah:
 
     | Vloga | Podjetje, ki zagotavlja vire | Enota vira | Delež obračunavanja |

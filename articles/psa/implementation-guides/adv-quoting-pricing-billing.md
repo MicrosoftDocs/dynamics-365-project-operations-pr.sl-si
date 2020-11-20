@@ -3,7 +3,7 @@ title: Napredne možnosti za ponudbe, cene in zaračunavanje
 description: Ta tema vsebuje informacije o ponudbah, cenah in zaračunavanju v aplikaciji Project Service Automation.
 author: kfend
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 80d16c0ee9e79d31a52f0b47e59d1b7603f117a5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a40eb80f2e46c1c976e27320cfa30116d19426b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084858"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132804"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Napredni vodnik za ponudbe, cene in zaračunavanje
 

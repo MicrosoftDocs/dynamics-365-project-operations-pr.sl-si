@@ -1,21 +1,21 @@
 ---
-title: Polja in podatki o projektni pogodbi
+title: Nastavitve projektnih pogodb – poenostavljeno
 description: Ta tema vsebuje informacije o poljih, ki vplivajo na podrobnosti pogodbe, in informacije o pogodbi, ki so povzete v vrstičnih postavkah.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088107"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180944"
 ---
-# <a name="project-contract-fields-and-information"></a>Polja in podatki o projektni pogodbi 
+# <a name="project-contract-settings---lite"></a>Nastavitve projektnih pogodb – poenostavljeno
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -23,7 +23,7 @@ Ta tema vsebuje informacije o poljih, ki veljajo za celotno projektno pogodbo, v
 
 V spodnji tabeli so navedena polja v projektni pogodbi, ki so na voljo le v storitvi Dynamics 365 Project Operations ali pa imajo nekatere pomembne spremembe v delovanju prodajnih naročil v storitvi Dynamics 365 Sales.
 
-| Polje | LOkacija | Ustreznost, namen in smernice | Nadaljnji vpliv |
+| Polje | LOkacija | Opis | Nadaljnji vpliv |
 | --- | --- | --- | --- |
 | Vnesi | Zavihek **Povzetek** (skrito) | To je polje z naborom možnosti in naslednjimi možnostmi:</br>- **temelji na delu** (na voljo samo, če je nameščena storitev Project Operations)</br>- **temelji na elementu** (na voljo samo, če sta nameščeni storitvi Project Operations in Sales)</br>- **temelji na vzdrževanju storitev** (na voljo, ko je nameščena storitev Dynamics 365 Field Service) | V storitvi Project Operations je privzeta vrednost tega polja **Temelji na delu** in razvršča pogodbo kot pogodbo, ki temelji na projektu. Pogodba mora temeljiti na projektu, da lahko omogoča vse razširitve in funkcije, specifične za projekt. |
 | Možna stranka | Zavihek **Povzetek** | Sklic na zapis strankinega podjetja ali kupca. V pogodbi, ustvarjeni iz ponudbe, se ta vrednost kopira iz ustreznega polja pri zapisu ponudbe. | Valuta na projektni pogodbi je privzeto nastavljena glede na valuto stranke. To je mogoče spremeniti, preden shranite pogodbo. |
@@ -36,7 +36,7 @@ V spodnji tabeli so navedena polja v projektni pogodbi, ki so na voljo le v stor
 
 Naslednji KPI-ji so na voljo na zavihku **Izvedba pogodbe** projektne pogodbe.
 
-| Polje | LOkacija | Ustreznost, namen in smernice |
+| Polje | LOkacija | Opis |
 | --- | --- | --- |
 | Vrednost pogodbe | Splošna pogodba | Skupna vrednost projektne pogodbe. |
 | Obračunani znesek | Splošna pogodba | Vsota zneskov na vseh računih za to pogodbo. |

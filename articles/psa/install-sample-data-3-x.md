@@ -3,7 +3,7 @@ title: Namestitev vzorčnih podatkov
 description: Ta tema vsebuje informacije o namestitvi vzorčnih podatkov v storitvi Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084821"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132443"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Namestitev vzorčnih podatkov za aplikacijo Project Service
 
@@ -49,7 +49,7 @@ Ko namestite katerega koli od paketov vzorčnih podatkov, bo med postopkom names
 
 - Ustvaril ali nastavil privzete parametre za uporabo aplikacije Project Service oz. Field Service ali obeh aplikacij (če so na voljo).
 
-- Uvozil vzorčne podatke za aplikaciji, npr. vire, ki jih je mogoče rezervirati, vloge znotraj aplikacije, cenike s prodajnimi in lastnimi cenami, organizacijske enote, zapise prodajnega postopka in druge entitete, prek katerih so predstavljene ključne zmogljivosti aplikacij.  
+- Uvozil vzorčne podatke za aplikaciji, npr. vire, ki jih je mogoče rezervirati, vloge znotraj aplikacije, cenike s prodajnimi in lastnimi cenami, organizacijske enote, zapise prodajnega postopka in druge entitete, prek katerih so predstavljene ključne zmogljivosti aplikacij.  
 
 S paketom **predstavitvenih podatkov** prejmete zgornje in dodatne transakcijske podatke, kot so delovni nalogi in projekti.
 
@@ -80,7 +80,7 @@ Namestitveni protokol za vaš ciljni primerek (organizacijo) predvideva naslednj
 
 Namestitveni program zaženite v računalniku z najnovejšo različico operacijskega sistema Windows (priporočamo Windows 10).
 
-Računalnik naj med namestitvijo ostane povezan v omrežje, namestitev pa lahko traja do **1 ure** za **namestitvene/referenčne podatke**. (Običajno namestitev traja približno 30 minut za **FPSMasterData** , kar vsebuje vzorčne podatke za obe aplikaciji.) Za **FPSDemoData** bo namestitev trajala približno **3 ure**.
+Računalnik naj med namestitvijo ostane povezan v omrežje, namestitev pa lahko traja do **1 ure** za **namestitvene/referenčne podatke**. (Običajno namestitev traja približno 30 minut za **FPSMasterData**, kar vsebuje vzorčne podatke za obe aplikaciji.) Za **FPSDemoData** bo namestitev trajala približno **3 ure**.
 
 V računalniku naj bo izklopljena funkcija ohranjevalnika zaslona. V nasprotnem primeru boste ob zagonu ohranjevalnika zaslona morda izgubili poverilnice seje, potrebne za namestitev (razen če bo vaša seja v tem času ostala aktivna).
 
@@ -110,17 +110,17 @@ Za paket **FPSDemoData** je potrebnih šest uporabnikov, medtem ko je za paket *
 
 ## <a name="create-or-configure-users---setupreference-data-packages"></a>Ustvarjanje in konfiguracija uporabnikov – paketi namestitvenih/referenčnih podatkov
 
-Ko namestite paket **FPSMasterData** , izberite uporabnika, imenovanega »Spencer Low«, in zanj uporabite opisane nastavitve. Za pravilno namestitev paketa ustvarite (ali začasno preimenujte) uporabnike v okolju, tako da bodo ustrezali konfiguraciji vzorčnih podatkov.
+Ko namestite paket **FPSMasterData**, izberite uporabnika, imenovanega »Spencer Low«, in zanj uporabite opisane nastavitve. Za pravilno namestitev paketa ustvarite (ali začasno preimenujte) uporabnike v okolju, tako da bodo ustrezali konfiguraciji vzorčnih podatkov.
 
 Za ustvarjanje ali konfiguracijo uporabnikov kliknite **Nastavitve** > **Varnost** > **Uporabniki** in sledite navodilom:
 
-1. Uporabniku UserFullname="Spencer Low" z uporabniškim imenom "spencerl" ( **male črke** ) dodelite vlogo vodje projekta in upravitelja praks.
+1. Uporabniku UserFullname="Spencer Low" z uporabniškim imenom "spencerl" (**male črke**) dodelite vlogo vodje projekta in upravitelja praks.
 
-2. Izberite uporabnika **Spencer Low** in nato **Upravljanje vlog**. Poiščite in izberite vlogo **Skrbnik sistema** , nato pa izberite **V redu** , da Spencerju Lowu dodelite polne skrbniške pravice. Tako boste zagotovo vzorčne zapise ustvarili s pravilnim uporabniškim lastništvom in torej pravilno izpolnili poglede.
+2. Izberite uporabnika **Spencer Low** in nato **Upravljanje vlog**. Poiščite in izberite vlogo **Skrbnik sistema**, nato pa izberite **V redu**, da Spencerju Lowu dodelite polne skrbniške pravice. Tako boste zagotovo vzorčne zapise ustvarili s pravilnim uporabniškim lastništvom in torej pravilno izpolnili poglede.
 
 3. Znotraj prenesenega paketa posodobite datoteko za preslikavo podatkov z e-poštnimi naslovi privzetega uporabniškega konteksta. Če želite to storiti, odprite **PkgFolder** ter poiščite in odprite datoteko **ImportUserMapFile.xml** v Beležnici (oz. programu Visual Studio ali drugem urejevalniku XML-jev). Polje **DefaultUserToMapTo=** nastavite na e-poštni naslov uporabnika Spencerja Lowa.
 
-4. Če za uporabnika niste izbrali Spencerja Lowa z uporabniškim imenom **spencerl** , boste morali posodobiti dodatno datoteko. Odprite datoteko **DemoDataPreImportConfig.xml** in poiščite oznako **userstocreateandconfigure**. Oznako **\<login\>** posodobite z uporabniškim imenom uporabnika Jana Mlinarja. Za več informacij glejte [tehnične opombe](#technical-notes).
+4. Če za uporabnika niste izbrali Spencerja Lowa z uporabniškim imenom **spencerl**, boste morali posodobiti dodatno datoteko. Odprite datoteko **DemoDataPreImportConfig.xml** in poiščite oznako **userstocreateandconfigure**. Oznako **\<login\>** posodobite z uporabniškim imenom uporabnika Jana Mlinarja. Za več informacij glejte [tehnične opombe](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Ustvarjanje in konfiguracija uporabnikov – paket predstavitvenih podatkov
 
@@ -143,9 +143,9 @@ Za paket predstavitvenih podatkov je potrebnih šest uporabnikov. Za pravilno na
    > [!div class="mx-imgBorder"]
    > ![Posnetek zaslona datoteke UserMapFile](media/sample-data-7.png)
 
-4. Če ima vaše polno uporabniško ime »Spencer Low« drugačen ID uporabnika kot **»spencerl«** , boste morali posodobiti dodatno datoteko. Odprite **DemoDataPreImportConfig.xml** in poiščite oznako **userstocreateandconfigure**. Posodobite oznako **\<login\>** s spremenljivko prijavniId (razlikovanje med velikimi in malimi črkami). 
+4. Če ima vaše polno uporabniško ime »Spencer Low« drugačen ID uporabnika kot **»spencerl«**, boste morali posodobiti dodatno datoteko. Odprite **DemoDataPreImportConfig.xml** in poiščite oznako **userstocreateandconfigure**. Posodobite oznako **\<login\>** s spremenljivko prijavniId (razlikovanje med velikimi in malimi črkami). 
 
-5. Koledar prvega uporabnika (v oznaki **userstocreateandconfigure** ) se uporablja za dopolnitev delovnega časa za vse vire, ki jih je mogoče rezervirati, pri uvozu predstavitvenih podatkov. Pomaknite se na razdelek **Nastavitve** > **Varnost** > **Uporabniki** in poiščite svojega uporabnika z imenom »Spencer Low« ter odprite možnost »Delovni čas«. Uredite obstoječi delovni čas tako, da izberete možnost **Celoten ponavljajoč se tedenski razpored od začetka do konca**. Zagotovite, da je **delovni čas nastavljen na 8.00–17.00 (9 ur) od ponedeljka do petka, časovni pas pa na pacifiški čas (ZDA in Kanada)**. To je potrebno za zagotovitev, da se plošči projekta in razporeda prikažeta, kot je pričakovano.
+5. Koledar prvega uporabnika (v oznaki **userstocreateandconfigure**) se uporablja za dopolnitev delovnega časa za vse vire, ki jih je mogoče rezervirati, pri uvozu predstavitvenih podatkov. Pomaknite se na razdelek **Nastavitve** > **Varnost** > **Uporabniki** in poiščite svojega uporabnika z imenom »Spencer Low« ter odprite možnost »Delovni čas«. Uredite obstoječi delovni čas tako, da izberete možnost **Celoten ponavljajoč se tedenski razpored od začetka do konca**. Zagotovite, da je **delovni čas nastavljen na 8.00–17.00 (9 ur) od ponedeljka do petka, časovni pas pa na pacifiški čas (ZDA in Kanada)**. To je potrebno za zagotovitev, da se plošči projekta in razporeda prikažeta, kot je pričakovano.
 
 **Priporočilo:** varnostno kopijo vaše organizacije ustvarite že zdaj, da se vam ne bo treba vrniti na začetek, če gre med namestitvijo vzorčnih podatkov kaj narobe. Za več informacij glejte razdelek [Varnostno kopiranje in obnovitev primerkov](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -168,14 +168,14 @@ Za paket predstavitvenih podatkov je potrebnih šest uporabnikov. Za pravilno na
 
 4. Izberite organizacijo, v kateri želite namestiti vzorčne podatke.
 
-5. Izberite **Naprej** , da se prikaže pogovorno okno **Nastavitev predstavitvenih podatkov**.
+5. Izberite **Naprej**, da se prikaže pogovorno okno **Nastavitev predstavitvenih podatkov**.
 
    > [!div class="mx-imgBorder"]
    > ![Posnetek zaslona okna stanja namestitvenega programa predstavitvenih podatkov](media/sample-data-3.png)
 
 6. Preden nadaljujete, upoštevajte, da namestitev vzorčnih podatkov lahko traja do ene ure (običajno okoli 10 minut). Poskrbite, da med namestitvijo računalnik ostane vklopljen in povezan v omrežje ter da vaša seja ostane aktivna.   
 
-7. Ko ste pripravljeni, kliknite **Naprej** , da začnete postopek za namestitev vzorčnih podatkov. Ko so vzorčni podatki naloženi, kliknite **Dokončaj**.
+7. Ko ste pripravljeni, kliknite **Naprej**, da začnete postopek za namestitev vzorčnih podatkov. Ko so vzorčni podatki naloženi, kliknite **Dokončaj**.
 
 ## <a name="verify-the-sample-data-installation"></a>Preverjanje namestitve vzorčnih podatkov
 
@@ -213,7 +213,7 @@ Poiščite naslednjo vrednost in nastavitev spremenite z pravilne na napačno:
 
 Ob tej spremembi bo namestitveni program obšel nekatera pomembna varnostna preverjanja in med drugim potrdil, da:
 
-- Je aktiven le en zapis **organizacijske enote** , ki ga bo nato preimenoval v **Fabrikam ZDA**.
+- Je aktiven le en zapis **organizacijske enote**, ki ga bo nato preimenoval v **Fabrikam ZDA**.
 
 - Je aktiven le en zapis **predloge za delo**.
 
@@ -235,7 +235,7 @@ V tej datoteki za konfiguracijo pred uvozom je več drugih konfiguracijskih komp
 
 - **\<EntitiesToEnableScheduling\>** določa, katere entitete naj bodo omogočene za rezervacijo v storitvi Microsoft Dynamics Scheduling (oz. Universal Resource Scheduling).
 
-- **\<UsersToCreateAndConfigure\>** določa, kateri viri, ki jih je mogoče rezervirati, bodo ustvarjeni (če še ne obstajajo), preden se izvede uvoz vzorčnih podatkov. Upoštevajte, da se viri vzorčnih podatkov izvornega sistema, ki jih je mogoče rezervirati, ujemajo z zapisi virov ciljnega sistema, ki jih je mogoče rezervirati, kar se tiče polnega imena in podatkov za prijavo. Imen v tej predkonfiguracijski datoteki zato NI mogoče spremeniti, razen če pred tem v ciljni sistem uvozite vzorčne podatke in uporabite ta imena, nato pa vire, ki jih je mogoče rezervirati, preimenujete po lastni izbiri, v skladu z zapisi omogočenih uporabnikov, in ponovno izvozite podatke, da jih nato uvozite v želeni končni sistem (in hkrati ustrezno posodobite nove in stare vnose preslikave **ImportUserMapFile.xml** ).
+- **\<UsersToCreateAndConfigure\>** določa, kateri viri, ki jih je mogoče rezervirati, bodo ustvarjeni (če še ne obstajajo), preden se izvede uvoz vzorčnih podatkov. Upoštevajte, da se viri vzorčnih podatkov izvornega sistema, ki jih je mogoče rezervirati, ujemajo z zapisi virov ciljnega sistema, ki jih je mogoče rezervirati, kar se tiče polnega imena in podatkov za prijavo. Imen v tej predkonfiguracijski datoteki zato NI mogoče spremeniti, razen če pred tem v ciljni sistem uvozite vzorčne podatke in uporabite ta imena, nato pa vire, ki jih je mogoče rezervirati, preimenujete po lastni izbiri, v skladu z zapisi omogočenih uporabnikov, in ponovno izvozite podatke, da jih nato uvozite v želeni končni sistem (in hkrati ustrezno posodobite nove in stare vnose preslikave **ImportUserMapFile.xml**).
 
 - **\<PluginsToDisable\>** točno določa vtičnike z vrstičnimi postavkami, ki jih je treba onemogočiti pri uvozu vzorčnih podatkov in nato pozneje znova omogočiti.
 
@@ -291,7 +291,7 @@ Za vse vire, ki jih je mogoče rezervirati, je privzet 24-urni koledar delovnih 
 
 Če želite spremeniti delovne ure za vzorčne vire, ki jih je mogoče rezervirati, odprite **Universal Resource Scheduling** > **Načrtovanje** > **Viri**.
 
-Izberite uporabnika (na primer »Spencer Low«) in spremenite Spencerjev delovni čas na delovni čas, ki ga želite uporabiti za več uporabnikov. Kliknite **Universal Resource Scheduling** > **Nastavitve** > **Predloge za delovne ure** in uredite zapis **Privzeta predloga za delo**. V polju **Vir predloge** izberite uporabnika z delovnim časom, ki ga želite uporabiti za druge vire. Odprite **Universal Resource Scheduling** > **Razporejanje** > **Viri** > **Aktivni viri, ki jih je mogoče rezervirati**. Izberite vire, ki jih želite spremeniti, in nato izberite **Nastavi koledar**. Na spustnem seznamu **Predloga za delo** , izberite predlogo **Privzeti delovni čas** ali drugo predlogo s pravilnim virom predlog. Pri plošči razporeda bi morali videti, da imajo viri zdaj posodobljen delovni čas.
+Izberite uporabnika (na primer »Spencer Low«) in spremenite Spencerjev delovni čas na delovni čas, ki ga želite uporabiti za več uporabnikov. Kliknite **Universal Resource Scheduling** > **Nastavitve** > **Predloge za delovne ure** in uredite zapis **Privzeta predloga za delo**. V polju **Vir predloge** izberite uporabnika z delovnim časom, ki ga želite uporabiti za druge vire. Odprite **Universal Resource Scheduling** > **Razporejanje** > **Viri** > **Aktivni viri, ki jih je mogoče rezervirati**. Izberite vire, ki jih želite spremeniti, in nato izberite **Nastavi koledar**. Na spustnem seznamu **Predloga za delo**, izberite predlogo **Privzeti delovni čas** ali drugo predlogo s pravilnim virom predlog. Pri plošči razporeda bi morali videti, da imajo viri zdaj posodobljen delovni čas.
 
 > [!div class="mx-imgBorder"]
 > ![Posnetek zaslona aktivnih virov, ki jih je mogoče rezervirati](media/sample-data-6.png)

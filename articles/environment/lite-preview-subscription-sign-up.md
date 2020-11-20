@@ -1,21 +1,21 @@
 ---
-title: Prijava za naročnino predogleda
+title: Prijava za naročnino na predogledno različico – poenostavljena različica
 description: Ta tema vsebuje informacije o tem, kako se lahko naročite in uvedete poenostavljeno uvedbo storitve Project Operations – od posla do izstavitve predračuna.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084619"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175911"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Prijavite se na naročnino predogleda za poenostavljeno uvedbo – od posla do izstavitve predračuna
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Prijava za naročnino na predogledno različico – poenostavljena različica 
 
 Ta tema pojasnjuje, kako se lahko naročite na ponudbo partnerja za predogled in nastavite poenostavljeno uvedbo storitve Dynamics 365 Project Operations – od posla do izstavitve predračuna.
 
@@ -42,7 +42,7 @@ Ko prejmete odobritev [zahteve za predogled](https://forms.office.com/FormsPro/P
 
 Preden začnete, se prepričajte, da ste prijavljeni v brskalnik z uporabnikovim službenim računom v najemniku, kjer želite imeti predogled aplikacije Project Operations.
 
-1. Unovčite kodo prve ponudbe **Dynamics 365 Project Operations (CRM) – preskusna različica** , tako da jo prilepite v URL brskalnika.
+1. Unovčite kodo prve ponudbe **Dynamics 365 Project Operations (CRM) – preskusna različica**, tako da jo prilepite v URL brskalnika.
 
 ![Prevzem ponudbe](./media/16RedeemFirstOfferNew.png)
 
@@ -80,7 +80,7 @@ Ponovite enake korake kot pri kodi prve ponudbe. Ne pozabite dodati kode druge p
 ![Novo okolje](./media/19CreateEnvironment.png)
 
 2. Izberite nastavitev **Omogoči aplikacije Dynamics 365** in pustite polje **Samodejno uvedi te aplikacije** prazno.  
-3. Izberite **Shrani** , da ustvarite okolje.
+3. Izberite **Shrani**, da ustvarite okolje.
 
 ![Dodaj zbirko podatkov](./media/20CreateEnvironment1.png)
 

@@ -1,22 +1,22 @@
 ---
-title: Konfiguracija samodejnega ustvarjanja predračunov
+title: Konfiguracija samodejnega ustvarjanja računov – poenostavljena različica
 description: Ta tema vsebuje informacije o konfiguraciji samodejnega ustvarjanja predračunov.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084665"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176586"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Konfiguracija samodejnega ustvarjanja predračunov
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Konfiguracija samodejnega ustvarjanja računov – poenostavljena različica
+ 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
 Samodejno ustvarjanje računov lahko konfigurirate v aplikaciji Dynamics 365 Project Operations. Sistem ustvari osnutek predračuna na podlagi razporeda izdajanja računov za vsako posamezno projektno pogodbo in podrobnost pogodbe. Razporedi izdajanja računov so konfigurirani na ravni podrobnosti pogodbe. Vsaka podrobnost pogodbe ima lahko različen razpored izdajanja računov ali pa je ta isti razpored izdajanja računov vključen v vsako podrobnost pogodbe.
@@ -56,7 +56,7 @@ V primeru se samodejno izdajanje računov izvaja na dan:
     - Nastali strošek, ki vključuje vse stroške, ustvarjene pred datumom prekinitve transakcije – 4. oktobra, v nedeljo – ki ima oznako **Pripravljeno na izdajo računa**.
   
 - **6. oktober ali kateri koli datum pred 19. oktobrom** : za to pogodbo ni ustvarjen noben račun, saj tabela za **Razpored izdajanja računov** za nobeno od teh podrobnosti pogodbe nima predvidenega časa »6. oktober ali kateri koli datum pred 19. oktobrom« kot datuma izdaje računa.
-- **19. oktober, ponedeljek** : en račun je izdan za izvedbeno delo, ki vključuje vse časovne transakcije, ustvarjene pred datumom prekinitve transakcije – 18. oktobra, v nedeljo – ki ima oznako **Pripravljeno na izdajo računa**.
+- **19. oktober, ponedeljek**: en račun je izdan za izvedbeno delo, ki vključuje vse časovne transakcije, ustvarjene pred datumom prekinitve transakcije – 18. oktobra, v nedeljo – ki ima oznako **Pripravljeno na izdajo računa**.
 - **2. november, ponedeljek** : izdan je en račun za:
 
     - Izvedbeno delo, ki vključuje vse časovne transakcije, ustvarjene pred datumom prekinitve transakcije – 1. novembra, v nedeljo – ki ima oznako **Pripravljeno na izdajo računa**.
@@ -81,11 +81,11 @@ V primeru se samodejno izdajanje računov izvaja na dan:
 6. V naslednjem pogovornem oknu izberite **V redu**. Poteku dela **Spanje** sledi potek dela **Proces**. 
 
 > [!NOTE]
-> V 5. koraku lahko izberete tudi **ProcessRunner**. Ko nato izberete **V redu** , poteku dela **Proces** sledi potek dela **Spanje**.
+> V 5. koraku lahko izberete tudi **ProcessRunner**. Ko nato izberete **V redu**, poteku dela **Proces** sledi potek dela **Spanje**.
 
 Poteka dela **ProcessRunCaller** in **ProcessRunner** ustvarita račune. **ProcessRunCaller** prikliče **ProcessRunner**. **ProcessRunner** je potek dela, ki dejansko ustvari račune. Potek dela zajame vse podrobnosti pogodbe, za katere je treba ustvariti račune, in ustvari račune za te vrstice. Opravilo preveri datume izdaje računa za vrstice pogodbe, da ugotovi, za katere vrstice pogodbe je treba ustvariti račune. Če imajo vrstice pogodbe, ki pripadajo eni pogodbi, enak datum izdaje računa, se transakcije združijo v en račun, ki ima dve vrstici računa. Če ni transakcij, za katere je treba ustvariti račun, opravilo preskoči ustvarjanje računa.
 
-Ko se potek dela **processrunner** preneha izvajati, prikliče potek dela **ProcessRunCaller** , navede končni čas in se zapre. Storitev **ProcessRunCaller** nato zažene časovnik, ki začne odštevati 24 ur pred navedenim končnim časom. Ko se časovnik preneha izvajati, se **ProcessRunCaller** zapre.
+Ko se potek dela **processrunner** preneha izvajati, prikliče potek dela **ProcessRunCaller**, navede končni čas in se zapre. Storitev **ProcessRunCaller** nato zažene časovnik, ki začne odštevati 24 ur pred navedenim končnim časom. Ko se časovnik preneha izvajati, se **ProcessRunCaller** zapre.
 
 Paketna obdelava za ustvarjanje računov je ponavljajoče se opravilo. Če je paketna obdelava zagnana večkrat, je ustvarjenih več primerkov opravila, kar povzroči napake. Zato paketno obdelavo zaženite samo enkrat, znova jo zaženite le, če se preneha izvajati.
 

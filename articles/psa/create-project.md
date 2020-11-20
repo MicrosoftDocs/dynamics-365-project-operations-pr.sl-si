@@ -3,7 +3,7 @@ title: Ustvari projekt
 description: Navodila za ustvarjanje projekta v rešitvi Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084768"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133118"
 ---
 # <a name="create-a-project-project-service"></a>Ustvarjanje projekta (rešitev Project Service)
 
@@ -37,7 +37,7 @@ Z zmogljivostmi [!INCLUDE[pn_project_service_auto](../includes/pn-project-servic
   
 3.  V območje **Povzetek** vnesite ime projekta, nato vnesite čim več podatkov. Elementi, ki so označeni z rdečo zvezdico (*), so obvezni.  
   
-4.  Kliknite **Shrani** , da ustvarite projekt, ki ga nato lahko urejate.  
+4.  Kliknite **Shrani**, da ustvarite projekt, ki ga nato lahko urejate.  
   
 Nato ustvarite strukturirano členitev dela za projekt, da določite opravila, časovni razpored in vloge virov, ki jih potrebujete za ta projekt.  
 

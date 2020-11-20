@@ -1,21 +1,21 @@
 ---
-title: Izdaja računa za honorar ali predujem
+title: Izdaja računa za honorar ali predplačilo – poenostavljena različica
 description: Ta tema vsebuje informacije o izdajanju računov za honorar ali predujem v aplikaciji Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088108"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180572"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Izdaja računa za honorar ali predujem
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Izdaja računa za honorar ali predplačilo – poenostavljena različica
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -32,7 +32,7 @@ Za izdajo računa za honorar ali predujem, naredite naslednje.
 
 Honorar ali predujem lahko ustvarite neposredno na računu.
 
-1. Na osnutku računa in nato na podmreži **Predujmi in honorarji** izberite **Novo** , da ustvarite nov honorar ali predujem. 
+1. Na osnutku računa in nato na podmreži **Predujmi in honorarji** izberite **Novo**, da ustvarite nov honorar ali predujem. 
 2. Na strani **Hitro ustvarjanje** dodajte potrebne informacije in nato izberite **Shrani**. Honorar ali predujem se ustvari na projektni pogodbi, povezani z računom. Honorar ali predujem se samodejno označi kot **Pripravljeno za izdajanje računa** in nato doda na podmrežo **Predujmi in honorarji** na strani **Račun**.
 
 ## <a name="reconcile-an-invoiced-retainer-or-advance"></a>Uskladitev fakturiranega honorarja ali predujma
@@ -43,7 +43,7 @@ Pri vsakem računu, ki se ustvari za projektno pogodbo, v kateri so fakturirani 
 
 To je razvidno iz mreže **Uporabljeni honorarji in predujmi** na strani **Račun**. Naslednja tabela vsebuje informacije o poljih na mreži **Uporabljeni honorarji in predujmi** na strani **Račun projekta**.
 
-| Polje | LOkacija | Ustreznost, namen in smernice | Nadaljnji vpliv |
+| Polje | LOkacija | Opis | Nadaljnji vpliv |
 | --- | --- | --- | --- |
 | Opis | Mreža **Uporabljeni predujmi in honorarji** na strani **Račun projekta** |To polje, ki je na voljo samo za branje, vsebuje opis honorarja ali predujma, uporabljenega na tem računu. Te vrednosti ni mogoče spremeniti na računu. To vrednost lahko posodobite v podmreži na strani **Projektna pogodba**. | To polje se lahko stranki prikaže na natisnjenem računu, da jo seznani s tem, kateri honorar ali predujem je uporabljen na računu. |
 | Dostavljeno: | Mreža **Uporabljeni predujmi in honorarji** na strani **Račun projekta**  | To polje, ki je na voljo samo za branje, vsebuje datum računa za honorar ali predujem, uporabljen na tem računu. Te vrednosti ni mogoče spremeniti na računu. To vrednost lahko posodobite v podmreži na strani **Projektna pogodba**. | To polje se lahko stranki prikaže na natisnjenem računu za označitev datuma, ko je bil honorar ali predujem prvič zaračunan stranki. |

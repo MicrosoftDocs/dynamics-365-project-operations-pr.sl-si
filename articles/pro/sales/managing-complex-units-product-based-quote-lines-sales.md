@@ -1,21 +1,21 @@
 ---
-title: Upravljanje kompleksnih enot, na primer za uporabnika in za vsak mesec posebej, za podrobnosti ponudb, ki temeljijo na izdelkih
+title: Upravljanje kompleksnih enot, na primer za uporabnika in za vsak mesec posebej, za podrobnosti ponudb, ki temeljijo na izdelkih – poenostavljeno
 description: Ta tema vsebuje informacije o upravljanju kompleksnih enot za podrobnosti ponudb, ki temeljijo na izdelkih.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084688"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175596"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Upravljanje kompleksnih enot, na primer za uporabnika in za vsak mesec posebej, za podrobnosti ponudb, ki temeljijo na izdelkih
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Upravljanje kompleksnih enot, na primer za uporabnika in za vsak mesec posebej, za podrobnosti ponudb, ki temeljijo na izdelkih – poenostavljeno
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -29,8 +29,8 @@ Project Operations preveri, da so kot količniki za količino označene samo št
 
 Dynamics 365 Sales ima lahko na primer te lastnosti:
 
-- **Št. uporabnikov** : število uporabnikov.
-- **Št. mesecev** : število mesecev naročnine.
+- **Št. uporabnikov**: število uporabnikov.
+- **Št. mesecev**: število mesecev naročnine.
 - **Inventarna številka izdelka**
 
 Lastnosti **Št. uporabnikov** in **Št. mesecev** lahko označite kot količnike za količino tako, da uredite lastnosti vrstice izdelkov.

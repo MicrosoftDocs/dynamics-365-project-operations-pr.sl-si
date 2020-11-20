@@ -3,7 +3,7 @@ title: Ocene
 description: Ta tema vsebuje informacije o ocenah v rešitvi Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084958"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132823"
 ---
 # <a name="estimates"></a>Ocene
 
@@ -90,7 +90,7 @@ Spodnja tabela vam bo v pomoč pri razumevanju poslovne logike v fazi ocenjevanj
 
     ![Izbiranje koraka v vtičniku](media/basic-guide-20.png)
 
-5. V pogovornem oknu **Posodobi obstoječi korak** v polju **Atributi filtriranja** izberite gumb s tremi pikami ( **...** ):
+5. V pogovornem oknu **Posodobi obstoječi korak** v polju **Atributi filtriranja** izberite gumb s tremi pikami (**...**):
  
     ![Pogovorno okno »Posodobi obstoječi korak«](media/basic-guide-21.png)
 
@@ -98,7 +98,7 @@ Spodnja tabela vam bo v pomoč pri razumevanju poslovne logike v fazi ocenjevanj
 
     ![Pogovorno okno »Izberite atribute«](media/basic-guide-22.png)
 
-7. Izberite **V redu** , da zaprete pogovorno okno, in nato **Posodobi korak**.
+7. Izberite **V redu**, da zaprete pogovorno okno, in nato **Posodobi korak**.
  
     ![Gumb »Posodobi korak«](media/basic-guide-23.png)
 

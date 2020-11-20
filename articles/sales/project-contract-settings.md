@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088112"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181159"
 ---
 # <a name="project-contract-settings"></a>Nastavitve projektne pogodbe
 
@@ -23,7 +23,7 @@ Ta tema vsebuje informacije o poljih, ki veljajo za celotno projektno pogodbo, v
 
 V spodnji tabeli so navedena polja v projektni pogodbi, ki so na voljo le v storitvi Dynamics 365 Project Operations ali pa imajo nekatere pomembne spremembe v delovanju prodajnih naročil v storitvi Dynamics 365 Sales.
 
-| Polje | LOkacija | Ustreznost, namen in smernice | Nadaljnji vpliv |
+| Polje | LOkacija | Opis | Nadaljnji vpliv |
 | --- | --- | --- | --- |
 | Vnesi | Zavihek **Povzetek** (skrito) | To je polje z naborom možnosti in naslednjimi možnostmi:</br>- **temelji na delu** (na voljo samo, če je nameščena storitev Project Operations)</br>- **temelji na elementu** (na voljo samo, če sta nameščeni storitvi Project Operations in Sales)</br>- **temelji na vzdrževanju storitev** (na voljo, ko je nameščena storitev Dynamics 365 Field Service) | V storitvi Project Operations je privzeta vrednost tega polja **Temelji na delu** in razvršča pogodbo kot pogodbo, ki temelji na projektu. Pogodba mora temeljiti na projektu, da lahko omogoča vse razširitve in funkcije, specifične za projekt. |
 | Lastniško podjetje | Zavihek **Povzetek** | Pravna oseba, ki je odgovorna za stroške in prihodke, ki nastanejo iz projektov, povezanih s to projektno ponudbo. V pogodbi, ustvarjeni iz ponudbe, se ta vrednost kopira iz ustreznega polja pri zapisu ponudbe. | Lastniško podjetje je enako konceptu pravne osebe v modulu **Vodenje projektov in računovodstvo** storitve Project Operations. Vsi stroški in prihodki, ki nastanejo pri tem projektu, bodo zabeleženi v glavni knjigi lastniškega podjetja. |
@@ -37,7 +37,7 @@ V spodnji tabeli so navedena polja v projektni pogodbi, ki so na voljo le v stor
 
 Naslednji KPI-ji so na voljo na zavihku **Izvedba pogodbe** projektne pogodbe.
 
-| Polje | LOkacija | Ustreznost, namen in smernice |
+| Polje | LOkacija | Opis |
 | --- | --- | --- |
 | Vrednost pogodbe | Splošna pogodba | Skupna vrednost projektne pogodbe. |
 | Obračunani znesek | Splošna pogodba | Vsota zneskov na vseh računih za to pogodbo. |

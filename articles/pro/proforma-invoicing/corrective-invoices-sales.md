@@ -1,21 +1,21 @@
 ---
-title: Dobroimetje in popravljeni računi
+title: Popravljeni računi – poenostavljena različica
 description: Ta tema vsebuje informacije o popravljenih računih v aplikaciji Project Operations
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084867"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176451"
 ---
-# <a name="credits-and-corrected-invoices"></a>Dobroimetje in popravljeni računi
+# <a name="corrected-invoices---lite"></a>Popravljeni računi – poenostavljena različica
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -35,7 +35,7 @@ Iz potrjenega računa se ustvari nov osnutek računa. Vse podrobnosti vrstice ra
 - Uskladitve honorarjev in predujmov je mogoče popraviti, če je bil uporabljen nepravilen znesek za uskladitev stroškov na predhodno potrjenem računu.
 
 > [!IMPORTANT]
-> Podrobnosti vrstice računa oz. popravki drugih že zaračunanih stroškov imajo polje **Popravek** nastavljeno na **Da**. Računi s popravljenimi podrobnostmi vrstice računa imajo polje **Vsebuje popravke** , ki je prav tako nastavljeno na **Da**.
+> Podrobnosti vrstice računa oz. popravki drugih že zaračunanih stroškov imajo polje **Popravek** nastavljeno na **Da**. Računi s popravljenimi podrobnostmi vrstice računa imajo polje **Vsebuje popravke**, ki je prav tako nastavljeno na **Da**.
 
 ## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Dejanske vrednosti, ustvarjene ob potrditvi popravljenega računa:
 

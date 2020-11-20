@@ -1,21 +1,21 @@
 ---
-title: Nastavljanje mer stroškov dela
+title: Nastavitev stroškov za delo – poenostavljeno
 description: Ta tema vsebuje informacije o nastavljanju mer stroškov dela v aplikaciji Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084667"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180751"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Nastavljanje mer stroškov dela 
+# <a name="set-up-labor-cost-rates---lite"></a>Nastavitev stroškov za delo – poenostavljeno
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -27,7 +27,7 @@ Vsak cenik ima nabor stopenj dela (cene vlog), ki se uskladijo z vsebino in datu
 
 Naslednja tabela vključuje nekatera polja, ki so pomembna pri oblikovanju stopenj dela v ceniku z lastnimi cenami.
 
-| Polje | LOkacija | Ustreznost, namen in smernice | Nadaljnji vpliv |
+| Polje | LOkacija | Opis | Nadaljnji vpliv |
 | --- | --- | --- | --- |
 | Vloga | Zavihek **Splošno** in strani **Hitro ustvarjanje** | Izberite vlogo, za katero velja mera stroškov. | Vloga v dohodni vrstici ocene ali dejanske vrednosti se bo ujemala s to vrstico, da nastavi privzeto ceno vloge. |
 | Enota vira | Zavihek **Splošno** in strani **Hitro ustvarjanje** | Izberite organizacijsko enoto ali oddelek podjetja, iz katerega bo uporabljena ta vloga. Na primer razvijalec iz oddelka robotike podjetja Fabrikam Indija ali razvijalec iz oddelka za programsko opremo podjetja Fabrikam ZDA. | Enota vira v dohodni vrstici ocene ali dejanske vrednosti se bo ujemala s to vrstico, da nastavi privzeto ceno vloge. |

@@ -1,21 +1,21 @@
 ---
-title: Nastavitev mer stroškov in prodajnih zneskov za kataloške izdelke
+title: Nastavitev cen in prodaje za izdelke iz kataloga – poenostavljeno
 description: Ta tema vsebuje informacije o nastavitvi mer stroškov in prodajnih zneskov za elemente v katalogu izdelkov.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5178a9143536bf4b2573403125325017861cdd5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 135b182af73bdab7a3520589431332ad059ec497
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084823"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176721"
 ---
-# <a name="set-up-cost-and-sales-rates-for-catalog-products"></a>Nastavitev mer stroškov in prodajnih zneskov za kataloške izdelke
+# <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>Nastavitev cen in prodaje za izdelke iz kataloga – poenostavljeno
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 

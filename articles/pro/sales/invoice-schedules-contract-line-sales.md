@@ -1,74 +1,76 @@
 ---
-title: Ustvarjanje razporedov računov v podrobnostih pogodbe na podlagi projekta
-description: Ta tema vsebuje informacije o ustvarjanju razporedov računov in mejnikov za podrobnosti pogodbe.
+title: Ustvarjanje razporedov izdajanja računov v podrobnostih pogodbe, ki temelji na projektu – poenostavljena različica
+description: V tej temi so na voljo informacije o ustvarjanju razporedov računov in mejnikov.
 author: rumant
 manager: Annbe
-ms.date: 10/17/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2183b915dd2f67e03964246cb0689003e48363f7
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4084990"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180347"
 ---
-# <a name="creating-invoice-schedules-on-a-project-based-contract-line"></a>Ustvarjanje razporedov računov v podrobnostih pogodbe na podlagi projekta
+# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Ustvarjanje razporedov izdajanja računov v podrobnostih pogodbe, ki temelji na projektu – poenostavljena različica
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
+Razpored izdajanja računov lahko priložite v podrobnostih pogodbe, ki temelji na projektu. Zaračunavanje je dovoljeno samo potem, ko je pogodba pridobljena, da se ustvari projektna pogodba. Razporedi računov omogočajo, da so samodejno ustvarjeni osnutki računov podrobnosti pogodbe, ki temeljijo na projektu. Če načrtujete, da boste vedno ročno ustvarjali račune, lahko preskočite ustvarjanje razporedov računov v podrobnostih pogodbe, ki temelji na projektu, ali podrobnostih pogodbe.
 
-Ustvarite lahko razpored računov v podrobnostih pogodbe na podlagi projekta. Izdajanje računov je dovoljeno šele po pridobitvi pogodbe in ustvarjanju projektne pogodbe. Razpored računov omogoča samodejno ustvarjanje osnutkov računov podrobnosti pogodbe na podlagi projekta. Če pa račune ustvarjate samo ročno, lahko preskočite ustvarjanje razporedov računov v podrobnostih pogodbe.
-
-## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Ustvarjanje razporeda računov za čas in material za podrobnosti pogodbe
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-contract-line"></a>Ustvarjanje razporeda izdajanja računov za čas in material za podrobnosti pogodbe, ki temelji na projektu.
 
 Kadar je način obračunavanja v podrobnostih pogodbe na podlagi projekta mogoče prilagoditi glede na čas in material, lahko ustvarite razpored računov na podlagi datuma. Za samodejno ustvarjanje razporeda računov na podlagi datuma, izvedite naslednje korake.
 
-1. V razdelku **Nastavitve** > **Pogostost izdajanja računov** nastavite pogostost izdajanja računov.
-2. Odprite zapis o projektni pogodbi in v zavihku **Povzetek** izberite datum v polju **Zahtevani datum dostave**.
-3. Odprite podrobnosti pogodbe za **Čas in material** , za katere morate ustvariti razpored računov na podlagi datuma. 
-4. Na zavihku **Razpored računov** izberite datum začetka obračunavanja in pogostost izdajanja računov.
-5. V podmreži izberite možnost **Ustvari razpored računov**. Razpored računov je ustvarjen s polji za **Datum izdaje računa** , **Datum zaključka transakcije** in **Stanje izdaje** , ki so nastavljeni na naslednji način:
+1. Pojdite na **Nastavitve** > **Pogostost izdajanja računov**, da nastavite pogostost izdajanja računov.
+2. Odprite projektno pogodbo in na zavihku **Povzetek** nastavite zahtevani datum dostave.
+3. Odprite podrobnosti pogodbe za čas in material, za katero želite ustvariti razpored za izdajanje računov na podlagi datuma. 
+4. Na zavihku **Razpored izdajanja računov** izberite začetni datum obračunavanja in pogostost izdajanja računov. 
+5. V podmreži izberite možnost **Ustvari razpored računov**.
 
-    - **Datum izdaje računa** ta datum je določen glede na pogostost izdajanja računov.
-    - **Datum zaključka transakcije** : dan pred datumom izdaje računa.
-    - **Stanje izdaje** : samodejno nastavljeno na možnost **Ni izdano**. Ko se postopek samodejnega ustvarjanja računov zažene za posamezen datum izdaje računa, se vrednost polja posodobi na možnost **Uspešna izdaja** ali **Neuspešna izdaja**.
+    Sistem ustvari razpored za izdajanje računov z naslednjimi informacijami polja:
 
+    - **Datum izdaje računa** je nastavljen na datum na podlagi pogostosti izdajanja računov.
+    - **Datum prekinitve transakcije** je nastavljen na dan pred možnostjo **Datum izdaje računa**.
+    - **Stanje izdaje** je samodejno nastavljeno na možnost **Ni izdano**. Ko se postopek samodejnega ustvarjanja računov zažene za posamezen **Datum izdaje računa**, se vrednost polja posodobi na možnost **Uspešna izdaja** ali **Neuspešna izdaja**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Ustvarjanje razporeda računov s fiksno ceno za podrobnosti pogodbe
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-contract-line"></a>Ustvarjanje razporeda izdajanja računov fiksne cene za podrobnosti pogodbe, ki temelji na projektu
 
-Če imajo podrobnosti pogodbe fiksen način obračunavanja, lahko ustvarite razpored računov na podlagi mejnika. Dokončajte naslednje korake za generiranje razporeda računov na podlagi mejnikov za fiksen nabor enakomerno porazdeljenih mejnikov v koledarskem obdobju.
+Ko imajo podrobnosti pogodbe, ki temelji na projektu, način obračunavanja fiksne cene, lahko ustvarite razpored za izdajanje računov na podlagi mejnika. Dokončajte naslednje korake za samodejno ustvarjanje razporeda za izdajanje računov na podlagi mejnika za fiksni nabor mejnikov, ki se enakomerno razporedijo za koledarsko obdobje.
 
-1. V razdelku **Nastavitve** > **Pogostost izdajanja računov** nastavite pogostost izdajanja računov.
-2. Odprite zapis o projektni pogodbi in v zavihku **Povzetek** izberite datum v polju **Zahtevani datum dostave**.
-3. Odprite podrobnosti pogodbe **Fiksna cena** , za katero želite ustvariti razpored mejnikov. Na zavihku **Mejniki obračunavanja** izberite datum začetka obračunavanja in pogostost izdajanja računov. 
-4. V podmreži izberite možnost **Ustvari periodične mejnike**. Ustvari se razpored računov s polji **Ime mejnika** , **Datum mejnika** in **Znesek mejnika** , ki so nastavljeni, kot je prikazano spodaj:
+1. Pojdite na **Nastavitve** > **Pogostost izdajanja računov**, da nastavite pogostost izdajanja računov.
+2. Odprite projektno pogodbo in na zavihku **Povzetek** nastavite zahtevani datum dostave.
+3. Odprite podrobnosti pogodbe za fiksno ceno, za katero morate ustvariti razpored mejnikov. 
+4. Na zavihku **Razpored izdajanja računov (mejniki obračunavanja)** izberite začetni datum obračunavanja in pogostost izdajanja računov. 
+5. V podmreži izberite možnost **Ustvari periodične mejnike**.
 
-    - **Ime mejnika** : ta datum je določen glede na pogostost izdajanja računov.
-    - **Datum mejnika** : ta datum je določen glede na pogostost izdajanja računov.
-    - **Znesek mejnika** : ta znesek se izračuna tako, da se znesek pogodbe v podrobnostih pogodbe deli s številom mejnikov, kot jih določa pogostost, začetek obračunavanja in zahtevani datumi prejetja.
+    Sistem ustvari razpored za izdajanje računov z naslednjimi informacijami mejnika:
 
-    Če je v polju **Predvideni znesek davka** v podrobnostih pogodbe vpisana kakšna vrednost, se tudi to polje enakomerno porazdeli na vsak mejnik pri ustvarjanju periodičnih mejnikov.
+    - **Ime mejnika** je nastavljeno na datum, ki je določen na podlagi pogostosti izdajanja računov.
+    - **Datum mejnika** je nastavljeno na datum, ki je določen na podlagi pogostosti izdajanja računov.
+    - **Znesek mejnika** je izračunan z delitvijo pogodbenega zneska na podrobnostih pogodbe, ki temelji na projektu, s številom mejnikov, kot določa pogostost, začetek obračunavanja in zahtevani datumi dostave.
+    - Če imajo podrobnosti pogodbe vrednost v polju **Predvideni znesek davka**, je to polje prav tako dodeljeno vsakemu mejniku enakomerno ob ustvarjanju rednih mejnikov.
 
-Mejniki obračunavanja morajo biti enaki pogodbeni vrednosti podrobnosti pogodbe. Če niso, se vam bo prikazala napaka na strani **Podrobnosti pogodbe**. Napako lahko odpravite tako, da z ustvarjanjem, urejanjem ali brisanjem mejnikov preverite, ali mejniki obračunavanja seštevajo pogodbeno vrednost vrstice. Po opravljenih spremembah osvežite stran, da odstranite napako.
+Mejniki obračunavanja bi morali biti enaki pogodbeni vrednosti podrobnosti pogodbe, ki temelji na projektu. Če niso enaki, pride do napake. Napako lahko odpravite, tako da preverite celotno pogodbeno vrednost mejnikov obračunavanja podrobnosti, tako da ustvarite, uredite ali izbrišete mejnike. Ko so spremembe uveljavljene, osvežite stran.
 
 ### <a name="manually-create-milestones"></a>Ročno ustvarjanje mejnikov
 
-Mejnike s fiksno ceno lahko generirate tudi ročno, če se niso periodično deljeni. Dokončajte naslednje korake, da ročno ustvarite mejnik.
+Mejnike s fiksno ceno je mogoče ustvariti ročno, ko niso redno deljeni. Če želite ročno ustvariti mejnik, izvedite naslednje korake.
 
-1. Odprite podrobnosti pogodbe s fiksno ceno, za katero ustvarjate mejnik, in v zavihku **Razpored računov** na podmreži izberite **+ Ustvari nov mejnik podrobnosti pogodbe**. 
-2. Na strani **Ustvarjanje mejnika** vnesite zahtevane podatke na podlagi naslednje tabele.
+1. Odprite podrobnosti pogodbe za fiksno ceno, za katero želite ustvariti mejnik. 
+2. Na zavihku **Razpored izdajanja računov** v podmreži izberite **+ Ustvarjanje novega mejnika podrobnosti pogodbe**.
+3. V obrazcu **Ustvarjanje mejnika** vnesite zahtevane informacije na podlagi naslednje tabele. 
 
-| Polje | LOkacija | Ustreznost, namen in smernice | Nadaljnji vpliv |
+| Polje | LOkacija | Opis | Nadaljnji vpliv |
 | --- | --- | --- | --- |
-| Ime mejnika | Hitro ustvarjanje | Besedilno polje za ime mejnika. | Prenese se na mejnik podrobnosti pogodbe projekta in na račun. |
-| Projektno opravilo | Hitro ustvarjanje | Če je mejnik vezan na projektno opravilo, lahko s to referenco dodate prilagojeno logiko za nastavitev stanja mejnika glede na stanje opravila. | Aplikacija nima nobenega nadaljnjega vpliva zaradi sklicevanja na opravilo. |
-| Datum mejnika | Hitro ustvarjanje | Nastavite datum, ko želite, da se s postopkom samodejnega ustvarjanja računov preveri stanje mejnika za primernost izdaje računa. | Prenese se na mejnik podrobnosti pogodbe projekta in na račun. |
-| Stanje računa | Hitro ustvarjanje | Ko je ustvarjen mejnik, je to stanje vedno nastavljeno na **Ni pripravljeno za izdajo računa** ali **Ni se še začelo**. | Prenese se na mejnik podrobnosti pogodbe projekta in na račun. |
-| Znesek vrstice | Hitro ustvarjanje | Znesek ali vrednost mejnika, za katerega bo stranki izdan račun. | Prenese se na mejnik podrobnosti pogodbe projekta in na račun. |
-| Davek | Hitro ustvarjanje | Znesek davka, ki se uporablja za mejnik. | Prenese se na mejnik podrobnosti pogodbe projekta in na račun. |
+| Ime mejnika | Hitro ustvarjanje | Besedilno polje za ime mejnika. | To polje je vključeno v mejnik in račun podrobnosti pogodbe projekta. |
+| Projektno opravilo | Hitro ustvarjanje | Če je mejnik vezan na projektno opravilo, uporabite ta sklic za dodajanje logike po meri in nastavite stanje mejnika na podlagi stanja opravila. | Ta sklic ne vpliva navzdol na opravilo. |
+| Datum mejnika | Hitro ustvarjanje | Datum, ko naj avtomatizirani postopek ustvarjanja računov poišče stanje tega mejnika, da ga obravnava za izstavljanje računov. | To je vključeno v mejnik in račun podrobnosti pogodbe projekta. |
+| Stanje računa | Hitro ustvarjanje | Ko je mejnik ustvarjen, je to stanje vedno nastavljeno na **Ni pripravljeno za izdajanje računov** ali **Ni začeto**. | To je vključeno v mejnik in račun podrobnosti pogodbe projekta. |
+| Znesek vrstice | Hitro ustvarjanje | Znesek ali vrednost mejnika, ki bo zaračunan stranki. | To polje je vključeno v mejnik in račun podrobnosti pogodbe projekta. |
+| Davek | Hitro ustvarjanje | Znesek davka, ki se uporablja za mejnik. | To je vključeno v mejnik in račun podrobnosti pogodbe projekta. |
 
-3. Izberite možnost **Shrani in zapri**.
-| Znesek vrstice | Hitro ustvarjanje | Znesek ali vrednost mejnika, ki bo zaračunan stranki | Ta se razširi na mejnik podrobnosti projektne pogodbe in na račun | | Davek | Hitro ustvarjanje | Znesek davka, ki se bo uporabil za mejnik | Ta se razširi na mejnik projektne pogodbe in na račun |
+4. Izberite možnost **Shrani in zapri**.

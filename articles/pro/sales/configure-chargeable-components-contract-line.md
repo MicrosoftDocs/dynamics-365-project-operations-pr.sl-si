@@ -1,21 +1,21 @@
 ---
-title: Konfiguriranje komponent, ki se zaračunajo, v podrobnosti pogodbe, ki temelji na projektu
+title: Konfiguriranje komponent, ki se zaračunajo, za podrobnosti pogodbe, ki temelji na projektu – poenostavljena različica
 description: Ta tema ponuja informacije o tem, kako v aplikaciji Project Operations v podrobnost pogodbe dodati komponente, ki se zaračunajo.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084663"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177171"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Konfiguriranje komponent, ki se zaračunajo, v podrobnosti pogodbe, ki temelji na projektu
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Konfiguriranje komponent, ki se zaračunajo, za podrobnosti pogodbe, ki temelji na projektu – poenostavljena različica
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -34,31 +34,31 @@ Podmnožico vključenih komponent je v polju **Vrsta obračunavanja** mogoče oz
 
 Komponente, ki se zaračunajo, je mogoče določiti za opravila, vloge in kategorije transakcij.
 
-Zaračunavanje je določeno v opravilih za posamezno podrobnost pogodbe in velja za vse razrede transakcij, vključene v podrobnost. Če je v podrobnosti pogodbe polje **Vključi opravila** prazno ali nastavljeno na možnost **Ves projekt** , zavihek **Opravila, ki se zaračunajo** ni na voljo.
+Zaračunavanje je določeno v opravilih za posamezno podrobnost pogodbe in velja za vse razrede transakcij, vključene v podrobnost. Če je v podrobnosti pogodbe polje **Vključi opravila** prazno ali nastavljeno na možnost **Ves projekt**, zavihek **Opravila, ki se zaračunajo** ni na voljo.
 
-Zaračunavanje, določeno v vlogah za podrobnost projektne pogodbe, velja samo za razred transakcije **Čas**. Če je v podrobnosti pogodbe polje **Vključi čas** prazno ali nastavljeno na možnost **Ne** , zavihek **Vloge, ki se zaračunajo** ni na voljo.
+Zaračunavanje, določeno v vlogah za podrobnost projektne pogodbe, velja samo za razred transakcije **Čas**. Če je v podrobnosti pogodbe polje **Vključi čas** prazno ali nastavljeno na možnost **Ne**, zavihek **Vloge, ki se zaračunajo** ni na voljo.
 
-Plačljivost, določena v kategorijah transakcije za podrobnost projektne pogodbe, velja samo za razred transakcije **Strošek**. Če je polje **Vključi stroške** prazno ali nastavljeno na možnost **Ne** , zavihek **Kategorije, ki se zaračunajo** ni na voljo.
+Plačljivost, določena v kategorijah transakcije za podrobnost projektne pogodbe, velja samo za razred transakcije **Strošek**. Če je polje **Vključi stroške** prazno ali nastavljeno na možnost **Ne**, zavihek **Kategorije, ki se zaračunajo** ni na voljo.
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Posodobite projektno opravilo kot zaračunljivo ali nezaračunljivo
 
 Projektna naloga se lahko v posamezni podrobnosti pogodbe zaračuna ali ne zaračuna, kar omogoča naslednje nastavitve:
 
-Če podrobnost pogodbe, ki temelji na projektu, vključuje možnost **Čas** in določeno opravilo, se možnost **T1** z njo poveže kot zaračunljiva. Če obstaja druga podrobnost pogodbe, ki vključuje možnost **Stroški** , lahko opravilo T1 v podrobnosti pogodbe povežete kot nezaračunljivo. Rezultat tega je, da se ves čas, zabeležen za opravilo, zaračuna, vsi stroški pa se ne zaračunajo.
+Če podrobnost pogodbe, ki temelji na projektu, vključuje možnost **Čas** in določeno opravilo, se možnost **T1** z njo poveže kot zaračunljiva. Če obstaja druga podrobnost pogodbe, ki vključuje možnost **Stroški**, lahko opravilo T1 v podrobnosti pogodbe povežete kot nezaračunljivo. Rezultat tega je, da se ves čas, zabeležen za opravilo, zaračuna, vsi stroški pa se ne zaračunajo.
 
-Vrsto obračunavanja opravila lahko konfigurirate v podrobnosti pogodbe na zavihku **Opravila, ki se zaračunajo** tako, da v podmreži za opravilo v podrobnosti pogodbe posodobite polje **Vrsta obračunavanja**. Na podmreži opravila Nastavitev obračunavanja za projekt lahko tudi posodobite polje **Vrsta obračunavanja** , ki prikazuje podrobnosti pogodbe, povezane z opravilom.
+Vrsta obračuna za opravilo je lahko konfigurirana na zavihku **Opravila, ki se zaračunajo** podrobnosti pogodbe s posodobitvijo polja **Vrsta obračunavanja** v podmreži opravil vrstice pogodbe. Druga možnost je, da posodobite polje **Vrsta obračunavanja** v podmreži nastavitve obračunavanja opravil projekta, ki prikazuje podrobnosti pogodbe, povezane z opravilom.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Posodabljanje vloge kot zaračunljive ali nezaračunljive
 
 V posamezni podrobnosti pogodbe je lahko vloga zaračunljiva ali nezaračunljiva.
 
-Način obračunavanja vloge je mogoče nastaviti na zavihku **Vloge, ki se zaračunajo** v podrobnosti pogodbe. Če želite to narediti, v podmreži **Vloge, ki se zaračunajo** posodobite polje **Vrsta obračunavanja**.
+Način obračunavanja vloge je mogoče nastaviti na zavihku **Vloge, ki se zaračunajo** v podrobnosti pogodbe. To storite tako, da posodobite polje **Vrsta obračunavanja** v podmreži **Vloge, ki se zaračunajo**.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Posodabljanje kategorije transakcije kot zaračunljive ali nezaračunljive
 
 V posamezni podrobnosti pogodbe je lahko kategorija transakcije zaračunljiva ali nezaračunljiva.
 
-Način obračunavanja transakcije je mogoče nastaviti na zavihku **Kategorije, ki se zaračunajo** v podrobnosti pogodbe. Če želite to narediti, v podmreži **Kategorije, ki se zaračunajo** posodobite polje **Vrsta obračunavanja**.
+Način obračunavanja transakcije je mogoče nastaviti na zavihku **Kategorije, ki se zaračunajo** v podrobnosti pogodbe. To storite tako, da posodobite polje **Vrsta obračunavanja** v podmreži **Kategorije, ki se zaračunajo**.
 
 ### <a name="resolve-chargeability"></a>Razrešitev možnosti zaračunavanja
 

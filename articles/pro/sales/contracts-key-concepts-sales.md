@@ -1,21 +1,21 @@
 ---
-title: Ključni pojmi projektnih pogodb
+title: Projektne pogodbe – ključni pojmi – poenostavljena različica
 description: Ta tema vsebuje informacije o ključnih pojmih projektnih pogodb.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66d6b72b19a90ecc9161cd16ce9d4dd22798803b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084662"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177081"
 ---
-# <a name="key-concepts-of-project-contracts"></a>Ključni pojmi projektnih pogodb
+# <a name="project-contracts---key-concepts---lite"></a>Projektne pogodbe – ključni pojmi – poenostavljena različica
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -31,7 +31,7 @@ Valuta stroška je valuta, v kateri so na zaslonu poročani stroški. Ta valuta 
 
 Ker menjalni tečaji na platformi Common Data Service (CDS) ne morejo imeti datuma začetka veljavnosti, se lahko, če posodobite menjalne tečaje valut, skupne vrednosti stroškov na zaslonu sčasoma spremenijo. Vendar stroški, zabeleženi v zbirki podatkov, ostanejo nespremenjeni, saj so zneski shranjeni v valuti, v kateri so nastali.
 
-## <a name="sales-currency"></a>Valuta prodaje
+## <a name="sales-currency"></a>Prodajna valuta
 
 Prodajna valuta v storitvi Project Operations je valuta, v kateri se zabeležijo ter prikažejo predvideni in dejanski zneski prodaje. Valuta prodaje je tudi valuta, v kateri bo stranki izdan račun za posel. V projektni pogodbi je prodajna valuta privzeto nastavljena na podlagi zapisa stranke ali kupca in jo je mogoče spremeniti, ko je pogodba ustvarjena. Če pogodbo ustvarite tako, da zaprete ponudbo kot pridobljeno, je valuta v pogodbi privzeta od valute v ponudbi.
 

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084689"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180842"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Razporedi računov v vrsticah ponudbe, ki temeljijo na projektu
 
@@ -32,7 +32,7 @@ Kadar je način obračunavanja za ponudbeno vrstico , ki temelji na projektu, mo
 3. Odprite vrstico ponudbe za čas in material, za katero morate ustvariti razpored računov na podlagi datuma. 
 4. Na zavihku **Razpored računov** izberite vrednost za polji **Začetek obračunavanja** in **Pogostost izdajanja računov**. 
 5. V podmreži izberite možnost **Ustvari razpored računov**.
-6. Aplikacija ustvari razpored računov s polji za **Datum izdaje računa** , **Datum zaključka transakcije** in **Stanje izdaje** , ki so nastavljeni na naslednji način:
+6. Aplikacija ustvari razpored računov s polji za **Datum izdaje računa**, **Datum zaključka transakcije** in **Stanje izdaje**, ki so nastavljeni na naslednji način:
 
     - **Datum izdaje računa** je nastavljen na datum, ki je določen glede na pogostost izdajanja računov.
     - **Datum zaključka transakcije** je nastavljen na dan pred **datumom izdaje računa**.
@@ -58,9 +58,9 @@ Kadar je način obračunavanja za ponudbeno vrstico , ki temelji na projektu, mo
 
 Mejnike s fiksno ceno lahko generirate tudi ročno, če se niso periodično deljeni. Za ročno ustvarjanje mejnikov:
 
-Odprite vrstico ponudbe s fiksno ceno, za katero želite ustvariti mejnik. Na zavihku **Razpored računov** na podmreži izberite možnost **+ Ustvari nov mejnik za vrstico ponudbe** in vnesite zahtevane podatke na podlagi naslednje tabele.
+Odprite vrstico ponudbe s fiksno ceno, za katero želite ustvariti mejnik. Na zavihku **Razpored izdajanja računov** v podmreži izberite **+ Ustvarjanje novega mejnika vrstice ponudbe** in vnesite potrebne informacije na podlagi naslednje tabele.
 
-| **Polje** | **Mesto** | **Ustreznost, namen in smernice** | **Nadaljnji vpliv** |
+| **Polje** | **Mesto** | **Opis** | **Nadaljnji vpliv** |
 | --- | --- | --- | --- |
 | Ime mejnika | Hitro ustvari | Ime mejnika | Prenese se na mejnik podrobnosti pogodbe projekta in na račun. |
 | Projektno opravilo | Hitro ustvari | Če je mejnik vezan na projektno opravilo, lahko s to referenco dodate prilagojeno logiko za nastavitev stanja mejnika glede na stanje opravila. | Aplikacija nima nobenega nadaljnjega vpliva zaradi sklicevanja na opravilo. |

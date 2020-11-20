@@ -1,12 +1,12 @@
 ---
-title: Ceniki za projekte
+title: Upravljanje cenikov za projekte v ponudbi
 description: Ta tema vsebuje informacije o entiteti cenika projekta.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084982"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177216"
 ---
-# <a name="project-price-lists"></a>Ceniki za projekte
+# <a name="manage-project-price-lists-on-a-quote"></a>Upravljanje cenikov za projekte v ponudbi
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
@@ -34,16 +34,16 @@ Storitev Dynamics 365 Project Operations razširja entiteto cenika v storitvi Dy
 
 Cenik vsebuje informacije, ki jih določajo štiri različne entitete:
 
-- **Cenik** : ta entiteta shranjuje informacije o kontekstu, valuti, datumski veljavnosti in časovni enoti za čas določanja cen. Kontekst pokaže, ali cenik določa stroškovne ali prodajne zneske. 
-- **Valuta** : v tej entiteti je shranjena valuta cen, navedenih na ceniku. 
-- **Datum** : ta entiteta se uporablja, ko sistem poskuša vnesti privzeto ceno za transakcijo. Izbran je cenik, katerega datumska veljavnost vključuje datum transakcije. Če je najden več kot en cenik, ki je veljaven za datum transakcije in priložen povezani ponudbi, pogodbi ali organizacijski enoti, se cena privzeto ne določi. 
-- **Čas** : v tej entiteti je shranjena časovno enoto, za katero so izražene cene, na primer dnevne ali urne postavke. 
+- **Cenik**: ta entiteta shranjuje informacije o kontekstu, valuti, datumski veljavnosti in časovni enoti za čas določanja cen. Kontekst pokaže, ali cenik določa stroškovne ali prodajne zneske. 
+- **Valuta**: v tej entiteti je shranjena valuta cen, navedenih na ceniku. 
+- **Datum**: ta entiteta se uporablja, ko sistem poskuša vnesti privzeto ceno za transakcijo. Izbran je cenik, katerega datumska veljavnost vključuje datum transakcije. Če je najden več kot en cenik, ki je veljaven za datum transakcije in priložen povezani ponudbi, pogodbi ali organizacijski enoti, se cena privzeto ne določi. 
+- **Čas**: v tej entiteti je shranjena časovno enoto, za katero so izražene cene, na primer dnevne ali urne postavke. 
 
 Entiteta »Cenik« ima tri sorodne tabele, v katerih so shranjene cene:
 
-  - **Cena vloge** : v tej tabeli so shranjene vrednosti za kombinacijo vloge in organizacijske enote, uporablja pa se za nastavitev na podlagi vlog za človeške vire.
-  - **Cena kategorije transakcije** : v tej tabeli so shranjene cene glede na kategorijo transakcij, uporablja pa se za določanje cen kategorij stroškov.
-  - **Elementi cenika** : v tej tabeli so shranjene cene kataloških izdelkov.
+  - **Cena vloge**: v tej tabeli so shranjene vrednosti za kombinacijo vloge in organizacijske enote, uporablja pa se za nastavitev na podlagi vlog za človeške vire.
+  - **Cena kategorije transakcije**: v tej tabeli so shranjene cene glede na kategorijo transakcij, uporablja pa se za določanje cen kategorij stroškov.
+  - **Elementi cenika**: v tej tabeli so shranjene cene kataloških izdelkov.
  
 Cenik je kartica s cenami. Kartica s cenami je kombinacija entitete »Cenik« in povezanih vrstic v tabelah »Cena vloge«, »Cena kategorije transakcije« in »Elementi cenika«.
 
@@ -53,15 +53,15 @@ Izraz *vloga vira* se nanaša na nabor znanja, sposobnosti in potrdil, ki jih mo
 
 Čas človeških virov je v ponudbi naveden na podlagi vloge, ki jo vir izpolni pri določenem projektu. Za čas človeških virov izračun stroškov in zneskov za obračunavanje temelji na vlogi vira. Ceno za čas je mogoče določiti v kateri koli enoti v skupini enot **Čas**.
 
-Skupina enot **Čas** je ustvarjena, ko namestite storitev Project Operations. Privzeto ima nastavljeno enoto **Ura**. Atributov skupine enot **Čas** enote **Ura** ni mogoče izbrisati, preimenovati ali urejati. Vendar pa lahko v skupino enot **Čas** dodate druge enote. Če poskušate izbrisati skupino enot **Čas** ali **Ura** , lahko povzročite napake v poslovni logiki.
+Skupina enot **Čas** je ustvarjena, ko namestite storitev Project Operations. Privzeto ima nastavljeno enoto **Ura**. Atributov skupine enot **Čas** enote **Ura** ni mogoče izbrisati, preimenovati ali urejati. Vendar pa lahko v skupino enot **Čas** dodate druge enote. Če poskušate izbrisati skupino enot **Čas** ali **Ura**, lahko povzročite napake v poslovni logiki.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategorije transakcij in kategorije stroškov
 
 Potni in drugi stroški, ki nastanejo pri delu projektnih svetovalcev, so zaračunani stranki. Določanje cen kategorij stroškov se izvede z uporabo cenikov. Primeri kategorij stroškov so letalske karte, nočitve v hotelih in najem vozila. Vsaka vrstica cenika za stroške določa ceno za določeno kategorijo stroškov. Za določanje cen kategorij stroškov se uporabljajo naslednji trije načini:
 
-- **Nabavna cena** : cena stroška, ki se zaračuna stranki brez pribitka,
-- **Odstotek pribitka** : odstotek dejanske cene, ki se prišteje nabavni ceni in zaračuna stranki. 
-- **Cena na enoto** : cena za obračunavanje, ki je nastavljena za vsako enoto v kategoriji stroškov. Znesek, ki je zaračunan stranki, se izračuna na podlagi števila stroškovnih enot stroškov, ki ga vnese svetovalec. Za izračun kilometrine se uporablja metoda cene na enoto. Primer: kategorija stroška kilometrine je lahko nastavljena na 30 ameriških dolarjev (USD) na dan ali 2 USD na miljo. Ko svetovalec vnese kilometrino za projekt, se znesek za obračun izračuna na podlagi števila milj, ki jih svetovalec vnese.
+- **Nabavna cena**: cena stroška, ki se zaračuna stranki brez pribitka,
+- **Odstotek pribitka**: odstotek dejanske cene, ki se prišteje nabavni ceni in zaračuna stranki. 
+- **Cena na enoto**: cena za obračunavanje, ki je nastavljena za vsako enoto v kategoriji stroškov. Znesek, ki je zaračunan stranki, se izračuna na podlagi števila stroškovnih enot stroškov, ki ga vnese svetovalec. Za izračun kilometrine se uporablja metoda cene na enoto. Primer: kategorija stroška kilometrine je lahko nastavljena na 30 ameriških dolarjev (USD) na dan ali 2 USD na miljo. Ko svetovalec vnese kilometrino za projekt, se znesek za obračun izračuna na podlagi števila milj, ki jih svetovalec vnese.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Prodajne cene za projekt in preglasitve
 

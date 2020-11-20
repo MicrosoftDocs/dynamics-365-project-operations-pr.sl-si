@@ -1,21 +1,21 @@
 ---
-title: Nastavljanje deležev obračunavanja dela
+title: Nastavitev obračunske stopnje za delo – poenostavljeno
 description: Ta tema vsebuje informacije o nastavljanju deležev obračunavanja dela v aplikaciji Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084818"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181202"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Nastavljanje deležev obračunavanja za deleže obračunavanja dela 
+# <a name="set-up-labor-bill-rates---lite"></a>Nastavitev obračunske stopnje za delo – poenostavljeno
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -27,7 +27,7 @@ Vsak cenik ima nabor cen vlog ali stopenj dela, ki veljajo za kontekst in datum 
 
   Spodnja tabela vsebuje polja, ki so na zavihku **Splošno** in v podoknu **Hitro ustvarjanje** vrstice za ceno vloge, ki jo morate upoštevati pri ustvarjanju cen vloge v prodajnem ceniku:
 
-  | Polje | LOkacija | Ustreznost, namen in smernice | Nadaljnji vpliv |
+  | Polje | LOkacija | Opis | Nadaljnji vpliv |
   | --- | --- | --- | --- |
   | Vloga | Zavihek **Splošno** in podokno **Hitro ustvarjanje** | Izberite vlogo, za katero nastavljate delež obračunavanja. | Vloga v dohodni vrstici ocene ali dejanske vrednosti se bo ujemala s to vrstico, da nastavi privzeti delež obračunavanja vloge. |
   | Enota vira | Zavihek **Splošno** in podokno **Hitro ustvarjanje** | Izberite organizacijsko enoto ali oddelek podjetja, iz katere prihaja vloga. Na primer razvijalec iz oddelka robotike podjetja Fabrikam Indija ali razvijalec iz oddelka za programsko opremo podjetja Fabrikam ZDA. | Enota vira v dohodni vrstici ocene ali dejanske vrednosti se bo ujemala s to vrstico, da nastavi privzeti delež obračunavanja vloge. |
@@ -45,7 +45,7 @@ Na primer, urna postavka razvijalca iz podjetja Fabrikam India, ki dela pri amer
 
 ### <a name="example-set-up-a-bill-rate"></a>Primer: nastavitev deleža obračunavanja
 
-1. Ustvarite prodajni cenik, ki se imenuje *Delež obračunavanja za podjetje Fabrikam ZDA* , in nastavite datumsko veljavnost.
+1. Ustvarite prodajni cenik, ki se imenuje *Delež obračunavanja za podjetje Fabrikam ZDA*, in nastavite datumsko veljavnost.
 2. V prodajni cenik vnesite naslednje podatke o stopnjah:
 
     | Vloga | Organizacijska enota | Delež obračunavanja |

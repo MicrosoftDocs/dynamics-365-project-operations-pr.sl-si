@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084660"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180392"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Ocenjevanje vrstice ponudbe, ki temelji na projektih
 
@@ -30,9 +30,9 @@ Za oceno vrstice ponudbe, ki temelji na projektu, v vrstici izberite zavihek **P
 
 Če želite ustvariti oceno na vrstici ponudbe, ki temelji na projektu, izberite zavihek **Podrobnosti vrstice ponudbe**. V elementu vrstice, ki ga ustvarite na tem zavihku, bo povzeta ponudbena vrednost te vrstice ponudbe. 
 
-Če želite ustvariti podrobnosti vrstice ponudbe, izberite možnost **+ Nova podrobnost vrstice ponudbe** na podmreži **Podrobnosti vrstice ponudbe**. Odpre se drsnik za hitro ustvarjanje. Oblikujejo se naslednja polja na obrazcu **Vrstica ponudbe** :
+Za ustvarjanje podrobnosti vrstice pogodbe izberite **+ Nove podrobnosti vrstice ponudbe** v podmreži **Podrobnosti vrstice ponudbe**. Odpre se drsnik za hitro ustvarjanje. Oblikujejo se naslednja polja na obrazcu **Vrstica ponudbe**:
 
-| **Polje** | **Mesto** | **Ustreznost, namen in smernice** | **Nadaljnji vpliv** |
+| **Polje** | **Mesto** | **Opis** | **Nadaljnji vpliv** |
 | --- | --- | --- | --- |
 | Opis | Hitro ustvari | Opis posamezne ocene | S tem poljem so privzeto povezane samodejno ustvarjene podrobnosti vrstice ponudbe za stroške. |
 | Razred transakcije | Hitro ustvari | Ta spustni seznam vsebuje razrede transakcij, ki so za vrstico ponudbe, ki temelji na projektu, vključeni na zavihku **Splošno**.  | S tem poljem so privzeto povezane samodejno ustvarjene podrobnosti vrstice ponudbe za stroške. |
@@ -50,11 +50,11 @@ Za oceno vrstice ponudbe, ki temelji na projektu, v vrstici izberite zavihek **P
 
 ## <a name="update-prices-on-quote-line-details"></a>Posodobitev cen v podrobnostih vrstice ponudbe
 
-Če ste spremenili cene na ceniku projekta, ki je priložen ponudbi, ali na ceniku naročnika, lahko na strani **Ponudba** izberete možnost **Izračunaj znova** , da osvežite cene na podrobnostih posamezne vrstice ponudbe za odražanje vnesenih sprememb. Če izberete **Izračunaj znova** , se prikaže opozorilo, ki vas obvesti, da bodo ponastavljene cene na podrobnostih vrstice ponudbe za vse vrstice. Izberite možnost **Da** , da osvežite cene za prodajo in podrobnosti cen v vrstici ponudbe.
+Če ste spremenili cene na ceniku projekta, ki je priložen ponudbi, ali na ceniku naročnika, lahko na strani **Ponudba** izberete možnost **Izračunaj znova**, da osvežite cene na podrobnostih posamezne vrstice ponudbe za odražanje vnesenih sprememb. Če izberete **Izračunaj znova**, se prikaže opozorilo, ki vas obvesti, da bodo ponastavljene cene na podrobnostih vrstice ponudbe za vse vrstice. Izberite možnost **Da**, da osvežite cene za prodajo in podrobnosti cen v vrstici ponudbe.
 
 ## <a name="access-quote-line-details-for-cost"></a>Dostop do podrobnosti vrstice ponudbe za cene
 
-Na zavihku **Podrobnosti vrstice ponudbe** izberite vrstico v mreži, da omogočite nekatera dejanja v orodni vrstici podmreže. Ko je izbrana podrobnost vrstice pogodbe, je prvo dejanje v orodni vrstici podmreže **Odpri podrobnosti cene**. Izberite možnost **Odpri podrobnosti cene** če si želite ogledati pripadajočo stopnjo stroškov in znesek za to vrstico ponudbe.
+Na zavihku **Podrobnosti vrstice ponudbe** izberite vrstico v mreži za omogočanje dejanj na orodni vrstici podmreže. Prvo dejanje v orodni vrstici podmreže, ko so izbrane podrobnosti vrstice ponudbe, je **Odpri podrobnosti cene**. Izberite možnost **Odpri podrobnosti cene** če si želite ogledati pripadajočo stopnjo stroškov in znesek za to vrstico ponudbe.
 
 > [!NOTE]
 > Sprememba vrednosti virov enote, količine, datumov, vloge ali kategorije v podrobnostih vrstice ponudbe za stroške spremeni pripadajoče vrednosti podrobnosti v vrstici ponudbe za prodajo.

@@ -3,7 +3,7 @@ title: Upravljanje virov
 description: Ta tema vsebuje informacije o upravljanju virov.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084957"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132353"
 ---
 # <a name="manage-resources"></a>Upravljanje virov
 
@@ -56,7 +56,7 @@ V PSA lahko v projektni ekipi rezervirate splošni vir in določite vlogo, zahte
 
 Če želite določiti zahtevana znanja v splošnem viru za razvijalca, sledite spodnjim korakom.
 
-1. Na strani **Projekti** na zavihku **Ekipa** izberite **Novo** , da rezervirate splošni vir.
+1. Na strani **Projekti** na zavihku **Ekipa** izberite **Novo**, da rezervirate splošni vir.
 
     ![Splošni vir je rezerviran v ekipi](media/Resource-Management-image9.png)
 
@@ -64,15 +64,15 @@ V PSA lahko v projektni ekipi rezervirate splošni vir in določite vlogo, zahte
 
     ![Povezava do zahteve](media/Resource-Management-image10.png)
 
-3. Na strani **Zahtevani pogoj za vir** , ki se prikaže, v mreži **Znanja** izberite tri pike ( **...** ) in nato **Dodaj novo lastnost zahteve** , da dodate zahtevana znanja za razvijalca.
+3. Na strani **Zahtevani pogoj za vir**, ki se prikaže, v mreži **Znanja** izberite tri pike (**...**) in nato **Dodaj novo lastnost zahteve**, da dodate zahtevana znanja za razvijalca.
 
     ![Ukaz »Dodaj novo lastnost zahteve«](media/Resource-Management-image11.png)
 
-4. V pogovornem oknu **Hitro ustvarjanje: lastnosti zahteve** , ki se prikaže, v polju **Lastnost** izberite zahtevano znanje. Nato v polju **Vrednost ocene** izberite stopnjo usposobljenosti za to znanje. Na koncu v polju **Zahtevani pogoj za vir** nastavite zahtevane pogoje za izvorne vire iz organizacijskih enot ali celo poimenovanih virov. Ko končate, izberite **Shrani**.
+4. V pogovornem oknu **Hitro ustvarjanje: lastnosti zahteve**, ki se prikaže, v polju **Lastnost** izberite zahtevano znanje. Nato v polju **Vrednost ocene** izberite stopnjo usposobljenosti za to znanje. Na koncu v polju **Zahtevani pogoj za vir** nastavite zahtevane pogoje za izvorne vire iz organizacijskih enot ali celo poimenovanih virov. Ko končate, izberite **Shrani**.
 
     ![Pogovorno okno »Hitro ustvarjanje: značilnost zahteve«](media/Resource-Management-image12.png)
 
-5. Na strani **Zahtevani pogoj za vir** izberite **Rezerviraj** , da izpolnite zahtevani pogoj za vir.
+5. Na strani **Zahtevani pogoj za vir** izberite **Rezerviraj**, da izpolnite zahtevani pogoj za vir.
 
     ![Gumb »Rezerviraj« na strani »Zahtevani pogoj za vir«](media/Resource-Management-image13.png)
 
@@ -93,7 +93,7 @@ V PSA lahko v projektni ekipi rezervirate splošni vir in določite vlogo, zahte
     - **Vloge** – filtrirajte po privzetih vlogah, ki so dodeljene virom, ki jih je mogoče rezervirati.
     - **Organizacijske enote** – filtrirajte vire, ki jih je mogoče rezervirati, po organizacijskih enotah, ki so jim dodeljeni.
 
-6. Če niste zadovoljni z rezultati prvotnega iskanja zahteve, lahko spremenite kriterije filtra. Razširite podokno **Pogled filtra** na levi in nato izberite **Iskanje** , da poiščete dodatne vire.
+6. Če niste zadovoljni z rezultati prvotnega iskanja zahteve, lahko spremenite kriterije filtra. Razširite podokno **Pogled filtra** na levi in nato izberite **Iskanje**, da poiščete dodatne vire.
 
     ![Podokno »Pogled filtra«](media/Resource-Management-image16.png)
 
@@ -103,11 +103,11 @@ V PSA lahko v projektni ekipi rezervirate splošni vir in določite vlogo, zahte
 
 8. Izberite vire glede na zahtevo, ki je določena v pogoju, kot je navedeno na vrhu mreže. Počistite lahko izbor celic v mreži in zmogljivost vira pustite odprto. Samo en vir je lahko naenkrat izbran kot rezerviran.
 
-9. Izberite **Rezerviraj** , da rezervirate izbrani vir in pustite ploščo razporeda odprto, tako da lahko izberete dodatne vire. Lahko pa izberete tudi **Rezerviraj in zapri** , da rezervirate izbrani vir in zaprete ploščo razporeda.
+9. Izberite **Rezerviraj**, da rezervirate izbrani vir in pustite ploščo razporeda odprto, tako da lahko izberete dodatne vire. Lahko pa izberete tudi **Rezerviraj in zapri**, da rezervirate izbrani vir in zaprete ploščo razporeda.
 
     ![Vir za rezervacijo](media/Resource-Management-image19.png)
 
-    Prejmete obvestilo o rezerviranih urah. Kazalniki povpraševanja prikazujejo, v kolikšni meri je izpolnjena zahteva rezervacije in kakšen je preostanek. Vidite lahko tudi, koliko zmogljivosti izbranega vira je porabljene. Izberite **Razširi** , da prikažete več podrobnosti o rezervacijah virov.
+    Prejmete obvestilo o rezerviranih urah. Kazalniki povpraševanja prikazujejo, v kolikšni meri je izpolnjena zahteva rezervacije in kakšen je preostanek. Vidite lahko tudi, koliko zmogljivosti izbranega vira je porabljene. Izberite **Razširi**, da prikažete več podrobnosti o rezervacijah virov.
 
 9. Vrnite se v pogled **Vsi člani ekipe**. V mreži lahko vidite, da je bil splošni vir zamenjan s poimenovanim virom in da je 40 ur navedenih kot rezerviranih za ta vir.
 
@@ -120,7 +120,7 @@ V PSA lahko v projektni ekipi rezervirate splošni vir in določite vlogo, zahte
 
 V PSA lahko ustvarite opravila in jim nato dodelite splošne vire. Na ta način lahko povpraševanje po virih predstavljajo označbe mesta, medtem ko ocenjujete urnik in finančne številke. Nato lahko ustvarite pogoje za vir za splošne vire in jih izpolnite.
 
-1. Na strani **Projekti** na zavihku **Načrtovanje** izberite **Dodaj** , da ustvarite opravilo.
+1. Na strani **Projekti** na zavihku **Načrtovanje** izberite **Dodaj**, da ustvarite opravilo.
 
     ![Ustvarjeno je novo opravilo](media/Resource-Management-image21.png)
 
@@ -132,7 +132,7 @@ V PSA lahko ustvarite opravila in jim nato dodelite splošne vire. Na ta način 
 
     ![Vneseno je ime novega splošnega vira](media/Resource-Management-image23.png)
 
-4. V pogovornem oknu **Hitro ustvarjanje: član projektne ekipe** , ki se prikaže, v polju **Vloga** izberite vlogo za splošni vir. V polju **Enota vira** izberite organizacijsko enoto za splošni vir. Nato izberite **Shrani**.
+4. V pogovornem oknu **Hitro ustvarjanje: član projektne ekipe**, ki se prikaže, v polju **Vloga** izberite vlogo za splošni vir. V polju **Enota vira** izberite organizacijsko enoto za splošni vir. Nato izberite **Shrani**.
 
     ![Pogovorno okno »Hitro ustvarjanje: član projektne ekipe«](media/Resource-Management-image24.png)
 
@@ -191,14 +191,14 @@ V PSA lahko ustvarite opravila in jim nato dodelite splošne vire. Na ta način 
 
 PSA ne dodeli obeh virov opravilu, saj bi bil zaradi tega urnik manj predvidljiv. V tem enostavnem primeru je enostavno razdeliti ure enakomerno med dvema viroma. Vendar pa bi morala PSA v bolj zapletenih scenarijih, ki vključujejo več opravil in več virov, predpostaviti, kako naj dodeli rezervacije, prejete za več virov v več opravilih.
 
-Zato je v teh scenarijih vodja projekta odgovoren za razčlenjevanje več rezervacij in njihovo dodeljevanje, če je to potrebno. Za dodeljevanje rezervacij vodja projekta dodeli opravila iz splošnih virov v poimenovane vire in nato uporabi pogled **Uskladitev** , da zagotovi, da dodelitev deluje z rezervacijami.
+Zato je v teh scenarijih vodja projekta odgovoren za razčlenjevanje več rezervacij in njihovo dodeljevanje, če je to potrebno. Za dodeljevanje rezervacij vodja projekta dodeli opravila iz splošnih virov v poimenovane vire in nato uporabi pogled **Uskladitev**, da zagotovi, da dodelitev deluje z rezervacijami.
 
 ### <a name="edit-a-resource-requirement"></a>Urejanje pogoja za vir
 
 Ko je pogoj za vir ustvarjen, lahko vodja projekta ali upravitelj virov uredi podrobnosti, da natančneje določi merila iskanja, ko uporablja ploščo razporeda. Če želite urediti pogoj za vir, sledite spodnjim korakom.
 
 1. Na strani **Projekti** na zavihku **Ekipa** izberite povezavo do katerekoli zahteve v splošnem viru.
-2. Na strani **Pogoj za vir** , ki se prikaže, lahko posodobite več atributov. Tukaj je nekaj primerov:
+2. Na strani **Pogoj za vir**, ki se prikaže, lahko posodobite več atributov. Tukaj je nekaj primerov:
 
     - Ime
     - Od datuma
@@ -223,7 +223,7 @@ Ko v projektno ekipo dodate splošni ali poimenovani vir, lahko spremenite rezer
 
     Prikaže se plošča razporeda, na kateri so prikazane rezervacije člana projektne ekipe. Razširite zapis člana ekipe in si oglejte ure, ki so bile rezervirane za ta projekt in druge projekte, ki porabljajo zmogljivost člana ekipe.
 
-2. Izberite in povlecite rezervacijo, da jo razširite ali skrajšate. Prikaže se pogovorno okno **Ustvarjanje rezervacije vira** , ki vam omogoča prilagoditev rezervacije.
+2. Izberite in povlecite rezervacijo, da jo razširite ali skrajšate. Prikaže se pogovorno okno **Ustvarjanje rezervacije vira**, ki vam omogoča prilagoditev rezervacije.
 
     ![Pogovorno okno »Ustvarjanje rezervacije vira«](media/Resource-Management-image41.png)
 
@@ -277,7 +277,7 @@ Namesto neposredne rezervacije vira v zahtevi za vir lahko upravitelj virov pred
 
 ![Zavihek »Predlagani viri«](media/Resource-Management-image49.png)
 
-Izberite **Sprejmi vse predloge** , da sprejmete vse predlagane vire, ali **Zavrni vse predloge** , da jih zavrnete. Če sprejmete predlagane vire, so v projektu veljavno rezervirani kot člani ekipe in zamenjajo splošne vire.
+Izberite **Sprejmi vse predloge**, da sprejmete vse predlagane vire, ali **Zavrni vse predloge**, da jih zavrnete. Če sprejmete predlagane vire, so v projektu veljavno rezervirani kot člani ekipe in zamenjajo splošne vire.
 
 > [!NOTE]
 > Sprejeti ali zavrniti morate vse predlagane vire. Ne morete jih delno sprejeti ali zavrniti.
@@ -318,7 +318,7 @@ Včasih mora vodja projekta zamenjati rezerviranega člana ekipe v projektu.
 
 Pri članih ekipe so rezervacije in dodelitve ohlapno povezane. Z drugimi besedami, viri imajo lahko dodelitve brez rezervacij ali pa rezervacije brez dodelitev. V idealnem primeru so rezervacije in dodelitve usklajene, tako da imajo viri določeno zmogljivost za izvajanje dodelitev opravila. Vendar pa lahko rezervacije temeljijo na razpoložljivosti, časi opravil pa se lahko spremenijo, ko se projekt nadaljuje. Zato ohlapno povezovanje rezervacij in dodelitev zagotavlja prilagodljivost.
 
-PSA ima zavihek **Uskladitev** , ki omogoča vodjam projektov, da uskladijo rezervacije članov ekipe in njihove dodelitve za projektne ekipe.
+PSA ima zavihek **Uskladitev**, ki omogoča vodjam projektov, da uskladijo rezervacije članov ekipe in njihove dodelitve za projektne ekipe.
 
 ![Zavihek »Uskladitev«](media/Resource-Management-image56.png)
 
@@ -337,7 +337,7 @@ Ko prikažete čas na višjih ravneh, imajo celice na zavihku **Usklajevanje** k
 
 ![Kazalnik razlike](media/Resource-Management-image57.png)
 
-Če imate dodelitve opravil za vir, a nimate rezervacij, na strani **Projekti** na zavihku **Usklajevanje** izberite primanjkljaj rezervacij in nato **Podaljšaj rezervacijo**. Prikaže se pogovorno **Podaljšaj rezervacijo** in prikaže rezervacijo, ki je potrebna za odpravo primanjkljaja vira. Prikazuje tudi obstoječe rezervacije vira za vse projekte ali druge entitete, ki jih je mogoče razporediti. Če izberete **V redu** , da ustvarite rezervacijo za vir, lahko ne glede na razpoložljivost tega vira ustvarite prekomerno rezervacijo.
+Če imate dodelitve opravil za vir, a nimate rezervacij, na strani **Projekti** na zavihku **Usklajevanje** izberite primanjkljaj rezervacij in nato **Podaljšaj rezervacijo**. Prikaže se pogovorno **Podaljšaj rezervacijo** in prikaže rezervacijo, ki je potrebna za odpravo primanjkljaja vira. Prikazuje tudi obstoječe rezervacije vira za vse projekte ali druge entitete, ki jih je mogoče razporediti. Če izberete **V redu**, da ustvarite rezervacijo za vir, lahko ne glede na razpoložljivost tega vira ustvarite prekomerno rezervacijo.
 
 ![Pogovorno okno »Podaljšaj rezervacijo«](media/Resource-Management-image58.png)
 

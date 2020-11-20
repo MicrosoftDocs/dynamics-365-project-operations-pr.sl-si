@@ -3,7 +3,7 @@ title: Ustvarjanje projektne ponudbe
 description: Navodila za ustvarjanje ponudbe za projekt v rešitvi Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084864"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133163"
 ---
 # <a name="create-a-project-quote-project-service"></a>Ustvarjanje ponudbe za projekt (rešitev Project Service)
 
@@ -33,11 +33,11 @@ Ustvarjanje ponudbe je podobno ustvarjanju priložnosti. Priložnost je interne 
   
 1. Če želite ustvariti ponudbo iz priložnosti, odprite **Project Service > Priložnosti** in nato kliknite priložnost, za katero želite ustvariti ponudbo.  
   
-2. Na desni strani vrstice procesa kliknite **Naslednja stopnja** in nato izberite obstoječo ponudbo ali kliknite **Ustvari** , da ustvarite novo ponudbo.  
+2. Na desni strani vrstice procesa kliknite **Naslednja stopnja** in nato izberite obstoječo ponudbo ali kliknite **Ustvari**, da ustvarite novo ponudbo.  
   
 3. V območju **Povzetek** po potrebi spremenite podatke.  
   
-4. Kliknite **Shrani** , da ustvarite ponudbo, ki jo nato lahko urejate.  
+4. Kliknite **Shrani**, da ustvarite ponudbo, ki jo nato lahko urejate.  
   
 5. Če želite v ponudbo dodati izdelek, v območju **Podrobnosti ponudbe** v možnosti **Podrobnosti o izdelkih** kliknite **Novo**. V možnosti **Ime izdelka** izberite element, nato določite količino, prodajno ceno in znesek za ponudbo.  
   
@@ -45,7 +45,7 @@ Ustvarjanje ponudbe je podobno ustvarjanju priložnosti. Priložnost je interne 
   
 7. Ko končate urejanje, v spodnjem desnem kotu zaslona kliknite gumb **Shrani**.  
   
-8. Ko ste pripravljeni, da ponudbo pošljete stranki, kliknite **Več** (…), kliknite **Zaženi poročilo** , nato pa **Ponudba**. Poročilo shranite kot dokument programa [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)], po potrebi ga uredite in nato ponudbo pošljite stranki.  
+8. Ko ste pripravljeni, da ponudbo pošljete stranki, kliknite **Več** (…), kliknite **Zaženi poročilo**, nato pa **Ponudba**. Poročilo shranite kot dokument programa [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)], po potrebi ga uredite in nato ponudbo pošljite stranki.  
   
 9. Če stranka sprejme ponudbo, kliknite **Zapri kot pridobljeno** na vrhu zaslona **Ponudba**. Če stranka želi, da spremenite nekaj elementov, ponovite celoten postopek, da ustvarite novo ponudbo. Če se stranka odloči, da ne bo uporabljala vaših storitev, v zgornjem delu zaslona **Ponudba** kliknite **Zapri kot izgubljeno**.  
   

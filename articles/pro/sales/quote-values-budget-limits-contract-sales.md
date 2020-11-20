@@ -1,21 +1,21 @@
 ---
-title: Povzetek informacij o projektni ponudbi (Sales)
+title: Povzetek informacij o projektni ponudbi – poenostavljeno
 description: Ta tema vsebuje informacije glede podatkov in nastavitev, ki veljajo za projektne ponudbe in vplivajo nanje. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084687"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180977"
 ---
-# <a name="summary-information-on-a-project-quote-sales"></a>Povzetek informacij o projektni ponudbi (Sales)
+# <a name="summary-information-on-a-project-quote---lite"></a>Povzetek informacij o projektni ponudbi – poenostavljeno
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -23,7 +23,7 @@ V tem članku so pojasnjene informacije, ki veljajo za projektno ponudbo. To vkl
 
 V spodnji tabeli so navedena polja s povzetkom podatkov o projektni ponudbi, ki so na voljo le v storitvi Dynamics 365 Project Operations ali pa imajo nekatere pomembne spremembe v delovanju, po katerih se ločijo od ponudb v storitvi Dynamics 365 Sales.
 
-| **Polje** | **Mesto** | **Ustreznost, namen in smernice** | **Nadaljnji vpliv** |
+| **Polje** | **Mesto** | **Opis** | **Nadaljnji vpliv** |
 | --- | --- | --- | --- |
 | Vnesi | Zavihek »Povzetek« (skrito) | To polje z naborom možnosti ima naslednje možnosti:</br>- temelji na delu (na voljo samo, če je nameščena storitev Project Operations)</br>- temelji na elementu (na voljo samo, če sta nameščeni storitvi Project Operations in Sales)</br>- temelji na vzdrževanju storitev (na voljo, ko je nameščena storitev Dynamics 365 Field Service) | Ko uporabljate aplikacijo Project Operations, je vrednost tega polja samodejno nastavljena na **Temelji na delu**. To razvrsti ponudbo med projektne ponudbe. Ponudba mora temeljiti na projektu, da lahko omogoča vse razširitve in funkcije, specifične za projekt. |
 | Možna stranka | Zavihek »Povzetek« | Sklic na zapis strankinega podjetja ali kupca. V ponudbi, ustvarjeni iz priložnosti, se ta vrednost kopira iz ustreznega polja pri priložnosti. | Valuta na projektni ponudbi je privzeto nastavljena glede na valuto stranke. Vendar pa tega ni mogoče spremeniti, preden shranite ponudbo. |
@@ -36,7 +36,7 @@ V spodnji tabeli so navedena polja s povzetkom podatkov o projektni ponudbi, ki 
 
 Spodaj so zavihki in KPI-ji, ki so na voljo v projektni ponudbi, ki so na voljo le v storitvi Project Operations ali pa imajo nekatere pomembne spremembe v delovanju, po katerih se ločijo od ponudb v storitvi Sales:
 
-| **Polje** | **Mesto** | **Ustreznost, namen in smernice** |
+| **Polje** | **Mesto** | **Opis** |
 | --- | --- | --- |
 | Analiza dobičkonosnosti | Zavihek na ponudbi | Zavihek prikazuje naslednje metrike:</br>- skupno vrednost stroškov, ki se zaračunajo</br></br>- skupno vrednost stroškov, ki se ne zaračunajo</br>- skupni prihodek</br>- skupni prihodek (osnova)</br>- stopnjo bruto dobička</br>- prilagojeno stopnjo bruto dobička|
 | Primerjava s pričakovanji stranke | Zavihek na ponudbi | Ta zavihek prikazuje naslednje metrike:</br>- predviden datum zaključka</br>- zahtevani zaključek</br>- proračun stranke</br>- ponudbena vrednost |

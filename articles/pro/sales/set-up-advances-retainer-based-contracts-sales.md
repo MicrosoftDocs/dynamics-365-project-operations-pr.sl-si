@@ -1,21 +1,21 @@
 ---
-title: Pogodbe za predplačila in honorarje
+title: Pogodbe za predplačila in honorarje – poenostavljeno
 description: Ta tema vsebuje informacije o pogodbenih modelih za predplačila in honorarje v aplikaciji Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088105"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180887"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Pogodbe za predplačila in honorarje 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Pogodbe za predplačila in honorarje – poenostavljeno
 
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
@@ -33,7 +33,7 @@ Poleg periodičnega urnika za honorar lahko aplikacija Project Operations od str
 
 honorar v aplikaciji Project Operations ni na voljo za uporabo, dokler ni izdan stranki. To označujejo naslednja polja na podmreži za predplačila in honorarje.
 
-| Polje | Ustreznost, namen in smernice | Nadaljnji vpliv |
+| Polje | Opis | Nadaljnji vpliv |
 | --- | --- | --- |
 | Razpoložljiv znesek | Znesek, ki je na voljo za uporabo v zapisu o honorarju ali predplačilu. | Dokler predplačilo ali honorar ni izdan, ga ni mogoče uporabiti, kar pomeni, da je razpoložljivi znesek enak nič. |
 | Uporabljen znesek | Znesek, ki je že uporabljen v honorarju ali predplačilu. | Predplačilo ali honorar je mogoče na računu delno uskladiti z dejanskimi stroški, ki bodo imeli določen del označen kot »že porabljen« ali »porabljen«. Preostali znesek predplačila ali honorarja je na voljo za usklajevanje na prihodnjem računu z dejanskimi stroški. |

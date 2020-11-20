@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084795"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181517"
 ---
 # <a name="copy-price-lists"></a>Kopiranje cenikov
 
@@ -26,10 +26,10 @@ V aplikaciji Dynamics 365 Project Operations lahko ustvarite kopije cenikov. Ust
 1. Odprite cenik, ki ga želite kopirati, in izberite možnost **Kopiraj**.
 2. Vnesite vse potrebne podatke za kopiranje cenika. Naslednja tabela prikazuje, kaj je treba upoštevati pri vnosu podatkov.
 
-| Polje | Ustreznost, namen in smernice | Nadaljnji vpliv |
+| Polje | Opis | Nadaljnji vpliv |
 | --- | --- | --- |
 | Imenu | Ime izvornega cenika s pripeto oznako **-kopija**. | Cenik je s to vrednostjo prikazan na vseh straneh s seznami in v spustnih seznamih. |
-| Kontekst | Vnesite želeni kontekst za ciljni cenik. | Cenik, nastavljen na kontekst **Strošek** , se uporablja za iskanje cen za ocene stroškov in dejanske vrednosti stroškov. Cenik, nastavljen na kontekst **Prodaja** , se uporablja za iskanje cen za ocene prodaje in dejanske vrednosti prodaje. Samo cenike, katerih kontekst je nastavljen na možnost **Prodaja** , je mogoče priložiti cenikom projektov za stranke, ponudbe in pogodbe. |
+| Kontekst | Vnesite želeni kontekst za ciljni cenik. | Cenik, nastavljen na kontekst **Strošek**, se uporablja za iskanje cen za ocene stroškov in dejanske vrednosti stroškov. Cenik, nastavljen na kontekst **Prodaja**, se uporablja za iskanje cen za ocene prodaje in dejanske vrednosti prodaje. Samo cenike, katerih kontekst je nastavljen na možnost **Prodaja**, je mogoče priložiti cenikom projektov za stranke, ponudbe in pogodbe. |
 | Datum začetka | Datum začetka obdobja, za katerega velja cenik | V polju **Končni datum** in tem polju je določeno, kateri cenik se uporablja za posamezno vrstico za oceno ali dejansko vrednost. |
 | Končni datum | Datum konca obdobja, za katerega velja cenik. | V polju **Začetni datum** in tem polju je določeno, kateri cenik se uporablja za posamezno vrstico za oceno ali dejansko vrednost. |
 | Valuta | Valuta izvornega cenika Mogoče jo je spremeniti. | Če je valuta spremenjena, se med kopiranjem vse cenovne vrstice za delo, stroške in elementi kataloga izdelkov pretvorijo v valuto ciljnega cenika. |
@@ -40,6 +40,6 @@ V aplikaciji Dynamics 365 Project Operations lahko ustvarite kopije cenikov. Ust
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Posodabljanje cenika z uporabo pribitka za vse cene
 
-1. Na zavihkih cenika **Vloga** , **Kategorija** in **Element cenika** lahko izberete možnost **Posodobi cene** , da uveljavite pribitek za vse cene v podmreži. 
+1. Na zavihkih **Vloga**, **Kategorija** in **Element cenika** cenika lahko izberete **Posodobi cene**, da uveljavite pribitek za vse cene v podmreži. 
 2. V pogovornem oknu, ki se odpre, vnesite pribitek. Vnesete lahko tudi negativni odstotek pribitka, da za določen odstotek znižate cene. 
-3. V pogovornem oknu izberite možnost **V redu** in nato preverite, ali cene v podmreži odražajo vaše spremembe.
+3. Izberite **V redu** v pogovornem oknu in nato potrdite, da cene v podmreži odražajo spremembe, ki ste jih izvedli.

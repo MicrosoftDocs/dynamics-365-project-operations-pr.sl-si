@@ -1,21 +1,21 @@
 ---
-title: Podrobnosti ponudb, ki temeljijo na projektih
+title: Pregled podrobnosti ponudb, ki temeljijo na projektih
 description: Ta tema vsebuje informacije o uporabi podrobnosti ponudb, ki temeljijo na projektih, za projektno delo.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084623"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181877"
 ---
-# <a name="project-based-quote-lines"></a>Podrobnosti ponudb, ki temeljijo na projektih
+# <a name="project-based-quote-lines-overview"></a>Pregled podrobnosti ponudb, ki temeljijo na projektih
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
@@ -31,7 +31,7 @@ Podrobnosti ponudb, ki temeljijo na projektu, so oblikovane tako, da pripomorejo
 
 Naslednja tabela vsebuje informacije o poljih na zavihku **Splošno** pri podrobnosti ponudbe, ki temelji na projektu. Ta polja pomagajo nastaviti osnovo za podrobno, temeljito oceno projektnega dela.
 
-| **Polje** | **Ustreznost, namen in smernice** | **Nadaljnji vpliv** |
+| **Polje** | **Opis** | **Nadaljnji vpliv** |
 | --- | --- | --- |
 | Imenu | Ime podrobnosti ponudbe, ki bi vam pomagala prepoznati ločeno komponento ponudbe, ki jo ocenjujete. | Kopirano v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
 | Način obračunavanja | V ponudbi, ustvarjeni iz priložnosti, se ta vrednost kopira iz ustreznega polja v vrstici priložnosti. To polje vključuje dva glavna pogodbena modela, ki ju podpira Dynamics 365 Project Operations:</br>- fiksna cena</br>- čas in material| Ta vrednost polja je kopirana v podrobnost projektne pogodbe, ki je ustvarjena iz te podrobnosti ponudbe, ko je ponudba pridobljena. |
@@ -47,11 +47,11 @@ Naslednja tabela vsebuje informacije o poljih na zavihku **Splošno** pri podrob
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Pravila za preverjanje veljavnosti polj na zavihku Splošno v podrobnostih ponudb, ki temeljijo na projektih
 
-**1. pravilo** : določen razred transakcije v izbranem projektu je mogoče vključiti samo v eno podrobnost ponudbe, ki temelji na projektih.
+**1. pravilo**: določen razred transakcije v izbranem projektu je mogoče vključiti samo v eno podrobnost ponudbe, ki temelji na projektih.
 
 **2. pravilo** : če ima priložnost več ponudb, so lahko podrobnosti ponudbe za različne ponudbe, ki se vse sklicujejo na isti projekt in vključujejo isti razred transakcije.
 
-**3. pravilo** : če ponudbe ne pripadajo isti priložnosti, ne morejo vključevati istega projekta in razreda transakcije.
+**3. pravilo**: če ponudbe ne pripadajo isti priložnosti, ne morejo vključevati istega projekta in razreda transakcije.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

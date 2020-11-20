@@ -3,7 +3,7 @@ title: Razporedite prosti čas
 description: Kako razporediti prosti čas v rešitvi Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eed6103734773e90701853391584c55c1d1704e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084981"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132218"
 ---
 # <a name="schedule-time-off-project-service"></a>Razporejanje prostega časa (Project Service)
 
@@ -35,7 +35,7 @@ Načrtovanje dopusta ali dovoljene odsotnosti je podobno vnašanju urnika za pro
   
 1.  Pojdite na **Project Service > Vnosi ur**. S tem se prikaže koledar.  
   
-2.  Če si želite ogledati koledar za prejšnji ali naslednji teden, kliknite **Nazaj** ali **Naprej**. Kliknite **Danes** , da se vrnete na trenutni teden.  
+2.  Če si želite ogledati koledar za prejšnji ali naslednji teden, kliknite **Nazaj** ali **Naprej**. Kliknite **Danes**, da se vrnete na trenutni teden.  
   
 3.  Če želite vnesti ure, kliknite **Novo** ali v koledarju dvokliknite dan, za katerega želite vnesti ure.  
   

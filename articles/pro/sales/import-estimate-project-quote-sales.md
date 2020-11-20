@@ -1,21 +1,21 @@
 ---
-title: Uvoz ocen za projekt v podrobnostih ponudbe, ki temelji na projektih
+title: Uvoz ocen za projekt v podrobnostih ponudbe, ki temelji na projektih – poenostavljena različica
 description: Ta tema vsebuje informacije o tem, kako uvoziti ocene projekta v vrstici ponudbe.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084658"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177756"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Uvoz ocen za projekt v podrobnostih ponudbe, ki temelji na projektih
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Uvoz ocen za projekt v podrobnostih ponudbe, ki temelji na projektih – poenostavljena različica
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -30,7 +30,7 @@ _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
   - **Vloga** 
   - **Projektno opravilo**
 
-Na podlagi vaše izbire je prekopirana ocena iz projekta za vse razrede transakcij, ki so vključeni v tej vrstici ponudbe. Če želite preveriti, kateri razredi transakcij so vključeni, izberite zavihek **Splošno** v vrstici ponudbe, ki temelji na projektu, in preverite vrednosti za polja **Vključi čas** , **Vključi stroške** in **Vključi dajatve**.  Če želite preveriti, katera opravila so vključena, izberite zavihek **Plačljiva opravila** na vrstici ponudbe.
+Na podlagi vaše izbire je prekopirana ocena iz projekta za vse razrede transakcij, ki so vključeni v tej vrstici ponudbe. Če želite preveriti, kateri razredi transakcij so vključeni, izberite zavihek **Splošno** v vrstici ponudbe, ki temelji na projektu, in preverite vrednosti za polja **Vključi čas**, **Vključi stroške** in **Vključi dajatve**.  Če želite preveriti, katera opravila so vključena, izberite zavihek **Plačljiva opravila** na vrstici ponudbe.
 
 Glede na razreda Povezane naloge in Vključene transakcije se ocene za te kombinacije opravil in razredov transakcij uvozijo v vrstico ponudbe.
 
