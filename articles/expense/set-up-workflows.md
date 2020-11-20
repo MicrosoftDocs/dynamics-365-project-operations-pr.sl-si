@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084783"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127718"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Nastavitev potekov dela za upravljanje stroškov
 
@@ -30,16 +30,16 @@ Nastavite lahko proces poteka dela za pregled in odobritev dokumentov glede poti
 
 Potek dela predstavlja poslovni proces in določa, kako dokument teče skozi sistem. Potek dela tudi označuje, kdo mora dokončati opravilo ali odobriti dokument. Uporaba sistema poteka dela v vaši organizaciji ima več prednosti:
 
-- **Dosledni procesi** : določite lahko postopek odobritve za določene dokumente, na primer zahteve za nakup in poročila o stroških. Uporaba sistema poteka dela pomaga zagotoviti dosledno in učinkovito obdelavo in odobritev dokumentov.
-- **Vidljivost procesa** : sledite lahko meritvam stanja, zgodovine in uspešnosti določenega primerka poteka dela. To vam pomaga določiti, ali bi bilo treba potek dela spremeniti za izboljšanje učinkovitosti.
-- **Centraliziran delovni seznam** : uporabniki si lahko ogledajo centraliziran delovni seznam, da si ogledajo opravila poteka dela in odobritve, ki so jim dodeljene. 
+- **Dosledni procesi**: določite lahko postopek odobritve za določene dokumente, na primer zahteve za nakup in poročila o stroških. Uporaba sistema poteka dela pomaga zagotoviti dosledno in učinkovito obdelavo in odobritev dokumentov.
+- **Vidljivost procesa**: sledite lahko meritvam stanja, zgodovine in uspešnosti določenega primerka poteka dela. To vam pomaga določiti, ali bi bilo treba potek dela spremeniti za izboljšanje učinkovitosti.
+- **Centraliziran delovni seznam**: uporabniki si lahko ogledajo centraliziran delovni seznam, da si ogledajo opravila poteka dela in odobritve, ki so jim dodeljene. 
 
 ## <a name="workflow-types"></a>Vrste poteka dela
 
 V naslednji tabeli so navedene vrste poteka dela, ki jih lahko ustvarite v možnosti **Upravljanje stroškov**.
 
 
-|              <strong>Vrsta </strong>              |                   <strong>Uporabite to vrsto za</strong>                   |
+|              <strong>Vrsta</strong>              |                   <strong>Uporabite to vrsto za</strong>                   |
 |-------------------------------------------------|-----------------------------------------------------------------------|
 |   <strong>Samodejno odobritev poročil o stroških</strong> |            Ustvarite poteke dela odobritve za poročila o stroških.             |
 |  <strong>Samodejno knjiženje poročil o stroških</strong>   |        Ustvarite poteke dela samodejnega knjiženja za poročila o stroških.        |

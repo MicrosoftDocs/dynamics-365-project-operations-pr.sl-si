@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084693"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128721"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfiguriranje zaračunljivih komponent podrobnosti pogodbe, ki temelji na projektu
 
@@ -27,21 +27,21 @@ Podmnožico vključenih komponent je v polju **Vrsta obračunavanja** mogoče po
 
 Komponente, ki se zaračunajo, je mogoče določiti za vloge in kategorije transakcij.
 
-Za podrobnost projektne pogodbe možnost zaračunavanja, določena v vlogi, velja samo za razred transakcije **Čas**. Če je v podrobnosti pogodbe polje **Vključi čas** nastavljeno na možnost **Ne** , zavihek **Vloge, ki se zaračunajo** ni na voljo.
+Za podrobnost projektne pogodbe možnost zaračunavanja, določena v vlogi, velja samo za razred transakcije **Čas**. Če je v podrobnosti pogodbe polje **Vključi čas** nastavljeno na možnost **Ne**, zavihek **Vloge, ki se zaračunajo** ni na voljo.
 
-Plačljivost, določena v kategorijah transakcije za podrobnost projektne pogodbe, velja samo za razred transakcije **Strošek**. Če je v podrobnosti pogodbe polje **Vključi stroške** nastavljeno na možnost **Ne** , zavihek **Kategorije, ki se zaračunajo** ni na voljo.
+Plačljivost, določena v kategorijah transakcije za podrobnost projektne pogodbe, velja samo za razred transakcije **Strošek**. Če je v podrobnosti pogodbe polje **Vključi stroške** nastavljeno na možnost **Ne**, zavihek **Kategorije, ki se zaračunajo** ni na voljo.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Posodabljanje vloge kot zaračunljive ali nezaračunljive
 
 V posamezni podrobnosti pogodbe, ki temelji na projektu, se lahko vloga zaračuna ali ne zaračuna.
 
-V polju **Vrsta obračunavanja** v podmreži **Kategorije, ki se zaračunajo** na zavihku **Vloge, ki se zaračunajo** posodobite vrsto obračunavanja za vlogo.
+Na zavihku **Vloge, ki se zaračunajo** podrobnosti pogodbe, ki temeljijo na projektu, v podmreži **Vloge, ki se zaračunajo** v polju **Vrsta obračunavanja** posodobite vrsto obračunavanja za vlogo.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Posodabljanje kategorije transakcije kot zaračunljive ali nezaračunljive
 
 V posamezni podrobnosti pogodbe, ki temelji na projektu, se lahko kategorija transakcije zaračuna ali ne zaračuna.
 
-V polju **Vrsta obračunavanja** v podmreži **Kategorije, ki se zaračunajo** na zavihku **Kategorije, ki se zaračunajo** v podrobnosti pogodbe, ki temelji na projektu, posodobite vrsto obračunavanja za transakcijo.
+Na zavihku **Kategorije, ki se zaračunajo** podrobnosti pogodbe, ki temeljijo na projektu, v podmreži **Kategorije, ki se zaračunajo** v polju **Vrsta obračunavanja** posodobite vrsto obračunavanja za transakcijo.
 
 ### <a name="resolve-chargeability"></a>Razrešitev možnosti zaračunavanja
 

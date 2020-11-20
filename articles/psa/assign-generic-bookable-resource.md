@@ -3,7 +3,7 @@ title: Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in 
 description: Ta tema vsebuje informacije o rezervaciji splošnih virov za opravila in projektne ekipe.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084771"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127088"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in ustvarjanje pogojev za vir 
 
@@ -31,7 +31,7 @@ ms.locfileid: "4084771"
 
 Poleg rezervacije in dodeljevanja imenovanih ali pravih virov za projekt lahko projektnim opravilom dodelite splošne vire. Ti viri lahko označujejo mesto za imenovane vire, dokler niste pripravljeni, da projektu dodelite imenovane vire. 
 
-1. V aplikaciji Project Service Automation (PSA) odprite stran **Projekt** in na zavihku **Načrtovanje** urnik vnesite ime položaja splošnega vira v celico razporeda **Vir**. Lahko pa v celici kliknete ikono **Vir** , da se odpre izbirnik za vire in nato vnesete ime splošnega vira,ki ga želite ustvariti.
+1. V aplikaciji Project Service Automation (PSA) odprite stran **Projekt** in na zavihku **Načrtovanje** urnik vnesite ime položaja splošnega vira v celico razporeda **Vir**. Lahko pa v celici kliknete ikono **Vir**, da se odpre izbirnik za vire in nato vnesete ime splošnega vira,ki ga želite ustvariti.
 
 ![Ustvarjanje in dodeljevanje splošnega člana ekipe](media/RM-how-to-9.png)
 
@@ -51,9 +51,9 @@ Odpre se plošča **Hitro ustvarjanje: član projektne ekipe**.
 
 Poleg uporabe zgoraj omenjenega izbirnika virov lahko na mreži člana ekipe tudi neposredno dodajate splošne vire. Sredstva se dodajo z zahtevo za vir, ki temelji na začetnem/končnem datumih in metodi dodelitve, določeni v **hitrem ustvarjanju: panel člana** projektne skupine.
 
-Razliko lahko vidite, če neposredno dodate splošnega člana ekipe in nato splošnemu viru dodate več opravil, kot ima na voljo delovnih ur. Kliknite **Ustvari zahtevo** , da se znova ustvari zahteva za uskladitev zahtevanih ur v povezavi z dodeljenimi opravili.
+Razliko lahko vidite, če neposredno dodate splošnega člana ekipe in nato splošnemu viru dodate več opravil, kot ima na voljo delovnih ur. Kliknite **Ustvari zahtevo**, da se znova ustvari zahteva za uskladitev zahtevanih ur v povezavi z dodeljenimi opravili.
 
-Na mreži ekipe lahko kliknete tudi **Zahtevani pogoj za vir** , da se odpre zahteva, nato dodate znanja, prednostne vire itd.
+Na mreži ekipe lahko kliknete tudi **Zahtevani pogoj za vir**, da se odpre zahteva, nato dodate znanja, prednostne vire itd.
 
 ![Zahtevani pogoj za vir](media/RM-how-to-13.png)
 

@@ -3,7 +3,7 @@ title: Dodeljevanje vira opravilu
 description: Ta tema vsebuje informacije o dodeljevanju virov opravilom.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084945"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125153"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Dodeljevanje vira opravilu
 
@@ -35,7 +35,7 @@ Vir lahko dodate projektni ekipi in ga nato dodelite opravilom v načrtu projekt
 
 1. Na zavihku **Član ekipe** dodate novega člana ekipe tako, da izberete **Novo**. 
 
-2. Odpre se plošča **Hitro ustvarjanje člana ekipe** , na kateri lahko izberete ime vira, ki ga je mogoče rezervirati, in nastavite vlogo. 
+2. Odpre se plošča **Hitro ustvarjanje člana ekipe**, na kateri lahko izberete ime vira, ki ga je mogoče rezervirati, in nastavite vlogo. 
 
     Izberite enega od spodnjih načinov dodeljevanja za rezervacijo vira:
 
@@ -45,7 +45,7 @@ Vir lahko dodate projektni ekipi in ga nato dodelite opravilom v načrtu projekt
     - **Obremenitev na začetku po urah** rezervira vir za določeno število ur, pri tem pa ure na dan porazdeli na začetek dneva v določenem časovnem obdobju »Od« in »Do«.
     - Način **Brez** doda vir ekipi, vendar ne ustvari rezervacij, ki bi prevzele zmogljivost vira.
 
-3. V mreži za opravilo **Načrtovanje** v celici vira izberite ikono **Vir** , nato pa pod možnostjo **Člani ekipe** izberite člana ekipe, ki ste ga pravkar dodali. 
+3. V mreži za opravilo **Načrtovanje** v celici vira izberite ikono **Vir**, nato pa pod možnostjo **Člani ekipe** izberite člana ekipe, ki ste ga pravkar dodali. 
 
 > [!NOTE]
 > Na zavihkih **Član ekipe** in **Uskladitev** vir prikazuje rezervirane in dodeljene ure. Ure bi morale biti enake, vendar to ni pogoj, saj rezervacije in dodelitve niso tesno povezane. Na zavihku **Uskladitev** so navedene podrobnosti o tem, kdaj so vrednosti različne, na primer, če viru dodelite več ur, kot ste jih rezervirali. Po potrebi lahko popravite informacije tako, da razširite rezervacije vira ali spremenite dodelitev.
@@ -62,7 +62,7 @@ Ko z dodeljevanjem opravila ustvarite generičnega člana ekipe, ustvarite ozna�
 
 4. Z dodeljevanjem opravil temu viru označbe mesta nadaljujete tako, da izberete vir v kontrolniku **Izbirnik virov** za opravilo. Navedeni so pod možnostjo **Člani ekipe**.
 
-5. Ko zaključite z dodeljevanjem splošnega vira, izberite splošni vir na zavihku **Ekipa** in nato izberite **Ustvari zahtevo** , da ustvarite zahtevo za splošni vir.
+5. Ko zaključite z dodeljevanjem splošnega vira, izberite splošni vir na zavihku **Ekipa** in nato izberite **Ustvari zahtevo**, da ustvarite zahtevo za splošni vir.
 
 6. Za splošni vir izberite možnost **Rezerviraj**. Nato lahko prek plošče razporeda poiščete in rezervirate pravi vir. Prav tako lahko pošljete zahtevo za izpolnitev s strani upravitelja virov.
 
@@ -70,7 +70,7 @@ Ko z dodeljevanjem opravila ustvarite generičnega člana ekipe, ustvarite ozna�
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Dodelite poimenovani vir s seznama vseh virov, ki jih je mogoče rezervirati
 
-Uporabite lahko iskalno polje v kontrolniku **Izbirnik virov** , da poiščete vse vire, ki jih je mogoče rezervirati, in jih dodelite opravilu.
+Uporabite lahko iskalno polje v kontrolniku **Izbirnik virov**, da poiščete vse vire, ki jih je mogoče rezervirati, in jih dodelite opravilu.
 
 Viri, dodeljeni na ta način, se dodajo ekipi brez rezervacij. To je podobno dodajanju člana ekipe in izbiri možnosti »Brez« kot načina dodeljevanja. Vir je na zavihkih **Ekipa** in **Uskladitev** prikazan kot vir samo z dodelitvami in primanjkljajem za rezervacijo. Če želite uporabiti njihovo razpoložljivost, jih rezervirajte.
 

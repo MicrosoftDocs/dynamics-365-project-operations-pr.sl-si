@@ -3,7 +3,7 @@ title: Uporaba dodatka za rešitev Project Service za načrtovanje dela v progra
 description: V tej temi najdete informacije o dodajanju, konfiguriranju in uporabi dodatka Microsoft Project za Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084886"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129698"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Uporaba dodatka za rešitev Project Service Automation za načrtovanje dela v Microsoft Project
 
@@ -44,7 +44,7 @@ ms.locfileid: "4084886"
 
 2.  Kliknite povezavo za prenos.  
 
-3.  Ko je prenos končan, kliknite **Da** , da namestite dodatek.  
+3.  Ko je prenos končan, kliknite **Da**, da namestite dodatek.  
 
 ## <a name="configure-the-add-in"></a>Konfiguracija dodatka  
 
@@ -99,7 +99,7 @@ Projekt se bo uvozil v [!INCLUDE[pn_project_service_auto](../includes/pn-project
 
 2. V pogovornem oknu **Objavi v nov projekt rešitve Project Service** vnesite **Ime projekta** in izberite možnost **Stranka**.  
 
-3. Po želji potrdite možnost **Poveži načrt projekta z rešitvijo Project Service Automation** , da datoteko za načrtovanje projekta povežete z rešitvijo Project Service Automation.  
+3. Po želji potrdite možnost **Poveži načrt projekta z rešitvijo Project Service Automation**, da datoteko za načrtovanje projekta povežete z rešitvijo Project Service Automation.  
 
 4. Kliknite **Objavi**.  
 
@@ -141,9 +141,9 @@ Projekt se bo uvozil v [!INCLUDE[pn_project_service_auto](../includes/pn-project
 
 3. V pogovornem oknu **Omogoči odpiranje v [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** izberite **Da** ali **Ne**.  
 
-   - Če kliknete **Da** , boste lahko izbrali gumb **Odpri v programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** v rešitvi Project Service Automation ter tako zagnali [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] in naložili projektno datoteko iz knjižnice dokumentov SharePoint.  
+   - Če kliknete **Da**, boste lahko izbrali gumb **Odpri v programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** v rešitvi Project Service Automation ter tako zagnali [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] in naložili projektno datoteko iz knjižnice dokumentov SharePoint.  
 
-   - Če kliknete **Ne** , povezava za gumb **Odpri v programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ne bo delovala.  
+   - Če kliknete **Ne**, povezava za gumb **Odpri v programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ne bo delovala.  
 
 4. Datoteko [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] je mogoče najti v rešitvi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] v možnosti **Dokumenti** za določen projekt rešitve [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
@@ -155,9 +155,9 @@ Projekt se bo uvozil v [!INCLUDE[pn_project_service_auto](../includes/pn-project
 
 3. V pogovornem oknu **Omogoči odpiranje v [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** izberite **Da** ali **Ne**.  
 
-   - Če kliknete **Da** , boste lahko izbrali gumb **Odpri v programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** v rešitvi Project Service Automation ter tako zagnali [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] in naložili projektno datoteko iz knjižnice dokumentov SharePoint.  
+   - Če kliknete **Da**, boste lahko izbrali gumb **Odpri v programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** v rešitvi Project Service Automation ter tako zagnali [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] in naložili projektno datoteko iz knjižnice dokumentov SharePoint.  
 
-   - Če kliknete **Ne** , povezava za gumb **Odpri v programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ne bo delovala.  
+   - Če kliknete **Ne**, povezava za gumb **Odpri v programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ne bo delovala.  
 
 4. Datoteko [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] je mogoče najti v rešitvi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] v možnosti **Dokumenti** za določen projekt rešitve [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
@@ -168,7 +168,7 @@ Projekt se bo uvozil v [!INCLUDE[pn_project_service_auto](../includes/pn-project
 
 2. V pogovornem oknu **Objavi v nov projekt predloge rešitve Project Service** vnesite **Ime projektne predloge**.  
 
-3. Po želji potrdite možnost **Poveži načrt projekta z rešitvijo Project Service Automation** , da datoteko projekta povežete z rešitvijo [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+3. Po želji potrdite možnost **Poveži načrt projekta z rešitvijo Project Service Automation**, da datoteko projekta povežete z rešitvijo [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 4. Kliknite **Objavi**.  
 

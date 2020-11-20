@@ -3,7 +3,7 @@ title: Konfiguracija nastavitev dodatnih parametrov
 description: Navodila za konfiguracijo nastavitev dodatnih parametrov v rešitvi Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084756"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129383"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Konfiguracija nastavitev dodatnih parametrov (rešitev Project Service)
 
@@ -52,11 +52,11 @@ Nastavitev parametra projekta:
   
 1. Odprite **Project Service > Parametri**.  
   
-2. Kliknite nastavitev parametrov, ki jo želite konfigurirati (tisto, ki ste jo ustvarili, ko ste prvič namestili [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), ali pa kliknite **Novo** , če želite ustvariti novo nastavitev.  
+2. Kliknite nastavitev parametrov, ki jo želite konfigurirati (tisto, ki ste jo ustvarili, ko ste prvič namestili [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), ali pa kliknite **Novo**, če želite ustvariti novo nastavitev.  
   
 3. V območju **Splošno** nastavite vse možnosti za svoje parametre projekta.  
   
-4. Če želite dodati cenik, v območju **Cenik** kliknite **+** , da izberete cenik s spustnega seznama **Cenik parametra projekta** , in nato kliknite **Shrani**.  
+4. Če želite dodati cenik, v območju **Cenik** kliknite **+**, da izberete cenik s spustnega seznama **Cenik parametra projekta**, in nato kliknite **Shrani**.  
   
 5. Kliknite gumb **Shrani** v spodnjem desnem kotu zaslona.  
 

@@ -3,7 +3,7 @@ title: Sodelovanje s člani projektne ekipe v Skupinah storitve Office 365
 description: Navodila za sodelovanje s člani ekipe v rešitvi Project Service v Skupinah storitve Office 365
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a7caa9275c2df493b42f08a23d4cf450c56a8683
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3b8f6fb0de5c6803f0ff242160164207af8ce738
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084933"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126953"
 ---
 # <a name="collaborate-with-your-project-team-members-with-office-365-groups-project-service"></a>Sodelovanje s člani projektne ekipe v Skupinah storitve Office 365 (Project Service)
 
@@ -37,7 +37,7 @@ V programu [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] lahko sod
   
 3. V vrstici na vrhu zaslona izberite puščico dol poleg imena projekta in kliknite **Skupine storitve Office 365**. S tem se prikaže projekt z elementi, ki so v skupni rabi s skupino.  
   
-4. Če želite v skupini [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] odpreti delovni prostor vaše ekipe, kliknite **Odpri koledar** , **Odpri pogovore** , **Odpri zvezek** , **Odpri dokumente** ali **Odpri stike**.  
+4. Če želite v skupini [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] odpreti delovni prostor vaše ekipe, kliknite **Odpri koledar**, **Odpri pogovore**, **Odpri zvezek**, **Odpri dokumente** ali **Odpri stike**.  
   
 ### <a name="see-also"></a>Glejte tudi  
  [Vodnik po času, stroških in sodelovanju](../psa/time-expense-collaboration-guide.md)

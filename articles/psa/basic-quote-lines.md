@@ -3,7 +3,7 @@ title: Ponudbe in vrstice ponudb
 description: V tej temi so na voljo informacije o ponudbah in vrsticah ponudb.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084871"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129473"
 ---
 # <a name="quotes-and-quote-lines"></a>Ponudbe in vrstice ponudb
 
@@ -35,7 +35,7 @@ V aplikaciji Dynamics 365 Project Service Automation obstajata dve vrsti ponudb:
 - Prodajna ponudba podpira aktivacijo in popravke. Projektna ponudba teh postopkov ne podpira.
 - Prodajni ponudbi lahko priložite več naročil. Projektni ponudbi lahko priložite samo eno projektno pogodbo.
 - Prodajno ponudbo lahko pridobite in povezano priložnost ohranite odprto. Ko je projektna ponudba pridobljena, se povezana priložnost zapre.
-- Prodajna ponudba ne vsebuje nekaterih polj in konceptov, ki so vključeni v polja projektne ponudbe. Polja vključujejo **pogodbeno enoto** , **upravitelja kupcev** in **ime stika za plačilo**.  
+- Prodajna ponudba ne vsebuje nekaterih polj in konceptov, ki so vključeni v polja projektne ponudbe. Polja vključujejo **pogodbeno enoto**, **upravitelja kupcev** in **ime stika za plačilo**.  
 - Prodajne in projektne ponudbe so določene tudi s poljem, ki temelji na naboru možnosti in se imenuje **Vrsta**. Za prodajno ponudbo ima to polje vrednost **Temelji na elementu**. Za projektno ponudbo pa ima polje vrednost **Temelji na delu**.
 
 V tej temi se osredotočamo na podrobnosti projektnih ponudb.
@@ -91,7 +91,7 @@ Ponudba lahko na primer vsebuje naslednji vrstici ponudbe:
 - Povezani potni stroški, ki uporabljajo način obračunavanja »Fiksna cena«. Vsi potni stroški za primer projekta **Uvedba Dynamics AX** so zaračunani po fiksni denarni vrednosti.
 
 > [!NOTE]
-> Kombinacija projekta in klasifikacij transakcij **Čas** , **Strošek** in **Nadomestilo** , ki so povezane z vrstico ponudbe ali podrobnostmi pogodbe, mora biti edinstvena. Če je ista kombinacija razreda projekta in transakcije povezana z več kot enimi podrobnostmi pogodbe ali vrsticami ponudbe, aplikacija PSA ne bo pravilno delovala.
+> Kombinacija projekta in klasifikacij transakcij **Čas**, **Strošek** in **Nadomestilo**, ki so povezane z vrstico ponudbe ali podrobnostmi pogodbe, mora biti edinstvena. Če je ista kombinacija razreda projekta in transakcije povezana z več kot enimi podrobnostmi pogodbe ali vrsticami ponudbe, aplikacija PSA ne bo pravilno delovala.
 
 ## <a name="billing-types"></a>Vrste obračunavanja
 
@@ -124,8 +124,8 @@ Pogostost izdajanja računov je entiteta, ki shranjuje vrednosti atributov, ki p
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Razpored izdajanja računov za vrstico ponudbo fiksne cene
 
-Za vrstico ponudbe fiksne cene lahko uporabite mrežo **Razpored izdajanja računov** , da ustvarite mejnike obračunavanja, ki so enaki vrednosti v vrstici ponudbe.
+Za vrstico ponudbe fiksne cene lahko uporabite mrežo **Razpored izdajanja računov**, da ustvarite mejnike obračunavanja, ki so enaki vrednosti v vrstici ponudbe.
 
-- Da ustvarite mejnike obračunavanja, ki so enako razdeljeni, izberite pogostost izvajanja računov, vnesite začetni datum obračunavanja v vrstico ponudbe in izberite **Zahtevani datum zaključka** za ponudbo v razdelku glave ponudbe **Povzetek**. Nato izberite **Ustvari periodične mejnike** , da ustvarite enakomerno razdeljene mejnike na podlagi izbrane pogostosti izdajanja računov. 
+- Da ustvarite mejnike obračunavanja, ki so enako razdeljeni, izberite pogostost izvajanja računov, vnesite začetni datum obračunavanja v vrstico ponudbe in izberite **Zahtevani datum zaključka** za ponudbo v razdelku glave ponudbe **Povzetek**. Nato izberite **Ustvari periodične mejnike**, da ustvarite enakomerno razdeljene mejnike na podlagi izbrane pogostosti izdajanja računov. 
 - Če želite ustvariti mejnik obračunavanja za enkratno izplačilo, ustvarite mejnik in nato vnesite vrednost vrstice ponudbe kot znesek mejnika.
 - Če želite ustvariti mejnike obračunavanja, ki temeljijo na določenih opravilih v načrtu projekta, ustvarite mejnik in ga preslikajte v element projektnega razporeda v uporabniškem vmesniku mejnika obračunavanja.

@@ -3,7 +3,7 @@ title: Prodajni postopki
 description: V tej temi so na voljo informacije o osnovnih prodajnih postopkih.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084870"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129338"
 ---
 # <a name="sales-processes"></a>Prodajni postopki
 
@@ -70,12 +70,12 @@ Teh šest faz predstavljajo škarnice (\>), ki jih izberete za razširitev v vsa
  
 Vaša organizacija lahko uporabi različne entitete, da tekom svojega razvoja predstavi isti posel. V začetnih fazah prodajnega postopka je posel predstavljen kot entiteta priložnosti. Ko pa mine nekaj časa in imate na voljo več podrobnosti, lahko uporabite splošnejše ocene, da ustvarite eno ali več ponudb. Če eno od teh ponudb pregledajo notranje zainteresirane skupine in zainteresirane skupine strank, posel predstavlja entiteta ponudbe. Ko stranka sprejme ponudbo, posel predstavlja projektna pogodba ali izjava SOW. Za podporo tega delovanja so poteki poslovnega procesa strukturirani tako, da je vsaka faza v procesu povezana z drugo tabelo zbirke podatkov.
 
-Fazo prodajnega postopka **Potrjevanje** je mogoče shraniti v entiteto priložnosti. Fazi **Ocena** in **Notranji pregled** je mogoče shraniti v entiteto ponudbe. Faze **Pogodba** , **Dostava** in **Zapiranje** je mogoče shraniti v entiteto projektne pogodbe.
+Fazo prodajnega postopka **Potrjevanje** je mogoče shraniti v entiteto priložnosti. Fazi **Ocena** in **Notranji pregled** je mogoče shraniti v entiteto ponudbe. Faze **Pogodba**, **Dostava** in **Zapiranje** je mogoče shraniti v entiteto projektne pogodbe.
 
 Ko boste posle premikali skozi faze, boste pozvani, da ustvarite ustrezen zapis entitete za pomoč in vodenje pri procesu. Faze so lahko pogojne. Če na primer potrebujete notranji pregled ponudbe samo, če ponudba uporablja seznam po meri, lahko ta pogoj konfigurirate v ustrezni fazi poslovnega procesa. Faza **Notranji pregled** je nato prikazana samo za ponudbe, ki uporabljajo cenik po meri. Fazi **Ocena** sledi faza **Pogodba** pri vseh drugih poslih in ponudbah.
 
 > [!NOTE]
-> Aplikacija PSA ima določene strani za entitete priložnosti, ponudb, naročil in računov. Morate ustvariti priložnosti, ponudbe, naročila in račune v aplikaciji Project Service s stranmi podatkov o projektu za te entitete. Če za ustvarjanje zapisa uporabite drugo stran, ne boste mogli odpreti zapisa s strani **Podatki o projektu**. Če želite odpreti zapis s strani **Podatki o projektu** , morate zapis izbrisati in ga znova ustvariti s stranjo **Podatki o projektu**. Na strani **Podatki o projektu** zagotavlja poslovna logika za vsako od teh vrst entitet, da je polje zapisa **Vrsta** pravilno nastavljeno ter da so vsi obvezni koncepti ustrezno inicializirani.
+> Aplikacija PSA ima določene strani za entitete priložnosti, ponudb, naročil in računov. Morate ustvariti priložnosti, ponudbe, naročila in račune v aplikaciji Project Service s stranmi podatkov o projektu za te entitete. Če za ustvarjanje zapisa uporabite drugo stran, ne boste mogli odpreti zapisa s strani **Podatki o projektu**. Če želite odpreti zapis s strani **Podatki o projektu**, morate zapis izbrisati in ga znova ustvariti s stranjo **Podatki o projektu**. Na strani **Podatki o projektu** zagotavlja poslovna logika za vsako od teh vrst entitet, da je polje zapisa **Vrsta** pravilno nastavljeno ter da so vsi obvezni koncepti ustrezno inicializirani.
 
 > ![Podatki o projektu za novo naročilo](media/basic-guide-4.png)
  

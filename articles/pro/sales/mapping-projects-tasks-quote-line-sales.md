@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 871d323136cd982bd48ed9aa2b9c34017951d2d8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084648"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130733"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Preslikava projektov in opravil v podrobnosti ponudbe, ki temelji na projektih
 
@@ -50,14 +50,14 @@ Stran **Projekt** ponuja optimalno izkušnjo za povezovanje opravil s podrobnost
 7. V pogovornem oknu, ki se prikaže, izberite podrobnost ponudbe, ki v ponudbi prikazuje podrobnosti ponudbe, ki temeljijo na projektu.
 8. V polju **Vrsta obračunavanja** navedite, ali so ta opravila plačljiva ali ne.
 9. Izberite potrditveno polje, da označite, ali naj povezava vključuje podrejena opravila izbranih opravil. Če potrdite polje, bodo podrejena opravila izbranih opravil povezana v podrobnost ponudbe.
-10. Izberite **V redu** , da zaprete pogovorno okno.
+10. Izberite **V redu**, da zaprete pogovorno okno.
 
 ### <a name="from-the-quote-line-page"></a>Na strani »Podrobnost ponudbe«
 
 Projektna opravila lahko povežete s podrobnostmi ponudbe z zavihka **Opravila, ki se zaračunajo** na strani **Podrobnost ponudbe**.
 
 >[!NOTE]
->Optimalno mesto za povezovanje projektnih opravil s podrobnostmi ponudbe je na zavihku **Obračunavanje opravil** na strani **Projekt**. Če opravila povežete z zavihka **Opravila, ki se zaračunajo** na strani **Podrobnost ponudbe** , morate ročno povezati vsak projekt.
+>Optimalno mesto za povezovanje projektnih opravil s podrobnostmi ponudbe je na zavihku **Obračunavanje opravil** na strani **Projekt**. Če opravila povežete z zavihka **Opravila, ki se zaračunajo** na strani **Podrobnost ponudbe**, morate ročno povezati vsak projekt.
 
 1. Na zavihku **Splošno** podrobnosti ponudbe, ki temelji na projektu, preverite, ali je v polju **Projekt** izbran projekt.
 2. V polju **Vključena opravila** izberite **Samo izbrana opravila**.

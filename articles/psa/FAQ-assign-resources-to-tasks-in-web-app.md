@@ -3,7 +3,7 @@ title: Kako dodelim vir, ki ga je mogoče rezervirati, opravilu v spletni aplika
 description: Pregled načinov dodeljevanja virov, ki jih je mogoče rezervirati.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084944"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125198"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Kako dodelim vir, ki ga je mogoče rezervirati, opravilu v spletni aplikaciji (aplikacija Project Service različice 2.x)?
 
@@ -51,7 +51,7 @@ S tem načinom dodate vir projektni ekipi in nato opravila dodelite viru v načr
     - **Enakomerna porazdelitev po urah** rezervira vir za določeno število ur, pri tem pa čas porazdeli enakomerno na dan v določenem časovnem obdobju »Od« in »Do«.
     - **Obremenitev na začetku po urah** rezervira vir za določeno število ur, pri tem pa ure na dan porazdeli na začetek dneva v določenem časovnem obdobju »Od« in »Do«.
 
-    Ne izberite načina **Brez** , saj doda vir ekipi, vendar ne ustvari rezervacij, ki bi prevzele zmogljivost vira.
+    Ne izberite načina **Brez**, saj doda vir ekipi, vendar ne ustvari rezervacij, ki bi prevzele zmogljivost vira.
 5.  Izberite **Shrani**.
 
     Upoštevajte, da morajo ure rezervacije zadostovati za pokritje ur dela in datumskih obsegov opravil, katerim dodelite ta vir. Če ure niso usklajene, vira ne morete dodeliti opravilu.
@@ -109,7 +109,7 @@ Zahtevo za rezervni vir za generičnega člana ekipe lahko odprete tako, da izbe
 > [!div class="mx-imgBorder"] 
 > ![Posnetek zaslona odpiranja zahteve za rezervni vir](media/FAQ-Resources-to-Tasks2-7.png "Posnetek zaslona odpiranja zahteve za rezervni vir")
 
-Za splošni vir izberite možnost **Rezerviraj** , nato pa prek plošče razporeda poiščite in rezervirajte pravi vir. Prav tako lahko pošljete zahtevo za izpolnitev s strani upravitelja virov tako, da izberete **Pošlji zahtevo**.
+Za splošni vir izberite možnost **Rezerviraj**, nato pa prek plošče razporeda poiščite in rezervirajte pravi vir. Prav tako lahko pošljete zahtevo za izpolnitev s strani upravitelja virov tako, da izberete **Pošlji zahtevo**.
 
 Ko je splošni vir izpolnjen s poimenovanim virom, se splošni vir odstrani iz ekipe, dodelitve opravil za splošni vir pa so dodeljene poimenovanemu viru, ki je izpolnil zahtevo za splošni vir.
  

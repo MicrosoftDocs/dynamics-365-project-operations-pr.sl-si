@@ -3,7 +3,7 @@ title: Dodajanje virov
 description: Navodila za dodajanje virov v rešitvi Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c882ade53eb207d5c85fd769437cff65fef7ca1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e7b088ce2718901ab5af953f5fa1094188a4c954
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084748"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129526"
 ---
 # <a name="add-resources-project-service"></a>Dodajanje virov (rešitev Project Service)
 
@@ -37,9 +37,9 @@ Vire lahko dodelite organizacijskim enotam, če potrebujete različno vrednotenj
   
 2.  Kliknite **Novo**.  
   
-3.  Izberite **Vrsta vira** , nato izberite nastavitve, ki jih želite za posamezno polje.  
+3.  Izberite **Vrsta vira**, nato izberite nastavitve, ki jih želite za posamezno polje.  
   
-4.  Kliknite **Shrani** , da shranite zapis, ki ga nato lahko urejate.  
+4.  Kliknite **Shrani**, da shranite zapis, ki ga nato lahko urejate.  
   
 5.  Če viru želite dodati znanje, kliknite **+** v možnosti **Znanja vira**.  
   

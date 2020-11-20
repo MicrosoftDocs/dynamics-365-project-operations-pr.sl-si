@@ -3,7 +3,7 @@ title: Stroški in prihodki projekta
 description: Ta tema vsebuje informacije o ocenjevanju stroškov in prihodkov projekta.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084786"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127988"
 ---
 # <a name="project-costs-and-revenue"></a>Stroški in prihodki projekta
 
@@ -50,7 +50,7 @@ Za izračun lastnih cen opravil morajo biti vsa opravila dodeljena viru. Vsa ned
 Če sistem ne najde cene za vlogo, je lastna cena v vrstici ocene nastavljena na privzeto vrednost **0,00**. Vsi zneski stroškov v vrsticah z ocenami stroškov projekta so zabeleženi v valuti pogodbene enote.
 
 > [!NOTE]
-> Microsoft Dynamics 365 privzeto shranjuje zneske stroškov v vaši osnovni valuti. Vendar pa so zneski stroškov, ki so prikazani na zavihku **Ocene** , v valuti pogodbene enote.  
+> Microsoft Dynamics 365 privzeto shranjuje zneske stroškov v vaši osnovni valuti. Vendar pa so zneski stroškov, ki so prikazani na zavihku **Ocene**, v valuti pogodbene enote.  
 
 ### <a name="default-sales-price"></a>Privzeta prodajna cena 
 

@@ -3,7 +3,7 @@ title: Upravljanje zahtev za vire
 description: Kako upravljati zahteve za vire v rešitvi Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084755"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129023"
 ---
 # <a name="manage-resource-requests-project-service"></a>Upravljanje zahtev za vire (Project Service)
 
@@ -37,15 +37,15 @@ Upravitelji kupcev in vodje projektov redno pošiljajo zahteve za vire za svoje 
   
     Upoštevajte naslednja navodila, da optimizirate iskanje:  
   
-   -   Na vrhu zaslona izberite pogled ali vrstni red razvrščanja. Izberete lahko pogled razpoložljivosti za **Dan** , **Teden** ali **Mesec** in si s puščicami ogledate prejšnje ali naslednje časovno obdobje. Za iskanje določenega vira lahko uporabite iskalno polje.  
+   -   Na vrhu zaslona izberite pogled ali vrstni red razvrščanja. Izberete lahko pogled razpoložljivosti za **Dan**, **Teden** ali **Mesec** in si s puščicami ogledate prejšnje ali naslednje časovno obdobje. Za iskanje določenega vira lahko uporabite iskalno polje.  
   
-   -   Kliknite **Možnosti** , da spremenite, kaj naj bo prikazano. Prikažete lahko na primer legendo, ki prikazuje barvno shemo za različne vrste rezervacije, ali pa izberete prikaz le določene vrste rezervacije (na primer veljavne ali okvirne rezervacije).  
+   -   Kliknite **Možnosti**, da spremenite, kaj naj bo prikazano. Prikažete lahko na primer legendo, ki prikazuje barvno shemo za različne vrste rezervacije, ali pa izberete prikaz le določene vrste rezervacije (na primer veljavne ali okvirne rezervacije).  
   
-   -   Kliknite **Filtriraj** za prikaz podokna **Filter** , v katerem lahko filtrirate rezultate glede na organizacijsko enoto, vlogo, znanje in druge atribute.  
+   -   Kliknite **Filtriraj** za prikaz podokna **Filter**, v katerem lahko filtrirate rezultate glede na organizacijsko enoto, vlogo, znanje in druge atribute.  
   
        ![Zaslon »Zahteve za vire« rešitve Project Service](../psa/media/project-service-resource-request-screen.png "Zaslon »Zahteve za vire« rešitve Project Service")  
   
-3. V koledarju vira, ki ga želite rezervirati, izberite časovno obdobje za rezervacijo vira in nato kliknite **Rezerviraj** , da vir rezervirate, ali **Predlagaj rezervacijo** , da predlagate rezervacijo, ki jo odobri pošiljatelj zahtevka. Rezervacija vira je lahko okvirna ali veljavna.  
+3. V koledarju vira, ki ga želite rezervirati, izberite časovno obdobje za rezervacijo vira in nato kliknite **Rezerviraj**, da vir rezervirate, ali **Predlagaj rezervacijo**, da predlagate rezervacijo, ki jo odobri pošiljatelj zahtevka. Rezervacija vira je lahko okvirna ali veljavna.  
   
 ### <a name="see-also"></a>Glejte tudi  
  [Priročnik za upravitelje virov](../psa/resource-manager-guide.md)

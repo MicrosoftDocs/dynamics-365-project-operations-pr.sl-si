@@ -3,7 +3,7 @@ title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 
 description: V tej temi so navedene funkcije in popravki, ki so na voljo za Project Service Automation V3, izdaja posodobitve 17.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ba685568692dafe117de42a71bb14d391cd7cc4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bb93208217972639f91b39b7b6705d9897373ef7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084712"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126827"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Izdaja posodobitve 17 za Project Service Automation, V3
 
@@ -52,6 +52,6 @@ V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za PSA V
 **Sales**
 
 - Popravljeno: **Invoice.PreValidateInvoiceUpdate** sedaj obravnava scenarij ustreznega ponovnega dodeljevanja lastnikov zapisov.
-- Popravljeno: Če je razred transakcije **Čas** , **UnitGroup** ni mogoče urejati za vse entitete, vključno z: **QuoteLineDetails** , **JournalLine** , **InvoiceLineDetail** in **ContractLineDetails**. Vendar pa polja **Enota** ni mogoče urejati za **JournalLine** in **InvoiceLineDetails**.
+- Popravljeno: Če je razred transakcije **Čas**, **UnitGroup** ni mogoče urejati za vse entitete, vključno z: **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** in **ContractLineDetails**. Vendar pa polja **Enota** ni mogoče urejati za **JournalLine** in **InvoiceLineDetails**.
 
 

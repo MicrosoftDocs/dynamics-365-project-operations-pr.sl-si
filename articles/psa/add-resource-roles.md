@@ -3,7 +3,7 @@ title: Dodajanje vlog virov
 description: Navodila za dodeljevanje vlog virom v rešitvi Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47bb6bc5e52553db77d6fe0eda2181069ddcbc2b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 378c43e206f9295d445b1323b1c67f9d573df713
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084952"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129608"
 ---
 # <a name="add-resource-roles-project-service"></a>Dodajanje vlog vira (rešitev Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4084952"
 
 Nastavitev stopenj ciljne uporabe za vsako vlogo. Te nastavitve določajo razpoložljivost vira in njegovo uporabo, ko dodeljujete projekte in analizirate opravljeno delo.  
   
-1.  Pojdite na vlogo vira, za katero želite konfigurirati uporabo ( **Project Service > Vloga vira** ).  
+1.  Pojdite na vlogo vira, za katero želite konfigurirati uporabo (**Project Service > Vloga vira**).  
   
 2.  Na vrhu zaslona poleg vloge vira kliknite puščico dol.  
   

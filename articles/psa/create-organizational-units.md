@@ -3,7 +3,7 @@ title: Ustvarjanje organizacijskih enot
 description: Navodila za ustvarjanje organizacijskih enot v rešitvi Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c653f5bd066fd174c8fb0996820628c1b281519
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebb00b9838773560404a9e3f7a19cc83408d7889
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084805"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125108"
 ---
 # <a name="create-organizational-units-project-service"></a>Ustvarjanje organizacijskih enot (rešitev Project Service)
 
@@ -40,9 +40,9 @@ V vašem podjetju so storitve svetovanja najverjetneje organizirane glede na geo
   
 3.  Na območju **Splošno** v polje **Ime** vnesite ime organizacijske enote in po potrebi izpolnite druga polja.  
   
-4.  Kliknite **Shrani** , da ustvarite zapis, ki ga nato lahko urejate.  
+4.  Kliknite **Shrani**, da ustvarite zapis, ki ga nato lahko urejate.  
   
-5.  V razdelku **Ceniki z lastnimi cenami** kliknite **+** , da dodate cenik. Tu lahko dodate le cenike s kontekstom **Strošek**.  
+5.  V razdelku **Ceniki z lastnimi cenami** kliknite **+**, da dodate cenik. Tu lahko dodate le cenike s kontekstom **Strošek**.  
   
 6.  V polju **Ime** kliknite gumb **Iskanje** in izberite cenik, ki ga želite omogočiti za to organizacijsko enoto. Po potrebi dodajte druge cenike.  
   

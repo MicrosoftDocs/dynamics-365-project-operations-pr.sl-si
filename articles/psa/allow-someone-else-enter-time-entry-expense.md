@@ -3,7 +3,7 @@ title: Prevzemanje vstopiti vaš vnos časa ali stroškov
 description: Navodila za omogočanje vnosa ur ali stroškov drugim osebam v rešitvi Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084729"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130408"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Omogočanje vnosa ur ali stroškov drugim osebam (rešitev Project Service)
 
@@ -37,13 +37,13 @@ Ustvarite pooblaščenca, da lahko v vašem imenu vnaša ure ali stroške v reš
   
 2.  V ukazni vrstici kliknite **Novo**.  
   
-3. **Ime** : vnesite ime zapisa.  
+3. **Ime**: vnesite ime zapisa.  
   
-4. **Vrsta** : izberite, ali lahko pooblaščenec v vašem imenu vnaša ure ali stroške.  
+4. **Vrsta**: izberite, ali lahko pooblaščenec v vašem imenu vnaša ure ali stroške.  
   
-5. **Pooblaščenec** : izberite ime osebe, ki jo želite pooblastiti.  
+5. **Pooblaščenec**: izberite ime osebe, ki jo želite pooblastiti.  
   
-6. **Začetni in končni datumi** : izberite datume, kdaj se pooblastitev začne in konča.  
+6. **Začetni in končni datumi**: izberite datume, kdaj se pooblastitev začne in konča.  
   
 7.  Ko končate, kliknite **Shrani in zapri**.  
   
@@ -65,7 +65,7 @@ Ustvarite pooblaščenca, da lahko v vašem imenu vnaša ure ali stroške v reš
   
 3.  Kliknite **V redu**.  
   
-4.  S tem se prikaže koledar. Če si želite ogledati koledar za prejšnji ali naslednji teden, kliknite **Nazaj** ali **Naprej**. Kliknite **Danes** , da se vrnete na trenutni teden.  
+4.  S tem se prikaže koledar. Če si želite ogledati koledar za prejšnji ali naslednji teden, kliknite **Nazaj** ali **Naprej**. Kliknite **Danes**, da se vrnete na trenutni teden.  
   
 5.  Če želite vnesti ure, kliknite **Novo** ali v koledarju dvokliknite dan, za katerega želite vnesti ure.  
   
@@ -81,7 +81,7 @@ Ustvarite pooblaščenca, da lahko v vašem imenu vnaša ure ali stroške v reš
   
 3.  Kliknite **V redu**.  
   
-4.  Če si želite ogledati koledar za prejšnji ali naslednji teden, kliknite **Nazaj** ali **Naprej**. Kliknite **Danes** , da se vrnete na trenutni teden.  
+4.  Če si želite ogledati koledar za prejšnji ali naslednji teden, kliknite **Nazaj** ali **Naprej**. Kliknite **Danes**, da se vrnete na trenutni teden.  
   
 5.  Če želite vnesti strošek, kliknite **Novo**  
   

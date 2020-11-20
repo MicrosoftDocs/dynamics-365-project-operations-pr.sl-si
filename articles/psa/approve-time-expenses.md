@@ -3,7 +3,7 @@ title: Odobritev časa in stroškov
 description: Navodila za odobritev časa in stroškov v rešitvi Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084934"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127133"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Odobritev časa in stroškov (rešitev Project Service)
 
@@ -35,7 +35,7 @@ Ko svetovalci vnesejo porabljen čas in stroške za projekt, jih morate odobriti
   
 2.  Kliknite element, ki potrebuje odobritev.  
   
-3.  Na zavihkih **Vnosi ur** , **Vnosi stroškov** in **Odsotnost/dopust** preglejte vsak element posebej in po potrebi opravite spremembe.  
+3.  Na zavihkih **Vnosi ur**, **Vnosi stroškov** in **Odsotnost/dopust** preglejte vsak element posebej in po potrebi opravite spremembe.  
   
 4.  Element odobrite tako, da kliknete **Odobri**. Izberete in odobrite lahko več elementov hkrati.  
   

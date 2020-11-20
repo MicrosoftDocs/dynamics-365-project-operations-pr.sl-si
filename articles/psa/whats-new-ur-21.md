@@ -3,7 +3,7 @@ title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 
 description: V tej temi so navedene funkcije in popravki, ki so na voljo za Project Service Automation V3, izdaja posodobitve 21.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084707"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126728"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Izdaja posodobitve 21 za Project Service Automation, V3
 
@@ -54,7 +54,7 @@ Odpravljene so naslednje težave:
 
 Odpravljene so naslednje težave:
 
-- Mreže obrazca **Projekt** ( **Dodelitev vira** , **Opravilo** , **Pogled** Uskladitev, **Ocene stroškov** ) je mogoče urejati, tudi ko projekt ni aktiven.
+- Mreže obrazca **Projekt** (**Dodelitev vira**, **Opravilo**, **Pogled** Uskladitev, **Ocene stroškov**) je mogoče urejati, tudi ko projekt ni aktiven.
 - Podvojenih strank ni mogoče združiti s strankami, ki so povezane s potrjenimi pogodbami projekta.
 - Ko je dodan vir, ki nima veljavnega koledarja, se v sistemu ne prikaže uporabniku prijazno sporočilo o napaki.
 - Gumb **Dodaj opravilo** na mreži opravil je omogočen, ko je projekt povezan z dodatkom za **Microsoft Project**.
@@ -71,7 +71,7 @@ Odpravljene so naslednje težave:
 - **Skupna prodajna cena** je enaka nič (0) za **Kategorijo** čeprav ima **Vloga** skupno prodajno ceno, ki ni enaka nič.
 - Ko drug prilagojen postopek posodablja dodatno polje, stranke ne morejo spremeniti vrednosti polja **Stanje računa** na polje **Pripravljeno za izdajo računa**.
 - Gumb **Osvežitev transakcij vrstice računa** lahko ob večkratni izbiri ustvari več podvojenih vrstic.
-- Gumb **Posodobi cene** ne deluje v podmreži **Cene vlog** v obrazcu za **Hitri vpogled**.
+- Gumb **Posodobi cene** ne deluje v obrazcu **Hiter pogled** v podmreži **Cene vlog**.
 - Logika **Razrešitve prodajnega cenika** nepravilno obdeluje časovne pasove, zaradi česar je izbor cenikov napačen.
 - **Skupni dejanski stroški** projekta imajo lahko delno napako po odobritvi enkratnega vnosa.
 - Znotraj logike **Razrešitve cen** se ne prikaže uporabniku prijazno sporočilo o napaki, če razdelek **Pridobljena cena vloge** nima vrednosti v poljih **Glavna enota** in **Cena v osnovni enoti**.

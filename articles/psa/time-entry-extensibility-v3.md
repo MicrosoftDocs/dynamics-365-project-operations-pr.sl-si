@@ -3,7 +3,7 @@ title: Prilagajanje tedenskih vnosov
 description: Ta tema vsebuje informacije o izvajanju pravil poslovanja po meri, ki sledijo poslovnim praksam organizacije.
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4a508f2a67f87302f8b81640d2031fd5d2627b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084843"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127943"
 ---
 # <a name="customize-weekly-time-entry"></a>Prilagajanje tedenskih vnosov 
 
@@ -51,15 +51,15 @@ V razdelku **Razsežnosti** urejanje v vrstici ni mogoče. Ta razdelek je podprt
 Razdelek »Trajanje« prikazuje dneve v tednu kot glave stolpcev. Ta razdelek omogoča urejanje v vrstici. Ko je ustvarjena vrstica za časovni vnos z ustreznimi razsežnostmi, lahko uporabniki v vrstico hitro vnesejo količino časa, ki so ga porabili za te razsežnosti.
 
 ## <a name="create-a-new-time-entry"></a>Ustvarjanje novega časovnega vnosa
-Če želite ustvariti nov časovni vnos v mreži časovnih vnosov, izberite **Novo**. Prikaže se pogovorno okno **Hitro ustvarjanje časovnega vnosa**. V tem pogovornem oknu lahko uporabniki izberejo datum časovnega vnosa in nato vnesejo podatke za **Projekt** , **Projektno opravilo** , **Vlogo** in **Trajanje** razsežnosti v minutah, urah ali dneh, tako da vnesejo vrednosti **h** , **m** ali **d** skupaj s številko. Uporabniki lahko vnesejo tudi opis in komentarje za časovni vnos, ki jih je mogoče dati v skupno javno rabo. Ko uporabniki shranijo spremembe, se njihove vnesene vrednosti za razsežnosti prikažejo v razdelku **Razsežnosti**. Informacije o trajanju, ki so jih vnesli v polje **Trajanje** , se prikažejo v tistem datumu, za katerega je bil ustvarjen časovni vnos.
+Če želite ustvariti nov časovni vnos v mreži časovnih vnosov, izberite **Novo**. Prikaže se pogovorno okno **Hitro ustvarjanje časovnega vnosa**. V tem pogovornem oknu lahko uporabniki izberejo datum časovnega vnosa in nato vnesejo podatke za **Projekt**, **Projektno opravilo**, **Vlogo** in **Trajanje** razsežnosti v minutah, urah ali dneh, tako da vnesejo vrednosti **h**, **m** ali **d** skupaj s številko. Uporabniki lahko vnesejo tudi opis in komentarje za časovni vnos, ki jih je mogoče dati v skupno javno rabo. Ko uporabniki shranijo spremembe, se njihove vnesene vrednosti za razsežnosti prikažejo v razdelku **Razsežnosti**. Informacije o trajanju, ki so jih vnesli v polje **Trajanje**, se prikažejo v tistem datumu, za katerega je bil ustvarjen časovni vnos.
 
 Polja za iskanje so podprta s sistemskimi pogledi. Ko uporabnik na primer vnese projekt, se polje **Projektno opravilo** privzeto nastavi na pogled **Kopiraj**. Če želite ustvariti časovne vnose za opravila, ki niso dodeljena uporabniku, v pogovornem oknu za iskanje izberite **Spremeni pogled** in nato še pogled **Vsa dejavna projektna opravila**.
 
 ## <a name="edit-a-time-entry"></a>Urejanje časovnega vnosa
-Podrobnosti iz nekaterih polj na strani časovnega vnosa, kot so **Opis** in **Zunanji komentarji** , niso prikazane v tedenski mreži časovnih vnosov. Namesto tega se v celicah za trajanje, ki imajo te dodatne podrobnosti, pojavi majhen trikotni kazalnik. Izberite celico in nato še možnost **Uredi podrobnosti** , da si ogledate podatke v podoknu **Hitro urejanje**. Če želite urediti ali posodobiti podrobnosti določenega časovnega vnosa, ki ni del tedenske mreže časovnih vnosov, morajo uporabniki odpreti podokno **Hitro urejanje**.
+Podrobnosti iz nekaterih polj na strani časovnega vnosa, kot so **Opis** in **Zunanji komentarji**, niso prikazane v tedenski mreži časovnih vnosov. Namesto tega se v celicah za trajanje, ki imajo te dodatne podrobnosti, pojavi majhen trikotni kazalnik. Izberite celico in nato še možnost **Uredi podrobnosti**, da si ogledate podatke v podoknu **Hitro urejanje**. Če želite urediti ali posodobiti podrobnosti določenega časovnega vnosa, ki ni del tedenske mreže časovnih vnosov, morajo uporabniki odpreti podokno **Hitro urejanje**.
 
 ## <a name="copy-a-time-entry-row"></a>Kopiranje vrstice časovnega vnosa
-Po tem, ko je ustvarjena prva vrstica časovnega vnosa, lahko uporabniki izberejo možnost **Kopiraj vrstico** , če želijo kopirati celotno vrstico v novo vrstico. Ko vrstico kopirate na ta način, se pri tem kopirajo tudi razsežnosti in trajanje. Uporabniki lahko izberejo tudi možnost **Uredi vrstico** , da posodobijo vrednosti razsežnosti in trajanja v vrstici razdelka **Trajanje**.
+Po tem, ko je ustvarjena prva vrstica časovnega vnosa, lahko uporabniki izberejo možnost **Kopiraj vrstico**, če želijo kopirati celotno vrstico v novo vrstico. Ko vrstico kopirate na ta način, se pri tem kopirajo tudi razsežnosti in trajanje. Uporabniki lahko izberejo tudi možnost **Uredi vrstico**, da posodobijo vrednosti razsežnosti in trajanja v vrstici razdelka **Trajanje**.
 
 ## <a name="open-a-time-entry"></a>Odpiranje časovnega vnosa
 Za podporo optimalnega in hitrega vnašanja v najbolj uporabljenih poljih je v tedenski mreži časovnih vnosov prikazana podmnožica izbranih razsežnosti in časovnih obdobij. Če si želite ogledati vse podrobnosti posameznega časovnega vnosa, v razdelku **Urejanje vnosa** izberite **Odpri**.
@@ -71,13 +71,13 @@ Uporabniki lahko pošljejo en sam časovni vnos ali skupino časovnih vnosov, ta
 Poslane časovne vnose lahko tudi prekličete. Prekličete lahko posamezen časovni vnos, blok časovnih vnosov ali celotno vrstico časovnih vnosov. Viri lahko urejajo preklicane časovne vnose.
 
 ## <a name="time-entry-status"></a>Stanje časovnega vnosa
-Novim časovnim vnosom je samodejno dodeljeno stanje **Osnutek**. Ko je časovni vnos poslan, se stanje posodobi na **Poslano**. Ko je poslan časovni vnos odobren, se stanje posodobi na **Odobreno**. Če je časovni vnos zavrnjen, se stanje posodobi na **Vrnjeno** , vnos pa je nato mogoče popraviti in ponovno poslati. Izbrisati je mogoče le časovne vnose s stanjem **Osnutek**.
+Novim časovnim vnosom je samodejno dodeljeno stanje **Osnutek**. Ko je časovni vnos poslan, se stanje posodobi na **Poslano**. Ko je poslan časovni vnos odobren, se stanje posodobi na **Odobreno**. Če je časovni vnos zavrnjen, se stanje posodobi na **Vrnjeno**, vnos pa je nato mogoče popraviti in ponovno poslati. Izbrisati je mogoče le časovne vnose s stanjem **Osnutek**.
 
 ## <a name="view-rejection-comments"></a>Ogled komentarjev ob zavrnitvi
 Ko potrditelj zavrne časovni vnos, lahko potrditelj komentira zavrnitev, da bi vir lažje razumel njen razlog. Če si želite ogledati komentar zavrnitve časovnega vnosa, izberite **Odpri vnos**. Komentarji zavrnitve bodo prikazani na časovnici. Na časovnici se lahko vir odzove na komentarje o zavrnitvi, preden ponovno pošlje vnos.
 
 ## <a name="copy-week"></a>Kopiraj teden
-Ko ustvarijo nekaj časovnih vnosov, lahko uporabniki izberejo funkcijo **Kopiraj teden** za množično ustvarjanje dodatnih časovnih vnosov. Prikaže se pogovorno okno **Kopiraj**. V razdelku **Od obdobja** uporabite polji **Začetni datum** in **Končni datum** , da določite datumski obseg za kopiranje časovnih vnosov. V razdelku **Do obdobja** v polju **Začetni datum** določite datum, za katerega želite ustvariti časovne vnose. Nato izberite **Kopiraj**. V razdelku »Do obdobja« se za izbran datum ustvari kopija časovnih vnosov za ustrezen dan v tednu v razdelku »Od obdobja«. Ponedeljkov časovni vnos iz prejšnjega tedna bo kopiran v ponedeljek za teden, ki je označen kot možnost »Do obdobja«.
+Ko ustvarijo nekaj časovnih vnosov, lahko uporabniki izberejo funkcijo **Kopiraj teden** za množično ustvarjanje dodatnih časovnih vnosov. Prikaže se pogovorno okno **Kopiraj**. V razdelku **Od obdobja** uporabite polji **Začetni datum** in **Končni datum**, da določite datumski obseg za kopiranje časovnih vnosov. V razdelku **Do obdobja** v polju **Začetni datum** določite datum, za katerega želite ustvariti časovne vnose. Nato izberite **Kopiraj**. V razdelku »Do obdobja« se za izbran datum ustvari kopija časovnih vnosov za ustrezen dan v tednu v razdelku »Od obdobja«. Ponedeljkov časovni vnos iz prejšnjega tedna bo kopiran v ponedeljek za teden, ki je označen kot možnost »Do obdobja«.
 
 ## <a name="import"></a>Uvoz
 Isti osnovni postopek se uporablja za uvoz iz rezervacij, dodelitev in izmenjav. Uporabniki lahko določijo datumski obseg, iz katerega so uvožene rezervacije. Nato morajo posebej izbrati rezervacije, ki jih želijo kopirati v osnutke časovnih vnosov. V prejšnji izdaji so se časovni vnosi prikazali v mreži in koledarju in se nato po osveževanju seje izgubili.
@@ -98,19 +98,19 @@ Polje po meri morate dodati v pogovorno okno Hitro ustvarjanje, Ustvari časovni
 #### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfiguriranje mreže za prikaz polja po meri
 Za dodajanje polja po meri v tedensko mrežo časovnih vnosov obstajata dva načina. Prvi način je tak, da prilagodite pogled **Moji tedenski časovni vnosi** in mu dodate polje po meri. Izberete lahko položaj in velikost polja po meri v mreži, tako da uredite te lastnosti v pogledu.
 
-Druga možnost je ta, da ustvarite nov pogled časovnih vnosov po meri in ga nastavite kot privzeti pogled. Ta pogled mora poleg stolpcev, ki jih želite imeti v mreži, vsebovati še polja **Opis** in **Zunanji komentarji**. Izberete lahko položaj, velikost in privzeto zaporedje razvrščanja mreže, tako da uredite te lastnosti v pogledu. Nato konfigurirajte kontrolnik po meri za ta pogled, da bo nastavljen na **Mreža časovnih vnosov**. Ta kontrolnik dodajte v pogled in ga izberite za splet, telefon in tablični računalnik. Nato konfigurirajte parametre za tedensko mrežo časovnih vnosov. Nastavite polje **Začetni datum** na **msdyn_date** , polje **Trajanje** na **msdyn_duration** in polje **Stanje** na **msdyn_entrystatus**. V privzetem pogledu je polje **Seznam vnosov s stanjem samo za branje** nastavljeno na **192350002,192350003,192350004** , polje **Potek opravila urejanja vrstice** na **msdyn_timeentryrowedit** in polje **Potek opravila urejanja celice** na **msdyn_timeentryedit**. Ta polja lahko prilagodite, če želite dodati ali odstraniti stanje samo za branje ali uporabiti drugačno izkušnjo na podlagi opravila (TBX) za urejanje vrstic ali celic. Ta polja morajo biti vezana na statično vrednost.
+Druga možnost je ta, da ustvarite nov pogled časovnih vnosov po meri in ga nastavite kot privzeti pogled. Ta pogled mora poleg stolpcev, ki jih želite imeti v mreži, vsebovati še polja **Opis** in **Zunanji komentarji**. Izberete lahko položaj, velikost in privzeto zaporedje razvrščanja mreže, tako da uredite te lastnosti v pogledu. Nato konfigurirajte kontrolnik po meri za ta pogled, da bo nastavljen na **Mreža časovnih vnosov**. Ta kontrolnik dodajte v pogled in ga izberite za splet, telefon in tablični računalnik. Nato konfigurirajte parametre za tedensko mrežo časovnih vnosov. Nastavite polje **Začetni datum** na **msdyn_date**, polje **Trajanje** na **msdyn_duration** in polje **Stanje** na **msdyn_entrystatus**. V privzetem pogledu je polje **Seznam vnosov s stanjem samo za branje** nastavljeno na **192350002,192350003,192350004**, polje **Potek opravila urejanja vrstice** na **msdyn_timeentryrowedit** in polje **Potek opravila urejanja celice** na **msdyn_timeentryedit**. Ta polja lahko prilagodite, če želite dodati ali odstraniti stanje samo za branje ali uporabiti drugačno izkušnjo na podlagi opravila (TBX) za urejanje vrstic ali celic. Ta polja morajo biti vezana na statično vrednost.
 
 #### <a name="add-the-custom-field-to-the-appropriate-edit-task-flow"></a>Dodajanje polja po meri ustreznemu poteku opravila za urejanje
 Strani TBX, ki se uporabljajo za urejanje, je mogoče najti v razdelku **Procesi**. Privzete strani so **Project Service – Urejanje vrstice časovnega vnosa** in **Project Service – Urejanje časovnega vnosa**. Te privzete strani lahko ali urejate ali ustvarite nove strani TBX po meri.
 
 > [!NOTE] 
-> Z obema načinoma boste odstranili nekaj vnaprej nastavljenih filtrirnih možnosti v entitetah **Projekt** in **Projektna opravila** , da bodo vidni vsi pogledi za iskanje po entitetah. Med vnaprej pripravljenimi pogledi so vidni le ustrezni pogledi za iskanje.
+> Z obema načinoma boste odstranili nekaj vnaprej nastavljenih filtrirnih možnosti v entitetah **Projekt** in **Projektna opravila**, da bodo vidni vsi pogledi za iskanje po entitetah. Med vnaprej pripravljenimi pogledi so vidni le ustrezni pogledi za iskanje.
 
-Določiti morate ustrezen potek opravila za polje po meri. Če ste polje dodali v mrežo, bi se moralo najverjetneje prikazati v poteku opravila za urejanje vrstice, ki se uporablja za polja, ki veljajo za celotno vrstico časovnih vnosov. Če ima polje po meri vsak dan drugačno vrednost, tako kot na primer polje po meri za **Končni čas** , bi moralo iti v potek opravila za urejanje celic.
+Določiti morate ustrezen potek opravila za polje po meri. Če ste polje dodali v mrežo, bi se moralo najverjetneje prikazati v poteku opravila za urejanje vrstice, ki se uporablja za polja, ki veljajo za celotno vrstico časovnih vnosov. Če ima polje po meri vsak dan drugačno vrednost, tako kot na primer polje po meri za **Končni čas**, bi moralo iti v potek opravila za urejanje celic.
 
-Če želite dodati polje po meri v potek opravila, povlecite element **Polje** v ustrezen položaj na strani in nato nastavite njegove lastnosti. Nastavite lastnost **Vir** na **Časovni vnos** in nato nastavite še lastnost **Podatkovno polje** v polje po meri. Lastnost **Polje** označuje prikazno ime na strani TBX. Izberite možnost **Uporabi** , da shranite spremembe v polju. Nato izberite možnost **Posodobi** , da shranite spremembe na strani.
+Če želite dodati polje po meri v potek opravila, povlecite element **Polje** v ustrezen položaj na strani in nato nastavite njegove lastnosti. Nastavite lastnost **Vir** na **Časovni vnos** in nato nastavite še lastnost **Podatkovno polje** v polje po meri. Lastnost **Polje** označuje prikazno ime na strani TBX. Izberite možnost **Uporabi**, da shranite spremembe v polju. Nato izberite možnost **Posodobi**, da shranite spremembe na strani.
 
-Če želite namesto tega uporabiti novo stran TBX po meri, ustvarite nov proces. Nastavite kategorijo na **Potek poslovnega procesa** , entiteto na **Časovni vnos** in nato še vrsto poslovnega procesa na **Zaženi proces kot potek opravila**. V razdelku **Lastnosti** mora biti lastnost **Ime strani** nastavljena na prikazno ime strani. Dodajte vsa ustrezna polja na stran TBX. Shranite in zaženite proces ter posodobite lastnost kontrolnika po meri za ustrezen potek opravila v vrednost **Ime** za izbrani postopek.
+Če želite namesto tega uporabiti novo stran TBX po meri, ustvarite nov proces. Nastavite kategorijo na **Potek poslovnega procesa**, entiteto na **Časovni vnos** in nato še vrsto poslovnega procesa na **Zaženi proces kot potek opravila**. V razdelku **Lastnosti** mora biti lastnost **Ime strani** nastavljena na prikazno ime strani. Dodajte vsa ustrezna polja na stran TBX. Shranite in zaženite proces ter posodobite lastnost kontrolnika po meri za ustrezen potek opravila v vrednost **Ime** za izbrani postopek.
 
 ### <a name="add-new-option-set-values"></a>Dodajanje novih vrednosti iz nabora možnosti
 Če želite dodati vrednosti iz nabora možnosti v vnaprej nastavljeno polje, odprite stran za urejanje polja in nato pod **Vrsta** ob naboru možnosti izberite **Uredi**. Nato dodajte novo možnost z oznako in barvo po meri. Če želite dodati novo stanje časovnega vnosa, je pravilno ime vnaprej pripravljenega polja **Stanje vnosa** in ne **Stanje**.

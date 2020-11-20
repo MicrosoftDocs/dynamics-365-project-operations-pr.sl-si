@@ -3,7 +3,7 @@ title: Ustvarjanje časovnih vnosov
 description: Ta tema vsebuje informacije o ustvarjanju časovnih vnosov.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084847"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131312"
 ---
 # <a name="create-time-entries"></a>Ustvarjanje časovnih vnosov
 
@@ -41,7 +41,7 @@ Za ustvarjanje časovnega vnosa sledite tem korakom.
 4. V polju **Projektno opravilo** poiščite opravilo za ta časovni vnos.
 
     > [!NOTE]
-    > Če ustvarjate časovni vnos za opravilo, ki ni dodeljeno uporabniku, v polju **Projektno opravilo** izberite gumb **Iskanje** , nato izberite **Spremeni pogled** in nato še **Vsa dejavna projektna opravila** , da se prikaže seznam vseh opravil.
+    > Če ustvarjate časovni vnos za opravilo, ki ni dodeljeno uporabniku, v polju **Projektno opravilo** izberite gumb **Iskanje**, nato izberite **Spremeni pogled** in nato še **Vsa dejavna projektna opravila**, da se prikaže seznam vseh opravil.
 
 5. Vnesite opis, če je to potrebno, in nato izberite možnost **Shrani in zapri**.
 
@@ -59,7 +59,7 @@ Ko ustvarite nekaj časovnih vnosov, jih lahko kopirate in s tem množično ustv
 1. Na strani **Časovni vnosi** izberite možnost **Kopiraj teden**.
 2. Določite datumski obseg za kopiranje časovnih vnosov v poljih **Začetni datum** in **Končni datum** v skupini polj **Od obdobja**.
 3. Določite datum, za katerega želite ustvariti časovne vnose, v polju **Začetni datum** v skupini polj **Do obdobja**.
-4. Izberite **Kopiraj** , če želite ustvariti kopijo časovnih vnosov, ki ustrezajo dnevu v tednu, ki je določen v skupini polj **Do obdobja**. Časovni vnos za prejšnji ponedeljek bo na primer kopiran v ponedeljek za teden, ki je označen v skupini polj **Do obdobja**.
+4. Izberite **Kopiraj**, če želite ustvariti kopijo časovnih vnosov, ki ustrezajo dnevu v tednu, ki je določen v skupini polj **Do obdobja**. Časovni vnos za prejšnji ponedeljek bo na primer kopiran v ponedeljek za teden, ki je označen v skupini polj **Do obdobja**.
 
 ## <a name="import-data-for-time-entries"></a>Uvažanje podatkov za časovne vnose
 

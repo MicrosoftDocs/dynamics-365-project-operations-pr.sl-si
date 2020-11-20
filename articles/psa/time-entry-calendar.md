@@ -3,7 +3,7 @@ title: Koledar časovnih vnosov
 description: Ta tema vsebuje informacije o uporabi koledarja časovnih vnosov.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afc31609c51f48db61ce359c18707b5a92211082
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 413aba735a5011a9b40c1d5b0bf43c6771db0f7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084846"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131227"
 ---
 # <a name="time-entry-calendar"></a>Koledar časovnih vnosov
 
@@ -35,7 +35,7 @@ Na strani **Časovni vnosi** si lahko ogledate časovne vnose v koledarju, in si
 
 Rešitev Dynamics 365 Project Service Automation ponuja novo in razširljivo izkušnjo s časovnimi vnosi. Ta nova izkušnja nadomešča kontrolnik za koledar po meri, ki je bil uporabljen v starejših različicah. Kljub temu pa si lahko še vedno ogledate časovne vnose z uporabo kontrolnika za koledar samo za branje, ki ga ogrodje poenotenega vmesnika zagotavlja za dnevne, tedenske ali mesečne poglede.
 
-Koledar ne podpira dejanj za posamezne elemente koledarja, prav tako pa ne morete izbrati enega ali več elementov koledarja za pošiljanje ali brisanje. Namesto tega izberite element koledarja in odprite stran entitete **Časovni vnos** , kjer lahko izvedete zahtevana dejanja.
+Koledar ne podpira dejanj za posamezne elemente koledarja, prav tako pa ne morete izbrati enega ali več elementov koledarja za pošiljanje ali brisanje. Namesto tega izberite element koledarja in odprite stran entitete **Časovni vnos**, kjer lahko izvedete zahtevana dejanja.
 
 ## <a name="extensibility"></a>Razširljivost
 

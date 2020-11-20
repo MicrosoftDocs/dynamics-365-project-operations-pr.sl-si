@@ -3,7 +3,7 @@ title: Konfiguriranje vloge virov
 description: Navodila za konfiguriranje vlog virov v rešitvi Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084754"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129158"
 ---
 # <a name="configure-resource-roles-project-service"></a>Konfiguriranje vlog virov (rešitev Project Service)
 
@@ -43,11 +43,11 @@ Pri določanju zahtev za vire ali stroškov projekta so vloge pomemben del načr
   
 3.  Na območju **Splošno** lahko v polje **Ime** vnesete ime vloge in po potrebi izpolnite druga polja.  
   
-4.  Kliknite **Shrani** , da ustvarite zapis, ki ga nato lahko urejate.  
+4.  Kliknite **Shrani**, da ustvarite zapis, ki ga nato lahko urejate.  
   
 5.  Če želite dodati znanje, na območju **Znanje** kliknite **+**.  
   
-6.  V podoknu **Pogoj glede usposobljenosti vloge** kliknite polje **Znanje** , nato kliknite gumb **Išči** in izberite znanje.  
+6.  V podoknu **Pogoj glede usposobljenosti vloge** kliknite polje **Znanje**, nato kliknite gumb **Išči** in izberite znanje.  
   
 7.  Zberite stopnjo za to znanje in kliknite **Shrani**.  
   

@@ -3,7 +3,7 @@ title: Načrtovanje projekta s strukturirano členitvijo dela
 description: Kako načrtovati projekt s strukturirano členitvijo dela v rešitvi Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084938"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127898"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Načrtovanje projekta s strukturirano členitvijo dela (Project Service)
 
@@ -86,14 +86,14 @@ Pri ustvarjanju strukturirane členitve dela boste uporabljali naslednje vrste o
   
 ### <a name="schedule-attributes"></a>Atributi načrtovanja
 
- - Dodelite vrednosti za **Število ur obsega dela** , **Število virov** , **Začetni datum** , **Končni datum** in **Trajanje** , da določite načrt opravila. 
+ - Dodelite vrednosti za **Število ur obsega dela**, **Število virov**, **Začetni datum**, **Končni datum** in **Trajanje**, da določite načrt opravila. 
  - **Obseg dela** je predvideno število ur, potrebnih za dokončanje opravila.
  - **Število virov** je predvidena vrednost, ki jo vodja projekta vnese v opravilo, da ustvari optimalen načrt. 
  - **Trajanje** (v dnevih) označuje število delovnih dni, potrebnih za dokončanje opravila.  
   
 ### <a name="staffing-attributes"></a>Atributi števila delavcev
 
- - **Vloga** , **Organizacijska enota vira** , **Število virov** in **Viri** opisujejo zahteve za število oseb, potrebnih ta opravilo. 
+ - **Vloga**, **Organizacijska enota vira**, **Število virov** in **Viri** opisujejo zahteve za število oseb, potrebnih ta opravilo. 
  - **Vloga** opisuje vrsto vira, potrebnega za opravilo. 
  - **Organizacijska enota vira** označuje organizacijsko enoto, iz katere mora biti oseba, dodeljena opravilu; to vpliva tudi na predvidene stroške in prodajo za opravilo, saj se ta podatek upošteva pri določanju prodajne cene enote za vir. 
  - **Viri** določajo splošen ali poimenski vir, ko je najden samo en.  
@@ -136,11 +136,11 @@ Pri ustvarjanju strukturirane členitve dela boste uporabljali naslednje vrste o
   
 5.  Nadaljujte z dodajanjem opravil, dokler strukturirana členitev dela ni popolna. Med ustvarjanjem strukturirane členitve dela lahko za razvrščanje opravil storite naslednje:  
   
-    -   Izberite opravilo in kliknite **Zamik** , da ga premaknete pod drugo opravilo, ali »Primakni«, da ga premaknete raven višje.  
+    -   Izberite opravilo in kliknite **Zamik**, da ga premaknete pod drugo opravilo, ali »Primakni«, da ga premaknete raven višje.  
   
-    -   Izberite opravilo in kliknite **Premakni gor** ali **Premakni dol** , da ga premaknete na seznamu gor ali dol.  
+    -   Izberite opravilo in kliknite **Premakni gor** ali **Premakni dol**, da ga premaknete na seznamu gor ali dol.  
   
-    -   Kliknite **Skrij Ganttov grafikon** , da ga skrijete, ali **Pokaži Ganttov grafikon** , da ga znova prikažete.  
+    -   Kliknite **Skrij Ganttov grafikon**, da ga skrijete, ali **Pokaži Ganttov grafikon**, da ga znova prikažete.  
   
     -   Izberite drugo obdobje za Ganttov grafikon v možnosti **Časovno merilo**.  
   

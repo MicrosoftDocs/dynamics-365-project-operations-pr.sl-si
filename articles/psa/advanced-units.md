@@ -3,7 +3,7 @@ title: Skupine enot in enote
 description: V tej temi so na voljo informacije o skupinah enot in enotah.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084772"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130598"
 ---
 # <a name="unit-groups-and-units"></a>Skupine enot in enote
 
@@ -33,16 +33,16 @@ Skupine enot in enote so osnovne entitete v Microsoft Dynamics 365. Enota je pos
 
 Tukaj je nekaj primerov enot in skupin enot:
  
-- **Skupina enot** : razdalja 
-    - **Enote** : milja, kilometer itd.
-- **Skupina enot** : čas
-    - **Enote** : ura, dan, teden itd. 
+- **Skupina enot**: razdalja 
+    - **Enote**: milja, kilometer itd.
+- **Skupina enot**: čas
+    - **Enote**: ura, dan, teden itd. 
 
 Ko nastavite več enot v skupini enot, morate nastaviti tudi faktor pretvorbe med njimi, tako da določite prvo enoto, ki ste jo nastavili, kot privzeto ali glavno enoto za to skupino enot. 
 
-Če na primer v skupini enot **Čas** kot prvo enoto nastavite možnost **Ura** , sistem določi enoto **Ura** kot privzeto enoto. Če kot naslednjo enoto nastavite možnost **Dan** , morate nastaviti faktor za pretvorbo **dneva** v **uro.** Če nato kot tretjo enoto dodate **Teden** , morate za **Teden** nastaviti faktor za pretvorbo v enoti **Dan** ali **Ura**. 
+Če na primer v skupini enot **Čas** kot prvo enoto nastavite možnost **Ura**, sistem določi enoto **Ura** kot privzeto enoto. Če kot naslednjo enoto nastavite možnost **Dan**, morate nastaviti faktor za pretvorbo **dneva** v **uro.** Če nato kot tretjo enoto dodate **Teden**, morate za **Teden** nastaviti faktor za pretvorbo v enoti **Dan** ali **Ura**. 
 
-Naslednja slika prikazuje primer nastavitve za enoto **Dan** , kjer je v polju **Količina** prikazano število ur v dnevu, in enoto **Teden** , kjer je v polju **Količina** prikazano število dni v tednu.
+Naslednja slika prikazuje primer nastavitve za enoto **Dan**, kjer je v polju **Količina** prikazano število ur v dnevu, in enoto **Teden**, kjer je v polju **Količina** prikazano število dni v tednu.
 
 > ![Skupina enot: stran z informacijami](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation uporablja enote in skupine enot za obdel
 
 Pri stroških ima vsaka kategorija stroškov privzeto skupino enot in enoto. Te vrednosti so vnesene kot privzete vrednosti v vnosih v cenik za kategorije stroškov. 
 
-Tako lahko na primer imate kategorijo stroškov, ki se imenuje **Kilometrina.** Ima skupino enot, ki se imenuje **Razdalja** in privzeto enoto **Milja**. Če nastavite skupino enot **Razdalja** tako, da ima dve enoti ( **Milja** in **Kilometer** ), lahko za kategorijo **prevožene razdalje** na enem ceniku nastavite dve ceni: ceno na miljo in ceno na kilometer.
+Tako lahko na primer imate kategorijo stroškov, ki se imenuje **Kilometrina.** Ima skupino enot, ki se imenuje **Razdalja** in privzeto enoto **Milja**. Če nastavite skupino enot **Razdalja** tako, da ima dve enoti (**Milja** in **Kilometer**), lahko za kategorijo **prevožene razdalje** na enem ceniku nastavite dve ceni: ceno na miljo in ceno na kilometer.
 
 | Kategorija stroška  | Skupina enot  | Enota      | Način oblikovanja cen  | Cena na enoto  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Vrstice ocen za polje **Čas v ponudbi** so lahko izražene v kateri koli časov
 Ta primer prikazuje, kako PSA uporablja skupino enot, enote in faktorje za pretvorbo.
 - Enote
 
-   - **Skupina enot** : čas 
-   - **Enote** : ura 
+   - **Skupina enot**: čas 
+   - **Enote**: ura 
     
     - **Dan** – faktor za pretvorbo: 8 ur       
     - **Teden** – faktor za pretvorbo: 40 ur  
         
 - Nastavitev cenika za projekt A:
 
-    - **Ime** : prodajne cene v Združenem kraljestvu za 2016 
-    - **Privzeta časovna enota** : dan 
-    - **Valuta** : GBP
+    - **Ime**: prodajne cene v Združenem kraljestvu za 2016 
+    - **Privzeta časovna enota**: dan 
+    - **Valuta**: GBP
 
 | Vloga      | Skupina enot | Enota | Organizacijska enota | Cena   |
 |-----------|------------|------|---------------------|---------|
