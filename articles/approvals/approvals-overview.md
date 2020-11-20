@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084616"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123848"
 ---
 # <a name="approvals-overview"></a>Pregled odobritev
 
@@ -27,7 +27,7 @@ Ko ustvarite in oddate vnos časa ali stroškov, se ustvari vnos odobritve. Odob
 ## <a name="approve-an-entry"></a>Odobritev vnosa
 Obrazec za **odobritve** omogoča preklapljanje med različnimi pogledi, tako da si lahko ogledate različne vrste odobritev.
   
-1. Na obrazec **Odobritve** izberite možnost **Stroški** , **Čas** ali **Preklic**.
+1. Na obrazec **Odobritve** izberite možnost **Stroški**, **Čas** ali **Preklic**.
 2. Preglejte vsako odobritev in izberite tiste, ki jih želite odobriti.
 3. Izberite možnost **Odobri** za odobritev izbranih vnosov.
 V sistemu bodo vnosi obdelani in ustvarjene bodo dejanske vrednosti ali rezervacije.
@@ -37,7 +37,7 @@ Kot odobritelj projekta boste morda morali uporabniku poslati vnos v popravek.
   
 1. Na obrazcu **Odobritve** izberite vnos, ki ga želite zavrniti. 
 2. Izberite možnost **Zavrni**.
-3. Neobvezno – dodajte komentar v pogovorno okno **Komentarji ob zavrnitvi** , ki uporabnika obvesti o razlogu za zavrnitev.
+3. Neobvezno – dodajte komentar v pogovorno okno **Komentarji ob zavrnitvi**, ki uporabnika obvesti o razlogu za zavrnitev.
 4. Izberite **V redu**. Vnos bo vrnjen uporabniku.
   
 ## <a name="recall-entries"></a>Preklic vnosov

@@ -3,7 +3,7 @@ title: Vrstice ponudb, ki temeljijo na izdelkih
 description: V tej temi so na voljo informacije o vrsticah ponudb, ki temeljijo na izdelkih.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084936"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123234"
 ---
 # <a name="product-based-quote-lines"></a>Vrstice ponudb, ki temeljijo na izdelkih
 
@@ -54,9 +54,9 @@ Poleg tega lahko izberete izdelke iz drugih cenikov ali pa neposredno iz katalog
 - Preglasi oblikovanje cene  
 - Uporabi privzeto
 
-Če nastavite to polje na **Preglasi oblikovanje cene** , Dynamics 365 ne nastavi privzete cene. Ceno za izdelek morate vnesti v vrstici ponudbe. Če nastavite to polje na **Uporabi privzeto** , Dynamics 365 uporabi privzeto prodajno ceno in zaklene polje, da prepreči urejanje.
+Če nastavite to polje na **Preglasi oblikovanje cene**, Dynamics 365 ne nastavi privzete cene. Ceno za izdelek morate vnesti v vrstici ponudbe. Če nastavite to polje na **Uporabi privzeto**, Dynamics 365 uporabi privzeto prodajno ceno in zaklene polje, da prepreči urejanje.
 
-Ko namestite PSA, se privzete prodajne cene vnesejo v vrstice v ponudbi, ki temeljijo na izdelkih. Polje **Oblikovanje cen** je nato nastavljeno na **Preglasi oblikovanje cene** , tako da lahko uredite privzeto ceno v vrsticah ponudbe.
+Ko namestite PSA, se privzete prodajne cene vnesejo v vrstice v ponudbi, ki temeljijo na izdelkih. Polje **Oblikovanje cen** je nato nastavljeno na **Preglasi oblikovanje cene**, tako da lahko uredite privzeto ceno v vrsticah ponudbe.
 
 > ![Nastavitev preglasitve oblikovanja cen](media/basic-guide-10.png)
  

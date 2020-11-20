@@ -3,7 +3,7 @@ title: Ustvarjanje cenika
 description: Navodila za ustvarjanje cenika v rešitvi Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084792"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122048"
 ---
 # <a name="create-a-price-list-project-service"></a>Ustvarjanje cenika (rešitev Project Service)
 
@@ -39,7 +39,7 @@ Ceniki temeljijo na vlogah in kategorijah stroškov, zato poskrbite, da že pred
   
 2.  Kliknite **Novo**.  
   
-3.  V polju **Kontekst** izberite kategorijo cenika: **Stroški** , **Nakup** ali **Prodaja**.  
+3.  V polju **Kontekst** izberite kategorijo cenika: **Stroški**, **Nakup** ali **Prodaja**.  
   
 4.  V polje **Ime** vnesite ime cenika.  
   
@@ -47,9 +47,9 @@ Ceniki temeljijo na vlogah in kategorijah stroškov, zato poskrbite, da že pred
   
 6.  V polju **Časovna enota** določite časovno obdobje, za katerega velja cena, npr. dan ali ura.  
   
-7.  Vnesite **Začetni datum** , **Končni datum** in **Opis**.  
+7.  Vnesite **Začetni datum**, **Končni datum** in **Opis**.  
   
-8.  Kliknite **Shrani** , da ustvarite zapis, ki ga nato lahko urejate.  
+8.  Kliknite **Shrani**, da ustvarite zapis, ki ga nato lahko urejate.  
   
 9. Če želite na cenik dodati ceno vloge, kliknite **+** v razdelku **Cene vlog**.  
   

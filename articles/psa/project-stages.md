@@ -3,7 +3,7 @@ title: Vrste stopenj projekta
 description: Ta tema vsebuje informacije o stopnjah projekta.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084807"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123082"
 ---
 # <a name="project-stage-types"></a>Vrste stopenj projekta 
 
@@ -46,19 +46,19 @@ Ko ustvarite projekt, je stopnja projekta nastavljena na **Novo**. Če je bil pr
 
 ## <a name="quote"></a>Ponudba
 
-Ko povežete projekt s ponudbo ali ga ustvarite iz ponudbe, je stanje projekta nastavljeno na **Ponudba** , pri čemer se posodobita tudi predvidena začetni in končni datum. Ko je projekt na stopnji **Ponudba** , so na zavihku **Prodaja** na strani **Entiteta projekta** prikazane podrobnosti ponudbe.
+Ko povežete projekt s ponudbo ali ga ustvarite iz ponudbe, je stanje projekta nastavljeno na **Ponudba**, pri čemer se posodobita tudi predvidena začetni in končni datum. Ko je projekt na stopnji **Ponudba**, so na zavihku **Prodaja** na strani **Entiteta projekta** prikazane podrobnosti ponudbe.
 
 ## <a name="plan"></a>Načrt
 
-Ko je ponudba, ki je povezana s projektom, sprejeta, in se projekt premakne na stopnjo **Pogodba** , se stopnja projekta posodobi na stopnjo **Načrt**. Ko je projekt na stopnji **Načrt** , so na strani **Entiteta projekta** prikazane podrobnosti pogodbe.
+Ko je ponudba, ki je povezana s projektom, sprejeta, in se projekt premakne na stopnjo **Pogodba**, se stopnja projekta posodobi na stopnjo **Načrt**. Ko je projekt na stopnji **Načrt**, so na strani **Entiteta projekta** prikazane podrobnosti pogodbe.
 
 ## <a name="deliver"></a>Dostava
 
-Ko je načrt projekta dokončan in ste pripravljeni na zagon projekta, mora vodja projekta posodobiti stopnjo projekta na **Dostava** , da pokaže, da se je projekt začel.
+Ko je načrt projekta dokončan in ste pripravljeni na zagon projekta, mora vodja projekta posodobiti stopnjo projekta na **Dostava**, da pokaže, da se je projekt začel.
 
 ## <a name="complete"></a>Dokončano 
 
-Ko je delo za projekt končano, lahko vodja projekta posodobi stopnjo na **Dokončano**. Ko vodja projekta posodobi stopnjo projekta na **Dokončano** , to pomeni, da je delo 100-odstotno dokončano, vendar je projekt še vedno odprt, tako da je mogoče zabeležiti vse čakajoče časovne vnose ali vnose stroškov.
+Ko je delo za projekt končano, lahko vodja projekta posodobi stopnjo na **Dokončano**. Ko vodja projekta posodobi stopnjo projekta na **Dokončano**, to pomeni, da je delo 100-odstotno dokončano, vendar je projekt še vedno odprt, tako da je mogoče zabeležiti vse čakajoče časovne vnose ali vnose stroškov.
 
 ## <a name="close"></a>Zaprto
 

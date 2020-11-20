@@ -3,7 +3,7 @@ title: Nastavitve projekta
 description: Ta tema vsebuje informacije o nastavitvah upravljanja projektov.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084919"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123128"
 ---
 # <a name="project-settings"></a>Nastavitve projekta
 
@@ -52,7 +52,7 @@ Za dostop do funkcij za načrtovanje projekta uporabite spodnje nastavitve.
 4. Izberite **Nov tedenski urnik** in nato nastavite možnosti za ta razpored virov. Nastavite lahko ponavljajoči se tedenski razpored, dnevne in urne parametre, čas, ko je podjetje zaprto, in še več.
 5. Nastavite datumski obseg, izberite **Shrani** in nato kliknite **Zapri**. 
 6. Vrnite se na stran seznama **Viri** in izberite vir, za katerega ste nastavili delovne ure. 
-7. Izberite **Nastavi koledar kot** , da nastavite delovno predlogo. 
+7. Izberite **Nastavi koledar kot**, da nastavite delovno predlogo. 
 8. V pogovornem oknu **Delovna predloga** vnesite ime delovne predloge in izberite **Uporabi**. 
 
 Delovno predlogo lahko zdaj povežete s predlogo koledarja projekta.

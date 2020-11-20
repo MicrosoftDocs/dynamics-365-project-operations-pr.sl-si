@@ -3,7 +3,7 @@ title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 
 description: V tej temi so na voljo informacije o novostih v izdaji posodobitve za Project Service Automation 15, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6112e4874025e528a2bb583cf215fd9eff681534
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2112e70d7359e7f30725ef3069a18570da651c06
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084713"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119933"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Izdaja posodobitve 15 za Project Service Automation, V3
 
@@ -41,8 +41,8 @@ V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za PSA V
 - Čas in strošek
 
   - Popravljeno: dodajanje obravnave napak pri nalaganju v pogledu usklajevanja.
-  - Popravljeno: središče za projektne vire: preimenovanje za **Znesek** , da se zmanjša dvoumnost.
-  - Popravljeno: prilagoditev pogleda **Kopiranje stolpcev časovnih vnosov** , da vključuje vrsto.
+  - Popravljeno: središče za projektne vire: preimenovanje za **Znesek**, da se zmanjša dvoumnost.
+  - Popravljeno: prilagoditev pogleda **Kopiranje stolpcev časovnih vnosov**, da vključuje vrsto.
   - Popravljeno: ob urejanju trajanja časovnega vnosa v pogledu mreže z decimalnimi številkami nastane neznana napaka za nekatere številke.
 
 - Vodenje projektov

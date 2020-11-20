@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 47c1bce0c886897b295a3c1a355f4db843c4b73a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084822"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122824"
 ---
 # <a name="expense-reports-reimagined"></a>Prenovljena poročila o stroških
 
@@ -45,7 +45,7 @@ Vnos poročila o stroških je bil preoblikovan v želji po poenostavitvi postopk
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
 
-Videoposnetek (prikazan zgoraj) [izkušnje upravljanja s stroški v aplikaciji Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) je vključen na seznam predvajanja v aplikaciji [Finance and Operations ](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) , ki je na voljo na portalu YouTube.
+Videoposnetek (prikazan zgoraj) [izkušnje upravljanja s stroški v aplikaciji Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) je vključen na seznam predvajanja v aplikaciji [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), ki je na voljo na portalu YouTube.
 
 ## <a name="new-features"></a>Nove funkcije
 

@@ -3,7 +3,7 @@ title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 
 description: V tej temi so na voljo informacije o novostih v izdaji posodobitve za Project Service Automation 13, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 435b70255dd0053a496362c9ced9e742cfcca843
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcb05b640966e760a7a74a306a3f0a39594baed8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084716"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121643"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Izdaja posodobitve 13 za Project Service Automation, V3
 Z veseljem predstavljamo najnovejšo posodobitev za aplikacijo Dynamics 365 Project Service Automation (PSA). Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Ta izdaja je združljiva s storitvijo Dynamics 365 9.x. Če želite posodobiti na to izdajo, obiščite skrbniško središče za Dynamics 365 online in odprite stran z rešitvami, da namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
@@ -53,6 +53,6 @@ V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za Proje
 - Sales
 
      - Popravljeno: podvojeni zapisi vrste transakcije vrnejo napako, ko so ustvarjeni zapisi cene vloge.
-     - Popravljeno: dodatni gumbi za **Nova priložnost** , **Ponudba** , **Vrstica naročila** in **Dodaj izdelek** so vidni v ukazih za »Priložnosti«, »Ponudbe«,»Vrstice naročila« in podmrežo vrstic, ki temelji na projektih.
+     - Popravljeno: dodatni gumbi za možnosti **Nova priložnost**, **Ponudba**, **Vrstica naročila** in **Dodajanje izdelka** so vidni v ukazih za »Priložnosti«, »Ponudbe«, »Izdelki iz naročila« in podmrežo »Vrstice«, ki temelji na projektu.
 
 

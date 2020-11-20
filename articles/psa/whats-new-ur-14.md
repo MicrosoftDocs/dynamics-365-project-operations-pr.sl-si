@@ -3,7 +3,7 @@ title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 
 description: V tej temi so na voljo informacije o novostih v izdaji posodobitve za Project Service Automation 14, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 00ce5c68b1141c88671f0534f7500bf0d7eebd8e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b811bf7ccfb626e6944801dffa943d2afab0c5e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084714"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124838"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Izdaja posodobitve 14 za Project Service Automation, V3
 Z veseljem predstavljamo najnovejšo posodobitev za aplikacijo Dynamics 365 Project Service Automation (PSA). Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Ta izdaja je združljiva s storitvijo Dynamics 365 9.x. Če želite posodobiti na to izdajo, obiščite skrbniško središče za Dynamics 365 online in odprite stran z rešitvami, da namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
@@ -38,7 +38,7 @@ V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za PSA V
 
 - Sales
 
-     - Vrednosti polja po meri iz **Podrobnosti vrstice ponudb** so kopirane v **Podrobnosti vrstice projektne pogodbe** , ko je ponudba posodobljena na **Zaprto kot dobljeno**.
+     - Vrednosti polja po meri iz **Podrobnosti vrstice ponudb** so kopirane v **Podrobnosti vrstice projektne pogodbe**, ko je ponudba posodobljena na **Zaprto kot dobljeno**.
      - Potrjeni projekti so lahko označeni **Zaprto kot izgubljeno**.
 
 - Upravljanje virov

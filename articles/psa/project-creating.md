@@ -3,7 +3,7 @@ title: Razporedi projektov
 description: Ta tema vsebuje informacije o ustvarjanju razporeda.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084791"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123262"
 ---
 # <a name="project-schedules"></a>Razporedi projektov 
 
@@ -83,12 +83,12 @@ Gumba **Premakni gor** in **Premakni dol** spremenita mesto opravila v njegovi n
 
 Mreža **Razpored** v celoti podpira pripomočke za osebe s posebnimi potrebami in se lahko uporablja z bralniki zaslona, kot so Pripovedovalec, JAWS in NVDA. Po mreži se lahko pomikate s puščičnimi tipkami (kot v aplikaciji Microsoft Excel), lahko uporabite tipko Tab za pomikanje po interaktivnih elementih uporabniškega vmesnika, lahko pa uporabite tudi tipko s puščico dol, tipko Enter ali preslednico, da izberete in prikličete spustne menije. Glave stolpcev so prav tako interaktivne. Lahko skrijete in prikažete stolpce, uporabite tipko Tab in puščične tipke za pomikanje po glavah stolpcev ter uporabite interaktivne gumbe v orodni vrstici. Poleg tega lahko uporabljate te bližnjice na tipkovnici:
 
-- **Osveži** : ALT + SHIFT + F5
-- **Dodaj** : ALT + SHIFT + Insert
-- **Izbriši** : ALT + SHIFT + Delete
-- **Premakni gor/dol** : ALT + SHIFT + puščica gor/dol
-- **Zamakni/primakni** : ALT + SHIFT + puščica levo/desno
-- **Razširi/strni hierarhije** : ALT + SHIFT + tipka plus/minus
+- **Osveži**: ALT + SHIFT + F5
+- **Dodaj**: ALT + SHIFT + Insert
+- **Izbriši**: ALT + SHIFT + Delete
+- **Premakni gor/dol**: ALT + SHIFT + puščica gor/dol
+- **Zamakni/primakni**: ALT + SHIFT + puščica levo/desno
+- **Razširi/strni hierarhije**: ALT + SHIFT + tipka plus/minus
 
 ## <a name="task-attributes"></a>Atributi opravila
 
@@ -98,19 +98,19 @@ Ime opravila opisuje delo, ki ga je treba izvesti. V PSA atributi, ki so povezan
  
 ### <a name="schedule-attributes"></a>Atributi načrtovanja
 
-Atributi **Obseg dela** , **Začetni datum** , **Končni datum** in **Trajanje** določajo razpored za opravilo.
+Atributi **Obseg dela**, **Začetni datum**, **Končni datum** in **Trajanje** določajo razpored za opravilo.
 
 Dodatni atributi razporeda vključujejo:
 
-- **Ure dela** : vnesite predvideno število ur, potrebnih za dokončanje opravila. 
-- **Trajanje** : določite število delovnih dni, potrebnih za dokončanje opravila.
-- **ID razporeda** : ta samodejno ustvarjeni ID se uporablja za razporejanje opravil v hierarhiji. Odvisnosti med opravili upravljajo dejanski vrstni red, v katerem se izvedejo opravila.
+- **Ure dela**: vnesite predvideno število ur, potrebnih za dokončanje opravila. 
+- **Trajanje**: določite število delovnih dni, potrebnih za dokončanje opravila.
+- **ID razporeda**: ta samodejno ustvarjeni ID se uporablja za razporejanje opravil v hierarhiji. Odvisnosti med opravili upravljajo dejanski vrstni red, v katerem se izvedejo opravila.
  
 ### <a name="staffing-attributes"></a>Atributi števila delavcev
 
 Do atributov za dodelitev osebja lahko dostopate prek polja **Viri** v razporedu. Poiščete lahko obstoječi vir ali kliknete **Ustvari** in v podoknu **Hitro ustvarjanje** dodate člana projektne ekipe kot nov vir.
 
-Polja **Vloga** , **Enota vira** in **Ime položaja** se uporabljajo za opis zahtev za dodelitev osebja za opravilo. Ti atributi za dodelitev osebja se skupaj z razporedom opravila uporabljajo za iskanje razpoložljivih virov za to opravilo.
+Polja **Vloga**, **Enota vira** in **Ime položaja** se uporabljajo za opis zahtev za dodelitev osebja za opravilo. Ti atributi za dodelitev osebja se skupaj z razporedom opravila uporabljajo za iskanje razpoložljivih virov za to opravilo.
 
 **Vloga** – določite vrsto vira, ki se zahteva za opravilo.
 
@@ -134,7 +134,7 @@ Način opravila določa razporejanje opravil v listnem vozlišču. PSA za vsako 
 
 ### <a name="auto-scheduling"></a>Samodejno razporejanje 
  
-Ko je način opravila nastavljen na **Samodejno razporejeno** , mehanizem razporejanja opravila uporabi pravila za razporejanje v atributih opravila, da določi razpored za opravilo.
+Ko je način opravila nastavljen na **Samodejno razporejeno**, mehanizem razporejanja opravila uporabi pravila za razporejanje v atributih opravila, da določi razpored za opravilo.
 
 #### <a name="scheduling-rules"></a>Pravila razporejanja
 

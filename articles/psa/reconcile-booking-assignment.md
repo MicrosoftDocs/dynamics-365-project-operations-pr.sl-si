@@ -3,7 +3,7 @@ title: Usklajevanje rezervacij in dodelitev
 description: Ta tema vsebuje informacije o opravljenem delu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084802"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120473"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Usklajevanje rezervacij in dodelitev
 
@@ -35,7 +35,7 @@ Zaradi ohlapne povezave projektnih rezervacij in dodelitev opravil je v entiteto
 
 Za vsakega člana ekipe se v zavihku **Usklajevanje** poimensko prikažejo vse rezervacije in dodelitve, vse do zadnje dodelitve opravila. Ure so prikazane v celicah, ki lahko predstavljajo različna obdobja, tako mesece kot posamezne dni.
 
-V polju **Časovno obdobje** lahko izberete možnosti **Mesec** , **Teden** ali **Dan**. Privzeto je nastavljena možnost **Teden**. Privzeto vrednost pa lahko tudi spremenite, tako da izberete gumb **Nastavitve**. Ko je odprt zavihek **Usklajevanje** , se prikaže trenutni datum, vendar pa se lahko s kontrolnikom za koledar pomikate naprej ali nazaj v času. Če je začetni datum projekta postavljen v prihodnost, se bo prikazal ta datum, ko boste odprli zavihek. Kontrolnik za koledar vam omogoča tudi premikanje na začetni in končni datum projekta.
+V polju **Časovno obdobje** lahko izberete možnosti **Mesec**, **Teden** ali **Dan**. Privzeto je nastavljena možnost **Teden**. Privzeto vrednost pa lahko tudi spremenite, tako da izberete gumb **Nastavitve**. Ko je odprt zavihek **Usklajevanje**, se prikaže trenutni datum, vendar pa se lahko s kontrolnikom za koledar pomikate naprej ali nazaj v času. Če je začetni datum projekta postavljen v prihodnost, se bo prikazal ta datum, ko boste odprli zavihek. Kontrolnik za koledar vam omogoča tudi premikanje na začetni in končni datum projekta.
 
 Za prikaz podrobnosti o rezervacijah določenega vira lahko uporabite kontrolnike razširjevalnika za posamezen vir. Razširite lahko tudi dodelitve posameznih virov, vse do ravni posameznega opravila.
 
@@ -47,9 +47,9 @@ Na dnu zavihka **Usklajevanje** je prikazana skupna neto vsota za projekt, zavih
 > [!NOTE]
 > Legenda za te pogoje je morda skrita, da ostane več prostora za mrežo. V tem primeru lahko legendo vidite tako, da izberete gumb **Nastavitve**.
 
-V primerih, ko je polje **Časovno obdobje** nastavljeno na raven, višjo od **Dan** , lahko izračunana razlika znaša 0 (nič). Na ravni **Mesec** lahko neto razlika za vir znaša 0 (nič), kar označuje, da je število rezervacij enako številu dodelitev. Če pa nato pogledate raven **Teden** , boste morda videli, da obstajajo dodelitve z 0 (nič) urami in rezervacije s 40 urami v prvem tednu meseca ter dodelitve s 40 urami in rezervacije z 0 (nič) urami v drugem tednu meseca. Čeprav je skupna vrednost rezervacij in dodelitev za posamezni mesec enaka, se lahko po tednih razlikujejo.
+V primerih, ko je polje **Časovno obdobje** nastavljeno na raven, višjo od **Dan**, lahko izračunana razlika znaša 0 (nič). Na ravni **Mesec** lahko neto razlika za vir znaša 0 (nič), kar označuje, da je število rezervacij enako številu dodelitev. Če pa nato pogledate raven **Teden**, boste morda videli, da obstajajo dodelitve z 0 (nič) urami in rezervacije s 40 urami v prvem tednu meseca ter dodelitve s 40 urami in rezervacije z 0 (nič) urami v drugem tednu meseca. Čeprav je skupna vrednost rezervacij in dodelitev za posamezni mesec enaka, se lahko po tednih razlikujejo.
 
-Ko gledate višje časovne ravni, se v zavihku **Usklajevanje** prikaže celični kazalnik, ki vas obvesti, da obstajajo razlike v nižjih časovnih ravneh. Na tej sliki se celični kazalnik na primer prikaže v celici za oktober 2018 za vir, imenovan Neja Petelinc. Tako lahko torej vidite, da so lahko rezervacije in dodelitve vira enake po skupni vrednosti na ravni **Mesec** , a hkrati različne na nižjih ravneh.
+Ko gledate višje časovne ravni, se v zavihku **Usklajevanje** prikaže celični kazalnik, ki vas obvesti, da obstajajo razlike v nižjih časovnih ravneh. Na tej sliki se celični kazalnik na primer prikaže v celici za oktober 2018 za vir, imenovan Neja Petelinc. Tako lahko torej vidite, da so lahko rezervacije in dodelitve vira enake po skupni vrednosti na ravni **Mesec**, a hkrati različne na nižjih ravneh.
 
 ![Neskladne rezervacije in dodelitve na mesečni ravni](media/reconcile-assignments-01.JPG)
 
@@ -59,9 +59,9 @@ Dvokliknite celico, da jo razširite na naslednjo nižjo raven in si ogledate ra
 
 Kliknite desno tipko miške, če želite celico pomanjšati na naslednjo višjo raven. Celični kazalnik lahko tudi izklopite, in sicer tako, da izberete gumb **Nastavitve**. 
 
-Z uporabo gumbov **Nazaj** in **Naprej** nad mrežo se lahko tudi pomikate med vsemi razlikami v projektu. Za uporabo teh gumbov najprej izberite vir. Izberite **Naprej** , če želite preiti na naslednjo razliko med rezervacijami in dodelitvami za izbran vir. Če se želite vrniti na prejšnjo razliko, izberite **Nazaj**.
+Z uporabo gumbov **Nazaj** in **Naprej** nad mrežo se lahko tudi pomikate med vsemi razlikami v projektu. Za uporabo teh gumbov najprej izberite vir. Izberite **Naprej**, če želite preiti na naslednjo razliko med rezervacijami in dodelitvami za izbran vir. Če se želite vrniti na prejšnjo razliko, izberite **Nazaj**.
 
-Kadar imate dodelitve opravil za vir, a nimate rezervacij, lahko izberete primanjkljaj rezervacij in izberete možnost **Podaljšaj rezervacijo**. Nato boste videli rezervacijo, ki je potrebna za odpravo primanjkljaja tistega vira. Ogledate si lahko tudi rezervacije vira v trenutnem projektu in vseh drugih projektih. Izberite možnost **V redu** , če želite ustvariti rezervacijo za vir, ne glede na trenutno razpoložljivost. Vodja projekta ali upravitelj virov lahko nato s ploščo razporeda reši primere, ko ima vir preveliko število rezervacij glede na svojo zmogljivost zaradi podaljšanja njegovih rezervacij.
+Kadar imate dodelitve opravil za vir, a nimate rezervacij, lahko izberete primanjkljaj rezervacij in izberete možnost **Podaljšaj rezervacijo**. Nato boste videli rezervacijo, ki je potrebna za odpravo primanjkljaja tistega vira. Ogledate si lahko tudi rezervacije vira v trenutnem projektu in vseh drugih projektih. Izberite možnost **V redu**, če želite ustvariti rezervacijo za vir, ne glede na trenutno razpoložljivost. Vodja projekta ali upravitelj virov lahko nato s ploščo razporeda reši primere, ko ima vir preveliko število rezervacij glede na svojo zmogljivost zaradi podaljšanja njegovih rezervacij.
 
 ## <a name="managing-with-time-zones"></a>Upravljanje s časovnimi pasovi
 Za zagotovitev točnih in predvidljivih rezultatov ob uporabi podaljšanja rezervacij morata biti izpolnjeni dve ključni zahtevi:  

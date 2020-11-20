@@ -3,7 +3,7 @@ title: Preklic odobrenih časovnih vnosov in vnosov stroškov
 description: V tej temi najdete informacije o tem, kako prekličete potrjen čas projekta in transakcijo stroškov.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084931"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123353"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Preklic odobrenih časovnih vnosov ali vnosov stroškov
 
@@ -46,7 +46,7 @@ Preklic odobritve ima operativni in finančni učinek.
 
 ### <a name="operational-impact"></a>Operativni učinek
 
-Ko je odobritev preklicana, se stanje zapisa ponastavi na **Osnutek** in odobritev ni več prikazana v pogledu **Moje pretekle odobritve**. Namesto tega je preklicana odobritev prikazana v pogledu **Časovni vnosi za odobritev** ali **Vnosi stroškov za odobritev** , odvisno od tega, ali je šlo za časovni vnos ali vnos stroškov. Poleg tega se stanje povezanega vnosa časa ali stroškov spremeni v **Poslano** , tako da je povezan vnos skladen z odobritvami, ki imajo stanje **Osnutek**.
+Ko je odobritev preklicana, se stanje zapisa ponastavi na **Osnutek** in odobritev ni več prikazana v pogledu **Moje pretekle odobritve**. Namesto tega je preklicana odobritev prikazana v pogledu **Časovni vnosi za odobritev** ali **Vnosi stroškov za odobritev**, odvisno od tega, ali je šlo za časovni vnos ali vnos stroškov. Poleg tega se stanje povezanega vnosa časa ali stroškov spremeni v **Poslano**, tako da je povezan vnos skladen z odobritvami, ki imajo stanje **Osnutek**.
 
 Kot odobritelj lahko urejate nekatera polja odobritve s stanjem **Osnutek**. Med ta polja spadata **Vrsta obračunavanja** in **Ure za obračunavanje za vnose časa**. Ko naredite spremembe, lahko zapis znova odobrite. Lahko pa tudi zavrnete vnos. Če zavrnete odobritev časovnega vnosa, se stanje postavke spremeni v **Vrnjeno**. Če zavrnete odobritev vnosa stroškov, se stanje spremeni v **Zavrnjeno**. Vrnjeni in zavrnjeni vnosi delujejo enako kot vnos s stanjem **Osnutek**. Član projektne ekipe lahko naredi vse potrebne spremembe vnosa in ga nato znova predloži v odobritev ali v celoti izbriše vnos.
 
@@ -57,6 +57,6 @@ Ko je odobritev preklicana, to tudi finančno vpliva na projekt. Ustrezne dejans
 - Stanje prilagoditve je nastavljeno na **Prilagojeno**.
 - Stanje obračunavanja je nastavljeno na **Preklicano**.
 
-Nato se v tabeli »Dejanske vrednosti« ustvarijo postavke storniranja. Če želite ustvariti postavke storniranja, sistem prekopira vrednosti polj iz prvotnih dejanskih vrednosti. Edine vrednosti, ki niso prekopirane, so vrednosti količin. Te vrednosti se stornirajo. Stornirane dejanske vrednosti se ustvarijo za dejanske vrednosti **Stroški** in **Neobračunana prodaja**. Polje **Stanje prilagoditve** za stornirane dejanske vrednosti je nastavljeno na **Ni mogoče prilagoditi** , stanje obračunavanja pa je nastavljeno na **Preklicano**.
+Nato se v tabeli »Dejanske vrednosti« ustvarijo postavke storniranja. Če želite ustvariti postavke storniranja, sistem prekopira vrednosti polj iz prvotnih dejanskih vrednosti. Edine vrednosti, ki niso prekopirane, so vrednosti količin. Te vrednosti se stornirajo. Stornirane dejanske vrednosti se ustvarijo za dejanske vrednosti **Stroški** in **Neobračunana prodaja**. Polje **Stanje prilagoditve** za stornirane dejanske vrednosti je nastavljeno na **Ni mogoče prilagoditi**, stanje obračunavanja pa je nastavljeno na **Preklicano**.
 
 Po teh spremembah se znesek, ki je zabeležen kot porabljen za projekt, in zaostali prihodki v projektu ne bodo več upoštevali pri zneskih, ki jih predstavljajo te dejanske vrednosti.

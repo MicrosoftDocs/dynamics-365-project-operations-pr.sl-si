@@ -3,7 +3,7 @@ title: Pregled nedokončanih opravil za izdajo računov pri projektih in projekt
 description: Ta tema vsebuje informacije o tem, kako pregledati nedokončana opravila za čas, stroške in izdelke in kako jih označiti kot pripravljene za izdajo računa.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eb6d942d61bf8b5d20afb75c88716132a596bcbd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcdcc0cae06ce61bd582d56a8398e718051ff564
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084965"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123983"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Pregled nedokončanih opravil za izdajo računov pri projektih in projektnih pogodbah
 
@@ -36,7 +36,7 @@ Ko je časovni ali stroškovni vnos predložen in odobren za določen projekt, P
 - Dejanska cena 
 - Dejanski nezaračunani znesek prodaje
 
-Dejanski nezaračunani zneski prodaje predstavljajo nedokončana opravila obračunavanja, zato je treba njihovo stanje obračunavanja nastaviti na **Pripravljeno na izdajanje računov**. Ko ustvarite račun za projekt, se dejanski nezaračunani zneski prodaje, označeni kot **Pripravljeno za izdajanje računov** , prekopirajo kot podrobnosti vrstice računa.
+Dejanski nezaračunani zneski prodaje predstavljajo nedokončana opravila obračunavanja, zato je treba njihovo stanje obračunavanja nastaviti na **Pripravljeno na izdajanje računov**. Ko ustvarite račun za projekt, se dejanski nezaračunani zneski prodaje, označeni kot **Pripravljeno za izdajanje računov**, prekopirajo kot podrobnosti vrstice računa.
 
 Če želite pregledati nezaračunana opravila obračunavanja za čas in materiale, odprite možnost **Prodaja** \> **Obračunavanje** \> **Nedokončana opravila obračunavanja časa in materiala**. Izberite vse dejanske nezaračunane zneske prodaje, ki so pripravljeni za izdajo računa, in nato izberite možnost **Pripravljeno za izdajanje računov**. Stanje obračunavanja teh dejanskih zneskov se bo spremenilo v **Pripravljeno na izdajanje računov**.
 
@@ -44,7 +44,7 @@ Dejanski nezaračunani zneski prodaje predstavljajo nedokončana opravila obrač
 
 ## <a name="review-the-product-billing-backlog"></a>Pregled nedokončanih opravil obračunavanja izdelkov
 
-Če ima projektna pogodba v PSA podrobnosti pogodbe na podlagi izdelkov, se te podrobnosti upoštevajo pri izdaji računov ob vsakokratnem ustvarjanju računa za projektno pogodbo. Vsi izdelki, katerih podrobnosti pogodbe so označene kot **Pripravljeno na izdajanje računov** , se prekopirajo v račun projekta v obliki projektnih vrstic računa.
+Če ima projektna pogodba v PSA podrobnosti pogodbe na podlagi izdelkov, se te podrobnosti upoštevajo pri izdaji računov ob vsakokratnem ustvarjanju računa za projektno pogodbo. Vsi izdelki, katerih podrobnosti pogodbe so označene kot **Pripravljeno na izdajanje računov**, se prekopirajo v račun projekta v obliki projektnih vrstic računa.
 
 Če želite pregledati nedokončana opravila obračunavanja izdelkov, pojdite v **Prodaja** \> **Obračunavanje** \> **Nedokončana opravila obračunavanja izdelkov**. Izberite vse podrobnosti pogodbe na podlagi izdelka, ki so pripravljene za izdajo računa, in nato izberite možnost **Pripravljeno za izdajanje računov**. Stanje obračunavanja teh podrobnosti se bo spremenilo v **Pripravljeno na izdajanje računov**.
 

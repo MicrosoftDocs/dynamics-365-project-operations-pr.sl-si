@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084636"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122858"
 ---
 # <a name="expense-home-page"></a>Domača stran stroška
 
@@ -24,8 +24,8 @@ Aplikacija Dynamics 365 Project Operations podpira zmožnost obdelave stroškov.
 
 V aplikaciji Project Operations sta podprta dva modela uvajanja za stroške: 
 
-- **Polni** : na voljo je polno uvajanje za **projektne postopke za scenarije na podlagi virov/brez zaloge** ali **projektne postopke za scenarije na podlagi proizvodnih naročil**.
-- **Osnovni** : osnovno uvajanje je na voljo za **projektne postopke za scenarije na podlagi virov/brez zaloge** in **poenostavljeno uvajanje – posel do izstavitve predračuna**.
+- **Polni**: na voljo je polno uvajanje za **projektne postopke za scenarije na podlagi virov/brez zaloge** ali **projektne postopke za scenarije na podlagi proizvodnih naročil**.
+- **Osnovni**: osnovno uvajanje je na voljo za **projektne postopke za scenarije na podlagi virov/brez zaloge** in **poenostavljeno uvajanje – posel do izstavitve predračuna**.
 
 ## <a name="full"></a>Celotni 
 Polno uvajanje stroškov zagotavlja popolno uveljavljanje pravilnikov, kar vključuje možnost ustvarjanja elementov pravilnikov, kot so:

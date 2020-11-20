@@ -3,7 +3,7 @@ title: Predlaganje projektnih virov
 description: Ta tema vsebuje informacije o predlaganju projektnih virov.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084975"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120203"
 ---
 # <a name="propose-project-resources"></a>Predlaganje projektnih virov
 
@@ -82,7 +82,7 @@ Ker pogled **Uporaba vira** temelji na plošči razporeda, lahko rezultate filtr
 
 Zaradi mreže morate nastaviti ciljno uporabo za vlogo ali posamezni vir. To nastavite v možnosti **Viri** \> **Vloge virov**.
 
-Poleg tega morate vsakemu viru, ki ga je mogoče rezervirati, dodati tudi privzeto vlogo. Odprite možnost **Viri** \> **Viri**. Na zavihku **Project Service** preverite, ali je vloga vira določena in ali je polje **Je privzeto** nastavljeno na **Da**. Kjer je vrednost **Je privzeto = Ne** , lahko dodate dodatne vloge. Vloga, pri kateri je vrednost **Je privzeto = Da** , se uporablja za oceno uporabe vira v primerjavi s ciljem za to vlogo.
+Poleg tega morate vsakemu viru, ki ga je mogoče rezervirati, dodati tudi privzeto vlogo. Odprite možnost **Viri** \> **Viri**. Na zavihku **Project Service** preverite, ali je vloga vira določena in ali je polje **Je privzeto** nastavljeno na **Da**. Kjer je vrednost **Je privzeto = Ne**, lahko dodate dodatne vloge. Vloga, pri kateri je vrednost **Je privzeto = Da**, se uporablja za oceno uporabe vira v primerjavi s ciljem za to vlogo.
 
 ![Nastavitev privzete vloge](media/Resource-Management-image67.png)
 

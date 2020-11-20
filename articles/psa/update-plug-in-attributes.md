@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084839"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121868"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Posodabljanje atributov vtičnikov za vključitev novih cenovnih razsežnosti
 
@@ -50,7 +50,7 @@ Naslednji koraki vam bodo pomagali pri postopku registracije vtičnikov.
 
  ![Posnetek zaslona vtičnika, ki ga želite posodobiti](media/PRT-2.png)
  
-5. V oknu za posodobitev kliknite tri pike ( **...** ) v atributih za filtriranje.
+5. V oknu za posodobitev kliknite tri pike (**...**) v atributih za filtriranje.
 
  ![Posnetek zaslona informacij o konfiguraciji za možnosti »Posodobi obstoječi korak«](media/PRT-3.png)
  
@@ -58,7 +58,7 @@ Naslednji koraki vam bodo pomagali pri postopku registracije vtičnikov.
 
  ![Posnetek zaslona, ki prikazuje izbiro potrditvenega polja atributov za določanje cen](media/PRT-4.png)
 
-7. Kliknite **V redu** , da zaprete stran, nato izberite možnost **Posodobi korak**.
+7. Kliknite **V redu**, da zaprete stran, nato izberite možnost **Posodobi korak**.
 
  ![Posnetek zaslona, ki prikazuje gumb »Posodobi korak«](media/PRT-5.png)
  

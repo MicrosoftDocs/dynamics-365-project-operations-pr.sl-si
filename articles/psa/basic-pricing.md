@@ -3,7 +3,7 @@ title: Določanje cen za projekte
 description: Ta tema vsebuje informacije o določanju cen v aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084953"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120788"
 ---
 # <a name="project-pricing"></a>Določanje cen za projekte 
 
@@ -56,7 +56,7 @@ Izraz *vloga vira* se nanaša na nabor znanja, sposobnosti in potrdil, ki jih mo
 
 Čas človeških virov je v ponudbi običajno naveden na podlagi vloge, ki jo vir izpolni pri določenem projektu. Za čas človeških virov PSA podpira izračun stroškov in zneskov za obračunavanje, ki temeljijo na vlogah virov. Ceno za čas je mogoče določiti v kateri koli enoti v skupini enot **Čas**.
 
-Skupina enot **Čas** je ustvarjena, ko namestite aplikacijo PSA. Privzeto ima nastavljeno enoto **Ura**. Atributov skupine enot **Čas** enote **Ura** ni mogoče izbrisati, preimenovati ali urejati. Vendar pa lahko v skupino enot **Čas** dodate druge enote. Če poskušate izbrisati skupino enot **Čas** ali **Ura** , lahko povzročite napake v poslovni logiki aplikacije PSA.
+Skupina enot **Čas** je ustvarjena, ko namestite aplikacijo PSA. Privzeto ima nastavljeno enoto **Ura**. Atributov skupine enot **Čas** enote **Ura** ni mogoče izbrisati, preimenovati ali urejati. Vendar pa lahko v skupino enot **Čas** dodate druge enote. Če poskušate izbrisati skupino enot **Čas** ali **Ura**, lahko povzročite napake v poslovni logiki aplikacije PSA.
 
 > ![Konfiguriranje cen glede na vlogo](media/basic-guide-13.png)
  

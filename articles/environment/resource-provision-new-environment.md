@@ -3,17 +3,17 @@ title: Omogočanje novega okolja
 description: Ta tema vsebuje informacije o omogočanju novega okolja v storitvi Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084643"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121193"
 ---
 # <a name="provision-a-new-environment"></a>Omogočanje novega okolja
 
@@ -26,7 +26,7 @@ Ta tema ponuja informacije o tem, kako omogočiti novo okolje Dynamics 365 Proje
 Uporabite naslednje korake, da omogočite avtomatizirano omogočanje uporabe storitve Project Operations za vaš projekt LCS.
 
 1. Odprite [LCS](https://lcs.dynamics.com/v2) in izberite ploščico **Upravljanje funkcije predogleda**.
-2. V seznamu **Funkcija predogleda** izberite **Funkcija Project Operations** in izberite **Omogoči funkcijo predogleda** , da omogočite storitev Project Operations.
+2. V seznamu **Funkcija predogleda** izberite **Funkcija Project Operations** in izberite **Omogoči funkcijo predogleda**, da omogočite storitev Project Operations.
 
 > [!NOTE]
 > Ta korak se izvede samo enkrat za posamezni projekt LCS.
@@ -40,7 +40,7 @@ Uporabite naslednje korake, da omogočite avtomatizirano omogočanje uporabe sto
 > Prepričajte se, da je izbrana različica aplikacije 10.0.13 ali novejša.
 
 3. če želite omogočiti storitev Project Operations odprite možnost **Napredne nastavitve** in izberite **Common Data Service**. 
-4. Omogočite **Nastavitev Common Data Service** , tako da izberete **Da** in vnesite podatke v zahtevana polja:
+4. Omogočite **Nastavitev Common Data Service**, tako da izberete **Da** in vnesite podatke v zahtevana polja:
 
   - Imenu
   - Regija
@@ -54,7 +54,7 @@ Uporabite naslednje korake, da omogočite avtomatizirano omogočanje uporabe sto
 ![Nastavitve uvedbe](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
-> Izberite možnost **Strinjam se** , da potrdite pogoje storitve, nato izberite **Končano** , da se vrnete v nastavitve uvajanja.
+> Izberite možnost **Strinjam se**, da potrdite pogoje storitve, nato izberite **Končano**, da se vrnete v nastavitve uvajanja.
 
 ![Soglasje uvedbe](./media/2DeploymentConsent.png)
 
@@ -116,7 +116,7 @@ Vzdrževanje okolja bo trajalo nekaj časa. Ko bo končano, se bo okolje vrnilo 
 
 ![Povezava do CDS](./media/12LinktoCDS.png)
 
-4. Izberite **Uporabi rešitev** , če želite dostopati do entitet, ki bodo preslikane v integraciji.
+4. Izberite **Uporabi rešitev**, če želite dostopati do entitet, ki bodo preslikane v integraciji.
 
 ![Uporaba rešitev](./media/13ApplySolutions.png)
 
@@ -177,7 +177,7 @@ Osveževanje bo trajalo približno 20 minut. Ko bo končano, boste prejeli obves
 
 5. Po zaključenem osveževanju izvajajte zemljevid. Preden omogočite naslednji zemljevid, preverite, ali je zemljevid v tabeli v stanju **Se izvaja**. Izvajanje zemljevidov z večjim številom predhodnih zahtev lahko traja nekaj časa.
 
-Za izvajanje zemljevida s predhodnimi zahtevami omogočite preklopno stikalo **Prikaz zemljevidov povezanih entitet**. Če je v tabeli možnost **Predpogoj za začetno sinhronizacijo** nastavljena na **Ne** , preverite, ali je zastavica **Začetna sinhronizacija** nastavljena na **Izklopljeno** na vseh zahtevanih zemljevidih, preden jih zaženete.
+Za izvajanje zemljevida s predhodnimi zahtevami omogočite preklopno stikalo **Prikaz zemljevidov povezanih entitet**. Če je v tabeli možnost **Predpogoj za začetno sinhronizacijo** nastavljena na **Ne**, preverite, ali je zastavica **Začetna sinhronizacija** nastavljena na **Izklopljeno** na vseh zahtevanih zemljevidih, preden jih zaženete.
 
 ![Zagon zemljevida](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Za izvajanje zemljevida s predhodnimi zahtevami omogočite preklopno stikalo **P
 
 ![Vsi zemljevidi se izvajajo](./media/22AllMapsRunning.png)
 
-Vaše okolje Project Operations je zdaj omogočeno in konfigurirano.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Uporaba konfiguracijskih podatkov v storitvi CDS za Project Operations (izbirno)
+
+Če ste predstavitvene podatke uporabili za okolje Finance in jih želite uporabiti v okolju CDS, glejte [Nastavitev in uporaba konfiguracijskih podatkov v storitvi Common Data Service za Project Operations](resource-apply-pro-setup-config-data.md).
+
+
+Vaše okolje Project Operations je zdaj omogočeno in konfigurirano. 

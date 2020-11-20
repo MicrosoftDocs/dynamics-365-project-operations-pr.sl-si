@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096772"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122903"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfiguracija integracije storitve Project Operations po pravnih osebah 
 
@@ -32,7 +32,7 @@ Izvedite naslednje korake, da omogočite zahtevane funkcije.
     - **Omogočanje storitve Project Operations za Dynamics 365 Customer Engagement**
 
 > [!NOTE]
-> Če **ključi funkcij** niso navedeni, preverite, ali vaša različica storitve za finance izpolnjuje najmanjše zahteve glede različice (različica aplikacije 10.0.13 z vsemi posodobitvami kakovosti ali novejša različica). Izberite **Preveri, ali so na voljo posodobitve** , da osvežite seznam funkcij.
+> Če **ključi funkcij** niso navedeni, preverite, ali vaša različica storitve za finance izpolnjuje najmanjše zahteve glede različice (različica aplikacije 10.0.13 z vsemi posodobitvami kakovosti ali novejša različica). Izberite **Preveri, ali so na voljo posodobitve**, da osvežite seznam funkcij.
 
 ## <a name="define-the-project-operations-deployment-scenario-for-a-legal-entity"></a>Opredelitev scenarija za uvajanje storitve Project Operations za pravno osebo
 
@@ -48,6 +48,6 @@ Project Operations lahko omogočite v storitvi Dynamics 365 Customer Engagement 
 
 Vsaka pravna oseba, ki uporablja Project Operations v okviru storitve Dynamics 365 Customer Engagement, potrebuje nabor privzetih parametrov. Ti parametri so nastavljeni na zavihku **Project Operations** na strani **Vodenje projektov in računovodski parametri**. Parametri so naslednji:
 
-  - **Privzete vrednosti vrste obračunavanja** : Project Operations uporablja fiksni nabor privzetih vrednosti vrste obračunavanja, ki jih je treba preslikati v lastnosti vrstic storitve za finance. Ustvarite zapis za vsako vrsto obračunavanja: **Ni določeno** , **Se zaračuna** , **Se ne zaračuna** , **Brezplačno** in **Ni na voljo**.
-  - **Privzete vrednosti za kategorije projektov** : izberite privzete kategorije projektov, ki se bodo uporabljale za vsako vrsto transakcije. Te privzete vrednosti se bodo uporabljale pri možnosti **Dnevnik integracij za Project Operations** in pri ocenah, kjer za dejanske vrednosti projekta ni določena nobena kategorija transakcij.
-  - **Napovedi** : izberite model napovedi, ki se bo uporabljal za oceno časa in stroškov.
+  - **Privzete vrednosti vrste obračunavanja**: Project Operations uporablja fiksni nabor privzetih vrednosti vrste obračunavanja, ki jih je treba preslikati v lastnosti vrstic storitve za finance. Ustvarite zapis za vsako vrsto obračunavanja: **Ni določeno**, **Se zaračuna**, **Se ne zaračuna**, **Brezplačno** in **Ni na voljo**.
+  - **Privzete vrednosti za kategorije projektov**: izberite privzete kategorije projektov, ki se bodo uporabljale za vsako vrsto transakcije. Te privzete vrednosti se bodo uporabljale pri možnosti **Dnevnik integracij za Project Operations** in pri ocenah, kjer za dejanske vrednosti projekta ni določena nobena kategorija transakcij.
+  - **Napovedi**: izberite model napovedi, ki se bo uporabljal za oceno časa in stroškov.

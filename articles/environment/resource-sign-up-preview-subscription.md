@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084642"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121148"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prijava za naročnino na predogledno različico storitve Project Operations za primere uporabe z viri/brez zalog
 
@@ -42,7 +42,7 @@ Ko bo vaša [zahteva za predogled](https://forms.office.com/FormsPro/Pages/Respo
 
 Preden začnete, se prepričajte, da ste prijavljeni v brskalnik z uporabnikovim službenim računom v najemniku, kjer želite imeti predogled aplikacije Project Operations.
 
-1. Unovčite kodo prve ponudbe **Dynamics 365 Project Operations (CRM) – preskusna različica** , tako da jo prilepite v URL brskalnika.
+1. Unovčite kodo prve ponudbe **Dynamics 365 Project Operations (CRM) – preskusna različica**, tako da jo prilepite v URL brskalnika.
 
 ![Prevzem ponudbe](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +75,7 @@ Ponovite iste korake z zadnjo ponudbo iz e-poštnega sporočila z dobrodošlico.
 
 ![Dodeljevanje licenc](./media/15AssignLicenses.png)
 
-3. Preverite, ali sta izbrani licenci za **Dynamics 365 Project Operations (CRM) predogledna različica** in **Office 365 Project Operations – predogledna različica** , in izberite **Shrani spremembe**.
+3. Preverite, ali sta izbrani licenci za **Dynamics 365 Project Operations (CRM) predogledna različica** in **Office 365 Project Operations – predogledna različica**, in izberite **Shrani spremembe**.
 
 > [!NOTE]
 > Preskusne ponudbe storitve Finance ni treba dodeliti uporabniku.

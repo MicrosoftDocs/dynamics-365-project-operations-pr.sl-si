@@ -3,7 +3,7 @@ title: Začasna rezervacija vira
 description: V tej temi so na voljo informacije o tem, kako okvirno načrtujete ali začasno rezervirate člane projektne ekipe.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/25/2019
@@ -12,12 +12,12 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: cb506a519dbc490ecdd579edf1e3fa5dd0153bdb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af71ff9d60e237a9d1379b3ccd4c0d5ffce411e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084881"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122228"
 ---
 # <a name="soft-book-a-resource"></a>Začasna rezervacija vira
 
@@ -25,7 +25,7 @@ ms.locfileid: "4084881"
 
 Za vir lahko okvirno načrtujete ali začasno rezervirate projektno ekipo in tako nakažete, da boste temu viru dodelili projekt. Začasna rezervacija ne zmanjša razpoložljive zmogljivosti vira, pri čemer lahko začasno rezervirane člane ekipe dodelite projektnim nalogam. Ker začasna rezervacija ne zavzame zmogljivosti vira, lahko ta vir v istem obdobju veljavno rezervirate za druge naloge. Splošnih virov ni mogoče začasno rezervirati, prav tako začasna rezervacija ne more izpolniti zahteve za splošni vir.
 
-Začasno rezervirani člani projektne ekipe so navedeni na zavihku **Ekipa** na strani **Projekt** , pri čemer so začasno rezervirane ure prikazane v stolpcu **Začasno rezervirane ure** , v pogledu **Imenovani člani ekipe**. Začasno rezervirani člani ekipe so navedeni tudi na plošči razporeda. Ker so člani začasno rezervirani, za te vire na plošči razporeda ni prikazana zmanjšana zmogljivost. Začasno rezervirani čas ni prikazan na zavihku **Uskladitev** , niti v polju **Podaljšajte rezervacije** na zavihku **Uskladitev** na plošči razporeda. 
+Začasno rezervirani člani projektne ekipe so navedeni na zavihku **Ekipa** na strani **Projekt**, pri čemer so začasno rezervirane ure prikazane v stolpcu **Začasno rezervirane ure**, v pogledu **Imenovani člani ekipe**. Začasno rezervirani člani ekipe so navedeni tudi na plošči razporeda. Ker so člani začasno rezervirani, za te vire na plošči razporeda ni prikazana zmanjšana zmogljivost. Začasno rezervirani čas ni prikazan na zavihku **Uskladitev**, niti v polju **Podaljšajte rezervacije** na zavihku **Uskladitev** na plošči razporeda. 
 
 Člana ekipe za projekt lahko začasno rezervirate na dva načina: neposredno na plošči razporeda ali z dodajanjem člana ekipe na zavihku **Ekipa**. 
 
@@ -57,11 +57,11 @@ Za začasno rezervacijo vira na plošči razporeda dokončajte spodnje korake.
 8. Ko zaprete ploščo razporeda, boste videli, da so se v pogledu **Poimenovani člani ekipe** na zavihku **Ekipa** ure za vir premaknile iz stolpca **Veljavno rezervirane ure** v **Začasno rezervirane ure**.
 
 > [!NOTE]
-> Če v ekipi veljavno rezervirate vir in temu viru dodelite opravila, nato pa uporabite **Upravljanje rezervacij** , da spremenite stanje iz **Veljavno** v **Začasno** , se dodelitve opravil za vir ohranijo. Vseeno pa bo na zavihku **Uskladitev** pri tem viru prikazan primanjkljaj rezervacij, ker so za uskladitev upoštevane samo veljavne rezervacije, ne pa tudi dodelitve. Uporabite lahko tudi funkcijo **Podaljšaj rezervacije** na zavihku **Uskladitev** in tako veljavno rezervirate vir, pri čemer se odpravi primanjkljaj veljavnih rezervacij glede na dodelitve. V možnosti **Upravljaj rezervacije** morate preklicati začasno rezervacijo za vir.
+> Če v ekipi veljavno rezervirate vir in temu viru dodelite opravila, nato pa uporabite **Upravljanje rezervacij**, da spremenite stanje iz **Veljavno** v **Začasno**, se dodelitve opravil za vir ohranijo. Vseeno pa bo na zavihku **Uskladitev** pri tem viru prikazan primanjkljaj rezervacij, ker so za uskladitev upoštevane samo veljavne rezervacije, ne pa tudi dodelitve. Uporabite lahko tudi funkcijo **Podaljšaj rezervacije** na zavihku **Uskladitev** in tako veljavno rezervirate vir, pri čemer se odpravi primanjkljaj veljavnih rezervacij glede na dodelitve. V možnosti **Upravljaj rezervacije** morate preklicati začasno rezervacijo za vir.
 
 Ko ste pripravljeni na spremembo začasne rezervacije člana ekipe v veljavno rezervacijo, naredite naslednje:
 
 1. Na plošči razporeda razširite vir, da prikažete rezervacije. Rezervacija bo prikazana kot **Začasna**.
 2. Z desno tipko miške kliknite rezervacijo in pod možnostjo **Sprememba stanja** izberite **Veljavna rezervacija** \> **Veljavna**. Stanje rezervacije je zdaj **Veljavna**.
-3. Ko zaprete ploščo razporeda, se vrnete na projekt ter odprete zavihek **Ekipa** , vidite, da so ure za vir v pogledu **Poimenovani člani ekipe** na zavihku **Ekipa** premaknjene iz stolpca **Začasno rezervirane ure** v stolpec **Veljavno rezervirane ure**. Če je bil vir dodeljen opravilu, na zavihku **Uskladitev** primanjkljaj rezervacij ni več prikazan, saj je rezervacija zdaj veljavna.
+3. Ko zaprete ploščo razporeda, se vrnete na projekt ter odprete zavihek **Ekipa**, vidite, da so ure za vir v pogledu **Poimenovani člani ekipe** na zavihku **Ekipa** premaknjene iz stolpca **Začasno rezervirane ure** v stolpec **Veljavno rezervirane ure**. Če je bil vir dodeljen opravilu, na zavihku **Uskladitev** primanjkljaj rezervacij ni več prikazan, saj je rezervacija zdaj veljavna.
 

@@ -3,7 +3,7 @@ title: Pogosta vprašanja in odgovori o upravljanju virov
 description: Ta tema vsebuje odgovore na pogosta vprašanja o upravljanju virov.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084967"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120158"
 ---
 # <a name="resource-management-faq"></a>Pogosta vprašanja in odgovori o upravljanju virov
 
@@ -43,11 +43,11 @@ Začasne rezervacije je mogoče opraviti ob rezervaciji zahtevanega pogoja za vi
 
 ## <a name="how-do-i-change-the-required-hours-and-the-start-and-end-dates-for-a-resource-generic-or-named-that-i-booked"></a>Kako spremenim zahtevane ure ter začetne in končne datume za vir (splošen ali poimenovan), ki sem ga rezerviral/a?
 
-Po opravljeni rezervaciji virov izberite **Upravljanje rezervacij** , če želite izvesti kakršne koli spremembe.
+Po opravljeni rezervaciji virov izberite **Upravljanje rezervacij**, če želite izvesti kakršne koli spremembe.
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Katere vrste virov podpira Project Service Automation?
 
-V aplikaciji Dynamics 365 Project Service Automation sta podprti le vrsti virov **Uporabnik** in **Stik**. Druge vrste virov (na primer **Oprema** in **Skupina** ) sicer lahko ustvarite, vendar zanje ni podprt noben celovit primer uporabe.
+V aplikaciji Dynamics 365 Project Service Automation sta podprti le vrsti virov **Uporabnik** in **Stik**. Druge vrste virov (na primer **Oprema** in **Skupina**) sicer lahko ustvarite, vendar zanje ni podprt noben celovit primer uporabe.
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Kakšna je razlika med dodelitvijo in rezervacijo?
 

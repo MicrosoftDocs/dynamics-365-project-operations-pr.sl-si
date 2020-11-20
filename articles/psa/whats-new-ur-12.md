@@ -3,7 +3,7 @@ title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 
 description: V tej temi so na voljo informacije o novostih v izdaji posodobitve za Project Service Automation 12, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 62c3a0c5cfbecb568faef570da309c20afd86de9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fc92a5dcc111688159f9be5b2839b7c040404a3b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084717"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119978"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Izdaja posodobitve 12 za Project Service Automation, V3
 Z veseljem predstavljamo najnovejšo posodobitev za aplikacijo Dynamics 365 Project Service Automation (PSA). Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Ta izdaja je združljiva s storitvijo Dynamics 365 9.x. Če želite posodobiti na to izdajo, obiščite skrbniško središče za Dynamics 365 online in odprite stran z rešitvami, da namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
@@ -39,7 +39,7 @@ V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za Proje
     - Popravljeno: mreža in razpored časovnih vnosov pravilno prikazujeta navpični drsni trak, ko je potrebno.
     - Popravljeno: poslani stroškovni in časovni vnosi so lahko odobreni.
     - Popravljeno: pogovorno okno za potrditev preklica odobritve je bilo popravljeno, da odraža stanje odobritve ob spremembi z **Odobreno** na **Poslano**.
-    - Popravljeno: polja **Cena** , **Enota** in **Količina** so zdaj zaklenjena na zapisu »Strošek«, potem ko je odobren.
+    - Popravljeno: polja **Cena**, **Enota** in **Količina** so zdaj zaklenjena na zapisu »Strošek«, potem ko je odobren.
 
 - Vodenje projektov
 

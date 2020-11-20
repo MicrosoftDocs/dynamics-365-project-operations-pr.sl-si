@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 504aa90bfb478207059b5e2894a3990f9a4a5e9e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 702402854c0787dae0bde854c9c274f5c23c131f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084824"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119618"
 ---
 # <a name="product-price-lists"></a>Ceniki za izdelke
 
@@ -42,11 +42,11 @@ Izdelke iz kataloga izdelkov lahko dodajate različnim cenikom. Vrstice cenika z
 
 PSA podpira različne načine zaokroževanja, ko so cene konfigurirane kot funkcija cenika, standardnih stroškov ali trenutnih stroškov. Izkoristite lahko več načinov oblikovanja cen in zaokroževanja ter tudi povežete sezname popustov z elementi cenika. 
 
-Ko ustvarite nov cenik po meri za ponudbo tako, da izberete možnost **Ustvarjanje cen po meri** na strani **Projektna ponudba** , se ustvari kopija cenika in polje **Entiteta** v glavi novega cenika je nastavljeno na **Entiteta za prodajo**. Ime novega cenika je priloženo z imenom ponudbe in časovnim žigom. Ime novega cenika in ime ponudbe v potekih dela po meri lahko uporabite tudi za to, da sprožite dodaten pregled in odobritve za ponudbe, ki uporabljajo cene po meri.
+Ko ustvarite nov cenik po meri za ponudbo tako, da izberete možnost **Ustvarjanje cen po meri** na strani **Projektna ponudba**, se ustvari kopija cenika in polje **Entiteta** v glavi novega cenika je nastavljeno na **Entiteta za prodajo**. Ime novega cenika je priloženo z imenom ponudbe in časovnim žigom. Ime novega cenika in ime ponudbe v potekih dela po meri lahko uporabite tudi za to, da sprožite dodaten pregled in odobritve za ponudbe, ki uporabljajo cene po meri.
 
  
 ## <a name="default-product-price-list"></a>Privzeti cenik izdelkov
-Vsak zapis stranke ima polje **Privzeti cenik** , kjer lahko navedete cenik, ki ustreza valuti stranke. Privzeta vrednost ni samodejno vnesena v to polje. Če imate z določeno stranko poseben dogovor o cenah, lahko uporabite to polje, da povežete cenik s to stranko.
+Vsak zapis stranke ima polje **Privzeti cenik**, kjer lahko navedete cenik, ki ustreza valuti stranke. Privzeta vrednost ni samodejno vnesena v to polje. Če imate z določeno stranko poseben dogovor o cenah, lahko uporabite to polje, da povežete cenik s to stranko.
 
 Entitete »Priložnost«, »Ponudba« in »Projektna pogodba« uporabljajo spodnji vrstni red za vnos privzetih cenikov izdelkov. Isti vrstni red se uporablja za cenike projekta.
 

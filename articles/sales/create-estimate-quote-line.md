@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084784"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122948"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Ustvarjanje ocen za podrobnosti ponudbe
 
@@ -83,8 +83,8 @@ Spodnja tabela vam bo v pomoč pri razumevanju poslovne logike v fazi ocenjevanj
 2. Izberite **Iskanje** in poiščite vtičnik, ki ga želite posodobiti.
 3. Izberite vtičnik in nato na glavni strani izberite **Izberi**.
 4. V vtičniku izberite korak za posodobitev, ga kliknite z desno miškino tipko in nato izberite **Posodobi**.
-5. V pogovornem oknu **Posodobi obstoječi korak** v polju **Atributi filtriranja** izberite gumb s tremi pikami ( **...** ):
+5. V pogovornem oknu **Posodobi obstoječi korak** v polju **Atributi filtriranja** izberite gumb s tremi pikami (**...**):
 6. V pogovornem oknu **Izberite atribute** izberite potrditvena polja za atribute po meri.
-7. Izberite **V redu** , da zaprete pogovorno okno, in nato **Posodobi korak**.
+7. Izberite **V redu**, da zaprete pogovorno okno, in nato **Posodobi korak**.
 8. Ponovite korake od 1 do 7 za drugi vtičnik.
 9. Zaprite PluginRegistrationTool.

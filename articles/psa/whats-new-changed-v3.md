@@ -2,7 +2,7 @@
 title: Novosti ali spremembe v storitvi Project Service Automation različice 3
 description: V tej temi so na voljo informacije o novostih in spremembah v storitvi Project Service Automation različice 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084718"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120023"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novosti ali spremembe v storitvi Project Service Automation različice 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -94,7 +94,7 @@ Ocene so razdeljene na dva zavihka: **Dodelitve virov** in **Ocene**. Zavihek **
 
 ![Zavihek »Dodelitve virov«, ki prikazuje ocene obsega dela in dodelitve virov za opravila](media/resource-assignments-tab-02.png)
 
-Zavihek **Ocene** prikazuje zneske stroškov in prodajne zneske za dodelitve virov. Zneski so samo za branje. Zneski stroškov in prodajni zneski zdaj temeljijo na dodelitvah člankov ekipe na razporedu. Če imate opravilo brez dodelitev, to pomeni, da bo opravilo prikazano v nedodeljenem vedru. To pomeni tudi, da brez **vloge** , ki je privzeta cenovna razsežnost, ne bo predvidenih stroškov ali prodaje, če imate kupca ali pogodbo/ponudbo, povezano s projektom. 
+Zavihek **Ocene** prikazuje zneske stroškov in prodajne zneske za dodelitve virov. Zneski so samo za branje. Zneski stroškov in prodajni zneski zdaj temeljijo na dodelitvah člankov ekipe na razporedu. Če imate opravilo brez dodelitev, to pomeni, da bo opravilo prikazano v nedodeljenem vedru. To pomeni tudi, da brez **vloge**, ki je privzeta cenovna razsežnost, ne bo predvidenih stroškov ali prodaje, če imate kupca ali pogodbo/ponudbo, povezano s projektom. 
 
 ![Zavihek »Ocene« , ki prikazuje zneske stroškov in prodajne zneske](media/estimates-tab-03.png)
   
@@ -112,7 +112,7 @@ V različici 3 storitve Project Service Automation, ki vključuje nov poenoteni
 ### <a name="assign-a-real-bookable-resource"></a>Dodeljevanje pravega vira, ki ga je mogoče rezervirati 
 V različici 3 storitve Project Service Automation pa rezervacije in dodelitve opravil niso tako tesno prepletene kot v prejšnjih različicah storitve Project Service Automation. Mrežo ekipe lahko uporabite, da rezervirate **pravega** člana ekipe, podobno kot na trgu.
 
-Z izbirnikom za vire na razporedu lahko izberete člana ekipe, ki ste ga ustvarili v pogledu ekipe, in ga nato dodelite opravilom. Še naprej mu lahko dodeljujete opravila, tudi mimo njegovih rezervacij. Uporabite zavihek **Uskladitev** , da uskladite člane skupine z razlikami pri rezervacijah in dodelitvah.
+Z izbirnikom za vire na razporedu lahko izberete člana ekipe, ki ste ga ustvarili v pogledu ekipe, in ga nato dodelite opravilom. Še naprej mu lahko dodeljujete opravila, tudi mimo njegovih rezervacij. Uporabite zavihek **Uskladitev**, da uskladite člane skupine z razlikami pri rezervacijah in dodelitvah.
 
 Izbirnik za vire bo prikazal člane ekipe za projekt. Izbirnik za vire lahko uporabite tudi za iskanje in ogled drugih virov, ki jih je mogoče rezervirati in niso del projektne ekipe. Vire lahko dodelite opravilu in postali bodo del projektne ekipe. Rezervirati jih morate s **ploščo razporeda** ali z zavihkom **Uskladitev**.
 
@@ -146,19 +146,19 @@ Pogled upošteva razliko med rezervacijami člana ekipe in skupno vrednostjo nje
 V tem razdelku so navedene informacije o spremembah časa, stroškov in odobritev v različici 3 storitve Project Service Automation. Kot del rešitve Dynamics 365 Project Service Automation je bila funkcija **Časovni vnos** osvežena za uporabo ogrodja poenotenega vmesnika. To zagotavlja skladen in enoten uporabniški vmesnik, ki sledi odzivnemu oblikovanju za optimalen prikaz na zaslonu poljubne velikosti ali kateri koli napravi. 
 
 ### <a name="landing-page"></a>Ciljna stran
-Nerazširljiva izkušnja časovnega vnosa po meri je v različici 3 zastarela. Namesto tega je na voljo razširljiva in dostopna izkušnja izvorne mreže. Do funkcije časovnega vnosa lahko dostopate z zemljevidom mesta na levi strani. Zaradi te spremembe ne boste več mogli hkrati vnesti časa za en teden. Namesto tega boste morali ustvariti časovni vnos za vsak dan v mreži. Po ustvarjanju nekaj časovnih vnosov lahko uporabniki množično ustvarjajo časovne vnose s funkcijo **Kopiraj** , kot je razloženo v nadaljevanju te teme. 
+Nerazširljiva izkušnja časovnega vnosa po meri je v različici 3 zastarela. Namesto tega je na voljo razširljiva in dostopna izkušnja izvorne mreže. Do funkcije časovnega vnosa lahko dostopate z zemljevidom mesta na levi strani. Zaradi te spremembe ne boste več mogli hkrati vnesti časa za en teden. Namesto tega boste morali ustvariti časovni vnos za vsak dan v mreži. Po ustvarjanju nekaj časovnih vnosov lahko uporabniki množično ustvarjajo časovne vnose s funkcijo **Kopiraj**, kot je razloženo v nadaljevanju te teme. 
 
 ![Ciljna stran za časovne vnose](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Ustvarjanje novih časovnih vnosov 
-V traku kliknite možnost **Novo** , da odprete stran za hitro ustvarjanje za časovni vnos, kjer lahko vnesete trajanje v minutah, urah ali dnevih. Če želite to narediti, začnite vnašati »h«, »m« ali »d« skupaj s količino.  
+V traku kliknite možnost **Novo**, da odprete stran za hitro ustvarjanje za časovni vnos, kjer lahko vnesete trajanje v minutah, urah ali dnevih. Če želite to narediti, začnite vnašati »h«, »m« ali »d« skupaj s količino.  
 
 ![Hitro ustvarjanje časovnega vnosa](media/quick-create-time-entry-08.png)
 
 Polja za iskanje so podprta s sistemskimi pogledi. Ko na primer vnesete podatke o projektu, je polje **Projektno opravilo** privzeto nastavljeno na pogled **Moja odprta projektna opravila**. Če želite ustvariti časovne vnose za opravila, ki niso dodeljena uporabniku, v iskalnem polju kliknite **Spremeni pogled** in izberite možnost **Vsa dejavna projektna opravila**. Ko je časovni vnos ustvarjen in prikazan v mreži, lahko vse vrednosti vrstice uredite neposredno v mreži.  
 
 ### <a name="bulk-createcopy"></a>Množično ustvarjanje/kopiranje 
-Ko ustvarite nekaj časovnih vnosov, lahko uporabite funkcijo kopiranja za množično ustvarjanje dodatnih časovnih vnosov. Za odpiranje pogovornega okna **Kopiranje** kliknite možnost **Kopiraj**. V možnosti **Od obdobja: začetni datum** nastavite datumski obseg, iz katerega bodo kopirana časovna obdobja. V možnosti **Do obdobja: začetni datum** določite datum, za katerega je treba ustvariti časovne vnose. Kliknite **Kopiraj** , da časovne vnose kopirate v ustrezen dan v tednu, ki je označen v možnosti **Do obdobja**. Ponedeljkov časovni vnos iz prejšnjega tedna bo kopiran v ponedeljek za teden, ki je označen v možnosti **Do obdobja**. 
+Ko ustvarite nekaj časovnih vnosov, lahko uporabite funkcijo kopiranja za množično ustvarjanje dodatnih časovnih vnosov. Za odpiranje pogovornega okna **Kopiranje** kliknite možnost **Kopiraj**. V možnosti **Od obdobja: začetni datum** nastavite datumski obseg, iz katerega bodo kopirana časovna obdobja. V možnosti **Do obdobja: začetni datum** določite datum, za katerega je treba ustvariti časovne vnose. Kliknite **Kopiraj**, da časovne vnose kopirate v ustrezen dan v tednu, ki je označen v možnosti **Do obdobja**. Ponedeljkov časovni vnos iz prejšnjega tedna bo kopiran v ponedeljek za teden, ki je označen v možnosti **Do obdobja**. 
 
 ![Množično kopiranje časovnih vnosov](media/bulk-copy-time-entry-09.png)
  
@@ -192,7 +192,7 @@ Platforma Common Data Service ne podpira uporabnika, ki pooseblja drugega, kar p
 Prilagajanje omogoča dodajanje **Vira, ki ga je mogoče rezervirati** v izkušnje ustvarjanja in urejanja, kar bo uporabniku omogočilo, da deluje kot pooblaščenec tako, da polje **Vir, ki ga je mogoče rezervirati** dodeli drugemu uporabniku, za katerega je treba zabeležiti vnose časa in stroškov. Naslednji koraki zajemajo pooblaščanje za časovne vnose. Isti podatki veljajo za pooblastitve vnosov stroškov. 
  
 1.  Prepričajte se, da pooblaščeni uporabnik ima globalni varnostni dostop do projektov in projektnih opravil. 
-1.  Ker polje **Vir, ki ga je mogoče rezervirati** v entiteti **Časovni vnos** ni prikazano na strani za **hitro ustvarjanje** , ga morate dodati.
+1.  Ker polje **Vir, ki ga je mogoče rezervirati** v entiteti **Časovni vnos** ni prikazano na strani za **hitro ustvarjanje**, ga morate dodati.
 
     –ali–
 
@@ -201,13 +201,13 @@ Prilagajanje omogoča dodajanje **Vira, ki ga je mogoče rezervirati** v izkušn
     - »PreValidateTimeEntryCreate«
     - »PreValidateTimeEntryUpdate«
  
-1. Ustvarite nov vtičnik, da prepišete polje **Vodja** z vodjo uporabnika, ki je dodeljen v polju **Vir, ki ga je mogoče rezervirati**. Uporabite isto **stopnjo izvedbe** kot vtičnik zunaj pasu (OOB) (pred preverjanjem veljavnosti) in **Vrstni red izvedbe** , ki je na višji ravni kot vtičniki OOB (več kot 1). S tem boste zagotovili, da se vtičnik po meri izvede po vtičnikih OOB.  
+1. Ustvarite nov vtičnik, da prepišete polje **Vodja** z vodjo uporabnika, ki je dodeljen v polju **Vir, ki ga je mogoče rezervirati**. Uporabite isto **stopnjo izvedbe** kot vtičnik zunaj pasu (OOB) (pred preverjanjem veljavnosti) in **Vrstni red izvedbe**, ki je na višji ravni kot vtičniki OOB (več kot 1). S tem boste zagotovili, da se vtičnik po meri izvede po vtičnikih OOB.  
  
 ### <a name="end-user-experience"></a>Izkušnja končnega uporabnika
-1.  Ko ustvarite časovni vnos na strani za hitro ustvarjanje, vnesite podrobnosti o projektu in projektnem opravilu ter nato izberite uporabnika v polja **Vir, ki ga je mogoče rezervirati** , za katerega želite zabeležiti časovne vnose. 
+1.  Ko ustvarite časovni vnos na strani za hitro ustvarjanje, vnesite podrobnosti o projektu in projektnem opravilu ter nato izberite uporabnika v polja **Vir, ki ga je mogoče rezervirati**, za katerega želite zabeležiti časovne vnose. 
 2.  Privzeta vrednost za to polje je prijavljeni uporabnik, toda glede na to, da je uporabnik preglasil to polje, je časovni vnos zdaj ustvarjen za izbrani **Vir, ki ga je mogoče rezervirati**.
 3.  Ko pošljete časovne vnose, ki ste jih ustvarili za te zapise, bodo vnosi v skladu s pričakovanji v čakalni vrsti odobritelja v projektu. 
-4.  Ko časovne vnose, ustvarjene za drugega uporabnika, prekličete, bodo vrnjeni v stanje **Osnutek** s poljem **Vir, ki ga je mogoče rezervirati** , ki je nastavljeno za drugega uporabnika. 
+4.  Ko časovne vnose, ustvarjene za drugega uporabnika, prekličete, bodo vrnjeni v stanje **Osnutek** s poljem **Vir, ki ga je mogoče rezervirati**, ki je nastavljeno za drugega uporabnika. 
 5.  Izbirno lahko preklopite na pogled po meri, da filtrirate časovne vnose, ustvarjene za drugega uporabnika. 
  
 ### <a name="limitations"></a>Omejitve
@@ -229,9 +229,9 @@ Za stranke storitve Project Service Automation, ki želijo še naprej uporabljat
 V različici 3 storitve Project Service Automation so spremenjeni vidiki nastavitev in upravljanja ponudb in pogodb. Podrobnejše informacije so navedene v naslednjih razdelkih.
 
 ### <a name="set-up-chargeability-options"></a>Nastavitev možnosti zaračunavanja
-V različicah 1 in 2 je bila nastavitev možnosti zaračunavanja za vloge in kategorije za posebne ponudbe in pogodbe opravljena s pogledom **Možnosti zaračunavanja** , ki je bil v zgornji vrstici za krmarjenje po vrstici ponudbe ali podrobnostih pogodbe. V tej možnosti je bilo mogoče nastaviti tudi cene za vloge in kategorije stroškov.
+V različicah 1 in 2 je bila nastavitev možnosti zaračunavanja za vloge in kategorije za posebne ponudbe in pogodbe opravljena s pogledom **Možnosti zaračunavanja**, ki je bil v zgornji vrstici za krmarjenje po vrstici ponudbe ali podrobnostih pogodbe. V tej možnosti je bilo mogoče nastaviti tudi cene za vloge in kategorije stroškov.
 
-Od različice 3 bo nastavitev možnosti zaračunavanja po vlogi in kategoriji stroškov opravljena na stopnji vrstice ponudbe ali podrobnosti pogodbe. Nastavitev cen in nastavitev možnosti zaračunavanja sta ločeni. Zavihka **Vloge, ki se zaračunajo** in **Kategorije, ki se zaračunajo** lahko najdete na straneh **Vrstica ponudbe** in **Podrobnosti pogodbe** , pri čemer vam ni treba uporabljati zgornje vrstice za krmarjenje.
+Od različice 3 bo nastavitev možnosti zaračunavanja po vlogi in kategoriji stroškov opravljena na stopnji vrstice ponudbe ali podrobnosti pogodbe. Nastavitev cen in nastavitev možnosti zaračunavanja sta ločeni. Zavihka **Vloge, ki se zaračunajo** in **Kategorije, ki se zaračunajo** lahko najdete na straneh **Vrstica ponudbe** in **Podrobnosti pogodbe**, pri čemer vam ni treba uporabljati zgornje vrstice za krmarjenje.
 
 ![Vloge, ki se zaračunajo](media/chargeable-12.png)
  

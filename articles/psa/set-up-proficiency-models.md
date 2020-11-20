@@ -3,7 +3,7 @@ title: Nastavitev modelov usposobljenosti
 description: Kako nastaviti modele usposobljenosti v rešitvi Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084973"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123001"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Nastavitev modelov usposobljenosti (Project Service)
 
@@ -33,9 +33,9 @@ V projekte strank ste dodali znanje, zdaj pa potrebujete način za ocenjevanje z
   
 1.  Pojdite na **Project Service > Modeli usposobljenosti**.  
   
-2.  Če si želite ogledati ali urediti privzeti model usposobljenosti, na seznamu kliknite **Privzeti model ocenjevanja** , če pa želite ustvariti nov model usposobljenosti, kliknite **Novo**.  
+2.  Če si želite ogledati ali urediti privzeti model usposobljenosti, na seznamu kliknite **Privzeti model ocenjevanja**, če pa želite ustvariti nov model usposobljenosti, kliknite **Novo**.  
   
-3.  Če želite ustvariti nov model usposobljenosti, izpolnite polja na območju **Splošno** in kliknite **Shrani** , da ustvarite zapis in tako nadaljujete z njegovim urejanjem. Ko ustvarite nov model usposobljenosti, upoštevajte, da višje številke pomenijo boljšo usposobljenost.  
+3.  Če želite ustvariti nov model usposobljenosti, izpolnite polja na območju **Splošno** in kliknite **Shrani**, da ustvarite zapis in tako nadaljujete z njegovim urejanjem. Ko ustvarite nov model usposobljenosti, upoštevajte, da višje številke pomenijo boljšo usposobljenost.  
   
      Če si na primer ogledujete ali urejate privzeti model ocenjevanja, boste v možnosti **Vrednosti ocen** videli naslednje ravni usposobljenosti.  
   

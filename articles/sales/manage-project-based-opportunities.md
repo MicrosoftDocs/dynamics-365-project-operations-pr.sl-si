@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 39ce52d5da4c7027ee2f2fa44579c0d4bf74925e
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088109"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118493"
 ---
 # <a name="manage-project-based-opportunities"></a>Upravljanje priložnosti, ki temeljijo na projektu
 
@@ -28,7 +28,7 @@ Priložnosti, ki temeljijo na projektu, so v storitvi Dynamics 365 Project Opera
 Seznam vseh priložnosti, ki temeljijo na projektu, si lahko ogledate na strani s seznamom **Priložnost**. 
 
 1. Odprite možnost **Prodaja** > **Priložnosti**.
-2. Uporabite **Preklopnik pogleda** , da izberete druge filtrirane poglede priložnosti. Za konfiguracijo teh pogledov in možnosti navigacije lahko ustvarite svoje poglede s prilagojenimi merili filtra.
+2. Uporabite **Preklopnik pogleda**, da izberete druge filtrirane poglede priložnosti. Za konfiguracijo teh pogledov in možnosti navigacije lahko ustvarite svoje poglede s prilagojenimi merili filtra.
 
 Projektne priložnosti lahko ustvarite ali izbrišete s te strani s seznamom ali strani s podrobnostmi.
 

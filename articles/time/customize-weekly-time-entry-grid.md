@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084655"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124658"
 ---
 # <a name="extending-time-entries"></a>Razširitev časovnih vnosov
 
@@ -33,7 +33,7 @@ Podaljšanje časovnih vnosov je možno na dveh območjih:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Dodajanje časovnih vnosov po meri za lastno uporabo
 
-Časovni vnosi so osnovna entiteta, ki se uporablja v več scenarijih. V 1. aprilskem valu leta 2020 je bila predstavljena osnovna rešitev TESA. TESA zagotavlja entiteto **Nastavitve** in novo varnostno vlogo **Uporabnik časovnega vnosa**. Vključeni sta tudi novi polji **msdyn_start** in **msdyn_end** , ki imata neposredno povezavo s poljem **msdyn_duration**. Nova entiteta, varnostna vloga in polja v več aplikacijah omogočajo bolj poenoten pristop k upravljanju časa.
+Časovni vnosi so osnovna entiteta, ki se uporablja v več scenarijih. V 1. aprilskem valu leta 2020 je bila predstavljena osnovna rešitev TESA. TESA zagotavlja entiteto **Nastavitve** in novo varnostno vlogo **Uporabnik časovnega vnosa**. Vključeni sta tudi novi polji **msdyn_start** in **msdyn_end**, ki imata neposredno povezavo s poljem **msdyn_duration**. Nova entiteta, varnostna vloga in polja v več aplikacijah omogočajo bolj poenoten pristop k upravljanju časa.
 
 
 ### <a name="time-source-entity"></a>Entiteta časovnega vira
@@ -58,7 +58,7 @@ Zapis vnosa časa bo z logiko samodejno posodobljen v naslednjih primerih:
     - **msdyn_duration**
 
 - V poljih **msdyn_start** in **msdyn_end** je upoštevan časovni pas.
-- Časovni vnosi, ki so ustvarjeni samo z določenima entitetama **msdyn_date** in **msdyn_duration** , se bodo zagnali ob polnoči. Polji **msdyn_start** in **msdyn_end** se bosta ustrezno posodobili.
+- Časovni vnosi, ki so ustvarjeni samo z določenima entitetama **msdyn_date** in **msdyn_duration**, se bodo zagnali ob polnoči. Polji **msdyn_start** in **msdyn_end** se bosta ustrezno posodobili.
 
 #### <a name="time-entry-types"></a>Vrste časovnih vnosov
 
@@ -109,19 +109,19 @@ Ta pogled mora poleg stolpcev, ki jih želite imeti v mreži, vsebovati še polj
 2. Konfigurirajte kontrolnik po meri za ta pogled, da bo nastavljen na kontrolnik **Mreža časovnih vnosov**. 
 3. Ta kontrolnik dodajte v pogled in ga izberite za splet, telefon in tablični računalnik. 
 4. Konfigurirajte parametre za tedensko mrežo časovnih vnosov. 
-5. Nastavite polje **Začetni datum** na **msdyn_date** , polje **Trajanje** na **msdyn_duration** in polje **Stanje** na **msdyn_entrystatus**. 
+5. Nastavite polje **Začetni datum** na **msdyn_date**, polje **Trajanje** na **msdyn_duration** in polje **Stanje** na **msdyn_entrystatus**. 
 6. Za privzeti pogled je polje **Seznam stanj samo za branje** nastavljeno na **192350002,192350003,192350004**. Polje **Potek opravila urejanja vrstice** je nastavljeno na **msdyn_timeentryrowedit**. Polje **Potek opravila urejanja celice** je nastavljeno na **msdyn_timeentryedit**. 
 7. Ta polja lahko prilagodite, če želite dodati ali odstraniti stanje samo za branje ali uporabiti drugačno izkušnjo na podlagi opravila (TBX) za urejanje vrstic ali celic. Ta polja so zdaj vezana na statično vrednost.
 
 
 > [!NOTE] 
-> Z obema načinoma boste odstranili nekaj vnaprej nastavljenih filtrirnih možnosti v entitetah **Projekt** in **Projektna opravila** , da bodo vidni vsi pogledi za iskanje po entitetah. Med vnaprej pripravljenimi pogledi so vidni le relevantni pogledi za iskanje.
+> Z obema načinoma boste odstranili nekaj vnaprej nastavljenih filtrirnih možnosti v entitetah **Projekt** in **Projektna opravila**, da bodo vidni vsi pogledi za iskanje po entitetah. Med vnaprej pripravljenimi pogledi so vidni le relevantni pogledi za iskanje.
 
-Določite ustrezen potek opravila za polje po meri. Če ste polje dodali v mrežo, bi se moralo prikazati v poteku opravila za urejanje vrstice, ki se uporablja za polja, ki veljajo za celotno vrstico časovnih vnosov. Če ima polje po meri vsak dan drugačno vrednost, tako kot na primer polje po meri za **Končni čas** , bi moralo iti v potek opravila za urejanje celic.
+Določite ustrezen potek opravila za polje po meri. Če ste polje dodali v mrežo, bi se moralo prikazati v poteku opravila za urejanje vrstice, ki se uporablja za polja, ki veljajo za celotno vrstico časovnih vnosov. Če ima polje po meri vsak dan drugačno vrednost, tako kot na primer polje po meri za **Končni čas**, bi moralo iti v potek opravila za urejanje celic.
 
-Če želite dodati polje po meri v potek opravila, povlecite element **Polje** v ustrezen položaj na strani in nato nastavite lastnosti polja. Nastavite lastnost **Vir** na **Časovni vnos** in nato nastavite še lastnost **Podatkovno polje** v polje po meri. Lastnost **Polje** označuje prikazno ime na strani TBX. Izberite možnost **Uporabi** , da shranite spremembe v polju, in nato izberite možnost **Nadgradnja** , da shranite spremembe na strani.
+Če želite dodati polje po meri v potek opravila, povlecite element **Polje** v ustrezen položaj na strani in nato nastavite lastnosti polja. Nastavite lastnost **Vir** na **Časovni vnos** in nato nastavite še lastnost **Podatkovno polje** v polje po meri. Lastnost **Polje** označuje prikazno ime na strani TBX. Izberite možnost **Uporabi**, da shranite spremembe v polju, in nato izberite možnost **Nadgradnja**, da shranite spremembe na strani.
 
-Če želite namesto tega uporabiti novo stran TBX po meri, ustvarite nov proces. Nastavite kategorijo na **Potek poslovnega procesa** , entiteto na **Časovni vnos** in nato še vrsto poslovnega procesa na **Zaženi proces kot potek opravila**. V razdelku **Lastnosti** mora biti lastnost **Ime strani** nastavljena na prikazno ime strani. Dodajte vsa ustrezna polja na stran TBX. Shranite in aktivirajte proces. Posodobite lastnost kontrolnika po meri za ustrezen potek opravila v vrednost **Ime** za izbrani postopek.
+Če želite namesto tega uporabiti novo stran TBX po meri, ustvarite nov proces. Nastavite kategorijo na **Potek poslovnega procesa**, entiteto na **Časovni vnos** in nato še vrsto poslovnega procesa na **Zaženi proces kot potek opravila**. V razdelku **Lastnosti** mora biti lastnost **Ime strani** nastavljena na prikazno ime strani. Dodajte vsa ustrezna polja na stran TBX. Shranite in aktivirajte proces. Posodobite lastnost kontrolnika po meri za ustrezen potek opravila v vrednost **Ime** za izbrani postopek.
 
 ### <a name="add-new-option-set-values"></a>Dodajanje novih vrednosti iz nabora možnosti
 Če želite dodati vrednosti iz nabora možnosti v vnaprej nastavljeno polje, odprite stran za urejanje polja in nato pod **Vrsta** ob naboru možnosti izberite **Uredi**. Dodajte novo možnost z oznako in barvo po meri. Če želite dodati novo stanje časovnega vnosa, je pravilno ime vnaprej pripravljenega polja **Stanje vnosa** in ne **Stanje**.
@@ -143,4 +143,4 @@ Uporabite pravila poslovanja za zaklepanje in odklepanje polj, vnesite privzete 
 Uporabite preverjanje vtičnika za vsa preverjanja, ki zahtevajo več konteksta, kot je na voljo za posamezen zapis časovnega vnosa, ali vsa preverjanja, ki jih želite zagnati v posodobitvah znotraj vrstic v mreži. Če želite dokončati preverjanje, ustvarite vtičnik po meri v entiteti **Časovni vnos**.
 
 ### <a name="copying-time-entries"></a>Kopiranje časovnih vnosov
-Uporabite pogled **Kopiraj stolpce časovnih vnosov** , da določite seznam polj, ki jih želite kopirati med vnosom časa. **Datum** in **Trajanje** sta obvezni polji, ki jih ne smete odstraniti iz pogleda.
+Uporabite pogled **Kopiraj stolpce časovnih vnosov**, da določite seznam polj, ki jih želite kopirati med vnosom časa. **Datum** in **Trajanje** sta obvezni polji, ki jih ne smete odstraniti iz pogleda.

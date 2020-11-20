@@ -3,7 +3,7 @@ title: Preklic odobrenih časovnih vnosov ali vnosov stroškov
 description: V tej temi najdete informacije o tem, kako prekličete predhodno potrjen čas ali transakcijo stroškov.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084803"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120563"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Preklic odobrenih časovnih vnosov ali vnosov stroškov
 
@@ -50,7 +50,7 @@ ms.locfileid: "4084803"
     Pri vnosih stroškov izberite vrstico za vnos stroškov, ki ga želite preklicati.
 
 3. Izberite **Prekliči**. Prikaže se potrditveno pogovorno okno. Če so bili izbrani vnosi časa in stroškov že odobreni, morate vnesti razlog za preklic.
-4. Vnesite razlog za preklic in nato izberite **V redu** , da potrdite postopek. Sistem pošlje osebi, ki je odobrila vnose, zahtevo za odobritev preklica.
+4. Vnesite razlog za preklic in nato izberite **V redu**, da potrdite postopek. Sistem pošlje osebi, ki je odobrila vnose, zahtevo za odobritev preklica.
 
 > [!NOTE]
 > Čeprav je odobrene vnose časa in stroškov mogoče preklicati, pa zahteve za preklic ni mogoče ustvariti, če je kupcu že zaračunan odobren čas ali strošek. Uporabnik, ki poskuša ustvariti zahtevo za preklic, prejme sporočilo, v katerem je navedeno, da časa ali stroškov ni mogoče preklicati, ker je bil vnos že fakturiran.
@@ -62,11 +62,11 @@ ms.locfileid: "4084803"
 1. Odprite **Projekti** \> **Moje delo** \> **Odobritve**.
 2. Na strani s seznamom **Odobritve** spremenite pogled na **Zahteva za preklic za odobritev**. Prikaže se seznam poslanih zahtev za preklic.
 3. Izberite enega ali več vnosov in nato **Odobri** ali **Zavrni**.
-4. Če ste izbrali **Odobri** , prejmete opozoril, ki pojasnjuje učinek odobritve. Izberite **V redu** , da potrdite postopek. Zahteva za preklic je odobrena.
+4. Če ste izbrali **Odobri**, prejmete opozoril, ki pojasnjuje učinek odobritve. Izberite **V redu**, da potrdite postopek. Zahteva za preklic je odobrena.
 
     –ali–
 
-    Če ste izbrali **Zavrni** , je zahteva za preklic zavrnjena.
+    Če ste izbrali **Zavrni**, je zahteva za preklic zavrnjena.
 
 > [!NOTE]
 > Tako kot pri zahtevi preklica tudi pri odobritvi preklica sistem v vnosih časa ali stroškov poišče dejavnosti fakturiranja. Če je bil vnos že fakturiran ali če je v osnutku računa, bo odobritelj prejel sporočilo o napaki, v katerem je navedeno, da časa ali stroškov ni mogoče odobriti za preklic, ker je bil vnos že fakturiran.
@@ -77,11 +77,11 @@ Preklic odobritve ima operativni in finančni učinek.
 
 ### <a name="operational-impact"></a>Operativni učinek
 
-Če je zahteva za preklic odobrena, je zapis odobritve označen kot **Zavrnjeno**. Stanje vnosa se spremeni na **Vrnjeno** ali **Zavrnjeno** , odvisno od tega, ali gre za časovni vnos ali vnos stroškov.
+Če je zahteva za preklic odobrena, je zapis odobritve označen kot **Zavrnjeno**. Stanje vnosa se spremeni na **Vrnjeno** ali **Zavrnjeno**, odvisno od tega, ali gre za časovni vnos ali vnos stroškov.
 
 Član projektne ekipe si lahko ogleda vnose, jih uredi in nato znova pošlje ali pa jih v celoti izbriše.
 
-Če je zahteva za preklic zavrnjena, stanje vnosa ostane **Odobreno** , vnosa pa član projektne ekipe ali odobritelj v projektu ne more urejati.
+Če je zahteva za preklic zavrnjena, stanje vnosa ostane **Odobreno**, vnosa pa član projektne ekipe ali odobritelj v projektu ne more urejati.
 
 ### <a name="financial-impact"></a>Finančni učinek
 
@@ -90,7 +90,7 @@ Preklic odobritve ima operativni in finančni učinek.
 - Polje **Stanje prilagoditve** je posodobljeno na **Prilagojeno**.
 - Polje **Stanje obračunavanja** je posodobljeno na **Preklicano**.
 
-Nato se v tabeli »Dejanske vrednosti« ustvarijo postavke storniranja. Če želite ustvariti postavke storniranja, sistem prekopira vrednosti polj iz prvotnih dejanskih vrednosti. Edine vrednosti, ki niso prekopirane, so vrednosti količin. Te vrednosti se stornirajo. Stornirane dejanske vrednosti se ustvarijo za dejanske vrednosti **Stroški** in **Neobračunana prodaja**. Polje **Stanje prilagoditve** za stornirane dejanske vrednosti je nastavljeno na **Ni mogoče prilagoditi** , polje **Stanje obračunavanja** pa na **Preklicano**. Zaradi teh sprememb se zabeleženi stroški in zaostali prihodki v projektu ne bodo več upoštevali pri zneskih, ki jih predstavljajo te dejanske vrednosti.
+Nato se v tabeli »Dejanske vrednosti« ustvarijo postavke storniranja. Če želite ustvariti postavke storniranja, sistem prekopira vrednosti polj iz prvotnih dejanskih vrednosti. Edine vrednosti, ki niso prekopirane, so vrednosti količin. Te vrednosti se stornirajo. Stornirane dejanske vrednosti se ustvarijo za dejanske vrednosti **Stroški** in **Neobračunana prodaja**. Polje **Stanje prilagoditve** za stornirane dejanske vrednosti je nastavljeno na **Ni mogoče prilagoditi**, polje **Stanje obračunavanja** pa na **Preklicano**. Zaradi teh sprememb se zabeleženi stroški in zaostali prihodki v projektu ne bodo več upoštevali pri zneskih, ki jih predstavljajo te dejanske vrednosti.
 
 Če je zahteva za preklic zavrnjena, ni finančnega vpliva na projekt.
 

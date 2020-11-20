@@ -3,7 +3,7 @@ title: Projektne predloge
 description: Ta tema ponuja informacije o uporabi projektnih predlog za hitro nastavitev projekta.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bb82a312114e9814f5ce65a1698455582fd252e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4fd618e15524c5cef5b6da9b282f449e3dfb7973
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084918"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123054"
 ---
 # <a name="project-templates"></a>Projektne predloge 
 
@@ -49,7 +49,7 @@ Projekt lahko iz projektne naloge ustvarite na več načinov:
 
 > ![Pogovorno okno »Hitro ustvarjanje: projekt«](media/project-11.png)
 
-- Če ustvarite projekt tako, da izberete **Nov projekt** , se stran **Projekt** prikaže, preden je zapis shranjen. V polju **Izberi predlogo** izberite eno od vnaprej določenih projektnih predlog v organizaciji.
+- Če ustvarite projekt tako, da izberete **Nov projekt**, se stran **Projekt** prikaže, preden je zapis shranjen. V polju **Izberi predlogo** izberite eno od vnaprej določenih projektnih predlog v organizaciji.
 - Uporabite **Ustvari projekt iz predloge** na strani **Entiteta predloge**.
 
 ## <a name="copying-components-of-template-to-project"></a>Kopiranje komponent predloge v projekt
