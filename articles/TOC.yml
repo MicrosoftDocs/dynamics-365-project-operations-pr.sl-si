@@ -34,11 +34,13 @@
               href: environment/resource-provision-new-environment.md
             - name: Varnostni model
               href: environment/security-model.md
-            - name: Konfiguracija integracije za Project Operations za pravno osebo
+            - name: Konfiguracija integracije za aplikacijo Project Operations za pravno osebo
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Novosti
       items:
-        - name: 'November 2020 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+        - name: 'December 2020 – Aplikacija Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+          href: whats-new/whats-new-dec-2020-resource-based.md
+        - name: 'November 2020 – Aplikacija Project Operations za scenarije, ki temeljijo na virih/nezalogi'
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Prodajni proces projekta
       items:
@@ -87,7 +89,7 @@
                 - name: 'Upravljanje več strank v podrobnostih ponudb, ki temeljijo na projektih'
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Konfiguriranje plačljivih komponent podrobnosti projektne ponudbe
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Ustvarjanje ocen za podrobnosti ponudbe
                   href: sales/create-estimate-quote-line.md
                 - name: 'Uvoz ocen iz projekta v podrobnosti ponudbe, ki temelji na projektu'
@@ -109,7 +111,7 @@
             - name: Upravljanje cenikov za projekte v projektnih pogodbah
               href: sales/contracts-manage-project-price-lists.md
             - name: Upravljanje več strank v projektnih pogodbah
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: 'Podrobnosti pogodbe, ki temelji na projektu'
               items:
                 - name: 'Pregled podrobnosti pogodbe, ki temelji na projektu'
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Kopiranje projektne pogodbe
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Predujmi in honorarji
+              items:
+                - name: Pogodbe za predplačila in honorarje – poenostavljena različica
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Nastavitev razporeda honorarjev – poenostavljena različica
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Ustvarjanje namenskega predplačila za pogodbo – poenostavljena različica
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Cene in stroški
       items:
         - name: Nastavitev cenika
@@ -158,18 +168,28 @@
           items:
             - name: Pregled cenovnih razsežnosti
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Ustvarjanje rešitve za cenovne razsežnosti po meri
+              href: sales/create-solution-custompd.md
             - name: Uporaba obstoječih polj kot cenovnih razsežnosti
               items:
                 - name: Polja aplikacije Project Operations kot cenovne razsežnosti
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: 'Uporaba vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti'
+                  href: sales/use-br-as-pd.md
+                - name: Uporaba kategorije transakcije kot cenovne razsežnosti
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 'Vir, ki ga je mogoče rezervirati, z več vlogami v projektu'
+                  href: sales/br-playing-multiple-roles.md
             - name: Polja po meri kot cenovne razsežnosti
               items:
                 - name: Ustvarjanje polj in entitet po meri kot cenovnih razsežnosti
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
-                - name: Dodajanje polj po meri v entitete za nastavitev cene in transakcijske entitete
+                - name: Dodajanje polj po meri v nastavitev cene in transakcijske entitete
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Nastavitev polj po meri kot cenovnih razsežnosti
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Posodabljanje atributov vtičnikov za vključitev novih cenovnih razsežnosti
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Izklop cenovne razsežnosti
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Upravljanje projektov
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Skrbništvo virov
           items:
+            - name: Ustvarjanje virov
+              href: resource-management/create-resources.md
             - name: Določanje znanj in usposobljenosti
               href: resource-management/define-skills-proficiencies.md
+            - name: Določanje vlog
+              href: resource-management/define-roles.md
             - name: Določanje koledarjev virov
               href: resource-management/define-resource-calendars.md
-        - name: Načini dodelitve rezervacij
+        - name: Načini dodeljevanja rezervacij
           href: resource-management/booking-allocation-methods.md
+        - name: Stanja rezervacij
+          href: resource-management/booking-status.md
         - name: Modeli znanj in usposobljenosti
           href: resource-management/skills-proficiency-models.md
         - name: Uskladitev virov
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Upravljanje predračuna projekta
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Izdaja računa za honorar ali predplačilo
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Potrditev predračuna projekta
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Konfiguriranje avtomatizacije računov projekta
@@ -368,8 +396,34 @@
           href: project-accounting/configure-accounting-internal-projects.md
         - name: Konfiguracija vodenja računov za plačljive projekte
           href: project-accounting/configure-accounting-billable-projects.md
-        - name: Dnevnik integracij za Project Operations
+        - name: Dnevnik integracij za aplikacijo Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Izstavljanje računov med podjetji
+          items:
+            - name: Pregled izstavljanja računov med podjetji
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfiguriranje izstavljanja računov med podjetji
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Ustvarjanje računov med podjetji za stranke in prodajalce
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Ustvarjanje transakcij med podjetji
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Prepoznavanje prihodkov
+      items:
+        - name: Pregled prepoznavanja prihodkov
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Nastavitev prepoznavanja prihodkov
+          items:
+            - name: Nastavitev vrst obdobij
+              href: project-accounting/period-types.md
+            - name: Nastavitev predlog za cene
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Upravljanje predvidenih prihodkov
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Projekti s predvidenimi prihodki s fiksno ceno
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Strošek za dokončanje metod
+          href: revenue-recognition/cost-complete-methods.md
 - name: Poenostavljeno uvajanje – posel do izstavitve predračuna
   items:
     - name: Začetek
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Novosti
       items:
+        - name: Novosti za december 2020 – poenostavljeno uvajanje – posel do izstavitve predračuna
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Novosti za november 2020 – poenostavljeno uvajanje – posel do izstavitve predračuna
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Prodajni proces projekta
@@ -538,18 +594,28 @@
           items:
             - name: Pregled cenovnih razsežnosti
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Ustvarjanje rešitve za cenovne razsežnosti po meri
+              href: sales/create-solution-custompd.md
             - name: Uporaba obstoječih polj kot cenovnih razsežnosti
               items:
-                - name: Uporaba obstoječega polja kot cenovne razsežnosti
+                - name: Polja aplikacije Project Operations kot cenovne razsežnosti
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: 'Uporaba vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti'
+                  href: sales/use-br-as-pd.md
+                - name: Uporaba kategorije transakcije kot cenovne razsežnosti
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 'Vir, ki ga je mogoče rezervirati, z več vlogami v projektu'
+                  href: sales/br-playing-multiple-roles.md
             - name: Polja po meri kot cenovne razsežnosti
               items:
                 - name: Ustvarjanje polj in entitet po meri kot cenovnih razsežnosti
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
-                - name: Dodajanje polj po meri v entitete za nastavitev cene in transakcijske entitete
+                - name: Dodajanje polj po meri v nastavitev cene in transakcijske entitete
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Nastavitev polj po meri kot cenovnih razsežnosti
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Posodabljanje atributov vtičnikov za vključitev novih cenovnih razsežnosti
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Izklop cenovne razsežnosti
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Upravljanje projektov
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Skrbništvo virov
           items:
+            - name: Ustvarjanje virov
+              href: resource-management/create-resources.md
             - name: Določanje znanj in usposobljenosti
               href: resource-management/define-skills-proficiencies.md
+            - name: Določanje vlog
+              href: resource-management/define-roles.md
             - name: Določanje koledarjev virov
               href: resource-management/define-resource-calendars.md
         - name: Načini dodelitve rezervacij
           href: resource-management/booking-allocation-methods.md
+        - name: Stanja rezervacij
+          href: resource-management/booking-status.md
         - name: Modeli znanj in usposobljenosti
           href: resource-management/skills-proficiency-models.md
         - name: Uskladitev virov
@@ -708,7 +780,7 @@
       href: prod-pma/overview-project-management-accounting.md
     - name: Izstavljanje računov med podjetji
       href: prod-pma/intercompany-invoicing.md
-    - name: Konfiguriranje izstavljanja računov med podjetji
+    - name: Konfiguriranje izstavljanja računov za projekt med podjetji
       href: prod-pma/tasks/configure-intercompany-project-invoicing.md
     - name: Konfiguriranje standardnih stroškov dela in drugih stroškov
       href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
@@ -834,9 +906,11 @@
       items:
         - name: Razpored izdaje posodobitev za Project Service 3.x
           href: psa/version-history-ps.md
+        - name: "Novosti ali spremembe v izdaji posodobitve\_26, V3"
+          href: psa/whats-new-ur-26.md
         - name: "Novosti ali spremembe v izdaji posodobitve\_25, V3"
           href: psa/whats-new-ur-25.md
-        - name: "Novosti ali spremembe v izdaji posodobitve\_24, V3"
+        - name: 'Novosti ali spremembe v izdaji posodobitve 24, V3'
           href: psa/whats-new-ur-24.md
         - name: "Novosti ali spremembe v izdaji posodobitve\_23, V3"
           href: psa/whats-new-ur-23.md
@@ -926,7 +1000,7 @@
               href: psa/custompricingdimensionssolution.md
             - name: Ustvarjanje polj in entitet po meri
               href: psa/create-custom-fields-entities.md
-            - name: Dodajanje polj po meri v entitete za nastavitev cene in transakcijske entitete
+            - name: Dodajanje polj po meri v nastavitev cene in transakcijske entitete
               href: psa/field-references.md
             - name: Nastavitev polj po meri kot cenovnih razsežnosti
               href: psa/set-up-pricing-dimensions.md
