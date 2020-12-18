@@ -1,5 +1,5 @@
 ---
-title: Pogodbe za predplačila in honorarje – poenostavljeno
+title: Pogodbe za predplačila in honorarje
 description: Ta tema vsebuje informacije o pogodbenih modelih za predplačila in honorarje v aplikaciji Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180887"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596122"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Pogodbe za predplačila in honorarje – poenostavljeno
+# <a name="advances-and-retainer-based-contracts"></a>Pogodbe za predplačila in honorarje
 
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Dynamics 365 Project Operations podpira pogodbe za honorarje. Pogodba za honorar je dogovorjeni nabor enakomerno porazdeljenih plačil, za katere bo stranki izdan račun ves čas trajanja projekta. Ta vrsta pogodbe se običajno uporablja za modele obračunavanja glede na čas in material ali porabo, kjer je treba stranki dati predvidljiv račun in razpored plačil. Dejanske vrednosti prihodkov vračunane za vsako obdobje, se uskladijo s plačili, ki ste jih prejeli od stranke na začetku obdobja. V skladu s konceptom modela obračunavanja časa in materiala se lahko vrednosti prihodkov, vračunane v posameznem obdobju, razlikujejo glede na nastale stroške. Če je vračunani prihodek večji od zneska, prejetega na začetku obdobja, bi lahko podjetje za izvedbo projektov:
+Dynamics 365 Project Operations podpira pogodbe za honorar. Pogodba za honorar je dogovorjeni nabor enakomerno porazdeljenih plačil, za katere bo stranki izdan račun ves čas trajanja projekta. Ta vrsta pogodbe se običajno uporablja za modele obračunavanja glede na čas in material ali porabo, kjer je treba stranki dati predvidljiv račun in razpored plačil. Dejanske vrednosti prihodkov vračunane za vsako obdobje, se uskladijo s plačili, ki ste jih prejeli od stranke na začetku obdobja. V skladu s konceptom modela obračunavanja časa in materiala se lahko vrednosti prihodkov, vračunane v posameznem obdobju, razlikujejo glede na nastale stroške. Če je vračunani prihodek večji od zneska, prejetega na začetku obdobja, bi lahko podjetje za izvedbo projektov:
 
 - stranki izdalo samo račun za presežek 
 - odložilo vire prihodkov na naslednje obdobje za zaračunavanje in na koncu projekta naredilo zadnji skupni račun za morebitne preostale neusklajene prihodke

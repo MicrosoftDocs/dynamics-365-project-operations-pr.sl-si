@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 92a9c4e62165f3e26ccb03c7af61f483c6744cc5
-ms.sourcegitcommit: 627d42e2a318dfc9564a4b803ada157682d4a0db
+ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4174285"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642068"
 ---
 # <a name="navigate-project-operations"></a>Pomik v aplikacijo Project Operations
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-Aplikacija Dynamics 365 Project Operations za primere uporabe z viri/brez zalog je sestavljena iz dveh komponent: 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dynamics 365 Project Operations za primere uporabe z viri/brez zalog je sestavljena iz dveh komponent: 
 
  - **Project Operations v okolju Common Data Service (CDS)**: ta komponenta zajema zmogljivosti in procese od priložnosti do predračuna. 
  - **Upravljanje projektov in računovodstvo v okolju Dynamics 365 Finance**: ta komponenta zajema zmogljivosti upravljanja stroškov, vodenje računov projekta in pripoznavanje prihodkov. 

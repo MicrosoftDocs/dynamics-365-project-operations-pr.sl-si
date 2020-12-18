@@ -1,5 +1,5 @@
 ---
-title: Izdaja računa za honorar ali predplačilo – poenostavljena različica
+title: Izdaja računa za honorar ali predujem
 description: Ta tema vsebuje informacije o izdajanju računov za honorar ali predujem v aplikaciji Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180572"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596212"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Izdaja računa za honorar ali predplačilo – poenostavljena različica
+# <a name="invoice-a-retainer-or-an-advance"></a>Izdaja računa za honorar ali predplačilo
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Dynamics 365 Project Operations podpira pogodbe za honorarje in enkratne predujme. Pri projektni pogodbi lahko zabeležite razpored honorarjev ali enkratnih predujmov. Vendar beleženje na ravni projektne pogodbe ne omogoči, da bi bil honorar ali predujem takoj na voljo za uporabo. Če želite uporabiti honorar ali predujem na računu, s katerim stranki dejansko zaračunate, morate račun za honorar ali predujem najprej izstaviti.
+Dynamics 365 Project Operations podpira pogodbe za honorar in enkratna predplačila. Pri projektni pogodbi lahko zabeležite razpored honorarjev ali enkratnih predujmov. Vendar beleženje na ravni projektne pogodbe ne omogoči, da bi bil honorar ali predujem takoj na voljo za uporabo. Če želite uporabiti honorar ali predujem na računu, s katerim stranki dejansko zaračunate, morate račun za honorar ali predujem najprej izstaviti.
 
 Za izdajo računa za honorar ali predujem, naredite naslednje.
 

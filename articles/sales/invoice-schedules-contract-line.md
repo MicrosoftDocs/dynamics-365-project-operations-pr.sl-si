@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180797"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513944"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Ustvarjanje razporeda računov v podrobnostih pogodbe na podlagi projekta 
 
@@ -49,7 +49,7 @@ Dokončajte naslednje korake za generiranje razporeda računov na podlagi mejnik
 3. Odprite podrobnosti pogodbe **Fiksna cena**, za katero želite ustvariti razpored mejnikov. Na zavihku **Mejniki obračunavanja** izberite datum začetka obračunavanja in pogostost izdajanja računov. 
 4. V podmreži izberite možnost **Ustvari periodične mejnike**. Ustvari se razpored računov s polji **Ime mejnika**, **Datum mejnika** in **Znesek mejnika**, ki so nastavljeni, kot je prikazano spodaj:
 
-    - **Ime mejnika**: ta datum je določen glede na pogostost izdajanja računov.
+    - **Ime mejnika**: to ime je določeno glede na pogostost računov.
     - **Datum mejnika**: ta datum je določen glede na pogostost izdajanja računov.
     - **Znesek mejnika**: ta znesek se izračuna tako, da se znesek pogodbe v podrobnostih pogodbe deli s številom mejnikov, kot jih določa pogostost, začetek obračunavanja in zahtevani datumi prejetja.
 

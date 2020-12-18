@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084890"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642653"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizacija projektnih pogodb in projektov neposredno iz rešitve Project Service Automation v Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Ta tema opisuje predlogo in temeljna opravila, ki se uporabljajo za sinhronizacijo projektnih pogodb in projektov neposredno iz rešitve Dynamics 365 Project Service Automation v Dynamics 365 Finance.
 
@@ -46,7 +48,7 @@ Naslednja slika prikazuje, kako se podatki sinhronizirajo med rešitvama Project
 
 ## <a name="templates-and-tasks"></a>Predloge in opravila
 
-Za dostop do razpoložljivih predlog v skrbniškem središču Microsoft Power Apps izberite **Projekti** in nato v zgornjem desnem kotu izberite **Nov projekt** , da izberete javne predloge.
+Za dostop do razpoložljivih predlog v skrbniškem središču Microsoft Power Apps izberite **Projekti** in nato v zgornjem desnem kotu izberite **Nov projekt**, da izberete javne predloge.
 
 Naslednje predloge in temeljna opravila se uporabljajo za sinhronizacijo projektnih pogodb in projektov iz rešitve Project Service Automation v Finance:
 
@@ -95,11 +97,11 @@ Mejniki podrobnosti projektnih pogodb se upravljajo v rešitvi Project Service A
 
 Polje **ID projektne pogodbe** je na voljo na strani **Projektne pogodbe**. To polje je naravni in edinstveni ključ za podporo integracije.
 
-Ko se ustvari nova projektna pogodba in vrednost **ID projektne pogodbe** še ne obstaja, se ta samodejno ustvari z uporabo zaporedja števil. Vrednost vsebuje **ORD** , sledi pa ji niz zaporednih števil in pripona šestih znakov. Primer: **ORD-01022-Z4M9Q0**.
+Ko se ustvari nova projektna pogodba in vrednost **ID projektne pogodbe** še ne obstaja, se ta samodejno ustvari z uporabo zaporedja števil. Vrednost vsebuje **ORD**, sledi pa ji niz zaporednih števil in pripona šestih znakov. Primer: **ORD-01022-Z4M9Q0**.
 
 Polje **Številka projekta** je na voljo na strani **Projekti**. To polje je naravni in edinstveni ključ za podporo integracije.
 
-Ko se ustvari nov projekt in vrednost **Številka projekta** še ne obstaja, se ta samodejno ustvari z uporabo zaporedja števil. Vrednost vsebuje **PRJ** , sledi pa ji niz zaporednih števil in pripona šestih znakov. Primer: **PRJ-01049-CCNID0**.
+Ko se ustvari nov projekt in vrednost **Številka projekta** še ne obstaja, se ta samodejno ustvari z uporabo zaporedja števil. Vrednost vsebuje **PRJ**, sledi pa ji niz zaporednih števil in pripona šestih znakov. Primer: **PRJ-01049-CCNID0**.
 
 Ko je uporabljena rešitev za integracijo Project Service Automation v Finance, skript za nadgradnjo nastavi polje **ID projektne pogodbe** za obstoječe projektne pogodbe in polje **Številka projekta** za obstoječe projekte v Project Service Automation.
 
@@ -133,9 +135,9 @@ Za filtriranje podatkov morate uporabiti rešitev Microsoft Power Query za Excel
 ## <a name="template-mapping-in-data-integration"></a>Preslikava predlog v Integraciji podatkov
 
 > [!NOTE] 
-> Polja **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** in **AddressZipCode** niso vključena v privzeto preslikovanje za projektne pogodbe. Preslikave lahko dodate, če želite, da se ti podatki sinhronizirajo za projektne pogodbe.
+> Polja **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** in **AddressZipCode** niso vključena v privzeto preslikovanje za projektne pogodbe. Preslikave lahko dodate, če želite, da se ti podatki sinhronizirajo za projektne pogodbe.
 >
-> Polja **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** in **ProjectType** niso vključena v privzeto preslikovanje za projekte. Preslikave lahko dodate, če želite, da se ti podatki sinhronizirajo za projekte.
+> Polja **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** in **ProjectType** niso vključena v privzeto preslikovanje za projekte. Preslikave lahko dodate, če želite, da se ti podatki sinhronizirajo za projekte.
 
 Spodnje slike prikazujejo primere preslikav predlog opravil v Integracijo podatkov. Preslikava prikazuje informacije o polju, ki bodo sinhronizirane iz rešitve Project Service Automation v Finance.
 

@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e0a31e71dd1e184e2e9539ecfd5f82f718a5f159
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 815658ef66fb8083fb066f8f4d64a503580bfad2
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131858"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642518"
 ---
 # <a name="collaboration-with-office-groups"></a>Sodelovanje s skupinami storitve Office
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Skupine storitve Office omogočajo skupno rabo projekta z drugimi člani skupine znotraj storitve Common Data Service. Ko v skupino dodate uporabnike, se lastništvo projekta prenese na skupino. Vsi uporabniki bodo imeli dovoljenje za urejanje projekta. Uporabniki si lahko prav tako ogledajo projekt, če je skrbnik podelil pravice. Ti uporabniki ne bodo prikazani v skupini.
 

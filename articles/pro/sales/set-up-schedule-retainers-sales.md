@@ -1,5 +1,5 @@
 ---
-title: Nastavitev urnika za honorar – poenostavljeno
+title: Nastavitev urnika za honorarje
 description: Ta tema vsebuje informacije o tem, kako nastaviti urnik za honorar za Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181292"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596392"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Nastavitev urnika za honorar – poenostavljeno
+# <a name="set-up-a-retainer-schedule"></a>Nastavitev urnika za honorarje
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Urniki za honorar so nastavljeni na strani **Projektna pogodba** v storitvi Dynamics 365 Project Operations.
+Urniki za honorarje so nastavljeni na strani **Projektna pogodba** v storitvi Dynamics 365 Project Operations.
 
 1. Na strani **Projektna pogodba** na zavihku **Predujmi in honorarji** izberite **Nastavitev urnika za honorar**.
 2. Na pogovornem oknu, ki se odpre, so prikazana polja, navedena v naslednji tabeli. Tabela daje predstavo o tem, kako vnesene vrednosti vplivajo na urnik za honorar, ki bo ustvarjen.

@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121238"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642293"
 ---
 # <a name="currency"></a>Valuta
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Valute določajo cene za izdelke v katalogu izdelkov in stroške transakcij, kot so prodajni nalogi. Če vaše stranke živijo na različnih geografskih območjih, dodajte njihove valute, da boste lahko upravljali svoje transakcije. Dodajte valute, ki so najprimernejše za vaše trenutne in prihodnje poslovne potrebe.  
 

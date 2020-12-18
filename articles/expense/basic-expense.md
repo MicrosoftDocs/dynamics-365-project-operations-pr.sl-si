@@ -3,17 +3,17 @@ title: Vnos stroškov (poenostavljen)
 description: Ta tema vsebuje informacije o tem, kako delati z vnosom stroškov v poenostavljeni uvedbi.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121103"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590966"
 ---
 # <a name="expense-entry-lite"></a>Vnos stroškov (poenostavljen)
 
@@ -21,7 +21,7 @@ _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
 Osnovno ali poenostavljeno upravljanje stroškov pomeni zmožnost beleženja enostavnih stroškov. Stroške lahko beležite za projekt, nato pa jih bo odobritelj projekta pregledal in odobril.
 
-Za več informacij o stroškovnih zmožnostih v aplikaciji Dynamics 365 Project Operations glejte razdelek [Pregled stroškov](expense-overview.md).
+Za več informacij o stroškovnih zmožnostih v Dynamics 365 Project Operations glejte [Pregled stroškov](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Zajem posameznega osnovnega stroška
 
@@ -36,6 +36,10 @@ Ko končate z zajemanjem vseh stroškov in ste pripravljeni, da se jih odobri, j
 
 1. Odprite razdelek **Stroški** in izberite posamezen strošek. Ali pa s potrditvenim poljem v glavi izberite vse stroške.
 2. Izberite **Pošlji**. Sistem obdela izbrane vnose in nato ustvari zahteve za odobritev stroškov.
+
+## <a name="add-an-attachment"></a>Dodaj prilogo
+
+Morda boste morali odobritelju predložiti dodatno dokumentacijo o svojih stroških. Na časovnico z vnosom stroška lahko priložite potrdilo. Izberite **Uredi** in v razdelku **Časovnica** izberite ikono sponke, da priložite potrdilo.
 
 ## <a name="recall-a-basic-expense"></a>Preklic posameznega osnovnega stroška
 

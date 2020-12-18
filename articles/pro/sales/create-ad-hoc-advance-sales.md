@@ -1,5 +1,5 @@
 ---
-title: Ustvarjanje namenskega predplačila za pogodbo – poenostavljena različica
+title: Ustvarjanje namenskega predplačila za pogodbo
 description: V tej temi so na voljo informacije o ustvarjanju predujma za pogodbo, kot je potrebno.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181382"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596032"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Ustvarjanje namenskega predplačila za pogodbo – poenostavljena različica
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Ustvarjanje namenskega predplačila za pogodbo
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Microsoft Dynamics 365 Project Operations podpira scenarije izstavljanja računov, ki vključujejo predplačila in predujme. Postopek za uporabo možnosti **Predujmi** v storitvi **Project Operations** je podoben pogodbam **Honorar**. 
+Microsoft Dynamics 365 Project Operations podpira scenarije za izstavljanje računov, ki vključujejo predplačila in predujme. Postopek za uporabo možnosti **Predujmi** v storitvi **Project Operations** je podoben pogodbam **Honorar**. 
 
 Izpolnite naslednje korake, da stranki izdate račun za predujem.
 

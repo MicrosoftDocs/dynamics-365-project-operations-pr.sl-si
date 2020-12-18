@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130868"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672251"
 ---
 # <a name="override-project-sales-price-lists"></a>Preglasitev prodajnih cenikov za projekte
 
@@ -27,7 +28,7 @@ Dogovore o cenah za posamezno stranko lahko nastavite kot cenike za projekt na z
 
 1. Odprite stran s seznamom **Kupci**.
 2. Poiščite in dvokliknite zapis stranke, da odprete stran s podrobnostmi **Kupec**.
-3. Na zavihku **Ceniki za projekte** izberite možnost **+ Nov cenik za projekt^^.
+3. Na zavihku **Ceniki za projekte** izberite možnost **+ Nov cenik za projekt**.
 4. Na strani **Nov cenik za projekt** s spustnega menija izberite cenik. Samo ceniki, ki imajo kontekst nastavljen na **Prodaja** in ki imajo ujemajočo se valuto z valuto kupca.
 5. Poimenujte povezavo in nato izberite **Shrani**. Ustvarjen je cenik za projekt za posamezno stranko. Ta cenik se uporablja za nastavljanje privzetih cen projekta za projektne ponudbe ali pogodbe, ustvarjene za to stranko, ko se datum izdelave ponudbe ali projektne pogodbe prekriva z datumom veljavnosti cenika.
 

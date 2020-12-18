@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121193"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643011"
 ---
 # <a name="provision-a-new-environment"></a>Omogočanje novega okolja
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-Ta tema ponuja informacije o tem, kako omogočiti novo okolje Dynamics 365 Project Operations za primere uporabe z viri/brez zalog.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Ta tema vsebuje informacije o tem, kako zagotoviti novo okolje Dynamics 365 Project Operations za primere uporabe z viri/brez zalog.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Omogočite avtomatizirano omogočanje uporabe storitve Project Operations v projektu LCS
 
@@ -120,7 +122,7 @@ Vzdrževanje okolja bo trajalo nekaj časa. Ko bo končano, se bo okolje vrnilo 
 
 ![Uporaba rešitev](./media/13ApplySolutions.png)
 
-5. Izberite obe rešitvi – **Zemljevid entitete z dvojnim zapisovanjem v Dynamics 365 Finance and Operations** in **Zemljevide entitet z dvojnim zapisovanjem v Dynamics 365 Project Operations** ter kliknite **Uporabi**.
+5. Izberite rešitvi **Preslikava entitete za dvojno pisanje Dynamics 365 Finance and Operations** in **Preslikava entitete za dvojno pisanje Dynamics 365 Project Operations** ter izberite **Uporabi**.
 
 ![Potrjevanje rešitev](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Osveževanje bo trajalo približno 20 minut. Ko bo končano, boste prejeli obves
 | --- | --- | --- | --- | --- | --- |
 | **Vloge projektnih virov za vsa podjetja (bookableresourcecategories)** | No | Da | Common Data Service | No | Ni na voljo |
 | **Pravne osebe (cdm\_companies)** | No | Da | Aplikacije Finance and Operations | No | Ni na voljo |
+| **Knjiga (msdyn_ledgers)** | No | Da | Aplikacije Finance and Operations | Da | Da, aplikacije Finance and Operations |
 | **Dejanske vrednosti integracije storitve Project Operations (msdyn\_actuals)** | No | No | Ni na voljo | Da | No |
 | **Podrobnosti pogodbe (salesorderdetails)** | No | No | Ni na voljo | No | No |
 | **Integracijska entiteta za odnose projektne transakcije (msdyn\_transactionconnections)** | No | No | Ni na voljo | No | Ni na voljo |

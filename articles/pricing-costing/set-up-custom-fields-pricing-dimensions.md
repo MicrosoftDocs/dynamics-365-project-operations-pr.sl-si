@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119438"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650248"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavitev polj po meri kot cenovnih razsežnosti
 
@@ -41,9 +41,15 @@ Ta tema vsebuje informacije o nastavitvi cenovnih razsežnosti po meri. Na stran
 Če želite ustvariti polje s cenovno razsežnostjo, ga morate:
 
 - ustvariti kot polje v entitetah **Cena vloge** in **Pribitek na ceno vloge**. Za več informacij o tem, kako to storite, glejte temo [Dodajanje polj po meri v entitete za nastavitev cene in transakcijske entitete](add-custom-fields-price-setup-transactional-entities.md).
+
 - ustvariti kot vrstico v tabeli **Cenovna razsežnost**. Vrstice cenovnih razsežnosti lahko na primer dodate tako, kot je prikazano na spodnji grafiki. 
 
+![Vrstice s cenovnimi razsežnostmi na podlagi zneska](media/Amt-based-PD.png)
+
 V mrežo na zavihku **Cenovna razsežnost na podlagi pribitka** je dodan delovni čas vira (**msdyn_resourceworkhours**) kot ena od razsežnosti na podlagi pribitka.
+
+![Vrstice s cenovnimi razsežnostmi na podlagi pribitka](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Vse spremembe obstoječih ali novih podatkov o cenovnih razsežnostih v tej tabeli se razširijo na poslovno logiko za oblikovanje cen, vendar šele po osvežitvi predpomnilnika. Osveževanje predpomnilnika lahko traja do 10 minut. V tem času bodo uvedene spremembe v logiko za privzeto oblikovanje cen, ki morajo izhajati iz sprememb podatkov o cenovnih razsežnostih.

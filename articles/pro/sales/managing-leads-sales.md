@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180527"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513809"
 ---
 # <a name="manage-leads---lite"></a>Upravljanje možnih strank – poenostavljeno
 
@@ -23,7 +23,7 @@ Možne stranke, ki temeljijo na projektu, je mogoče upravljati in potrditi v st
 
 ## <a name="list-of-project-sales-leads"></a>Seznam možnih strank, ki temeljijo na projektu
 
-V razdelku **Prodaja** v levem podoknu za krmarjenje odprite stran s seznamom **Možne stranke**, da si ogledate seznam z vsemi zapisi vseh možnih strank v sistemu. Prikazani seznam možnih strank temelji na delu in drugih vrstah možnih strank, ki jih lahko ustvarite, če imate tudi aplikacijo Dynamics 365 Sales ali Dynamics 365 Field Service.
+V razdelku **Prodaja** v levem podoknu za krmarjenje odprite stran s seznamom **Možne stranke**, da si ogledate seznam z vsemi zapisi vseh možnih strank v sistemu. Možne stranke na seznamu temeljijo na delu in drugih vrstah možnih strank, ki jih lahko ustvarite, če imate tudi vi aplikacijo Dynamics 365 Sales ali Dynamics 365 Field Service.
 
 Ustvarite lahko filtrirani pogled, da si ogledate samo možne stranke, ki temeljijo na projektu, tako da ustvarite filter pri vrednosti **Vrsta**. Na primer, izberete lahko, da se prikazujejo samo možne stranke, ki temeljijo na delu.
 
@@ -55,7 +55,7 @@ Možne stranke, ki imajo vrednost **Vrsta** nastavljeno na **Temelji na delu**, 
 - Zapis stika, povezan s kupcem na podlagi vrednosti v poljih **Ime** in **Priimek** pri možni stranki.
 - Priložnost, ki temelji na projektu, ima polje **Vrsta** nastavljeno na **Temelji na delu**.
 
-Za podrobnejše informacije o potrjevanju možnih strank glejte[Potrjevanje ali pretvorba možnih strank](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Za podrobnejše informacije o potrjevanju možnih strank glejte [Potrjevanje ali pretvorba možnih strank](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Potek poslovnega procesa za posle, ki temeljijo na projektu
 

@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121148"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642998"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prijava za naročnino na predogledno različico storitve Project Operations za primere uporabe z viri/brez zalog
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Ta tema razlaga, kako se naročite na predogled/ponudbo za partnerje in uvedete okolje Project Operations za primere uporabe z viri/brez zalog.
 
@@ -31,18 +33,18 @@ Ta tema razlaga, kako se naročite na predogled/ponudbo za partnerje in uvedete 
 
 Ko bo vaša [zahteva za predogled](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) odobrena, boste od Microsofta po elektronski pošti prejeli tri ponudbe. Te ponudbe omogočajo uvedbo predogleda Project Operations:
 
-- Dynamics 365 Project Operations (CRM) – preskus predogleda
+- Dynamics 365 Project Operations (CRM) – predogled preskusne različice
 - Office 365 Project Operations – poskusna različica
 - Dynamics 365 Finance – preskus predogleda
 
 > [!IMPORTANT]
 > To nalogo mora opraviti samo ena oseba in sicer skrbnik najemnika v organizaciji. Če niste naročnik te izdaje, počakajte, da se organizacija prijavi in prejmete svoje uporabniške poverilnice.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – preskus predogleda 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – predogled preskusne različice 
 
 Preden začnete, se prepričajte, da ste prijavljeni v brskalnik z uporabnikovim službenim računom v najemniku, kjer želite imeti predogled aplikacije Project Operations.
 
-1. Unovčite kodo prve ponudbe **Dynamics 365 Project Operations (CRM) – preskusna različica**, tako da jo prilepite v URL brskalnika.
+1. Unovčite prvo promocijsko kodo **Dynamics 365 Project Operations (CRM) – predogled preskusne različice**, tako da jo prilepite v URL brskalnika.
 
 ![Prevzem ponudbe](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ Ponovite iste korake z zadnjo ponudbo iz e-poštnega sporočila z dobrodošlico.
 
 ![Dodeljevanje licenc](./media/15AssignLicenses.png)
 
-3. Preverite, ali sta izbrani licenci za **Dynamics 365 Project Operations (CRM) predogledna različica** in **Office 365 Project Operations – predogledna različica**, in izberite **Shrani spremembe**.
+3. Preverite, ali sta bili izbrani licenci **Predogledna različica Dynamics 365 Project Operations (CRM)** in **Office 365 Project Operations – Predogled** in izberite **Shrani spremembe**.
 
 > [!NOTE]
 > Preskusne ponudbe storitve Finance ni treba dodeliti uporabniku.

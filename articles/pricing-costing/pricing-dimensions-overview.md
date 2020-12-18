@@ -1,32 +1,24 @@
 ---
 title: Pregled cenovnih razsežnosti
-description: Ta tema vsebuje informacije o cenovnih razsežnostih v storitvi Dynamics 365 Project Operations.
+description: Ta tema vsebuje informacije o cenovnih razsežnostih v aplikaciji Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128483"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650231"
 ---
 # <a name="pricing-dimensions-overview"></a>Pregled cenovnih razsežnosti
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Razsežnosti, ki se uporabljajo v človeških virih za nastavitev določanja cen in stroškov, se delijo v dve kategoriji:
 
@@ -42,7 +34,19 @@ Zaradi tega obstajata dve vrsti vrednosti cenovnih razsežnosti, ki so na voljo:
 
 Dynamics 365 Project Operations vključuje privzet nabor cenovnih razsežnosti. Te cenovne razsežnosti si lahko ogledate v **Project Operations** > **Parametri**. V zapisu parametra na zavihku **Cenovna razsežnost na podlagi zneska** preverite, ali sta pri vlogi **msdyn_resourcecategory** in organizacijski enoti za vire **msdyn_organizationalunit** polji **Mogoče uporabiti za prodajo** in **Mogoče uporabiti za ceno** nastavljeni na **Da**. Z omogočenimi temi polji lahko nastavite ceno in strošek za vsako kombinacijo vloge in organizacijske enote.
 
-Če morate zagotoviti ceno ali strošek za svoje vire z dodatnimi atributi, lahko ustvarite polja, entitete in razsežnosti po meri.
+![Prikaz parametrov v aplikaciji Project Service z označeno možnostjo »Mogoče uporabiti za prodajo«](media/PS-OOB-parameters.png)
+
+Če morate zagotoviti ceno ali strošek za svoje vire z dodatnimi atributi, lahko ustvarite polja, entitete in razsežnosti po meri. Za več informacij glejte naslednjo temo. 
+  
+  > [!NOTE]
+  > Postopki morajo biti zaključeni v vrstnem redu, v katerem so bili navedeni.
+
+1. [Ustvarjanje rešitve za cenovne razsežnosti po meri](../sales/create-solution-custompd.md)
+2. [Ustvarjanje polj in entitet po meri](create-custom-fields-entities-pricing-dimensions.md)
+3. [Dodajanje polj po meri v entitete za nastavitev cene in transakcijske entitete ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Nastavitev polj po meri kot cenovnih razsežnosti ](set-up-custom-fields-pricing-dimensions.md)
+5. [Posodabljanje atributov vtičnikov za vključitev novih cenovnih razsežnosti](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Določanje cene časa človeških virov
 Kako organizacija določi cene za čas človeških virov je pogosto pomemben strateški vidik, ki neposredno vpliva na dobičkonosnost organizacije. Ko se je vaša organizacija pripravljena opredeliti, kako želi nastaviti mere stroškov in deleže obračunavanja za čas človeških virov, sodelujte s finančnimi ekipami in vodji praks.
