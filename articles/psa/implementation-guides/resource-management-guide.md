@@ -18,27 +18,29 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3b1f195cf712862972e6b52d1529089ccd52c775
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a0a12840f7f53cab0e81a5d3764d5c1a9d4df6a3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132533"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149068"
 ---
-# <a name="resource-management-guide"></a><span data-ttu-id="2a454-103">Vodnik za upravljanje virov</span><span class="sxs-lookup"><span data-stu-id="2a454-103">Resource management guide</span></span>
+# <a name="resource-management-guide"></a><span data-ttu-id="c3ac8-103">Vodnik za upravljanje virov</span><span class="sxs-lookup"><span data-stu-id="c3ac8-103">Resource management guide</span></span>
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="2a454-104">Povezava PDF, ki je bila vključena v tej temi, je odstranjena, vsebina pa je premaknjena v naslednje teme:</span><span class="sxs-lookup"><span data-stu-id="2a454-104">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
+<span data-ttu-id="c3ac8-104">Povezava PDF, ki je bila vključena v tej temi, je odstranjena, vsebina pa je premaknjena v naslednje teme:</span><span class="sxs-lookup"><span data-stu-id="c3ac8-104">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
 
-- [<span data-ttu-id="2a454-105">Domača stran upravljanja virov</span><span class="sxs-lookup"><span data-stu-id="2a454-105">Resource management home page</span></span>](../resource-management-home-page.md)
-- [<span data-ttu-id="2a454-106">Ključni pojmi</span><span class="sxs-lookup"><span data-stu-id="2a454-106">Key concepts</span></span>](../reports-key-concepts.md)
-- [<span data-ttu-id="2a454-107">Izpolnjevanje zahtev za vire</span><span class="sxs-lookup"><span data-stu-id="2a454-107">Fulfilling resource requests</span></span>](../resource-management-fulfill-requests.md)
-- [<span data-ttu-id="2a454-108">Predlaganje virov</span><span class="sxs-lookup"><span data-stu-id="2a454-108">Proposing resources</span></span>](../resource-management-propose-resources.md)
-- [<span data-ttu-id="2a454-109">Rezerviranje virov</span><span class="sxs-lookup"><span data-stu-id="2a454-109">Booking resources</span></span>](../resource-management-book-resources-scheduleboard.md)
-- [<span data-ttu-id="2a454-110">Zahteve za začasne rezervacije</span><span class="sxs-lookup"><span data-stu-id="2a454-110">Soft-book requirements</span></span>](../resource-management-softbook-requirements.md)
-- [<span data-ttu-id="2a454-111">Modeli znanj in usposobljenosti</span><span class="sxs-lookup"><span data-stu-id="2a454-111">Skills and proficiency models</span></span>](../resource-management-skills-proficiency.md)
-- [<span data-ttu-id="2a454-112">Pogosta vprašanja in odgovori o upravljanju virov</span><span class="sxs-lookup"><span data-stu-id="2a454-112">Resource management FAQ</span></span>](../resource-management-faq.md)
+- [<span data-ttu-id="c3ac8-105">Domača stran upravljanja virov</span><span class="sxs-lookup"><span data-stu-id="c3ac8-105">Resource management home page</span></span>](../resource-management-home-page.md)
+- [<span data-ttu-id="c3ac8-106">Ključni pojmi</span><span class="sxs-lookup"><span data-stu-id="c3ac8-106">Key concepts</span></span>](../reports-key-concepts.md)
+- [<span data-ttu-id="c3ac8-107">Izpolnjevanje zahtev za vire</span><span class="sxs-lookup"><span data-stu-id="c3ac8-107">Fulfilling resource requests</span></span>](../resource-management-fulfill-requests.md)
+- [<span data-ttu-id="c3ac8-108">Predlaganje virov</span><span class="sxs-lookup"><span data-stu-id="c3ac8-108">Proposing resources</span></span>](../resource-management-propose-resources.md)
+- [<span data-ttu-id="c3ac8-109">Rezerviranje virov</span><span class="sxs-lookup"><span data-stu-id="c3ac8-109">Booking resources</span></span>](../resource-management-book-resources-scheduleboard.md)
+- [<span data-ttu-id="c3ac8-110">Zahteve za začasne rezervacije</span><span class="sxs-lookup"><span data-stu-id="c3ac8-110">Soft-book requirements</span></span>](../resource-management-softbook-requirements.md)
+- [<span data-ttu-id="c3ac8-111">Modeli znanj in usposobljenosti</span><span class="sxs-lookup"><span data-stu-id="c3ac8-111">Skills and proficiency models</span></span>](../resource-management-skills-proficiency.md)
+- [<span data-ttu-id="c3ac8-112">Pogosta vprašanja in odgovori o upravljanju virov</span><span class="sxs-lookup"><span data-stu-id="c3ac8-112">Resource management FAQ</span></span>](../resource-management-faq.md)
 
 > [!NOTE]
-> <span data-ttu-id="2a454-113">Ta tema ne bo več na voljo v prihodnji posodobitvi dokumentacije.</span><span class="sxs-lookup"><span data-stu-id="2a454-113">This topic will be removed in a future documentation update.</span></span> 
+> <span data-ttu-id="c3ac8-113">Ta tema ne bo več na voljo v prihodnji posodobitvi dokumentacije.</span><span class="sxs-lookup"><span data-stu-id="c3ac8-113">This topic will be removed in a future documentation update.</span></span> 
