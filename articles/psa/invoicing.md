@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8107a660f9993c7b6a32d69047a81fb7e0abef8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084820"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151408"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Zaračunavanje v storitvi Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -62,7 +64,7 @@ Za množično ustvarjanje računov sledite spodnjim korakom.
 
     Opozorilo vas obvešča, da lahko pride do zamude pri ustvarjanju računov. Prikazan je tudi postopek.
 
-2. Izberite **V redu** , da zaprete okno sporočila.
+2. Izberite **V redu**, da zaprete okno sporočila.
 
     Račun se ustvari za vse transakcije v podrobnostih pogodbe s stanjem **Pripravljeno za izdajanje računov**. Te transakcije vključujejo čas, stroške, mejnike in podrobnosti pogodbe, ki temeljijo na izdelku.
 
@@ -84,11 +86,11 @@ Za množično ustvarjanje računov sledite spodnjim korakom.
 5. Izberite **ProcessRunCaller** in nato **Dodaj**.
 6. V naslednjem pogovornem oknu izberite **V redu**. Poteku dela **Spanje** sledi potek dela **Proces**.
 
-    V 5. koraku lahko izberete tudi **ProcessRunner**. Ko nato izberete **V redu** , poteku dela **Proces** sledi potek dela **Spanje**.
+    V 5. koraku lahko izberete tudi **ProcessRunner**. Ko nato izberete **V redu**, poteku dela **Proces** sledi potek dela **Spanje**.
 
 Poteka dela **ProcessRunCaller** in **ProcessRunner** ustvarita račune. **ProcessRunCaller** prikliče **ProcessRunner**. **ProcessRunner** je potek dela, ki dejansko ustvari račune. Gre skozi vse vrstice pogodbe, za katere je treba ustvariti račune, in ustvari račune za te vrstice. Opravilo preveri datume izdaje računa za vrstice pogodbe, da ugotovi, za katere vrstice pogodbe je treba ustvariti račune. Če imajo vrstice pogodbe, ki pripadajo eni pogodbi, enak datum izdaje računa, se transakcije združijo v en račun, ki ima dve vrstici računa. Če ni transakcij, za katere bi se lahko ustvarili računi, opravilo preskoči ustvarjanje računa.
 
-Ko se potek dela **processrunner** preneha izvajati, prikliče potek dela **ProcessRunCaller** , navede končni čas in se zapre. **ProcessRunCaller** nato zažene časovnik, ki se izvaja 24 ur od navedenega končnega časa. Ko se časovnik preneha izvajati, se **ProcessRunCaller** zapre.
+Ko se potek dela **processrunner** preneha izvajati, prikliče potek dela **ProcessRunCaller**, navede končni čas in se zapre. **ProcessRunCaller** nato zažene časovnik, ki se izvaja 24 ur od navedenega končnega časa. Ko se časovnik preneha izvajati, se **ProcessRunCaller** zapre.
 
 Paketna obdelava za ustvarjanje računov je ponavljajoče se opravilo. Če se paketna obdelava zažene večkrat, se ustvari več primerkov opravila in pride do napak. Zato paketno obdelavo zaženite samo enkrat in jo znova zaženite le, če se preneha izvajati.
 
@@ -103,7 +105,7 @@ Ko ustvarite osnutek računa za projekt, se vse neobračunane prodajne transakci
 - Uredite in prilagodite količino in vrsto obračunavanja.
 - Dodajte čas, stroške in provizije kot transakcije neposredno na račun. To funkcijo lahko uporabite, če je vrstica računa preslikana v vrstico pogodbe, ki podpira te razrede transakcij.
 
-Izberite **Potrdi** , da potrdite račun. Dejanje »Potrdi« je enosmerno dejanje. Ko izberete **Potrdi** , sistem nastavi račun samo za branje in ustvari dejanske vrednosti obračunane prodaje iz vsake podrobnosti vrstice računa za vsako vrstico računa. Če se podrobnost vrstice računa sklicuje na neobračunano dejansko prodajo, sistem tudi stornira neobračunano dejansko prodajo. (Vsaka podrobnost vrstice računa, ki je bila ustvarjena iz časovnega vnosa ali vnosa stroškov, se bo sklicevala na neobračunano dejansko prodajo.) Sistemi za integracijo glavne knjige lahko to storniranje uporabijo za storno projektnega dela v teku (WIP) za računovodske namene.
+Izberite **Potrdi**, da potrdite račun. Dejanje »Potrdi« je enosmerno dejanje. Ko izberete **Potrdi**, sistem nastavi račun samo za branje in ustvari dejanske vrednosti obračunane prodaje iz vsake podrobnosti vrstice računa za vsako vrstico računa. Če se podrobnost vrstice računa sklicuje na neobračunano dejansko prodajo, sistem tudi stornira neobračunano dejansko prodajo. (Vsaka podrobnost vrstice računa, ki je bila ustvarjena iz časovnega vnosa ali vnosa stroškov, se bo sklicevala na neobračunano dejansko prodajo.) Sistemi za integracijo glavne knjige lahko to storniranje uporabijo za storno projektnega dela v teku (WIP) za računovodske namene.
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>Popravek potrjenega računa v PSA
 

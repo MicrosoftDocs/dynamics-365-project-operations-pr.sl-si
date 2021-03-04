@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084797"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151318"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Domača stran razsežnosti za določanje cen in razčlenitev stroškov
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Na dimenzije, ki se uporabljajo za določanje cen dela in stroškov v organizacijah, ki temeljijo na projektih, vplivajo naslednji atributi:
 
@@ -55,7 +57,7 @@ Storitev PSA vključuje privzet nabor cenovnih razsežnosti. Te si lahko ogledat
 ## <a name="pricing-human-resource-time"></a>Določanje cene časa človeških virov
 Kako organizacija določi cene za čas človeških virov je pogosto pomemben strateški vidik, ki neposredno vpliva na dobičkonosnost organizacije. Ko se je vaša organizacija pripravljena opredeliti, kako želi nastaviti mere stroškov in deleže obračunavanja za čas človeških virov, sodelujte s finančnimi ekipami in vodji praks.
 
-Drugi vidiki določanja cen vključujejo tudi to, ali naj se znova uporabijo polja ali entitete, ki trenutno niso cenovne razsežnosti, vendar se uporabljajo kot cenovna razsežnost za vašo organizacijo. Polja, kot sta **Kategorija transakcije** ( **msdyn_transactioncategory** ) in **Viri, ki jih je mogoče rezervirati** ( **bookableresource** ), so primeri možnih razsežnosti. 
+Drugi vidiki določanja cen vključujejo tudi to, ali naj se znova uporabijo polja ali entitete, ki trenutno niso cenovne razsežnosti, vendar se uporabljajo kot cenovna razsežnost za vašo organizacijo. Polja, kot sta **Kategorija transakcije** (**msdyn_transactioncategory**) in **Viri, ki jih je mogoče rezervirati** (**bookableresource**), so primeri možnih razsežnosti. 
 
 Razmislite, ali naj bo vaša cenovna razsežnost tabela ali nabor možnosti. Če predvidevate spremembe vrednosti razsežnosti, ki bodo presegle vrednost 10 ali 12, in potrebujete dodatne atribute za te vrednosti, namesto nabora možnosti raje ustvarite entiteto. Za vzdrževanje nabora možnosti, na primer dodajanje ali odstranjevanje vrednosti, je potreben skrbnik ali razvijalec, dodajanje novih vrstic v tabelo pa lahko opravi večina poslovnih uporabnikov.
 

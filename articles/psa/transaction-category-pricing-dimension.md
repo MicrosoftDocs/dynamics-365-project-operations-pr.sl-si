@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084840"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150778"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Uporaba kategorije transakcije kot cenovne razsežnosti
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Ta tema opisuje, kako uporabiti kategorijo transakcije kot cenovno razsežnost. Preden začnete, morate ustvariti novo rešitev cenovne razsežnosti, če je še niste. Če že imate rešitev cenovne razsežnosti, lahko izvedete spremembe kar v tisti rešitvi. Če še niste ustvarili nove rešitve cenovne razsežnosti za vašo organizacijo, najprej do konca izvedite postopke v temi [Ustvarjanje polj in entitet po meri](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Dodajanje kategorij transakcij v obrazce in poglede
@@ -49,4 +52,4 @@ V spodnji tabeli je obsežen seznam vnaprej pripravljenih obrazcev in pogledov, 
 1. V spletnem vmesniku odprite **Project Service** > **Nastavitve** > **Parametri**. 
 2. Na zavihku **Cenovne razsežnosti na podlagi zneska** na strani **Parametri** lahko vidite, da mreža na zavihku prikazuje zapise v entiteti **Cenovne razsežnosti**.
 3. Dodajte možnost **Kategorija transakcije** na ta seznam in nastavite polji **Mogoče uporabiti za ceno** in **Mogoče uporabiti za prodajo** na **Da**.
-4. V polju **Vrsta razsežnosti** izberite **Na podlagi zneska** in nato izberite prioriteto za možnost **Kategorija transakcije** , povezano s ceno in prodajo.
+4. V polju **Vrsta razsežnosti** izberite **Na podlagi zneska** in nato izberite prioriteto za možnost **Kategorija transakcije**, povezano s ceno in prodajo.
