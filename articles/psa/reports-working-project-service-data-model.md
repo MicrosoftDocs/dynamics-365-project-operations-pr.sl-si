@@ -123,3 +123,6 @@ Ko delate z entiteto **Dejansko**, morate razumeti, katere transakcije se zabele
 Entiteta **Izvor transakcije** beleži izvor zapisa **Dejansko**, entiteta **Povezava transakcije** pa beleži povezane zapise za zapis **Dejansko**. Poleg tega zapis **Dejansko** vsebuje sklice za projekt, projektno pogodbo (naročilo), vir, ki ga je mogoče rezervirati, in kupca.
 
 ![Diagram, ki prikazuje povezavo transakcije, izvor in dejanske odnose](media/PS-Reporting-image6.png "Diagram, ki prikazuje povezavo transakcije, izvor in dejanske odnose")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

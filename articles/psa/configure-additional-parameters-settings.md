@@ -67,3 +67,6 @@ Nastavitev parametra projekta:
 
 ### <a name="see-also"></a>Glejte tudi  
  [Nastavitev virov](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

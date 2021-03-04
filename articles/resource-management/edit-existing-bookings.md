@@ -33,3 +33,6 @@ V mreži **Član ekipe** lahko vodja projekta označi določen vir in izbere **U
 ## <a name="schedule-board"></a>Plošča za načrtovanje
 
 Na **plošči razporeda** je upravitelju virov na voljo pogled portfelja vseh rezervacij v organizaciji. V tem pogledu lahko upravitelj virov podaljša, skrajša ali premakne obstoječe rezervacije, podobno kot z možnostmi, ki so na voljo v funkciji **Upravljanje rezervacij**. Upravitelj virov lahko tudi nadomesti obstoječe vire, ki so dodeljeni določeni rezervaciji, tako da z desno miškino tipko klikne rezervacijo in izbere **Nadomeščanje vira**. Upravitelji virov lahko tudi urejajo krivulje obstoječih rezervacij, tako da z desno miškino tipko kliknejo rezervacijo in izberejo **Uredi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

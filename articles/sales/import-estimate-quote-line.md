@@ -67,3 +67,6 @@ Pri uvozu ocen sistem privzeto določi cene na podlagi cenikov projekta, prilož
 | Opravilo A | Letalska vozovnica | 10. 1. 2020 | 4 | 400 | 1600 |
 | Opravilo B | Hotel | 1. 10. 2020 | 4 | 200 | 800 |
 | Opravilo C | Hotel | 1. 11. 2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

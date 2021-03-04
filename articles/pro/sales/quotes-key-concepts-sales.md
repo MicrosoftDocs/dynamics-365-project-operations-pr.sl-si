@@ -89,3 +89,6 @@ Ponudbe Project Operations temeljijo na ponudbah Dynamics 365 Sales. Obstajajo p
 - Ponudbe Project Operations imajo lastno obliko in elemente uporabniškega vmesnika, pravila poslovanja, poslovno logiko v vtičnikih in skripte na strani odjemalca, s čimer se razlikujejo od ponudb Sales.
 
 Iz teh razlogov ni priporočljivo, da se ponudba Sales in ponudba Project Operations uporabljata izmenično.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

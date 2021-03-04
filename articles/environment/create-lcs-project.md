@@ -36,3 +36,6 @@ Za upravljanje okolij storitev Dynamics 365 Project Operations uporabite storitv
 
 Ta projekt LCS uporabite za uvedbo okolja Project Operations.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

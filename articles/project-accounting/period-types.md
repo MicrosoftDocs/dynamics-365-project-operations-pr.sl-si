@@ -34,3 +34,6 @@ Vrsta obdobja določa, kako pogosto bodo izdelane ocene prihodkov od projekta. T
 4. Izberite zapis vrste obdobja in nato **Ustvari obdobja**, da ustvarite obdobja za izbrano vrsto obdobja. Glede na izbrano pogostost obdobja boste morda imeli možnost določiti začetni datum ali število obdobij, ki jih želite ustvariti.
 5. Izberite **Obdobja** za pregled ustvarjenih obdobij.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

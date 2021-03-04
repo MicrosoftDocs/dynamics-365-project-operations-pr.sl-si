@@ -73,3 +73,6 @@ Opravite lahko množično ponovno ocenjevanje stanja »Ni dovoljeno preseči«. 
 Če želite ponovno oceniti stanje »Ni dovoljeno preseči« izberite eno ali več dejanskih vrednosti v pogledu **Nedokončana opravila obračunavanja časa in materiala** ali **Dejanske vrednosti** in nato izberite **Ponovno ocenjevanje stanja »Ni dovoljeno preseči«**.
 
 Vse pomembne izbrane dejanske vrednosti z omejitvijo »Ni dovoljeno preseči« bodo ocenjene glede na nastavitev omejitve »Ni dovoljeno preseči«. Dejanske vrednosti, ki so pomembne za ponovno ocenjevanje stanja »Ni dovoljeno preseči«, so neobračunane dejanske vrednosti prodaje, ki niso fakturirane, niso na osnutku računa in so označene kot plačljive. Druge izbrane dejanske vrednosti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

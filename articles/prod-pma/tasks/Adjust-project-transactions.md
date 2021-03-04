@@ -44,3 +44,6 @@ Ta vodnik po opravilih prikazuje, kako prilagodite transakcijo v projektu. Prila
 13. Na seznamu označite izbrano vrstico. 
 14. Vnesite številko v polje »Lastna cena«. 
 15. Kliknite »Knjiži«. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

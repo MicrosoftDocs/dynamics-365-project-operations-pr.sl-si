@@ -47,3 +47,6 @@ Na strani **Parametri integracije rešitve Project Service Automation** lahko na
 | Privzete vrednosti vrste obračunavanja  | Vrsta obračunavanja         | Kliknite **Novo** , da dodate vrstico, v kateri lahko izberete vrsto obračunavanja, za katero želite nastaviti privzeto lastnost vrstice. Določeno vrsto obračunavanja lahko v konfiguraciji izberete le enkrat. |
 |                        | Lastnost vrstice        | Izberite privzeto lastnost vrstice za izbrano vrsto obračunavanja. Ko se nove ocene delovnih ur, nove ocene stroškov ali novi dejanski podatki sinhronizirajo iz rešitve Project Service Automation, se polje **Lastnost vrstice** nastavi na privzeto vrednost za vrsto obračunavanja. |
 | Zaklepanje funkcionalnosti  | Ni na voljo.       | Izberite funkcionalnost, ki jo želite onemogočiti v rešitvi Finance, za projekte in pogodbe, ki izvirajo iz rešitve Project Service Automation. Na primer: izklopite lahko možnost urejanja pogodb in projektov, ustvarjate strukturirano členitev dela in vnesete časovne liste v rešitev Finance. Polja, povezana z računovodstvom, bodo še naprej omogočena, tudi če z nastavitvijo za parametre niso na voljo. Privzeto je omogočena vsa funkcionalnost. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Za poročila o stroških je mogoče prikazati transakcijo na ravni z več podrob
 Če želite izvirno poročilo o stroških, v katerem se je pojavila transakcija, prikazati na ravni z več podrobnostmi, izberite transakcijo in nato **Izvirni dokument**.
 
 Pri ogledu posamezne transakcije si lahko ogledate tudi vse dodatne podatke, ki so priloženi transakciji. Na primer si lahko pri razčlenjenem hotelskem strošku ogledate podroben seznam stroškov, kot so dostop do interneta, telefonski klici in sobna postrežba.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

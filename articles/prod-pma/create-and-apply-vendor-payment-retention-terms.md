@@ -65,3 +65,6 @@ Ko ustvarite pogoje za zadržanje plačila dobavitelju, lahko te pogoje uporabit
 6. Če ima projekt za dobavitelja nastavljene tudi pogoje po načinu plačila ob izvedenem plačilu (PWP), vnesite mejni odstotek za projekt v polju **Mejni odstotek za PWP**.
 
 Pogoji za zadrževanje plačila dobavitelju so prikazani tudi v naročilnicah, ki jih ustvarite za dobavitelja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

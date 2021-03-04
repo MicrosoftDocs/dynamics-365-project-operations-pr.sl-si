@@ -75,3 +75,6 @@ Naslednja ilustracija prikazuje, kako se podatki sinhronizirajo kot del integrac
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Namestite rešitev za integracijo rešitve Project Service Automation v Finance v svoj primerek rešitve Project Service Automation
 
 Prenesite rešitev za integracijo rešitve Project Service Automation v Finance iz [Microsoftovega centra za prenose](https://www.microsoft.com/download/details.aspx?id=57016) in upoštevajte navodila, ki so priložena rešitvi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

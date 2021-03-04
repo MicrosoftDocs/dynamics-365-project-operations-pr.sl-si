@@ -51,3 +51,6 @@ Projektne ocene omogočajo finančni pregled za predvideno in načrtovano delo z
 5. Po zaključku postopka odstranjevanja se odstranjena projektna ocena prikaže z negativno vrednostjo. 
 
 Če ocene niste nameravali odstraniti, jo lahko izberete in kliknete **Povrni postopek odstranjevanja**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

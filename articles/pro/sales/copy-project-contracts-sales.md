@@ -45,3 +45,6 @@ Naslednji podatki se ne kopirajo iz **Izvorne** v **Ciljno pogodbo**:
   - Podatki o proračunu stranke
 
 Ker so ti podatki specifični za vsako pogodbo, se ta polja in zapisi ne kopirajo. Kopirane so podrobnosti pogodb za projekte in izdelke, ocene v podrobnostih pogodbe ter vrednosti, ki jih na ravni pogodbe ni dovoljeno preseči. Privzete vrednosti cen in mer stroškov so odvisne od izbire v polju **Kopiraj cene** na strani s pogovornim oknom **Kopiraj parametre**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

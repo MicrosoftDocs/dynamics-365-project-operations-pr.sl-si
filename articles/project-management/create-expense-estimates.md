@@ -38,3 +38,6 @@ Za vsako postavko stroškov so opredeljeni naslednji atributi:
 - **Cena na enoto stroška** : cena na enoto, uporabljena za izračun izdatkov za strošek
 - **Cena na enoto prodaje** : cena na enoto, uporabljena za izračun prodajne cene za strošek
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

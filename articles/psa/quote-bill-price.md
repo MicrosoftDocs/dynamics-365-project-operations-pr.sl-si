@@ -44,3 +44,6 @@ V spodnjih temah je na voljo več informacij o oblikovanju ponudb, določanju ce
 - [Skupine enot in enote](advanced-units.md)
 - [Valuta za več enot](advanced-currency.md)
 - [Zapisovanje dejanskih vrednosti](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

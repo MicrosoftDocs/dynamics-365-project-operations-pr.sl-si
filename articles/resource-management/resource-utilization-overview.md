@@ -45,3 +45,6 @@ Poleg tega morate vsakemu viru, ki ga je mogoče rezervirati, dodati tudi privze
 Na zavihku **Project Service** lahko nastavite tudi posamično ciljno uporabo za vir. Izračun uporabe nato uporabi to ciljno uporabo za oceno cilja vira namesto cilja privzete vloge vira.
 
 Uporaba se za posamezen vir prikaže samo, če je vir odobril čas, ki se zaračuna, v obdobju, ki je prikazan v mreži.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

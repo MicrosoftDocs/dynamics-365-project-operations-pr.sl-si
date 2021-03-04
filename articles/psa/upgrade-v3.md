@@ -110,3 +110,6 @@ Pri opravilih, ki so dodeljena vlogi z organizacijsko enoto, ki se razlikuje od 
  
 Zaradi spreminjanja privzetih vrednosti različnih organizacijskih enot virov pri neustvarjenih članih ekipe priporočamo, da pred nadgradnjo ustvarite ali znova ustvarite ekipo za vsak projekt, ki vsebuje splošne vire, tako da dodelitve organizacijskih enot ne bodo izgubljene.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

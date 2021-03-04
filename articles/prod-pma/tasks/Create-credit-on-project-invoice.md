@@ -39,3 +39,6 @@ ms.locfileid: "4084733"
 10. Kliknite V redu. 
 
 Po tem koraku bo dobropis na voljo za predlog računa.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

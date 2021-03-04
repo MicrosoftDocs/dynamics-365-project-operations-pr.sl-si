@@ -98,3 +98,6 @@ Sledite navodilom v temi [Zagotovitev novega okolja](resource-provision-new-envi
 
 Namestite podatke za nastavitev in konfiguracijo CDS, kot je opisano v temi [Nastavitev in uporaba konfiguracijskih podatkov v storitvi Common Data Service](resource-apply-pro-setup-config-data.md).
 Ta korak dokončajte šele, ko bo predstavitveno okolje Finance uvedeno in bodo predstavitveni podatki v FO-ju pripravljeni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

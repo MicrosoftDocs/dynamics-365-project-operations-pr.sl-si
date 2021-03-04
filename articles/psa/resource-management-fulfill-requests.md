@@ -46,3 +46,6 @@ Prikaže se pomočnik za razporejanje, ki je filtriran glede na zahteve. Izberit
 > ![Izbran vir](media/Resource-Management-image61.png)
 
 Privzeto ustvarjenega člana ekipe nadomesti potrjen poimenovani vir iz projektne ekipe in dodelitve opravila v projektnem razporedu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

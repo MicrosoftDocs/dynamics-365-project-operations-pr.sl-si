@@ -344,3 +344,6 @@ Ko prikažete čas na višjih ravneh, imajo celice na zavihku **Usklajevanje** k
 ![Pogovorno okno »Podaljšaj rezervacijo«](media/Resource-Management-image58.png)
 
 Vodja projekta ali upravitelj virov lahko nato s ploščo razporeda reši vse primere, kjer ima vir preveliko število rezervacij glede na svojo zmogljivost.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

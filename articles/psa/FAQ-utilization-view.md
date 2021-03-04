@@ -101,3 +101,6 @@ Dejanske zaračunane ure so pridobljene iz entitete **Opravljeno delo**. Opravlj
   - Vloga v podrobnostih pogodbe za projekt je nastavljena na Se ne zaračuna.
   - Projekt nima povezanih podrobnosti pogodbe.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

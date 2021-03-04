@@ -58,3 +58,6 @@ Dodatna pomoč je na voljo v obliki vodnika po opravilih. Za dostop do vodnikov 
 ### <a name="videos"></a>Videoposnetki
 
 Oglejte si videoposnetke z navodili, ki so na voljo na spletnem mestu [Microsoft Dynamics 365 na kanalu YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

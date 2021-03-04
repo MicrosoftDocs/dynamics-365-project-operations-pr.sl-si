@@ -27,3 +27,6 @@ Pri beleženju časa v storitvi Project Operations lahko uporabniki sledijo kate
 
 Za informacije o tem, kako ustvariti, oddati ali preklicati vnos druga orodja za lažje poročanje glejte [Ravnanje uporabnika pri časovnih vnosih](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

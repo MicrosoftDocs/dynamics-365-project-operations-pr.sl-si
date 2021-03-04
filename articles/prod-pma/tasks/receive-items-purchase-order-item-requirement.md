@@ -56,3 +56,6 @@ To opravilo uporablja nabor podatkov USSI.
 21. Vnesite vrednost v polje **Potrdilo izdelka**.
 22. Izberite **V redu**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

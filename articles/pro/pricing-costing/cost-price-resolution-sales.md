@@ -36,3 +36,6 @@ Ko je cenik z lastnimi cenami razrešen, se polji **Vloga** in **Enota vira** v 
 Ocena vrstic za strošek se nanaša na ponudbo in podrobnosti pogodbe za stroške ter na vrstice ocen stroškov za projekt.
 
 Ko je cenik z lastnimi cenami razrešen, sistem uporabi kombinacijo polj **Kategorija** in **Enota** polja v vrstici ocene stroškov, da se ujemajo z vrsticami **Cena kategorije** na razrešenem ceniku. Če sistem poišče vrstico s cenami kategorij, ki ima mero stroškov za kombinacijo polj **Kategorija** in **Enota**, potem je to privzeta mera stroškov. Če se vrednosti **Kategorija** in **Enota** v sistemu ne ujemata ali če sistem najde ujemajočo se vrstico cene kategorije, vendar metoda določanja cen ni **Cena na enoto**, se mera stroškov ponastavi na nič (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

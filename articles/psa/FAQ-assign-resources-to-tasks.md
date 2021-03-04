@@ -82,3 +82,6 @@ Viri, dodeljeni na ta način, se dodajo ekipi brez rezervacij. To je podobno dod
 
 3. Izberite vir, ki ga želite dodeliti opravilu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

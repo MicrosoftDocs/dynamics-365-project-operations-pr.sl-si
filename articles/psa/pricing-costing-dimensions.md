@@ -77,3 +77,6 @@ Spodnji primer prikazuje deleže obračunavanja, ki so nastavljeni na podlagi vl
 | ----------------|-------------|----------|----------:|----------|
 | Moje podjetje_razpon1 | Contoso, ZDA  |Ura | 145|USD     |
 | Moje podjetje_razpon2 | Contoso Indija |Ura|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ honorar v aplikaciji Project Operations ni na voljo za uporabo, dokler ni izdan 
 | --- | --- | --- |
 | Razpoložljiv znesek | Znesek, ki je na voljo za uporabo v zapisu o honorarju ali predplačilu. | Dokler predplačilo ali honorar ni izdan, ga ni mogoče uporabiti, kar pomeni, da je razpoložljivi znesek enak nič. |
 | Uporabljen znesek | Znesek, ki je že uporabljen v honorarju ali predplačilu. | Predplačilo ali honorar je mogoče na računu delno uskladiti z dejanskimi stroški, ki bodo imeli določen del označen kot »že porabljen« ali »porabljen«. Preostali znesek predplačila ali honorarja je na voljo za usklajevanje na prihodnjem računu z dejanskimi stroški. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

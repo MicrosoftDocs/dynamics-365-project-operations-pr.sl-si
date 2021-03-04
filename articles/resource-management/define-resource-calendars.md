@@ -43,3 +43,6 @@ Vsak projektni vir, ki ga je mogo훾e rezervirati, mora imeti koledar delovnega �
 2. V pogledu mre탑e izberite do 25 **razpolo탑ljivih virov**, ki jih 탑elite posodobiti.
 3. Izberite mo탑nost **Nastavitve koledarja** za prikaz seznama razpolo탑ljivih predlog delovnega 훾asa v pogovornem oknu.
 4. Izberite predlogo, ki jo 탑elite uporabiti, in nato izberite mo탑nost **Uporabi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

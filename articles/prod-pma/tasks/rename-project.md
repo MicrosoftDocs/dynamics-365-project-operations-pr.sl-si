@@ -35,3 +35,6 @@ Projektne stopnje lahko služijo kot vodilo za življenjski cikel projekta. Stop
 4. Na seznamu izberite vnaprej določeno ali uporabniško določeno stopnjo, ki jo želite spremeniti. 
 5. V polje »Stopnja projekta« vnesite novo ime.
 6. Kliknite Shrani.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

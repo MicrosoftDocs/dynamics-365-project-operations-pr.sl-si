@@ -43,3 +43,6 @@ Izberite to vrsto uvajanja, če od aplikacije Project Operations pričakujete up
 - Za ustvarjanje računov, usmerjenih k strankam, za projekte potrebuje bogat mehanizem za prometni davek in menjalni tečaj v podjetniškem razredu.
 - Sistem vodenja računov projekta in pripoznavanja prihodkov, skladen z mednarodnimi standardi finančnega poročanja (IFRS).
 - Aplikacija Finance ali Supply Chain Management in integracija transakcij, ki temeljijo na projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Obstoječo ponudbo lahko povežete s priložnostjo. Upoštevajte naslednje korak
    Ko priložnost premaknete na to stopnjo, lahko to ponudbo izberete s seznama ponudb, povezanih s to priložnostjo. Izbira te ponudbe pomeni, da jo boste v nadaljevanju postopka uporabljali še naprej.
 
    Vse druge ponudbe, povezane s priložnostjo, bodo še vedno na voljo in bodo aktivne, dokler ne pridobite ene od njih. Prodajni postopek lahko premaknete nazaj na prejšnjo stopnjo **Potrdi** in izberete drugo ponudbo, s katero želite nadaljevati.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

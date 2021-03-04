@@ -91,3 +91,6 @@ Paketna obdelava za ustvarjanje računov je ponavljajoče se opravilo. Če je pa
 
 > [!NOTE]
 > Paketno izdajanje računov v aplikaciji Project Operations se izvaja samo za podrobnosti pogodbe, ki so konfigurirane z razporedi izdajanja računov. V podrobnostih pogodbe z načinom obračunavanja s fiksno ceno morajo biti nastavljeni mejniki. V podrobnostih pogodbe z načinom obračunavanja za časovne in materialne transakcije je treba nastaviti datumski urnik računov.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

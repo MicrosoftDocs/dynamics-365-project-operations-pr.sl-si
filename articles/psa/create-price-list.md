@@ -71,3 +71,6 @@ Ceniki temeljijo na vlogah in kategorijah stroškov, zato poskrbite, da že pred
   
 ### <a name="see-also"></a>Glejte tudi  
  [Konfiguracija storitve Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -273,3 +273,6 @@ Dejanska vrednost obračunane prodaje za linijo izdelkov s količino in zneskom 
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ To pogosto vprašanje se nanaša na dejansko vrednost stroška, kjer je razred t
 Odprite povezani vnos stroška in se prepričajte, da je v polju za vnos stroška vnesen znesek. Če pri izvirnem vnosu stroška polje z zneskom ni bilo izpolnjeno, ste osamili težavo.
  
 Da bi rešili to težavo, znova ustvarite vnos stroška z veljavnim zneskom in ga odobrite.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

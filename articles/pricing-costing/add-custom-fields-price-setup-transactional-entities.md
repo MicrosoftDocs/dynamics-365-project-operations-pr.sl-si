@@ -146,3 +146,6 @@ V spodnji tabeli je obsežen seznam vnaprej pripravljenih obrazcev in pogledov p
 |  Dejansko|• Informacije<br>• Dejavno opravljeno delo|• Povezani pogled za opravljeno delo|
 
 Polja po meri je morda treba dodati tudi v pravila poslovanja, odvisno od vaših opredelitev. En vnaprej pripravljen primer je za pravilo poslovanja **Možnost urejanja časovnega vnosa na podlagi stanja**. To pravilo določa, katera polja je treba zakleniti, ko je časovni vnos v stanju, ki ga ni mogoče urejati, na primer **Odobreno**. Dodajte polja v to pravilo poslovanja, tako da so polja zaklenjena za urejanje, ko časovni vnos ni v stanju **Osnutek** ali **Vrnjen**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Priložnosti so nevtralne možne stranke, ki se zanimajo za to, da bi z vami skl
   
 ### <a name="see-also"></a>Glejte tudi  
  [Priročnik za upravitelja kupcev](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

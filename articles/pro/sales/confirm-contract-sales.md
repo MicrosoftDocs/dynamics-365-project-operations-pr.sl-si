@@ -35,3 +35,6 @@ Ko projektno pogodbo zaprete kot izgubljeno, se stanje pogodbe posodobi na **Zap
 
 > [!NOTE]
 > Zapiranje projektne pogodbe v programu Dynamics 365 Project Operations kot izgubljene, ne bo vplivalo na stanje z njo povezane priložnosti. Priložnost ostane odprta in jo je treba ročno zapreti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

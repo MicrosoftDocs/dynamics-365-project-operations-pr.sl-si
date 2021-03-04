@@ -67,3 +67,6 @@ Valuta v podrobnostih vrstice ponudbe privzame prodajne vrednosti iz cenika enot
 Izračuni donosnosti pretvorijo znesek v podrobnostih vrstice ponudbe za stroške in prodajo v osnovno valuto okolja za poročilo o celotni ocenjeni marži za ponudbo.
 
 Tako lahko pride do napake pri zaokroževanju in spremembe marže, saj manjkajo menjalni tečaji, ki so občutljivi na datum. Te izračune za projektnih ponudbe uporabite samo kot približke in ne kot dejansko zakonsko ali drugo poročanje, ki zahteva večjo natančnost zaokroževanja in zavedanje pomembnosti datuma za menjalne tečaje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

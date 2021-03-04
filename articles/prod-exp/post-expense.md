@@ -32,3 +32,6 @@ Ko je poročilo o stroških odobreno in preneseno v splošno temeljnico, ga lahk
 Če želite objaviti poročilo o stroških, na strani **Odobrena poročila o stroških** izberite poročilo o stroških in nato v podoknu za dejanja izberite **Objavi**.
 
 Na seznamu lahko hkrati objavite tudi vsa poročila o stroških. Izberite vsa poročila o stroških in nato izberite **Objavi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Odpravljene so naslednje težave:
 Odpravljene so naslednje težave:
 
 - Z dvoklikom možnosti **Pridobi vse kategorije transakcij** se ustvari več vrstic.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

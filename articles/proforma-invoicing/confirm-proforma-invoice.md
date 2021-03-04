@@ -198,3 +198,6 @@ Obračunana dejanska vrednost prodaje za znesek mejnika iz prvotnega mejnika v p
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,5 @@ Z dodajanjem lastnosti zahtevam za vire lahko dokumentirate znanje ali strokovno
 3. V podmreži **Znanje** izberite možnost **+Dodaj novo lastnost zahteve**.
 4. V podoknu za hitro ustvarjanje poiščite in izberite zahtevane lastnosti ter dodajte **Vrednost ocene**.
 5. Izberite **Shrani in zapri**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

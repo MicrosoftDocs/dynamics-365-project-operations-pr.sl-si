@@ -134,3 +134,6 @@ Preden začnete konfigurirati podatke v storitvi Common Data Service (CDS), mora
 13. Izberite **Shrani**. 
 
 ![Posodobljeni projektni parametri](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

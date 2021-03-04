@@ -316,3 +316,6 @@ Napake pri načrtovanju pa lahko odpravite tudi tako, da za vsako opravilo klikn
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

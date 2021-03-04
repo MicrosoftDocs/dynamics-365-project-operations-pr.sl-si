@@ -45,3 +45,6 @@ Paketna obdelava za ustvarjanje računov je ponavljajoče se opravilo. Če se pa
 
 > [!NOTE]
 > Paketno izdajanje računov se izvaja samo za podrobnosti pogodbe, ki so konfigurirane z razporedi izdajanja računov. V podrobnostih pogodbe z načinom obračunavanja s fiksno ceno morajo biti nastavljeni mejniki. V podrobnostih pogodbe z načinom obračunavanja za časovne in materialne transakcije je treba nastaviti datumski urnik računov. Enako velja v podrobnosti pogodbe za projekt.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

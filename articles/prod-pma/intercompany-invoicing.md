@@ -113,3 +113,6 @@ Ko USSI (pravna oseba, ki posoja) objavi medpodjetniški račun za stranko, se v
 Za več informacij glejte [Konfiguriranje zaračunavanja projektov med podjetji](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

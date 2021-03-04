@@ -62,3 +62,6 @@ Naslednji postopek opisuje, kako ustvarite projektno ekipo.
 ## <a name="monitor-project-teams"></a>Spremljanje projektnih ekip
 1. Na strani **Vsi projekti** izberite povezavo **ID projekta** za projekt **2. faza nadgradnje XYZ**.
 2. Na zavihku za hiter dostop **Projektna ekipa in načrtovanje** potrdite, da so viri projekta, ki so navedeni, pravilni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

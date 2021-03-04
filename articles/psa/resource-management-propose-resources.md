@@ -113,3 +113,6 @@ Ker rešitev Dynamics 365 Project Service Automation uporablja mehanizem Univers
 Če si želite ogledati podrobnosti o posameznem viru, ga kliknite z desno tipko miške, da odprete kartico vira.
 
 ![Kartica vira](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -170,3 +170,6 @@ Spodnje slike prikazujejo primere preslikav predlog opravil v Integracijo podatk
 [![Preslikava predloge transakcij za ocene stroškov](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Preslikava predloge za ocene stroškov](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

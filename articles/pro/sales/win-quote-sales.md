@@ -40,3 +40,6 @@ Ko projektno ponudbo zaprete kot »Izgubljena«, je stanje nastavljeno na »Zapr
 
 > [!NOTE]
 > V aplikaciji Project Operations zapiranje ponudbe kot pridobljene ali izgubljene ne bo vplivalo na to stanje priložnosti, ki bo ostalo odprto, dokler se ne zapre ročno.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

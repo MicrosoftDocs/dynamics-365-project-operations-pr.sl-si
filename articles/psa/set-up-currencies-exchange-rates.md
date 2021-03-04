@@ -43,3 +43,6 @@ Za ustvarjanje ponudb in izdajanje računov strankam v [!INCLUDE[pn_project_serv
   
 ### <a name="see-also"></a>Glejte tudi  
  [Konfiguracija rešitve Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

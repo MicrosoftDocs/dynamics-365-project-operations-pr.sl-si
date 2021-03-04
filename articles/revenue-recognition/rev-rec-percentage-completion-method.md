@@ -35,3 +35,6 @@ Ko ustvarite podrobnosti pogodbe projekta z naslednjimi atributi v aplikaciji Dy
 
   Stroške projekta, profil prihodka, predlogo stroškov in kodo obdobja lahko nastavite ročno. Če jih ne nastavite ročno, se med prvim izračunom ocene projekta uporabijo privzete vrednosti s pomočjo pravil, konfiguriranih za stroške projekta in profile prihodkov.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

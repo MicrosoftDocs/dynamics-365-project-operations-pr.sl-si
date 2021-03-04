@@ -44,3 +44,6 @@ Osnovni scenarij uvajanja stroškov omogoča le beleženje osnovnih stroškov gl
 
 ## <a name="determine-your-expense-deployment"></a>Ugotavljanje vrste uvajanja stroškov
 Če želite ugotoviti, ali izvajate osnovno upravljanje uvajanja stroškov, preverite, ali se URL konča z **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

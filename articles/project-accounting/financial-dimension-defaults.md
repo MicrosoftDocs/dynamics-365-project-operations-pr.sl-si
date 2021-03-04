@@ -62,3 +62,6 @@ Projekti so ustvarjeni in vzdrževani v storitvi CDS. Računovodski atributi za 
 4. Nastavite privzete vrednosti finančne razsežnosti. Upoštevajte, da so privzete vrednosti finančne razsežnosti iz računa stranke. Če je projekt povezan s podrobnostmi pogodbe z več strankami za pogodbo projekta, se uporabi primarna stranka za nastavitev finančnih razsežnosti na privzete.
 
 Privzete finančne razsežnosti projekta se uporabljajo za nastavitev privzetih vrednosti vrstice dnevnika za čas, stroške in brezplačne transakcije v možnosti **Dnevnik integracij za Project Operations** ter na povezanih projektnih vrsticah računa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

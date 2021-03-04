@@ -63,3 +63,6 @@ V storitvi Project Operations ni mogoče slediti popravkom, ki so izvedeni v pon
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Sledenje komentarjem in odobritvam ponudb in projektnih pogodb
 Pregled in odobritev ponudb in projektnih pogodb lahko upravljate z zidom z zapisi in objavami. Vaša organizacija lahko ustvari poteke dela in vtičnike po meri za dodeljevanje, preusmerjanje, stopnjevanje in upravljanje obvestil o pregledu in odobritvi delovnih nalogov.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

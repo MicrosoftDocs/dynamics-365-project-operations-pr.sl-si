@@ -104,3 +104,6 @@ Poizvedba glede načrta porabe zveznih subvencij vključuje naslednje stolpce:
 - Katalog za zvezno pomoč domačim entitetam
 - Potrdila
 - Izdatki
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

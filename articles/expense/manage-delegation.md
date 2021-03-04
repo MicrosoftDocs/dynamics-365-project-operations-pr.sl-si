@@ -39,3 +39,6 @@ Pooblaščenec za stroške lahko ustvari in upravlja poročila o stroških druge
 Pooblaščenec lahko hitro filtrira in poišče obstoječa poročila o stroških, ki so jim bila dodeljena. Pooblaščenec lahko hitro ustvari tudi novo poročilo o stroških za druge uporabnike tako, da izbere možnost **Novo poročilo o stroških**.
 
 Pooblaščenci lahko ustvarijo in upravljajo poročila o stroških za druge zaposlene tako, da odprejo **Upravljanje stroškov** > **Moji stroški** > **Poročila o stroških** in izberejo **Odpri stroške drugega uporabnika**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

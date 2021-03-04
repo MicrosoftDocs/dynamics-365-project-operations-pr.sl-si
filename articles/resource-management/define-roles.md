@@ -20,3 +20,6 @@ ms.locfileid: "4514589"
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Uporabite lahko funkcije, ki jih ponuja Dynamics 365 Field Service za določitev vlog v vašem okolju Dynamics 365 Project Operations. Za dokončanje te nastavitve glejte [Nastavitev kategorij virov, ki jih je mogoče rezervirati](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Odpravljene so naslednje težave:
 - Stranke lahko pri ustvarjanju projekta opazijo slabše delovanje, ker **GetBookableResourceIdFromUser** pridobi vse stolpce virov, ki jih je mogoče rezervirati, ne le primarnega ID-ja.
 - Entiteta **TransactionType** manjka v vtičniku posodobitve pred preverjanjem pristnosti, da uporabnikom prepreči vnos elementov **Enote** in **Skupine enot**, ki niso veljavne za vrste transakcij.
 - Korak **Odstrani** ne deluje pri uvozu časovnega vnosa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

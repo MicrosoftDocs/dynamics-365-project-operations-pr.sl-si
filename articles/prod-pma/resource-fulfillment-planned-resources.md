@@ -40,3 +40,6 @@ Projektni vodja lahko načrtuje zahtevane vloge virov za projekt. Upravitelj vir
 7. Izberite delavca in nato izberite **Dodeli**.
 8. Potrdite, da je bila vrstica za **Razvijalec programske opreme 1** odstranjena za projekt **2. faza projekta nadgradnje XYZ**.
 9. Na zavihku **Projektna ekipa in načrtovanje** za projekt **2. faza nadgradnje XYZ** potrdite, da je bil delavec, ki ste ga izbrali v prejšnjem koraku, dodan kot **Razvijalec programske opreme**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

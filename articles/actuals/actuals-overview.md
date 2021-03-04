@@ -342,3 +342,6 @@ Aplikacija Project Operations beleži finančne transakcije, do katerih pride me
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

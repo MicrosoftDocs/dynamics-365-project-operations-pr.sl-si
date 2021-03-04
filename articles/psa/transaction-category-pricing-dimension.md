@@ -53,3 +53,6 @@ V spodnji tabeli je obsežen seznam vnaprej pripravljenih obrazcev in pogledov, 
 2. Na zavihku **Cenovne razsežnosti na podlagi zneska** na strani **Parametri** lahko vidite, da mreža na zavihku prikazuje zapise v entiteti **Cenovne razsežnosti**.
 3. Dodajte možnost **Kategorija transakcije** na ta seznam in nastavite polji **Mogoče uporabiti za ceno** in **Mogoče uporabiti za prodajo** na **Da**.
 4. V polju **Vrsta razsežnosti** izberite **Na podlagi zneska** in nato izberite prioriteto za možnost **Kategorija transakcije**, povezano s ceno in prodajo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

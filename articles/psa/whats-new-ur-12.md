@@ -61,3 +61,6 @@ V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za Proje
     - Popravljeno: podvojeni ID-ji predmetov, najdeni na glavnem obrazcu **Pogodba**.
     - Popravljeno: logika je bila posodobljena, da je zavihek **Analiza ponudbe** viden, tako da prikazuje nastavitev metapodatkov zavihka.
     - Popravljeno: datum knjiženja na dejanskem zapisu zdaj prihaja iz datuma časovnega/stroškovnega vnosa in ne datuma odobritve.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

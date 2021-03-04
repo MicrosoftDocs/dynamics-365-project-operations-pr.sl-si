@@ -71,3 +71,6 @@ Način »Brez« je na voljo samo, če rezervacijo ustvarite na zavihku **Ekipa**
 - Enakomerna porazdelitev ur
 
 Če uporabite enega od teh treh načinov dodeljevanja, ne boste obveščeni o tem, da je bilo doseženo preveliko število rezervacij vira. Če želite popraviti preveliko število rezervacij, morate uporabiti ploščo razporeda.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

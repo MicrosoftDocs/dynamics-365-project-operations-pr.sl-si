@@ -63,3 +63,6 @@ V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za Proje
 **Sales**
 
 - Opravljeno: ko so časovni vnosi ponovno odobreni (**Odobri > Prekliči >** ponovno odobri), se ustvari podvojeni dejanski znesek, ki se ne zaračuna.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

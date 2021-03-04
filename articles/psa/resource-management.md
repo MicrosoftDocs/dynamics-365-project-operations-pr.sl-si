@@ -53,3 +53,6 @@ Za projekt si lahko izberete ekipo splošnih ali poimenovanih virov v PSA. Upora
 - [Rezervacija poimenovanih virov iz zahtevanih pogojev za vire](book-named-resource.md)
 - [Pošiljanje zahteve za vir](submit-resource-request.md)
 - [Sprejem ali zavrnitev predlaganega projektnega vira iz zahteve za vir](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

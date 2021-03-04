@@ -440,3 +440,6 @@ Po izračunu izjave si lahko na različnih zavihkih strani **Projektne izjave** 
 -   **Poraba** – informacije o porabi ur, postavkah, izdatkih in transakcijah plač.
 -   **Račun** – informacije o računih in izdajanju računov za kupce.
 -   **Urna postavka** – urne postavke za ure, ki se knjižijo na račune prihodkov in odhodkov.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

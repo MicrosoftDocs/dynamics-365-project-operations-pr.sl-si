@@ -37,3 +37,5 @@ Kot vodja projekta izvedite naslednje korake za urejanje zahteve za vir člana e
 ## <a name="edit-resource-assignment-contours"></a>Urejanje krivulj dodelitve virov
 
 Poleg urejanja podrobnosti zahtev za vir lahko vodja projekta posodobi posamezne krivulje zahtev za vir s funkcijo **Navedi vzorec**. Ko je izbrana funkcija **Navedi vzorec**, se odpre stran, kjer si lahko ogledate krivulje na dnevnem, tedenskem ali mesečnem časovnem merilu. Vsako krivuljo je mogoče prilagoditi glede na čas začetka, čas zaključka in skupni obseg dela v določenem obdobju.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

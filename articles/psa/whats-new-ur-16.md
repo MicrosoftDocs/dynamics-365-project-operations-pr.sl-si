@@ -64,3 +64,6 @@ V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za PSA V
 
     -   Popravljeno: Ko uporabniki nadgradijo z 2.X na 3.X, bodo dovoljeni projekti z vrednostjo NULL za ime projekta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

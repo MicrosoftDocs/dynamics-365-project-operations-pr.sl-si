@@ -73,3 +73,6 @@ Kliknite na spodnje povezave za več informacij o tem, kaj vse omogoča [!INCLUD
  [Priročnik za upravitelja kupcev](../psa/account-manager-guide.md)   
  [Priročnik za vodje projektov](../psa/project-manager-guide.md)   
  [Priročnik za upravitelje virov](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

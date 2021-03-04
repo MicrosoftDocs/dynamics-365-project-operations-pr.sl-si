@@ -46,3 +46,6 @@ Za izvedbo korakov v tej temi, se prepričajte, da imate dodeljeno vlogo skrbnik
 3. V polje **Količina** vnesite količino, ki jo bo enota vsebovala. Če sta v škatli na primer dva kosa, vnesite »2«. 
 4. V polju **Osnovna enota** izberite osnovno enoto za vzpostavitev najmanjše merske enote za enoto. Na primer, lahko izberete »Kos«.
 5. Izberite **Shrani**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

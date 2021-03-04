@@ -64,3 +64,6 @@ V rešitev za določanje cen dodajte naslednje entitete storitve Project Service
 5.  Ko boste pozvani, da v izbrane entitete vključite vse odvisne entitete, izberite **Ne, ne vključi obveznih komponent.**
 
     ![Vključno z odvisnimi entitetami](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

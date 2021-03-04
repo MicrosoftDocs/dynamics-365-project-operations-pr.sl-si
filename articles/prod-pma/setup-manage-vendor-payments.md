@@ -80,3 +80,6 @@ Ko dobavitelj zaključi delo na projektu in vam pošlje račun, morate pregledat
 2. Na strani **Račun dobavitelja s plačilom, ki se izvede po prejemu plačila** v iskalno polje vnesite vrednosti, da poiščete račun dobavitelja, ki ga želite pregledati, in nato izberite **Iskanje**.
 3. Na zavihku za hitri dostop **Vrstnice računa dobavitelja** izberite vrstice, ki jih želite spremeniti.
 4. Če so pogoji za **plačilo, ki se izvede po prejemu plačila** , za vrstico računa izpolnjeni, izberite **Izplačaj plačilo dobavitelju**. Možnost **Plačilo, ki se izvede po prejemu plačila** je počiščena in vrednost polja **Pripravljeno za plačilo** se spremeni v **Da**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Uporabite to vrsto uvajanja, če od aplikacije Project Operations pričakujete u
 - Integriran sistem, ki upravlja notranje in plačljive projekte za razporede in finance od prodaje do izstavljanja računov.
 - Finančno računovodski sistem za načrtovanje virov v poslovnem okolju neodvisnega ponudnika za integracijo z aplikacijo Project Operations.
 - Sistem neodvisnega ponudnika za delo s prometnim davkom, menjalnimi tečaji, povračili stroškov in neprojektnimi stroški.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

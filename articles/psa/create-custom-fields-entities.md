@@ -73,3 +73,6 @@ Podatke za razsežnosti na osnovi entitete lahko ustvarite ročno ali z uvozom v
 > ![Vzorčni podatki za entiteto standardnega naziva ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

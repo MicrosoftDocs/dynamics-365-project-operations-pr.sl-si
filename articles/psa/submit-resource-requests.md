@@ -55,3 +55,6 @@ Po pridobljeni pogodbi za projekt, boste pri projektu potrebovali osebje. Strukt
   
 ### <a name="see-also"></a>Glejte tudi  
  [Priročnik za vodje projektov](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

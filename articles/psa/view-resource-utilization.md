@@ -43,3 +43,6 @@ Preverite lahko uporabo virov, da določite raven uporabe vaših virov, tako pa 
   
 ### <a name="see-also"></a>Glejte tudi  
  [Priročnik za upravitelje virov](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

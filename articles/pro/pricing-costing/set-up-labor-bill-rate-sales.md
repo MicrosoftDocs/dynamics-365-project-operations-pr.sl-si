@@ -55,3 +55,6 @@ Na primer, urna postavka razvijalca iz podjetja Fabrikam India, ki dela pri amer
     | Razvijalec | Fabrikam ZDA | 150 USD |
 
 3. Prodajni cenik **Delež obračunavanja za podjetje Fabrikam ZDA** priložite ceniku za projekte projektne pogodbe ali določeni stranki.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

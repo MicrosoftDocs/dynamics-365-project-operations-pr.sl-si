@@ -344,3 +344,6 @@ V prvem mesecu so svetovalci na projektu zabeležili skupno 800 ur. Strošek pis
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

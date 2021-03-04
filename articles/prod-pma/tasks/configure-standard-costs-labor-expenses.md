@@ -54,3 +54,6 @@ V tej temi je pojasnjeno, kako nastavite standardne stroške dela in stroške pr
 22. Vnesite številko v polje **Oblikovanje cen**. Dejanska prodajna cena, ki se uporabi, ko delavec vnese transakcije v dnevnik stroškov, je prodajna cena z najvišjo stopnjo podrobnosti. Če sta na primer nastavljeni splošna prodajna cena in prodajna cena za določenega delavca, se uporabi prodajna cena za določenega delavca.  
 23. Izberite **Shrani**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Obstoječo projektno ponudbo lahko pošljete v potrditev po e-pošti ali v tiska
 
 > [!NOTE]
 > Ko je status spremenjen v **Poslano** , projektne ponudbe ni več mogoče urejati.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

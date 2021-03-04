@@ -135,3 +135,6 @@ Naslednja polja so na voljo v podrobnosti vrstice računa, ki temelji na mejniku
 2. Odprite osnutek predračuna in na traku **Dejanja** kliknite **Osvežitev transakcij vrstice računa**.
 
   Tako ustvarite podrobnosti vrstice računa za vse dejansko delo, ki je že preteklo in je označeno kot **Pripravljeno za izdajanje računov**; vendar ni vključeno v račun.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

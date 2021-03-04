@@ -42,3 +42,6 @@ Znanje virov je ocenjeno z modeli usposobljenosti. Individualne ocene so v model
 
 
 Te vrednosti ocen se prikažejo pri filtrih **Zahteve vira**, **Plošča razporeda** in **Pomočnik za razporejanje**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

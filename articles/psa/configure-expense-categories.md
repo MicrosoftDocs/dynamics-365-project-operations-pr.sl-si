@@ -55,3 +55,6 @@ Vsaka kategorija stroškov ima lahko svojo skupino enot in enoto. Določite lahk
   
 ### <a name="see-also"></a>Glejte tudi  
  [Konfiguracija storitve Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

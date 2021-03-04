@@ -242,3 +242,6 @@ Spodnja tabela prikazuje, kako se sinhronizirajo podatki entitete odvisnosti pro
 
 ### <a name="additional-resources"></a>Dodatni viri
  [Priročnik za vodje projektov](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

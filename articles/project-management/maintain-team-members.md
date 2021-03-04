@@ -42,3 +42,6 @@ Ko opravite izbor, je vir dodan projektni ekipi in dodeljen opravilu, vendar se 
 Za rezervacijo zmogljivosti vira za projekt lahko uporabite funkcijo razširjanja rezervacij na zavihku **Uskladitev** ali **ploščo razporeda**.
 
 Ko je član ekipe rezerviran za vaš projekt, lahko uporabite možnost **Upravljanje rezervacij** ali **Plošča razporeda** ter neposredno urejate njegove rezervacije.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

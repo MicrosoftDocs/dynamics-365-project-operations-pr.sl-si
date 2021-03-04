@@ -127,3 +127,6 @@ Spodaj navedeni podatki se bodo v okviru postopka prijave sinhronizirali nazaj v
 8.  Izberite **Koledar** , ki ga želite uporabiti za vire.
 
 11. Kliknite **V redu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

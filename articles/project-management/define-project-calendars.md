@@ -49,3 +49,6 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, 
 8. V pogovornem oknu **Delovna predloga** vnesite ime delovne predloge in izberite **Uporabi**. 
 
 Delovno predlogo lahko zdaj povežete s predlogo koledarja projekta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

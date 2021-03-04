@@ -144,3 +144,6 @@ V vrsticah računa za čas in material lahko ustvarite nove podrobnosti vrstice 
 V aplikaciji Project Operations lahko ustvarite vrstice računov za izdelke, ki se ne nanašajo na noben projekt ali za vse projekte, skupaj z vrsticami računov, ki temeljijo na projektu. Te vrstice računov so ustvarjene kot podrobnosti pogodb, ki temeljijo na izdelkih, ko pa so označene kot pripravljene za izdajanje računov, so dodane kot vrstice računov, ki temeljijo na izdelkih.
 
 Ko dodate vrstice računov, ki temeljijo na izdelkih, jih ni več mogoče spremeniti. Lahko pa jih izbrišete iz osnutka predračuna.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

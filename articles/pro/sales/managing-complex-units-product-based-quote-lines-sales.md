@@ -45,3 +45,6 @@ Lastnosti **Št. uporabnikov** in **Št. mesecev** lahko označite kot količnik
 6. Shranite in zaprite obrazec. Ponovite te korake za vse lastnosti, ki jih želite uporabiti za izračun količine pri podrobnosti ponudbe, ki temelji na izdelku.
 
 Ko za izdelek ustvarite podrobnost ponudbe, ki temelji na izdelku, se podrobnost ponudbe zaklene. Količina bo izračunana kot produkt vrednosti lastnosti, ki ste jih vnesli za to podrobnost ponudbe.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

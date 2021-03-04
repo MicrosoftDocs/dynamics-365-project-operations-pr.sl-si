@@ -72,3 +72,6 @@ Odpravljene so naslednje težave:
 - Zapiranje ponudbe, kot da je pridobljena, ne povzroči premika do ustvarjene pogodbe, če je BPF, priložen ponudbi, v zaključni fazi.
 - Storniranje vnosov v razdelku **Neobračunana prodaja** je povezano z izvirnimi stroški ob odpoklicu časovnega vnosa.
 - Po izbiri gumba **Potrdi** se stanje računa ne spremeni v **Potrjeno**, razen če je račun osvežen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

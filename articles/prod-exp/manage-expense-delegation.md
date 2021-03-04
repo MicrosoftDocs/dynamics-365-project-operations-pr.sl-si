@@ -41,3 +41,6 @@ Ko je omogočen ključ za upravljanje funkcije **Omogoči stran s seznamom poobl
 Pooblaščeni uporabnik lahko hitro filtrira in išče po obstoječih poročilih o stroških, za katera ima pooblastilo. Ustvari lahko tudi novo poročilo o stroških za druge uporabnike, tako da izbere **Novo poročilo o stroških**.
 
 Pooblaščeni uporabniki lahko tudi ustvarijo in upravljajo poročila o stroških za druge zaposlene tako, da odprejo **Upravljanje stroškov** > **Moji stroški** > **Poročila o stroških** in izberejo **Odpri stroške drugega uporabnika**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

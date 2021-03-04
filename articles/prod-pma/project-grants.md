@@ -79,3 +79,6 @@ Subvencijo lahko ustvarite tako, da vnesete vse podrobnosti v nov zapis, ali pa 
 2. Izberite subvencijo, ki jo želite spremeniti.
 3. V podoknu za dejanja na zavihku **Subvencija** v skupini **Vzdrževanje** izberite **Uredi**.
 4. Preglejte podrobnosti o subvenciji in izvedite potrebne spremembe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

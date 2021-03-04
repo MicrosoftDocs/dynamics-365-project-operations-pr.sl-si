@@ -107,3 +107,6 @@ Spodnja slika prikazuje spremembe, do katerih pride pri odobrenih časovnih vnos
 Spodnja slika prikazuje spremembe, do katerih pride pri odobrenih vnosih stroškov, ko so ti preklicani.
 
 ![Prehodi stanja vnosa stroškov](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

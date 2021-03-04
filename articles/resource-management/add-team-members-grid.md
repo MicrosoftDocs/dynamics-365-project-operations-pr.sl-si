@@ -200,3 +200,6 @@ Ko prikažete čas na višjih ravneh, imajo celice na zavihku **Usklajevanje** k
 Če imate dodelitve opravil za vir, a nimate rezervacij, na obrazcu **Projekti** na zavihku **Usklajevanje** izberite primanjkljaj rezervacij in nato izberite možnost **Podaljšaj rezervacijo**. Prikaže se pogovorno **Podaljšaj rezervacijo** in prikaže rezervacijo, ki je potrebna za odpravo primanjkljaja vira. Pogovorno okno prikazuje tudi obstoječe rezervacije vira za vse projekte ali druge entitete, ki jih je mogoče razporediti. Če izberete **V redu**, da ustvarite rezervacijo za vir, lahko ne glede na razpoložljivost tega vira ustvarite prekomerno rezervacijo.
 
 Vodja projekta ali upravitelj virov lahko nato s ploščo razporeda reši vse primere, kjer ima vir preveliko število rezervacij glede na svojo zmogljivost.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

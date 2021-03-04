@@ -160,3 +160,6 @@ Z ustvarjanjem pravilnikov za poročanje o stroških lahko svoji organizaciji po
 - Kdaj pravilnik poteče?
 - Kakšno je pravilo pravilnika?
 - Kakšen je rezultat pravila pravilnika?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

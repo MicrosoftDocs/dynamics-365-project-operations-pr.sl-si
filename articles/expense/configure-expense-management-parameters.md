@@ -83,3 +83,6 @@ V tej temi so opisani parametri, ki nadzorujejo splošno vedenje pri upravljanju
 | Prikaz potrdila za preprečevanje korupcije   | Izberite to možnost, da prikažete besedilo za preprečevanje korupcije, ko se ustvari poročilo o stroških. Nato lahko omogočite posebne kategorije stroškov, ki bodo zahtevale, da se v poročilu o stroških izbere potrdilo za preprečevanje korupcije. Na primer, kategorija daril, ki je povezana s stroški državnega uslužbenca, lahko zahteva, da zaposleni potrdi, da stroški ustrezajo pravilnikom podjetja, ki so povezani z državnimi uslužbenci. |
 | Sporočilo za preprečevanje korupcije za pošiljatelja | Vnesite besedilo, ki naj bo prikazano zaposlenemu, ki ustvarja poročilo o stroških. Če želite vnesti besedilo, ki bo prikazano v skladu z uporabniškim jezikom, izberite **Prevodi**. |
 | Sporočilo za preprečevanje korupcije za odobritelja  | Vnesite besedilo, ki naj bo prikazano odobritelju, ko je ustvarjeno poročilo o stroških. Če želite vnesti besedilo, ki bo prikazano v skladu z uporabniškim jezikom, izberite **Prevodi**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ V spodnji tabeli so navedene posodobitve storitve Project Operations v okolju Da
 | Čas in strošek | 2034882 | V ukazni vrstici se dvakrat pojavi gumb **Novo** za časovne vnose, ko je nameščen Dynamics 365 Field Service. |
 | Čas in strošek | 2056028 | Posodobitev strani **Urejanje časa**, ki vključuje časovno vrstico. |
 | Čas in strošek | 1983747 | Grafikon časovnih vnosov prikazuje dodatne podatke. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Preden začnete s tem postopkom, preverite, ali vaša varnostna vloga vključuje
 
 > [!IMPORTANT]
 >  Valut, ki so uporabljene v drugih zapisih, ne morete izbrisati; lahko jih le deaktivirate. Če deaktivirate zapise valut, ne odstranite podatkov o valuti, shranjenih v obstoječih zapisih, kot so priložnosti ali naročila. Vendar deaktivirane valute ne boste mogli izbrati za nove transakcije.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

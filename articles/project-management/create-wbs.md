@@ -116,3 +116,6 @@ Način opravila ne vpliva na posodobitve začetnega in končnega datuma predhodn
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Pripomočki za osebe s posebnimi potrebami in bližnjice na tipkovnici
 
 Mreža **Razpored** v celoti podpira pripomočke za osebe s posebnimi potrebami in se lahko uporablja z bralniki zaslona, kot so Pripovedovalec, JAWS in NVDA. Po mreži se lahko pomikate s puščičnimi tipkami (kot v aplikaciji Microsoft Excel), lahko uporabite tipko Tab za pomikanje po interaktivnih elementih uporabniškega vmesnika, lahko pa uporabite tudi tipko s puščico dol, tipko Enter ali preslednico, da izberete in odprete spustne menije.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

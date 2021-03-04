@@ -81,3 +81,6 @@ Storitev Project Operations vključuje naslednje vloge:
 Za več informacij o varnosti v storitvi Finance glejte [Varnost na podlagi vlog](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

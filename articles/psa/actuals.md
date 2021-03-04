@@ -330,3 +330,6 @@ PDA zapiše finančne transakcije v okviru projekta. Te transakcije se zapišejo
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

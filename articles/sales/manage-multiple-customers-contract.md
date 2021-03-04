@@ -47,3 +47,6 @@ Stranko pogodbe lahko ustvarite, posodobite ali izbrišete na zavihku **Pogodben
 Odstotke razdelitve stroškov lahko urejate v mreži. Ko odstotki razdelitve stroškov ne znašajo 100 odstotkov, se pojavi napaka. Ko uredite odstotke razdelitve stroškov, osvežite stran **Projektna pogodba**, da odstranite obvestilo o napaki odstranite.
 
 V podmreži stranke projektne pogodbe lahko izberete tudi možnost **Enakomerna razporeditev**. Razdelitev obračunavanja je enakomerno razporejena med vsemi strankami projektne pogodbe. Če obstaja dejavnik zaokroževanja, se doda stranki zaokroževanja. Ena od pogodbenih strank ima zastavico **Zaokroževanje** vedno nastavljeno na **Da**. To je stranka zaokroževanja. Običajno je stranka zaokroževanja tudi glavna pogodbena stranka, vendar ni vedno tako.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

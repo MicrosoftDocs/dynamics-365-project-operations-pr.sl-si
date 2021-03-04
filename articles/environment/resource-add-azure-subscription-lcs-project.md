@@ -70,3 +70,6 @@ Pooblastitev je zdaj končana.
 Uspešno ste povezali naročnino na Azure. Zdaj lahko uvedete okolja Dynamics 365 Finance, ki se jih gosti v oblaku.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

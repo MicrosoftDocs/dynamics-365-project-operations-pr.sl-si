@@ -66,3 +66,6 @@ Kot vodja projekta boste morda morali rezervirati vir za projekt, za katerega po
 
 > [!NOTE]
 > Ta način ne ustvari nobenih rezervacij za vir. Namesto tega je vir dodan v ekipo. Potem ko je član ekipe dodan v projekt, lahko vodja projekta z vzdrževanjem rezervacij ali podaljšanjem rezervacij doda zahtevane rezervacije v vir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

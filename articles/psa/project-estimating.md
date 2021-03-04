@@ -97,3 +97,6 @@ V pogledu mreže in časovno razporejenem pogledu lahko izberete polja za prikaz
 ## <a name="expense-estimates"></a>Ocena stroškov
 
 Gumb **Dodaj novo oceno stroškov** v pogledu mreže omogoča beleženje vseh stroškov, ki nastanejo v projektu, vendar niso neposredno povezani z delom. Ocene stroškov lahko zabeležite za določeno opravilo ali za celoten projekt. Izberite kategorije stroškov in predvideni datum, ko pričakujete, da bodo nastali stroški. Če imata povezani cenik z lastnimi cenami in prodajni cenik privzete cene (ali če so odstotki pribitka določeni za kategorije stroškov), so te samodejno vnesene v vrstico ocene, ko pride do povezave.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

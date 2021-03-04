@@ -77,3 +77,6 @@ Podatke za razsežnosti na osnovi entitete lahko ustvarite ročno ali z uvozom v
 5. Ponovite korake od 1 do 3, da ustvarite drug standardni naziv za »Višji sistemski inženir«.
 
 > ![Vzorčni podatki za entiteto standardnega naziva](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

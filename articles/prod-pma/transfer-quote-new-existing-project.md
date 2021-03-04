@@ -36,3 +36,6 @@ Ko ima projektna ponudba stanje **Potrjeno** , lahko nekatere ali vse vrstice s 
 1. Odprite **Vodenje projektov in računovodstvo** > **Ponudbe** > **Projektne ponudbe**.
 2. Izberite ponudbo, ki jo želite prenesti, in v skupini **Spremeni** na zavihku **Za nadaljnje delo** izberite **Prenos v projekt**.
 3. Upoštevajte navodila čarovnika **Prenos ponudbe v projekt** za povezovanje ponudbe s projektom in njen prenos vanj.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

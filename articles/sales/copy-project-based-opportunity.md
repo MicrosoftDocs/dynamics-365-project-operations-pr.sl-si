@@ -34,3 +34,6 @@ Priložnosti za projekte lahko enostavno kopirate in tako ustvarite nove prilož
     | Kopiranje cen | Vrednost Da/ Ne, ki označuje, ali je treba cene za priložnost kopirati iz izvorne priložnosti. | Če je izbrana možnost **Da**, se ceniki kopirajo iz izvorne v ciljno priložnost. Če je izbrana možnost **Ne**, se privzeto znova nastavijo ceniki na podlagi najnovejših cenikov, ki so bili nastavljeni. |
 
 3. Izberite **V redu**. Sistem na podlagi izbranih parametrov ustvari kopijo projektne priložnosti in odpre se nova priložnost za projekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Ko ste pripravljeni na spremembo začasne rezervacije člana ekipe v veljavno re
 2. Ko se odpre plošča razporeda, razširite vir, da prikažete rezervacije. Rezervacija bo označena kot Začasna.
 3. Z desno tipko miške kliknite rezervacijo, pod možnostjo Sprememba stanja izberite Veljavna rezervacija in nato Veljavna. Stanje rezervacije je Veljavna.
 4. Ko zaprete ploščo razporeda boste videli, da so se ure za vir na mreži ekipe spremenile iz Začasno v Veljavno. Zdaj lahko viru dodelite opravila (ob upoštevanju, da so veljavno rezervirane ure usklajene s predvidenimi urami za opravilo). Če ste upoštevali korake za izpolnitev splošnega vira iz točke 3 zgoraj, bo, ko stanje začasno rezerviranega vira spremenite v veljavno rezerviranega, splošni član ekipe odstranjen iz ekipe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

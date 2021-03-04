@@ -50,3 +50,6 @@ V spodnji tabeli so navedeni vsi vnaprej pripravljeni obrazci in pogledi, razvr�
 2. Na zavihku **Cenovne razse탑nosti na podlagi zneska** na strani **Parametri** preverite, ali mre탑a na zavihku prikazuje zapise v entiteti **Cenovne razse탑nosti**.
 3. Dodajte mo탑nost **Kategorija transakcije** na ta seznam in nastavite polji **Mogo훾e uporabiti za ceno** in **Mogo훾e uporabiti za prodajo** na **Da**.
 4. V polju **Vrsta razse탑nosti** izberite **Na podlagi zneska** in nato izberite prioriteto za mo탑nost **Kategorija transakcije**, saj je povezana s ceno in prodajo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

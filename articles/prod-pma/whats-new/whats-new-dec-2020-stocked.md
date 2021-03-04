@@ -142,3 +142,6 @@ Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Proj
 ## <a name="regulatory-updates"></a>Regulativne posodobitve
 
 Za informacije o regulativnih posodobitvah za Dynamics 365 Finance glejte [Regulativne posodobitve](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Drug način za informiranje o regulativnih posodobitvah je vpis v Lifecycle Services (LCS) in ogled načrtovanih regulativnih posodobitev z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

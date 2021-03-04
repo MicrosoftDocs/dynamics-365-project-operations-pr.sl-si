@@ -40,3 +40,6 @@ Nadzorna plošča **Upravitelj prakse** daje upraviteljem prakse možnost dela z
 ## <a name="resource-manager"></a>Upravitelj virov 
 
 Nadzorna plošča za **Upravitelja virov** daje upraviteljem virov možnost dela z grafično nadzorno ploščo za spremljanje zahtev za vire ter povpraševanja in uporabo virov. Poleg tega upraviteljem virov omogoča tudi ločevanje sledenih informacij po različnih kriterijih.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Ko izberete **V redu** na strani s pogovornim oknom, sistem ustvari kopijo ponud
 > - Sklic na projekt pri podrobnostih ponudb, ki temeljijo na izdelkih – podatki o proračunu stranke
 >
 >Ker so ti podatki zelo specifični za vsako ponudbo, se ta polja in zapisi ne kopirajo. Kopirajo se podrobnosti ponudb za projekte in izdelke, ocene pri podrobnostih ponudbe in vrednosti, ki jih ni dovoljeno preseči na ravni ponudbe. Privzete vrednosti cen in mer stroškov so odvisne od možnosti **Kopiranje cen**, ki se jo izbere na strani s pogovornim oknom **Kopiraj parametre**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

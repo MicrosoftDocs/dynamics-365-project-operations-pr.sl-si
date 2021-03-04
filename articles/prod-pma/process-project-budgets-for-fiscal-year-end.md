@@ -98,3 +98,6 @@ Ko obdelate znesek preostalih proračunskih sredstev, lahko ustvarite transakcij
 5. Za vsak projekt, ki ga želite obdelati, izberite možnost na začetku vrstice za projekt. 
 6. Izberite **Obdelaj** za prenos preostalih zneskov proračuna za izbrane projekte na izbrano proračunsko leto.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

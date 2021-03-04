@@ -47,3 +47,6 @@ Nastavitev stopenj ciljne uporabe za vsako vlogo. Te nastavitve določajo razpol
   
 ### <a name="see-also"></a>Glejte tudi  
  [Nastavitev virov](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

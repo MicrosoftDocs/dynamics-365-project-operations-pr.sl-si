@@ -60,3 +60,6 @@ Iz mreže članov ekipe lahko izvedete naslednja dejanja:
 
 - **Novo**: poleg dodajanja virov neposredno iz razporeda lahko vodje projektov iz mreže članov ekipe dodajo nove imenovane ali splošne člane ekipe.
 - **Izbriši**: z izbiro enega ali več članov ekipe lahko vodja projekta izbriše vire, ki ne bodo več sodelovali v projektu. Če izbrišete člana ekipe, boste izbrisali tudi vse povezane dodelitve virov in preklicali vse obstoječe rezervacije.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

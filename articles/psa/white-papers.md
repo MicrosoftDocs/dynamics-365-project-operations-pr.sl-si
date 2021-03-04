@@ -45,3 +45,6 @@ Ti informativni dokumenti so namenjeni za zagotavljanje podrobnejših informacij
 
 ### <a name="see-also"></a>Glejte tudi
  [Pregled rešitve Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Spodnja tabela vam bo v pomoč pri razumevanju poslovne logike v fazi ocenjevanj
 7. Izberite **V redu**, da zaprete pogovorno okno, in nato **Posodobi korak**.
 8. Ponovite korake od 1 do 7 za drugi vtičnik.
 9. Zaprite **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

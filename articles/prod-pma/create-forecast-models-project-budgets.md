@@ -57,3 +57,6 @@ Ta tema opisuje, kako ustvariti model napovedi za preostale proračune. Projekt,
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

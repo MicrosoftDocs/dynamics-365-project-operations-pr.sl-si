@@ -45,3 +45,6 @@ Z zmogljivostmi [!INCLUDE[pn_project_service_auto](../includes/pn-project-servic
   
 ### <a name="see-also"></a>Glejte tudi  
  [Priročnik za vodje projektov](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Odpravljene so naslednje težave:
 - Gumb **Osveži dejanske podatke** napačno izračuna opravila povzetka.
 - Dodatek za Microsoft Project: popravek napake s sklicem »null«, če ima kateri koli član ekipe prazno enoto vira.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

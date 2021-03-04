@@ -68,3 +68,6 @@ Ker rezervacije in dodelitve niso tesno povezane, je mogoče rezervirati obrise,
 > [!NOTE]
 > Če premaknete opravilo, ki ste ga sami obrisali, se ti obrisi ne ohranijo. Obrisi se znova ustvarijo v skladu s koledarjem projekta in se tako prilagodijo spremembam, kot so delovne ure in prazniki. Storitev je tako zasnovana, saj sistem ne pozna namena izvirnega obrisa in ne more ugotoviti, ali je smiselno obdržati ta obris v novem časovnem obdobju. Ker povezava med rezervacijami in dodelitvami ni vzpostavljena, rezervacije ohranijo izvirne obrise rezervacij. V tem primeru boste morali razveljaviti obris dodelitve in znova rezervirati novega.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

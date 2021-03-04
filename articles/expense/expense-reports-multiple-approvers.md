@@ -41,3 +41,6 @@ Glede na pravilnik o odobritvi stroškov vaše organizacije bo morda morala pred
 
     1. Vodja zaposlenega odobri poročilo o stroških.
     2. Lastnik proračuna odobri poročilo o stroških.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

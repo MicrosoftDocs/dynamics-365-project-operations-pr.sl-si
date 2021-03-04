@@ -43,3 +43,6 @@ Spodaj so zavihki in KPI-ji, ki so na voljo v projektni ponudbi, ki so na voljo 
 | Analiza dobičkonosnosti | Zavihek na ponudbi | Zavihek prikazuje naslednje metrike:</br>- skupno vrednost stroškov, ki se zaračunajo</br></br>- skupno vrednost stroškov, ki se ne zaračunajo</br>- skupni prihodek</br>- skupni prihodek (osnova)</br>- stopnjo bruto dobička</br>- prilagojeno stopnjo bruto dobička|
 | Primerjava s pričakovanji stranke | Zavihek na ponudbi | Ta zavihek prikazuje naslednje metrike:</br>- predviden datum zaključka</br>- zahtevani zaključek</br>- proračun stranke</br>- ponudbena vrednost |
 | Analiza ponudbe | Zavihek na ponudbi | Ta zavihek povzema naslednje glavne KPI-je za projektno ponudbo</br>- primerjava s pričakovanji strank glede proračuna in razporeda</br>- stopnjo bruto dobička</br>- prilagojeno stopnjo bruto dobička |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

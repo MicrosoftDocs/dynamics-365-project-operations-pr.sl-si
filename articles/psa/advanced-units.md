@@ -112,3 +112,6 @@ Ne. Ocena razporeda je trenutno omejena na ure in tega ni mogoče spremeniti.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Ali je enote in skupine enot mogoče urediti, izbrisati in dodajati?
 Da. Z izjemo skupine enot **Čas** in enote **Ura** lahko vse enote izbrišete ali uredite ter dodate nove enote. V PSA skupine enot **Čas** in enote **Uda** ni mogoče izbrisati. Vendar pa jih je mogoče posodobiti s prevedenim besedilo za polje **Ime**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

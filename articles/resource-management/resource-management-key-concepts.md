@@ -35,3 +35,6 @@ Viri so najpomembnejše sredstvo organizacije, ki temelji na storitvah. Sposobno
 
 
 Za projekt si lahko izberete ekipo splošnih ali poimenovanih virov v storitvi Project Operations. Uporabite lahko različne metode za dodajanje in dodeljevanje članov ekipe ter upravljanje njihovih rezervacij in dodelitev. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

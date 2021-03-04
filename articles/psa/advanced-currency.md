@@ -105,3 +105,6 @@ Dynamics 365 samodejno izvede zbiranje zneskov v različnih valutah. Spodaj je p
 | Expense           | Neobračunana prodaja   | 17. jun | Martin  | Najem avtomobila           | 1 enota     | 150 EUR      | 150 EUR     | 0,94          | 159,57 USD     |
 
 Če želite izračunati skupno vrednost neobračunanega prodajnega zneska za projekt, lahko ustvarite zbirno polje za polje **Znesek** za vse povezane dejanske vrednosti neobračunanih prodajnih zneskov. Zbirno polje je konstrukt v Dynamics 365, ki omogoča hitre izračune formule v sorodnih zapisih.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

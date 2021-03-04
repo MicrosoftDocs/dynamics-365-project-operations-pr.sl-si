@@ -106,3 +106,6 @@ Ko razširite vrstico za ta zapis člana ekipe, lahko v zapisu člana ekipe vidi
 ### <a name="estimates-grid"></a>Mreža ocen 
 
 V mreži **Ocene** imata nalogi za isti vir različni ceni. Dodelitev za vir v **Opravilu A** je ocenjena na podlagi vrednosti atributa **Vloga** za možnost **Svetovalni vodja**. Dodelitev za isti vir v **Opravilu B** je ocenjena na podlagi vrednosti atributa **Vloga** za možnost **Omrežni tehnik**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

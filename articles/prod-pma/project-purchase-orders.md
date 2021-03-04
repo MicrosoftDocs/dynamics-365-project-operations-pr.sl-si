@@ -76,3 +76,6 @@ Za ustvarjanje naročilnice v območju »Vodenje projektov in računovodstvo« l
 
 Za več informacij glejte [Prejemanje izdelkov, ki so navedeni v naročilu, v okviru zahteve po izdelku](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

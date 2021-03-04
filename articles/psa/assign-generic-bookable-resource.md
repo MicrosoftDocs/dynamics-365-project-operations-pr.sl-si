@@ -59,3 +59,6 @@ Na mreži ekipe lahko kliknete tudi **Zahtevani pogoj za vir**, da se odpre zaht
 
 ![Zahtevani pogoj za vir](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

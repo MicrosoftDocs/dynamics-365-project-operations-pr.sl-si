@@ -38,3 +38,6 @@ Dejanskih vrednosti neobračunane prodaje, katerih stanje **Ne sme preseči** je
 V primeru podrobnosti pogodb z več strankami, ki imajo vzpostavljen način obračunavanja po času in materialu, se ob odobritvi časa in stroškov za vsako stranko v podrobnostih pogodbe ustvari dejanska vrednost neobračunane prodaje glede na razdeljeni odstotek obračunavanja, ki je določen za vsako stranko v podrobnostih pogodbe. V pogledu **Nedokončana opravila obračunavanja časa in materiala** boste videli te dejanske vrednosti neobračunane prodaje za posamezne stranke. V tem pogledu je mogoče vsakega od teh zapisov o dejanskih vrednostih neobračunane prodaje ločeno označiti z možnostjo **Pripravljeno za izdajanje računa**.
 
 V tem pogledu so prikazane dejanske vrednosti neobračunane prodaje na osnutku računa s **Stanjem obračunavanja** **Račun za stranko je ustvarjen**. Ko je osnutek računa potrjen, se stanje obračunavanja tega zapisa posodobi na **Račun za stranko je knjižen**. Posodabljanje teh vrednosti stanja s kodami po meri, kadar so v tem stanju, ni priporočljivo. Aplikacija Project Operations ne bo delovala pravilno, če bodo te vrednosti stanja posodobljene s kodami po meri.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Vsaka organizacija mora nastaviti te vloge na strani **Kategorije dejavnih virov
 ## <a name="price-lists"></a>Ceniki
 
 S ceniki lahko nastavite lastne in prodajne cene za vloge virov, kategorije stroškov, izdelke in druge elemente v organizaciji. Preden nastavite finančne ocene za delo, ki mora biti opravljeno pri projektu, ustvarite osnovni cenik z lastnimi in prodajnimi cenami. V razdelku s parametri nastavite tudi privzeti cenik z lastnimi in prodajnimi cenami, ki velja za vse projekte, ustvarjene v organizaciji. Na strani **Dejavni projektni parametri** preverite, ali ste nastavili privzeti cenik z lastnimi in prodajnimi cenami.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

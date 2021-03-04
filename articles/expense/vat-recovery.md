@@ -66,3 +66,6 @@ Ko je Arnie pripravljen na pošiljanje podatkov o poročilu o stroških neodvisn
 Arnie mora preveriti, ali so transakcije poročila o stroških primerne za izterjavo DDV in ali so digitalni računi priloženi poročilom. Za začetek obdelave primerih stroškov za domačo izterjavo Arnie odpre stran **Izterjava davka za stroške** in izbere poročilo o stroških, ki ga je treba preveriti. Preveri, ali so računi izdani na ime podjetja, in ne na ime zaposlenega. (Za izterjavo DDV morajo biti računi izdani na ime podjetja.) Arnie nato preveri, ali so priloženi vsi zahtevani računi in ali so bile vnesene pravilne skupine prometnega davka in kode prometnega davka za element.
 
 Ko Arnie prejme fizične račune, spremeni stanje poročila o stroških na **Pripravljeno za izterjavo**. Nato lahko zahtevek vloži pri ustreznem davčnem organu. V tem primeru je ustrezen davčni organ davčna uprava ZDA (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

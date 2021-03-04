@@ -124,3 +124,6 @@ Na primer, če obstajajo naslednje lastnosti:
 - **Inventarna številka izdelka** 
 
 Lastnosti **Št. uporabnikov** in **Št. mesecev** lahko označite kot količnike za količino tako, da uredite lastnosti vrstice izdelkov. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

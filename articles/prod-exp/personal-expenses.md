@@ -33,3 +33,6 @@ Obstajata dva načina za upravljanje osebnih stroškov delavca:
 - **Plača podjetje** – vaša organizacija plača celoten račun za kreditno kartico podjetja in nato bremeni račun delavca za osebne stroške.
 
 Način, ki ga vaša organizacija uporablja, lahko izberete na strani **Parametri upravljanja stroškov**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

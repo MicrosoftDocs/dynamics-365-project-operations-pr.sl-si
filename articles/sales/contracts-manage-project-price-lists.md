@@ -72,3 +72,6 @@ Nastavite lahko tudi projektne cenike za specifično stranko, ko ste se dogovori
 ## <a name="custom-pricing-on-a-project-contract"></a>Cene po meri za projektne pogodbe
 
 Ko imate organizacijske in privzete projekte cenike, specifične za stranko, bodo vaše projektne pogodbe samodejno ustvarjene s temi povezavami projektnih cenikov. Projektni ceniki na projektni pogodbi pa so vedno kopirani s pripetim datumom in imenom pogodbe. Upravitelji kupcev in projektni vodje lahko nato začnejo urejati cene za te kopije. Te spremenjene cene bodo veljale samo za to projektno pogodbo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

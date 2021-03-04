@@ -43,3 +43,6 @@ Poleg tega velja tudi, da če imate module aplikacij po meri, ki vsebujejo vse o
 
 ### <a name="currently-extended-time-entry-changes"></a>Trenutne razširjene spremembe časovnih vnosov
 Za zmanjšanje vpliva na trenutne uporabnike časovnega vnosa je ta sprememba vloge edina bistvena zahteva, potrebna za nadaljevanje uporabe časovnega vnosa. Če ste ustvarili poglede po meri ali ločene izkušnje časovnega vnosa, morate nastaviti polja **Nastavitev časovnega vnosa** na pravilno vrednost PSA.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

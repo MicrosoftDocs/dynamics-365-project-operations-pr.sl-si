@@ -68,3 +68,6 @@ Odprite vrstico ponudbe s fiksno ceno, za katero želite ustvariti mejnik. Na za
 | Stanje računa | Hitro ustvari | Ko je ustvarjen mejnik, je to stanje vedno nastavljeno na **Ni pripravljeno za izdajo računa**. | Prenese se na mejnik podrobnosti pogodbe projekta in na račun. |
 | Znesek vrstice | Hitro ustvari | Znesek ali vrednost mejnika, za katerega bo stranki izdan račun. | Prenese se na mejnik podrobnosti pogodbe projekta in na račun. |
 | Davek | Hitro ustvari | Znesek davka, ki bo uporabljen za mejnik. | Prenese se na mejnik podrobnosti pogodbe projekta in na račun. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

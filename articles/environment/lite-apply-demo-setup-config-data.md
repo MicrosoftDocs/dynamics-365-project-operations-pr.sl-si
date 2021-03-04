@@ -74,3 +74,6 @@ Preden začnete s konfiguracijo morate imeti omogočeno okolje Common Data Servi
     -   Lastnost vira, ki ga je mogoče rezervirati
 
     ![Zaključek uvoza](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ ms.locfileid: "5145738"
 Vse finančne transakcije v okviru projekta se zapišejo. Te transakcije se zapišejo kot **dejanske vrednosti**. V spodnji tabeli so prikazane različne vrste dejanskih vrednosti, ki so ustvarjene, glede na to, ali gre za časovne in materialne transakcije, transakcije s fiksno ceno ali interni projekt oziroma ali gre za stopnjo pred prodajo.
 
 > ![Tabela s prikazom zapisovanja dejanskih vrednosti](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Ko kopirate v vrsticah ocen projekta, se ceniki posodobijo. Pri ceniku z lastnim
 ### <a name="copying-a-project-team"></a>Kopiranje projektne ekipe
 
 Ko projektno ekipo kopirate iz projektne predloge v projekt, se prekopirajo tudi splošni viri skupaj z znanji in usposobljenostmi, opredeljenimi v predlogi. Ohranijo se tudi dodelitve splošnega vira iz projektne predloge. Poimenovani viri niso podprti v projektnih predlogah.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

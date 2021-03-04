@@ -82,3 +82,6 @@ Lastnosti **Št. uporabnikov** in **Št. mesecev** lahko označite kot količnik
 
 > ![Označevanje lastnosti »Št. uporabnikov« in »Št. mesecev« kot količnikov za količino](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

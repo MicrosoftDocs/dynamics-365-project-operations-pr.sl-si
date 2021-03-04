@@ -33,3 +33,6 @@ Seznam vseh pogodb za projekt si lahko ogledate na strani s seznamom **Pogodbe**
 2. Izberite **Preklopnik med pogledi** (puščica spustnega seznama poleg imena pogleda) za izbiro drugih filtriranih pogledov. Ustvarite lahko lastne poglede s pogoji filtra po meri.
 
 Pogodbe lahko ustvarite ali izbrišete s strani s seznamom ali strani s podrobnostmi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

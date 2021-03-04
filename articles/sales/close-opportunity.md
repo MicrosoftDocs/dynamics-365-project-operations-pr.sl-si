@@ -24,3 +24,6 @@ Projektno priložnost lahko zaprete kot »Pridobljena« ali »Izgubljena«. V po
 Priložnosti ne boste mogli zapreti, če so z njo povezane dejavne ponudbe. Hkrati lahko zaprete vse aktivne ponudbe in osnutke ponudb, povezanih s posamezno priložnostjo. Potem lahko zaprete priložnost.
 
 Če želite več informacij o zapiranju priložnosti, glejte razdelek [Zapiranje pridobljene ali izgubljene priložnosti](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

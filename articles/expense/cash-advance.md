@@ -63,3 +63,6 @@ Ko ustvarite in pošljete poročilo o stroških za denarni predujem, ki ste ga �
 ### <a name="example"></a>Primer
 Načrtujete potovanje iz Seattla v New York na konferenco. Zahtevo za denarni predujem za 3000,00 USD ustvarite na podlagi ocenjenih stroškov vstopnice za konferenco, letov, hotela, obrokov in taksija. Če vodja te zahteve ne odobri, plačilo ni izvršeno. Ko je zahteva odobrena, je denarni predujem v vrednosti 3000,00 USD nakazan na vaš bančni račun. Nato se udeležite konference. Po končanem potovanju ugotovite, da so skupni izdatki znašali le 2790,00 USD. V polju **Način plačila** izberite **Gotovina** in navedite svoje stroške za 2790,00 USD. Poslani znesek stroškov se samodejno prilagodi denarnemu predujmu v vrednosti 3000,00 USD, ki vam je bilo posojen. Razlika na računu je zdaj 210,00 USD (3000,00 - 2790,00), ki jo podjetju lahko vrnete z uporabo kategorije stroška **Vračilo gotovine**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

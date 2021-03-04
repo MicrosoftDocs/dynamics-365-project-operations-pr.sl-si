@@ -54,3 +54,6 @@ V času prodajnega postopka lahko ocene prodaje izdelate od začetka z vrsticami
   
 ### <a name="see-also"></a>Glejte tudi  
  [Priročnik za vodje projektov](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

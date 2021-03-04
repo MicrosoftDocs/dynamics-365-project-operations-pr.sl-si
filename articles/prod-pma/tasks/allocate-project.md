@@ -44,3 +44,6 @@ Po dodelitvi proračuna ali revizije proračuna lahko pregledate dodeljene znesk
 10. Če dodelitev ustreza vašim zahtevam, na strani »Proračun projekta« kliknite »Pošlji«, da pošljete proračun ali revizije proračuna v potek dela za odobritev.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

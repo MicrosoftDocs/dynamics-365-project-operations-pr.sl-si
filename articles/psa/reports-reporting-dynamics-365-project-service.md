@@ -52,3 +52,6 @@ Za več informacij o poročanju v PSA si oglejte naslednje teme:
 - [Delo s podatkovnim modelom storitve Project Service](reports-working-project-service-data-model.md)
 - [Nadzorne plošče](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

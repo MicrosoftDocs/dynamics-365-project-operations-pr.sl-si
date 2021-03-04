@@ -48,3 +48,6 @@ V spodnji tabeli so opredeljeni ključni pojmi, ki so uporabljeni v aplikaciji D
 | Krivulja                    | Trajanje opravila, zahtevanega pogoja ali dodelitve, prikazan glede na dnevno razporeditev. Petdnevno opravilo z obsegom 40 ur je mogoče s krivuljo prikazati kot osem ur na dan v petih dneh. |
 | Pogled »Uskladitev«        | Pogled, ki prikazuje rezervacije in dodelitve za vsakega člana projektne ekipe. Ta pogled omogoča vodji projekta, da si ogleda morebitna neskladja med rezervacijami in dodelitvami ter sprejme popravljalna dejanja v primeru neskladij. |
 | Delovne ure                 | Entiteta, ki se uporablja za določitev zmogljivosti vira ter njegovega delovnega in prostega časa. Ta entiteta se imenuje tudi koledar virov. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

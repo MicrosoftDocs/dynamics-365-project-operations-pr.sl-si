@@ -26,3 +26,6 @@ Orodja za upravljanje projektov v storitvi Dynamics 365 Project Operations vam p
 - Uporabite ocene projekta med prodajnim procesom.
 - Napovejte zahtevane pogoje za vire za projekte v prodajnem lijaku.
 - Sledite napredku in porabi stroškov in uspešno dostavite projekte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

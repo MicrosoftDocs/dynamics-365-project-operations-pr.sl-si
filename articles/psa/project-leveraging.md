@@ -54,3 +54,6 @@ Ocene obsega dela in razporeda lahko določite z uporabo polj na zavihku **Načr
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Uvažanje ocen iz projekta v ponudbo
 
 Ko določite ocene projekta, jih lahko uvozite v vrstico ponudbe. Na strani **Podrobnosti vrstice ponudbe** na traku izberite **Uvozi iz ocen**, da povzamete ocene projektov po vrsti transakcije, vlogi ali ravni opravila.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -125,3 +125,6 @@ Naslednje posodobitve varnostnih pravic za entitete so zahtevane kot del posodob
  
  ![Sinhronizacija preslikave knjige](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

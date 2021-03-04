@@ -47,3 +47,6 @@ Pridobili ste ponudbo za projekt in zdaj lahko ustvarite pogodbo s stranko, da s
   
 ### <a name="see-also"></a>Glejte tudi  
  [Priročnik za upravitelja kupcev](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

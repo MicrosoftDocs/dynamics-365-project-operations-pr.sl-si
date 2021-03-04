@@ -116,3 +116,6 @@ Za splošni vir izberite možnost **Rezerviraj**, nato pa prek plošče razpored
 Ko je splošni vir izpolnjen s poimenovanim virom, se splošni vir odstrani iz ekipe, dodelitve opravil za splošni vir pa so dodeljene poimenovanemu viru, ki je izpolnil zahtevo za splošni vir.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

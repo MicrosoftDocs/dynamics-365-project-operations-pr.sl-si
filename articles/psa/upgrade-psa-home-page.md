@@ -65,3 +65,6 @@ Od 1. marca 2020 stranke storitve Dynamics PSA ne bodo več mogle ustvarjati n
 
 > [!NOTE]
 > Za najboljšo izkušnjo pri uporabi starejših različic storitev Field Service in PSA, pojdite na stran **Sistemske nastavitve** in v polju **Uporabi samo nov poenoteni vmesnik (priporočeno)** izberite **Ne**, saj te različice niso zasnovane tako, da bi jih lahko pravilno naložili v UCI. Po izklopu UCI lahko odprete in zaženete te različice rešitev Field Service in PSA prek starega spletnega odjemalca. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

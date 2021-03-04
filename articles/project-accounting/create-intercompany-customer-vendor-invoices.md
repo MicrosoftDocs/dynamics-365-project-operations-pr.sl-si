@@ -61,3 +61,6 @@ Za vse izposojevalne pravne osebe lahko ustvarite več medpodjetnih računov hkr
 ## <a name="post-the-intercompany-vendor-invoice"></a>Knjiženje medpodjetnega računa za dobavitelja
 
 Računovodja računa v izposojevalni pravni osebi lahko pregleda medpodjetne čakajoče račune za dobavitelje, ko je knjižen ustrezen medpodjetni račun za stranko. V storitvi Finance v izposojevalni pravni osebi odprite **Obveznosti** > **Računi** > **Čakajoči račun za dobavitelja**. Številka čakajočega računa se bo ujemala s številko medpodjetnega računa za stranko. Preverite, ali je račun pravilen, in ga poknjižite. S knjiženjem medpodjetnega računa za dobavitelja se ustvari projektna transakcija v podknjigi in glavni knjigi, ki odraža transakcijske stroške v izposojevalni pravni osebi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

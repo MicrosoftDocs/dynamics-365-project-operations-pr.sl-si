@@ -32,3 +32,6 @@ V aplikaciji Dynamics 365 Project Service Automation, različica 3.0, so bili po
 V prejšnji različici sta bila pogleda v obliki koledarja in mreže za čas in stroške implementirana kot kontrolnika DHTMLX. Artefakti, ki so povezani s tisto implementacijo pogledov v obliki koledarja in mreže, so zdaj zastareli.
 
 Za celoten seznam opuščenih virov glejte [Zastareli spletni viri v rešitvi Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

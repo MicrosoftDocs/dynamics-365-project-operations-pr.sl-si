@@ -47,3 +47,6 @@ Projekti strank zahtevajo najrazličnejše znanje za dokončanje posla, npr. pro
   
 ### <a name="see-also"></a>Glejte tudi  
  [Nastavitev virov](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Ko izvedete potrebne popravke, znova ustvarite vnos časa, ga odobrite in prever
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

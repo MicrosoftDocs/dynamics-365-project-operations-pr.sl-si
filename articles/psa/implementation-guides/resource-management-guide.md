@@ -44,3 +44,6 @@ Povezava PDF, ki je bila vključena v tej temi, je odstranjena, vsebina pa je pr
 
 > [!NOTE]
 > Ta tema ne bo več na voljo v prihodnji posodobitvi dokumentacije. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

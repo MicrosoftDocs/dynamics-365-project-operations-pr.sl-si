@@ -48,3 +48,6 @@ Znanje virov je ocenjeno z modeli usposobljenosti. Individualne ocene so v model
 > ![Določene najnižje in najvišje ocene](media/Resource-Management-image85.png)
 
 Te vrednosti ocen se prikažejo pri filtrih **Zahteve vira**, **Plošča razporeda** in **Pomočnik za razporejanje**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Simona Horvat, razvijalka, ki je zaposlena v GBPM, je zabeležila 10 ur dela za 
     - Dobropis: projekt – fakturirani prihodek 120 USD
 
     Sistem je zdaj pripravljen za izdelavo računa za medpodjetno stranko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

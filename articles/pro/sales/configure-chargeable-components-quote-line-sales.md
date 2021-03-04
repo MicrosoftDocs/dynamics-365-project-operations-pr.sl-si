@@ -77,3 +77,6 @@ Ocena ali dejanska vrednost, ustvarjena za strošek, se šteje za zaračunljivo 
 | No | Da | Ves projekt | Ni mogoče nastaviti | Se ne zaračuna | Ni mogoče nastaviti | Obračun po dejanskem času: Ni na voljo </br>Vrsta obračuna za dejansko vrednost stroška: Se ne zaračuna |
 | Da | No | Ves projekt | Se zaračuna | Ni mogoče nastaviti | Ni mogoče nastaviti | Obračun po dejanskem času: Se zaračuna</br>Vrsta obračuna za dejansko vrednost stroška: Ni na voljo |
 | Da | No | Ves projekt | Se ne zaračuna | Ni mogoče nastaviti | Ni mogoče nastaviti | Obračun po dejanskem času: Se ne zaračuna </br>Vrsta obračuna za dejansko vrednost stroška: Ni na voljo |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

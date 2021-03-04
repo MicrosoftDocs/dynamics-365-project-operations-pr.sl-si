@@ -61,3 +61,6 @@ Pri kopiranju projekta se kopira celotna struktura razčlenitve dela z naloženi
 Pri kopiranju projekta so iz izvornega projekta kopirane vrstice za oceno virov in stroškov. 
 
 Za informacije o programskem dostopu do programa Copy Project glejte razdelek [Razvijanje predlog projektov s programom Copy Project](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

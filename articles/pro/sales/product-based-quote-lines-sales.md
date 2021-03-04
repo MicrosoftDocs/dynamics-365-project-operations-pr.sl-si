@@ -46,3 +46,6 @@ Poleg tega lahko izberete izdelke iz drugih cenikov ali pa neposredno iz katalog
 Če izberete možnost **Preglasi oblikovanje cene**, privzeta cena ni nastavljena. Namesto tega morate ceno za izdelek vnesti v vrstici ponudbe. Če izberete možnost **Uporabi privzeto**, je uporabljena privzeta prodajna cena in polje je zaklenjeno za urejanje.
 
 Privzete prodajne cene se vnesejo v vrstice, ki temeljijo na izdelkih, v ponudbi. Polje **Oblikovanje cen** je nato nastavljeno na **Preglasi oblikovanje cene**, tako da lahko uredite privzeto ceno v vrsticah ponudbe. Ta preglasitev vedenja podrobnosti, ki temeljijo na izdelkih, v aplikaciji Dynamics 365 Sales je značilna za aplikacijo Project Operations.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

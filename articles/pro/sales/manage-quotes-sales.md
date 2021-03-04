@@ -33,3 +33,6 @@ Seznam vseh ponudb za projekt si lahko ogledate na strani s seznamom **Ponudbe**
 2. Uporabite možnost **Preklopnik med pogledi**, da izberete druge filtrirane poglede ponudb. Z uporabo pogojev filtra po meri lahko konfigurirate lastne poglede in možnosti krmarjenja.
 
 Ponudbe lahko ustvarite ali izbrišete s strani s seznamom ali strani s podrobnostmi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

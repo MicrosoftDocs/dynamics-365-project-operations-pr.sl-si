@@ -95,3 +95,6 @@ Ta vodnik nudi informacije, ki jih potrebujete za ustvarjanje in upravljanje pro
  [Priročnik za upravitelje virov](../psa/resource-manager-guide.md)   
  [Vodnik po času, stroških in sodelovanju](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

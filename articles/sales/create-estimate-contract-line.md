@@ -69,3 +69,6 @@ Izračuni dobičkonosnosti pretvorijo zneske za podrobnosti vrstice pogodbe za m
 
 > [!NOTE]
 > Pride lahko do napak pri zaokroževanju valut in spremenjenih marž zaradi pomanjkanja menjalnih tečajev, veljavnih na datum. Uporabite te izračune za projektne pogodbe samo kot približke in ne za dejansko zakonito ali drugačno poročanje, za katerega je potrebna večja natančnost zaokroževanje in ozaveščenosti o datumski veljavnosti za menjalne tečaje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

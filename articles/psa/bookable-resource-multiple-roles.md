@@ -74,3 +74,6 @@ Ko razširite vrstico tega zapisa člana ekipe, lahko v zapisu člana ekipe vidi
 Ko se pomaknete do mreže **Ocene**, boste opazili, da sta za obe dodelitvi za isti vir določeni različni ceni.
 Dodelitev za vir v opravilu A je ocenjena na podlagi vrednosti atributa **Vloga** za možnost **Svetovalni vodja**. Dodelitev za isti vir v opravilu B je ocenjena na podlagi vrednosti atributa **Vloga** za možnost **Omrežni tehnik**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

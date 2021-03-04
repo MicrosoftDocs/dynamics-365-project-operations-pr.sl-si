@@ -34,3 +34,6 @@ Prodajne cene se uporabijo enkrat na posel. Hierarhija privzeto nastavljenega pr
 1. Organizacija
 2. Stranki
 3. Ponudba/pogodba
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

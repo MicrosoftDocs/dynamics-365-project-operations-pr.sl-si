@@ -30,3 +30,6 @@ Vodja projekta lahko pregleda neobračunane prodajne transakcije z metodo obrač
 Lahko [ročno ustvarite predračun](../proforma-invoicing/create-manual-proforma-invoice.md) ali uporabite [periodični postopek](../proforma-invoicing/configure-automated-invoice-creation.md). Vodja projekta lahko po potrebi [prilagodi osnutek predračuna](../proforma-invoicing/manage-proforma-invoice.md) in ga nato potrdi.
 
 Potrjeni predračun se pošlje v modul **Upravljanje projektov in računovodstvo** v storitvi Finance. Projektni računovodja oblikuje in posodobi predlog za račun projekta, nato pa objavi in natisne dokument. Objavljeni projektni računi se evidentirajo v glavni knjigi ter podknjigah za stranke in projekte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

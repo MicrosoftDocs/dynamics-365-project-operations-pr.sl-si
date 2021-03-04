@@ -34,3 +34,6 @@ Za vloge je mogoče nastaviti vse lastne cene, prodajne cene in cene prenosa. Iz
 1. Na strani **Prodajna cena (ura)** izberite **Novo** in vnesite datum začetka veljavnosti.
 2. V stolpcu **Vloga** izberite vlogo.
 3. V stolpcu **Cene** vnesite ceno za izbrano vlogo vira.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

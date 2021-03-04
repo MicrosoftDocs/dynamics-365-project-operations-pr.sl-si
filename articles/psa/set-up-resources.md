@@ -55,3 +55,6 @@ Preden zahtevate vire ali dodelite vire v storitvi [!INCLUDE[pn_project_service_
   
 ### <a name="see-also"></a>Glejte tudi  
  [Konfiguracija rešitve Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

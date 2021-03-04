@@ -76,3 +76,6 @@ Odpre se stran **Novo ime polja cenovne razsežnosti** za **msdyn_bookableresour
 5. V polje **Logično ime entitete** dodajte ime **msdyn_projectteam**, v polje **Ime polja** pa **msdyn_bookableresourceid**. Shranite zapis.
 
  ![Oblika novega imena polja cenovne razsežnosti](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

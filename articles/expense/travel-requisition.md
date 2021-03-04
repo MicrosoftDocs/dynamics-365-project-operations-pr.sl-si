@@ -56,3 +56,6 @@ Izberite zahtevo za pot, ki jo želite odobriti, in nato izberite **Potek dela**
 
 > [!NOTE]
 > Ko preslikate poročilo o stroških v odobreno zahtevo za pot, znesek transakcije ne sme biti večji od odobrenega zneska. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

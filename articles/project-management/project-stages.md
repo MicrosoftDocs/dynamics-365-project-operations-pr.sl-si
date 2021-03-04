@@ -63,3 +63,6 @@ Ko je delo za projekt končano, lahko vodja projekta posodobi stopnjo na **Dokon
 
 Ko so za projekt zabeležene vse transakcije, lahko vodja projekta posodobi stopnjo na **Zaprto**. Na tej točki ni več mogoče beležiti transakcij in projekt je nastavljen na način samo za branje.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,5 @@ Zahteve za vire določi vodja projekta, da opredeli vire, potrebne za izvedbo de
 3.  Na zavihku **Član ekipe** izberite člana ekipe in nato še možnost **Ustvari zahtevo**.
 
 Za informacije o prilagajanju zahteve za vire glejte razdelek [Posodobite podrobnosti o zahtevi za vire](define-resource-requirements.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

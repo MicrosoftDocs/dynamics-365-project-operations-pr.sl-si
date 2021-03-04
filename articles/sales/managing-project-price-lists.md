@@ -120,3 +120,6 @@ Tako kot zneski za obračunavanje se tudi stroški za človeške vire izračunaj
     1. Cenik z lastnimi cenami, ki je priložen organizacijski enoti
     2. Cenik z lastnimi cenami, ki je priložen parametrom aplikacije Project Operations. Ker so lahko parametrom priloženi ceniki z lastnimi cenami v različnih valutah, se izvede uskladitev valut med valuto pogodbene organizacijske enote projekta, pogodbo ali ponudbe in valuto cenika z lastnimi cenami.
     3. Pri stroških se metodi nabavne cene in pribitka na ceno ne uporabljata za cenike z lastnimi cenami. Če se ti metodi določanja cen uporabljata v vrsticah cenika z lastnimi cenami za nastavitev stroškovnih kategorij transakcij, jih sistem prezre in ne vnese nobene privzete lastne cene.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

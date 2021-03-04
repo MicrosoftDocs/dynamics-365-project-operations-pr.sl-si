@@ -90,3 +90,6 @@ Ocena spremeni stanje v **Izločeno**.
 Na tej strani razveljavite vse izločitve z določenim datumom ocene in stanjem ocene **Izločeno**. Stanje transakcije se spremeni, ko izberete ustrezna polja.
 
 S tem boste tudi samodejno spremenili stanje projekta v **V teku**, če je stopnja projekta nastavljena na končano. Stanje ocene projektnega obdobja se spremeni nazaj na **Knjiženo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Odpravljene so naslednje težave:
 - Seznami **Lastna cena organizacijske enote** dovoljujejo prekrivanje datumske veljavnosti.
 - Uporabniki ne smejo spreminjati možnosti **OrgUnit**, ko vrsta naročila ne temelji na delu, ker bo prišlo do napake izjeme sklica z vrednostjo »null«.
 - Pri poskusu krmarjenja iz obrazca **Podrobnosti vrstice ponudbe** nazaj na zavihek **Ponudba** se obrazec osveži in prikaže se zavihek **Povzetek**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

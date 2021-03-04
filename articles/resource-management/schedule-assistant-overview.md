@@ -57,3 +57,6 @@ Podokno filtra prikazuje z delom povezane možnosti, kot so:
 -   Podjetje, ki zagotavlja vire
 -   Vrste virov
 -   Prednostni viri
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

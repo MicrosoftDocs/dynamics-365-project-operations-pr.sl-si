@@ -42,3 +42,6 @@ V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za Proje
 Odpravljene so naslednje težave:
 
 - Načrtovanje pomoči pri iskanju poslabšanja delovanja
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

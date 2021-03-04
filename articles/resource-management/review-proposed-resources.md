@@ -62,3 +62,6 @@ Ker Dynamics 365 Project Operations uporablja mehanizem Universal Resource Sched
 
 Če si želite ogledati podrobnosti o posameznem viru, ga kliknite z desno tipko miške, da odprete kartico vira.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

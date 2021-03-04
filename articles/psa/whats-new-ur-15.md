@@ -63,3 +63,6 @@ V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za PSA V
   - Popravljeno: ko je projektov več kot 1000 se ne prikaže več sporočilo o napaki v možnosti **Iskanje projektov** v obrazcu **Vrstica ponudbe**.
   - Popravljeno: mreža **Ocene** za ocene dela in ocene stroškov zdaj prikazuje pravilen simbol valute.
   - Popravljeno: ko organizacija posodobi PSA z izdaje posodobitve 14 na izdajo posodobitve 15, zavihek **Razpored** ni več prikazan prazen na obrazcu **Projekt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

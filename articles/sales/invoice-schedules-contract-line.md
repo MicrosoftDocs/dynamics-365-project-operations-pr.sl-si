@@ -74,3 +74,6 @@ Mejnike s fiksno ceno lahko generirate tudi ročno, če se niso periodično delj
 | Davek | Hitro ustvarjanje | Znesek davka, ki se uporablja za mejnik. | Prenese se na mejnik podrobnosti pogodbe projekta in na račun. |
 
 3. Izberite možnost **Shrani in zapri**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

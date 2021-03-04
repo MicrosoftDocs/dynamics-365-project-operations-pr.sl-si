@@ -26,3 +26,6 @@ Skupine storitve Office omogočajo skupno rabo projekta z drugimi člani skupine
 > [!NOTE] 
 > Uporabniki so v skupino dodani le, če pritisnete možnost **Skupine** in jih dodate. To se razlikuje od lastnosti aplikacije Project for the Web. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

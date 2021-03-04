@@ -48,3 +48,6 @@ V naslednji tabeli so navedene vrste poteka dela, ki jih lahko ustvarite v možn
 |       <strong>Zahteva za pot</strong>       |          Ustvarite poteke dela odobritve za zahteve za pot.           |
 |      <strong>Zahteva za denarni predujem</strong>      |         Ustvarite poteke dela odobritve za zahteve za denarni predujem.          |
 |        <strong>Izterjava davka DDV</strong>        | Ustvarite poteke dela odobritve za izterjavo davka na dodano vrednost (DDV).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Mreža na zavihku **Predlagani viri** na strani **Član projektne ekipe** prikaz
 ![Sprejem predlaganega vira](media/RM-how-to-20.png) 
 
 Podobno kot pri neposrednem izpolnjevanju zahteve za splošen vir z imenovanim virom bo generični vir nadomeščen, dodeljena opravila pa bodo posodobljena z imenovanim članom ekipe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Viri so najpomembnejše sredstvo organizacije, ki temelji na storitvah. Sposobno
 - [Zahteve za začasne rezervacije](resource-management-softbook-requirements.md)
 - [Modeli znanj in usposobljenosti](resource-management-skills-proficiency.md)
 - [Pogosta vprašanja in odgovori o upravljanju virov](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Spodnji proces prikazuje primer poteka dela upravljanja stroškov za poročilo o
 Ko so te zahteve preverjene, se poročilo o stroških vknjiži.
 
 Ko je poročilo o stroških vknjiženo, se zanj odobri plačilo, zaposlenemu pa povrnejo stroški.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

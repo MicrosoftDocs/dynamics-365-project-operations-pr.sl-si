@@ -48,3 +48,6 @@ Nato ustvarite strukturirano členitev dela za projekt, da določite opravila, �
   
 ### <a name="see-also"></a>Glejte tudi  
  [Priročnik za vodje projektov](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

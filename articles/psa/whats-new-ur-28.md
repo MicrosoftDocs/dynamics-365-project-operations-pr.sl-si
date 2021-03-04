@@ -55,3 +55,6 @@ Odpravljene so naslednje težave:
 - Ko je priklican vtičnik **GetEstimatesForProject**, je ustvarjena izjema s sklicem »null«.
 - Možnost **Označi kot pripravljeno za izdajanje računov** na mreži mejnika samo delno posodobi atribute, razen atributa **Status računa**, ki je posodobljen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

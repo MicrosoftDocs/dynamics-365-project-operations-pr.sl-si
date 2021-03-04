@@ -32,3 +32,6 @@ Vsak projekt, ki v programu Dynamics 365 Project Operations ni povezan s pogodbo
 Potem ko so transakcije vknjižene za projekt in če je projekt povezan s projektno pogodbo, sistem stornira vse zbrane transakcije in ustvari nove transakcije, ki jih je mogoče obračunati. Transakcije, ki jih je mogoče obračunati, sledijo računovodskim pravilom, opredeljenim v ustreznem profilu stroškov in prihodkov projekta.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

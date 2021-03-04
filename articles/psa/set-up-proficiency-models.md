@@ -53,3 +53,6 @@ V projekte strank ste dodali znanje, zdaj pa potrebujete način za ocenjevanje z
   
 ### <a name="see-also"></a>Glejte tudi  
  [Nastavitev virov](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

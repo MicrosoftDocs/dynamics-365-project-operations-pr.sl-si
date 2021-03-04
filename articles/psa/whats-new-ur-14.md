@@ -64,3 +64,6 @@ V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za PSA V
      - Popravljeno: skupna prodajna cena ni izračunana, dokler uporabnik ne vnese tudi lastne cene za ocene stroškov na projektu.
      - Popravljeno: zapiranje ponudbe kot **Pridobljeno** ne uspe, če povezana projektna pogodba ni v stanju **Osnutek**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

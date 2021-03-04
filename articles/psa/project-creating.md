@@ -149,3 +149,6 @@ Ko je način opravila nastavljen na **Samodejno razporejeno**, mehanizem razpore
 ### <a name="manual-scheduling"></a>Ročno razporejanje
 
 Če pravila samodejnega razporejanja ne izpolnjujejo vaših zahtev, lahko nastavite način opravila na **Ročno razporejeno**. S to nastavitvijo mehanizem razporejana preneha izračunavati vrednosti za druge atribute razporejanja. Če v opravilih nastavite predhodna opravila, vedno vplivate na začetni datum odvisnega opravila, ne glede na način opravila.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

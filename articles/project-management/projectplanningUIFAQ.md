@@ -106,3 +106,6 @@ Ko se izvede ena ali več posodobitev strukturirane členitve dela, spremembe na
   - Sistem Project Operations
   - Sistem projekta
   - Sistem dvojnega zapisovanja Project Operations (ta vloga je obvezna, če uvajate scenarije, ki temeljijo na virih/nezalogi v storitvi Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Ko imate privzete organizacijske cenike in cenike projektov, specifične za stra
 
 1. Pri možnosti **Projektna ponudba** se na zavihku **Cenik projekta** prepričajte, da v podmreži ni izbran noben specifičen zapis cenika.
 2. Izberite **Ustvari cenik po meri**. S tem bodo ustvarjene kopije vseh standardnih cenikov, ki so trenutno povezani s ponudbo, in te kopije bodo povezane s ponudbo. Obstoječe povezave s standardnimi ceniki bodo odstranjene. Prodajalec lahko nato začne urejati cene teh kopij. Te spremenjene cene bodo veljale samo za to projektno ponudbo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

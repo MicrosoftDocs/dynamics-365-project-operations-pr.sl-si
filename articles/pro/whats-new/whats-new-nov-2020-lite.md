@@ -37,3 +37,6 @@ V spodnji tabeli so navedene posodobitve storitve Project Operations v okolju CD
 | Vnos časa in hitrih stroškov | 2047499          | Gumb **Novo** na strani »Vnos časa« odpre stran **Nov e-poštni podpis**.                                                                                               |
 | Vnos časa in hitrih stroškov | 2059859          | Pri ustvarjanju vnosa stroškov se odpre nepričakovano pojavno okno.                                                                                                                         |
 | Drugo                        | 2044181          | [Odstranjevanje naročilnice] Ko poskušate odstraniti osnovni rešitvi storitve **msdyn_ProjectServiceCore_Patch** in »msdyn Project«, pride do napake »Zapis ni na voljo«.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

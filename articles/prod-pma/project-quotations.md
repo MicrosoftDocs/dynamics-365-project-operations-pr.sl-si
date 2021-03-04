@@ -41,3 +41,6 @@ Projektna ponudba je nezavezujoča ocena dela, ki ga je treba opraviti. Ko pa se
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

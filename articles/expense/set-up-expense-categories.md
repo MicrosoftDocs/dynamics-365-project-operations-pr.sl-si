@@ -61,3 +61,6 @@ Pred začetkom postopka namestitve se morate za vsako kategorijo stroškov odlo�
 
     - Ali je katera od podkategorij izključena iz davčne olajšave?
     - Katera davčna skupina za prodajo izdelka velja za podkategorije?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

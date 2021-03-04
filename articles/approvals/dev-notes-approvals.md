@@ -23,3 +23,6 @@ Dynamics 365 Project Operations vključuje logiko preverjanja veljavnosti, ki za
 
   - Vse podporne vrstice so ustvarjene v povezanih tabelah, kot so dnevniki in dejanske vrednosti.
   - Odobritelj je označen kot **Odobritelj projekta** v projektu pred nadaljevanjem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

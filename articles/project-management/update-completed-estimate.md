@@ -36,3 +36,6 @@ Projektni vodja lahko znova projicira obseg dela v opravilih na dva načina:
 - Preglasi lahko privzeti odstotek napredka z novo oceno dejanskega napredka v opravilu.
 
 Oba pristopa povzročita ponoven izračun ETC, ocena končnih stroškov (EAC) in odstotka napredka ter predvidenega odmika od obsega dela v opravilu. Ponovno se izračunajo EAC, ETC in odstotek napredka v opravilih povzetkov, kar ustvari novo projekcijo odmika od obsega dela.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

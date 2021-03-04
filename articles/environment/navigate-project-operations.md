@@ -38,3 +38,6 @@ Izberite **Prijava** > **Prijava v okolje** za pomik v modul **Upravljanje proje
 
 > [!NOTE]
 > Do aplikacije Project Operations lahko neposredno dostopate v storitvi Common Data Service in modulu **Upravljanje projektov in računovodstvo** z uporabo ustreznih URL-jev. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

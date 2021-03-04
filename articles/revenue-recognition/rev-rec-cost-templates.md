@@ -79,3 +79,6 @@ Za ustvarjanje predlog stroškov sledite spodnjim navodilom:
 7. V zavihku **Kategorije** izberite kategorije projektov, ki jih želite vključiti v predlogo vrstic cene.
 8. V zavihku **Splošno** izberite, ali bo ta vrstica vključena v izračun odstotka dokončanja.
 9. Izberite metodo za izračun cene za dokončanje, ki bo uporabljena pri izračunu odstotka dokončanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

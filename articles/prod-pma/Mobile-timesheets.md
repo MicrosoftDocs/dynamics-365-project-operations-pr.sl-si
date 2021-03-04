@@ -62,3 +62,6 @@ Sistem Android bo združljiv s posodobitvijo platforme 16, ko bo na voljo.
 13. Neobvezno: Vnesite dodatne vrstice časovnega lista.
 
 14. Po končanem vnašanju vrstic časovnega lista izberite **Potek dela** \> **Pošlji** , da pošljete časovni list v postopek odobritve poteka dela.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

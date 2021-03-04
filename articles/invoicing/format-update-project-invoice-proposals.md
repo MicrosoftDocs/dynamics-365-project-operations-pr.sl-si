@@ -143,3 +143,6 @@ Ko je račun pregledan in urejen in so vrstice predloga za računa zadovoljive, 
 Poleg strani **Predlog za račun** lahko predloge za račune knjižite tudi tako, da zaženete redno opravilo **Knjiži predloge za račune**. To opravilo najdete v možnosti **Upravljanje projektov in računovodstvo** > **Redno** > **Projektni računi** > **Knjiženje predlogov za račune**.
 
 Ta stran prikaže vse predloge za račune, ki so pripravljeni za knjiženje. Knjiženje predlogov za račune lahko načrtujete tako, da izberete **Paket**. **Parameter za paketno obdelavo** nastavite na **Da** in nato nastavite ponavljanje paketne obdelave tako, da izberete **Ponavljanje**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

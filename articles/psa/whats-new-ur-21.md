@@ -77,3 +77,6 @@ Odpravljene so naslednje težave:
 - Logika **Razrešitve prodajnega cenika** nepravilno obdeluje časovne pasove, zaradi česar je izbor cenikov napačen.
 - **Skupni dejanski stroški** projekta imajo lahko delno napako po odobritvi enkratnega vnosa.
 - Znotraj logike **Razrešitve cen** se ne prikaže uporabniku prijazno sporočilo o napaki, če razdelek **Pridobljena cena vloge** nima vrednosti v poljih **Glavna enota** in **Cena v osnovni enoti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

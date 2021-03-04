@@ -103,3 +103,6 @@ Kategorije proračuna se uporabljajo za samodejni izračun zneskov računov za d
 8. Izbirno: obračunsko pravilo dodelite dodatnim projektom. Na zavihku za hitri dostop **Projekt** v razdelku **Razpoložljivi projekti** izberite projekt in nato izberite puščico desno, da dodate projekt v razdelek **Izbrani projekti**.
 9. Izbirno: izračunajte odstotno vrednost, ki jo kupec zadrži pri plačilih za račun. Na zavihku za hitri dostop **Pogoji zadržanja plačila** izberite vir financiranja in nato v polju **Odstotek zadrževanja** vnesite odstotek zadrževanja.
 10. Ponovite te korake, da ustvarite dodatna obračunska pravila za projektno pogodbo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

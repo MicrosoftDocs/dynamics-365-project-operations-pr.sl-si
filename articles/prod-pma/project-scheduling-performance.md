@@ -69,3 +69,6 @@ Težave z učinkovitostjo, povezane z razporejanjem virov, se lahko pojavijo, ko
 
 > [!NOTE]
 > S tem se bo tabela **ResRollup** izpolnila s splošnimi podatki za vsa podjetja v vašem okolju, zato je treba paketno opravilo izvesti samo pri eni pravni osebi. To paketno opravilo je potrebno za vse poglede za **razpoložljivost virov**. Če se to paketno opravilo ne zažene, bodo podatki **ResRollup** bodo ustvarjeni sproti, kar lahko traja nekaj časa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Naslednji KPI-ji so na voljo na zavihku **Izvedba pogodbe** projektne pogodbe.
 | Nastali stroški | Podrobnosti, ki temeljijo na izdelkih | Vsota vseh dejanskih stroškov, zabeleženih za podrobnost pogodbe, ki temelji na izdelku. |
 | Stopnja bruto dobička | Podrobnosti, ki temeljijo na projektih | Obračunani znesek – strošek, nastal do datuma/obračunani znesek |
 | Pričakovana marža | Podrobnosti, ki temeljijo na izdelkih | (vrednost podrobnosti pogodbe – ocenjeni stroški za podrobnost pogodbe)/vrednost podrobnosti pogodbe |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

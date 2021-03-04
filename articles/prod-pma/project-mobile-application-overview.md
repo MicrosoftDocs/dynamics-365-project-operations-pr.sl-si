@@ -49,3 +49,6 @@ Moji časovni listi (optimizirano za mobilne naprave) in Časovni listi za moj p
 - [Vnos časa v projektu]( project-time-entry-mobile-workspace.md)
 - [Časovni listi projekta v mobilni napravi](Mobile-timesheets.md)
 - [Vključevanje polj po meri za mobilno aplikacijo Microsoft Dynamics 365 Project Timesheet v sistemih iOS in Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

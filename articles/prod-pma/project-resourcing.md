@@ -55,3 +55,6 @@ Naslednje teme ponujajo informacije o opravilih, ki jih je treba opraviti, ko i�
 - [Učinkovitost razporejanja projektnih virov](project-scheduling-performance.md)
 - [Nastavitev vlog za predloge strukturirane členitve dela](set-up-roles-wbs-template.md)
 - [Zapolnitev virov za načrtovane vire](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

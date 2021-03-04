@@ -95,3 +95,6 @@ Trenutno so podprte Združene države Amerike.
 Storitev Finance pri Cognitive Services izvleče podatke polja. Cognitive Services ohrani kopijo potrdila do 24 ur med izvajanjem obdelave. Po končani obdelavi rešitev Cognitive Services potrdilo odstrani. Potrdila so še vedno shranjena v storitvi Finance.
 
 Za več informacij glejte [Omogočanje razumevanja potrdil z novo zmožnostjo prepoznavalnika obrazcev](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

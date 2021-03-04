@@ -72,3 +72,6 @@ Da bi razumeli, kaj je veljavna cena, uporabite te načine:
 Če po treh opravljenih preverjanjih, opisanih zgoraj, še vedno ne vidite veljavne cene pri dejanski vrednosti »strošek – prodaja«, izpolnite vstopnico za podporo.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

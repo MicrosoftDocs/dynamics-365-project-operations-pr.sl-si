@@ -43,3 +43,6 @@ Naslednji diagram prikazuje medpodjetno izdajanje računov, saj se nanaša na ra
 - [Konfiguriranje izstavljanja računov med podjetji](configure-intercompany-invoicing.md)
 - [Beleženje medpodjetnih transakcij](create-intercompany-transactions.md)
 - [Ustvarjanje računov medpodjetnih strank in prodajalcev](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

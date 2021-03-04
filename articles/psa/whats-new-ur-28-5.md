@@ -42,3 +42,6 @@ Odpravljene so naslednje težave:
 
 - Načrtovanje pomoči pri iskanju poslabšanja delovanja
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

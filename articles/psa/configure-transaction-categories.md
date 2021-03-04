@@ -43,3 +43,6 @@ Nastavite kategorije transakcij, da določite nadmnožico kategorij stroškov.
   
 ### <a name="see-also"></a>Glejte tudi  
  [Konfiguracija rešitve Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

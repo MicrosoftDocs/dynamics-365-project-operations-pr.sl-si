@@ -52,3 +52,6 @@ Spodnje teme ponujajo informacije, ki bodo vodjem projektov pomagale oceniti obs
 - [Projektne predloge](project-templates.md)
 - [Stopnje projekta](project-stages.md)
 - [Nastavitve projekta](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

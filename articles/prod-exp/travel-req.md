@@ -32,3 +32,6 @@ Vaša organizacija lahko zahteva, da je zahteva za pot predložena, preden za za
 Zahteve za pot in pravilniki se lahko uporabljajo za pomoč pri nadzorovanju proračuna. Če na primer vaša organizacija dela na projektu s fiksno ceno, pri katerem je potrebno potovanje, se morajo potni stroški članov projektne ekipe ujemati s proračunom za projekt. Z zahtevo po odobritvi potnih stroškov, preden nastanejo, lahko organizacija pomaga zagotoviti, da projekt ostane v okviru proračuna.
 
 Pravilnike o zahtevah za pot lahko nastavite na strani **Zahteva za pot**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

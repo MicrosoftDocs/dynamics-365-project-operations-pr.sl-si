@@ -73,3 +73,6 @@ Za več informacij o posodobitvah rešitve Project Service glejte razdelek [Nač
 >[!Note]
 > - Datumi v vseh regijah, razen v okolju Government Community Cloud (GCC), označujejo čas naslednje samodejne posodobitve. Datumi v okolju GCC označujejo razpoložljivost različice; trenutno za te regije ni samodejne posodobitve.
 > - Za vse druge regije – medtem ko bi morala biti večina posodobitev končana v predvideni noči – se lahko posodobitve, za katere je potrebnega več časa, končajo v delovno manj obremenjenih urah čez vikend, ki so navedene v stolpcu **Predvideni datum**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

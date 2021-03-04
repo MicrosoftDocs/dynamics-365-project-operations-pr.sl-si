@@ -31,3 +31,6 @@ Dnevnica je dodatek, ki se izplača delavcu, ki dela na terenu. V razdelku »Upr
     
 ## <a name="submit-expenses-using-per-diem"></a>Pošiljanje stroškov z možnostjo dnevnic
 Če želite poslati stroške z možnostjo dnevnic, uporabite kategorijo stroška **Dnevnica**, ko ustvarite poročilo o stroških. Vnesite **Začetni datum dnevnic**, **Končni datum dnevnic** in **Lokacija dnevnic**. Znesek se izračuna na podlagi vrednosti dnevnic za izbrano lokacijo, znižanje za obrok pa na podlagi stopnje vrednosti dnevnic.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

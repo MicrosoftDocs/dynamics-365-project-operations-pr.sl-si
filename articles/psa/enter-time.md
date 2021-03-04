@@ -61,3 +61,6 @@ Ure vnašajte vsaj tedensko – ali glede na zahteve upraviteljev – in tako za
   
 ### <a name="see-also"></a>Glejte tudi  
  [Vodnik po času, stroških in sodelovanju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

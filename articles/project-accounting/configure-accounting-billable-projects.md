@@ -125,3 +125,6 @@ Fiksna cena – delež napredka
 Pravila za profil stroškov in prihodkov projekta določajo profil stroškov in prihodkov projekta, ki se morajo uporabljati pri obdelavi vseh plačljivih transakcij projekta. Pravila določite v razdelku **Vodenje projektov in računovodstvo** \> **Nastavitve** \> **Knjiženje** \> **Pravila za profil stroškov in prihodkov projekta**.
 
 Pravila so lahko določena glede na projektno pogodbo, projektno skupino za posamezen projekt. Sistem bo vedno najprej izbral pravilo najvišje razdrobljenosti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

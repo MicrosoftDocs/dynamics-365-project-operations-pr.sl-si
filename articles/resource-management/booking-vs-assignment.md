@@ -26,3 +26,6 @@ Za razliko od rezervacij, so dodelitve zaveza virov k projektnih opravilom v raz
 Običajno bo vsota rezervacij za vir enaka vsoti dodelitev vira po eni ali več opravilih. Vendar pa aplikacija Project Operations ne vsiljuje tega pravila. V pogledu **Usklajevanje** se vodji projekta prikažejo mesta, kjer se rezervacije in dodelitve vira ne skladajo.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

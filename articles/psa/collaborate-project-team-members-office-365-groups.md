@@ -43,3 +43,6 @@ V programu [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] lahko sod
   
 ### <a name="see-also"></a>Glejte tudi  
  [Vodnik po času, stroških in sodelovanju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

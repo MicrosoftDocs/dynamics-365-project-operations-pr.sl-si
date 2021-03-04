@@ -57,3 +57,6 @@ Ceniki z lastnimi cenami niso privzeto nastavljeni za nobeno entiteto v aplikaci
 5. Nato sistem preveri veljavnost datumov cenikov, ki se ujemajo z datumom dohodne vrstice ocene ali dejanske vrednosti. 
 6. Če obstaja več cenikov, ki so v veljavi na datum dohodne ocene ali dejanske vrednosti, bo izbran nazadnje ustvarjen cenik.
 7. Če projektnim parametrom, ki se ujemajo z valuto in datumom začetka veljavnosti, ni priložen noben prodajni cenik, sistem privzeto nastavi stopnjo stroškov na nič (0) za dohodne vrstice ocene ali dejanskih vrednosti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

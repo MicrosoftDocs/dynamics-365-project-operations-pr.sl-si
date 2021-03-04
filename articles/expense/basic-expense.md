@@ -55,3 +55,6 @@ Stroške, ki še niso bili poslani, je mogoče izbrisati. Če želite izbrisati 
 ## <a name="see-also"></a>Glejte tudi
 
 - [Pregled odobritev](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Tu je nekaj predlogov, ki vam lahko pomagajo pri ustvarjanju novih pravilnikov z
 ## <a name="when-to-evaluate-policies"></a>Kdaj oceniti pravilnike
 
 V parametrih upravljanja stroškov lahko izberete, da ocenite pravilnike upravljanja stroškov, ko se vrstica shrani ali ko se predloži poročilo o stroških. Če se odločite, da boste ocenili, ko je vrstica shranjena, bodo uporabniki prej videli, kaj morajo storiti, da naenkrat izpolnijo poročilo o stroških. V nasprotnem primeru lahko odložite oceno pravilnika in prihranite čas s preverjanjem na koncu med predložitvijo v potek dela.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

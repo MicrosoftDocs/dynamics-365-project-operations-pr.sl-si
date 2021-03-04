@@ -38,3 +38,6 @@ Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Proj
 | **Načrtovanje in sledenje projektov** | 2164035 | Odpravljene težave s funkcijo **Kopiraj projekt**. |
 | **Časovni vnos** | 2129161 | Uveljavljene so strožje omejitve, da se zagotovi, da uporabniki ne morejo spreminjati in posodabljati časovnega vnosa, ki je bil predložen ali odobren. |
 | **Časovni vnos** | 2103572 | Odobritev časa za neprojektne časovne vnose ne sme iskati vloge odobritelja projekta. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Dokončajte naslednje korake za posodobitev in ponovno registracijo vtičnikov.
 7. Kliknite **V redu**, da zaprete stran, nato izberite možnost **Posodobi korak**.
 8. Ponovite korake od 2 do 7 za drugi vtičnik **PreOperationQuoteLineDetail**. Za ta vtičnik morate posodobiti korak **Posodobitev msdyn_quotelinetransaction**.
 9. Zaprite **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

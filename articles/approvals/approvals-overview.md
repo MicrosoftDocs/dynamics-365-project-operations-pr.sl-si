@@ -59,3 +59,6 @@ Vsak projekt ima več članov projektne skupine. Določite lahko, kdo od članov
 3. Izberite **Shrani**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

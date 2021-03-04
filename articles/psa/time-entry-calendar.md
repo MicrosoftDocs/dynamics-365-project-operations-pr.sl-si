@@ -42,3 +42,6 @@ Koledar ne podpira dejanj za posamezne elemente koledarja, prav tako pa ne moret
 ## <a name="extensibility"></a>Razširljivost
 
 Na strani **Časovni vnosi** z mrežo časovnih vnosov lahko dodate polja po meri, nastavite polja za iskanje in ustvarite poglede po meri. Nastavite lahko tudi poslovno logiko po meri, ki temelji na vrednostih, ki so izbrane ali vnesene v polja po meri.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

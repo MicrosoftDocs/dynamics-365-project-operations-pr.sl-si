@@ -70,3 +70,6 @@ Podatke lahko uvozite iz projektnih rezervacij in dodelitev. Ko uvažate podatke
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Združevanje po, razvrščanje, iskanje in zmogljivosti filtriranja
 
 Časovne vnose lahko združite in filtrirate po razsežnostih, ki so določene v stolpcih. V polju **Združi po** izberite razsežnost, ki jo želite uporabiti za filtriranje časovnih vnosov. Zapise časovnih vnosov lahko razvrstite v naraščajočem ali padajočem vrstnem redu, tako da kliknete puščico za razvrščanje v glavi stolpca. Poleg tega lahko tudi prikažete ali skrijete vnose, tako da izberete gumb **Filter** v glavi stolpca, nato pa v polje **Iskanje** vnesete besedilo, ki ga je treba uporabiti za iskanje časovnih vnosov glede na ime projekta, projektno opravilo, časovni vnos ali vir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

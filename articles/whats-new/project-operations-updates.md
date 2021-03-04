@@ -77,3 +77,6 @@ Ciljni datumi izdaje se lahko spremenijo. Za več informacij glejte [Razpoložlj
 | --- | --- |
 | 10.0.17 | 19. marec 2021 |
 | 10.0.18 | 16. april 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

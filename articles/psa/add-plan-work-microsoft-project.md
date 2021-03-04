@@ -231,3 +231,6 @@ Naslednja tabela prikazuje, kako se sinhronizirajo podatki med storitvijo Projec
 
 ### <a name="see-also"></a>Glejte tudi  
  [Priročnik za vodje projektov](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

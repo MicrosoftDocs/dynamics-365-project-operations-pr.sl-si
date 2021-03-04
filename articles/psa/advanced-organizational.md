@@ -167,3 +167,6 @@ Ta primer prikazuje običajno hierarhijo:
 Ko je projekt ustvarjen samostojno, privzeta pogodbena enota projekta odvisna od uporabnika, ki ga ustvari. Ta uporabnik je tudi privzeti vodja projekta. Če je projekt preslikan v prodajno entiteto, kot je ponudba ali projektna pogodba, pa je pogodbena enota projekta odvisna od prodajne entitete. V tem primeru se lahko ocene za projekt znova izračunajo, ker se cenik z lastnimi cenami, uporabljen za izračun ocenjene cene spremeni, če je spremenjena pogodbena enota. Prodajni cenik se uporablja za izračun ocen prodaje, ki bodo spremenjene tako, da bodo usklajene s cenikom projekta v ponudbi.
 
 Polji **Pogodbena enota** in **Valuta** v projektu so zaklenjeni in ju ni mogoče urejati, ker morata biti usklajeni z vrednostmi v prodajni entiteti (ponudbi ali projektni pogodbi), v katero je projekt preslikan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

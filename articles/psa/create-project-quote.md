@@ -55,3 +55,6 @@ Ustvarjanje ponudbe je podobno ustvarjanju priložnosti. Priložnost je interne 
   
 ### <a name="see-also"></a>Glejte tudi  
  [Priročnik za upravitelja kupcev](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

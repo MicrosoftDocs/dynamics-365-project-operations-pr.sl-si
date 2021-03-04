@@ -52,3 +52,6 @@ Vsakega od teh cenikov lahko uporabite in posodobite cene dela (cena vloge) in c
 Pri projektni pogodbi so cene vedno privzete kot cenik po meri z imenom pogodbe in ustvarjenim žigom datuma in časa, ki je priložen imenu. To velja, ne glede na to, ali je bila pogodba ustvarjena, ko je bila ponudba pridobljena, ali če je bila pogodba ustvarjena povsem od začetka. Po potrebi lahko to povezavo s cenikom po meri odstranite in namesto tega s projektno pogodbo povežete standardni cenik.
 
 Ko standardni cenik povežete s ceniki za projekte na ponudbi ali pogodbi, bodo vse spremembe cen v ceniku vplivale na vse ponudbe in pogodbe, ki uporabljajo cenik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

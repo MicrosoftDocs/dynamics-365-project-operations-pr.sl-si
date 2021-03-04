@@ -29,3 +29,6 @@ Razdelek **Stanje** na strani **Entiteta projekta** vsebuje povzetek stanja proj
 - Polje **Komentarji** omogoča vodji projekta, da vnese določene komentarje o stanju. 
 - Polja **Stanje posodobljeno dne** ni mogoče urejati. Vrednost v tem polju je časovni žig, ki označuje, kdaj je bilo stanje nazadnje posodobljeno.
 - Polji **Učinkovitost razporeda** in **Stroškovna učinkovitost** sta nastavljeni iz mreže za sledenje. Če sta vrednosti odmika od razporeda in stroškov za korensko vozlišče v pogledu **Sledenje obsegu dela** pozitivni, sta polji posodobljeni na **Pred**. Če sta vrednosti odmika od razporeda in stroškov za korensko vozlišče negativni, sta ti polji nastavljeni na **Za**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Izpolnite naslednje korake, da stranki izdate račun za predujem.
     | **Stanje računa** | To je nastavitev možnosti, ki označuje, ali je predujem dodan v osnutek računa za to stranko. Možne vrednosti so:</br>- **Ni pripravljeno za izdajanje računov**</br>- **Pripravljeno za izdajanje računov** | Ko je predujem ali predplačilo označeno kot **Pripravljeno za izdajanje računov**, je dodano kot čas vrstice v osnutku računa. Samo v celoti zaračunan predujem je mogoče uporabiti za uskladitev glede na projektne stroške za naslednje obdobje računa. |
 
 4. Izberite **Shrani in zapri** v pogovornem oknu za hitro ustvarjanje, da zabeležite predujem ali predplačilo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

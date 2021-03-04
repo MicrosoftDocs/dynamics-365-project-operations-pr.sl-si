@@ -44,3 +44,6 @@ Spodaj so polja na zapisu stranke podrobnosti pogodbe v podrobnosti pogodbe, ki 
 Odstotke razdelitve stroškov lahko urejate v mreži. Ko odstotki razdelitve stroškov ne znašajo 100 odstotkov, se prikaže napaka. Ko uredite odstotke razdelitve stroškov, osvežite stran, da obvestilo o napaki odstranite.
 
 V podmreži stranke podrobnosti pogodbe poskusite izbrati možnost **Enakomerna razporeditev**. To dejanje enakomerno dodeli razdelitve stroškov vsem strankam podrobnosti pogodbe. Če obstaja dejavnik zaokroževanja, se doda stranki za zaokroževanje. Ena stranka podrobnosti pogodbe je vedno označena kot stranka za **Zaokroževanje** z nastavljeno zastavico **Zaokroževanje** na **Da**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

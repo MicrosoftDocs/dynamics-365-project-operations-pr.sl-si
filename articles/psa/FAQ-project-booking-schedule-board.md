@@ -91,3 +91,6 @@ Za rezervacijo iz nove zahteve za vir dokončajte spodnje korake.
 
 4. Zdaj, ko je vir rezerviran, morate ročno dodeliti opravila.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

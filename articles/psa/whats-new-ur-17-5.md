@@ -44,3 +44,6 @@ V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za V3, i
 - Popravljeno: Obravnavane 24-urne predloge za delovne ure, ki so nalogam neustrezno dodajale dodaten dan.
 - Popravljeno: Obravnavane predloge za delovne ure +13 GMT, ki napačno premikajo naloge en dan naprej.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Ko je prodajni cenik razrešen, sistem izvede naslednje korake za nastavitev pri
     | &nbsp; | Pribitek na ceno | Z uporabo pribitka, ki je določen z vrstico s cenami kategorij na meri stroškov enote povezanih dejanskih stroškov |
 
 4. Če se sistem ne more ujemati z vrednostmi polj **Kategorija** in **Enota**, se prodajni znesek privzeto nastavi na nič (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

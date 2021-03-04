@@ -96,3 +96,6 @@ Kliknite **Pošlji** , da pošljete časovni list v potek dela za odobritev.
 ## <a name="review-timesheets"></a>Pregled časovnih listov
 
 Seznam časovnih listov, ki jih je treba pregledati, je na voljo v meniju. Ta možnost je na voljo samo, če ste določeni za potrjevalca poteka dela. Podprta sta odobritev glave in vrstic. Odobritev ravni vrstice ponuja možnost označevanja ene ali več vrstic za odobritev. Po pregledu podatkov o časovnem listu kliknite **Odobri** , **Pooblasti** ali **Nazaj** za nadaljevanje poteka dela.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

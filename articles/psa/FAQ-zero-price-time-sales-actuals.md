@@ -57,3 +57,6 @@ Ko izvedete potrebne popravke, znova ustvarite vnos časa, ga odobrite in prever
 
 Če po treh opravljenih preverjanjih, opisanih zgoraj, še vedno ne vidite veljavne cene pri dejanski vrednosti »čas – prodaja«, vložite zahtevo za podporo. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

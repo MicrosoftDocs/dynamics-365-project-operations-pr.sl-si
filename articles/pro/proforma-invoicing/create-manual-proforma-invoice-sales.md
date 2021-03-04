@@ -35,3 +35,6 @@ Vsi ustvarjeni projektni računi so na voljo na strani **Račun** v razdelku **O
 Predračun lahko ustvarite tudi na strani s podrobnostmi o **projektni pogodbi**. Sistem preveri, ali ima projektna pogodba nedokončano opravilo **Pripravljeno na izdajanje računa**, ki je bilo ustvarjeno pred današnjim dnem. Iz teh pogodb sistem ustvari osnutke predračunov na podlagi števila strank v vsaki podrobnosti pogodbe.
 
 Ko je ustvarjen prvi predračun, se odpre stran **Račun**. Če je za to projektno pogodbo ustvarjenih več računov, se odpre stran s seznamom **Računi**, na katerem so prikazani vsi ustvarjeni računi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Odpravljene so naslednje težave:
 
 - Končni datumi se samodejno izpolnijo, ko je ustvarjen časovni vnos, če je trajanje ničelno.
 - Uporabniki lahko spremenijo opravilo v časovnem vnosu, ki je bil odobren ali poslan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

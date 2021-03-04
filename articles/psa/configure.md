@@ -58,3 +58,6 @@ Preden lahko zmogljivosti avtomatizacije [!INCLUDE[pn_project_service_auto](../i
  [Priročnik za vodje projektov](../psa/project-manager-guide.md)   
  [Priročnik za upravitelje virov](../psa/resource-manager-guide.md)   
  [Vodnik po času, stroških in sodelovanju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

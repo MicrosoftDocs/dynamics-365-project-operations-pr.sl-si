@@ -89,3 +89,6 @@ Parametri nadzorujejo osnovno delovanje pri upravljanju stroškov.
 | <strong>Sporočilo za preprečevanje korupcije za pošiljatelja</strong> |                                                                                             Vnesite besedilo, ki se bo zaposlenemu prikazalo pri ustvarjanju novega poročila o stroških. Če želite vnesti besedilo, ki bo prikazano v skladu z uporabniškim jezikom, kliknite gumb <strong>Prevodi</strong>.                                                                                             |
 | <strong>Sporočilo za preprečevanje korupcije za odobritelja</strong>  |                                                                                             Vnesite besedilo, ki se bo odobritelju prikazalo pri ustvarjanju novega poročila o stroških. Če želite vnesti besedilo, ki bo prikazano v skladu z uporabniškim jezikom, kliknite gumb <strong>Prevodi</strong>.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

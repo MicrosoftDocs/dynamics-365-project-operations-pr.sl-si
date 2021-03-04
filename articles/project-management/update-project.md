@@ -48,3 +48,6 @@ Spodaj je povzetek polj, ki jih je mogoče po projektu posodobiti, in morebitne 
 - **Splošno stanje projekta**: splošno stanje projekta, ki ga zagotavlja vodja projekta.
 - **Komentarji**: komentarji o trenutnem stanju projekta, ki jih zagotovi vodja projekta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

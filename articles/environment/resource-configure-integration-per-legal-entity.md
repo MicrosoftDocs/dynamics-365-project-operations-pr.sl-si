@@ -51,3 +51,6 @@ Vsaka pravna oseba, ki uporablja Project Operations v okviru storitve Dynamics 3
   - **Privzete vrednosti vrste obračunavanja**: Project Operations uporablja fiksni nabor privzetih vrednosti vrste obračunavanja, ki jih je treba preslikati v lastnosti vrstic storitve za finance. Ustvarite zapis za vsako vrsto obračunavanja: **Ni določeno**, **Se zaračuna**, **Se ne zaračuna**, **Brezplačno** in **Ni na voljo**.
   - **Privzete vrednosti za kategorije projektov**: izberite privzete kategorije projektov, ki se bodo uporabljale za vsako vrsto transakcije. Te privzete vrednosti se bodo uporabljale pri možnosti **Dnevnik integracij za Project Operations** in pri ocenah, kjer za dejanske vrednosti projekta ni določena nobena kategorija transakcij.
   - **Napovedi**: izberite model napovedi, ki se bo uporabljal za oceno časa in stroškov.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ V aplikaciji Project Service, različica 2.4.4.30 ali starejša različica na pl
 
    ![Posnetek zaslona spreminjanja pogledov v entiteti projekta](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

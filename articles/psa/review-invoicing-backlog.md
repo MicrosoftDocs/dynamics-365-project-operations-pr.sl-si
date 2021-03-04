@@ -59,3 +59,6 @@ Vsaka podrobnost projektne pogodbe, ki uporablja način obračunavanja s fiksno 
 Če želite pregledati mejnike obračunavanja, odprite možnost **Prodaja** \> **Obračunavanje** \> **Mejniki s fiksno ceno**. Izberite mejnike, ki so pripravljeni za izdajo računa, in nato izberite možnost **Pripravljeno za izdajanje računov**. Stanje obračunavanja teh mejnikov se bo spremenilo v **Pripravljeno na izdajanje računov**.
 
 ![Mejniki s fiksno ceno](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

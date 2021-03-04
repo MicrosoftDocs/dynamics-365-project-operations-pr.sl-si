@@ -429,3 +429,6 @@ Vnos privzete kategorije projekta v vnosih v časovni list poteka na treh ravneh
 1. Aplikacija poskuša pridobiti privzeto kategorijo iz vira projekta. Ta privzeta kategorija je nastavljena v metodah **getCurrentUserResource** in **getDelegatedResourcesForCurrentUser** v razredu **TSTimesheetSettingsService**.
 2. Če privzeta kategorija ni na voljo na ravni vira projekta, jo aplikacija poskuša pridobiti iz dejavnosti projekta. Ta privzeta kategorija je nastavljena v metodi **getActivitiesForProject** v razredu **TSTimesheetProjectService**.
 3. Če privzeta kategorija ni na voljo na ravni dejavnosti projekta, se pridobi iz parametrov projekta. Ta privzeta kategorija je nastavljena v metodi **getProjectDetailsbyRule** v razredu **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

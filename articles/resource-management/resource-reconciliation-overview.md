@@ -48,3 +48,6 @@ Ko prikažete čas na višjih ravneh, imajo celice na zavihku **Usklajevanje** k
 Rezervacije, ki so ustvarjene z dejanjem **Podaljšaj rezervacijo**, so povezane s primarno zahtevo za projekt. Ko je razširitev sprožena, ni mogoče določiti posebne zahteve, ki mora biti razširjena, ker je lahko vir povezan z več kot eno zahtevo za projekt.
 
 Vodja projekta ali upravitelj virov lahko nato s ploščo razporeda reši vse primere, kjer ima vir preveliko število rezervacij glede na svojo zmogljivost.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

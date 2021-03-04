@@ -83,3 +83,6 @@ Preden uporabite ploščo razporeda, je pomembno, da jo nastavite. Za več infor
   
 ### <a name="additional-resources"></a>Dodatni viri  
  [Priročnik za upravitelje virov](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

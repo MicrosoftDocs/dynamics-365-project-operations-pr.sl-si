@@ -45,3 +45,6 @@ V prejšnjem koraku ste nekatera znanja že povezali z novim virom. Občasno bo 
   
 ### <a name="see-also"></a>Glejte tudi  
  [Nastavitev virov](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

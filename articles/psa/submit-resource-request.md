@@ -41,3 +41,6 @@ Ustvarjen zahtevani pogoj za vir lahko pošljete kot zahtevo za vir. Zahteva se 
 Status zahteve splošnega člana ekipe se bo spremenil v **Poslano**.
 
 Ko upravitelj virov izpolni zahtevo, bo imenovani vir nadomestil splošni vir, v primeru da upravitelj virov izpolni zahtevo z rezervacijo imenovanega vira. V nasprotnem primeru bo splošni vir ostal v ekipi in se bo stanje zahteve spremenilo v **Potreben pregled**, če je upravitelj virov predlagal imenovani vir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

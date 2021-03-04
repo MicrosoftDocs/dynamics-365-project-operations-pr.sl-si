@@ -82,3 +82,6 @@ To je optimalna izkušnja za odstranjevanje povezave med projektnimi opravili in
 4. Na strani pogovornega okna, ki se odpre, v spustnem meniju izberite podrobnosti pogodbe.
 5. Izberite potrditveno polje, če želite, da se povezava prekine tudi z podrejenimi opravili izbranih opravil. Če potrdite polje, bodo povezava prekinjena tudi med podrejenimi opravili izbranih opravil in podrobnostmi pogodbe.
 6. Izberite **V redu**. Opozorilo pomeni, da lahko prekinitev te povezave povzroči razveljavitev dejanskega dela, ki je bil predhodno zabeležen v opravilu. V pogovornem oknu z opozorilom izberite **V redu** za prekinitev povezave med opravilom in podrobnostmi pogodbe, ki temelji na projektu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Poslovni proces od možne stranke do priložnosti podpira naslednje stopnje:
 | Razvoj | Priložnost | Razvijte priložnost za dodajanje več informacij o vključenem delu, ključnih zainteresiranih skupinah in konkurenci. |
 | Predlaganje | Priložnost | Razvijte predlog in pridobite odobritev od skupine za notranji pregled. |
 | Zaprto | Priložnost | Pridobite priložnost za sklenitev posla. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

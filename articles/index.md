@@ -42,3 +42,6 @@ Dodatne informacije:
 - [Pregled aplikacije Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Pregled aplikacije Dynamics 365 Project Operations 1.faze izdaje za leto 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

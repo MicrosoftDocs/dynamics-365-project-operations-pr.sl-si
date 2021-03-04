@@ -68,3 +68,6 @@ Naslednji koraki vam bodo pomagali pri postopku registracije vtičnikov.
 
 9. Zaprite orodje za registracijo vtičnika.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

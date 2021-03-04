@@ -104,3 +104,6 @@ Med rezervacijo virov lahko projektni vodje filtrirajo vire z vlogo, ki so na vo
 
 3. Izberite **Shrani** in nato zaprite stran.
 4. Na zavihku **Sposobnosti** dodajte znanje **Vodenje projektov** in potrdilo **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ V vrsticah dnevnika integracij za Project Operations je mogoče posodobiti samo 
 Vrstice dnevnika integracij je mogoče izbrisati, vendar bodo vse neobjavljene vrstice znova vstavljene v dnevnik po ponovnem zagonu periodičnega postopka **Uvoz iz pripravljanja**.
 
 Ko objavite dnevnik integracije, se ustvarijo transakcije podknjige in glavne knjige. Uporabljajo se pri izdajanju računov strankam, pripoznavanju prihodkov in finančnih poročil iz strežnika.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

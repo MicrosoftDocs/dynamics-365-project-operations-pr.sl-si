@@ -51,3 +51,6 @@ Stranko ponudbe lahko ustvarite, posodobite ali izbrišete na zavihku **Stranke 
 Odstotke razdelitve stroškov lahko uredite z izkušnjo urejanja mreže v vrstici. Ko odstotki razdelitve stroškov ne znašajo skupno 100 %, pride do napake. Ko posodobite odstotke razdelitve stroškov, osvežite stran, da odstranite napako.
 
 V podmreži kupca lahko v ponudbi poskusite izbrati možnost **Enakomerna razporeditev**. To dejanje dodeli odstotke razdelitve stroškov vsem strankam ponudbe. Če je prisoten dejavnik zaokroževanja, bo to dodano stranki za zaokroževanje. Ena od strank ponudbe je vedno označena kot stranka za zaokroževanje. To pomeni, da ima zapis stranke ponudbe zastavico **Zaokroževanje** nastavljeno na **Da**. Običajno je to primarna stranka ponudbe, vendar je to mogoče spremeniti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

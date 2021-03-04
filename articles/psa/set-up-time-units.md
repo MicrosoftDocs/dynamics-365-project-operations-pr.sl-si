@@ -47,3 +47,6 @@ Konfiguracija časovnih enot v katalogu izdelkov, ki bodo osnova za časovno na�
   
 ### <a name="see-also"></a>Glejte tudi  
  [Konfiguracija rešitve Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

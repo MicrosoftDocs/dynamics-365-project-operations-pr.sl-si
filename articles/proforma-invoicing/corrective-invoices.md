@@ -36,3 +36,6 @@ Ko potrdite korektivni račun, je prvotna obračunana dejanska prodaja storniran
 
 - Obračunana dejanska prodaja za šest ur.
 - Neobračunana dejanska prodaja za preostali dve uri. Ta transakcija je lahko obračunana pozneje ali označena kot transakcija, ki se ne zaračuna, odvisno od pogajanj s stranko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

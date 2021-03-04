@@ -53,3 +53,6 @@ Za nastavitev sposobnosti za delavca lahko uporabite bodisi stran seznama **Dela
 5. V polju **Datum ravni** izberite **14. 1. 2014**.
 6. V polje **Leta izkušenj** vnesite **10**.
 7. Izberite **Shrani** in nato zaprite stran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

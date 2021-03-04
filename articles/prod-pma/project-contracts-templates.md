@@ -153,3 +153,6 @@ Spodnje slike prikazujejo primere preslikav predlog opravil v Integracijo podatk
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Preslikava mejnikov podrobnosti projektne pogodbe v predlogi Projekti in Pogodbe (PSA 3.x v rešitvi Dynamics) – v2:
 
 [![Preslikava mejnika podrobnosti projektne pogodbe z drugo različico predloge](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

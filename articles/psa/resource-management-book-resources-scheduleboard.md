@@ -53,3 +53,6 @@ Preden lahko opravite rezervacijo na plošči razporeda, morate ustvariti ali ge
 Z uporabo izbranega vira je zahteva izpolnjena. V podoknu **Zahteve za rezervacijo** se bo pojavilo obvestilo, da je bila zahteva posodobljena, vir pa bo prikazan kot rezerviran za ta projekt.
 
 ![Vir, rezerviran za projekt](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

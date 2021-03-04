@@ -43,3 +43,6 @@ V aplikaciji Dynamics 365 Project Operations lahko ustvarite kopije cenikov. Ust
 1. Na zavihkih **Vloga**, **Kategorija** in **Element cenika** cenika lahko izberete **Posodobi cene**, da uveljavite pribitek za vse cene v podmreži. 
 2. V pogovornem oknu, ki se odpre, vnesite pribitek. Vnesete lahko tudi negativni odstotek pribitka, da za določen odstotek znižate cene. 
 3. Izberite **V redu** v pogovornem oknu in nato potrdite, da cene v podmreži odražajo spremembe, ki ste jih izvedli.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

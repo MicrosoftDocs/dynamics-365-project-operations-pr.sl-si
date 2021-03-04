@@ -46,3 +46,6 @@ Za ustvarjanje količnikov za količino za lastnosti izdelkov, izvedite naslednj
 7. Ponovite korake 2–6 za vse lastnosti, ki skupaj predstavljajo količino za podrobnosti pogodbe, ki temeljijo na izdelkih.
 
 Z nastavljenimi količniki za količino, ko uporabnik ustvari podrobnosti pogodbe za ta izdelek, je količina podrobnosti pogodbe zaklenjena. Količina je nato izračunana kot izdelke vrednosti lastnosti za te podrobnosti pogodbe.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

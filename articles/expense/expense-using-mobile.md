@@ -236,3 +236,6 @@ Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:
 22. Izberite **Pošlji**.
 23. Vnesite morebitne opombe za odobritelja.
 24. Izberite **Dokončano**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

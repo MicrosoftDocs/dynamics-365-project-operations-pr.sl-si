@@ -107,3 +107,6 @@ Dodatne možnosti so bile dodane v SČD za boljšo uporabo funkcije iskanja viro
     > Ne prejmete opozorila, da je navedeni vir zdaj 2, ker število virov ostaja 1.
 
 14. Na strani **Strukturirana členitev dela** potrdite dodelitve virov na SČD in nato izberite **Shrani**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

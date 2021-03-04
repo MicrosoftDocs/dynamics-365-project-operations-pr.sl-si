@@ -51,3 +51,6 @@ Izdajanje računov [!INCLUDE[pn_project_service_auto](../includes/pn-project-ser
   
 ### <a name="see-also"></a>Glejte tudi  
  [Konfiguracija rešitve Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

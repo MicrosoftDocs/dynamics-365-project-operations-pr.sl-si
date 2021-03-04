@@ -28,3 +28,6 @@ ms.locfileid: "4960042"
 *Dnevnica* je dodatek, ki se izplača delavcu, ki dela na terenu. V razdelku »Upravljanje stroškov« lahko ustvarite pravila za dnevnice za različne potovalne situacije. Dnevnice lahko temeljijo na letnem času, kraju potovanja ali obojem. Ko ustvarite pravilo za dnevnice, lahko določite, da se izbrani odstotek od dnevnice zadrži, če delavec prejme brezplačne obroke ali storitve. Določite lahko tudi najmanjše in največje število ur, za katera lahko velja dnevnica za potovanje delavca.
 
 Izračun skupnega zneska dnevnice je izveden na podlagi začetnih in končnih datumov, ki jih lahko nastavite na strani **Dnevnice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

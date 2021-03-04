@@ -64,3 +64,6 @@ V tej temi je prikazano, kako nastavite zaračunavanje projektov med dvema podje
 32. Vnesite številko v polje **Oblikovanje cen**.
 33. Izberite **Shrani**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Prodajne naloge na podlagi projektov lahko ustvarite na dva načina:
 - Pojdite v sam projekt. V podoknu za dejanja izberite **Upravljanje > Opravila elementa > Prodajni nalog**. Privzeto bodo prikazane informacije o projektu za prodajni nalog iz projekta. Če ima projektna pogodba več kot en vir financiranja, boste morali izbrati vir financiranja, če boste želeli nastaviti stranko za prodajni nalog. Če za projekt obstaja samo en vir financiranja, bo stranka samodejno nastavljena.
 - Pojdite na stran s seznamom **Vsi prodajni nalogi** in ustvarite nov prodajni nalog. Izbrati boste morali projekt za prodajni nalog. Ko bo projekt izbran, bo stranka nastavljena iz vira financiranja, če pa ima projektna pogodba več virov financiranja, boste morali izbrati vir financiranja.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

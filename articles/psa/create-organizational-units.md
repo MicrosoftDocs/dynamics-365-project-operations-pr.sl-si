@@ -52,3 +52,6 @@ V vašem podjetju so storitve svetovanja najverjetneje organizirane glede na geo
   
 ### <a name="see-also"></a>Glejte tudi  
  [Konfiguracija storitve Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Izberite to vrsto uvajanja, če želite aplikacijo Dynamics 365 Project Operatio
 - Mehanizem za prometni davek in menjalni tečaj v podjetniškem razredu za ustvarjanje računov, usmerjenih k strankam, za projekte.
 - Sistem vodenja računov projekta in pripoznavanja prihodkov, skladen z mednarodnimi standardi finančnega poročanja (IFRS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

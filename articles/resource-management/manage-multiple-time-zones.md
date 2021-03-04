@@ -68,3 +68,6 @@ Ko je bila za vsak vir uporabljena funkcija podaljšanja rezervacije, se rezerva
 Upoštevajte, da natančnejši pregled podrobnosti rezervacij pokaže razlike v začetnih časih rezervacij. Rezervacije se začnejo šele ob začetnem času obrisa dodelitve in šele ob razpoložljivem začetnem času vira.
 
 ![Nove rezervacije virov v plošči razporeda](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

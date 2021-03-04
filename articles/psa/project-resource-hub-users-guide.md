@@ -105,3 +105,6 @@ Stroške vnašajte vsaj tedensko – ali glede na zahteve upraviteljev – in ta
  [Pregled rešitve Project Service](../psa/overview.md)   
  [Vodnik po času, stroških in sodelovanju](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

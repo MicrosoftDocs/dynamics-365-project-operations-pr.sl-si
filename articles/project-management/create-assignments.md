@@ -42,3 +42,6 @@ Uporabite lahko iskalno polje v kontrolniku **Izbirnik virov**, da poiščete vs
 1. Z mreže opravil, plošče ali časovnice se pomaknite na celico **Dodeljeno osebi**.
 2. V iskalno polje začnite vnašati ime. Rezultati iskanja za ime so prikazani v kontrolniku **Izbirnik virov** v možnosti **Drugi viri**.
 3. Izberite vir, ki ga želite dodeliti opravilu, ali izberite ime vira pod možnostjo **Drugi viri ekipe**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

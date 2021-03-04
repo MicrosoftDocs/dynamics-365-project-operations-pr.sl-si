@@ -85,3 +85,6 @@ Ko je ustvarjenih nekaj časovnih vnosov, lahko uporabniki hkrati ustvarijo več
 
 ## <a name="import"></a>Uvozi
 Isti osnovni postopek se uporablja za uvoz iz rezervacij, dodelitev in izmenjav. Določite lahko datumski obseg za uvoz rezervacij in nato izberete točno tiste rezervacije, ki jih je treba kopirati v osnutke časovnih vnosov. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -28,3 +28,6 @@ Podrobnosti, ki temeljijo na izdelkih, so lahko kataloški izdelki ali izdelki, 
 
 Ko je za metodo prihodkov v povzetku priložnosti izbrana možnost **Izračuna sistem**, so vrednosti proračuna strank v podrobnostih priložnosti povzete za izračun predvidenega prihodka. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

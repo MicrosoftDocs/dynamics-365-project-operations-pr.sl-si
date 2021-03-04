@@ -144,3 +144,6 @@ Uporabite preverjanje vtičnika za vsa preverjanja, ki zahtevajo več konteksta,
 
 ### <a name="copying-time-entries"></a>Kopiranje časovnih vnosov
 Uporabite pogled **Kopiraj stolpce časovnih vnosov**, da določite seznam polj, ki jih želite kopirati med vnosom časa. **Datum** in **Trajanje** sta obvezni polji, ki jih ne smete odstraniti iz pogleda.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

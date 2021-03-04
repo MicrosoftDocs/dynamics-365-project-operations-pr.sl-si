@@ -89,3 +89,6 @@ Za popravljanje enega ali več vnosov stroškov opravite naslednje korake.
 8. Na strani projekta, na zavihku **Opravljeno delo** preglejte **Povezani pogled za opravljeno delo**. Izvirni vnosi in popravljeni vnosi so navedeni. Naslednji grafični prikaz prikazuje izvirne zneske za vnos stroška in ustrezne popravljene zneske za vnos stroška. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

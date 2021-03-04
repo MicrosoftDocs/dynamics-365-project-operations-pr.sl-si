@@ -41,3 +41,6 @@ Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Proj
 | **Upravljanje priložnosti** | 2040713 | Popravljena napaka skripta, do katere pride, ko je račun ustvarjen iz pogodbe in je nameščena storitev Field Service. |
 | **Načrtovanje in sledenje projektov** | 2090202 | Označena pravila poslovanja, ki se ne uporabljajo, kot **Zastarelo**. |
 | **Čas in strošek** | 2091249 | Strožji nadzori, tako da uporabniki ne morejo spremeniti opravila na predloženem ali odobrenem časovnem vnosu. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

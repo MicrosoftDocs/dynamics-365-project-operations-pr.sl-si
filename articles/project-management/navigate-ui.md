@@ -102,3 +102,6 @@ Sledi kratek pregled tipičnih kontrolnikov, ki jih najdemo na različnih zavihk
 **Dodaj stolpec**: uporabniku omogoča, da določi vidne stolpce v mreži. V mreže na obrazcu **Načrtovanje projekta** lahko dodate samo vnaprej pripravljene stolpce.
 
 ![Gumb »Dodaj stolpec«](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

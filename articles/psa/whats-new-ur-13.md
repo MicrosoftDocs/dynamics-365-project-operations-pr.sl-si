@@ -59,3 +59,6 @@ V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za Proje
      - Popravljeno: dodatni gumbi za možnosti **Nova priložnost**, **Ponudba**, **Vrstica naročila** in **Dodajanje izdelka** so vidni v ukazih za »Priložnosti«, »Ponudbe«, »Izdelki iz naročila« in podmrežo »Vrstice«, ki temelji na projektu.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

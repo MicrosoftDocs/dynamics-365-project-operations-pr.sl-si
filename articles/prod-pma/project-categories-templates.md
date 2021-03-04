@@ -124,3 +124,6 @@ Naslednja ilustracija prikazuje primer preslikave predloge opravila v integracij
 > Preslikava prikazuje informacije o polju, ki bodo sinhronizirane iz rešitve Project Service Automation v Finance.
 
 [![Preslikava predloge Project Service Automation v Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

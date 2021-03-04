@@ -57,3 +57,6 @@ Načrtovanje dopusta ali dovoljene odsotnosti je podobno vnašanju urnika za pro
   
 ### <a name="see-also"></a>Glejte tudi  
  [Vodnik po času, stroških in sodelovanju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

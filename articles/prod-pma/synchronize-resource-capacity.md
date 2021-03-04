@@ -49,3 +49,6 @@ Priporočamo uporabo paketa. Možnosti so na voljo med sinhronizacijo rezervacij
     | Končni datum    | Vnesite končni datum za proces sinhronizacije za zbiranja zmogljivosti vira. |
 
 [![Proces sinhronizacije](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

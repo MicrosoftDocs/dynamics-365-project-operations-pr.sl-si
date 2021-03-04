@@ -93,3 +93,6 @@ Pogodbe v aplikaciji Project Operations temeljijo na pogodbah iz aplikacije Dyna
 - Ponudbe iz aplikacije Project Operations imajo lastne obrazce in elemente uporabniškega vmesnika, pravila poslovanja, poslovno logiko v vtičnikih in skripte na strani odjemalca, s katerimi se razlikujejo od ponudb iz aplikacije Sales.
 
 Iz teh razlogov pogodb iz aplikacij Sales in Project ne smete uporabljati zamenljivo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

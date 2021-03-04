@@ -90,3 +90,6 @@ Povezavo projektnih opravil s podrobnostmi ponudbe lahko tudi prekinete z zavihk
 
 >[!NOTE]
 > Ta postopek ne izbriše opravila iz projekta. Zgolj odstrani povezavo opravila od podrobnosti ponudbe, ki temelji na projektu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

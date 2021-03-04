@@ -67,3 +67,6 @@ Ko ste pripravljeni na spremembo začasne rezervacije člana ekipe v veljavno re
 2. Z desno tipko miške kliknite rezervacijo in pod možnostjo **Sprememba stanja** izberite **Veljavna rezervacija** \> **Veljavna**. Stanje rezervacije je zdaj **Veljavna**.
 3. Ko zaprete ploščo razporeda, se vrnete na projekt ter odprete zavihek **Ekipa**, vidite, da so ure za vir v pogledu **Poimenovani člani ekipe** na zavihku **Ekipa** premaknjene iz stolpca **Začasno rezervirane ure** v stolpec **Veljavno rezervirane ure**. Če je bil vir dodeljen opravilu, na zavihku **Uskladitev** primanjkljaj rezervacij ni več prikazan, saj je rezervacija zdaj veljavna.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ To traja nekaj minut. Prejeti bi morali potrditveno sporočilo, da je bil skrbni
 18. Zaprite sejo oddaljenega namizja in uporabite stran **Podrobnosti o okolju** LCS, da se prijavite v okolje in potrdite, da deluje po pričakovanjih.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

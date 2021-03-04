@@ -68,3 +68,6 @@ Za rezervacijo zmogljivosti vira za projekt lahko uporabite funkcijo razširjanj
 ![Razširjanje rezervacij za člana ekipe na zavihku za uskladitev virov](media/RM-how-to-7.png)
 
 Ko je član ekipe rezerviran za vaš projekt, lahko uporabite možnost »Upravljanje rezervacij« ali ploščo razporeda ter neposredno urejate njegove rezervacije.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

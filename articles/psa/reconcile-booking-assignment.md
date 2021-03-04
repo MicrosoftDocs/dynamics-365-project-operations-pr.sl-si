@@ -101,3 +101,6 @@ Ko je funkcionalnost podaljšanja rezervacije izvedena za vsak vir, so rezervaci
 
 Podrobnejši pogled rezervacij pa prikazuje razlike v začetnem času rezervacij. Rezervacije se začnejo z začetnim časom obrisa dodelitve in razpoložljivim začetnim časom vira.
  ![Nove rezervacije virov v plošči razporeda](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -132,3 +132,6 @@ Uporabite preverjanje vtičnika za vsa preverjanja, ki zahtevajo več konteksta,
 
 > [!IMPORTANT] 
 > Trenutno je na straneh TBX znana težava, ki uporabnikom preprečuje popravljanje informacij in ponovno izbiranje možnosti »Opravljeno«, ko posodobitev ne izvede preverjanja vtičnika. Kot rešitev lahko nastavite preverjanja pravil poslovanja, da to preprečite v čim večji meri.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

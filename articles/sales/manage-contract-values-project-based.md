@@ -57,3 +57,6 @@ Pravilo: projekt in določen razred transakcije je lahko vključen samo v enem s
 | C1       | CL2           | O1      | No           | Da             | No          | Veljavno           | Čas in dajatve za projekt P1 so vključeni v CL1. Stroški za projekt P1 so vključeni v CL2. </br>   Ni prekrivanja v tem, kar je vključeno v vsak sklop podrobnosti pogodbe, zato je veljavno.  |
 | C1       | CL1           | O1      | Da          | Da             | Da         | Neveljavno       | Krši pravilo. Čas, strošek in dajatve za projekt P1 so vključene v podrobnostih dveh pogodb.                                                                                               |
 | CL2      | CL2           | O1      | Da          | Da             | Da         | Neveljavno       | Krši pravilo. Čas, strošek in dajatve za projekt P1 so vključene v podrobnostih dveh pogodb.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

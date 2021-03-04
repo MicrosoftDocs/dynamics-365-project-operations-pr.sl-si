@@ -96,3 +96,6 @@ Za natančno strukturirano členitev dela, ki že ima naložene vire, so potrebn
 
 - Vse odvisnosti projektnih opravil morajo biti povezane z istim projektom.
 - Opravilo ne more imeti več kot enega sklica na odvisnost.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

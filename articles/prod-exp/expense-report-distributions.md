@@ -37,3 +37,6 @@ Ker je Nancy v Frankfurtu delala na dveh ločenih projektih, bo pri pisanju poro
 |Hotel         |725 EUR              |557 EUR                        |168 EUR                          |
 |Obroki         |346 EUR              |284 EUR                        |62 EUR                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

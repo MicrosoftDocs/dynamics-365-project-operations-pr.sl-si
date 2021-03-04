@@ -297,3 +297,6 @@ Izberite uporabnika (na primer »Spencer Low«) in spremenite Spencerjev delovni
 
 > [!div class="mx-imgBorder"]
 > ![Posnetek zaslona aktivnih virov, ki jih je mogoče rezervirati](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

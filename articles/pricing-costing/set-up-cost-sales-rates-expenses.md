@@ -55,3 +55,6 @@ Ko je izbran ta način oblikovanja cen v vrstici s cenami kategorij, ki je povez
 
 ### <a name="markup-over-cost"></a>Pribitek na ceno
 Ko je izbran ta način oblikovanja cen v vrstici s cenami kategorij, ki je povezana s prodajnim cenikom, se kombinacijo kategorij in enot cena privzeto nastavi v dejanski vrednosti. Na primer, dejanska vrednost neobračunane prodaje za razred transakcije za stroške. Po uveljavitvi določenega odstotka pribitka se ta cena enote za dejansko vrednost neobračunane prodaje določi na izračunano vrednost iz cene enote na dejanskih stroških za ta strošek. Nastavljanje privzete cene na podlagi stroškov se ne izvaja pri ocenah projektov za stroške ali vrsticah ponudbe in podrobnostih pogodbe za stroške.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

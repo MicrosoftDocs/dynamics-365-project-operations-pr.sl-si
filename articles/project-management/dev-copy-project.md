@@ -112,3 +112,6 @@ V spodnjem primeru je prikazano, kako pokličete dejanje po meri **CopyProject**
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Naslednje funkcije so prisotne na obstoječi strani, na novi pa še ne. Te funkc
 - Potek dela na ravni vrstice
 - Začasna podpora odobritelja
 - Napredno razčlenjevanje
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

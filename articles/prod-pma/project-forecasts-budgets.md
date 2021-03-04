@@ -81,3 +81,6 @@ Modeli napovedi imajo enoslojno hierarhijo. To pomeni, da mora biti ena projektn
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

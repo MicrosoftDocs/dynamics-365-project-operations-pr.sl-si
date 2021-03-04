@@ -65,3 +65,6 @@ Prodajni postopek za priložnost v aplikaciji Project Operations je razširitev 
 > Če se je vaš projektni posel začel s priložnostjo, ima prednost poslovni proces prodaje za priložnost.
 
 Potek poslovnega procesa za izdelek lahko uredite ali ustvarite lastne poteke poslovnega procesa, da po potrebi spremljate svoj prodajni proces. Za več informacij o poteku poslovnega procesa glejte [Pregled potekov poslovnega procesa](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Razporedi izdajanja računov so določeni za vsako podrobnost pogodbe in so potr
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Spremembe v naročilu iz aplikacije Dynamics 365 Sales Orders
 
 Pogodbe v aplikaciji Project Operations temeljijo na naročilih iz aplikacije Dynamics 365 Sales. Vendar pa med njima obstajajo pomembne razlike v funkcionalnosti. Pogodbe imajo lastne obrazce in elemente uporabniškega vmesnika, pravila poslovanja, poslovno logiko v vtičnikih in skripte na strani odjemalca, s katerimi se razlikujejo od naročil. Iz teh razlogov naročil iz aplikacije Sales in pogodb iz aplikacije Project Operations ne smete uporabljati zamenljivo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ O tej razliki je treba seznaniti zapis cenovne razsežnosti za **msydn_bookabler
 5. Dodajte **msdyn_bookableresourceid** v polje **Ime polja**.
 
  ![Oblika novega imena polja cenovne razsežnosti](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

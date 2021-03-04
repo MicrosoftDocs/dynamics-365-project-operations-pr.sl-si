@@ -30,3 +30,6 @@ Ko se za izdelek v katalogu ustvarijo podrobnosti pogodbe, ki temeljijo na izdel
 Določitev cene na enoto v podrobnostih pogodbe na podlagi izdelka omogoča različno ceno za izdelek za posamezno prodajo enote. Čeprav to ni vedno potrebno, obstajajo določeni scenariji, ko dobavitelj stranki lahko zniža stroške izdelka. Oglejte si ta primer:
 
 Družba Fabrikam Robotics namešča robotske roke na montažne trakove korporacije Adatum. Fabrikam ponuja storitve namestitve, toda robotske roke izdeluje podjetje Trey Research. Če namestitev robotskih rok za družbo Adatum Corporation odpre novo navpičnico panoge za družbo Trey Research, bi lahko družbi Fabrikam za ta posel priznala poseben popust. V tem primeru Fabrikam za Robotics Arms ustvari podrobnosti pogodbe, ki temeljijo na izdelku. Za to pogodbo se vnese cena na enoto. Cena se razlikuje od cene robotskih rok podjetja Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

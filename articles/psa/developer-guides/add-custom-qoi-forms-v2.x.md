@@ -96,3 +96,6 @@ Upoštevajte ta navodila in ustvarite različico obrazca **Podatki o projektu** 
     ```
 
 6. Shranite prilagoditve in jih nato objavite.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

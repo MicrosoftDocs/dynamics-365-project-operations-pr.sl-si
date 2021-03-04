@@ -257,3 +257,6 @@ Naslednji grafični prikaz je prikaz po ustvarjanju cenikov po meri.
 
 > [!NOTE]
 > Lahko pride do krajšega zamika med klikom možnosti **Ustvari cenik po meri** in ustvarjanjem cenika po meri. Priporočamo, da namesto večkratnih klikov osvežite mrežo. Cenik po meri je ustvarjen, če ima ime povezanega cenika priloženo ime ponudbe ali projektne pogodbe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

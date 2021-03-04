@@ -75,3 +75,6 @@ Ko so prejšnja opravila dokončana, lahko izvedete naslednja opravila, kot je p
 - Izpolnite zahteve za vire.
 - Zahtevajte zaposleni vir iz SČD.
 - Rezervirajte vire za projekt, ne da bi morali zahtevati zaposleni vir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

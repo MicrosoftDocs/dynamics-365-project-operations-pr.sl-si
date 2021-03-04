@@ -68,3 +68,6 @@ V svojo rešitev za določanje cen boste morali dodati spodnje entitete rešitve
 > ![Ne vključi vseh povezanih komponent](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Na enak način lahko tudi prekličete potrjeno ali začasno rezervacijo na ploš
 Če želite pretvoriti vir z začasno rezervacijo na potrjeno rezervacijo v zavihku **Ekipa**, izberite vir in nato še možnost **Potrdi**.
 
 ![Potrdi ukaz](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

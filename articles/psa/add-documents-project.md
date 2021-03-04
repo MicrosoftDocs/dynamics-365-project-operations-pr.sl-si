@@ -45,3 +45,6 @@ Dokumente, povezane s projektom, lahko uredite tako, da jih dodate svojemu proje
   
 ### <a name="see-also"></a>Glejte tudi  
  [Priročnik za vodje projektov](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

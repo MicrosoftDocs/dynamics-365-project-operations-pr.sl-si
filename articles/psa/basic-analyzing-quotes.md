@@ -60,3 +60,6 @@ Ponudbe lahko analizirate in ustvarite grafikone pričakovanj strank v zvezi z r
 Analiza pričakovanj strank glede razporeda se izvede s primerjavo najnovejšega končnega datuma podrobnosti vrstice ponudbe z zahtevanim datumom dostave v vseh vrsticah ponudbe v ponudbi.
 
 Analiza pričakovanj strank v zvezi s proračunom se izvede s primerjavo vsote celotnega proračuna kupca z zneskom za ponudbo v vseh vrsticah ponudbe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

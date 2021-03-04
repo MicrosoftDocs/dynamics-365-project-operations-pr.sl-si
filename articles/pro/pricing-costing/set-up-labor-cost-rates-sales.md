@@ -82,3 +82,6 @@ V ceniku z lastnimi cenami podjetja Fabrikam Združeno kraljestvo – robotika s
 | Razvijalec | Fabrikam Združeno kraljestvo | 115 GBP |
 
 Cenik z lastnimi cenami lahko navaja stopnje dela v več valutah. Pri izdelavi ocene stroškov za projekt aplikacija Project Operations pretvori te mere stroškov v valuto projekta in jo prikaže uporabniku. Ko je časovni vnos odobren in se ustvari dejanski strošek, se dejanski stroški izračunajo v valuti te ujemajoče se vrstice s cenami vloge na ceniku z lastnimi cenami. Dejanske stroške za čas je za posamezen projekt mogoče zabeležiti v več valutah. Vendar pa bo aplikacija Project Operations pri zbiranju ali seštevanju dejanskih stroškov dela na ravni projekta pretvorila vse zneske stroškov dela v valuto projekta, ki si jo lahko uporabnik ogleda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Odpravljene so naslednje težave:
 - Ko sta aplikaciji Dynamics 365 Field Service in Project Service Automation nameščeni, na strani **Račun** možnosti **Zakleni cene** in **Uporabi trenutne cene** nista prikazani hkrati.
 - Za japonščino obstaja neskladen prevod z drugimi stranmi, ki temeljijo na koledarju.
 - Dejanji **Aktiviranje** in **Deaktiviranje** sta bili odstranjeni iz entitet **Povezava cenika** v aplikaciji Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

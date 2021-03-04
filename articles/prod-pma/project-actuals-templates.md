@@ -140,3 +140,6 @@ Spodnje slike prikazujejo primere preslikav predlog opravil v Integracijo podatk
 [![Preslikava predloge – posodobitev dejanskih vrednosti](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Preslikava predloge – posodobitev transakcij](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

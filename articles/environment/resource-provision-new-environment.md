@@ -209,3 +209,6 @@ Za izvajanje zemljevida s predhodnimi zahtevami omogočite preklopno stikalo **P
 
 
 Vaše okolje Project Operations je zdaj omogočeno in konfigurirano. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

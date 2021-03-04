@@ -128,3 +128,6 @@ Za vrstico ponudbe fiksne cene lahko uporabite mrežo **Razpored izdajanja raču
 - Da ustvarite mejnike obračunavanja, ki so enako razdeljeni, izberite pogostost izvajanja računov, vnesite začetni datum obračunavanja v vrstico ponudbe in izberite **Zahtevani datum zaključka** za ponudbo v razdelku glave ponudbe **Povzetek**. Nato izberite **Ustvari periodične mejnike**, da ustvarite enakomerno razdeljene mejnike na podlagi izbrane pogostosti izdajanja računov. 
 - Če želite ustvariti mejnik obračunavanja za enkratno izplačilo, ustvarite mejnik in nato vnesite vrednost vrstice ponudbe kot znesek mejnika.
 - Če želite ustvariti mejnike obračunavanja, ki temeljijo na določenih opravilih v načrtu projekta, ustvarite mejnik in ga preslikajte v element projektnega razporeda v uporabniškem vmesniku mejnika obračunavanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

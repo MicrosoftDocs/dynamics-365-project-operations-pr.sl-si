@@ -73,3 +73,6 @@ Zmogljivosti [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-a
  [Vodnik za upravitelja kupcev](../psa/account-manager-guide.md)   
  [Priročnik za vodje projektov](../psa/project-manager-guide.md)   
  [Vodnik po času, stroških in sodelovanju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

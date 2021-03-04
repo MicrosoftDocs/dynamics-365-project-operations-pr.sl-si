@@ -60,3 +60,6 @@ V storitvi Dynamics 365 Project Operations se načela priznavanja prihodkov razl
 [Upravljanje ocen prihodkov](rev-rec-completed-contract-method.md)
 
 [Metode za izračun stroškov za dokončanje](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

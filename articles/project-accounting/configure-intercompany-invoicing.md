@@ -101,3 +101,6 @@ V naslednjem primeru je Contoso Robotics USA (USPM) izposojevalna pravna oseba, 
           - **Podjetje, ki zagotavlja vire** = **Contoso Robotics UK**
           - **Delež obračunavanja** = **200 USD**
       9. Odprite razdelek **Prodaja** > **Projektne pogodbe** in pritrdite cenik **Obračunske stopnje za Adventure Works** v cenik projektne pogodbe z Adventure Works.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

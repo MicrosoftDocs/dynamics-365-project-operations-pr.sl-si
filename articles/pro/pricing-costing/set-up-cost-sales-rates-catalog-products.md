@@ -26,3 +26,6 @@ Nastavitev cen za elemente kataloga izdelkov v storitvi Dynamics 365 Project Ope
 V storitvi Project Operations izdelkov ni mogoče oceniti ali uporabiti na projektih, zato ni nujno, da so nastavljene cene kataloga izdelkov na projektnih cenikih za ponudbe in pogodbe.
 
 Uporabite polja **Cena izdelka** za ponudbo, pogodbo ali kupca, da nastavite cene kataloga izdelkov. Ne nastavljajte cen kataloga izdelkov v projektnih cenikih. Ceniki za projekte so uporabljeni izključno v aplikaciji Project Operations. Poslovna logika, specifična za aplikacije, kopira cenike iz ponudbe v pogodbo. Rezultat tega je poseben cenik za pogodbo. Kopiranje lahko odloži postopek pridobivanja ponudbe, če cenik za projekte v ponudbi postane prevelik. Ceniki za izdelke se ne kopirajo, da bi v pogodbah ustvarili cenike po meri. Ker ni vključenega kopiranja, ni vplivov na delovanje postopka ponudbe.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
