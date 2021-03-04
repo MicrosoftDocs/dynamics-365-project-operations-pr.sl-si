@@ -2,6 +2,7 @@
 title: Nadgradnja domače strani
 description: Ta tema vsebuje informacije o tem, kje najdete pomembne informacije o novih in spremenjenih funkcijah aplikacije Dynamics 365 Project Service Automation, in o postopku za nadgradnjo na najnovejšo različico.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121778"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150103"
 ---
 # <a name="upgrade-home-page"></a>Nadgradnja domače strani
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ Od 17. maja 2019, ko je bila rešitev Project Service Automation izbrana med pri
 
 ### <a name="existing-instances"></a>Obstoječi primerki
 
-V prejšnjih različicah so se morale stranke, ki imajo primerek PSA različice 2.x in ga morajo nadgraditi na različico 3.x, tj. različica PSA na podlagi poenotenega vmesnika odjemalca (UCI), obrniti na Microsoftovo podporo in podati podrobnosti o njihovem primerku, da lahko podpora omogoči primerek za nadgradnjo na različico 3.x. Od 1. marca 2020 bodo stranke, ki imajo primerek PSA različice 2.x in ga morajo nadgraditi na različico 3.x, lahko svoje primerke nadgradile neposredno s skrbniškega portala, ne da bi se morale obrniti na Microsoftovo podporo.  
+V preteklosti so se morale stranke, ki imajo primerek PSA različice 2.x in so ga morale nadgraditi na različico 3.x, tj. različica PSA na podlagi poenotenega vmesnika odjemalca (UCI), obrniti na Microsoftovo podporo in podati podrobnosti o svojem primerku, da je lahko podpora omogočila primerek za nadgradnjo na različico 3.x. Od 1. marca 2020 bodo lahko stranke, ki imajo primerek PSA različice 2.x in ga morajo nadgraditi na različico 3.x, lahko nadgradite svoje primerke neposredno iz skrbniškega portala, ne da bi imele stik z Microsoftovo podporo.  
 
 > [!NOTE]
 > PSA različice 3.x vključuje pomembne spremembe. Zgrajen je bil na osnovi ogrodja poenotenega vmesnika, da bi pomagal zagotoviti izboljšano uporabniško izkušnjo. Na novo zasnovana aplikacija zagotavlja skladen in enoten uporabniški vmesnik (UI), ki sledi odzivnim načelom oblikovanja za optimalen prikaz na zaslonu poljubne velikosti ali kateri koli napravi. V aplikaciji se je izvedlo še veliko drugih sprememb. Spremenila so se nekatera področja, na primer za oblikovanje cen, opravljanje rezervacij ter dodeljevanje virov, časa, stroškov in odobritev.
@@ -58,7 +61,7 @@ Ko boste pregledali zgoraj omenjene teme in boste pripravljeni na nadgradnjo na 
 
 Od 17. maja 2019 bodo imeli vsi novi primerki privzetega odjemalca v obliki UCI. Za prilagoditev na to spremembo bosta privzeto omogočeni PSA različice 3.x in Field Service različice 8.x, saj sta ti različici zasnovani za delo z odjemalcem UCI.
 
-Od 1. marca 2020 stranke, ki uporabljajo Dynamics PSA, ne bodo več mogle ustvarjati novih okolij s starejšimi različicami PSA, na primer PSA različice 2.x ali starejšimi. Vsako novo okolje bo razpoložljivo samo v različici PSA 3.x.
+Od 1. marca 2020 stranke storitve Dynamics PSA ne bodo več mogle ustvarjati novega okolja s starejšimi različicami storitve PSA, na primer storitvijo PSA, različica 2.x ali manjša. Vsako novo okolje bo razpoložljivo samo v različici PSA 3.x.
 
 > [!NOTE]
 > Za najboljšo izkušnjo pri uporabi starejših različic storitev Field Service in PSA, pojdite na stran **Sistemske nastavitve** in v polju **Uporabi samo nov poenoteni vmesnik (priporočeno)** izberite **Ne**, saj te različice niso zasnovane tako, da bi jih lahko pravilno naložili v UCI. Po izklopu UCI lahko odprete in zaženete te različice rešitev Field Service in PSA prek starega spletnega odjemalca. 

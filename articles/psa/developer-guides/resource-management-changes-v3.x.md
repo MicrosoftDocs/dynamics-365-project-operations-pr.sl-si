@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084947"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148663"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Spremembe upravljanja virov (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Posamezni razdelki te teme vsebujejo informacije o spremembah Območja za upravljanje virov aplikacije Dynamics 365 Project Service Automation, različica 3.x.
 
 ## <a name="project-estimates"></a>Projektne ocene
 
-Namesto da bi bile projektne ocene narejene na podlagi entitete **msdyn\_projecttask** ( **Projektno opravilo** ), so narejene na podlagi entitete **msdyn\_resourceassignment** ( **Dodelitev vira** ). Dodelitve virov so postale »vir resničnosti« za razporejanje opravil in določanje cen.
+Namesto da bi bile projektne ocene narejene na podlagi entitete **msdyn\_projecttask** (**Projektno opravilo**), so narejene na podlagi entitete **msdyn\_resourceassignment** (**Dodelitev vira**). Dodelitve virov so postale »vir resničnosti« za razporejanje opravil in določanje cen.
 
 ## <a name="line-tasks"></a>Opravila vrstic
 
@@ -65,7 +67,7 @@ V različici PSA 3.x je nedodeljena dodelitev tista, ki je dodeljena članu ekip
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Polja za načrtovanje v entiteti »Projektno opravilo«
 
-Polja v entiteti **msdyn\_projecttask** so zastarela ali premaknjena v entiteto **msdyn\_resourceassignment** oziroma se nanje sklicuje entiteta **msdyn\_projectteam** ( **Član projektne ekipe** ).
+Polja v entiteti **msdyn\_projecttask** so zastarela ali premaknjena v entiteto **msdyn\_resourceassignment** oziroma se nanje sklicuje entiteta **msdyn\_projectteam** (**Član projektne ekipe**).
 
 | Zastarelo polje v msdyn\_projecttask (projektno opravilo) | Novo polje v msdyn\_resourcedodelitve (dodelitev vira) | Pripomba |
 |---|---|---|
@@ -77,7 +79,7 @@ Polja v entiteti **msdyn\_projecttask** so zastarela ali premaknjena v entiteto 
 
 ## <a name="schedule-contour"></a>Krivulja razporeda
 
-Krivulja razporeda je shranjena v polju **Načrtovano delo** ( **msdyn\_plannedwork** ) za vsako entiteto **Dodelitev vira** posebej ( **msdyn\_resourceassignment** ).
+Krivulja razporeda je shranjena v polju **Načrtovano delo** (**msdyn\_plannedwork**) za vsako entiteto **Dodelitev vira** posebej (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Struktura
 
@@ -139,7 +141,7 @@ V tem primeru je opravilo dodeljeno dvema viroma in samodejno razporejeno za 36 
 
 ## <a name="pricing-dimensions"></a>Cenovne razsežnosti
 
-V PSA 3.x so bila polja cenovnih razsežnosti za posamezne vire (kot sta **Vloga** in **Organizacijska enota** ) odstranjena iz entitete **msdyn\_projecttask**. Ta polja je zdaj mogoče pridobiti od posameznega člana projektne skupine ( **msdyn\_projectteam** ) dodelitve vira ( **msdyn\_resourceassignment** ), ko so ustvarjene ocene projekta. Novo polje **msdyn\_organizationalunit** je bilo dodano entiteti **msdyn\_projectteam**.
+V PSA 3.x so bila polja cenovnih razsežnosti za posamezne vire (kot sta **Vloga** in **Organizacijska enota**) odstranjena iz entitete **msdyn\_projecttask**. Ta polja je zdaj mogoče pridobiti od posameznega člana projektne skupine (**msdyn\_projectteam**) dodelitve vira (**msdyn\_resourceassignment**), ko so ustvarjene ocene projekta. Novo polje **msdyn\_organizationalunit** je bilo dodano entiteti **msdyn\_projectteam**.
 
 | Zastarelo polje v msdyn\_projecttask (projektno opravilo) | Polje iz msdyn\_projectteam (Član projektne skupine), ki se uporablja v zameno |
 |---|---|
