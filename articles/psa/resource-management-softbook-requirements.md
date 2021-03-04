@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124118"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147404"
 ---
 # <a name="soft-book-requirements"></a>Zahtevani pogoji za začasne rezervacije
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Rezervacije zahtevanih pogojev za vir je mogoče potrditi. S potrjeno rezervacijo ustvarite predlog, ki porabi del zmogljivosti vira. Predlog se nato pošlje nazaj prosilcu za odobritev. Začasna rezervacija pogojno doda vir v projektno ekipo in ima drugačno stanje na plošči razporeda, vendar ne porabi zmogljivosti vira. Če želite vir s plošče razporeda začasno rezervirati, nastavite polje **Stanje rezervacije** na **Začasno**.
 

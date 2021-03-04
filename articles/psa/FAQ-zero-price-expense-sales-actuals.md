@@ -3,6 +3,7 @@ title: Zakaj se cena pri dejanski vrednosti »strošek – prodaja« privzeto na
 description: 'Naslednja tri preverjanja vam bodo v pomoč pri odpravljanju naslednje težave: cena pri dejanski vrednosti »strošek – prodaja« se privzeto nastavi na 0.'
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122093"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146323"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Zakaj se cena pri dejanski vrednosti »strošek – prodaja« privzeto nastavi na nič?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +38,7 @@ To pogosto vprašanje se nanaša na dejansko vrednost stroška, kjer je razred t
 
 V polju projekta z dejansko vrednostjo poiščite projekt in pojdite na stran projekta. Nato odprite zavihek »Prodaja«. V mreži z vrsticami projektne pogodbe kliknite povezavo v polju »Projektna pogodba«. Odprla se bo stran projektne pogodbe. Na strani projektne pogodbe odprite zavihek »Projektni ceniki«. Preverite, ali je priložen vsaj en cenik.
 
-Če v mreži projektnih cenikov projektne pogodbe ni priložen noben cenik, naredite naslednje:
+Če v mreži projektnih cenikov projektne pogodbe ni priložen noben cenik:
 
 - Cenik pripnite v mrežo projektnih cenikov. Ceniki, ki jih je tukaj dovoljeno priložiti, morajo imeti kontekstno polje nastavljeno na »Prodaja«, polje »Valuta« na ceniku pa se mora ujemati s poljem »Valuta« v projektni pogodbi. Ko izvedete potrebne popravke, znova ustvarite vnos stroška, ga odobrite in preverite, ali dejanska vrednost neobračunane prodaje prikazuje veljavno ceno.
 - Če je v mreži projektnih cenikov projektne pogodbe priložen en cenik ali več, pojdite na 2. preverjanje.
@@ -47,7 +50,7 @@ Da bi storitev Project Service upoštevala cenik za nastavljanje privzete cene, 
 - Najprej se prepričajte, da sta začetni in končni datum na zavihku »Splošno« za priložene cenike izpolnjena. Če začetni in končni datum na cenikih, opredeljenih zgoraj, nista izpolnjena, ste osamili težavo. 
 - Zabeležite si polje z začetnim datumom za dejansko vrednost »strošek – prodaja« in preverite, ali je kateri od opredeljenih cenikov veljaven za ta datum. Datum dejanske vrednosti stroška bi moral biti na primer med začetnim datumom in končnim datumom na ceniku. 
     - Če ni cenika, ki bi zajemal ta datum za dejansko vrednost »strošek – prodaja«, ste osamili težavo. Spremenite začetni in končni datum na ceniku in s tem zagotovite, da bo cenik zajemal datum za dejansko vrednost stroška. 
-    - Če obstaja več kot en cenik, ki zajema datum za dejansko vrednost »strošek – prodaja«, ste osamili težavo. To lahko popravite tako, da uredite začetni in končni datum na cenikih, da bo obstajal samo en cenik, ki bo zajemal datum dejanske vrednosti stroška. 
+    - Če obstaja več kot en cenik, ki zajema datum za dejansko vrednost »strošek – prodaja«, ste osamili težavo. Uredite začetni in končni datum na cenikih, da bo obstajal samo en cenik, ki bo zajemal datum dejanske vrednosti stroška. 
     - Če obstaja samo en cenik, ki zajema ta datum dejanske vrednosti stroška, se premaknite na 3. preverjanje.
 Ko izvedete potrebne popravke, znova ustvarite vnos stroška, ga odobrite in preverite, ali dejanska vrednost neobračunane prodaje prikazuje veljavno ceno.
 
@@ -55,7 +58,7 @@ Ko izvedete potrebne popravke, znova ustvarite vnos stroška, ga odobrite in pre
 
 Če ste uspešno zaključili 1. in 2. preverjanje, bi morali zdaj imeti samo en projektni cenik, ki velja za datum dejanske vrednosti »strošek – prodaja«. Odprite ta projektni cenik in pojdite na zavihek »Cene kategorij«. Prepričajte se, da je v mreži vrstica za posebno kategorijo stroška pri dejanski vrednosti stroška.
  
-- Če ni nobene vrstice, ste osamili težavo. Ustvarite vrstico v mreži »Cena kategorije« za kategorijo pri dejanski vrednosti stroška. Ko to naredite, znova ustvarite vnos stroška, ga odobrite in preverite, ali dejanska vrednost neobračunane prodaje prikazuje veljavno ceno. 
+- Če ni nobene vrstice, ste osamili težavo. Ustvarite vrstico v mreži »Cena kategorije« za kategorijo pri dejanski vrednosti stroška. Nato znova ustvarite vnos stroška, ga odobrite in preverite, ali dejanska vrednost neobračunane prodaje prikazuje veljavno ceno. 
 - Če je v mreži s cenami kategorij prikazana vrstica za kategorijo stroška, preverite, ali ima veljavno ceno.
 
 Da bi razumeli, kaj je veljavna cena, uporabite te načine:
@@ -66,6 +69,6 @@ Da bi razumeli, kaj je veljavna cena, uporabite te načine:
 
 Če nastavljena cena za kategorijo stroška ni veljavna, ste osamili težavo. Rešitev je, da uredite vrstico s cenami kategorij z veljavno ceno za kategorijo stroška v skladu z zgornjimi pravili. Ko to naredite, znova ustvarite vnos stroška, ga odobrite in nato preverite, ali ima dejanska vrednost neobračunane prodaje veljavno ceno.
 
-Če po treh opravljenih preverjanjih, opisanih zgoraj, še vedno ne vidite veljavne cene pri dejanski vrednosti »strošek – prodaja«, vložite zahtevo za podporo.
+Če po treh opravljenih preverjanjih, opisanih zgoraj, še vedno ne vidite veljavne cene pri dejanski vrednosti »strošek – prodaja«, izpolnite vstopnico za podporo.
 
 
