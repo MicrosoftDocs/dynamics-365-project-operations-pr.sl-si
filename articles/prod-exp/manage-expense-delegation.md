@@ -1,6 +1,6 @@
 ---
 title: Upravljanje pooblastitev stroškov
-description: Uporabnik v vlogi pooblaščenca za stroške lahko v imenu drugega zaposlenega v organizaciji ustvarja in upravlja poročila o stroških.
+description: Pooblaščeni uporabnik stroškov lahko ustvari in upravlja poročila o stroških za drugega zaposlenega v organizaciji.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084908"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960807"
 ---
 # <a name="manage-expense-delegation"></a>Upravljanje pooblastitev stroškov
 
-[!include [banner](../includes/banner.md)]
+Pooblaščenec za stroške lahko ustvari in upravlja poročila o stroških drugega zaposlenega.
 
-Uporabnik v vlogi pooblaščenca za stroške lahko v imenu drugega zaposlenega v organizaciji ustvarja in upravlja poročila o stroških.
+## <a name="configure-expense-delegation"></a>Konfiguracija pooblastitve stroškov
 
-## <a name="configuring-expense-delegation"></a>Konfiguracija pooblastitve za stroške
+1. Če želite uporabnika nastaviti kot pooblaščenca za stroške, pojdite na **Upravljanje stroškov > Nastavitev> Splošno > Pooblaščenci**.
+2. Na strani **Pooblaščenci** izberite **Novo**.
+3. Izberite zaposlenega, za katerega bo določen pooblaščenec. 
+4. Vnesite vzdevek uporabnika pooblaščenca ter začetni in končni datum za obdobje pooblastitve.
 
-Če želite uporabnika nastaviti kot pooblaščenca za stroške, odprite **Upravljanje stroškov > Nastavitev > Splošno > Delegati** , da odprete stran **Delegati**. Izberite **Novo** in nato izberite zaposlenega, za katerega bo določen pooblaščenec. Vnesite vzdevek uporabnika pooblaščenca ter začetni in končni datum za obdobje pooblastitve.
+## <a name="manage-expense-delegation-for-another-employee"></a>Upravljanje pooblastitve stroškov za drugega zaposlenega
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Upravljanje pooblastitve stroškov v imenu drugega zaposlenega
+Ko je omogočen ključ za upravljanje funkcije **Omogoči stran s seznamom pooblaščencev za stroške**, je na voljo stran s seznamom **Stroški, za katere imam pooblastilo**. Odprite **Upravljanje stroškov** > **Moji stroški** > **Stroški, za katere imam pooblastilo**.
 
-Če je omogočen ključ za upravljanje funkcije **Omogoči stran s seznamom pooblaščencev za stroške** , bo na voljo stran s seznamom **Stroški, za katere imam pooblastilo** , če odprete **Upravljanje stroškov > Moji stroški > Stroški, za katere imam pooblastilo**.
+Pooblaščeni uporabnik lahko hitro filtrira in išče po obstoječih poročilih o stroških, za katera ima pooblastilo. Ustvari lahko tudi novo poročilo o stroških za druge uporabnike, tako da izbere **Novo poročilo o stroških**.
 
-Uporabnik v vlogi pooblaščenca lahko hitro filtrira in poišče obstoječa poročila o stroških, ki so bila dodeljena uporabniku. Uporabnik v vlogi pooblaščenca lahko hitro ustvari tudi novo poročilo o stroških v imenu drugih uporabnikov, tako da klikne možnost **Novo poročilo o stroških**.
-
-Pooblaščeni uporabniki lahko ustvarijo in upravljajo tudi poročila o stroških v imenu drugih zaposlenih, tako da odprejo **Upravljanje stroškov > Moji stroški > Poročila o stroških** in kliknejo gumb **Odpri stroške drugega uporabnika**.
+Pooblaščeni uporabniki lahko tudi ustvarijo in upravljajo poročila o stroških za druge zaposlene tako, da odprejo **Upravljanje stroškov** > **Moji stroški** > **Poročila o stroških** in izberejo **Odpri stroške drugega uporabnika**.

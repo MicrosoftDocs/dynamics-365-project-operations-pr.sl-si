@@ -1,6 +1,6 @@
 ---
 title: Medpodjetni stroški
-description: Delavec, ki je zaposlen pri eni pravni osebi v organizaciji, lahko opravlja delo pri drugi pravni osebi v isti organizaciji. V tem primeru lahko s funkcijo medpodjetnih stroškov dodelite stroške delavca tisti pravni osebi, za katero je bilo delo opravljeno.
+description: V tej temi so na voljo informacije o tem, kako uporabite stroške med podjetji za dodelitev stroškov delavca pravni osebi, za katero je bilo delo opravljeno.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/20/2020
@@ -16,24 +16,22 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0967f23e4e1f8e0431c55d4d54554e7e90e2451c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 553ddbe622210169db8de4aa506dcf1ea1e9d5ef
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084907"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960852"
 ---
 # <a name="intercompany-expenses"></a>Medpodjetni stroški
 
-[!include [banner](../includes/banner.md)]
+Delavec, ki je zaposlen pri eni pravni osebi v organizaciji, lahko opravlja delo pri drugi pravni osebi v isti organizaciji. Stroške med podjetji lahko uporabite za dodelitev stroškov delavca pravni osebi, za katero je bilo delo opravljeno. Pravna oseba, ki zaposli delavca, se imenuje posojilna pravna oseba. Pravna oseba, na katero se pišejo stroški delavca, se imenuje izposojevalna pravna oseba. 
 
-Delavec, ki je zaposlen pri eni pravni osebi v organizaciji, lahko opravlja delo pri drugi pravni osebi v isti organizaciji. V tem primeru lahko s funkcijo medpodjetnih stroškov dodelite stroške delavca tisti pravni osebi, za katero je bilo delo opravljeno. Pravna oseba, ki zaposli delavca, se imenuje posojilna pravna oseba. Pravna oseba, na katero se pišejo stroški delavca, se imenuje izposojevalna pravna oseba. 
-
-Preden lahko delavec ustvari in predloži stroške dela, ki ga opravlja za drugo pravno osebo, na strani **Parametri upravljanja stroškov** za posojilno pravno osebo izberite možnost **Dovoli vrstice medpodjetnih stroškov**. 
+Preden lahko delavec ustvari in predloži stroške med podjetji, morate omogočiti vrstice stroškov med podjetji. V posojilni pravni osebi na strani **Parametri upravljanja stroškov** izberite **Omogoči vrstice stroškov med podjetji**. 
 
 ## <a name="tax-posting-for-intercompany-expenses"></a>Davčna napoved za medpodjetne stroške
 
 [!include [banner](../includes/banner.md)]
 
-Če želite v poročilu o stroških uporabiti davčne skupine, ki so povezane s posojilno (izvorno) pravno osebo namesto z izposojilno (ciljno) pravno osebo, boste morali to nastaviti v možnosti za nastavitev prometnega davka v glavni knjigi. Ko je parameter glavne knjige **Pravna oseba za medpodjetno davčno napoved** nastavljen na **Vir** in **Uporabi pravila o obdavčitvi za prometni davek** nastavljen na **Ne** , bo uporabljena kombinacija davkov za posojilno pravno osebo. Ko je isti parameter nastavljen na **Cilj** , bo uporabljena kombinacija davka za izposojevalno pravno osebo. Za pravne osebe v ZDA velja naslednje: če je parameter nastavljen na **Vir** , mora biti polje **Terjatve od prometnega davka** konfigurirano tudi na novi strani **Skupine za vnašanje v glavno knjigo**. Računovodski mehanizem bo podatke iz tega polja uporabil za vnos računovodskih evidenc v zvezi z davki.   
+Preden lahko v poročilu o stroških uporabite davčne skupine, ki so povezane s posojilno (izvorno) pravno osebo namesto z izposojevalno (ciljno) pravno osebo, morate omogočiti funkcijo v nastavitvi prometnega davka v glavni knjigi. Ko je parameter **Pravna oseba za davčno napoved med podjetji** nastavljen na **Vir**, **Uporabi davčna pravila za prometni davek** pa na **Ne**, se uporabi davčna kombinacija za posojilno pravno osebo. Ko je isti parameter nastavljen na **Cilj**, bo uporabljena kombinacija davka za izposojevalno pravno osebo. Za pravne osebe v ZDA velja naslednje: če je parameter nastavljen na **Vir**, mora biti polje **Terjatve od prometnega davka** konfigurirano tudi na novi strani **Skupine za vnašanje v glavno knjigo**. Računovodski mehanizem bo podatke iz tega polja uporabil za vnos računovodskih evidenc v zvezi z davki.   
 To vedenje je skladno za vrstice stroškov, objavljene s projektom ali brez.  

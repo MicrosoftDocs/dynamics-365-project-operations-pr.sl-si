@@ -17,18 +17,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084915"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960492"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobilni delovni prostor za upravljanje stroškov
 
-[!include [banner](../includes/banner.md)]
-
-Ta tema vsebuje informacije o mobilnem delovnem prostoru **Upravljanje stroškov**. Ta delovni prostor omogoča uporabnikom, da zajamejo in naložijo potrdilo, da ga lahko pozneje priložijo poročilu o stroških. Uporabniki lahko tudi hitro ustvarijo vrstico stroškov z uporabo priloženega potrdila ter ustvarijo in upravljajo svoja poročila o stroških. Poleg tega lahko odobritelji uporabljajo mobilni delovni prostor **Upravljanje stroškov** , da si ogledajo poročila o stroških, ki so jim dodeljena, in jih odobrijo ali zavrnejo.
+Ta tema vsebuje informacije o mobilnem delovnem prostoru **Upravljanje stroškov**. Ta delovni prostor omogoča uporabnikom, da zajamejo in naložijo potrdilo, da ga lahko pozneje priložijo poročilu o stroških. Uporabniki lahko tudi hitro ustvarijo vrstico stroškov z uporabo priloženega potrdila ter ustvarijo in upravljajo svoja poročila o stroških. Poleg tega lahko odobritelji uporabljajo mobilni delovni prostor **Upravljanje stroškov**, da si ogledajo poročila o stroških, ki so jim dodeljena, in jih odobrijo ali zavrnejo.
 
 
 Ta mobilni delovni prostor je namenjen uporabi z mobilno aplikacijo Dynamics 365 Unified Ops.
@@ -115,12 +113,12 @@ Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:
 3. Izberite **Fotografiraj** ali **Izbira slike**.
 4. Sledite enemu od teh postopkov:
 
-    - Če ste izbrali **Fotografiraj** , sledite tem korakom:
+    - Če ste izbrali **Fotografiraj**, sledite tem korakom:
 
-        1. Odprla se bo kamera v vaši mobilni napravi, da boste lahko fotografirali potrdilo. Ko končate s fotografiranjem, izberite **V redu** , da sprejmete fotografijo.
+        1. Odprla se bo kamera v vaši mobilni napravi, da boste lahko fotografirali potrdilo. Ko končate s fotografiranjem, izberite **V redu**, da sprejmete fotografijo.
         2. Izbirno: Vnesite ime fotografije in vnesite morebitne opombe.
 
-    - Če ste izbrali **Izbira slike** , sledite tem korakom:
+    - Če ste izbrali **Izbira slike**, sledite tem korakom:
 
         1. Izberite sliko s seznama.
         2. Izbirno: Vnesite ime slike in vnesite morebitne opombe.
@@ -130,16 +128,16 @@ Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Hitro vnesite strošek s pomočjo mobilnega delovnega prostora za upravljanje stroškov
 1. V mobilni napravi odprite delovni prostor **Upravljanje stroškov**.
 2. Izberite **Hiter vnos stroška**.
-3. Izberite kategorijo za strošek. Videli boste seznam kategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše kategorije ni na seznamu, izberite **Iskanje** , da izvedete spletno iskanje. Iščite po kategoriji stroškov ali preklopite na iskanje po vrsti stroška.
+3. Izberite kategorijo za strošek. Videli boste seznam kategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše kategorije ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po kategoriji stroškov ali preklopite na iskanje po vrsti stroška.
 4. Vnesite datum transakcije stroška.
 5. Izbirno: Vpišite trgovca za strošek.
 6. Vnesite znesek stroška.
-7. Izberite valuto stroška. Videli boste seznam kod valut, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 400 valut, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše valute ni na seznamu, izberite **Iskanje** , da izvedete spletno iskanje. Iščite po valuti ali preklopite na iskanje po imenu.
+7. Izberite valuto stroška. Videli boste seznam kod valut, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 400 valut, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše valute ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po valuti ali preklopite na iskanje po imenu.
 8. Izberite **Fotografiraj** ali **Izbira slike**.
 9. Sledite enemu od teh postopkov:
 
-    - Če ste izbrali **Fotografiraj** , se bo odprla kamera v vaši mobilni napravi, da boste lahko fotografirali potrdilo. Ko končate s fotografiranjem, izberite **V redu** , da sprejmete fotografijo.
-    - Če ste izbrali **Izbira slike** , izberite sliko na seznamu.
+    - Če ste izbrali **Fotografiraj**, se bo odprla kamera v vaši mobilni napravi, da boste lahko fotografirali potrdilo. Ko končate s fotografiranjem, izberite **V redu**, da sprejmete fotografijo.
+    - Če ste izbrali **Izbira slike**, izberite sliko na seznamu.
 
 10. Izberite **Dokončano**.
 
@@ -165,76 +163,76 @@ Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:
 7. Na seznamu izberite enega ali več stroškov.
 8. Izberite **Dokončano**.
 9. Če želite poročilu o stroških dodati nove stroške, izberite **Nov strošek**.
-10. Izberite kategorijo za strošek. Videli boste seznam kategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše kategorije ni na seznamu, izberite **Iskanje** , da izvedete spletno iskanje. Iščite po kategoriji stroškov ali preklopite na iskanje po vrsti stroška.
+10. Izberite kategorijo za strošek. Videli boste seznam kategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše kategorije ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po kategoriji stroškov ali preklopite na iskanje po vrsti stroška.
 11. Izbirno: Vpišite trgovca za strošek.
 12. Vnesite datum transakcije stroška.
 13. Vnesite znesek stroška.
-14. Izberite valuto stroška. Videli boste seznam kod valut, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 400 valut, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše valute ni na seznamu, izberite **Iskanje** , da izvedete spletno iskanje. Iščite po valuti ali preklopite na iskanje po imenu.
+14. Izberite valuto stroška. Videli boste seznam kod valut, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 400 valut, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše valute ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po valuti ali preklopite na iskanje po imenu.
 15. Izberite **Dokončano**.
 16. Če želite strošku dodati več podrobnosti, izberite **Dodaj več podrobnosti**. Polja, ki so na voljo, so odvisna od konfiguracije upravljanja stroškov za vaše podjetje.
-17. Če je s politiko podjetja zahtevano potrdilo za strošek, izberite **Potrdila** , nato pa sledite tem korakom:
+17. Če je s politiko podjetja zahtevano potrdilo za strošek, izberite **Potrdila**, nato pa sledite tem korakom:
 
     1. Izberite **Zajemi potrdilo** ali **Priloži potrdilo**.
     2. Sledite enemu od teh postopkov:
 
-        - Če ste izbrali **Zajemi potrdilo** , sledite tem korakom:
+        - Če ste izbrali **Zajemi potrdilo**, sledite tem korakom:
 
             1. Izberite **Fotografiraj** ali **Izbira slike**.
             2. Sledite enemu od teh postopkov:
 
-                - Če ste izbrali **Fotografiraj** , sledite tem korakom:
+                - Če ste izbrali **Fotografiraj**, sledite tem korakom:
 
-                    1. Odprla se bo kamera v vaši mobilni napravi, da boste lahko fotografirali potrdilo. Ko končate s fotografiranjem, izberite **V redu** , da sprejmete fotografijo.
+                    1. Odprla se bo kamera v vaši mobilni napravi, da boste lahko fotografirali potrdilo. Ko končate s fotografiranjem, izberite **V redu**, da sprejmete fotografijo.
                     2. Izbirno: Vnesite ime fotografije in vnesite morebitne opombe.
 
-                - Če ste izbrali **Izbira slike** , sledite tem korakom:
+                - Če ste izbrali **Izbira slike**, sledite tem korakom:
 
                     1. Izberite sliko s seznama.
                     2. Izbirno: Vnesite ime slike in vnesite morebitne opombe.
 
             3.  Izberite **Dokončano**.
 
-        - Če ste izbrali **Priloži potrdilo** , sledite tem korakom:
+        - Če ste izbrali **Priloži potrdilo**, sledite tem korakom:
 
             1.  Izberite eno ali več slik na seznamu.
             2.  Izberite **Dokončano**.
 
     3. Izberite gumb **Nazaj** za vrnitev na podrobnosti o stroških.
 
-18. Če so s politiko podjetja zahtevani gosti za strošek, izberite **Gosti** , nato pa sledite tem korakom:
+18. Če so s politiko podjetja zahtevani gosti za strošek, izberite **Gosti**, nato pa sledite tem korakom:
 
-    1. Izberite **Gost** , **Prejšnji gostje** ali **Sodelavci**.
+    1. Izberite **Gost**, **Prejšnji gostje** ali **Sodelavci**.
     2. Sledite enemu od teh postopkov:
 
-        - Če ste izbrali **Gost** , sledite tem korakom:
+        - Če ste izbrali **Gost**, sledite tem korakom:
 
             1. Vnesite ime gosta.
             2. Izbirno: vnesite organizacijo in/ali državo gosta.
             3. Izbirno: vnesite naziv gosta.
             4. Izberite **Dokončano**.
 
-        - Če ste izbrali **Prejšnji gostje** , sledite tem korakom:
+        - Če ste izbrali **Prejšnji gostje**, sledite tem korakom:
 
-            1. Na seznamu izberite enega ali več prejšnjih gostov. Prikaže se seznam prejšnjih gostov, ki ste jih dodali v prejšnja poročila o stroških, ki so naloženi v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaš prejšnji gost ni na seznamu, izberite **Iskanje** , da izvedete spletno iskanje. Iščite po imenu ali preklopite na iskanje po organizaciji, državi ali nazivu.
+            1. Na seznamu izberite enega ali več prejšnjih gostov. Prikaže se seznam prejšnjih gostov, ki ste jih dodali v prejšnja poročila o stroških, ki so naloženi v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaš prejšnji gost ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po imenu ali preklopite na iskanje po organizaciji, državi ali nazivu.
             2. Izberite **Dokončano**.
 
-        - Če ste izbrali **Sodelavci** , sledite tem korakom:
+        - Če ste izbrali **Sodelavci**, sledite tem korakom:
 
-            1. Na seznamu izberite enega ali več sodelavcev. Videli boste seznam sodelavcev, ki so naloženi v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če sodelavca ni na seznamu, izberite **Iskanje** , da izvedete spletno iskanje. Iščite po imenu ali preklopite na iskanje po podjetju ali nazivu.
+            1. Na seznamu izberite enega ali več sodelavcev. Videli boste seznam sodelavcev, ki so naloženi v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če sodelavca ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po imenu ali preklopite na iskanje po podjetju ali nazivu.
             2. Izberite **Dokončano**.
 
     3. Izberite gumb **Nazaj** za vrnitev na podrobnosti o stroških.
 
-19. Če je s politiko podjetja zahtevana razčlenitev stroška, izberite **Razčleni** , nato pa sledite tem korakom:
+19. Če je s politiko podjetja zahtevana razčlenitev stroška, izberite **Razčleni**, nato pa sledite tem korakom:
 
     1. Izberite prvi datum za razčlenitev.
     2. Izberite **Dodaj razčlenitev**.
-    3. Izberite podkategorijo za razčlenitev stroška. Videli boste seznam podkategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše podkategorije ni na seznamu, izberite **Iskanje** , da izvedete spletno iskanje. Iskanje po imenu podkategorije stroškov.
+    3. Izberite podkategorijo za razčlenitev stroška. Videli boste seznam podkategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše podkategorije ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iskanje po imenu podkategorije stroškov.
     4. Vnesite znesek transakcije za razčlenitev.
     5. Uredite datum transakcije, če je potrebno.
     6. Izberite **Dokončano**.
     7. Ponavljajte prejšnje korake, dokler ne dokončate dodajanja vseh razčlenitev za izbrani datum.
-    8. Za dodatne dni lahko izberete **Kopiraj na naslednji dan** , da kopirate razčlenitve na naslednji dan. Lahko pa izberete datum za razčlenitev in nato dodate razčlenitve, kot ste storili za prvi datum.
+    8. Za dodatne dni lahko izberete **Kopiraj na naslednji dan**, da kopirate razčlenitve na naslednji dan. Lahko pa izberete datum za razčlenitev in nato dodate razčlenitve, kot ste storili za prvi datum.
     9. Ko končate z razčlenitvijo stroškov, izberite gumb **Nazaj** za vrnitev na podrobnosti o stroških.
 
 20. Izberite gumb **Nazaj** za vrnitev na stran **Poročilo o stroških**.

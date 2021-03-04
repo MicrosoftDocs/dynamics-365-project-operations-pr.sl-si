@@ -3,17 +3,18 @@ title: Omogočanje novega okolja
 description: Ta tema vsebuje informacije o omogočanju novega okolja v storitvi Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643011"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727810"
 ---
 # <a name="provision-a-new-environment"></a>Omogočanje novega okolja
 
@@ -60,17 +61,15 @@ Uporabite naslednje korake, da omogočite avtomatizirano omogočanje uporabe sto
 
 ![Soglasje uvedbe](./media/2DeploymentConsent.png)
 
-7. Izpolnite preostala zahtevana polja v čarovniku in potrdite uvajanje. Čas omogočanja uporabe okolja se razlikuje glede na vrsto okolja. Omogočanje uporabe lahko traja do šest ur.
+7. Izbirno – uporabi predstavitvene podatke v okolju. Pojdite na **Napredne nastavitve**, izberite **Prilagajanje konfiguracije zbirke podatkov SQL** in nastavite **Določi nabor podatkov za zbirko podatkov aplikacije** na **Predstavitev**.
+
+8. Izpolnite preostala zahtevana polja v čarovniku in potrdite uvajanje. Čas za omogočanje okolja za uporabo se razlikuje na podlagi vrste okolja. Omogočanje uporabe lahko traja do šest ur.
 
   Ko se uvajanje uspešno zaključi, bo okolje prikazano kot **Uvedeno**.
 
-8. Če želite potrditi, da je bilo okolje uspešno uvedeno, izberite **Prijava** in se prijavite v okolje.
+9. Za potrditev, da je bilo okolje uspešno omogočeno za uporabo, izberite **Prijava** in se prijavite v okolje za potrditev.
 
 ![Podrobnosti o okoljih v storitvi ](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Uporaba predstavitvenih podatkov storitve Project Operations Finance (izbirni korak)
-
-Uporabite predstavitvene podatke storitve Project Operations Finance za izdajo v oblaku gostovane storitve 10.0.13, kot je opisano v [tem članku](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Uporaba posodobitev za okolje Finance
 
@@ -151,6 +150,21 @@ Po uporabi entitet se v okolju prikažejo vse razpoložljive preslikave.
 Osveževanje bo trajalo približno 20 minut. Ko bo končano, boste prejeli obvestilo.
 
 ![Potrditev osveževanja](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Posodobitev varnostnih nastavitev v storitvi Project Operations na Dataverse
+
+1. Pojdite na Project Operations v svojem okolju Dataverse. 
+2. Pojdite na **Nastavitve** > **Varnost** > **Varnostne vloge**. 
+3. Na strani **Varnostne vloge** na seznamu vlog izberite **uporabnik aplikacije dvojnega zapisovanja** in izberite zavihek **Entitete po meri**.  
+4. Prepričajte se, da ima vloga dovoljenji **Branje** in **Prilaganje k** za:
+      
+      - **Vrsta menjalnega tečaja valute**
+      - **Kontni načrt**
+      - **Poslovni koledar**
+      - **Knjiga**
+
+5. Ko je varnostna vloga posodobljena, pojdite na **Nastavitve** > **Varnost** > **Ekipe** in izberite privzeto ekipo v pogledu ekipe **Lastnik lokalnega podjetja**.
+6. Izberite **Upravljanje vlog** in se prepričajte, da je varnostna pravica **uporabnik aplikacije dvojnega zapisovanja** uveljavljena za to ekipo.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Zagon zemljevidov za dvojno zapisovanje v aplikaciji Project Operations
 

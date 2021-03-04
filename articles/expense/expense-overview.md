@@ -5,30 +5,31 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122858"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764929"
 ---
 # <a name="expense-home-page"></a>Domača stran stroška
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 
-Aplikacija Dynamics 365 Project Operations podpira zmožnost obdelave stroškov. Obdelava stroškov se izvaja s projekti ali brez njih z uporabo prilagodljivega poteka dela pravilnikov, kategorij transakcij in odobritev.
+Dynamics 365 Project Operations podpira možnost obdelave stroškov. Obdelava stroškov se izvaja s projekti ali brez njih z uporabo prilagodljivega poteka dela pravilnikov, kategorij transakcij in odobritev.
 
 V aplikaciji Project Operations sta podprta dva modela uvajanja za stroške: 
 
-- **Polni**: na voljo je polno uvajanje za **projektne postopke za scenarije na podlagi virov/brez zaloge** ali **projektne postopke za scenarije na podlagi proizvodnih naročil**.
+- **Polni**: na voljo je polno uvajanje za **Project Operations za scenarije na podlagi virov/brez zaloge** ali **Project Operations za scenarije na podlagi proizvodnih naročil**.
 - **Osnovni**: osnovno uvajanje je na voljo za **projektne postopke za scenarije na podlagi virov/brez zaloge** in **poenostavljeno uvajanje – posel do izstavitve predračuna**.
 
 ## <a name="full"></a>Celotni 
-Polno uvajanje stroškov zagotavlja popolno uveljavljanje pravilnikov, kar vključuje možnost ustvarjanja elementov pravilnikov, kot so:
+Polno uvajanje za stroške zagotavlja celovito uvedbo pravilnikov, kar vključuje možnost ustvarjanja pravilnikov, kot so:
 
   - Omejitve za kategorijo stroška
   - Potovanja

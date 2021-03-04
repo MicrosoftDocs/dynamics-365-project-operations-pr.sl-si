@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700700"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727900"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti v decembru 2020 – Project Operations za primere uporabe z viri/brez zalog
 
@@ -24,6 +24,8 @@ Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Proj
 
 - Project Operations v okolju Dataverse različice 4.5.0.134
 - Upravljanje projektov in računovodstvo v okolju Dynamics 365 Finance, različica 10.0.15
+
+Za informacije o tem, kako posodobite na to izdajo, glejte [Posodobitev aplikacije Project Operations v okolju Finance](ur5-nonstocked-installation.md).
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 V to izdajo so vključene naslednje funkcije:
@@ -85,7 +87,7 @@ V to izdajo so vključene naslednje funkcije:
 | Upravljanje projektov in računovodstvo | [509989](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509989)           | Vrstice predlog za račune je mogoče izbrisati v primeru integracije v Project Operations                                                                                                                                                                                    |
 | Upravljanje projektov in računovodstvo | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Ne omogočite funkcije za možnost uporabe več podrobnosti pogodb brez integracije storitve Dataverse                                                                                                                                                                                        |
 | Upravljanje projektov in računovodstvo | [510527](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510527)           | Ocenjeni fakturirani prihodek na zaslonu je nič(0), kadar je fakturiranje = izkaz poslovnega izida                                                                                                                                                                          |
-| Upravljanje projektov in računovodstvo | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364)           | Pri knjiženju zneska prodaje WIP pri medpodjetnem izdajanju računov za projekt je izbran nepričakovan račun                                                                                                                                                                           |
+| Upravljanje projektov in računovodstvo | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364)           | Pri knjiženju zneska prodaje PVT pri medpodjetnem izdajanju računov za projekt je izbran nepričakovan račun                                                                                                                                                                           |
 | Upravljanje projektov in računovodstvo | [522799](https://fix.lcs.dynamics.com/Issue/Details/?bugId=522799)           | Ni mogoče priznati ocene/prihodka, kadar je omogočena storitev Project Operations                                                                                                                                                                         |
 | Potovanje in strošek                | [378738](https://fix.lcs.dynamics.com/Issue/Details/?bugId=378738)           | Stroški, ki jih vnese pooblaščenec, so povrnjeni uporabniku stroškov in ne pooblaščencu                                                                                                                                                                                           |
 | Potovanje in strošek                | [409489](https://fix.lcs.dynamics.com/Issue/Details/?bugId=409489)           | Uporabnik pooblaščenca za potek dela poročila o stroških, ki odda potek dela, ni opredeljen kot pobudnik poteka dela                                                                                                                                                             |

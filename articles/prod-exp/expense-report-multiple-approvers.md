@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce24b156a268f9f5aada35f9314d2d9c6607200b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b6d07f00fd6c1ba2d860787665d95f95f7b1a89
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084912"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960627"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Več odobriteljev za poročilo o stroških
-
-[!include [banner](../includes/banner.md)]
 
 Glede na pravilnik o odobritvi stroškov vaše organizacije bo morda morala poročilo o stroških, ki ga predloži zaposleni, odobriti več kot ena oseba. Ko nastavite proces poteka dela za odobritev poročila o stroških, lahko dodate elemente poteka dela, ki vključujejo opravila ali korake za enega ali več odobriteljev poročil o stroških. Na primer, morda bo potrebno, da vsa poročila o stroških najprej odobrita vodja zaposlenega, ki je predložil poročilo, in nato še koordinator za obveznosti.
 
