@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084950"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144613"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Dodajanje novih obrazcev entitet po meri (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Polje »Vrsta« 
 
-Dynamics 365 Project Service Automation uporablja polje **Vrsta** ( **msdyn\_ordertype** ) za entitete priložnosti, ponudbe, naročila in računa za ločevanje različic teh entitet, ki **temeljijo na delu** , od različic, ki **temeljijo na elementu** in **temeljijo na storitvi**. Različice teh entitet, ki temeljijo na delu, obravnava PSA. Precej poslovne logike na strani odjemalca in strežnika rešitve je odvisne od polja **Vrsta**. Zato je pomembno, da je polje v začetku izpolnjeno s pravilno vrednostjo, ko so entitete ustvarjene. Nepravilna vrednost lahko povzroči nepravilne postopke, del poslovne logike pa morda ne bo pravilno izveden.
+Dynamics 365 Project Service Automation uporablja polje **Vrsta** (**msdyn\_ordertype**) za entitete priložnosti, ponudbe, naročila in računa za ločevanje različic teh entitet, ki **temeljijo na delu**, od različic, ki **temeljijo na elementu** in **temeljijo na storitvi**. Različice teh entitet, ki temeljijo na delu, obravnava PSA. Precej poslovne logike na strani odjemalca in strežnika rešitve je odvisne od polja **Vrsta**. Zato je pomembno, da je polje v začetku izpolnjeno s pravilno vrednostjo, ko so entitete ustvarjene. Nepravilna vrednost lahko povzroči nepravilne postopke, del poslovne logike pa morda ne bo pravilno izveden.
 
 ## <a name="automatic-form-switching"></a>Samodejni preklop obrazcev
 
@@ -37,7 +39,7 @@ Logika samodejnega preklapljanja med obrazci uporablja preslikavo med vrednostjo
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Dodajanje obrazcev po meri in vklop logike za preklapljanja obrazcev
 
-Ta primer prikazuje, kako dodate obrazec po meri, imenovan **Moji podatki o projektu** , da bo deloval s priložnostmi, ki temeljijo na delu. Isti postopek se uporablja za dodajanje obrazcev po meri, da delujejo s ponudbami, naročili in računi.
+Ta primer prikazuje, kako dodate obrazec po meri, imenovan **Moji podatki o projektu**, da bo deloval s priložnostmi, ki temeljijo na delu. Isti postopek se uporablja za dodajanje obrazcev po meri, da delujejo s ponudbami, naročili in računi.
 
 Upoštevajte ta navodila in ustvarite različico obrazca **Podatki o projektu** po meri.
 
@@ -47,7 +49,7 @@ Upoštevajte ta navodila in ustvarite različico obrazca **Podatki o projektu** 
     > [!IMPORTANT]
     > Skriptov ne odstranjujte. Če to storite, bodo nekateri podatki morda nepravilno inicializirani.
 
-3. Preverite, ali je polje **Vrsta** ( **msdyn\_ordertype** ) prisotno na obrazcu. 
+3. Preverite, ali je polje **Vrsta** (**msdyn\_ordertype**) prisotno na obrazcu. 
 
     > [!IMPORTANT]
     > Tega polja ne odstranjujte. Če to storite, skripti za inicializacijo ne bodo uspešni.

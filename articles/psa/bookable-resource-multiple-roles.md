@@ -1,6 +1,6 @@
 ---
-title: Ocena prodaje in stroškov projekta, ko vir, ki ga je mogoče rezervirati, zapolni več vlog v projektu
-description: V tej temi so na voljo podatki o tem, kako se lahko cenovne razsežnosti uporabijo za podporo cen in stroškov za vir, ki zapolni več vlog v projektu.
+title: Ocena prodaje in stroškov projekta, ko vir, ki ga je mogoče rezervirati, prevzame več vlog za projekt
+description: V tej temi so informacije o tem, kako je mogoče uporabiti cenovne razsežnosti za podporo določanja cen in stroškov za vir, ki prevzame več vlog v projektu.
 author: rumant
 manager: kfend
 ms.custom:
@@ -17,16 +17,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8ddc827a4170c5576c0a4350b51e6a119094ac50
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084808"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145063"
 ---
-# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-mulitple-roles-on-a-project"></a>Ocena prodaje in stroškov projekta, ko vir, ki ga je mogoče rezervirati, zapolni več vlog v projektu 
+# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Ocena prodaje in stroškov projekta, ko vir, ki ga je mogoče rezervirati, prevzame več vlog za projekt 
 
-Podjetja, ki poslujejo na podlagi projektov, pogosto potrebujejo en vir za izvajanje več vlog v projektu. Za vsako od teh vlog je mogoče določiti različne cene in stroške, kar pomeni, da lahko čas istega vira v projektu dobi različne finančne ocene, odvisno od deležev obračunavanja in stroškov za vsako od vlog. Project Service Automation omogoča nastavitev vrednosti v zapisu člana ekipe za imenovani vir in omogoča različne razveljavitve za vsako opravilo, kateremu je dodeljen član ekipe.
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+Podjetja, ki temeljijo na projektih, pogosto potrebujejo en sam vir, ki prevzame več vlog v projektu. Za vsako od teh vlog je mogoče določiti različne cene in stroške, kar pomeni, da lahko čas istega vira v projektu dobi različne finančne ocene, odvisno od deležev obračunavanja in stroškov za vsako od vlog. Project Service Automation omogoča nastavitev vrednosti v zapisu člana ekipe za imenovani vir in omogoča različne razveljavitve za vsako opravilo, kateremu je dodeljen član ekipe.
 
 V naslednjem primeru je pojasnjeno, kako preprosta preglasitev te vrednosti omogoča viru, da ima v projektu več vlog z različnimi stroški in deleži obračunavanja.
 
@@ -45,22 +47,22 @@ Ponovite te korake za opravilo B in se prepričajte, da se vloga in organizacijs
 ## <a name="set-up-role-and-organization-unit-for-a-project-task"></a>Nastavitev vloge in organizacijske enote za projektno opravilo
 
 1. Ko ustvarite opravilo A, ga izberite in nato izberite **Uredi opravilo**.
-2. Na strani **Podrobnosti opravila** poiščite polji **Vloga** in **Organizacijska enota** , nato dodajte vrednosti, potrebne za vir, ki bi opravil to opravilo. 
+2. Na strani **Podrobnosti opravila** poiščite polji **Vloga** in **Organizacijska enota**, nato dodajte vrednosti, potrebne za vir, ki bi opravil to opravilo. 
 
   > [!NOTE]
   > Če ta scenarij izpolnjujete s predstavitvenimi podatki rešitve Project Service Automation, za vlogo izberite **Svetovalni vodja** in za organizacijsko enoto **Fabrikam ZDA**.
 
 3. Izberite opravilo B in nato izberite **Uredi opravilo**.
-4. Na strani **Podrobnosti opravila** poiščite polji **Vloga** in **Organizacijska enota** , nato dodajte vrednosti, potrebne za vir, ki bi opravil to opravilo. Prepričajte se, da se vrednosti v poljih **Vloga** in **Organizacijska enota** za opravilo A in opravilo B razlikujejo. 
+4. Na strani **Podrobnosti opravila** poiščite polji **Vloga** in **Organizacijska enota**, nato dodajte vrednosti, potrebne za vir, ki bi opravil to opravilo. Prepričajte se, da se vrednosti v poljih **Vloga** in **Organizacijska enota** za opravilo B razlikujejo od vrednosti za opravilo A. 
 
   > [!NOTE]
   > Če ta scenarij izpolnjujete s predstavitvenimi podatki rešitve Project Service Automation, za vlogo izberite **Omrežni tehnik** in za organizacijsko enoto **Fabrikam ZDA**.
 
 5. Shranite in zaprite stran **Podrobnosti opravila**. 
 
-## <a name="team-member-and-estimates-behaviour"></a>Član ekipe in ocenjeno vedenje 
+## <a name="team-member-and-estimates-behavior"></a>Član ekipe in vedenje ocen 
 
-1. Na strani **Podrobnosti opravila** v razdelku **Član ekipe** izberite dva splošna člana ekipe, nato pa izberite možnost **Ustvari zahteve**. S tem se bodo ustvarile zahteve za vir. 
+1. Na strani **Podrobnosti opravila** v razdelku **Član ekipe** izberite dva splošna člana ekipe, nato pa izberite možnost **Ustvari zahteve**. 
 2. Izberite vrstico člana ekipe za vlogo **Svetovalni vodja** in nato izberite možnost **Rezerviraj**. Odpre se plošča razporeda in rezervira vir za to zahtevo.
 3. Izberite vrstico člana ekipe za vlogo **Omrežni tehnik** in nato izberite možnost **Rezerviraj**. Odpre se plošča razporeda in rezervira isti vir za to zahtevo.
 
@@ -69,10 +71,6 @@ V mreži **Član ekipe** boste opazili, da sta dva zapisa splošnega člana ekip
 Ko razširite vrstico tega zapisa člana ekipe, lahko v zapisu člana ekipe vidite ločene dodelitve za obe opravili. V vsaki vrstici dodelitve so vrednosti, specifične za opravilo, za možnosti **Vloga** in **Organizacijska enota**. 
 
 ### <a name="estimates-grid"></a>Mreža ocen 
-Ko se pomaknete do mreže **Ocene** , boste opazili, da sta za obe dodelitvi za isti vir določeni različni ceni.
+Ko se pomaknete do mreže **Ocene**, boste opazili, da sta za obe dodelitvi za isti vir določeni različni ceni.
 Dodelitev za vir v opravilu A je ocenjena na podlagi vrednosti atributa **Vloga** za možnost **Svetovalni vodja**. Dodelitev za isti vir v opravilu B je ocenjena na podlagi vrednosti atributa **Vloga** za možnost **Omrežni tehnik**.
-
-
-
-
 

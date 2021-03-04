@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084855"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145018"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Uporaba vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 V tej temi so na voljo informacije o uporabi vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti Preden začnete, morate ustvariti novo rešitev cenovne razsežnosti, če je še niste. Če že imate rešitev cenovne razsežnosti, lahko izvedete spremembe kar v tisti rešitvi. Če še niste ustvarili nove rešitve cenovne razsežnosti za vašo organizacijo, najprej do konca izvedite postopke v temi [Ustvarjanje polj in entitet po meri](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Dodajanje vira, ki ga je mogoče rezervirati, v obrazce in poglede
@@ -52,13 +55,13 @@ Odprite raziskovalca rešitev za rešitev cenovnih razsežnosti in nato kliknite
 2. Na ta seznam cenovnih razsežnosti dodajte **Vir, ki ga je mogoče rezervirati** kot **msdyn_bookableresource**. 
 3. Navedite kontekst, v katerem vir, ki ga je mogoče rezervirati, deluje kot cenovna razsežnost, in nastavite vrednosti **Mogoče uporabiti za ceno** in **Mogoče uporabiti za prodajo**.
 4. V polju **Vrsta cenovne razsežnosti** izberite možnost **Na podlagi zneska**. 
-5. Izberite prioriteto cene in prodaje za vir, ki ga je mogoče rezervirati. Običajno ima vir, ki ga je mogoče rezervirati, najvišjo prioriteto, ko je vključen kot cenovna razsežnost; to lahko zagotovite tako, da nastavite vrednost na **1** (ali **0** : odvisno od vašega načina določanja prioritete).
+5. Izberite prioriteto cene in prodaje za vir, ki ga je mogoče rezervirati. Običajno ima vir, ki ga je mogoče rezervirati, najvišjo prioriteto, ko je vključen kot cenovna razsežnost; to lahko zagotovite tako, da nastavite vrednost na **1** (ali **0**: odvisno od vašega načina določanja prioritete).
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Nastavitev imen polj cenovnih razsežnosti
 
 Ko je ime polja cenovne razsežnosti v tabeli **Cena vloge** drugačno od imena polja v drugih entitetah, kjer mora delovati privzeto nastavljanje cene, je treba zapis cenovnih razsežnosti seznaniti z drugačnimi imeni.    
-Entiteta **Člani projektne ekipe** ima nekoliko drugačno ime ( **msdyn_bookableresourceid** ) za vir, ki ga je mogoče rezervirati, od imena v entiteti **Cena vloge** ( **msdyn_bookableresource** ). S tem je treba seznaniti zapis cenovne razsežnosti za **msydn_bookableresource**. 
-1. Če želite to narediti, dvokliknite vrstico v mreži **Cenovne razsežnosti** , da odprete stran razsežnosti imena **msdyn_bookableresource**.
+Entiteta **Člani projektne ekipe** ima nekoliko drugačno ime (**msdyn_bookableresourceid**) za vir, ki ga je mogoče rezervirati, od imena v entiteti **Cena vloge** (**msdyn_bookableresource**). S tem je treba seznaniti zapis cenovne razsežnosti za **msydn_bookableresource**. 
+1. Če želite to narediti, dvokliknite vrstico v mreži **Cenovne razsežnosti**, da odprete stran razsežnosti imena **msdyn_bookableresource**.
 2. Na zavihku **Povezano** strani razsežnosti kliknite **Imena polj cenovnih razsežnosti**.
 
  ![Zavihek z imeni polj cenovnih razsežnosti](media/PD-fieldname.png)
@@ -70,6 +73,6 @@ Entiteta **Člani projektne ekipe** ima nekoliko drugačno ime ( **msdyn_bookabl
 
 Odpre se stran **Novo ime polja cenovne razsežnosti** za **msdyn_bookableresource**. 
 
-5. V polje **Logično ime entitete** dodajte ime **msdyn_projectteam** , v polje **Ime polja** pa **msdyn_bookableresourceid**. Shranite zapis.
+5. V polje **Logično ime entitete** dodajte ime **msdyn_projectteam**, v polje **Ime polja** pa **msdyn_bookableresourceid**. Shranite zapis.
 
  ![Oblika novega imena polja cenovne razsežnosti](media/PD-fieldname-Added.png)

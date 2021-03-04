@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084825"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144883"
 ---
 # <a name="create-custom-fields-and-entities"></a>Ustvarjanje polj in entitet po meri 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Če želite ustvariti nabor možnosti ali entiteto po meri v platformi Power Apps, upoštevajte spodnje korake.  
 Postopke v tej temi morate izvesti s spletnim vmesnikom aplikacije Project Service Automation (PSA).
@@ -39,20 +41,20 @@ Cenovna razsežnost je lahko nabor možnosti ali entiteta. Oboje morate ustvarit
 
 ### <a name="entity-based-dimensions"></a>Razsežnosti na osnovi entitete
 
-1. V rešitvi PSA kliknite **Nastavitve** > **Rešitve** , nato pa dvokliknite **\<your organization name> – cenovne razsežnosti**.
+1. V rešitvi PSA kliknite **Nastavitve** > **Rešitve**, nato pa dvokliknite **\<your organization name> – cenovne razsežnosti**.
 2. V raziskovalcu rešitev v podoknu za krmarjenje na levi izberite **Entitete**.
-3. Kliknite **Novo** , da ustvarite novo entiteto **Standardni naziv**. Vnesite ostale zahtevane informacije in kliknite **Shrani**.
+3. Kliknite **Novo**, da ustvarite novo entiteto **Standardni naziv**. Vnesite ostale zahtevane informacije in kliknite **Shrani**.
 
 > ![Definicija entitete standardnega naziva](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Razsežnosti na osnovi nabora možnosti 
-Ustvarite lahko dve razsežnosti na osnovi nabora možnosti. Uporabite **Lokacija dela vira** , da sledite ceni za lokacijo dela **Doma** in **Na lokaciji** , ter **Delovni čas vira** z vrednostmi **Redno** in **Nadure** , da uporabite pribitek, ko je delo končano.
+Ustvarite lahko dve razsežnosti na osnovi nabora možnosti. Uporabite **Lokacija dela vira**, da sledite ceni za lokacijo dela **Doma** in **Na lokaciji**, ter **Delovni čas vira** z vrednostmi **Redno** in **Nadure**, da uporabite pribitek, ko je delo končano.
 
 
-1. V rešitvi PSA kliknite **Nastavitve** > **Rešitve** , nato pa dvokliknite **\<your organization name> – cenovne razsežnosti**. 
+1. V rešitvi PSA kliknite **Nastavitve** > **Rešitve**, nato pa dvokliknite **\<your organization name> – cenovne razsežnosti**. 
 2. V raziskovalcu rešitev v podoknu za krmarjenje na levi izberite **Nabori možnosti**. 
-3. Kliknite **Novo** , da ustvarite nov nabor možnosti, vnesite ostale zahtevane podatke in kliknite **Shrani**.
+3. Kliknite **Novo**, da ustvarite nov nabor možnosti, vnesite ostale zahtevane podatke in kliknite **Shrani**.
 
 > ![Cenovna razsežnost na osnovi nabora možnosti, imenovana »Lokacija dela vira« ](media/Option-set-PD-called-Resource-Work-Location.png)
 
