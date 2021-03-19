@@ -1,9 +1,9 @@
 ---
 title: Prenovljena poročila o stroških
-description: Ta tema vsebuje informacije o preoblikovani in na novo zamišljeni izkušnji za vnos poročila o stroških.
+description: Ta tema pojasnjuje preoblikovano in na novo zamišljeno izkušnjo vnašanja poročil o stroških.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122824"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499736"
 ---
 # <a name="expense-reports-reimagined"></a>Prenovljena poročila o stroških
 
@@ -59,25 +59,22 @@ Videoposnetek (prikazan zgoraj) [izkušnje upravljanja s stroški v aplikaciji D
 | Zmanjšanje števila sporočil v vrstici za sporočila| Število sporočil dnevnika podatkov je zmanjšano, še posebej v več primerih podvajanja sporočil. |
 | Združevanje pogostih dejanj | Vmesnik je poenostavljen z dodatkom novega gumba za večino pogostih dejanj na ravni vrstice in dodatkom gumba s tropičjem (...) za glavo in druga manj pogosta dejanja. |
 | Nov delovni prostor za večjo vidljivost | Nov delovni prostor združuje funkcije in povezave, ki uporabnikom omogočajo premik na različna območja. |
-| Dodajanje obstoječih stroškov in potrdil med ustvarjanjem stroškov | Ko ustvarjate poročila o stroških, lahko dodate vse oz. izbrane stroške in potrdila. |
+| Dodajanje obstoječih stroškov in potrdil med ustvarjanjem stroškov | Ko ustvarite poročila o stroških, lahko dodate vse stroške ali izberete možnost nepriloženih stroškov. Nepriloženi stroški so stroški, uvoženi iz vira kreditne kartice podjetja, ali stroški, ki jih je uporabnik ustvaril ročno, vendar niso priloženi poročilu o stroških.|
 | Kalkulator menjalnega tečaja | Dodan je kalkulator menjalnega tečaja, ki omogoča izračun menjalnega tečaja za večvalutne gotovinske transakcije. |
 | Shranjevanje in dodajanje novih vrstic stroškov | Pri vnosu novih stroškov sta na voljo gumba za možnosti **Shrani** in **Novo** za pomoč pri hitrem vnosu vrstic stroškov. |
 | Boljši vpogled v razdeljene in razčlenjene vrstice | Razčlenjene in razdeljene vrstice so za dodatno vidljivost dodane neposredno na seznam stroškov, kar vam pomaga opaziti morebitne napake. |
 | Prikaz potrdil med razčlenjevanjem | Med razčlenjevanjem je mogoč prikaz potrdil. |
+| Izbira denarnega predujma | Izberite enega ali več predujmov za izpolnitev ene transakcije stroškov. |
+| Saldo denarnega predujma | Sprotno spremljajte saldo denarnega predujma, ko ustvarite vnos stroška glede na odobrene in plačane denarne predujme. |
 
 Začetna izdaja je osredotočena na primere vnosa stroškov. Vsak pregled poročila o stroških ali primer odobritve bo še naprej uporabljal obstoječo stran za vnos stroškov.
 
-Naslednje funkcije so prisotne na obstoječi strani, na novi pa še ne. Te funkcije bodo znova vključene v prihajajočih različicah:
+Naslednje funkcije niso podprte v na novo zamišljenem delovnem prostoru za obdelavo stroškov:
 
-- Odobritve
-- Odobritve obveznosti in zmožnost urejanja računovodstva
-- Več vstopnih točk
 - Integracija zahtev za pot
-- Podatkovna entiteta za vidljivost polja stroškov
-- Vnos dnevnic
-- Potek dela na ravni vrstice
+- Vnos stroška dnevnic
 - Začasna podpora odobritelja
-- Napredno razčlenjevanje
+- Možnost ogleda zgodovine poteka dela
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

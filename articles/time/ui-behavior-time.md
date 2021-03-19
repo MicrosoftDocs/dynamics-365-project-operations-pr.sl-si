@@ -3,17 +3,17 @@ title: Vedenje uporabniškega vmesnika za časovni vnos
 description: Ta tema vsebuje informacije o vedenju uporabniškega vmesnika za časovni vnos.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124523"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499634"
 ---
 # <a name="time-entry-ui-behavior"></a>Vedenje uporabniškega vmesnika za časovni vnos
 
@@ -21,6 +21,19 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoč
 
 
 Nova mreža **Tedenski časovni vnosi** kontrolnik po meri z dvema glavnima razdelkoma – **Razsežnosti** in **Trajanje**.
+
+## <a name="keyboard-shortcuts"></a>Bližnjice na tipkovnici
+| Dejanje        | Bližnjica                  |
+|------------   |------------------------   |
+| Nova           | Alt + Shift + n           |
+| Kopiraj vrstico      | Alt + Shift + c           |
+| Uredi vnos    | Alt + Shift + e           |
+| Uredi vrstico      | Alt + Shift + Ctrl + e    |
+| Odpri vnos    | Alt + Shift + o           |
+| Pošiljanje        | Alt + Shift + s           |
+| Preklic        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Kopiraj teden     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Razsežnosti
 Razdelek **Razsežnosti** prikazuje vse razsežnosti, ki jih je mogoče uporabiti za vnos časa. Vnaprej so podprte spodaj navedene razsežnosti:

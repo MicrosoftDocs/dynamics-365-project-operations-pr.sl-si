@@ -1,5 +1,5 @@
 ---
-title: Obravnavanje stroškov z mobilno napravo
+title: Mobilna aplikacija za upravljanje stroškov
 description: Ta tema vsebuje informacije o mobilnem delovnem prostoru »Upravljanje stroškov«.
 author: suvaidya
 manager: AnnBe
@@ -15,16 +15,16 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120923"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499916"
 ---
-# <a name="expense-using-mobile"></a>Obravnavanje stroškov z mobilno napravo
+# <a name="mobile-expense-app"></a>Mobilna aplikacija za upravljanje stroškov
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Ta tema vsebuje informacije o mobilnem delovnem prostoru **Upravljanje stroškov**. Ta delovni prostor omogoča uporabnikom, da zajamejo in naložijo potrdilo, da ga lahko pozneje priložijo poročilu o stroških. Uporabniki lahko tudi hitro ustvarijo vrstico stroškov z uporabo priloženega potrdila ter ustvarijo in upravljajo svoja poročila o stroških. Poleg tega lahko odobritelji uporabljajo mobilni delovni prostor **Upravljanje stroškov**, da si ogledajo poročila o stroških, ki so jim dodeljena, in jih odobrijo ali zavrnejo.
 

@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401238"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479584"
 ---
 # <a name="determine-your-deployment-type"></a>Določanje vrste uvedbe
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 > [!IMPORTANT]
-> Po nakupu licence določite najboljši model uvajanja v aplikaciji Dynamics 365 Project Operations z uporabo [vodenega postopka namestitve](https://aka.ms/provisionprojectoperations).
+> Po nakupu licence začnite lahko tukaj ugotovite najboljši model uvajanja za Dynamics 365 Project Operations z uporabo [vodenega poteka namestitve](https://aka.ms/provisionprojectoperations).
 > Ko dokončate vodeni postopek namestitve, boste preusmerjeni na pravi portal za upravljanje, da dokončate namestitev. Za dokončanje namestitve glejte podrobnosti o uvajanju.
 
 
@@ -31,6 +31,9 @@ Aplikacija Project Operations vključuje zmogljivosti, ki so bile na voljo v apl
 
 Obstoječe stranke rešitve Finance, ki uporabljajo funkcionalnost upravljanja projektov in računovodstva lahko nadaljujejo z uporabo rešitve, kakršna je. Glejte razdelek [Aplikacija Project Operations za scenarije z naročili na zalogi/v proizvodnji](#pma).
 
+
+## <a name="deployment-regions"></a>Območja uvajanja
+Če želite ugotoviti, za katera območja je podprto uvajanje aplikacije Project Operations, glejte [poročilo o geografski razpoložljivosti storitev Dynamics 365 in Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Izberite možnost **Ogled poročila** in odprite razdelek **Dynamics 365 > Operacijske aplikacije > Dynamics 365 Project Operations**, da si ogledate podprte regije.
 
 ## <a name="deployment-types"></a>Vrste uvajanja
 Aplikacija Project Operations podpira več možnosti uvajanja, ki ustrezajo vašim zahtevam. Ne glede na to, ali ste nov ali obstoječ uporabnik rešitve Dynamics 365, lahko aplikacija Project Operations ustreza vašim zahtevam.
