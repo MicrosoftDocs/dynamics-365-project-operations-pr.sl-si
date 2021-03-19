@@ -16,19 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 433cd05746423d5e654a999b80aee594c1fd1455
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5829e915778b2c4ff337c9a1866b2dba33666249
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148618"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284693"
 ---
-# <a name="time-and-expense-changes-project-service-automation-3x"></a><span data-ttu-id="4f4ee-103">Spremembe v zvezi s časom in stroški (Project Service Automation 3.x)</span><span class="sxs-lookup"><span data-stu-id="4f4ee-103">Time and Expense changes (Project Service Automation 3.x)</span></span>
+# <a name="time-and-expense-changes-project-service-automation-3x"></a><span data-ttu-id="248fa-103">Spremembe v zvezi s časom in stroški (Project Service Automation 3.x)</span><span class="sxs-lookup"><span data-stu-id="248fa-103">Time and Expense changes (Project Service Automation 3.x)</span></span>
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="4f4ee-104">V aplikaciji Dynamics 365 Project Service Automation, različica 3.0, so bili posodobljeni pogledi za čas in stroške, kar ji omogoča boljši izkoristek novega okvirja platforme za kontrolnike po meri.</span><span class="sxs-lookup"><span data-stu-id="4f4ee-104">In Dynamics 365 Project Service Automation version 3.0, the Time and Expense views have been updated so that they take advantage of the new platform framework for custom controls.</span></span>
+<span data-ttu-id="248fa-104">V aplikaciji Dynamics 365 Project Service Automation, različica 3.0, so bili posodobljeni pogledi za čas in stroške, kar ji omogoča boljši izkoristek novega okvirja platforme za kontrolnike po meri.</span><span class="sxs-lookup"><span data-stu-id="248fa-104">In Dynamics 365 Project Service Automation version 3.0, the Time and Expense views have been updated so that they take advantage of the new platform framework for custom controls.</span></span>
 
-<span data-ttu-id="4f4ee-105">V prejšnji različici sta bila pogleda v obliki koledarja in mreže za čas in stroške implementirana kot kontrolnika DHTMLX.</span><span class="sxs-lookup"><span data-stu-id="4f4ee-105">Previously, the calendar and grid views for Time and Expense were implemented as DHTMLX controls.</span></span> <span data-ttu-id="4f4ee-106">Artefakti, ki so povezani s tisto implementacijo pogledov v obliki koledarja in mreže, so zdaj zastareli.</span><span class="sxs-lookup"><span data-stu-id="4f4ee-106">The artifacts that are related to that implementation of the calendar and grid views are now obsolete (deprecated).</span></span>
+<span data-ttu-id="248fa-105">V prejšnji različici sta bila pogleda v obliki koledarja in mreže za čas in stroške implementirana kot kontrolnika DHTMLX.</span><span class="sxs-lookup"><span data-stu-id="248fa-105">Previously, the calendar and grid views for Time and Expense were implemented as DHTMLX controls.</span></span> <span data-ttu-id="248fa-106">Artefakti, ki so povezani s tisto implementacijo pogledov v obliki koledarja in mreže, so zdaj zastareli.</span><span class="sxs-lookup"><span data-stu-id="248fa-106">The artifacts that are related to that implementation of the calendar and grid views are now obsolete (deprecated).</span></span>
 
-<span data-ttu-id="4f4ee-107">Za celoten seznam opuščenih virov glejte [Zastareli spletni viri v rešitvi Project Service Automation 3.x](web-resources-deprecated-v3.x.md).</span><span class="sxs-lookup"><span data-stu-id="4f4ee-107">For the full list of deprecated resources, see [Deprecated web resources in Project Service Automation 3.x](web-resources-deprecated-v3.x.md).</span></span>
+<span data-ttu-id="248fa-107">Za celoten seznam opuščenih virov glejte [Zastareli spletni viri v rešitvi Project Service Automation 3.x](web-resources-deprecated-v3.x.md).</span><span class="sxs-lookup"><span data-stu-id="248fa-107">For the full list of deprecated resources, see [Deprecated web resources in Project Service Automation 3.x](web-resources-deprecated-v3.x.md).</span></span>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
