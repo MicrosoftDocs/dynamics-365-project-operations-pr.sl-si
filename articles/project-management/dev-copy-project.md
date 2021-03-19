@@ -8,50 +8,50 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
-ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
+ms.openlocfilehash: 27847575e2d6ec9af77d24f756b13d3aeb0efea7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5045029"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286943"
 ---
-# <a name="develop-project-templates-with-copy-project"></a><span data-ttu-id="e63c2-103">Razvoj predlog projekta s funkcijo »Kopiraj projekt«</span><span class="sxs-lookup"><span data-stu-id="e63c2-103">Develop project templates with Copy Project</span></span>
+# <a name="develop-project-templates-with-copy-project"></a><span data-ttu-id="0719c-103">Razvoj predlog projekta s funkcijo »Kopiraj projekt«</span><span class="sxs-lookup"><span data-stu-id="0719c-103">Develop project templates with Copy Project</span></span>
 
-<span data-ttu-id="e63c2-104">_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_</span><span class="sxs-lookup"><span data-stu-id="e63c2-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="0719c-104">_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_</span><span class="sxs-lookup"><span data-stu-id="0719c-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="e63c2-105">Dynamics 365 Project Operations podpira možnost kopiranja projekta in vračanja opravil v splošne vire, ki predstavljajo vlogo.</span><span class="sxs-lookup"><span data-stu-id="e63c2-105">Dynamics 365 Project Operations supports the ability to copy a project and revert any assignments back to the generic resources that represent the role.</span></span> <span data-ttu-id="e63c2-106">Stranke lahko to funkcijo uporabijo za izdelavo osnovnih predlog projekta.</span><span class="sxs-lookup"><span data-stu-id="e63c2-106">Customers can use this functionality to build basic project templates.</span></span>
+<span data-ttu-id="0719c-105">Dynamics 365 Project Operations podpira možnost kopiranja projekta in vračanja opravil v splošne vire, ki predstavljajo vlogo.</span><span class="sxs-lookup"><span data-stu-id="0719c-105">Dynamics 365 Project Operations supports the ability to copy a project and revert any assignments back to the generic resources that represent the role.</span></span> <span data-ttu-id="0719c-106">Stranke lahko to funkcijo uporabijo za izdelavo osnovnih predlog projekta.</span><span class="sxs-lookup"><span data-stu-id="0719c-106">Customers can use this functionality to build basic project templates.</span></span>
 
-<span data-ttu-id="e63c2-107">Ko izberete **Kopiraj projekt**, se posodobi stanje ciljnega projekta.</span><span class="sxs-lookup"><span data-stu-id="e63c2-107">When you select **Copy Project**, the status of the target project is updated.</span></span> <span data-ttu-id="e63c2-108">Uporabite **Razlog stanja**, da ugotovite, kdaj je dejanje kopiranja končano.</span><span class="sxs-lookup"><span data-stu-id="e63c2-108">Use **Status Reason** to determine when the copy action is complete.</span></span> <span data-ttu-id="e63c2-109">Z izbiro funkcije **Kopiraj projekt** boste tudi posodobili začetni datum projekta na trenutni začetni datum, če v ciljni projektni entiteti ni zaznan noben ciljni datum.</span><span class="sxs-lookup"><span data-stu-id="e63c2-109">Selecting **Copy Project** also updates the start date of the project to the current start date if no target date is detected in the target project entity.</span></span>
+<span data-ttu-id="0719c-107">Ko izberete **Kopiraj projekt**, se posodobi stanje ciljnega projekta.</span><span class="sxs-lookup"><span data-stu-id="0719c-107">When you select **Copy Project**, the status of the target project is updated.</span></span> <span data-ttu-id="0719c-108">Uporabite **Razlog stanja**, da ugotovite, kdaj je dejanje kopiranja končano.</span><span class="sxs-lookup"><span data-stu-id="0719c-108">Use **Status Reason** to determine when the copy action is complete.</span></span> <span data-ttu-id="0719c-109">Z izbiro funkcije **Kopiraj projekt** boste tudi posodobili začetni datum projekta na trenutni začetni datum, če v ciljni projektni entiteti ni zaznan noben ciljni datum.</span><span class="sxs-lookup"><span data-stu-id="0719c-109">Selecting **Copy Project** also updates the start date of the project to the current start date if no target date is detected in the target project entity.</span></span>
 
-## <a name="copy-project-custom-action"></a><span data-ttu-id="e63c2-110">Dejanje po meri »Kopiraj projekt«</span><span class="sxs-lookup"><span data-stu-id="e63c2-110">Copy Project custom action</span></span> 
+## <a name="copy-project-custom-action"></a><span data-ttu-id="0719c-110">Dejanje po meri »Kopiraj projekt«</span><span class="sxs-lookup"><span data-stu-id="0719c-110">Copy Project custom action</span></span> 
 
-### <a name="name"></a><span data-ttu-id="e63c2-111">Imenu</span><span class="sxs-lookup"><span data-stu-id="e63c2-111">Name</span></span> 
+### <a name="name"></a><span data-ttu-id="0719c-111">Imenu</span><span class="sxs-lookup"><span data-stu-id="0719c-111">Name</span></span> 
 
-<span data-ttu-id="e63c2-112">**msdyn_CopyProjectV2**</span><span class="sxs-lookup"><span data-stu-id="e63c2-112">**msdyn_CopyProjectV2**</span></span>
+<span data-ttu-id="0719c-112">**msdyn_CopyProjectV2**</span><span class="sxs-lookup"><span data-stu-id="0719c-112">**msdyn_CopyProjectV2**</span></span>
 
-### <a name="input-parameters"></a><span data-ttu-id="e63c2-113">Parametri vnosa</span><span class="sxs-lookup"><span data-stu-id="e63c2-113">Input parameters</span></span>
-<span data-ttu-id="e63c2-114">Na voljo so trije parametri za vnos:</span><span class="sxs-lookup"><span data-stu-id="e63c2-114">There are three input parameters:</span></span>
+### <a name="input-parameters"></a><span data-ttu-id="0719c-113">Parametri vnosa</span><span class="sxs-lookup"><span data-stu-id="0719c-113">Input parameters</span></span>
+<span data-ttu-id="0719c-114">Na voljo so trije parametri za vnos:</span><span class="sxs-lookup"><span data-stu-id="0719c-114">There are three input parameters:</span></span>
 
-| <span data-ttu-id="e63c2-115">Parameter</span><span class="sxs-lookup"><span data-stu-id="e63c2-115">Parameter</span></span>          | <span data-ttu-id="e63c2-116">Vnesi</span><span class="sxs-lookup"><span data-stu-id="e63c2-116">Type</span></span>   | <span data-ttu-id="e63c2-117">Vrednosti</span><span class="sxs-lookup"><span data-stu-id="e63c2-117">Values</span></span>                                                   | 
+| <span data-ttu-id="0719c-115">Parameter</span><span class="sxs-lookup"><span data-stu-id="0719c-115">Parameter</span></span>          | <span data-ttu-id="0719c-116">Vnesi</span><span class="sxs-lookup"><span data-stu-id="0719c-116">Type</span></span>   | <span data-ttu-id="0719c-117">Vrednosti</span><span class="sxs-lookup"><span data-stu-id="0719c-117">Values</span></span>                                                   | 
 |--------------------|--------|----------------------------------------------------------|
-| <span data-ttu-id="e63c2-118">ProjectCopyOption</span><span class="sxs-lookup"><span data-stu-id="e63c2-118">ProjectCopyOption</span></span>  | <span data-ttu-id="e63c2-119">String</span><span class="sxs-lookup"><span data-stu-id="e63c2-119">String</span></span> | <span data-ttu-id="e63c2-120">**{"removeNamedResources":true}** ali **{"clearTeamsAndAssignments":true}**</span><span class="sxs-lookup"><span data-stu-id="e63c2-120">**{"removeNamedResources":true}** or **{"clearTeamsAndAssignments":true}**</span></span> |
-| <span data-ttu-id="e63c2-121">SourceProject</span><span class="sxs-lookup"><span data-stu-id="e63c2-121">SourceProject</span></span>      | <span data-ttu-id="e63c2-122">Sklic na entiteto</span><span class="sxs-lookup"><span data-stu-id="e63c2-122">Entity Reference</span></span> | <span data-ttu-id="e63c2-123">Izvorni projekt</span><span class="sxs-lookup"><span data-stu-id="e63c2-123">Source Project</span></span> |
-| <span data-ttu-id="e63c2-124">Cilj</span><span class="sxs-lookup"><span data-stu-id="e63c2-124">Target</span></span>             | <span data-ttu-id="e63c2-125">Sklic na entiteto</span><span class="sxs-lookup"><span data-stu-id="e63c2-125">Entity Reference</span></span> | <span data-ttu-id="e63c2-126">Ciljni projekt</span><span class="sxs-lookup"><span data-stu-id="e63c2-126">Target Project</span></span> |
+| <span data-ttu-id="0719c-118">ProjectCopyOption</span><span class="sxs-lookup"><span data-stu-id="0719c-118">ProjectCopyOption</span></span>  | <span data-ttu-id="0719c-119">String</span><span class="sxs-lookup"><span data-stu-id="0719c-119">String</span></span> | <span data-ttu-id="0719c-120">**{"removeNamedResources":true}** ali **{"clearTeamsAndAssignments":true}**</span><span class="sxs-lookup"><span data-stu-id="0719c-120">**{"removeNamedResources":true}** or **{"clearTeamsAndAssignments":true}**</span></span> |
+| <span data-ttu-id="0719c-121">SourceProject</span><span class="sxs-lookup"><span data-stu-id="0719c-121">SourceProject</span></span>      | <span data-ttu-id="0719c-122">Sklic na entiteto</span><span class="sxs-lookup"><span data-stu-id="0719c-122">Entity Reference</span></span> | <span data-ttu-id="0719c-123">Izvorni projekt</span><span class="sxs-lookup"><span data-stu-id="0719c-123">Source Project</span></span> |
+| <span data-ttu-id="0719c-124">Cilj</span><span class="sxs-lookup"><span data-stu-id="0719c-124">Target</span></span>             | <span data-ttu-id="0719c-125">Sklic na entiteto</span><span class="sxs-lookup"><span data-stu-id="0719c-125">Entity Reference</span></span> | <span data-ttu-id="0719c-126">Ciljni projekt</span><span class="sxs-lookup"><span data-stu-id="0719c-126">Target Project</span></span> |
 
 
-- <span data-ttu-id="e63c2-127">**{"clearTeamsAndAssignments":true}**: privzeto vedenje za spletni projekt, ki odstrani vse naloge in člane ekipe.</span><span class="sxs-lookup"><span data-stu-id="e63c2-127">**{"clearTeamsAndAssignments":true}**: Thee default behavior for Project for the Web, and will remove all assignments and team members.</span></span>
-- <span data-ttu-id="e63c2-128">**{"removeNamedResources":true}** Privzeto vedenje za aplikacijo Project Operations, ki povrne naloge nazaj na splošne vire.</span><span class="sxs-lookup"><span data-stu-id="e63c2-128">**{"removeNamedResources":true}** The default behavior for Project Operations, and will revert assignments to generic resources.</span></span>
+- <span data-ttu-id="0719c-127">**{"clearTeamsAndAssignments":true}**: privzeto vedenje za spletni projekt, ki odstrani vse naloge in člane ekipe.</span><span class="sxs-lookup"><span data-stu-id="0719c-127">**{"clearTeamsAndAssignments":true}**: Thee default behavior for Project for the Web, and will remove all assignments and team members.</span></span>
+- <span data-ttu-id="0719c-128">**{"removeNamedResources":true}** Privzeto vedenje za aplikacijo Project Operations, ki povrne naloge nazaj na splošne vire.</span><span class="sxs-lookup"><span data-stu-id="0719c-128">**{"removeNamedResources":true}** The default behavior for Project Operations, and will revert assignments to generic resources.</span></span>
 
-<span data-ttu-id="e63c2-129">Za več informacij o dejanjih glejte [Uporaba dejanj spletnega API-ja](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span><span class="sxs-lookup"><span data-stu-id="e63c2-129">For more defaults on actions, see [Use Web API actions](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span></span>
+<span data-ttu-id="0719c-129">Za več informacij o dejanjih glejte [Uporaba dejanj spletnega API-ja](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span><span class="sxs-lookup"><span data-stu-id="0719c-129">For more defaults on actions, see [Use Web API actions](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span></span>
 
-## <a name="specify-fields-to-copy"></a><span data-ttu-id="e63c2-130">Določi polja za kopiranje</span><span class="sxs-lookup"><span data-stu-id="e63c2-130">Specify fields to copy</span></span> 
-<span data-ttu-id="e63c2-131">Ko je dejanje klicano, si bo dejanje **Kopiraj projekt** v projektnem pogledu ogledalo **Kopiraj projektne stolpce**, da bo določilo, katera polja kopirati pri kopiranju projekta.</span><span class="sxs-lookup"><span data-stu-id="e63c2-131">When the action is called, **Copy Project** will look at the project view **Copy Project Columns** to determine which fields to copy when the project is copied.</span></span>
+## <a name="specify-fields-to-copy"></a><span data-ttu-id="0719c-130">Določi polja za kopiranje</span><span class="sxs-lookup"><span data-stu-id="0719c-130">Specify fields to copy</span></span> 
+<span data-ttu-id="0719c-131">Ko je dejanje klicano, si bo dejanje **Kopiraj projekt** v projektnem pogledu ogledalo **Kopiraj projektne stolpce**, da bo določilo, katera polja kopirati pri kopiranju projekta.</span><span class="sxs-lookup"><span data-stu-id="0719c-131">When the action is called, **Copy Project** will look at the project view **Copy Project Columns** to determine which fields to copy when the project is copied.</span></span>
 
 
-### <a name="example"></a><span data-ttu-id="e63c2-132">Primer</span><span class="sxs-lookup"><span data-stu-id="e63c2-132">Example</span></span>
-<span data-ttu-id="e63c2-133">V spodnjem primeru je prikazano, kako pokličete dejanje po meri **CopyProject** z nastavljenim parametrom **removeNamedResources**.</span><span class="sxs-lookup"><span data-stu-id="e63c2-133">The following example shows how to call the **CopyProject** custom action with the **removeNamedResources** parameter set.</span></span>
+### <a name="example"></a><span data-ttu-id="0719c-132">Primer</span><span class="sxs-lookup"><span data-stu-id="0719c-132">Example</span></span>
+<span data-ttu-id="0719c-133">V spodnjem primeru je prikazano, kako pokličete dejanje po meri **CopyProject** z nastavljenim parametrom **removeNamedResources**.</span><span class="sxs-lookup"><span data-stu-id="0719c-133">The following example shows how to call the **CopyProject** custom action with the **removeNamedResources** parameter set.</span></span>
 ```C#
 {
     using System;
@@ -112,3 +112,6 @@ ms.locfileid: "5045029"
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

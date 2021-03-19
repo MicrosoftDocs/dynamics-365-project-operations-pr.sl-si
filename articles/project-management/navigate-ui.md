@@ -8,97 +8,100 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: deedfe0c6601fd09e09460034c9a0db936b6566e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 02dda534dcab4e8fee0a96a7e09759c32a669be5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127538"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286763"
 ---
-# <a name="navigating-the-user-interface"></a><span data-ttu-id="541cd-103">Krmarjenje po uporabniškem vmesniku</span><span class="sxs-lookup"><span data-stu-id="541cd-103">Navigating the user interface</span></span>
+# <a name="navigating-the-user-interface"></a><span data-ttu-id="ddd2c-103">Krmarjenje po uporabniškem vmesniku</span><span class="sxs-lookup"><span data-stu-id="ddd2c-103">Navigating the user interface</span></span>
 
-<span data-ttu-id="541cd-104">_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_</span><span class="sxs-lookup"><span data-stu-id="541cd-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="ddd2c-104">_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_</span><span class="sxs-lookup"><span data-stu-id="ddd2c-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-## <a name="overview"></a><span data-ttu-id="541cd-105">Pregled</span><span class="sxs-lookup"><span data-stu-id="541cd-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="ddd2c-105">Pregled</span><span class="sxs-lookup"><span data-stu-id="ddd2c-105">Overview</span></span>
 
-<span data-ttu-id="541cd-106">Glavni obrazec projekta je razdeljen na več zavihkov.</span><span class="sxs-lookup"><span data-stu-id="541cd-106">The main project form is separated into several tabs.</span></span> <span data-ttu-id="541cd-107">Vsak zavihek predstavlja drugačno raven podrobnosti v projektu.</span><span class="sxs-lookup"><span data-stu-id="541cd-107">Each tab represents a different level of detail within the project.</span></span>
+<span data-ttu-id="ddd2c-106">Glavni obrazec projekta je razdeljen na več zavihkov.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-106">The main project form is separated into several tabs.</span></span> <span data-ttu-id="ddd2c-107">Vsak zavihek predstavlja drugačno raven podrobnosti v projektu.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-107">Each tab represents a different level of detail within the project.</span></span>
 
-- <span data-ttu-id="541cd-108">**Povzetek**: ponuja opis projekta ter združuje načrtovano in dejansko učinkovitost projekta.</span><span class="sxs-lookup"><span data-stu-id="541cd-108">**Summary**: Provides a description of the project and aggregates both the planned and actual project performance.</span></span>
+- <span data-ttu-id="ddd2c-108">**Povzetek**: ponuja opis projekta ter združuje načrtovano in dejansko učinkovitost projekta.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-108">**Summary**: Provides a description of the project and aggregates both the planned and actual project performance.</span></span>
 
     ![Zavihek »Povzetek« in polja](media/navigation7.png)
 
-- <span data-ttu-id="541cd-110">**Opravila**: zagotavlja podrobnosti o strukturirani členitvi dela, ki jo predstavljajo pogled mreže, pogled plošče in Ganttov grafikon.</span><span class="sxs-lookup"><span data-stu-id="541cd-110">**Tasks**: Provides the details regarding the work breakdown structure represented by a grid view, board view, and a gantt.</span></span>
+- <span data-ttu-id="ddd2c-110">**Opravila**: zagotavlja podrobnosti o strukturirani členitvi dela, ki jo predstavljajo pogled mreže, pogled plošče in Ganttov grafikon.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-110">**Tasks**: Provides the details regarding the work breakdown structure represented by a grid view, board view, and a gantt.</span></span>
 
     ![Zavihek »Opravilo« in polja](media/navigation8.png)
 
-- <span data-ttu-id="541cd-112">**Ekipa**: vsebuje podrobnosti o udeležencih v projektu.</span><span class="sxs-lookup"><span data-stu-id="541cd-112">**Team**: Provides details regarding the project participants.</span></span> <span data-ttu-id="541cd-113">V tem pogledu so povzete tudi dodeljene naloge vsakega člana ekipe.</span><span class="sxs-lookup"><span data-stu-id="541cd-113">The assigned effort of each team member is also summarized in this view.</span></span>
+- <span data-ttu-id="ddd2c-112">**Ekipa**: vsebuje podrobnosti o udeležencih v projektu.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-112">**Team**: Provides details regarding the project participants.</span></span> <span data-ttu-id="ddd2c-113">V tem pogledu so povzete tudi dodeljene naloge vsakega člana ekipe.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-113">The assigned effort of each team member is also summarized in this view.</span></span>
 
     ![Zavihek »Ekipa« in polja](media/navigation9.png)
 
-- <span data-ttu-id="541cd-115">**Dodelitve virov**: omogočajo časovno razporejen pogled nalog za vsak vir v projektu.</span><span class="sxs-lookup"><span data-stu-id="541cd-115">**Resource assignments**: Provides a time-phased view of the effort for each resource on a project.</span></span>
+- <span data-ttu-id="ddd2c-115">**Dodelitve virov**: omogočajo časovno razporejen pogled nalog za vsak vir v projektu.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-115">**Resource assignments**: Provides a time-phased view of the effort for each resource on a project.</span></span>
 
     ![Zavihek »Dodelitve virov« in polja](media/navigation10.png)
 
-- <span data-ttu-id="541cd-117">**Uskladitev virov**: omogoča časovno razporejen prikaz razlik med dodelitvami vsakega imenovanega vira in njihovimi rezervacijami.</span><span class="sxs-lookup"><span data-stu-id="541cd-117">**Resource reconciliation**: Provides a time-phased view of the differences between the assignments of each named resource and their bookings.</span></span>
+- <span data-ttu-id="ddd2c-117">**Uskladitev virov**: omogoča časovno razporejen prikaz razlik med dodelitvami vsakega imenovanega vira in njihovimi rezervacijami.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-117">**Resource reconciliation**: Provides a time-phased view of the differences between the assignments of each named resource and their bookings.</span></span>
 
     ![Zavihek »Uskladitev virov« in polja](media/navigation11.png)
 
-- <span data-ttu-id="541cd-119">**Ocene**: omogoča časovno razporejen prikaz stroškov in ocen prodaje projekta.</span><span class="sxs-lookup"><span data-stu-id="541cd-119">**Estimates**: Provides a time-phased view of the cost and sales estimates of a project.</span></span>
+- <span data-ttu-id="ddd2c-119">**Ocene**: omogoča časovno razporejen prikaz stroškov in ocen prodaje projekta.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-119">**Estimates**: Provides a time-phased view of the cost and sales estimates of a project.</span></span>
 
     ![Zavihek »Ocene« in polja](media/navigation12.png)
 
-- <span data-ttu-id="541cd-121">**Sledenje**: omogoča pogled, ki prikazuje napredek pri opravilih v strukturirani členitvi dela glede za naloge, stroške in prodajo.</span><span class="sxs-lookup"><span data-stu-id="541cd-121">**Tracking**: Provides a view that shows the progress of tasks in the work breakdown structure for effort, cost, and sales.</span></span>
+- <span data-ttu-id="ddd2c-121">**Sledenje**: omogoča pogled, ki prikazuje napredek pri opravilih v strukturirani členitvi dela glede za naloge, stroške in prodajo.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-121">**Tracking**: Provides a view that shows the progress of tasks in the work breakdown structure for effort, cost, and sales.</span></span>
 
     ![Zavihek »Sledenje« in polja](media/navigation13.png)
 
-- <span data-ttu-id="541cd-123">**Prodaja**: ponuja globoke povezave do ponudb in pogodb, povezanih s projektom.</span><span class="sxs-lookup"><span data-stu-id="541cd-123">**Sales**: Provides deep links to quotes and contracts associated with the project.</span></span>
+- <span data-ttu-id="ddd2c-123">**Prodaja**: ponuja globoke povezave do ponudb in pogodb, povezanih s projektom.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-123">**Sales**: Provides deep links to quotes and contracts associated with the project.</span></span>
 
-- <span data-ttu-id="541cd-124">**Ocena stroškov**: ponuja mrežo, ki opredeljuje stroške projekta na podlagi kategorij organizacijskih stroškov.</span><span class="sxs-lookup"><span data-stu-id="541cd-124">**Expense Estimates**: Provides a grid that defines project expenses based upon organizational expense categories.</span></span>
+- <span data-ttu-id="ddd2c-124">**Ocena stroškov**: ponuja mrežo, ki opredeljuje stroške projekta na podlagi kategorij organizacijskih stroškov.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-124">**Expense Estimates**: Provides a grid that defines project expenses based upon organizational expense categories.</span></span>
 
     ![Zavihek »Ocena stroškov« in polja](media/navigation14.png)
 
-## <a name="grid-controls"></a><span data-ttu-id="541cd-126">Kontrolniki mreže</span><span class="sxs-lookup"><span data-stu-id="541cd-126">Grid controls</span></span>
+## <a name="grid-controls"></a><span data-ttu-id="ddd2c-126">Kontrolniki mreže</span><span class="sxs-lookup"><span data-stu-id="ddd2c-126">Grid controls</span></span>
 
-<span data-ttu-id="541cd-127">Sledi kratek pregled tipičnih kontrolnikov, ki jih najdemo na različnih zavihkih za načrtovanje projektov.</span><span class="sxs-lookup"><span data-stu-id="541cd-127">The follow is a brief overview of the typical controls found on the various project planning tabs.</span></span>
+<span data-ttu-id="ddd2c-127">Sledi kratek pregled tipičnih kontrolnikov, ki jih najdemo na različnih zavihkih za načrtovanje projektov.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-127">The follow is a brief overview of the typical controls found on the various project planning tabs.</span></span>
 
-### <a name="refresh"></a><span data-ttu-id="541cd-128">Osveži</span><span class="sxs-lookup"><span data-stu-id="541cd-128">Refresh</span></span>
+### <a name="refresh"></a><span data-ttu-id="ddd2c-128">Osveži</span><span class="sxs-lookup"><span data-stu-id="ddd2c-128">Refresh</span></span>
 
-<span data-ttu-id="541cd-129">**Osveži**: pridobi najnovejše podatke s strežnika, če je prišlo do sprememb po nalaganju mreže.</span><span class="sxs-lookup"><span data-stu-id="541cd-129">**Refresh**: Retrieves the latest data from the server if any changes occurred after the grid was loaded.</span></span>
+<span data-ttu-id="ddd2c-129">**Osveži**: pridobi najnovejše podatke s strežnika, če je prišlo do sprememb po nalaganju mreže.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-129">**Refresh**: Retrieves the latest data from the server if any changes occurred after the grid was loaded.</span></span>
 
 ![Gumb »Osveži«](media/navigation7.png)
 
-### <a name="group-by"></a><span data-ttu-id="541cd-131">Združi po</span><span class="sxs-lookup"><span data-stu-id="541cd-131">Group by</span></span>
+### <a name="group-by"></a><span data-ttu-id="ddd2c-131">Združi po</span><span class="sxs-lookup"><span data-stu-id="ddd2c-131">Group by</span></span>
 
-<span data-ttu-id="541cd-132">**Razvrsti po**: posodobi združevanje vrstic v mreži tako, da odraža vire, vloge ali kategorije glede na potrebe uporabnika.</span><span class="sxs-lookup"><span data-stu-id="541cd-132">**Group by**: Updates the grouping of the rows in the grid to reflect either resources, roles, or categories based on the user's needs.</span></span>
+<span data-ttu-id="ddd2c-132">**Razvrsti po**: posodobi združevanje vrstic v mreži tako, da odraža vire, vloge ali kategorije glede na potrebe uporabnika.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-132">**Group by**: Updates the grouping of the rows in the grid to reflect either resources, roles, or categories based on the user's needs.</span></span>
 
 ![Gumb »Združi po«](media/navigation6.png)
 
-### <a name="previousnext"></a><span data-ttu-id="541cd-134">Nazaj/naprej</span><span class="sxs-lookup"><span data-stu-id="541cd-134">Previous/Next</span></span>
+### <a name="previousnext"></a><span data-ttu-id="ddd2c-134">Nazaj/naprej</span><span class="sxs-lookup"><span data-stu-id="ddd2c-134">Previous/Next</span></span>
 
-<span data-ttu-id="541cd-135">**Nazaj**/**naprej** : posodobite vidna časovna obdobja na časovno razporejenih mrežah.</span><span class="sxs-lookup"><span data-stu-id="541cd-135">**Previous**/**Next**: Update the visible time periods on the time-phased grids.</span></span>
+<span data-ttu-id="ddd2c-135">**Nazaj**/**naprej** : posodobite vidna časovna obdobja na časovno razporejenih mrežah.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-135">**Previous**/**Next**: Update the visible time periods on the time-phased grids.</span></span>
 
 ![Gumba »Nazaj« in »Naprej«](media/navigation2.png)
 
-### <a name="timescale"></a><span data-ttu-id="541cd-137">Časovno merilo</span><span class="sxs-lookup"><span data-stu-id="541cd-137">Timescale</span></span>
+### <a name="timescale"></a><span data-ttu-id="ddd2c-137">Časovno merilo</span><span class="sxs-lookup"><span data-stu-id="ddd2c-137">Timescale</span></span>
 
-<span data-ttu-id="541cd-138">**Časovno merilo** : spremenite združevanje časovno razporejenih podatkov med dnevi, tedni, meseci in leti.</span><span class="sxs-lookup"><span data-stu-id="541cd-138">**Timescale**: Change the aggregation of the time-phased data between days, weeks, months, and years.</span></span>
+<span data-ttu-id="ddd2c-138">**Časovno merilo** : spremenite združevanje časovno razporejenih podatkov med dnevi, tedni, meseci in leti.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-138">**Timescale**: Change the aggregation of the time-phased data between days, weeks, months, and years.</span></span>
 
 ![Gumb »Časovno merilo«](media/navigation3.png)
 
-### <a name="expand"></a><span data-ttu-id="541cd-140">Razširi</span><span class="sxs-lookup"><span data-stu-id="541cd-140">Expand</span></span>
+### <a name="expand"></a><span data-ttu-id="ddd2c-140">Razširi</span><span class="sxs-lookup"><span data-stu-id="ddd2c-140">Expand</span></span>
 
-<span data-ttu-id="541cd-141">**Razširi**: upodobi vidno mrežo na celozaslonski način in tako omogoči prikaz več dodatnih vlog.</span><span class="sxs-lookup"><span data-stu-id="541cd-141">**Expand**: Render the visible grid to full screen providing more ability to see additional roles.</span></span>
+<span data-ttu-id="ddd2c-141">**Razširi**: upodobi vidno mrežo na celozaslonski način in tako omogoči prikaz več dodatnih vlog.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-141">**Expand**: Render the visible grid to full screen providing more ability to see additional roles.</span></span>
 
 ![Gumb »Razširi«](media/navigation4.png)
 
-### <a name="time-phase-by"></a><span data-ttu-id="541cd-143">Časovno razporedi po</span><span class="sxs-lookup"><span data-stu-id="541cd-143">Time-phase by</span></span>
+### <a name="time-phase-by"></a><span data-ttu-id="ddd2c-143">Časovno razporedi po</span><span class="sxs-lookup"><span data-stu-id="ddd2c-143">Time-phase by</span></span>
 
-<span data-ttu-id="541cd-144">**Časovno razporedi po**: posodobite združevanje vrstic v mrežo tako, da odraža ocene stroškov za ocene prodaje.</span><span class="sxs-lookup"><span data-stu-id="541cd-144">**Time-phase by**: Update the grouping of the rows in the grid to reflect cost estimates for sales estimates.</span></span> <span data-ttu-id="541cd-145">Ta kontrolnik velja tudi za ocenjevalni skript in mrežo za sledenje.</span><span class="sxs-lookup"><span data-stu-id="541cd-145">This control also applies to the estimate script and the tracking grid.</span></span>
+<span data-ttu-id="ddd2c-144">**Časovno razporedi po**: posodobite združevanje vrstic v mrežo tako, da odraža ocene stroškov za ocene prodaje.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-144">**Time-phase by**: Update the grouping of the rows in the grid to reflect cost estimates for sales estimates.</span></span> <span data-ttu-id="ddd2c-145">Ta kontrolnik velja tudi za ocenjevalni skript in mrežo za sledenje.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-145">This control also applies to the estimate script and the tracking grid.</span></span>
 
 ![Gumb »Časovno razporedi po«](media/navigation0.png)
 
-### <a name="add-column"></a><span data-ttu-id="541cd-147">Dodaj stolpec</span><span class="sxs-lookup"><span data-stu-id="541cd-147">Add column</span></span>
+### <a name="add-column"></a><span data-ttu-id="ddd2c-147">Dodaj stolpec</span><span class="sxs-lookup"><span data-stu-id="ddd2c-147">Add column</span></span>
 
-<span data-ttu-id="541cd-148">**Dodaj stolpec**: uporabniku omogoča, da določi vidne stolpce v mreži.</span><span class="sxs-lookup"><span data-stu-id="541cd-148">**Add column**: Allows the user to define the visible columns in the grid.</span></span> <span data-ttu-id="541cd-149">V mreže na obrazcu **Načrtovanje projekta** lahko dodate samo vnaprej pripravljene stolpce.</span><span class="sxs-lookup"><span data-stu-id="541cd-149">Only out-of-the-box columns can be added to the grids in the **Project Planning** form.</span></span>
+<span data-ttu-id="ddd2c-148">**Dodaj stolpec**: uporabniku omogoča, da določi vidne stolpce v mreži.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-148">**Add column**: Allows the user to define the visible columns in the grid.</span></span> <span data-ttu-id="ddd2c-149">V mreže na obrazcu **Načrtovanje projekta** lahko dodate samo vnaprej pripravljene stolpce.</span><span class="sxs-lookup"><span data-stu-id="ddd2c-149">Only out-of-the-box columns can be added to the grids in the **Project Planning** form.</span></span>
 
 ![Gumb »Dodaj stolpec«](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
