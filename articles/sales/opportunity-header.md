@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c58c3696ae03e8a33a25a9483825a4b7cbf850be
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181247"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277718"
 ---
 # <a name="opportunity-settings"></a>Nastavitve priložnosti
 
@@ -22,7 +22,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
 
 Glava ali povzetek »Priložnost« zajema splošne informacije o poslu, ki temelji na projektu in velja za vse podrobnosti pri priložnosti, ki temelji na projektu.
 
-Priložnosti, ki temeljijo na projektu, v storitvi Dynamics 365 Project Operations so razširitve priložnosti v storitvi Dynamics 365 Sales. Te razširitve zagotavljajo dodatne funkcije, ki so specifične in potrebne za priložnosti, ki temeljijo na projektih. Te razširitve lahko vključujejo nova polja in dejanja traku, ki so na voljo pri priložnostih, ki temeljijo na projektih. Morda boste ugotovili, da nekatera polja, funkcije in privzeta logika, ki so na voljo v storitvi Sales, niso na voljo v storitvi Project Operations.
+Priložnosti, ki temeljijo na projektih, v aplikaciji Dynamics 365 Project Operations so razširitve priložnosti v aplikaciji Dynamics 365 Sales. Te razširitve zagotavljajo dodatne funkcije, ki so specifične in potrebne za priložnosti, ki temeljijo na projektih. Te razširitve lahko vključujejo nova polja in dejanja traku, ki so na voljo pri priložnostih, ki temeljijo na projektih. Morda boste ugotovili, da nekatera polja, funkcije in privzeta logika, ki so na voljo v storitvi Sales, niso na voljo v storitvi Project Operations.
 
 Naslednja tabela vključuje polja pri priložnosti, ki temelji na projektih, ki so na voljo le v storitvi Project Operations ali pa imajo nekatere pomembne spremembe v delovanju, po katerih se ločijo od priložnosti v storitvi Sales.
 

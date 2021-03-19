@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180257"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277583"
 ---
 # <a name="project-quote-settings"></a>Nastavitve projektnih ponudb
 
@@ -22,7 +22,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
 
 V tem članku so pojasnjene informacije, ki veljajo za projektno ponudbo. To vključuje nastavitve, ki vplivajo na vse podrobnosti ponudb, in informacije o ponudbi, ki so povzete za vse vrstične postavke za uporabo KPI-jev projektne ponudbe.
 
-V spodnji tabeli so navedena polja s povzetkom podatkov o projektni ponudbi, ki so na voljo le v storitvi Dynamics 365 Project Operations ali pa imajo nekatere pomembne spremembe v delovanju, po katerih se ločijo od ponudb v storitvi Dynamics 365 Sales.
+V naslednji tabeli so navedena polja povzetkov podatkov v projektni ponudbi, ki so edinstvena za aplikacijo Dynamics 365 Project Operations ali imajo nekaj pomembnih razlik v vedenju v primerjavi s ponudbami v storitvi Dynamics 365 Sales.
 
 | **Polje** | **Mesto** | **Opis** | **Nadaljnji vpliv** |
 | --- | --- | --- | --- |

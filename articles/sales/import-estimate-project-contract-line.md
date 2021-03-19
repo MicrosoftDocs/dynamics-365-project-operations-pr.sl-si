@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126413"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278393"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Uvoz ocene v podrobnosti pogodbe, ki temeljijo na projektu
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-V storitvi Dynamics 365 Project Operations lahko uvozite ocene iz projekta v podrobnosti pogodbe na podlagi projekta.
+V aplikaciji Dynamics 365 Project Operations lahko uvozite ocene iz projekta v podrobnost pogodbe, ki temelji na projektu.
 
 1. Preverite, ali je polje **Projekt** v podrobnostih pogodbe na podlagi projekta izpolnjeno.
 2. V zavihku **Podrobnosti pogodb** na podmreži izberite **Uvozi iz ocene projekta**. Odpre se pogovorno okno z možnostmi povzemanja. Razpoložljive možnosti povzemanja so **Razred transakcije**, **Kategorija**, **Vloga** in **Projektno opravilo**. Na podlagi izbranih možnosti za povzemanje je prekopirana ocena iz projekta za vse razrede transakcij, ki so vključeni v teh podrobnostih pogodb. 

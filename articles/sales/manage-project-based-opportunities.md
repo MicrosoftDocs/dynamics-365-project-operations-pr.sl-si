@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118493"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277853"
 ---
 # <a name="manage-project-based-opportunities"></a>Upravljanje priložnosti, ki temeljijo na projektu
 
@@ -21,7 +21,7 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoč
 
 Običajno imajo podjetja, ki temeljijo na projektih, postopke za dostavo razvejane po več državah in regijah. Stroški izvajanja in dostave projekta se lahko razlikujejo glede na to, katera regija ali oddelek upravlja dostavo. To pa lahko vpliva na marže posla. Izvajanje projektnih storitev običajno vključuje velike količine porabljenega časa kadra, znatne potne stroške, materialne stroške in druge stroške.
 
-Priložnosti, ki temeljijo na projektu, so v storitvi Dynamics 365 Project Operations zasnovane z razširitvami za Dynamics 365 Sales. Ta tema vsebuje podrobnosti o različnih poljih in poslovni logiki, vključeni v dodatno funkcionalnost, ki jo potrebujejo podjetja, ki temeljijo na projektih, za upravljanje projektnih priložnosti.
+Priložnosti, ki temeljijo na projektih, v aplikaciji Dynamics 365 Project Operations so zasnovani z razširitvami za aplikacijo Dynamics 365 Sales. Ta tema vsebuje podrobnosti o različnih poljih in poslovni logiki, vključeni v dodatno funkcionalnost, ki jo potrebujejo podjetja, ki temeljijo na projektih, za upravljanje projektnih priložnosti.
 
 ## <a name="view-all-project-based-opportunities"></a>Ogled vseh priložnosti, ki temeljijo na projektu
 

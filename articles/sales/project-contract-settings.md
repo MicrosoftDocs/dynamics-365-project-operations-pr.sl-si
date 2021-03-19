@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181159"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277628"
 ---
 # <a name="project-contract-settings"></a>Nastavitve projektne pogodbe
 
@@ -21,7 +21,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
 
 Ta tema vsebuje informacije o poljih, ki veljajo za celotno projektno pogodbo, vključno z nastavitvami, ki vplivajo na vse podrobnosti pogodbe. Vključene so tudi informacije o pogodbi, ki so povzete po vrstičnih postavkah za vodenje KPI-jev projektne pogodbe.
 
-V spodnji tabeli so navedena polja v projektni pogodbi, ki so na voljo le v storitvi Dynamics 365 Project Operations ali pa imajo nekatere pomembne spremembe v delovanju prodajnih naročil v storitvi Dynamics 365 Sales.
+V naslednji tabeli so navedena polja v projektni pogodbi, ki so edinstvena za aplikacijo Dynamics 365 Project Operations ali imajo nekaj pomembnih razlik v vedenju v primerjavi s prodajnimi naročili v storitvi Dynamics 365 Sales.
 
 | Polje | LOkacija | Opis | Nadaljnji vpliv |
 | --- | --- | --- | --- |

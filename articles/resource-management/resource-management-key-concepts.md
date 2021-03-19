@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123893"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279518"
 ---
 # <a name="resource-management-key-concepts"></a>Ključni pojmi upravljanja virov
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Viri so najpomembnejše sredstvo organizacije, ki temelji na storitvah. Sposobnost iskanja pravih virov ob pravem času, rezerviranja teh virov v projektih in ohranjanja uporabe teh virov pomaga organizaciji izpolniti cilje glede prihodkov in zadovoljstva strank. Funkcijo za dodelitev virov projekta v storitvi Dynamics 365 Project Operations lahko uporabite za izvajanje naslednjih opravil:
+Viri so najpomembnejše sredstvo organizacije, ki temelji na storitvah. Sposobnost iskanja pravih virov ob pravem času, rezerviranja teh virov v projektih in ohranjanja uporabe teh virov pomaga organizaciji izpolniti cilje glede prihodkov in zadovoljstva strank. Funkcijo za dodelitev virov projekta v aplikaciji Dynamics 365 Project Operations lahko uporabite za naslednja opravila:
 
 - Oblikovanje projektnih skupin z rezervacijo razpoložljivih in kvalificiranih virov.
 - Ustvarjanje zapisov o splošnih članih ekipe ter določanje njihovih vlog in organizacijskih enot virov.

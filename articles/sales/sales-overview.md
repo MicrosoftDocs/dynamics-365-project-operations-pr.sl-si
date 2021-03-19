@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177621"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277403"
 ---
 # <a name="sales-process-overview"></a>Pregled prodajnega procesa
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Prodajni postopki, ki se uporabljajo v organizaciji, v kateri poslovanje poteka na podlagi projektov, se razlikujejo od prodajnih postopkov, ki se uporabljajo v organizaciji, v kateri poslovanje poteka na podlagi izdelkov. To pa zato, ker so prodajni cikli za organizacije, v katerih poslovanje poteka na podlagi projektov, daljši in zahtevajo prilagojene tehnike ocenjevanja za analiziranje in ustvarjanje ponudb za vsak posel. Dynamics 365 Project Operations uporablja nekatere iste naslednje funkcije, ki so uporabljene v prodajnem postopku:
+Prodajni postopki, ki se uporabljajo v organizaciji, v kateri poslovanje poteka na podlagi projektov, se razlikujejo od prodajnih postopkov, ki se uporabljajo v organizaciji, v kateri poslovanje poteka na podlagi izdelkov. To pa zato, ker so prodajni cikli za organizacije, v katerih poslovanje poteka na podlagi projektov, daljši in zahtevajo prilagojene tehnike ocenjevanja za analiziranje in ustvarjanje ponudb za vsak posel. Aplikacija Dynamics 365 Project Operations uporablja nekaj naslednjih funkcij, ki se uporabljajo v prodajnem postopku:
 
 - Zapis možne stranke se uporablja za spremljanje prodajnega postopka.
 - Potrjevanje možnih strank se beleži kot priložnosti.

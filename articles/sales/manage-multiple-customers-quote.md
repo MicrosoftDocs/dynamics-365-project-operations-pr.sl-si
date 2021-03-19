@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182012"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277898"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Upravljanje več strank v ponudbi za projekt
 
@@ -23,7 +23,7 @@ Ponudbe za projekte podpirajo scenarij, v katerem predlog vključuje več strank
 
 Vse stranke ponudbe na zavihku **Stranke** ponudbe za projekt so privzeto nastavljene kot stranke v podrobnostih ponudbe pri katerih koli **novih** podrobnostih ponudbe, ki temeljijo na projektu, ustvarjenih za ponudbo. Morebitne obstoječe podrobnosti ponudbe, ki temelji na projektu, ne bodo podedovale novih zapisov strank o ponudbah, ki so bili ustvarjeni pozneje.
 
-Stranke ponudbe in stranke v podrobnostih ponudbe lahko kadar koli dodate, posodobite ali izbrišete, preden je pridobljena ponudba. Veljavna stranka na ponudbi mora biti nastavljena kot stranka v lastniškem podjetju ali pravni osebi na strani **Stranke**. Pravne osebe so nastavljene v modulu **Vodenje projektov in računovodstvo** v storitvi Dynamics 365 Project Operations ter so na voljo kot podjetja v modulih storitve Project Operations **Prodaja in izvedba projektov**.
+Stranke ponudbe in stranke v podrobnostih ponudbe lahko kadar koli dodate, posodobite ali izbrišete, preden je pridobljena ponudba. Veljavna stranka na ponudbi mora biti nastavljena kot stranka v lastniškem podjetju ali pravni osebi na strani **Stranke**. Pravne osebe so opredeljene v modulu **Upravljanje projektov in računovodstvo** aplikacije Dynamics 365 Project Operations in so na voljo kot Podjetja v modulih **Projektna prodaja in Dostava** v storitvi Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Koncept primarne stranke
 

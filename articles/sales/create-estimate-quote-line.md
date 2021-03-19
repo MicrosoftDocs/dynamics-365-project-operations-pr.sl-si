@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122948"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278483"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Ustvarjanje ocen za podrobnosti ponudbe
 
@@ -30,7 +30,7 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, 
 
 V ponudbi, ki temelji na projektu, lahko uporabite entiteto podrobnosti vrstice ponudbe, da ocenite, koliko dela je potrebnega za dokončanje projekta. To oceno lahko nato delite s stranko.
 
-Vrstice ponudbe na osnovi projekta ne potrebujejo podrobnosti vrstice ponudbe. Lahko pa imajo več podrobnosti vrstice ponudbe. Podrobnosti vrstice ponudbe se uporabljajo za oceno časa, stroškov ali pristojbin. Dynamics 365 Project Operations v podrobnostih vrstice ponudbe ne dovoli ocen za material. Te se imenujejo razredi transakcije. Predvideni znesek davka je prav tako mogoče vnesti v razred transakcij.
+Vrstice ponudbe na osnovi projekta ne potrebujejo podrobnosti vrstice ponudbe. Lahko pa imajo več podrobnosti vrstice ponudbe. Podrobnosti vrstice ponudbe se uporabljajo za oceno časa, stroškov ali pristojbin. Aplikacija Dynamics 365 Project Operations v podrobnostih vrstice ponudbe ne dovoli ocen za material. Te se imenujejo razredi transakcije. Predvideni znesek davka je prav tako mogoče vnesti v razred transakcij.
 
 Poleg razredov transakcij vsebujejo podrobnosti vrstice ponudbe tudi vrsto transakcije. Obstajata dve vrsti transakcij za podrobnosti vrstice ponudbe, **Strošek** in **Projektna pogodba**.
 
