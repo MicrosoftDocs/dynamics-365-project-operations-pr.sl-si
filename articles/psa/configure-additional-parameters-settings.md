@@ -18,52 +18,55 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73264845808e12950a48eea2b79e54c393d9c024
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bac484e29f1a0578042f350b1657a42e80b48cb4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151588"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290784"
 ---
-# <a name="configure-additional-parameter-settings-project-service"></a><span data-ttu-id="38f21-103">Konfiguracija nastavitev dodatnih parametrov (rešitev Project Service)</span><span class="sxs-lookup"><span data-stu-id="38f21-103">Configure additional parameter settings (Project Service)</span></span>
+# <a name="configure-additional-parameter-settings-project-service"></a><span data-ttu-id="b87f8-103">Konfiguracija nastavitev dodatnih parametrov (rešitev Project Service)</span><span class="sxs-lookup"><span data-stu-id="b87f8-103">Configure additional parameter settings (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="38f21-104">Ko ste konfigurirali elemente v prejšnjih temah, morate nastaviti še dodatne parametre projekta, ki jih boste uporabljali za svoje projekte.</span><span class="sxs-lookup"><span data-stu-id="38f21-104">Once you’ve configured the items in previous topics, you need to set additional project parameters to use for your projects.</span></span> <span data-ttu-id="38f21-105">Ob prvi namestitvi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ste ustvarili nastavitev parametrov, s katero ste najprej ustvarili vse zapise, ki so potrebni za delovanje [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="38f21-105">When you first installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you created a parameters setting to first create all the records required for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to work.</span></span> <span data-ttu-id="38f21-106">Zdaj je čas, da se vrnete nazaj in konfigurirate dodatna polja za te nastavitve.</span><span class="sxs-lookup"><span data-stu-id="38f21-106">Now it’s time to go back and configure additional fields for these settings.</span></span>  
+<span data-ttu-id="b87f8-104">Ko ste konfigurirali elemente v prejšnjih temah, morate nastaviti še dodatne parametre projekta, ki jih boste uporabljali za svoje projekte.</span><span class="sxs-lookup"><span data-stu-id="b87f8-104">Once you’ve configured the items in previous topics, you need to set additional project parameters to use for your projects.</span></span> <span data-ttu-id="b87f8-105">Ob prvi namestitvi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ste ustvarili nastavitev parametrov, s katero ste najprej ustvarili vse zapise, ki so potrebni za delovanje [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="b87f8-105">When you first installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you created a parameters setting to first create all the records required for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to work.</span></span> <span data-ttu-id="b87f8-106">Zdaj je čas, da se vrnete nazaj in konfigurirate dodatna polja za te nastavitve.</span><span class="sxs-lookup"><span data-stu-id="b87f8-106">Now it’s time to go back and configure additional fields for these settings.</span></span>  
   
- <span data-ttu-id="38f21-107">Konfigurirati boste morali naslednje nastavitve:</span><span class="sxs-lookup"><span data-stu-id="38f21-107">You’ll need to have configured the following settings:</span></span>  
+ <span data-ttu-id="b87f8-107">Konfigurirati boste morali naslednje nastavitve:</span><span class="sxs-lookup"><span data-stu-id="b87f8-107">You’ll need to have configured the following settings:</span></span>  
   
--   <span data-ttu-id="38f21-108">Organizacijska enota</span><span class="sxs-lookup"><span data-stu-id="38f21-108">Organizational unit</span></span>  
+-   <span data-ttu-id="b87f8-108">Organizacijska enota</span><span class="sxs-lookup"><span data-stu-id="b87f8-108">Organizational unit</span></span>  
   
--   <span data-ttu-id="38f21-109">Pogostost izdajanja računov</span><span class="sxs-lookup"><span data-stu-id="38f21-109">Invoice frequency</span></span>  
+-   <span data-ttu-id="b87f8-109">Pogostost izdajanja računov</span><span class="sxs-lookup"><span data-stu-id="b87f8-109">Invoice frequency</span></span>  
   
--   <span data-ttu-id="38f21-110">Predloga delovnih ur</span><span class="sxs-lookup"><span data-stu-id="38f21-110">Work hours template</span></span>  
+-   <span data-ttu-id="b87f8-110">Predloga delovnih ur</span><span class="sxs-lookup"><span data-stu-id="b87f8-110">Work hours template</span></span>  
   
--   <span data-ttu-id="38f21-111">Cenik</span><span class="sxs-lookup"><span data-stu-id="38f21-111">Price list</span></span>  
+-   <span data-ttu-id="b87f8-111">Cenik</span><span class="sxs-lookup"><span data-stu-id="b87f8-111">Price list</span></span>  
  
-<span data-ttu-id="38f21-112">V tem koraku tudi navedite, katero vrsto dodeljevanja sredstev želite:</span><span class="sxs-lookup"><span data-stu-id="38f21-112">In this step, you’ll also indicate what type of resource allocation you want:</span></span>  
+<span data-ttu-id="b87f8-112">V tem koraku tudi navedite, katero vrsto dodeljevanja sredstev želite:</span><span class="sxs-lookup"><span data-stu-id="b87f8-112">In this step, you’ll also indicate what type of resource allocation you want:</span></span>  
   
-- <span data-ttu-id="38f21-113">**Osrednji**.</span><span class="sxs-lookup"><span data-stu-id="38f21-113">**Central**.</span></span> <span data-ttu-id="38f21-114">Le upravitelji virov lahko projektom dodeljujejo vire.</span><span class="sxs-lookup"><span data-stu-id="38f21-114">Only resource managers can allocate resources to projects.</span></span>  
+- <span data-ttu-id="b87f8-113">**Osrednji**.</span><span class="sxs-lookup"><span data-stu-id="b87f8-113">**Central**.</span></span> <span data-ttu-id="b87f8-114">Le upravitelji virov lahko projektom dodeljujejo vire.</span><span class="sxs-lookup"><span data-stu-id="b87f8-114">Only resource managers can allocate resources to projects.</span></span>  
   
-- <span data-ttu-id="38f21-115">**Hibridno**.</span><span class="sxs-lookup"><span data-stu-id="38f21-115">**Hybrid**.</span></span> <span data-ttu-id="38f21-116">Upravitelji virov, upravitelji projektov in upravitelji kupcev lahko projektom dodeljujejo vire.</span><span class="sxs-lookup"><span data-stu-id="38f21-116">Resource managers, project managers, and account managers can allocate resources to projects.</span></span>  
+- <span data-ttu-id="b87f8-115">**Hibridno**.</span><span class="sxs-lookup"><span data-stu-id="b87f8-115">**Hybrid**.</span></span> <span data-ttu-id="b87f8-116">Upravitelji virov, upravitelji projektov in upravitelji kupcev lahko projektom dodeljujejo vire.</span><span class="sxs-lookup"><span data-stu-id="b87f8-116">Resource managers, project managers, and account managers can allocate resources to projects.</span></span>  
   
  
-<span data-ttu-id="38f21-117">Nastavitev parametra projekta:</span><span class="sxs-lookup"><span data-stu-id="38f21-117">To set project parameters:</span></span>  
+<span data-ttu-id="b87f8-117">Nastavitev parametra projekta:</span><span class="sxs-lookup"><span data-stu-id="b87f8-117">To set project parameters:</span></span>  
   
-1. <span data-ttu-id="38f21-118">Odprite **Project Service > Parametri**.</span><span class="sxs-lookup"><span data-stu-id="38f21-118">Go to **Project Service > Parameters**.</span></span>  
+1. <span data-ttu-id="b87f8-118">Odprite **Project Service > Parametri**.</span><span class="sxs-lookup"><span data-stu-id="b87f8-118">Go to **Project Service > Parameters**.</span></span>  
   
-2. <span data-ttu-id="38f21-119">Kliknite nastavitev parametrov, ki jo želite konfigurirati (tisto, ki ste jo ustvarili, ko ste prvič namestili [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), ali pa kliknite **Novo**, če želite ustvariti novo nastavitev.</span><span class="sxs-lookup"><span data-stu-id="38f21-119">Click the parameters setting you want to configure (the one you created when you first installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), or click **New** to create a new one.</span></span>  
+2. <span data-ttu-id="b87f8-119">Kliknite nastavitev parametrov, ki jo želite konfigurirati (tisto, ki ste jo ustvarili, ko ste prvič namestili [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), ali pa kliknite **Novo**, če želite ustvariti novo nastavitev.</span><span class="sxs-lookup"><span data-stu-id="b87f8-119">Click the parameters setting you want to configure (the one you created when you first installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), or click **New** to create a new one.</span></span>  
   
-3. <span data-ttu-id="38f21-120">V območju **Splošno** nastavite vse možnosti za svoje parametre projekta.</span><span class="sxs-lookup"><span data-stu-id="38f21-120">In the **General** area, set all the options for your project parameters.</span></span>  
+3. <span data-ttu-id="b87f8-120">V območju **Splošno** nastavite vse možnosti za svoje parametre projekta.</span><span class="sxs-lookup"><span data-stu-id="b87f8-120">In the **General** area, set all the options for your project parameters.</span></span>  
   
-4. <span data-ttu-id="38f21-121">Če želite dodati cenik, v območju **Cenik** kliknite **+**, da izberete cenik s spustnega seznama **Cenik parametra projekta**, in nato kliknite **Shrani**.</span><span class="sxs-lookup"><span data-stu-id="38f21-121">In the **Price List** area, click **+** to add a price list, select a price list in the **Project Parameter Price List** drop-down list, and then click **Save**.</span></span>  
+4. <span data-ttu-id="b87f8-121">Če želite dodati cenik, v območju **Cenik** kliknite **+**, da izberete cenik s spustnega seznama **Cenik parametra projekta**, in nato kliknite **Shrani**.</span><span class="sxs-lookup"><span data-stu-id="b87f8-121">In the **Price List** area, click **+** to add a price list, select a price list in the **Project Parameter Price List** drop-down list, and then click **Save**.</span></span>  
   
-5. <span data-ttu-id="38f21-122">Kliknite gumb **Shrani** v spodnjem desnem kotu zaslona.</span><span class="sxs-lookup"><span data-stu-id="38f21-122">Click the **Save** button in the bottom right corner of the screen.</span></span>  
+5. <span data-ttu-id="b87f8-122">Kliknite gumb **Shrani** v spodnjem desnem kotu zaslona.</span><span class="sxs-lookup"><span data-stu-id="b87f8-122">Click the **Save** button in the bottom right corner of the screen.</span></span>  
 
 > [!NOTE]
-> <span data-ttu-id="38f21-123">Zapis parametra projekta mora biti vzdrževan, da rešitev Project Service deluje pravilno.</span><span class="sxs-lookup"><span data-stu-id="38f21-123">The project parameter record must be maintained for Project Service to function correcly.</span></span> <span data-ttu-id="38f21-124">Tega zapisa se ne sme izbrisati.</span><span class="sxs-lookup"><span data-stu-id="38f21-124">This record should not be deleted.</span></span>
+> <span data-ttu-id="b87f8-123">Zapis parametra projekta mora biti vzdrževan, da rešitev Project Service deluje pravilno.</span><span class="sxs-lookup"><span data-stu-id="b87f8-123">The project parameter record must be maintained for Project Service to function correcly.</span></span> <span data-ttu-id="b87f8-124">Tega zapisa se ne sme izbrisati.</span><span class="sxs-lookup"><span data-stu-id="b87f8-124">This record should not be deleted.</span></span>
 
-### <a name="see-also"></a><span data-ttu-id="38f21-125">Glejte tudi</span><span class="sxs-lookup"><span data-stu-id="38f21-125">See Also</span></span>  
- [<span data-ttu-id="38f21-126">Nastavitev virov</span><span class="sxs-lookup"><span data-stu-id="38f21-126">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="b87f8-125">Glejte tudi</span><span class="sxs-lookup"><span data-stu-id="b87f8-125">See Also</span></span>  
+ [<span data-ttu-id="b87f8-126">Nastavitev virov</span><span class="sxs-lookup"><span data-stu-id="b87f8-126">Set up resources</span></span>](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
