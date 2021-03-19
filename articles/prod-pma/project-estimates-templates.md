@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084884"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289479"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizacija ocen projektov neposredno iz rešitve Project Service Automation v Finance and Operations
 
@@ -46,7 +46,7 @@ Naslednja slika prikazuje, kako se podatki sinhronizirajo med rešitvama Project
 
 ### <a name="template-and-tasks"></a>Predloga in opravila
 
-Za dostop do razpoložljivih predlog v skrbniškem središču Microsoft Power Apps izberite **Projekti** in nato v zgornjem desnem kotu izberite **Nov projekt** , da izberete javne predloge.
+Za dostop do razpoložljivih predlog v skrbniškem središču Microsoft Power Apps izberite **Projekti** in nato v zgornjem desnem kotu izberite **Nov projekt**, da izberete javne predloge.
 
 Naslednja predloga in temeljna opravila se uporabljajo za sinhronizacijo ocen delovnih ur projekta iz rešitve Project Service Automation v Finance:
 
@@ -80,18 +80,18 @@ V predlogi za oceno delovnih ur projekta morate uporabiti Microsoft Power Query 
 
 #### <a name="set-the-default-forecast-model-id"></a>Nastavitev privzetega ID-ja modela napovedi
 
-Če želite v predlogi posodobiti privzeti ID modela napovedi, kliknite puščico **Zemljevid** , da odprete preslikavo. Nato izberite povezavo **Napredno pošiljanje poizvedb in filtriranje**.
+Če želite v predlogi posodobiti privzeti ID modela napovedi, kliknite puščico **Zemljevid**, da odprete preslikavo. Nato izberite povezavo **Napredno pošiljanje poizvedb in filtriranje**.
 
 - Če uporabljate privzeto predlogo Ocena delovnih ur projekta (PSA v Fin in Ops), izberite možnost **Vstavljen pogoj** na seznamu **Uporabljeni koraki**. V vnosu **Funkcija** zamenjajte **Napoved O\_** z imenom ID-ja modela napovedi, ki ga je treba uporabiti pri integraciji. Privzeta predloga vsebuje ID modela napovedi iz predstavitvenih podatkov.
 - Če ustvarjate novo predlogo, morate dodati ta stolpec. V rešitvi Power Query izberite **Dodaj pogojni stolpec** in vnesite ime novega stolpca, na primer **ModelID**. Vnesite pogoj za stolpec; če vrednost projektnega opravila ni »null«, potem je \<enter the forecast model ID\>; v nasprotnem primeru ju »null«.
 
 #### <a name="filter-out-resource-specific-records"></a>S filtriranjem izločite zapise, povezane z viri
 
-Predloga Ocena ur projekta (PSA v Fin in Ops) ima privzeti filter, ki odstrani vse zapise, povezane z viri. Če ustvarite svojo predlogo, morate dodati ta filter. Kliknite povezavo **Napredno pošiljanje poizvedb in filtriranje** , da sprožite filtriranje stolpca **msdyn\_islinetask** , da se zajamejo le zapisi **Napačno**.
+Predloga Ocena ur projekta (PSA v Fin in Ops) ima privzeti filter, ki odstrani vse zapise, povezane z viri. Če ustvarite svojo predlogo, morate dodati ta filter. Kliknite povezavo **Napredno pošiljanje poizvedb in filtriranje**, da sprožite filtriranje stolpca **msdyn\_islinetask**, da se zajamejo le zapisi **Napačno**.
 
 #### <a name="filter-out-empty-transaction-category-rows"></a>S filtriranjem izločite prazne vrstice za kategorije transakcij
 
-Dodati morate filter, da odstranite vse vrstice s praznimi kategorijami transakcij. To opravilo je obvezno, ne glede na to, ali uporabljate privzeto predlogo ali ustvarjate svojo predlogo. Ta filter odstrani vse vrstice s povzetki iz rešitve Project Service Automation, ki bi lahko povzročile napačne napovedi ur v rešitvi Finance. Kliknite povezavo **Napredno pošiljanje poizvedb in filtriranje** , da s filtriranjem izločite nične zapise v stolpcu **msdyn\_transactioncategory\_value**.
+Dodati morate filter, da odstranite vse vrstice s praznimi kategorijami transakcij. To opravilo je obvezno, ne glede na to, ali uporabljate privzeto predlogo ali ustvarjate svojo predlogo. Ta filter odstrani vse vrstice s povzetki iz rešitve Project Service Automation, ki bi lahko povzročile napačne napovedi ur v rešitvi Finance. Kliknite povezavo **Napredno pošiljanje poizvedb in filtriranje**, da s filtriranjem izločite nične zapise v stolpcu **msdyn\_transactioncategory\_value**.
 
 ### <a name="template-mapping-in-data-integration"></a>Preslikava predlog v Integraciji podatkov
 
@@ -137,11 +137,11 @@ V predlogi za oceno stroškov projekta morate uporabiti rešitev Power Query, č
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>S filtriranjem poiščite izključno vrstice ocen stroškov
 
-Predloga Ocena stroškov projekta (PSA v Fin in Ops) ima privzeti filter, ki vključuje le vrstice stroškov v integraciji. Če ustvarite svojo predlogo, morate dodati ta filter. Izberite opravilo **Razmerje transakcij** in kliknite puščico **Zemljevid** , da odprete preslikavo. Izberite povezavo **Napredno pošiljanje poizvedb in filtriranje**. Filtrirajte stolpec **msdyn\_transactiontype1** , da bi vključeval le **msdyn\_estimateline**.
+Predloga Ocena stroškov projekta (PSA v Fin in Ops) ima privzeti filter, ki vključuje le vrstice stroškov v integraciji. Če ustvarite svojo predlogo, morate dodati ta filter. Izberite opravilo **Razmerje transakcij** in kliknite puščico **Zemljevid**, da odprete preslikavo. Izberite povezavo **Napredno pošiljanje poizvedb in filtriranje**. Filtrirajte stolpec **msdyn\_transactiontype1**, da bi vključeval le **msdyn\_estimateline**.
 
 #### <a name="set-the-default-forecast-model-id"></a>Nastavitev privzetega ID-ja modela napovedi
 
-Če želite v predlogi posodobiti privzeti ID modela napovedi, izberite opravilo **Ocene stroškov** in kliknite puščico **Zemljevid** , da odprete preslikavo. Izberite povezavo **Napredno pošiljanje poizvedb in filtriranje**.
+Če želite v predlogi posodobiti privzeti ID modela napovedi, izberite opravilo **Ocene stroškov** in kliknite puščico **Zemljevid**, da odprete preslikavo. Izberite povezavo **Napredno pošiljanje poizvedb in filtriranje**.
 
 - Če uporabljate privzeto predlogo Ocena stroškov projekta (PSA v Fin in Ops), v rešitvi Power Query najprej izberite možnost **Vstavljen pogoj** v razdelku **Uporabljeni koraki**. V vnosu **Funkcija** zamenjajte **Napoved O\_** z imenom ID-ja modela napovedi, ki ga je treba uporabiti pri integraciji. Privzeta predloga vsebuje ID modela napovedi iz predstavitvenih podatkov.
 - Če ustvarjate novo predlogo, morate dodati ta stolpec. V rešitvi Power Query izberite **Dodaj pogojni stolpec** in vnesite ime novega stolpca, na primer **ModelID**. Vnesite pogoj za stolpec; če vrednost ID-ja vrstice ocene ni »null«, potem je \<enter the forecast model ID\>; v nasprotnem primeru ju »null«.

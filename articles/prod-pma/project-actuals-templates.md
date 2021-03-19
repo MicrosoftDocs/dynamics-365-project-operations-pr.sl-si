@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084888"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289704"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinhroniziranje dejanskih vrednosti projekta neposredno iz rešitve Project Service Automation v dnevnik integracije projekta za objavo v rešitvi Finance and Operations
 
@@ -50,7 +50,7 @@ Naslednja slika prikazuje, kako se podatki sinhronizirajo med rešitvama Project
 
 ### <a name="template-and-tasks"></a>Predloga in opravila
 
-Za dostop do razpoložljivih predlog v skrbniškem središču Microsoft Power Apps izberite **Projekti** in nato v zgornjem desnem kotu izberite **Nov projekt** , da izberete javne predloge.
+Za dostop do razpoložljivih predlog v skrbniškem središču Microsoft Power Apps izberite **Projekti** in nato v zgornjem desnem kotu izberite **Nov projekt**, da izberete javne predloge.
 
 Naslednja predloga in osnovna opravila se uporabljajo za sinhronizacijo dejanskih vrednosti projekta iz rešitve Project Service Automation v Finance:
 
@@ -86,7 +86,7 @@ V predlogi za dejanske vrednosti projekta morate uporabiti Microsoft Power Query
 - Če se dejanske vrednosti medpodjetniškega časa ali stroška ne bodo sinhronizirale v rešitev Finance, morate iz predloge izbrisati zadnji vstavljeni pogojni stolpec. V nasprotnem primeru lahko pride do napake pri integraciji ali pa se v rešitev Finance uvozijo napačne dejanske transakcije.
 
 #### <a name="contract-organizational-unit"></a>Pogodbena organizacijska enota
-Če želite v predlogi posodobiti vstavljeni pogojni stolpec, kliknite puščico **Preslikava** , da odprete preslikavo. Izberite povezavo **Napredno pošiljanje poizvedb in filtriranje** , da odprete Power Query.
+Če želite v predlogi posodobiti vstavljeni pogojni stolpec, kliknite puščico **Preslikava**, da odprete preslikavo. Izberite povezavo **Napredno pošiljanje poizvedb in filtriranje**, da odprete Power Query.
 
 - Če uporabljate privzeto predlogo za dejanske vrednosti projekta (PSA v Fin in Ops), v rešitvi Power Query izberite zadnji **Vstavljen pogoj** v razdelku **Uporabljeni koraki**. V vnosu **Funkcija** zamenjajte **USSI** z imenom pravne osebe, ki jo želite uporabiti pri integraciji. Po želji dodajte dodatne pogoje v vnos **Funkcija** in posodobite pogoj **else** z **USMF** na pravilno pravno osebo.
 - Če ustvarjate novo predlogo, morate dodati stolpec za medpodjetniški čas in stroške. Izberite **Dodaj pogojni stolpec** in vnesite ime novega stolpca, na primer **LegalEntity**. Vnesite pogoj za stolpec; če je **msdyn\_contractorganizationalunitid.msdyn\_name** \<organizational unit\>, potem je \<enter the legal entity\>; v nasprotnem primeru ju »null«.

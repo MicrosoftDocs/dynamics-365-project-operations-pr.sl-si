@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084817"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289344"
 ---
 # <a name="microsoft-project-client-integration"></a>Integracija odjemalca Microsoft Project
 
@@ -42,10 +42,10 @@ Načrtovanje in vzdrževanje projektnega razporeda je lahko zapleteno, zato mora
 •   Kliknite **Odpri** in ob pozivu še **Zaženi**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Odpiranje in urejevanje obstoječega osnutka strukturirane členitve dela v odjemalcu Microsoft Project Client
-Če ima projekt v rešitvi Dynamics 365 Finance že ustvarjeno strukturirano členitev dela, lahko strukturirano členitev dela odprete v aplikaciji Microsoft Project Client, kadar je ta v stanju osnutka. Če želite to možnost odpreti na strani **Projekt** , kliknite povezavo **Odpri v odjemalcu Microsoft Project** na zavihku **Načrt**. To stran lahko odprete tudi v aplikaciji Microsoft Project Client s klikom **Odpri** na zavihku **Microsoft Dynamics 365**. Na seznamu izberite možnost **Pravna oseba** in **Projekt**.
+Če ima projekt v rešitvi Dynamics 365 Finance že ustvarjeno strukturirano členitev dela, lahko strukturirano členitev dela odprete v aplikaciji Microsoft Project Client, kadar je ta v stanju osnutka. Če želite to možnost odpreti na strani **Projekt**, kliknite povezavo **Odpri v odjemalcu Microsoft Project** na zavihku **Načrt**. To stran lahko odprete tudi v aplikaciji Microsoft Project Client s klikom **Odpri** na zavihku **Microsoft Dynamics 365**. Na seznamu izberite možnost **Pravna oseba** in **Projekt**.
 
 > [!NOTE]
-> Če uporabljate Internet Explorer za svoj brskalnik, boste morali klikniti **Shrani** , da boste lahko datoteko ročno odprli iz mesta, kamor je prenesena. Ali pa kliknite **Shrani in odpri** , da odprete datoteko v odjemalcu Microsoft Project Client. Ne preimenujte datoteke med shranjevanjem.
+> Če uporabljate Internet Explorer za svoj brskalnik, boste morali klikniti **Shrani**, da boste lahko datoteko ročno odprli iz mesta, kamor je prenesena. Ali pa kliknite **Shrani in odpri**, da odprete datoteko v odjemalcu Microsoft Project Client. Ne preimenujte datoteke med shranjevanjem.
 
 Pred kakršnim koli urejanjem datoteke s pomočjo odjemalca Microsoft Project Client, jo morate najprej preveriti. Kliknite **Preveri** na zavihku **Microsoft Dynamics 365**. S tem boste drugim uporabnikom preprečili, da bi hkrati urejali strukturirano členitev dela znotraj rešitve Finance. Če želite po končanih popravkih objaviti strukturirano členitev dela, kliknite **Prijava** na zavihku **Microsoft Dynamics 365**.
 
@@ -122,9 +122,9 @@ Spodaj navedeni podatki se bodo v okviru postopka prijave sinhronizirali nazaj v
 
 6.  Vnesite **Ime projekta**.
 
-7.  Izberite **Vrsto projekta** , **Projektno skupino** in **ID projektne pogodbe**. Lahko pa kliknete možnost **Novo** in ustvarite novo projektno pogodbo.
+7.  Izberite **Vrsto projekta**, **Projektno skupino** in **ID projektne pogodbe**. Lahko pa kliknete možnost **Novo** in ustvarite novo projektno pogodbo.
 
-8.  Izberite **Koledar** , ki ga želite uporabiti za vire.
+8.  Izberite **Koledar**, ki ga želite uporabiti za vire.
 
 11. Kliknite **V redu**.
 

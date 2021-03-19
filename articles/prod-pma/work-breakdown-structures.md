@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084731"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287978"
 ---
 # <a name="work-breakdown-structures-overview"></a>Pregled strukturirane členitve dela
 
@@ -64,7 +64,7 @@ Izdelava vmesnika SČD je intenziven postopek, ki se običajno izvaja v daljšem
 Če želite uporabiti zmogljivosti vmesnika SČD za ocenjevanje celotnih stroškov, nastavite stroške in prodajne cene za delavce, kategorije dela, stroške in pristojbine ter izdelke.
 
 -   Če želite nastaviti stroške in prodajno ceno dela ter kategorije stroškov in pristojbin, kliknite možnost **Vodenje projekta in računovodstvo** &gt; **Nastavitev** &gt; **Cene**.
--   Za nastavitev stroškov in prodajne cene izdelkov v razdelku »Upravljanje informacij o izdelku« za vsak izdelek na strani s seznamom **Izdani izdelki** , uporabite stran **Trgovinski sporazumi**.
+-   Za nastavitev stroškov in prodajne cene izdelkov v razdelku »Upravljanje informacij o izdelku« za vsak izdelek na strani s seznamom **Izdani izdelki**, uporabite stran **Trgovinski sporazumi**.
 
 ## <a name="creating-a-wbs"></a>Ustvarjanje vmesnika SČD
 Ustvarjanje vmesnika SČD vključuje tri dejavnosti:
@@ -98,11 +98,11 @@ Trenutno ne morete prilagoditi oštevilčenja SČD.
 
 **Primakni opravilo** ko opravilo primaknete, to ni več sestavno opravilo njegovega nadrejenega. Številka SČD tega opravila se samodejno preračuna, da odraža novo raven opravila v hierarhiji. Obseg dela, stroški in datumi prejšnjega nadrejenega opravila se preračunajo tako, da ne vključujejo tega opravila. 
 
-**Premakni gor in Premakni dol** ko kliknete možnosti **Premakni gor** in **Premakni dol** , spremenite položaj opravila v hierarhiji nadrejenega. Položaj opravila ne vpliva na obseg dela, ceno, datume ali trajanje opravila. Številka SČD tega opravila se samodejno preračuna, da odraža nov položaj opravila.
+**Premakni gor in Premakni dol** ko kliknete možnosti **Premakni gor** in **Premakni dol**, spremenite položaj opravila v hierarhiji nadrejenega. Položaj opravila ne vpliva na obseg dela, ceno, datume ali trajanje opravila. Številka SČD tega opravila se samodejno preračuna, da odraža nov položaj opravila.
 
 ### <a name="schedule-estimation"></a>Ocena razporeda
 
-Ocena razporeda je običajno drugi korak pri ustvarjanju vmesnika SČD. Priporočamo, da po tem, ko ustvarite opravila, dokončate oceno razporeda. Stran **Strukturirana členitev dela** v rešitvi Finance ima dva razdelka. Zgornje podokno je namenjeno oceni razporeda, spodnje pa vključuje zavihek **Ocenjeni stroški in prihodki** , ki ga lahko uporabite za oceno stroškov. 
+Ocena razporeda je običajno drugi korak pri ustvarjanju vmesnika SČD. Priporočamo, da po tem, ko ustvarite opravila, dokončate oceno razporeda. Stran **Strukturirana členitev dela** v rešitvi Finance ima dva razdelka. Zgornje podokno je namenjeno oceni razporeda, spodnje pa vključuje zavihek **Ocenjeni stroški in prihodki**, ki ga lahko uporabite za oceno stroškov. 
 **Odvisnosti opravila** v vmesniku SČD lahko med opravili ustvarite predhodne odnose. Ko opravilu dodelite predhodna opravila, se to opravilo lahko začne šele, ko so njegova predhodna opravila dokončana. Načrtovani datum začetka opravila se samodejno nastavi na zadnji datum vseh njegovih predhodnikov. 
 
 **Načrtovanje opravil** naslednji dejavniki določajo načrtovanje opravil listnega vozlišča:
@@ -122,7 +122,7 @@ Začetni datum opravila listnega vozlišča brez predhodnih opravil je privzeto 
 
 Število ljudi × trajanje × št. ur v standardnem delovnem dnevu v koledarju projekta. 
 
-V nekaterih primerih boste morda želeli odstopati od teh pravil. Samodejno načrtovanje lahko izklopite, če želite preprečiti, da bi rešitev Finance samodejno nastavljala ali popravljala lastnosti opravil listnega vozlišča. Ko vnesete informacije za opravilo, ki povzroči kršitev pravil za načrtovanje, se za opravilo prikaže ikona napake pri načrtovanju. Če ne želite, da se prikažejo napake pri načrtovanju, kliknite možnost **Prikazane so napake pri načrtovanju** , da izklopite funkcijo. 
+V nekaterih primerih boste morda želeli odstopati od teh pravil. Samodejno načrtovanje lahko izklopite, če želite preprečiti, da bi rešitev Finance samodejno nastavljala ali popravljala lastnosti opravil listnega vozlišča. Ko vnesete informacije za opravilo, ki povzroči kršitev pravil za načrtovanje, se za opravilo prikaže ikona napake pri načrtovanju. Če ne želite, da se prikažejo napake pri načrtovanju, kliknite možnost **Prikazane so napake pri načrtovanju**, da izklopite funkcijo. 
 
 > [!NOTE] 
 > Vrednosti za opravilo povzetka ali vsebnika se še naprej izračuna kot vsota vrednosti sestavnih opravil, ne glede na to, ali je pomoč pri samodejnem načrtovanju vklopljena ali izklopljena. 
@@ -203,7 +203,7 @@ Oba pristopa povzročita ponoven izračun ETA, ocene končnih stroškov in odsto
 4.  Preostali obseg dela in odstotek napredka se preračunata za vsa prizadeta podrejena opravila na podlagi nove vrednosti ocene končnih stroškov. Znova je izračunan odmik od obsega dela v opravilu.
 5.  Znova je izračunana ocena končnih stroškov opravil povzetka iz listnih vozlišč.
 
-V pogledu sledenja obsegu dela kliknite **Razširi na raven** , da nastavite raven sledenja in vzdrževanja vmesnika SČD. Kadar koli odprete pogled sledenja obsegu dela, se vmesnik SČD samodejno razširi na to raven.
+V pogledu sledenja obsegu dela kliknite **Razširi na raven**, da nastavite raven sledenja in vzdrževanja vmesnika SČD. Kadar koli odprete pogled sledenja obsegu dela, se vmesnik SČD samodejno razširi na to raven.
 
 ### <a name="cost-tracking-view"></a>Pogled za sledenje stroškom
 
@@ -232,7 +232,7 @@ Pogled za sledenje stroškom prikazuje projekcijo odmika od stroškov za opravil
 4.  Znova se izračunata CTS in odstotek porabljenih stroškov za prizadeta podrejena opravila na podlagi vrednosti ocene končnih stroškov. Znova je izračunan odmik od stroškov v opravilu.
 5.  Na podlagi te spremembe se preračuna ocena končnih stroškov za vsa opravila povzetka.
 
-V pogledu za sledenje stroškov kliknite **Razširi na raven** , da nastavite raven sledenja in vzdrževanja vmesnika SČD. Kadar koli odprete pogled za sledenje stroškov, se vmesnik SČD samodejno razširi na to raven.
+V pogledu za sledenje stroškov kliknite **Razširi na raven**, da nastavite raven sledenja in vzdrževanja vmesnika SČD. Kadar koli odprete pogled za sledenje stroškov, se vmesnik SČD samodejno razširi na to raven.
 
 ### <a name="earned-value-management"></a>Upravljanje prislužene vrednosti
 

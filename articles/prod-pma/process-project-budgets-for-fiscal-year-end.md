@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084889"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289749"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Prenos proračunov projektov ob koncu proračunskega leta
 
@@ -41,7 +41,7 @@ Opravite naslednje korake za pregled proračunskih sredstev ob koncu leta za pro
 4. V polje **Začetno proračunsko leto** izberite proračunsko leto, za katero si želite ogledate znesek preostalih sredstev proračuna. 
 5. V polju **Od modela napovedi** izberite **Preostali proračun**. 
 6. Če želite vključiti projekte, ki ustrezajo izbranim merilom in za katere je bil porabljen ves proračun, izberite **Prikaži porabljene proračune**.  
-7. Na zavihku za **izbiro proračunov** izberite **Pridobi vse proračune** , da naložite vse proračune, ki ustrezajo izbranim merilom, in nato izberite **Obdelaj**. 
+7. Na zavihku za **izbiro proračunov** izberite **Pridobi vse proračune**, da naložite vse proračune, ki ustrezajo izbranim merilom, in nato izberite **Obdelaj**. 
 8. Če želite oblikovati poizvedbo zbirke podatkov, ki v podokno naloži določen nabor proračunov, izberite **Pridobi izbrane proračune**.
 
 Če želite več informacij o določeni vrstici v podoknu, izberite vrstico in nato izberite **Prikaži podrobnosti proračuna** ali **Prikaži račune**.
@@ -59,10 +59,10 @@ Ko obdelate znesek preostalih proračunskih sredstev, lahko ustvarite transakcij
 2. Na strani **Postopek prenosa proračuna projekta** izberite **Konec leta** in nato omogočite **Prenesi preostala proračunska sredstva za projekt** in **Ustvari vnose v register proračuna v glavni knjigi**. 
 3. Na zavihku **Parametri** pri skupini polj **Projektni parametri** izberite naslednje:
 
-   - **Proračunsko leto projekta** : izberite začetek proračunskega leta, za katero si želite ogledate znesek preostalih sredstev proračuna. 
-   - **Poslovni izid** : ustvarite transakcije poslovnega izida v glavni knjigi. 
-   -  **Postavka za nedokončano storitev** : ustvarite transakcije za nedokončane storitve (WIP) v glavni knjigi.
-   -  **Plačilna lista** : v glavni knjigi ustvarite transakcije za dodelitev plače. 
+   - **Proračunsko leto projekta**: izberite začetek proračunskega leta, za katero si želite ogledate znesek preostalih sredstev proračuna. 
+   - **Poslovni izid**: ustvarite transakcije poslovnega izida v glavni knjigi. 
+   -  **Postavka za nedokončano storitev**: ustvarite transakcije za nedokončane storitve (WIP) v glavni knjigi.
+   -  **Plačilna lista**: v glavni knjigi ustvarite transakcije za dodelitev plače. 
 
 5. V skupini polj **Glavna knjiga** navedite naslednje podatke: 
 
@@ -73,10 +73,10 @@ Ko obdelate znesek preostalih proračunskih sredstev, lahko ustvarite transakcij
 
    - V polju **Od modela napovedi** izberite model napovedi za proračun projekta, povezan z zneski preostalega proračuna, ki jih želite prenesti za projekte. 
    - V polju **V model za proračun glavne knjige** izberite model za proračun glavne knjige, povezan z zneski proračuna, ki jih želite prenesti v glavno knjigo. 
-   -  Izberite **Prenesi valuto prodaje** , da prodajno valuto projekta uporabite za transakcije glavne knjige, ki se ustvarijo, ko prenesete zneske proračuna za projekte. Če možnost ni izbrana, transakcije uporabljajo računovodsko valuto. 
-   -  Izberite **Prikaži porabljene proračune** , da vključite projekte, za katere je bil porabljen že ves dodeljen proračun, vendar izpolnjujejo druga merila, ki ste jih izbrali pri projektih, prikazanih v spodnjem podoknu.
+   -  Izberite **Prenesi valuto prodaje**, da prodajno valuto projekta uporabite za transakcije glavne knjige, ki se ustvarijo, ko prenesete zneske proračuna za projekte. Če možnost ni izbrana, transakcije uporabljajo računovodsko valuto. 
+   -  Izberite **Prikaži porabljene proračune**, da vključite projekte, za katere je bil porabljen že ves dodeljen proračun, vendar izpolnjujejo druga merila, ki ste jih izbrali pri projektih, prikazanih v spodnjem podoknu.
 
-7. Na zavihku za **izbiro proračunov** izberite **Pridobi vse proračune** , da naložite vse proračune, ki ustrezajo izbranim merilom. Če želite oblikovati poizvedbo zbirke podatkov, ki v podokno naloži določen nabor proračunov projektov, izberite **Pridobi izbrane proračune**.
+7. Na zavihku za **izbiro proračunov** izberite **Pridobi vse proračune**, da naložite vse proračune, ki ustrezajo izbranim merilom. Če želite oblikovati poizvedbo zbirke podatkov, ki v podokno naloži določen nabor proračunov projektov, izberite **Pridobi izbrane proračune**.
 8. Za vsak projekt, ki ga želite obdelati, izberite možnost na začetku vrstice za projekt.
 
     > [!TIP]
@@ -93,7 +93,7 @@ Ko obdelate znesek preostalih proračunskih sredstev, lahko ustvarite transakcij
 
    - V polju **Od modela napovedi** izberite model napovedi za proračun projekta, povezan z zneski preostalega proračuna, ki jih želite prenesti za projekte. 
    - Če želite vključiti projekte, za katere je bil porabljen ves proračun, vendar ustrezajo drugim izbranim merilom, izberite **Prikaži porabljene proračune**.
-   - V skupini za **izbiro proračunov** izberite **Pridobi vse proračune** , da naložite vse proračune, ki ustrezajo izbranim merilom. Če želite oblikovati poizvedbo zbirke podatkov, ki v podokno naloži določen nabor proračunov projektov, izberite **Pridobi izbrane proračune**.
+   - V skupini za **izbiro proračunov** izberite **Pridobi vse proračune**, da naložite vse proračune, ki ustrezajo izbranim merilom. Če želite oblikovati poizvedbo zbirke podatkov, ki v podokno naloži določen nabor proračunov projektov, izberite **Pridobi izbrane proračune**.
 
 5. Za vsak projekt, ki ga želite obdelati, izberite možnost na začetku vrstice za projekt. 
 6. Izberite **Obdelaj** za prenos preostalih zneskov proračuna za izbrane projekte na izbrano proračunsko leto.

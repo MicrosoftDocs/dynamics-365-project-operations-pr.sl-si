@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084929"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288849"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilna aplikacija Project Timesheet
 
@@ -76,7 +76,7 @@ V polju **Projekt** izberite projekt, za katerega želite vnesti čas. Polje **S
 
 Iskanje strank in projektov omogoča iskanje med strankami in projekti.
 
-Izberite zahtevane podatke v poljih **Kategorija** , **Dejavnost** , **Lastnost vrstice** , **Skupina prometnega davka** in **Skupina prometnega davka za izdelek**. Ta polja je mogoče preglasiti.
+Izberite zahtevane podatke v poljih **Kategorija**, **Dejavnost**, **Lastnost vrstice**, **Skupina prometnega davka** in **Skupina prometnega davka za izdelek**. Ta polja je mogoče preglasiti.
 
 Polje **Lastnost vrstice** bo nastavljeno na privzeto vrednost, ki temelji na vodenju projekta in računovodskih parametrih. Če so projekt/kategorija in parametri kategorije/vira omogočeni, bo vrednost polja **Lastnost vrstice** nastavljena na privzeto vrednost, ki ste jo določili za to preverjanje veljavnosti. Če projekt/kategorija in parametri kategorije/vira niso omogočeni, bo vrednost polja **Lastnost vrstice** nastavljena na privzeto glede na polje **Omogoči privzeto lastnost vrstice** na strani **Vodenje projekta in računovodski parametri**. vrednost polja **Lastnost vrstice** je mogoče preglasiti.
 
@@ -91,11 +91,11 @@ Finančna razsežnost in podpora za priloge nista na voljo v mobilni aplikaciji.
 
 Za izpolnjevanje časovnega list nadaljujte z dodajanjem zahtevanih projektnih vrstic.
 
-Kliknite **Pošlji** , da pošljete časovni list v potek dela za odobritev.
+Kliknite **Pošlji**, da pošljete časovni list v potek dela za odobritev.
 
 ## <a name="review-timesheets"></a>Pregled časovnih listov
 
-Seznam časovnih listov, ki jih je treba pregledati, je na voljo v meniju. Ta možnost je na voljo samo, če ste določeni za potrjevalca poteka dela. Podprta sta odobritev glave in vrstic. Odobritev ravni vrstice ponuja možnost označevanja ene ali več vrstic za odobritev. Po pregledu podatkov o časovnem listu kliknite **Odobri** , **Pooblasti** ali **Nazaj** za nadaljevanje poteka dela.
+Seznam časovnih listov, ki jih je treba pregledati, je na voljo v meniju. Ta možnost je na voljo samo, če ste določeni za potrjevalca poteka dela. Podprta sta odobritev glave in vrstic. Odobritev ravni vrstice ponuja možnost označevanja ene ali več vrstic za odobritev. Po pregledu podatkov o časovnem listu kliknite **Odobri**, **Pooblasti** ali **Nazaj** za nadaljevanje poteka dela.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

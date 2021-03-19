@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084895"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289659"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinhronizacija kategorij stroškov projekta med Finance and Operations in Project Service Automation
 
@@ -64,7 +64,7 @@ Naslednja slika prikazuje, kako se podatki sinhronizirajo med rešitvama Project
 
 ### <a name="template-and-task"></a>Predloga in opravilo
 
-Za dostop do predloge v skrbniškem središču Microsoft Power Apps izberite **Projekti** in nato v zgornjem desnem kotu izberite **Nov projekt** , da izberete javne predloge.
+Za dostop do predloge v skrbniškem središču Microsoft Power Apps izberite **Projekti** in nato v zgornjem desnem kotu izberite **Nov projekt**, da izberete javne predloge.
 
 Spodnja predloga in temeljno opravilo se uporabljata za sinhronizacijo kategorij stroškov projekta iz rešitve Finance v Project Service Automation:
 
@@ -86,7 +86,7 @@ Kategorije stroškov projekta se upravljajo v rešitvi Finance in sinhronizirajo
 Ko izvajate sinhronizacijo z rešitvijo Project Service Automation, morate uporabiti Microsoft Power Query za Excel, da nastavite vrsto obračunavanja za kategorijo transakcij. Predloga kategorij transakcij stroškov projekta (Fin in Ops v PSA) vsebuje privzeti stolpec in preslikavo. Če ustvarite svojo predlogo, morate dodati pogojni stolpec v Power Query. Upoštevajte ta navodila.
 
 1. Kliknite puščico, da odprete preslikavo opravila kategorij stroškov projekta v predlogi Kategorije transakcij stroškov projekta (Fin in Ops v PSA).
-2. Kliknite povezavo **Napredno pošiljanje poizvedb in filtriranje** , da odprete Power Query.
+2. Kliknite povezavo **Napredno pošiljanje poizvedb in filtriranje**, da odprete Power Query.
 2. Izberite **Dodaj pogojni stolpec**.
 3. Vnesite ime za nov stolpec, na primer **BillingType**.
 4. Vnesite naslednji pogoj: **če CATEGORYID ni enak nič, potem je 19235001, sicer pa nič**.

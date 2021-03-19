@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084899"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289794"
 ---
 # <a name="project-management-and-accounting-overview"></a>Pregled vodenja projektov in računovodstva
 
@@ -180,7 +180,7 @@ Namen naročilnice določa, kdaj se naročilo porabi in kdaj se izdelki projekta
 <td>Kupite izdelke od zunanjega dobavitelja za porabo v projektu. Naročilnico lahko ustvarite na naslednje načine:
 <ul>
 <li>V samem projektu. V tem primeru je projekt že opredeljen za naročilnico.</li>
-<li>Tako da poiščete in odprete naročilnico projekta. Za izdelavo naročilnice morate izbrati dobavitelja in projekt, za katerega želite ustvariti naročilnico.</li>
+<li>Tako da poiščete in odprete naročilnico projekta. Za izdelavo naročilnice morate izbrati dobavitelja in projekt, za katerega jo želite ustvariti.</li>
 </ul></td>
 <td>Izdelki se porabijo, ko se posodobi račun dobavitelja.</td>
 </tr>
@@ -205,7 +205,7 @@ Izdelke lahko naročite iz zalog podjetja za porabo v projektu. Lahko pa tudi ku
 
 Način naročanja izdelkov je odvisen od tega, od kod jih naročate:
 
--   Če želite naročiti izdelke iz zaloge podjetja, morate naročilo vnesti kot zahtevo za izdelek. Če uporabljate stran **Zahteve za izdelek** , lahko zahtevo nastavite tako, da prejemate izdelke kot delne dostave. To pomeni, da lahko odložite porabo določene količine izdelkov, dokler ne bodo potrebni.
+-   Če želite naročiti izdelke iz zaloge podjetja, morate naročilo vnesti kot zahtevo za izdelek. Če uporabljate stran **Zahteve za izdelek**, lahko zahtevo nastavite tako, da prejemate izdelke kot delne dostave. To pomeni, da lahko odložite porabo določene količine izdelkov, dokler ne bodo potrebni.
 -   Če želite izdelke naročiti pri zunanjem dobavitelju, morate naročilo ustvariti kot naročilnico na strani **Naročilnica**.
 
 > [!NOTE] 
@@ -232,7 +232,7 @@ Za več informacij o tem, kako obdelovati račune projektov, glejte temo [Izdaja
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Izračun stroškov za dokončanje projekta
 
-Ko ustvarite oceno, lahko izberete metodo, ki se uporablja za izračun stroškov za dokončanje projekta. Izberite metodo v polju **Stroški za dokončanje metode** na strani **Ustvari oceno**. Izbrana metoda se uporablja ločeno za vsako vrstico cene v oceni stroškov. Medtem ko je vrstica v stanju **Ustvarjeno** , lahko spremenite metodo, ki se zanjo uporablja na strani **Ocena stroškov**. 
+Ko ustvarite oceno, lahko izberete metodo, ki se uporablja za izračun stroškov za dokončanje projekta. Izberite metodo v polju **Stroški za dokončanje metode** na strani **Ustvari oceno**. Izbrana metoda se uporablja ločeno za vsako vrstico cene v oceni stroškov. Medtem ko je vrstica v stanju **Ustvarjeno**, lahko spremenite metodo, ki se zanjo uporablja na strani **Ocena stroškov**. 
 
 Spodnja tabela opisuje metode za izračun stroškov za dokončanje projekta.
 
@@ -300,7 +300,7 @@ Glede na vaše nastavitve lahko napoveste denarni pritok za izbrani projekt. Pri
 -   **Datum projekta:** 5. marec 2012.
 -   **Datum računa:** 31. marec 2012. Ta datum se določi na podlagi pogostosti računov. V tem primeru nastavite pogostost računa na trenutni mesec. Tako bodo vse transakcije, knjižene v mesecu marcu, fakturirane zadnji dan v mesecu.
 -   **Datum zapadlosti:** 14. april 2012. Ta datum se določi na podlagi plačilnih pogojev, ki so bili določeni za projekt. V tem primeru ste izbrali plačilne pogoje v obliki 14 dni. Zato se datumu računa doda 14 dni, tako da se datum zapadlosti prestavi na 14. april 2012.
--   **Pričakovani datum plačila prodaje:** 27. april 2012. Ta datum se izračuna tako, da se doda število dni v polju **Splošni vmesni dnevi** na strani **Parametri za vodenje projektov in računovodstvo** številom dni v polju **Posamezni vmesni dnevi** na strani **Projektne pogodbe** in se nato seštevek prišteje številu dni v polju **Datum zapadlosti**. Za potrebe tega primera ste vnesli **3** v polje **Splošni vmesni dnevi** in **10** v polje **Posamezni vmesni dnevi**. Zato se datumu zapadlosti doda 13 dni, tako da se datum pričakovanega plačila prodaje prestavi na 27. april 2012.
+-   **Pričakovani datum plačila prodaje:** 27. april 2012. Ta datum se izračuna tako, da se število dni v polju **Splošni vmesni dnevi** na strani **Parametri za vodenje projektov in računovodstvo** doda številom dni v polju **Posamezni vmesni dnevi** na strani **Projektne pogodbe** , nato pa se seštevek prišteje številu dni v polju **Datum zapadlosti**. Za potrebe tega primera ste vnesli **3** v polje **Splošni vmesni dnevi** in **10** v polje **Posamezni vmesni dnevi**. Zato se datumu zapadlosti doda 13 dni, tako da se datum pričakovanega plačila prodaje prestavi na 27. april 2012.
 
 Splošni vmesni dnevi lahko nadomestijo posamezne vmesne dni ali pa se dodajo posameznim vmesnim dnem:
 
@@ -323,9 +323,9 @@ Na podlagi določenih dni se lahko datum plačila stroškov razlikuje od projekt
 
 Projektni datum transakcije je na primer 5. marec 2012 in določeni so naslednji plačilni pogoji:
 
--   **Ure:** trenutni mesec ( **M** )
--   **Stroški:** 14 dni ( **D14** )
--   **Elementi:** 30 dni ( **D30** )
+-   **Ure:** trenutni mesec (**M**)
+-   **Stroški:** 14 dni (**D14**)
+-   **Elementi:** 30 dni (**D30**)
 
 Na podlagi teh nastavitev so spodaj navedeni datumi plačila stroškov za vsako vrsto transakcije:
 
@@ -364,7 +364,7 @@ Stroške vaše organizacija pri delu na projektu lahko spremljate na strani **Na
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Ogled preostalih predvidenih zneskov
 
-Če je kot metoda nadzora stroškov na strani **Parametri za vodenje projektov in računovodstvo** izbran parameter **Preostali proračun** , bo stran **Nadzor stroškov** izračunala stroške, ki še niso bili knjiženi kot dejanski ali označeni kot potrjeni. Natančneje so zneski na zavihku **Splošno** v spodnjem podoknu strani **Nadzor stroškov** izračunani na naslednje načine:
+Če je kot metoda nadzora stroškov na strani **Parametri za vodenje projektov in računovodstvo** izbran parameter **Preostali proračun**, bo stran **Nadzor stroškov** izračunala stroške, ki še niso bili knjiženi kot dejanski ali označeni kot potrjeni. Natančneje so zneski na zavihku **Splošno** v spodnjem podoknu strani **Nadzor stroškov** izračunani na naslednje načine:
 
 -   **Dejanski stroški** – skupni znesek, porabljen za projekt za izbrano vrstico cene. Dejanski znesek stroškov je izračunan na strani **Posodobitve glavne knjige**.
 -   **Potrjeni stroški** – Dodatni znesek stroškov, ki se jih je pravna oseba zavezala plačati. Konkretni zneski potrjenih stroškov so izračunani na strani **Potrjeni stroški**.
@@ -381,7 +381,7 @@ Na strani **Nadzor stroškov** na zavihku **Odstopanje** si lahko ogledate prime
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Ogled skupnih predvidenih zneskov
 
-Če je **Skupni proračun** izbran kot metoda nadzora stroškov na strani **Parametri za vodenje projektov in računovodstvo** , se na strani **Nadzor stroškov** izračunajo dejanski stroški in skupni stroški projekta, da lahko lažje odkrijete razlike med obema. Natančneje so na strani **Nadzor stroškov** zneski v stolpcih v spodnjem podoknu zavihka **Splošno** izračunani na naslednje načine:
+Če je **Skupni proračun** izbran kot metoda nadzora stroškov na strani **Parametri za vodenje projektov in računovodstvo**, se na strani **Nadzor stroškov** izračunajo dejanski stroški in skupni stroški projekta, da lahko lažje odkrijete razlike med obema. Natančneje so na strani **Nadzor stroškov** zneski v stolpcih v spodnjem podoknu zavihka **Splošno** izračunani na naslednje načine:
 
 -   **Skupni predvideni stroški** – skupni predvideni stroški za izbrano vrstico cene.
 -   **Dejanski stroški** – skupni znesek stroškov projekta do tega dne za izbrane vrstice cene.

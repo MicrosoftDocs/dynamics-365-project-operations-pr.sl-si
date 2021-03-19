@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2bab78628333f2d8a6996277ca3a9e63052e939
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084742"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289119"
 ---
 # <a name="project-resourcing-home-page"></a>Domača stran iskanja virov za projekt
 
@@ -49,10 +49,10 @@ Naslednje teme ponujajo informacije o opravilih, ki jih je treba opraviti, ko i�
 - [Nastavitev virov projekta](set-up-project-resources.md)
 - [Upravljanje sposobnosti virov](manage-resource-competencies.md)
 - [Ustvarite nov projekt](create-new-project.md)
-- [Nastavitev cen na podlagi vlog](set-up-role-based-pricing.md)
+- [Nastavitev cene, ki temelji na vlogi](set-up-role-based-pricing.md)
 - [Ustvarjanje projektne ekipe](create-project-team.md)
 - [Sinhronizacija zmogljivosti vira](synchronize-resource-capacity.md)
-- [Učinkovitost razporejanja projektnih virov](project-scheduling-performance.md)
+- [Uspešnost razporejanja vira projekta](project-scheduling-performance.md)
 - [Nastavitev vlog za predloge strukturirane členitve dela](set-up-roles-wbs-template.md)
 - [Zapolnitev virov za načrtovane vire](resource-fulfillment-planned-resources.md)
 

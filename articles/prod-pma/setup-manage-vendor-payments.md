@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084735"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288623"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Nastavitev in uporaba plačil dobavitelju, ki se izvedejo po prejemu plačila
 
@@ -56,7 +56,7 @@ Ko za projekt nastavite pogoje za plačilo, ki se izvede po prejemu plačila, mo
     - **Skupina** – pogoji za plačilo, ki se izvede po prejemu plačila, veljajo za vse dobavitelje v skupini dobaviteljev.
     - **Vse** – pogoji za plačilo, ki se izvede po prejemu plačila, veljajo za vse dobavitelje.
 
-4. Če ste v prejšnjem koraku izbrali možnost **Tabela** ali **Skupina** , v polju **Dobavitelj/skupina dobaviteljev** izberite dobavitelja ali skupino dobaviteljev, za katere veljajo pogoji za plačilo, ki se izvede po prejemu plačila. Če ste v prejšnjem koraku izbrali možnost **Vse** , polja **Dobavitelj/skupina dobaviteljev** ni mogoče urejati.
+4. Če ste v prejšnjem koraku izbrali možnost **Tabela** ali **Skupina**, v polju **Dobavitelj/skupina dobaviteljev** izberite dobavitelja ali skupino dobaviteljev, za katere veljajo pogoji za plačilo, ki se izvede po prejemu plačila. Če ste v prejšnjem koraku izbrali možnost **Vse**, polja **Dobavitelj/skupina dobaviteljev** ni mogoče urejati.
 5. Če so za dobavitelja v projektu nastavljeni pogoji zadržanja, v polju **Pogoji zadržanja plačila dobavitelju** izberite ID pravila za pogoje zadržanja.
 6. V polju **Mejni odstotek plačila, ki se izvede po prejemu plačila** vnesite mejni odstotek za projekt. Odstotek, ki ga vnesete za projekt, določa najnižji znesek, ki vam ga mora stranka plačati, preden boste plačali dobavitelju.
 
@@ -69,7 +69,7 @@ Ko za projekt nastavite pogoje za plačilo, ki se izvede po prejemu plačila, mo
 
     Ali pa odprite obstoječo naročilnico na strani s seznamom **Vse naročilnice**.
 
-4. Na strani **Naročilnica** na zavihku za hitri dostop **Vrstice naročilnic** , preglejte podrobnosti vrstice naročilnice za dobavitelja. Možnost **Plačilo, ki se izvede po prejemu plačila** je samodejno izbrana, vrednost v polju **Mejni odstotek plačila, ki se izvede po prejemu plačila** pa se samodejno kopira iz polja **Mejni odstotek plačila, ki se izvede po prejemu plačila** na strani **Projekti**.
+4. Na strani **Naročilnica** na zavihku za hitri dostop **Vrstice naročilnic**, preglejte podrobnosti vrstice naročilnice za dobavitelja. Možnost **Plačilo, ki se izvede po prejemu plačila** je samodejno izbrana, vrednost v polju **Mejni odstotek plačila, ki se izvede po prejemu plačila** pa se samodejno kopira iz polja **Mejni odstotek plačila, ki se izvede po prejemu plačila** na strani **Projekti**.
 6. Če za dobavitelja za vrstico naročilnice ne želite uveljaviti pogojev za plačilo, ki se izvede po prejemu plačila, počistite možnost **Plačilo, ki se izvede po prejemu plačila**. V tem primeru je polje **Mejni odstotek plačila, ki se izvede po prejemu plačila** za vrstico naročilnice ponastavljeno na 0 (nič).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Posodobitev plačila stranke in plačilo dobavitelju
@@ -79,7 +79,7 @@ Ko dobavitelj zaključi delo na projektu in vam pošlje račun, morate pregledat
 1. Pomaknite se v razdelek **Vodenje projektov in računovodstvo** \> **Poizvedbe in poročila** \> **Poizvedbe o zadrževanju** \> **Račun dobavitelja s plačilom, ki se izvede po prejemu plačila**.
 2. Na strani **Račun dobavitelja s plačilom, ki se izvede po prejemu plačila** v iskalno polje vnesite vrednosti, da poiščete račun dobavitelja, ki ga želite pregledati, in nato izberite **Iskanje**.
 3. Na zavihku za hitri dostop **Vrstnice računa dobavitelja** izberite vrstice, ki jih želite spremeniti.
-4. Če so pogoji za **plačilo, ki se izvede po prejemu plačila** , za vrstico računa izpolnjeni, izberite **Izplačaj plačilo dobavitelju**. Možnost **Plačilo, ki se izvede po prejemu plačila** je počiščena in vrednost polja **Pripravljeno za plačilo** se spremeni v **Da**.
+4. Če so pogoji za **plačilo, ki se izvede po prejemu plačila**, za vrstico računa izpolnjeni, izberite **Izplačaj plačilo dobavitelju**. Možnost **Plačilo, ki se izvede po prejemu plačila** je počiščena in vrednost polja **Pripravljeno za plačilo** se spremeni v **Da**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

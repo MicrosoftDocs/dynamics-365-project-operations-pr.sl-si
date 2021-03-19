@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084740"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288984"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Poizvedba glede načrta porabe zveznih subvencij
 
@@ -42,27 +42,27 @@ Poizvedba vključuje subvencije, ki imajo datume projekcije v izbranem časovnem
 Nastaviti morate gruče CFDA, ki jih je mogoče povezati s številkami CFDA pri poizvedbi glede načrta porabe zveznih subvencij.
 
 1. Izberite **Vodenje projektov in računovodstvo \> Nastavitev \> Subvencije \> Gruče kataloga za zvezno pomoč domačim entitetam**.
-2. Izberite **Novo** , da ustvarite gručo CFDA.
+2. Izberite **Novo**, da ustvarite gručo CFDA.
 3. Vnesite ime gruče.
-4. Izberite **Shrani** , da shranite spremembe.
+4. Izberite **Shrani**, da shranite spremembe.
 
 ## <a name="set-up-cfda-numbers"></a>Nastavitev številk CFDA
 
 Nastaviti morate številke CFDA, ki jih je mogoče dodati subvencijam in vključiti v poizvedbo glede načrta porabe zveznih subvencij.
 
 1. Izberite **Vodenje projektov in računovodstvo \> Nastavitev \> Subvencije \> Številke kataloga za zvezno pomoč domačim entitetam**.
-2. Izberite **Novo** , da ustvarite številko CFDA.
+2. Izberite **Novo**, da ustvarite številko CFDA.
 3. V stolpec **Številka** vnesite številko CFDA.
 4. Pritisnite **tabulatorko**.
 5. V stolpec **Opis** vnesite naziv CFDA.
 6. Pritisnite **tabulatorko**.
 7. Izbirno: v polje **Programska gruča** dodajte ustrezno gručo CFDA.
-8. Izberite **Shrani** , da shranite spremembe.
+8. Izberite **Shrani**, da shranite spremembe.
 
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Vzpostavitev subvencij za poročanje glede poizvedbe glede načrta porabe zveznih subvencij
 
 1. Izberite **Vodenje projektov in računovodstvo \> Subvencije \> Subvencije** in izberite obstoječo subvencijo.
-2. Na zavihku za hitri dostop **Nastavitev** v polju **Katalog za zvezno pomoč domačim entitetam** dodelite številko CFDA. Številka CFDA pri subvenciji določa gručo CFDA za poročanje.
+2. Na zavihku za hitri dostop **Nastavitev** v polju **Katalog za zvezno pomoč domačim entitetam** dodelite številko CFDA. Številka CFDA pri subvenciji določa gručo CFDA za poročanje.
 3. Na zavihku za hitri dostop **Podatki za stik** vnesite podatke o dajalcu subvencije tako, da upoštevate ta navodila:
 
     1. V polju **Prejemnik subvencije** vnesite prejemnika, ki je odgovoren za subvencijo. Za obstoječo subvencijo so ti podatki morda že vneseni.
@@ -79,9 +79,9 @@ Zvezna vlada je financirala infrastrukturni projekt za zvezno državo. Zvezna vl
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Izključitev subvencij v zvezi s poročanjem SEFA glede na vrsto subvencije
 
-1. Odprite **Vodenje projektov in računovodstvo \> Nastavitev \> Subvencije \> Vrste subvencij**.
-2. Na zavihku za hitri dostop **Privzeti podatki** izberite potrditveno polje **Izključi iz načrta porabe zveznih subvencij**.
-3. Izberite **Shrani** , da shranite spremembe.
+1. Odprite razdelek **Vodenje projektov in računovodstvo \> Nastavitev \> Subvencije \> Vrste subvencij**.
+2. Na zavihku za hitri dostop **Privzeti podatki** izberite potrditveno polje **Izključi iz načrta porabe zveznih subvencij**.
+3. Izberite **Shrani**, da shranite spremembe.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Zagon poizvedbe glede načrta porabe zveznih subvencij
 

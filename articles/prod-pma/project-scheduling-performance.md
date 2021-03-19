@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084739"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289029"
 ---
 # <a name="project-resource-scheduling-performance"></a>Učinkovitost razporejanja projektnih virov
 
@@ -34,7 +34,7 @@ ms.locfileid: "4084739"
 Težave z učinkovitostjo, povezane z razporejanjem virov, se lahko pojavijo, ko število projektov postane večje od tisoč. Za izboljšanje učinkovitosti razporejanja virov je na voljo funkcija, ki uporabnikom omogoča, da skrajšajo čas, potreben za zagon obrazca o razpoložljivosti virov. Odpravlja namreč postopek sinhronizacije za zbiranje zmogljivosti vira in uporablja tabelo **ResProjectResource** za hitrejše iskanje virov. Upoštevajte, da se tabela **ResRollup** ne bo več uporabljala.
 
 > [!IMPORTANT]
-> Če obstaja odvisnost bodisi od postopka sinhronizacije za zbiranje zmogljivosti vira bodisi od tabele **ResProjectResource** , ne uporabljajte te funkcije.
+> Če obstaja odvisnost bodisi od postopka sinhronizacije za zbiranje zmogljivosti vira bodisi od tabele **ResProjectResource**, ne uporabljajte te funkcije.
 
 ## <a name="enable-resource-scheduling-performance-enhancement"></a>Omogočanje funkcije za izboljšanje učinkovitosti razporejanja virov
 Če želite omogočiti funkcijo za izboljšanje učinkovitosti razporejanja virov, upoštevajte ta navodila.
@@ -43,10 +43,10 @@ Težave z učinkovitostjo, povezane z razporejanjem virov, se lahko pojavijo, ko
 2. Izberite **Omogoči zdaj**.
 
 > [!NOTE]
-> Če funkcije ne najdete na seznamu, izberite **Preveri, ali so na voljo posodobitve** , da osvežite seznam.
+> Če funkcije ne najdete na seznamu, izberite **Preveri, ali so na voljo posodobitve**, da osvežite seznam.
 
 3. Osvežite brskalnik in izberite **Vodenje projektov in računovodstvo** > **Redno** > **Projektni viri** > **Sinhroniziraj zmogljivosti vira v koledarjih v vseh podjetjih**.
-4. Nastavite **Odstrani obstoječe zapise o zmogljivosti** na **Da** , da odstranite prejšnje podatke. Če želite ustvariti postopne podatke, možnost nastavite na **Ne**.
+4. Nastavite **Odstrani obstoječe zapise o zmogljivosti** na **Da**, da odstranite prejšnje podatke. Če želite ustvariti postopne podatke, možnost nastavite na **Ne**.
 5. V polju **Koda obdobij** izberite obdobje, v katerem naj se ustvarijo podatki. Če izberete kodo obdobij, začetnega in končnega datuma ni treba določiti.
 6. Če pustite polje **Koda obdobij** prazno, izberite določene začetne in končne datume za ustvarjanje podatkov.
 7. Izberite **V redu**.
@@ -54,7 +54,7 @@ Težave z učinkovitostjo, povezane z razporejanjem virov, se lahko pojavijo, ko
  > [!NOTE]
  > S tem se bo tabela **ResCalendarCapacity** izpolnila s splošnimi podatki za vsa podjetja v vašem okolju, zato je treba paketno opravilo izvesti samo pri eni pravni osebi. Podatki pri tem paketnem opravilu so potrebni za izračun zmogljivosti vira prek povezanega koledarja.
 
-8. Izberite **Vodenje projektov in računovodstvo** > **Redno** > **Projektni viri** > **Izpolni projektne vire za vsa podjetja** in nato izberite **V redu**. To je skript za nadgradnjo podatkov, in sicer za splošne podatke v tabelah **ResProjectResource** , **ResCalendarDateTimeRange** in **ResEffectiveDateTimeRange**. Vrednosti za polje **PSAPRojSchedRole.RootActivity** se tudi posodobijo. Če se to ne zažene, boste prejeli opozorilo, ko boste poskušali izvesti postopke razporejanja virov.
+8. Izberite **Vodenje projektov in računovodstvo** > **Redno** > **Projektni viri** > **Izpolni projektne vire za vsa podjetja** in nato izberite **V redu**. To je skript za nadgradnjo podatkov, in sicer za splošne podatke v tabelah **ResProjectResource**, **ResCalendarDateTimeRange** in **ResEffectiveDateTimeRange**. Vrednosti za polje **PSAPRojSchedRole.RootActivity** se tudi posodobijo. Če se to ne zažene, boste prejeli opozorilo, ko boste poskušali izvesti postopke razporejanja virov.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Izklop funkcije za izboljšanje učinkovitosti razporejanja virov
 
@@ -62,7 +62,7 @@ Težave z učinkovitostjo, povezane z razporejanjem virov, se lahko pojavijo, ko
 2. Izberite funkcijo in nato izberite **Onemogoči**.
 3. Osvežite brskalnik.
 4. Izberite **Vodenje projektov in računovodstvo** > **Redno** > **Sinhronizacija zmogljivosti** > **Sinhronizacija zbiranj zmogljivosti vira**.
-5. Na strani **Sinhronizacija zbiranj zmogljivosti vira** nastavite **Odstrani obstoječe zapise o zmogljivosti** na **Da** , da odstranite prejšnje podatke. Če želite ustvariti postopne podatke, možnost nastavite na **Ne**.
+5. Na strani **Sinhronizacija zbiranj zmogljivosti vira** nastavite **Odstrani obstoječe zapise o zmogljivosti** na **Da**, da odstranite prejšnje podatke. Če želite ustvariti postopne podatke, možnost nastavite na **Ne**.
 6. V polju **Koda obdobij** izberite obdobje, v katerem naj se ustvarijo podatki. Če izberete kodo obdobij, začetnega in končnega datuma ni treba določiti.
 7. Če pustite polje **Koda obdobij** prazno, izberite določene začetne in končne datume za ustvarjanje podatkov.
 8. Izberite **V redu**.

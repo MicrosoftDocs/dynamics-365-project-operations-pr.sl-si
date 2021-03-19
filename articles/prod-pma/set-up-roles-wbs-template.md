@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084736"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288669"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Nastavitev vlog za predloge strukturirane členitve dela
 
@@ -81,7 +81,7 @@ Dodatne možnosti so bile dodane v SČD za boljšo uporabo funkcije iskanja viro
 
 1. Na strani **Vsi projekti** izberite projekt **2. faza nadgradnje XYZ**.
 2. Izberite **Načrtovanje** > **Dejavnosti** > **Strukturirana členitev dela**.
-3. Izberite **Novo** , da dodate naslednje dejavnosti prve stopnje v SČD:
+3. Izberite **Novo**, da dodate naslednje dejavnosti prve stopnje v SČD:
 
     - Zagon
     - Načrtovanje
@@ -95,9 +95,9 @@ Dodatne možnosti so bile dodane v SČD za boljšo uporabo funkcije iskanja viro
 
 5. Izberite vrstico opravila **Zagon** in nato v polju **Vloga** izberite **Višji projektni vodja**.
 6. Izberite **Objavi**.
-7. V isti vrstici v polju **Vir** izberite **Daniel Goldschmidt** , nato pa izberite **Sprejem**.
+7. V isti vrstici v polju **Vir** izberite **Daniel Goldschmidt**, nato pa izberite **Sprejem**.
 8. Izberite vrstico opravila **Načrtovanje** in nato v polju **Vloga** izberite **Poslovni analitik**.
-9. Izberite **Objava** , nato pa izberite **Samodejno ustvarjanje ekipe**.
+9. Izberite **Objava**, nato pa izberite **Samodejno ustvarjanje ekipe**.
 10. V polju za sporočilo, ki se prikaže, izberite **Da**.
 11. V polju **Vir** potrdite, da je vrednost **Poslovni analitik 1**.
 12. Za vir **Poslovni analitik 1** odprite iskanje in izberite **Zagon dodelitev virov**. Nato izberite delavca za opravilo.

@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9df15cb3712356a164de3507f5dbc17a9ff9a652
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084815"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288399"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konfiguriranje zaračunavanja projektov med podjetji
 
@@ -34,14 +34,14 @@ V tej temi je prikazano, kako nastavite zaračunavanje projektov med dvema podje
 2. Na seznamu **Vsi dobavitelji** poiščite in izberite želeni zapis.
 3. V podoknu za dejanja izberite **Splošno**.
 4. Izberite **Med podjetji**.
-5. Nastavite **Aktivno** na **Da** , da omogočite medpodjetniško trgovanje.
+5. Nastavite **Aktivno** na **Da**, da omogočite medpodjetniško trgovanje.
 6. Vnesite ali izberite vrednost v polju **Podjetje stranke**.
 7. Vnesite ali izberite vrednost v polju **Moj račun**.
 8. Izberite **Shrani**.
 9. Zaprite strani, da se vrnete na domačo stran.
 10. V podoknu za krmarjenje pojdite na **Moduli > Vodenje projektov in računovodstvo> Nastavitev> Vodenje projektov in računovodski parametri**.
 11. Izberite zavihek **Med podjetji**.
-12. Premaknite drsnik na **Da** , da omogočite razporejanje virov in časovnice med podjetji.
+12. Premaknite drsnik na **Da**, da omogočite razporejanje virov in časovnice med podjetji.
 13. Na seznamu označite izbrano vrstico.
 14. Izberite **Novo**.
 15. Vnesite ali izberite vrednost v polju **Pravna oseba, ki si izposoja**.

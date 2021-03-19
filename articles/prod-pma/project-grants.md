@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084937"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289389"
 ---
 # <a name="project-grants"></a>Projektne subvencije
 
@@ -51,7 +51,7 @@ Subvencijo lahko ustvarite tako, da vnesete vse podrobnosti v nov zapis, ali pa 
     Naslednji seznam opisuje podatke, ki so določeni na vsakem zavihku za hitri dostop na strani s podrobnostmi o subvenciji:
 
     - **Splošno** – vnesite ime, stanje, opis, namen in znesek subvencije.
-    - **Podatki za stik** – vnesite podrobnosti o zaposlenih, oddelku, ki upravlja subvencijo, in prejemniku subvencije ali organizaciji, ki je vir subvencije. Lahko tudi navedete, ali je vaša organizacija prehodna entiteta, ki prejme subvencijo in jo nato posreduje drugemu prejemniku. Izberite **Dodaj** , da dodate podatke za stik, kot so telefonske številke in e-poštni naslovi organizacije, ki zagotavlja subvencijo.
+    - **Podatki za stik** – vnesite podrobnosti o zaposlenih, oddelku, ki upravlja subvencijo, in prejemniku subvencije ali organizaciji, ki je vir subvencije. Lahko tudi navedete, ali je vaša organizacija prehodna entiteta, ki prejme subvencijo in jo nato posreduje drugemu prejemniku. Izberite **Dodaj**, da dodate podatke za stik, kot so telefonske številke in e-poštni naslovi organizacije, ki zagotavlja subvencijo.
     - **Datumi in roki** – vnesite datume, povezane s subvencijo, in prošnjo za subvencijo. Primeri vključujejo datum zapadlosti prošnje, datum oddaje in datum odobritve ali zavrnitve subvencije.
     - **Povezani projekti in projektne pogodbe** – na tem zavihku za hitri dostop lahko vnesete podatke samo, če je **Stanje subvencije** na zavihku za hitri dostop **Splošno** nastavljeno na **Aktivno** ali **Dodeljeno**. Za dokončanje povezanega opravila izberite med naslednjimi možnostmi:
 
