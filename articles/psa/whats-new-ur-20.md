@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147133"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280688"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Izdaja posodobitve 20 za Project Service Automation, V3
 
@@ -42,7 +42,7 @@ Odpravljene so naslednje težave:
 
 - Če uvažate člane projektne ekipe z načinom dodeljevanja, ki zahteva ure, se prikaže nejasno sporočilo o napaki, ko je določeno število ur enako nič.
 - Ko uporabnik doseže največje dovoljeno število znakov v polju **Opis** projektne naloge, se pojavi neustrezna napaka.
-- Ko je jezik uporabnika nastavljen na japonščino, stran **Prenos dodatka za Microsoft Dynamics 365 Project Service Automation** preusmeri na angleško stran za prenos.
+- Če so nastavitve jezika uporabnika nastavljene na japonščino, vas stran za prenos dodatka **Microsoft Dynamics 365 Project Service Automation** preusmeri na stran za prenos v angleščini.
 - Ko se pojavi napaka strežnika, se oznaka sinhronizacije na zavihku **Načrtovanje** obrazca **Projekti** včasih ohrani.
 - Ko je opravilo spremenjeno, so odvečne posodobitve opravil poslane strežniku.
 

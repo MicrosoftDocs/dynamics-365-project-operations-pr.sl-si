@@ -18,20 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147718"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283298"
 ---
-# <a name="reporting-home-page"></a>Domača stran za poročanje
+# <a name="reporting-home-page"></a>Domača stran poročanja
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation omogoča učinkovito upravljanje poslovanja organizacijam, v katerih poslovanje poteka na podlagi projektov. Pri vsakem projektu morajo člani ekipe upravljati priložnosti, pošiljati ponudbe in načrtovati delo, razporejati vire za projekte, upravljati delo v skladu z načrtom, obračunati delo in opraviti vse potrebno za dokončanje projekta. Zmožnost poročanja o postopkih je ključnega pomena za določanje stanja organizacije in sprejemanje potrebnih popravljalnih dejanj. PSA uporablja metode in tehnologije poročanja, uporabljene v aplikaciji Microsoft Dynamics 365, za vse svoje postopke poročanja. Za več informacij o možnostih poročanja si oglejte [Vodnik za pisanje poročil za Dynamics 365 Customer Engagement (on-premises), različica 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Storitev Microsoft Dynamics 365 Project Service Automation omogoča učinkovito upravljanje poslovanja organizacijam, v katerih poslovanje poteka na podlagi projektov. Pri vsakem projektu morajo člani ekipe upravljati priložnosti, pošiljati ponudbe in načrtovati delo, razporejati vire za projekte, upravljati delo v skladu z načrtom, obračunati delo in opraviti vse potrebno za dokončanje projekta. Zmožnost poročanja o postopkih je ključnega pomena za določanje stanja organizacije in sprejemanje potrebnih popravljalnih dejanj. PSA uporablja metode in tehnologije poročanja, uporabljene v aplikaciji Microsoft Dynamics 365, za vse svoje postopke poročanja. Za več informacij o možnostih poročanja si oglejte [Vodnik za pisanje poročil za Dynamics 365 Customer Engagement (on-premises), različica 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Čarovnik za poročila
 

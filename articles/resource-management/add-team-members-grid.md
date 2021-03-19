@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121553"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280103"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Dodajanje članov ekipe iz mreže članov ekipe
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Storitev Dynamics 365 Project Operations vključuje nadzorno ploščo za upravljanje virov, ki zagotavlja vizualni pregled povpraševanja po virih in njihove uporabe v organizaciji. Grafikone na tej nadzorni plošči lahko uporabite za upodobitev teh informacij:
+Aplikacija Dynamics 365 Project Operations vključuje nadzorno ploščo vodnika za upravljanje virov, ki zagotavlja ponazoritev povpraševanja po virih in njihove uporabe v organizaciji. Grafikone na tej nadzorni plošči lahko uporabite za upodobitev teh informacij:
 
 - **Povpraševanje po virih** : grafikon **Zahteve za dejavne vire** prikaže vire, ki so bili poslani. Viri so združeni po vlogi ali projektu.
 - **Neposlano povpraševanje po virih**: grafikon **Povpraševanje po nedodeljenih virih** prikazuje vse zahteve za vir, ki niso bile poslane. Grafikon upraviteljem virov pomaga, da si ogledajo povpraševanje, ki ni potrjeno in ga je mogoče poslati prek zahteve za vir.
