@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: c1df809ea3df3f53d5fb42d632c56c47615fec3d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365628"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273983"
 ---
 # <a name="lite-deployment-overview"></a>Pregled poenostavljenega uvajanja
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Poenostavljeno uvajanje aplikacije Dynamics 365 Project Operations ima naslednje zmogljivosti za podjetja, ki temeljijo na projektu:
+Poenostavljeno uvajanje aplikacije Dynamics 365 Project Operations ima za podjetja, ki temeljijo na projektu, naslednje zmogljivosti:
 
 - Načrtovanje projektov z uporabo spletne aplikacije Microsoft Project
 - Večdimenzionalne cene in stroški za delovne vire

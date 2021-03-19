@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176001"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273038"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Upravljanje cenikov za projekte v projektnih ponudbah – poenostavljeno
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Projektne ponudbe so zasnovane tako, da podpirajo več cenikov z datumom začetka veljavnosti. V storitvi Dynamics 365 Project Operations se doda nova povezana entiteta, imenovana **Ceniki projektov**. Ta entiteta ima do projektne ponudbe odnos »ena proti mnogo«.
+Projektne ponudbe so zasnovane tako, da podpirajo več cenikov z datumom začetka veljavnosti. V aplikaciji Dynamics 365 Project Operations je dodana nova povezana entiteta, imenovana **Cenik projekta**. Ta entiteta ima do projektne ponudbe odnos »ena proti mnogo«.
 
 Ceniki projektov se uporabljajo za določanje časovnih in stroškovnih transakcij projekta. Če ima ponudba enega ali več cenikov projektov, se ti ceniki uporabljajo za določanje časovnih in stroškovnih ocen ter dejanskih podatkov za projekte, ki so povezani s ponudbo prek vrstic ponudbe.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084891"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270743"
 ---
 # <a name="create-a-new-project"></a>Ustvarite nov projekt
 
@@ -31,7 +31,7 @@ ms.locfileid: "4084891"
 
 Dokončajte naslednje korake, da ustvarite nov projekt.
 
-1. Na strani **Vodenje projektov** izberite **Nov projekt** , nato pa vnesite naslednje vrednosti:
+1. Na strani **Vodenje projektov** izberite **Nov projekt**, nato pa vnesite naslednje vrednosti:
 
     - **Vrsta projekta:** Čas in material
     - **Ime projekta:** 2. faza nadgradnje XYZ
@@ -59,7 +59,7 @@ Projektni vodja lahko uporabi funkcionalnost iskanja virov za projekt, da ustvar
 
 Naslednji koraki prikazujejo, kako lahko upravitelj virov nastavi vlogo višjega projektnega vodje in z njo poveže značilnosti vira. Pozneje lahko vlogo uporabimo za iskanje razpoložljivih virov, ki se ujemajo z zahtevanimi sposobnostmi virov.
 
-1. Na strani **Nastavitev vlog** izberite **Novo** , nato pa vnesite naslednje vrednosti:
+1. Na strani **Nastavitev vlog** izberite **Novo**, nato pa vnesite naslednje vrednosti:
 
     - **ID vloge:** Višji projektni vodja
     - **Opis:** Višji projektni vodja
@@ -96,7 +96,7 @@ Med rezervacijo virov lahko projektni vodje filtrirajo vire z vlogo, ki so na vo
 **Scenarij:** Odobren projekt se je začel in vloga višjega projektnega vodje je bila rezervirana kot načrtovani vir v fazi načrtovanja projekta. Upravitelj virov je zdaj pridobil vir za zapolnitev vloge višjega projektnega vodje.
 
 1. Na strani **Seznam virov** izberite **Daniel Goldschmidt**.
-2. Na strani **Vloga vira** izberite **Novo** , nato pa vnesite naslednje vrednosti:
+2. Na strani **Vloga vira** izberite **Novo**, nato pa vnesite naslednje vrednosti:
 
     - **Datum začetka veljavnosti:** Vnesite trenutni datum.
     - **Datum poteka:** Vnesite **Nikoli**.

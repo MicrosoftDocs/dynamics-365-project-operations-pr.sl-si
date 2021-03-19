@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 029d2aa4fd20fc036a34ae6136fe12454f3b7703
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177396"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273353"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Upravljanje kompleksnih enot za podrobnosti pogodbe, ki temeljijo na izdelkih – poenostavljena različica
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Dynamics 365 Project Operations uporablja količnike za količino, ki podpirajo prodajo naročniških izdelkov. Pri naročniških izdelkih je količina v pogodbi ali podrobnostih pogodbe projekta izražena kot število mesecev uporabe.
+Aplikacija Dynamics 365 Project Operations uporablja količnike za količino, ki podpirajo prodajo naročniških izdelkov. Pri naročniških izdelkih je količina v pogodbi ali podrobnostih pogodbe projekta izražena kot število mesecev uporabe.
 
 Cena naročniške programske opreme je shranjena v katalogu kot cena na uporabnika na mesec. Med prodajnim postopkom je cena v podrobnostih pogodbe običajno cena na uporabnika na mesec, ki jo je izpogajal in znižal prodajni agent. Vsak posel ima različno število uporabnikov in različno število naročniških mesecev. Količina, ki se uporablja za izračun zneska podrobnosti pogodbe, je produkt števila uporabnikov in števila mesecev naročnine.
 

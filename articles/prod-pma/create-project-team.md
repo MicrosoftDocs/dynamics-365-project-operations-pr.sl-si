@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7eb9101352afd27b527bf6b8acc6f92198f44ea
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084921"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270878"
 ---
 # <a name="create-a-project-team"></a>Ustvarjanje projektne ekipe
 
 [!include [banner](../includes/banner.md)]
 
-Za uporabo vlog, ki so bile predhodno nastavljene v projektu, mora projektni vodja vloge povezati s projektom. Za projekt je mogoče dodeliti več vlog. Da bi preprečili zmedo, so te vloge med rezervacijo samodejno označene. Na primer, če projektni vodja zahteva tri inženirje programske opreme, so samodejno ustvarjene tri vloge inženirjev programske opreme, ki imajo kot oznake **inženir programske opreme 1** , **inženir programske opreme 2** in **inženir programske opreme 3**. Če so bile značilnosti vloge prej nastavljene za vlogo, so uporabljene kot filter med iskanji za vir. Po potrebi se lahko dodajo dodatne značilnosti za nadaljnje podrobneje določanje iskanja.
+Za uporabo vlog, ki so bile predhodno nastavljene v projektu, mora projektni vodja vloge povezati s projektom. Za projekt je mogoče dodeliti več vlog. Da bi preprečili zmedo, so te vloge med rezervacijo samodejno označene. Na primer, če projektni vodja zahteva tri inženirje programske opreme, so samodejno ustvarjene tri vloge inženirjev programske opreme, ki imajo kot oznake **inženir programske opreme 1**, **inženir programske opreme 2** in **inženir programske opreme 3**. Če so bile značilnosti vloge prej nastavljene za vlogo, so uporabljene kot filter med iskanji za vir. Po potrebi se lahko dodajo dodatne značilnosti za nadaljnje podrobneje določanje iskanja.
 
 Nastavitve pogleda lahko prilagodite tudi za boljši pregled razpoložljivosti virov. Obstajajo možnosti prikaza urne, dnevne, tedenske, mesečne, četrtletne in letne razpoložljivosti. Obstaja tudi možnost prikaza razpoložljive in preostale zmogljivosti virov. Ta možnost je uporabna za upravljanje časa, ko ocenjujete razpoložljivi čas za dejavnosti ali razpoložljivost virov.
 
@@ -37,7 +37,7 @@ Projektni vodja lahko na strani izbere vlogo in nato, če je na voljo vir, ki us
 
 [![Seznam projektne skupine, ki vključuje vloge in dejanske vire](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
-Projektni vodja ima različne možnosti za rezervacijo vira za projekt, npr. **Preostala zmogljivost** , **Polna zmogljivost** , **Odstotek zmogljivosti** in **Določanje ur**. Te možnosti rezervacije lahko kadar koli prekličete, če se dodelitve virov spremenijo. Podprti sta dve vrsti rezervacij:
+Projektni vodja ima različne možnosti za rezervacijo vira za projekt, npr. **Preostala zmogljivost**, **Polna zmogljivost**, **Odstotek zmogljivosti** in **Določanje ur**. Te možnosti rezervacije lahko kadar koli prekličete, če se dodelitve virov spremenijo. Podprti sta dve vrsti rezervacij:
 
 - **Veljavna rezervacija** – Rezervacija vira je bila odobrena in potrjena za delo na angažmaju za navedeno trajanje.
 - **Začasna rezervacija** – Rezervacija vira je bila okvirno nastavljena za delo na angažmaju za navedeno trajanje.
@@ -53,7 +53,7 @@ Naslednji postopek opisuje, kako ustvarite projektno ekipo.
 5. Izberite **Zahtevane sposobnosti**.
 6. Na strani **Izbira značilnosti** so značilnosti, ki ste jih prej nastavili za vlogo višjega projektnega vodje, privzeto izbrane. Izberite **V redu**.
 7. Na strani **Dodaj vloge v projekt** v polje **Število virov** vnesite **1**.
-8. V polju **Vir** iskanje prikaže vse vire, ki imajo zahtevane sposobnosti. Izberite **Daniel Goldschmidt** , nato pa izberite **Ustvari**.
+8. V polju **Vir** iskanje prikaže vse vire, ki imajo zahtevane sposobnosti. Izberite **Daniel Goldschmidt**, nato pa izberite **Ustvari**.
 9. Na strani **Projekt** izberite **Dodaj**.
 10. V podoknu **Dodaj vloge v projekt** v polju **Vloga** izberite **Član ekipe**. V polje **Število virov** vnesite **5**.
 11. Izberite **Ustvari**.

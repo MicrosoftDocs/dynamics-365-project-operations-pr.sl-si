@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084893"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270968"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Ustvarjanje in uporaba pogojev za zadrževanje plačila dobaviteljem
 
@@ -38,12 +38,12 @@ Vnesete lahko delež plačila dobavitelju, ki ga želite zadržati, in delež pr
 Uporabite naslednje korake za nastavitev in vzdrževanje pogojev za zadrževanje plačila dobavitelju. 
 
 1. Odprite **Vodenje projektov in računovodstvo** > **Zadrževanje** > **Pogoji za zadrževanje plačila dobavitelju**.
-2. Izberite **Novo** , da dodate nov pogoj za zadržanje plačila dobavitelju. Vrednost **ID pravila** za novi pogoj se samodejno vnese. 
-3. Vnesite kratek opis v polje **Opis** in v zavihku za hitri dostop **Pogoji** izberite **Dodaj vrstico** , da vnesete vrednosti pogojev za naslednje entitete:
+2. Izberite **Novo**, da dodate nov pogoj za zadržanje plačila dobavitelju. Vrednost **ID pravila** za novi pogoj se samodejno vnese. 
+3. Vnesite kratek opis v polje **Opis** in v zavihku za hitri dostop **Pogoji** izberite **Dodaj vrstico**, da vnesete vrednosti pogojev za naslednje entitete:
 
-   - **Delež dobavljenih enot** : vnesite delež izpolnitve pogoja. Zneski se samodejno zadržijo na računih dobaviteljev, dokler stanje izpolnitve projekta ne doseže dogovorjenega deleža. Če na primer vnesete 50,00, se zneski zadržijo, dokler projekt ni dokončan do 50 odstotkov.
-   - **Delež, ki ga je treba zadržati** : vnesite delež zneska računa dobavitelju, ki ga je treba zadržati. Če na primer vnesete 10.00, se 10 odstotkov zneska na računu dobavitelja zadrži, dokler projekt ne doseže deleža izpolnitve, kot je določeno v polju **Delež dobavljenih enot**.
-   - **Delež za sprostitev** : izberite **Dodaj vrstico** za vnos odstotka predhodno zadržanih zneskov, ki se sprostijo ob določeni stopnji dokončanosti projekta.
+   - **Delež dobavljenih enot**: vnesite delež izpolnitve pogoja. Zneski se samodejno zadržijo na računih dobaviteljev, dokler stanje izpolnitve projekta ne doseže dogovorjenega deleža. Če na primer vnesete 50,00, se zneski zadržijo, dokler projekt ni dokončan do 50 odstotkov.
+   - **Delež, ki ga je treba zadržati**: vnesite delež zneska računa dobavitelju, ki ga je treba zadržati. Če na primer vnesete 10.00, se 10 odstotkov zneska na računu dobavitelja zadrži, dokler projekt ne doseže deleža izpolnitve, kot je določeno v polju **Delež dobavljenih enot**.
+   - **Delež za sprostitev**: izberite **Dodaj vrstico** za vnos odstotka predhodno zadržanih zneskov, ki se sprostijo ob določeni stopnji dokončanosti projekta.
 
 > [!NOTE]
 > Če imate več kot en mejnik za različne stopnje dokončanosti projekta, vnesite ločeno vrstico pogoja za zadrževanje plačila dobavitelju za vsako pravilo za zadrževanje. Vsaka vrstica lahko določa drugačen odstotek zadrževanja in drugačen odstotek sprostitve za vsako določeno stopnjo dokončanja projekta.
@@ -56,11 +56,11 @@ Ko ustvarite pogoje za zadržanje plačila dobavitelju, lahko te pogoje uporabit
 2. Na zavihku za hitri dostop **Pogodbe dobaviteljev** izberite **Dodaj vrstico**.
 3. V polju **Koda kupca** izberite eno od naslednjih možnosti: 
 
-   - **Tabela** : pogoji za zadrževanje plačila dobavitelju veljajo za enega dobavitelja.
-   - **Skupina** : pogoji za zadrževanje plačila dobavitelju veljajo za vse dobavitelje v skupini dobaviteljev.
-   - **Vsi** : pogoji za zadrževanje plačila dobavitelju veljajo za vse dobavitelje.
+   - **Tabela**: pogoji za zadrževanje plačila dobavitelju veljajo za enega dobavitelja.
+   - **Skupina**: pogoji za zadrževanje plačila dobavitelju veljajo za vse dobavitelje v skupini dobaviteljev.
+   - **Vsi**: pogoji za zadrževanje plačila dobavitelju veljajo za vse dobavitelje.
 
-4. V polju **Dobavitelj/skupina dobaviteljev** izberite dobavitelja ali skupino dobaviteljev, za katero naj se uporabijo pogoji za zadrževanje plačila dobavitelju. Če ste v prejšnjem koraku izbrali možnost **Vsi** , to polje ne bo na voljo.
+4. V polju **Dobavitelj/skupina dobaviteljev** izberite dobavitelja ali skupino dobaviteljev, za katero naj se uporabijo pogoji za zadrževanje plačila dobavitelju. Če ste v prejšnjem koraku izbrali možnost **Vsi**, to polje ne bo na voljo.
 5. V polju **Pogoji za zadrževanje plačila dobavitelju** izberite pogoje za zadrževanje, ki ste jih ustvarili v prejšnjem postopku.
 6. Če ima projekt za dobavitelja nastavljene tudi pogoje po načinu plačila ob izvedenem plačilu (PWP), vnesite mejni odstotek za projekt v polju **Mejni odstotek za PWP**.
 

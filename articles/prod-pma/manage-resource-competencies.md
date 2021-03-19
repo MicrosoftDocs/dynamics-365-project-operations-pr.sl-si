@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084781"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270653"
 ---
 # <a name="manage-resource-competencies"></a>Upravljanje sposobnosti virov
 
@@ -41,8 +41,8 @@ Za nastavitev sposobnosti za delavca lahko uporabite bodisi stran seznama **Dela
 
 1. Na strani seznama **Delavci** izberite vrstico za delavca, za katero želite dodati informacije o potrdilu.
 2. V podoknu za dejanja na zavihku **Delavec** v skupini **Sposobnosti** izberite **Potrdila**.
-3. Izberite **Novo** , nato pa v polju **Vrsta potrdila** izberite **PMP**.
-4. V polju **Začetni datum** izberite **1. 10. 2015** , nato pa izberite **Shrani**.
+3. Izberite **Novo**, nato pa v polju **Vrsta potrdila** izberite **PMP**.
+4. V polju **Začetni datum** izberite **1. 10. 2015**, nato pa izberite **Shrani**.
 
 ## <a name="set-up-competencies-skills"></a>Nastavitev sposobnosti: znanja
 

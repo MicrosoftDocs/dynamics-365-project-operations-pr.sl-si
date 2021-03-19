@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a4357d5cf184a3c6ada3ae33631694c31bb5b00
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177351"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273232"
 ---
 # <a name="manage-project-contracts"></a>Upravljanje projektnih pogodb
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Projektne pogodbe v storitvi Dynamics 365 Project Operations zajamejo in upravljajo pogodbeno dogovorjeno o obvezah in podrobnostih obračunavanja za projekt. Struktura projektne pogodbe v storitvi Project Operations je prilagojena za delo, ki temelji na projektih, z naslednjimi komponentami:
 

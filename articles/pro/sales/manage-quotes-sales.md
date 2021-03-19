@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 87921221ea210e67a3ddc53bd124f292de80de99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177846"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272948"
 ---
 # <a name="manage-project-quotes"></a>Upravljanje ponudb za projekte
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 V aplikaciji Dynamics 365 Project Operations so ponudbe za projekt oblikovane kot pomoč pri oblikovanju predlogov za projektno delo. Struktura ponudbe za projekt v aplikaciji Project Operations je strukturirana za projektne predloge z naslednjimi komponentami:
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119573"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274973"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Razrešitev prodajnih cen za ocene in dejanske vrednosti
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-Ko so prodajne cene ocen in dejanskih vrednosti razrešene v aplikaciji Dynamics 365 Project Operations, sistem najprej uporabi datum in valuto ustrezne ponudbe ali pogodbe za projekt za razreševanje prodajnega cenika. Po razrešitvi prodajnega cenika sistem razreši prodajni znesek ali delež obračunavanja.
+Ko so prodajne cene za ocene in dejanske vrednosti razrešene v aplikaciji Dynamics 365 Project Operations, sistem uporabi datum in valuto povezane ponudbe projekta ali pogodbe, da najprej razreši prodajni cenik. Po razrešitvi prodajnega cenika sistem razreši prodajni znesek ali delež obračunavanja.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Razrešitev prodajnih zneskov vrstic dejanskih podatkov za čas ali vrstic ocen za čas
 

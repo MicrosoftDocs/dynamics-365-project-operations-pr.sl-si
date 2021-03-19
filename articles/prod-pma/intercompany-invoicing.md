@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084782"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270788"
 ---
 # <a name="intercompany-invoicing"></a>Zaračunavanje med podjetji
 
@@ -31,7 +31,7 @@ ms.locfileid: "4084782"
 
 V tem članku so na voljo informacije in primeri zaračunavanja za projekte med podjetji.
 
-Vaša organizacija ima lahko več oddelkov, podružnic in drugih pravnih subjektov, ki si za projekte izmenjujejo izdelke in storitve. Pravna oseba, ki zagotavlja storitev ali izdelek, se imenuje *pravna oseba, ki posoja* , pravna oseba, ki prejme storitev ali izdelek, pa se imenuje *pravna oseba, ki si izposoja*. 
+Vaša organizacija ima lahko več oddelkov, podružnic in drugih pravnih subjektov, ki si za projekte izmenjujejo izdelke in storitve. Pravna oseba, ki zagotavlja storitev ali izdelek, se imenuje *pravna oseba, ki posoja*, pravna oseba, ki prejme storitev ali izdelek, pa se imenuje *pravna oseba, ki si izposoja*. 
 
 Na spodnji sliki je prikazan tipičen primer, ko si dve pravni osebi, SI FR (pravna oseba, ki si izposoja) in SI USA (pravna oseba, ki posoja), delita sredstva za izvedbo projekta za stranko A. V tem primeru mora SI FR po pogodbi opraviti delo za stranko A. 
 
@@ -44,7 +44,7 @@ Cilj je, da nadzor stroškov, upoštevanje prihodkov, davki in cena prenosa za p
 -   Odložite pripoznavanje prihodkov pri pravni osebi, ki posoja, in ko mora pravna oseba, ki si izposoja, pripoznati stroške.
 -   Obračunajte prihodke dela v teku (WIP) za pravno osebo, ki posoja.
 -   Nastavite cene prenosa, ki lahko temeljijo na različnih modelih oblikovanja cen. Tukaj je nekaj primerov:
-    -   **Količina** – znesek, ki ga vnesete v polje **Oblikovanje cen** , je dejanski strošek na količino ali enoto.
+    -   **Količina** – znesek, ki ga vnesete v polje **Oblikovanje cen**, je dejanski strošek na količino ali enoto.
     -   **Znesek stroškov** – cena/strošek na transakcijo plus znesek stroškov, ki ga vnesete v polje **Oblikovanje cen**.
     -   **Odstotek stroškov** – cena prenosa je cena/strošek na transakcijo, pomnoženo z odstotkom stroškov, ki ga vnesete v polje **Oblikovanje cen**.
     -   **Odstotek prodajne cene** – odstotek prodajne cene, ki se prenese na pravno osebo, ki posoja.
@@ -94,7 +94,7 @@ USSI (pravna oseba, ki posoja) mora ustvariti in knjižiti račun med podjetji. 
 
 | Korak | Vstopna točka                                                                                             | Opis                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Vodenje projektov in računovodstvo** &gt; **Računi za projekt** &gt; **Medpodjetniški račun stranke**  | Kliknite **Novo** , da odprete stran **Ustvarjanje medpodjetniškega računa**.                                                                                  |
+| A    | **Vodenje projektov in računovodstvo** &gt; **Računi za projekt** &gt; **Medpodjetniški račun stranke**  | Kliknite **Novo**, da odprete stran **Ustvarjanje medpodjetniškega računa**.                                                                                  |
 | K    | **Vodenje projektov in računovodstvo** &gt; **Računi za projekt** &gt; **Medpodjetniški računi stranke** | Na strani **Ustvarjanje medpodjetniškega računa** vnesite pravno osebo, navedite transakcijo, ki jo želite vključiti, in kliknite **Iskanje**. |
 | C    | **Vodenje projektov in računovodstvo** &gt; **Računi za projekt** &gt; **Medpodjetniški računi stranke** | Izberite transakcije za račun ali kliknite **Izberi vse** za fakturiranje vseh transakcij na seznamu in nato kliknite **V redu**.                  |
 | D    | Stran **Medpodjetniški račun**                                                                       | Prikaže se predlog medpodjetniškega računa za stranko.                                                                                             |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 429c289c4ec653b81a1c5302b788db8c8ad26d8c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8241e74e8d9fb5a748bedbd5e913adea0bafa450
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084898"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271148"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Časovni listi projekta v mobilni napravi
 
@@ -49,7 +49,7 @@ Sistem Android bo združljiv s posodobitvijo platforme 16, ko bo na voljo.
 
 7.  Kliknite **V redu**.
 
-8.  Kliknite **+** , da dodate novo vrstico.
+8.  Kliknite **+**, da dodate novo vrstico.
 
 9.  Izberite podatke o stranki in projektu za vrstico časovnega lista.
 
@@ -61,7 +61,7 @@ Sistem Android bo združljiv s posodobitvijo platforme 16, ko bo na voljo.
 
 13. Neobvezno: Vnesite dodatne vrstice časovnega lista.
 
-14. Po končanem vnašanju vrstic časovnega lista izberite **Potek dela** \> **Pošlji** , da pošljete časovni list v postopek odobritve poteka dela.
+14. Po končanem vnašanju vrstic časovnega lista izberite **Potek dela** \> **Pošlji**, da pošljete časovni list v postopek odobritve poteka dela.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

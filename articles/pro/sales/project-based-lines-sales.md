@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181039"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272543"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Vrstice priložnosti, ki temeljijo na projektu – poenostavljeno
 
@@ -27,7 +27,7 @@ Spodaj so polja, ki jih najdete pri podrobnosti priložnosti, ki temelji na proj
 
 | **Polje** | **Mesto** | **Opis** | **Nadaljnji vpliv** |
 | --- | --- | --- | --- |
-| Tip izdelka | Zavihek »Splošno« (skrito) | Izberite lahko eno od teh možnosti:</br>- storitev, ki temelji na projektu (na voljo samo, če je nameščena storitev Dynamics 365 Project Operations)</br>- izdelek (na voljo samo, če sta nameščeni storitvi Project Operations in Dynamics 365 Sales) | Vrednost tega polja je nastavljena na **Storitev na osnovi projekta**, ko pri priložnosti iz mreže podrobnosti, ki temeljijo na projektu, ustvarite podrobnost priložnosti, ki temelji na projektu. <br> Če spremenite ali preglasite to vrednost, funkcija projekta ne bo omogočena za vaše vrstične postavke, ki temeljijo na projektu. |
+| Tip izdelka | Zavihek »Splošno« (skrito) | Izberite lahko eno od teh možnosti:</br>- Storitev, ki temelji na projektu (na voljo samo, če je nameščena aplikacija Dynamics 365 Project Operations)</br>- izdelek (na voljo samo, če sta nameščeni storitvi Project Operations in Dynamics 365 Sales) | Vrednost tega polja je nastavljena na **Storitev na osnovi projekta**, ko pri priložnosti iz mreže podrobnosti, ki temeljijo na projektu, ustvarite podrobnost priložnosti, ki temelji na projektu. <br> Če spremenite ali preglasite to vrednost, funkcija projekta ne bo omogočena za vaše vrstične postavke, ki temeljijo na projektu. |
 | Priložnost | Zavihek Splošno | To polje je samo za branje in se sklicuje na nadrejeni zapis »Priložnost«, ki mu pripada ta vrstična postavka. | S tega polja ni nadaljnjega vpliva. |
 | Imenu | Zavihek Splošno | To besedilno polje, ki ga je mogoče urejati, lahko uporabite za podajanje kratkega opisa vrstične postavke. | Ko ustvarite ponudbo iz te priložnosti, se ta vrednost prenese v podrobnost ponudbe. |
 | Proračun stranke | Zavihek Splošno | To polje »Valuta«, ki ga je mogoče urejati, lahko uporabite za sledenje znesku, ki ga je stranka pripravljena porabiti za to vrstično postavko. | Ko ustvarite ponudbo iz te priložnosti, se ta vrednost prenese v ustrezno polje pri podrobnosti ponudbe. |

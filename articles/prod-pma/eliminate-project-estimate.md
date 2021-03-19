@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084809"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270698"
 ---
 # <a name="eliminate-a-project-estimate"></a>Odstranjevanje projektne ocene
 
@@ -37,15 +37,15 @@ Projektne ocene omogočajo finančni pregled za predvideno in načrtovano delo z
 2. V zavihku **Upravljanje** izberite **Ocene** in na strani **Oceni** izberite **Odpravi**.
 3. Na strani **Odpravi oceno** v zavihku **Splošno** nastavite naslednje možnosti:
 
-   - **Koda obdobja** : izberite kodo obdobja, da izberete ustrezne projektne ocene. 
-   - **Predvideni datum** : izberite ustrezen predvideni datum za odstranjevanje.
-   - **Odstranjevanje z opozorili WIP** : izberite to možnost, da omogočite obveščanje, ko bo odstranjena ocena, ki je povezana z delom v teku (WIP). Če ta možnost ni omogočena, se odpravljanje ne bo nadaljevalo, če obstajajo kakršne koli neocenjene transakcije. 
+   - **Koda obdobja**: izberite kodo obdobja, da izberete ustrezne projektne ocene. 
+   - **Predvideni datum**: izberite ustrezen predvideni datum za odstranjevanje.
+   - **Odstranjevanje z opozorili WIP**: izberite to možnost, da omogočite obveščanje, ko bo odstranjena ocena, ki je povezana z delom v teku (WIP). Če ta možnost ni omogočena, se odpravljanje ne bo nadaljevalo, če obstajajo kakršne koli neocenjene transakcije. 
    > [!NOTE]
    > Ta možnost je na voljo samo, če se odpravljanje uporabi za projektno oceno. Funkcija ni na voljo, če uporabljate periodično knjiženje. Ta nastavitev začne delovati, če jo nastavite v zavihku **Ocena** na strani **Projektni parametri** v skupini polj **Dovoli odpravljanje v primeru neocenjenih transakcij**.
-   - **Nastavi stopnjo na končano** : omogočite to možnost, da nastavite stopnjo projektne ocene na **Končano** po izvedbi odstranjevanja.
-   - **Natisni seznam ocen** : izberite informacije, ki jih želite vključiti pri tiskanju seznama ocen.
-   - **Pokaži dnevnik podatkov** : omogočite to možnost za prikaz dnevnika podatkov.
-   - **Datum knjiženja** : izberite datum knjiženja ocene v glavni knjigi.
+   - **Nastavi stopnjo na končano**: omogočite to možnost, da nastavite stopnjo projektne ocene na **Končano** po izvedbi odstranjevanja.
+   - **Natisni seznam ocen**: izberite informacije, ki jih želite vključiti pri tiskanju seznama ocen.
+   - **Pokaži dnevnik podatkov**: omogočite to možnost za prikaz dnevnika podatkov.
+   - **Datum knjiženja**: izberite datum knjiženja ocene v glavni knjigi.
 
 4.  Izberite **V redu**.
 5. Po zaključku postopka odstranjevanja se odstranjena projektna ocena prikaže z negativno vrednostjo. 

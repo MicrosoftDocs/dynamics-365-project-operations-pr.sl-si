@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180212"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275513"
 ---
 # <a name="set-up-price-lists"></a>Nastavitev cenikov
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Ceniki v storitvi Dynamics 365 Project Operations predstavljajo katalog cen. Zneski izražajo zneske stroške, prodaje in obračuna. Kontekst cenika je odvisen od tega, ali cenik izraža znesek stroška, prodaje ali obračuna, in je lahko ali **Prodaja** ali **Strošek**.
+Ceniki v aplikaciji Dynamics 365 Project Operations predstavljajo katalog zneskov. Zneski izražajo zneske stroške, prodaje in obračuna. Kontekst cenika je odvisen od tega, ali cenik izraža znesek stroška, prodaje ali obračuna, in je lahko ali **Prodaja** ali **Strošek**.
 
 Naslednje razširitve so specifične za Project Operations in se uporabljajo za cenike iz storitve Dynamics 365 Sales.
 

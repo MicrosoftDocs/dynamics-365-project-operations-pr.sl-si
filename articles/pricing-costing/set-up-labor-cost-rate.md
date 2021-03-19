@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 605bf2a578528117a6ef70614a8e5ff5a3fc300c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180617"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274793"
 ---
 # <a name="set-up-labor-cost-rates"></a>Nastavitev mer stroškov dela
 
@@ -40,7 +40,7 @@ Naslednja tabela vključuje nekatera polja, ki so pomembna pri oblikovanju stope
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Prenos cen in stroškov za vire zunaj oddelka ali pravne osebe
 
-V podjetjih, ki poslujejo na podlagi projektov, običajno za delo na projektih uporabijo zaposlene iz različnih pravnih oseb ali oddelkov. Projekt lahko izvede ena pravna oseba, zaposleni ali svetovalci, ki delajo na projektu, pa lahko prihajajo iz iste pravne osebe ali iz druge ali pa iz kombinacije obeh. V aplikaciji Dynamics 365 Project Operations je pravna oseba, ki je lastnica izvedbe projekta, **Lastniško podjetje** in oddelek, ki je lastnik izvedbe, **Pogodbena enota**. Druge pravne osebe, ki zagotavljajo sredstva, so **Podjetja, ki zagotavljajo vire** in oddelki, ki zagotavljajo vire, so **Enote vira**. V večini držav morajo podjetja zagotoviti, da pravna oseba ali oddelek, ki zagotavlja vire, lastniškemu podjetju in pogodbeni enoti zaračuna uporabo virov.
+V podjetjih, ki poslujejo na podlagi projektov, običajno za delo na projektih uporabijo zaposlene iz različnih pravnih oseb ali oddelkov. Projekt lahko izvede ena pravna oseba, zaposleni ali svetovalci, ki delajo na projektu, pa lahko prihajajo iz iste pravne osebe ali iz druge ali pa iz kombinacije obeh. V aplikaciji Dynamics 365 Project Operations je pravna oseba, ki je lastnica izvajanja projekta, **Lastniško podjetje**, oddelek, ki je lastnik izvajanja, pa je **Pogodbena enota**. Druge pravne osebe, ki zagotavljajo sredstva, so **Podjetja, ki zagotavljajo vire** in oddelki, ki zagotavljajo vire, so **Enote vira**. V večini držav morajo podjetja zagotoviti, da pravna oseba ali oddelek, ki zagotavlja vire, lastniškemu podjetju in pogodbeni enoti zaračuna uporabo virov.
 
 Podjetje Fabrikam mora na primer zagotoviti, da se je podjetje Fabrikam Indija – robotika dogovorilo o merah stroškov s podjetjem Fabrikam ZDA – robotika ali Fabrikam Združeno kraljestvo –robotics.
 

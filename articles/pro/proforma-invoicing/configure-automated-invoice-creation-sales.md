@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176586"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274343"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Konfiguracija samodejnega ustvarjanja računov – poenostavljena različica
  
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Samodejno ustvarjanje računov lahko konfigurirate v aplikaciji Dynamics 365 Project Operations. Sistem ustvari osnutek predračuna na podlagi razporeda izdajanja računov za vsako posamezno projektno pogodbo in podrobnost pogodbe. Razporedi izdajanja računov so konfigurirani na ravni podrobnosti pogodbe. Vsaka podrobnost pogodbe ima lahko različen razpored izdajanja računov ali pa je ta isti razpored izdajanja računov vključen v vsako podrobnost pogodbe.
+V aplikaciji Dynamics 365 Project Operations lahko konfigurirate samodejno ustvarjanje računov. Sistem ustvari osnutek predračuna na podlagi razporeda izdajanja računov za vsako posamezno projektno pogodbo in podrobnost pogodbe. Razporedi izdajanja računov so konfigurirani na ravni podrobnosti pogodbe. Vsaka podrobnost pogodbe ima lahko različen razpored izdajanja računov ali pa je ta isti razpored izdajanja računov vključen v vsako podrobnost pogodbe.
 
 Ko ustvarite račun, sistem ustvari vsaj en račun na projektno pogodbo. V nekaterih primerih je lahko ustvarjenih več računov.
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: c84d3aaf7cd7577dcd15311f225c82b538586445
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514026"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274613"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Uporaba kategorije transakcije kot cenovne razsežnosti
 
@@ -41,7 +41,7 @@ V spodnji tabeli so navedeni vsi vnaprej pripravljeni obrazci in pogledi, razvr�
 |  Član projektne ekipe|- Informacije<br>- Novi obrazec|- Dejavni člani projektne ekipe<br>- Člani projektne ekipe<br>- Povezani člani projektne ekipe |
 |  Časovni vnos|- Informacije<br>- Ustvari časovni vnos|- Moji časovni vnosi po datumu<br>- Moji časovni vnosi za ta teden<br>- Časovni vnosi za odobritev|
 |  Vrstica dnevnika|- Informacije<br>- Hitro ustvarjanje|- Dejavne vrstice dnevnika<br>- Povezane vrstice dnevnika|
-|  Podrobnosti vrstice računa|- informacije<br>- Hitro ustvarjanje|- Dejavne podrobnosti vrstice računa<br>- Transakcije računa, ki se zaračunajo<br>- Brezplačne transakcije računa<br>- Povezane podrobnosti vrstice računa <br>- Transakcije računa, ki se ne zaračunajo|
+|  Podrobnosti vrstice računa|- Informacije<br>- Hitro ustvarjanje|- Dejavne podrobnosti vrstice računa<br>- Transakcije računa, ki se zaračunajo<br>- Brezplačne transakcije računa<br>- Povezane podrobnosti vrstice računa <br>- Transakcije računa, ki se ne zaračunajo|
 |  Dejansko|- Informacije<br>- Dejavno opravljeno delo| Povezano opravljeno delo |
 
 ## <a name="set-up-the-transaction-category-field-as-a-pricing-dimension"></a>Nastavitev polja kategorije transakcije kot cenovne razsežnosti

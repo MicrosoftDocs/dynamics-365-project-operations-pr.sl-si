@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084810"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271013"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Vključevanje polj po meri za mobilno aplikacijo Microsoft Dynamics 365 Project Timesheet v sistemih iOS in Android
 
@@ -45,7 +45,7 @@ Ta tema je namenjena razvijalcem, ki vključujejo svoja polja po meri v mobilno 
 Razred **TSTimesheetCustomField** je razred pogodbe o podatkih X++, ki predstavlja informacije o polju po meri za funkcije časovnega lista. Seznami predmetov polja po meri se posredujejo v pogodbo o podatkih TSTimesheetDetails in TSTimesheetEntry za prikaz polj po meri v mobilni aplikaciji.
 
 - **TSTimesheetDetails** – pogodba o glavi časovnega lista.
-- **TSTimesheetEntry** – pogodba o transakciji časovnega lista. Skupine teh predmetov, ki imajo enake informacije o projektu in vrednost **timesheetLineRecId** , predstavljajo vrstico.
+- **TSTimesheetEntry** – pogodba o transakciji časovnega lista. Skupine teh predmetov, ki imajo enake informacije o projektu in vrednost **timesheetLineRecId**, predstavljajo vrstico.
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (vrste)
 
@@ -56,16 +56,16 @@ Lastnost **FieldBaseType** v predmetu **TsTimesheetCustom** določa vrsto polja,
 | 0           | Niz (in oštevilčenje) | Polje se prikaže kot besedilno polje. |
 | 1           | Celo število           | Vrednost je prikazana kot število brez decimalnih mest. |
 | 2           | Dejanska vrednost              | Vrednost je prikazana kot število z decimalnimi mesti.<p>Če želite v aplikaciji prikazati dejansko vrednost kot valuto, uporabite lastnost **fieldExtensedType**. Uporabite lahko lastnost **numberOfDecimals** in nastavite število prikazanih decimalnih mest.</p> |
-| 3           | Datum              | Oblike zapisa datuma določa uporabnikova nastavitev **Oblika zapisa datuma, časa in številk** , ki je navedena pod možnostjo **Nastavitev jezika in države/regije** v razdelku **Uporabniške možnosti**. |
+| 3           | Datum              | Oblike zapisa datuma določa uporabnikova nastavitev **Oblika zapisa datuma, časa in številk**, ki je navedena pod možnostjo **Nastavitev jezika in države/regije** v razdelku **Uporabniške možnosti**. |
 | 4           | Logična vrednost           | |
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Če lastnost **stringOptions** ni na voljo v predmetu **TSTimesheetCustomField** , je uporabniku na voljo polje s prostim besedilom.
+- Če lastnost **stringOptions** ni na voljo v predmetu **TSTimesheetCustomField**, je uporabniku na voljo polje s prostim besedilom.
 
     Lastnost **stringLength** lahko uporabite za nastavitev največje dolžine niza, ki jo lahko vnesejo uporabniki.
 
-- Če je lastnost **stringOptions** na voljo v predmetu **TSTimesheetCustomField** , so ti elementi seznama edine vrednosti, ki jih lahko uporabniki izberejo z uporabo izbirnih gumbov.
+- Če je lastnost **stringOptions** na voljo v predmetu **TSTimesheetCustomField**, so ti elementi seznama edine vrednosti, ki jih lahko uporabniki izberejo z uporabo izbirnih gumbov.
 
     V tem primeru lahko polje niza deluje kot vrednost oštevilčenja za vnos uporabnika. Če želite shraniti vrednost v zbirko podatkov kot oštevilčenje, ročno preslikajte vrednost niza nazaj na vrednost oštevilčenja, preden jo shranite v zbirko podatkov z uporabo niza ukazov (za primer glejte razdelek »Uporaba niza ukazov v razredu TSTimesheetEntryService za shranjevanje vnosa v časovnem listu iz aplikacije nazaj v zbirko podatkov« v nadaljevanju te teme).
 
@@ -97,11 +97,11 @@ Ta lastnost prepozna polje, ko se vrednosti, navedene v aplikaciji, shranijo naz
 
 ### <a name="iseditable-noyes"></a>isEditable (NoYes)
 
-Nastavite to lastnost na **Da** , če želite, da uporabniki lahko urejajo polje v razdelku za vnos v časovni list. Nastavite lastnost na **Ne** , če želite, da je polje samo za branje.
+Nastavite to lastnost na **Da**, če želite, da uporabniki lahko urejajo polje v razdelku za vnos v časovni list. Nastavite lastnost na **Ne**, če želite, da je polje samo za branje.
 
 ### <a name="ismandatory-noyes"></a>isMandatory (NoYes)
 
-Nastavite to lastnost na **Da** , če želite, da je polje v razdelku za vnos v časovni list obvezno.
+Nastavite to lastnost na **Da**, če želite, da je polje v razdelku za vnos v časovni list obvezno.
 
 ### <a name="label-str"></a>label (str)
 
@@ -109,7 +109,7 @@ Ta lastnost določa oznako, ki je prikazana poleg polja v aplikaciji.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (List of Strings)
 
-Ta lastnost se uporablja samo, če je lastnost **fieldBaseType** nastavljena na vrsto **Niz**. Če je nastavljena lastnost **stringOptions** , so vrednosti nizov, ki so na voljo za izbiro z izbirnimi gumbi, določene z nizi na seznamu. Če ni nizov, je dovoljen vnos prostega besedila v polje niza (za primer glejte razdelek »Uporaba niza ukazov v razredu TSTimesheetEntryService za shranjevanje vnosa v časovnem listu iz aplikacije nazaj v zbirko podatkov« v nadaljevanju te teme).
+Ta lastnost se uporablja samo, če je lastnost **fieldBaseType** nastavljena na vrsto **Niz**. Če je nastavljena lastnost **stringOptions**, so vrednosti nizov, ki so na voljo za izbiro z izbirnimi gumbi, določene z nizi na seznamu. Če ni nizov, je dovoljen vnos prostega besedila v polje niza (za primer glejte razdelek »Uporaba niza ukazov v razredu TSTimesheetEntryService za shranjevanje vnosa v časovnem listu iz aplikacije nazaj v zbirko podatkov« v nadaljevanju te teme).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 
@@ -145,7 +145,7 @@ Pri poljih vrste **Dejanska vrednost** ta lastnost posreduje dejansko vrednost p
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-Pri poljih vrste **Niz** ta lastnost posreduje vrednost niza za polje med strežnikom in aplikacijo. Uporablja se tudi za polja vrste **Dejanska vrednost** , ki so oblikovana kot valuta. Pri teh poljih se lastnost uporablja za posredovanje kode valute v aplikacijo.
+Pri poljih vrste **Niz** ta lastnost posreduje vrednost niza za polje med strežnikom in aplikacijo. Uporablja se tudi za polja vrste **Dejanska vrednost**, ki so oblikovana kot valuta. Pri teh poljih se lastnost uporablja za posredovanje kode valute v aplikacijo.
 
 ### <a name="datevalue-date"></a>dateValue (date)
 
@@ -179,9 +179,9 @@ Spodaj je posnetek zaslona drevesa predmetov aplikacije iz aplikacije Visual Stu
 
 Ta koda upravlja nastavitve prikaza za polje v aplikaciji. Upravlja na primer vrsto polja, oznako, ali je polje obvezno in v katerem razdelku se polje prikaže.
 
-Spodnji primer prikazuje polje niza v časovnem vnosu. To polje ima dve možnosti, **Prva možnost** in **Druga možnost** , ki sta na voljo prek izbirnih gumbov. Polje v aplikaciji je povezano s poljem **TestLineString** , ki je dodano v tabelo TSTimesheetLine.
+Spodnji primer prikazuje polje niza v časovnem vnosu. To polje ima dve možnosti, **Prva možnost** in **Druga možnost**, ki sta na voljo prek izbirnih gumbov. Polje v aplikaciji je povezano s poljem **TestLineString**, ki je dodano v tabelo TSTimesheetLine.
 
-Oglejte si uporabo metode **TSTimesheetCustomField::newFromMetatdata()** za enostavnejšo inicializacijo lastnosti polja po meri: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** in **numberOfDecimals**. Te parametre lahko nastavite tudi ročno, če želite.
+Oglejte si uporabo metode **TSTimesheetCustomField::newFromMetatdata()** za enostavnejšo inicializacijo lastnosti polja po meri: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** in **numberOfDecimals**. Te parametre lahko nastavite tudi ročno, če želite.
 
 ```xpp
 ...
@@ -245,10 +245,10 @@ final class TsTimesheetEntry_Extension
 
 - Metoda **timesheetLineNeedsUpdating** se uporablja za ugotavljanje, ali je uporabnik v aplikaciji spremenil zapis vrstice in ga je treba shraniti v zbirko podatkov. Če učinkovitost delovanja ni zaskrbljujoča, lahko to metodo poenostavite, tako da vedno vrne vrednost **true**.
 - Metodi **populateTimesheetLineFromEntryDuringCreate** in **populateTimesheetLineFromEntryDuringUpdate** lahko razširite tako, da vnesejo vrednosti v zapis zbirke podatkov TSTimesheetLine iz zapisa pogodbe o podatkih TSTimesheetEntry, ki je na voljo. V spodnjem primeru si oglejte, kako se preslikava med poljem zbirke podatkov in poljem za vnos ročno izvede prek kode X++.
-- Metoda **populateTimesheetWeekFromEntry** se lahko razširi tudi, če je za polje po meri, ki je preslikano v predmet **TSTimesheetEntry** , potrebno povratno zapisovanje v tabelo zbirke podatkov TSTimesheetLineweek.
+- Metoda **populateTimesheetWeekFromEntry** se lahko razširi tudi, če je za polje po meri, ki je preslikano v predmet **TSTimesheetEntry**, potrebno povratno zapisovanje v tabelo zbirke podatkov TSTimesheetLineweek.
 
 > [!NOTE]
-> V spodnjem primeru je vrednost **firstOption** ali **secondOption** , ki jo izbere uporabnik, shranjena v zbirko podatkov kot neobdelana vrednost niza. Če je polje zbirke podatkov polje vrste **Oštevilčevanje** , lahko te vrednosti ročno preslikate v vrednost oštevilčevanja in nato shranite v polje oštevilčevanja v tabeli zbirke podatkov.
+> V spodnjem primeru je vrednost **firstOption** ali **secondOption**, ki jo izbere uporabnik, shranjena v zbirko podatkov kot neobdelana vrednost niza. Če je polje zbirke podatkov polje vrste **Oštevilčevanje**, lahko te vrednosti ročno preslikate v vrednost oštevilčevanja in nato shranite v polje oštevilčevanja v tabeli zbirke podatkov.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Obstoječa logika za funkcije časovnega lista na ravni zbirke podatkov bo še v
 
 - Če metoda **validateWrite** v tabeli TSTimesheetLine vrne vrednost **false** med operacijo shranjevanja za vrstico časovnega lista, se v mobilni aplikaciji prikaže sporočilo o napaki.
 - Če metoda **validateSubmit** v tabeli TSTimesheetTable vrne vrednost **false** med pošiljanjem časovnega lista v aplikaciji, se uporabniku prikaže sporočilo o napaki.
-- Logika, ki izpolni polja (na primer **Lastnost vrstice** ) med metodo **insert** v tabeli TSTimesheetLine, se bo še vedno izvajala.
+- Logika, ki izpolni polja (na primer **Lastnost vrstice**) med metodo **insert** v tabeli TSTimesheetLine, se bo še vedno izvajala.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Skrivanje in označevanje vnaprej pripravljenih polj kot samo za branje prek konfiguracije
 
