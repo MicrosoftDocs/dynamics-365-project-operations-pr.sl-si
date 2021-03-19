@@ -1,6 +1,6 @@
 ---
 title: Dejanske vrednosti
-description: Ta tema vsebuje informacije o delu z dejanskimi vrednostmi v storitvi Microsoft Dynamics 365 Project Operations.
+description: Ta tema vsebuje informacije o delu z dejanskimi vrednostmi v aplikaciji Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126340"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291819"
 ---
 # <a name="actuals"></a>Dejanske vrednosti 
 
@@ -70,7 +70,7 @@ Vnos privzetih cen na enoto na podlagi kategorije za vnose stroška ni na voljo.
 V dnevnike lahko beležite stroške ali prihodke v razredih transakcij za material, dajatve, čas, stroške ali davke. Dnevniki se lahko uporabljajo v naslednje namene:
 
 - Beleženje dejanskih stroškov materiala in prodaje za posamezen projekt.
-- Prenos dejanskih vrednosti o transakcijah iz drugega sistema v storitev Microsoft Dynamics 365 Project Operations.
+- Dejanske podatke o transakciji prenesite iz drugega sistema v aplikacijo Microsoft Dynamics 365 Project Operations.
 - Beleženje stroškov, ki so nastali v drugem sistemu. Ti stroški lahko vključujejo stroške naročanja ali podizvajanja.
 
 > [!IMPORTANT]
