@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b1ad011b2d78dd85023be7cf380ce19c3b2b8441
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 486371df2de8b400f200dbf38e66cb5e2dec7ae7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150013"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286268"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Dodeljevanje vira opravilu
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Obstajajo trije načini dodeljevanja virov opravilu v aplikaciji Microsoft Dynamics 365 Project Service Automation.
+V aplikaciji Microsoft Dynamics 365 Project Service Automation obstajajo trije načini dodeljevanja virov opravilu.
 
 ## <a name="book-a-resource-as-a-team-member-and-then-assign-the-resource-to-a-task"></a>Rezervirajte vir kot član ekipe in nato dodelite vir opravilu
 

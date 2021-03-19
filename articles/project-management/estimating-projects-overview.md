@@ -1,6 +1,6 @@
 ---
 title: Pregled ocenjevanja projektov
-description: Ta tema vsebuje informacije o ocenah v storitvi Dynamics 365 Project Operations.
+description: Ta tema vsebuje informacije o ocenah v rešitvi Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131588"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286898"
 ---
 # <a name="estimate-projects-overview"></a>Pregled ocenjevanja projektov
 
@@ -21,7 +21,7 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoč
 
 V ponudbi, ki temelji na projektu, lahko uporabite entiteto **Podrobnosti vrstice ponudbe**, da ocenite, koliko dela je potrebnega za dokončanje projekta. To oceno lahko nato delite s stranko.
 
-Vrstice ponudbe na osnovi projekta lahko imajo nič do mnogo podrobnosti vrstice ponudbe. Podrobnosti vrstice ponudbe se uporabljajo za oceno časa, stroškov ali pristojbin. Microsoft Dynamics 365 Project Operations v podrobnostih vrstice ponudbe ne dovoli ocen za material. Te se imenujejo razredi transakcije. Predvideni znesek davka je prav tako mogoče vnesti v razred transakcij.
+Vrstice ponudbe na osnovi projekta lahko imajo nič do mnogo podrobnosti vrstice ponudbe. Podrobnosti vrstice ponudbe se uporabljajo za oceno časa, stroškov ali pristojbin. Aplikacija Microsoft Dynamics 365 Project Operations v podrobnostih vrstice ponudbe ne dovoli ocen za material. Te se imenujejo razredi transakcije. Predvideni znesek davka je prav tako mogoče vnesti v razred transakcij.
 
 Poleg razredov transakcij vsebujejo podrobnosti vrstice ponudbe tudi vrsto transakcije. Podprti sta dve vrsti transakcij za podrobnosti vrstice ponudbe: **Strošek** in **Projektna pogodba**.
 

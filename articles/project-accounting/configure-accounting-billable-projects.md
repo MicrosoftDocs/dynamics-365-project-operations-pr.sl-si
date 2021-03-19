@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131993"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287663"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfiguracija vodenja računov za plačljive projekte
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Aplikacija Dynamics 365 Project Operations podpira različne računovodske možnosti za plačljive projekte, ki vključujejo časovne in materialne transakcije ter transakcije s fiksno ceno.
+Aplikacija Dynamics 365 Project Operations podpira različne računovodske možnosti za plačljive projekte, ki vključujejo čas in material ter transakcije s fiksno ceno.
 
 - **Časovne in materialne transakcije**: za te transakcije se račun izda med napredovanjem dela na podlagi porabe ur, stroškov, postavk ali plačil za projekt. Te transakcijske stroške lahko povežete s prihodki od posamezne transakcije, za projekt pa se račun izda med napredovanjem dela. Prihodki od projekta se lahko vračunajo tudi takrat, ko pride do transakcije. Med izdajanjem računov se prihodek pripozna in, če je primerno, je vnaprej vračunani prihodek razveljavljen.
 - **Transakcije s fiksno ceno**: za te transakcije se račun izda v skladu z razporedom obračunavanja na podlagi projektne pogodbe. Prihodke od transakcij s fiksno ceno je mogoče pripoznati ob izdaji računa ali jih izračunati in knjižiti za posamezno obdobje v skladu z načinom **dokončane pogodbe** oz. **dokončanega deleža**.

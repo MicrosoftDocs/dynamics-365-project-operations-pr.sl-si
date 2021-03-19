@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127389"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286628"
 ---
 # <a name="project-tracking-overview"></a>Pregled sledenja projektom
 
@@ -23,7 +23,7 @@ Potreba po spremljanju napredka v primerjavi z razporedom se razlikuje glede na 
 
 ## <a name="effort-tracking-view"></a>Pogled sledenja obsegu dela
 
-Pogled **Sledenje obsegu dela** sledi napredku pri opravil na razporedu tako, da primerja dejanske ure dela, porabljene za opravilo, z načrtovanimi urami dela. Dynamics 365 Project Operations za izračun metrike sledenja uporablja te formule:
+Pogled **Sledenje obsegu dela** sledi napredku pri opravil na razporedu tako, da primerja dejanske ure dela, porabljene za opravilo, z načrtovanimi urami dela. Aplikacija Dynamics 365 Project Operations za izračun metrike sledenja uporablja te formule:
 
 - **Odstotek napredka** = dejanski obseg dela do danes ÷ ocena končnih stroškov (EAC) 
 - **Predvideni obseg dela do zaključka (ETC)** = načrtovani obseg dela – dejanski obseg dela do danes 

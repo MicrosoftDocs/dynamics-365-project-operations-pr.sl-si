@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a9d34d69ff59f0cb470bb852d8a80ecaedf6544
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595557"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287438"
 ---
 # <a name="create-intercompany-transactions"></a>Ustvarjanje medpodjetnih transakcij
 
@@ -69,7 +69,7 @@ Simona Horvat, razvijalka, ki je zaposlena v GBPM, je zabeležila 10 ur dela za 
     5. Ustvarite nov projekt in ga povežite s temi podrobnostmi pogodbe.
 4. Prijavite se kot vir **Simona Horvat**. Odprite **Projekti** > **Časovni vnosi** in ustvarite časovni vnos za projekt Adventure Works.
 5. Prijavite se kot vodja projekta. Odprite **Projekti** > **Odobritve** in odobrite transakcijo časovnega vnosa, ki jo je zabeležila Simona Horvat.
-6. Pomaknite se do projekta Adventure Works in izberite **Sorodno** > **Dejanski podatki**. Ustvarijo se naslednje transakcije dejanskih podatkov.
+6. Pomaknite se do projekta Adventure Works in izberite **Povezano** > **Dejanske vrednosti**. Ustvarijo se naslednje transakcije dejanskih podatkov.
 
 | **Vrsta transakcije** | **Cena** | **Valuta transakcije** | **Znesek** |
 | --- | --- | --- | --- |

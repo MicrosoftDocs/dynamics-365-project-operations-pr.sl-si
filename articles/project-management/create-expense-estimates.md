@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131723"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287078"
 ---
 # <a name="expense-estimates"></a>Ocena stroškov
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Aplikacija Dynamics 365 Project Operations poleg definiranja ocen na podlagi virov projektnim vodjem omogoča, da opredelijo projektne stroške za posamezen projekt. Vsako postavko stroškov je mogoče povezati z določeno projektno nalogo ali kategorijo stroškov. Kategorije stroškov so običajno opredeljene na organizacijski ravni. Cene za vsako posamezno kategorijo stroškov so običajno opredeljene v naslednji hierarhiji:
+Poleg opredelitve ocen, ki temeljijo na virih, aplikacija Dynamics 365 Project Operations projektnim vodjem omogoča, da za vsak projekt opredelijo stroške, ki temeljijo na projektu. Vsako postavko stroškov je mogoče povezati z določeno projektno nalogo ali kategorijo stroškov. Kategorije stroškov so običajno opredeljene na organizacijski ravni. Cene za vsako posamezno kategorijo stroškov so običajno opredeljene v naslednji hierarhiji:
 
 - Organizacija
 - Stranki
