@@ -8,15 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4e14f55e05a20990394f7645d0f276ea99deb626
-ms.sourcegitcommit: 454b0ec941cca06852236771bc77dc1651f94e48
+ms.openlocfilehash: 07a68cdedd095b7aecdc02e58df251ed34a4e769
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514588"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279968"
 ---
-# <a name="booking-statuses"></a><span data-ttu-id="ab57d-103">Stanja rezervacij</span><span class="sxs-lookup"><span data-stu-id="ab57d-103">Booking statuses</span></span>
+# <a name="booking-statuses"></a><span data-ttu-id="78b4e-103">Stanja rezervacij</span><span class="sxs-lookup"><span data-stu-id="78b4e-103">Booking statuses</span></span>
 
-<span data-ttu-id="ab57d-104">_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_</span><span class="sxs-lookup"><span data-stu-id="ab57d-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="78b4e-104">_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_</span><span class="sxs-lookup"><span data-stu-id="78b4e-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="ab57d-105">Uporabite lahko funkcije, ki jih ponuja Universal Resource Scheduling za Dynamics 365 Field Service, da nastavite stanje rezervacije za svojo organizacijo.</span><span class="sxs-lookup"><span data-stu-id="ab57d-105">You can use the functionality provided in Universal Resource Scheduling for Dynamics 365 Field Service to set up booking statuses for your organization.</span></span> <span data-ttu-id="ab57d-106">Za informacije o tem, kako dokončati to nastavitev, glejte [Nastavitev stanja rezervacije](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).</span><span class="sxs-lookup"><span data-stu-id="ab57d-106">For information on how to complete this set up, see [Set up booking statuses](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).</span></span>
+<span data-ttu-id="78b4e-105">Uporabite lahko funkcije, ki jih ponuja Universal Resource Scheduling za Dynamics 365 Field Service, da nastavite stanje rezervacije za svojo organizacijo.</span><span class="sxs-lookup"><span data-stu-id="78b4e-105">You can use the functionality provided in Universal Resource Scheduling for Dynamics 365 Field Service to set up booking statuses for your organization.</span></span> <span data-ttu-id="78b4e-106">Za informacije o tem, kako dokončati to nastavitev, glejte [Nastavitev stanja rezervacije](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).</span><span class="sxs-lookup"><span data-stu-id="78b4e-106">For information on how to complete this set up, see [Set up booking statuses](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
