@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Novosti
       items:
+        - name: 'April 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 'Marec 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: 'Februar 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
@@ -64,9 +66,9 @@
           items:
             - name: Upravljanje pregleda projektnih priložnosti
               href: sales/manage-project-based-opportunities.md
-            - name: 'Nastavitve priložnosti, ki temelji na projektu'
+            - name: 'Podrobnosti glave za priložnosti, ki temeljijo na projektih'
               href: sales/opportunity-header.md
-            - name: 'Podrobnosti priložnosti, ki temelji na projektu'
+            - name: 'Podrobnosti priložnosti, ki temeljijo na projektih'
               href: sales/project-based-lines.md
             - name: Ustvarjanje projektnih ponudb iz priložnosti
               href: sales/link-quotes-opportunities.md
@@ -78,27 +80,31 @@
           items:
             - name: Upravljanje pregleda projektnih ponudb
               href: pro/sales/manage-quotes-sales.md
-            - name: Koncepti projektnih ponudb
+            - name: 'Koncepti, enolični za ponudbe, ki temeljijo na projektih'
               href: sales/quotes-key-concepts.md
-            - name: Nastavitve projektnih ponudb
+            - name: 'Podrobnosti glave za ponudbe, ki temeljijo na projektih'
               href: sales/quote-values-budget-limits-contract.md
             - name: Upravljanje več strank v projektni ponudbi
               href: sales/manage-multiple-customers-quote.md
             - name: Upravljanje cenikov za projekte v ponudbi
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: 'Podrobnosti ponudb, ki temeljijo na projektih'
               items:
                 - name: 'Pregled podrobnosti ponudb, ki temeljijo na projektih'
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: 'Upravljanje več strank v podrobnostih ponudb, ki temeljijo na projektih'
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: 'Preslikava projektov in opravil v podrobnosti ponudb, ki temeljijo na projektih'
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: 'Konfiguriranje plačljivih komponent za podrobnosti ponudb, ki temeljijo na projektih'
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Konfiguriranje plačljivih komponent podrobnosti projektne ponudbe
                   href: sales/configure-chargeable-quoteline.md
-                - name: Ustvarjanje ocen za podrobnosti ponudbe
+                - name: Ocenjevanje podrobnosti projektne ponudbe
                   href: sales/create-estimate-quote-line.md
                 - name: 'Uvoz ocen iz projekta v podrobnosti ponudbe, ki temelji na projektu'
                   href: sales/import-estimate-quote-line.md
-                - name: 'Razporedi računov v podrobnostih ponudbe, ki temeljijo na projektih'
+                - name: 'Razporedi računov v podrobnostih ponudb, ki temeljijo na projektih'
                   href: sales/invoice-schedule-quote-line.md
             - name: Kopiranje projektnih ponudb
               href: sales/lose-quote.md
@@ -108,9 +114,9 @@
           items:
             - name: Upravljanje pregleda projektnih pogodb
               href: pro/sales/manage-contracts-sales.md
-            - name: Koncepti projektnih pogodb
+            - name: 'Koncepti, enolični za pogodbe, ki temeljijo na projektih'
               href: sales/contracts-key-concepts.md
-            - name: Nastavitve projektnih pogodb
+            - name: 'Podrobnosti glave za pogodbe, ki temeljijo na projektih'
               href: sales/project-contract-settings.md
             - name: Upravljanje cenikov za projekte v projektnih pogodbah
               href: sales/contracts-manage-project-price-lists.md
@@ -119,21 +125,21 @@
             - name: 'Podrobnosti pogodbe, ki temelji na projektu'
               items:
                 - name: 'Pregled podrobnosti pogodbe, ki temelji na projektu'
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: 'Upravljanje več strank v podrobnostih pogodbe, ki temelji na projektu'
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: 'Konfiguriranje plačljivih komponent za podrobnosti pogodbe, ki temelji na projektu'
-                  href: sales/configure-chargeable-contract-line.md
-                - name: 'Ocenjevanje podrobnosti pogodbe, ki temelji na projektu'
+                - name: Preslikava projektov in opravil v podrobnostih projektne pogodbe
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Konfiguriranje plačljivih komponent za podrobnosti projektne pogodbe
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Ocena podrobnosti projektne pogodbe
                   href: sales/create-estimate-contract-line.md
                 - name: 'Uvoz ocen iz projekta v podrobnosti pogodbe, ki temelji na projektu'
                   href: sales/import-estimate-project-contract-line.md
-                - name: 'Ustvarjanje razporedov izdajanja računov v podrobnostih pogodbe, ki temelji na projektu'
+                - name: 'Ustvarjanje razporedov izdajanja računov v podrobnostih pogodb, ki temeljijo na projektih'
                   href: sales/invoice-schedules-contract-line.md
             - name: Potrditev projektne pogodbe
               href: pro/sales/confirm-contract-sales.md
-            - name: Kopiranje projektne pogodbe
-              href: pro/sales/copy-project-contracts-sales.md
             - name: Predujmi in honorarji
               items:
                 - name: Pogodbe za predplačila in honorarje
@@ -146,16 +152,16 @@
       items:
         - name: Nastavitev cenika
           items:
-            - name: Nastavitev cenikov
+            - name: Definicija cenika
               href: pricing-costing/price-list-setup.md
-            - name: Ceniki za izdelke
-              href: pricing-costing/product-price-list.md
             - name: Nastavitev obračunske stopnje za delo
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: Nastavitev stroškov za delo
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: Nastavitev cen in stopenj prodaje za stroške
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Nastavitev cen in stopenj prodaje za materiale
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Privzete nastavitve in preglasitve
           items:
             - name: Privzeti ceniki
@@ -168,6 +174,8 @@
               href: pricing-costing/sales-price-resolution.md
             - name: Kopiranje cenikov
               href: pricing-costing/copy-price-lists.md
+            - name: Deaktivacija cenikov
+              href: pricing-costing/deactivatepricelists.md
         - name: Cenovne razsežnosti
           items:
             - name: Pregled cenovnih razsežnosti
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: Ustvarjanje dodelitev
               href: project-management/create-assignments.md
-        - name: Ocenjevanje projektov
+        - name: Finančne ocene za projekte
           items:
-            - name: Pregled ocenjevanja projektov
+            - name: Koncepti finančnih ocen
               href: project-management/estimating-projects-overview.md
-            - name: Ocene virov
+            - name: Finančne ocene za čase virov v projektih
               href: project-management/resource-estimates.md
-            - name: Ustvarjanje ocen stroškov
+            - name: Finančne ocene za stroške v projektih
               href: project-management/create-expense-estimates.md
+            - name: Finančne ocene za materiale v projektih
+              href: project-management/create-material-estimate.md
         - name: Sledenje projektom
           items:
-            - name: Pregled sledenja projektom
+            - name: Sledenje obsegom dela v projektih
               href: project-management/project-tracking-overview.md
+            - name: Sledenje stroškom za delo v projektih
+              href: project-management/project-cost-tracking.md
+            - name: Sledenje prihodkom od dela v projektih
+              href: project-management/project-sales-tracking.md
             - name: Posodobitev ocene končnih stroškov
               href: project-management/update-completed-estimate.md
         - name: Člani projektne ekipe
@@ -248,6 +262,8 @@
           items:
             - name: Razvoj predlog projekta s kopiranjem projekta
               href: project-management/dev-copy-project.md
+            - name: Uporaba API-jev razporeda (predogledna različica za javnost)
+              href: project-management/schedule-api-preview.md
     - name: Upravljanje virov
       items:
         - name: Ključni koncepti
@@ -366,6 +382,10 @@
           items:
             - name: Izterjava DDV-ja
               href: expense/vat-recovery.md
+    - name: Uporaba materiala
+      items:
+        - name: Beleženje uporabe materiala v projektih in projektnih nalogah
+          href: material/material-usage-log.md
     - name: Odobritve
       items:
         - name: Pregled odobritev
@@ -378,6 +398,8 @@
       items:
         - name: Pregled dejanskih vrednosti
           href: actuals/actuals-overview.md
+        - name: Povezava dejanskih vrednosti z izvirnimi zapisi
+          href: actuals/linkingactuals.md
         - name: Dnevniki popravkov
           items:
             - name: Ustvarjanje in potrjevanje dnevnikov popravkov
@@ -390,19 +412,21 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: Izstavljanje predračunov
           items:
-            - name: Upravljanje nedokončanih opravil obračunavanja v projektu
+            - name: 'Upravljanje nedokončanih opravil obračunavanja, ki temelji na projektih'
               href: proforma-invoicing/manage-billing-backlog.md
             - name: Upravljanje stanja in veljavnosti »Ni dovoljeno preseči«
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: Ročno ustvarjanje predračunov projekta
+            - name: 'Predračuni, ki temeljijo na projektih'
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: Upravljanje predračuna projekta
+            - name: 'Upravljanje predračuna, ki temelji na projektu'
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: Izdaja računa za honorar ali predplačilo
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Potrditev predračuna projekta
+            - name: 'Potrditev predračuna, ki temelji na projektu'
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Konfiguriranje avtomatizacije računov projekta
+            - name: 'Ustvarjanje popravljalnih računov, ki temeljijo na projektih'
+              href: proforma-invoicing/corrective-invoices.md
+            - name: 'Konfiguriranje avtomatizacije računov, ki temeljijo na projektih'
               href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Vodenje računov projekta
       items:
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: Novosti
       items:
+        - name: Novosti za april 2021 – poenostavljeno uvajanje
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Novosti za marec 2021 – poenostavljeno uvajanje
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: Novosti za februar 2021 – poenostavljeno uvajanje
@@ -486,7 +512,7 @@
           items:
             - name: Pregled projektnih priložnosti
               href: sales/manage-project-based-opportunities.md
-            - name: Nastavitve projektnih priložnosti
+            - name: Podrobnosti glave za projektne priložnosti
               href: pro/sales/opportunity-header-sales.md
             - name: 'Upravljanje podrobnosti priložnosti, ki temeljijo na izdelkih'
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: 'Pregled ponudb, ki temeljijo na projektih'
               href: pro/sales/manage-quotes-sales.md
-            - name: Koncepti projektne ponudbe
+            - name: 'Koncepti, enolični za projektne ponudbe'
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Nastavitve projektne ponudbe
+            - name: Podrobnosti glave za projektne ponudbe
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: Več strank v projektnih ponudbah
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -542,9 +568,9 @@
           items:
             - name: 'Pregled pogodb, ki temeljijo na projektih'
               href: pro/sales/manage-contracts-sales.md
-            - name: Koncepti projektne pogodbe
+            - name: 'Koncepti, enolični za projektne pogodbe'
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Nastavitve projektnih pogodb
+            - name: Podrobnosti glave za projektne pogodbe
               href: pro/sales/project-contract-settings-sales.md
             - name: Več strank v projektnih pogodbah
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -590,30 +616,32 @@
       items:
         - name: Nastavitev cenika
           items:
-            - name: Nastavitev cenikov
+            - name: Definicija cenika
               href: pricing-costing/price-list-setup.md
-            - name: Nastavitev prodajnega cenika
-              href: pricing-costing/sales-price-list-setup.md
-            - name: Nastavitev obračunske stopnje za delo – poenostavljena različica
+            - name: Nastavitev cenikov za izdelke
+              href: pricing-costing/product-price-list.md
+            - name: Nastavitev obračunske stopnje za delo
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: Nastavitev stroškov za delo – poenostavljena različica
+            - name: Nastavitev stroškov za delo
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: Nastavitev cen in stopenj prodaje za izdelke iz kataloga – poenostavljena različica
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: Nastavitev cen in stopenj prodaje za stroške
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Nastavitev cen in stopenj prodaje za materiale
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Privzete nastavitve in preglasitve
           items:
             - name: Privzeti ceniki
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Preglasitev prodajnih cenikov za projekt
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Razreševanje lastnih cen za ocene in dejanske vrednosti – poenostavljena različica
+            - name: Razreševanje lastnih cen za ocene in dejanske vrednosti projektov
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Razreševanje prodajnih cen za ocene in dejanske vrednosti – poenostavljena različica
+            - name: Razreševanje prodajnih cen za ocene in dejanske vrednosti projektov
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Kopiranje cenikov
               href: pricing-costing/copy-price-lists.md
+            - name: Deaktivacija projektnih cenikov
+              href: pricing-costing/deactivatepricelists.md
         - name: Cenovne razsežnosti
           items:
             - name: Pregled cenovnih razsežnosti
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: Ustvarjanje dodelitev
               href: project-management/create-assignments.md
-        - name: Ocenjevanje projektov
+        - name: Finančne ocene za projekte
           items:
-            - name: Pregled ocenjevanja projektov
+            - name: Koncepti finančnih ocen
               href: project-management/estimating-projects-overview.md
-            - name: Ocene virov
+            - name: Finančne ocene za čase virov v projektih
               href: project-management/resource-estimates.md
-            - name: Ustvarjanje ocen stroškov
+            - name: Finančne ocene za stroške v projektih
               href: project-management/create-expense-estimates.md
+            - name: Finančne ocene za materiale v projektih
+              href: project-management/create-material-estimate.md
         - name: Sledenje projektom
           items:
-            - name: Pregled sledenja projektom
+            - name: Sledenje obsegom dela v projektih
               href: project-management/project-tracking-overview.md
+            - name: Sledenje stroškom za delo v projektih
+              href: project-management/project-cost-tracking.md
+            - name: Sledenje prihodkom od dela v projektih
+              href: project-management/project-sales-tracking.md
             - name: Posodobitev ocene končnih stroškov
               href: project-management/update-completed-estimate.md
         - name: Člani projektne ekipe
@@ -694,6 +728,8 @@
           items:
             - name: Razvoj predlog projekta s kopiranjem projekta
               href: project-management/dev-copy-project.md
+            - name: Uporaba API-jev razporeda (predogledna različica za javnost)
+              href: project-management/schedule-api-preview.md
     - name: Upravljanje virov
       items:
         - name: Ključni koncepti
@@ -768,6 +804,10 @@
           href: expense/expense-overview.md
         - name: Vnos stroškov (poenostavljen)
           href: expense/basic-expense.md
+    - name: Uporaba materiala
+      items:
+        - name: Beleženje uporabe materiala v projektih in projektnih nalogah
+          href: material/material-usage-log.md
     - name: Odobritve
       items:
         - name: Pregled odobritev
@@ -780,6 +820,8 @@
       items:
         - name: Pregled dejanskih vrednosti
           href: actuals/actuals-overview.md
+        - name: Povezava dejanskih vrednosti z izvirnimi zapisi
+          href: actuals/linkingactuals.md
         - name: Dnevniki popravkov
           items:
             - name: Ustvarjanje in potrjevanje dnevnikov popravkov
@@ -790,7 +832,7 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: Upravljanje stanja in veljavnosti »Ni dovoljeno preseči«
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Ročno ustvarjanje predračunov projekta
+        - name: Predračuni projekta
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: Upravljanje predračuna projekta
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -806,6 +848,8 @@
   items:
     - name: Novosti
       items:
+        - name: 'Novosti za marec 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: 'Novosti za januar 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: 'Novosti za december 2020 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
@@ -830,6 +874,8 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: Izstavljanje računov za projekt
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Uspešnost predlogov za račune projekta
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: Projektne pogodbe
       href: prod-pma/project-contracts.md
     - name: Ustvarjanje naprednih pogodb za obračunavanje na osnovi poteka
@@ -952,6 +998,10 @@
       items:
         - name: Razpored izdaje posodobitev za Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ali spremembe v izdaji posodobitve 30, V3'
+          href: psa/whats-new-ur-30.md
+        - name: "Novosti ali spremembe v izdaji sprotnega popravka posodobitve\_29.5, V3"
+          href: psa/whats-new-ur-29-5.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 29, V3'
           href: psa/whats-new-ur-29.md
         - name: "Novosti ali spremembe v izdaji sprotnega popravka posodobitve\_28.6, V3"
