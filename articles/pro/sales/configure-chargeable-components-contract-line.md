@@ -1,5 +1,5 @@
 ---
-title: Konfiguriranje komponent, ki se zaračunajo, za podrobnosti pogodbe, ki temelji na projektu – poenostavljena različica
+title: Konfiguriranje plačljivih komponent za podrobnosti pogodbe, ki temelji na projektu
 description: Ta tema ponuja informacije o tem, kako v aplikaciji Project Operations v podrobnost pogodbe dodati komponente, ki se zaračunajo.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273938"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858493"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Konfiguriranje komponent, ki se zaračunajo, za podrobnosti pogodbe, ki temelji na projektu – poenostavljena različica
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfiguriranje plačljivih komponent za podrobnosti pogodbe, ki temelji na projektu
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** poenostavljeno uvedbo – posel do izstavitve predračuna, Project Operations za primere, ki temeljijo na virih/manjkajoči zalogi_
 
 Projektna podrobnost pogodbe je sestavljena iz *vključenih* komponent in komponent, *ki se zaračunajo*.
 
@@ -62,23 +62,582 @@ Način obračunavanja transakcije je mogoče nastaviti na zavihku **Kategorije, 
 
 ### <a name="resolve-chargeability"></a>Razrešitev možnosti zaračunavanja
 
-Ocena ali dejanska vrednost, ustvarjena za čas, se šteje za zaračunljivo le, če je v podrobnosti pogodbe vključen **Čas** ter če sta v podrobnosti pogodbe **Opravilo** in **Vloga** konfigurirana kot zaračunljiva.
+Ocena ali dejansko ustvarjena vrednost za čas šteje za plačljivo le v naslednjih primerih:
 
-Ocena ali dejanska vrednost, ustvarjena za strošek, se šteje za zaračunljivo le, če je v podrobnosti pogodbe vključena možnost **Strošek** ter če sta v podrobnosti pogodbe kategoriji **Opravilo** in **Transakcija** konfigurirani kot zaračunljivi.
+   - **Čas** je vključen v podrobnosti pogodbe.
+   - **Vloga** je v podrobnosti pogodbe nastavljena kot plačljiva.
+   - **Vključena opravila** so v podrobnostih pogodbe nastavljena na **Izbrana opravila**.
+ 
+ Če so te tri stvari resnične, je tudi opravilo konfigurirano tudi kot plačljivo. 
+
+Ocena ali dejansko ustvarjena vrednost za stroške šteje za plačljivo le v naslednjih primerih:
+
+   - **Stroški** so vključeni v podrobnosti pogodbe
+   - **Kategorija transakcije** je v podrobnostih pogodbe nastavljena kot plačljiva
+   - **Vključena opravila** so v podrobnostih pogodbe nastavljena na **Izbrano opravilo**
+  
+ Če so te tri stvari resnične, je tudi **Opravilo** konfigurirano tudi kot plačljivo. 
+
+Ocena ali dejansko ustvarjena vrednost za material šteje za plačljivo le v naslednjih primerih:
+
+   - **Materiali** so vključeni v podrobnosti pogodbe
+   - **Vključena opravila** so v podrobnostih pogodbe nastavljena na **Izbrana opravila**
+
+Če sta ti dve stvari resnični, je tudi **Opravilo** konfigurirano tudi kot plačljivo. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Čas je vključen</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Strošek je vključen</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Vključuje materiale</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Vključena opravila</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Vloga</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kategoriji</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Opravilo</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Vpliv plačljivosti</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Celoten projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Se zaračuna </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Se zaračuna </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ni mogoče nastaviti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun po dejanskem času: <strong>Se zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanske stroške: <strong>Se zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanski material: <strong>plačljivo</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo izbrana opravila </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Se zaračuna </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Se zaračuna </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Se zaračuna </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun po dejanskem času: <strong>Se zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanske stroške: <strong>Se zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanski material: <strong>plačljivo</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo izbrana opravila </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Se ne zaračuna</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Se zaračuna </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Se zaračuna </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun po dejanskem času: <strong>Se ne zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejansko vrednost stroška: Se zaračuna </p>
+                <p>
+Vrsta obračuna za dejanski material: plačljivo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo izbrana opravila </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Se zaračuna </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Se zaračuna </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Se ne zaračuna</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun po dejanskem času: <strong>Se ne zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanske stroške: <strong>Se ne zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanski material: <strong>Se ne zaračuna</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo izbrana opravila </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Se ne zaračuna</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Se zaračuna </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Se ne zaračuna</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun po dejanskem času: <strong>Se ne zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanske stroške: <strong>Se ne zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanski material: <strong>Se ne zaračuna</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo izbrana opravila </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Se ne zaračuna</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Se ne zaračuna</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Se zaračuna </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun po dejanskem času: <strong>Se ne zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanske stroške: <strong>Se ne zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanski material: plačljivo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Celoten projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ni mogoče nastaviti </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Se zaračuna</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ni mogoče nastaviti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun po dejanskem času: <strong>Ni na voljo</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejansko vrednost stroška: Se zaračuna </p>
+                <p>
+Vrsta obračuna za dejanski material: plačljivo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Celoten projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ni mogoče nastaviti </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Se ne zaračuna</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ni mogoče nastaviti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun po dejanskem času: <strong>Ni na voljo</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanske stroške: <strong>Se ne zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanski material: plačljivo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Celoten projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Se zaračuna </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Ni mogoče nastaviti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ni mogoče nastaviti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun po dejanskem času: Se zaračuna </p>
+                <p>
+Vrsta obračuna za dejanske stroške:<strong> Ni na voljo</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanski material: plačljivo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Celoten projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Se ne zaračuna</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Ni mogoče nastaviti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ni mogoče nastaviti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun po dejanskem času: <strong>Se ne zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanske stroške:<strong> Ni na voljo</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanski material: plačljivo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Celoten projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Se zaračuna </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Se zaračuna </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ni mogoče nastaviti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun po dejanskem času: Se zaračuna </p>
+                <p>
+Vrsta obračuna za dejansko vrednost stroška: Se zaračuna </p>
+                <p>
+Vrsta obračuna za dejanski material: <strong>Ni na voljo</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Celoten projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Se ne zaračuna</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Se ne zaračuna</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ni mogoče nastaviti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun po dejanskem času: <strong>Se ne zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanske stroške: <strong>Se ne zaračuna</strong>
+                </p>
+                <p>
+Vrsta obračuna za dejanski material: <strong>Ni na voljo</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| Čas je vključen | Strošek je vključen | Vključena so opravila | Vloga           | Kategoriji       | Opravilo                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| Da           | Da              | Ves projekt | Se zaračuna     | Se zaračuna     | Obračun po dejanskem času: **Se zaračuna** </br> Vrsta obračuna za dejansko vrednost stroška: **Se zaračuna**           |
-| Da           | Da              | Izbrana opravila | Se zaračuna     | Se zaračuna     | Obračun po dejanskem času: **Se zaračuna** </br> Vrsta obračuna za dejansko vrednost stroška: **Se zaračuna**           |
-| Da           | Da              | Izbrana opravila | Se ne zaračuna | Se zaračuna     | Obračun po dejanskem času: **Se ne zaračuna** </br> Vrsta obračuna za dejansko vrednost stroška: **Se zaračuna**       |
-| Da           | Da              | Izbrana opravila | Se zaračuna     | Se zaračuna     | Obračun po dejanskem času: **Se ne zaračuna** </br> Vrsta obračuna za dejansko vrednost stroška:   **Se ne zaračuna** |
-| Da           | Da              | Izbrana opravila | Se ne zaračuna | Se zaračuna     | Obračun po dejanskem času: **Se ne zaračuna** </br> Vrsta obračuna za dejansko vrednost stroška:   **Se ne zaračuna** |
-| Da           | Da              | Izbrana opravila | Se ne zaračuna | Se ne zaračuna | Obračun po dejanskem času: **Se ne zaračuna** </br> Vrsta obračuna za dejansko vrednost stroška:   **Se ne zaračuna** |
-| No            | Da              | Ves projekt | Ni mogoče nastaviti   | Se zaračuna     | Obračun po dejanskem času: **Ni na voljo**</br>Vrsta obračuna za dejansko vrednost stroška: **Se zaračuna**          |
-| No            | Da              | Ves projekt | Ni mogoče nastaviti   | Se ne zaračuna | Obračun po dejanskem času: **Ni na voljo**</br> Vrsta obračuna za dejansko vrednost stroška: **Se ne zaračuna**     |
-| Da           | No               | Ves projekt | Se zaračuna     | Ni mogoče nastaviti   | Obračun po dejanskem času: **Se zaračuna** </br> Vrsta obračuna za dejansko vrednost stroška: **Ni na voljo**        |
-| Da           | No               | Ves projekt | Se ne zaračuna | Ni mogoče nastaviti   | Obračun po dejanskem času: **Se ne zaračuna** </br>Vrsta obračuna za dejansko vrednost stroška: **Ni na voljo**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

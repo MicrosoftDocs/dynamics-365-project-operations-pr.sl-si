@@ -1,21 +1,21 @@
 ---
-title: Upravljanje predračuna – poenostavljeno
-description: Ta tema vsebuje informacije o delu s predračuni.
+title: Upravljanje predračuna projekta
+description: Ta tema vsebuje informacije o tem, kako delati s predračuni projekta.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274073"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866926"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Upravljanje predračuna – poenostavljeno
+# <a name="manage-a-proforma-project-invoice"></a>Upravljanje predračuna projekta 
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -69,9 +69,9 @@ V aplikaciji Project Operations je za vsako vrstico projektne pogodbe vedno ena 
 
 Vsaka vrstica računa v računu projekta vključuje podrobnosti vrstice računa. Te podrobnosti vrstice se nanašajo na neobračunane dejanske vrednosti prodaje in mejnike, ki se nanašajo na podrobnosti pogodbe, na katere se sklicuje vrstica računa. Vse te transakcije so označene kot **Pripravljeno za izdajanje računov**.
 
-Za vrstice za **Račun za čas in material** so podrobnosti vrstice računa na strani **Vrstica računa** združene v možnosti **Se zaračuna**, **Se ne zaračuna** in **Brezplačno**. Podatki **Vrstice računa, ki se zaračuna** se dodajo v skupno vrstico računa. Možnosti **Brezplačno** in **Dejansko delo, ki se ne zaračuna** se ne seštejejo v skupno vrstico računa.
+Za vrstico **Račun za čas in material** so podrobnosti vrstice računa združene v možnosti **Plačljivo**, **Se ne zaračuna** in **Brezplačno** na strani **Vrstica računa**. Podatki **Vrstice računa, ki se zaračuna** se dodajo v skupno vrstico računa. **Brezplačno** in **Dejanske vrednosti, ki se ne zaračunaj** se ne štejejo v skupno vrstico računa.
 
-Za vrstico za **Račun s fiksno ceno** so podrobnosti vrstice računa ustvarjene iz mejnikov, ki so na ustrezni podrobnosti pogodbe označeni kot **Pripravljeno za izdajanje računov**. Ko se iz mejnika ustvarijo podrobnosti vrstice računa, se stanje obračunavanja na mejniku posodobi na **Račun za stranko je ustvarjen**.
+Za vrstico **Račun s fiksno ceno** se podrobnosti vrstice računa ustvarijo iz mejnikov, ki so v povezanih podrobnostih pogodbe označeni kot **Pripravljen na račun**. Ko se iz mejnika ustvarijo podrobnosti vrstice računa, se stanje obračunavanja na mejniku posodobi na **Račun za stranko je ustvarjen**.
 
 ### <a name="edit-invoice-line-details"></a>Urejanje podrobnosti vrstice računa
 
@@ -98,8 +98,12 @@ Naslednja polja so na voljo v podrobnosti vrstice računa, ki temelji na dejansk
 | **Davek** | Privzeto nastavljeno iz vira dejanskega dela. To polje lahko ureja uporabnik | Uporabni lahko polje ureja pri ustvarjanju novih podrobnosti računa, ne da bi temeljile na dejanskem delu. |
 | **Skupna vrednost postavk na računu** | Polje z izračunom, izračunano kot **Znesek + davek**. Polje »samo za branje«, ki je zaklenjeno za urejanje. | &nbsp; |
 | **Vrsta obračunavanja** | Privzeto nastavljeno iz vira dejanskega dela. To polje lahko ureja uporabnik. | Izbira možnosti **Se zaračuna** doda vrstico v skupno vrstico računa. Možnosti **Brezplačno** in **Se ne zaračuna** jo izključita iz skupne vrstice računa. |
+| **Izbira izdelka** | To polje je samo za branje, ki je privzeto nastavljeno iz dejanskega vira. | Ko ustvarite novo podrobnost vrstice računa brez dejanske podpore, lahko to polje uredite. |
+| **Izdelku** | To polje je samo za branje, ki je privzeto nastavljeno iz dejanskega vira. | Ko ustvarite novo podrobnost vrstice računa brez dejanske podpore, lahko to polje uredite, če je polje **Izbira izdelka** nastavljeno na **Obstoječi izdelek**. |
+| **Ime izdelka** | To polje je samo za branje, ki je privzeto nastavljeno iz dejanskega vira. | V novi podrobnosti vrstice računa, kjer je ID izdelka izbran iz kataloga, je to polje nastavljeno na ime izdelka. Pri izdelku, ki ni v katalogu, je polje nastavljeno na ime, ki ni v katalogu. |
+| **Opis izdelka, ki ni v katalogu** | To polje je samo za branje, ki je privzeto nastavljeno iz dejanskega vira. | Ko ustvarite novo podrobnost vrstice računa brez dejanske podpore, lahko za izdelek dodate opis. |
 | **Vrsta transakcije** | Privzeto nastavljeno iz vira dejanskega dela. Polje »samo za branje«, ki je zaklenjeno za urejanje. | Privzeto nastavljeno na **Obračunana prodaja** in zaklenjeno pri ustvarjanju novih **Podrobnosti vrstice računa**, ne da bi temeljile na dejanskem delu.  |
-| **Razred transakcije** | Privzeto nastavljeno iz vira dejanskega dela. Polje »samo za branje«, ki je zaklenjeno za urejanje. | Privzeto nastavljeno glede na to, ali se uporabnik odloči ustvariti podrobnosti vrstice računa za **Čas**, **Strošek** ali **Dajatev**, hkrati pa ustvarja nove **Podrobnosti vrstice računa**, ne da bi temeljile na dejanskem delu. Zaklenjeno za urejanje. |
+| **Razred transakcije** | Privzeto nastavljeno iz vira dejanskega dela. Polje »samo za branje«, ki je zaklenjeno za urejanje. | Privzeto nastavljeno glede na to, ali se uporabnik odloči ustvariti podrobnosti vrstice računa za **čas**, **stroške**, **material** ali **dajatve**, hkrati pa ustvari nove **podrobnosti vrstice računa** brez dejanske podpore. Zaklenjeno za urejanje. |
 
 Naslednja polja so na voljo v podrobnosti vrstice računa, ki temelji na mejniku:
 

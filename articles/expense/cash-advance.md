@@ -3,19 +3,19 @@ title: Denarni predujem
 description: Ta tema vsebuje informacije o denarnih predujmih.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276728"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715580"
 ---
 # <a name="cash-advance"></a>Denarni predujem
 
@@ -60,7 +60,22 @@ Naslednji postopek običajno izvede računovodja ali uporabnik z računovodskimi
 
 Ko ustvarite in pošljete poročilo o stroških za denarni predujem, ki ste ga že prejeli, se stroški samodejno prilagodijo glede na ta predujem. Če je denarni predujem večji od porabljenega zneska, morate preostala sredstva vrniti podjetju s kategorijo stroška **Vrni sredstva**. Če je denarni predujem, ki ga je plačalo podjetje, manjši od zneska, ki ste ga porabili, vam mora podjetje vrniti razliko. 
 
-### <a name="example"></a>Primer
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Izberite denarne predujme, ki se nanašajo na vaše stroške
+Preden oddate poročilo o stroških, lahko izberete denarni predujem, ki je v skladu s transakcijami stroškov v poročilu. Če želite uporabljati to funkcijo, morate v delovnem prostoru **Upravljanje funkcij** omogočiti naslednji dve funkciji:
+
+  - Prenovljena poročila o stroških
+  - Sposobnost preslikave denarnih predujmov v vrstice stroškov
+ 
+ Ko so te funkcije omogočene:
+ 
+  - Za vsako vrstico stroškov lahko dodate enega ali več denarnih predujmov.
+  - Razpoložljivo stanje denarnega predujma je v realnem času vidno, ko se shrani poročilo o stroških. To vam omogoča obdelavo transakcij stroškov in hkrati vrnitev transakcij gotovine.
+  - Za eno transakcijo stroškov lahko izberet več denarnih predujmov.
+  - Podatki o uskladitvi denarnega predujma so na voljo prek poizvedbe. 
+ 
+Če teh funkcij ne uporabljate, bo funkcionalnost ostala nespremenjena, obstoječi denarni predujmi pa se bodo samodejno zmanjšali, ko bodo stroški poslani.
+
+### <a name="example"></a>Primer 
 Načrtujete potovanje iz Seattla v New York na konferenco. Zahtevo za denarni predujem za 3000,00 USD ustvarite na podlagi ocenjenih stroškov vstopnice za konferenco, letov, hotela, obrokov in taksija. Če vodja te zahteve ne odobri, plačilo ni izvršeno. Ko je zahteva odobrena, je denarni predujem v vrednosti 3000,00 USD nakazan na vaš bančni račun. Nato se udeležite konference. Po končanem potovanju ugotovite, da so skupni izdatki znašali le 2790,00 USD. V polju **Način plačila** izberite **Gotovina** in navedite svoje stroške za 2790,00 USD. Poslani znesek stroškov se samodejno prilagodi denarnemu predujmu v vrednosti 3000,00 USD, ki vam je bilo posojen. Razlika na računu je zdaj 210,00 USD (3000,00 - 2790,00), ki jo podjetju lahko vrnete z uporabo kategorije stroška **Vračilo gotovine**.
 
 

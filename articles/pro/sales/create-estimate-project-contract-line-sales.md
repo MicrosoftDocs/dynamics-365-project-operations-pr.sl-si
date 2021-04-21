@@ -3,17 +3,17 @@ title: Ocenjevanje podrobnosti pogodbe, ki temelji na projektu – poenostavljen
 description: V tej temi so na voljo informacije o ocenjevanju podrobnosti pogodbe, ki temelji na projektu.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 186b982ee440576e10cf5b78922848b8877afd51
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bf7941a627375604dca778ab293756bed2536049
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273557"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858124"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Ocenjevanje podrobnosti pogodbe, ki temelji na projektu – poenostavljena različica
 
@@ -28,28 +28,33 @@ Za ocenjevanje podrobnosti pogodbe, ki temelji na projektu, odprite zavihek **Po
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Ustvarjanje ocene neposredno v podrobnostih pogodbe, ki temelji na projektu
 
+Za ustvarjanje ocene neposredno v podrobnosti pogodbe, ki temelji na projektu, upoštevajte naslednje korake:
+
 1. Pojdite v podrobnosti pogodbe in izberite zavihek **Podrobnost vrstice pogodbe**. Vrstice, ki jih ustvarite v tem zavihku, so povzete in prikazane kot **Pogodbena vrednost** za to možnost **Podrobnosti pogodbe**. 
-2. V podmreži **Podrobnosti pogodbe** izberite **+ Nove podrobnosti vrstice pogodbe**. Odpre se drsnik za hitro ustvarjanje. Naslednja polja so na voljo na obrazcu **Podrobnosti vrstice pogodbe**:
+2. V podmreži **Podrobnosti pogodbe** izberite **Nove podrobnosti pogodbe**. Odpre se drsnik za hitro ustvarjanje. Naslednja polja so na voljo na strani **Podrobnosti pogodbe**.
 
 | Polje | LOkacija | Opis | Nadaljnji vpliv |
 | --- | --- | --- | --- |
-| **Opis** | **Hitro ustvarjanje** | Opis posamezne ocene | To polje se privzeto nastavi na povezane podrobnosti vrstic pogodbe za stroške, ki so samodejno ustvarjeni. |
-| **Razred transakcije** | **Hitro ustvarjanje** | Ta spustni seznam je seznam razredov transakcij, vključen na zavihku **Splošno** podrobnosti pogodbe, ki temelji na projektu. | To polje se privzeto nastavi na povezane podrobnosti vrstic pogodbe za stroške, ki so samodejno ustvarjeni. |
-| **Vloga** | **Hitro ustvarjanje** | Vloga osebe, ki opravlja to delo ali ima ta strošek. | To polje se privzeto nastavi na povezane podrobnosti vrstic pogodbe za stroške, ki so samodejno ustvarjeni. |
-| **Kategorija** | **Hitro ustvarjanje** | Kategorija dela ali stroška. | To polje se privzeto nastavi na povezane podrobnosti vrstic pogodbe za stroške, ki so samodejno ustvarjeni. |
-| **Začetni datum** | **Hitro ustvarjanje** | Začetni datum dela. | To polje se privzeto nastavi na povezane podrobnosti vrstic pogodbe za stroške, ki so samodejno ustvarjeni. |
-| **Končni datum** | **Hitro ustvarjanje** | Končni datum dela. | To polje se privzeto nastavi na povezane podrobnosti vrstic pogodbe za strošek, ki je samodejno ustvarjen. |
-| **Enota vira** | **Hitro ustvarjanje** | Enota vira, ki ima ta strošek in zagotavlja vir za delo na njem. | To polje se privzeto nastavi na povezane podrobnosti vrstic pogodbe za stroške, ki so samodejno ustvarjeni. To polje se uporablja tudi pri pridobivanju lastne cene. |
-| **Urnik enote** | **Hitro ustvari** | Skupina enot za delo ali strošek. Enote pripadajo razporedu enot ali skupini enot. Na primer, *milje* in *km* so enote, ki spadajo v skupino enot, ki opisujejo razdaljo. | To polje se privzeto nastavi na povezane podrobnosti vrstic pogodbe za stroške, ki so samodejno ustvarjeni. |
-| **Enota** | **Hitro ustvarjanje** | Enota za delo ali strošek. | To polje se privzeto nastavi na povezane podrobnosti vrstic pogodbe za stroške, ki so samodejno ustvarjeni. |
-| **Količina** | **Hitro ustvarjanje** | Količina za delo ali strošek. | To polje se privzeto nastavi na povezane podrobnosti vrstic pogodbe za stroške, ki so samodejno ustvarjeni. |
-| **Cena enote** | **Hitro ustvarjanje** | Delež obračunavanja za vlogo, ki izvaja delo ali prodajno ceno kategorije stroška. To polje se privzeto nastavi za **Čas** na podlagi kombinacije vloge in enote vira v ceniku projekta, ki velja na datum začetka. Za stroške je privzeto za to polje iz nastavitve cene za kategorijo transakcij v projektnem ceniku, ki je veljaven na začetni datum. Če način določanja cen za kategorijo transakcij ni **cena na enoto**, privzete vrednost ni in to polje ostane prazno. | Mera stroškov za vlogo, ki izvaja delo ali strošek na enoto kategorije stroška. To polje se privzeto nastavi za **Čas na podlagi vloge** in kombinacija enote vira na vrstici cene vloge stroškovnega cenika, priloženega pogodbeni enoti z veljavnostjo za začetni datum. Za stroške privzeto za to polje temelji na vrstici cene kategorije stroškovnega cenika, priloženega k pogodbeni enoti, ki je veljavna na začetni datum. Če način določanja cen za kategorijo transakcij ni »cena na enoto«, privzete vrednost ni in to polje ostane prazno. |
-| **Predvideni davek** | **Hitro ustvarjanje** | Predvideni davek za to delo ali strošek vnese uporabnik. | Predvideni davek za to delo ali strošek vnese uporabnik. |
-| **Znesek** | **Hitro ustvarjanje** | To vrednost v tem polju lahko doda uporabnik, če sta polji **Količina** in **Cena** puščeni prazni. Če sta polji **Količina** in **Cena** izpolnjeni je polje **Znesek** samo za branje in je izračunano kot **(Količina\*cena enote) + davek**. | &nbsp; |
+| **Opis** | **Hitro ustvarjanje** | Opis posamezne ocene | Ta vrednost privzeto pripiše povezane podrobnosti pogodbe za samodejno ustvarjene stroške. |
+| **Razred transakcije** | **Hitro ustvarjanje** | To je seznam razredov transakcij, ki je vključen v zavihku **Splošno** pri podrobnostih pogodbe, ki temelji na projektu. | Ta vrednost privzeto pripiše povezane podrobnosti pogodbe za samodejno ustvarjene stroške. |
+| **Izbira izdelka** | **Hitro ustvari** | Velja, ko je razred transakcije **Material**. Določite lahko, ali naj bo ta vrstica ocene predvidena za **obstoječ** izdelek (iz kataloga) ali izdelek, **ki ni v katalogu**. | Ta vrednost privzeto pripiše povezane podrobnosti pogodbe za samodejno ustvarjene stroške. |
+| **Izdelku** | **Hitro ustvari** | ID izdelka iz kataloga izdelkov. To polje je omogočeno le, če izberete **Obstoječ izdelek** v polju **Izberite izdelek**. ID se uporablja za pridobivanje prodajne cene iz cenika projekta na pogodbi. | Ta vrednost privzeto pripiše povezane podrobnosti pogodbe za samodejno ustvarjene stroške. |
+| **Izdelek, ki ni v katalogu** | **Hitro ustvari** | Besedilno polje za vnos imena izdelka. To polje je omogočeno le, če izberete **Izdelek, ki ni v katalogu** v polju **Izberite izdelek**.| Ta vrednost privzeto pripiše povezane podrobnosti pogodbe za samodejno ustvarjene stroške. |
+| **Vloga** | **Hitro ustvarjanje** | Vloga osebe, ki opravlja to delo ali ima ta strošek. | Ta vrednost privzeto pripiše povezane podrobnosti pogodbe za samodejno ustvarjene stroške.|
+| **Kategoriji** | **Hitro ustvarjanje** | Kategorija dela ali stroška. |Ta vrednost privzeto pripiše povezane podrobnosti pogodbe za samodejno ustvarjene stroške.|
+| **Datum začetka** | **Hitro ustvarjanje** | Začetni datum dela. | Ta vrednost privzeto pripiše povezane podrobnosti pogodbe za samodejno ustvarjene stroške. |
+| **Končni datum** | **Hitro ustvarjanje** | Končni datum dela. | Ta vrednost privzeto pripiše povezane podrobnosti pogodbe za samodejno ustvarjene stroške. |
+| **Enota vira** | **Hitro ustvarjanje** | Enota vira, ki ima te stroške in zagotavlja vire za delo na njih. |Ta vrednost privzeto pripiše povezane podrobnosti pogodbe za samodejno ustvarjene stroške in se uporabi za pridobivanje lastne cene. |
+| **Urnik enote** | **Hitro ustvari** | Skupina enot dela, izdelka ali stroška. Enote pripadajo razporedu enot ali skupini enot. Na primer *milje* in *kilometri (km)* so enote, ki spadajo v skupino enot, ki opisujejo razdaljo. | Ta vrednost privzeto pripiše povezane podrobnosti pogodbe za samodejno ustvarjene stroške. |
+| **Enota** | **Hitro ustvarjanje** | Skupina enot dela, izdelka ali stroška. | Ta vrednost privzeto pripiše povezane podrobnosti pogodbe za samodejno ustvarjene stroške. |
+| **Količina** | **Hitro ustvarjanje** | Količina dela, izdelkov ali stroškov. | Ta vrednost privzeto pripiše povezane podrobnosti pogodbe za samodejno ustvarjene stroške. |
+| **Cena enote** | **Hitro ustvarjanje** | Obračunska stopnja vloge, ki opravlja delo, cena na enoto izdelka ali prodajna cena izdelka ali kategorije stroškov. Privzeta vrednost tega polja za **Čas** temelji na kombinaciji vrednosti cenovne razsežnosti za cenovno vrstico vloge v ceniku projekta, ki začne veljati z datumom začetka. Za **stroške** je privzeto za to polje iz nastavitve cene za kategorijo transakcij v projektnem ceniku, ki je veljaven na začetni datum. Če način določanja cen za kategorijo transakcij ni **cena na enoto**, privzete vrednost ni in to polje ostane prazno. Pri izdelkih privzeta vrednost tega polja temelji na vrstici **Elemente cenika** v ceniku projekta, ki začne veljati z datumom začetka.| Mera stroškov vloge, ki opravlja delo, ali cena na enoto kategorije stroškov ali izdelka. Privzeta vrednost tega polja za **Čas** temelji na kombinaciji vrednosti cenovne razsežnosti za cenovno vrstico vloge v ceniku z lastnimi cenami, ki je priložen pogodbeni enoti in začne veljati z datumom začetka. Za stroške privzeto za to polje temelji na vrstici cene kategorije stroškovnega cenika, priloženega k pogodbeni enoti, ki je veljavna na začetni datum. Če način določanja cen za kategorijo transakcij ni »cena na enoto«, privzete vrednost ni in to polje ostane prazno. Za izdelke privzeta vrednost za polje temelji na vrstici **Elementa cenika** v ceniku z lastnimi cenami, ki je priložen pogodbeni enoti in začne veljati z datumom začetka.|
+| **Predvideni davek** | **Hitro ustvarjanje** | Predvideni davek za to delo ali strošek. | Predvideni davek za to delo ali strošek. |
+| **Znesek** | **Hitro ustvarjanje** | V tem polju lahko dodate vrednost, če polji **Količina** in **Cena** ostaneta prazni. Če sta polji **Količina** in **Cena** izpolnjeni je polje **Znesek** samo za branje in je izračunano kot **(Količina\*cena enote) + davek**. | &nbsp; |
 
 ## <a name="update-prices-on-contract-line-details"></a>Posodobitev cen na podrobnostih vrstic pogodbe
 
-Če spremenite cene na projektnem ceniku, ki je priložen pogodbi ali stroškovnem ceniku pogodbene enote, lahko osvežite cene na posameznih podrobnostih vrstice postavke, da odražajo spremembo. Na strani **Pogodba** izberite **Preračunavanje**. Odpre se opozorilo, ki vas obvesti, da so cene za vse podrobnosti pogodbe v tej pogodbi ponastavljene. Izberite **Da** za osvežitev cen za prodajne in stroškovne podrobnosti vrstice pogodbe.
+Če spremenite cene na projektnem ceniku, ki je priložen pogodbi ali stroškovnem ceniku pogodbene enote, lahko osvežite cene na posameznih podrobnostih vrstice postavke, da odražajo spremembo. Na strani **Pogodba** izberite **Preračunavanje**. Pojavi se opozorilo, ki vas obvešča, da so cene za vse podrobnosti pogodbe v tej pogodbi ponastavljene. Izberite **Da** za osvežitev cen za prodajne in stroškovne podrobnosti vrstice pogodbe.
 
 ## <a name="access-contract-line-details-for-cost"></a>Dostop do podrobnosti vrstice pogodbe za strošek
 
@@ -67,7 +72,7 @@ Podrobnosti vrstice pogodbe za možnost **Strošek** nastavi privzeto valuto iz 
 Izračuni dobičkonosnosti pretvorijo zneske za podrobnosti vrstice pogodbe za možnost **Strošek** in **Prodaja** v osnovno valuto okolja za poročanje splošne dejanske in ocenjene marže pogodbe.
 
 > [!NOTE]
-> Pride lahko do napak pri zaokroževanju valut in spremenjenih marž zaradi pomanjkanja menjalnih tečajev, veljavnih na datum. Uporabite te izračune za projektne pogodbe samo kot približke in ne za dejansko zakonito ali drugačno poročanje, za katerega je potrebna večja natančnost zaokroževanje in ozaveščenosti o datumski veljavnosti za menjalne tečaje.
+> Pride lahko do napak pri zaokroževanju valut in spremenjenih marž zaradi pomanjkanja menjalnih tečajev, veljavnih na datum. Te izračune uporabljajte samo za projektne pogodbe, saj gre za približke in ne za dejansko zakonsko ali drugo poročanje, ki zahteva večjo natančnost zaokroževanja in zavedanje datuma začetka veljave za menjalne tečaje.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

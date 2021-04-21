@@ -1,42 +1,27 @@
 ---
-title: Ustvarjanje ročnega predračuna
-description: Ta tema vsebuje informacije o ustvarjanju predračuna.
+title: Predračuni
+description: Ta tema vsebuje informacije o predračunih v aplikaciji Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287798"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866881"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Ustvarjanje ročnega predračuna
+# <a name="proforma-invoices"></a>Predračuni
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-Zaračunavanje vodjem projektov zagotavlja drugo stopnjo odobritve, preden ustvarijo račune za kupce. Prva stopnja odobritve se zaključi, ko so odobreni časovni vnosi in vnosi stroškov, ki jih predložijo člani projektne ekipe.
+Izstavljanje predračunov vodjem projektov zagotavlja drugo stopnjo odobritve, preden ustvarijo račune za kupce. Prva stopnja odobritve se zaključi, ko so odobreni časovni vnosi, vnosi stroškov in materiala, ki jih predložijo člani projektne ekipe. Potrjeni predračuni so na voljo v modulu vodenja računov projekta v aplikaciji Project Operations. Računovodje projekta lahko izvedejo dodatne posodobitve, kot so davek od prodaje, računovodstvo in postavitev računov.
 
-Aplikacij Dynamics 365 Project Operations ni zasnovana za izstavljanje računov za stranke iz teh razlogov:
-
-- Ne vsebuje davčnih podatkov.
-- Ne more pretvoriti drugih valut v valuto računa z uporabo pravilno konfiguriranih menjalnih tečajev.
-- Ne more pravilno oblikovati računov, tako da jih je mogoče natisniti.
-
-Namesto tega lahko uporabite finančni ali računovodski sistem za ustvarjanje računov za stranke, ki uporablja informacije iz ustvarjenih predlogov računov.
 
 ## <a name="creating-project-invoices"></a>Ustvarjanje računov za projekt
 
@@ -50,7 +35,7 @@ Na strani s seznamom **Projektne pogodbe** lahko ustvarite račune za projekt lo
 
 - Na strani s seznamom **Projektne pogodbe** odprite projektno pogodbo in nato izberite **Ustvari račun**.
 
-    Račun se ustvari za vse transakcije za izbrano projektno pogodbo s stanjem **Pripravljeno za izdajanje računov**. Te transakcije vključujejo čas, stroške, mejnike in podrobnosti pogodbe, ki temeljijo na izdelku.
+    Račun se ustvari za vse transakcije za izbrano projektno pogodbo s stanjem **Pripravljeno za izdajanje računov**. Te transakcije vključujejo čas, stroške, materiale, mejnike in druge neobračunane vrstice dnevnikov prodaje.
 
 Za množično ustvarjanje računov sledite spodnjim korakom.
 
@@ -60,7 +45,7 @@ Za množično ustvarjanje računov sledite spodnjim korakom.
 
 2. Izberite **V redu**, da zaprete okno sporočila.
 
-    Račun se ustvari za vse transakcije v podrobnostih pogodbe s stanjem **Pripravljeno za izdajanje računov**. Te transakcije vključujejo čas, stroške, mejnike in podrobnosti pogodbe, ki temeljijo na izdelku.
+    Račun se ustvari za vse transakcije v podrobnostih pogodbe s stanjem **Pripravljeno za izdajanje računov**. Te transakcije vključujejo čas, stroške, materiale, mejnike in druge neobračunane vrstice dnevnikov prodaje.
 
 3. Če si želite ogledati ustvarjene račune, odprite **Prodaja** \> **Obračunavanje** \> **Računi**. Za vsako projektno pogodbo boste videli en račun.
 
@@ -93,11 +78,10 @@ Paketna obdelava za ustvarjanje računov je ponavljajoče se opravilo. Če se pa
  
 ### <a name="edit-a-draft-invoice"></a>Urejanje osnutka računa
 
-Ko ustvarite osnutek računa za projekt, se vse neobračunane prodajne transakcije, ki so bile ustvarjene, ko so bili odobreni časovni vnosi in vnosi stroškov, prenesejo v račun. Če je račun še vedno v fazi osnutka, lahko naredite naslednje te prilagoditve:
+Ko ustvarite osnutek računa za projekt, se v račun prenesejo vse neobračunane prodajne transakcije, ki so bile ustvarjene, ko so bili odobreni časovni vnosi, vnosi stroškov in uporabe materiala. Če je račun še vedno v fazi osnutka, lahko naredite naslednje te prilagoditve:
 
 - Izbrišite ali uredite podrobnosti vrstice računa.
 - Uredite in prilagodite količino in vrsto obračunavanja.
-- Dodajte čas, stroške in provizije kot transakcije neposredno na račun. To funkcijo lahko uporabite, če je vrstica računa preslikana v vrstico pogodbe, ki podpira te razrede transakcij.
 
 Izberite **Potrdi**, da potrdite račun. Dejanje »Potrdi« je enosmerno dejanje. Ko izberete **Potrdi**, sistem nastavi račun samo za branje in ustvari dejanske vrednosti obračunane prodaje iz vsake podrobnosti vrstice računa za vsako vrstico računa. Če se podrobnost vrstice računa sklicuje na neobračunano dejansko prodajo, sistem tudi stornira neobračunano dejansko prodajo. (Vsaka podrobnost vrstice računa, ki je bila ustvarjena iz časovnega vnosa ali vnosa stroškov, se bo sklicevala na neobračunano dejansko prodajo.) Sistemi za integracijo glavne knjige lahko to storniranje uporabijo za storno projektnega dela v teku (WIP) za računovodske namene.
 

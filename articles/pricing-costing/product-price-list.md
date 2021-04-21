@@ -3,7 +3,7 @@ title: Ceniki za izdelke
 description: Ta tema vsebuje informacije o cenikih pri določanju cen v katalogu, ki se uporabljajo za ponudbe in pogodbe za projekte.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -14,23 +14,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275378"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877510"
 ---
 # <a name="product-price-lists"></a>Ceniki za izdelke
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Entitete cenikov in elementov cenika podpirajo cene kataloga izdelkov. Večinoma se ta funkcija uporablja za vrstice, ki temeljijo na katalogu, v projektnih ponudbah in projektnih pogodbah.
-
-Pri vrsticah, ki temeljijo na projektu, pogodba predstavlja sklenjeni posel. Ker postopek pogajanj običajno poteka pred sklenitvijo, se cena, ki je priložena ponudbi, v nov cenik vedno kopira takšna kot je in se priloži pogodbi. Tega novega cenika ni mogoče spremeniti izven okvira pogodbe. Ta omejitev pomaga zaščititi kartico s ceno, ki je bila izpogajana, pred spremembami cene v glavnem ceniku.
+ V aplikaciji Project Operations **ceniki izdelkov** in s tem povezane entitete elementa cenika podpirajo funkcionalnost določanja cen izdelkov na podlagi ponudb in pogodbenih postavk izdelka. Za izdelke, ki se uporabljajo na projektih, se uporabljajo zapisi elementa cenika za cenike projekta. 
 
 Izdelke morate nastaviti tako, da imajo v katalogu izdelkov privzete stroške in cenike. Če želite konfigurirati privzete stroške in cenike, uporabite cenik, standardne stroške in trenutne stroške. Privzeti ceniki se v vrstici ponudbe ali v vrstici projektne pogodbe uporabljajo le, če sistem ne najde vrstice cenika za izdelek na ceniku izdelkov za ponudbo ali projektno pogodbo.
 
@@ -40,9 +38,7 @@ Lastno ceno v vrsticah kataloga izdelkov lahko spremenite v različnih ponudbah.
 
 Izdelke iz kataloga izdelkov lahko dodajate različnim cenikom. Vrstice cenika za izdelke se vedno sklicujejo na določeno enoto. Ceno za izdelek v elementih cenika lahko konfigurirate kot znesek valute. Lahko pa jo konfigurirate kot funkcijo cenika, trenutnih stroškov ali standardnih stroškov.
 
-PSA podpira različne načine zaokroževanja, ko so cene konfigurirane kot funkcija cenika, standardnih stroškov ali trenutnih stroškov. Izkoristite lahko več načinov oblikovanja cen in zaokroževanja ter tudi povežete sezname popustov z elementi cenika. 
-
-Ko ustvarite nov cenik po meri za ponudbo tako, da izberete možnost **Ustvarjanje cen po meri** na strani **Projektna ponudba**, se ustvari kopija cenika in polje **Entiteta** v glavi novega cenika je nastavljeno na **Entiteta za prodajo**. Ime novega cenika je priloženo z imenom ponudbe in časovnim žigom. Ime novega cenika in ime ponudbe v potekih dela po meri lahko uporabite tudi za to, da sprožite dodaten pregled in odobritve za ponudbe, ki uporabljajo cene po meri.
+Funkcionalnost določanja cen podpira različne načine zaokroževanja, ko so cene izdelka konfigurirane kot funkcija cenika, standardnih stroškov ali trenutnih stroškov. Izkoristite lahko več načinov oblikovanja cen in zaokroževanja ter tudi povežete sezname popustov z elementi cenika. 
 
  
 ## <a name="default-product-price-list"></a>Privzeti cenik izdelkov
@@ -57,7 +53,7 @@ Entitete »Priložnost«, »Ponudba« in »Projektna pogodba« uporabljajo spodn
 
 Polje **Izdelek** v vrstici ponudbe privzeto navaja vse dejavne izdelke v ceniku izdelkov za ponudbo. Če je bil izdelek dezaktiviran ali če gre za osnutek izdelka, ga ni na seznamu, tudi če je na ceniku. 
 
-Vrstice kataloga izdelkov se dodajo kot vrstice računa na prvem računu, ki je ustvarjen za projektno pogodbo. Na osnutku računa lahko izbrišete te vrstice računa. V tem primeru se vrstice prikažejo na naslednjem računu, dokler ni fakturiran oz. dokler se ne pošlje stranki. Ne morete fakturirati delne količine vrstice računa izdelka. Ko so vrstice izdelka iz projektne pogodbe fakturirane, se ustvarijo dejanske vrednosti. Vendar pa te dejanske vrednosti niso povezane s povezano entiteto projekta. Z drugimi besedami, vrstice projektne pogodbe, ki temeljijo na izdelku, so neodvisne od uporabe, ki temelji na projektu. Porabi materiala v projektih se ne sledi.
+Vrstice kataloga izdelkov se dodajo kot vrstice računa na prvem računu, ki je ustvarjen za projektno pogodbo. Na osnutku računa lahko izbrišete te vrstice računa. V tem primeru se vrstice prikažejo na naslednjem računu, dokler ni fakturiran oz. dokler se ne pošlje stranki. Ne morete fakturirati delne količine vrstice računa izdelka. Ko so vrstice izdelka iz projektne pogodbe fakturirane, se ustvarijo dejanske vrednosti. Vendar pa te dejanske vrednosti niso povezane s povezano entiteto projekta. Z drugimi besedami, vrstice projektne pogodbe, ki temeljijo na izdelku, so neodvisne od uporabe, ki temelji na projektu. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

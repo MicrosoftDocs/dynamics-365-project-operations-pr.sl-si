@@ -1,39 +1,102 @@
 ---
-title: Potrditev predračuna
-description: Ta tema vsebuje informacije o potrditvi predračuna.
+title: Potrditev predračuna, ki temelji na projektu
+description: Ta tema vsebuje informacije o potrditvi predračuna, ki temelji na projektu.
 author: rumant
 manager: AnnBe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b2ed241509d2643d841ce55777e6e316612f70b8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 53c647dca506822312053fb5c9b086a2947974c2
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287888"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867151"
 ---
-# <a name="confirm-a-proforma-invoice"></a>Potrditev predračuna
+# <a name="confirm-a-proforma-project-based-invoice"></a>Potrditev predračuna, ki temelji na projektu
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-Po potrditvi predračuna se stanje računa projekta posodobi na **Potrjeno**. Ko je račun potrjen, postane na voljo samo za branje. V prihodnje je račun lahko popravljen le, če popravke ali dobropis zahteva stranka oz. če je račun označen kot plačan.
+Po potrditvi predračuna se stanje računa projekta posodobi na **Potrjeno**. Ko je račun potrjen, postane na voljo samo za branje. V prihodnje je račun mogoče popraviti le, če obstajajo popravki ali dobroimetja, ki jih sproži stranka.
 
 V spodnji tabeli so navedeni dejanski podatki, ki jih je ustvaril sistem. Ti dejanski podatki so ustvarjeni, ko se pred potrditvijo osnutka računa za projekt izvedejo določene operacije.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="416" valign="top">
+            <td width="216" valign="top">
                 <p>
                     <strong>Scenarij</strong>
                 </p>
             </td>
-            <td width="608" valign="top">
+            <td width="808" valign="top">
                 <p>
                     <strong>Dejanski podatki, ustvarjeni ob potrditvi</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Račun za predujem ali honorar </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Dejanska vrednost obračunane prodaje vrste <strong>Honorar</strong> je ustvarjena za znesek predplačila ali honorarja.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Za usklajevanje se uporabi dejanska neobračunana prodaja z negativnim zneskom honorarja ali predujma.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Po popolni uskladitvi honorarja ali predplačila na računu
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje neobračunanega honorarja ali predplačila, ki je bil ustvarjen za uskladitev Ta znesek je pozitiven, saj naj bi odpravil negativno vrednost, ki je nastala ob izdaji računa za honorar ali predplačilo.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Dejanska vrednost obračunane prodaje za znesek na tem računu
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Po delni uskladitvi honorarja ali predplačila na računu
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje neobračunanega honorarja ali predplačila, ki je bil ustvarjen za uskladitev Ta znesek je pozitiven, saj naj bi odpravil negativno vrednost, ki je nastala ob izdaji računa za honorar ali predplačilo.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Dejanska vrednost obračunane prodaje za znesek na tem računu
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Neobračunana negativna dejanska vrednost prodaje preostanka zneska honorarja ali predplačila, ki se uporabi za usklajevanje prihodnjih računov.
                 </p>
             </td>
         </tr>
@@ -71,14 +134,14 @@ Storniranje neobračunane prodaje za ure in znesek ob prvotni odobritvi časa.
         <tr>
             <td width="408" valign="top">
                 <p>
-Nova dejanska vrednost neobračunane prodaje, ki se zaračuna za ure in znesek na urejeni podrobnosti vrstice računa, storniranje neobračunane dejanske vrednosti prodaje in enakovredna obračunana dejanska vrednost prodaje
+Nova dejanska vrednost neobračunane prodaje, ki se zaračuna za ure in znesek na urejeni podrobnosti vrstice računa, storniranje dejanske vrednosti prodaje in enakovredna obračunana dejanska vrednost prodaje
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Nova dejanska vrednost neobračunane prodaje, ki po odštetju popravljenih vrednosti ni zaračunljiva za preostanek ur in zneska na urejeni podrobnosti vrstice računa, storniranje neobračunane dejanske vrednosti prodaje in enakovredna obračunana dejanska vrednost prodaje.
+Nova dejanska neobračunana prodaja, ki se ne zaračuna za preostanek ur in zneska po odštetju popravljenih številk za podrobnosti urejene vrstice računa, razveljavitev dejanske prodaje in enakovredna dejanska obračunana prodaja.
                 </p>
             </td>
         </tr>
@@ -135,7 +198,7 @@ Storniranje neobračunane prodaje za količino in znesek ob prvotni odobritvi st
         <tr>
             <td width="408" valign="top">
                 <p>
-Nova dejanska vrednost neplačane prodaje, ki se zaračuna za količino in znesek na urejeni podrobnosti vrstice računa, storniranje neobračunane dejanske vrednosti prodaje in enakovredna obračunana dejanska vrednost prodaje 
+Nova dejanska vrednost neplačane prodaje, ki se zaračuna za količino in znesek na urejeni podrobnosti vrstice računa, storniranje neobračunane dejanske vrednosti prodaje in enakovredna obračunana dejanska vrednost prodaje
                 </p>
             </td>
         </tr>
@@ -155,6 +218,70 @@ Izdajanje računov za transakcijo stroška, ki je bila urejena za povečanje kol
             <td width="408" valign="top">
                 <p>
 Storniranje neobračunane prodaje za količino in znesek ob prvotni odobritvi stroškov
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nova dejanska vrednost neplačane prodaje, ki se zaračuna za količino in znesek na urejeni podrobnosti vrstice računa, storniranje neobračunane dejanske vrednosti prodaje in enakovredna obračunana dejanska vrednost prodaje 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Izdajanje računov za materialno transakcijo brez sprememb na osnutku računa.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje neobračunane prodaje za količino in znesek na prvotni odobritvi uporabe materiala.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Obračunana dejanska prodajna vrednost za količino in znesek na prvotni odobritvi uporabe materiala.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Izdajanje računov za materialno transakcijo, ki je bila urejena za zmanjšanje količine.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje neobračunane prodaje za količino in znesek na prvotni odobritvi časa.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nova dejanska vrednost neplačane prodaje, ki se zaračuna za količino in znesek na urejeni podrobnosti vrstice računa, storniranje neobračunane dejanske vrednosti prodaje in enakovredna obračunana dejanska vrednost prodaje
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nova dejanska vrednost neobračunane prodaje, ki po odštetju popravljenih vrednosti ni zaračunljiva za preostanek količine in zneska na urejeni podrobnosti vrstice računa, storniranje neobračunane dejanske vrednosti prodaje in enakovredna obračunana dejanska vrednost prodaje
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Izdajanje računov za materialno transakcijo, ki je bila urejena za povečanje količine.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje neobračunane prodaje za količino in znesek na prvotni odobritvi uporabe materiala.
                 </p>
             </td>
         </tr>
@@ -196,8 +323,8 @@ Obračunana dejanska vrednost prodaje za znesek mejnika iz prvotnega mejnika v p
                 </p>
             </td>
         </tr>
+       
     </tbody>
 </table>
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

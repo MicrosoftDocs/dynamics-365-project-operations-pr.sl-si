@@ -1,28 +1,24 @@
 ---
-title: Ocena stroškov
+title: Finančne ocene za stroške v projektih
 description: Ta tema vsebuje informacije o določanju ali oceni stroškov za posamezen projekt.
-author: ruhercul
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287078"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701802"
 ---
-# <a name="expense-estimates"></a>Ocena stroškov
+# <a name="financial-estimates-for-expenses-on-projects"></a>Finančne ocene za stroške v projektih
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Poleg opredelitve ocen, ki temeljijo na virih, aplikacija Dynamics 365 Project Operations projektnim vodjem omogoča, da za vsak projekt opredelijo stroške, ki temeljijo na projektu. Vsako postavko stroškov je mogoče povezati z določeno projektno nalogo ali kategorijo stroškov. Kategorije stroškov so običajno opredeljene na organizacijski ravni. Cene za vsako posamezno kategorijo stroškov so običajno opredeljene v naslednji hierarhiji:
-
-- Organizacija
-- Stranki
-- Ponudba/pogodba
+Dynamics 365 Project Operations omogoča projektnim vodjem, da za vsak projekt ali opravilo določijo stroške, ki temelji na projektu. Vsak element stroška je lahko povezan z določenim projektnim opravilom. Stroški so razvrščeni v različne kategorije stroškov, ki so opredeljene na organizacijski ravni. V ceniku je opredeljeno določanje cen in izračun stroškov za vsako kategorijo stroškov. 
 
 Za ogled, dodajanje ali brisanje stroškov projekta izvedite naslednje korake.
 
@@ -30,14 +26,20 @@ Za ogled, dodajanje ali brisanje stroškov projekta izvedite naslednje korake.
 2. Na zavihku **Ocene projekta** si oglejte seznam stroškov projekta.
 3. Izberite možnost **Novi stroški**, da dodate strošek. Ali pa izberite strošek, ki ga želite izbrisati, in nato izberite možnost **Izbriši strošek**.
 
-Za vsako postavko stroškov so opredeljeni naslednji atributi:
+Naslednja tabela vsebuje informacije o poljih za projekt na strani **Vrstica ocene stroškov**. 
 
-- **Kategorija**: običajne združitve, uporabljene za opis vseh stroškov, nastalih pri projektu.
-- **Začetni datum**: predvideni datum nastanka stroškov
-- **Količina**: ocenjeno število postavk odhodkov za posamezno kategorijo
-- **Cena na enoto stroška** : cena na enoto, uporabljena za izračun izdatkov za strošek
-- **Cena na enoto prodaje** : cena na enoto, uporabljena za izračun prodajne cene za strošek
-
+| **Polje** | **Opis** | **Nadaljnji vpliv** |
+| --- | --- | --- |
+| Opravilo | Seznam vseh opravil v projektu. To vključuje opravila povzetka in listnega vozlišča. | Izbira opravila za vrstico ocene stroškov bo vplivala na ocenjene stroške in ocenjene stroške prodaje za opravilo. Če je to polje prazno, se ocena stroškov spremlja in povzema samo na ravni projekta. |
+| Kategoriji | Seznam kategorij transakcij, ki so v aplikaciji povezale kategorije stroškov. | Izbira kategorije spodbuja določanje cen in izračun stroškov v vrstici ocene stroškov. |
+| Datum začetka | Predviden datum nastanka stroškov. | To polje nima nadaljnjega vpliva. |
+| Skupina enot | Privzeta vrednost v tem polju prihaja iz skupine enot, ki je za izbrano kategorijo nastavljena kot privzeta. Če želite izbrati drugo skupino enot, lahko to polje posodobite. | To polje nima nadaljnjega vpliva. |
+| Enota | Privzeta vrednost v tem polju je privzeta enota izbrane kategorije. Če želite izbrati drugo enoto, lahko to polje posodobite. | Sprememba enote povzroči drugačno privzeto ceno in stroške enote. |
+| Količina | Količina predvidenih stroškov. | To polje nima nadaljnjega vpliva. |
+| Strošek na enoto | Cena za izbrano kategorijo in kombinacijo enot, kot je določena v veljavnem ceniku z lastnimi cenami | Cena na enoto je vedno prikazana v valuti cene projekta. |
+| Cena enote | Cena za izbrano kategorijo in kombinacijo enot, kot je določena v veljavnem prodajnem ceniku. | Cena na enoto je vedno prikazana v valuti prodaje projekta. |
+| Skupna cena | Cena, ki se izračuna kot količina \* cena na enoto.| Cena je vedno prikazana v valuti cene projekta. |
+| Skupna prodaja | Znesek prodaje, ki se izračuna kot količina \* cena na enoto. | Znesek prodaje je vedno prikazan v valuti prodaje projekta. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

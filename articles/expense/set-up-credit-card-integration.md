@@ -1,9 +1,9 @@
 ---
 title: Nastavitev integracije kreditne kartice
-description: V tej temi je pojasnjeno, kako uvoziti in vzdrževati transakcije s kreditnimi karticami, povezane s stroški.
+description: Ta tema razlaga, kako delati s transakcijami s kreditnimi karticami, povezanimi s stroški.
 author: suvaidya
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cd60d338e2b2a2d74d4d7f55bb5a1723f10c29ab
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276188"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866703"
 ---
 # <a name="set-up-credit-card-integration"></a>Nastavitev integracije kreditne kartice
 
@@ -30,23 +30,32 @@ Transakcije s kreditnimi karticami, povezane s stroški, lahko nastavite tako, d
 
 ## <a name="import-credit-card-transactions"></a>Uvoz transakcij s kreditnimi karticami
 
+Če želite uvoziti transakcije s kreditno kartico, sledite tem korakom:
+
 1. Na strani **Transakcije s kreditnimi karticami** izberite **Uvoz transakcij**. Če prvič odpirate upravljanje podatkov, mora sistem posodobiti seznam podatkovnih entitet, preden lahko nadaljujete.
-2. V polje **Ime** vnesite enolični opis opravila uvoza.
+2. V polje **Ime** vnesite edinstven opis za uvozno opravilo.
 3. V polju **Izvorna oblika zapisa podatkov** izberite obliko zapisa datoteke, ki vsebuje transakcije s kreditno kartico za uvoz.
 4. Izberite **Naloži**, nato pa poiščite in izberite datoteko za uvoz.
 5. Ko je datoteka naložena, preverite preslikavo datoteke transakcij s kreditnimi karticami in stolpce podatkovne entitete transakcij s kreditnimi karticami, tako da izberete povezavo **Prikaz zemljevida** na ploščici. Če obstajajo napake pri preslikavi ali če morate spremeniti preslikavo, naredite spremembe preslikave bodisi iz zavihka **Upodobitev preslikave** ali zavihka **Podrobnosti preslikave**.
 6. Za avtomatizacijo transakcij s kreditnimi karticami izberite **Ustvari ponavljajoči se podatkovni posel**. Nato lahko nastavite ponavljanje, ki opredeljuje, kako pogosto naj se transakcije s kreditnimi karticami uvozijo. Ko končate, izberite **V redu**.
 7. Če želite izbrano datoteko uvoziti zdaj, izberite **Uvozi**.
-8. Če med uvozom pride do napak, si lahko ogledate dnevnik izvajanja ali podatke o pripravi, da vidite napake, ki jih morate odpraviti, da zagotovite uspešen uvoz.
+8. Če med uvozom pride do napak, si lahko ogledate dnevnik izvajanja ali podatke za pripravljanje, da vidite napake, ki jih morate popraviti, da zagotovite uspešen uvoz.
 
 > [!NOTE]
-> Če morate uvoziti več oblik zapisov datotek, morate za vsako vrsto oblike zapisa ustvariti ločen posel za uvoz.
+> Če morate uvoziti več oblik zapisa datotek, morate za vsako vrsto zapisa ustvariti ločena opravila za uvoz.
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Prerazporeditev transakcij s kreditnimi karticami za zaposlene, katerih zaposlitev se je končala
 
-Ko je zapis zaposlenega ukinjen, je zaposlenčev račun za domenske storitve Active Directory (AD DS) onemogočen. Vendar pa lahko še obstajajo aktivne transakcije s kreditnimi karticami, ki jih je treba predložiti kot stroške in povrniti. Na strani **Transakcije s kreditnimi karticami** lahko prerazporedite zaposlenega za katero koli transakcijo s kreditno kartico, kjer se je zaposlitev povezanega zaposlenega končala.
+Ko je zapis zaposlenega ukinjen, je zaposlenčev račun za domenske storitve Active Directory (AD DS) onemogočen. Vendar pa lahko še obstajajo aktivne transakcije s kreditnimi karticami, ki jih je treba predložiti kot stroške in povrniti. Na strani **Transakcije s kreditnimi karticami** lahko zaposlenemu dodelite katero koli transakcijo s kreditno kartico, pri kateri je bila možnost povezanega zaposlenega prekinjena.
 
 Izberite eno ali več transakcij s kreditnimi karticami in nato izberite **Prerazporeditev transakcij**. Nato lahko izberete drugega zaposlenega, ki mu dodelite transakcije s kreditnimi karticami. Ko so transakcije s kreditnimi karticami prerazporejene, jih lahko izberete za poročilo o stroških in plačate prek običajnega procesa za povračilo po poročilu o stroških.
 
+## <a name="delete-credit-card-transactions"></a>Izbrišite transakcije s kreditnimi karticami 
+
+Včasih je po uvozu transakcij s kreditno kartico morda treba nekatere transakcije izbrisati. To je lahko zato, ker so transakcije podvojene ali ker podatki morda niso točni. Skrbniki lahko uporabljajo funkcijo **»Izbriši transakcije s kreditno kartico«** za izbiro in brisanje transakcij s kreditnimi karticami, ki **niso priložene** poročilu o odhodkih. 
+
+1. Odprite **Redna opravila** > **Izbriši transakcije s kreditnimi karticami**.
+2. Izberite **Filter** in zagotovite informacije za identifikacijo zapisov, ki jih je treba vključiti.
+3. Če želite izbrisati zapise, izberite **V redu**. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Pregled sledenja projektom
-description: Ta tema vsebuje informacije o spremljanju napredku projekta in porabi stroškov.
+title: Sledenje obsegu projektov
+description: Ta tema vsebuje informacije o spremljanju obsega projekta in napredka dela.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286628"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710960"
 ---
-# <a name="project-tracking-overview"></a>Pregled sledenja projektom
+# <a name="project-effort-tracking"></a>Sledenje obsegu projektov
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
@@ -26,50 +26,28 @@ Potreba po spremljanju napredka v primerjavi z razporedom se razlikuje glede na 
 Pogled **Sledenje obsegu dela** sledi napredku pri opravil na razporedu tako, da primerja dejanske ure dela, porabljene za opravilo, z načrtovanimi urami dela. Aplikacija Dynamics 365 Project Operations za izračun metrike sledenja uporablja te formule:
 
 - **Odstotek napredka** = dejanski obseg dela do danes ÷ ocena končnih stroškov (EAC) 
-- **Predvideni obseg dela do zaključka (ETC)** = načrtovani obseg dela – dejanski obseg dela do danes 
+- **Preostali obseg dela** = ocena obsega končnih stroškov – dejanski obseg dela do danes 
 - **Ocena končnih stroškov (EAC)** = preostali obseg dela + dejanski obseg dela do danes 
 - **Predvideni odmik od obsega dela** = načrtovan obseg dela – ocena končnih stroškov
 
 Project Operations prikaže projekcijo odmika od obsega dela v opravilu. Če je ocena končnih stroškov večja od načrtovanega obsega dela, bo opravilo predvidoma trajalo dlje časa, kot je bilo prvotno načrtovano, in zamuja načrtovani rok. Če je ocena končnih stroškov manjša od načrtovanega obsega dela, bo opravilo predvidoma trajalo manj časa, kot je bilo prvotno načrtovano, in bo opravljeno pred predvidenim rokom.
 
-## <a name="reprojecting-effort"></a>Vnovična projekcija obsega dela
+## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Vnovično projiciranje obsega dela za opravila listnega vozlišča
 
-Vodje projektov pogosto popravijo prvotne ocene v opravilu. Vnovične projekcije projekta so dojemanje ocen vodje projekta glede na trenutno stanje projekta. Vendar odsvetujemo, da vodje projektov spreminjajo osnovne številke. Namreč zato, ker osnova projekta predstavlja zanesljiv vir ocene razporeda in stroškov za projekt, s katerim so se strinjale vse zainteresirane skupine, ki sodelujejo v projektu.
+Vodje projektov pogosto popravijo prvotne ocene v opravilu. Vnovične projekcije projekta so dojemanje ocen vodje projekta glede na trenutno stanje projekta. Vendar svetujemo, da vodje projektov ne spreminjajo načrtovanih številk obsega dela. To je zato, ker projektno načrtovani obseg dela predstavlja uveljavljeni vir zanesljivih podatkov za načrt projekta in oceno stroškov ter so se s tem strinjale vse zainteresirane skupine.
 
-Projektni vodja lahko znova projicira obseg dela v opravilih na dva načina:
-
-- Preglasi lahko privzeti ETC z novo oceno dejanskega preostalega obsega dela v opravilu. 
-- Preglasi lahko privzeti odstotek napredka z novo oceno dejanskega napredka v opravilu.
-
-Vsak pristop povzroči ponoven izračun ETC, EAC in odstotka napredka ter predvidenega odmika od obsega dela v opravilu. Ponovno se izračunajo tudi EAC, ETC in odstotek napredka v opravilih povzetkov, kar ustvari novo projekcijo odmika od obsega dela.
+Vodja projekta lahko obseg dela vnovično projicira za opravila tako, da posodobi privzet **preostali obseg dela** z novo oceno opravila. Ta posodobitev povzroči ponoven izračun ocene končnih stroškov (EAC), odstotka napredka in predvidenega odmika od obsega dela v opravilu. Ponovno se izračunajo tudi EAC, ETC in odstotek napredka v opravilih povzetkov, kar ustvari novo projekcijo odmika od obsega dela.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Vnovična projekcija obsega dela v opravilih povzetka
 
-Obseg dela v opravilih povzetka ali vsebnika je mogoče znova projicirati. Ne glede na to, ali uporabnik za ponovno projiciranje v opravilih povzetka uporabi preostali obseg dela ali odstotek napredka, se začne naslednji niz izračunov:
+Obseg dela v opravilih povzetka ali vsebnika je mogoče znova projicirati. Vodje projektov lahko posodobijo preostali obseg dela za povzetke opravil. Posodobitev preostalega obsega dela v aplikaciji sproži naslednji niz izračunov:
 
-- Izračunajo se EAC, ETC in odstotek napredka v opravilu.
+- Izračunata se ocena končnih stroškov in odstotek napredka v opravilu.
 - Novi EAC se porazdeli na podrejena opravila v enakem razmerju kot pri prvotnem EAC v opravilu.
 - Izračuna se nova ocena končnih stroškov za vsako posamezno opravilo do opravil v listnem vozlišču. 
-- Prizadeta podrejena opravila do listnih vozlišč imajo svoj ETC in odstotek napredka, ki je znova izračunan na podlagi vrednosti EAC. Zato pride do nove projekcije odmika od obsega dela za opravilo. 
+- Prizadeta podrejena opravila do listnih vozlišč imajo svoj preostali obseg dela in odstotek napredka, ki je znova izračunan na podlagi vrednosti ocene končnih stroškov. Zato pride do nove projekcije odmika od obsega dela za opravilo. 
 - Znova se izračunajo vrednosti EAC opravil povzetka vse do korenskega vozlišča.
 
-### <a name="cost-tracking-view"></a>Pogled za sledenje stroškom 
-
-Pogled **Sledenje stroškom** primerja dejanske stroške, ki so bili porabljeni v opravilu, z načrtovanimi stroški opravila. 
-
-> [!NOTE]
-> Ta pogled prikazuje samo stroške dela in ne vključuje ocen stroškov. Project Operations za izračun metrike sledenja uporablja te formule:
-
-- **Odstotek porabljenih stroškov** = dejanski stroški, porabljeni do danes ÷ ocena končnih stroškov
-- **Stroški do zaključka (CTC)** = načrtovani stroški – dejanski stroški, porabljeni do danes
-- **Ocena končnih stroškov (EAC)** = preostali stroški + dejanski stroški, porabljeni do danes
-- **Predvideni odmik od stroškov** = načrtovani stroški – ocena končnih stroškov
-
-Projekcija odmika od stroškov je prikazana v opravilu. Če je ocena končnih stroškov večja od načrtovanih stroškov, bo opravilo predvidoma stalo več, kot je bilo prvotno načrtovano. Torej presega proračun. Če je ocena končnih stroškov manjša od načrtovanih stroškov, bo opravilo predvidoma stalo manj, kot je bilo prvotno načrtovano. Torej ni preseglo proračuna.
-
-## <a name="project-managers-reprojection-of-cost"></a>Ponovna projekcija stroškov vodje projekta
-
-Pri ponovni projekciji obsega dela so v pogledu **Sledenje stroškom** znova izračunani CTC, ocena končnih stroškov, odstotek porabljenih stroškov in predvideni odmik od stroškov.
 
 ## <a name="project-status-summary"></a>Povzetek stanja projekta
 

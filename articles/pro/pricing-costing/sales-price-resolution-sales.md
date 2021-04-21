@@ -1,21 +1,21 @@
 ---
-title: Razreševanje prodajne cene za ocene in dejanske vrednosti – poenostavljeno
-description: Ta tema vsebuje informacije o razreševanju prodajnih cen ocen in dejanskih vrednosti.
+title: Razreševanje prodajnih cen za ocene in dejanske vrednosti projektov
+description: Ta tema vsebuje informacije o tem, kako se rešujejo prodajne cene v ocenah projektov in dejanskih vrednostih.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274523"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877376"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Razreševanje prodajne cene za ocene in dejanske vrednosti – poenostavljeno
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Razreševanje prodajnih cen za ocene in dejanske vrednosti projektov
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -55,5 +55,14 @@ Ko je prodajni cenik razrešen, sistem izvede naslednje korake za nastavitev pri
 
 4. Če se sistem ne more ujemati z vrednostmi polj **Kategorija** in **Enota**, se prodajni znesek privzeto nastavi na nič (0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Reševanje mer prodaje na dejanskih vrsticah in vrsticah ocen za material
+
+V storitvi Project Operations se vrstice ocene za material se nanašajo na vrstico ponudbe in podrobnosti pogodbe za materiale in podrobnosti ocene materiala za projekt.
+
+Ko je prodajni cenik razrešen, sistem izvede naslednje korake za nastavitev privzete prodajne cene enote.
+
+1. Sistem uporablja kombinacijo polj **Izdelek** in **Enota** na vrstici ocene za material, ki se ujema s vrstico elementa cenika v razrešenem ceniku.
+2. Če sistem najde vrstico elementa cenika, ki ima stopnjo prodaje za kombinacijo polj **Izdelek** in **Enota** in metodo za določanje cen **Valutni znesek**, se uporablja prodajna cena, navedena v vrstici cenika.
+3. Če se vrednosti polj **Izdelek** in **Enota** ne ujemata, je stopnja prodaje privzeto ničelni.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

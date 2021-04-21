@@ -3,17 +3,17 @@ title: Nastavitev mer stroškov in prodajnih zneskov za stroške
 description: Ta tema vsebuje informacije o nastavitvi mer stroškov in prodajnih zneskov za transakcije in kategorije stroškov.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274928"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877240"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Nastavitev mer stroškov in prodajnih zneskov za stroške
 
@@ -23,9 +23,10 @@ V aplikaciji Dynamics 365 Project Operations lahko nastavite stroške in prodajn
 
 Če želite nastaviti mere stroškov in prodajne zneske za kategorije transakcij, upoštevajte naslednje korake. 
 
-1. Ustvarite cenik na podlagi glave cenika. 
-2. V meniju podmreže **Cene kategorije** izberite možnost **+ Nova cena kategorije**. 
-3. Na strani **Hitro ustvarjanje** vnesite kategorijo transakcije in enoto, za katero ustvarjate novo ceno.
+1. Odprite **Prodaja** > **Stranke** > **Ceniki**.
+2. Če želite ustvariti nov cenik, izberite **Novo**. 
+3. V meniju podmreže **Cene kategorije** izberite možnost **Nova cena kategorije**. 
+4. Na strani **Hitro ustvarjanje** vnesite kategorijo transakcije in enoto, za katero ustvarjate novo ceno.
 
 V spodnji tabeli so navedena polja, ki so na zavihku **Splošno** in na strani **Hitro ustvarjanje** vrstice s cenami kategorij, ki jo morate upoštevati pri ustvarjanju cen kategorij v prodajnem ceniku ali ceniku z lastnimi cenami.
 

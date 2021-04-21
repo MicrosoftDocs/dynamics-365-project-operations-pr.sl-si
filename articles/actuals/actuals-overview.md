@@ -3,7 +3,7 @@ title: Dejanske vrednosti
 description: Ta tema vsebuje informacije o delu z dejanskimi vrednostmi v aplikaciji Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291819"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852564"
 ---
 # <a name="actuals"></a>Dejanske vrednosti 
 
-_**Velja za:** za scenarije v storitvi Project Operations, ki temeljijo na virih/brez zaloge_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Dejanski podatki se nanašajo na količino dela, ki je bilo opravljeno za projekt. Ustvarjeni so kot rezultat vnosov časa in stroškov ter dnevniških vnosov in računov.
+Dejanske vrednosti predstavljajo pregledane in odobrene finančne in časovne napredke projekta. Ustvarijo se kot rezultat odobritve časa, stroškov, vnosov porabe materiala ter vknjižb in računov.
 
 ## <a name="journal-lines-and-time-submission"></a>Vrstice dnevnikov in vnos časa
 
@@ -45,7 +45,7 @@ Ko je poslan časovni vnos za projekt, ki je preslikan v podrobnosti pogodbe za 
 
 Logika za oblikovanje privzetih cen se nahaja v vrstici dnevnika. Vrednosti polj iz časovnega vnosa se kopirajo v vrstico dnevnika. Te vrednosti vključujejo datum transakcije, podrobnosti pogodbe, v katero je projekt preslikan, in rezultat valute v skladu z ustreznim cenikom.
 
-Polja, ki vplivajo na privzete cene, kot sta **Vloga** in **Organizacijska enota**, se uporabljajo za določanje ustrezne cene v vrstici dnevnika. Časovnemu vnosu lahko dodate polje po meri. Če za časovni vnos dodate polje po meri in želite, da se vrednost polja razširi na dejanske vrednosti, ustvarite polje v entiteti »Dejanske vrednosti« in za kopiranje polja iz časovnega vnosa v dejanske vrednosti uporabite preslikave polj.
+Polja, ki vplivajo na privzete cene, kot sta **Vloga** in **Enota vira**, se uporabljajo za določanje ustrezne cene v vrstici dnevnika. Časovnemu vnosu lahko dodate polje po meri. Če želite, da se vrednost polja razširi na dejanske vrednosti, ustvarite polje v tabelah **Dejanske vrednosti** in **Vrstica dnevnika**. Uporabite kodo po meri, da z izvori transakcij prek vrstice dnevnika razširite izbrane vrednosti polja iz časovnega vnosa v dejanske podatke. Za več informacij o izvoru in povezavah transakcij in glejte stran [Povezava dejanskih podatkov z izvirnimi zapisi](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Oddaja vrstic dnevnika in osnovnih stroškov
 
@@ -57,24 +57,42 @@ Ko je vnos osnovnega stiška, povezan s projektom, ki je preslikan v podrobnosti
 
 ### <a name="fixed-price"></a>Fiksna cena
 
-Ko je poslan osnovni strošek za projekt, ki je preslikan v podrobnosti pogodbe za fiksno ceno, se v sistemu ustvari samo vrstica dnevnika za ceno.
+Ko je poslan vnos osnovnega stroška povezan s projektom, ki je preslikan v podrobnosti pogodbe za fiksno ceno, sistem ustvari eno vrstico dnevnika za ceno.
 
 ### <a name="default-pricing"></a>Privzete cene
 
-Logika vnosa privzetih cen za stroške temelji na kategoriji stroškov. Datum transakcije, podrobnosti pogodbe, v katero je projekt preslikan, in valuta se uporabijo za ugotavljanje ustreznega cenika. Vendar pa je za ceno znesek, ki ga je uporabnik vnesel, privzeto nastavljen neposredno v povezani vrstici dnevnika stroškov za strošek in prodajo.
+Logika vnosa privzetih cen za stroške temelji na kategoriji stroškov. Datum transakcije, podrobnosti pogodbe, v katero je projekt preslikan, in valuta se uporabijo za ugotavljanje ustreznega cenika. Polja, ki vplivajo na privzete cene, kot sta **Kategorija transakcija** in **Enota vira**, se uporabljajo za določanje ustrezne cene v vrstici dnevnika. Vendar to deluje le, če je v ceniku navedena metoda določanja cen **cena na enoto**. Če je metoda določanja cen **nabavna cena** ali **pribitek na ceno**, se za stroške uporabi cena, vnesena ob ustvarjanju vnosa stroškov, cena v vrstici dnevnika prodaje pa se izračuna na podlagi metode določanja cen. 
 
-Vnos privzetih cen na enoto na podlagi kategorije za vnose stroška ni na voljo.
+Vnosu stroškov lahko dodate polje po meri. Če želite, da se vrednost polja razširi na dejanske vrednosti, ustvarite polje v tabelah **Dejanske vrednosti** in **Vrstica dnevnika**. Uporabite kodo po meri, da z izvori transakcij prek vrstice dnevnika razširite izbrane vrednosti polja iz časovnega vnosa v dejanske podatke. Za več informacij o izvoru in povezavah transakcij in glejte stran [Povezava dejanskih podatkov z izvirnimi zapisi](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Vrstice dnevnika in oddaja dnevnika uporabe materiala
+
+Za več informacij o vnosu stroškov glejte stran [Dnevnik uporabe materiala](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Čas in materiali
+
+Ko je poslan vnos v dnevnik uporabe materiala povezan s projektom, ki je preslikan v podrobnosti pogodbe za čas in materiale, sistem ustvari dve vrstici dnevnika, eno za stroške in drugo za neobračunano prodajo.
+
+### <a name="fixed-price"></a>Fiksna cena
+
+Ko je poslan vnos v dnevnik uporabe materiala povezan s projektom, ki je preslikan v podrobnosti pogodbe za fiksno ceno, sistem ustvari eno vrstico dnevnika za ceno.
+
+### <a name="default-pricing"></a>Privzete cene
+
+Logika za vnos privzetih cen materiala temelji na kombinaciji izdelka in enote. Datum transakcije, podrobnosti pogodbe, v katero je projekt preslikan, in valuta se uporabijo za ugotavljanje ustreznega cenika. Polja, ki vplivajo na privzete cene, kot sta **ID izdelka** in **Enota vira**, se uporabljajo za določanje ustrezne cene v vrstici dnevnika. Vendar to deluje samo za izdelke iz kataloga. Za izdelke, ki niso v katalogu, se za stroške in prodajno ceno v vrsticah dnevnika uporablja cena, vnesena ob ustvarjanju vnosa v dnevnik uporabe materiala. 
+
+Vnosu v **dnevnik uporabe materiala** lahko dodate polje po meri. Če želite, da se vrednost polja razširi na dejanske vrednosti, ustvarite polje v tabelah **Dejanske vrednosti** in **Vrstica dnevnika**. Uporabite kodo po meri, da z izvori transakcij prek vrstice dnevnika razširite izbrane vrednosti polja iz časovnega vnosa v dejanske podatke. Za več informacij o izvoru in povezavah transakcij in glejte stran [Povezava dejanskih podatkov z izvirnimi zapisi](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Uporaba dnevnikov vnosov za zapisovanje stroškov
 
 V dnevnike lahko beležite stroške ali prihodke v razredih transakcij za material, dajatve, čas, stroške ali davke. Dnevniki se lahko uporabljajo v naslednje namene:
 
-- Beleženje dejanskih stroškov materiala in prodaje za posamezen projekt.
 - Dejanske podatke o transakciji prenesite iz drugega sistema v aplikacijo Microsoft Dynamics 365 Project Operations.
 - Beleženje stroškov, ki so nastali v drugem sistemu. Ti stroški lahko vključujejo stroške naročanja ali podizvajanja.
 
 > [!IMPORTANT]
 > Aplikacija ne preveri veljavnosti vrste vrstice dnevnika ali povezanih cen, ki so vnesene v vrstico dnevnika. Zato mora dnevnike vnosov za ustvarjanje dejanskih vrednosti uporabljati oseba, ki se popolnoma zaveda računovodskega vpliva dejanskih vrednosti na projekt. Zaradi vpliva te vrste dnevnika morate skrbno izbrati, kdo ima dostop do ustvarjanja dnevnikov vnosov.
+
 ## <a name="record-actuals-based-on-project-events"></a>Zapisovanje dejanskih vrednosti na podlagi projektnih dogodkov
 
 Aplikacija Project Operations beleži finančne transakcije, do katerih pride med projektom. Te transakcije se zapišejo kot dejanske vrednosti. V spodnjih tabelah so prikazane različne vrste dejanskih vrednosti, ki so ustvarjene, glede na to, ali gre za časovne in materialne transakcije ali transakcije s fiksno ceno ali gre za stopnjo pred prodajo oziroma interni projekt.

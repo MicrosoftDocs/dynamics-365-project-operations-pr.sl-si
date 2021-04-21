@@ -1,22 +1,22 @@
 ---
-title: Razreševanje lastnih cen pri ocenah in dejanskih vrednostih – poenostavljena različica
-description: Ta tema vsebuje informacije o tem, kako razrešiti lastne cene za ocene in dejanske vrednosti.
+title: Razreševanje lastnih cen za ocene in dejanske vrednosti projektov
+description: Ta tema vsebuje informacije o tem, kako se rešujejo lastne cene v ocenah projektov in dejanskih vrednostih.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274569"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877285"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Razreševanje lastnih cen pri ocenah in dejanskih vrednostih – poenostavljena različica
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Razreševanje lastnih cen za ocene in dejanske vrednosti projektov 
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -36,6 +36,12 @@ Ko je cenik z lastnimi cenami razrešen, se polji **Vloga** in **Enota vira** v 
 Ocena vrstic za strošek se nanaša na ponudbo in podrobnosti pogodbe za stroške ter na vrstice ocen stroškov za projekt.
 
 Ko je cenik z lastnimi cenami razrešen, sistem uporabi kombinacijo polj **Kategorija** in **Enota** polja v vrstici ocene stroškov, da se ujemajo z vrsticami **Cena kategorije** na razrešenem ceniku. Če sistem poišče vrstico s cenami kategorij, ki ima mero stroškov za kombinacijo polj **Kategorija** in **Enota**, potem je to privzeta mera stroškov. Če se vrednosti **Kategorija** in **Enota** v sistemu ne ujemata ali če sistem najde ujemajočo se vrstico cene kategorije, vendar metoda določanja cen ni **Cena na enoto**, se mera stroškov ponastavi na nič (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Reševanje mer stroškov na dejanskih vrsticah in vrsticah ocen za material
+
+Vrstice ocene za material se nanašajo na podrobnosti ponudbe in pogodbe za materiale in podrobnosti ocene materiala za projekt.
+
+Ko je cenik z lastnimi cenami razrešen, sistem na vrstici ocene uporabi kombinacijo polj **Izdelek** in **Enota**, da se ocena materiala ujema z vrsticami **Elementi cenika** na razrešenem ceniku. Če sistem najde ceno izdelka, ki ima mero stroškov za kombinacijo polj **Izdelek** in **Enota**, se uporabi privzeta mera stroškov. Privzeti stroški na enoto so nič, če sistem ne more ujemati vrednosti **izdelka** in **enota** ali če najde ujemajočo se vrstico elementa cenika, vendar metoda določanja cen temelji na standardnih stroških ali tekočih stroških in na izdelku ni določena nobena cena.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

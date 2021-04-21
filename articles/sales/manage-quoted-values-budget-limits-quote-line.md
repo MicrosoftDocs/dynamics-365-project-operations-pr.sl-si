@@ -1,6 +1,6 @@
 ---
-title: Pregled podrobnosti ponudb, ki temeljijo na projektih
-description: Ta tema vsebuje informacije o uporabi podrobnosti ponudb, ki temeljijo na projektih, za projektno delo.
+title: Pregled podrobnosti projektne ponudbe
+description: Ta tema vsebuje informacije o uporabi podrobnosti projektne ponudbe za projektno delo.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e61a9fbf357123884397b930662d11f22bfdeaa0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa48a90c275eae1b0c0dbce685ae718dd9674c88
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277808"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858052"
 ---
-# <a name="project-based-quote-lines-overview"></a>Pregled podrobnosti ponudb, ki temeljijo na projektih
+# <a name="project-quote-lines-overview"></a>Pregled podrobnosti projektne ponudbe
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 

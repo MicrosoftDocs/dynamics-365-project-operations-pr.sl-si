@@ -3,17 +3,17 @@ title: Konfiguracija vodenja računov za plačljive projekte
 description: Ta tema vsebuje informacije o računovodskih možnostih za plačljive projekte.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287663"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858673"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfiguracija vodenja računov za plačljive projekte
 
@@ -58,13 +58,25 @@ Dokončajte naslednje korake, da ustvarite nov profil stroškov in prihodkov pro
 
          - **Saldo**: pri knjiženju dnevnika integracije aplikacije Project Operations je strošek transakcije stroškov bremenjen na vrsto računa glavne knjige *Postavka za nedokončano storitev – vrednost stroška*, kot je določeno na zavihu **Strošek** na strani za **nastavitve knjiženja v glavni knjigi**, in knjižen kot dobropis na protikontu v vrstici dnevnika. Privzeti protikonti za stroške so opredeljeni v razdelku **Vodenje projektov in računovodstvo** > **Nastavitve** \> **Knjiženje** \> **Privzeti protikonto za stroške**. Računovodja uporablja funkcijo **Knjiženje stroškov** za redne premike teh stroškov z bilančnega računa v izkaz poslovnega izida.
         - **Poslovni izid**: pri knjiženju dnevnika integracije aplikacije Project Operations so stroški transakcijskih stroškov bremenjeni na vrsto računa glavne knjige *Strošek*, kot je določeno na zavihku **Strošek** na strani **z nastavitvami knjiženja v glavni knjigi**, in knjiženi na protikonto v vrstici dnevnika. Privzeti protikonti za stroške so opredeljeni v razdelku **Vodenje projektov in računovodstvo** \> **Nastavitve** \> **Knjiženje** \> **Privzeti protikonto za stroške**.
+      
+    - **Stroški objave - izdelek**:
+
+         - **Saldo**: pri objavi dnevnika integracij za aplikacijo Project Operations se stroški transakcije saldo bremenijo račun glavne knjige vrste *PVT – Vrednost stroškov – izdelek*, kot je določeno v zavihku **Stroški** na strani **Nastavitev knjiženja v glavno knjigo** in knjiženo v dobro na:
+    
+              - Za uporabo vrste dokumenta: račun **Stroški – izdelek** na strani **Nastavitev knjiženja v glavno knjigo**.  
+              - Za nakup vrste dokumenta: **Račun za integracijo računov** na strani **Vodenje projektov in računovodski parametri**.
+           Računovodja uporablja funkcijo **Knjiženje stroškov** za redne premike teh stroškov z bilančnega računa v izkaz poslovnega izida.
+        - **Dobiček in izguba**: pri objavi dnevnika integracij za aplikacijo Project Operations se stroški transakcije bremenijo na račun glavne knjige vrste *Stroški*, kot je določeno v zavihku **Stroški** na strani **Nastavitev knjiženja v glavno knjigo** in knjiženo v dobro na:
+         
+             - Za uporabo vrste dokumenta: račun **Stroški – izdelek** na strani **Nastavitev knjiženja v glavno knjigo**.  
+             - Za nakup vrste dokumenta: **Račun za integracijo računov** na strani **Vodenje projektov in računovodski parametri**.
        
     - **O izdaji računov za kupce**:
 
         - **Saldo**: pri knjiženju predloga za projektni račun je transakcija na računu (mejnik obračuna) knjižena v dobro na vrsto računa glavne knjige *Izdan račun za postavko za nedokončano storitev – za kupca*, kot je določeno na zavihku **Prihodki** na strani **z nastavitvami knjiženja v glavni knjigi**, in bremenjena na bilančni račun kupca.
          - **Poslovni izid**: pri knjiženju predloga za projektni račun je transakcija na računu (mejnik obračuna) knjižena v dobro na vrsto računa glavne knjige *Izdani račun za prihodek – za kupca*, kot je določeno na zavihku **Prihodki** na strani **z nastavitvami vnašanja v glavno knjigo**, in bremenjena na bilančni račun kupca. Bilančni računi kupcev so opredeljeni v razdelku **Terjatve** \> **Nastavitve** \> **Profili za knjiženje strank**.
 
-   Ko določate profile knjiženja za načina obračunavanja časa in materiala, lahko prihodke obračunate glede na vrsto transakcije (ura, stroški in plačilo). Če je možnost **Obračunaj prihodke** nastavljena na **Da**, so v dnevniku integracije aplikacije Project Operations Integration neobračunane prodajne transakcije zabeležene v glavni knjigi. Vrednost prodaje je bremenjena na račun **Postavka za nedokončano storitev – vrednost prodaje** in je knjižena v dobro na račun **Obračunani prihodki - vrednost prodaje**, ki je bil ustvarjen na strani **z nastavitvami knjiženja v glavni knjigi** na zavihku **Prihodki**. 
+   Ko definirate profile knjiženja za načine obračunavanja časa in materiala, imate možnost, da si prihodek uredite po vrsti transakcije (ura, stroški, element in dajatve). Če je možnost **Obračunaj prihodke** nastavljena na **Da**, so v dnevniku integracije aplikacije Project Operations Integration neobračunane prodajne transakcije zabeležene v glavni knjigi. Vrednost prodaje je bremenjena na račun **Postavka za nedokončano storitev – vrednost prodaje** in je knjižena v dobro na račun **Obračunani prihodki - vrednost prodaje**, ki je bil ustvarjen na strani **z nastavitvami knjiženja v glavni knjigi** na zavihku **Prihodki**. 
   
   > [!NOTE]
   > Možnost **Obračunaj prihodke** je na voljo samo, če je ustrezna vrsta transakcije za **stroške** knjižena v izkaz poslovnega izida.

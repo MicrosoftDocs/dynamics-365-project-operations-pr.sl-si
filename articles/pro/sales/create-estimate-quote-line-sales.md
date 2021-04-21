@@ -3,21 +3,21 @@ title: Ocenjevanje vrstice ponudbe, ki temelji na projektih
 description: Ta tema vsebuje informacije o tem, kako ustvariti oceno za vrstico ponudbe, ki temelji na projektih.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: dbd3876e555ee6bc70308ef11a3528a5dd8b6a32
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ef30df2921df7464aa2173161898121dc8e4f440
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273572"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858228"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Ocenjevanje vrstice ponudbe, ki temelji na projektih
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
 Vrstica ponudbe, ki temelji na projektu, vsebuje podrobnosti, ki pomagajo pri oceni stroškov in potencialnih prihodkov od dela, ki so povezani z uresničitvijo vrstice ponudbe.
 
@@ -30,27 +30,31 @@ Za oceno vrstice ponudbe, ki temelji na projektu, v vrstici izberite zavihek **P
 
 Če želite ustvariti oceno na vrstici ponudbe, ki temelji na projektu, izberite zavihek **Podrobnosti vrstice ponudbe**. V elementu vrstice, ki ga ustvarite na tem zavihku, bo povzeta ponudbena vrednost te vrstice ponudbe. 
 
-Za ustvarjanje podrobnosti vrstice pogodbe izberite **+ Nove podrobnosti vrstice ponudbe** v podmreži **Podrobnosti vrstice ponudbe**. Odpre se drsnik za hitro ustvarjanje. Oblikujejo se naslednja polja na obrazcu **Vrstica ponudbe**:
+Za ustvarjanje podrobnosti vrstice pogodbe izberite **Nove podrobnosti vrstice ponudbe** v podmreži **Podrobnosti vrstice ponudbe**. Odpre se drsnik za hitro ustvarjanje. Naslednja tabela vsebuje podrobnosti o poljih na strani **Podrobnosti vrstice ponudbe** in vpliv vrednosti na funkcionalnost.
 
-| **Polje** | **Mesto** | **Opis** | **Nadaljnji vpliv** |
+| **Polje** | **LOkacija** | **Opis** | **Nadaljnji vpliv** |
 | --- | --- | --- | --- |
-| Opis | Hitro ustvari | Opis posamezne ocene | S tem poljem so privzeto povezane samodejno ustvarjene podrobnosti vrstice ponudbe za stroške. |
-| Razred transakcije | Hitro ustvari | Ta spustni seznam vsebuje razrede transakcij, ki so za vrstico ponudbe, ki temelji na projektu, vključeni na zavihku **Splošno**.  | S tem poljem so privzeto povezane samodejno ustvarjene podrobnosti vrstice ponudbe za stroške. |
-| Vloga | Hitro ustvari | Oseba, ki bo opravila to delo ali bo povzročila ta strošek. | S tem poljem so privzeto povezane samodejno ustvarjene podrobnosti vrstice ponudbe za stroške. |
-| Kategoriji | Hitro ustvari | Kategorija dela ali stroška | S tem poljem so privzeto povezane samodejno ustvarjene podrobnosti vrstice ponudbe za stroške. |
-| Datum začetka | Hitro ustvari | Začetni datum dela | S tem poljem so privzeto povezane samodejno ustvarjene podrobnosti vrstice ponudbe za stroške. |
-| Končni datum | Hitro ustvari | Končni datum dela | S tem poljem so privzeto povezane samodejno ustvarjene podrobnosti vrstice ponudbe za stroške. |
-| Enota vira | Hitro ustvari | Enota vira, ki povzroči te stroške in zagotovil vire za delo. | S tem poljem so privzeto povezane samodejno ustvarjene podrobnosti vrstice ponudbe za stroške. To polje se uporablja tudi pri pridobivanju lastne cene. |
-| Urnik enote | Hitro ustvari | Skupina enot dela ali stroškov. Enote pripadajo razporedu enot ali skupini enot. Na primer; milje in kilometri so enote, ki spadajo v skupino enot za merjenje razdalj. | S tem poljem so privzeto povezane samodejno ustvarjene podrobnosti vrstice ponudbe za stroške. |
-| Enota | Hitro ustvari | Enota dela ali stroška | S tem poljem so privzeto povezane samodejno ustvarjene podrobnosti vrstice ponudbe za stroške. |
-| Količina | Hitro ustvari | Količina enot dela ali stroškov | S tem poljem so privzeto povezane samodejno ustvarjene podrobnosti vrstice ponudbe za stroške. |
-| Cena enote | Hitro ustvari | Obračunska stopnja vloge, ki opravlja delo, ali prodajna cena kategorije stroškov. To polje privzame čas na podlagi kombinacije vloge in enote vira v ceniku projekta, ki velja na datum začetka. Za stroške to polje privzame nastavitve cen za kategorijo transakcij v ceniku projekta, ki velja za datum začetka. Če način določanja cen za kategorijo transakcij ni »cena na enoto«, privzete vrednost ni in to polje ostane prazno. | Mera stroškov vloge, ki opravlja delo, ali »cena na enoto« za kategorijo stroškov To polje privzame čas na podlagi kombinacije vloge in enote vira glede na ceno v pogodbeni enoti cenika ponudbe, ki velja na datum začetka. Za stroške to polje privzame nastavitve cen za kategorijo transakcij v ceniku pogodbene enote, ki velja na datum začetka. Če način določanja cen za kategorijo transakcij ni »cena na enoto«, privzete vrednost ni in to polje ostane prazno. |
+| Opis | Hitro ustvari | Opis posamezne ocene | Ta vrednost privzeto pripiše povezane podrobnosti vrstice ponudbe za samodejno ustvarjene stroške. |
+| Razred transakcije | Hitro ustvari | Spustni seznam vsebuje razrede transakcij, ki so vključeni v zavihku **Splošno** v vrstici ponudb, ki temelji na projektu.  | Ta vrednost privzeto pripiše povezane podrobnosti vrstice ponudbe za samodejno ustvarjene stroške. |
+| Izbira izdelka | Hitro ustvari | Velja, ko je razred transakcije **Material**. Določite lahko, da je ta vrstica ocene predvidena za **obstoječ** izdelek (iz kataloga) ali izdelek, **ki ni v katalogu**. | Ta vrednost privzeto pripiše povezane podrobnosti vrstice ponudbe za samodejno ustvarjene stroške. |
+| Izdelku | Hitro ustvari | ID izdelka iz kataloga izdelkov. To polje je omogočeno le, če izberete **Obstoječ izdelek** v polju **Izberite izdelek**. ID se uporablja za pridobivanje prodajne cene iz cenika projekta na ponudbi. | Ta vrednost privzeto pripiše povezane podrobnosti vrstice ponudbe za samodejno ustvarjene stroške. |
+| Izdelek, ki ni v katalogu | Hitro ustvari | Besedilno polje za zapis imena izdelka. To polje je omogočeno le, če izberete **Izdelek, ki ni v katalogu** v polju **Izberite izdelek**.| Ta vrednost privzeto pripiše povezane podrobnosti vrstice ponudbe za samodejno ustvarjene stroške. |
+| Vloga | Hitro ustvari | Vloga osebe, ki bo opravila to delo ali povzročila te stroške. | Ta vrednost privzeto pripiše povezane podrobnosti vrstice ponudbe za samodejno ustvarjene stroške. |
+| Kategoriji | Hitro ustvari | Kategorija dela ali stroška. | Ta vrednost privzeto pripiše povezane podrobnosti vrstice ponudbe za samodejno ustvarjene stroške. |
+| Datum začetka | Hitro ustvari | Začetni datum dela. | To polje privzeto pripiše podrobnosti vrstice ponudbe za samodejno ustvarjene stroške. |
+| Datum konca | Hitro ustvari | Končni datum dela. | To polje privzeto pripiše podrobnosti vrstice ponudbe za samodejno ustvarjene stroške. |
+| Enota vira | Hitro ustvari | Enota vira, ki bo imela te stroške in zagotovila vire za delo na njih. | Ta vrednost privzeto pripiše povezane podrobnosti vrstice ponudbe za samodejno ustvarjene stroške in se uporabi za pridobivanje lastne cene. |
+| Urnik enote | Hitro ustvari | Skupina enot dela, izdelka ali stroška. Enote pripadajo razporedu enot ali skupini enot. Na primer milje in kilometri (km) so enote, ki spadajo v skupino enot, ki opisuje razdaljo. | Ta vrednost privzeto pripiše povezane podrobnosti vrstice ponudbe za samodejno ustvarjene stroške. |
+| Enota | Hitro ustvari | Skupina enot dela, izdelka ali stroška. | Ta vrednost privzeto pripiše povezane podrobnosti vrstice ponudbe za samodejno ustvarjene stroške. |
+| Količina | Hitro ustvari | Količina dela, izdelkov ali stroškov. | Ta vrednost privzeto pripiše povezane podrobnosti vrstice ponudbe za samodejno ustvarjene stroške. |
+| Cena enote | Hitro ustvarjanje |Obračunska stopnja vloge, ki opravlja delo, cena na enoto izdelka ali prodajna cena izdelka ali kategorije stroškov. Privzeta vrednost za to polje je **Čas**, ki temelji na kombinaciji vrednosti cenovne razsežnosti za cenovno vrstico vloge v ceniku projekta, ki začne veljati z datumom začetka. Privzeta vrednost za **stroške** se pridobi iz nastavitev cene za kategorijo transakcij v ceniku projekta, ki začne veljati z datumom začetka. Če način določanja cen za kategorijo transakcij ni cena na enoto, ni privzete vrednosti, to polje pa ostane prazno. Pri izdelkih privzeta vrednost temelji na vrstici **Elemente cenika** v ceniku projekta, ki začne veljati z datumom začetka.| Mera stroškov vloge, ki opravlja delo, cena na enoto kategorije stroškov ali izdelka. Privzeta vrednost za to polje je **Čas**, ki temelji na kombinaciji vrednosti cenovne razsežnosti za cenovno vrstico vloge v ceniku projekta, ki začne veljati z datumom začetka. Privzeta vrednost za **stroške** se pridobi iz nastavitev cene za kategorijo transakcij v ceniku projekta, ki začne veljati z datumom začetka. Če način določanja cen za kategorijo transakcij ni cena na enoto, ni privzete vrednosti, to polje pa ostane prazno. Pri izdelkih privzeta vrednost temelji na vrstici **Elemente cenika** v ceniku projekta, ki začne veljati z datumom začetka.|
 | Predvideni davek | Hitro ustvari | Za to delo ali strošek lahko ročno vnesete predvideni davek. | To polje nima nadaljnjega vpliva. |
 | Znesek | Hitro ustvari | V to polje lahko ročno vnesete podatke, če sta polji **Količina** in **Cena** prazni. Če polji nista prazni, je to polje samo za branje in se izračuna z obrazcem (Količina \* Cena na enoto) + davek. | To polje nima nadaljnjega vpliva. |
 
+
 ## <a name="update-prices-on-quote-line-details"></a>Posodobitev cen v podrobnostih vrstice ponudbe
 
-Če ste spremenili cene na ceniku projekta, ki je priložen ponudbi, ali na ceniku naročnika, lahko na strani **Ponudba** izberete možnost **Izračunaj znova**, da osvežite cene na podrobnostih posamezne vrstice ponudbe za odražanje vnesenih sprememb. Če izberete **Izračunaj znova**, se prikaže opozorilo, ki vas obvesti, da bodo ponastavljene cene na podrobnostih vrstice ponudbe za vse vrstice. Izberite možnost **Da**, da osvežite cene za prodajo in podrobnosti cen v vrstici ponudbe.
+Če ste spremenili cene na ceniku projekta, ki je priložen ponudbi, ali na ceniku stroškov, lahko izberete možnost **Preračunaj** na strani **Ponudba**, da osvežite cene na podrobnostih posamezne vrstice ponudbe za odraz te spremembe. Ko izberete možnost **Preračunaj**, se prikaže opozorilo, ki vas obvesti, da bodo cene na podrobnostih vrstic ponudbe za vse postavke ponudb ponastavljene. Izberite možnost **Da**, da osvežite cene za prodajo in podrobnosti cen v vrstici ponudbe.
 
 ## <a name="access-quote-line-details-for-cost"></a>Dostop do podrobnosti vrstice ponudbe za cene
 
@@ -66,7 +70,8 @@ Valuta v podrobnostih vrstice ponudbe privzame prodajne vrednosti iz cenika enot
 
 Izračuni donosnosti pretvorijo znesek v podrobnostih vrstice ponudbe za stroške in prodajo v osnovno valuto okolja za poročilo o celotni ocenjeni marži za ponudbo.
 
-Tako lahko pride do napake pri zaokroževanju in spremembe marže, saj manjkajo menjalni tečaji, ki so občutljivi na datum. Te izračune za projektnih ponudbe uporabite samo kot približke in ne kot dejansko zakonsko ali drugo poročanje, ki zahteva večjo natančnost zaokroževanja in zavedanje pomembnosti datuma za menjalne tečaje.
+> [!OPOMBA
+> > Pride lahko do napak pri zaokroževanju valut in spremenjenih marž zaradi pomanjkanja menjalnih tečajev, veljavnih na datum. Te izračune uporabljajte samo za projektne pogodbe, saj gre za približke in ne za dejansko zakonsko ali drugo poročanje, ki zahteva večjo natančnost zaokroževanja in zavedanje datuma začetka veljave za menjalne tečaje.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

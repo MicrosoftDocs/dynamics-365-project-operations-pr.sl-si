@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273443"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858268"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Uvoz ocen za projekt v podrobnostih ponudbe, ki temelji na projektih – poenostavljena različica
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Uvoz ocen za projekt v podrobnostih ponudbe, ki temelji na projektih 
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** poenostavljeno uvedbo – posel do izstavitve predračuna, Project Operations za primere, ki temeljijo na virih/manjkajoči zalogi_
 
 Če je projekt ustvarjen v predprodajni fazi, lahko izberete uvoz finančne ocene iz projekta v vrstico ponudbe, ki temelji na projektu.
 
@@ -30,7 +30,7 @@ _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
   - **Vloga** 
   - **Projektno opravilo**
 
-Na podlagi vaše izbire je prekopirana ocena iz projekta za vse razrede transakcij, ki so vključeni v tej vrstici ponudbe. Če želite preveriti, kateri razredi transakcij so vključeni, izberite zavihek **Splošno** v vrstici ponudbe, ki temelji na projektu, in preverite vrednosti za polja **Vključi čas**, **Vključi stroške** in **Vključi dajatve**.  Če želite preveriti, katera opravila so vključena, izberite zavihek **Plačljiva opravila** na vrstici ponudbe.
+Na podlagi vaše izbire je prekopirana ocena iz projekta za vse razrede transakcij, ki so vključeni v tej vrstici ponudbe. Če želite preveriti, kateri razredi transakcij so vključeni, izberite zavihek **Splošno** v podrobnostih ponudbe, ki temelji na projektu, in preverite vrednosti za **Vključi čas**, **Vključi stroške**, **Vključi materiale**, in **Vključi dajatve**.  Če želite preveriti, katera opravila so vključena, izberite zavihek **Plačljiva opravila** na vrstici ponudbe.
 
 Glede na razreda Povezane naloge in Vključene transakcije se ocene za te kombinacije opravil in razredov transakcij uvozijo v vrstico ponudbe.
 

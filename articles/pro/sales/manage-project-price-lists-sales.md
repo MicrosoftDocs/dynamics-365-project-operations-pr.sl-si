@@ -1,27 +1,27 @@
 ---
-title: Upravljanje cenikov za projekte v projektnih ponudbah – poenostavljeno
-description: Ta tema vsebuje informacije o delu s ceniki projektov v ponudbah. (Sales)
+title: Upravljanje cenikov projektov v projektnih ponudbah
+description: Ta tema vsebuje informacije o delu s ceniki projektov v ponudbah.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273038"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858628"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Upravljanje cenikov za projekte v projektnih ponudbah – poenostavljeno
+# <a name="manage-project-price-lists-on-project-quotes"></a>Upravljanje cenikov za projekte v projektnih ponudbah 
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
 Projektne ponudbe so zasnovane tako, da podpirajo več cenikov z datumom začetka veljavnosti. V aplikaciji Dynamics 365 Project Operations je dodana nova povezana entiteta, imenovana **Cenik projekta**. Ta entiteta ima do projektne ponudbe odnos »ena proti mnogo«.
 
-Ceniki projektov se uporabljajo za določanje časovnih in stroškovnih transakcij projekta. Če ima ponudba enega ali več cenikov projektov, se ti ceniki uporabljajo za določanje časovnih in stroškovnih ocen ter dejanskih podatkov za projekte, ki so povezani s ponudbo prek vrstic ponudbe.
+Ceniki projekta se uporabljajo za določanje časovnih, materialnih in stroškovnih transakcij projekta. Če ima ponudba enega ali več cenikov projekta, se ti ceniki uporabljajo za določanje cene časa, materiala, ocene stroškov in dejanskih podatkov za projekte, ki so s ponudbo povezani prek njenih podrobnosti.
 
 Če v projektni ponudbi ni cenikov projektov, boste prejeli opozorilno sporočilo. V sporočilu je zapisano, da ker ne obstajajo ceniki projektov, ne bo podana cena za vaše ocenjeno in dejansko projektno delo ter stroške. Namesto tega bodo imeli za prodajne vrednosti ceno nič (0).
 

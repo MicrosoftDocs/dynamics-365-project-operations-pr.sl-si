@@ -1,23 +1,23 @@
 ---
-title: Popravljalni računi za projekt
-description: Ta tema vsebuje informacije o tem, kako ustvariti in potrditi popravljalne račune v aplikaciji Project Operations.
+title: Ustvarjanje popravljalnih računov, ki temeljijo na projektih
+description: Ta tema vsebuje informacije o popravljalnih računih v aplikaciji Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 04/05/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866611"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788898"
 ---
-# <a name="corrective-project-invoices"></a>Popravljalni računi za projekt
+# <a name="create-corrective-project-based-invoices"></a>Ustvarjanje popravljalnih računov, ki temeljijo na projektih 
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
 Potrjeni račun projekta je mogoče popraviti v skladu s spremembami ali dobroimetjem po dogovoru s stranko in vodjo projekta.
 
@@ -26,18 +26,17 @@ Potrjeni račun projekta je mogoče popraviti v skladu s spremembami ali dobroim
 > [!NOTE]
 > Ta možnost je na voljo samo za potrjene račune projektov.
 
-Iz potrjenega računa se ustvari nov osnutek računa. Vse podrobnosti vrstice računa iz predhodno potrjenega računa so kopirane v novi osnutek. Spodaj so naštete nekatere ključne točke, ki jih je treba razumeti glede podrobnosti vrstice na novem popravljenem računu:
+Iz potrjenega računa se ustvari nov osnutek računa. Vse podrobnosti vrstice računa iz predhodno potrjenega računa so kopirane v novi osnutek. Sledi nekaj ključnih točk, s katerimi boste lažje razumeli podrobnosti vrstice na novem popravljenem računu:
 
-- Vse količine se posodobijo na nič. Aplikacija predpostavlja, da so vsi zaračunani elementi v celoti knjiženi v dobro. Po potrebi lahko te količine ročno posodobite, tako da odražajo količino, ki se zaračuna, in ne količine, ki se knjiži v dobro. Na podlagi vnesene količine aplikacija izračuna količino dobroimetja. Ta znesek se odraža v dejanskih vrednostih, ki se ustvarijo ob potrditvi popravljenega računa. Če spreminjate znesek davka, morate vnesti pravilen znesek davka in ne zneska davka, ki se knjiži v dobro.
-- Predhodno potrjene podrobnosti pogodbe na podlagi izdelka niso kopirane. Obdelava popravkov na projektnem računu na podlagi izdelka ni podprta.
+- Vse količine se posodobijo na nič. To predvideva, da so vsi zaračunani elementi v celoti knjiženi v dobro. Po potrebi lahko te količine ročno posodobite, tako da odražajo količino, ki se zaračuna, in ne količine, ki se knjiži v dobro. Na podlagi vnesene količine aplikacija izračuna količino dobroimetja. Ta znesek se odraža v dejanskih vrednostih, ki se ustvarijo ob potrditvi popravljenega računa. Če spreminjate znesek davka, morate vnesti pravilen znesek davka in ne zneska davka, ki se knjiži v dobro.
 - Popravki mejnika so vedno obdelani kot polno dobroimetje.
 - Zneske honorarja ali predujma je mogoče popraviti, če je bila stranki zaračunana napačna vrednost.
 - Uskladitve honorarjev in predujmov je mogoče popraviti, če je bil uporabljen nepravilen znesek za uskladitev stroškov na predhodno potrjenem računu.
 
 > [!IMPORTANT]
-> Podrobnosti vrstice računa oz. popravki drugih že zaračunanih stroškov imajo polje **Popravek** nastavljeno na **Da**. Računi s popravljenimi podrobnostmi vrstice računa imajo polje **Vsebuje popravke**, ki je prav tako nastavljeno na **Da**.
+> Podrobnosti vrstice računa, ki so popravki drugih že zaračunanih stroškov, imajo polje **Popravek** nastavljeno na vrednost **Da**. Računi s popravljenimi podrobnostmi vrstice računa imajo polje **Vsebuje popravke**, ki je prav tako nastavljeno na **Da**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Dejanske vrednosti, ustvarjene ob potrditvi popravljenega računa
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Dejanske vrednosti, ustvarjene ob potrditvi popravljenega računa
 
 V naslednji tabeli so navedene dejanske vrednosti, ki se ustvarijo, ko je popravljalni račun potrjen.
 
@@ -214,51 +213,6 @@ Nova dejanska vrednost neobračunane prodaje, ki se zaračuna za preostalo koli�
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Izdajanje računov predhodno zaračunanih materialnih transakcij v celoti v dobro.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Storniranje obračunane prodaje za količino in znesek v izvirnih podrobnostih vrstice računa za material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nova neobračunana dejanska prodaja za količino in znesek v izvirnih podrobnostih vrstice računa za material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Račun za delno dobroimetje pri materialni transakciji.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Storniranje obračunane prodaje za količino in znesek, zaračunan v izvirnih podrobnostih vrstice računa za material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nova neobračunana dejanska prodaja, ki se zaračuna za količino in znesek v podrobnostih vrstice računa, storno in vrednost obračuna dejanske prodaje.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nova dejanska vrednost neobračunane prodaje, ki se zaračuna za preostalo količino in zneske po odštetju popravljenih številk na podrobnostih vrstice računa.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 Izdajanje računov za celotno dobroimetje predhodno zaračunane transakcije dajatve.
                 </p>
             </td>
@@ -319,20 +273,9 @@ Izdajanje računov za delno dobroimetje predhodno zaračunanega mejnika.
                 <p>
 Niso podprti </p>
             </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Dobroimetje in popravki predhodno zaračunanih podrobnosti pogodbe na podlagi izdelka.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Niso podprti </p>
-            </td>
-        </tr>
+        </tr>        
     </tbody>
 </table>
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

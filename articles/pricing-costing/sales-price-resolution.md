@@ -3,17 +3,17 @@ title: Razrešitev prodajnih cen za ocene in dejanske vrednosti
 description: Ta tema vsebuje informacije o tem, kako razrešiti prodajne zneske za ocene in dejanske vrednosti.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274973"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877465"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Razrešitev prodajnih cen za ocene in dejanske vrednosti
 
@@ -54,6 +54,17 @@ Ko je prodajni cenik razrešen, sistem izvede naslednje korake za nastavitev pri
     | &nbsp; | Pribitek na ceno | Z uporabo pribitka, ki je določen z vrstico s cenami kategorij na meri stroškov enote povezanih dejanskih stroškov |
 
 4. Če se sistem ne more ujemati z vrednostmi polj **Kategorija** in **Enota**, se prodajni znesek privzeto nastavi na nič (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Reševanje stopenj prodaje na dejanskih vrsticah in vrsticah ocen za material
+
+V storitvi Project Operations se vrstice ocene za material se nanašajo na vrstico ponudbe in podrobnosti pogodbe za materiale in podrobnosti ocene materiala za projekt.
+
+Ko je prodajni cenik razrešen, sistem izvede naslednje korake za nastavitev privzete prodajne cene enote.
+
+1. Sistem uporablja kombinacijo polj **Izdelek** in **Enota** na vrstici ocene za material, ki se ujema s vrstico elementa cenika v razrešenem ceniku.
+2. Če sistem najde vrstico elementa cenika, ki ima stopnjo prodaje za kombinacijo polj **Izdelek** in **Enota** in metodo za določanje cen **Valutni znesek**, se uporablja prodajna cena, navedena v vrstici cenika.
+3. Če se vrednosti polj **Izdelek** in **Enota** ne ujemata, je stopnja prodaje privzeto ničelni.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

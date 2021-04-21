@@ -3,17 +3,17 @@ title: Določanje vrste uvedbe
 description: Ta tema vsebuje informacije za pomoč pri izbiri prave vrste uvajanja za projektne postopke v vašem podjetju.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479584"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663614"
 ---
 # <a name="determine-your-deployment-type"></a>Določanje vrste uvedbe
 
@@ -44,7 +44,7 @@ Naš [vprašalnik o uvajanju](https://aka.ms/provisionprojectoperations) vam bo 
 - [Project Operations za primere uporabe z viri/brez zalog](#integrated)
 - [Project Operations za primere uporabe z naročili na zalogi/v proizvodnji](#pma)
 
-Aplikacija Project Operations podpira primere naročil na zalogi/v proizvodnji in primere z viri/brez zalog v istem okolju prek konfiguracij na ravni pravne osebe. Družba Contoso lahko na primer izkoristi zmogljivosti zalog/proizvodnih naročil v svojem ameriškem proizvodnem obratu (pravna oseba = Contoso Manufacturing United States). Družba Contoso lahko na primer izkoristi zmogljivosti virov/brez zalog v njihovem obratu za servisiranje Contoso Robotics Arms v ZK (pravna oseba = Contoso Robotics United Kingdom).
+Aplikacija Project Operations podpira primere naročil na zalogi/v proizvodnji in primere z viri/brez zalog v istem okolju prek konfiguracij na ravni pravne osebe. Contoso lahko na primer uporablja zmogljivosti zalog/proizvodnje naročil v ameriškem proizvodnem obratu (pravna oseba = Contoso Manufacturing United States). Contoso lahko v svoji ustanovi za servisiranje Contoso Robotics Arms uporabi zmogljivosti, ki temeljijo na nezalogi/virih (pravna oseba = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Poenostavljeno uvajanje – posel do izstavitve predračuna
 
@@ -56,7 +56,7 @@ Poenostavljeno uvajanje vključuje naslednje zmožnosti:
 - Poenoteno upravljanje virov
 - Sledenje času
 - Osnovni stroški
-- Predračun in izstavljanje računov za stranke 
+- Izstavljanje predračunov za pregled in urejanje vodje projekta 
 
 #### <a name="deployment-steps"></a>Koraki uvajanja
 Določite najboljši model uvajanja v aplikaciji Project Operations z [vprašalnikom o uvajanju](https://aka.ms/provisionprojectoperations).
@@ -89,12 +89,12 @@ Za to uvajanje glejte razdelka [Prijava za naročnino na predogledno različico]
 - Načrtovanje projekta z uporabo SČD
 - Upravljanje virov
 - Sledenje času
-- Celotni stroški
+- Celoten strošek
 - Optično branje računov s tehnologijo OCR
 - Celoten postopek izdaje računa
-- Pripoznavanje prihodkov
+- Prepoznavanje prihodkov
 - Proizvodna naročila
-- Podpora za materiale
+- Podpora za material na zalogi z inventarjem
 
 #### <a name="deployment-steps"></a>Koraki uvajanja
 Določite najboljši model uvajanja v aplikaciji Project Operations z [vprašalnikom o uvajanju](https://aka.ms/provisionprojectoperations).

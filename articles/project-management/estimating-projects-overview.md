@@ -1,31 +1,41 @@
 ---
-title: Pregled ocenjevanja projektov
-description: Ta tema vsebuje informacije o ocenah v rešitvi Dynamics 365 Project Operations.
-author: ruhercul
+title: Koncepti finančnih ocen
+description: Ta tema vsebuje informacije o potrditvi finančnih ocen projekta v aplikaciji Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286898"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701756"
 ---
-# <a name="estimate-projects-overview"></a>Pregled ocenjevanja projektov
+# <a name="financial-estimation-concepts"></a>Koncepti finančnih ocen
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
+V storitvi Dynamics 365 Project Operations, lahko v dveh fazah finančno ocenite svoje projekte: 
+1. V fazi predprodaje, preden je dogovor sklenjen. 
+2. V fazi izvedbe po izdelavi projektne pogodbe. 
+
+Finančno oceno za delo, ki temelji na projektu lahko ustvarite na kateri koli od naslednjih 3 strani:
+- Na strani **Vrstica ponudbe** s podrobnostmi vrstice ponudbe.  
+- Na strani **Podrobnosti pogodbe projekta** s podrobnostmi pogodbe. 
+- Na strani **Projekt** v zavihkih **Opravila** ali **Ocene stroškov**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Za izdelavo ocene uporabite projektno ponudbo
 V ponudbi, ki temelji na projektu, lahko uporabite entiteto **Podrobnosti vrstice ponudbe**, da ocenite, koliko dela je potrebnega za dokončanje projekta. To oceno lahko nato delite s stranko.
 
 Vrstice ponudbe na osnovi projekta lahko imajo nič do mnogo podrobnosti vrstice ponudbe. Podrobnosti vrstice ponudbe se uporabljajo za oceno časa, stroškov ali pristojbin. Aplikacija Microsoft Dynamics 365 Project Operations v podrobnostih vrstice ponudbe ne dovoli ocen za material. Te se imenujejo razredi transakcije. Predvideni znesek davka je prav tako mogoče vnesti v razred transakcij.
 
 Poleg razredov transakcij vsebujejo podrobnosti vrstice ponudbe tudi vrsto transakcije. Podprti sta dve vrsti transakcij za podrobnosti vrstice ponudbe: **Strošek** in **Projektna pogodba**.
 
-## <a name="estimate-by-using-a-contract"></a>Ocena z uporabo pogodbe
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Za izdelavo ocene uporabite projektno pogodbo
 
 Če ste uporabili ponudbo, ko ste ustvarili pogodbo na osnovi projekta, se ocena, ki ste jo naredili za vsako vrstico ponudbe v ponudbi, kopira v projektno pogodbo. Struktura projektne pogodbe je podobna strukturi projektne ponudbe, ki ima vrstice, podrobnosti vrstice in razporede izdajanja računov.
 
@@ -35,23 +45,17 @@ Podrobnosti vrstice ponudbe se lahko uporabijo za oceno časa, stroškov ali pri
 
 V podrobnostih vrstice pogodbe ocene za material niso dovoljene.
 
-Med procese, ki so podprti v projektni pogodbi, spadata ustvarjanje računov in potrditev. Ustvarjanje računa ustvari osnutek računa na osnovi projekta, ki vključuje vse neobračunane dejanske vrednosti prodaje do trenutnega datuma.
+## <a name="use-a-project-to-create-an-estimate"></a>Za izdelavo ocene uporabite projekt 
 
-Po potrditvi je pogodba samo za branje, njeno stanje pa se spremeni z **Osnutek** na **Potrjeno**. Tega dejanja ne morete razveljaviti. Ker je to dejanje trajno, je najbolje, da pogodbo ohranite v stanju **Osnutek**.
-
-Edina razlika med osnutkom pogodbe in potrjeno pogodbo je stanje in dejstvo, da je osnutek pogodbe mogoče urejati, potrjene pogodbe pa ne. Ustvarjanje računov in spremljanje dejanskih vrednosti se lahko izvede v osnutku pogodbe in v potrjeni pogodbi.
-
-Storitev Project Operations ne podpira sprememb naročil v pogodbah ali projektih.
-
-## <a name="estimating-projects"></a>Ocenjevanje projektov
-
-Pri projektih lahko ocenite čas in stroške. Storitev Project Operations ne \dovoli ocen materialov ali provizij v projektih.
+Pri projektih lahko ocenite čas in stroške. Project Operations ne podpira ocen materiala ali dajatev za projekte.
 
 Ocene časa se ustvarijo, ko ustvarite opravilo in določite atribute splošnega vira, ki je potreben za izvedbo opravila. Ocene časa se ustvarijo iz opravil razporeda. Ocene časa se ne ustvarijo, če ustvarite generične člane ekipe izven konteksta razporeda.
 
-Ocene stroškov so vnesejo v mrežo na strani **Ocene**.
+Ocene stroškov se vnesejo v mrežo na strani **Ocene stroškov**.
 
-## <a name="understanding-estimation"></a>Razumevanje ocenjevanja
+Ustvarjanje ocene za projekt velja za najboljšo prakso, saj lahko za vsako nalogo v načrtu projekta od spodaj navzgor sestavite podrobne ocene dela ali časa in stroškov. Nato lahko s to podrobno oceno ustvarite ocene za vsako vrstico ponudbe in sestavite bolj verodostojno ponudbo za stranko. Ko s projektnim načrtom uvozite ali ustvarite podrobno oceno v vrstici ponudbe, aplikacija Project Operations uvozi vrednosti prodaje in stroškov teh ocen. Po uvozu si lahko ogledate meritve dobičkonosnosti, marže in izvedljivosti za ponudbo projekta.
+
+## <a name="understanding-estimates"></a>Razumevanje ocen
 
 Spodnja tabela vam bo v pomoč pri razumevanju poslovne logike v fazi ocenjevanja.
 
