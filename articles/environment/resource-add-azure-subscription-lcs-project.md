@@ -3,17 +3,17 @@ title: Dodajanje naročnine na Azure projektu LCS
 description: Ta tema vsebuje informacije o povezovanju naročnine Azure s projektom LCS.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289929"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880558"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Dodajanje naročnine na Azure projektu LCS
 
@@ -62,7 +62,7 @@ Pooblastitev je zdaj končana.
 3. V polju **Konfiguriraj za uporabo storitve Azure Resource Manager** izberite **Da**.
 4. Prepričajte se, da se domena najemnika AAD za naročnino AAD ujema z naročnino na Azure, ki jo uporabljate in je lastnik domene, in izberite **Naprej**.
 5. Na zaslonu **Nastavitev Microsoft Azure** izberite **Naprej**, da potrdite izbiro. Če se na tem zaslonu prikaže napaka, se vrnite v razdelek [Omogočite dostop do storitev za uvajanje Dynamics za naročnino Azure](#provide) v tej temi in se prepričajte, da ste opravili vse korake.
-6. Prenesite potrdilo za upravljanje storitve Azure v lokalno mapo v računalniku in ga nato naložite na portal za upravljanje storitve Azure tako, da odprete **Nastavitve** > **Potrdila za upravljanje**. To potrdilo bo storitvi LCS omogočilo komunikacijo s storitvijo Azure v vašem imenu. Ta korak lahko preskočite, če ima vaš uporabnik dostop do naročnine.
+6. Prenesite potrdilo o upravljanju Azure v lokalno mapo v računalniku. Prosite skrbnika naročnine za Azure, da potrdilo naloži na portal za upravljanje Azure tako, da izbere naročnino in odpre razdelek **Nastavitve** > **Potrdila o upravljanju**. To potrdilo omogoča LCS, da v vašem imenu komunicira z Azure. Ta korak lahko preskočite, če ima vaš uporabnik dostop do naročnine.
 7. Izberite **Naprej**.
 8. Izberite regijo Azure, v kateri želite uvesti to možnost, in izberite podatkovno središče, ki je blizu mesta, kjer nameravate uporabljati ta sistem.
 9.  Izberite **Poveži**.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287258"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948350"
 ---
 # <a name="integration-journal-in-project-operations"></a>Dnevnik integracij v aplikaciji Project Operations
 
@@ -38,7 +38,7 @@ Sistem razvrsti vrstice dnevnika v ločene dnevnike glede na vrednost, izbrano v
 Vrstice dnevnika so ustvarjene na podlagi dejanskih vrednosti projekta. Na spodnjem seznamu so navedena nekatera pomembna privzeta pravila in pravila pretvarjanja:
 
   - Vsaka dejanska transakcija projekta ima vrstico v dnevniku integracij Project Operations. Stroškovne in neračunane prodajne transakcije za čas in vrsto obračunavanja materiala so prikazane v ločenih vrsticah.
-  - Polje **Datum** predstavlja datum transakcije. Polje **Datum knjiženja** predstavlja datum, ko je transakcija zabeležena v knjigo. Če je datum knjiženja v [zaključenem obdobju financ](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) in je parameter **Samodejna nastavitev datuma knjiženja na odprto obdobje knjige** nastavljen na zavihek **Finance** strani **Parametri upravljanja projektov in računovodstvo**, bo sistem prilagodil datum knjiženja transakcije na prvi datum v naslednjem odprtem obdobju knjige.
+  - Polje **Datum** predstavlja datum transakcije. Polje **Datum knjiženja** predstavlja datum, ko je transakcija zabeležena v knjigo. Če je datum knjiženja v [zaključenem obdobju financ](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) in je parameter **Samodejna nastavitev datuma knjiženja na odprto obdobje knjige** nastavljen na zavihek **Finance** strani **Parametri upravljanja projektov in računovodstvo**, bo sistem prilagodil datum knjiženja transakcije na prvi datum v naslednjem odprtem obdobju knjige.
   - Polje **Kupon** prikazuje številko kupona za vsako dejansko transakcijo. Zaporedje številk kuponov je določeno na zavihku **Zaporedja števil** na strani **Parametri upravljanja projektov in računovodstvo**. Vsaki vrstici je dodeljena nova številka. Ko je kupon zabeležen, si lahko pod možnostjo **Povezani kuponi** na strani **Transakcija s kuponi** ogledate, kako so stroškovne in neračunane prodajne transakcije povezane.
   - Polje **Kategorija** predstavlja projektno transakcijo in sledi privzetim nastavitvam glede na kategorijo transakcije za povezane dejanske vrednosti projekta.
     - Če je v dejanski vrednosti projekta nastavljena **Kategorija transakcije** in obstaja povezana **Kategorija projekta** v dani pravni osebi, kategorija sledi privzetim nastavitvam te kategorije projekta.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 1aae04230104d27db2f62db8e674697fd83460ac
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663614"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948139"
 ---
 # <a name="determine-your-deployment-type"></a>Določanje vrste uvedbe
 
@@ -44,7 +44,7 @@ Naš [vprašalnik o uvajanju](https://aka.ms/provisionprojectoperations) vam bo 
 - [Project Operations za primere uporabe z viri/brez zalog](#integrated)
 - [Project Operations za primere uporabe z naročili na zalogi/v proizvodnji](#pma)
 
-Aplikacija Project Operations podpira primere naročil na zalogi/v proizvodnji in primere z viri/brez zalog v istem okolju prek konfiguracij na ravni pravne osebe. Contoso lahko na primer uporablja zmogljivosti zalog/proizvodnje naročil v ameriškem proizvodnem obratu (pravna oseba = Contoso Manufacturing United States). Contoso lahko v svoji ustanovi za servisiranje Contoso Robotics Arms uporabi zmogljivosti, ki temeljijo na nezalogi/virih (pravna oseba = Contoso Robotics United Kingdom).
+Aplikacija Project Operations podpira primere naročil na zalogi/v proizvodnji in primere z viri/brez zalog v istem okolju prek konfiguracij na ravni pravne osebe. Contoso lahko na primer uporablja zmogljivosti zalog/proizvodnje naročil v ameriškem proizvodnem obratu (pravna oseba = Contoso Manufacturing United States). Contoso lahko v svoji ustanovi za servisiranje Contoso Robotics Arms uporabi zmogljivosti, ki temeljijo na manjkajoči zalogi/virih (pravna oseba = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Poenostavljeno uvajanje – posel do izstavitve predračuna
 
@@ -99,7 +99,7 @@ Za to uvajanje glejte razdelka [Prijava za naročnino na predogledno različico]
 #### <a name="deployment-steps"></a>Koraki uvajanja
 Določite najboljši model uvajanja v aplikaciji Project Operations z [vprašalnikom o uvajanju](https://aka.ms/provisionprojectoperations).
 
-Za to uvajanje glejte razdelka [Prijava za naročnino na predogledno različico](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) in [Omogočanje novega okolja](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
+Za to uvajanje glejte razdelka [Prijava za naročnino na predogledno različico](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) in [Omogočanje novega okolja](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json). 
 
 
 

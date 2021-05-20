@@ -3,17 +3,17 @@ title: Ustvarjanje medpodjetniških računov za stranke in dobavitelje
 description: Ta tema vsebuje informacije o tem, kako ustvariti medpodjetne račune za stranke in dobavitelje.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287483"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948415"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Ustvarjanje medpodjetniških računov za stranke in dobavitelje
 
@@ -25,7 +25,9 @@ Projektni računovodja za posojilno pravno osebo lahko vzpostavi paketni postope
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Ročno ustvarite medpodjetni račun za stranke za projektne transakcije 
 
-Uporabite ta postopek za ročno ustvarjanje medpodjetnega računa za stranke za projektne transakcije. Poiščite ure, ki so si jih pisali delavci na projektih v izposojevalnih pravnih osebah, in stroške, ki jih je imela vaša pravna oseba v imenu izposojevalnih pravnih oseb. Iščete lahko po imenu pravne osebe, številki projektne pogodbe, številki projekta, časovnem obdobju ali kateri koli kombinaciji teh možnosti. V rezultatih iskanja izberite transakcije, ki jih želite dodati na medpodjetni račun.
+Uporabite ta postopek za ročno ustvarjanje medpodjetnega računa za stranke za projektne transakcije. Poiščite ure, ki so si jih pisali delavci na projektih v izposojevalnih pravnih osebah, in stroške, ki jih je imela vaša pravna oseba v imenu izposojevalnih pravnih oseb. Iščete lahko po imenu pravne osebe, številki projektne pogodbe, številki projekta, časovnem obdobju ali kateri koli kombinaciji teh možnosti. V rezultatih iskanja izberite transakcije, ki jih želite dodati na medpodjetni račun. 
+
+V posojilni pravni osebi je treba izvesti naslednje korake. 
 
 1. V aplikaciji Dynamics 365 Finance odprite **Upravljanje projektov in računovodstvo** > **Računi za projekt** > **Medpodjetni računi za stranke**. Na strani s seznamom **Medpodjetni računi za stranke** v akcijskem podoknu izberite **Novo**.
 2. Na strani **Ustvarjanje medpodjetnega računa** v polju **Pravna oseba** izberite posojilno pravno osebo.
@@ -35,9 +37,9 @@ Uporabite ta postopek za ročno ustvarjanje medpodjetnega računa za stranke za 
 6. V rezultatih iskanja izberite transakcije, ki jih želite vključiti v predlog medpodjetnega računa in nato izberite **V redu**.
 7. Na strani **Medpodjetni račun za stranko** se prikažejo medpodjetne projektne transakcije, ki ste jih izbrali med prikazanimi rezultati iskanja. Če želite spremeniti transakcije, preden pošljete račun posojilni pravni osebi, naredite naslednje:
   
-    1. Odprite stran **Ustvarjanje predloga računa**. Izberite dodatne medpodjetne transakcije za trenutni račun in izberite **Dodaj vrstico**.
+    1. Na strani **Medpodjetniški račun stranke**, odprite podrobnosti računa in nato izberite možnost **Dodaj vrstico**.
     2. Če želite odstraniti vrstico, jo izberite in kliknite **Odstrani**.
-    3. Oglejte si komentarje, razloge, finančne razsežnosti in druge informacije o izbrani vrstici na hitrem zavihku **Vrstice računov**.
+    3. V podrobnostih vrstice računa si oglejte komentarje, razloge, finančne razsežnosti in druge podatke o izbrani vrstici.
     
 8. Za knjiženje medpodjetnega računa za stranko izberite **Knjiži** v akcijskem podoknu.
 
@@ -52,7 +54,7 @@ Za vse izposojevalne pravne osebe lahko ustvarite več medpodjetnih računov hkr
 2. Na strani **Ustvarjanje medpodjetnih računov za stranke** v polju **Podjetje** izberite pravno osebo, ki ji boste izdali račun. Če ne izberete podjetja, se bodo pri vseh izposojevalnih pravnih osebah prikazale vse transakcije, ki ustrezajo iskalnim pogojem.
 3. V možnosti **Ustvari en račun na** izberite, ali želite ustvariti račun za medpodjetne transakcije, ki temeljijo na projektu ali izposojevalni pravni osebi.
 4. Izbirno: Če želite izbrati določen projekt in projektno pogodbo, za katero želite ustvariti medpodjetne račune, kliknite **Izberi**. Na strani **Povpraševanje** v polju **Merila** izberite projektno pogodbo, številko projekta ali oboje in nato kliknite **V redu**.
-5. V zavihku **Paket** nastavite paketni postopek za ustvarjanje medpodjetnih računov v rednem časovnem zamiku. Za več informacij glejte [Pošiljanje obdelave paketnega opravila iz obrazca](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. V zavihku **Paket** nastavite paketni postopek za ustvarjanje medpodjetnih računov v rednem časovnem zamiku. Za več informacij glejte [Pošiljanje obdelave paketnega opravila iz obrazca](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Za knjiženje medpodjetnih računov izberite **Knjiži** v akcijskem podoknu.
 
 > [!NOTE]

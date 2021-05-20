@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283793"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948168"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Uporabniški priročnik za središče za projektne vire
 
@@ -48,7 +48,7 @@ Obstajata dva načina uporabe aplikacije [!INCLUDE[pn_dyn_365_project_service_au
 ## <a name="install-the-mobile-app"></a>Namestitev mobilne aplikacije
 Preden lahko začnete uporabljati aplikacijo središča za projektne vire, morate v napravo namestiti mobilno aplikacijo. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Namestitev aplikacije Dynamics 365 za telefone in tablične računalnike](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Namestitev aplikacije Dynamics 365 za telefone in tablične računalnike](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
 ## <a name="basic-navigation"></a>Osnovno krmarjenje
 1.  Ko se vpišete v mobilno aplikacijo, se prikaže stran MyApps s seznamom aplikacij, do katerih dostopate. 
@@ -99,7 +99,7 @@ Stroške vnašajte vsaj tedensko – ali glede na zahteve upraviteljev – in ta
 5. Nadaljujte vnašanje stroškov za teden. Ko končate in je vse pravilno, tapnite **Pošlji**. Upravitelj bo pregledal in odobril stroške.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Splošne informacije o uporabi mobilne aplikacije 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Osnovna navodila za uporabo mobilne aplikacije](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Osnovna navodila za uporabo mobilne aplikacije](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Glejte tudi  
  [Pregled rešitve Project Service](../psa/overview.md)   

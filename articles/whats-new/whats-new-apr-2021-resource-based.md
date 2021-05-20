@@ -3,18 +3,18 @@ title: 'Novosti pri izdaji: April 2021 – Project Operations za scenarije, ki t
 description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so bile na voljo v izdaji Project Operations aprila 2021 za scenarije, ki temeljijo na virih/nezalogi.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868013"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935494"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti pri izdaji: April 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
@@ -33,8 +33,26 @@ V to izdajo so vključene naslednje funkcije:
   - Ocenjevanje in določanje cen materialov, ki niso na zalogi, med prodajnim ciklom za projekt. Za več informacij glejte [Nastavitev cen in stopenj prodaje za izdelke iz kataloga – poenostavljena različica](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Sledenje uporabi materialov, ki niso na zalogi, med izvajanjem projekta. Za več informacij glejte [Beleženje uporabe materiala v projektih in projektnih nalogah](../material/material-usage-log.md).
   - Izdajanje računov za stroške materialov, ki niso na zalogi. Za več informacij glejte [Upravljanje nedokončanih opravil obračunavanja](../proforma-invoicing/manage-billing-backlog.md).
+  - Za informacije o načinu konfiguracije to funkcijo preberite razdelek [Konfiguracija materialov, ki niso na zalogi, in čakajočih računov dobavitelja](../procurement/configure-materials-nonstocked.md)
 - Obračun na podlagi opravil: dodana je možnost povezovanja projektnih opravil s podrobnostmi projektne pogodbe, s čimer jih podvržemo enakemu načinu obračunavanja, pogostosti računov in strankam kot pri podrobnostih pogodbe. Ta povezava zagotavlja natančno izdajanje računov, računovodstvo, oceno prihodkov in priznanje za delovanje v skladu s to nastavitvijo pri projektnih opravilih.
 - Novi API-ji v storitvi Dynamics 365 Dataverse omogočajo postopke ustvarjanja, posodabljanja in brisanja z **entitetami razporejanja**. Za več informacij glejte [Uporaba API-jev razporeda za izvajanje opravil z entitetami razporejanja](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Posodobitve preslikave za dvojno zapisovanje za Project Operations
+
+Na naslednjem seznamu so prikazane preslikave za dvojno zapisovanje, ki so spremenjene ali dodane v izdaji različice Project Operations iz aprila 2021.
+
+| **Preslikava entitete** | **Posodobljena različica** | **Pripombe** |
+| --- | --- | --- |
+| Dejanske vrednosti integracije storitve Project Operations (msdyn\_actuals) | 1.0.0.14 | Prelikava je spremenjena tako, da sinhronizira dejanske vrednosti materialov projekta. |
+| Integracijska entiteta za ocene stroškov v storitvi Project Operations (msdyn\_estimateslines) | 1.0.0.2 | Za podporo pri obračunavanju na podlagi opravil je dodana sinhronizacija podrobnosti pogodbe projekta v aplikacijah Finance and Operations. |
+| Integracijska entiteta za oceno časa v storitvi Project Operations (msdyn\_resourceassignments) | 1.0.0.5 | Za podporo pri obračunavanju na podlagi opravil je dodana sinhronizacija podrobnosti pogodbe projekta v aplikacijah Finance and Operations. |
+| Integracije tabele aplikacije Project Operations za ocene materiala (msdyn\_estimatelines) | 1.0.0.0 | Nova preslikava tabele za sinhronizacijo ocen materiala iz storitve Dataverse v aplikacije Finance and Operations. |
+| Entiteta za izvoz računa dobavitelja za projekt za integracijo aplikacije Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nova preslikava tabele za sinhronizacijo glav računov dobaviteljev iz storitve Finance and Operations v aplikacije Dataverse. |
+| Entiteta za izvoz vrstice računa dobavitelja za projekt za integracijo aplikacije Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nova preslikava tabele za sinhronizacijo vrstic računov dobaviteljev iz storitve Finance and Operations v aplikacije Dataverse. |
+
+V svojem okolju vedno zaženite najnovejšo različico preslikave in ob posodobitvi različice rešitev Dataverse in Finance and Operations storitve Project Operations omogočite vse povezane preslikave tabel. Če ne aktivirate najnovejše različice preslikave, nekatere funkcije in zmogljivosti morda ne bodo delovale pravilno. Aktivno različico preslikave si lahko ogledate v stolpcu **Različica** na strani **Dvojno zapisovanje**. Novo različico preslikave lahko aktivirate tako, da izberete možnost **Različice preslikave tabele**, izberete najnovejšo različico in nato shranite izbrano različico. Če ste prilagodili vnaprej pripravljeno preslikavo tabele, znova uporabite spremembe. Za več informacij glejte [Upravljanje življenjskega cikla aplikacij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Če pri zagonu preslikave naletite na težavo, upoštevajte navodila v razdelku [Težava z manjkajočimi stolpci tabele v preslikavah](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) iz vodiča za odpravljanje težav z dvojnim zapisovanjem.
 
 ## <a name="quality-updates"></a>Posodobitve kakovosti
 
@@ -67,7 +85,7 @@ V to izdajo so vključene naslednje funkcije:
 
 | **Območje funkcij** | **Številka sklica** | **Posodobitev kakovosti** |
 | --- | --- | --- |
-| Upravljanje projektov in računovodstvo | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Odprava povratne ocene ne deluje pri možnosti **Občasno**.  |
+| Upravljanje projektov in računovodstvo | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Razveljavitev izločitev ocen ne deluje v razdelku **Redno**.  |
 | Upravljanje projektov in računovodstvo | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Funkcija **Računovodski popravek** ustvari težavo z računi glavne knjige, ki jih imajo izbrano možnost **Ne dovoli ročnega vnosa**. |
 | Upravljanje projektov in računovodstvo | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Dodana poslovna logika za obdelavo računov za popravke, vključno s honorarjem ali uporabljenim honorarjem. |
 | Upravljanje projektov in računovodstvo | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | Pri knjiženju zneska prodaje PVT pri medpodjetnem izdajanju računov za projekt je izbran nepričakovan račun. |

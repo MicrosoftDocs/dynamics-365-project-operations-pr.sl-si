@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277853"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948440"
 ---
 # <a name="manage-project-based-opportunities"></a>Upravljanje priložnosti, ki temeljijo na projektu
 
@@ -64,7 +64,7 @@ Prodajni postopek za priložnost v aplikaciji Project Operations je razširitev 
 >
 > Če se je vaš projektni posel začel s priložnostjo, ima prednost poslovni proces prodaje za priložnost.
 
-Potek poslovnega procesa za izdelek lahko uredite ali ustvarite lastne poteke poslovnega procesa, da po potrebi spremljate svoj prodajni proces. Za več informacij o poteku poslovnega procesa glejte [Pregled potekov poslovnega procesa](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+Potek poslovnega procesa za izdelek lahko uredite ali ustvarite lastne poteke poslovnega procesa, da po potrebi spremljate svoj prodajni proces. Za več informacij o poteku poslovnega procesa glejte [Pregled potekov poslovnega procesa](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
