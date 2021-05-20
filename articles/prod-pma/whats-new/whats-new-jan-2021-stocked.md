@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 82787d13c6c2e662841a4f8eebe5638933f0958d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 43816d1dbcbea608eb675b037f8956cd44e8a063
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288068"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950869"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Novosti ali spremembe v storitvi Project Operations, januar 2021, za scenarije, ki temeljijo na zalogi/proizvodnji
 
@@ -144,7 +144,7 @@ Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Proj
 | Potovanje in strošek                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | V storitvi Project Operations ni mogoče ustvariti ali odobriti časa z medpodjetnimi opravili v storitvi Dataverse.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Regulativne posodobitve
-Za informacije o regulativnih posodobitvah za aplikacije Finance and Operations glejte [Regulativne posodobitve](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+Za informacije o regulativnih posodobitvah za aplikacije Finance and Operations glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

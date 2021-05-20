@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279473"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949969"
 ---
 # <a name="resource-management-modes-overview"></a>Pregled načinov upravljanja virov
 
@@ -29,11 +29,11 @@ Organizacijam, ki centralizirajo dodelitev virov projektom, osrednji način omog
 
 Za upravljanje virov v osrednjem načinu glejte:
 
-- [Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in ustvarjanje zahtevanih pogojev za vir](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Rezervacija poimenovanih virov iz zahtevanih pogojev za vire](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Pošiljanje zahteve za vir](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Izpolnjevanje zahteve za vir](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Sprejem ali zavrnitev predlaganega projektnega vira iz zahteve za vir](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in ustvarjanje zahtevanih pogojev za vir](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Rezervacija poimenovanih virov iz zahtevanih pogojev za vire](/dynamics365/project-service/book-named-resource)
+- [Pošiljanje zahteve za vir](/dynamics365/project-service/submit-resource-request)
+- [Izpolnjevanje zahteve za vir](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Sprejem ali zavrnitev predlaganega projektnega vira iz zahteve za vir](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Hibridni način
 Organizacijam, ki potrebujejo prilagodljivost pri dodeljevanju virov, hibridni način omogoča, da vodje projektov in upravitelji virov rezervirajo vire.
@@ -43,11 +43,11 @@ Organizacijam, ki potrebujejo prilagodljivost pri dodeljevanju virov, hibridni n
 Poleg podprtega postopka v osrednjem načinu glejte tudi naslednje teme za upravljanje vseh drugih podprtih potekov za rezervacije v hibridnem načinu:
 
 Rezervacija vira neposredno iz projekta:
-- [Rezervacija poimenovanih virov, ki jih je mogoče rezervirati, za projektno ekipo in dodelitev opravil](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Rezervacija poimenovanih virov, ki jih je mogoče rezervirati, za projektno ekipo in dodelitev opravil](/dynamics365/project-service/assign-named-bookable-resource)
 
 Rezervacija vira iz zahtevanega pogoja za vir:
-- [Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in ustvarjanje zahtevanih pogojev za vir](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Rezervacija poimenovanih virov iz zahtevanih pogojev za vire](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in ustvarjanje zahtevanih pogojev za vir](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Rezervacija poimenovanih virov iz zahtevanih pogojev za vire](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

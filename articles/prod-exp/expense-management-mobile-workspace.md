@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272048"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950499"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobilni delovni prostor za upravljanje stroškov
 
@@ -58,7 +58,7 @@ Uporabite lahko tudi te funkcije:
 Predpogoji se razlikujejo glede na različico, ki je uvedena za organizacijo.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Predpogoji, če uporabljate Dynamics 365 Finance 
-Če je bila za vašo organizacijo uvedena rešitev Finance, mora skrbnik sistema objaviti mobilni delovni prostor **Upravljanje stroškov**. Za navodila glejte [Objava mobilnih delovnih prostorov](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Če je bila za vašo organizacijo uvedena rešitev Finance, mora skrbnik sistema objaviti mobilni delovni prostor **Upravljanje stroškov**. Za navodila glejte [Objava mobilnih delovnih prostorov](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Predpogoji, če uporabljate različico 1611 s posodobitvijo platforme na 3 ali novejšo
 Če je bila za vašo organizacijo uvedena različica 1611 s posodobitvijo platforme na 3 ali novejšo, mora sistemski skrbnik izpolniti naslednje predpogoje. 
@@ -77,16 +77,16 @@ Predpogoji se razlikujejo glede na različico, ki je uvedena za organizacijo.
 <td>Skrbnik sistema</td>
 <td>KB 4019015 je posodobitev X ++ ali hitri popravek za metapodatke, ki vsebuje mobilni delovni prostor za <strong>Upravljanje stroškov</strong>. Za uvedbo hitrega popravka KB 4019015 v sistem mora skrbnik sistema upoštevati naslednje korake.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Prenos hitrega popravka za metapodatke iz portala Lifecycle Services (LCS) storitve Microsoft Dynamics</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Namestitev hitrega popravka za metapodatke</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Ustvarjanje paketa za uvajanje</a> z modeloma <strong>ApplicationSuite</strong> in <strong>ExpenseMobile</strong>, ki ga nato naložite na portal LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Uporaba paketa za uvajanje</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Prenos hitrega popravka za metapodatke iz portala Lifecycle Services (LCS) storitve Microsoft Dynamics</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Namestitev hitrega popravka za metapodatke</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Ustvarjanje paketa za uvajanje</a> z modeloma <strong>ApplicationSuite</strong> in <strong>ExpenseMobile</strong>, ki ga nato naložite na portal LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Uporaba paketa za uvajanje</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Objava mobilnega delovnega prostora <strong>Upravljanje stroškov</strong>.</td>
 <td>Skrbnik sistema</td>
-<td>Glejte <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Objava mobilnega delovnega prostora</a>.</td>
+<td>Glejte <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Objava mobilnega delovnega prostora</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -128,11 +128,11 @@ Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Hitro vnesite strošek s pomočjo mobilnega delovnega prostora za upravljanje stroškov
 1. V mobilni napravi odprite delovni prostor **Upravljanje stroškov**.
 2. Izberite **Hiter vnos stroška**.
-3. Izberite kategorijo za strošek. Videli boste seznam kategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše kategorije ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po kategoriji stroškov ali preklopite na iskanje po vrsti stroška.
+3. Izberite kategorijo za strošek. Videli boste seznam kategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše kategorije ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po kategoriji stroškov ali preklopite na iskanje po vrsti stroška.
 4. Vnesite datum transakcije stroška.
 5. Izbirno: Vpišite trgovca za strošek.
 6. Vnesite znesek stroška.
-7. Izberite valuto stroška. Videli boste seznam kod valut, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 400 valut, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše valute ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po valuti ali preklopite na iskanje po imenu.
+7. Izberite valuto stroška. Videli boste seznam kod valut, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 400 valut, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše valute ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po valuti ali preklopite na iskanje po imenu.
 8. Izberite **Fotografiraj** ali **Izbira slike**.
 9. Sledite enemu od teh postopkov:
 
@@ -163,11 +163,11 @@ Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:
 7. Na seznamu izberite enega ali več stroškov.
 8. Izberite **Dokončano**.
 9. Če želite poročilu o stroških dodati nove stroške, izberite **Nov strošek**.
-10. Izberite kategorijo za strošek. Videli boste seznam kategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše kategorije ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po kategoriji stroškov ali preklopite na iskanje po vrsti stroška.
+10. Izberite kategorijo za strošek. Videli boste seznam kategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše kategorije ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po kategoriji stroškov ali preklopite na iskanje po vrsti stroška.
 11. Izbirno: Vpišite trgovca za strošek.
 12. Vnesite datum transakcije stroška.
 13. Vnesite znesek stroška.
-14. Izberite valuto stroška. Videli boste seznam kod valut, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 400 valut, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše valute ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po valuti ali preklopite na iskanje po imenu.
+14. Izberite valuto stroška. Videli boste seznam kod valut, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 400 valut, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše valute ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po valuti ali preklopite na iskanje po imenu.
 15. Izberite **Dokončano**.
 16. Če želite strošku dodati več podrobnosti, izberite **Dodaj več podrobnosti**. Polja, ki so na voljo, so odvisna od konfiguracije upravljanja stroškov za vaše podjetje.
 17. Če je s politiko podjetja zahtevano potrdilo za strošek, izberite **Potrdila**, nato pa sledite tem korakom:
@@ -213,12 +213,12 @@ Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:
 
         - Če ste izbrali **Prejšnji gostje**, sledite tem korakom:
 
-            1. Na seznamu izberite enega ali več prejšnjih gostov. Prikaže se seznam prejšnjih gostov, ki ste jih dodali v prejšnja poročila o stroških, ki so naloženi v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaš prejšnji gost ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po imenu ali preklopite na iskanje po organizaciji, državi ali nazivu.
+            1. Na seznamu izberite enega ali več prejšnjih gostov. Prikaže se seznam prejšnjih gostov, ki ste jih dodali v prejšnja poročila o stroških, ki so naloženi v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaš prejšnji gost ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po imenu ali preklopite na iskanje po organizaciji, državi ali nazivu.
             2. Izberite **Dokončano**.
 
         - Če ste izbrali **Sodelavci**, sledite tem korakom:
 
-            1. Na seznamu izberite enega ali več sodelavcev. Videli boste seznam sodelavcev, ki so naloženi v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če sodelavca ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po imenu ali preklopite na iskanje po podjetju ali nazivu.
+            1. Na seznamu izberite enega ali več sodelavcev. Videli boste seznam sodelavcev, ki so naloženi v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če sodelavca ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iščite po imenu ali preklopite na iskanje po podjetju ali nazivu.
             2. Izberite **Dokončano**.
 
     3. Izberite gumb **Nazaj** za vrnitev na podrobnosti o stroških.
@@ -227,7 +227,7 @@ Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:
 
     1. Izberite prvi datum za razčlenitev.
     2. Izberite **Dodaj razčlenitev**.
-    3. Izberite podkategorijo za razčlenitev stroška. Videli boste seznam podkategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše podkategorije ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iskanje po imenu podkategorije stroškov.
+    3. Izberite podkategorijo za razčlenitev stroška. Videli boste seznam podkategorij stroškov, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Za več informacij naj razvijalci preberejo razdelek [Platforma Mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Če vaše podkategorije ni na seznamu, izberite **Iskanje**, da izvedete spletno iskanje. Iskanje po imenu podkategorije stroškov.
     4. Vnesite znesek transakcije za razčlenitev.
     5. Uredite datum transakcije, če je potrebno.
     6. Izberite **Dokončano**.

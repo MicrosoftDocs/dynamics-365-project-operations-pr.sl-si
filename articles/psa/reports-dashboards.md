@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283388"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951544"
 ---
 # <a name="dashboards"></a>Nadzorne plošče
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation vključuje dve sistemski nadzorni ploš�
 
 ## <a name="practice-manager"></a>Upravitelj prakse 
 
-Nadzorna plošča **Upravitelj prakse** daje upraviteljem prakse možnost dela z grafično nadzorno ploščo za sledenje stroškom, prodaji, stopnji bruto dobička ter uporabi. Poleg tega upraviteljem prakse omogoča ločevanje informacij po različnih kriterijih, na primer po stranka, projektih ali vlogah virov. Za več informacij o ustvarjanju in prilagajanju nadzornih plošč glejte [Ustvarjanje ali urejanje nadzornih plošč](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+Nadzorna plošča **Upravitelj prakse** daje upraviteljem prakse možnost dela z grafično nadzorno ploščo za sledenje stroškom, prodaji, stopnji bruto dobička ter uporabi. Poleg tega upraviteljem prakse omogoča ločevanje informacij po različnih kriterijih, na primer po stranka, projektih ali vlogah virov. Za več informacij o ustvarjanju in prilagajanju nadzornih plošč glejte [Ustvarjanje ali urejanje nadzornih plošč](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Upravitelj virov 
 

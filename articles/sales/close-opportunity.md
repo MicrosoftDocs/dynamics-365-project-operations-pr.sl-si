@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8698663fc35c9ae0eb54c2f1cf1fbbaaf29230d7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01c2452003d9ac5fbf85704ead67f7ee8011ed1c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278798"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949924"
 ---
 # <a name="close-an-opportunity"></a>Zapiranje priložnosti
 
@@ -23,7 +23,7 @@ Projektno priložnost lahko zaprete kot »Pridobljena« ali »Izgubljena«. V po
 
 Priložnosti ne boste mogli zapreti, če so z njo povezane dejavne ponudbe. Hkrati lahko zaprete vse aktivne ponudbe in osnutke ponudb, povezanih s posamezno priložnostjo. Potem lahko zaprete priložnost.
 
-Če želite več informacij o zapiranju priložnosti, glejte razdelek [Zapiranje pridobljene ali izgubljene priložnosti](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+Če želite več informacij o zapiranju priložnosti, glejte razdelek [Zapiranje pridobljene ali izgubljene priložnosti](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

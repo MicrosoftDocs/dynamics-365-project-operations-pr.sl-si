@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282668"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951454"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Razporejanje virov za projekt (Project Service)
 
@@ -35,7 +35,7 @@ Preverite lahko razpoložljivost virov za hiter pregled nad rezerviranostjo vaš
   
 Na plošči razporeda je prikazan seznam virov in njihova razpoložljivost. Izberite način pogleda za prikaz razpoložljivosti glede na **Ure**, **Dan**, **Teden** ali **Mesec**.  
   
-Preden uporabite ploščo razporeda, je pomembno, da jo nastavite. Za več informacij glejte [Konfiguriranje plošče razporeda (storitve Field Service ali storitve Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Preden uporabite ploščo razporeda, je pomembno, da jo nastavite. Za več informacij glejte [Konfiguriranje plošče razporeda (storitve Field Service ali storitve Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Če uporabljate starejšo različico, za razpoložljivost virov glejte [Ogled razpoložljivosti virov](../psa/view-resource-availability.md).  
 

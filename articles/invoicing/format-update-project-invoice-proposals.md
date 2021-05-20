@@ -3,17 +3,17 @@ title: Upravljanje predlogov za račune projekta
 description: V tej temi so na voljo podrobnosti o obdelavi računov za stranke v aplikaciji Project Operations za primere uporabe z viri/brez zalog.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275873"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950734"
 ---
 # <a name="manage-project-invoice-proposals"></a>Upravljanje predlogov za račune projekta
 
@@ -80,7 +80,8 @@ Vrednosti **Skupina prometnega davka** in **Skupina davka od prodaje izdelkov** 
     - **Stranka** kot privzeto vedno nastavi skupino za obračun prometnega davka iz stranke.
     - **Iskanje** išče po vseh entitetah na tem seznamu in izbere prvo vrednost, ki je na voljo. Iskanje se začne z entiteto **Projekt**, nato pa sledita entiteti **Projektna pogodba** in **Stranka**.
 
-- **Skupina davka od prodaje izdelkov za mejnik s fiksno ceno** se uporablja za nastavitev privzete vrednosti v polju **Skupina za davek od prodaje izdelkov**.
+- **Skupina davka od prodaje izdelkov z mejniki s fiksno cene** se uporablja kot privzeta vrednost v polju **Skupina davka od prodaje izdelkov** za mejnik obračunavanja. Računovodja lahko to vrednost pregleda in prilagodi na strani **Transakcije za kupca**. Sistem pri ustvarjanju vrstice s predlogom za račune podjetja uporabi vrednost iz transakcije za kupca.
+ 
 
 ### <a name="financial-dimensions"></a>Finančne razsežnosti
 
@@ -132,7 +133,7 @@ Stran **Oblikovanje predlogov računov** omogoča prikaz razvrščanja transakci
 
 Upravljanje tiskanja uporablja različne datoteke poročil za tiskanje, določanje ciljev in prilagajanje besedila noge za račun. Upravljanje tiskanja je mogoče nastaviti na ravni modula, vendar je te nastavitve mogoče preglasiti za določeno stranko, pogodbo ali predlog za račun. Za dostop do te funkcije na strani **Predlog za račun projekta** izberite **Natisni** > **Upravljanje tiskanja**.
 
-Nastavitev upravljanja tiskanja je prikazana kot drevesni pogled, kjer vsaka raven vozlišča prikaže razpoložljive dokumente za prilagajanje. Izpise po meri lahko dodelite na ravni modula, stranke, pogodbe ali predloga za račun. Če želite spremeniti izpis izvirnega dokumenta, razširite želeno vozlišče in izberite **Izvirni element**. V polju **Oblika zapisa poročila** izberite obliko zapisa poročila, ki jo želite uporabiti za tiskanje. Za oblike zapisa poročil po meri lahko uporabite [okvir za upravljanje poslovnih dokumentov](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Nastavitev upravljanja tiskanja je prikazana kot drevesni pogled, kjer vsaka raven vozlišča prikaže razpoložljive dokumente za prilagajanje. Izpise po meri lahko dodelite na ravni modula, stranke, pogodbe ali predloga za račun. Če želite spremeniti izpis izvirnega dokumenta, razširite želeno vozlišče in izberite **Izvirni element**. V polju **Oblika zapisa poročila** izberite obliko zapisa poročila, ki jo želite uporabiti za tiskanje. Za oblike zapisa poročil po meri lahko uporabite [okvir za upravljanje poslovnih dokumentov](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Knjiženje predlogov za račune
 

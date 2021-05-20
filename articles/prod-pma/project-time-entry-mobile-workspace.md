@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288894"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950194"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Delovni prostor za vnos časa v projektu prek mobilne naprave
 
@@ -48,7 +48,7 @@ Natančneje, v delovnem prostoru za **vnos časa v projektu** prek mobilne napra
 Predpogoji se razlikujejo glede na različico rešitve Microsoft Dynamics 365, ki je uvedena za organizacijo.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Predpogoji, če uporabljate Dynamics 365 Finance
-Če je bila za vašo organizacijo uvedena rešitev Finance, mora skrbnik sistema objaviti delovni prostor za **vnos časa v projektu** prek mobilne naprave. Za navodila glejte [Objava mobilnega delovnega prostora](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Če je bila za vašo organizacijo uvedena rešitev Finance, mora skrbnik sistema objaviti delovni prostor za **vnos časa v projektu** prek mobilne naprave. Za navodila glejte [Objava mobilnega delovnega prostora](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Predpogoji, če uporabljate različico 1611 s posodobitvijo platforme na 3 ali novejšo
 Če je bila za vašo organizacijo uvedena različica 1611 s posodobitvijo platforme na 3 ali novejšo, mora sistemski skrbnik izpolniti naslednje predpogoje. 
@@ -68,17 +68,17 @@ Predpogoji se razlikujejo glede na različico rešitve Microsoft Dynamics 365, k
 <td>Skrbnik sistema</td>
 <td>KB 4018050 je posodobitev X ++ ali hitri popravek za metapodatke, ki vsebuje delovni prostor za <strong>vnos časa v projektu</strong> prek mobilne naprave. Za uvedbo hitrega popravka KB 4018050 v sistem mora skrbnik sistema upoštevati naslednje korake.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Prenos hitrega popravka za metapodatke iz portala Lifecycle Services (LCS) storitve Microsoft Dynamics</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Namestitev hitrega popravka za metapodatke</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Ustvarjanje paketa za uvajanje</a> z modeloma <strong>ApplicationSuite</strong> in <strong>ProjectMobile</strong>, ki ga nato naložite na portal LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Uporaba paketa za uvajanje</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Prenos hitrega popravka za metapodatke iz portala Lifecycle Services (LCS) storitve Microsoft Dynamics</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Namestitev hitrega popravka za metapodatke</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Ustvarjanje paketa za uvajanje</a> z modeloma <strong>ApplicationSuite</strong> in <strong>ProjectMobile</strong>, ki ga nato naložite na portal LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Uporaba paketa za uvajanje</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Objava delovnega prostora za<strong> vnos časa v projektu</strong> prek mobilne naprave.</td>
 <td>Skrbnik sistema</td>
-<td>Glejte <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Objava mobilnega delovnega prostora</a>.</td>
+<td>Glejte <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Objava mobilnega delovnega prostora</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ Prenos in namestitev mobilne aplikacije Finance and Operations:
 2.  Izberite možnost **Vnos časa**. Prikazani so koledarski datumi za trenutni teden.
 3.  Za izbrani datum izberite **Dejanja** &gt; **Nov vnos**.
 4.  Vnesite število ur, ki jih želite zabeležiti.
-5.  Izberite projekt za vnos časa. Seznam prikazuje projekte, ki so naloženi v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Če želite več informacij, preberite [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Izberite projekt za vnos časa. Seznam prikazuje projekte, ki so naloženi v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Če želite več informacij, preberite [Platforma Mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Če vašega projekta ni na seznamu, izberite **Iskanje**. Iščite po imenu ali preklopite na iskanje po imenu projekta ali kupcu.
-7.  Izberite kategorijo. Seznam prikazuje kategorije, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Če želite več informacij, preberite [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Izberite kategorijo. Seznam prikazuje kategorije, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Če želite več informacij, preberite [Platforma Mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Če vaše kategorije ni na seznamu, izberite **Iskanje**. Poiščite po kategoriji ali preklopite na iskanje po imenu kategorije.
-9.  Izberite dejavnost. Seznam prikazuje kategorije, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Če želite več informacij, preberite [Platforma Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Izberite dejavnost. Seznam prikazuje kategorije, ki so naložene v vašo aplikacijo za uporabo brez povezave. Privzeto je naloženih 50 elementov, vendar jih lahko razvijalec spremeni. Če želite več informacij, preberite [Platforma Mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Če vaše dejavnosti ni na seznamu, izberite **Iskanje**. Iščite po številki dejavnosti ali preklopite na iskanje po namenu.
 
 11. Izberite lastnost vrstice.

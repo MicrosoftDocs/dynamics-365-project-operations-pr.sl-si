@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289614"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950419"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sinhronizacija projektnih pogodb in projektov neposredno iz rešitve Project Service Automation v storitev Finance 
 
@@ -109,8 +109,8 @@ Ko je uporabljena rešitev za integracijo Project Service Automation v Finance, 
 ## <a name="prerequisites-and-mapping-setup"></a>Predpogoji in nastavitev preslikave
 
 - Preden lahko pride do sinhronizacije projektnih pogodb in projektov, morate sinhronizirati račune.
-- V nabor povezav dodajte preslikavo polj integracijskega ključa za **msdyn\_organizationalunits** v **msdyn\_name \[Ime\]**. Morda boste morali najprej dodati projekt v nabor povezav. Za več informacij glejte [Integracija podatkov v Common Data Service za aplikacije](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- V nabor povezav dodajte preslikavo polj integracijskega ključa za **msdyn\_projects** v **msdynce\_projectnumber \[Ime projekta\]**. Morda boste morali najprej dodati projekt v nabor povezav. Za več informacij glejte [Integracija podatkov v Common Data Service za aplikacije](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- V nabor povezav dodajte preslikavo polj integracijskega ključa za **msdyn\_organizationalunits** v **msdyn\_name \[Ime\]**. Morda boste morali najprej dodati projekt v nabor povezav. Za več informacij glejte [Integracija podatkov v Common Data Service za aplikacije](/powerapps/administrator/data-integrator).
+- V nabor povezav dodajte preslikavo polj integracijskega ključa za **msdyn\_projects** v **msdynce\_projectnumber \[Ime projekta\]**. Morda boste morali najprej dodati projekt v nabor povezav. Za več informacij glejte [Integracija podatkov v Common Data Service za aplikacije](/powerapps/administrator/data-integrator).
 - **SourceDataID** za projektne pogodbe in projekte je mogoče posodobiti na drugačno vrednost ali odstraniti iz preslikave. Privzeta vrednost predloge je **Project Service Automation**.
 - Preslikavo **PaymentTerms** je treba posodobiti, da odraža veljavne plačilne pogoje v rešitvi Finance. Lahko tudi odstranite preslikavo iz projektnega opravila. Na privzetem zemljevidu vrednosti so privzete vrednosti za predstavitvene podatke. Spodnja tabela prikazuje vrednosti v rešitvi Project Service Automation.
 
@@ -131,7 +131,7 @@ Za filtriranje podatkov uporabite Microsoft Power Query za Excel, če so izpolnj
 Če morate uporabiti rešitev Power Query, upoštevajte naslednja navodila:
 
 - Predloga Projekti in pogodbe (PSA v Fin in Ops) ima privzeti filter, ki vključuje samo prodajne naloge vrste **Delovna naloga (msdyn\_ordertype = 192350001)**. Ta filter pomaga zagotoviti, da se projektne pogodbe ne ustvarijo za prodajne naloge v rešitvi Finance. Če ustvarite svojo predlogo, morate dodati ta filter.
-- Ustvarite filter Power Query, ki vključuje samo pogodbene organizacije, ki jih je treba sinhronizirati s pravno osebo v naboru povezav za integracijo. Primer: projektne pogodbe, ki jih imate s pogodbeno organizacijsko enoto Contoso US, je treba sinhronizirati s pravno osebo USSI, vendar je treba projektne pogodbe, ki jih imate s pogodbeno organizacijsko enoto Contoso Global, sinhronizirati s pravno osebo USMF. Če tega filtra ne dodate v preslikavo opravil, se bodo vse projektne pogodbe sinhronizirale s pravno osebo, ki je določena za nabor povezav, ne glede na pogodbeno organizacijsko enoto.
+- Ustvarite filter Power Query, ki vključuje samo pogodbene organizacije, ki jih je treba sinhronizirati s pravno osebo v naboru povezav za integracijo. Projektne pogodbe, ki jih na primer imate s pogodbeno organizacijsko enoto Contoso ZDA, bi morale biti sinhronizirane s pravno osebo USSI, toda projektne pogodbe, ki jih imate s pogodbeno organizacijsko enoto Contoso Global, bi bilo treba sinhronizirati s pravno osebo USMF. Če tega filtra ne dodate v preslikavo opravil, se bodo vse projektne pogodbe sinhronizirale s pravno osebo, ki je določena za nabor povezav, ne glede na pogodbeno organizacijsko enoto.
 
 ## <a name="template-mapping-in-data-integration"></a>Preslikava predlog v Integraciji podatkov
 

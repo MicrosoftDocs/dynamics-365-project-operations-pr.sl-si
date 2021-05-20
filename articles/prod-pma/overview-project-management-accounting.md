@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289794"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950509"
 ---
 # <a name="project-management-and-accounting-overview"></a>Pregled vodenja projektov in računovodstva
 
@@ -227,7 +227,7 @@ Vrsta projekta določa, kateri postopek izdajanja računov je treba uporabiti. Z
 Preden ustvarite račun za stranko projekta, lahko ustvarite predračun ali predlog računa. V predlogu računa lahko izberete projektne transakcije, ki jih želite vključiti v račun projekta. Nato lahko pregledate podatke o računu, preden knjižite račun projekta in ga pošljete stranki ali drugemu viru financiranja. 
 
 
-Za več informacij o tem, kako obdelovati račune projektov, glejte temo [Izdajanje računov za projekte](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Za več informacij o tem, kako obdelovati račune projektov, glejte temo [Izdajanje računov za projekte](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Izračun stroškov za dokončanje projekta

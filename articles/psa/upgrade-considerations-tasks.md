@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281768"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951364"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Nadgradnja vidikov za strukturirano členitev dela
 
@@ -34,20 +34,20 @@ Ta tema vsebuje informacije o nadgradnji strukturirane členitve dela iz storitv
 ## <a name="key-entities"></a>Ključne entitete
 Za natančno strukturirano členitev dela, ki že ima naložene vire, so potrebne naslednje entitete:
 
-- [Project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Projektna ekipa](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Projektno opravilo](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Dodelitve virov](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Odvisnost projektnega opravila](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Viri, ki jih je mogoče rezervirati](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Projektna ekipa](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Projektno opravilo](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Dodelitve virov](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Odvisnost projektnega opravila](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Viri, ki jih je mogoče rezervirati](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Če želite določiti vir z naloženo strukturirano členitvijo dela, morate izvesti naslednje korake:
 
-1. Ustvarite nov projekt. Za več informacij o tem, kako ustvarite nov projekt, glejte temo [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Ustvarite eno ali več opravil. Za več informacij o tem, kako ustvarite opravilo, glejte temo [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Določite odvisnosti opravila. Za več informacij glejte [Odvisnost projektnega opravila](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Dodelite člane projektne ekipe izbranemu projektu. Za več informacij glejte temo [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Dodelite člane projektne ekipe izbranim opravilom. Za več informacij glejte temo [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Ustvarite nov projekt. Za več informacij o tem, kako ustvarite nov projekt, glejte temo [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Ustvarite eno ali več opravil. Za več informacij o tem, kako ustvarite opravilo, glejte temo [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Določite odvisnosti opravila. Za več informacij glejte [Odvisnost projektnega opravila](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Dodelite člane projektne ekipe izbranemu projektu. Za več informacij glejte temo [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Dodelite člane projektne ekipe izbranim opravilom. Za več informacij glejte temo [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Odnosi projektnih ekip
 

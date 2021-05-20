@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275108"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950599"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Namestitev vzorčnih podatkov za aplikacijo Project Service
 
@@ -149,7 +149,7 @@ Za paket predstavitvenih podatkov je potrebnih šest uporabnikov. Za pravilno na
 
 5. Koledar prvega uporabnika (v oznaki **userstocreateandconfigure**) se uporablja za dopolnitev delovnega časa za vse vire, ki jih je mogoče rezervirati, pri uvozu predstavitvenih podatkov. Pomaknite se na razdelek **Nastavitve** > **Varnost** > **Uporabniki** in poiščite svojega uporabnika z imenom »Spencer Low« ter odprite možnost »Delovni čas«. Uredite obstoječi delovni čas tako, da izberete možnost **Celoten ponavljajoč se tedenski razpored od začetka do konca**. Zagotovite, da je **delovni čas nastavljen na 8.00–17.00 (9 ur) od ponedeljka do petka, časovni pas pa na pacifiški čas (ZDA in Kanada)**. To je potrebno za zagotovitev, da se plošči projekta in razporeda prikažeta, kot je pričakovano.
 
-**Priporočilo:** varnostno kopijo vaše organizacije ustvarite že zdaj, da se vam ne bo treba vrniti na začetek, če gre med namestitvijo vzorčnih podatkov kaj narobe. Za več informacij glejte razdelek [Varnostno kopiranje in obnovitev primerkov](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Priporočilo:** varnostno kopijo vaše organizacije ustvarite že zdaj, da se vam ne bo treba vrniti na začetek, če gre med namestitvijo vzorčnih podatkov kaj narobe. Za več informacij glejte razdelek [Varnostno kopiranje in obnovitev primerkov](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Zagon čarovnika Package Deployer
 

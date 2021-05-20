@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282308"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951409"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Prijava v storitev Project Service Automation
 
@@ -39,7 +39,7 @@ Ob prijavi v aplikacije Dynamics 365 potrebujete naslednje podatke od vašega sk
   
 - Geslo  
   
-  Te podatke ste najverjetneje prejeli v e-poštnem sporočilu skrbnika. Če nimate vseh potrebnih podatkov ali imate vprašanja glede prijave, [Poiščite svojega skrbnika ali osebo za podporo](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Te podatke ste najverjetneje prejeli v e-poštnem sporočilu skrbnika. Če nimate vseh potrebnih podatkov ali imate vprašanja glede prijave, [Poiščite svojega skrbnika ali osebo za podporo](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Nastavitev osebnih možnosti za omogočanje e-pošte  
  Če želite drugim omogočiti pošiljanje e-poštnih sporočil v vašem imenu, morate konfigurirati nastavitve e-pošte, da lahko [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] za vas pošilja e-poštna obvestila za odobritev časa in stroškov ali za vpis v projekte.  

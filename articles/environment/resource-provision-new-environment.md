@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276908"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950554"
 ---
 # <a name="provision-a-new-environment"></a>Omogočanje novega okolja
 
@@ -36,7 +36,7 @@ Uporabite naslednje korake, da omogočite avtomatizirano omogočanje uporabe sto
 
 ## <a name="provision-a-project-operations-environment"></a>Omogočanje uporabe okolja Project Operations
 
-1. Odprite novo [predstavitveno okolje](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance ali [preskusno/produkcijsko okolje](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) za uvedbo. 
+1. Odprite novo [predstavitveno okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance ali [preskusno/produkcijsko okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) za uvedbo. 
 2. Sprehodite se skozi čarovnika **Omogočanje okolja**. 
 
 > [!IMPORTANT]

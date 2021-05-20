@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290109"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950284"
 ---
 # <a name="deploy-project-operations---lite"></a>Uvedba aplikacije Project Operations – poenostavljena različica
 
@@ -34,14 +34,14 @@ Storitev Project Operations podpira več modelov uvedbe. Če želite določiti n
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Namestitev storitve Project Operations v novo okolje CDS
 
-1. Kot [globalni skrbnik ali skrbnik za Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) z licenco Project Operations ustvarite novo okolje CDS v [skrbniškem središču PowerPlatform](https://admin.powerplatform.com). Poskrbite, da so omogočene **Zbirka podatkov CDS** in **Aplikacije Dynamics 365**. Za več informacij glejte [Ustvarjanje in upravljanje okolij v skrbniškem središču Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Kot [globalni skrbnik ali skrbnik za Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) z licenco Project Operations ustvarite novo okolje CDS v [skrbniškem središču PowerPlatform](https://admin.powerplatform.com). Poskrbite, da so omogočene **Zbirka podatkov CDS** in **Aplikacije Dynamics 365**. Za več informacij glejte [Ustvarjanje in upravljanje okolij v skrbniškem središču Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Izberite **Microsoft Dynamics 365 Project Operations** s seznama za uvajanje aplikacij Dynamics 365.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Namestitev storitve Project Operations v obstoječe okolje CDS
 
-1. Kot [globalni skrbnik ali skrbnik Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) z licenco Project Operations poiščite okolje v [skrbniškem centru PowerPlatform](https://admin.powerplatform.com), kamor želite namestiti Project Operations.
-2. Namestite **Microsoft Dynamics 365 Project Operations** s seznama za uvajanje aplikacij Dynamics 365. Če želite več informacij, glejte [Upravljanje aplikacij Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. Kot [globalni skrbnik ali skrbnik Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) z licenco Project Operations poiščite okolje v [skrbniškem centru PowerPlatform](https://admin.powerplatform.com), kamor želite namestiti Project Operations.
+2. Namestite **Microsoft Dynamics 365 Project Operations** s seznama za uvajanje aplikacij Dynamics 365. Če želite več informacij, glejte [Upravljanje aplikacij Dynamics 365](/power-platform/admin/manage-apps).
 
 
 
