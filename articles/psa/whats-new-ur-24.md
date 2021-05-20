@@ -17,69 +17,69 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c789a65f1996d082410b3d8dd9e76e5065e708a2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 956dcd2a06fad1eec488ad81bec2de4bd0550e82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280508"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948935"
 ---
-# <a name="project-service-automation-update-release-24-v3"></a><span data-ttu-id="6d1f9-103">Izdaja posodobitve 24 za Project Service Automation, V3</span><span class="sxs-lookup"><span data-stu-id="6d1f9-103">Project Service Automation Update Release 24, V3</span></span>
+# <a name="project-service-automation-update-release-24-v3"></a><span data-ttu-id="40adb-103">Izdaja posodobitve 24 za Project Service Automation, V3</span><span class="sxs-lookup"><span data-stu-id="40adb-103">Project Service Automation Update Release 24, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="6d1f9-104">Z veseljem predstavljamo najnovejšo posodobitev za aplikacijo Project Service Automation za Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="6d1f9-105">Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="6d1f9-106">Ta izdaja je združljiva s storitvijo Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="6d1f9-107">Če želite posodobiti na to izdajo, obiščite stran z rešitvami v skrbniškem središču za Dynamics 365 online, da namestite posodobitev.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="6d1f9-108">Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="6d1f9-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="40adb-104">Z veseljem predstavljamo najnovejšo posodobitev za aplikacijo Project Service Automation za Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="40adb-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="40adb-105">Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti.</span><span class="sxs-lookup"><span data-stu-id="40adb-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="40adb-106">Ta izdaja je združljiva s storitvijo Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="40adb-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="40adb-107">Če želite posodobiti na to izdajo, obiščite stran z rešitvami v skrbniškem središču za Dynamics 365 online, da namestite posodobitev.</span><span class="sxs-lookup"><span data-stu-id="40adb-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="40adb-108">Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="40adb-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="6d1f9-109">V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation V3, izdaja posodobitve 24.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 24.</span></span> <span data-ttu-id="6d1f9-110">Ta različica ima številko graditve V 3.10.42.43 in je splošno na voljo s samostojno posodobitvijo od oktobra 2020.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-110">This version has a build number of V 3.10.42.43 and is generally available through a self-update in October 2020.</span></span>
+<span data-ttu-id="40adb-109">V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation V3, izdaja posodobitve 24.</span><span class="sxs-lookup"><span data-stu-id="40adb-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 24.</span></span> <span data-ttu-id="40adb-110">Ta različica ima številko graditve V 3.10.42.43 in je splošno na voljo s samostojno posodobitvijo od oktobra 2020.</span><span class="sxs-lookup"><span data-stu-id="40adb-110">This version has a build number of V 3.10.42.43 and is generally available through a self-update in October 2020.</span></span>
 
-## <a name="update-release-24"></a><span data-ttu-id="6d1f9-111">Izdaja posodobitve 24</span><span class="sxs-lookup"><span data-stu-id="6d1f9-111">Update Release 24</span></span>
+## <a name="update-release-24"></a><span data-ttu-id="40adb-111">Izdaja posodobitve 24</span><span class="sxs-lookup"><span data-stu-id="40adb-111">Update Release 24</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="6d1f9-112">Popravki napak</span><span class="sxs-lookup"><span data-stu-id="6d1f9-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="40adb-112">Popravki napak</span><span class="sxs-lookup"><span data-stu-id="40adb-112">Bug fixes</span></span>
 
-<span data-ttu-id="6d1f9-113">**Sales**</span><span class="sxs-lookup"><span data-stu-id="6d1f9-113">**Sales**</span></span>
+<span data-ttu-id="40adb-113">**Sales**</span><span class="sxs-lookup"><span data-stu-id="40adb-113">**Sales**</span></span>
 
-<span data-ttu-id="6d1f9-114">Odpravljene so naslednje težave:</span><span class="sxs-lookup"><span data-stu-id="6d1f9-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="40adb-114">Odpravljene so naslednje težave:</span><span class="sxs-lookup"><span data-stu-id="40adb-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="6d1f9-115">Težava pri nastavljanju privzetega cenika izdelkov.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-115">Problem while setting default price list of products.</span></span>
-- <span data-ttu-id="6d1f9-116">Pridobivanje ponudb je počasno zaradi vdelanega cenika in kopij zapisov o cenah vlog.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-116">Performance of Quote win is slow due to the embedded price list and role price records copy.</span></span>
-- <span data-ttu-id="6d1f9-117">**Projektna pogodba/središče za prodajo** > **Vrstična postavka izdelka/količina vrstice naročila** se samodejno zaokroži na najbližje celo število.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-117">**Project Contract/Sales Hub** > **Product Line Item/Order Line Quantity** is automatically rounded to the nearest integer.</span></span>
-- <span data-ttu-id="6d1f9-118">Povišanje sistemskih pravic pri branju cenikov.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-118">Elevate to system privileges when reading price lists.</span></span>
-- <span data-ttu-id="6d1f9-119">Kopiranje polj naslova stranke **address1_freighttermscode** in **address1_shippingmethodcode** v ponudbo/naročilo.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-119">Copy customer address fields **address1_freighttermscode** and **address1_shippingmethodcode** to Quote/Order.</span></span> 
-
-
-<span data-ttu-id="6d1f9-120">**Čas in strošek**</span><span class="sxs-lookup"><span data-stu-id="6d1f9-120">**Time and Expense**</span></span>
-
-<span data-ttu-id="6d1f9-121">Odpravljene so naslednje težave:</span><span class="sxs-lookup"><span data-stu-id="6d1f9-121">The following issues have been fixed:</span></span>
-
-- <span data-ttu-id="6d1f9-122">**Mreža časovnih vnosov** ne podpira vedenja časa **Samo datum**.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-122">The **Time Entry Grid** doesn't support **Date Only** time behavior.</span></span>
-- <span data-ttu-id="6d1f9-123">**Časovni vnos** se ne osvežuje samodejno.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-123">**Time Entry** is not refreshing automatically.</span></span> <span data-ttu-id="6d1f9-124">Potrebno je ročno osveževanje.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-124">A manual refresh is required.</span></span>
-- <span data-ttu-id="6d1f9-125">Časovnih vnosov iz dodelitve ni mogoče uvoziti, ko je v dodelitvah vira premor (0 ur).</span><span class="sxs-lookup"><span data-stu-id="6d1f9-125">Unable to import the time entries from an assignment when there is a break (0 hours) in a resource's assignments.</span></span>
-- <span data-ttu-id="6d1f9-126">Nastavitev začetka, da bo enak kot **msdyn_date**, pri ustvarjanju časovnega vnosa.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-126">When creating a time entry, set the start to the same as **msdyn_date**.</span></span>
-- <span data-ttu-id="6d1f9-127">Ponovno omogočanje množičnega urejanja časovnih vnosov.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-127">Re-enable bulk edit for time entry.</span></span>
-
-<span data-ttu-id="6d1f9-128">**Upravljanje virov**</span><span class="sxs-lookup"><span data-stu-id="6d1f9-128">**Resource Management**</span></span>
-
-<span data-ttu-id="6d1f9-129">Odpravljene so naslednje težave:</span><span class="sxs-lookup"><span data-stu-id="6d1f9-129">The following issues have been fixed:</span></span>
-
-- <span data-ttu-id="6d1f9-130">Poskus posodobitve stanja dnevne rezervacije brez zahteve povzroči izjemo sklica »null«.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-130">Trying to update the status of an inter-day booking without a requirement will throw a null-ref exception.</span></span>
-- <span data-ttu-id="6d1f9-131">Pri nalaganju možnosti **Pogled za usklajevanje** se pojavi napaka.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-131">Error loading the **Reconciliation View**.</span></span>
+- <span data-ttu-id="40adb-115">Težava pri nastavljanju privzetega cenika izdelkov.</span><span class="sxs-lookup"><span data-stu-id="40adb-115">Problem while setting default price list of products.</span></span>
+- <span data-ttu-id="40adb-116">Pridobivanje ponudb je počasno zaradi vdelanega cenika in kopij zapisov o cenah vlog.</span><span class="sxs-lookup"><span data-stu-id="40adb-116">Performance of Quote win is slow due to the embedded price list and role price records copy.</span></span>
+- <span data-ttu-id="40adb-117">**Projektna pogodba/središče za prodajo** > **Vrstična postavka izdelka/količina vrstice naročila** se samodejno zaokroži na najbližje celo število.</span><span class="sxs-lookup"><span data-stu-id="40adb-117">**Project Contract/Sales Hub** > **Product Line Item/Order Line Quantity** is automatically rounded to the nearest integer.</span></span>
+- <span data-ttu-id="40adb-118">Povišanje sistemskih pravic pri branju cenikov.</span><span class="sxs-lookup"><span data-stu-id="40adb-118">Elevate to system privileges when reading price lists.</span></span>
+- <span data-ttu-id="40adb-119">Kopiranje polj naslova stranke **address1_freighttermscode** in **address1_shippingmethodcode** v ponudbo/naročilo.</span><span class="sxs-lookup"><span data-stu-id="40adb-119">Copy customer address fields **address1_freighttermscode** and **address1_shippingmethodcode** to Quote/Order.</span></span> 
 
 
-<span data-ttu-id="6d1f9-132">**Vodenje projektov**</span><span class="sxs-lookup"><span data-stu-id="6d1f9-132">**Project Management**</span></span>
+<span data-ttu-id="40adb-120">**Čas in strošek**</span><span class="sxs-lookup"><span data-stu-id="40adb-120">**Time and Expense**</span></span>
 
-<span data-ttu-id="6d1f9-133">Odpravljene so naslednje težave:</span><span class="sxs-lookup"><span data-stu-id="6d1f9-133">The following issues have been fixed:</span></span>
+<span data-ttu-id="40adb-121">Odpravljene so naslednje težave:</span><span class="sxs-lookup"><span data-stu-id="40adb-121">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="6d1f9-134">Pri preklopu z možnosti **Ročno** na **Samodejno** v možnosti **Razpored projektov** se samodejno shranjevanje ne dokonča.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-134">In the **Project Schedule**, when changing from **Manual** to **Auto**, auto save is not completing.</span></span>
-- <span data-ttu-id="6d1f9-135">Stroški ne bi smeli biti vračunani v odstopanje v razdelku **Mreža za sledenje projektom**.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-135">Expense costs should not calculate toward variance on the **Project Tracking Grid**.</span></span>
-- <span data-ttu-id="6d1f9-136">Nedosledno vedenje stolpcev **Oznaka ocene** med obremenitvijo v primerjavi s spremembo vrste **Časovni razpored**.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-136">Inconsistent behavior for **Estimates tag** columns during load versus changing the **Time-Phase** type.</span></span>
-- <span data-ttu-id="6d1f9-137">Dejanski stroški projekta morda ne odražajo skupnega zneska v razdelku **Dejanske vrednosti**.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-137">The actual cost on a project may not reflect the totals from **Actuals**.</span></span>
-- <span data-ttu-id="6d1f9-138">**Predvideni končni datum** na zavihku **Povzetek** se ne ujema z možnostjo **Urnik SČD**.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-138">**Estimated Finish Date** on the **Summary** tab does not match the **WBS Schedule**.</span></span>
-- <span data-ttu-id="6d1f9-139">Možnost **Posodobi dejanske ure** pri primikanju ne deluje pravilno.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-139">**Update Actual Hours** on outdent does not work correctly.</span></span>
-- <span data-ttu-id="6d1f9-140">Vodja projekta zunaj korenske **poslovne enote** ne more ustvariti projekta.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-140">A Project manager outside of root **BU** can't create a project.</span></span>
-- <span data-ttu-id="6d1f9-141">Spremembe opravila ali kategorije v razdelku **Ocene stroškov** se ne ohranijo.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-141">Changes to task or category on **Expense Estimates** are not persisted.</span></span>
-- <span data-ttu-id="6d1f9-142">**Kopija pogodbe** kopira razporede računov in stanje izvajanja.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-142">**Copy of contract** copies the invoice schedules and the run status.</span></span>
-- <span data-ttu-id="6d1f9-143">Gumb **Osveži dejanske podatke** napačno izračuna opravila povzetka.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-143">**Refresh Actuals** button incorrectly calculates summary tasks.</span></span>
-- <span data-ttu-id="6d1f9-144">Dodatek za Microsoft Project: popravek napake s sklicem »null«, če ima kateri koli član ekipe prazno enoto vira.</span><span class="sxs-lookup"><span data-stu-id="6d1f9-144">Microsoft Project Add-in: Fix null reference error if any team member has an empty resourcing unit.</span></span>
+- <span data-ttu-id="40adb-122">**Mreža časovnih vnosov** ne podpira vedenja časa **Samo datum**.</span><span class="sxs-lookup"><span data-stu-id="40adb-122">The **Time Entry Grid** doesn't support **Date Only** time behavior.</span></span>
+- <span data-ttu-id="40adb-123">**Časovni vnos** se ne osvežuje samodejno.</span><span class="sxs-lookup"><span data-stu-id="40adb-123">**Time Entry** is not refreshing automatically.</span></span> <span data-ttu-id="40adb-124">Potrebno je ročno osveževanje.</span><span class="sxs-lookup"><span data-stu-id="40adb-124">A manual refresh is required.</span></span>
+- <span data-ttu-id="40adb-125">Časovnih vnosov iz dodelitve ni mogoče uvoziti, ko je v dodelitvah vira premor (0 ur).</span><span class="sxs-lookup"><span data-stu-id="40adb-125">Unable to import the time entries from an assignment when there is a break (0 hours) in a resource's assignments.</span></span>
+- <span data-ttu-id="40adb-126">Nastavitev začetka, da bo enak kot **msdyn_date**, pri ustvarjanju časovnega vnosa.</span><span class="sxs-lookup"><span data-stu-id="40adb-126">When creating a time entry, set the start to the same as **msdyn_date**.</span></span>
+- <span data-ttu-id="40adb-127">Ponovno omogočanje množičnega urejanja časovnih vnosov.</span><span class="sxs-lookup"><span data-stu-id="40adb-127">Re-enable bulk edit for time entry.</span></span>
+
+<span data-ttu-id="40adb-128">**Upravljanje virov**</span><span class="sxs-lookup"><span data-stu-id="40adb-128">**Resource Management**</span></span>
+
+<span data-ttu-id="40adb-129">Odpravljene so naslednje težave:</span><span class="sxs-lookup"><span data-stu-id="40adb-129">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="40adb-130">Poskus posodobitve stanja dnevne rezervacije brez zahteve povzroči izjemo sklica »null«.</span><span class="sxs-lookup"><span data-stu-id="40adb-130">Trying to update the status of an inter-day booking without a requirement will throw a null-ref exception.</span></span>
+- <span data-ttu-id="40adb-131">Pri nalaganju možnosti **Pogled za usklajevanje** se pojavi napaka.</span><span class="sxs-lookup"><span data-stu-id="40adb-131">Error loading the **Reconciliation View**.</span></span>
+
+
+<span data-ttu-id="40adb-132">**Vodenje projektov**</span><span class="sxs-lookup"><span data-stu-id="40adb-132">**Project Management**</span></span>
+
+<span data-ttu-id="40adb-133">Odpravljene so naslednje težave:</span><span class="sxs-lookup"><span data-stu-id="40adb-133">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="40adb-134">Pri preklopu z možnosti **Ročno** na **Samodejno** v možnosti **Razpored projektov** se samodejno shranjevanje ne dokonča.</span><span class="sxs-lookup"><span data-stu-id="40adb-134">In the **Project Schedule**, when changing from **Manual** to **Auto**, auto save is not completing.</span></span>
+- <span data-ttu-id="40adb-135">Stroški ne bi smeli biti vračunani v odstopanje v razdelku **Mreža za sledenje projektom**.</span><span class="sxs-lookup"><span data-stu-id="40adb-135">Expense costs should not calculate toward variance on the **Project Tracking Grid**.</span></span>
+- <span data-ttu-id="40adb-136">Nedosledno vedenje stolpcev **Oznaka ocene** med obremenitvijo v primerjavi s spremembo vrste **Časovni razpored**.</span><span class="sxs-lookup"><span data-stu-id="40adb-136">Inconsistent behavior for **Estimates tag** columns during load versus changing the **Time-Phase** type.</span></span>
+- <span data-ttu-id="40adb-137">Dejanski stroški projekta morda ne odražajo skupnega zneska v razdelku **Dejanske vrednosti**.</span><span class="sxs-lookup"><span data-stu-id="40adb-137">The actual cost on a project may not reflect the totals from **Actuals**.</span></span>
+- <span data-ttu-id="40adb-138">**Predvideni končni datum** na zavihku **Povzetek** se ne ujema z možnostjo **Urnik SČD**.</span><span class="sxs-lookup"><span data-stu-id="40adb-138">**Estimated Finish Date** on the **Summary** tab does not match the **WBS Schedule**.</span></span>
+- <span data-ttu-id="40adb-139">Možnost **Posodobi dejanske ure** pri primikanju ne deluje pravilno.</span><span class="sxs-lookup"><span data-stu-id="40adb-139">**Update Actual Hours** on outdent does not work correctly.</span></span>
+- <span data-ttu-id="40adb-140">Vodja projekta zunaj korenske **poslovne enote** ne more ustvariti projekta.</span><span class="sxs-lookup"><span data-stu-id="40adb-140">A Project manager outside of root **BU** can't create a project.</span></span>
+- <span data-ttu-id="40adb-141">Spremembe opravila ali kategorije v razdelku **Ocene stroškov** se ne ohranijo.</span><span class="sxs-lookup"><span data-stu-id="40adb-141">Changes to task or category on **Expense Estimates** are not persisted.</span></span>
+- <span data-ttu-id="40adb-142">**Kopija pogodbe** kopira razporede računov in stanje izvajanja.</span><span class="sxs-lookup"><span data-stu-id="40adb-142">**Copy of contract** copies the invoice schedules and the run status.</span></span>
+- <span data-ttu-id="40adb-143">Gumb **Osveži dejanske podatke** napačno izračuna opravila povzetka.</span><span class="sxs-lookup"><span data-stu-id="40adb-143">**Refresh Actuals** button incorrectly calculates summary tasks.</span></span>
+- <span data-ttu-id="40adb-144">Dodatek za Microsoft Project: popravek napake s sklicem »null«, če ima kateri koli član ekipe prazno enoto vira.</span><span class="sxs-lookup"><span data-stu-id="40adb-144">Microsoft Project Add-in: Fix null reference error if any team member has an empty resourcing unit.</span></span>
 
 
 
