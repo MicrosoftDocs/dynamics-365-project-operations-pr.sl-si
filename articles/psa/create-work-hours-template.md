@@ -1,6 +1,6 @@
 ---
-title: Ustvarjanje predlog delovnih ur
-description: Navodila za ustvarjanje predloge delovnih ur v rešitvi Project Service
+title: Ustvarjanje predloge delovnih ur
+description: V tej temi so opisana navodila za ustvarjanje predloge delovnih ur v storitvi Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285053"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981275"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="e73d5-103">Ustvarjanje predloge delovnih ur (rešitev Project Service)</span><span class="sxs-lookup"><span data-stu-id="e73d5-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="12900-103">Ustvarjanje predloge delovnih ur (rešitev Project Service)</span><span class="sxs-lookup"><span data-stu-id="12900-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="e73d5-104">Preden lahko ustvarjate razporede projektov, morate nastaviti koledar za projekte, ki določa število delovnih ur na dan na urniku in vse dneve, ko je podjetje zaprto.</span><span class="sxs-lookup"><span data-stu-id="e73d5-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="e73d5-105">To naredite s predlogo delovnih ur, ki vsebuje podrobnosti o številu delovnih ur na dan, prostih dnevih in drugih dnevih, ko je podjetje zaprto.</span><span class="sxs-lookup"><span data-stu-id="e73d5-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="e73d5-106">Ko ustvarjate projekt, predlogo delovnih ur povežete s koledarjem projekta, da za projekt lahko uporabite razpored.</span><span class="sxs-lookup"><span data-stu-id="e73d5-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="e73d5-107">Na voljo sta dva načina za ustvarjanje predloge delovnih ur:</span><span class="sxs-lookup"><span data-stu-id="e73d5-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="e73d5-108">Predlogo delovnih ur ustvarite glede na koledar virov.</span><span class="sxs-lookup"><span data-stu-id="e73d5-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="e73d5-109">Ustvarite novo predlogo delovnih ur.</span><span class="sxs-lookup"><span data-stu-id="e73d5-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="e73d5-110">Za ustvarjanje predloge delovnih ur glede na koledar virov</span><span class="sxs-lookup"><span data-stu-id="e73d5-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="e73d5-111">Pojdite na **Project Service > Viri**.</span><span class="sxs-lookup"><span data-stu-id="e73d5-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="e73d5-112">Izberite vir, ki bo osnova za delovne ure.</span><span class="sxs-lookup"><span data-stu-id="e73d5-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="e73d5-113">Kliknite **Shrani koledar kot**, vnesite ime za predlogo delovnih ur in nato kliknite **Shrani**.</span><span class="sxs-lookup"><span data-stu-id="e73d5-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="e73d5-114">Ko končate spreminjanje možnosti, kliknite **Shrani in zapri**.</span><span class="sxs-lookup"><span data-stu-id="e73d5-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="e73d5-115">Kliknite gumb **Shrani** v spodnjem desnem kotu zaslona.</span><span class="sxs-lookup"><span data-stu-id="e73d5-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="e73d5-116">Za ustvarjanje nove predloge delovnih ur</span><span class="sxs-lookup"><span data-stu-id="e73d5-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="e73d5-117">Pojdite na **Project Service > Predloge delovnih ur**.</span><span class="sxs-lookup"><span data-stu-id="e73d5-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="e73d5-118">Kliknite **Novo**.</span><span class="sxs-lookup"><span data-stu-id="e73d5-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="e73d5-119">Vnesite ime za predlogo delovnih ur.</span><span class="sxs-lookup"><span data-stu-id="e73d5-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="e73d5-120">Izberite vir, ki bo osnova za delovne ure, in nato kliknite **Shrani**.</span><span class="sxs-lookup"><span data-stu-id="e73d5-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="e73d5-121">Glejte tudi</span><span class="sxs-lookup"><span data-stu-id="e73d5-121">See Also</span></span>  
- [<span data-ttu-id="e73d5-122">Nastavitev virov</span><span class="sxs-lookup"><span data-stu-id="e73d5-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="12900-104">Če želite ustvariti projekt in ga upravljati, morate za projekt uporabiti predlogo koledarja.</span><span class="sxs-lookup"><span data-stu-id="12900-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="12900-105">Predloga koledarja opredeljuje naslednje atribute projekta:</span><span class="sxs-lookup"><span data-stu-id="12900-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="12900-106">Delovni čas, vključno z začetnim in končnim časom</span><span class="sxs-lookup"><span data-stu-id="12900-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="12900-107">Delovni dnevi</span><span class="sxs-lookup"><span data-stu-id="12900-107">Working days</span></span>
+- <span data-ttu-id="12900-108">Izjeme v koledarju, kot so prosti dnevi</span><span class="sxs-lookup"><span data-stu-id="12900-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="12900-109">Predloga koledarja, ki se uporablja za projekt, je kopija predloge koledarja, določene v nastavitvah vaše organizacije.</span><span class="sxs-lookup"><span data-stu-id="12900-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="12900-110">Če spremenite predlogo koledarja, se te spremembe ne bodo razširile na delovni čas projekta.</span><span class="sxs-lookup"><span data-stu-id="12900-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="12900-111">Za spremembo delovnega časa projekta je treba uporabiti novo predlogo.</span><span class="sxs-lookup"><span data-stu-id="12900-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="12900-112">Če želite ustvariti predlogo koledarja za svojo organizacijo, je treba upoštevati ključni zahtevi:</span><span class="sxs-lookup"><span data-stu-id="12900-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="12900-113">Določite želeni delovni čas predloge z novim ali obstoječim virom, ki ga je mogoče rezervirati.</span><span class="sxs-lookup"><span data-stu-id="12900-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="12900-114">Ustvarite novo predlogo koledarja in jo povežite z virom, ki ga je mogoče rezervirati.</span><span class="sxs-lookup"><span data-stu-id="12900-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="12900-115">**Določanje delovnega časa predloge**</span><span class="sxs-lookup"><span data-stu-id="12900-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="12900-116">Odprite možnost **Viri** \> **Viri**.</span><span class="sxs-lookup"><span data-stu-id="12900-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="12900-117">Ustvarite nov vir za sklicevanje v predlogi koledarja ali izberite obstoječega.</span><span class="sxs-lookup"><span data-stu-id="12900-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="12900-118">Izberite zavihek **Delovni čas** vira in upoštevajte navodila v članku [Nastavitev delovnih ur za vir](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource), da konfigurirate pravila koledarja.</span><span class="sxs-lookup"><span data-stu-id="12900-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="12900-119">**Ustvarjanje nove predloge koledarja**</span><span class="sxs-lookup"><span data-stu-id="12900-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="12900-120">Odprite razdelek **Nastavitve** \> **Predloga koledarja**.</span><span class="sxs-lookup"><span data-stu-id="12900-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="12900-121">Izberite možnost **Novo** in vnesite ime, opis in vir predloge.</span><span class="sxs-lookup"><span data-stu-id="12900-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="12900-122">Ko je vir naveden v predlogi koledarja, je kopija koledarja vira povezana s predlogo koledarja.</span><span class="sxs-lookup"><span data-stu-id="12900-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="12900-123">Če se delovni časi kopije predloge spremenijo, se te spremembe ne bodo razširile na predlogo projekta.</span><span class="sxs-lookup"><span data-stu-id="12900-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="12900-124">Glejte tudi</span><span class="sxs-lookup"><span data-stu-id="12900-124">See Also</span></span>  
+ [<span data-ttu-id="12900-125">Nastavitev virov</span><span class="sxs-lookup"><span data-stu-id="12900-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
