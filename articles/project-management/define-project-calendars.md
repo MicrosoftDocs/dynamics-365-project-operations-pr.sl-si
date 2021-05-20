@@ -1,9 +1,9 @@
 ---
 title: Določitev koledarjev projektov
-description: Ta tema vsebuje informacije o uporabi koledarja projekta za sledenje razporedu projekta.
+description: Ta tema vsebuje informacije o tem, kako uporabiti predlogo koledarja v projektu za sledenje razporedu projekta.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286988"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981320"
 ---
 # <a name="define-project-calendars"></a>Določitev koledarjev projektov
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Če želite ustvariti razpored projekta, ustvarite predlogo koledarja za projekt, ki določa število delovnih ur na dan in vse dneve, ko je podjetje zaprto. Če želite ustvariti predlogo koledarja za projekt, povežite delovno predlogo s poljem **Predloga koledarja** za projekt. Za ustvarjanje delovne predloge sledite spodnjim korakom.
+Če želite ustvariti projekt in ga upravljati, morate za projekt uporabiti predlogo koledarja. Predloga koledarja opredeljuje naslednje atribute projekta:
 
-1. V podoknu za krmarjenje na levi izberite **Viri**. 
-2. Na strani seznama **Viri** odprite zapis uporabnika in nato izberite **Prikaži delovne ure**.
+- Delovni čas, vključno z začetnim in končnim časom
+- Delovni dnevi
+- Izjeme v koledarju, kot so prosti dnevi
 
-  > [!NOTE]
-  > Preverite, ali dovolite pojavna okna na strani brskalnika. Tako lahko vidite delovne ure, nastavljene za vir.
-  
-3. Na zavihku **Mesečni pogled** izberite **Nastavi**. Prikaže se seznam treh možnosti: 
+Predloga koledarja, ki se uporablja za projekt, je kopija predloge koledarja, določene v nastavitvah vaše organizacije.
 
-  - Nov tedenski urnik
-  - Urnik dela za en dan
-  - Prosti čas
+> [!NOTE]
+> Če spremenite predlogo koledarja, se te spremembe ne bodo razširile na delovni čas projekta. Za spremembo delovnega časa projekta je treba uporabiti novo predlogo.
 
-4. Izberite **Nov tedenski urnik** in nato nastavite možnosti za ta razpored virov. Nastavite lahko ponavljajoči se tedenski razpored, dnevne in urne parametre, čas, ko je podjetje zaprto, in še več.
-5. Nastavite datumski obseg, izberite **Shrani** in nato izberite **Zapri**. 
-6. Vrnite se na stran seznama **Viri** in izberite vir, za katerega ste nastavili delovne ure. 
-7. Izberite **Nastavi koledar kot**, da nastavite delovno predlogo. 
-8. V pogovornem oknu **Delovna predloga** vnesite ime delovne predloge in izberite **Uporabi**. 
+Če želite ustvariti predlogo koledarja za svojo organizacijo, je treba upoštevati ključni zahtevi:
+
+- Določite želeni delovni čas predloge z novim ali obstoječim virom, ki ga je mogoče rezervirati.
+- Ustvarite novo predlogo koledarja in jo povežite z virom, ki ga je mogoče rezervirati.
+
+**Določanje delovnega časa predloge**
+
+1. Odprite možnost **Viri** \> **Viri**.
+2. Ustvarite nov vir za sklicevanje v predlogi koledarja ali izberite obstoječega.
+3. Izberite zavihek **Delovni čas** vira in upoštevajte navodila v članku [Nastavitev delovnih ur za vir](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource), da konfigurirate pravila koledarja.
+
+**Ustvarjanje nove predloge koledarja**
+
+1. Odprite razdelek **Nastavitve** \> **Predloga koledarja**.
+2. Izberite možnost **Novo** in vnesite ime, opis in vir predloge.
+
+> [!NOTE]
+> Ko je vir naveden v predlogi koledarja, je kopija koledarja vira povezana s predlogo koledarja. Če se delovni časi kopije predloge spremenijo, se te spremembe ne bodo razširile na predlogo projekta.
 
 Delovno predlogo lahko zdaj povežete s predlogo koledarja projekta.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
