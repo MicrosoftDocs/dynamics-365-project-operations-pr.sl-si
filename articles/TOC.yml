@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novosti
       items:
+        - name: 'Maj 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: 'April 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 'Marec 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Nastavitev kategorij stroškov
               href: expense/set-up-expense-categories.md
+            - name: Nastavitev kilometrine s stopnjami kilometrine
+              href: expense/set-up-mileage.md
         - name: Osebni stroški
           href: expense/personal-expenses-expense-report.md
         - name: Medpodjetni stroški
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Novosti
       items:
+        - name: Novosti za maj 2021 – poenostavljeno uvajanje
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Novosti za april 2021 – poenostavljeno uvajanje
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Novosti za marec 2021 – poenostavljeno uvajanje
@@ -1028,6 +1034,8 @@
       items:
         - name: Razpored izdaje posodobitev za Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ali spremembe v izdaji posodobitve 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Prilagajanje tedenskih časovnih vnosov
               href: psa/time-entry-extensibility-v3.md
+            - name: Nabori odobritev
+              href: psa/approval-set.md
     - name: Pogosta vprašanja in odpravljanje težav (3.x)
       items:
         - name: Zakaj se cena pri dejanski vrednosti »strošek – cena« privzeto nastavi na nič?
