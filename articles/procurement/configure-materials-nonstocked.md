@@ -2,19 +2,17 @@
 title: Konfiguracija materialov, ki niso na zalogi, in čakajočih računov dobavitelja
 description: V tej temi je pojasnjeno, kako omogočiti materiale, ki niso na zalogi, in čakajoče račune dobavitelja.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880687"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993931"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfiguracija materialov, ki niso na zalogi, in čakajočih računov dobavitelja
 
@@ -61,11 +59,11 @@ V tem razdelku so na voljo informacije o posebnih preslikavah, potrebnih za mate
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktiviranje poteka dela za ustvarjanje računov na podlagi entitete dobavitelja
 
-Osnovna rešitev za organiziranje z dvojnim zapisovanjem zagotavlja [Glavno integracijo dobaviteljev](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Kot predpogoj za to funkcijo je treba podatke dobavitelja ustvariti v entiteti **Kupci**. Aktivirajte postopek predloge poteka dela za ustvarjanje dobaviteljev v tabeli **Kupci**, kot je opisano v članku [Preklop med načrti dobaviteljev](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Osnovna rešitev za organiziranje z dvojnim zapisovanjem zagotavlja [Glavno integracijo dobaviteljev](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Kot predpogoj za to funkcijo je treba podatke dobavitelja ustvariti v entiteti **Kupci**. Aktivirajte postopek predloge poteka dela za ustvarjanje dobaviteljev v tabeli **Kupci**, kot je opisano v članku [Preklop med načrti dobaviteljev](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Nastavitev izdelkov, da bodo ustvarjeni kot dejavni
 
-Materiali, ki niso na zalogi, morajo biti v aplikaciji Finance nastavljeni kot **Izdani izdelki**. Osnovna rešitev za organiziranje z dvojnim zapisovanjem zagotavlja vnaprej pripravljeno [Integracijo izdanih izdelkov v katalog izdelkov storitve Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Privzeto se izdelki iz aplikacije Finance sinhronizirajo v storitev Dataverse v stanju osnutka. Če želite izdelek sinhronizirati v dejavno stanje, tako da ga je mogoče neposredno uporabiti v dokumentih za uporabo materiala ali v čakajočih računov dobavitelja, se pomaknite v razdelek **Sistem** > **Administracija** > **Administracija sistema** > **Sistemske nastavitve** in na zavihku **Prodaja** nastavite možnost **Ustvari izdelke v dejavnem stanju** na **Da**.
+Materiali, ki niso na zalogi, morajo biti v aplikaciji Finance nastavljeni kot **Izdani izdelki**. Osnovna rešitev za organiziranje z dvojnim zapisovanjem zagotavlja vnaprej pripravljeno [Integracijo izdanih izdelkov v katalog izdelkov storitve Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Privzeto se izdelki iz aplikacije Finance sinhronizirajo v storitev Dataverse v stanju osnutka. Če želite izdelek sinhronizirati v dejavno stanje, tako da ga je mogoče neposredno uporabiti v dokumentih za uporabo materiala ali v čakajočih računov dobavitelja, se pomaknite v razdelek **Sistem** > **Administracija** > **Administracija sistema** > **Sistemske nastavitve** in na zavihku **Prodaja** nastavite možnost **Ustvari izdelke v dejavnem stanju** na **Da**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfiguracija zahtev v storitvi Finance
 

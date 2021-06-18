@@ -2,11 +2,9 @@
 title: Izterjava DDV
 description: V tej temi je pojasnjeno, kako prejemati vračila za transakcije z davkom na dodano vrednost (DDV).
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 187532281f6aba3cc3fb03428d93c8ebc4cf4a3d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 20e29a47d73d28c0bf8dbb3495ad301481c529cd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271957"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993616"
 ---
 # <a name="vat-recovery"></a>Izterjava DDV 
 
@@ -41,25 +39,25 @@ Po izpolnitvi predpogojev zaposleni upoštevajo naslednje korake za zahtevanje v
 4. Pošljite podatke o izterjavi DDV neodvisnemu ponudniku, da vloži zahtevek za mednarodno izterjavo.
 5. Stroški obdelave za domačo izterjavo DDV.
 
-Naslednji razdelki vsebujejo primere, ki prikazujejo, kako zaposleni v podjetju Contoso opravijo vsak korak.
+V naslednjih razdelkih so primeri, ki kažejo, kako zaposleni v podjetju Contoso opravijo vsak korak.
 
 ## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>V poročilo o stroških vnesite davčne podatke o transakcijah s kreditnimi karticami, da ugotovite upravičena vračila DDV
 
-Nancy, prodajna zastopnica podjetja Contoso s sedežem v ZDA, se je pred kratkim vrnila s službenega potovanja na področju prodaje v Združeno kraljestvo. Med potovanjem je Nancy imela nekaj osebnih stroškov na kreditni kartici za prehrano. Nancy mora zdaj pripraviti poročilo o stroških, da uskladi svoje stroške.
+Nancy, prodajna zastopnica podjetja Contoso, ki se nahaja v ZDA, se je pred kratkim vrnila s prodajnega potovanja v Združeno kraljestvo. Med potovanjem je Nancy imela nekaj osebnih stroškov na kreditni kartici za prehrano. Nancy mora zdaj pripraviti poročilo o stroških, da uskladi svoje stroške.
 
 Ko Nancy vnese podatke v svoje poročilo o stroških, izbere **Združeno kraljestvo** v polju **Država/regija** na strani **Uredi poročilo o stroških**. Nato se seznam skupin prometnega davka filtrira, tako da prikazuje samo skupine, ki veljajo za Združeno kraljestvo. Nancy izbere skupino prometnega davka **Združeno kraljestvo 001** in nato izbere skupino prometnega davka za izdelek **Prehrana**. Nancy nato doda novo transakcijo za svojo nastanitev. Ker sta za nastanitev v Združenem kraljestvu na voljo le ena skupina prometnega davka in skupina prometnega davka za element, se te informacije samodejno vnesejo v Nancyjino poročilo o stroških.
 
-V skladu s pravilnikom podjetja Contoso morajo vsi stroški imeti ustrezen račun. Zato Nancy po tem, ko shrani poročilo o stroških, prejme sporočilo, v katerem piše, da mora priložiti račun za vsako transakcijo, ki jo je navedla v poročilu o stroških. Nancy preveri, ali je poročilu o stroških priložila digitalno sliko vsakega potrdila o transakciji, nato pa svoje poročilo pošlje v odobritev. Nato fizične račune pošlje skupini za ekipi za zaledno obdelavo. Ta ekipa bo podatke o izterjavi DDV poslala neodvisnemu ponudniku, ki za Contoso vloži zahtevek za mednarodno izterjavo DDV.
+Na podlagi pravilnika podjetja Contoso morajo imeti vsi stroški ustrezen račun. Zato Nancy po tem, ko shrani poročilo o stroških, prejme sporočilo, v katerem piše, da mora priložiti račun za vsako transakcijo, ki jo je navedla v poročilu o stroških. Nancy preveri, ali je poročilu o stroških priložila digitalno sliko vsakega potrdila o transakciji, nato pa svoje poročilo pošlje v odobritev. Nato fizične račune pošlje skupini za ekipi za zaledno obdelavo. Ta skupina bo podatke o izterjavi DDV-ja poslala neodvisnemu dobavitelju, ki vloži mednarodne izterjave DDV-ja za podjetje Contoso.
 
 ## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>Preverite, ali so vsi davčni podatki popolni, in nato objavite poročilo o stroških
 
-April, koordinatorica za obveznosti v podjetju Contoso, mora pred objavo poročila o stroških vnesti vse davčne podatke, ki v njem manjkajo. Odpre stran **Podrobnosti poročila o stroških** in vidi Nancyjino odobreno poročilo o stroških. April nato odpre poročilo o stroških, da si ogleda podrobnosti transakcij. Vidi, da Nancy za eno od transakcij ni skupine prometnega davka za izdelek. Ker ta informacije ni vnesena, April ne more objaviti poročila o stroških. Zato April pogleda na stran **Davčne konfiguracije** pri upravljanju stroškov in poišče ustrezno skupino prometnega davka za element za državo/regijo in vrsto transakcije. April lahko zdaj poročilo o stroških objavi v glavni knjigi.
+April, Koordinatorka za obveznosti pri podjetju Contoso, mora pred objavo poročila vnesti vse manjkajoče davčne podatke v poročilo o stroških. Odpre stran **Podrobnosti poročila o stroških** in vidi Nancyjino odobreno poročilo o stroških. April nato odpre poročilo o stroških, da si ogleda podrobnosti transakcij. Vidi, da Nancy za eno od transakcij ni skupine prometnega davka za izdelek. Ker ta informacije ni vnesena, April ne more objaviti poročila o stroških. Zato April pogleda na stran **Davčne konfiguracije** pri upravljanju stroškov in poišče ustrezno skupino prometnega davka za element za državo/regijo in vrsto transakcije. April lahko zdaj poročilo o stroških objavi v glavni knjigi.
 
 Ko April objavi poročilo o stroških, se ustvari delovna naloga z obnovljivim DDV. Ta delovna naloga se dodeljena članu ekipe za zaledno obdelavo. April prejme sporočilo, ki potrjuje, da je bila objava uspešna. V tem sporočilu je navedeno tudi število transakcij z DDV, ki so bile prepoznane za izterjavo.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Stroški obdelave, ki so upravičeni za mednarodno izterjavo DDV
 
-Arnie, član Contosove ekipe za zaledno obdelavo, je odgovoren za potrjevanje, da so v poročila o stroških vključene vse potrebne informacije za izterjavo DDV. Odpre stran **Izterjava davka za stroške** in izbere poročilo o stroških, ki ga je predložila Nancy. Arnie nato preveri, ali so priloženi vsi zahtevani računi in ali so bile vnesene pravilne skupine prometnega davka in kode prometnega davka za element.
+Arnie, član zaledne ekipe za obdelavo pri podjetju Contoso, je odgovoren za potrditev, da so vsi potrebni podatki za izterjavo DDV-ja vključeni v poročila o stroških. Odpre stran **Izterjava davka za stroške** in izbere poročilo o stroških, ki ga je predložila Nancy. Arnie nato preveri, ali so priloženi vsi zahtevani računi in ali so bile vnesene pravilne skupine prometnega davka in kode prometnega davka za element.
 
 Ko Arnie od Nancy prejme fizične račune, jih preveri glede na digitalne račune in nato spremeni stanje poročila o stroških v **Pripravljeno za izterjavo**.
 

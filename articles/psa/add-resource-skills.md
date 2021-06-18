@@ -2,8 +2,6 @@
 title: Dodajanje znanja virov
 description: Navodila za povezovanje znanj z viri v rešitvi Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 72ea9420be5541388bf0b154a0be13bd0025cf67
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1e7b37c77c7ba688dc33ed382ec7ef610a5dee2d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285413"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992770"
 ---
 # <a name="add-resource-skills-project-service"></a>Dodajanje znanj virov (rešitev Project Service)
 
