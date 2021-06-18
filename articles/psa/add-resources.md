@@ -2,8 +2,6 @@
 title: Dodajanje virov
 description: Navodila za dodajanje virov v rešitvi Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,43 +16,43 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9ec7ac38475269f472f97f4537cfcdf1abcada37
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 72d365171bbbcb94b8d63e825c9f98091772c274
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285368"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992671"
 ---
-# <a name="add-resources-project-service"></a><span data-ttu-id="05355-103">Dodajanje virov (rešitev Project Service)</span><span class="sxs-lookup"><span data-stu-id="05355-103">Add resources (Project Service)</span></span>
+# <a name="add-resources-project-service"></a><span data-ttu-id="d93af-103">Dodajanje virov (rešitev Project Service)</span><span class="sxs-lookup"><span data-stu-id="d93af-103">Add resources (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="05355-104">Z dodajanjem virov jih lahko rezervirate za projekte.</span><span class="sxs-lookup"><span data-stu-id="05355-104">Add resources so you can book them for projects.</span></span> <span data-ttu-id="05355-105">Viri lahko vključujejo uporabnike, stike, kupce, skupine ali opremo – vse, kar želite vključiti v načrtovanje in zaračunavanje projekta.</span><span class="sxs-lookup"><span data-stu-id="05355-105">Resources can include users, contacts, accounts, groups, or equipment—anything that you might want to include in your project scheduling and invoicing.</span></span>  
+<span data-ttu-id="d93af-104">Z dodajanjem virov jih lahko rezervirate za projekte.</span><span class="sxs-lookup"><span data-stu-id="d93af-104">Add resources so you can book them for projects.</span></span> <span data-ttu-id="d93af-105">Viri lahko vključujejo uporabnike, stike, kupce, skupine ali opremo – vse, kar želite vključiti v načrtovanje in zaračunavanje projekta.</span><span class="sxs-lookup"><span data-stu-id="d93af-105">Resources can include users, contacts, accounts, groups, or equipment—anything that you might want to include in your project scheduling and invoicing.</span></span>  
   
-<span data-ttu-id="05355-106">Vire lahko dodelite organizacijskim enotam, če potrebujete različno vrednotenje stroškov in cen za vire za različne oddelke podjetja.</span><span class="sxs-lookup"><span data-stu-id="05355-106">You can assign resources to organizational units if you need to have different costing and pricing for resources for different divisions in your company.</span></span>  
+<span data-ttu-id="d93af-106">Vire lahko dodelite organizacijskim enotam, če potrebujete različno vrednotenje stroškov in cen za vire za različne oddelke podjetja.</span><span class="sxs-lookup"><span data-stu-id="d93af-106">You can assign resources to organizational units if you need to have different costing and pricing for resources for different divisions in your company.</span></span>  
   
-1.  <span data-ttu-id="05355-107">Pojdite na **Project Service > Viri**.</span><span class="sxs-lookup"><span data-stu-id="05355-107">Go to **Project Service > Resources.**</span></span>  
+1.  <span data-ttu-id="d93af-107">Pojdite na **Project Service > Viri**.</span><span class="sxs-lookup"><span data-stu-id="d93af-107">Go to **Project Service > Resources.**</span></span>  
   
-2.  <span data-ttu-id="05355-108">Kliknite **Novo**.</span><span class="sxs-lookup"><span data-stu-id="05355-108">Click **New**.</span></span>  
+2.  <span data-ttu-id="d93af-108">Kliknite **Novo**.</span><span class="sxs-lookup"><span data-stu-id="d93af-108">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="05355-109">Izberite **Vrsta vira**, nato izberite nastavitve, ki jih želite za posamezno polje.</span><span class="sxs-lookup"><span data-stu-id="05355-109">Select the **Resource Type**, and then select the settings you want for each field.</span></span>  
+3.  <span data-ttu-id="d93af-109">Izberite **Vrsta vira**, nato izberite nastavitve, ki jih želite za posamezno polje.</span><span class="sxs-lookup"><span data-stu-id="d93af-109">Select the **Resource Type**, and then select the settings you want for each field.</span></span>  
   
-4.  <span data-ttu-id="05355-110">Kliknite **Shrani**, da shranite zapis, ki ga nato lahko urejate.</span><span class="sxs-lookup"><span data-stu-id="05355-110">Click **Save** to save the record so you can continue editing it.</span></span>  
+4.  <span data-ttu-id="d93af-110">Kliknite **Shrani**, da shranite zapis, ki ga nato lahko urejate.</span><span class="sxs-lookup"><span data-stu-id="d93af-110">Click **Save** to save the record so you can continue editing it.</span></span>  
   
-5.  <span data-ttu-id="05355-111">Če viru želite dodati znanje, kliknite **+** v možnosti **Znanja vira**.</span><span class="sxs-lookup"><span data-stu-id="05355-111">To add a skill for the resource, click **+** under **Resource Skills**.</span></span>  
+5.  <span data-ttu-id="d93af-111">Če viru želite dodati znanje, kliknite **+** v možnosti **Znanja vira**.</span><span class="sxs-lookup"><span data-stu-id="d93af-111">To add a skill for the resource, click **+** under **Resource Skills**.</span></span>  
   
-6.  <span data-ttu-id="05355-112">V oknu, ki se prikaže, po potrebi izpolnite polja in v spodnjem desnem kotu zaslona kliknite gumb **Shrani**.</span><span class="sxs-lookup"><span data-stu-id="05355-112">In the screen that pops up, fill in the fields as needed and click the **Save** button at the bottom right corner of the screen.</span></span>  
+6.  <span data-ttu-id="d93af-112">V oknu, ki se prikaže, po potrebi izpolnite polja in v spodnjem desnem kotu zaslona kliknite gumb **Shrani**.</span><span class="sxs-lookup"><span data-stu-id="d93af-112">In the screen that pops up, fill in the fields as needed and click the **Save** button at the bottom right corner of the screen.</span></span>  
   
-7.  <span data-ttu-id="05355-113">Po potrebi dodajajte druga znanja.</span><span class="sxs-lookup"><span data-stu-id="05355-113">Continue adding skills as necessary.</span></span>  
+7.  <span data-ttu-id="d93af-113">Po potrebi dodajajte druga znanja.</span><span class="sxs-lookup"><span data-stu-id="d93af-113">Continue adding skills as necessary.</span></span>  
   
-8.  <span data-ttu-id="05355-114">Če želite dodati vlogo vira, v možnosti **Vloga vira** kliknite **+**.</span><span class="sxs-lookup"><span data-stu-id="05355-114">To add a resource role, click **+** under **Resource Role**.</span></span>  
+8.  <span data-ttu-id="d93af-114">Če želite dodati vlogo vira, v možnosti **Vloga vira** kliknite **+**.</span><span class="sxs-lookup"><span data-stu-id="d93af-114">To add a resource role, click **+** under **Resource Role**.</span></span>  
   
-9. <span data-ttu-id="05355-115">Ko končate spreminjanje, v spodnjem desnem kotu zaslona kliknite **Shrani**.</span><span class="sxs-lookup"><span data-stu-id="05355-115">When you’re done making changes, click **Save** at the bottom right corner of the screen.</span></span>  
+9. <span data-ttu-id="d93af-115">Ko končate spreminjanje, v spodnjem desnem kotu zaslona kliknite **Shrani**.</span><span class="sxs-lookup"><span data-stu-id="d93af-115">When you’re done making changes, click **Save** at the bottom right corner of the screen.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="05355-116">Glejte tudi</span><span class="sxs-lookup"><span data-stu-id="05355-116">See Also</span></span>  
- [<span data-ttu-id="05355-117">Nastavitev virov</span><span class="sxs-lookup"><span data-stu-id="05355-117">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="d93af-116">Glejte tudi</span><span class="sxs-lookup"><span data-stu-id="d93af-116">See Also</span></span>  
+ [<span data-ttu-id="d93af-117">Nastavitev virov</span><span class="sxs-lookup"><span data-stu-id="d93af-117">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

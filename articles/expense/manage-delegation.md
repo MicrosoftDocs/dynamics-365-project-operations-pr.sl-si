@@ -2,11 +2,9 @@
 title: Upravljanje pooblastitev
 description: Ta tema vsebuje informacije o tem, kako lahko pooblaščenec za stroške ustvari in upravlja poročila o stroških drugega zaposlenega.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,30 +13,30 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ee00b3c6a683aa8daf2823331a1a9638828dad03
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34b190f9a458c9e2706c5b8c9fdbceea1fbe2621
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276413"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995326"
 ---
-# <a name="manage-delegation"></a><span data-ttu-id="6e084-103">Upravljanje pooblastitev</span><span class="sxs-lookup"><span data-stu-id="6e084-103">Manage delegation</span></span>
-<span data-ttu-id="6e084-104">Pooblaščenec za stroške lahko ustvari in upravlja poročila o stroških drugega zaposlenega.</span><span class="sxs-lookup"><span data-stu-id="6e084-104">An expense delegate can create and manage expense reports for another employee.</span></span>
+# <a name="manage-delegation"></a><span data-ttu-id="7d2b3-103">Upravljanje pooblastitev</span><span class="sxs-lookup"><span data-stu-id="7d2b3-103">Manage delegation</span></span>
+<span data-ttu-id="7d2b3-104">Pooblaščenec za stroške lahko ustvari in upravlja poročila o stroških drugega zaposlenega.</span><span class="sxs-lookup"><span data-stu-id="7d2b3-104">An expense delegate can create and manage expense reports for another employee.</span></span>
 
-## <a name="configuring-expense-delegation"></a><span data-ttu-id="6e084-105">Konfiguracija pooblastitve za stroške</span><span class="sxs-lookup"><span data-stu-id="6e084-105">Configuring expense delegation</span></span>
+## <a name="configuring-expense-delegation"></a><span data-ttu-id="7d2b3-105">Konfiguracija pooblastitve za stroške</span><span class="sxs-lookup"><span data-stu-id="7d2b3-105">Configuring expense delegation</span></span>
 
-<span data-ttu-id="6e084-106">Če želite uporabnika nastaviti kot pooblaščenca za stroške, upoštevajte naslednje korake.</span><span class="sxs-lookup"><span data-stu-id="6e084-106">To set up a user as an expense delegate, complete the following steps.</span></span> 
-1. <span data-ttu-id="6e084-107">Izberite **Upravljanje stroškov** > **Nastavitev** > **Splošno** > **Pooblaščenci**.</span><span class="sxs-lookup"><span data-stu-id="6e084-107">Go to **Expense management** > **Setup** > **General** > **Delegates**.</span></span> 
-2. <span data-ttu-id="6e084-108">Na strani **Pooblaščenci** izberite **Novo** in nato izberite zaposlenega, za katerega bo določen pooblaščenec.</span><span class="sxs-lookup"><span data-stu-id="6e084-108">On the **Delegates** page, select **New** and then select the employee that will have a delegate defined.</span></span> 
-3. <span data-ttu-id="6e084-109">Vnesite vzdevek uporabnika pooblaščenca ter začetni in končni datum za obdobje pooblastitve.</span><span class="sxs-lookup"><span data-stu-id="6e084-109">Enter the alias of the delegate user, and the start and end date for the delegation period.</span></span>
+<span data-ttu-id="7d2b3-106">Če želite uporabnika nastaviti kot pooblaščenca za stroške, upoštevajte naslednje korake.</span><span class="sxs-lookup"><span data-stu-id="7d2b3-106">To set up a user as an expense delegate, complete the following steps.</span></span> 
+1. <span data-ttu-id="7d2b3-107">Izberite **Upravljanje stroškov** > **Nastavitev** > **Splošno** > **Pooblaščenci**.</span><span class="sxs-lookup"><span data-stu-id="7d2b3-107">Go to **Expense management** > **Setup** > **General** > **Delegates**.</span></span> 
+2. <span data-ttu-id="7d2b3-108">Na strani **Pooblaščenci** izberite **Novo** in nato izberite zaposlenega, za katerega bo določen pooblaščenec.</span><span class="sxs-lookup"><span data-stu-id="7d2b3-108">On the **Delegates** page, select **New** and then select the employee that will have a delegate defined.</span></span> 
+3. <span data-ttu-id="7d2b3-109">Vnesite vzdevek uporabnika pooblaščenca ter začetni in končni datum za obdobje pooblastitve.</span><span class="sxs-lookup"><span data-stu-id="7d2b3-109">Enter the alias of the delegate user, and the start and end date for the delegation period.</span></span>
 
-## <a name="manage-expenses-on-behalf-of-another-employee"></a><span data-ttu-id="6e084-110">Upravljanje stroškov v imenu drugega zaposlenega</span><span class="sxs-lookup"><span data-stu-id="6e084-110">Manage expenses on behalf of another employee</span></span>
+## <a name="manage-expenses-on-behalf-of-another-employee"></a><span data-ttu-id="7d2b3-110">Upravljanje stroškov v imenu drugega zaposlenega</span><span class="sxs-lookup"><span data-stu-id="7d2b3-110">Manage expenses on behalf of another employee</span></span>
 
-<span data-ttu-id="6e084-111">Če je omogočen ključ za upravljanje funkcije **Omogoči stran s seznamom pooblaščencev za stroške**, bo na voljo stran s seznamom **Stroški, za katere imam pooblastilo**.</span><span class="sxs-lookup"><span data-stu-id="6e084-111">If the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available.</span></span> <span data-ttu-id="6e084-112">Odprite **Upravljanje stroškov** > **Moji stroški** > **Stroški, za katere imam pooblastilo**.</span><span class="sxs-lookup"><span data-stu-id="6e084-112">Go to **Expense management** > **My expenses** > **Expenses delegated to me**.</span></span>
+<span data-ttu-id="7d2b3-111">Če je omogočen ključ za upravljanje funkcije **Omogoči stran s seznamom pooblaščencev za stroške**, bo na voljo stran s seznamom **Stroški, za katere imam pooblastilo**.</span><span class="sxs-lookup"><span data-stu-id="7d2b3-111">If the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available.</span></span> <span data-ttu-id="7d2b3-112">Odprite **Upravljanje stroškov** > **Moji stroški** > **Stroški, za katere imam pooblastilo**.</span><span class="sxs-lookup"><span data-stu-id="7d2b3-112">Go to **Expense management** > **My expenses** > **Expenses delegated to me**.</span></span>
 
-<span data-ttu-id="6e084-113">Pooblaščenec lahko hitro filtrira in poišče obstoječa poročila o stroških, ki so jim bila dodeljena.</span><span class="sxs-lookup"><span data-stu-id="6e084-113">A delegate can quickly filter and search on existing expense reports that have been delegated to them.</span></span> <span data-ttu-id="6e084-114">Pooblaščenec lahko hitro ustvari tudi novo poročilo o stroških za druge uporabnike tako, da izbere možnost **Novo poročilo o stroških**.</span><span class="sxs-lookup"><span data-stu-id="6e084-114">The delegate can also quickly create a new expense report for other users by selecting **New expense report**.</span></span>
+<span data-ttu-id="7d2b3-113">Pooblaščenec lahko hitro filtrira in poišče obstoječa poročila o stroških, ki so jim bila dodeljena.</span><span class="sxs-lookup"><span data-stu-id="7d2b3-113">A delegate can quickly filter and search on existing expense reports that have been delegated to them.</span></span> <span data-ttu-id="7d2b3-114">Pooblaščenec lahko hitro ustvari tudi novo poročilo o stroških za druge uporabnike tako, da izbere možnost **Novo poročilo o stroških**.</span><span class="sxs-lookup"><span data-stu-id="7d2b3-114">The delegate can also quickly create a new expense report for other users by selecting **New expense report**.</span></span>
 
-<span data-ttu-id="6e084-115">Pooblaščenci lahko ustvarijo in upravljajo poročila o stroških za druge zaposlene tako, da odprejo **Upravljanje stroškov** > **Moji stroški** > **Poročila o stroških** in izberejo **Odpri stroške drugega uporabnika**.</span><span class="sxs-lookup"><span data-stu-id="6e084-115">Delegates can create and manage expense reports for other employees by going to **Expense management** > **My expenses** > **Expense reports** and selecting **Open other user's expenses**.</span></span>
+<span data-ttu-id="7d2b3-115">Pooblaščenci lahko ustvarijo in upravljajo poročila o stroških za druge zaposlene tako, da odprejo **Upravljanje stroškov** > **Moji stroški** > **Poročila o stroških** in izberejo **Odpri stroške drugega uporabnika**.</span><span class="sxs-lookup"><span data-stu-id="7d2b3-115">Delegates can create and manage expense reports for other employees by going to **Expense management** > **My expenses** > **Expense reports** and selecting **Open other user's expenses**.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
