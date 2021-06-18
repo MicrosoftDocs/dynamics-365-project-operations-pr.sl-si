@@ -2,18 +2,16 @@
 title: Pregled uvajanja aplikacije Project Operations za scenarije, ki temeljijo na virih/nezalogi
 description: Ta tema vsebuje informacije o vrsti uvajanja aplikacije Project Operations za scenarije, ki temeljijo na virih/nezalogi.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 770947835af41bd06c02ca08b6ed8e810b9bdcf8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ca8c0894dff1a74b532f8262278fb20400f097c5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289974"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001266"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Pregled uvajanja aplikacije Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
