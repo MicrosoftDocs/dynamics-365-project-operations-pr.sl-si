@@ -2,12 +2,10 @@
 title: Izklop cenovne razsežnosti
 description: Ta tema vsebuje informacije o tem, kako nastavite cenovne razsežnosti v rešitvi Project Service.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/06/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6e4b80b9c4b1b0f57d04079c9d2f84051b451d29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281858"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014316"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Izklop cenovne razsežnosti
 
@@ -41,11 +39,11 @@ To sporočilo o napaki pomeni, da obstajajo zapisi cen, ki so bili predhodno nas
 
 | Standardni naziv         | Organizacijska enota    |Enota   |Cena  |Valuta  |
 | -----------------------|-------------|-------|-------|----------|
-| Sistemski inženir|Contoso, ZDA|Ura| 100|USD|
-| Višji sistemski inženir|Contoso, ZDA|Ura| 150| USD|
+| Sistemski inženir|Contoso US|Ura| 100|USD|
+| Višji sistemski inženir|Contoso US|Ura| 150| USD|
 
 
-Če izklopite **Standardni naziv** kot cenovno razsežnost, bo mehanizem za izračunavanje cen rešitve Project Service pri iskanju cene uporabil le vrednost **Organizacijska enota** iz konteksta vnosa. Če je **Organizacijska enota** za kontekst vnosa »Contoso, ZDA«, rezultata ne bo mogoče določiti, saj se bosta obe vrstici ujemali. Če se želite izogniti temu, naredite naslednje: ko ustvarite zapise **Cena vloge**, rešitev Project Service potrdi, da je kombinacija razsežnosti edinstvena. Če razsežnost po ustvarjanju zapisov **Cena vloge** izklopite, je to omejitev mogoče zaobiti. Zato morate pred izklopom razsežnosti izbrisati vse vrstice **Cena vlog** in **Pribitek na ceno vloge**, ki imajo izpolnjeno to vrednost razsežnosti.
+Če izklopite **Standardni naziv** kot cenovno razsežnost, bo mehanizem za izračunavanje cen rešitve Project Service pri iskanju cene uporabil le vrednost **Organizacijska enota** iz konteksta vnosa. Če je **Organizacijska enota** za kontekst vnosa »Contoso ZDA«, rezultata ne bo mogoče določiti, saj se bosta obe vrstici ujemali. Če se želite izogniti temu, naredite naslednje: ko ustvarite zapise **Cena vloge**, rešitev Project Service potrdi, da je kombinacija razsežnosti edinstvena. Če razsežnost po ustvarjanju zapisov **Cena vloge** izklopite, je to omejitev mogoče zaobiti. Zato morate pred izklopom razsežnosti izbrisati vse vrstice **Cena vlog** in **Pribitek na ceno vloge**, ki imajo izpolnjeno to vrednost razsežnosti.
 
 
 

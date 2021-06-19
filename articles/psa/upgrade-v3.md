@@ -1,9 +1,7 @@
 ---
 title: Vidiki nadgradnje – Microsoft Dynamics 365 Project Service Automation različice 2.x ali 1.x na različico 3
 description: V tej temi so na voljo informacije o vidikih, ki jih morate upoštevati pri nadgradnji storitve Project Service Automation različice 2.x ali 1.x na različico 3.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281678"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014913"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Vidiki nadgradnje – nadgradnja storitve PSA različice 2.x ali 1.x na različico 3
 
@@ -83,11 +81,11 @@ Pred nadgradnjo priporočamo, da znova ustvarite ekipo za vsak projekt, ki ima o
 
 Pri opravilih, dodeljenih splošnim članom ekipe, ki so bila ustvarjena s funkcijo **Ustvari ekipo**, bo z nadgradnjo ohranjen splošni vir v ekipi in dodelitev temu splošnemu članu ekipe. Priporočamo, da ustvarite zahtevo vira za splošnega člana ekipe po posodobitvi, vendar pred rezervacijo ali pošiljanjem zahteve za vir. Tako bodo ohranjene vse dodelitve organizacijskih enot pri splošnih članih ekipe, ki se razlikujejo od pogodbene organizacijske enote projekta.
 
-Pri projektu Projekt Z je na primer pogodbena organizacijska enota Contoso US. V načrtu projekta je bilo preizkušanje opravil na uvajalni stopnji dodeljeno vlogi »Tehnični svetovalec« in dodeljena organizacijska enota je bila Contoso India.
+Pri projektu Projekt Z je na primer pogodbena organizacijska enota Contoso US. V načrtu projekta je bilo preizkušanje opravil na uvajalni stopnji dodeljeno vlogi Tehnični svetovalec, dodeljena organizacijska enota pa je bila Contoso India.
 
 ![Dodelitev organizacije na uvajalni stopnji](media/org-unit-assignment-09.png)
 
-Po uvajalni stopnji je opravilo preizkusa integracije dodeljeno vlogi »Tehnični svetovalec«, toda organizacijska enota je nastavljena na Contoso US.  
+Po uvajalni stopnji je opravilo preizkusa integracije dodeljeno vlogi Tehnični svetovalec, vendar je organizacijska enota nastavljena na Contoso US.  
 
 ![Dodelitev organizacijske enote za opravilo preizkusa integracije](media/org-unit-generate-team-10.png)
 
@@ -106,7 +104,7 @@ Organizacijsko enoto si lahko ogledate v pogledu ocen.
  
 Ko je nadgradnja dokončana, je organizacijska enota v opravilu vrstice, ki ustreza splošnemu članu ekipe, dodana splošnemu članu ekipe in opravilo vrstice je odstranjeno. Zaradi tega priporočamo, da pred nadgradnjo ustvarite ali znova ustvarite ekipo za vsak projekt, ki vsebuje splošne vire.
 
-Pri opravilih, ki so dodeljena vlogi z organizacijsko enoto, ki se razlikuje od organizacijske enote pogodbenega projekta, in za katere skupina ni ustvarjena, bo z nadgradnjo ustvarjen splošni član ekipe za vlogo, pogodbena enota projekta pa bo uporabljena kot organizacijska enota člana ekipe. Če se sklicujemo na primer s Projektom Z, so pogodbena organizacijska enota Contoso US in opravila preizkusa iz načrta projekta na uvajalni stopnji bila dodeljena vlogi »Tehnični svetovalec« z dodeljeno organizacijsko enoto Contoso India. Opravilo preizkusa integracije, ki je bilo dokončano po uvajalni stopnji, je bilo dodeljeno vlogi »Tehnični svetovalec«. Organizacijska enota je Contoso US in ekipa ni bila ustvarjena. Z nadgradnjo bo ustvarjen en splošni član ekipe, tehnični svetovalec, ki ima dodeljene ure vseh treh opravil, in organizacijska enota Contoso US, ki je pogodbena organizacijska enota projekta.   
+Pri opravilih, ki so dodeljena vlogi z organizacijsko enoto, ki se razlikuje od organizacijske enote pogodbenega projekta, in za katere skupina ni ustvarjena, bo z nadgradnjo ustvarjen splošni član ekipe za vlogo, pogodbena enota projekta pa bo uporabljena kot organizacijska enota člana ekipe. Če se sklicujemo na primer s Projektom Z, so pogodbena organizacijska enota Contoso US in opravila preizkusa iz načrta projekta na uvajalni stopnji dodeljena vlogi Tehnični svetovalec z dodeljeno organizacijsko enoto Contoso India. Opravilo preizkusa integracije, ki je bilo dokončano po uvajalni stopnji, je bilo dodeljeno vlogi »Tehnični svetovalec«. Organizacijska enota je Contoso US in ekipa ni bila ustvarjena. Z nadgradnjo bo ustvarjen en splošni član ekipe, tehnični svetovalec, ki ima dodeljene ure vseh treh opravil, in organizacijska enota Contoso US, ki je pogodbena organizacijska enota projekta.   
  
 Zaradi spreminjanja privzetih vrednosti različnih organizacijskih enot virov pri neustvarjenih članih ekipe priporočamo, da pred nadgradnjo ustvarite ali znova ustvarite ekipo za vsak projekt, ki vsebuje splošne vire, tako da dodelitve organizacijskih enot ne bodo izgubljene.
 
