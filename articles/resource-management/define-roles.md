@@ -2,24 +2,22 @@
 title: Določanje vlog
 description: Ta tema ponuja povezavo do informacij o nastavitvi kategorij virov, ki jih je mogoče rezervirati.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fff52c142e4ac1f01fe86808094e94e3974db53a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 6c0347a880f59a220313d5d40d3246d6857c4c80
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950014"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011751"
 ---
-# <a name="define-roles"></a><span data-ttu-id="40941-103">Določanje vlog</span><span class="sxs-lookup"><span data-stu-id="40941-103">Define roles</span></span>
+# <a name="define-roles"></a><span data-ttu-id="dade0-103">Določanje vlog</span><span class="sxs-lookup"><span data-stu-id="dade0-103">Define roles</span></span>
 
-<span data-ttu-id="40941-104">_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_</span><span class="sxs-lookup"><span data-stu-id="40941-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="dade0-104">_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_</span><span class="sxs-lookup"><span data-stu-id="dade0-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="40941-105">Uporabite lahko funkcije, ki jih ponuja Dynamics 365 Field Service za določitev vlog v vašem okolju Dynamics 365 Project Operations.</span><span class="sxs-lookup"><span data-stu-id="40941-105">You can use the functionality provided in Dynamics 365 Field Service to define the roles in your Dynamics 365 Project Operations environment.</span></span> <span data-ttu-id="40941-106">Za dokončanje te nastavitve glejte [Nastavitev kategorij virov, ki jih je mogoče rezervirati](/dynamics365/field-service/set-up-bookable-resource-categories).</span><span class="sxs-lookup"><span data-stu-id="40941-106">To complete this setup, see [Set up bookable resource categories](/dynamics365/field-service/set-up-bookable-resource-categories).</span></span>
+<span data-ttu-id="dade0-105">Uporabite lahko funkcije, ki jih ponuja Dynamics 365 Field Service za določitev vlog v vašem okolju Dynamics 365 Project Operations.</span><span class="sxs-lookup"><span data-stu-id="dade0-105">You can use the functionality provided in Dynamics 365 Field Service to define the roles in your Dynamics 365 Project Operations environment.</span></span> <span data-ttu-id="dade0-106">Za dokončanje te nastavitve glejte [Nastavitev kategorij virov, ki jih je mogoče rezervirati](/dynamics365/field-service/set-up-bookable-resource-categories).</span><span class="sxs-lookup"><span data-stu-id="dade0-106">To complete this setup, see [Set up bookable resource categories](/dynamics365/field-service/set-up-bookable-resource-categories).</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
