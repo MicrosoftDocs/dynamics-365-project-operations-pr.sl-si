@@ -2,11 +2,9 @@
 title: Nastavitev polj po meri kot cenovnih razsežnosti
 description: Ta tema vsebuje informacije o tem, kako nastaviti cenovne razsežnosti z uporabo polj po meri.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274883"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004731"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavitev polj po meri kot cenovnih razsežnosti
 
@@ -77,7 +75,7 @@ Obstajata dve vrsti cenovnih razsežnosti:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso Indija|Na lokaciji            |                    |Nadure                 |15     |
 |             | Contoso Indija|Lokalno             |                    |Nadure                 |10     |
-|             | Contoso, ZDA   |Lokalno             |                    |Nadure                 |20     |
+|             | Contoso US   |Lokalno             |                    |Nadure                 |20     |
 
 
 Če vir iz Contoso Indija, katerega osnovna postavka je 100 USD, deluje na licu mesta in v časovni vnos zabeleži 8 ur rednega dela in 2 uri nadur, bo cenovni mehanizem uporabil osnovno postavko v višini 100 za 8 ur in zabeležil 800 USD. Za 2 uri nadur se bo upošteval pribitek v višini 15 % na osnovno postavko 100, s čimer se bo cenovna enota zvišala na 115 USD, skupni strošek pa bo znašal 230 USD.

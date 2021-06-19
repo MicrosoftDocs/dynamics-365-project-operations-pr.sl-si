@@ -2,18 +2,16 @@
 title: Pregled izstavljanja računov med podjetji
 description: Ta tema vsebuje informacije in primere o medpodjetnem izdajanju računov za projekte.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287348"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002661"
 ---
 # <a name="intercompany-invoicing-overview"></a>Pregled izstavljanja računov med podjetji
 
@@ -21,7 +19,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
 
 Vaša organizacija ima lahko več oddelkov, podružnic in drugih pravnih subjektov, ki si za projekte izmenjujejo izdelke in storitve. Pravna oseba, ki zagotavlja storitev ali izdelek, se imenuje *posojilna pravna oseba*. Pravna oseba, ki sprejme storitev ali izdelek, se imenuje *izposojevalna pravna oseba*.
 
-Naslednja slika prikazuje tipičen scenarij, kjer si dve pravni osebi, Contoso Robotics USA (izposojevalna pravna oseba) in Contoso Robotics UK (posojilna pravna oseba), delita sredstva za izvedbo projekta za stranko Adventure works. V tem scenariju je podjetje Contoso Robotics USA po pogodbi dolžno opraviti storitev za Adventure Works.
+Naslednja ilustracija prikazuje tipičen scenarij, ko si dve pravni entiteti, Contoso Robotics USA (izposojevalna pravna entiteta) in Contoso Robotics UK (posojilna pravna oseba) delita sredstva za izvedbo projekta za stranko Adventure works. V tem primeru je podjetje Contoso Robotics USA po pogodbi dolžno dostaviti delo podjetju Adventure Works.
 
 ![Izstavljanje računov med podjetji](./media/IntercompanyScenario.png) 
 

@@ -2,11 +2,9 @@
 title: Izklop cenovne razsežnosti
 description: Ta tema vsebuje informacije o tem, kako izklopiti cenovne razsežnosti.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274748"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004551"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Izklop cenovne razsežnosti
 
@@ -40,11 +38,11 @@ To sporočilo o napaki pomeni, da obstajajo zapisi cen, ki so bili predhodno nas
 
 | Standardni naziv         | Organizacijska enota    |Enota   |Cena  |Valuta  |
 | -----------------------|-------------|-------|-------|----------|
-| Sistemski inženir|Contoso, ZDA|Ura| 100|USD|
-| Višji sistemski inženir|Contoso, ZDA|Ura| 150| USD|
+| Sistemski inženir|Contoso US|Ura| 100|USD|
+| Višji sistemski inženir|Contoso US|Ura| 150| USD|
 
 
-Če izklopite **Standardni naziv** kot cenovno razsežnost, bo mehanizem za izračunavanje cen pri iskanju cene uporabil le vrednost **Organizacijska enota** iz konteksta vnosa. Če je **Organizacijska enota** za kontekst vnosa »Contoso, ZDA«, rezultata ne bo mogoče določiti, saj se bosta obe vrstici ujemali. Če se želite izogniti temu, naredite naslednje: ko ustvarite zapise **Cena vloge**, sistem potrdi, da je kombinacija razsežnosti edinstvena. Če razsežnost po ustvarjanju zapisov **Cena vloge** izklopite, je to omejitev mogoče zaobiti. Zato morate pred izklopom razsežnosti izbrisati vse vrstice **Cena vlog** in **Pribitek na ceno vloge**, ki imajo izpolnjeno to vrednost razsežnosti.
+Če izklopite **Standardni naziv** kot cenovno razsežnost, bo mehanizem za izračunavanje cen pri iskanju cene uporabil le vrednost **Organizacijska enota** iz konteksta vnosa. Če je **Organizacijska enota** za kontekst vnosa »Contoso ZDA«, rezultata ne bo mogoče določiti, saj se bosta obe vrstici ujemali. Če se želite izogniti temu, naredite naslednje: ko ustvarite zapise **Cena vloge**, sistem potrdi, da je kombinacija razsežnosti edinstvena. Če razsežnost po ustvarjanju zapisov **Cena vloge** izklopite, je to omejitev mogoče zaobiti. Zato morate pred izklopom razsežnosti izbrisati vse vrstice **Cena vlog** in **Pribitek na ceno vloge**, ki imajo izpolnjeno to vrednost razsežnosti.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
