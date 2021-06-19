@@ -2,11 +2,9 @@
 title: Prenos ponudbe v projekt
 description: Ta tema vsebuje informacije o tem, kako prenesti ponudbo v nov ali obstoječ projekt.
 author: kfend
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,24 +16,24 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d4d7ecfd8685c56cd73a780727f939eb58a8755
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288113"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002751"
 ---
-# <a name="transfer-a-quotation-to-a-project"></a><span data-ttu-id="ae9ad-103">Prenos ponudbe v projekt</span><span class="sxs-lookup"><span data-stu-id="ae9ad-103">Transfer a quotation to a project</span></span>
+# <a name="transfer-a-quotation-to-a-project"></a><span data-ttu-id="96d03-103">Prenos ponudbe v projekt</span><span class="sxs-lookup"><span data-stu-id="96d03-103">Transfer a quotation to a project</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ae9ad-104">Ko ima projektna ponudba stanje **Potrjeno**, lahko nekatere ali vse vrstice s ponudbami prenesete v nov ali obstoječ projekt s čarovnikom **Prenos v projekt**.</span><span class="sxs-lookup"><span data-stu-id="ae9ad-104">When a project quotation has a status of **Confirmed**, you can transfer some or all the quotation lines to a new or existing project by using the **Transfer to project** wizard.</span></span> 
+<span data-ttu-id="96d03-104">Ko ima projektna ponudba stanje **Potrjeno**, lahko nekatere ali vse vrstice s ponudbami prenesete v nov ali obstoječ projekt s čarovnikom **Prenos v projekt**.</span><span class="sxs-lookup"><span data-stu-id="96d03-104">When a project quotation has a status of **Confirmed**, you can transfer some or all the quotation lines to a new or existing project by using the **Transfer to project** wizard.</span></span> 
 
-<span data-ttu-id="ae9ad-105">Če želite uporabiti čarovnika, upoštevajte ta navodila.</span><span class="sxs-lookup"><span data-stu-id="ae9ad-105">To use the wizard, follow these steps.</span></span>
+<span data-ttu-id="96d03-105">Če želite uporabiti čarovnika, upoštevajte ta navodila.</span><span class="sxs-lookup"><span data-stu-id="96d03-105">To use the wizard, follow these steps.</span></span>
 
-1. <span data-ttu-id="ae9ad-106">Odprite **Vodenje projektov in računovodstvo** > **Ponudbe** > **Projektne ponudbe**.</span><span class="sxs-lookup"><span data-stu-id="ae9ad-106">Go to **Project management and accounting** > **Quotations** > **Project quotations**.</span></span>
-2. <span data-ttu-id="ae9ad-107">Izberite ponudbo, ki jo želite prenesti, in v skupini **Spremeni** na zavihku **Za nadaljnje delo** izberite **Prenos v projekt**.</span><span class="sxs-lookup"><span data-stu-id="ae9ad-107">Select the quotation you want to transfer and on the **Follow up** tab, in the **Modify** group, select **Transfer to project**.</span></span>
-3. <span data-ttu-id="ae9ad-108">Upoštevajte navodila čarovnika **Prenos ponudbe v projekt** za povezovanje ponudbe s projektom in njen prenos vanj.</span><span class="sxs-lookup"><span data-stu-id="ae9ad-108">Follow the **Transfer quotation to project** wizard to associate and transfer the quotation with a project.</span></span>
+1. <span data-ttu-id="96d03-106">Odprite **Vodenje projektov in računovodstvo** > **Ponudbe** > **Projektne ponudbe**.</span><span class="sxs-lookup"><span data-stu-id="96d03-106">Go to **Project management and accounting** > **Quotations** > **Project quotations**.</span></span>
+2. <span data-ttu-id="96d03-107">Izberite ponudbo, ki jo želite prenesti, in v skupini **Spremeni** na zavihku **Za nadaljnje delo** izberite **Prenos v projekt**.</span><span class="sxs-lookup"><span data-stu-id="96d03-107">Select the quotation you want to transfer and on the **Follow up** tab, in the **Modify** group, select **Transfer to project**.</span></span>
+3. <span data-ttu-id="96d03-108">Upoštevajte navodila čarovnika **Prenos ponudbe v projekt** za povezovanje ponudbe s projektom in njen prenos vanj.</span><span class="sxs-lookup"><span data-stu-id="96d03-108">Follow the **Transfer quotation to project** wizard to associate and transfer the quotation with a project.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
