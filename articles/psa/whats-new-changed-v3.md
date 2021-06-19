@@ -1,8 +1,6 @@
 ---
 title: Novosti ali spremembe v storitvi Project Service Automation različice 3
 description: V tej temi so na voljo informacije o novostih in spremembah v storitvi Project Service Automation različice 3.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2388aedec25915b3d364001fed11ca537b0f5507
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 26d79ff79801f8ad0f80020d49fdc80f76dd9aef
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281138"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007026"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novosti ali spremembe v storitvi Project Service Automation različice 3
 

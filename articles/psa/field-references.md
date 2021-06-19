@@ -2,12 +2,10 @@
 title: Dodajanje polj po meri v entitete za nastavitev cene in transakcijske entitete
 description: V tej temi so na voljo informacije o dodajanju polj po meri v entitete za nastavitev cene in transakcijske entitete.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1a8d6319788ee73e0e2837a47cba89108c32572
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0eebafe8b4ce54c6ad6ca64200caea8fa414f6cf
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275333"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007566"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Dodajanje polj po meri v entitete za nastavitev cene in transakcijske entitete 
 
