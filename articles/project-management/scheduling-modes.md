@@ -2,18 +2,16 @@
 title: Načini razporejanja
 description: Ta tema vsebuje informacije o načinih razporejanja.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981455"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116727"
 ---
 # <a name="scheduling-modes"></a>Načini razporejanja
 
@@ -25,12 +23,12 @@ Storitev Dynamics 365 Project Operations organizacijam omogoča, da opredelijo n
 V storitvi Project Operations so na voljo trije načini razporejanja:
 
   - Nespremenljivo trajanje (to je privzeti način)
-  - Nespremenljivo delo
+  - Nespremenljiv obseg dela (*Delo*)
   - Nespremenljive enote
 
 Vrednosti, na katere vpliva opredelitev posameznega načina razporejanja, se določijo z naslednjo formulo:
 
-  Obseg dela (*Delo*) = Trajanje x Enote
+  Obseg dela = Trajanje x Enote
 
 Ko določite način razporejanja projekta, nastavite eno od teh vrednosti, ki je nato ni mogoče spremeniti. Če je ta vrednost konstanta, pridobi prednost, kar sistem obvesti, da je ne sme spremeniti, ko se spremenita drugi dve vrednosti. Naslednja tabela vsebuje informacije o vplivih izbire posameznega načina.
 

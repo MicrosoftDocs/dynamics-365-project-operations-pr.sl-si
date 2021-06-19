@@ -2,18 +2,16 @@
 title: Uporaba API-jev razporeda za izvajanje opravil z entitetami razporejanja
 description: Ta tema vsebuje informacije in vzorce za uporabo API-jev razporeda.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950824"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116817"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Uporaba API-jev razporeda za izvajanje opravil z entitetami razporejanja
 
@@ -268,7 +266,6 @@ Sledi seznam omejitev in znanih težav:
 - Vsak uporabnik ima lahko odprtih največ 10 postopkov **OperationSet**.
 - Project Operations trenutno podpira največ 500 skupnih opravil na projektu.
 - Stanje napake in dnevniki napak **OperationSet** trenutno niso na voljo.
-- API-ji razporeda so na voljo pri predogledni različici za javnost. Microsoft ne podpira uporabe teh API-jev v produkcijskem okolju.
 - [Omejitve in meje projektov ter opravil](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Obravnava napak
