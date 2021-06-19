@@ -2,8 +2,6 @@
 title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 29, V3
 description: V tej temi so navedene funkcije in popravki, ki so na voljo za Project Service Automation V3, izdaja posodobitve 29.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/22/2021
 ms.topic: article
@@ -17,44 +15,44 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2ac47974b9cc8386c7446136faf48724de73efce
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 320f4f74cb5997e42e2dc9e1d8c8a5ab95ae6647
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948679"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010491"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a><span data-ttu-id="9ba24-103">Novosti ali spremembe v izdaji posodobitve za Project Service Automation 29, V3</span><span class="sxs-lookup"><span data-stu-id="9ba24-103">What's new or changed in Project Service Automation Update Release 29, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a><span data-ttu-id="d7dd8-103">Novosti ali spremembe v izdaji posodobitve za Project Service Automation 29, V3</span><span class="sxs-lookup"><span data-stu-id="d7dd8-103">What's new or changed in Project Service Automation Update Release 29, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="9ba24-104">Z veseljem predstavljamo najnovejšo posodobitev za aplikacijo Project Service Automation za Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="9ba24-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="9ba24-105">Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti.</span><span class="sxs-lookup"><span data-stu-id="9ba24-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="9ba24-106">Ta izdaja je združljiva s storitvijo Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="9ba24-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="9ba24-107">Če želite posodobiti na to izdajo, obiščite stran z rešitvami v skrbniškem središču za Dynamics 365 online, da namestite posodobitev.</span><span class="sxs-lookup"><span data-stu-id="9ba24-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="9ba24-108">Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="9ba24-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="d7dd8-104">Z veseljem predstavljamo najnovejšo posodobitev za aplikacijo Project Service Automation za Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="d7dd8-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="d7dd8-105">Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti.</span><span class="sxs-lookup"><span data-stu-id="d7dd8-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="d7dd8-106">Ta izdaja je združljiva s storitvijo Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="d7dd8-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="d7dd8-107">Če želite posodobiti na to izdajo, obiščite stran z rešitvami v skrbniškem središču za Dynamics 365 online, da namestite posodobitev.</span><span class="sxs-lookup"><span data-stu-id="d7dd8-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="d7dd8-108">Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="d7dd8-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="9ba24-109">V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation V3, izdaja posodobitve 29.</span><span class="sxs-lookup"><span data-stu-id="9ba24-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 29.</span></span> <span data-ttu-id="9ba24-110">Ta različica ima številko graditve V3.10.47.7 in je splošno na voljo s samoposodobitvijo februarja 2021.</span><span class="sxs-lookup"><span data-stu-id="9ba24-110">This version has a build number of V3.10.47.7 and is generally available through a self-update in February 2021.</span></span>
+<span data-ttu-id="d7dd8-109">V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation V3, izdaja posodobitve 29.</span><span class="sxs-lookup"><span data-stu-id="d7dd8-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 29.</span></span> <span data-ttu-id="d7dd8-110">Ta različica ima številko graditve V3.10.47.7 in je splošno na voljo s samoposodobitvijo februarja 2021.</span><span class="sxs-lookup"><span data-stu-id="d7dd8-110">This version has a build number of V3.10.47.7 and is generally available through a self-update in February 2021.</span></span>
 
-## <a name="update-release-29"></a><span data-ttu-id="9ba24-111">Izdaja posodobitve 29</span><span class="sxs-lookup"><span data-stu-id="9ba24-111">Update Release 29</span></span>
+## <a name="update-release-29"></a><span data-ttu-id="d7dd8-111">Izdaja posodobitve 29</span><span class="sxs-lookup"><span data-stu-id="d7dd8-111">Update Release 29</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="9ba24-112">Popravki napak</span><span class="sxs-lookup"><span data-stu-id="9ba24-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="d7dd8-112">Popravki napak</span><span class="sxs-lookup"><span data-stu-id="d7dd8-112">Bug fixes</span></span>
 
-<span data-ttu-id="9ba24-113">**Čas in strošek**</span><span class="sxs-lookup"><span data-stu-id="9ba24-113">**Time and Expense**</span></span>
+<span data-ttu-id="d7dd8-113">**Čas in strošek**</span><span class="sxs-lookup"><span data-stu-id="d7dd8-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="9ba24-114">Odpravljene so naslednje težave:</span><span class="sxs-lookup"><span data-stu-id="9ba24-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="d7dd8-114">Odpravljene so naslednje težave:</span><span class="sxs-lookup"><span data-stu-id="d7dd8-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="9ba24-115">Uporabniki v mreži časovnih vnosov ne vidijo delovnega časa, zabeleženega ob nedelovnih dneh.</span><span class="sxs-lookup"><span data-stu-id="9ba24-115">Users can't see working hours logged on non-working days in the time entry grid.</span></span>
-- <span data-ttu-id="9ba24-116">Odobrene vnose stroškov je mogoče urejati v mreži.</span><span class="sxs-lookup"><span data-stu-id="9ba24-116">Approved expense entries can be edited on the grid.</span></span>
+- <span data-ttu-id="d7dd8-115">Uporabniki v mreži časovnih vnosov ne vidijo delovnega časa, zabeleženega ob nedelovnih dneh.</span><span class="sxs-lookup"><span data-stu-id="d7dd8-115">Users can't see working hours logged on non-working days in the time entry grid.</span></span>
+- <span data-ttu-id="d7dd8-116">Odobrene vnose stroškov je mogoče urejati v mreži.</span><span class="sxs-lookup"><span data-stu-id="d7dd8-116">Approved expense entries can be edited on the grid.</span></span>
 
-<span data-ttu-id="9ba24-117">**Vodenje projektov**</span><span class="sxs-lookup"><span data-stu-id="9ba24-117">**Project Management**</span></span>
+<span data-ttu-id="d7dd8-117">**Vodenje projektov**</span><span class="sxs-lookup"><span data-stu-id="d7dd8-117">**Project Management**</span></span>
 
-<span data-ttu-id="9ba24-118">Odpravljene so naslednje težave:</span><span class="sxs-lookup"><span data-stu-id="9ba24-118">The following issues have been fixed:</span></span>
+<span data-ttu-id="d7dd8-118">Odpravljene so naslednje težave:</span><span class="sxs-lookup"><span data-stu-id="d7dd8-118">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="9ba24-119">Manjka logika preverjanja veljavnosti, ki zagotovi, da ure obsega dela za dodelitev virov ne morejo biti negativne.</span><span class="sxs-lookup"><span data-stu-id="9ba24-119">Missing validation logic to ensure resource assignment effort hours can't be negative.</span></span>
-- <span data-ttu-id="9ba24-120">Dejanje po meri **AssignResourcesForTask** posodobi vsa polja namesto samo spremenjenih polj.</span><span class="sxs-lookup"><span data-stu-id="9ba24-120">The custom action, **AssignResourcesForTask** updates all fields instead of only changed fields.</span></span>
-- <span data-ttu-id="9ba24-121">Pri kopiranju projekta v okolju z vtičniki ali poteki dela, ki so registrirani z dogodkom **CreateProject**, se atribut **msdyn_bulkgenerationstatus** ne posodobi, če dejanje kopiranja **CopyWBSToProject** ne uspe.</span><span class="sxs-lookup"><span data-stu-id="9ba24-121">When copying a project in an environment with plug-ins or workflows that are registered on the **CreateProject** event, the **msdyn_bulkgenerationstatus** attribute isn't updated if the **CopyWBSToProject** fails.</span></span>
-- <span data-ttu-id="9ba24-122">Ko razširite koledar projekta, se delovni dnevi ne razvrstijo po naraščajočem vrstnem redu, zaradi česar nekatere posodobitve projektnih opravil ne uspejo.</span><span class="sxs-lookup"><span data-stu-id="9ba24-122">When you expand the project calendar, the working days aren't sorted in ascending order causing some project task updates to fail.</span></span>
-- <span data-ttu-id="9ba24-123">Spreminjanje vodje projekta na obstoječem projektu sproži privzeto nastavitev organizacijske enote.</span><span class="sxs-lookup"><span data-stu-id="9ba24-123">Changing the Project Manager on an existing project triggers the organizational unit defaulting logic.</span></span>
+- <span data-ttu-id="d7dd8-119">Manjka logika preverjanja veljavnosti, ki zagotovi, da ure obsega dela za dodelitev virov ne morejo biti negativne.</span><span class="sxs-lookup"><span data-stu-id="d7dd8-119">Missing validation logic to ensure resource assignment effort hours can't be negative.</span></span>
+- <span data-ttu-id="d7dd8-120">Dejanje po meri **AssignResourcesForTask** posodobi vsa polja namesto samo spremenjenih polj.</span><span class="sxs-lookup"><span data-stu-id="d7dd8-120">The custom action, **AssignResourcesForTask** updates all fields instead of only changed fields.</span></span>
+- <span data-ttu-id="d7dd8-121">Pri kopiranju projekta v okolju z vtičniki ali poteki dela, ki so registrirani z dogodkom **CreateProject**, se atribut **msdyn_bulkgenerationstatus** ne posodobi, če dejanje kopiranja **CopyWBSToProject** ne uspe.</span><span class="sxs-lookup"><span data-stu-id="d7dd8-121">When copying a project in an environment with plug-ins or workflows that are registered on the **CreateProject** event, the **msdyn_bulkgenerationstatus** attribute isn't updated if the **CopyWBSToProject** fails.</span></span>
+- <span data-ttu-id="d7dd8-122">Ko razširite koledar projekta, se delovni dnevi ne razvrstijo po naraščajočem vrstnem redu, zaradi česar nekatere posodobitve projektnih opravil ne uspejo.</span><span class="sxs-lookup"><span data-stu-id="d7dd8-122">When you expand the project calendar, the working days aren't sorted in ascending order causing some project task updates to fail.</span></span>
+- <span data-ttu-id="d7dd8-123">Spreminjanje vodje projekta na obstoječem projektu sproži privzeto nastavitev organizacijske enote.</span><span class="sxs-lookup"><span data-stu-id="d7dd8-123">Changing the Project Manager on an existing project triggers the organizational unit defaulting logic.</span></span>
 
-<span data-ttu-id="9ba24-124">**Prodaja**</span><span class="sxs-lookup"><span data-stu-id="9ba24-124">**Sales**</span></span>
+<span data-ttu-id="d7dd8-124">**Prodaja**</span><span class="sxs-lookup"><span data-stu-id="d7dd8-124">**Sales**</span></span>
 
-<span data-ttu-id="9ba24-125">Odpravljene so naslednje težave:</span><span class="sxs-lookup"><span data-stu-id="9ba24-125">The following issues have been fixed:</span></span>
+<span data-ttu-id="d7dd8-125">Odpravljene so naslednje težave:</span><span class="sxs-lookup"><span data-stu-id="d7dd8-125">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="9ba24-126">Zavihek **Izvajanje pogodbe** na strani **Pogodba** med inicializacijo tiho odpove, ko ni nobene podrobnosti pogodbe.</span><span class="sxs-lookup"><span data-stu-id="9ba24-126">The **Contract Performance** tab on the **Contract** page fails silently during initialization when no contract lines are present.</span></span>
+- <span data-ttu-id="d7dd8-126">Zavihek **Izvajanje pogodbe** na strani **Pogodba** med inicializacijo tiho odpove, ko ni nobene podrobnosti pogodbe.</span><span class="sxs-lookup"><span data-stu-id="d7dd8-126">The **Contract Performance** tab on the **Contract** page fails silently during initialization when no contract lines are present.</span></span>
