@@ -2,8 +2,6 @@
 title: Organizacijske enote
 description: Ta tema vsebuje informacije o organizacijskih enotah v aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291684"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009636"
 ---
 # <a name="organizational-units"></a>Organizacijske enote 
 
@@ -86,7 +84,7 @@ Tukaj je optimalen način za obravnavo tega scenarija z uporabo Dynamics 365 in 
 1. Oddelek za Microsoftove tehnologije ustvarite kot poslovno enoto in z njo povežite Martina in Nino. Na ta način zagotovite, da imata oba zaposlena enako varnostno raven za dostop do vseh projektov na tem področju delovanja. Oba bosta lahko spremljala napredek in prijavljala čas, stroške in posodobitve o opravilih. 
 2. Ustvarite dve organizacijski enoti, s katerima zagotovite, da se stroški za projekt pravilno obračunajo. 
 3. Nino povežite v Contoso ZDA, Martina pa v Contoso Indija.
-4. Vsaki organizacijski enoti dodelite ustrezne cenike z lastnimi cenami. S tem zagotovite, da stroški, ki so zabeleženi o okviru projekta za Martina in Nino natančno odražajo razliko v cenah med podružnicama Contoso ZDA in Contoso Indija.
+4. Vsaki organizacijski enoti dodelite ustrezne cenike z lastnimi cenami. S tem zagotovite, da stroški, ki so zabeleženi za projekt za Martina in Nino natančno odražajo razliko v cenah med podružnicama Contoso ZDA in Contoso Indija.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Ali so organizacijske enote v Dynamics 365 povezane s prodajnimi območji?
 
@@ -124,7 +122,7 @@ Ne. V trenutni izdaji aplikacije PSA organizacijske enote niso hierarhične. To 
 Če imate kompleksno hierarhijo stroškovnih centrov, oddelkov, obračunskih pisarn itd., nastavite listna vozlišča v tej hierarhiji kot ločene organizacijske enote.
 Ta primer prikazuje običajno hierarhijo:
 
-**Contoso Indija**
+**ContosoIndija**
 
   - Oddelek za SAP 
 
@@ -136,7 +134,7 @@ Ta primer prikazuje običajno hierarhijo:
     - Tehnični svetovalci
     - Svetovalci za funkcionalnosti 
     
-**Contoso, ZDA**
+**Contoso ZDA**
 
  - Oddelek za SAP 
 

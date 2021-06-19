@@ -2,12 +2,10 @@
 title: Nastavitev polj po meri kot cenovnih razsežnosti
 description: Ta tema vsebuje informacije o nastavitvi cenovnih razsežnosti po meri.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282488"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008331"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Nastavitev polj po meri kot cenovnih razsežnosti 
 
@@ -75,7 +73,7 @@ Obstajata dve vrsti cenovnih razsežnosti:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso Indija|Na lokaciji            |                    |Nadure                 |15     |
 |             | Contoso Indija|Lokalno             |                    |Nadure                 |10     |
-|             | Contoso, ZDA   |Lokalno             |                    |Nadure                 |20     |
+|             | Contoso US   |Lokalno             |                    |Nadure                 |20     |
 
 
 Če vir iz Contoso Indija, katerega osnovna postavka je 100 USD, deluje na licu mesta in v časovni vnos zabeleži 8 ur rednega dela in 2 uri nadur, bo cenovni mehanizem storitve Project Service uporabil osnovno postavko v višini 100 za 8 ur in zabeležil 800 USD. Za 2 uri nadur se bo upošteval pribitek v višini 15 % na osnovno postavko 100, s čimer se bo cenovna enota zvišala na 115 USD, skupni strošek pa bo znašal 230 USD.

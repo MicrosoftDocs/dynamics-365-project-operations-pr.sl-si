@@ -2,12 +2,10 @@
 title: Domača stran razsežnosti za določanje cen in razčlenitev stroškov
 description: V tej temi je na voljo pregled cenovnih razsežnosti.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284153"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009276"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Domača stran razsežnosti za določanje cen in razčlenitev stroškov
 
@@ -67,15 +65,15 @@ Spodnji primer prikazuje deleže obračunavanja, ki so nastavljeni na podlagi vl
 
 | Vloga        | Organizacijska enota    |Enota      |Cena      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Developer   | Contoso, ZDA  |Ura | 200|USD     |
-| Developer   | Contoso Indija |Ura|   112|USD     |
+| Razvijalec   | Contoso US  |Ura | 200|USD     |
+| Razvijalec   | Contoso Indija |Ura|   112|USD     |
 
 
 **Vzorčne mere stroškov**
 
 | Razpon plače     | Organizacijska enota    |Enota      |Cena      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje podjetje_razpon1 | Contoso, ZDA  |Ura | 145|USD     |
+| Moje podjetje_razpon1 | Contoso US  |Ura | 145|USD     |
 | Moje podjetje_razpon2 | Contoso Indija |Ura|   67|USD     |
 
 
