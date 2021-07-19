@@ -6,16 +6,17 @@ ms.date: 03/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 488b61ee1e81aac47fa92fff141f17b023e4f1c0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 6ba006511c3dd5b3d0484cb5e964ef252fe41c93
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002616"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369351"
 ---
 # <a name="financial-estimation-concepts"></a>Koncepti finančnih ocen
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 V storitvi Dynamics 365 Project Operations, lahko v dveh fazah finančno ocenite svoje projekte: 
 1. V fazi predprodaje, preden je dogovor sklenjen. 

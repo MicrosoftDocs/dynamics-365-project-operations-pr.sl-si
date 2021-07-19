@@ -1,30 +1,30 @@
 ---
-title: Uporaba API-jev razporeda za izvajanje opravil z entitetami razporejanja
-description: Ta tema vsebuje informacije in vzorce za uporabo API-jev razporeda.
+title: Uporaba API-jev razporejanja projektov za izvajanje postopkov s pomočjo entitet razporejanja
+description: V tej temi so na voljo informacije in vzorci za uporabo API-jev razporejanja projektov.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116817"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293247"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Uporaba API-jev razporeda za izvajanje opravil z entitetami razporejanja
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Uporaba API-jev razporejanja projektov za izvajanje postopkov s pomočjo entitet razporejanja
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 > [!IMPORTANT] 
 > Nekatere ali vse funkcije, navedene v tej temi, so na voljo kot del izdaje predogledne različice. Vsebina in funkcionalnost se lahko spremenita. 
 
 ## <a name="scheduling-entities"></a>Entitete za razporejanje
 
-API-ji razporeda omogočajo izvajanje postopkov ustvarjanja, posodabljanja in brisanja z **entitetami razporeda**. Te entitete upravljamo prek mehanizma za razporejanje v projektu za splet. Postopki ustvarjanja, posodabljanja in brisanja z **entitetami razporejanja** so bili prej omejeni v prejšnjih izdajah Dynamics 365 Project Operations.
+Uporaba API-jev razporejanja projektov ponuja možnost izvajanja postopkov ustvarjanja, posodabljanja in brisanja s pomočjo možnosti **Entitete razporejanja**. Te entitete upravljamo prek mehanizma za razporejanje v projektu za splet. Postopki ustvarjanja, posodabljanja in brisanja z **entitetami razporejanja** so bili prej omejeni v prejšnjih izdajah Dynamics 365 Project Operations.
 
-Naslednja tabela vsebuje celoten seznam **entitet razporejanja**.
+Naslednja tabela vključuje celoten seznam entitet razporejanja projektov.
 
 | Ime entitete  | Logično ime entitete |
 | --- | --- |
@@ -39,19 +39,19 @@ Naslednja tabela vsebuje celoten seznam **entitet razporejanja**.
 
 OperationSet je vzorec enote dela, ki se lahko uporablja, kadar je treba v transakciji obdelati več zahtev, ki vplivajo na urnik.
 
-## <a name="schedule-apis"></a>Načrtovanje API-jev
+## <a name="project-schedule-apis"></a>API-ji razporejanja projektov
 
-Sledi seznam trenutnih API-jev razporeda.
+Naslednji seznam vsebuje trenutne API-je razporejanja projektov.
 
 - **msdyn_CreateProjectV1**: ta API se lahko uporablja za ustvarjanje projekta. Projekt in privzeto vedro projekta se ustvarita takoj.
 - **msdyn_CreateTeamMemberV1**: ta API se lahko uporablja za ustvarjanje člana projektne skupine. Zapis člana ekipe se ustvari takoj.
 - **msdyn_CreateOperationSetV1**: ta API se lahko uporablja za razporejanje več zahtev, ki jih je treba izvesti znotraj transakcije.
-- **msdyn_PSSCreateV1**: ta API se lahko uporablja za ustvarjanje entitete. Entiteta je lahko katera koli entiteta razporejanja, ki podpira postopek ustvarjanja.
-- **msdyn_PSSUpdateV1**: ta API se lahko uporablja za posodabljanje entitete. Entiteta je lahko katera koli entiteta razporejanja, ki podpira postopek posodabljanja.
-- **msdyn_PSSDeleteV1**: ta API se lahko uporablja za brisanje entitete. Entiteta je lahko katera koli entiteta razporejanja, ki podpira postopek brisanja.
+- **msdyn_PSSCreateV1**: ta API se lahko uporablja za ustvarjanje entitete. Lahko gre za katerokoli entiteto razporejanja projektov, ki podpira postopek ustvarjanja.
+- **msdyn_PSSUpdateV1**: ta API se lahko uporablja za posodabljanje entitete. Lahko gre za katerokoli entiteto razporejanja projektov, ki podpira postopek posodabljanja.
+- **msdyn_PSSDeleteV1**: ta API se lahko uporablja za brisanje entitete. Lahko gre za katerokoli entiteto razporejanja projektov, ki podpira postopek brisanja.
 - **msdyn_ExecuteOperationSetV1**: ta API se uporablja za izvajanje vseh postopkov znotraj danega nabora postopkov.
 
-## <a name="using-schedule-apis-with-operationset"></a>Uporaba API-jev razporeda s funkcijo OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Uporaba API-jev razporejanja projektov s funkcijo OperationSet
 
 Ker se zapisi, ki vsebujejo **CreateProjectV1** in **CreateTeamMemberV1**, ustvarijo takoj, teh API-jev ni mogoče neposredno uporabljati pri funkciji **OperationSet**. Vendar pa lahko API uporabite za ustvarjanje potrebnih zapisov, ustvarite **OperationSet** in nato uporabite te vnaprej ustvarjene zapise pri funkciji **OperationSet**.
 
@@ -257,7 +257,7 @@ Naslednje tabele določajo polja, za katera so omejene možnosti **Ustvari** in 
 ## <a name="limitations-and-known-issues"></a>Omejitve in znane težave
 Sledi seznam omejitev in znanih težav:
 
-- API-je razporeda lahko uporabljajo samo **uporabniki z licenco Microsoft Project.** Ne morejo jih uporabljati:
+- API-je razporejanja projektov lahko uporabljajo samo **Uporabniki z licenco za storitev Microsoft Project.** Ne morejo jih uporabljati:
     - Uporabniki aplikacij
     - Uporabniki sistema
     - Uporabniki integracije
@@ -271,7 +271,7 @@ Sledi seznam omejitev in znanih težav:
 ## <a name="error-handling"></a>Obravnava napak
 
    - Če želite pregledati napake, ustvarjene iz naborov postopkov, odprite razdelek **Nastavitve** \> **Načrtovanje integracije** \> **Nabori postopkov**.
-   - Če želite pregledati napake, ustvarjene v storitvi razporejanja projektov, odprite razdelek **Nastavitve** \> **Načrtovanje integracije** \> **Dnevniki napak za PSS**.
+   - Za ogled napak iz storitve razporejanja projektov pojdite v **Nastavitve** \> **Integracija načrtovanja** \> **Dnevniki napak za PSS**.
 
 ## <a name="sample-scenario"></a>Vzorčni scenarij
 

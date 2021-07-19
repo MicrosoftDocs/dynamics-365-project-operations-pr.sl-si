@@ -7,16 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005001"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368496"
 ---
 # <a name="pricing-dimensions-overview"></a>Pregled cenovnih razsežnosti
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Razsežnosti, ki se uporabljajo v človeških virih za nastavitev določanja cen in stroškov, se delijo v dve kategoriji:
 

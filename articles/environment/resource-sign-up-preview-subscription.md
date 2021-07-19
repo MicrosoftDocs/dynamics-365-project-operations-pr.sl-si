@@ -2,65 +2,47 @@
 title: Prijava za naročnino na predogledno različico storitve Project Operations za primere uporabe z viri/brez zalog
 description: Ta tema ponuja informacije o tem, kako se naročiti in uvesti storitev Project Operations za primere uporabe z viri/brez zalog.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1b8c8982ede83191ce346e76718322d47abf0dd8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da93fcf23ee3f255812842e31cb22b5d39daa963
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000456"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334847"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prijava za naročnino na predogledno različico storitve Project Operations za primere uporabe z viri/brez zalog
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Ta tema razlaga, kako se naročite na predogled/ponudbo za partnerje in uvedete okolje Project Operations za primere uporabe z viri/brez zalog.
+Ta tema vsebuje informacije o tem, kako se naročiti na preskusno različico in uvesti okolje storitve Project Operations za scenarije, ki temeljijo na virih/nezalogi.
 
 ## <a name="prerequisites"></a>Zahteve
-
-- Prejeli boste e-poštno sporočilo z vabilom k sodelovanju v predogledu. Predogled lahko zahtevate na [spletnem mestu storitve Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Uporabnik, ki uvede predogled, mora imeti pravice globalnega skrbnika za najemnika imenika Azure.
+- Uporabnik, ki uvede predogled, mora imeti pravice globalnega skrbnika za najemnika imenika Azure. Med prvim koriščenjem ponudbe lahko ustvarite najemnika. 
 - Za uvedbo finančnega okolja je potrebna veljavna naročnina na Azure, ki se zaračuna za posamezno okolje. Za začetek lahko uporabite obstoječo naročnino svoje organizacije ali [preskusno različico Azure](https://azure.microsoft.com/en-us/free/). Okolje CDS bo na voljo za 30-dnevno brezplačno uporabo.
-
-## <a name="subscribe"></a>Naročite se
-
-Ko bo vaša [zahteva za predogled](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) odobrena, boste od Microsofta po elektronski pošti prejeli tri ponudbe. Te ponudbe omogočajo uvedbo predogleda Project Operations:
-
-- Dynamics 365 Project Operations (CRM) – predogled preskusne različice
-- Office 365 Project Operations – poskusna različica
-- Dynamics 365 Finance – preskus predogleda
 
 > [!IMPORTANT]
 > To nalogo mora opraviti samo ena oseba in sicer skrbnik najemnika v organizaciji. Če niste naročnik te izdaje, počakajte, da se organizacija prijavi in prejmete svoje uporabniške poverilnice.
+> 
+> Preskusne različice v najemniku so namenjene enkratni uporabi. Preskusno različico lahko namestite samo enkrat. Priporočamo, da za preskusno različico ustvarite novega najemnika.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – predogled preskusne različice 
+
+### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) – preskusna različica za predogled 
 
 Preden začnete, se prepričajte, da ste prijavljeni v brskalnik z uporabnikovim službenim računom v najemniku, kjer želite imeti predogled aplikacije Project Operations.
 
-1. Unovčite prvo promocijsko kodo **Dynamics 365 Project Operations (CRM) – predogled preskusne različice**, tako da jo prilepite v URL brskalnika.
-
-![Prevzem ponudbe](./media/16RedeemFirstOfferNew.png)
-
+1. Unovčite prvo kodo v okviru ponudbe **Dynamics 365 Project Operations**, in sicer tukaj [Preskusna različica aplikacije Project Operations](https://aka.ms/try-po).
 2. Potrdite svoje naročilo.
 
-![Potrdite naročilo](./media/17ConfirmOrderNew.png)
-
-Videli boste, da je bila ponudba za potrditev uspešno izkoriščena.
-
-![Potrditev](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – poskusna različica
-
-Ponovite enake korake kot pri kodi prve ponudbe. Ne pozabite dodati kode druge ponudbe z istim uporabniškim računom, ki je bil uporabljen za kodo prve ponudbe.
+  Videli boste, da je bila ponudba za potrditev uspešno izkoriščena.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Preskus predogleda storitve Dynamics 365 Finance
 
-Ponovite iste korake z zadnjo ponudbo iz e-poštnega sporočila z dobrodošlico.
+Pojdite v razdelek [Dynamics 365 za preskusno različico storitve Finance](https://aka.ms/trypoche) in ponovite korake iz prejšnjega razdelka s ponudbo, »Prijava za okolje, gostovano v oblaku«.  
 
 ## <a name="assign-licenses"></a>Dodeljevanje licenc
 
@@ -69,13 +51,9 @@ Ponovite iste korake z zadnjo ponudbo iz e-poštnega sporočila z dobrodošlico.
 
 1. Odprite [skrbniško središče za Microsoft 365](https://portal.office.com/), da dodelite licence svojim uporabnikom.
 
-![Začetna stran skrbniškega središča](./media/14AdminPortal.png)
-
 2. Na strani **Aktivni uporabniki** izberite uporabnike, ki jim želite dodeliti licenco.
 
-![Dodeljevanje licenc](./media/15AssignLicenses.png)
-
-3. Preverite, ali sta bili izbrani licenci **Predogledna različica Dynamics 365 Project Operations (CRM)** in **Office 365 Project Operations – Predogled** in izberite **Shrani spremembe**.
+3. Prepričajte se, da ste izbrali licenco **Dynamics 365 Project Operations**, in izberite možnost **Shrani spremembe**.
 
 > [!NOTE]
 > Preskusne ponudbe storitve Finance ni treba dodeliti uporabniku.
@@ -95,7 +73,7 @@ Sledite navodilom v temi [Zagotovitev novega okolja](resource-provision-new-envi
 ## <a name="install-cds-setup-and-configuration-data"></a>Namestitev podatkov za nastavitev in konfiguracijo CDS
 
 Namestite podatke za nastavitev in konfiguracijo CDS, kot je opisano v temi [Nastavitev in uporaba konfiguracijskih podatkov v storitvi Common Data Service](resource-apply-pro-setup-config-data.md).
-Ta korak dokončajte šele, ko bo predstavitveno okolje Finance uvedeno in bodo predstavitveni podatki v FO-ju pripravljeni.
+Ta korak dokončajte šele, ko je predstavitveno okolje storitve Finance uvedeno in ko so predstavitveni podatki pripravljeni.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

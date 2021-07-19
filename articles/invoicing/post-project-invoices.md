@@ -6,16 +6,17 @@ ms.date: 01/29/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 13f16d42ffdc0a9a6f369c311dfd9e15ad3f7aff
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001536"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369036"
 ---
 # <a name="invoicing-process-overview"></a>Pregled postopka izdajanja računa
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 Aplikacija Project Operations za primere uporabe z viri/brez zalog ponuja obsežne zmogljivosti, prilagojene potrebam vodje projekta in referenta za terjatve/projektnega računovodje. Pri postopku izdajanja računov vodja projekta upravlja nedokončana opravila obračunavanja v projektu, referent za terjatve/projektni računovodja pa ustvari skladen in točen račun za stranko.
 

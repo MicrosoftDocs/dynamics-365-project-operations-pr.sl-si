@@ -6,16 +6,16 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007161"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304276"
 ---
 # <a name="integration-journal-in-project-operations"></a>Dnevnik integracij v aplikaciji Project Operations
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 Vnosi časa in stroškov ustvarijo **Dejanske** transakcije, ki predstavljajo operativni pogled na delo, opravljenega v zvezi s projektom. Aplikacija Dynamics 365 Project Operations računovodjam zagotavlja orodje za pregled transakcij in prilagoditev računovodskih atributov. Po zaključku pregleda in prilagoditev se transakcije zabeležijo v podknjigo in glavno knjigo projekta. Računovodja lahko te dejavnosti izvaja s pomočjo dnevnika **Integracija za Project Operations** (**Dynamics 365 Finance** > **Upravljanje projektov in računovodstvo** > **Dnevniki** >  Dnevnik **integracij za Project Operations**.
 
@@ -26,7 +26,7 @@ Vnosi časa in stroškov ustvarijo **Dejanske** transakcije, ki predstavljajo op
 Zapisi v dnevniku integracij za Project Operations so ustvarjeni s periodičnim postopkom **Uvoz iz pripravljalne tabele**. Ta postopek lahko zaženete tako, da odprete **Dynamics 365 Finance** > **Upravljanje projektov in računovodstvo** > **Periodično** > **Integracija za Project Operations** > **Uvoz iz pripravljalne tabele**. Proces lahko zaženete interaktivno ali ga po potrebi konfigurirate tako, da se izvaja v ozadju.
 
 Ko se periodični postopek zažene, so najdene vse dejanske vrednosti, ki še niso dodane v dnevnik integracij za Project Operations. Ustvari se vrstica dnevnika za vsako dejansko transakcijo.
-Sistem razvrsti vrstice dnevnika v ločene dnevnike glede na vrednost, izbrano v polju **Enota obdobja dnevniku integracij za Project Operations** (**Finance** > **Upravljanje projektov in računovodstvo** > **Nastavitev** > **Parametri upravljanja projektov in računovodstvo**, zavihek **Project Operations v storitvi Dynamics 365 Customer Engagement**). Možne vrednosti za to polje vključujejo:
+Sistem vrstice dnevnika razvrsti v ločene dnevnike glede na vrednost, izbrano v polju **Enota obdobja v dnevniku integracij za Project Operations** (**Finance** > **Upravljanje projektov in računovodstvo** > **Nastavitev** > **Parametri upravljanja projektov in računovodstvo**, zavihek **Project Operations v storitvi Dynamics 365 Customer Engagement**). Možne vrednosti za to polje vključujejo:
 
   - **Dnevi**: dejanske vrednosti so razvrščene po datumu transakcije. Za vsak dan se ustvari ločen dnevnik.
   - **Meseci**: dejanske vrednosti so razvrščene po koledarskem mesecu. Za vsak mesec se ustvari ločen dnevnik.

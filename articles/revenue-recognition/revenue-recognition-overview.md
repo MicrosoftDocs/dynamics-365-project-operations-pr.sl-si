@@ -6,16 +6,17 @@ ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5f962572c6ec0298d2d91d33f83e4120a498a6f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: ab9b36b71223b1bcfe48de5f9b68b6fb6a98f388
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013776"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368046"
 ---
 # <a name="revenue-recognition-overview"></a>Pregled priznavanja prihodkov
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 V storitvi Dynamics 365 Project Operations se načela priznavanja prihodkov razlikujejo glede na izbrani način obračunavanja za projekt ali del projekta. V tej temi so na voljo informacije o priznavanju prihodkov v storitvi Project Operations.
 

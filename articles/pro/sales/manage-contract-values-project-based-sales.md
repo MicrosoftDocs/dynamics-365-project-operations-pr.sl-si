@@ -6,16 +6,17 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8af32b0475650db9c5862ea23d185588a631ade6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 22e8ff927c5ff6c3748a35031e7703e3fcfe0dab
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003156"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369936"
 ---
 # <a name="project-based-contract-lines-overview"></a>Pregled podrobnosti pogodbe, ki temelji na projektu
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Podrobnosti pogodbe, ki temelji na projektu, v aplikaciji Dynamics 365 Project Operations so zasnovane, da hranijo dogovore o oceni in obračunavanju za določene komponente dela na projektu v interakciji. Struktura podrobnosti pogodbe, ki temeljijo na projektu, je razširjena za ocene projektov in scenarije obračunavanja z naslednjimi koncepti:
 

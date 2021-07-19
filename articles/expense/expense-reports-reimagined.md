@@ -2,7 +2,7 @@
 title: Prenovljena poročila o stroških
 description: Ta tema pojasnjuje preoblikovano in na novo zamišljeno izkušnjo vnašanja poročil o stroških.
 author: suvaidya
-ms.date: 03/26/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76073d5c58398b2c296fdca05ba7bdf7f01951bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995371"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6251024"
 ---
 # <a name="expense-reports-reimagined"></a>Prenovljena poročila o stroških
 
@@ -26,13 +26,13 @@ Vnos poročila o stroških je bil preoblikovan v želji po poenostavitvi postopk
 
 - Nov delovni prostor za upravljanje stroškov, ki vam omogoča dostop do stroškov vašega pooblaščenca.
 - Nova izkušnja z ujemanjem potrdil za boljši prikaz potrdil na ravni glave in poenostavitev postopka prilaganja potrdil na vrstice stroškov.
-- Nova mreža samo za branje, ki omogoča ogled številnih dodatnih vrstic stroškov in dodatnih stolpcev s podatki. Zdaj lahko vidite vse razčlenjene in razdeljene vrstice skupaj s pripadajočimi nadrejenimi stroški.
+- Nova mreža, namenjena samo za branje, ki omogoča ogled še večjega števila vrstic s stroški in drugih stolpcev s podatki. Zdaj lahko vidite vse razčlenjene in razdeljene vrstice skupaj s pripadajočimi nadrejenimi stroški.
 - Poenostavljeno podokno za urejanje stroškov.
 - Preoblikovana sporočila za napake, opozorila in pravilnike za zagotavljanje pravega konteksta in lažjega razumevanja ter odpravljanja težav. Odstranili smo več sporočil, ki so se pojavila, preden so uporabniki uspeli dokončati opravila in odpraviti težave.
 - Nova stran za določitev obveznih polj, neobveznih polj in polj, ki ne smejo biti vključena. Vpeljava te strani pomaga zmanjšati število polj, ki jih je treba nastaviti.
 - Prenovljen videz poročil o stroških, ki ne daje pustega računovodskega vtisa.
 
-Če želite vklopiti novo izkušnjo, uporabite delovni prostor **Upravljanje funkcij** za vklop funkcije **Prenovljena poročila o stroških**. Ob vklopu funkcije se zgodijo naslednja dejanja:
+Če želite začeti z novo izkušnjo, uporabite delovni prostor **Upravljanje funkcij** , s čimer vklopite funkcijo **Delovni prostor s prenovljenimi poročili o stroških**. Ob vklopu funkcije se zgodijo naslednja dejanja:
 
 - Obstoječi delovni prostor upravljanja stroškov se nadomesti z novim delovnim prostorom.
 - Dodana je nova postavka menija za vidljivost polja stroška.
@@ -45,7 +45,7 @@ Vnos poročila o stroških je bil preoblikovan v želji po poenostavitvi postopk
 
 | Nova funkcija | Opis |
 |---|----|
-| Vidljivost polja za strošek | Nova stran za nastavitve omogoča, da določite, katera polja je treba onemogočiti za posamezno organizacijo, katera polja naj bodo zahtevana in katera so priporočljiva. |
+| Vidljivost polja za strošek | Nova stran za nastavitev vam omogoča, da določite, katera polja morajo biti onemogočena za organizacijo. Določite lahko tudi obvezna in priporočena polja. |
 | Zahtevana polja | Nova preprosta konfiguracija omogoča, da nastavite zahtevana polja, ne da bi morali uporabljati okvir pravilnika. |
 | Izbirna polja | Dodana je še ena stran za izbirna polja. Tako se zaposleni ne bodo počutili, kot da bi morali določiti polja, vendar pa so ta še vedno lahko dostopna. |
 | Dodajanje nepovezanih potrdil | Možnost dodajanja nepovezanih potrdil v poročilo o stroških izboljša vidljivost v delovnem prostoru in poročilu o stroških. |
@@ -57,13 +57,14 @@ Vnos poročila o stroških je bil preoblikovan v želji po poenostavitvi postopk
 | Kalkulator menjalnega tečaja | Dodan je kalkulator menjalnega tečaja, ki omogoča izračun menjalnega tečaja za večvalutne gotovinske transakcije. |
 | Shranjevanje in dodajanje novih vrstic stroškov | Pri vnosu novih stroškov sta na voljo gumba za možnosti **Shrani** in **Novo** za pomoč pri hitrem vnosu vrstic stroškov. |
 | Boljši vpogled v razdeljene in razčlenjene vrstice | Razčlenjene in razdeljene vrstice so za dodatno vidljivost dodane neposredno na seznam stroškov, kar vam pomaga opaziti morebitne napake. |
+| Ogled podrobnosti podkategorije v razčlenjenih vrsticah | Razčlenjene vrstice z nadrejenimi stroški prikazujejo oznake podkategorij v poročilu o stroških, kar vam omogoča, da razčlenjene podatke pregledate na enem mestu.|
 | Prikaz potrdil med razčlenjevanjem | Med razčlenjevanjem je mogoč prikaz potrdil. |
 | Izbira denarnega predujma | Izberite enega ali več predujmov za izpolnitev ene transakcije stroškov. |
 | Saldo denarnega predujma | Sprotno spremljajte saldo denarnega predujma, ko ustvarite vnos stroška glede na odobrene in plačane denarne predujme. |
 
 Začetna izdaja je osredotočena na primere vnosa stroškov. Vsak pregled poročila o stroških ali primer odobritve bo še naprej uporabljal obstoječo stran za vnos stroškov.
 
-Naslednje funkcije niso podprte v na novo zamišljenem delovnem prostoru za obdelavo stroškov:
+Delovni prostor s prenovljenimi poročili o stroških ne podpira naslednjih funkcij, načrtovanih za prihodnje izdaje: 
 
 - Integracija zahtev za pot
 - Vnos stroška dnevnic

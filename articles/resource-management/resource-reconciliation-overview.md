@@ -8,23 +8,23 @@ ms.prod: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: be171063c21318f517a37f3088e3f577fd4b6715
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5c48589e745dbf6e3a51ae749b9b45491d26406e
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000861"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368226"
 ---
 # <a name="resource-reconciliation-overview"></a>Pregled uskladitve virov
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Pri članih ekipe so rezervacije in dodelitve ohlapno povezane. Z drugimi besedami, viri imajo lahko dodelitve in so brez rezervacij ali pa imajo rezervacije in so brez dodelitev. V idealnem primeru so rezervacije in dodelitve usklajene, tako da imajo viri določeno zmogljivost za izvajanje dodelitev opravila. Vendar pa lahko rezervacije temeljijo na razpoložljivosti, časi opravil pa se lahko spremenijo, ko se projekt nadaljuje. Zato ohlapno povezovanje rezervacij in dodelitev zagotavlja prilagodljivost.
 

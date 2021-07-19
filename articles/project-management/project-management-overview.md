@@ -6,16 +6,17 @@ ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: b99fab32101724a4c6307136ef37503316dfc42e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 2160908c6ef1f92b257229bc5fc71e7efcbc10d6
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011841"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369306"
 ---
 # <a name="project-management-overview"></a>Pregled upravljanja projektov
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Orodja za upravljanje projektov v aplikaciji Dynamics 365 Project Operations vam pomagajo voditi projekte z lahkoto. Orodja za razporejanje pomagajo upraviteljem projektov in ekipam, da ostanejo produktivni. Spodaj je navedenih nekaj opravil, pri katerih vam pomagajo orodja:
 

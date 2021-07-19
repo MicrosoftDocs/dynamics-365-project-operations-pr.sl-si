@@ -6,16 +6,17 @@ ms.date: 03/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3fdf7787f0144dace84852a0442406085bdc1639
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 6fe381470326fc4000a9ed096b91fde56c045c38
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010896"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369216"
 ---
 # <a name="project-effort-tracking"></a>Sledenje obsegu projektov
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Potreba po spremljanju napredka v primerjavi z razporedom se razlikuje glede na panogo. V nekaterih panogah spremljanje poteka na zelo podrobno ravni, v drugih panogah pa na bolj splošni ravni. V tej temi je prikazan način razporejanja, s katerim boste izpolnili zahteve vaše organizacije.
 

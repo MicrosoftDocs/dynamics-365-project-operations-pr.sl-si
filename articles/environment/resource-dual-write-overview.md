@@ -7,16 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ce4f7bf8185e6f3f942df14d30d7b8d0a3e4444a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 540b6f74d8e79116e5fdb2ceffaa4bbb487ff08f
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998701"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368451"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Pregled integracije za dvojno zapisovanje za Project Operations
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 Project Operations uporablja [zmožnosti dvojnega zapisovanja](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) za sinhronizacijo podatkov a aplikacijah Microsoft Dataverse in Dynamics 365 Finance.
 

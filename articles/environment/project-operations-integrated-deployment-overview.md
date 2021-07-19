@@ -6,16 +6,17 @@ ms.date: 11/02/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca8c0894dff1a74b532f8262278fb20400f097c5
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 3648bf6c5e00fe701f309392bd09819f84bf574d
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001266"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368721"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Pregled uvajanja aplikacije Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 Vrsta uvajanja aplikacije Dynamics 365 Project Operations za scenarije, ki temeljijo na virih/brez zalog, ima za podjetja, ki temeljijo na projektu, naslednje zmogljivosti:
 

@@ -6,16 +6,16 @@ ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0cb62231eb3b387b610b7510023994dce66b1cc9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd62fb1d8e0b2d859cb7da8b99cb725af587ff2f
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995911"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304321"
 ---
 # <a name="time-entry-ui-behavior"></a>Vedenje uporabniškega vmesnika za časovni vnos
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 
 Nova mreža **Tedenski časovni vnosi** kontrolnik po meri z dvema glavnima razdelkoma – **Razsežnosti** in **Trajanje**.
@@ -25,11 +25,11 @@ Nova mreža **Tedenski časovni vnosi** kontrolnik po meri z dvema glavnima razd
 |------------   |------------------------   |
 | Nova           | Alt + Shift + n           |
 | Kopiraj vrstico      | Alt + Shift + c           |
-| Uredi vnos    | Alt + Shift + e           |
+| Uredi entiteto    | Alt + Shift + e           |
 | Uredi vrstico      | Alt + Shift + Ctrl + e    |
-| Odpri vnos    | Alt + Shift + o           |
-| Pošiljanje        | Alt + Shift + s           |
-| Preklic        | Alt + Shift + r           |
+| Odpri entiteto    | Alt + Shift + o           |
+| Predloži        | Alt + Shift + s           |
+| Prikliči        | Alt + Shift + r           |
 | Delete        | Alt + Shift + d           |
 | Kopiraj teden     | Alt + Shift + w           |
 

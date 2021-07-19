@@ -1,21 +1,22 @@
 ---
-title: Pregled uvajanja aplikacije Project Operations za primere uporabe z naročili na zalogi/v proizvodnji
-description: Ta tema vsebuje informacije o vrsti uvajanja aplikacije Project Operations za primere uporabe z naročili na zalogi/v proizvodnji.
+title: Pregled uvajanja aplikacije Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji
+description: Ta tema vsebuje informacije o vrsti uvajanja aplikacije Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji
 author: rumant
 ms.date: 11/02/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b2a606bc587b99c16d45b19689ba90b422c3c62
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 71fd9d3ae30147c3c03202a54f74477a95838eb9
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999421"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369531"
 ---
-# <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Pregled uvajanja aplikacije Project Operations za primere uporabe z naročili na zalogi/v proizvodnji
+# <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Pregled uvajanja aplikacije Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji
 
-_**Velja za:** Project Operations za primere uporabe z naročili na zalogi/v proizvodnji_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji_
 
 
 Ta vrsta uvajanja ima za podjetja, ki temeljijo na projektu, naslednje zmogljivosti:

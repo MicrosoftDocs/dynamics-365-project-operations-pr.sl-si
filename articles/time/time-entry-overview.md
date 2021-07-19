@@ -6,16 +6,17 @@ ms.date: 10/02/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3d6bee3bbcf96002c1951733bbacc94c6fc9d888
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: fecbb7c6985608c21ef089434e67d5f1e47f06ec
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011121"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369081"
 ---
 # <a name="time-overview"></a>Pregled časa
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Časovni vnos je postopek beleženja dejanskega časa, ki ga porabi vir. Časovni vnosi v aplikaciji Dynamics 365 Project Operations omogočajo izračun stroškov in prodajnih cen med izvajanjem opravil. Ti vnosi vodji projekta omogočajo, da spremlja projekte in opravila. Časovni vnosi tudi obveščajo upravitelje virov o morebitnih počitnicah ali odsotnostih, ki so na tabeli razporedov prikazane kot **Odsoten**. Ta obvestila upraviteljem virov omogočajo načrtovanje v skladu s temi dogodki.
 

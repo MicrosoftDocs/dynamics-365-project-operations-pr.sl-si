@@ -6,16 +6,17 @@ ms.date: 11/19/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002661"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369396"
 ---
 # <a name="intercompany-invoicing-overview"></a>Pregled izstavljanja računov med podjetji
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 Vaša organizacija ima lahko več oddelkov, podružnic in drugih pravnih subjektov, ki si za projekte izmenjujejo izdelke in storitve. Pravna oseba, ki zagotavlja storitev ali izdelek, se imenuje *posojilna pravna oseba*. Pravna oseba, ki sprejme storitev ali izdelek, se imenuje *izposojevalna pravna oseba*.
 
