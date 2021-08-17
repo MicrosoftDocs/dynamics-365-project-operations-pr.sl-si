@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006216"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005816"
 ---
 # <a name="create-a-project-team"></a>Ustvarjanje projektne ekipe
 
@@ -33,7 +33,7 @@ Nastavitve pogleda lahko prilagodite tudi za boljši pregled razpoložljivosti v
 
 Projektni vodja lahko na strani izbere vlogo in nato, če je na voljo vir, ki ustreza zahtevi, izbere rezervacijo vira za zapolnitev vloge. Upoštevajte, da virov na tej točki v fazi načrtovanja ni treba rezervirati. Ko ustvarite SČD, lahko vloge nadomestite z zaposlenimi viri za projekt. Če se vloge v SČD nadomestijo z dodeljenimi viri, nastavitev virov samodejno posodobi seznam in razporejanje projektne skupine.
 
-[![Seznam projektne skupine, ki vključuje vloge in dejanske vire](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Seznam projektne ekipe, ki vključuje vloge in dejanske vire.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Projektni vodja ima različne možnosti za rezervacijo vira za projekt, npr. **Preostala zmogljivost**, **Polna zmogljivost**, **Odstotek zmogljivosti** in **Določanje ur**. Te možnosti rezervacije lahko kadar koli prekličete, če se dodelitve virov spremenijo. Podprti sta dve vrsti rezervacij:
 

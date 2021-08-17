@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 579a07e117cf00727813385da28d47f7e42f0127
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369486"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007346"
 ---
 # <a name="project-resourcing-home-page"></a>Domača stran iskanja virov za projekt
 
@@ -38,7 +38,7 @@ Eden od izzivov za projektne vodje in upravitelje virov v fazi načrtovanja proj
 - Ocena števila virov, ki so potrebni za celoten življenjski cikel projekta.
 - Priprava osnutka strukturirane členitve dela (WBS) z uporabo prvotnih angažmajev virov.
 
-[![Življenjski cikel projekta](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Življenjski cikel projekta.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 Ko se načrtovanje projekta nadaljuje, je mogoče načrtovane vire zamenjati z zaposlenimi viri. Projektni vodja se lahko tudi vrača in posodablja rezervacije ob iskanju virov v kateri koli fazi projekta.
 

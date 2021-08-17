@@ -7,16 +7,16 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dcf11d770082308d77b369c6f50aabb1ec7c1c86
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b11a57ae152be154fd6a7d330c8520f3b295ce3ef5cc7051ac9b343e3bcdbe12
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995686"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006356"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti v marcu 2021 – Project Operations za primere uporabe z viri/brez zalog
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 

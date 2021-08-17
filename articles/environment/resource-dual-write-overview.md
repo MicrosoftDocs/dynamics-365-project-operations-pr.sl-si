@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 540b6f74d8e79116e5fdb2ceffaa4bbb487ff08f
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368451"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007931"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Pregled integracije za dvojno zapisovanje za Project Operations
 
@@ -23,7 +23,7 @@ Project Operations uporablja [zmožnosti dvojnega zapisovanja](/dynamics365/fin-
 
 Spodnja ilustracija prikazuje, kako se sinhronizirajo podatki kot del te integracije med storitvama Dataverse in Finance.
 
-![Pregled pretoka podatkov za Project Operations](./media/ProjectOperationsFlows.jpg)
+![Pregled pretoka podatkov za storitve Project Operations.](./media/ProjectOperationsFlows.jpg)
 
 Aplikacija Project Operations v storitvi Dataverse ponuja sodoben uporabniški vmesnik (UI) in preprosto razširitev brez kodiranja/z malo programske kode z uporabo zmogljivosti storitve Power Platform. Vodje projektov, upravitelji virov, člani projektne ekipe in druge osebe osrednje pisarne, opravljajo svoje dejavnosti v aplikaciji Project Operations v storitvi Dataverse.
 

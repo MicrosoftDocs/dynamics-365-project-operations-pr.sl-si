@@ -6,16 +6,16 @@ ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f6b14a1cbe7f3d41c86aedaf863434214f911eaa
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995641"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007976"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti v novembru 2020 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 

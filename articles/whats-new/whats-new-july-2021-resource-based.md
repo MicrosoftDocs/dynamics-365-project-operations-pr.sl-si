@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433538"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008066"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti za julij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433538"
 
 Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
-   - Project Operations v različici okolja 4.12.0.148. storitve Microsoft Dataverse.
+   - Storitev Project Operations v okolju Microsoft Dataverse različice 4.12.0.148 ali 4.12.0.152.
    - Upravljanje projektov in računovodstvo v različici okolja 10.0.20 storitve Dynamics 365 Finance.
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
@@ -79,7 +79,7 @@ Vedno, ko posodabljate različico rešitev Project Operations Dataverse in Finan
 | Splošno                       | 2296857              | Sledenje napredku za dolgotrajne posle.                                                                                                                                                                        |
 | Splošno                       | 2253682              | Rešitve dvojnega zapisovanja storitve Project Operations ne smemo nameščati, če je osnova dvojnega zapisovanja nameščena v okolju brez rešitve za organiziranje z dvojnim zapisovanjem.                                                |
 | Splošno                       | 2316420              | Jedro aplikacije Project Service ni omogočeno, če je poslovna enota uporabnika aplikacije spremenjena.                                                                                                                     |
-
+| Splošno                       | 2376405              | Odpravljena težava s posodobitvami, ki jih vodi izdajatelj (posodobitev kakovosti je na voljo v različici 4.12.0.152)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Pregled upravljanja projektov in računovodstva v storitvi Dynamics 365 Finance
 
 | Območje funkcij                      | Številka sklica | Posodobitev kakovosti                                                                                                                                                                                                                                                                                                                |

@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367911"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008246"
 ---
 # <a name="resource-management-modes-overview"></a>Pregled načinov upravljanja virov
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations podpira dva načina za izvajanje celotnega potek
 ## <a name="central-mode"></a>Osrednji način
 Organizacijam, ki centralizirajo dodelitev virov projektom, osrednji način omogoča, da lahko vodje projektov določijo zahtevane pogoje za vire na ravni projekta. Izpolnjevanje zahtevanih pogojev za vire je preneseno na upravitelja virov. Vodje projektov lahko sprejmejo ali zavrnejo vire, ki jih predlaga upravitelj virov.
 
-![Osrednji način](./media/resource-management-central.png)
+![Osrednji način.](./media/resource-management-central.png)
 
 Za upravljanje virov v osrednjem načinu glejte:
 
@@ -37,7 +37,7 @@ Za upravljanje virov v osrednjem načinu glejte:
 ## <a name="hybrid-mode"></a>Hibridni način
 Organizacijam, ki potrebujejo prilagodljivost pri dodeljevanju virov, hibridni način omogoča, da vodje projektov in upravitelji virov rezervirajo vire.
 
-![Hibridni način](./media/resource-management-hybrid.png)
+![Hibridni način.](./media/resource-management-hybrid.png)
 
 Poleg podprtega postopka v osrednjem načinu glejte tudi naslednje teme za upravljanje vseh drugih podprtih potekov za rezervacije v hibridnem načinu:
 

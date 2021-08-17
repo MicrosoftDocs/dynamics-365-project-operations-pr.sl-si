@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997531"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005636"
 ---
 # <a name="synchronize-resource-capacity"></a>Sinhronizacija zmogljivosti vira
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997531"
 
 Procesi za sinhronizacijo virov pomagajo zagotoviti, da se informacije za koledar in osnovni koledar stekajo navzdol v razporejanje virov projekta. Če je koledar spremenjen, procesi izvedejo zahtevane spremembe za razporejanje virov projekta. Procesi pripomorejo tudi k izboljšanju učinkovitosti, ker se informacije o virih koledarja vnaprej sinhronizirajo. Zato se posodobitve informacij o razporejanju virov pojavijo hitreje. Priporočamo, da procese razporedite kot paket, namesto enega po enega. V nasprotnem primeru obstaja nevarnost, da bo kdo pozabil vključujoče datume, ko so bile informacije nazadnje sinhronizirane. Če se ne uporabljajo vključujoči datumi, lahko med sinhronizacijo datumov pride do vrzeli.
 
-![Sinhronizacija koledarja](./media/projectresourcing04-1024x471.jpg)
+![Sinhronizacija koledarja.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Sinhronizacija zbiranj zmogljivosti vira
 
@@ -46,7 +46,7 @@ Priporočamo uporabo paketa. Možnosti so na voljo med sinhronizacijo rezervacij
     | Začetni datum  | Vnesite začetni datum za proces sinhronizacije za zbiranja zmogljivosti vira. |
     | Končni datum    | Vnesite končni datum za proces sinhronizacije za zbiranja zmogljivosti vira. |
 
-[![Proces sinhronizacije](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Proces sinhronizacije.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

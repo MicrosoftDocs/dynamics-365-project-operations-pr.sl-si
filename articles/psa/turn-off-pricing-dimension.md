@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014316"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006806"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Izklop cenovne razsežnosti
 
@@ -32,7 +32,7 @@ Cenovno razsežnost lahko izklopite tako, da polji **Mogoče uporabiti za ceno**
 
 Po tem se vam bo morda prikazalo to sporočilo o napaki.
 
-![Napaka v poslovnem procesu, ki se lahko pojavi ob izklopu cenovne razsežnosti](media/Business-Process-Error.png)
+![Napaka v poslovnem procesu, ki se lahko pojavi ob izklopu cenovne razsežnosti.](media/Business-Process-Error.png)
 
 
 To sporočilo o napaki pomeni, da obstajajo zapisi cen, ki so bili predhodno nastavljeni za razsežnost, ki jo želite izklopiti. Vse zapise **Cena vloge** in **Pribitki na ceno vloge**, ki se sklicujejo na razsežnost, je treba izbrisati, preden lahko uporabnost razsežnosti nastavite na **Ne**. To pravilo velja tako za vnaprej pripravljene cenovne razsežnosti kot za vse cenovne razsežnosti po meri, ki ste jih morda ustvarili. To preverjanje je potrebno zato, ker ima rešitev Project Service omejitev, zaradi katere mora imeti vsak zapis **Cena vloge** edinstveno kombinacijo razsežnosti. Na ceniku, imenovanem **Stroški v ZDA, 2018**, so naslednje vrstice **Cena vloge**. 

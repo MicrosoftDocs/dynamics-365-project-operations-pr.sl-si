@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21721a9b0af820df10c4fa965d000e85098e0dea
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999061"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007436"
 ---
 # <a name="manage-resource-competencies"></a>Upravljanje sposobnosti virov
 
@@ -29,7 +29,7 @@ ms.locfileid: "5999061"
 
 Sposobnosti virov so bistveni del upravljanja virov. Sposobnosti je mogoče uporabiti kot izhodišče za določanje virov, ki imajo pravo ravnovesje znanj, izobrazbe, potrdil in projektnih izkušenj. Te informacije bi morali nastaviti za vsak vir in jih redno posodabljati. Na ta način lahko povečate zmogljivosti, ko so najdena ujemanja za sposobnosti določenega vira med dodelitvijo vira projekta.
 
-[![Primeri znanj, potrdil, izobrazbe in projektnih izkušenj](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Primeri znanj, potrdil, izobrazbe in projektnih izkušenj.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Z naslednjimi postopki je pojasnjeno, kako nastavite nekatere sposobnosti za vir.
 

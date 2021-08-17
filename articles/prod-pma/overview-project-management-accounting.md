@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369711"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007526"
 ---
 # <a name="project-management-and-accounting-overview"></a>Pregled vodenja projektov in računovodstva
 
@@ -34,14 +34,14 @@ Projekt je skupina dejavnosti, ki je namenjena zagotavljanju storitev, proizvodn
 ## <a name="projects-across-industries"></a>Projekti v posameznih panogah
 Funkcija vodenja projektov in računovodstva je uporabna v več panogah, kot je prikazano na naslednji sliki.
 
-[![Projekti v posameznih panogah](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekti v posameznih panogah.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 V klicnem centru lahko vstopnico uporabite za opis nabora dejanj, ki so potrebna za obravnavo klica. Svetovalna podjetja, kot so organizacije za vodenje ali tehnično svetovanje in oglaševalske agencije, svoje dejavnosti označujejo kot projekte. V marketingu se sklopu opravil, ki jih je treba izvesti, reče kampanja. V proizvodnji na podlagi projekta se proizvodno naročilo navezuje na različna dela, ki jih je treba opraviti za izdelavo nekaterih končnih izdelkov. Ne glede na ime, ki jih označuje, vsi ti projekti vključujejo vire, urnike in stroške, funkcija vodenja projektov in računovodstva pa lahko pomaga pri načrtovanju, izvedbi in analizi teh projektov.
 
 ## <a name="project-phases"></a>Projektne faze
 Čeprav je naslednji potek postopka namenjen zunanjim projektom ali projektom, ki so dokončani za eno ali več strank, se ta funkcija uporablja tudi za notranje projekte, vezane na stroške. 
 
-![3 stopnje projekta](./media/3-stages-of-a-project.png) 
+![3 stopnje projekta.](./media/3-stages-of-a-project.png) 
 
 Kot je prikazano na prejšnji sliki, lahko vodenje projektov in računovodstvo razdelimo v tri faze:
 
@@ -50,7 +50,7 @@ Kot je prikazano na prejšnji sliki, lahko vodenje projektov in računovodstvo r
 3.  Analiziraj
 
 ## <a name="initiate-the-project"></a>Začetek projekta
-Med začetnim delom projekta se odvije več ključnih procesov. Ponudbo projekta lahko uporabite za sporočanje pričakovanega dela, stroškov in materialov stranki. Obračunske pogoje, omejitve in pogodbe lahko zabeležite v projektni pogodbi. Za načrtovanje in ocenjevanje dela lahko uporabite strukturirano členitev dela (SČD). Nastavite lahko napovedi in proračune za vodenje izvedbe projekta. Naslednja slika prikazuje strukturo projekta.[![struktura projekta](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Med začetnim delom projekta se odvije več ključnih procesov. Ponudbo projekta lahko uporabite za sporočanje pričakovanega dela, stroškov in materialov stranki. Obračunske pogoje, omejitve in pogodbe lahko zabeležite v projektni pogodbi. Za načrtovanje in ocenjevanje dela lahko uporabite strukturirano členitev dela (SČD). Nastavite lahko napovedi in proračune za vodenje izvedbe projekta. Naslednja slika prikazuje strukturo projekta.[![struktura projekta.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Ustvarjanje projektnih ponudb
 

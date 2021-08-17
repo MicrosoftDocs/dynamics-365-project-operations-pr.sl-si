@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a7268eb33c80f5e35d2ef21a8f4c7ed7ba322e27
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 36c95913cc72e293c3015e1b9d3055aac476eebb4cf7d7993741d3cb61de0e13
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000591"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006188"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Dodajanje zahtevanih polj po meri v entitete za nastavitev cene in transakcijske entitete
 
@@ -47,7 +47,7 @@ Ko ustvarite polja in entitete po meri, morate nastaviti entitete za nastavitev 
 > [!IMPORTANT]
 > Če dodate polje v več entitet, uporabite isto ime polja v vseh entitetah. 
 
-> ![Dodajanje mesta dela vira v ceno vloge](media/RWL-Field.png)
+> ![Dodajanje lokacije vira dela v ceno vloge.](media/RWL-Field.png)
 
 V fazah prodaje in ocenjevanja za projekt se za oceno vrednosti ponudbe/projekta uporabijo ocene obsega dela, ki je potreben za dokončanje dela z oznako **Lokalno** in **Na lokaciji**, in sicer z vrednostma **Redni delovni čas** in **Nadure**. Polji **Lokacija dela vira** in **Delovni čas vira** bosta dodani entitetam ocenjevanja **Podrobnost vrstice ponudbe**, **Podrobnost vrstice pogodbe**, **Član projektne ekipe** in **Vrstica ocene**.
 
@@ -59,7 +59,7 @@ V fazah prodaje in ocenjevanja za projekt se za oceno vrednosti ponudbe/projekta
 6. Ponovite korake od 1 do 5, da dodate to polje v entitete **Podrobnost vrstice projektne pogodbe**, **Član projektne ekipe** in **Vrstica ocene**.
 7. Ponovite korake od 1 do 6 za nabor možnosti **Delovni čas vira**. 
 
-> ![Dodajanje lokacije dela vira v vrstico ocene](media/RWL-Default-Value.png)
+> ![Dodajanje lokacije dela vira v vrstico ocene.](media/RWL-Default-Value.png)
 
 Za namene dostave in izdajanja računov je treba za opravljeno delo natančno določiti ceno. V opravljenih delih projekta izberite, ali je bilo izvedeno **lokalno** ali **na lokaciji** in ali je bilo opravljeno med **rednim delovnim časom** ali **nadurami**. Polji **Lokacija dela vira** in **Delovni čas vira** morata biti dodani v entitete **Časovni vnos**, **Dejansko**, **Podrobnosti vrstice računa** in **Vrstica dnevnika**.
 
@@ -71,7 +71,7 @@ Za namene dostave in izdajanja računov je treba za opravljeno delo natančno do
 6. Ponovite korake od 1 do 5, da dodate to polje v entitete **Dejansko**, **Podrobnost vrstice računa** in **Vrstica dnevnika**.
 7. Ponovite korake od 1 do 6 za nabor možnosti **Delovni čas vira**. 
 
-> ![Dodajanje lokacije dela vira v časovni vnos](media/RWL-time-entry.png)
+> ![Dodajanje lokacije dela vira v časovni vnos.](media/RWL-time-entry.png)
 
 S tem dokončate spremembe sheme, ki so potrebne za razsežnosti po meri na osnovi nabora možnosti.
 
@@ -84,7 +84,7 @@ S tem dokončate spremembe sheme, ki so potrebne za razsežnosti po meri na osno
 3. Razširite entiteto **Standardni naziv** in izberite **Odnosi 1: N**.
 4. Izberite **Novo**, da ustvarite nov odnos 1: N, ki se imenuje **Standardni naziv proti viru, ki ga je mogoče rezervirati**. Vnesite zahtevane informacije in izberite **Shrani**.
 
-> ![Dodajanje standardnega naziva kot sklicnega polja v vir, ki ga je mogoče rezervirati](media/ST-BR.png)
+> ![Dodajanje standardnega naziva kot sklicnega polja v vir, ki ga je mogoče rezervirati.](media/ST-BR.png)
 
 Standardni naziv morate dodati tudi entitetam za določanje cene **Cena vloge** in **Pribitek na ceno vloge**. Tudi to zaključite z uporabo odnosov 1: N med entitetama **Standardni naziv** in **Cena vloge** ter entitetama **Standardni naziv** in **Pribitek na ceno vloge**.
 
@@ -102,13 +102,13 @@ V fazah prodaje in ocenjevanja za projekt so za določanje cene ponudbe/projekta
 
 5. Ponovite korake od 1 do 5, da ustvarite odnose 1: N med entiteto **Standardni naziv** in entitetami **Podrobnost vrstice ponudbe**, **Podrobnost vrstice projektne pogodbe**, **Član projektne ekipe** in **Vrstica ocene**.
 
-> ![Dodajanje standardnega naziva kot sklicnega polja v vrstico ocene](media/ST-Estimate-Line.png)
+> ![Dodajanje standardnega naziva kot sklicnega polja v vrstico ocene.](media/ST-Estimate-Line.png)
 
   V fazah dostave in izdajanja računov mora biti v opravljenih delih projekta za delo, ki ga opravi posamezni standardni naziv, natančno določena cena. To pomeni, da potrebujete odnos 1: N med entiteto **Standardni naziv** in entitetami **Časovni vnos**, **Dejansko**, **Podrobnost vrstice računa** in **Vrstica dnevnika**.
 
 6. Ponovite korake od 1 do 6, da ustvarite odnos 1: N med entiteto **Standardni naziv** in entitetami **Časovni vnos**, **Dejansko**, **Podrobnost vrstice računa** in **Vrstica dnevnika**.
 
-> ![Dodajanje standardnega naziva kot sklicnega polja v časovni vnos](media/ST-Mapping.png)
+> ![Dodajanje standardnega naziva kot sklicnega polja v časovni vnos.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Nastavitev privzete vrednosti razsežnosti z uporabo funkcij preslikave v platformi
 Pri časovnem vnosu je uporabno, če sistem nastavi privzeto vrednost standardnega naziva v časovnem vnosu iz vira, ki ga je mogoče rezervirati in ki beleži časovni vnos. Uporabite spodnje korake, da dodate preslikave polj v odnosu 1: N iz entitete **Vir, ki ga je mogoče rezervirati** v entiteto **Časovni vnos**.
@@ -118,7 +118,7 @@ Pri časovnem vnosu je uporabno, če sistem nastavi privzeto vrednost standardne
 3. Dvokliknite **Vir, ki ga je mogoče rezervirati, v časovni vnos**. Na strani **Odnos** izberite **Uporabi preslikave polj**. 
 4. Izberite **Novo**, da ustvarite novo preslikavo polja med poljem **Standardni naziv** v entiteti **Vir, ki ga je mogoče rezervirati** in sklicnim poljem **Standardni naziv** v entiteti **Časovni vnos**. 
 
-> ![Nastavitev preslikav polj za omogočanje nastavljanja privzete vrednosti standardnega naziva iz entitete vira, ki ga je mogoče rezervirati, v entiteti časovnega vnosa](media/ST-Mapping2.png)
+> ![Nastavitev preslikav polj za omogočanje nastavljanja privzete vrednosti standardnega naziva iz entitete vira, ki ga je mogoče rezervirati, v entiteto časovnega vnosa.](media/ST-Mapping2.png)
 
 S tem dokončate spremembe sheme, ki so potrebne za razsežnosti po meri na osnovi entitete.
 
