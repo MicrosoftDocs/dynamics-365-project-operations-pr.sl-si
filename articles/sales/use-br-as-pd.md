@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011211"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996276"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Uporaba vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti
 
@@ -64,18 +64,18 @@ O tej razliki je treba seznaniti zapis cenovne razsežnosti za **msydn_bookabler
 1. Dvokliknite vrstico v mreži **Cenovne razsežnosti**, da odprete stran razsežnosti imena **msdyn_bookableresource**.
 2. Na zavihku **Povezano** strani razsežnosti izberite **Imena polj cenovnih razsežnosti**.
 
-  ![Zavihek z imeni polj cenovnih razsežnosti](media/PD-fieldname.png)
+  ![Zavihek z imeni polj cenovnih razsežnosti.](media/PD-fieldname.png)
 
 3. V povezanem pogledu, ki se odpre, izberite možnost **Dodaj novo ime polja cenovne razsežnosti**.
 
-  ![Dodajanje novih imen polj cenovnih razsežnosti](media/Add-NewPD-fieldname.png)
+  ![Dodajanje novih imen polj cenovnih razsežnosti.](media/Add-NewPD-fieldname.png)
 
   Odpre se stran **Novo ime polja cenovne razsežnosti** za **msdyn_bookableresource**. 
 
 4. Na strani **Novo ime polja cenovne razsežnosti** dodajte **msdyn_projectteam** v polje **Logično ime entitete**.
 5. Dodajte **msdyn_bookableresourceid** v polje **Ime polja**.
 
- ![Oblika novega imena polja cenovne razsežnosti](media/PD-fieldname-Added.png)
+ ![Obrazec novega imena polja cenovne razsežnosti.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

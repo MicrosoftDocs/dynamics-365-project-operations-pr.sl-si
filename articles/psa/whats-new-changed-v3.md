@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 26d79ff79801f8ad0f80020d49fdc80f76dd9aef
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007026"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987096"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novosti ali spremembe v storitvi Project Service Automation različice 3
 
@@ -36,7 +36,7 @@ V tej temi so na voljo informacije o spremembah uporabniškega vmesnika, funkcij
 ## <a name="project-scheduling"></a>Razporejanje projektov
 Razpored projektov, ki je v prejšnjih različicah bil znan kot strukturirana členitev dela (SČD), je preimenovan v razpored in do njega lahko dostopate s klikom zavihka **Razpored**. 
 
-![Razpored projektov](media/psa-schedule-01.png)
+![Razpored projektov.](media/psa-schedule-01.png)
 
 Zdaj ima razpored novo središče za interakcijo, ki je tako moderno kot dostopno. Toda temeljni mehanizem za razporejanje storitve Project Service Automation je ostal enak. Krmilni gumbi v traku mreže razporeda omogočajo interakcijo z razporedom, kar je podobno kot v prejšnji različici storitve Project Service Automation. Dodatne spremembe razporeda vključujejo:
 
@@ -95,22 +95,22 @@ Ko razpored obstoječega projekta premaknete naprej, se zgodi naslednje:
 ## <a name="estimates"></a>Ocene
 Ocene so razdeljene na dva zavihka: **Dodelitve virov** in **Ocene**. Zavihek **Dodelitve virov** vsebuje ocene obsega dela in prikazuje dodelitve virov za opravila v časovno razporejenem pogledu. Ocene lahko uredite glede na vrednosti, ki jih ustvari mehanizem za razporejanje.
 
-![Zavihek »Dodelitve virov«, ki prikazuje ocene obsega dela in dodelitve virov za opravila](media/resource-assignments-tab-02.png)
+![Zavihek »Dodelitve virov«, ki prikazuje ocene obsega dela in dodelitve virov za opravila.](media/resource-assignments-tab-02.png)
 
 Zavihek **Ocene** prikazuje zneske stroškov in prodajne zneske za dodelitve virov. Zneski so samo za branje. Zneski stroškov in prodajni zneski zdaj temeljijo na dodelitvah člankov ekipe na razporedu. Če imate opravilo brez dodelitev, to pomeni, da bo opravilo prikazano v nedodeljenem vedru. To pomeni tudi, da brez **vloge**, ki je privzeta cenovna razsežnost, ne bo predvidenih stroškov ali prodaje, če imate kupca ali pogodbo/ponudbo, povezano s projektom. 
 
-![Zavihek »Ocene« , ki prikazuje zneske stroškov in prodajne zneske](media/estimates-tab-03.png)
+![Zavihek »Ocene« , ki prikazuje zneske stroškov in prodajne zneske.](media/estimates-tab-03.png)
   
 Kategorija je podprta tudi pri opravilih v pogledu razporeda. Združevanje po kategorijah v časovno razporejenem pogledu ocen bo zagotovilo boljšo izkušnjo, še posebej, če imate v projektu tudi ocene stroškov. Ocene stroškov so vnesene z mrežo na ločenem zavihku. 
 
 Ocene stroškov se lahko vnesejo v mreži na zavihku **Ocene stroškov**. 
 
-![Zavihek »Ocene stroškov«, ki prikazuje mrežo z ocenami stroškov](media/expense-estimates-tab-04.png)
+![Zavihek »Ocene stroškov«, ki prikazuje mrežo z ocenami stroškov.](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Upravljanje virov
 V različici 3 storitve Project Service Automation, ki vključuje nov poenoteni uporabniški vmesnik in spremenjene odnose med rezervacijami in dodelitvami, se je dodelitev osebja za projekt s splošnimi ali pravimi viri precej spremenila glede na različici 2 in 1. Vendar pa so koncepti **pravih** in **splošnih** virov, ki jih je mogoče rezervirati, ostali enaki, tako kot člani ekipe, zahteve, dodelitve in rezervacije.   
 
-![Uporaba izbirnika za vire](media/resource-management-05.png)
+![Uporaba izbirnika za vire.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Dodeljevanje pravega vira, ki ga je mogoče rezervirati 
 V različici 3 storitve Project Service Automation pa rezervacije in dodelitve opravil niso tako tesno prepletene kot v prejšnjih različicah storitve Project Service Automation. Mrežo ekipe lahko uporabite, da rezervirate **pravega** člana ekipe, podobno kot na trgu.
@@ -136,7 +136,7 @@ Ko je zahteva izpolnjena z več viri, splošni vir ostane v ekipi in dodeljen op
 ### <a name="reconciliation"></a>Uskladitev
 Zavihek **Uskladitev** prikazuje rezervacije in vse dodelitve za vsakega člana projektne ekipe. Pogled prikazuje ure v celicah, ki lahko predstavljajo časovne točke od mesecev do dnevov. Ta pogled omogoča vodjam projektov, da uskladijo rezervacije članov ekipe in njihove dodelitve za projektno ekipo. To je uporabno, ker rezervacije in dodelitve opravil niso tesno povezane, kar omogoča večjo prilagodljivost pri načrtovanju projekta. 
 
-![Zavihek »Uskladitev«, ki prikazuje rezervacije in dodelitve za člane projektne ekipe](media/resource-reconciliation-tab-06.png)
+![Zavihek »Uskladitev«, ki prikazuje rezervacije in dodelitve za člane projektne ekipe.](media/resource-reconciliation-tab-06.png)
 
 Pogled upošteva razliko med rezervacijami člana ekipe in skupno vrednostjo njegovih dodelitev opravil za vsak vir ter prikazuje naslednji razliki, do katerih lahko pride pri rezervacijah in dodelitvah v projektu: 
 
@@ -151,21 +151,21 @@ V tem razdelku so navedene informacije o spremembah časa, stroškov in odobrite
 ### <a name="landing-page"></a>Ciljna stran
 Nerazširljiva izkušnja časovnega vnosa po meri je v različici 3 zastarela. Namesto tega je na voljo razširljiva in dostopna izkušnja izvorne mreže. Do funkcije časovnega vnosa lahko dostopate z zemljevidom mesta na levi strani. Zaradi te spremembe ne boste več mogli hkrati vnesti časa za en teden. Namesto tega boste morali ustvariti časovni vnos za vsak dan v mreži. Po ustvarjanju nekaj časovnih vnosov lahko uporabniki množično ustvarjajo časovne vnose s funkcijo **Kopiraj**, kot je razloženo v nadaljevanju te teme. 
 
-![Ciljna stran za časovne vnose](media/time-entry-landing-page-07.png)
+![Ciljna stran za časovne vnose.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Ustvarjanje novih časovnih vnosov 
 V traku kliknite možnost **Novo**, da odprete stran za hitro ustvarjanje za časovni vnos, kjer lahko vnesete trajanje v minutah, urah ali dnevih. Če želite to narediti, začnite vnašati »h«, »m« ali »d« skupaj s količino.  
 
-![Hitro ustvarjanje časovnega vnosa](media/quick-create-time-entry-08.png)
+![Hitro ustvarjanje časovnega vnosa.](media/quick-create-time-entry-08.png)
 
 Polja za iskanje so podprta s sistemskimi pogledi. Ko na primer vnesete podatke o projektu, je polje **Projektno opravilo** privzeto nastavljeno na pogled **Moja odprta projektna opravila**. Če želite ustvariti časovne vnose za opravila, ki niso dodeljena uporabniku, v iskalnem polju kliknite **Spremeni pogled** in izberite možnost **Vsa dejavna projektna opravila**. Ko je časovni vnos ustvarjen in prikazan v mreži, lahko vse vrednosti vrstice uredite neposredno v mreži.  
 
 ### <a name="bulk-createcopy"></a>Množično ustvarjanje/kopiranje 
 Ko ustvarite nekaj časovnih vnosov, lahko uporabite funkcijo kopiranja za množično ustvarjanje dodatnih časovnih vnosov. Za odpiranje pogovornega okna **Kopiranje** kliknite možnost **Kopiraj**. V možnosti **Od obdobja: začetni datum** nastavite datumski obseg, iz katerega bodo kopirana časovna obdobja. V možnosti **Do obdobja: začetni datum** določite datum, za katerega je treba ustvariti časovne vnose. Kliknite **Kopiraj**, da časovne vnose kopirate v ustrezen dan v tednu, ki je označen v možnosti **Do obdobja**. Ponedeljkov časovni vnos iz prejšnjega tedna bo kopiran v ponedeljek za teden, ki je označen v možnosti **Do obdobja**. 
 
-![Množično kopiranje časovnih vnosov](media/bulk-copy-time-entry-09.png)
+![Množično kopiranje časovnih vnosov.](media/bulk-copy-time-entry-09.png)
  
-### <a name="import-data"></a>Uvoz podatkov 
+### <a name="import-data"></a>Uvažanje podatkov 
 Dodelitve in izmenjava sledijo istemu vzorcu uporabniškega vmesnika, kar uporabniku omogoča, da določi datumski obseg, iz katerega je treba uvoziti rezervacije. Nato morate posebej izbrati rezervacije, ki jih želite kopirati v časovne vnose **Osnutek**. V različici 3 ni mogoče videti vzorca **predlaganih** časovnih vnosov v mreži in koledarju.  
 
 ### <a name="change-in-calendar-control"></a>Spremembe kontrolnika za koledar
@@ -179,7 +179,7 @@ V različici 3 ni več v uporabi kontrolnik za koledar po meri; uvedli smo koled
 
 **Beleženje podatkov iz polj po meri v časovnih vnosih in vnosih stroškov ter njihovo posredovanje prek entitet, ki podpirajo potek pošiljanja in odobritve** – običajna obdelava časovnih vnosov je prikazana v spodnjem diagramu.
 
-![Obdelava poteka časovnih vnosov](media/process-time-entries-10.png)
+![Obdelava poteka časovnih vnosov.](media/process-time-entries-10.png)
 
 Če poslovne zahteve določajo, da morata entiteta časovnih vnosov in entiteta stroškov zajeti cenovne razsežnosti po meri in razširiti vrednosti, ki so nastavljene z virom časa in vnosa v cenovni razsežnosti po meri, v vseh entitetah iz prejšnjega grafičnega prikaza, glejte temo [Nastavitev polj po meri kot cenovnih razsežnosti](set-up-pricing-dimensions.md).
 
@@ -236,7 +236,7 @@ V različicah 1 in 2 je bila nastavitev možnosti zaračunavanja za vloge in kat
 
 Od različice 3 bo nastavitev možnosti zaračunavanja po vlogi in kategoriji stroškov opravljena na stopnji vrstice ponudbe ali podrobnosti pogodbe. Nastavitev cen in nastavitev možnosti zaračunavanja sta ločeni. Zavihka **Vloge, ki se zaračunajo** in **Kategorije, ki se zaračunajo** lahko najdete na straneh **Vrstica ponudbe** in **Podrobnosti pogodbe**, pri čemer vam ni treba uporabljati zgornje vrstice za krmarjenje.
 
-![Vloge, ki se zaračunajo](media/chargeable-12.png)
+![Vloge, ki se zaračunajo.](media/chargeable-12.png)
  
 Nastavitev vlog in kategorij, ki se zaračunajo, se uporablja tudi pri vnaprej pripravljenem kontrolniku za mrežo, ki jo je mogoče urejati. Za vsako vlogo in kategorijo ostanejo podprte možnosti za vrsto obračunavanja med fazo oblikovanja ponudb in sklepanja pogodb nespremenjene glede na prejšnje različice, **Se zaračuna** in **Se ne zaračuna**. Vrsta **Brezplačno** ni podprta med fazo oblikovanja ponudb in sklepanja pogodb. Vrsta **Brezplačno** je podprta samo med odobritvijo časa ali stroškov.  
  
@@ -247,11 +247,11 @@ Od različice 3 sta ustvarjanje in uporaba cenika projekta po meri v ponudbi st
   
 Naslednji grafični prikaz je prikaz pred ustvarjanjem cenikov po meri.
 
-![Pred ustvarjanjem cenikov po meri](media/before-custom-price-lists-13.png)
+![Pred ustvarjanjem cenikov po meri.](media/before-custom-price-lists-13.png)
 
 Naslednji grafični prikaz je prikaz po ustvarjanju cenikov po meri.
 
-![Po ustvarjanju cenikov po meri](media/after-custom-price-lists-14.png)
+![Po ustvarjanju cenikov po meri.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Lahko pride do krajšega zamika med klikom možnosti **Ustvari cenik po meri** in ustvarjanjem cenika po meri. Priporočamo, da namesto večkratnih klikov osvežite mrežo. Cenik po meri je ustvarjen, če ima ime povezanega cenika priloženo ime ponudbe ali projektne pogodbe.

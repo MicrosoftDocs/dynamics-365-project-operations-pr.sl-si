@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369036"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003791"
 ---
 # <a name="invoicing-process-overview"></a>Pregled postopka izdajanja računa
 
@@ -20,7 +20,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/n
 
 Aplikacija Project Operations za primere uporabe z viri/brez zalog ponuja obsežne zmogljivosti, prilagojene potrebam vodje projekta in referenta za terjatve/projektnega računovodje. Pri postopku izdajanja računov vodja projekta upravlja nedokončana opravila obračunavanja v projektu, referent za terjatve/projektni računovodja pa ustvari skladen in točen račun za stranko.
 
-![Diagram poteka izdajanja računa](./media/invoicing-flow.png)
+![Diagram poteka izdajanja računa.](./media/invoicing-flow.png)
 
 Podrobnosti projektne pogodbe določajo način obračunavanja za povezane projektne transakcije. Ko vodja projekta odobri časovne in stroškovne transakcije, sistem zabeleži transakcije v entiteto **Opravljena dela projekta** in pošlje podatke v modul **Upravljanje projektov in računovodstvo** v storitvi Dynamics 365 Finance. Projektni računovodja nato pregleda in objavi zapise v [dnevniku integracij za aplikacijo Project Operations](../project-accounting/project-operations-integration-journal.md). V tem dnevniku so pomembne računovodske podrobnosti za opravljeno delo v projektu, kot so obračun, skupina prometnega davka, skupina prometnega davka za artikel obračuna in finančne razsežnosti.
 

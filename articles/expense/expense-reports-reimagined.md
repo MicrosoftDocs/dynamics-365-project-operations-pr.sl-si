@@ -2,7 +2,7 @@
 title: Prenovljena poročila o stroških
 description: Ta tema pojasnjuje preoblikovano in na novo zamišljeno izkušnjo vnašanja poročil o stroških.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251024"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997851"
 ---
 # <a name="expense-reports-reimagined"></a>Prenovljena poročila o stroških
 
@@ -57,12 +57,13 @@ Vnos poročila o stroških je bil preoblikovan v želji po poenostavitvi postopk
 | Kalkulator menjalnega tečaja | Dodan je kalkulator menjalnega tečaja, ki omogoča izračun menjalnega tečaja za večvalutne gotovinske transakcije. |
 | Shranjevanje in dodajanje novih vrstic stroškov | Pri vnosu novih stroškov sta na voljo gumba za možnosti **Shrani** in **Novo** za pomoč pri hitrem vnosu vrstic stroškov. |
 | Boljši vpogled v razdeljene in razčlenjene vrstice | Razčlenjene in razdeljene vrstice so za dodatno vidljivost dodane neposredno na seznam stroškov, kar vam pomaga opaziti morebitne napake. |
-| Ogled podrobnosti podkategorije v razčlenjenih vrsticah | Razčlenjene vrstice z nadrejenimi stroški prikazujejo oznake podkategorij v poročilu o stroških, kar vam omogoča, da razčlenjene podatke pregledate na enem mestu.|
+| Ogled podrobnosti podkategorije v razčlenjenih vrsticah | Razčlenjene vrstice nadrejenega stroška prikazujejo oznake podkategorije v poročilu o stroških. Razčlenitev vam omogoča, da podatke pregledate na enem mestu.|
 | Prikaz potrdil med razčlenjevanjem | Med razčlenjevanjem je mogoč prikaz potrdil. |
 | Izbira denarnega predujma | Izberite enega ali več predujmov za izpolnitev ene transakcije stroškov. |
 | Saldo denarnega predujma | Sprotno spremljajte saldo denarnega predujma, ko ustvarite vnos stroška glede na odobrene in plačane denarne predujme. |
 
 Začetna izdaja je osredotočena na primere vnosa stroškov. Vsak pregled poročila o stroških ali primer odobritve bo še naprej uporabljal obstoječo stran za vnos stroškov.
+
 
 Delovni prostor s prenovljenimi poročili o stroških ne podpira naslednjih funkcij, načrtovanih za prihodnje izdaje: 
 

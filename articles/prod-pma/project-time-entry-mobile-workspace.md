@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009951"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989571"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Delovni prostor za vnos časa v projektu prek mobilne naprave
 
@@ -94,7 +94,7 @@ Prenos in namestitev mobilne aplikacije Finance and Operations:
 3.  Ko se prvič prijavite, boste pozvani k vnosu uporabniškega imena in gesla. Vnesite svoje poverilnice.
 4.  Po prijavi se prikažejo razpoložljivi delovni prostori za vaše podjetje. Če skrbnik sistema pozneje objavi nov delovni prostor, boste morali osvežiti seznam mobilnih delovnih prostorov.
 
-[![Povlecite za osvežitev](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Povlecite za osvežitev.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Vnesite čas z uporabo delovnega prostora za vnos časa v projektu prek mobilne naprave
 1.  V mobilni napravi izberite delovni prostor za **vnos časa v projektu**.

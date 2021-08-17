@@ -6,12 +6,12 @@ ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e79e33da618c4ab32b1ba13f33e50f60a550ff0b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4be4c8087005ae66a54d40ac88017df591c56eca64f04b00cf34b0e5a8a09ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010806"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998706"
 ---
 # <a name="financial-estimates-for-resource-time-on-projects"></a>Finančne ocene za čase virov v projektih
 
@@ -37,7 +37,7 @@ Finančna ocena časa opravila listnega vozlišča je vsota finančnih ocen vseh
 
 Finančna ocena časa povzetka ali nadrejenega opravila je vsota finančnih ocen vseh podrejenih opravil. To so ocenjeni stroški dela na projektu. 
 
-![Ocene virov](./media/navigation12.png)
+![Ocene virov.](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>Privzeta lastna cena in valuta cene
 

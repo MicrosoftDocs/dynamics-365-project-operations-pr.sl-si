@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7d9ebc0b283731356e0b9b26f2d665a12183519f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28dc05d50850fed5241c5360ccbeaeb1f4d9d7fc3916bd2a3cd1bb6f43457dd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014856"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000776"
 ---
 # <a name="recording-actuals"></a>Zapisovanje dejanskih vrednosti 
 
@@ -31,7 +31,7 @@ ms.locfileid: "6014856"
 
 Vse finančne transakcije v okviru projekta se zapišejo. Te transakcije se zapišejo kot **dejanske vrednosti**. V spodnji tabeli so prikazane različne vrste dejanskih vrednosti, ki so ustvarjene, glede na to, ali gre za časovne in materialne transakcije, transakcije s fiksno ceno ali interni projekt oziroma ali gre za stopnjo pred prodajo.
 
-> ![Tabela s prikazom zapisovanja dejanskih vrednosti](media/advanced-table2.png)
+> ![Tabela prikazuje zapisovanje dejanskih vrednosti.](media/advanced-table2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

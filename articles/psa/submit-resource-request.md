@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013191"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985026"
 ---
 # <a name="submitting-a-resource-request"></a>Pošiljanje zahteve za vir
 
@@ -34,7 +34,7 @@ Ustvarjen zahtevani pogoj za vir lahko pošljete kot zahtevo za vir. Zahteva se 
 1. V aplikaciji Project Service Automation (PSA) na strani **Projekti** kliknite zavihek **Skupina**, če si želite ogledati seznam virov, ki jih je mogoče rezervirati. 
 2. Izberite splošni vir, ki ima zahtevani pogoj za vir, s seznama in nato kliknite **Pošlji zahtevo**.
 
-![Pošiljanje zahteve za vir](media/RM-how-to-18.png)
+![Pošiljanje zahteve za vir.](media/RM-how-to-18.png)
 
 Status zahteve splošnega člana ekipe se bo spremenil v **Poslano**.
 

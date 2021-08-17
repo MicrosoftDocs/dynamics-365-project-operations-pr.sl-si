@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998206"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998346"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Preklic odobrenih časovnih vnosov ali vnosov stroškov
 
@@ -98,13 +98,13 @@ Nato se v tabeli »Dejanske vrednosti« ustvarijo postavke storniranja. Če žel
 
 Spodnja slika prikazuje spremembe, do katerih pride pri odobrenih časovnih vnosih, ko so ti preklicani.
 
-![Prehodi stanja časovnega vnosa](media/TimeEntryStateTransitions.png)
+![Prehodi stanja vnosa stroškov.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Spremembe zapisov vnosa stroškov
 
 Spodnja slika prikazuje spremembe, do katerih pride pri odobrenih vnosih stroškov, ko so ti preklicani.
 
-![Prehodi stanja vnosa stroškov](media/ExpenseEntryStateTransitions.png)
+![Prehodi stanja vnosa stroškov.](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

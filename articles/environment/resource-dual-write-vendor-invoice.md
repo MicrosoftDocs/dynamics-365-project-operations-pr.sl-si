@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002300"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986511"
 ---
 # <a name="vendor-invoice-integration"></a>Integracija računa dobavitelja
 
@@ -36,7 +36,7 @@ V aplikaciji Project Operations so računi dobavitelja, povezani s projektom, kn
 
 Pomožna poslovna knjiga za davke, dobavitelje in druga finančna knjiženja so v aplikaciji Dynamics 365 Finance zabeležena, kot je ustrezno v času knjiženja računa dobavitelja.
 
-![Integracija računa dobavitelja](media/DW7VendorInvoice.png)
+![Integracija računa dobavitelja.](media/DW7VendorInvoice.png)
 
 Ko so zapisi v storitvi Dataverse zapisani v entiteti **Račun dobavitelja**, se začne avtomatiziran postopek odobritve zapisov. Po potrebi lahko v storitvi Dataverse stanje avtomatiziranega postopka odobritve preverite tako, da odprete razdelek **Napredne nastavitve** > **Sistem** > **Sistemska opravila**. Po končani odobritvi sistem v entiteti **Dejanske vrednosti** ustvari zapise razreda materialne transakcije.
 

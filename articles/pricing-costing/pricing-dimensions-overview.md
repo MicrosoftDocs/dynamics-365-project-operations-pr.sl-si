@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368496"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001991"
 ---
 # <a name="pricing-dimensions-overview"></a>Pregled cenovnih razsežnosti
 
@@ -33,7 +33,7 @@ Zaradi tega obstajata dve vrsti vrednosti cenovnih razsežnosti, ki so na voljo:
 
 Dynamics 365 Project Operations vključuje privzet nabor cenovnih razsežnosti. Te cenovne razsežnosti si lahko ogledate v **Project Operations** > **Parametri**. V zapisu parametra na zavihku **Cenovna razsežnost na podlagi zneska** preverite, ali sta pri vlogi **msdyn_resourcecategory** in organizacijski enoti za vire **msdyn_organizationalunit** polji **Mogoče uporabiti za prodajo** in **Mogoče uporabiti za ceno** nastavljeni na **Da**. Z omogočenimi temi polji lahko nastavite ceno in strošek za vsako kombinacijo vloge in organizacijske enote.
 
-![Prikaz parametrov v aplikaciji Project Service z označeno možnostjo »Mogoče uporabiti za prodajo«](media/PS-OOB-parameters.png)
+![Prikaz parametrov v aplikaciji Project Service z označeno možnostjo »Mogoče uporabiti za prodajo«.](media/PS-OOB-parameters.png)
 
 Če morate zagotoviti ceno ali strošek za svoje vire z dodatnimi atributi, lahko ustvarite polja, entitete in razsežnosti po meri. Za več informacij glejte naslednjo temo. 
   

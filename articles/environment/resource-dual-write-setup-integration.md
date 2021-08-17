@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1e9ca9407404274648f359be42d350137775ae55
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001086"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986556"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Nastavitev aplikacije Project Operations in integracija konfiguracijskih podatkov
 
@@ -24,7 +24,7 @@ Ta tema vsebuje informacije o integraciji za dvojno zapisovanje za Project Opera
 
 Projektne pogodbe, pogodbene vrstice in projekti so ustvarjeni v storitvi Dataverse in sinhronizirani z aplikacijami Finance and Operations za dodatno računovodstvo. Zapise v teh entitetah je mogoče ustvariti in izbrisati samo v storitvi Dataverse. Vendar pa je mogoče atribute računovodstva, kot so privzete vrednosti skupine davkov od prodaje in finančne razsežnosti, dodati tem zapisom v aplikacijah Finance and Operations.
 
-  ![Koncepti integracije projektne pogodbe](./media/1ProjectContract.jpg)
+  ![Koncepti integracije projektne pogodbe.](./media/1ProjectContract.jpg)
 
 Storitev Dataverse sledi prodajnim dejavnostim za možne stranke, priložnostim in ponudbam in jih ne sinhronizira z aplikacijama Finance and Operations, ker s to dejavnostjo ni povezano nadaljnje računovodstvo.
 
@@ -51,7 +51,7 @@ Računovodja projekta lahko podrobnosti projektne pogodbe pregleda v aplikacijah
 
 Podrobnosti projektne pogodbe, ki uporabljajo način obračunavanja »Fiksna cena«, se fakturirajo prek mejnikov obračunavanja. Mejniki obračunavanja se sinhronizirajo s transakcijami za kupca projekta v aplikacijah Finance and Operations s preslikavo tabele **Mejniki podrobnosti pogodbe za integracijo za Project Operations (msdyn\_contractlinescheduleofvalues)**.
 
-  ![Integracija mejnikov obračunavanja](./media/2Milestones.jpg)
+  ![Integracija mejnikov obračunavanja.](./media/2Milestones.jpg)
 
 Računovodja lahko pregleda transakcije na računu in prilagodi atribute računovodstva za te transakcije tako, da se pomakne v razdelek **Pregled upravljanja projektov in računovodstva** > **Projektne pogodbe** > **Vzdrževanje** > **Transakcije za kupca** ali **Upravljanje projektov in računovodstvo** > **Vsi projekti** > **Vzdrževanje** > **Transakcije za kupca**.
 
@@ -61,13 +61,13 @@ Ko prvič ustvarite mejnik obračunavanja za določeno podrobnost projektne pogo
 
 Opravila projekta so sinhronizirana z aplikacijami Finance and Operations prek preslikave tabele **Opravila projekta (msdyn\_projecttasks)** samo za referenčne namene. Ustvarjanje, posodabljanje in brisanje postopkov ni podprto prek aplikacij Finance and Operations.
 
-  ![Integracija opravil projekta](./media/3Tasks.jpg)
+  ![Integracija opravil projekta.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Viri projekta
 
 Entiteta **Vloge virov projekta** je sinhronizirana z aplikacijami Finance and Operations s preslikavo tabele **Vloge virov projekta za vsa podjetja (bookableresourcecategories)** samo za referenčne namene. Ker vloge virov v storitvi Dataverse niso določene za podjetje, sistem samodejno ustvari ustrezne zapise o vlogah virov za določeno podjetje v aplikacijah Finance and Operations za vse pravne osebe, vključene v obseg integracije za dvojno zapisovanje.
 
-![Integracija vlog virov](./media/5Resources.jpg)
+![Integracija vlog virov.](./media/5Resources.jpg)
 
 Viri projekta v aplikaciji Project Operations so vzdrževani v storitvi Dataverse in niso sinhronizirani z aplikacijami Finance and Operations.
 
@@ -75,6 +75,6 @@ Viri projekta v aplikaciji Project Operations so vzdrževani v storitvi Datavers
 
 Kategorije transakcij so vzdrževane v storitvi Dataverse in sinhronizirane z aplikacijami Finance and Operations s preslikavo tabele **Kategorije projektnih transakcij (msdyn\_transactioncategories)**. Po sinhronizaciji zapisa kategorije transakcij sistem samodejno ustvari štiri zapise skupnih kategorij. Vsak zapis ustreza vrsti transakcije v aplikacijah Finance and Operations in jih poveže z zapisom kategorije transakcij.
 
-![Integracija kategorije transakcij](./media/4TransactionCategories.jpg)
+![Integracija kategorije transakcij.](./media/4TransactionCategories.jpg)
 
 Uporaba kategorij transakcij za ocene in dejanske vrednosti zahteva, da računovodja projekta ali sistemski skrbnik ustvari ustrezne kategorije projektov v vsaki pravni osebi. Za več informacij glejte [Konfiguracija kategorij projekta](../project-accounting/configure-project-categories.md).

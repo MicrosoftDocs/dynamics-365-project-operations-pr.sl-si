@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009636"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005096"
 ---
 # <a name="organizational-units"></a>Organizacijske enote 
 
@@ -53,7 +53,7 @@ Organizacijska enota ima v PSA dve vlogi:
 - **Pogodbena enota** – organizacijska enota, ki predstavlja skupino ali oddelek podjetja, ki je primarno odgovoren za izvedbo prodaje in upravljanje zagotavljanja dela in storitev za stranke. Pogodbena enota je identificirana s poljem **Pogodbena enota** v razdelku glave na straneh **Priložnost**, **Ponudba**, **Projektna pogodba** in **Projekt**.
 - **Enota vira** – organizacijska enota, ki ji pripada vir ali ji je dodeljen. Ta organizacijska enota lahko zagotovi svoje vire za nekatere vloge za nekatere vloge v izjavah o delu (SOW) in projektih, ki so v lasti pogodbene enote.
 
-> ![Pogodbene enote in enote za vire](media/advanced-1.png)
+> ![Pogodbene enote in enote vira.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Pogosta vprašanja o organizacijskih enotah
 

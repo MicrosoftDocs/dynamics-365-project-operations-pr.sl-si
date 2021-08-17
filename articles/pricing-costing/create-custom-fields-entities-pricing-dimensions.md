@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000546"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003656"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Ustvarjanje polj in entitet po meri kot cenovnih razsežnosti
 
@@ -44,7 +44,7 @@ Cenovna razsežnost je lahko nabor možnosti ali entiteta. Oboje morate ustvarit
 3. Izberite **Novo**, da ustvarite novo entiteto **Standardni naziv**. 
 4. Vnesite ostale zahtevane informacije in nato izberite **Shrani**.
 
-> ![Definicija entitete standardnega naziva](media/Standard-Title-entity-definition.png)
+> ![Definicija entitete standardnega naziva.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Razsežnosti na osnovi nabora možnosti 
 Ustvarite lahko dve razsežnosti na osnovi nabora možnosti. 
@@ -54,11 +54,11 @@ Ustvarite lahko dve razsežnosti na osnovi nabora možnosti.
 
 Naslednja slika prikazuje pogled razsežnosti **Lokacija dela vira**. 
 
-> ![Cenovna razsežnost na osnovi nabora možnosti, imenovana »Lokacija dela vira«](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Cenovna razsežnost na osnovi nabora možnosti, imenovana »Lokacija dela vira«.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Naslednja slika prikazuje pogled razsežnosti **Delovni čas vira**. 
 
-> ![Cenovna razsežnost na osnovi nabora možnosti, imenovana »Delovne ure vira«](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Cenovna razsežnost na osnovi nabora možnosti, imenovana »Delovni čas vira«.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Odprite **Nastavitve** > **Rešitve**, nato dvokliknite **\<your organization name> cenovne razsežnosti**. 
 2. V raziskovalcu rešitev v podoknu za krmarjenje na levi izberite **Nabori možnosti**. 
@@ -74,7 +74,7 @@ Podatke za razsežnosti na osnovi entitete lahko ustvarite ročno ali z uvozom v
 4. Zaprite stran. 
 5. Ponovite korake od 1 do 3, da ustvarite drug standardni naziv za »Višji sistemski inženir«.
 
-> ![Vzorčni podatki za entiteto standardnega naziva](media/ST-data.png)
+> ![Vzorčni podatki za entiteto standardnega naziva.](media/ST-data.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

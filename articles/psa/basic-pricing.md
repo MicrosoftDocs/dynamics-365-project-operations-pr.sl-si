@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014991"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000596"
 ---
 # <a name="project-pricing"></a>Določanje cen za projekte 
 
@@ -46,7 +46,7 @@ Entiteta »Cenik« ima tri sorodne tabele, v katerih so shranjene cene:
   - **Cena kategorije transakcije** – v tej tabeli so shranjene cene glede na kategorijo transakcij, uporablja pa se za določanje cen kategorij stroškov.
   - **Elementi cenika** – v tej tabeli so shranjene cene kataloških izdelkov.
 
-> ![Konfiguriranje cen z uporabo cenika](media/basic-guide-12.png)
+> ![Konfiguriranje cen z uporabo cenika.](media/basic-guide-12.png)
  
 Cenik je kartica s cenami. Kartica s cenami je kombinacija entitete »Cenik« in povezanih vrstic v tabelah »Cena vloge«, »Cena kategorije transakcije« in »Elementi cenika«.
 
@@ -58,7 +58,7 @@ Izraz *vloga vira* se nanaša na nabor znanja, sposobnosti in potrdil, ki jih mo
 
 Skupina enot **Čas** je ustvarjena, ko namestite aplikacijo PSA. Privzeto ima nastavljeno enoto **Ura**. Atributov skupine enot **Čas** enote **Ura** ni mogoče izbrisati, preimenovati ali urejati. Vendar pa lahko v skupino enot **Čas** dodate druge enote. Če poskušate izbrisati skupino enot **Čas** ali **Ura**, lahko povzročite napake v poslovni logiki aplikacije PSA.
 
-> ![Konfiguriranje cen glede na vlogo](media/basic-guide-13.png)
+> ![Konfiguriranje cen glede na vlogo.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategorije transakcij in kategorije stroškov
 
@@ -68,7 +68,7 @@ Potni in drugi stroški, ki nastanejo pri delu projektnih svetovalcev, so običa
 - **Odstotek pribitka** – odstotek dejanske cene, ki se prišteje nabavni ceni in zaračuna stranki 
 - **Cena na enoto** – cena za obračunavanje, ki je nastavljena za vsako enoto v kategoriji stroškov Znesek, ki je zaračunan stranki, se izračuna na podlagi števila stroškovnih enot stroškov, ki ga vnese svetovalec. Za izračun kilometrine se uporablja metoda cene na enoto. Primer: kategorija stroška kilometrine je lahko nastavljena na 30 ameriških dolarjev (USD) na dan ali 2 USD na miljo. Ko svetovalec vnese kilometrino za projekt, se znesek za obračun izračuna na podlagi števila milj, ki jih svetovalec vnese.
 
-> ![Konfiguriranje določanja cen za kategorije stroškov](media/basic-guide-14.png)
+> ![Konfiguriranje cen za kategorije stroškov.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Prodajne cene za projekt in preglasitve
 
@@ -114,7 +114,7 @@ V ponudbi pa lahko uporabite glavni cenik. Lahko pa tudi kopirate glavni cenik i
 
 Ko ustvarite cenik projekta po meri, se kopirajo samo projektne komponente cenika. Povedano drugače, nov cenik je ustvarjen kot kopija obstoječega cenika projekta, ki je priložen ponudbi, in ta novi cenik vsebuje le povezane cene vlog in cene kategorij transakcij.
 
-> ![Pregled in konfiguriranje cen po meri za projektno pogodbo](media/basic-guide-15.png)
+> ![Pregled in konfiguriranje cen po meri za projektno pogodbo.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Sledenje stroškom
 

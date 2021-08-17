@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002796"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995826"
 ---
 # <a name="intercompany-invoicing"></a>Zaračunavanje med podjetji
 
@@ -33,7 +33,7 @@ Vaša organizacija ima lahko več oddelkov, podružnic in drugih pravnih subjekt
 
 Na spodnji sliki je prikazan tipičen primer, ko si dve pravni osebi, SI FR (pravna oseba, ki si izposoja) in SI USA (pravna oseba, ki posoja), delita sredstva za izvedbo projekta za stranko A. V tem primeru mora SI FR po pogodbi opraviti delo za stranko A. 
 
-[![Primer zaračunavanja med podjetji](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Primer zaračunavanja med podjetji.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Cilj je, da nadzor stroškov, upoštevanje prihodkov, davki in cena prenosa za projektne transakcije postanejo bolj prilagodljivi in zmogljivi. Poleg tega so na voljo naslednje zmogljivosti:
 

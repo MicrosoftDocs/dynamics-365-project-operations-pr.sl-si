@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015036"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985161"
 ---
 # <a name="manage-resource-requests-project-service"></a>Upravljanje zahtev za vire (Project Service)
 
@@ -43,7 +43,7 @@ Upravitelji kupcev in vodje projektov redno pošiljajo zahteve za vire za svoje 
   
    -   Kliknite **Filtriraj** za prikaz podokna **Filter**, v katerem lahko filtrirate rezultate glede na organizacijsko enoto, vlogo, znanje in druge atribute.  
   
-       ![Zaslon »Zahteve za vire« rešitve Project Service](../psa/media/project-service-resource-request-screen.png "Zaslon »Zahteve za vire« rešitve Project Service")  
+       ![Zaslon »Zahteve za vire« rešitve Project Service.](../psa/media/project-service-resource-request-screen.png "Zaslon »Zahteve za vire« rešitve Project Service")  
   
 3. V koledarju vira, ki ga želite rezervirati, izberite časovno obdobje za rezervacijo vira in nato kliknite **Rezerviraj**, da vir rezervirate, ali **Predlagaj rezervacijo**, da predlagate rezervacijo, ki jo odobri pošiljatelj zahtevka. Rezervacija vira je lahko okvirna ali veljavna.  
   

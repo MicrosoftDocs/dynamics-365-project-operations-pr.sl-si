@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009186"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002576"
 ---
 # <a name="project-costs-and-revenue"></a>Stroški in prihodki projekta
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009186"
 
 Ocene projekta omogočajo finančni pregled za predvideno in načrtovano delo v razporedu projekta. Zavihek **Ocene** na strani **Projekti** prikazuje vpliv stroškov in prihodkov dela, ki ga načrtujete. Vsebuje tudi informacije o številnih vnaprej določenih razsežnostih. 
 
-> ![Zavihek »Ocene«](media/project-5.png)
+> ![Zavihek »Ocene«.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Vrednost stroškov in prodajna vrednost projekta
 
@@ -66,13 +66,13 @@ Vsaka vrstica ocene ima enoto vira, ki je povezana z njo. Enota vira označuje o
 
 Zavihek **Ocene** ima pogled mreže, ki prikazuje vrstice ocene. Mreža vključuje stolpce za enoto, skupno lastno ceno in skupno prodajno ceno, kot je prikazano na spodnji sliki. 
 
-> ![Pogled mreže na zavihku »Ocene«](media/project-6.png)
+> ![Pogled mreže na zavihku »Ocene«.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Časovno razporejeni pogled ocen projekta
 
 Časovno razporejen pogled ocen projekta prikazuje podatke o oceni iz pogleda omrežja skozi časovnico v izbranem časovnem merilu. Podatki o oceni so privzeto zavrteni v razsežnosti **Vloga**.
 
-> ![Časovno razporejeni pogled za ocene projekta](media/project-7.png)
+> ![Časovno razporejeni pogled za ocene projekta.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Dodeljevanje ocenjenega obsega dela glede na način opravila
 

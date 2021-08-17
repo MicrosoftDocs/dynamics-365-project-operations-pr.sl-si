@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014946"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995466"
 ---
 # <a name="quotes-and-quote-lines"></a>Ponudbe in vrstice ponudb
 
@@ -84,7 +84,7 @@ Organizacije, ki ponujajo strokovne storitve, svojim kupcem običajno dajejo pon
 
 Z vsako vrstico ponudbe je mogoče povezati eno ali več teh klasifikacij transakcij. Ko je ponudba pridobljena, se preslikava med klasifikacijo transakcije in vrstico ponudbe prenese v podrobnosti pogodbe.
  
-> ![Posnetek zaslona preslikave vrst transakcij v vrstice ponudbe in podrobnosti pogodbe](media/basic-guide-5.png)
+> ![Posnetek zaslona preslikave vrst transakcij v ponudbi in podrobnosti pogodbe.](media/basic-guide-5.png)
   
 Ponudba lahko na primer vsebuje naslednji vrstici ponudbe: 
 - Svetovalno delo, ki uporablja način obračunavanja na podlagi časa in materiala, v katerem je mogoče uveljavljati klasifikacije transakcij na podlagi časa in nadomestila. Npr. vse transakcije časa in nadomestila za primer projekta **Uvedba Dynamics AX** se stranki zaračunajo na podlagi uporabljenega časa in materialov. 

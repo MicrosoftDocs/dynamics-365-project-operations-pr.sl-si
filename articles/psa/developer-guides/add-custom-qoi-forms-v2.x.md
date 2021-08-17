@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008016"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995241"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Dodajanje novih obrazcev entitet po meri (Project Service Automation 2.x)
 
@@ -57,7 +57,7 @@ Upoštevajte ta navodila in ustvarite različico obrazca **Podatki o projektu** 
     - Izvozite obrazec **Moji podatki o projektu** kot del neupravljane rešitve in nato poiščite vrednost **formid** v datoteki customization.xml izvožene rešitve.
     - Odprite obrazec **Moji podatki o projektu** v urejevalniku obrazcev in poiščite globalni enolični identifikator (GUID) pri parametri **fromid** v URL-ju, kot je prikazano na spodnji sliki.
 
-    ![Vrednost formId novega obrazca v URL-ju](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Vrednost formId novega obrazca v URL-ju.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Ustvarite preslikavo vrste **msdyn\_ordertype** za vrednost **formId** tako, da uredite spletni vir msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Odstranite kodo iz vira in jo zamenjajte z naslednjo kodo.
 

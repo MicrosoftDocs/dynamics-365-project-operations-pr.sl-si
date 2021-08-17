@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000006"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986601"
 ---
 # <a name="expense-management-integration"></a>Integracija upravljanja stroškov
 
@@ -28,7 +28,7 @@ Pri celotnem uvajanju stroškov so kategorije stroškov ustvarjene in vzdrževan
 2. V aplikaciji Finance se pomaknite v razdelek **Upravljanje stroškov** > **Nastavitev** > **Skupne kategorije** in izberite skupno kategorijo z razredom transakcije **Strošek**. Parameter **Lahko se uporablja v stroških** na **Resnično** in določite vrsto stroškov, ki jih želite uporabiti.
 3. Z zapisom skupne kategorije ustvarite novo kategorijo stroškov tako, da v razdelku **Upravljanje stroškov** > **Nastavitev** > **Kategorije stroškov** izberete **Novo**. Ko je zapis shranjen, dvojno zapisovanje uporabi preslikavo tabele, **Entiteta za izvor kategorij stroškov projekta za integracijo aplikacije Project Operations (msdyn\_expensecategories)**, za sinhronizacijo zapisa v storitev Dataverse.
 
-  ![Integracija kategorije stroškov](./media/DW6ExpenseCategories.png)
+  ![Integracija kategorije stroškov.](./media/DW6ExpenseCategories.png)
 
 Kategorije stroškov v aplikacijah Finance and Operations so določene za podjetja ali pravne osebe. V storitvi Dataverse so na voljo ločeni, ustrezni zapisi, določeni za pravne osebe. Ko vodja projekta oceni stroške, ne more izbrati kategorij stroškov, ustvarjenih za projekt, ki je v lasti drugega podjetja kot podjetje, ki je lastnik projekta, pri katerem delajo. 
 
@@ -40,7 +40,7 @@ Poročila o stroških so ustvarjena in odobrena v aplikacijah Finance and Operat
   - Dvojno zapisovanje sinhronizira v storitev Dataverse z preslikavo tabele **Entiteta za izvoz stroškov projekta integracije za Project Operations (msdyn\_expenses)**.
   - Pomožna poslovna knjiga za davke, dobavitelje in druga finančna knjiženja so zabeležena, kot je ustrezno v času knjiženja poročila o stroških.
 
-  ![Integracija poročila o stroških](./media/DW6ExpenseReports.png)
+  ![Integracija poročila o stroških.](./media/DW6ExpenseReports.png)
 
 Ko je zapis zapisan v entiteto **Strošek** v storitvi Dataverse, sistem sproži avtomatiziran postopek odobritve zapisa. Po potrebi lahko v storitvi Dataverse stanje avtomatiziranega postopka odobritve preverite tako, da odprete razdelek **Napredne nastavitve** > **Sistem** > **Sistemska opravila**. Po končani odobritvi se v entiteti **Dejanske vrednosti** ustvarijo zapisi razreda transakcije stroška.
 

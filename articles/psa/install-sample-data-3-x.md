@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007296"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985566"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Namestitev vzorčnih podatkov za aplikacijo Project Service
 
@@ -86,7 +86,7 @@ Računalnik naj med namestitvijo ostane povezan v omrežje, namestitev pa lahko 
 V računalniku naj bo izklopljena funkcija ohranjevalnika zaslona. V nasprotnem primeru boste ob zagonu ohranjevalnika zaslona morda izgubili poverilnice seje, potrebne za namestitev (razen če bo vaša seja v tem času ostala aktivna).
 
 > [!div class="mx-imgBorder"]
-> ![Posnetek zaslona nastavitev ohranjevalnika zaslona z izklopljenim ohranjevalnikom zaslona](media/sample-data-1.png)
+> ![Posnetek zaslona nastavitev ohranjevalnika zaslona z izklopljenim ohranjevalnikom zaslona.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Prenos in razpakiranje
 
@@ -142,7 +142,7 @@ Za paket predstavitvenih podatkov je potrebnih šest uporabnikov. Za pravilno na
 3. Odprite mapo **PkgFolder** ter nato poiščite in odprite datoteko **ImportUserMapFile.xml**. Posodobite polja **Novo =** za e-poštne naslove ustreznih uporabnikov v svojem sistemu.
 
    > [!div class="mx-imgBorder"]
-   > ![Posnetek zaslona datoteke UserMapFile](media/sample-data-7.png)
+   > ![Posnetek zaslona datoteke UserMapFile.](media/sample-data-7.png)
 
 4. Če ima vaše polno uporabniško ime »Spencer Low« drugačen ID uporabnika kot **»spencerl«**, boste morali posodobiti dodatno datoteko. Odprite **DemoDataPreImportConfig.xml** in poiščite oznako **userstocreateandconfigure**. Posodobite oznako **\<login\>** s spremenljivko prijavniId (razlikovanje med velikimi in malimi črkami). 
 
@@ -172,7 +172,7 @@ Za paket predstavitvenih podatkov je potrebnih šest uporabnikov. Za pravilno na
 5. Izberite **Naprej**, da se prikaže pogovorno okno **Nastavitev predstavitvenih podatkov**.
 
    > [!div class="mx-imgBorder"]
-   > ![Posnetek zaslona okna stanja namestitvenega programa predstavitvenih podatkov](media/sample-data-3.png)
+   > ![Posnetek zaslona okna stanja namestitvenega programa predstavitvenih podatkov.](media/sample-data-3.png)
 
 6. Preden nadaljujete, upoštevajte, da namestitev vzorčnih podatkov lahko traja do ene ure (običajno okoli 10 minut). Poskrbite, da med namestitvijo računalnik ostane vklopljen in povezan v omrežje ter da vaša seja ostane aktivna.   
 
@@ -191,10 +191,10 @@ Ko se v celoti naložijo vzorčni podatki, se vpišite kot uporabnik Spencer Low
 - Če ste namestili aplikacijo Field Service, kliknite **Project Service** > **Nastavitve** > **Ceniki**. Potrdite, da so stroški in zneski računov na voljo. Kliknite **Field Service** > **Nastavitve** > **Ceniki** in se prepričajte, da so za vsako državo/regijo v naboru podatkov na voljo stroški in zneski računov v ustrezni valuti.
 
   > [!div class="mx-imgBorder"]
-  > ![Posnetek zaslona aktivnih cenikov](media/sample-data-4.png)
+  > ![Posnetek zaslona aktivnih cenikov.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Posnetek zaslona aktivnih organizacijskih enot](media/sample-data-5.png)
+  > ![Posnetek zaslona aktivnih organizacijskih enot.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Tehnične opombe
 
@@ -295,7 +295,7 @@ Za vse vire, ki jih je mogoče rezervirati, je privzet 24-urni koledar delovnih 
 Izberite uporabnika (na primer »Spencer Low«) in spremenite Spencerjev delovni čas na delovni čas, ki ga želite uporabiti za več uporabnikov. Kliknite **Universal Resource Scheduling** > **Nastavitve** > **Predloge za delovne ure** in uredite zapis **Privzeta predloga za delo**. V polju **Vir predloge** izberite uporabnika z delovnim časom, ki ga želite uporabiti za druge vire. Odprite **Universal Resource Scheduling** > **Razporejanje** > **Viri** > **Aktivni viri, ki jih je mogoče rezervirati**. Izberite vire, ki jih želite spremeniti, in nato izberite **Nastavi koledar**. Na spustnem seznamu **Predloga za delo**, izberite predlogo **Privzeti delovni čas** ali drugo predlogo s pravilnim virom predlog. Pri plošči razporeda bi morali videti, da imajo viri zdaj posodobljen delovni čas.
 
 > [!div class="mx-imgBorder"]
-> ![Posnetek zaslona aktivnih virov, ki jih je mogoče rezervirati](media/sample-data-6.png)
+> ![Posnetek zaslona aktivnih virov, ki jih je mogoče rezervirati.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

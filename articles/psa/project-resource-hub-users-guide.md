@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4f93ee0c0bdb9fc6a9a3c6a75f6c3d178766d0b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009096"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987276"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Uporabniški priročnik za središče za projektne vire
 
@@ -49,31 +49,31 @@ Preden lahko začnete uporabljati aplikacijo središča za projektne vire, morat
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Namestitev aplikacije Dynamics 365 za telefone in tablične računalnike](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
 ## <a name="basic-navigation"></a>Osnovno krmarjenje
-1.  Ko se vpišete v mobilno aplikacijo, se prikaže stran MyApps s seznamom aplikacij, do katerih dostopate. 
+1.  Ko se vpišete v mobilno aplikacijo, se prikaže stran MyApps s seznamom aplikacij, do katerih lahko dostopate. 
 2.  Izberite **Središče za projektne vire**.
 
-![Izberite aplikacijo](media/chooseApp_1.png "Izberite aplikacijo")
+![Izberite aplikacijo.](media/chooseApp_1.png "Izberite aplikacijo")
 
 **Vrstica za krmarjenje**
 
-Z vrstico za krmarjenje se lahko pomaknete na delovno območje, ustvarite nov zapis, iščete ali opravite druga opravila. Za dostop do več ukazov tapnite ![Gumb »Več«](media/MoreButton.png "Gumb »Več«")
+Z vrstico za krmarjenje se lahko pomaknete na delovno območje, ustvarite nov zapis, iščete ali opravite druga opravila. Za dostop do več ukazov tapnite ![gumb »Več«.](media/MoreButton.png "Gumb »Več«")
 
-![Vrstica za krmarjenje](media/NavBar_2.png "Vrstica za krmarjenje")
+![Vrstica za krmarjenje.](media/NavBar_2.png "Vrstica za krmarjenje")
 
 **Priljubljeni in nedavno uporabljeni zapisi**
 
 Razdelki priljubljenih in nedavno uporabljenih zagotavljajo hiter dostop do zapisov, pogledov in nadzornih plošč. 
 
-- Za dostop do teh razdelkov tapnite gumb **Meni** ![Gumb za meni](media/MenuButton.png "Gumb za meni") v vrstici za krmarjenje in nato tapnite gumb **Priljubljeno in nedavno** ![Gumb za priljubljene](media/FavButton.png "Gumb priljubljenih").
+- Za dostop do teh razdelkov se dotaknite gumba **Meni** ![gumb za meni.](media/MenuButton.png "Gumb za meni") na vrstici za krmarjenje in nato tapnite gumb **Priljubljeno in nedavno** ![gumb priljubljenih](media/FavButton.png "Gumb priljubljenih").
 
 - Če želite element pripeti kot priljubljenega, na seznamu elementov **Nedavno uporabljeno** tapnite žebljiček. S tem element pripnete in premaknete v Priljubljeno.
 
-  ![Priljubljeni in nedavni elementi](media/Favs_3.png "Priljubljeni in nedavni elementi")
+  ![Priljubljeni in nedavni elementi.](media/Favs_3.png "Priljubljeni in nedavni elementi")
  
 ## <a name="enter-time"></a>Vnos časa
 Ure vnašajte vsaj tedensko – ali glede na zahteve upraviteljev – in tako zagotovite, da so strankam storitve zaračunane, vam pa delo pravilno priznano.
 
-1. Tapnite gumb »Meni« ![Gumb »Meni«](media/MenuButton.png "Gumb za meni") in nato tapnite možnost **Časovni vnosi**. S tem se prikaže koledar.
+1. Dotaknite se gumba za meni ![gumb za meni.](media/MenuButton.png "Gumb za meni") in nato izberite možnost **Časovni vnosi**. S tem se prikaže koledar.
 
 2. Če si želite ogledati koledar za prejšnji ali naslednji teden, tapnite gumb **Nazaj** ali **Naprej**. Tapnite **Danes**, da se vrnete na trenutni teden.
 

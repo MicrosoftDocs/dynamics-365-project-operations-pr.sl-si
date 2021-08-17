@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010356"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992226"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Ustvarjanje rešitve za cenovne razsežnosti po meri
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010356"
 2.  Poimenujte rešitev *Cenovne razsežnosti <your organization name>*.
 3. Vnesite ostale zahtevane informacije in nato izberite **Shrani**.
 
-  ![Ustvarjanje rešitve za cenovne razsežnosti po meri](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Ustvarjanje rešitve za cenovne razsežnosti po meri.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Dodajanje vseh zahtevanih entitet in povezanih komponent v rešitev za cenovne razsežnosti
 
@@ -49,19 +49,19 @@ V rešitev za določanje cen dodajte naslednje entitete storitve Project Service
    - **Cena vloge**
    - **Časovni vnos**
  
-   ![Dodajanje obstoječih entitet po meri v rešitev za cenovne razsežnosti](./media/Existing-entities-to-PD-solution.png)
+   ![Dodajanje obstoječe rešitve cenovne razsežnosti entitet po meri.](./media/Existing-entities-to-PD-solution.png)
  
  4. Za vsako entiteto preglejte komponente, ki jih dodajate, in končni seznam sredstev za vsako entiteto. 
 
    >[!NOTE]
    > Vključite vse obrazce in poglede za posamezne izbrane entitete.
 
-  ![Dodane entitete](./media/solution-component-selection.png)
+  ![Dodane entitete.](./media/solution-component-selection.png)
 
 
 5.  Ko boste pozvani, da v izbrane entitete vključite vse odvisne entitete, izberite **Ne, ne vključi obveznih komponent.**
 
-    ![Vključno z odvisnimi entitetami](./media/Do-not-include-required.png)
+    ![Vključno z odvisnimi entitetami.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

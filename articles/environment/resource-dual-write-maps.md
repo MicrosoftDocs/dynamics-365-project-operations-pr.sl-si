@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025794"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003836"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Različice preslikave dvojnega zapisovanja za Project Operations
 
@@ -32,7 +32,7 @@ Naslednje preslikave so predpogoj za rešitev Project Operations. Zaženite pres
 
 1. Na seznamu preslikav izberite preslikavo »Glavna knjiga **(msdyn\_ledgers)**« z vsemi zahtevami in izberite potrditveno polje **Začetna sinhronizacija**. V polju **Glavni za začetno sinhronizacijo** izberite **aplikacije Finance and Operations** za preslikavo glavne knjige in zahtevane preslikave. Izberite **Zaženi**.
 
-![Sinhronizacija preslikave knjige](media/DW6.png)
+![Sinhronizacija preslikave knjige.](media/DW6.png)
 
 2. Izvedite iste korake za vse preostale preslikave tabel, navedene v zgornji tabeli. Pri izvajanju teh preslikav ne izberite potrditvenega polja **Začetna sinhronizacija**.
 
@@ -65,7 +65,7 @@ Za izvajanje navedenih preslikav izvedite naslednje korake.
 
 1. Omogočite vloge virov projekta za preslikavo tabele **vsa podjetja (bookableresourcecategories)**, saj ta preslikava zahteva začetno sinhronizacijo. V polju **Glavni za začetno sinhronizacijo** izberite možnost **Common Data Service**. 
 
- ![Sinhronizacija preslikave tabele vloge virov](media/6ResourceInitialSync.jpg)
+ ![Sinhronizacija preslikave tabele vloge virov.](media/6ResourceInitialSync.jpg)
 
  Počakajte, da je stanje preslikave **Izvajanje**, preden se pomaknete na naslednji korak.
 

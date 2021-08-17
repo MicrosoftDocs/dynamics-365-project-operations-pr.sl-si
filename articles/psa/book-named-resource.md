@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013416"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000506"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Rezervacija poimenovanih virov iz zahtevanih pogojev za vire
 
@@ -35,33 +35,33 @@ Poimenovani vir lahko rezervirate za zamenjavo splošnega vira, ki ima zahtevani
 2. Izberite splošni vir, ki ima zahtevani pogoj za vir, s seznama in nato kliknite **Rezerviraj**. Ali pa odprite zahtevani pogoj za vir in kliknite **Rezerviraj**.
 
 
-![Rezervacija splošnega člana ekipe](media/RM-how-to-14.png)
+![Rezervacija splošnega člana ekipe.](media/RM-how-to-14.png)
 
 
 3. Na strani **Pomočnik za razporejanje** izberite poimenovani vir, ki ga želite rezervirati za projektno ekipo in nato kliknite **Rezerviraj.**
 
-![Rezervacija splošnega člana ekipe s pomočnikom za razporejanje](media/RM-how-to-15.png)
+![Rezervacija splošnega člana ekipe s pomočnikom za razporejanje.](media/RM-how-to-15.png)
 
 Ko je rezervacija dokončana in izpolnjena s poimenovanim virom, se splošni vir zamenja s poimenovanim virom.
 
-![Nadomestitev splošnega člana ekipe s poimenovanim članom ekipe](media/RM-how-to-16.png)
+![Nadomestitev splošnega člana ekipe s poimenovanim članom ekipe.](media/RM-how-to-16.png)
 
 S poimenovanim virom se posodobijo tudi dodelitve v razporedu.
 
-![Dodelitev poimenovanega člana ekipe projektnim opravilom](media/RM-how-to-17.png)
+![Dodelitev poimenovanega člana ekipe projektnim opravilom.](media/RM-how-to-17.png)
 
 ## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a>Izpolnjevanje splošnega vira z več poimenovanimi viri
 Izpolnjevanje zahtevanega pogoja za splošni vir z več poimenovanimi viri je podobno dodeljevanju enega samega poimenovanega vira. Če imate na primer opravilo, ki ima trajanje pet dni in 120 ur obsega dela. Tega opravila ni mogoče dokončati z enim virom, ki dela osem ur dnevno v petdnevnem tednu. 
 
-![Opravilo, za katero je zahtevanih 120 ur obsega dela v petih dneh](media/RM-how-to-21.png)
+![Opravilo, za katero je zahtevanih 120 ur obsega dela v petih dneh.](media/RM-how-to-21.png)
 
 Zahteva velja za 120 ur inženirske robotike v petih dneh, kar je 24 ur na dan.
 
-![Zahteva na dan](media/RM-how-to-22.png)
+![Zahteva na dan.](media/RM-how-to-22.png)
 
 To je primer, ko je za izpolnjevanje zahteve za splošni vir potrebnih več poimenovanih virov. Za izpolnitev zahteve morate rezervirati več virov.
 
-![Rezervacija več virov za izpolnjevanje zahteve](media/RM-how-to-23.png)
+![Rezervacija več virov za izpolnjevanje zahteve.](media/RM-how-to-23.png)
 
 Glavna razlika v tem primeru je, da splošni vir ostane v ekipi, ki je dodeljena opravilu, rezervirani člani ekipe poimenovanega vira pa niso dodeljeni kot del položaja. Vodja projekta lahko delo ustrezno dodeli poimenovanim virom. S pogledom **Uskladitev** si lahko vodja projekta pomaga pri razdelitvi rezervacij več virov na dodelitve opravil. To se ne izvede samodejno, ker je v vseh bolj zapletenih primerih od zgornjega, npr. ko imate paket opravil, ki sestavljajo zahtevo, treba domnevati način, na katerega želi vodja projekta dodeliti opravila. Ker sistem ne more razumeti tega namena, je mogoče, da bodo predpostavke drugačne od predvidenih in lahko pride do napačnih ali nepredvidljivih rezultatov. Predvidljiv rezultat je, da splošni vir ostane dodeljen, dokler vodja projekta namenoma ne ustvari dodelitev prek pogleda **Uskladitev**.
 

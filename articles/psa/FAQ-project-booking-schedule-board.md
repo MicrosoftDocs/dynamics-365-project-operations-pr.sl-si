@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992986"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987636"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Ustvarjanje rezervacije projekta na plošči razporeda
 
@@ -43,7 +43,7 @@ Ustvarite lahko splošni vir in mu dodelite eno ali več opravil znotraj projekt
 
 1.  Na plošči razporeda se bo ta vir prikazal na zavihku **Odprte zahteve**. Če imate veliko odprtih zahtev, boste morda morali uporabiti filtre stolpcev v mreži. 
 
-    ![Zavihek »Odprte zahteve na plošči razporeda](media/FAQ-Project-Booking-Schedule-Board-1.png "Posnetek zaslona tabele rezervacij in dodelitev")
+    ![Zavihek "Odprte zahteve na plošči razporeda".](media/FAQ-Project-Booking-Schedule-Board-1.png "Posnetek zaslona tabele rezervacij in dodelitev")
 
 2. Izberite zahtevo. Na vrhu izbrane vrstice se prikaže zavihek **Poišči razpoložljivost**.
  
@@ -53,7 +53,7 @@ Ustvarite lahko splošni vir in mu dodelite eno ali več opravil znotraj projekt
 
     Če izberete možnost **Rezerviraj**, rezervirate vir za projektno ekipo.
 
-![Plošča »Ustvarjanje rezervacije vira«](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Plošča »Ustvarjanje rezervacije vira«.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Rezervacija v primarni zahtevi
@@ -62,7 +62,7 @@ Ustvarite lahko splošni vir in mu dodelite eno ali več opravil znotraj projekt
 
 1. Če želite rezervirati vir s primarno zahtevo, na plošči razporeda izberite zavihek **Projekt**. Če imate veliko projektov, boste morda morali uporabiti filter stolpca v stolpcu **Projekt**.
 
-   ![Filtri stolpca na plošči razporeda](media/FAQ-Project-Booking-Schedule-Board-2.png "Posnetek zaslona tabele rezervacij in dodelitev")
+   ![Filtri stolpca na plošči za načrtovanje.](media/FAQ-Project-Booking-Schedule-Board-2.png "Posnetek zaslona tabele rezervacij in dodelitev")
 
 2. Izberite zahtevo, ki ima v svojem imenu samo ime projekta, vrednost njenega trajanja pa je nič (0).
 

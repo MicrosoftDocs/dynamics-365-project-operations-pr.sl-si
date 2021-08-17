@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012336"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995286"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Ustvarjanje rešitev po meri za cenovne razsežnosti
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012336"
 1. Izberite **Nastavitve** > **Rešitve** in nato izberite **Novo**. 
 2. Poimenujte rešitev **Cenovne razsežnosti za \<your organization name>**, vnesite ostale zahtevane podatke in izberite **Shrani**.
 
-> ![Ustvarjanje rešitve po meri za cenovne razsežnosti](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Ustvarjanje rešitve po meri za cenovne razsežnosti.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Dodajanje vseh zahtevanih entitet in povezanih komponent v rešitev za cenovne razsežnosti
 V svojo rešitev za določanje cen boste morali dodati spodnje entitete rešitve Project Service. S koraki v tem postopku naredite nekaj pomembnih sprememb sheme v rešitvi za določanje cen, tako da se entitete seznanijo z novimi cenovnimi razsežnostmi.
@@ -54,16 +54,16 @@ V svojo rešitev za določanje cen boste morali dodati spodnje entitete rešitve
 - Cena vloge 
 - Časovni vnos 
 
-> ![Dodajanje obstoječih entitet v rešitev za cenovne razsežnosti](media/Existing-entities-to-PD-solution.png)
+> ![Dodajanje obstoječih entitet v rešitev za cenovne razsežnosti.](media/Existing-entities-to-PD-solution.png)
 
-> ![Izbira komponent rešitve](media/Dimension-Components.png)
+> ![Izberite komponente rešitve.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Poskrbite, da boste vključili vse obrazce in poglede za posamezne izbrane entitete.
 
 4. Ko ste pozvani, da vključite vse odvisne entitete za izbrane entitete, izberite **Ne**.
 
-> ![Ne vključi vseh povezanih komponent](media/Do-not-include-required.png)
+> ![Ne vključi vseh povezanih komponent.](media/Do-not-include-required.png)
 
 
 

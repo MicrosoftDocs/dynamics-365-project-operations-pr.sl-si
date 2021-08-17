@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369396"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005411"
 ---
 # <a name="intercompany-invoicing-overview"></a>Pregled izstavljanja računov med podjetji
 
@@ -22,7 +22,7 @@ Vaša organizacija ima lahko več oddelkov, podružnic in drugih pravnih subjekt
 
 Naslednja ilustracija prikazuje tipičen scenarij, ko si dve pravni entiteti, Contoso Robotics USA (izposojevalna pravna entiteta) in Contoso Robotics UK (posojilna pravna oseba) delita sredstva za izvedbo projekta za stranko Adventure works. V tem primeru je podjetje Contoso Robotics USA po pogodbi dolžno dostaviti delo podjetju Adventure Works.
 
-![Izstavljanje računov med podjetji](./media/IntercompanyScenario.png) 
+![Izstavljanje računov med podjetji.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations uporablja spodaj prikazani potek za obdelavo medpodjetnih transakcij:
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations uporablja spodaj prikazani potek za obdelavo med
 
 Naslednji diagram prikazuje medpodjetno izdajanje računov, saj se nanaša na računovodske dogodke in pričakovana knjiženja v glavno knjigo.
 
-![Medpodjetni potek](./media/IntercompanyFlow.png)
+![Medpodjetni potek.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Dodatni viri
 
