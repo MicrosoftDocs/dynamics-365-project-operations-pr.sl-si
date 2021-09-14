@@ -2,9 +2,11 @@
   href: index.md
 - name: Začetek
   items:
-    - name: Določanje vrste uvedbe
+    - name: Določanje vrste uvajanja
       href: environment/determine-deployment-type.md
-    - name: Posodobitve aplikacije Project Operations
+    - name: 'Vpišite se, že želite dostopati do preskusnih različic aplikacije Project Operations'
+      href: environment/admin-trials.md
+    - name: Posodobitve za aplikacijo Project Operations
       href: whats-new/project-operations-updates.md
 - name: 'Project Operations za scenarije, ki temeljijo na virih/nezalogi'
   items:
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novosti
       items:
+        - name: 'Avgust 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: 'Julij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: 'Junij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
@@ -418,6 +422,8 @@
       items:
         - name: Pregled odobritev
           href: approvals/approvals-overview.md
+        - name: Nabori odobritev
+          href: approvals/approval-sets.md
         - name: Opombe razvijalcev
           items:
             - name: Opombe razvijalcev za odobritve
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Novosti
       items:
+        - name: Novosti pri 2. valu posodobitev izdaje 2021 za zgodnji dostop – poenostavljeno uvajanje
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novosti za avgust 2021 – poenostavljeno uvajanje
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Novosti za julij 2021 – poenostavljeno uvajanje
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Novosti za junij 2021 – poenostavljeno uvajanje
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Upravljanje podizvajalskih pogodb v aplikaciji Project Operations
       items:
-        - name: Pregled upravljanja podizvajalskih pogodb
+        - name: Upravljanje podizvajalskih pogodb v aplikaciji Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Oddajanje del podizvajalcem oktobra 2021; zgodnji dostop
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Ključni pojmi pri oddajanju naročil podizvajalcem
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Upravljanje dobaviteljev in cenikov projektov
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: 'Podizvajalci kot viri, ki jih je mogoče rezervirati'
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Podrobnosti glave za podizvajalske pogodbe
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Podrobnosti podizvajalske pogodbe za čas
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Podrobnosti podizvajalske pogodbe za stroške
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Podrobnosti podizvajalske pogodbe za izdelke
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Viri podrobnosti podizvajalske pogodbe
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Mejniki podrobnosti podizvajalske pogodbe
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Čas
       items:
         - name: Pregled časa
@@ -868,6 +892,8 @@
       items:
         - name: Pregled odobritev
           href: approvals/approvals-overview.md
+        - name: Nabori odobritev
+          href: approvals/approval-sets.md
         - name: Opombe razvijalcev
           items:
             - name: Opombe razvijalcev za odobritve
@@ -1060,6 +1086,8 @@
       items:
         - name: Razpored izdaje posodobitev za Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ali spremembe v izdaji posodobitve 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 33, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Prilagajanje tedenskih časovnih vnosov
               href: psa/time-entry-extensibility-v3.md
-            - name: Nabori odobritev
+            - name: Nabori odobritev v aplikaciji Project Service Automation
               href: psa/approval-set.md
     - name: Pogosta vprašanja in odpravljanje težav (3.x)
       items:
