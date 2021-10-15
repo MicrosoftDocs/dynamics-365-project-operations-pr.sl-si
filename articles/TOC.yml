@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novosti
       items:
+        - name: 'Oktober 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: 'September 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: 'Avgust 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: 'Julij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
@@ -292,7 +296,7 @@
           items:
             - name: Razvoj predlog projekta s kopiranjem projekta
               href: project-management/dev-copy-project.md
-            - name: Uporaba API-jev razporeda projekta (predogledna različica za javnost)
+            - name: Uporaba API-jev razporeda projekta
               href: project-management/schedule-api-preview.md
     - name: Upravljanje virov
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: 'Nabava materialov, ki niso na zalogi, za projekte s čakajočimi računi dobavitelja'
           href: procurement/pending-vendor-invoices.md
+        - name: 'Naročanje materialov, ki niso na zalogi, za projekte, ki uporabljajo naročilnice za projekte'
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Zadrževanje dobaviteljev
+          items:
+            - name: Pregled zadrževanja dobaviteljev
+              href: procurement/vendor-retention-overview.md
+            - name: Nastavitev zadrževanja dobaviteljev
+              href: procurement/set-up-vendor-retention.md
     - name: Zaračunavanje
       items:
         - name: Pregled postopka zaračunavanja
@@ -528,6 +540,10 @@
       items:
         - name: Novosti pri 2. valu posodobitev izdaje 2021 za zgodnji dostop – poenostavljeno uvajanje
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novosti za oktober 2021 – poenostavljeno uvajanje
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Novosti za september 2021 – poenostavljeno uvajanje
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Novosti za avgust 2021 – poenostavljeno uvajanje
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Novosti za julij 2021 – poenostavljeno uvajanje
@@ -784,7 +800,7 @@
           items:
             - name: Razvoj predlog projekta s kopiranjem projekta
               href: project-management/dev-copy-project.md
-            - name: Uporaba API-jev razporeda projekta (predogledna različica za javnost)
+            - name: Uporaba API-jev razporeda projekta
               href: project-management/schedule-api-preview.md
     - name: Upravljanje virov
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Podrobnosti podizvajalske pogodbe za čas
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Podrobnosti podizvajalske pogodbe za stroške
+        - name: Podrobnosti podizvajalske pogodbe za kategorije stroškov
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Podrobnosti podizvajalske pogodbe za izdelke
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Razpored izdaje posodobitev za Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ali spremembe v izdaji posodobitve 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 34, V3'
