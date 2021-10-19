@@ -2,23 +2,22 @@
 title: Uporaba API-jev razporejanja projektov za izvajanje postopkov s pomočjo entitet razporejanja
 description: V tej temi so na voljo informacije in vzorci za uporabo API-jev razporejanja projektov.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008786"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487705"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Uporaba API-jev razporejanja projektov za izvajanje postopkov s pomočjo entitet razporejanja
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-> [!IMPORTANT] 
-> Nekatere ali vse funkcije, navedene v tej temi, so na voljo kot del izdaje predogledne različice. Vsebina in funkcionalnost se lahko spremenita. 
+
 
 ## <a name="scheduling-entities"></a>Entitete za razporejanje
 

@@ -2,16 +2,16 @@
 title: Podrobnosti glave za podizvajalske pogodbe
 description: V okviru te teme so pojasnjene funkcije, ki so na voljo v glavi podizvajalske pogodbe v aplikaciji Project Operations.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 49158af1a430033db3a5db57a840512c45bc17e2
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: ee863d31b45e7de962488fe804202ddfe580eb04
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323661"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501346"
 ---
 # <a name="header-details-for-subcontracts"></a>Podrobnosti glave za podizvajalske pogodbe
 
@@ -28,26 +28,24 @@ Vodja projektov, ki načrtuje in izvaja projekte, lahko zaposli podizvajalce in 
 1. V podoknu za krmarjenje izberite **Podizvajalske pogodbe**, na strani **Podizvajalska pogodba** pa možnost **Nova**.
 2. Vnesite zahtevane informacije in izberite **Shrani**.
 
-    Spodnja tabela vsebuje informacije o poljih na strani o glavi podizvajalske pogodbe.
+    Spodnja tabela vsebuje informacije o poljih na strani **Glava podizvajalske pogodbe**.
 
-    | **Polje** | **Opis** |
-    | --- | --- | 
-    | Imenu | Ime podizvajalske pogodbe. |
-    | Opis | Kratek opis storitev in izdelkov, naročilo katerih je opredeljeno v podizvajalski pogodbi. |
-    | Dobavitelj | Ime podjetja, pri katerem so naročeni izdelki in storitve. Vrsta odnosa za zapis računa je **Prodajalec** ali **Dobavitelj**. |
-    | Datum podizvajalske pogodbe | Datum ustvarjenja podizvajalske pogodbe. |
-    | Razlogu stanja | Stanje podizvajalske pogodbe. |
-    | Valuta | Valuta, v kateri je izvedeno plačilo izdelkov in storitev. Vrednost v tem polju je privzeto določena na podlagi računa dobavitelja, vendar jo je mogoče spremeniti. Na projektnih cenikih, ki določajo cene za izdelke in storitve, opredeljene v podizvajalski pogodbi, mora biti uporabljena ta valuta. Ceniki v katerikoli drugi valuti se na podizvajalsko pogodbo ne morejo nanašati. Stroški izdelkov in storitev, ki nastanejo s to pogodbo, bodo k projektu zabeleženi v tej valuti. |
-    | Pogodbena enota | Oddelek podjetja, ki z dobaviteljem sklepa prodajno ali podizvajalsko pogodbo. |
-    | Plačilni pogoji | Plačilni pogoji na računih dobavitelja, ki so izdani v okviru podizvajalske pogodbe. Vrednost v tem polju je privzeto določena na podlagi zapisa računa dobavitelja. |
-    | Naslov za plačilo | Naslov, na katerega je poslan znesek, ki ga določajo računi dobavitelja. Vrednost v tem polju je privzeto določena na podlagi zapisa računa dobavitelja. |
-    | Ime plačnika | Ime osebe iz dobaviteljevega podjetja, ki bo poslala račun, ali naziv oddelka, iz katerega bo poslan. Vrednost v tem polju je privzeto določena na podlagi zapisa računa dobavitelja in bo uporabljena kot ime glavnega stika na računih dobavitelja, ki bodo izdani v okviru izpolnjevanja podizvajalske pogodbe. |
-    | Naslov plačnika | Naslov, uporabljen na računih dobavitelja. Vrednost v tem polju je privzeto določena na podlagi zapisa računa dobavitelja. Ta naslov se uporablja tudi kot naslov na računih dobavitelja, ki so izdani v okviru podizvajalske pogodbe. |
-    | Delna vsota | Če podizvajalska pogodba nima vrstic, v to polje vnesite vrednost, ki označuje delno vsoto pred obdavčitvijo. Če pa jih ima, je to polje namenjeno samo za branje. Prikazani znesek predstavlja delno vsoto vseh vrstic podizvajalske pogodbe. |
-    | Skupni davek | Če podizvajalska pogodba nima vrstic, v to polje vnesite vrednost, ki označuje davke v okviru te pogodbe. Če pa jih ima, je to polje namenjeno samo za branje. Prikazani znesek predstavlja vsoto vseh davkov v okviru podizvajalske pogodbe. |
-    | Skupni znesek |  Polje z izračunom prikazuje skupni znesek v okviru podizvajalske pogodbe po vključitvi davkov.  |
-    | Datum potrditve | Datum potrditve podizvajalske pogodbe.  |
-    | Zahteval(-a) | Vrednost v tem polju je privzeto določena na podlagi imena uporabnika, ki ustvari podizvajalsko pogodbo. Vrednost lahko spremeni ustvarjalec podizvajalske pogodbe ter navede osebo, v imenu katere jo ustvarja.  |
-    | Upravitelj kupcev pri dobavitelju | Ime glavnega stika za račun dobavitelja. Vrednost v tem polju je privzeto določena na podlagi zapisa računa dobavitelja. Uporabnik lahko spremeni vrednost polja in kot upravljavca računa dobavitelja za podizvajalsko pogodbo določi drugi stik. Ta stik lahko pošilja e-poštna sporočila in se pogaja o cenah ter vse to tudi konfigurira. |
-
-
+    | Polje | Opis |Funkcionalni vpliv |
+    |---|------|---| 
+    | Imenu | Ime podizvajalske pogodbe. | Na vseh spustnih seznamih podizvajalskih pogodb je ime podizvajalskih pogodb navedeno v prvem stolpcu, da vam pomaga prepoznati podizvajalske pogodbe. | 
+    | Opis | Kratek opis storitev in izdelkov, naročilo katerih je opredeljeno v podizvajalski pogodbi. | Brez |
+    | Dobavitelj | Ime podjetja, pri katerem so naročeni izdelki in storitve. Vrsta odnosa za zapis računa je **Prodajalec** ali **Dobavitelj**. | Na podlagi izbranega dobavitelja se privzete vrednosti samodejno vnesejo za naslednja polja:<br/> **• Valuta** </br> **• Ceniki** </br> **• Plačilni pogoji**</br> **• Naslov za plačilo**</br> **• Naslov plačnika**</br> **• Ime plačnika** </br>**• Upravitelj kupcev pri dobavitelju**|
+    | Datum podizvajalske pogodbe | Datum ustvarjanja podizvajalske pogodbe. | Datum podizvajalske pogodbe se uporablja za izbiro pravilnega nabavnega cenika bodisi iz cenikov, ki so priloženi sorodnemu dobavitelju, bodisi iz parametrov projekta. |
+    | Razlogu stanja | Stanje podizvajalske pogodbe. | Status določa, kje je podizvajalska pogodba v poslovnem procesu in ali jo je mogoče urejati. <br/>Vrednosti vključujejo:<br>• **Osnutek**: Podizvajalsko pogodbo je mogoče urejati. Urejate lahko samo podizvajalske pogodbe s statusom **Osnutek**.<br/>• **Potrjeno**: Pogajanja z dobaviteljem so zaključena in podizvajalska pogodba je odobrena za dostavo. <br/>• **Zaključeno**: Dostava podizvajalske pogodbe je končana.<br/>• **Preklicano**: Podizvajalska pogodba je bila preklicana in dostava ni načrtovana.  | 
+    | Valuta | Valuta, v kateri se kupujejo izdelki in storitve. Privzeta vrednost se samodejno vnese iz računa dobavitelja, vendar jo je mogoče spremeniti. | Valuta podizvajalske pogodbe se uporablja za izbiro nabavnega cenika bodisi iz cenikov, ki so priloženi sorodnemu dobavitelju, bodisi iz parametrov projekta. Cenikov v drugi valuti ni mogoče povezati s podizvajalsko pogodbo. Potreben čas, stroški in materiali, ki jih dobaviteljevi viri dostavijo iz te podizvajalske pogodbe, so v projektu zabeleženi v tej valuti. Ko je zapis podizvajalske pogodbe shranjen, valute na podizvajalski pogodbi ni mogoče spremeniti.|
+    | Pogodbena enota | Oddelek podjetja, ki z dobaviteljem sklepa prodajno ali podizvajalsko pogodbo. | Brez |
+    | Plačilni pogoji | Plačilni pogoji na računih dobaviteljev, ki so izdani s to podizvajalsko pogodbo. Privzeta vrednost se samodejno vnese iz zapisa računa dobavitelja. | Plačilni pogoji iz podizvajalske pogodbe se kopirajo na vse račune dobaviteljev, ki so povezani s to podizvajalsko pogodbo. Plačilne pogoje je mogoče posodobiti, če ima podizvajalska pogodba status **Osnutek**. | 
+    | Naslov za plačilo | Naslov dobavitelja, na katerega je treba poslati plačila. Privzeta vrednost se samodejno vnese iz zapisa računa dobavitelja. | Naslov za plačilo iz podizvajalske pogodbe se kopira kot naslov za plačilo za vse račune dobaviteljev, ki so ustvarjeni za to podizvajalsko pogodbo. Naslov za plačilo je mogoče posodobiti, če ima podizvajalska pogodba status **Osnutek**.|
+    | Ime plačnika | Ime osebe iz dobaviteljevega podjetja, ki bo poslala račun, ali naziv oddelka, iz katerega bo poslan. Privzeta vrednost se samodejno vnese iz zapisa računa dobavitelja. | Vrednost **Ime plačnika** iz podizvajalske pogodbe se kopira na vse račune dobaviteljev, ki so povezani s to podizvajalsko pogodbo. To polje je mogoče posodobiti, če ima podizvajalska pogodba status **Osnutek**.|
+    | Naslov plačnika | Naslov, ki se uporablja na računih dobavitelja. Privzeta vrednost se samodejno vnese iz zapisa računa dobavitelja. | Ta naslov je naslov "račun od" na računih dobaviteljev, ki so ustvarjeni za to podizvajalsko pogodbo. |
+    | Delna vsota | Če podizvajalska pogodba nima vrstic, vnesite delno vsoto naročila brez davkov. Če pa jih ima, je to polje namenjeno samo za branje. Prikazani znesek je delna vsota vseh vrstic podizvajalske pogodbe. | Brez |
+    | Skupni davek | Če podizvajalska pogodba nima vrstic, vnesite vse davke te podizvajalske pogodbe. Če pa jih ima, je to polje namenjeno samo za branje. Prikazani znesek je vsota davkov vseh vrstic podizvajalske pogodbe. | Brez |
+    | Skupni znesek | Polje z izračunom prikazuje skupni znesek v okviru podizvajalske pogodbe po vključitvi davkov. | Brez |
+    | Datum potrditve | Datum, ko je bila podizvajalska pogodba potrjena. | Brez |
+    | Zahteval(-a) | To polje je privzeto nastavljeno na ime uporabnika, ki ustvari podizvajalsko pogodbo. Ustvarjalec podizvajalske pogodbe pa lahko spremeni vrednost, da označi osebo, v imenu katere ustvarja podizvajalsko pogodbo. | Brez |
+    | Upravitelj kupcev pri dobavitelju | Ime glavnega stika za račun dobavitelja. Privzeta vrednost se samodejno vnese iz zapisa računa dobavitelja. Za vodjo upravljanja računa dobavitelja podizvajalske pogodbe lahko izberete drug stik. | Nastavite lahko e-poštna opozorila za obveščanje stika o spremembah podizvajalske pogodbe, do katerih pride zaradi pogajanj o ceni. |

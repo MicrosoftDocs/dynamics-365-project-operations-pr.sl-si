@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 181032b27ee67591a3bb40ab080477c51c1e34a46e9aac20039e4e5df3a5ab1d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000956"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487660"
 ---
 # <a name="define-project-calendars"></a>Določitev koledarjev projektov
 
@@ -46,7 +46,7 @@ Predloga koledarja, ki se uporablja za projekt, je kopija predloge koledarja, do
 
 1. Odprite možnost **Viri** \> **Viri**.
 2. Ustvarite nov vir za sklicevanje v predlogi koledarja ali izberite obstoječega.
-3. Izberite zavihek **Delovni čas** vira in upoštevajte navodila v članku [Nastavitev delovnih ur za vir](/dynamics365/field-service/set-work-hours-resource.md), da konfigurirate pravila koledarja.
+3. Izberite zavihek **Delovni čas** vira in upoštevajte navodila v članku [Nastavitev delovnih ur za vir](/dynamics365/field-service/set-work-hours-resource), da konfigurirate pravila koledarja.
 
 **Ustvarjanje nove predloge koledarja**
 

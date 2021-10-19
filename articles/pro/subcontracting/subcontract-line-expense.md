@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323841"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506119"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Podrobnosti podizvajalske pogodbe za kategorije stroškov
 
@@ -29,23 +29,23 @@ Izvedite spodnje korake in v storitvi Project Operations ustvarite vrstice podiz
 
 Spodnja tabela vsebuje informacije o poljih na strani s podrobnostmi **Vrstica podizvajalske pogodbe** in strani **Hitro ustvarjanje**.
 
-| **Polje** |  **Opis** |
-| ----------| ---------------- |
-| Imenu | Ime podrobnosti podizvajalske pogodbe. |
-| Opis | Kratek opis kategorij storitev in izdelkov, naročilo katerih je opredeljeno v podrobnostih podizvajalske pogodbe. |
-| Vrsta vrstice | Privzeta vrednost tega polja je **Temelji na količini**.  |
-| Način obračunavanja | Način obračunavanja za podrobnosti podizvajalske pogodbe. Na podlagi načina obračunavanja podrobnosti je za metodo obračunavanja s fiksno ceno na voljo razpored za izstavljanje računov, ki temelji na mejnikih.  |
-| Razred transakcije | Privzeta vrednost tega polja je **Čas**. Če želite ustvariti vrstice podizvajalske pogodbe za nakup izdelkov, polje **Razred transakcije** nastavite na možnost **Stroški**. Ta vrednost polja označuje, da se podrobnosti podizvajalske pogodbe uporabljajo za evidentiranje nakupa kategorije izdelkov ali storitev, ki bodo uporabljeni v okviru projektov. |
-| Kategorija transakcije | Izberite kategorijo transakcije. |
-| Zahtevani datum začetka | Datum, ko morajo biti dobaviteljeve kategorije za nakup na voljo. Zahtevani datum začetka je relevanten tudi za izbiro cenika projekta iz nabora tistih cenikov, ki so priloženi podizvajalski pogodbi. Cena kategorije v podrobnosti podizvajalske pogodbe je privzeto določena na podlagi tega cenika. |
-| Zahtevani datum konca | Datum, ko kategorije za nakup niso več potrebne. Na ta datum je poslano sporočilo, in sicer takrat, ko vodja projekta podrobnost pogodbe poveže z določenimi ocenami stroškov v okviru projektov, ki nosijo poznejši datum od zadevnega. |
-| Naročena količina | Količina kategorij, kupljenih pri dobavitelju. Če vodja projekta prekorači količino kupljenih elementov, se prikaže opozorilo.  |
-| Skupina enot | Ta vrednost polja je privzeto nastavljena na podlagi privzete skupine enot, ki je nastavljena za izbrano kategorijo. |
-| Enota | Ta vrednost polja je privzeto nastavljena na podlagi privzete enote, ki je nastavljena za izbrano kategorijo. Kombinacija kategorije in enote se uporablja za privzeto določanje cene enote v podrobnosti podizvajalske pogodbe. |
-| Cena enote | Vrednost polja s ceno enote je privzeto določena na podlagi kombinacije kategorije in enote iz cen kategorije, ki so povezane s cenikom projekta, ki velja za zahtevani datum začetka za vrstico podizvajalske pogodbe.  |
-| Delna vsota | To polje, ki je namenjeno samo za branje, se samodejno izračuna kot cena enote po količini, če je vnesena tako vrednost količine kot vrednost cene enote. Če je najmanj eno izmed polj prazno, lahko vrednost ročno vnesete v zadevno polje.  |
-| Prometni davek | Vnesite znesek prometnega davka.  |
-| Skupni znesek | Skupni znesek vrstice podizvajalske pogodbe z vključenimi davki. Vrednost tega polja je izračunana na naslednji način: delni znesek + prometni davek.  |
+| **Polje** | **Opis** | **Funkcionalni vpliv** |
+| --- | --- | --- |
+| Imenu | Ime podrobnosti podizvajalske pogodbe za pomoč pri identifikaciji. | To bo prikazano kot prvi stolpec v vseh iskanjih na podlagi podrobnosti podizvajalske pogodbe. |
+| Opis | Kratek opis kategorij stroškov, ki se kupujejo v podrobnostih podizvajalske pogodbe. | Brez |
+|Vrsta vrstice | Privzeta vrednost tega polja je **Temelji na količini**. |Brez |
+| Način obračunavanja | To je nabor možnosti, ki predstavlja dva glavna pogodbena modela, ki ju aplikacija Project Operations podpira: **Fiksna cena** in **Čas in material**. | Razpored za izdajanje računov, ki temelji na mejnikih, je na voljo za podrobnosti podizvajalske pogodbe, če je izbran način obračunavanja s fiksno ceno. |
+| Razred transakcije | Privzeta vrednost tega polja je **Čas**. Če želite ustvariti vrstice podizvajalske pogodbe za nakup izdelkov, polje **Razred transakcije** nastavite na možnost **Strošek**.  | To kaže, da se podrobnosti podizvajalske pogodbe uporabljajo za evidentiranje nakupa kategorije stroškov, ki se bodo uporabljali pri projektih. |
+| Kategorija transakcije | Prikaže seznam aktivnih kategorij transakcij v sistemu. |Brez |
+| Zahtevani datum začetka | Vnesite datum, ko morajo biti kategorije nakupa na voljo od dobavitelja. | Zahtevani začetek se uporablja za izbiro cenika projekta iz cenikov projektov, priloženih podizvajalski pogodbi. Cena kategorije v podrobnostih podizvajalske pogodbe izhaja iz tega cenika. |
+| Zahtevani konec | Vnesite datum, ko kategorije nakupa ne bodo več potrebne. | To bo uporabljeno za prikaz opozoril, ko vodja projekta te podrobnosti podizvajalske pogodbe poveže z določenimi ocenami stroškov projekta, ki so potrebne po tem datumu. |
+| Naročena količina | Količina kategorije, ki jo kupite pri dobavitelju. | To bo uporabljeno za prikaz opozoril, ko vodja projekta črpa čez to količino.|
+| Skupina enot | Privzeta vrednost temelji na privzeti skupini enot, ki je nastavljena za izbrano kategorijo. |Brez |
+| Enota | Privzeta vrednost temelji na privzeti enoti, ki je nastavljena za izbrano kategorijo.  | Kombinacija možnosti **Kategorija** in **Enota** bo uporabljena kot privzeta ali izračunana za ceno enote za podrobnosti podizvajalske pogodbe.  |
+| Cena enote | Privzeta vrednost uporablja kombinacijo možnosti **Kategorija** in **Enota** iz cen kategorij, ki so povezane s cenikom projekta, ki velja za zahtevani začetek podrobnosti podizvajalske pogodbe. |Brez |
+| Delna vsota | To je polje samo za branje, ki se izračuna kot količina X cena na enoto, če vnesete vrednosti količine in cene enote. Če je prazno eno ali obe polji, lahko v to polje vnesete vrednost. |Brez |
+| Prometni davek | Vnesite znesek prometnega davka. |Brez |
+| Skupni znesek | Skupni znesek vrstice podizvajalske pogodbe z vključenimi davki. Vrednost tega polja je izračunana na naslednji način: delni znesek + prometni davek. |Brez |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

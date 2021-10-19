@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323796"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558522"
 ---
 # <a name="subcontract-line-milestones"></a>Mejniki vrstice podizvajalske pogodbe
 
@@ -50,15 +50,15 @@ Mejniki s fiksnimi cenami v vrstici podizvajalske pogodbe se lahko ustvarijo ro�
 3. Na podmreži, v zavihku **Mejniki vrstice podizvajalske pogodbe** izberite **+ Nov mejnik vrstice podizvajalske pogodbe**.
 4. Na strani **Nov mejnik vrstice podizvajalske pogodbe** na podlagi naslednje tabele vnesite zahtevane podatke.
 
-    | Polje | Opis |
-    | --- | --- |
-    | Ime mejnika | Ime mejnika |
-    | Opis | Opis mejnika.  |
-    | Datum mejnika | Datum, ko bi moral postopek samodejnega ustvarjanja računa preveriti stanje tega mejnika, da bi ga upoštevali pri izstavljanju računov. Ta vrednost je pri izstavljanju računov za to podizvajalsko pogodbo vključena v vrstico računa dobavitelja. |
-    | Znesek | Znesek ali vrednost mejnika, ki bo zaračunan stranki. Ta vrednost je pri izstavljanju računov za to podizvajalsko pogodbo vključena v vrstico računa dobavitelja. |
-    | Davek | Znesek davka, ki se uporablja za mejnik. Ta vrednost je pri izstavljanju računov za to podizvajalsko pogodbo vključena v vrstico računa dobavitelja. |
-    | Znesek po obdavčitvi | To polje samo za branje, ki se izračuna kot »Znesek« + »Davek«. Ta vrednost je pri izstavljanju računov za to podizvajalsko pogodbo vključena v vrstico računa dobavitelja. |
-    | Stanje računa | Ko je mejnik ustvarjen, je to stanje vedno nastavljeno na **Ni pripravljen za izstavljanje računov**.  V stanju **Pripravljen za izdajo računa** je ta mejnik pri ustvarjanju računa dobavitelja vključen na računu dobavitelja. |
+    | Polje | Opis |Funkcionalni vpliv|
+    | --- | --- |----------------------|
+    | Ime mejnika | Ime mejnika |To bo prikazano kot prvi stolpec v vseh iskanjih na podlagi mejnikov podrobnosti podizvajalske pogodbe. Vrstica računa dobavitelja, ki je ustvarjena na podlagi tega mejnika, bo prav tako uporabljala ime mejnika podrobnosti podizvajalske pogodbe kot privzeto ime vrstice računa dobavitelja.|
+    | Opis | Opis mejnika. |Vrstica računa dobavitelja, ki je ustvarjena na podlagi tega mejnika, bo prav tako uporabljala opis mejnika podrobnosti podizvajalske pogodbe kot privzeti opis vrstice računa dobavitelja.|
+    | Datum mejnika | Datum, ko bi moral postopek samodejnega ustvarjanja računa preveriti stanje tega mejnika, da bi ga upoštevali pri izstavljanju računov.| Ta vrednost bo uporabljena kot privzeti datum vrstice računa dobavitelja pri izstavljanju računov za te podrobnosti podizvajalske pogodbe. |
+    | Znesek | Znesek ali vrednost mejnika, ki bo zaračunan stranki. |Ta vrednost je uporabljena kot privzeti znesek v vrstici računa dobavitelja pri izstavljanju računov za te podrobnosti podizvajalske pogodbe. |
+    | Davek | Znesek davka, ki se uporablja za mejnik.| Ta vrednost je uporabljena kot privzeti znesek davka v vrstici računa dobavitelja pri izstavljanju računov za te podrobnosti podizvajalske pogodbe. |
+    | Znesek po obdavčitvi | To polje samo za branje se izračuna kot znesek + davek.|Ta vrednost je uporabljena kot privzeta v vrstici računa dobavitelja pri izstavljanju računov za te podrobnosti podizvajalske pogodbe. |
+    | Stanje računa | Ko je mejnik ustvarjen, je to stanje vedno nastavljeno na **Ni pripravljen za izstavljanje računov**.|  V stanju **Pripravljen za izdajo računa** je ta mejnik pri ustvarjanju računa dobavitelja vključen na računu dobavitelja. |
 
 5. Izberite možnost **Shrani in zapri**.
 

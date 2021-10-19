@@ -2,16 +2,16 @@
 title: Prijava za preskusne različice aplikacije Project Operations
 description: Ta tema vsebuje informacije o tem, kako uvesti preskusno različico aplikacije Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418477"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599233"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Prijava za preskusne različice aplikacije Project Operations 
 
@@ -85,15 +85,9 @@ Preden začnete, se s službenim uporabniškim računom prijavite v brskalnik, i
 
    Po začetku omogočanja uporabe boste preusmerjeni na seznam okolij v skrbniškem središču za Power Platform. Medtem ko poteka omogočanje uporabe, je stanje vašega okolja naslednje: **PreparingInstance**.
  
-  Ko je omogočanje uporabe zaključeno, je stanje vašega okolja naslednje: **Pripravljeno**.
+  Ko je omogočanje uporabe končano, je stanje vašega okolja nastavljeno na **Pripravljeno**. Omogočanje uporabe okolja vključuje uvajanje predstavitvenih podatkov.
  
-4.  Če želite po zaključenem omogočanju uporabe preveriti veljavnost uvajanja, izberite ustrezni URL storitve Microsoft Dataverse ter URL aplikacij Finance and Operations.
-
-## <a name="demo-data-installation"></a>Namestitev predstavitvenih podatkov
-
-Za dostop do paketov predstavitvenih podatkov za material, ki ni na zalogi, in za postopke poenostavljenega uvajanja, uporabite naslednje povezave. 
-- [Predstavitveni podatki o materialu, ki ni na zalogi](resource-apply-pro-setup-config-data.md)
-- [Poenostavljeni predstavitveni podatki](lite-apply-demo-setup-config-data.md)
+4.  Za preverjanje veljavnosti uvajanja izberite ustrezni URL storitve Microsoft Dataverse in URL-je aplikacij Finance and Operations.
 
 ## <a name="configuring-dual-write"></a>Konfiguracija dvojnega zapisovanja
 Konfigurirajte preslikave z dvojnim zapisovanjem, in sicer samo za uvajanje materiala, ki ni na zalogi. Za več informacij si oglejte [Različice preslikovanja dvojnega zapisovanja v aplikaciji Project Operations](resource-dual-write-maps.md).
