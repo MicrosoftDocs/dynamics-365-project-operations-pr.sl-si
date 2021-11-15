@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9ed9cb4615ba45c6b42154caffbd16806d30a8e7
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
-ms.translationtype: HT
+ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
+ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623366"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "7773624"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Načrtovanje izdaj posodobitev za Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7623366"
 
 | Rešitev  | Najnovejša različica |
 |-------|----|
-| Project Service Automation    | 3.10.57.152 |
+| Project Service Automation    | 3.10.58.120 |
 | Dodatek Project Service Automation za namizne računalnike                | 3.15          |
 
 Za več informacij o posodobitvah rešitve Project Service glejte razdelek [Načrti izdaje za Dynamics 365](/dynamics365/release-plans/). 
@@ -45,28 +45,29 @@ Za več informacij o posodobitvah rešitve Project Service glejte razdelek [Nač
 | Skupina  | Regija | Trenutna različica | Naslednja različica |  Načrtovan datum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>1. skupina</strong> | |  |  | |
-| | <i>Prva izdaja</i> | [3.10.57.152](whats-new-ur-36.md) | Še ni določeno | 29. oktober 2021
+| | <i>Prva izdaja</i> | [3.10.58.120](whats-new-ur-37.md) | Še ni določeno | 03. december 2021
 |<strong>2. skupina</strong> | |  |  | |
-| | <i>Južna Amerika</i> | [3.10.57.152](whats-new-ur-36.md) | Še ni določeno | 05. november 2021
-| | <i>Kanada</i> | [3.10.57.152](whats-new-ur-36.md) | Še ni določeno | 05. november 2021
-| | <i>Indija</i> | [3.10.57.152](whats-new-ur-36.md) | Še ni določeno | 05. november 2021
-| | <i>Francija</i> | [3.10.57.152](whats-new-ur-36.md) | Še ni določeno | 05. november 2021
-| | <i>Južnoafriška republika</i> | [3.10.57.152](whats-new-ur-36.md) | Še ni določeno | 05. november 2021
-| | <i>Nemčija</i> | [3.10.57.152](whats-new-ur-36.md) | Še ni določeno | 05. november 2021
-| | <i>Švica</i> | [3.10.57.152](whats-new-ur-36.md) | Še ni določeno | 05. november 2021
+| | <i>Južna Amerika</i> | [3.10.58.120](whats-new-ur-37.md) | Še ni določeno | 10. december 2021
+| | <i>Kanada</i> | [3.10.58.120](whats-new-ur-37.md) | Še ni določeno | 10. december 2021
+| | <i>Indija</i> | [3.10.58.120](whats-new-ur-37.md) | Še ni določeno | 10. december 2021
+| | <i>Francija</i> | [3.10.58.120](whats-new-ur-37.md) | Še ni določeno | 10. december 2021
+| | <i>Južnoafriška republika</i> | [3.10.58.120](whats-new-ur-37.md) | Še ni določeno | 10. december 2021
+| | <i>Nemčija</i> | [3.10.58.120](whats-new-ur-37.md) | Še ni določeno | 10. december 2021
+| | <i>Švica</i> | [3.10.58.120](whats-new-ur-37.md) | Še ni določeno | 10. december 2021
 |<strong>3. skupina</strong> | |  |  | |
-| | <i>Japonska</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15. oktober 2021
-| | <i>Azija/Pacifik</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15. oktober 2021
-| | <i>Velika Britanija</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15. oktober 2021
-| | <i>Oceanija</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15. oktober 2021
-| | <i>Združeni arabski emirati</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15. oktober 2021
+| | <i>Japonska</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12. november 2021
+| | <i>Azija/Pacifik</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12. november 2021
+| | <i>Velika Britanija</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12. november 2021
+| | <i>Oceanija</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12. november 2021
+| | <i>Združeni arabski emirati</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12. november 2021
 |<strong>4. skupina</strong> | |  |  | |
-| | <i>Evropa</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 22. oktober 2021
+| | <i>Evropa</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 19. november 2021
 |<strong>5. skupina</strong> | |  |  | |
-| | <i>Severna Amerika</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 29. oktober 2021
+| | <i>Severna Amerika</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03. december 2021
 |<strong>6. skupina</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 29. oktober 2021
-| | <i>Namenske skupine lestvic</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 05. november 2021
+| | <i>Government Community Cloud</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03. december 2021
+| | <i>Namenske skupine lestvic</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 10. december 2021
+
 
 
 >[!Note]

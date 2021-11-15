@@ -2,16 +2,16 @@
 title: Ustvarjanje strukturirane členitve dela
 description: V tej temi je pojasnjeno, kako ustvarite strukturirano členitev dela (SČD), ki vključuje osnovne kontrolnike v novem vmesniku za načrtovanje.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998751"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655437"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Ustvarjanje strukturirane členitve dela (SČD)
 
@@ -117,5 +117,26 @@ Način opravila ne vpliva na posodobitve začetnega in končnega datuma predhodn
 
 Mreža **Razpored** v celoti podpira pripomočke za osebe s posebnimi potrebami in se lahko uporablja z bralniki zaslona, kot so Pripovedovalec, JAWS in NVDA. Po mreži se lahko pomikate s puščičnimi tipkami (kot v aplikaciji Microsoft Excel), lahko uporabite tipko Tab za pomikanje po interaktivnih elementih uporabniškega vmesnika, lahko pa uporabite tudi tipko s puščico dol, tipko Enter ali preslednico, da izberete in odprete spustne menije.
 
+## <a name="project-limitations"></a>Projektne omejitve 
+Če uporabljate strukturirano členitev dela v rešitvi Project Operations, se morate zavedati naslednjih omejitev. Te omejitve veljajo za projekte in opravila. Za več informacij glejte [Omejitve in meje rešitve Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Polje**                                          |  **Omejitev**           |
+|----------------------------------------------------|----------------------|
+| Največje skupno število opravil za projekt                  | 500                  |
+| Največje skupno trajanje projekta               | 3650 dni (10 let) |
+| Največje skupno število virov za projekt              | 150                  |
+| Največje skupno število povezav (samo naslednik) za projekt | 600                  |
+| Največje skupno število polj po meri za projekt          | 10                   |
+
+**Omejitve opravila**
+
+| **Polje**                               |   **Omejitev**           |
+|-----------------------------------------|-----------------------|
+| Najvišja raven hierarhije                 | 10 ravni             |
+| Največje število povezav (naslednik + predhodnik) | 20                    |
+| Najdaljše trajanje listnega opravila           | 1250 dni             |
+| Najdaljše trajanje opravila povzetka      | 3650 dni (10 let)  |
+| Največje število virov, dodeljenih opravilu    | 20 virov          |
+| Podprto datumsko obdobje za opravilo         | 1. 1. 2000–31. 12. 2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
