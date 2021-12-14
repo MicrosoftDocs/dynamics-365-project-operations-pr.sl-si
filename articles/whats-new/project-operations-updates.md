@@ -2,17 +2,17 @@
 title: Posodobitve aplikacije Project Operations
 description: Ta tema vsebuje informacije o izdanih različicah aplikacije Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783443"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892226"
 ---
 # <a name="project-operations-updates"></a>Posodobitve aplikacije Project Operations
 
@@ -22,51 +22,51 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, 
 
 ## <a name="project-operations-components"></a>Komponente aplikacije Project Operations
 
-Dynamics 365 Project Operations vsebuje dve komponenti:
+Aplikacija Dynamics 365 Project Operations je sestavljena iz dveh komponent:
 
-- Project Operations v okolju Dataverse zajema zmogljivosti od priložnosti do predračuna. Dataverse se uporablja pri poenostavljenem uvajanju in uvajanju aplikacije Project Operations za primere uporabe z viri/brez zalog.
-- Upravljanje projektov in računovodstvo v okolju Dynamics 365 Finance zajema zmogljivosti upravljanja stroškov, vodenje računov projekta in pripoznavanje prihodkov. Okolje aplikacije Finance and Operations se uporablja v aplikaciji Project Operations za scenarije, ki temeljijo na virih/nezalogi in aplikaciji Project Operations za primere uporabe z naročili na zalogi/v proizvodnji.
+- Operacije projekta v okolju Dataverse zajemajo zmogljivosti od priložnosti do predračuna. Dataverse se uporablja pri preprosti uvajanju in pri uvajanju scenarijev z viri/ne zaloge Operacij projekta.
+- Vodenje in računovodstvo projektov v okolju Dynamics 365 Finance zajema zmogljivosti upravljanja odhodkov, projektnega računovodstva in priznavanja prihodkov. Okolje aplikacije Finance in operacije se uporablja v projektnih operacijah za scenarije, ki temeljijo na virih/brez zalog, in v projektnih operacijah za scenarije, ki temeljijo na zalogi/produkciji.
 
 ## <a name="project-operations-release-notes"></a>Opombe ob izdaji aplikacije Project Operations
-- Opombe ob najnovejši izdaji Project Operations za [primere uporabe z viri/brez zalog](whats-new-oct-2021-resource-based.md).
-- Opombe ob najnovejši izdaji Project Operations za [poenostavljeno uvajanje](../pro/whats-new/whats-new-oct-2021-lite.md).
-- Opombe ob najnovejši izdaji Project Operations za [primere uporabe z zalogo/proizvodnjo](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
+- Opombe ob najnovejši izdaji Project Operations za [primere uporabe z viri/brez zalog](whats-new-nov-2021-resource-based.md).
+- Opombe ob najnovejši izdaji Project Operations za [poenostavljeno uvajanje](../pro/whats-new/whats-new-nov-2021-lite.md).
+- Opombe ob najnovejši izdaji Project Operations za [primere uporabe z zalogo/proizvodnjo](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Najnovejša različica aplikacije Project Operations
 
-| Project Operations v okolju Dataverse | Upravljanje projektov in računovodstvo v okoljih aplikacij Finance and Operations | 
+| Operacije projekta v okolju Dataverse | Vodenje projektov in računovodstvo v okoljih aplikacij za finance in operacije | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-Za aplikacijo Project Operations za primere uporabe z viri/brez zalog priporočamo uporabo različice Dual Write Orchestration 2.2.2.83 ali novejšo.
+Za scenarij projektnega vira/brez zaloge priporočamo, da uporabite različico orkestracije z dvojnim pisanjem 2.3.1.15 ali novejšo.
 
-## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Razpored izdaje za aplikacijo Project Operations v okolju Dataverse
+## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Urnik izdaje za projektne operacije v okolju Dataverse
 
-Posodobitve za aplikacijo Project Operations v okolju Dataverse so na voljo mesečno. 
+Posodobitve za projektne operacije v okolju Dataverse so na voljo mesečno. 
 
 | Skupina | Regija | Trenutna številka različice | Samodejne posodobitve za poenostavljeno uvajanje | Samodejne posodobitve za uvedbe z viri/brez zaloge | Naslednja številka različice | Naslednja različica je splošno na voljo |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. skupina |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prva izdaja         |  4.26.0.145     | 12. november 2021  | 19. november 2021   | Še ni določeno                 | 03. december 2021   |
+|   &nbsp;  | Prva izdaja         |  4.26.0.150     | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 06. december 2021   |
 | 2. skupina |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Južna Amerika         |  4.26.0.145     | 12. november 2021  | 19. november 2021   | Še ni določeno                 | 03. december 2021   |
-|   &nbsp;  | Kanada                |  4.26.0.145     | 12. november 2021  | 19. november 2021   | Še ni določeno                 | 03. december 2021   |
-|   &nbsp;  | Indija                 |  4.26.0.145     | 12. november 2021  | 19. november 2021   | Še ni določeno                 | 03. december 2021   |
-|   &nbsp;  | Francija                |  4.26.0.145     | 12. november 2021  | 19. november 2021   | Še ni določeno                 | 03. december 2021   |
-|   &nbsp;  | Južnoafriška republika          |  4.26.0.145     | 12. november 2021  | 19. november 2021   | Še ni določeno                 | 03. december 2021   |
+|   &nbsp;  | Južna Amerika         |  4.26.0.150     | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 06. december 2021   |
+|   &nbsp;  | Kanada                |  4.26.0.150     | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 06. december 2021   |
+|   &nbsp;  | Indija                 |  4.26.0.150     | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 06. december 2021   |
+|   &nbsp;  | Francija                |  4.26.0.150     | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 06. december 2021   |
+|   &nbsp;  | Južnoafriška republika          |  4.26.0.150     | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 06. december 2021   |
 | 3. skupina |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonska                 |  4.26.0.145     | 12. november 2021  | 19. november 2021   | Še ni določeno                 | 10. december 2021   |
-|   &nbsp;  | Azija-Pacifik          |  4.26.0.145     | 12. november 2021  | 19. november 2021   | Še ni določeno                 | 10. december 2021   |
-|   &nbsp;  | Velika Britanija         |  4.26.0.145     | 12. november 2021  | 19. november 2021   | Še ni določeno                 | 10. december 2021   |
-|   &nbsp;  | Oceanija               |  4.26.0.145     | 12. november 2021  | 19. november 2021   | Še ni določeno                 | 10. december 2021   |
-|   &nbsp;  | Združeni arabski emirati  |  4.26.0.145     | 12. november 2021  | 19. november 2021   | Še ni določeno                 | 10. december 2021   |
+|   &nbsp;  | Japonska                 |  4.26.0.150     | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 10. december 2021   |
+|   &nbsp;  | Azija-Pacifik          |  4.26.0.150     | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 10. december 2021   |
+|   &nbsp;  | Velika Britanija         |  4.26.0.150     | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 10. december 2021   |
+|   &nbsp;  | Oceanija               |  4.26.0.150     | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 10. december 2021   |
+|   &nbsp;  | Združeni arabski emirati  |  4.26.0.150     | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 10. december 2021   |
 | 4. skupina |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Evropa                |  4.25.0.91      | Zaključevanje           | Zaključevanje            | 4.26.0.145          | 12. november 2021   |
+|   &nbsp;  | Evropa                |  4.26.0.150     | Zaključevanje           | 10. december 2021   | Še ni določeno                 | 17. december 2021   |
 | 5. skupina |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Severna Amerika         |  4.25.0.91      | Zaključevanje           | Zaključevanje            | 4.26.0.145          | 19. november 2021   |
+|   &nbsp;  | Severna Amerika         |  4.26.0.150     | 10. december 2021  | 17. december 2021   | Še ni določeno                 | 07. januar 2022    |
 
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Razpored izdaje za upravljanje projektov in računovodstvo v okolju aplikacij Finance and Operations
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Urnik izdaje za upravljanje projektov in računovodstvo v okolju aplikacij Finance in Operations
 
 Posodobitve za upravljanje projektov in računovodstvo izhajajo osemkrat na leto.
 

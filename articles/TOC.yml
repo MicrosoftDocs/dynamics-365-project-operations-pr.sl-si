@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Novosti
       items:
+        - name: 'November 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 'Oktober 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: 'September 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Učinkovitost API-jev razporeda projekta
               href: project-management/project-schedule-api-performance.md
+            - name: Dnevniki načrtovanja projekta
+              href: project-management/schedule-api-logs.md
     - name: Upravljanje virov
       items:
         - name: Ključni koncepti
@@ -544,6 +548,8 @@
       items:
         - name: Novosti pri 2. valu posodobitev izdaje 2021 za zgodnji dostop – poenostavljeno uvajanje
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novosti za november 2021 – poenostavljeno uvajanje
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Novosti za oktober 2021 – poenostavljeno uvajanje
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Novosti za september 2021 – poenostavljeno uvajanje
@@ -952,6 +958,10 @@
   items:
     - name: Novosti
       items:
+        - name: 'Novosti za oktober 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: 'Novosti za september 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: 'Novosti za julij 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: 'Novosti za maj 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
@@ -1108,6 +1118,8 @@
       items:
         - name: Razpored izdaje posodobitev za Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ali spremembe v izdaji posodobitve 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 36, V3'

@@ -2,7 +2,7 @@
 title: Mobilna aplikacija za upravljanje stroškov
 description: Ta tema vsebuje informacije o mobilnem delovnem prostoru »Upravljanje stroškov«.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993216"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818203"
 ---
 # <a name="mobile-expense-app"></a>Mobilna aplikacija za upravljanje stroškov
 
@@ -47,47 +47,14 @@ Uporabite lahko tudi te funkcije:
 - Predložite poročilo o stroških v odobritev in povračilo.
 - Odobrite ali zavrnite poročila o stroških, za katere ste dodeljeni odobritelj.
 
-## <a name="prerequisites"></a>Zahteve
-Predpogoji se razlikujejo glede na različico, ki je uvedena za organizacijo.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Predpogoji, če uporabljate Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Predpogoji, če uporabljate Dynamics 365 Finance 
 Če je bila za vašo organizacijo uvedena rešitev Finance, mora skrbnik sistema objaviti mobilni delovni prostor **Upravljanje stroškov**. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Predpogoji, če uporabljate različico 1611 s posodobitvijo platforme na 3 ali novejšo
-Če je bila za vašo organizacijo uvedena različica 1611 s posodobitvijo platforme na 3 ali novejšo, mora sistemski skrbnik izpolniti naslednje predpogoje. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Predpogoj</th>
-<th>Vloga</th>
-<th>Opis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Uvedba hitrega popravka KB 4019015.</td>
-<td>Skrbnik sistema</td>
-<td>KB 4019015 je posodobitev X ++ ali hitri popravek za metapodatke, ki vsebuje mobilni delovni prostor za <strong>Upravljanje stroškov</strong>. Za uvedbo hitrega popravka KB 4019015 v sistem mora skrbnik sistema upoštevati naslednje korake.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Prenos posodobitev s storitve Lifecycle Services</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Namestitev hitrega popravka za metapodatke</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Ustvarjanje paketa za uvajanje</a> z modeloma <strong>ApplicationSuite</strong> in <strong>ExpenseMobile</strong>, ki ga nato naložite na portal LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Uporaba paketa za uvajanje</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Objava mobilnega delovnega prostora <strong>Upravljanje stroškov</strong>.</td>
-<td>Skrbnik sistema</td>
-<td>Glejte <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Objava mobilnega delovnega prostora</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops
 Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:
 
-- [Za telefone s sistemom Android](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Za Android telefone](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Za naprave iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Prijavite se v mobilno aplikacijo
@@ -103,11 +70,11 @@ Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:
 3. Izberite **Fotografiraj** ali **Izbira slike**.
 4. Sledite enemu od teh postopkov:
 
-   - Če ste izbrali **Fotografiraj**, sledite tem korakom:
+    - Če ste izbrali **Fotografiraj**, sledite tem korakom:
 
-      1. Odprla se bo kamera v vaši mobilni napravi, da boste lahko fotografirali potrdilo. 
-      2. Ko končate s fotografiranjem, izberite **V redu**, da sprejmete fotografijo.
-      3. Izbirno: Vnesite ime fotografije in vnesite morebitne opombe.
+        1. Odprla se bo kamera v vaši mobilni napravi, da boste lahko fotografirali potrdilo. 
+        2. Ko končate s fotografiranjem, izberite **V redu**, da sprejmete fotografijo.
+        3. Izbirno: Vnesite ime fotografije in vnesite morebitne opombe.
 
     - Če ste izbrali **Izbira slike**, sledite tem korakom:
 
@@ -133,20 +100,20 @@ Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:
 
 10. Izberite **Dokončano**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Odobrite poročilo o stroških z uporabo mobilnega delovnega prostora za upravljanje stroškov (če uporabljate posodobitev iz julija 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Odobrite poročilo o stroških z uporabo mobilnega delovnega prostora za upravljanje stroškov
 
 1. V mobilni napravi odprite delovni prostor **Upravljanje stroškov**.
 2. **Odobritve stroškov** prikazuje število poročil o stroških, ki so vam dodeljena v odobritev. Številka se posodobi približno vsakih 30 minut. Izberite **Odobritve stroškov**.
 
     Prikazan je seznam poročil o stroških, ki so vam dodeljena v odobritev.
-    
+
 3. Izberite poročilo o stroških, da si zanj ogledate podrobnosti o stroških.
 4. Izberite strošek, da si zanj ogledate podrobnosti. Informacije, ki so prikazane za strošek, vključujejo podrobnosti o potrdilu, gostu in razčlenitvi.
 5. Nazaj na strani **Poročilo o stroških** izberite odobritev ali zavrnitev poročila o stroških.
 6. Vnesite morebitne opombe za dejanje odobritve.
 7. Izberite **Dokončano**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Ustvarite novo poročilo o stroških in ga predložite v odobritev z uporabo mobilnega delovnega prostora za upravljanje stroškov (če uporabljate posodobitev iz julija 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Ustvarite novo poročilo o stroških in ga oddajte v odobritev z uporabo mobilnega delovnega prostora za upravljanje stroškov
 
 1. V mobilni napravi odprite delovni prostor **Upravljanje stroškov**.
 2. Izberite **Vnos stroška**.
@@ -184,12 +151,12 @@ Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:
                     1. Izberite sliko s seznama.
                     2. Izbirno: Vnesite ime slike in vnesite morebitne opombe.
 
-            3.  Izberite **Dokončano**.
+            3. Izberite **Dokončano**.
 
         - Če ste izbrali **Priloži potrdilo**, sledite tem korakom:
 
-            1.  Izberite eno ali več slik na seznamu.
-            2.  Izberite **Dokončano**.
+            1. Izberite eno ali več slik na seznamu.
+            2. Izberite **Dokončano**.
 
     3. Izberite gumb **Nazaj** za vrnitev na podrobnosti o stroških.
 
@@ -235,5 +202,30 @@ Prenos in namestitev mobilne aplikacije Dynamics 365 Unified Ops:
 23. Vnesite morebitne opombe za odobritelja.
 24. Izberite **Dokončano**.
 
+## <a name="frequently-asked-questions"></a>Pogosto zastavljena vprašanja
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Zakaj mobilna aplikacija Expense privzeto ne vnese plačilnega sredstva?
+
+Organizacije lahko prilagodijo **Privzeto plačilno sredstvo** nastavitev za vsako kategorijo stroškov, ko je ustvarjena. Poleg tega lahko, ko nastavite plačilna sredstva, nastavite **Privzeto plačilno sredstvo** polje do **Samo uvoz**.
+
+Kdaj **Samo uvoz** je omogočeno za plačilno sredstvo, plačilno sredstvo ni privzeto vneseno. V kategorijah stroškov, kjer je to plačilno sredstvo nastavljeno, bo prazno. To vedenje je skladno tako v spletni izkušnji kot v mobilni izkušnji.
+    
+Kdaj **Samo uvoz** ni omogočena za plačilno sredstvo, je nastavljena vrednost privzeto vpisana za kategorije odhodkov, kjer je to plačilno sredstvo nastavljeno. Vendar pa je znana težava, pri kateri privzeta vrednost ni vnesena v mobilno aplikacijo Expense. Če želite odpraviti to težavo, ročno izberite plačilno sredstvo, preden shranite poročilo o stroških. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Zakaj ne morem dodati ali urediti finančnih razsežnosti v mobilni aplikaciji Expense?
+
+Vnos dimenzij in distribucij ni podprt. Če želite premagati to omejitev, lahko ta polja privzeto nastavite v mobilni aplikaciji, tako da nastavite privzete finančne razsežnosti na projekt ali zaposlenega.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Zakaj včasih vidim napako pri sinhronizaciji v mobilni aplikaciji Expense?
+
+Če vrstice stroškov ne izpolnjujejo zahtev pravilnika in uporabnik predloži poročilo o stroških, ne da bi obravnaval opozorilo pravilnika, se mobilni podatki ne sinhronizirajo s strežnikom in pride do napake pri sinhronizaciji. Vsa poročila o stroških, ki so poslana po tem, ko pride do napake pri sinhronizaciji, bodo ostala v neuspešnem stanju in povzročila več napak pri sinhronizaciji. Edini način za odpravo te situacije je, da ročno izbrišete obvestila o sinhronizaciji. To težavo smo odpravili tako, da smo ustavili predložitev poročil o stroških, ko opozorila pravilnika niso bila obravnavana, da bi se izognili napakam pri sinhronizaciji.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Zakaj se validacija projekta in kategorije ne odraža pravilno v mobilni aplikaciji Expense?
+
+Ta potrditev trenutno ni podprta. Vendar pa bo podpora morda dodana v prihodnosti. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Katere vrste dokumentov so podprte v mobilni aplikaciji Expense?
+
+Mobilna aplikacija Expense podpira samo slike. Trenutno ne podpira datotek PDF ali drugih dokumentov.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
