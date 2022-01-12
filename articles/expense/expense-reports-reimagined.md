@@ -1,8 +1,8 @@
 ---
-title: Prenovljena poročila o stroških
+title: Prenovljena poročila o stroških (vsebuje video)
 description: Ta tema pojasnjuje preoblikovano in na novo zamišljeno izkušnjo vnašanja poročil o stroških.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997851"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941061"
 ---
 # <a name="expense-reports-reimagined"></a>Prenovljena poročila o stroških
 
@@ -58,6 +58,7 @@ Vnos poročila o stroških je bil preoblikovan v želji po poenostavitvi postopk
 | Shranjevanje in dodajanje novih vrstic stroškov | Pri vnosu novih stroškov sta na voljo gumba za možnosti **Shrani** in **Novo** za pomoč pri hitrem vnosu vrstic stroškov. |
 | Boljši vpogled v razdeljene in razčlenjene vrstice | Razčlenjene in razdeljene vrstice so za dodatno vidljivost dodane neposredno na seznam stroškov, kar vam pomaga opaziti morebitne napake. |
 | Ogled podrobnosti podkategorije v razčlenjenih vrsticah | Razčlenjene vrstice nadrejenega stroška prikazujejo oznake podkategorije v poročilu o stroških. Razčlenitev vam omogoča, da podatke pregledate na enem mestu.|
+|Hitro razčlenite ponavljajoče se stroške | Prenovljeni delovni prostor stroškov zagotavlja možnost hitrega razvrščanja ponavljajočih se stroškov z dodajanjem podkategorije, začetni datum in količino. Količina se nanaša na število ponovitev polnjenja v neprekinjenem obdobju. |
 | Prikaz potrdil med razčlenjevanjem | Med razčlenjevanjem je mogoč prikaz potrdil. |
 | Izbira denarnega predujma | Izberite enega ali več predujmov za izpolnitev ene transakcije stroškov. |
 | Saldo denarnega predujma | Sprotno spremljajte saldo denarnega predujma, ko ustvarite vnos stroška glede na odobrene in plačane denarne predujme. |

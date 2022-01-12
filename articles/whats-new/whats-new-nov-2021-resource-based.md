@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827346"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942905"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti v novembru 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
@@ -20,8 +20,8 @@ ms.locfileid: "7827346"
 
 Ta tema velja za naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
 
-- Operacije projekta v različici okolja Dataverse 4.26.0.145, 4.26.0.148, ali 4.26.0.150
-- Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.22
+- Projektno delovanje v a Dataverse različica okolja 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
+- Vodenje projektov in računovodstvo v a Dynamics 365 Finance različica okolja 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 
@@ -33,17 +33,17 @@ V to izdajo so vključene naslednje funkcije:
 
 V tej izdaji ni posodobitev za preslikave dvojnega zapisovanja v aplikaciji Project Operations. Za trenutni seznam in različice preslikovanja dvojnega zapisovanja v aplikaciji Project Operations si oglejte [Različice preslikovanja dvojnega zapisovanja v aplikaciji Project Operations](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Vedno zaženite najnovejšo različico zemljevida v svojem okolju in omogočite vse povezane zemljevide tabel, ko posodabljate svojo rešitev Project Operations Dataverse in različico rešitve Finance. Nekatere funkcije in zmožnosti morda ne bodo delovale pravilno, če najnovejša različica zemljevida ni aktivirana. Aktivno različico preslikave si lahko ogledate v stolpcu **Različica** na strani **Dvojno zapisovanje**. Če želite aktivirati novo različico preslikave, izberite možnost **Različice preslikave tabele**, izberite najnovejšo različico in nato shranite izbrano različico. Če ste prilagodili izključen zemljevid tabele, znova uporabite spremembe. Za več informacij glejte [Upravljanje življenjskega cikla aplikacij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Vedno zaženite najnovejšo različico zemljevida v svojem okolju in omogočite vse povezane zemljevide tabel, ko posodabljate svoje operacije projekta Dataverse rešitev in različica rešitve Finance. Nekatere funkcije in zmožnosti morda ne bodo delovale pravilno, če najnovejša različica zemljevida ni aktivirana. Aktivno različico preslikave si lahko ogledate v stolpcu **Različica** na strani **Dvojno zapisovanje**. Če želite aktivirati novo različico preslikave, izberite možnost **Različice preslikave tabele**, izberite najnovejšo različico in nato shranite izbrano različico. Če ste prilagodili izključen zemljevid tabele, znova uporabite spremembe. Za več informacij glejte [Upravljanje življenjskega cikla aplikacij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Če pri zagonu zemljevida naletite na težavo, sledite navodilom v [Težava z manjkajočimi stolpci tabele na zemljevidih](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) razdelek vodnika za odpravljanje težav z dvojnim pisanjem.
 
 ## <a name="quality-updates"></a>Posodobitve kakovosti
 
-### <a name="project-operations-in-dataverse"></a>Delovanje projekta v Dataverse
+### <a name="project-operations-in-dataverse"></a>Projektno delovanje v Dataverse
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |
-| Zaračunavanje in oblikovanje cen | 2240080 | The **Plačilni pogoji** polje na predračunu ne sme biti podvojeno. |
+| Zaračunavanje in oblikovanje cen | 2240080 | The **Plačilni pogoji** polje se ne sme podvojiti na predračunu. |
 | Zaračunavanje in oblikovanje cen | 2358236 | Popravek računa mora omogočati popravke, ki imajo vrstice z ničelno ceno. |
 | Upravljanje virov | 2410072 | Dovoli nastavitev vira, ki je nalogi dodeljen kot vodja projekta. |
 | Zaračunavanje in oblikovanje cen | 2430234 | Odpravite težavo pri izračunu stroškovne učinkovitosti. |
@@ -64,7 +64,7 @@ Vedno zaženite najnovejšo različico zemljevida v svojem okolju in omogočite 
 | Upravljanje projektov in računovodstvo | [584732](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584732) | Zadržani zneski prodajalcev v transakcijah stroškov projekta niso prikazani na seznamu transakcij. |
 | Upravljanje projektov in računovodstvo | [593068](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593068) | Račun dobavitelja med podjetjem je pokvarjen, ko je vklopljena integracija računov dobavitelja. |
 | Upravljanje projektov in računovodstvo | [593382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593382) | Pogoji plačila na projektnih računih ne delujejo po pričakovanjih. |
-| Upravljanje projektov in računovodstvo | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Ko se sprostitev zadrževanja prodajalca, ima objava kupona dodatne vrstice, ki niso pravilne. |
+| Upravljanje projektov in računovodstvo | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Ko je zadržanje prodajalca sproščeno, ima objava kupona dodatne vrstice, ki niso pravilne. |
 | Upravljanje projektov in računovodstvo | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Ko je integracijski dnevnik Project Operations objavljen, ne uspe zaradi manjkajočih dimenzij za račun, v katerem ni objavljen. |
 | Upravljanje projektov in računovodstvo | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | The **Projekt** kartice ni mogoče urejati na čakajočem računu prodajalca, ko je artiklu dodeljena kategorija nabave. |
 | Upravljanje projektov in računovodstvo | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Podokno za krmarjenje manjka, če niste prijavljeni v Project Operations Dataverse. |

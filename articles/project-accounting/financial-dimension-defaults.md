@@ -2,16 +2,16 @@
 title: Privzete vrednosti finančnih razsežnosti
 description: V tej temi so na voljo informacije o tem, kako nastaviti privzete vrednosti finančne razsežnosti.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005456"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922958"
 ---
 # <a name="financial-dimension-defaults"></a>Privzete vrednosti finančnih razsežnosti
 
@@ -60,6 +60,15 @@ Projekti so ustvarjeni in vzdrževani v storitvi CDS. Računovodski atributi za 
 4. Nastavite privzete vrednosti finančne razsežnosti. Upoštevajte, da so privzete vrednosti finančne razsežnosti iz računa stranke. Če je projekt povezan s podrobnostmi pogodbe z več strankami za pogodbo projekta, se uporabi primarna stranka za nastavitev finančnih razsežnosti na privzete.
 
 Privzete finančne razsežnosti projekta se uporabljajo za nastavitev privzetih vrednosti vrstice dnevnika za čas, stroške in brezplačne transakcije v možnosti **Dnevnik integracij za Project Operations** ter na povezanih projektnih vrsticah računa.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Uporabite finančne razsežnosti za vnose časa projekta
+Če želite uporabiti finančne razsežnosti za vnose časa projekta, upoštevajte, da privzeta vrednost dimenzije temelji na naslednjem vrstnem redu:
+
+1. Vir
+2. Projekt
+3. Vir financiranja
+
+Na primer, če je privzeta dimenzija podana v viru, bo uporabljena nad privzeto, ki je podana v projektu. Podobno bo privzeta dimenzija projekta uporabljena nad privzeto, ki je določena v viru financiranja.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

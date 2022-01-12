@@ -2,16 +2,16 @@
 title: Ustvarjanje strukturirane členitve dela
 description: V tej temi je pojasnjeno, kako ustvarite strukturirano členitev dela (SČD), ki vključuje osnovne kontrolnike v novem vmesniku za načrtovanje.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655437"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928635"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Ustvarjanje strukturirane členitve dela (SČD)
 
@@ -95,11 +95,11 @@ Kot skrbnik lahko v entiteti opravila določite polja po meri. Vendar polj ni mo
 
 ## <a name="staffing-attributes"></a>Atributi števila delavcev
 
-Do atributov za dodelitev osebja lahko dostopate prek polja **Viri** v razporedu. Poiščete lahko obstoječi vir ali izberete **Ustvari** in v podoknu **Hitro ustvarjanje** dodate člana projektne ekipe kot nov vir.
+Do atributov za dodelitev osebja lahko dostopate prek polja **Viri** v razporedu. Poiščete lahko obstoječi vir ali izberete **Ustvari** in v podoknu **Hitro ustvarjanje** dodate člana projektne ekipe kot nov vir.  Ko iščete vir z izbirnikom virov v mreži opravil, pogledu plošče ali gantu, iskanje vrne obstoječe člane projektne skupine ali aktivne vire, ki jih je mogoče rezervirati.
 
 Polja **Vloga**, **Enota vira** in **Ime položaja** se uporabljajo za opis zahtev za dodelitev osebja za opravilo. Ti atributi za dodelitev osebja se skupaj z razporedom opravila uporabljajo za iskanje razpoložljivih virov za to opravilo.
 
-   - **Vloga**: določite vrsto vira, ki se zahteva za opravilo.
+   - **Vloga** : Določite vrsto vira, ki je potreben za izvedbo naloge.,
    - **Enota vira**: določite enoto, iz katere se dodelijo viri za opravilo. Ta atribut vpliva na oceno stroškov in prodaje za opravilo, če sta mera stroškov in delež obračunavanja za vir nastavljena na podlagi enot vira.
    - **Naziv delovnega mesta**: vnesite ime za splošni vir, ki služi kot označba mesta za vir, ki bo opravil delo.
 
@@ -127,6 +127,7 @@ Mreža **Razpored** v celoti podpira pripomočke za osebe s posebnimi potrebami 
 | Največje skupno število virov za projekt              | 150                  |
 | Največje skupno število povezav (samo naslednik) za projekt | 600                  |
 | Največje skupno število polj po meri za projekt          | 10                   |
+| Največje število elementov kontrolnega seznama na nalogo                   | 20                   |
 
 **Omejitve opravila**
 
