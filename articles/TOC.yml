@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Posodobitve za aplikacijo Project Operations
       href: whats-new/project-operations-updates.md
+    - name: Odstranjene ali opuščene funkcije
+      items:
+        - name: Odstranjene ali opuščene funkcije v aplikaciji Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: 'Project Operations za scenarije, ki temeljijo na virih/nezalogi'
   items:
     - name: Začetek
@@ -54,10 +58,12 @@
               href: environment/resource-dual-write-expense.md
             - name: Integracija računa dobavitelja
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Odstrani Dynamics 365 Project Operations
+        - name: Odstranite aplikacijo Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Novosti
       items:
+        - name: 'December 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 'November 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 'Oktober 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Nastavitev kilometrine s stopnjami kilometrine
               href: expense/set-up-mileage.md
+        - name: Razčlenitev stroškov
+          href: prod-exp/expense-itemization.md
         - name: Osebni stroški
           href: expense/personal-expenses-expense-report.md
         - name: Medpodjetni stroški
@@ -526,10 +534,16 @@
               href: revenue-recognition/rev-rec-cost-templates.md
         - name: Projekti s predvidenimi prihodki s fiksno ceno
           href: revenue-recognition/rev-rec-percentage-completion-method.md
-        - name: Strošek za dokončanje metod
+        - name: Metode za stroške dokončanja
           href: revenue-recognition/cost-complete-methods.md
-        - name: Upravljanje predvidenih prihodkov
+        - name: Upravljanje ocen prihodkov
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Odpravljanje težav
+      items:
+        - name: Prodajni proces projekta
+          items:
+            - name: 'Napaka neujemanja valute pri ustvarjanju projekta, pogodbe, ponudbe ali vira, ki ga je mogoče rezervirati'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Poenostavljeno uvajanje – posel do izstavitve predračuna
   items:
     - name: Začetek
@@ -548,6 +562,8 @@
       items:
         - name: Novosti pri 2. valu posodobitev izdaje 2021 za zgodnji dostop – poenostavljeno uvajanje
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novosti za december 2021 – poenostavljeno uvajanje
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Novosti za november 2021 – poenostavljeno uvajanje
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Novosti za oktober 2021 – poenostavljeno uvajanje
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Mejniki podrobnosti podizvajalske pogodbe
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: 'Oddaja del podizvajalcem, ki so člani projektne ekipe'
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Možnosti za oddajo del podizvajalcem za člane projektne ekipe
+          href: pro/subcontracting/subcon-options.md
+        - name: Ocena stroškov dodelitev virov s podizvajalsko pogodbo
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: 'Konfigurirajte ploščo za načrtovanje, da prikaže pogodbene delavce in podizvajalske zmogljivosti'
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Zaposlovanje pogodbenih delavcev in podizvajalskih zmogljivosti pri projektu
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Beleženje časa, stroškov in uporabe materiala za podizvajalske komponente'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Prehodi stanja pri podizvajalski pogodbi
+          href: pro/subcontracting/subcon-states.md
     - name: Čas
       items:
         - name: Pregled časa
@@ -1118,6 +1148,8 @@
       items:
         - name: Razpored izdaje posodobitev za Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ali spremembe v izdaji posodobitve 38, V3'
+          href: psa/whats-new-ur-38.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 37.5, V3'
           href: psa/whats-new-ur-37-5.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 37, V3'
@@ -1198,15 +1230,17 @@
           href: psa/implementation-guides/project-planning-tracking.md
         - name: 'Osnovni vodnik za ponudbe, cene in zaračunavanje'
           href: psa/implementation-guides/begin-quoting-pricing-billing.md
-        - name: 'Napredni vodnik za ponudbe, cene in zaračunavanje'
+        - name: 'Napredni vodnik za ponudbe, cene in obračunavanje'
           href: psa/implementation-guides/adv-quoting-pricing-billing.md
         - name: Vodnik za upravljanje virov
           href: psa/implementation-guides/resource-management-guide.md
         - name: Vodnik za poročanje
           href: psa/implementation-guides/reporting-guide.md
-    - name: Nadgradnja storitve Project Service Automation (aplikacija različice 3.x)
+    - name: Aplikacijo Project Service Automation nadgradite na aplikacijo Project Operations – poenostavljena različica
+      href: psa/upgrade-project-operations-non-stocked.md
+    - name: Nadgradnja aplikacije Project Service Automation (aplikacija različice 3.x)
       items:
-        - name: Nadgradnja storitve Project Service Automation
+        - name: Nadgradnja aplikacije Project Service Automation
           href: psa/upgrade-psa-home-page.md
         - name: Vidiki nadgradnje – z različice 2.x ali 1.x na različico 3
           href: psa/upgrade-v3.md
