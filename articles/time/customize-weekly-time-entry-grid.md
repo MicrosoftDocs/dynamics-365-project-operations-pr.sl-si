@@ -2,22 +2,24 @@
 title: Razširitev časovnih vnosov
 description: Ta tema vsebuje informacije o tem, kako lahko razvijalci razširijo kontrolnik za vnos časa.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993351"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124658"
 ---
 # <a name="extending-time-entries"></a>Razširitev časovnih vnosov
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Aplikacija Dynamics 365 Project Operations vključuje kontrolnik po meri razširljivega časovnega vnosa. Kontrolnik vključuje naslednje funkcije:
+Aplikacija Dynamics 365 Project Operations vključuje prilagodljiv in razširljiv kontrolnik za vnos časa. Kontrolnik vključuje naslednje funkcije:
 
 - Vodoravni vnos časa za posamezen teden
 - Seštevke po dnevu, vrstici ali tednu
@@ -142,6 +144,3 @@ Uporabite preverjanje vtičnika za vsa preverjanja, ki zahtevajo več konteksta,
 
 ### <a name="copying-time-entries"></a>Kopiranje časovnih vnosov
 Uporabite pogled **Kopiraj stolpce časovnih vnosov**, da določite seznam polj, ki jih želite kopirati med vnosom časa. **Datum** in **Trajanje** sta obvezni polji, ki jih ne smete odstraniti iz pogleda.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

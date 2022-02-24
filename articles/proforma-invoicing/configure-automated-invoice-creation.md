@@ -2,16 +2,18 @@
 title: Konfiguracija samodejnega ustvarjanja računov
 description: Ta tema vsebuje informacije o tem, kako konfigurirati sistem za samodejno ustvarjanje računov.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992676"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122453"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Konfiguracija samodejnega ustvarjanja računov
 
@@ -43,6 +45,3 @@ Paketna obdelava za ustvarjanje računov je ponavljajoče se opravilo. Če se pa
 
 > [!NOTE]
 > Paketno izdajanje računov se izvaja samo za podrobnosti pogodbe, ki so konfigurirane z razporedi izdajanja računov. V podrobnostih pogodbe z načinom obračunavanja s fiksno ceno morajo biti nastavljeni mejniki. V podrobnostih pogodbe z načinom obračunavanja za časovne in materialne transakcije je treba nastaviti datumski urnik računov. Enako velja v podrobnosti pogodbe za projekt.     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

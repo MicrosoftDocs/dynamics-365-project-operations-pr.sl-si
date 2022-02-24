@@ -2,16 +2,18 @@
 title: Ustvarjanje ponudb za projekte iz priložnosti
 description: V tej temi najdete informacije o ustvarjanju ponudbe za projekt iz priložnosti.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999651"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118133"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Ustvarjanje ponudb za projekte iz priložnosti
 
@@ -54,6 +56,3 @@ Obstoječo ponudbo lahko povežete s priložnostjo. Upoštevajte naslednje korak
    Ko priložnost premaknete na to stopnjo, lahko to ponudbo izberete s seznama ponudb, povezanih s to priložnostjo. Izbira te ponudbe pomeni, da jo boste v nadaljevanju postopka uporabljali še naprej.
 
    Vse druge ponudbe, povezane s priložnostjo, bodo še vedno na voljo in bodo aktivne, dokler ne pridobite ene od njih. Prodajni postopek lahko premaknete nazaj na prejšnjo stopnjo **Potrdi** in izberete drugo ponudbo, s katero želite nadaljevati.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

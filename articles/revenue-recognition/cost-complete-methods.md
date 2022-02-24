@@ -2,16 +2,18 @@
 title: Metode za izračun stroškov za dokončanje
 description: Ta tema vsebuje informacije o metodah, uporabljenih za izračun stroškov za dokončanje projekta.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997986"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531556"
 ---
 # <a name="cost-to-complete-methods"></a>Metode za izračun stroškov za dokončanje
 
@@ -28,6 +30,3 @@ Ko ustvarite oceno za projekt, lahko na strani **Ustvari oceno** v polju **Metod
 | Kot pri prejšnji oceni         | Pri tem se uporabljajo enake metode ocenjevanja kot v prejšnjem obdobju. Za to metodo je potreben model napovedi, če je bil potreben tudi v predhodnem obdobju.                                                                                                                                                                                                                                                                                                                           |
 | Nastavite strošek za dokončanje na nič | Ta metoda se običajno uporablja pred izločitvijo ocenjevanega projekta, kjer ta metoda primerja skupno vrednost ocene s knjiženimi dejanskimi transakcijami in počisti stolpec **Stroški za dokončanje**. Ob koncu je rezultat vedno 100-odstoten. Za vsako vrstico cene, ki jo ustvarite, se potrditveno polje **Napoved** počisti in skupna ocena prekopira iz prejšnje ocene stroškov. Dejanska poraba za ocenjeno obdobje se odšteje od stroška za dokončanje projekta.              |
 | Iz predloge stroškov           | Metoda za izračun stroškov za dokončanje, ki je nastavljena v predlogi stroškov, povezani z izbranim projektom ocenjevanja.                                                                                                                                                                                                                                                                                                                                                                          |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

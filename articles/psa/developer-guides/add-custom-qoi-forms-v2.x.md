@@ -2,10 +2,12 @@
 title: Dodajanje novih obrazcev entitet po meri (Project Service Automation 2.x)
 description: V tej temi so navedene informacije o dodajanju obrazcev entitet po meri za priložnosti, ponudbe, naročila ali račune v aplikaciji Dynamics 365 Project Service Automation 2. x.
 author: makk
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995241"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144613"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Dodajanje novih obrazcev entitet po meri (Project Service Automation 2.x)
 
@@ -57,7 +59,7 @@ Upoštevajte ta navodila in ustvarite različico obrazca **Podatki o projektu** 
     - Izvozite obrazec **Moji podatki o projektu** kot del neupravljane rešitve in nato poiščite vrednost **formid** v datoteki customization.xml izvožene rešitve.
     - Odprite obrazec **Moji podatki o projektu** v urejevalniku obrazcev in poiščite globalni enolični identifikator (GUID) pri parametri **fromid** v URL-ju, kot je prikazano na spodnji sliki.
 
-    ![Vrednost formId novega obrazca v URL-ju.](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Vrednost formId novega obrazca v URL-ju](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Ustvarite preslikavo vrste **msdyn\_ordertype** za vrednost **formId** tako, da uredite spletni vir msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Odstranite kodo iz vira in jo zamenjajte z naslednjo kodo.
 
@@ -94,6 +96,3 @@ Upoštevajte ta navodila in ustvarite različico obrazca **Podatki o projektu** 
     ```
 
 6. Shranite prilagoditve in jih nato objavite.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

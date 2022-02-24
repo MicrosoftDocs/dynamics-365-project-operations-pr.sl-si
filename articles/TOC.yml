@@ -2,16 +2,10 @@
   href: index.md
 - name: Začetek
   items:
-    - name: Določanje vrste uvajanja
+    - name: Določanje vrste uvedbe
       href: environment/determine-deployment-type.md
-    - name: 'Vpišite se, že želite dostopati do preskusnih različic aplikacije Project Operations'
-      href: environment/admin-trials.md
-    - name: Posodobitve za aplikacijo Project Operations
+    - name: Posodobitve aplikacije Project Operations
       href: whats-new/project-operations-updates.md
-    - name: Odstranjene ali opuščene funkcije
-      items:
-        - name: Odstranjene ali opuščene funkcije v aplikaciji Project Operations
-          href: whats-new/removed-depreciated-features-project.md
 - name: 'Project Operations za scenarije, ki temeljijo na virih/nezalogi'
   items:
     - name: Začetek
@@ -34,8 +28,6 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Uvedba okolij
           items:
-            - name: Ročna uvedba aplikacije Project Operations Dataverse s podporo za dvojno zapisovanje
-              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Omogočanje novega okolja
               href: environment/resource-provision-new-environment.md
             - name: Varnostni model
@@ -58,26 +50,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Integracija računa dobavitelja
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Odstranite aplikacijo Dynamics 365 Project Operations
-          href: environment/uninstall-project-operations.md
     - name: Novosti
       items:
-        - name: 'December 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: 'November 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: 'Oktober 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: 'September 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: 'Avgust 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: 'Julij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: 'Junij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: 'Maj 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-may-2021-resource-based.md
         - name: 'April 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 'Marec 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
@@ -306,12 +280,8 @@
           items:
             - name: Razvoj predlog projekta s kopiranjem projekta
               href: project-management/dev-copy-project.md
-            - name: Uporaba API-jev razporeda projekta
+            - name: Uporaba API-jev razporeda (predogledna različica za javnost)
               href: project-management/schedule-api-preview.md
-            - name: Učinkovitost API-jev razporeda projekta
-              href: project-management/project-schedule-api-performance.md
-            - name: Dnevniki načrtovanja projekta
-              href: project-management/schedule-api-logs.md
     - name: Upravljanje virov
       items:
         - name: Ključni koncepti
@@ -404,10 +374,6 @@
               href: expense/set-up-credit-card-integration.md
             - name: Nastavitev kategorij stroškov
               href: expense/set-up-expense-categories.md
-            - name: Nastavitev kilometrine s stopnjami kilometrine
-              href: expense/set-up-mileage.md
-        - name: Razčlenitev stroškov
-          href: prod-exp/expense-itemization.md
         - name: Osebni stroški
           href: expense/personal-expenses-expense-report.md
         - name: Medpodjetni stroški
@@ -442,8 +408,6 @@
       items:
         - name: Pregled odobritev
           href: approvals/approvals-overview.md
-        - name: Nabori odobritev
-          href: approvals/approval-sets.md
         - name: Opombe razvijalcev
           items:
             - name: Opombe razvijalcev za odobritve
@@ -464,21 +428,15 @@
           href: procurement/configure-materials-nonstocked.md
         - name: 'Nabava materialov, ki niso na zalogi, za projekte s čakajočimi računi dobavitelja'
           href: procurement/pending-vendor-invoices.md
-        - name: 'Naročanje materialov, ki niso na zalogi, za projekte, ki uporabljajo naročilnice za projekte'
-          href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: Zadrževanje dobaviteljev
-          items:
-            - name: Pregled zadrževanja dobaviteljev
-              href: procurement/vendor-retention-overview.md
-            - name: Nastavitev zadrževanja dobaviteljev
-              href: procurement/set-up-vendor-retention.md
     - name: Zaračunavanje
       items:
         - name: Pregled postopka zaračunavanja
           href: invoicing/post-project-invoices.md
+        - name: Upravljanje predlogov za račune projekta
+          href: invoicing/format-update-project-invoice-proposals.md
         - name: Izstavljanje predračunov
           items:
-            - name: 'Upravljanje nedokončanih opravil obračunavanja, ki temeljijo na projektih'
+            - name: 'Upravljanje nedokončanih opravil obračunavanja, ki temelji na projektih'
               href: proforma-invoicing/manage-billing-backlog.md
             - name: Upravljanje stanja in veljavnosti »Ni dovoljeno preseči«
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
@@ -494,22 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: 'Konfiguriranje avtomatizacije računov, ki temeljijo na projektih'
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Zaračunavanje stranki
-          items:
-            - name: Upravljanje predlogov za račune projekta
-              href: invoicing/format-update-project-invoice-proposals.md
-            - name: Pravilno obračunavanje osnutkov predlogov za račune projekte
-              href: invoicing/correct-project-invoice-proposals.md
-        - name: Izstavljanje računov med podjetji
-          items:
-            - name: Pregled izstavljanja računov med podjetji
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Konfiguriranje izstavljanja računov med podjetji
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Ustvarjanje transakcij med podjetji
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Ustvarjanje računov med podjetji za stranke in prodajalce
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+        - name: Upravljanje predlogov za račune projekta
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Vodenje računov projekta
       items:
         - name: Privzete vrednosti finančnih razsežnosti
@@ -522,6 +466,16 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Dnevnik integracij za aplikacijo Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Izstavljanje računov med podjetji
+          items:
+            - name: Pregled izstavljanja računov med podjetji
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfiguriranje izstavljanja računov med podjetji
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Ustvarjanje transakcij med podjetji
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Ustvarjanje računov med podjetji za stranke in prodajalce
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Prepoznavanje prihodkov
       items:
         - name: Pregled prepoznavanja prihodkov
@@ -534,16 +488,10 @@
               href: revenue-recognition/rev-rec-cost-templates.md
         - name: Projekti s predvidenimi prihodki s fiksno ceno
           href: revenue-recognition/rev-rec-percentage-completion-method.md
-        - name: Metode za stroške dokončanja
+        - name: Strošek za dokončanje metod
           href: revenue-recognition/cost-complete-methods.md
-        - name: Upravljanje ocen prihodkov
+        - name: Upravljanje predvidenih prihodkov
           href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: Odpravljanje težav
-      items:
-        - name: Prodajni proces projekta
-          items:
-            - name: 'Napaka neujemanja valute pri ustvarjanju projekta, pogodbe, ponudbe ali vira, ki ga je mogoče rezervirati'
-              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Poenostavljeno uvajanje – posel do izstavitve predračuna
   items:
     - name: Začetek
@@ -560,24 +508,6 @@
           href: environment/security-model.md
     - name: Novosti
       items:
-        - name: Novosti pri 2. valu posodobitev izdaje 2021 za zgodnji dostop – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Novosti za december 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: Novosti za november 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: Novosti za oktober 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: Novosti za september 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: Novosti za avgust 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Novosti za julij 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: Novosti za junij 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: Novosti za maj 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Novosti za april 2021 – poenostavljeno uvajanje
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Novosti za marec 2021 – poenostavljeno uvajanje
@@ -826,10 +756,8 @@
           items:
             - name: Razvoj predlog projekta s kopiranjem projekta
               href: project-management/dev-copy-project.md
-            - name: Uporaba API-jev razporeda projekta
+            - name: Uporaba API-jev razporeda (predogledna različica za javnost)
               href: project-management/schedule-api-preview.md
-            - name: Učinkovitost API-jev razporeda projekta
-              href: project-management/project-schedule-api-performance.md
     - name: Upravljanje virov
       items:
         - name: Ključni koncepti
@@ -886,44 +814,6 @@
           items:
             - name: Pregled uporabe virov
               href: resource-management/resource-utilization-overview.md
-    - name: Upravljanje podizvajalskih pogodb v aplikaciji Project Operations
-      items:
-        - name: Upravljanje podizvajalskih pogodb v aplikaciji Project Operations
-          href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Oddajanje del podizvajalcem oktobra 2021; zgodnji dostop
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: Ključni pojmi pri oddajanju naročil podizvajalcem
-          href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Upravljanje dobaviteljev in cenikov projektov
-          href: pro/subcontracting/vendors-purchase-price-lists.md
-        - name: 'Podizvajalci kot viri, ki jih je mogoče rezervirati'
-          href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: Podrobnosti glave za podizvajalske pogodbe
-          href: pro/subcontracting/subcontract-header-details.md
-        - name: Podrobnosti podizvajalske pogodbe za čas
-          href: pro/subcontracting/subcontract-line-time.md
-        - name: Podrobnosti podizvajalske pogodbe za kategorije stroškov
-          href: pro/subcontracting/subcontract-line-expense.md
-        - name: Podrobnosti podizvajalske pogodbe za izdelke
-          href: pro/subcontracting/subcontract-line-products.md
-        - name: Viri podrobnosti podizvajalske pogodbe
-          href: pro/subcontracting/subcontract-line-resources.md
-        - name: Mejniki podrobnosti podizvajalske pogodbe
-          href: pro/subcontracting/subcontract-line-milestones.md
-        - name: 'Oddaja del podizvajalcem, ki so člani projektne ekipe'
-          href: pro/subcontracting/subcontracting-project-team-members.md
-        - name: Možnosti za oddajo del podizvajalcem za člane projektne ekipe
-          href: pro/subcontracting/subcon-options.md
-        - name: Ocena stroškov dodelitev virov s podizvajalsko pogodbo
-          href: pro/subcontracting/costing-subcon-ra.md
-        - name: 'Konfigurirajte ploščo za načrtovanje, da prikaže pogodbene delavce in podizvajalske zmogljivosti'
-          href: pro/subcontracting/configure-sb-subcon.md
-        - name: Zaposlovanje pogodbenih delavcev in podizvajalskih zmogljivosti pri projektu
-          href: pro/subcontracting/staffing-cw.md
-        - name: 'Beleženje časa, stroškov in uporabe materiala za podizvajalske komponente'
-          href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Prehodi stanja pri podizvajalski pogodbi
-          href: pro/subcontracting/subcon-states.md
     - name: Čas
       items:
         - name: Pregled časa
@@ -950,8 +840,6 @@
       items:
         - name: Pregled odobritev
           href: approvals/approvals-overview.md
-        - name: Nabori odobritev
-          href: approvals/approval-sets.md
         - name: Opombe razvijalcev
           items:
             - name: Opombe razvijalcev za odobritve
@@ -988,14 +876,6 @@
   items:
     - name: Novosti
       items:
-        - name: 'Novosti za oktober 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: 'Novosti za september 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: 'Novosti za julij 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: 'Novosti za maj 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: 'Novosti za april 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 'Novosti za marec 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
@@ -1148,24 +1028,6 @@
       items:
         - name: Razpored izdaje posodobitev za Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Novosti ali spremembe v izdaji posodobitve 38, V3'
-          href: psa/whats-new-ur-38.md
-        - name: 'Novosti ali spremembe v izdaji posodobitve 37.5, V3'
-          href: psa/whats-new-ur-37-5.md
-        - name: 'Novosti ali spremembe v izdaji posodobitve 37, V3'
-          href: psa/whats-new-ur-37.md
-        - name: 'Novosti ali spremembe v izdaji posodobitve 36, V3'
-          href: psa/whats-new-ur-36.md
-        - name: 'Novosti ali spremembe v izdaji posodobitve 35, V3'
-          href: psa/whats-new-ur-35.md
-        - name: 'Novosti ali spremembe v izdaji posodobitve 34, V3'
-          href: psa/whats-new-ur-34.md
-        - name: 'Novosti ali spremembe v izdaji posodobitve 33, V3'
-          href: psa/whats-new-ur-33.md
-        - name: 'Novosti ali spremembe v izdaji posodobitve 32.5, V3'
-          href: psa/whats-new-ur-32-5.md
-        - name: 'Novosti ali spremembe v izdaji posodobitve 32, V3'
-          href: psa/whats-new-ur-32.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 30, V3'
@@ -1230,17 +1092,15 @@
           href: psa/implementation-guides/project-planning-tracking.md
         - name: 'Osnovni vodnik za ponudbe, cene in zaračunavanje'
           href: psa/implementation-guides/begin-quoting-pricing-billing.md
-        - name: 'Napredni vodnik za ponudbe, cene in obračunavanje'
+        - name: 'Napredni vodnik za ponudbe, cene in zaračunavanje'
           href: psa/implementation-guides/adv-quoting-pricing-billing.md
         - name: Vodnik za upravljanje virov
           href: psa/implementation-guides/resource-management-guide.md
         - name: Vodnik za poročanje
           href: psa/implementation-guides/reporting-guide.md
-    - name: Aplikacijo Project Service Automation nadgradite na aplikacijo Project Operations – poenostavljena različica
-      href: psa/upgrade-project-operations-non-stocked.md
-    - name: Nadgradnja aplikacije Project Service Automation (aplikacija različice 3.x)
+    - name: Nadgradnja storitve Project Service Automation (aplikacija različice 3.x)
       items:
-        - name: Nadgradnja aplikacije Project Service Automation
+        - name: Nadgradnja storitve Project Service Automation
           href: psa/upgrade-psa-home-page.md
         - name: Vidiki nadgradnje – z različice 2.x ali 1.x na različico 3
           href: psa/upgrade-v3.md
@@ -1406,8 +1266,6 @@
               href: psa/time-entry-calendar.md
             - name: Prilagajanje tedenskih časovnih vnosov
               href: psa/time-entry-extensibility-v3.md
-            - name: Nabori odobritev v aplikaciji Project Service Automation
-              href: psa/approval-set.md
     - name: Pogosta vprašanja in odpravljanje težav (3.x)
       items:
         - name: Zakaj se cena pri dejanski vrednosti »strošek – cena« privzeto nastavi na nič?

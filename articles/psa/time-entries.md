@@ -2,6 +2,8 @@
 title: Ustvarjanje časovnih vnosov
 description: Ta tema vsebuje informacije o ustvarjanju časovnih vnosov.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990426"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149698"
 ---
 # <a name="create-time-entries"></a>Ustvarjanje časovnih vnosov
 
@@ -68,6 +70,3 @@ Podatke lahko uvozite iz projektnih rezervacij in dodelitev. Ko uvažate podatke
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Združevanje po, razvrščanje, iskanje in zmogljivosti filtriranja
 
 Časovne vnose lahko združite in filtrirate po razsežnostih, ki so določene v stolpcih. V polju **Združi po** izberite razsežnost, ki jo želite uporabiti za filtriranje časovnih vnosov. Zapise časovnih vnosov lahko razvrstite v naraščajočem ali padajočem vrstnem redu, tako da kliknete puščico za razvrščanje v glavi stolpca. Poleg tega lahko tudi prikažete ali skrijete vnose, tako da izberete gumb **Filter** v glavi stolpca, nato pa v polje **Iskanje** vnesete besedilo, ki ga je treba uporabiti za iskanje časovnih vnosov glede na ime projekta, projektno opravilo, časovni vnos ali vir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Pomik v aplikacijo Project Operations
 description: Ta tema vsebuje informacije o tem, kako dostopati do aplikacije Project Operations iz portala Lifecycle Services.
 author: sigitac
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994611"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642068"
 ---
 # <a name="navigate-project-operations"></a>Pomik v aplikacijo Project Operations
 
@@ -28,14 +30,11 @@ Ko omogočite aplikacijo Project Operations, na način, ki je opisan v tej temi,
 
 V razdelku **Ime okolja Common Data Service** uporabite ime okolja za pomik v aplikacijo Project Operations v okolju CDS. 
 
-  ![Ime okolja Common Data Service.](./media/environment-name.PNG)
+  ![Ime okolja Common Data Service](./media/environment-name.PNG)
 
 Izberite **Prijava** > **Prijava v okolje** za pomik v modul **Upravljanje projektov in računovodstvo** v aplikaciji Finance.  
 
-   ![Prijava v aplikacijo Finance.](./media/environment-login.PNG)
+   ![Prijava v aplikacijo Finance](./media/environment-login.PNG)
 
 > [!NOTE]
 > Do aplikacije Project Operations lahko neposredno dostopate v storitvi Common Data Service in modulu **Upravljanje projektov in računovodstvo** z uporabo ustreznih URL-jev. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

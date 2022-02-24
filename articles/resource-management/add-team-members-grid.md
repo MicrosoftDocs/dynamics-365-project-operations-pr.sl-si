@@ -2,22 +2,24 @@
 title: Dodajanje članov ekipe iz mreže članov ekipe
 description: Ta tema vsebuje informacije o upravljanju človeških virov v ekipah.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008426"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121553"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Dodajanje članov ekipe iz mreže članov ekipe
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Aplikacija Dynamics 365 Project Operations vključuje nadzorno ploščo vodnika za upravljanje virov, ki zagotavlja ponazoritev povpraševanja po virih in njihove uporabe v organizaciji. Grafikone na tej nadzorni plošči lahko uporabite za upodobitev teh informacij:
+Storitev Dynamics 365 Project Operations vključuje nadzorno ploščo za upravljanje virov, ki zagotavlja vizualni pregled povpraševanja po virih in njihove uporabe v organizaciji. Grafikone na tej nadzorni plošči lahko uporabite za upodobitev teh informacij:
 
 - **Povpraševanje po virih** : grafikon **Zahteve za dejavne vire** prikaže vire, ki so bili poslani. Viri so združeni po vlogi ali projektu.
 - **Neposlano povpraševanje po virih**: grafikon **Povpraševanje po nedodeljenih virih** prikazuje vse zahteve za vir, ki niso bile poslane. Grafikon upraviteljem virov pomaga, da si ogledajo povpraševanje, ki ni potrjeno in ga je mogoče poslati prek zahteve za vir.
@@ -198,6 +200,3 @@ Ko prikažete čas na višjih ravneh, imajo celice na zavihku **Usklajevanje** k
 Če imate dodelitve opravil za vir, a nimate rezervacij, na obrazcu **Projekti** na zavihku **Usklajevanje** izberite primanjkljaj rezervacij in nato izberite možnost **Podaljšaj rezervacijo**. Prikaže se pogovorno **Podaljšaj rezervacijo** in prikaže rezervacijo, ki je potrebna za odpravo primanjkljaja vira. Pogovorno okno prikazuje tudi obstoječe rezervacije vira za vse projekte ali druge entitete, ki jih je mogoče razporediti. Če izberete **V redu**, da ustvarite rezervacijo za vir, lahko ne glede na razpoložljivost tega vira ustvarite prekomerno rezervacijo.
 
 Vodja projekta ali upravitelj virov lahko nato s ploščo razporeda reši vse primere, kjer ima vir preveliko število rezervacij glede na svojo zmogljivost.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

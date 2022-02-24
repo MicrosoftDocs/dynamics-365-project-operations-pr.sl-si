@@ -2,6 +2,8 @@
 title: Določanje cen za projekte
 description: Ta tema vsebuje informacije o določanju cen v aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000596"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148933"
 ---
 # <a name="project-pricing"></a>Določanje cen za projekte 
 
@@ -46,7 +48,7 @@ Entiteta »Cenik« ima tri sorodne tabele, v katerih so shranjene cene:
   - **Cena kategorije transakcije** – v tej tabeli so shranjene cene glede na kategorijo transakcij, uporablja pa se za določanje cen kategorij stroškov.
   - **Elementi cenika** – v tej tabeli so shranjene cene kataloških izdelkov.
 
-> ![Konfiguriranje cen z uporabo cenika.](media/basic-guide-12.png)
+> ![Konfiguriranje cen z uporabo cenika](media/basic-guide-12.png)
  
 Cenik je kartica s cenami. Kartica s cenami je kombinacija entitete »Cenik« in povezanih vrstic v tabelah »Cena vloge«, »Cena kategorije transakcije« in »Elementi cenika«.
 
@@ -58,7 +60,7 @@ Izraz *vloga vira* se nanaša na nabor znanja, sposobnosti in potrdil, ki jih mo
 
 Skupina enot **Čas** je ustvarjena, ko namestite aplikacijo PSA. Privzeto ima nastavljeno enoto **Ura**. Atributov skupine enot **Čas** enote **Ura** ni mogoče izbrisati, preimenovati ali urejati. Vendar pa lahko v skupino enot **Čas** dodate druge enote. Če poskušate izbrisati skupino enot **Čas** ali **Ura**, lahko povzročite napake v poslovni logiki aplikacije PSA.
 
-> ![Konfiguriranje cen glede na vlogo.](media/basic-guide-13.png)
+> ![Konfiguriranje cen glede na vlogo](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategorije transakcij in kategorije stroškov
 
@@ -68,7 +70,7 @@ Potni in drugi stroški, ki nastanejo pri delu projektnih svetovalcev, so običa
 - **Odstotek pribitka** – odstotek dejanske cene, ki se prišteje nabavni ceni in zaračuna stranki 
 - **Cena na enoto** – cena za obračunavanje, ki je nastavljena za vsako enoto v kategoriji stroškov Znesek, ki je zaračunan stranki, se izračuna na podlagi števila stroškovnih enot stroškov, ki ga vnese svetovalec. Za izračun kilometrine se uporablja metoda cene na enoto. Primer: kategorija stroška kilometrine je lahko nastavljena na 30 ameriških dolarjev (USD) na dan ali 2 USD na miljo. Ko svetovalec vnese kilometrino za projekt, se znesek za obračun izračuna na podlagi števila milj, ki jih svetovalec vnese.
 
-> ![Konfiguriranje cen za kategorije stroškov.](media/basic-guide-14.png)
+> ![Konfiguriranje določanja cen za kategorije stroškov](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Prodajne cene za projekt in preglasitve
 
@@ -114,7 +116,7 @@ V ponudbi pa lahko uporabite glavni cenik. Lahko pa tudi kopirate glavni cenik i
 
 Ko ustvarite cenik projekta po meri, se kopirajo samo projektne komponente cenika. Povedano drugače, nov cenik je ustvarjen kot kopija obstoječega cenika projekta, ki je priložen ponudbi, in ta novi cenik vsebuje le povezane cene vlog in cene kategorij transakcij.
 
-> ![Pregled in konfiguriranje cen po meri za projektno pogodbo.](media/basic-guide-15.png)
+> ![Pregled in konfiguriranje cen po meri za projektno pogodbo](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Sledenje stroškom
 
@@ -129,6 +131,3 @@ Tako kot zneski za obračunavanje se tudi stroški za človeške vire izračunaj
     1. Cenik z lastnimi cenami, ki je priložen organizacijski enoti
     2. Cenik z lastnimi cenami, ki je priložen parametrom aplikacije Project Service Ker so lahko parametrom aplikacije Project Service priloženi ceniki z lastnimi cenami v različnih valutah, PSA izvede uskladitev valut med valuto pogodbene organizacijske enote projekta, pogodbo ali ponudbe in valuto cenika z lastnimi cenami.
     3. Pri stroških se metodi nabavne cene in pribitka na ceno ne uporabljata za cenike z lastnimi cenami. Če se ti metodi določanja cen uporabljata v vrsticah cenika z lastnimi cenami za nastavitev stroškovnih kategorij transakcij, jih sistem prezre in ne vnese nobene privzete lastne cene.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

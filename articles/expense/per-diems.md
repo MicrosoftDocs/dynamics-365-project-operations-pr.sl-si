@@ -2,16 +2,18 @@
 title: Dnevnice
 description: Ta tema vsebuje informacije o pravilih za dnevnice, ki se uporabljajo pri upravljanju stroškov.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986421"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128528"
 ---
 # <a name="per-diems"></a>Dnevnice
 
@@ -29,6 +31,3 @@ Dnevnica je dodatek, ki se izplača delavcu, ki dela na terenu. V razdelku »Upr
     
 ## <a name="submit-expenses-using-per-diem"></a>Pošiljanje stroškov z možnostjo dnevnic
 Če želite poslati stroške z možnostjo dnevnic, uporabite kategorijo stroška **Dnevnica**, ko ustvarite poročilo o stroških. Vnesite **Začetni datum dnevnic**, **Končni datum dnevnic** in **Lokacija dnevnic**. Znesek se izračuna na podlagi vrednosti dnevnic za izbrano lokacijo, znižanje za obrok pa na podlagi stopnje vrednosti dnevnic.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

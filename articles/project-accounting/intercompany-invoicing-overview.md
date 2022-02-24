@@ -2,27 +2,28 @@
 title: Pregled izstavljanja računov med podjetji
 description: Ta tema vsebuje informacije in primere o medpodjetnem izdajanju računov za projekte.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005411"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595555"
 ---
 # <a name="intercompany-invoicing-overview"></a>Pregled izstavljanja računov med podjetji
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
 Vaša organizacija ima lahko več oddelkov, podružnic in drugih pravnih subjektov, ki si za projekte izmenjujejo izdelke in storitve. Pravna oseba, ki zagotavlja storitev ali izdelek, se imenuje *posojilna pravna oseba*. Pravna oseba, ki sprejme storitev ali izdelek, se imenuje *izposojevalna pravna oseba*.
 
-Naslednja ilustracija prikazuje tipičen scenarij, ko si dve pravni entiteti, Contoso Robotics USA (izposojevalna pravna entiteta) in Contoso Robotics UK (posojilna pravna oseba) delita sredstva za izvedbo projekta za stranko Adventure works. V tem primeru je podjetje Contoso Robotics USA po pogodbi dolžno dostaviti delo podjetju Adventure Works.
+Naslednja slika prikazuje tipičen scenarij, kjer si dve pravni osebi, Contoso Robotics USA (izposojevalna pravna oseba) in Contoso Robotics UK (posojilna pravna oseba), delita sredstva za izvedbo projekta za stranko Adventure works. V tem scenariju je podjetje Contoso Robotics USA po pogodbi dolžno opraviti storitev za Adventure Works.
 
-![Izstavljanje računov med podjetji.](./media/IntercompanyScenario.png) 
+![Izstavljanje računov med podjetji](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations uporablja spodaj prikazani potek za obdelavo medpodjetnih transakcij:
 
@@ -35,13 +36,10 @@ Dynamics 365 Project Operations uporablja spodaj prikazani potek za obdelavo med
 
 Naslednji diagram prikazuje medpodjetno izdajanje računov, saj se nanaša na računovodske dogodke in pričakovana knjiženja v glavno knjigo.
 
-![Medpodjetni potek.](./media/IntercompanyFlow.png)
+![Medpodjetni potek](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Dodatni viri
 
 - [Konfiguriranje izstavljanja računov med podjetji](configure-intercompany-invoicing.md)
 - [Beleženje medpodjetnih transakcij](create-intercompany-transactions.md)
 - [Ustvarjanje računov medpodjetnih strank in prodajalcev](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

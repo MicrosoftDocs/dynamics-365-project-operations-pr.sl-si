@@ -2,22 +2,24 @@
 title: Zapiranje ponudbe
 description: Ta tema vsebuje informacije o zapiranju ponudb v aplikaciji Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993441"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124703"
 ---
 # <a name="close-a-quote"></a>Zapiranje ponudbe
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-Ponudbo projekta lahko zaprete kot »Pridobljena« ali »Izgubljena«. Ker funkciji za aktiviranje in pregled ponudb v aplikaciji Microsoft Dynamics 365 Project Operations nista podprti, lahko zaprete osnutek pogodbe.
+Ponudbo projekta lahko zaprete kot »Pridobljena« ali »Izgubljena«. Ker funkciji za aktiviranje in pregledovanje nista na voljo za ponudbe v storitvi Microsoft Dynamics 365 Project Operations, lahko zaprete osnutek ponudbe.
 
 ## <a name="close-a-quote-as-won"></a>Zapiranje ponudbe kot »Pridobljena«
 
@@ -41,6 +43,3 @@ Vsi predelani dejanski podatki so na voljo v modulu za vodenje projektov in rač
 
 > [!NOTE]
 > V aplikaciji Project Operations zapiranje ponudbe kot pridobljene ali izgubljene ne bo vplivalo na to stanje priložnosti, ki bo ostalo odprto, dokler se ne zapre ročno.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

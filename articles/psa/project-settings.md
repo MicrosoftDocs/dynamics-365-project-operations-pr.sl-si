@@ -2,6 +2,8 @@
 title: Nastavitve projekta
 description: Ta tema vsebuje informacije o nastavitvah upravljanja projektov.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996951"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148168"
 ---
 # <a name="project-settings"></a>Nastavitve projekta
 
@@ -47,7 +49,7 @@ Za dostop do funkcij za načrtovanje projekta uporabite spodnje nastavitve.
   - Urnik dela za en dan
   - Prosti čas
 
-> ![Nastavitev možnosti.](media/project-13.png)
+> ![Nastavitev možnosti](media/project-13.png)
 
 4. Izberite **Nov tedenski urnik** in nato nastavite možnosti za ta razpored virov. Nastavite lahko ponavljajoči se tedenski razpored, dnevne in urne parametre, čas, ko je podjetje zaprto, in še več.
 5. Nastavite datumski obseg, izberite **Shrani** in nato kliknite **Zapri**. 
@@ -66,6 +68,3 @@ Vsaka organizacija mora nastaviti te vloge na strani **Kategorije dejavnih virov
 ## <a name="price-lists"></a>Ceniki
 
 S ceniki lahko nastavite lastne in prodajne cene za vloge virov, kategorije stroškov, izdelke in druge elemente v organizaciji. Preden nastavite finančne ocene za delo, ki mora biti opravljeno pri projektu, ustvarite osnovni cenik z lastnimi in prodajnimi cenami. V razdelku s parametri nastavite tudi privzeti cenik z lastnimi in prodajnimi cenami, ki velja za vse projekte, ustvarjene v organizaciji. Na strani **Dejavni projektni parametri** preverite, ali ste nastavili privzeti cenik z lastnimi in prodajnimi cenami.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

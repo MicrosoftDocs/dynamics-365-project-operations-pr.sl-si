@@ -2,11 +2,12 @@
 title: Domača stran razsežnosti za določanje cen in razčlenitev stroškov
 description: V tej temi je na voljo pregled cenovnih razsežnosti.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998481"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151318"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Domača stran razsežnosti za določanje cen in razčlenitev stroškov
 
@@ -41,7 +42,7 @@ Glede na naravo teh atributov dela in ljudi, ki so potrebni za izvedbo dela, sta
 
 Storitev PSA vključuje privzet nabor cenovnih razsežnosti. Te si lahko ogledate v **Project Service** > **Parametri**. V zapisu parametra na zavihku **Cenovna razsežnost na podlagi zneska** preverite, ali sta pri vlogi **msdyn_resourcecategory** in organizacijski enoti za vire **msdyn_organizationalunit** polji **Mogoče uporabiti za prodajo** in **Mogoče uporabiti za ceno** nastavljeni na **Da**. To vam bo omogočilo, da nastavite ceno in ceno za vsako kombinacijo vloge in organizacijske enote.
 
-![Prikaz parametrov v aplikaciji Project Service z označeno možnostjo »Mogoče uporabiti za prodajo«.](media/PS-OOB-parameters.png)
+![Prikaz parametrov v aplikaciji Project Service z označeno možnostjo »Mogoče uporabiti za prodajo«](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Če ste uporabljali vnaprej pripravljena polja vloge in organizacijske enote kot cenovne razsežnosti pred različico 3 aplikacije PSA, ne bo nobene opazne spremembe. Project Service lahko še naprej uporabljate kot običajno. 
@@ -66,16 +67,13 @@ Spodnji primer prikazuje deleže obračunavanja, ki so nastavljeni na podlagi vl
 
 | Vloga        | Organizacijska enota    |Enota      |Cena      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Razvijalec   | Contoso US  |Ura | 200|USD     |
-| Razvijalec   | Contoso Indija |Ura|   112|USD     |
+| Developer   | Contoso, ZDA  |Ura | 200|USD     |
+| Developer   | Contoso Indija |Ura|   112|USD     |
 
 
 **Vzorčne mere stroškov**
 
 | Razpon plače     | Organizacijska enota    |Enota      |Cena      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje podjetje_razpon1 | Contoso US  |Ura | 145|USD     |
+| Moje podjetje_razpon1 | Contoso, ZDA  |Ura | 145|USD     |
 | Moje podjetje_razpon2 | Contoso Indija |Ura|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

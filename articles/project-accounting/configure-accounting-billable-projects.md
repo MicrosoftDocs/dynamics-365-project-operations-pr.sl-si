@@ -2,16 +2,18 @@
 title: Konfiguracija vodenja računov za plačljive projekte
 description: Ta tema vsebuje informacije o računovodskih možnostih za plačljive projekte.
 author: sigitac
+manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991056"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858673"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfiguracija vodenja računov za plačljive projekte
 
@@ -101,23 +103,23 @@ Dokončajte naslednje korake, da ustvarite nov profil stroškov in prihodkov pro
 
 Čas in materiali - brez postavk za nedokončano storitev
 
-![Profil stroškov in prihodkov: čas in materiali – brez PVT.](media/time-material-no-wip.png)
+![Profil stroškov in prihodkov: Čas in materiali - brez postavk za nedokončano storitev](media/time-material-no-wip.png)
 
 Čas in materiali – postavka za nedokončano storitev (dohodek)
 
-![Profil stroškov in prihodkov: čas in materiali – brez PVT.](media/time-material-with-wip.png)
+![Profil stroškov in prihodkov: čas in materiali – brez postavk za nedokončano storitev](media/time-material-with-wip.png)
 
 Fiksna cena – Brez postavk za nedokončano storitev
 
-![Profil stroškov in prihodkov: fiksna cena – brez PVT.](media/fixed-price-no-wip.png)
+![Profil stroškov in prihodkov: Fiksna cena – brez brez postavk za nedokončano storitev](media/fixed-price-no-wip.png)
 
 Fiksna cena – dokončana pogodba
 
-![Profil stroškov in prihodkov: fiksna cena – dokončana pogodba.](media/fixed-price-completed-contract.png)
+![Profil stroškov in prihodkov: Fiksna cena – dokončana pogodba](media/fixed-price-completed-contract.png)
 
 Fiksna cena – delež napredka
 
-![Profil stroškov in prihodkov: fiksna cena – končni odstotek.](media/fixed-price-completed-percentage.png)
+![Profil stroškov in prihodkov: Fiksna cena – delež napredka](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Računovodski primeri za vzorčne profile stroškov in prihodkov projekta

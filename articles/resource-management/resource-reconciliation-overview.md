@@ -2,29 +2,31 @@
 title: Pregled uskladitve virov
 description: Ta tema podaja informacije, ki vam bodo pomagale zagotoviti, da so rezervacije virov in dodelitve za projekte poravnane.
 author: ruhercul
+manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
+ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994791"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "4849644"
 ---
 # <a name="resource-reconciliation-overview"></a>Pregled uskladitve virov
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Pri članih ekipe so rezervacije in dodelitve ohlapno povezane. Z drugimi besedami, viri imajo lahko dodelitve in so brez rezervacij ali pa imajo rezervacije in so brez dodelitev. V idealnem primeru so rezervacije in dodelitve usklajene, tako da imajo viri določeno zmogljivost za izvajanje dodelitev opravila. Vendar pa lahko rezervacije temeljijo na razpoložljivosti, časi opravil pa se lahko spremenijo, ko se projekt nadaljuje. Zato ohlapno povezovanje rezervacij in dodelitev zagotavlja prilagodljivost.
 
@@ -46,6 +48,3 @@ Ko prikažete čas na višjih ravneh, imajo celice na zavihku **Usklajevanje** k
 Rezervacije, ki so ustvarjene z dejanjem **Podaljšaj rezervacijo**, so povezane s primarno zahtevo za projekt. Ko je razširitev sprožena, ni mogoče določiti posebne zahteve, ki mora biti razširjena, ker je lahko vir povezan z več kot eno zahtevo za projekt.
 
 Vodja projekta ali upravitelj virov lahko nato s ploščo razporeda reši vse primere, kjer ima vir preveliko število rezervacij glede na svojo zmogljivost.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

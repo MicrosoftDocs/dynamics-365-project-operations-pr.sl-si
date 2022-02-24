@@ -2,9 +2,11 @@
 title: Ustvarjanje projektne ekipe
 description: Ta tema vsebuje informacije o tem, kako ustvariti in upravljati projektne ekipe.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005816"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270878"
 ---
 # <a name="create-a-project-team"></a>Ustvarjanje projektne ekipe
 
@@ -33,7 +35,7 @@ Nastavitve pogleda lahko prilagodite tudi za boljši pregled razpoložljivosti v
 
 Projektni vodja lahko na strani izbere vlogo in nato, če je na voljo vir, ki ustreza zahtevi, izbere rezervacijo vira za zapolnitev vloge. Upoštevajte, da virov na tej točki v fazi načrtovanja ni treba rezervirati. Ko ustvarite SČD, lahko vloge nadomestite z zaposlenimi viri za projekt. Če se vloge v SČD nadomestijo z dodeljenimi viri, nastavitev virov samodejno posodobi seznam in razporejanje projektne skupine.
 
-[![Seznam projektne ekipe, ki vključuje vloge in dejanske vire.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Seznam projektne skupine, ki vključuje vloge in dejanske vire](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Projektni vodja ima različne možnosti za rezervacijo vira za projekt, npr. **Preostala zmogljivost**, **Polna zmogljivost**, **Odstotek zmogljivosti** in **Določanje ur**. Te možnosti rezervacije lahko kadar koli prekličete, če se dodelitve virov spremenijo. Podprti sta dve vrsti rezervacij:
 

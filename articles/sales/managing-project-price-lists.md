@@ -2,9 +2,11 @@
 title: Upravljanje cenikov za projekte v ponudbi
 description: Ta tema vsebuje informacije o entiteti cenika projekta.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003926"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177216"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Upravljanje cenikov za projekte v ponudbi
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Dynamics 365 Project Operations razširja entiteto »Cenik« v aplikaciji Dynamics 365 Sales. 
+Storitev Dynamics 365 Project Operations razširja entiteto cenika v storitvi Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Ključne entitete
 
@@ -118,6 +120,3 @@ Tako kot zneski za obračunavanje se tudi stroški za človeške vire izračunaj
     1. Cenik z lastnimi cenami, ki je priložen organizacijski enoti
     2. Cenik z lastnimi cenami, ki je priložen parametrom aplikacije Project Operations. Ker so lahko parametrom priloženi ceniki z lastnimi cenami v različnih valutah, se izvede uskladitev valut med valuto pogodbene organizacijske enote projekta, pogodbo ali ponudbe in valuto cenika z lastnimi cenami.
     3. Pri stroških se metodi nabavne cene in pribitka na ceno ne uporabljata za cenike z lastnimi cenami. Če se ti metodi določanja cen uporabljata v vrsticah cenika z lastnimi cenami za nastavitev stroškovnih kategorij transakcij, jih sistem prezre in ne vnese nobene privzete lastne cene.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

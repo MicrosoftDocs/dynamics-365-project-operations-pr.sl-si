@@ -2,22 +2,24 @@
 title: Uvoz ocene v podrobnosti pogodbe, ki temeljijo na projektu – poenostavljena različica
 description: Ta tema vsebuje informacije o uvozu finančnih ocen projekta v podrobnosti pogodbe.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997266"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177486"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Uvoz ocene v podrobnosti pogodbe, ki temeljijo na projektu – poenostavljena različica
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-V aplikaciji Dynamics 365 Project Operations lahko uvozite ocene iz projekta v podrobnost pogodbe, ki temelji na projektu.
+V storitvi Dynamics 365 Project Operations lahko uvozite ocene iz projekta v podrobnosti pogodbe na podlagi projekta.
 
 1. Preverite, ali je polje **Projekt** v podrobnostih pogodbe na podlagi projekta izpolnjeno.
 2. V zavihku **Podrobnosti pogodb** na podmreži izberite **Uvozi iz ocene projekta**. Odpre se pogovorno okno z možnostmi povzemanja. Razpoložljive možnosti povzemanja so **Razred transakcije**, **Kategorija**, **Vloga** in **Projektno opravilo**.
@@ -58,6 +60,3 @@ Pri uvozu ocen sistem privzeto določi cene na podlagi cenikov projekta, prilož
 | Opravilo A | Letalska vozovnica | 10. 1. 2020 | 4 | 400 | 1600 |
 | Opravilo B | Hotel | 1. 10. 2020 | 4 | 200 | 800 |
 | Opravilo C | Hotel | 1. 11. 2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

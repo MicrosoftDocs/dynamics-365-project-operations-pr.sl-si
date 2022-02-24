@@ -2,6 +2,8 @@
 title: Usklajevanje rezervacij in dodelitev
 description: Ta tema vsebuje informacije o opravljenem delu.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995151"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147943"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Usklajevanje rezervacij in dodelitev
 
@@ -51,11 +53,11 @@ V primerih, ko je polje **Časovno obdobje** nastavljeno na raven, višjo od **D
 
 Ko gledate višje časovne ravni, se v zavihku **Usklajevanje** prikaže celični kazalnik, ki vas obvesti, da obstajajo razlike v nižjih časovnih ravneh. Na tej sliki se celični kazalnik na primer prikaže v celici za oktober 2018 za vir, imenovan Neja Petelinc. Tako lahko torej vidite, da so lahko rezervacije in dodelitve vira enake po skupni vrednosti na ravni **Mesec**, a hkrati različne na nižjih ravneh.
 
-![Neusklajene rezervacije in dodelitve na mesečni ravni.](media/reconcile-assignments-01.JPG)
+![Neskladne rezervacije in dodelitve na mesečni ravni](media/reconcile-assignments-01.JPG)
 
 Dvokliknite celico, da jo razširite na naslednjo nižjo raven in si ogledate razliko. Če na primer dvokliknete razliko za Nejo Petelinc v oktobru 2018, se bo raven **Teden** prikazala na ravni z več podrobnostmi. Vidite lahko, da ima vir 16 ur rezervacij, a nič dodelitev v prvih dveh tednih oktobra, ter 16 ur dodelitev, a nič rezervacij v tretjem tednu oktobra.
 
-![Neusklajene rezervacije in dodelitve na tedenski ravni.](media/reconcile-assignments-02.JPG)
+![Neskladne rezervacije in dodelitve na tedenski ravni](media/reconcile-assignments-02.JPG)
 
 Kliknite desno tipko miške, če želite celico pomanjšati na naslednjo višjo raven. Celični kazalnik lahko tudi izklopite, in sicer tako, da izberete gumb **Nastavitve**. 
 
@@ -68,13 +70,13 @@ Za zagotovitev točnih in predvidljivih rezultatov ob uporabi podaljšanja rezer
 
 - Uporabnik mora konfigurirati časovni pas svoje naprave tako, da se ujema s časovnim pasom, opredeljenim v nastavitvah za prilagoditev vašega sistema.
  
-  ![Nastavitve časovnega pasu v sistemu Windows 10.](media/reconcile-assignments-03.png)
+  ![Nastavitve časovnega pasu v sistemu Windows 10](media/reconcile-assignments-03.png)
 
-  ![Nastavitve časovnega pasu v nastavitvah osebnega prilagajanja.](media/reconcile-assignments-04.png)
+  ![Nastavitve časovnega pasu v nastavitvah za prilagoditev](media/reconcile-assignments-04.png)
  
 - Vir, ki ga je mogoče rezervirati, mora imeti najmanj eno minuto delovnega časa, ki se prekriva z obrisi, ki se uporabijo za opredelitev zahtevanega podaljšanja. V naslednjem primeru je recimo prikazan pregled virov z delovnim časom od 9.00 do 19.00. 
 
-  ![Primerjava obrisov virov.](media/reconcile-assignments-05.png)
+  ![Primerjava obrisov virov](media/reconcile-assignments-05.png)
 
 V spodnji tabeli so prikazani:
 
@@ -83,22 +85,19 @@ V spodnji tabeli so prikazani:
 - Vir B: ta vir je v drugem časovnem pasu kot projekt in zato začne ob 7.00 v svojem časovnem pasu. Toda rezervacije se bodo začele ob 9.00, saj je to najzgodnejši čas za obris dodelitve.
 - Vira C in D: vira sta prav tako v različnih časovnih pasovih, ki se med seboj in projektom razlikujeta, njune rezervacije se začnejo z zadevnim razpoložljivim začetnim časom.
 
-|Entity  |Koledar  |
+|Entiteta  |Koledar  |
 |-|-|
-|Predloga projektnega koledarja   | ![Koledar projekta.](media/reconcile-assignments-06.png) |
-|Vir A  | ![Koledar vira A.](media/reconcile-assignments-06.png) |
-|Vir B  |  ![Koledar vira B.](media/reconcile-assignments-07.png) |
-|Vir C  |  ![Koledar vira C.](media/reconcile-assignments-08.png) |
-|Vir D  | ![Koledar vira D.](media/reconcile-assignments-09.png)  |
+|Predloga projektnega koledarja   | ![projektni koledar](media/reconcile-assignments-06.png) |
+|Vir A  | ![Koledar vira A](media/reconcile-assignments-06.png) |
+|Vir B  |  ![Koledar vira B](media/reconcile-assignments-07.png) |
+|Vir C  |  ![Koledar vira C](media/reconcile-assignments-08.png) |
+|Vir D  | ![Koledar vira D](media/reconcile-assignments-09.png)  |
  
 Ko se pomaknete na pogled usklajevanja, so prikazane dodelitve virov in povezani primanjkljaj rezervacij.
- ![Uskladitev pogleda pred podaljšanjem rezervacije.](media/reconcile-assignments-10.png)
+ ![Pogleda usklajevanja pred podaljšanjem](media/reconcile-assignments-10.png)
 
 Ko je funkcionalnost podaljšanja rezervacije izvedena za vsak vir, so rezervacije uspešno podaljšane za vsak vir. To pa zato, ker se je delovni čas vsakega vira prekrival z obrisi primanjkljaja.
- ![Uskladitev pogleda po podaljšanju rezervacije.](media/reconcile-assignments-11.png) 
+ ![Pogled usklajevanja po podaljšanju rezervacije](media/reconcile-assignments-11.png) 
 
 Podrobnejši pogled rezervacij pa prikazuje razlike v začetnem času rezervacij. Rezervacije se začnejo z začetnim časom obrisa dodelitve in razpoložljivim začetnim časom vira.
- ![Nove rezervacije virov v plošči za načrtovanje.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Nove rezervacije virov v plošči razporeda](media/reconcile-assignments-12.png)

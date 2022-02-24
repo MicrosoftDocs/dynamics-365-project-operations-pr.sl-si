@@ -2,20 +2,22 @@
 title: Delo s podrobnostmi pogodbe, ki temeljijo na projektu
 description: V tej temi so na voljo informacije o podrobnostih pogodb, ki temeljijo na projektu.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990066"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181742"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Delo s podrobnostmi pogodbe, ki temeljijo na projektu
 
-Podrobnosti pogodbe, ki temelji na projektu, v aplikaciji Dynamics 365 Project Operations so zasnovane, da hranijo dogovore o oceni in obračunavanju za določene komponente dela na projektu v interakciji. Struktura podrobnosti pogodbe, ki temeljijo na projektu, je razširjena za ocene projektov in scenarije obračunavanja z naslednjimi koncepti:
+Podrobnosti pogodbe, ki temelji na projektu, v storitvi Dynamics 365 Project Operations so zasnovane, da hranijo dogovore o oceni in obračunavanju za določene komponente dela na projektu v interakciji. Struktura podrobnosti pogodbe, ki temeljijo na projektu, je razširjena za ocene projektov in scenarije obračunavanja z naslednjimi koncepti:
 
 - Način obračunavanja
 - Preslikavanje projektov in opravil
@@ -55,6 +57,3 @@ Pravilo: projekt in določen razred transakcije je lahko vključen samo v enem s
 | C1       | CL2           | O1      | No           | Da             | No          | Veljavno           | Čas in dajatve za projekt P1 so vključeni v CL1. Stroški za projekt P1 so vključeni v CL2. </br>   Ni prekrivanja v tem, kar je vključeno v vsak sklop podrobnosti pogodbe, zato je veljavno.  |
 | C1       | CL1           | O1      | Da          | Da             | Da         | Neveljavno       | Krši pravilo. Čas, strošek in dajatve za projekt P1 so vključene v podrobnostih dveh pogodb.                                                                                               |
 | CL2      | CL2           | O1      | Da          | Da             | Da         | Neveljavno       | Krši pravilo. Čas, strošek in dajatve za projekt P1 so vključene v podrobnostih dveh pogodb.                                                                                               |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

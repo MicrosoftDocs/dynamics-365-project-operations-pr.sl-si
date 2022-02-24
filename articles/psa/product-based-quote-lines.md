@@ -2,6 +2,8 @@
 title: Vrstice ponudb, ki temeljijo na izdelkih
 description: V tej temi so na voljo informacije o vrsticah ponudb, ki temeljijo na izdelkih.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008606"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151273"
 ---
 # <a name="product-based-quote-lines"></a>Vrstice ponudb, ki temeljijo na izdelkih
 
@@ -58,7 +60,7 @@ Poleg tega lahko izberete izdelke iz drugih cenikov ali pa neposredno iz katalog
 
 Ko namestite PSA, se privzete prodajne cene vnesejo v vrstice v ponudbi, ki temeljijo na izdelkih. Polje **Oblikovanje cen** je nato nastavljeno na **Preglasi oblikovanje cene**, tako da lahko uredite privzeto ceno v vrsticah ponudbe.
 
-> ![Nastavitev preglasitve cen.](media/basic-guide-10.png)
+> ![Nastavitev preglasitve oblikovanja cen](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Količniki za količino za izdelke
 
@@ -78,8 +80,5 @@ Dynamics 365 ima lahko na primer te lastnosti:
 
 Lastnosti **Št. uporabnikov** in **Št. mesecev** lahko označite kot količnike za količino tako, da uredite lastnosti vrstice izdelkov. 
 
-> ![Označevanje lastnosti »Št. uporabnikov« in »Št. mesecev« kot dejavnikov za količino.](media/basic-guide-11.png)
+> ![Označevanje lastnosti »Št. uporabnikov« in »Št. mesecev« kot količnikov za količino](media/basic-guide-11.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

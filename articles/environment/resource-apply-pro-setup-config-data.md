@@ -2,16 +2,18 @@
 title: Nastavitev in uporabo konfiguracijskih podatkov v storitvi Common Data Service
 description: Ta tema vsebuje informacije o nastavitvi in uporabi konfiguracijskih podatkov v storitvi Project Operations.
 author: sigitac
-ms.date: 05/10/2021
+manager: Annbe
+ms.date: 11/04/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7742e81316b217066f9f3b8d5c23aa64f1a7efc4
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986646"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642248"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Nastavitev in uporabo konfiguracijskih podatkov v storitvi Common Data Service 
 
@@ -21,7 +23,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
 
 ## <a name="prerequisites"></a>Zahteve
 
-Preden začnete konfigurirati podatke v storitev Common Data Service (CDS), morajo biti izpolnjeni naslednji pogoji:
+Preden začnete konfigurirati podatke v storitvi Common Data Service (CDS), morajo biti izpolnjeni naslednji predpogoji:
 
 1.  Omogočanje okolja CDS v okolju storitve Dynamics 365 Finance za Project Operations.
 2.  Podatki o pravni osebi iz storitve Dynamics 365 Finance so v skupni rabi z okoljem CDS. To pomeni, da ima entiteta **Podjetje** v CDS-ju naslednje zapise podjetja:
@@ -31,44 +33,37 @@ Preden začnete konfigurirati podatke v storitev Common Data Service (CDS), mora
 
 ## <a name="install-setup-and-configuration-data"></a>Namestitev podatkov za nastavitev in konfiguracijo
 
-1. Prenesite, odblokirajte in razširite datoteko [Paket podatkov za namestitev in konfiguracijo](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
+1. Prenesite, odblokirajte in razširite datoteko [Paket podatkov za namestitev in konfiguracijo](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
 2. Pomaknite se do mape z razširjenimi datotekami in zaženite izvedljivo datoteko *DataMigrationUtility*.
 3. Na 1. strani čarovnika za selitev konfiguracije Common Data Service (CMT) izberite **Uvozi podatke** in nato izberite **Nadaljuj**.
 
-![Selitev konfiguracije.](./media/1ConfigurationMigration.png)
+![Selitev konfiguracije](./media/1ConfigurationMigration.png)
 
 4. Na 2. strani čarovnika CMT izberite **Microsoft 365** kot možnost **Vrsta uvajanja**.
 5. Izberite potrditvena polja **Prikaži seznam organizacij, ki so na voljo** in **Pokaži napredno**.
 6. Izberite regijo vašega najemnika, vnesite poverilnice in nato izberite **Prijava**.
 
-![Vpis v konfiguracijo.](./media/2ConfigurationSignin.png)
+![Prijava v konfiguracijo](./media/2ConfigurationSignin.png)
 
 7. Na 3. strani s seznama organizacij pri najemniku izberite, v katero organizacijo želite uvoziti predstavitvene podatke, in kliknite **Prijava**.
 8. Na 4. strani izberite datoteko ZIP *SampleSetupAndConfigData* iz razstavljene mape.
 
-![Izbira datoteke ZIP.](./media/3ZipFile.png)
+![Izbira datoteke ZIP](./media/3ZipFile.png)
 
-![Izbiranje datoteke.](./media/4SelectAFile.png)
+![Izberite datoteko](./media/4SelectAFile.png)
 
 9. Ko je izbrana datoteka ZIP, izberite **Uvozi podatke**.
 
-![Uvoz podatkov.](./media/5ImportData.png)
+![Uvozi podatke](./media/5ImportData.png)
 
 10. Uvoz bo trajal od približno dveh do deset minut, odvisno od hitrosti vašega omrežja. Po dokončanem uvozu zapustite čarovnik CMT. 
-11. Preverite, ali ima vaša organizacija podatke o naslednjih 26 entitetah:
+11. Preverite, ali ima vaša organizacija podatke o naslednjih 19 entitetah:
 
   - Valuta
-  - Kontni načrt
-  - Poslovni koledar
-  - Vrste menjalnih tečajev
-  - Dan plačila
-  - Urnik plačila
-  - Plačilni pogoj
   - Organizacijska enota
   - Stik
   - Skupina davka
   - Skupina strank
-  - Skupina prodajalcev
   - Enota
   - Skupina enot
   - Cenik
@@ -84,50 +79,50 @@ Preden začnete konfigurirati podatke v storitev Common Data Service (CDS), mora
   - Povezava kategorije vira, ki ga je mogoče rezervirati
   - Lastnost vira, ki ga je mogoče rezervirati
 
-![Uvoz je končan.](./media/6CompleteImport.png)
+![Zaključek uvoza](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>Posodobitev konfiguracij storitve Project Operations
 
 1. Pomaknite se v okolje CE. Najdete ga tako, da odprete [skrbniško središče Power Platform](https://admin.powerplatform.microsoft.com/environments), izberete okolje in kliknete **Odpri okolje**. 
 
-![Odprite okolje.](./media/7OpenEnvironment.png)
+![Odpri okolje](./media/7OpenEnvironment.png)
 
 2. Odprite **Projekti** > **Viri** in nato izberite **Novo**, da za svojega uporabnika ustvarite vir, ki ga je mogoče rezervirati.
 
-![Viri, ki jih je mogoče rezervirati.](./media/8BookableResources.png)
+![Viri, ki jih je mogoče rezervirati](./media/8BookableResources.png)
 
 3. Na zavihku **Splošno** izberite skrbniškega uporabnika. Preverite, ali se časovni pas ujema s tistim, v katerem ste. 
 
-![Novi vir, ki ga je mogoče rezervirati.](./media/9NewBookableResource.png)
+![Novi vir, ki ga je mogoče rezervirati](./media/9NewBookableResource.png)
 
 4. Na zavihku **Načrtovanje** v polju **Podjetje** izberite podjetje **USPM** in nato izberite **Shrani**. 
 
-![Zavihek »Načrtovanje«.](./media/10SchedulingTab.png)
+![Zavihek »Načrtovanje«](./media/10SchedulingTab.png)
 
 5. Izberite zavihek **Delovni čas**.  
 
-![Delovni čas.](./media/11WorkHours.png)
+![Delovni čas](./media/11WorkHours.png)
 
 6. Dvokliknite katero koli vrednost v koledarju in izberite **Uredi** > **Vsi dogodki v seriji**. 
 
-![Delovni koledar.](./media/12WorkCalendar.png)
+![Delovni koledar](./media/12WorkCalendar.png)
 
 7. Spremenite delovni čas v osemurni (8) delovnik, vikende označite kot dela proste dni in se prepričajte, da se časovni pas ujema z vašim. 
 8. Izberite **Shrani in zapri**.
 
-![Posodobitev koledarja.](./media/13UpdateCalendar.png)
+![Posodobitev koledarja](./media/13UpdateCalendar.png)
 
 9. Odprite **Nastavitve** > **Predloge koledarja** in izberite **Novo**.
  
- ![Predloge koledarjev.](./media/14CalendarTemplates.png)
+ ![Predloge koledarja](./media/14CalendarTemplates.png)
  
  10. Vnesite ime, izberite vir predloge, ki ste ga ustvarili, in nato **Shrani**. 
  
- ![Shranite predlogo koledarja.](./media/15SaveCalendarTemplate.png)
+ ![Shranite predlogo koledarja](./media/15SaveCalendarTemplate.png)
  
  11. Odprite možnost **Parametri** in dvokliknite zapis. 
  
- ![Parametri projekta.](./media/16ProjectParameters.png)
+ ![Projektni parametri](./media/16ProjectParameters.png)
  
 12. Posodobite naslednja polja:
 
@@ -138,7 +133,4 @@ Preden začnete konfigurirati podatke v storitev Common Data Service (CDS), mora
 
 13. Izberite **Shrani**. 
 
-![Posodobljeni projektni parametri.](./media/17UpdatedProjectParameters.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Posodobljeni projektni parametri](./media/17UpdatedProjectParameters.png)

@@ -2,6 +2,8 @@
 title: Ocene
 description: Ta tema vsebuje informacije o ocenah v rešitvi Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992406"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151453"
 ---
 # <a name="estimates"></a>Ocene
 
@@ -83,27 +85,24 @@ Spodnja tabela vam bo v pomoč pri razumevanju poslovne logike v fazi ocenjevanj
 1. Odprite PluginRegistrationTool in se povežite s spletnim primerkom.
 2. Izberite **Iskanje** in poiščite vtičnik, ki ga želite posodobiti.
 
-    ![Pogovorno okno »Drevo za iskanje«.](media/basic-guide-19.png)
+    ![Pogovorno okno »Drevo za iskanje«](media/basic-guide-19.png)
 
 3. Izberite vtičnik in nato na glavni strani izberite **Izberi**.
 4. V vtičniku izberite korak za posodobitev, ga kliknite z desno miškino tipko in nato izberite **Posodobi**.
 
-    ![Izbiranje koraka v vtičniku.](media/basic-guide-20.png)
+    ![Izbiranje koraka v vtičniku](media/basic-guide-20.png)
 
 5. V pogovornem oknu **Posodobi obstoječi korak** v polju **Atributi filtriranja** izberite gumb s tremi pikami (**...**):
  
-    ![Pogovorno okno »Posodobi obstoječi korak«.](media/basic-guide-21.png)
+    ![Pogovorno okno »Posodobi obstoječi korak«](media/basic-guide-21.png)
 
 6. V pogovornem oknu **Izberite atribute** izberite potrditvena polja za atribute po meri.
 
-    ![Pogovorno okno »Izberite atribute«.](media/basic-guide-22.png)
+    ![Pogovorno okno »Izberite atribute«](media/basic-guide-22.png)
 
 7. Izberite **V redu**, da zaprete pogovorno okno, in nato **Posodobi korak**.
  
-    ![Gumb »Posodobi korak«.](media/basic-guide-23.png)
+    ![Gumb »Posodobi korak«](media/basic-guide-23.png)
 
 8. Ponovite korake od 1 do 7 za drugi vtičnik.
 9. Zaprite PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

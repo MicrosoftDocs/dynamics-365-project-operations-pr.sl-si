@@ -2,6 +2,8 @@
 title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 15, V3
 description: V tej temi so na voljo informacije o novostih v izdaji posodobitve za Project Service Automation 15, V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d052dd670ac31fae57a71cb71682da86a237b3487482a9548f3fb9e52516c407
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ec6746c0d3a1a03ee56440c73d044df844046f8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004466"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143983"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Izdaja posodobitve 15 za Project Service Automation, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Z veseljem predstavljamo najnovejšo posodobitev za aplikacijo Dynamics 365 Project Service Automation (PSA). Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Ta izdaja je združljiva s storitvijo Dynamics 365 9.x. Če želite posodobiti na to izdajo, obiščite skrbniško središče za Dynamics 365 online in odprite stran z rešitvami, da namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).
+Z veseljem predstavljamo najnovejšo posodobitev za aplikacijo Dynamics 365 Project Service Automation (PSA). Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Ta izdaja je združljiva s storitvijo Dynamics 365 9.x. Če želite posodobiti na to izdajo, obiščite skrbniško središče za Dynamics 365 online in odprite stran z rešitvami, da namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za PSA V3, izdaja posodobitve 15. Ta različica ima številko graditve V3.10.5.28 in je splošno na voljo s samostojno posodobitvijo v januarju 2020.
 
@@ -61,6 +63,3 @@ V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za PSA V
   - Popravljeno: ko je projektov več kot 1000 se ne prikaže več sporočilo o napaki v možnosti **Iskanje projektov** v obrazcu **Vrstica ponudbe**.
   - Popravljeno: mreža **Ocene** za ocene dela in ocene stroškov zdaj prikazuje pravilen simbol valute.
   - Popravljeno: ko organizacija posodobi PSA z izdaje posodobitve 14 na izdajo posodobitve 15, zavihek **Razpored** ni več prikazan prazen na obrazcu **Projekt**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

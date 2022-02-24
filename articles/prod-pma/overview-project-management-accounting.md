@@ -2,26 +2,28 @@
 title: Pregled vodenja projektov in računovodstva
 description: Funkcija vodenja projektov in računovodstva je uporabna v več panogah, in sicer za zagotavljanje storitev, proizvodnjo izdelkov ali doseganje rezultatov.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007526"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084899"
 ---
 # <a name="project-management-and-accounting-overview"></a>Pregled vodenja projektov in računovodstva
 
@@ -34,14 +36,14 @@ Projekt je skupina dejavnosti, ki je namenjena zagotavljanju storitev, proizvodn
 ## <a name="projects-across-industries"></a>Projekti v posameznih panogah
 Funkcija vodenja projektov in računovodstva je uporabna v več panogah, kot je prikazano na naslednji sliki.
 
-[![Projekti v posameznih panogah.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekti v posameznih panogah](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 V klicnem centru lahko vstopnico uporabite za opis nabora dejanj, ki so potrebna za obravnavo klica. Svetovalna podjetja, kot so organizacije za vodenje ali tehnično svetovanje in oglaševalske agencije, svoje dejavnosti označujejo kot projekte. V marketingu se sklopu opravil, ki jih je treba izvesti, reče kampanja. V proizvodnji na podlagi projekta se proizvodno naročilo navezuje na različna dela, ki jih je treba opraviti za izdelavo nekaterih končnih izdelkov. Ne glede na ime, ki jih označuje, vsi ti projekti vključujejo vire, urnike in stroške, funkcija vodenja projektov in računovodstva pa lahko pomaga pri načrtovanju, izvedbi in analizi teh projektov.
 
 ## <a name="project-phases"></a>Projektne faze
 Čeprav je naslednji potek postopka namenjen zunanjim projektom ali projektom, ki so dokončani za eno ali več strank, se ta funkcija uporablja tudi za notranje projekte, vezane na stroške. 
 
-![3 stopnje projekta.](./media/3-stages-of-a-project.png) 
+![3 stopnje projekta](./media/3-stages-of-a-project.png) 
 
 Kot je prikazano na prejšnji sliki, lahko vodenje projektov in računovodstvo razdelimo v tri faze:
 
@@ -50,7 +52,7 @@ Kot je prikazano na prejšnji sliki, lahko vodenje projektov in računovodstvo r
 3.  Analiziraj
 
 ## <a name="initiate-the-project"></a>Začetek projekta
-Med začetnim delom projekta se odvije več ključnih procesov. Ponudbo projekta lahko uporabite za sporočanje pričakovanega dela, stroškov in materialov stranki. Obračunske pogoje, omejitve in pogodbe lahko zabeležite v projektni pogodbi. Za načrtovanje in ocenjevanje dela lahko uporabite strukturirano členitev dela (SČD). Nastavite lahko napovedi in proračune za vodenje izvedbe projekta. Naslednja slika prikazuje strukturo projekta.[![struktura projekta.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Med začetnim delom projekta se odvije več ključnih procesov. Ponudbo projekta lahko uporabite za sporočanje pričakovanega dela, stroškov in materialov stranki. Obračunske pogoje, omejitve in pogodbe lahko zabeležite v projektni pogodbi. Za načrtovanje in ocenjevanje dela lahko uporabite strukturirano členitev dela (SČD). Nastavite lahko napovedi in proračune za vodenje izvedbe projekta. Naslednja slika prikazuje strukturo projekta.[![struktura projekta](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Ustvarjanje projektnih ponudb
 
@@ -178,7 +180,7 @@ Namen naročilnice določa, kdaj se naročilo porabi in kdaj se izdelki projekta
 <td>Kupite izdelke od zunanjega dobavitelja za porabo v projektu. Naročilnico lahko ustvarite na naslednje načine:
 <ul>
 <li>V samem projektu. V tem primeru je projekt že opredeljen za naročilnico.</li>
-<li>Tako da poiščete in odprete naročilnico projekta. Za izdelavo naročilnice morate izbrati dobavitelja in projekt, za katerega jo želite ustvariti.</li>
+<li>Tako da poiščete in odprete naročilnico projekta. Za izdelavo naročilnice morate izbrati dobavitelja in projekt, za katerega želite ustvariti naročilnico.</li>
 </ul></td>
 <td>Izdelki se porabijo, ko se posodobi račun dobavitelja.</td>
 </tr>
@@ -203,7 +205,7 @@ Izdelke lahko naročite iz zalog podjetja za porabo v projektu. Lahko pa tudi ku
 
 Način naročanja izdelkov je odvisen od tega, od kod jih naročate:
 
--   Če želite naročiti izdelke iz zaloge podjetja, morate naročilo vnesti kot zahtevo za izdelek. Če uporabljate stran **Zahteve za izdelek**, lahko zahtevo nastavite tako, da prejemate izdelke kot delne dostave. To pomeni, da lahko odložite porabo določene količine izdelkov, dokler ne bodo potrebni.
+-   Če želite naročiti izdelke iz zaloge podjetja, morate naročilo vnesti kot zahtevo za izdelek. Če uporabljate stran **Zahteve za izdelek**, lahko zahtevo nastavite tako, da prejemate izdelke kot delne dostave. To pomeni, da lahko odložite porabo določene količine izdelkov, dokler ne bodo potrebni.
 -   Če želite izdelke naročiti pri zunanjem dobavitelju, morate naročilo ustvariti kot naročilnico na strani **Naročilnica**.
 
 > [!NOTE] 
@@ -225,7 +227,7 @@ Vrsta projekta določa, kateri postopek izdajanja računov je treba uporabiti. Z
 Preden ustvarite račun za stranko projekta, lahko ustvarite predračun ali predlog računa. V predlogu računa lahko izberete projektne transakcije, ki jih želite vključiti v račun projekta. Nato lahko pregledate podatke o računu, preden knjižite račun projekta in ga pošljete stranki ali drugemu viru financiranja. 
 
 
-Za več informacij o tem, kako obdelovati račune projektov, glejte temo [Izdajanje računov za projekte](/dynamics365/finance/accounts-payable/project-invoicing).
+Za več informacij o tem, kako obdelovati račune projektov, glejte temo [Izdajanje računov za projekte](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Izračun stroškov za dokončanje projekta
@@ -298,7 +300,7 @@ Glede na vaše nastavitve lahko napoveste denarni pritok za izbrani projekt. Pri
 -   **Datum projekta:** 5. marec 2012.
 -   **Datum računa:** 31. marec 2012. Ta datum se določi na podlagi pogostosti računov. V tem primeru nastavite pogostost računa na trenutni mesec. Tako bodo vse transakcije, knjižene v mesecu marcu, fakturirane zadnji dan v mesecu.
 -   **Datum zapadlosti:** 14. april 2012. Ta datum se določi na podlagi plačilnih pogojev, ki so bili določeni za projekt. V tem primeru ste izbrali plačilne pogoje v obliki 14 dni. Zato se datumu računa doda 14 dni, tako da se datum zapadlosti prestavi na 14. april 2012.
--   **Pričakovani datum plačila prodaje:** 27. april 2012. Ta datum se izračuna tako, da se število dni v polju **Splošni vmesni dnevi** na strani **Parametri za vodenje projektov in računovodstvo** doda številom dni v polju **Posamezni vmesni dnevi** na strani **Projektne pogodbe** , nato pa se seštevek prišteje številu dni v polju **Datum zapadlosti**. Za potrebe tega primera ste vnesli **3** v polje **Splošni vmesni dnevi** in **10** v polje **Posamezni vmesni dnevi**. Zato se datumu zapadlosti doda 13 dni, tako da se datum pričakovanega plačila prodaje prestavi na 27. april 2012.
+-   **Pričakovani datum plačila prodaje:** 27. april 2012. Ta datum se izračuna tako, da se doda število dni v polju **Splošni vmesni dnevi** na strani **Parametri za vodenje projektov in računovodstvo** številom dni v polju **Posamezni vmesni dnevi** na strani **Projektne pogodbe** in se nato seštevek prišteje številu dni v polju **Datum zapadlosti**. Za potrebe tega primera ste vnesli **3** v polje **Splošni vmesni dnevi** in **10** v polje **Posamezni vmesni dnevi**. Zato se datumu zapadlosti doda 13 dni, tako da se datum pričakovanega plačila prodaje prestavi na 27. april 2012.
 
 Splošni vmesni dnevi lahko nadomestijo posamezne vmesne dni ali pa se dodajo posameznim vmesnim dnem:
 
@@ -438,6 +440,3 @@ Po izračunu izjave si lahko na različnih zavihkih strani **Projektne izjave** 
 -   **Poraba** – informacije o porabi ur, postavkah, izdatkih in transakcijah plač.
 -   **Račun** – informacije o računih in izdajanju računov za kupce.
 -   **Urna postavka** – urne postavke za ure, ki se knjižijo na račune prihodkov in odhodkov.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

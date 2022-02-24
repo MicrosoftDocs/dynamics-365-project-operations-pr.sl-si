@@ -2,6 +2,8 @@
 title: Ocene prodaje in projekti
 description: Ta tema vsebuje informacije o tem, kako izkoristite razpored in ocene v prodajnem procesu.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995196"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148393"
 ---
 # <a name="sales-estimates-and-projects"></a>Ocene prodaje in projekti
 
@@ -35,11 +37,11 @@ Med prodajnim procesom lahko ustvarite ocene prodaje tako, da povežete projekt 
 
 Ko ustvarite vrstico ponudbe, ki temelji na projektu, lahko ustvarite nov projekt ali povežete obstoječi projekt na strani **Vrstica ponudbe**. 
 
-> ![Obrazec »Vrstica ponudbe«.](media/project-8.png)
+> ![Obrazec »Vrstica ponudbe«](media/project-8.png)
  
 Ko ustvarite nov projekt iz podrobnosti vrstice ponudbe, lahko izkoristite predloge projekta. Projektne predloge so vzorčni projekti, ki predstavljajo standardne načrte projektov in tipične finančne ocene v organizaciji. Predstavljajo lahko tudi kopije projektnih načrtov in ocen iz preteklih projektov.
 
-> ![Podrobnosti vrstice ponudb.](media/project-9.png)
+> ![Podrobnosti vrstice ponudb](media/project-9.png)
   
 Če ustvarite projekt iz ponudbe, je ta projekt samodejno povezan z vrstico ponudbe.
 
@@ -52,6 +54,3 @@ Ocene obsega dela in razporeda lahko določite z uporabo polj na zavihku **Načr
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Uvažanje ocen iz projekta v ponudbo
 
 Ko določite ocene projekta, jih lahko uvozite v vrstico ponudbe. Na strani **Podrobnosti vrstice ponudbe** na traku izberite **Uvozi iz ocen**, da povzamete ocene projektov po vrsti transakcije, vlogi ali ravni opravila.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

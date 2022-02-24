@@ -2,17 +2,19 @@
 title: Delo z osebnimi stroški v poročilu o stroških
 description: V tej temi so na voljo informacije o delu z osebnimi stroški, ki jih imajo zaposleni med poslovnimi potovanji.
 author: suvaidya
-ms.date: 05/11/2021
+manager: tfehr
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 5e1162133eec5a85675bf686855d420c50de0eaf045d81c4b417b6fe66ee19fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 68dc91db331c5214b5d0ad1109fa4e9bd9d0918e
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993171"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4728021"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Delo z osebnimi stroški v poročilu o stroških
 
@@ -26,15 +28,3 @@ Za delo z osebnimi stroški zaposlenega lahko uporabite dve metodi:
   - **Plača podjetje**: vaša organizacija plača celoten račun za kreditno kartico podjetja in nato bremeni račun delavca za osebne stroške.
 
 Način, ki ga vaša organizacija uporablja, lahko izberete na strani **Parametri upravljanja stroškov**.
-
-
-## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Omogočanje funkcije deljenih stroškov, če ima polje z osebnim zneskom določeno vrednost
-
-Funkcija **Omogočanje funkcije deljenih stroškov, če ima polje z osebnim zneskom določeno vrednost** velja samo za poročila o stroških, ki so odobrena s potekom dela na ravni vrstice. Poročila odobrite tako, da odprete zavihek **Obdelava poročila o stroških** > **Poročila o stroških, ki so mi dodeljena** > **Odpri poročilo o stroških**. 
-
-Če želite omogočiti to funkcijo, odprite zavihek **Delovni prostori** > **Upravljanje funkcij**, izberite možnost **Omogočanje funkcije deljenih stroškov, če ima polje z osebnim zneskom določeno vrednost** in nato **Omogoči zdaj**. 
-
-Ko je funkcija omogočena, vrstice stroškov, ki uporabljajo to funkcijo, ob oddaji poročila ustvarijo dve vrstici. Ustvarita se dve vrstici, tako da lahko odobritelj odobri vsako vrstico posebej.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

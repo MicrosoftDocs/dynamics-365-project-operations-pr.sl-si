@@ -2,17 +2,19 @@
 title: Novosti ali spremembe za marec 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji
 description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so bile na voljo v izdaji za poenostavljeno uvajanje Project Operations marca 2021 za scenarije, ki temeljijo na virih/produkciji.
 author: andchoi
+manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 804b5d1cc3392349fb6bcc81a91d69d0d9dc51da
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991191"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701975"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Novosti ali spremembe za marec 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji
 
@@ -121,7 +123,7 @@ V to izdajo so vključene naslednje funkcije:
 | Upravljanje projektov in računovodstvo | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Podedovana metoda razreda za strukturirano členitev dela (WBS), **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder**, je opuščena.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regulativne posodobitve
-Za informacije o regulativnih posodobitvah za aplikacije Finance and Operations glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates.md). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+Za informacije o regulativnih posodobitvah za aplikacije Finance and Operations glejte [Regulativne posodobitve](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

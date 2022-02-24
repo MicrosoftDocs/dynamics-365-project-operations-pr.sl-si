@@ -2,29 +2,30 @@
 title: Kopiranje projekta
 description: Ta tema vsebuje informacije o kopiranju projektov v aplikaciji Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 05/21/2021
+manager: AnnBe
+ms.date: 02/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007211"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479539"
 ---
 # <a name="copy-a-project"></a>Kopiranje projekta
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-V aplikaciji Dynamics 365 Project Operations lahko hitro gradite nove projekte tako, da na obrazcu **Projekti** izberete možnost **Kopiraj projekt**. Če želite kopirati projekt, odprite projekt, ki ga želite kopirati, in nato izberite možnost **Kopiraj projekt**. Dejanje bo kopiralo naslednje:
+V aplikaciji Dynamics 365 Project Operations lahko hitro gradite nove projekte tako, da na obrazcu **Projekti** izberete možnost **Kopiraj projekt**. Če želite kopirati projekt, odprite projekt, ki ga želite kopirati, in nato izberite možnost **Kopiraj projekt**. S tem dejanjem bodo kopirani naslednji elementi:
 
-- Lastnosti projekta 
+- Lastnosti projekta (predvideni datum začetka je kopiran iz izvornega projekta)
 - Strukturirana členitev dela
 - Člani projektne ekipe
 - Projektne ocene
 - Ocene stroškov projekta
-- Ocene materiala za projekt
 
 ## <a name="project-properties"></a>Lastnosti projekta
 
@@ -41,15 +42,11 @@ Pri kopiranju projekta se kopirajo vrednosti v naslednjih poljih:
 - Splošno stanje projekta
 - Pripombe
 - Ocene
-- Predvideni začetni datum: to je datum, ko je projekt ustvarjen iz kopije.
-- Predvideni končni datum: ta datum se prilagodi glede na začetni datum novega projekta, ki je bil narejen iz kopije.
+- Predvideni začetni datum
+- Datum zaključka
 - Obseg dela (ure)
-- Ocenjena cena dela
-- Ocenjena cena stroškov
-- Ocenjena vrednost »material – cena«
-
-> [!NOTE]
-> Kopiranje projekta je dolgotrajen postopek. Kopirajo se tudi projektni zapisi, njihovi ustrezni atributi in številne povezane entitete. Zaradi dolgotrajne narave postopka je po začetku kopiranja stran ciljnega projekta zaklenjena za urejanje, dokler postopek kopiranja ni končan.
+- Predvideni stroški dela
+- Predvideni stroški
 
 ## <a name="work-breakdown-structure"></a>Strukturirana členitev dela
 
@@ -61,7 +58,7 @@ Pri kopiranju projekta se kopira celotna struktura razčlenitve dela z naloženi
 
 ## <a name="estimates"></a>Ocene
 
-Ko je projekt kopiran, se iz izvornega projekta kopirajo vrstice virov, stroškov in ocene materiala. 
+Pri kopiranju projekta so iz izvornega projekta kopirane vrstice za oceno virov in stroškov. 
 
 Za informacije o programskem dostopu do programa Copy Project glejte razdelek [Razvijanje predlog projektov s programom Copy Project](dev-copy-project.md).
 

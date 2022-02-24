@@ -2,9 +2,11 @@
 title: Učinkovitost razporejanja projektnih virov
 description: Ta tema vsebuje informacije o tem, kako izboljšati učinkovitost razporejanja virov za veliko število projektov.
 author: Yowelle
+manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007301"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084739"
 ---
 # <a name="project-resource-scheduling-performance"></a>Učinkovitost razporejanja projektnih virov
 
@@ -67,6 +69,3 @@ Težave z učinkovitostjo, povezane z razporejanjem virov, se lahko pojavijo, ko
 
 > [!NOTE]
 > S tem se bo tabela **ResRollup** izpolnila s splošnimi podatki za vsa podjetja v vašem okolju, zato je treba paketno opravilo izvesti samo pri eni pravni osebi. To paketno opravilo je potrebno za vse poglede za **razpoložljivost virov**. Če se to paketno opravilo ne zažene, bodo podatki **ResRollup** bodo ustvarjeni sproti, kar lahko traja nekaj časa.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

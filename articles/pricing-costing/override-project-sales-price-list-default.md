@@ -2,17 +2,19 @@
 title: Preglasitev prodajnih cenikov za projekte
 description: Ta tema vsebuje informacije o ustvarjanju prodajnih cenikov po meri.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009596"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672251"
 ---
 # <a name="override-project-sales-price-lists"></a>Preglasitev prodajnih cenikov za projekte
 
@@ -50,6 +52,3 @@ Vsakega od teh cenikov lahko uporabite in posodobite cene dela (cena vloge) in c
 Pri projektni pogodbi so cene vedno privzete kot cenik po meri z imenom pogodbe in ustvarjenim žigom datuma in časa, ki je priložen imenu. To velja, ne glede na to, ali je bila pogodba ustvarjena, ko je bila ponudba pridobljena, ali če je bila pogodba ustvarjena povsem od začetka. Po potrebi lahko to povezavo s cenikom po meri odstranite in namesto tega s projektno pogodbo povežete standardni cenik.
 
 Ko standardni cenik povežete s ceniki za projekte na ponudbi ali pogodbi, bodo vse spremembe cen v ceniku vplivale na vse ponudbe in pogodbe, ki uporabljajo cenik.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

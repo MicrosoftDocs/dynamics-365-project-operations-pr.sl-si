@@ -2,10 +2,12 @@
 title: Zaračunavanje v storitvi Project Service Automation
 description: Ta tema vsebuje informacije o zaračunavanju.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985521"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151408"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Zaračunavanje v storitvi Project Service Automation
 
@@ -50,7 +52,7 @@ Na strani s seznamom **Projektne pogodbe** lahko ustvarite račune za projekt lo
 
 - Na strani s seznamom **Projektne pogodbe** odprite projektno pogodbo in nato izberite **Ustvari račun**.
 
-    ![Ustvarjanje računov za projekt za določeno projektno pogodbo.](media/CreateProjectInvoicesOneByOne.png)
+    ![Ustvarjanje računov za projekt za določeno projektno pogodbo](media/CreateProjectInvoicesOneByOne.png)
 
     Račun se ustvari za vse transakcije za izbrano projektno pogodbo s stanjem **Pripravljeno za izdajanje računov**. Te transakcije vključujejo čas, stroške, mejnike in podrobnosti pogodbe, ki temeljijo na izdelku.
 
@@ -58,7 +60,7 @@ Za množično ustvarjanje računov sledite spodnjim korakom.
 
 1. Na strani s seznamom **Projektne pogodbe** izberite eno ali več projektnih pogodb, za katere morate ustvariti račun, in nato izberite **Ustvari račune za projekt**.
 
-    ![Množično ustvarjanje računov za projekt.](media/CreateProjectInvoicesBulk.png)
+    ![Množično ustvarjanje računov za projekt](media/CreateProjectInvoicesBulk.png)
 
     Opozorilo vas obvešča, da lahko pride do zamude pri ustvarjanju računov. Prikazan je tudi postopek.
 
@@ -115,6 +117,3 @@ Ko potrdite korektivni račun, je prvotna obračunana dejanska prodaja storniran
 
 - Obračunana dejanska prodaja za šest ur.
 - Neobračunana dejanska prodaja za preostali dve uri. Ta transakcija je lahko obračunana pozneje ali označena kot transakcija, ki se ne zaračuna, odvisno od pogajanj s stranko.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

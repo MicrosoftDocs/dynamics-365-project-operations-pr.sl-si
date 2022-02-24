@@ -2,6 +2,8 @@
 title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 25, V3
 description: V tej temi so navedene funkcije in popravki, ki so na voljo za Project Service Automation V3, izdaja posodobitve 25.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/26/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9d8ac559be2c23396604c61caae83c8a5328869d76218c6d8b3b6a6a6b32c1eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aabee3fe755e33d2c0f01a96b6f53a68957bc041
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996591"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143801"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a>Novosti ali spremembe v izdaji posodobitve za Project Service Automation 25, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Z veseljem predstavljamo najnovejšo posodobitev za aplikacijo Project Service Automation za Dynamics 365. Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Ta izdaja je združljiva s storitvijo Dynamics 365 9.x. Če želite posodobiti na to izdajo, obiščite stran z rešitvami v skrbniškem središču za Dynamics 365 online, da namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).
+Z veseljem predstavljamo najnovejšo posodobitev za aplikacijo Project Service Automation za Dynamics 365. Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Ta izdaja je združljiva s storitvijo Dynamics 365 9.x. Če želite posodobiti na to izdajo, obiščite stran z rešitvami v skrbniškem središču za Dynamics 365 online, da namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Ta tema navaja funkcije in popravke, ki so novi ali spremenjeni za Project Service Automation, različica 3, izdaja posodobitve 25. Ta različica ima številko graditve V 3.10.43.76 in je na splošno na voljo s samoposodobitvijo oktobra 2020.
 
@@ -68,6 +70,3 @@ Odpravljene so naslednje težave:
 - Izboljšano obravnavanje napak za obravnavo izjeme sklica »Null«, ki jo je ustvaril **Kopiraj projekt: ocenjevanje upravljanja virov pomoči**.
 - Možnost **Ni pripravljeno za izdajanje računov** v možnosti **Nedokončana opravila obračunavanja časa in materiala** ne izbriše stanja obračunavanja.
 - Nepravilno označeni gumbi **Cene** na zavihku **Cena vloge** in **Katalog izdelkov** so popravljeni.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

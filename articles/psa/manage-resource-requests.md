@@ -2,6 +2,8 @@
 title: Upravljanje zahtev za vire
 description: Kako upravljati zahteve za vire v rešitvi Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985161"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149878"
 ---
 # <a name="manage-resource-requests-project-service"></a>Upravljanje zahtev za vire (Project Service)
 
@@ -43,12 +45,9 @@ Upravitelji kupcev in vodje projektov redno pošiljajo zahteve za vire za svoje 
   
    -   Kliknite **Filtriraj** za prikaz podokna **Filter**, v katerem lahko filtrirate rezultate glede na organizacijsko enoto, vlogo, znanje in druge atribute.  
   
-       ![Zaslon »Zahteve za vire« rešitve Project Service.](../psa/media/project-service-resource-request-screen.png "Zaslon »Zahteve za vire« rešitve Project Service")  
+       ![Zaslon »Zahteve za vire« rešitve Project Service](../psa/media/project-service-resource-request-screen.png "Zaslon »Zahteve za vire« rešitve Project Service")  
   
 3. V koledarju vira, ki ga želite rezervirati, izberite časovno obdobje za rezervacijo vira in nato kliknite **Rezerviraj**, da vir rezervirate, ali **Predlagaj rezervacijo**, da predlagate rezervacijo, ki jo odobri pošiljatelj zahtevka. Rezervacija vira je lahko okvirna ali veljavna.  
   
 ### <a name="see-also"></a>Glejte tudi  
  [Priročnik za upravitelje virov](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

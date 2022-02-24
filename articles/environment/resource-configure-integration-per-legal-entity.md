@@ -2,22 +2,24 @@
 title: Konfiguracija integracije storitve Project Operations po pravnih osebah
 description: Ta tema vsebuje informacije o nastavitvi integracije po pravnih osebah v storitvi Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999426"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122903"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfiguracija integracije storitve Project Operations po pravnih osebah 
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-Ta tema vsebuje postopna navodila za konfiguracijo aplikacije Dynamics 365 Project Operations za pravno osebo.
+Ta tema pojasnjuje korake, potrebne za konfiguracijo storitve Dynamics 365 Project Operations po pravnih osebah.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Omogočanje ključev funkcij v storitvi Dynamics 365 Finance
 
@@ -49,6 +51,3 @@ Vsaka pravna oseba, ki uporablja Project Operations v okviru storitve Dynamics 3
   - **Privzete vrednosti vrste obračunavanja**: Project Operations uporablja fiksni nabor privzetih vrednosti vrste obračunavanja, ki jih je treba preslikati v lastnosti vrstic storitve za finance. Ustvarite zapis za vsako vrsto obračunavanja: **Ni določeno**, **Se zaračuna**, **Se ne zaračuna**, **Brezplačno** in **Ni na voljo**.
   - **Privzete vrednosti za kategorije projektov**: izberite privzete kategorije projektov, ki se bodo uporabljale za vsako vrsto transakcije. Te privzete vrednosti se bodo uporabljale pri možnosti **Dnevnik integracij za Project Operations** in pri ocenah, kjer za dejanske vrednosti projekta ni določena nobena kategorija transakcij.
   - **Napovedi**: izberite model napovedi, ki se bo uporabljal za oceno časa in stroškov.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

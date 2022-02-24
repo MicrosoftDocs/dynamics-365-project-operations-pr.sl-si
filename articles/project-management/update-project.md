@@ -1,23 +1,23 @@
 ---
-title: Ustvarjanje in posodabljanje projekta
+title: Posodobitev projekta
 description: Ta tema vsebuje informacije o posodabljanju projektov v aplikacij Project Operations.
 author: ruhercul
-ms.date: 10/20/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
-ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
-ms.translationtype: MT
+ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7678369"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993391"
 ---
-# <a name="create-and-update-a-project"></a>Ustvarjanje in posodabljanje projekta
+# <a name="update-a-project"></a>Posodobitev projekta
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Sledi povzetek polj, ki jih je mogoče posodobiti v projektu, potem ko je bil ustvarjen. To vključuje tudi vse posledice, ki bi lahko sledile in temeljijo na teh posodobitvah.
+Spodaj je povzetek polj, ki jih je mogoče po projektu posodobiti, in morebitne posledice posodobitev.
 
 ## <a name="project-detail-fields"></a>Polja s predvidenimi vrednostmi projekta
 
@@ -25,8 +25,8 @@ Sledi povzetek polj, ki jih je mogoče posodobiti v projektu, potem ko je bil us
 - **Opis**: pregled projekta.
 - **Stranka**: podjetje, ki mu bo projekt dostavljen.
 - **Predloga koledarja**: delovni čas projekta. Ko se polje spremeni, se celotni urnik preračuna.
-- **Valuta**: valuto za projekt. Privzeta vrednost za to polje temelji na valuti, ki je definirana v pogodbeni enoti. Ko se pogodbena enota posodobi, se posodobi tudi polje.
-- **Pogodbena enota**: organizacijska enota, ki predstavlja skupino ali oddelek podjetja, ki je primarno odgovoren za izvedbo prodaje in upravljanje zagotavljanja dela in storitev za stranke.  Če organizacijska enota vodje projekta ni definirana, se to polje povrne na vrednost, definirano v parametrih projekta.
+- **Valuta**: valuto za projekt. To polje privzeto temelji na valuti, določeni v pogodbeni enoti. Ko se pogodbena enota posodobi, se posodobi tudi polje.
+- **Pogodbena enota**: organizacijska enota, ki predstavlja skupino ali oddelek podjetja, ki je primarno odgovoren za izvedbo prodaje in upravljanje zagotavljanja dela in storitev za stranke. 
 - **Vodja projekta**: član projektne skupine, ki je pooblaščen za pregled in odobritev časovnih vnosov in stroškov.
 
 ## <a name="estimate-fields"></a>Polja s predvidenimi vrednostmi

@@ -2,10 +2,12 @@
 title: Nastavitev polj po meri kot cenovnih razsežnosti
 description: Ta tema vsebuje informacije o nastavitvi cenovnih razsežnosti po meri.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002351"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150373"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Nastavitev polj po meri kot cenovnih razsežnosti 
 
@@ -41,11 +43,11 @@ Ta tema vsebuje informacije o nastavitvi cenovnih razsežnosti po meri. V spletn
 - ustvariti kot polje v entitetah **Cena vloge** in **Pribitek na ceno vloge**. Za več informacij o tem, kako to storite, glejte temo [Dodajanje polj po meri v entitete za nastavitev cene in transakcijske entitete](field-references.md).
 - ustvariti kot vrstico v tabeli **Cenovna razsežnost**. Vrstice cenovnih razsežnosti lahko na primer dodate tako, kot je prikazano na spodnji grafiki. 
 
-![Vrstice s cenovnimi razsežnostmi na podlagi zneska.](media/Amt-based-PD.png)
+![Vrstice s cenovnimi razsežnostmi na podlagi zneska](media/Amt-based-PD.png)
 
 V mrežo na zavihku **Cenovna razsežnost na podlagi pribitka** je bil dodan delovni čas vira (**msdyn_resourceworkhours**) kot ena od razsežnosti na podlagi pribitka.
 
-![Vrstice s cenovnimi razsežnostmi na podlagi pribitka.](media/Markup-based-PD.png)
+![Vrstice s cenovnimi razsežnostmi na podlagi pribitka](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Vse spremembe obstoječih ali novih podatkov o cenovnih razsežnostih v tej tabeli se razširijo na poslovno logiko za oblikovanje cen v storitvi Project Service, vendar šele po osvežitvi predpomnilnika. Osveževanje predpomnilnika lahko traja do 10 minut. V tem času bodo uvedene spremembe v logiko za privzeto oblikovanje cen, ki morajo izhajati iz sprememb podatkov o cenovnih razsežnostih.
@@ -73,7 +75,7 @@ Obstajata dve vrsti cenovnih razsežnosti:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso Indija|Na lokaciji            |                    |Nadure                 |15     |
 |             | Contoso Indija|Lokalno             |                    |Nadure                 |10     |
-|             | Contoso US   |Lokalno             |                    |Nadure                 |20     |
+|             | Contoso, ZDA   |Lokalno             |                    |Nadure                 |20     |
 
 
 Če vir iz Contoso Indija, katerega osnovna postavka je 100 USD, deluje na licu mesta in v časovni vnos zabeleži 8 ur rednega dela in 2 uri nadur, bo cenovni mehanizem storitve Project Service uporabil osnovno postavko v višini 100 za 8 ur in zabeležil 800 USD. Za 2 uri nadur se bo upošteval pribitek v višini 15 % na osnovno postavko 100, s čimer se bo cenovna enota zvišala na 115 USD, skupni strošek pa bo znašal 230 USD.
@@ -92,6 +94,3 @@ Določanje prioritete razsežnosti pomaga pri določanju cene v storitvi Project
 
 - **Cenovna prioriteta**: vrednost cenovne prioritete razsežnosti, ki določa težo razsežnosti pri ugotavljanju ujemanja z nastavljenimi lastnimi cenami. Vrednost **Cenovna prioriteta** mora biti enaka za vse razsežnosti, za katere velja, da jih je **Mogoče uporabiti za ceno**.
 - **Prodajna prioriteta**: vrednost prodajne prioritete razsežnosti, ki določa težo razsežnosti pri ugotavljanju ujemanja z nastavljenimi prodajnimi cenami ali obračunskimi stopnjami. Vrednost **Prodajna prioriteta** mora biti enaka za vse razsežnosti, za katere velja, da jih je **Mogoče uporabiti za prodajo**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

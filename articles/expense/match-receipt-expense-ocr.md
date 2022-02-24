@@ -2,9 +2,11 @@
 title: Zajem računa s tehnologijo OCR
 description: Ta tema vsebuje informacije o obdelavi z optičnim prepoznavanjem znakov (OCR) za potrdila.
 author: suvaidya
-ms.date: 11/10/2021
+manager: AnnBe
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
-ms.translationtype: MT
+ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798060"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499871"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Zajem računa s tehnologijo OCR
 
@@ -52,7 +54,7 @@ Za samodejno prilaganje potrdil, ki vključujejo transakcije s kreditnimi kartic
 
 ## <a name="installation"></a>Namestitev
 
-Če želite uporabiti te napredne zmožnosti stroškov, namestite dodatek Expense Management Service za Microsoft Dynamics 365 Finance in vklopite funkcije v svojem primeru. Do dodatka lahko dostopate iz svojega projekta v Microsoft Dynamics storitvah življenjskega cikla (LCS).
+Če želite uporabiti te napredne zmožnosti stroškov, namestite dodatek za storitev upravljanja stroškov za Microsoft Dynamics 365 Finance in vklopite funkcije v svojem primerku. Do dodatka lahko dostopate iz svojega projekta v Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Prijavite se v LCS in odprite želeno okolje.
 2. Odprite **Vse podrobnosti**.
@@ -73,7 +75,7 @@ Ko vklopite te funkcije, se zgodijo naslednja dejanja:
 - Dodana je nova postavka menija za vidljivost polja stroška.
 - Še vedno lahko odprete prejšnjo stran **Poročila o stroških**, tako da obiščete **Upravljanje stroškov > Moji stroški > Poročila o stroških**.
 - Poteki dela in morebitne odobritve vas še vedno vodijo na obstoječo stran s poročili o stroških.
-- Prejemki bodo obdelani prek Microsoft Azure Cognitive Services, metapodatki pa bodo ekstrahirani in dodani.
+- Potrdila bodo obdelana prek Microsoft Azure Cognitive Services ter metapodatki bodo izvlečeni in dodani.
 - Dodana je možnost, ki omogoča ustvarjanje poročila o stroških, ki vključuje ujemajoča se nepovezana potrdila.
 - Možnost, ki je dodana v poročila o stroških, vam omogoča, da iz potrdila ustvarite vrstico stroška ali poskušate poiskati ujemanje obstoječega potrdila z obstoječo vrstico stroška.
 
@@ -85,18 +87,7 @@ Ne, Microsoft je za storitev obdelave potrdil zgradil splošni model strojnega u
 
 **Kje je na voljo in obdelana ta funkcija?**
 
-Razpoložljivost te funkcije v različnih regijah je navedena v naslednji tabeli. Če vaša regija trenutno ni podprta, pošljite zahtevo za prednostno razpoložljivost storitve OCR v vaši regiji. 
-
-| Regija | Podprto                         |
-|--------|-----------------------------------|
-| ZDA    | Da                               |
-| Kanada    | Da                               |
-| Združeno kraljestvo     | Da                               |
-| AUS    | Da                               |
-| EU     | Delno. Samo angleški računi. |
-| Azija   | No                                |
-| Japonska  | No                                |
-| Afrika | No                                |
+Trenutno so podprte Združene države Amerike.
 
 **Kam gredo moja potrdila?**
 

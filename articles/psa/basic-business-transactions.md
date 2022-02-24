@@ -2,6 +2,8 @@
 title: Poslovne transakcije
 description: Ta tema vsebuje informacije o poslovnih transakcijah.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987546"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149923"
 ---
 # <a name="business-transactions"></a>Poslovne transakcije
 
@@ -88,7 +90,7 @@ Skupaj vam izvor transakcije in povezava transakcije pomagata spremljati odnose 
 
 Naslednji primer prikazuje običajno obdelavo časovnih vnosov v življenjskem ciklu projekta v PSA.
 
-> ![Obdelava časovnih vnosov v življenjskem ciklu projekta v aplikaciji Project Service.](media/basic-guide-17.png)
+> ![Obdelovanje časovnih vnosov v življenjskem ciklu projekta v aplikaciji Project Service](media/basic-guide-17.png)
  
 1. Pošiljanje časovnega vnosa povzroči ustvarjanje dveh vrstic dnevnika: eno za strošek in eno za neobračunano prodajo.
 2. Morebitna odobritev časovnega vnosa povzroči ustvarjanje dveh dejanskih vrednosti: eno za strošek in eno za neobračunano prodajo.
@@ -147,6 +149,3 @@ Spodnja tabela prikazuje zapise v entiteti povezave transakcije izvora za predho
 | Popravek osnutka računa       | GUID transakcije vrstice računa | Nadomeščanje          | msdyn_invoicelinetransaction | GUID obračunane prodaje            | Izvirnik           | msdyn_actual       |
 | Potrditev popravka računa     | GUID storniranja obračunane prodaje    | Storniranje          | msdyn_actual                 | GUID obračunane prodaje            | Izvirnik           | msdyn_actual       |
 | GUID novega dejanskega zneska neobračunane prodaje | Nadomeščanje                     | msdyn_actual       | GUID obračunane prodaje            | Izvirnik                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

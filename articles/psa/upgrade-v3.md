@@ -1,7 +1,9 @@
 ---
-title: Vidiki nadgradnje – Microsoft Dynamics 365 Project Service Automation različice 2.x ali 1.x na različico 3
+title: Vidiki nadgradnje – Microsoft Dynamics 365 Project Service Automation različice 2.x ali 1.x na različico 3
 description: V tej temi so na voljo informacije o vidikih, ki jih morate upoštevati pri nadgradnji storitve Project Service Automation različice 2.x ali 1.x na različico 3.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -16,12 +18,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000101"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144201"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Vidiki nadgradnje – nadgradnja storitve PSA različice 2.x ali 1.x na različico 3
 
@@ -35,7 +37,7 @@ Storitvi Dynamics 365 Project Service Automation in Dynamics 365 Field Service u
 ## <a name="resource-assignments"></a>Dodelitve virov
 Dodelitve opravil so bile v rešitvi Project Service Automation različic 2 in 1 shranjene kot podrejena opravila (imenovana tudi opravila vrstice) v polju **Entiteta opravila** in neposredno povezane z entiteto **Dodelitev vira**. Opravilo vrstice je bilo prikazano v pojavnem oknu dodelitev v strukturirani členitvi dela (SČD).
 
-![Opravila vrstice v SČD v storitvi Project Service Automation različice 2 in različice 1.](media/upgrade-line-task-01.png)
+![Opravila vrstice v SČD v storitvi Project Service Automation različice 2 in različice 1](media/upgrade-line-task-01.png)
 
 V storitvi Project Service Automation različice 3 je spremenjena temeljna shema za dodeljevanje virov, ki jih je mogoče rezervirati, opravilom. Opravilo vrstice je zastarelo in neposredno razmerje med opravilom v polju **Entiteta opravila** in članom ekipe v entiteti **Dodelitev vira** je 1:1. Opravila, ki so dodeljena članu projektne ekipe, so zdaj shranjena neposredno v entiteti dodelitve virov.  
 
@@ -46,26 +48,26 @@ S temeljno entiteto opravila so opravila v različici 2 in različici 1 članom 
 
 Če ste vir dodelili opravilu zunaj privzete vloge v različici 2 in različici 1, bo imenovani vir po nadgradnji dodeljen privzeti vlogi za vse dodelitve opravil ne glede na dodelitev vloge v različici 2. Ta dodelitev bo privedla do različnih izračunanih ocen v različici 2 ali različici 1 ter različici 3, ker se ocene izračunajo na podlagi vloge vira in ne na podlagi dodelitve opravila vrstice. V različici 2 sta na primer bili dve opravili dodeljeni Ani Breznik. Vloga v opravilu vrstice za opravilo 1 je »Razvijalec«, za opravilo 2 pa »Upravitelj programa«. Ana Breznik ima privzeto vlogo »Upravitelj programa«.
 
-![Več vlog, dodeljenih enemu viru.](media/upgrade-multiple-roles-02.png)
+![Več vlog, dodeljenih enemu viru](media/upgrade-multiple-roles-02.png)
 
 Ker se vlogi razvijalca in upravitelja programa razlikujeta, so ocene stroškov in prodaje naslednje:
 
-![Ocene stroškov za vloge virov.](media/upggrade-cost-estimates-03.png)
+![Ocene stroškov za vloge virov](media/upggrade-cost-estimates-03.png)
 
-![Ocene prodaje za vloge virov.](media/upgrade-sales-estimates-04.png)
+![Ocene prodaje za vloge virov](media/upgrade-sales-estimates-04.png)
 
 Ko nadgradite na različico 3, bodo opravila vrstice zamenjana z dodelitvami virov v opravilu člana ekipe vira, ki ga je mogoče rezervirati. Dodelitev bo uporabila privzeto vlogo vira, ki ga je mogoče rezervirati. Na naslednjem grafičnem prikazu je vir Ana Breznik, ki ima vlogo upravitelja programa.
 
-![Dodelitev virov.](media/resource-assignment-v2-05.png)
+![Dodelitve virov](media/resource-assignment-v2-05.png)
 
 Ker ocene temeljijo na privzeti vlogi za vir, se lahko ocene prodaje in stroškov spremenijo. Naslednji grafični prikaz ne vključuje vloge **Razvijalec**, ker je vloga zdaj izbrana glede na privzeto vlogo vira, ki ga je mogoče rezervirati.
 
-![Ocene stroškov za privzete vloge.](media/resource-assignment-cost-estimate-06.png)
-![Ocene prodaje za privzete vloge.](media/resource-assignment-sales-estimate-07.png)
+![Ocene stroškov za privzete vloge](media/resource-assignment-cost-estimate-06.png)
+![Ocene prodaje za privzete vloge](media/resource-assignment-sales-estimate-07.png)
 
 Ko je nadgradnja dokončana, lahko izberete vlogo člana ekipe, ki ni privzeto dodeljena. Če pa spremenite vlogo člana ekipe, se bo spremenila pri vseh njegovih dodeljenih opravilih, ker članom ekipe v različici 3 ni dovoljeno dodeljevati več vlog.
 
-![Posodobitev vloge vira.](media/resource-role-assignment-08.png)
+![Posodobitev vloge vira](media/resource-role-assignment-08.png)
 
 To velja tudi za opravila vrstice, ki so bila dodeljena poimenovanim virom, ko privzeto organizacijsko enoto vira spremenite v drugo organizacijsko enoto. Ko je nadgradnja na različico 3 dokončana, bo dodelitev uporabila privzeto organizacijsko enoto vira namesto tiste, ki je nastavljena v opravilu vrstice.
 
@@ -81,33 +83,30 @@ Pred nadgradnjo priporočamo, da znova ustvarite ekipo za vsak projekt, ki ima o
 
 Pri opravilih, dodeljenih splošnim članom ekipe, ki so bila ustvarjena s funkcijo **Ustvari ekipo**, bo z nadgradnjo ohranjen splošni vir v ekipi in dodelitev temu splošnemu članu ekipe. Priporočamo, da ustvarite zahtevo vira za splošnega člana ekipe po posodobitvi, vendar pred rezervacijo ali pošiljanjem zahteve za vir. Tako bodo ohranjene vse dodelitve organizacijskih enot pri splošnih članih ekipe, ki se razlikujejo od pogodbene organizacijske enote projekta.
 
-Pri projektu Projekt Z je na primer pogodbena organizacijska enota Contoso US. V načrtu projekta je bilo preizkušanje opravil na uvajalni stopnji dodeljeno vlogi Tehnični svetovalec, dodeljena organizacijska enota pa je bila Contoso India.
+Pri projektu Projekt Z je na primer pogodbena organizacijska enota Contoso US. V načrtu projekta je bilo preizkušanje opravil na uvajalni stopnji dodeljeno vlogi »Tehnični svetovalec« in dodeljena organizacijska enota je bila Contoso India.
 
-![Dodelitev organizacije na uvajalni stopnji.](media/org-unit-assignment-09.png)
+![Dodelitev organizacije na uvajalni stopnji](media/org-unit-assignment-09.png)
 
-Po uvajalni stopnji je opravilo preizkusa integracije dodeljeno vlogi Tehnični svetovalec, vendar je organizacijska enota nastavljena na Contoso US.  
+Po uvajalni stopnji je opravilo preizkusa integracije dodeljeno vlogi »Tehnični svetovalec«, toda organizacijska enota je nastavljena na Contoso US.  
 
-![Dodelitev organizacijske enote za opravilo preizkusa integracije.](media/org-unit-generate-team-10.png)
+![Dodelitev organizacijske enote za opravilo preizkusa integracije](media/org-unit-generate-team-10.png)
 
 Ko ustvarite ekipo za projekt, sta zaradi različnih organizacijskih enot v opravilih ustvarjena dva splošna člana ekipe. Tehničnemu svetovalcu 1 bodo dodeljena opravila enote Contoso India, tehničnemu svetovalcu 2 pa opravila enote Contoso US.  
 
-![Ustvarjeni splošni člani ekipe.](media/org-unit-assignments-multiple-resources-11.png)
+![Ustvarjeni splošni člani ekipe](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > Član ekipe v storitvi Project Service Automation različice 2 in različice 1 ne nadzira organizacijske enote, ki je vzdrževana v opravilu vrstice.
 
-![Opravila vrstice v storitvi Project Service Automation različice 2 in različice 1.](media/line-tasks-12.png)
+![Opravila vrstice v storitvi Project Service Automation različice 2 in različice 1](media/line-tasks-12.png)
 
 Organizacijsko enoto si lahko ogledate v pogledu ocen. 
 
-![Ocene organizacijskih enot.](media/org-unit-estimates-view-13.png)
+![Ocene organizacijskih enot](media/org-unit-estimates-view-13.png)
  
 Ko je nadgradnja dokončana, je organizacijska enota v opravilu vrstice, ki ustreza splošnemu članu ekipe, dodana splošnemu članu ekipe in opravilo vrstice je odstranjeno. Zaradi tega priporočamo, da pred nadgradnjo ustvarite ali znova ustvarite ekipo za vsak projekt, ki vsebuje splošne vire.
 
-Pri opravilih, ki so dodeljena vlogi z organizacijsko enoto, ki se razlikuje od organizacijske enote pogodbenega projekta, in za katere skupina ni ustvarjena, bo z nadgradnjo ustvarjen splošni član ekipe za vlogo, pogodbena enota projekta pa bo uporabljena kot organizacijska enota člana ekipe. Če se sklicujemo na primer s Projektom Z, so pogodbena organizacijska enota Contoso US in opravila preizkusa iz načrta projekta na uvajalni stopnji dodeljena vlogi Tehnični svetovalec z dodeljeno organizacijsko enoto Contoso India. Opravilo preizkusa integracije, ki je bilo dokončano po uvajalni stopnji, je bilo dodeljeno vlogi »Tehnični svetovalec«. Organizacijska enota je Contoso US in ekipa ni bila ustvarjena. Z nadgradnjo bo ustvarjen en splošni član ekipe, tehnični svetovalec, ki ima dodeljene ure vseh treh opravil, in organizacijska enota Contoso US, ki je pogodbena organizacijska enota projekta.   
+Pri opravilih, ki so dodeljena vlogi z organizacijsko enoto, ki se razlikuje od organizacijske enote pogodbenega projekta, in za katere skupina ni ustvarjena, bo z nadgradnjo ustvarjen splošni član ekipe za vlogo, pogodbena enota projekta pa bo uporabljena kot organizacijska enota člana ekipe. Če se sklicujemo na primer s Projektom Z, so pogodbena organizacijska enota Contoso US in opravila preizkusa iz načrta projekta na uvajalni stopnji bila dodeljena vlogi »Tehnični svetovalec« z dodeljeno organizacijsko enoto Contoso India. Opravilo preizkusa integracije, ki je bilo dokončano po uvajalni stopnji, je bilo dodeljeno vlogi »Tehnični svetovalec«. Organizacijska enota je Contoso US in ekipa ni bila ustvarjena. Z nadgradnjo bo ustvarjen en splošni član ekipe, tehnični svetovalec, ki ima dodeljene ure vseh treh opravil, in organizacijska enota Contoso US, ki je pogodbena organizacijska enota projekta.   
  
 Zaradi spreminjanja privzetih vrednosti različnih organizacijskih enot virov pri neustvarjenih članih ekipe priporočamo, da pred nadgradnjo ustvarite ali znova ustvarite ekipo za vsak projekt, ki vsebuje splošne vire, tako da dodelitve organizacijskih enot ne bodo izgubljene.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

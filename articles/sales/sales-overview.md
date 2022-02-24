@@ -2,23 +2,24 @@
 title: Pregled prodajnega procesa
 description: V tej temi so na voljo informacije o osnovnih prodajnih postopkih.
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991866"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177621"
 ---
 # <a name="sales-process-overview"></a>Pregled prodajnega procesa
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Prodajni postopki, ki se uporabljajo v organizaciji, v kateri poslovanje poteka na podlagi projektov, se razlikujejo od prodajnih postopkov, ki se uporabljajo v organizaciji, v kateri poslovanje poteka na podlagi izdelkov. To pa zato, ker so prodajni cikli za organizacije, v katerih poslovanje poteka na podlagi projektov, daljši in zahtevajo prilagojene tehnike ocenjevanja za analiziranje in ustvarjanje ponudb za vsak posel. Aplikacija Dynamics 365 Project Operations uporablja nekaj naslednjih funkcij, ki se uporabljajo v prodajnem postopku:
+Prodajni postopki, ki se uporabljajo v organizaciji, v kateri poslovanje poteka na podlagi projektov, se razlikujejo od prodajnih postopkov, ki se uporabljajo v organizaciji, v kateri poslovanje poteka na podlagi izdelkov. To pa zato, ker so prodajni cikli za organizacije, v katerih poslovanje poteka na podlagi projektov, daljši in zahtevajo prilagojene tehnike ocenjevanja za analiziranje in ustvarjanje ponudb za vsak posel. Dynamics 365 Project Operations uporablja nekatere iste naslednje funkcije, ki so uporabljene v prodajnem postopku:
 
 - Zapis možne stranke se uporablja za spremljanje prodajnega postopka.
 - Potrjevanje možnih strank se beleži kot priložnosti.
@@ -62,6 +63,3 @@ V storitvi Project Operations ni mogoče slediti popravkom, ki so izvedeni v pon
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Sledenje komentarjem in odobritvam ponudb in projektnih pogodb
 Pregled in odobritev ponudb in projektnih pogodb lahko upravljate z zidom z zapisi in objavami. Vaša organizacija lahko ustvari poteke dela in vtičnike po meri za dodeljevanje, preusmerjanje, stopnjevanje in upravljanje obvestil o pregledu in odobritvi delovnih nalogov.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

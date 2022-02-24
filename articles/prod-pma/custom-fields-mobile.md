@@ -2,9 +2,11 @@
 title: Vključevanje polj po meri za mobilno aplikacijo Microsoft Dynamics 365 Project Timesheet v sistemih iOS in Android
 description: Ta tema ponuja skupne vzorce za uporabo razširitev za vključevanje polj po meri.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005771"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271013"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Vključevanje polj po meri za mobilno aplikacijo Microsoft Dynamics 365 Project Timesheet v sistemih iOS in Android
 
@@ -153,13 +155,13 @@ Pri poljih vrste **Datum** ta lastnost posreduje vrednost datuma za polje med st
 
 Spodaj je posnetek zaslona iz mobilne aplikacije, ki prikazuje ustvarjanje vnosa v časovni list. Prikazuje vnaprej pripravljena polja in polje po meri v razdelku »Časovni vnos«, imenovano »Preizkusni niz«, z že nastavljeno vrednostjo oštevilčenja »Druga možnost«.
 
-![Polje po meri »Preizkusni niz« v aplikaciji.](media/timesheet-entry.jpg)
+![Polje po meri »Preizkusni niz« v aplikaciji](media/timesheet-entry.jpg)
 
 
 
 Spodaj je posnetek zaslona iz mobilne aplikacije uporabnika, ki izbere eno od možnosti oštevilčevanja, ki je na voljo za polje po meri »Preizkusni niz«.  Možnosti, prikazani kot izbirna gumba, sta »Prva možnost« in »Druga možnost«. Trenutno je izbrana druga možnost.
 
-![Nabor možnosti (izbirni gumbi) za polje po meri »Preizkusni niz«.](media/enum-option.jpg)
+![Izbirna gumba za polje po meri »Preizkusni niz«](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ Upoštevajte, da polja po meri ne potrebujejo rezervnih zapisov zbirke podatkov.
 
 Spodaj je posnetek zaslona drevesa predmetov aplikacije iz aplikacije Visual Studio. Prikazuje razširitev tabele TSTimesheetLine s poljem TestLineString, ki je dodano kot polje po meri.
 
-![Niz vrstice.](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Niz vrstice](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Uporaba niza ukazov v metodi buildCustomFieldList razreda TSTimesheetSettings za prikaz polja v razdelku za vnos v časovni list
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 Spodaj je posnetek zaslona iz mobilne aplikacije, ki prikazuje časovni list. V zgornjem desnem kotu je bil izbran gumb »Več informacij« za prikaz možnosti »Prikaži več podrobnosti«.  
 
-![Ukaz »Prikaži več podrobnosti«.](media/show-more.png)
+![Ukaz »Prikaži več podrobnosti«](media/show-more.png)
 
 Spodaj je posnetek zaslona iz mobilne aplikacije, ki prikazuje razdelek »Več« na časovnem listu. Polje po meri, imenovano »Stopnja izkoristka tega časovnega lista (izračunano polje po meri)«, je bilo dodano v odsek glave časovnega lista. V polju po meri je nastavljena vrednost samo za branje »0,667«.
 
-![Razdelek »Več«.](media/more-section.jpg)
+![Razdelek »Več«](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Razširitev tabele TSTimesheetTable, tako da ima polje po meri
 
@@ -414,7 +416,7 @@ Obstoječa logika za funkcije časovnega lista na ravni zbirke podatkov bo še v
 
 Iz parametrov projekta lahko v mobilni aplikaciji označite vnaprej pripravljena polja samo za branje ali jih skrijete. Nastavite možnosti v razdelku **Mobilni časovni listi** na zavihku **Časovni list** na strani **Vodenje projektov in računovodski parametri**.
 
-![Parametri projekta.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Projektni parametri](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Spreminjanje dejavnosti, ki so na voljo za izbiro prek razširitev
 

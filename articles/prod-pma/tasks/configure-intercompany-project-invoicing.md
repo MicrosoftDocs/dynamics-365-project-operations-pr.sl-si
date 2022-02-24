@@ -2,9 +2,11 @@
 title: Konfiguriranje zaračunavanja projektov med podjetji
 description: V tej temi je prikazano, kako nastavite zaračunavanje projektov med dvema podjetjema v vaši organizaciji.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfb804945d15476fad29ce93d3f21adfbf2d950ace7b58f30911b36e494ff0c1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989436"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084815"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konfiguriranje zaračunavanja projektov med podjetji
 
@@ -62,6 +64,3 @@ V tej temi je prikazano, kako nastavite zaračunavanje projektov med dvema podje
 32. Vnesite številko v polje **Oblikovanje cen**.
 33. Izberite **Shrani**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

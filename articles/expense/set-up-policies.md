@@ -2,9 +2,11 @@
 title: Opredelitev pravilnikov o stroških
 description: Opredelite lahko pravilnike o stroških, ki jih morajo vaši delavci upoštevati, ko vnašajo in predložijo poročila o stroških in zahteve za pot.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986376"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128438"
 ---
 # <a name="define-expense-policies"></a>Opredelitev pravilnikov o stroških
 
@@ -51,6 +53,3 @@ Tu je nekaj predlogov, ki vam lahko pomagajo pri ustvarjanju novih pravilnikov z
 ## <a name="when-to-evaluate-policies"></a>Kdaj oceniti pravilnike
 
 V parametrih upravljanja stroškov lahko izberete, da ocenite pravilnike upravljanja stroškov, ko se vrstica shrani ali ko se predloži poročilo o stroških. Če se odločite, da boste ocenili, ko je vrstica shranjena, bodo uporabniki prej videli, kaj morajo storiti, da naenkrat izpolnijo poročilo o stroških. V nasprotnem primeru lahko odložite oceno pravilnika in prihranite čas s preverjanjem na koncu med predložitvijo v potek dela.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

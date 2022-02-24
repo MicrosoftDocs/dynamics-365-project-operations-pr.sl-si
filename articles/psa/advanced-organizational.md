@@ -2,6 +2,8 @@
 title: Organizacijske enote
 description: Ta tema vsebuje informacije o organizacijskih enotah v aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005096"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145649"
 ---
 # <a name="organizational-units"></a>Organizacijske enote 
 
@@ -53,7 +55,7 @@ Organizacijska enota ima v PSA dve vlogi:
 - **Pogodbena enota** – organizacijska enota, ki predstavlja skupino ali oddelek podjetja, ki je primarno odgovoren za izvedbo prodaje in upravljanje zagotavljanja dela in storitev za stranke. Pogodbena enota je identificirana s poljem **Pogodbena enota** v razdelku glave na straneh **Priložnost**, **Ponudba**, **Projektna pogodba** in **Projekt**.
 - **Enota vira** – organizacijska enota, ki ji pripada vir ali ji je dodeljen. Ta organizacijska enota lahko zagotovi svoje vire za nekatere vloge za nekatere vloge v izjavah o delu (SOW) in projektih, ki so v lasti pogodbene enote.
 
-> ![Pogodbene enote in enote vira.](media/advanced-1.png)
+> ![Pogodbene enote in enote za vire](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Pogosta vprašanja o organizacijskih enotah
 
@@ -84,7 +86,7 @@ Tukaj je optimalen način za obravnavo tega scenarija z uporabo Dynamics 365 in 
 1. Oddelek za Microsoftove tehnologije ustvarite kot poslovno enoto in z njo povežite Martina in Nino. Na ta način zagotovite, da imata oba zaposlena enako varnostno raven za dostop do vseh projektov na tem področju delovanja. Oba bosta lahko spremljala napredek in prijavljala čas, stroške in posodobitve o opravilih. 
 2. Ustvarite dve organizacijski enoti, s katerima zagotovite, da se stroški za projekt pravilno obračunajo. 
 3. Nino povežite v Contoso ZDA, Martina pa v Contoso Indija.
-4. Vsaki organizacijski enoti dodelite ustrezne cenike z lastnimi cenami. S tem zagotovite, da stroški, ki so zabeleženi za projekt za Martina in Nino natančno odražajo razliko v cenah med podružnicama Contoso ZDA in Contoso Indija.
+4. Vsaki organizacijski enoti dodelite ustrezne cenike z lastnimi cenami. S tem zagotovite, da stroški, ki so zabeleženi o okviru projekta za Martina in Nino natančno odražajo razliko v cenah med podružnicama Contoso ZDA in Contoso Indija.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Ali so organizacijske enote v Dynamics 365 povezane s prodajnimi območji?
 
@@ -122,7 +124,7 @@ Ne. V trenutni izdaji aplikacije PSA organizacijske enote niso hierarhične. To 
 Če imate kompleksno hierarhijo stroškovnih centrov, oddelkov, obračunskih pisarn itd., nastavite listna vozlišča v tej hierarhiji kot ločene organizacijske enote.
 Ta primer prikazuje običajno hierarhijo:
 
-**ContosoIndija**
+**Contoso Indija**
 
   - Oddelek za SAP 
 
@@ -134,7 +136,7 @@ Ta primer prikazuje običajno hierarhijo:
     - Tehnični svetovalci
     - Svetovalci za funkcionalnosti 
     
-**Contoso ZDA**
+**Contoso, ZDA**
 
  - Oddelek za SAP 
 
@@ -165,6 +167,3 @@ Ta primer prikazuje običajno hierarhijo:
 Ko je projekt ustvarjen samostojno, privzeta pogodbena enota projekta odvisna od uporabnika, ki ga ustvari. Ta uporabnik je tudi privzeti vodja projekta. Če je projekt preslikan v prodajno entiteto, kot je ponudba ali projektna pogodba, pa je pogodbena enota projekta odvisna od prodajne entitete. V tem primeru se lahko ocene za projekt znova izračunajo, ker se cenik z lastnimi cenami, uporabljen za izračun ocenjene cene spremeni, če je spremenjena pogodbena enota. Prodajni cenik se uporablja za izračun ocen prodaje, ki bodo spremenjene tako, da bodo usklajene s cenikom projekta v ponudbi.
 
 Polji **Pogodbena enota** in **Valuta** v projektu so zaklenjeni in ju ni mogoče urejati, ker morata biti usklajeni z vrednostmi v prodajni entiteti (ponudbi ali projektni pogodbi), v katero je projekt preslikan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

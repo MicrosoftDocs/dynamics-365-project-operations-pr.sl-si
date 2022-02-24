@@ -2,6 +2,8 @@
 title: Razporejanje virov za projekt
 description: Kako razporejati vire za projekt v rešitvi Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998166"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150463"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Razporejanje virov za projekt (Project Service)
 
@@ -33,7 +35,7 @@ Preverite lahko razpoložljivost virov za hiter pregled nad rezerviranostjo vaš
   
 Na plošči razporeda je prikazan seznam virov in njihova razpoložljivost. Izberite način pogleda za prikaz razpoložljivosti glede na **Ure**, **Dan**, **Teden** ali **Mesec**.  
   
-Preden uporabite ploščo razporeda, je pomembno, da jo nastavite. Za več informacij glejte [Konfiguriranje plošče razporeda (storitve Field Service ali storitve Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
+Preden uporabite ploščo razporeda, je pomembno, da jo nastavite. Za več informacij glejte [Konfiguriranje plošče razporeda (storitve Field Service ali storitve Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
 Če uporabljate starejšo različico, za razpoložljivost virov glejte [Ogled razpoložljivosti virov](../psa/view-resource-availability.md).  
 
@@ -81,6 +83,3 @@ Preden uporabite ploščo razporeda, je pomembno, da jo nastavite. Za več infor
   
 ### <a name="additional-resources"></a>Dodatni viri  
  [Priročnik za upravitelje virov](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

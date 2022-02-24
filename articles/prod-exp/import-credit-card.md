@@ -2,9 +2,11 @@
 title: Uvoz in vzdrževanje transakcij s kreditnimi karticami
 description: V tej temi je pojasnjeno, kako uvoziti in vzdrževati transakcije s kreditnimi karticami, povezane s stroški. Te transakcije lahko nastavite tako, da se samodejno uvozijo v rednem intervalu, ali pa jih po potrebi ročno uvozite.
 author: KimANelson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -16,18 +18,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995871"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271598"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Uvoz in vzdrževanje transakcij s kreditnimi karticami
 
 Transakcije s kreditnimi karticami, povezane s stroški, lahko nastavite tako, da se samodejno uvozijo po ponavljajočem se urniku. Lahko pa transakcije uvozite tudi ročno, kot so potrebne. Transakcije s kreditnimi karticami se uvažajo prek podatkovne entitete za transakcije s kreditnimi karticami.
 
-Za več informacij o podatkovnih entitetah glejte [Podatkovne entitete](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Za več informacij o podatkovnih entitetah glejte [Podatkovne entitete](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Uvoz transakcij s kreditnimi karticami
 

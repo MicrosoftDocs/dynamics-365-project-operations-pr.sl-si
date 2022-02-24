@@ -2,6 +2,8 @@
 title: Pregled nedokončanih opravil za izdajo računov pri projektih in projektnih pogodbah
 description: Ta tema vsebuje informacije o tem, kako pregledati nedokončana opravila za čas, stroške in izdelke in kako jih označiti kot pripravljene za izdajo računa.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006986"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150508"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Pregled nedokončanih opravil za izdajo računov pri projektih in projektnih pogodbah
 
@@ -40,7 +42,7 @@ Dejanski nezaračunani zneski prodaje predstavljajo nedokončana opravila obrač
 
 Če želite pregledati nezaračunana opravila obračunavanja za čas in materiale, odprite možnost **Prodaja** \> **Obračunavanje** \> **Nedokončana opravila obračunavanja časa in materiala**. Izberite vse dejanske nezaračunane zneske prodaje, ki so pripravljeni za izdajo računa, in nato izberite možnost **Pripravljeno za izdajanje računov**. Stanje obračunavanja teh dejanskih zneskov se bo spremenilo v **Pripravljeno na izdajanje računov**.
 
-![Nedokončana opravila obračunavanja časa in materiala.](media/TMBacklog.png)
+![Nedokončana opravila obračunavanja časa in materiala](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Pregled nedokončanih opravil obračunavanja izdelkov
 
@@ -48,7 +50,7 @@ Dejanski nezaračunani zneski prodaje predstavljajo nedokončana opravila obrač
 
 Če želite pregledati nedokončana opravila obračunavanja izdelkov, pojdite v **Prodaja** \> **Obračunavanje** \> **Nedokončana opravila obračunavanja izdelkov**. Izberite vse podrobnosti pogodbe na podlagi izdelka, ki so pripravljene za izdajo računa, in nato izberite možnost **Pripravljeno za izdajanje računov**. Stanje obračunavanja teh podrobnosti se bo spremenilo v **Pripravljeno na izdajanje računov**.
 
-![Nedokončana opravila obračunavanja izdelkov.](media/ProductBacklog.png)
+![Nedokončana opravila obračunavanja izdelkov](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Pregled mejnikov obračunavanja za pogodbe s fiksno ceno
 
@@ -56,7 +58,4 @@ Vsaka podrobnost projektne pogodbe, ki uporablja način obračunavanja s fiksno 
 
 Če želite pregledati mejnike obračunavanja, odprite možnost **Prodaja** \> **Obračunavanje** \> **Mejniki s fiksno ceno**. Izberite mejnike, ki so pripravljeni za izdajo računa, in nato izberite možnost **Pripravljeno za izdajanje računov**. Stanje obračunavanja teh mejnikov se bo spremenilo v **Pripravljeno na izdajanje računov**.
 
-![Mejniki s fiksno ceno.](media/FPBacklog.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Mejniki s fiksno ceno](media/FPBacklog.png)

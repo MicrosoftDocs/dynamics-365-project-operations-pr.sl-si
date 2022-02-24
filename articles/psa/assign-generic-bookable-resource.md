@@ -2,6 +2,8 @@
 title: Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in projektni ekipi
 description: Ta tema vsebuje informacije o rezervaciji splošnih virov za opravila in projektne ekipe.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9a81d7242e78dafad871bb07c03459f1de21884d196c6ee7dd9619b2c410404
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 684167f0a68872ef871fbaa06c5161e78045c9a5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007121"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145423"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in ustvarjanje pogojev za vir 
 
@@ -33,21 +35,21 @@ Poleg rezervacije in dodeljevanja imenovanih ali pravih virov za projekt lahko p
 
 1. V aplikaciji Project Service Automation (PSA) odprite stran **Projekt** in na zavihku **Načrtovanje** urnik vnesite ime položaja splošnega vira v celico razporeda **Vir**. Lahko pa v celici kliknete ikono **Vir**, da se odpre izbirnik za vire in nato vnesete ime splošnega vira,ki ga želite ustvariti.
 
-![Ustvarjanje in dodeljevanje splošnega člana ekipe.](media/RM-how-to-9.png)
+![Ustvarjanje in dodeljevanje splošnega člana ekipe](media/RM-how-to-9.png)
 
 Odpre se plošča **Hitro ustvarjanje: član projektne ekipe**. 
 
 2. Vnesite vlogo in organizacijsko enoto splošnega člana ekipe virov in kliknite **Shrani**.
 
-![Hitro ustvarjanje splošnega člana ekipe.](media/RM-how-to-10.png)
+![Hitro ustvarjanje splošnega člana ekipe](media/RM-how-to-10.png)
 
 3. Ko ustvarite novega splošnega člana ekipe virov, se dodeli opravilu. Ta splošni vir lahko nato dodelite tudi drugim opravilom v razporedu opravil.
 
-![Dodeljevanje obstoječega splošnega člana ekipe k opravilom.](media/RM-how-to-11.png)
+![Dodeljevanje obstoječega splošnega člana ekipe opravilom](media/RM-how-to-11.png)
 
 4. Ko dodelite splošen vir, lahko ustvarite zahtevo za vir in jo izpolnite tako, da neposredno rezervirate ali pošljete zahtevo za vir upravitelju virov.
 
-![Ustvarjanje zahteve za splošnega člana ekipe.](media/RM-how-to-12.png)
+![Ustvarjanje zahteve za splošnega člana ekipe](media/RM-how-to-12.png)
 
 Poleg uporabe zgoraj omenjenega izbirnika virov lahko na mreži člana ekipe tudi neposredno dodajate splošne vire. Sredstva se dodajo z zahtevo za vir, ki temelji na začetnem/končnem datumih in metodi dodelitve, določeni v **hitrem ustvarjanju: panel člana** projektne skupine.
 
@@ -55,8 +57,5 @@ Razliko lahko vidite, če neposredno dodate splošnega člana ekipe in nato splo
 
 Na mreži ekipe lahko kliknete tudi **Zahtevani pogoj za vir**, da se odpre zahteva, nato dodate znanja, prednostne vire itd.
 
-![Zahteva za vir.](media/RM-how-to-13.png)
+![Zahtevani pogoj za vir](media/RM-how-to-13.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,11 @@
 ---
 title: Nadgradnja domače strani
 description: Ta tema vsebuje informacije o tem, kje najdete pomembne informacije o novih in spremenjenih funkcijah aplikacije Dynamics 365 Project Service Automation, in o postopku za nadgradnjo na najnovejšo različico.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -18,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006761"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150103"
 ---
 # <a name="upgrade-home-page"></a>Nadgradnja domače strani
 
@@ -64,6 +65,3 @@ Od 1. marca 2020 stranke storitve Dynamics PSA ne bodo več mogle ustvarjati n
 
 > [!NOTE]
 > Za najboljšo izkušnjo pri uporabi starejših različic storitev Field Service in PSA, pojdite na stran **Sistemske nastavitve** in v polju **Uporabi samo nov poenoteni vmesnik (priporočeno)** izberite **Ne**, saj te različice niso zasnovane tako, da bi jih lahko pravilno naložili v UCI. Po izklopu UCI lahko odprete in zaženete te različice rešitev Field Service in PSA prek starega spletnega odjemalca. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

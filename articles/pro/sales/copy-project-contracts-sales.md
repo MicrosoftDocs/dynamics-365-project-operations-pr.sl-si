@@ -2,16 +2,18 @@
 title: Kopiranje projektnih pogodb – poenostavljena različica
 description: Ta tema vsebuje informacije o kopiranju projektnih pogodb v aplikaciji Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006041"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181427"
 ---
 # <a name="copy-project-contracts---lite"></a>Kopiranje projektnih pogodb – poenostavljena različica
 
@@ -43,6 +45,3 @@ Naslednji podatki se ne kopirajo iz **Izvorne** v **Ciljno pogodbo**:
   - Podatki o proračunu stranke
 
 Ker so ti podatki specifični za vsako pogodbo, se ta polja in zapisi ne kopirajo. Kopirane so podrobnosti pogodb za projekte in izdelke, ocene v podrobnostih pogodbe ter vrednosti, ki jih na ravni pogodbe ni dovoljeno preseči. Privzete vrednosti cen in mer stroškov so odvisne od izbire v polju **Kopiraj cene** na strani s pogovornim oknom **Kopiraj parametre**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

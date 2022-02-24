@@ -2,16 +2,18 @@
 title: Konfiguracija komponent v vrstici ponudbe, ki se zaračunajo
 description: Ta tema ponuja informacije o nastavitvi zaračunljivih in nezaračunljivih komponent v vrstici projektne ponudbe.
 author: rumant
+manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec8a999142fd9960c79ef981e499ae840642e57b269c83d201d2db006179de09
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996006"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858313"
 ---
 # <a name="configure-the-chargeable-components-of-a-quote-line"></a>Konfiguriranje komponent podrobnosti ponudbe, ki se zaračunajo 
 

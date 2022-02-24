@@ -2,16 +2,18 @@
 title: Upravljanje več strank v podrobnostih ponudb, ki temeljijo na projektih
 description: Ta tema vsebuje informacije o upravljanju več strank pri podrobnostih ponudb, ki temeljijo na projektu.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992046"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118583"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Upravljanje več strank v podrobnostih ponudb, ki temeljijo na projektih
 
@@ -42,6 +44,3 @@ Naslednja tabela prikazuje polja pri zapisu stranke podrobnosti ponudbe za podro
 Odstotke razdelitve stroškov lahko uredite v vrstici. Ko odstotki razdelitve stroškov ne znašajo skupno 100 %, pride do napake. Ko uredite odstotke razdelitve stroškov, osvežite stran s podrobnostjo ponudbe, da odstranite napako.
 
 Uporabite dejanje enakomerne porazdelitve v podmreži strank za podrobnosti ponudbe, da dodelite odstotke razdelitve stroškov vsem strankam v podrobnostih ponudbe. Če obstaja dejavnik zaokroževanja, bo to dodano stranki za zaokroževanje. Ena od strank v podrobnostih ponudbe je vedno označena kot stranka za zaokroževanje, kar pomeni, da ima zapis stranke v podrobnostih ponudbe zastavico za zaokroževanje nastavljeno na **Da**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

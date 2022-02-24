@@ -2,25 +2,25 @@
 title: Konfiguracija materialov, ki niso na zalogi, in čakajočih računov dobavitelja
 description: V tej temi je pojasnjeno, kako omogočiti materiale, ki niso na zalogi, in čakajoče račune dobavitelja.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003251"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993931"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfiguracija materialov, ki niso na zalogi, in čakajočih računov dobavitelja
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
 ## <a name="minimum-version-requirement"></a>Zahteva za najmanjšo različico
 
-Uporaba materialov, ki niso na zalogi, in čakajočih računov dobavitelja za aplikacijo Dynamics 365 Project Operations za scenarije, ki temeljijo na virih/nezalogi, zahtevajo naslednje različice:
+Uporaba materialov, ki niso na zalogi, in čakajočih računov dobavitelja za aplikacijo Dynamics 365 Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, zahtevajo naslednje različice:
 
 Rešitve Dynamics 365 Dataverse:
 
@@ -59,11 +59,11 @@ V tem razdelku so na voljo informacije o posebnih preslikavah, potrebnih za mate
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktiviranje poteka dela za ustvarjanje računov na podlagi entitete dobavitelja
 
-Osnovna rešitev za organiziranje z dvojnim zapisovanjem zagotavlja [Glavno integracijo dobaviteljev](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Kot predpogoj za to funkcijo je treba podatke dobavitelja ustvariti v entiteti **Kupci**. Aktivirajte postopek predloge poteka dela za ustvarjanje dobaviteljev v tabeli **Kupci**, kot je opisano v članku [Preklop med načrti dobaviteljev](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
+Osnovna rešitev za organiziranje z dvojnim zapisovanjem zagotavlja [Glavno integracijo dobaviteljev](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Kot predpogoj za to funkcijo je treba podatke dobavitelja ustvariti v entiteti **Kupci**. Aktivirajte postopek predloge poteka dela za ustvarjanje dobaviteljev v tabeli **Kupci**, kot je opisano v članku [Preklop med načrti dobaviteljev](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Nastavitev izdelkov, da bodo ustvarjeni kot dejavni
 
-Materiali, ki niso na zalogi, morajo biti v aplikaciji Finance nastavljeni kot **Izdani izdelki**. Osnovna rešitev za organiziranje z dvojnim zapisovanjem zagotavlja vnaprej pripravljeno [Integracijo izdanih izdelkov v katalog izdelkov storitve Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Privzeto se izdelki iz aplikacije Finance sinhronizirajo v storitev Dataverse v stanju osnutka. Če želite izdelek sinhronizirati v dejavno stanje, tako da ga je mogoče neposredno uporabiti v dokumentih za uporabo materiala ali v čakajočih računov dobavitelja, se pomaknite v razdelek **Sistem** > **Administracija** > **Administracija sistema** > **Sistemske nastavitve** in na zavihku **Prodaja** nastavite možnost **Ustvari izdelke v dejavnem stanju** na **Da**.
+Materiali, ki niso na zalogi, morajo biti v aplikaciji Finance nastavljeni kot **Izdani izdelki**. Osnovna rešitev za organiziranje z dvojnim zapisovanjem zagotavlja vnaprej pripravljeno [Integracijo izdanih izdelkov v katalog izdelkov storitve Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Privzeto se izdelki iz aplikacije Finance sinhronizirajo v storitev Dataverse v stanju osnutka. Če želite izdelek sinhronizirati v dejavno stanje, tako da ga je mogoče neposredno uporabiti v dokumentih za uporabo materiala ali v čakajočih računov dobavitelja, se pomaknite v razdelek **Sistem** > **Administracija** > **Administracija sistema** > **Sistemske nastavitve** in na zavihku **Prodaja** nastavite možnost **Ustvari izdelke v dejavnem stanju** na **Da**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfiguracija zahtev v storitvi Finance
 
@@ -72,7 +72,7 @@ Materiali, ki niso na zalogi, morajo biti v aplikaciji Finance nastavljeni kot *
 Izvedite naslednje korake, da omogočite funkcionalnost dodajanja podrobnosti projekta v vrstice čakajočih računov dobavitelja.
 
 1. V aplikaciji Finance odprite delovni prostor **Upravljanje funkcij**.
-2. Na seznamu funkcij poiščite funkcijo **Omogočanje čakajočih računov dobavitelja v aplikaciji Project Operations za scenarije, ki temeljijo na virih/nezalogi** in izberite možnost **Omogoči**.
+2. Na seznamu funkcij poiščite funkcijo **Omogočanje čakajočih računov dobavitelja v aplikaciji Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi** in izberite možnost **Omogoči**.
 
 ### <a name="define-category-groups-and-project-categories-for-items"></a>Določanje skupine kategorij in kategorije projektov za elemente
 
@@ -82,13 +82,13 @@ Preglejte profile stroškov in prihodkov projekta ter konfigurirajte nastavitev 
 
 ### <a name="set-up-a-write-in-product"></a>Nastavitev izdelka, ki ni v katalogu
 
-V aplikaciji Project Operations lahko beležite ocene in uporabo materiala za izdelke iz kataloga, ki so konfigurirani v izdanem katalogu izdelkov, in za izdelke, ki niso v katalogu. Za uporabo izdelkov, ki niso v katalogu, je potreben en sam izdan izdelek, ki je v ta namen konfiguriran v aplikaciji Finance. Izvedite naslednje korake za konfiguriranje izdelka, ki ni v katalogu. Te korake izvedite v vsaki pravni osebi, ki uporablja aplikacijo Project Operations za scenarije, ki temeljijo na virih/nezalogi.
+V aplikaciji Project Operations lahko beležite ocene in uporabo materiala za izdelke iz kataloga, ki so konfigurirani v izdanem katalogu izdelkov, in za izdelke, ki niso v katalogu. Za uporabo izdelkov, ki niso v katalogu, je potreben en sam izdan izdelek, ki je v ta namen konfiguriran v aplikaciji Finance. Izvedite naslednje korake za konfiguriranje izdelka, ki ni v katalogu. Te korake izvedite v vsaki pravni osebi, ki uporablja aplikacijo Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi.
 
 1. V aplikaciji Finance se pomaknite v razdelek **Upravljanje podatkov o izdelkih** > **Izdelki** > **Izdani izdelki** in izberite možnost **Novo**.
 2. V polju **Vrsta izdelka** izberite možnost **Element**, v polju **Podvrsta izdelka** pa izberite **Izdelek**.
 3. Vnesite številko izdelka (NI V KATALOGU) in ime izdelka (izdelek, ki ni v katalogu).
 4. Izberite skupino modelov elementov. Prepričajte se, da ima izbrana skupina modelov elementov polje **Pravilnik o zalogi izdelkov na zalogi** nastavljeno na **Neresnično**.
-5. Izberite vrednosti v poljih **Skupina elementov**, **Skupina za razsežnost pomnilnika** in **Skupina za razsežnost sledenja**. Uporabite samo možnost **Razsežnost pomnilnika** za **Mesto** in v polju **Razsežnosti sledenja** izberite **Brez**.
+5. Izberite vrednosti v poljih **Skupina elementov**, **Skupina za razsežnost pomnilnika** in **Skupina za razsežnost sledenja**. Za **Lokacija** uporabite samo **Razsežnost pomnilnika** in ne nastavite nobenih razsežnosti sledenja.
 6. Izberite vrednosti v poljih **Enota zaloge**, **Enota nakupa** in **Enota prodaje** in shranite spremembe.
 7. Na zavihku **Načrt** nastavite privzete nastavitve naročila, na zavihku **Zaloga** pa nastavite privzeto lokacijo in skladišče.
 8. V razdelku **Upravljanje projektov in računovodstva** > **Nastavitev** > **Vodenje projektov in računovodski parametri** odprite možnost **Project Operations v storitvi Dynamics 365 Dataverse**. 

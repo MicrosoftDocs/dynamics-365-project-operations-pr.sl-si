@@ -2,21 +2,22 @@
 title: Sledenje obsegu projektov
 description: Ta tema vsebuje informacije o spremljanju obsega projekta in napredka dela.
 author: ruhercul
+manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993981"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710960"
 ---
 # <a name="project-effort-tracking"></a>Sledenje obsegu projektov
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Potreba po spremljanju napredka v primerjavi z razporedom se razlikuje glede na panogo. V nekaterih panogah spremljanje poteka na zelo podrobno ravni, v drugih panogah pa na bolj splošni ravni. V tej temi je prikazan način razporejanja, s katerim boste izpolnili zahteve vaše organizacije.
 

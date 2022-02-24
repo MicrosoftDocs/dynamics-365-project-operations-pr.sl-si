@@ -2,16 +2,18 @@
 title: Kopiranje priložnosti, ki temeljijo na projektu
 description: Ta tema vsebuje informacije o kopiranju priložnosti, ki temeljijo na projektih, v aplikaciji Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999741"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181704"
 ---
 # <a name="copy-project-based-opportunities"></a>Kopiranje priložnosti, ki temeljijo na projektu
 
@@ -32,6 +34,3 @@ Priložnosti za projekte lahko enostavno kopirate in tako ustvarite nove prilož
     | Kopiranje cen | Vrednost Da/ Ne, ki označuje, ali je treba cene za priložnost kopirati iz izvorne priložnosti. | Če je izbrana možnost **Da**, se ceniki kopirajo iz izvorne v ciljno priložnost. Če je izbrana možnost **Ne**, se privzeto znova nastavijo ceniki na podlagi najnovejših cenikov, ki so bili nastavljeni. |
 
 3. Izberite **V redu**. Sistem na podlagi izbranih parametrov ustvari kopijo projektne priložnosti in odpre se nova priložnost za projekt.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

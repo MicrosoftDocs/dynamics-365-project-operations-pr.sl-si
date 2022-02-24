@@ -2,16 +2,18 @@
 title: Upravljanje časovnih pasov
 description: Ko je ustvarjen projekt, njegov časovni pas temelji na časovnem pasu, določenem v uporabljeni predlogi za delovne ure.
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988716"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119843"
 ---
 # <a name="manage-time-zones"></a>Upravljanje časovnih pasov
 
@@ -32,13 +34,13 @@ Za natančne in predvidljive rezultate pri uporabi možnosti **Podaljšaj rezerv
 
 - Uporabnik mora konfigurirati časovni pas svoje naprave, da se ujema s časovnim pasom, določenim v sistemski možnosti **Nastavitve za prilagoditev**.
  
-  ![Nastavitve časovnega pasu v sistemu Windows 10.](media/reconcile-assignments-03.png)
+  ![Nastavitve časovnega pasu v sistemu Windows 10](media/reconcile-assignments-03.png)
 
-  ![Nastavitve časovnega pasu v nastavitvah osebnega prilagajanja.](media/reconcile-assignments-04.png)
+  ![Nastavitve časovnega pasu v nastavitvah za prilagoditev](media/reconcile-assignments-04.png)
  
 - Vir, ki ga je mogoče rezervirati, mora imeti najmanj eno minuto delovnega časa, ki se prekriva z obrisi, ki se uporabijo za opredelitev zahtevanega podaljšanja. Primer: naslednji viri z delovnim časom med 9:00 in 19:00. 
 
-  ![Primerjava obrisov virov.](media/reconcile-assignments-05.png)
+  ![Primerjava obrisov virov](media/reconcile-assignments-05.png)
 
 V spodnji tabeli so prikazani:
 
@@ -47,25 +49,22 @@ V spodnji tabeli so prikazani:
 - Vir B: ta vir se nahaja v drugačnem časovnem pasu kot projekt in se začne ob 7:00 v svojem časovnem pasu. Toda rezervacije se bodo začele ob 9.00, saj je to najzgodnejši čas za obris dodelitve.
 - Vira C in D: vira se nahajata v različnih časovnih pasovih, ki se razlikujeta med seboj in od projekta, njune rezervacije pa se ne začnejo prej kot njihovi razpoložljivi začetni časi.
 
-|Entity  |Koledar  |
+|Entiteta  |Koledar  |
 |-|-|
-|Predloga projektnega koledarja   | ![Koledar projekta.](media/reconcile-assignments-06.png) |
-|Vir A  | ![Koledar vira A.](media/reconcile-assignments-06.png) |
-|Vir B  |  ![Koledar vira B.](media/reconcile-assignments-07.png) |
-|Vir C  |  ![Koledar vira C.](media/reconcile-assignments-08.png) |
-|Vir D  | ![Koledar vira D.](media/reconcile-assignments-09.png)  |
+|Predloga projektnega koledarja   | ![projektni koledar](media/reconcile-assignments-06.png) |
+|Vir A  | ![Koledar vira A](media/reconcile-assignments-06.png) |
+|Vir B  |  ![Koledar vira B](media/reconcile-assignments-07.png) |
+|Vir C  |  ![Koledar vira C](media/reconcile-assignments-08.png) |
+|Vir D  | ![Koledar vira D](media/reconcile-assignments-09.png)  |
  
 Ko se pomaknete do pogleda **Uskladitev**, so prikazane dodelitve virov in s tem povezani primanjkljaj rezervacij.
 
-![Uskladitev pogleda pred podaljšanjem rezervacije.](media/reconcile-assignments-10.png)
+![Pogleda usklajevanja pred podaljšanjem](media/reconcile-assignments-10.png)
 
 Ko je bila za vsak vir uporabljena funkcija podaljšanja rezervacije, se rezervacije uspešno podaljšajo za vsak vir, ker se delovni čas vsakega vira prekriva z obrisi primanjkljaja.
 
-![Uskladitev pogleda po podaljšanju rezervacije.](media/reconcile-assignments-11.png) 
+![Pogled usklajevanja po podaljšanju rezervacije](media/reconcile-assignments-11.png) 
 
 Upoštevajte, da natančnejši pregled podrobnosti rezervacij pokaže razlike v začetnih časih rezervacij. Rezervacije se začnejo šele ob začetnem času obrisa dodelitve in šele ob razpoložljivem začetnem času vira.
 
-![Nove rezervacije virov v plošči za načrtovanje.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Nove rezervacije virov v plošči razporeda](media/reconcile-assignments-12.png)

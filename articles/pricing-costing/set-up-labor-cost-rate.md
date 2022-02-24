@@ -2,16 +2,18 @@
 title: Nastavitev mer stroškov dela
 description: Ta tema vsebuje informacije o nastavljanju stroškov dela v aplikaciji Project Operations
 author: rumant
+manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986196"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180617"
 ---
 # <a name="set-up-labor-cost-rates"></a>Nastavitev mer stroškov dela
 
@@ -38,7 +40,7 @@ Naslednja tabela vključuje nekatera polja, ki so pomembna pri oblikovanju stope
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Prenos cen in stroškov za vire zunaj oddelka ali pravne osebe
 
-V podjetjih, ki poslujejo na podlagi projektov, običajno za delo na projektih uporabijo zaposlene iz različnih pravnih oseb ali oddelkov. Projekt lahko izvede ena pravna oseba, zaposleni ali svetovalci, ki delajo na projektu, pa lahko prihajajo iz iste pravne osebe ali iz druge ali pa iz kombinacije obeh. V aplikaciji Dynamics 365 Project Operations je pravna oseba, ki je lastnica izvajanja projekta, **Lastniško podjetje**, oddelek, ki je lastnik izvajanja, pa je **Pogodbena enota**. Druge pravne osebe, ki zagotavljajo sredstva, so **Podjetja, ki zagotavljajo vire** in oddelki, ki zagotavljajo vire, so **Enote vira**. V večini držav morajo podjetja zagotoviti, da pravna oseba ali oddelek, ki zagotavlja vire, lastniškemu podjetju in pogodbeni enoti zaračuna uporabo virov.
+V podjetjih, ki poslujejo na podlagi projektov, običajno za delo na projektih uporabijo zaposlene iz različnih pravnih oseb ali oddelkov. Projekt lahko izvede ena pravna oseba, zaposleni ali svetovalci, ki delajo na projektu, pa lahko prihajajo iz iste pravne osebe ali iz druge ali pa iz kombinacije obeh. V aplikaciji Dynamics 365 Project Operations je pravna oseba, ki je lastnica izvedbe projekta, **Lastniško podjetje** in oddelek, ki je lastnik izvedbe, **Pogodbena enota**. Druge pravne osebe, ki zagotavljajo sredstva, so **Podjetja, ki zagotavljajo vire** in oddelki, ki zagotavljajo vire, so **Enote vira**. V večini držav morajo podjetja zagotoviti, da pravna oseba ali oddelek, ki zagotavlja vire, lastniškemu podjetju in pogodbeni enoti zaračuna uporabo virov.
 
 Podjetje Fabrikam mora na primer zagotoviti, da se je podjetje Fabrikam Indija – robotika dogovorilo o merah stroškov s podjetjem Fabrikam ZDA – robotika ali Fabrikam Združeno kraljestvo –robotics.
 
@@ -82,6 +84,3 @@ V ceniku z lastnimi cenami podjetja Fabrikam Združeno kraljestvo – robotika s
 | Razvijalec | Fabrikam Združeno kraljestvo | 115 GBP |
 
 Cenik z lastnimi cenami lahko navaja stopnje dela v več valutah. Pri izdelavi ocene stroškov za projekt aplikacija Project Operations pretvori te mere stroškov v valuto projekta in jo prikaže uporabniku. Ko je časovni vnos odobren in se ustvari dejanski strošek, se dejanski stroški izračunajo v valuti te ujemajoče se vrstice s cenami vloge na ceniku z lastnimi cenami. Dejanske stroške za čas je za posamezen projekt mogoče zabeležiti v več valutah. Vendar pa bo aplikacija Project Operations pri zbiranju ali seštevanju dejanskih stroškov dela na ravni projekta pretvorila vse zneske stroškov dela v valuto projekta, ki si jo lahko uporabnik ogleda.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

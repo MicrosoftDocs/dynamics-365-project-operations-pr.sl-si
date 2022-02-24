@@ -2,6 +2,8 @@
 title: Skupine enot in enote
 description: V tej temi so na voljo informacije o skupinah enot in enotah.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987591"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145603"
 ---
 # <a name="unit-groups-and-units"></a>Skupine enot in enote
 
@@ -44,7 +46,7 @@ Ko nastavite več enot v skupini enot, morate nastaviti tudi faktor pretvorbe me
 
 Naslednja slika prikazuje primer nastavitve za enoto **Dan**, kjer je v polju **Količina** prikazano število ur v dnevu, in enoto **Teden**, kjer je v polju **Količina** prikazano število dni v tednu.
 
-> ![Skupina enot: stran z informacijami.](media/advanced-2.png)
+> ![Skupina enot: stran z informacijami](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Uporaba skupin enot in enot
 
@@ -86,7 +88,7 @@ Ta primer prikazuje, kako PSA uporablja skupino enot, enote in faktorje za pretv
 
 | Vloga      | Skupina enot | Enota | Organizacijska enota | Cena   |
 |-----------|------------|------|---------------------|---------|
-| Razvijalec | Čas       | dan  | Contoso Združeno kraljestvo          | 800 GBP |
+| Developer | Time       | Day  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Časovni vnos
 
@@ -110,6 +112,3 @@ Ne. Ocena razporeda je trenutno omejena na ure in tega ni mogoče spremeniti.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Ali je enote in skupine enot mogoče urediti, izbrisati in dodajati?
 Da. Z izjemo skupine enot **Čas** in enote **Ura** lahko vse enote izbrišete ali uredite ter dodate nove enote. V PSA skupine enot **Čas** in enote **Uda** ni mogoče izbrisati. Vendar pa jih je mogoče posodobiti s prevedenim besedilo za polje **Ime**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

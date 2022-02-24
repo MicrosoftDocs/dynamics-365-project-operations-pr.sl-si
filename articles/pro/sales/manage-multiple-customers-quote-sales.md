@@ -2,16 +2,18 @@
 title: Upravljanje več strank v projektnih ponudbah – poenostavljeno
 description: Ta tema vsebuje informacije o delu s ponudbami z več strankami, ki bodo financirale projekt. (Sales)
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
-ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
+ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440797"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181662"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Upravljanje več strank v projektnih ponudbah – poenostavljeno
 
@@ -37,7 +39,7 @@ Stranko ponudbe lahko ustvarite, posodobite ali izbrišete na zavihku **Stranke 
 
 | **Polje** | **Mesto** | **Opis** | **Nadaljnji vpliv** |
 | --- | --- | --- | --- |
-| Račun | Mreža, ki jo je mogoče urejati, na zavihku **Stranke ponudbe** ter **glavnem** obrazcu in obrazcu za **hitro ustvarjanje** za stranko ponudbe. | Navedeni so vsi aktivni kupci. Po ustvarjanju zapisa je to polje zaklenjeno. Če ga želite posodobiti, izbrišite zapis in ga znova ustvarite. Če ste zabeležili kakršnekoli dejanske vrednosti ali če je stranka ponudbe primarna stranka, zapisa ne boste mogli izbrisati. | Stranke ponudbe se kopirajo kot stranke v podrobnostih pogodbe, ko se ustvari podrobnost ponudbe. Stranke ponudbe se kopirajo tudi med stranke v pogodbi za projekt, ko je pridobljena ponudba. |
+| Račun | Mreža, ki jo je mogoče urejati, na zavihku **Stranke ponudbe** ter **glavnem** obrazcu in obrazcu za **hitro ustvarjanje** za stranko ponudbe. | Navedeni so vsi aktivni kupci. Po ustvarjanju zapisa je to polje zaklenjeno. Če ga želite posodobiti, izbrišite zapis in ga znova ustvarite. Če ste zabeležili kakršne koli dejanske podatke ali če je zapis s stranko ponudbe primarna stranka, boste lahko zapis izbrisali. | Stranke ponudbe se kopirajo kot stranke v podrobnostih pogodbe, ko se ustvari podrobnost ponudbe. Stranke ponudbe se kopirajo tudi med stranke v pogodbi za projekt, ko je pridobljena ponudba. |
 | Odstotek delitve za izstavitev računa | Mreža, ki jo je mogoče urejati, na zavihku **Stranke ponudbe** ter **glavnem** obrazcu in obrazcu za **hitro ustvarjanje** za stranko ponudbe. | Predstavlja odstotek vsake neobračunane prodajne transakcije, ki bo pripisana tej stranki ponudbe. | Kopirano v nove podrobnosti ponudbe in stranke v pogodbi za projekt. |
 | Ime stika za plačilo | Mreža, ki jo je mogoče urejati, na zavihku **Stranke ponudbe** ter **glavnem** obrazcu in obrazcu za **hitro ustvarjanje** za stranko ponudbe. | To je besedilno polje in ga je treba uporabiti za identifikacijo stika za izstavljanje računa za to stranko. Te možnosti so privzeto nastavljene prek povezanega zapisa kupca | Kopirano v stranke v pogodbi za projekt, ko je pridobljena ponudba, nato pa hkrati tudi v polje »Ime pogodbe za plačilo« na računu, ki se ustvari za to stranko. |
 | Ime osebe za plačilo | Mreža, ki jo je mogoče urejati, na zavihku **Stranke ponudbe** ter **glavnem** obrazcu in obrazcu za **hitro ustvarjanje** za stranko ponudbe. | To je besedilno polje in ga je treba uporabiti za identifikacijo stika za izstavljanje računa za to stranko. | Kopirano v stranke v pogodbi za projekt, ko je pridobljena ponudba, nato pa hkrati tudi v polje **Ime pogodbe za plačilo** na računu, ki se ustvari za to stranko. |
@@ -50,6 +52,3 @@ Stranko ponudbe lahko ustvarite, posodobite ali izbrišete na zavihku **Stranke 
 Odstotke razdelitve stroškov lahko uredite z izkušnjo urejanja mreže v vrstici. Ko odstotki razdelitve stroškov ne znašajo skupno 100 %, pride do napake. Ko posodobite odstotke razdelitve stroškov, osvežite stran, da odstranite napako.
 
 V podmreži kupca lahko v ponudbi poskusite izbrati možnost **Enakomerna razporeditev**. To dejanje dodeli odstotke razdelitve stroškov vsem strankam ponudbe. Če je prisoten dejavnik zaokroževanja, bo to dodano stranki za zaokroževanje. Ena od strank ponudbe je vedno označena kot stranka za zaokroževanje. To pomeni, da ima zapis stranke ponudbe zastavico **Zaokroževanje** nastavljeno na **Da**. Običajno je to primarna stranka ponudbe, vendar je to mogoče spremeniti.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

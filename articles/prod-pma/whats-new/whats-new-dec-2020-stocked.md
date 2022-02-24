@@ -2,17 +2,19 @@
 title: Novosti za december 2020 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji
 description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v decembrski izdaji (2020) aplikacije Project Operations za primere uporabe z naročili na zalogi/v proizvodnji.
 author: Yowelle
+manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008831"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4728023"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Novosti ali spremembe v storitvi Project Operations, december 2020, za scenarije, ki temeljijo na zalogi/proizvodnji
 
@@ -139,7 +141,4 @@ Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Proj
 
 ## <a name="regulatory-updates"></a>Regulativne posodobitve
 
-Za informacije o regulativnih posodobitvah za Dynamics 365 Finance glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Drug način za informiranje o regulativnih posodobitvah je vpis v Lifecycle Services (LCS) in ogled načrtovanih regulativnih posodobitev z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Za informacije o regulativnih posodobitvah za Dynamics 365 Finance glejte [Regulativne posodobitve](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Drug način za informiranje o regulativnih posodobitvah je vpis v Lifecycle Services (LCS) in ogled načrtovanih regulativnih posodobitev z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.

@@ -2,22 +2,24 @@
 title: Uvoz ocene v podrobnosti pogodbe, ki temeljijo na projektu
 description: Ta tema vsebuje informacije o tem, kako uvoziti ocene projekta v podrobnosti pogodbe.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea513ca8126eadbf563f3c6cb3e966f81703ae805d12881f865cdc1dd77e191d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990111"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4084991"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Uvoz ocene v podrobnosti pogodbe, ki temeljijo na projektu
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-V aplikaciji Dynamics 365 Project Operations lahko uvozite ocene iz projekta v podrobnost pogodbe, ki temelji na projektu.
+V storitvi Dynamics 365 Project Operations lahko uvozite ocene iz projekta v podrobnosti pogodbe na podlagi projekta.
 
 1. Preverite, ali je polje **Projekt** v podrobnostih pogodbe na podlagi projekta izpolnjeno.
 2. V zavihku **Podrobnosti pogodb** na podmreži izberite **Uvozi iz ocene projekta**. Odpre se pogovorno okno z možnostmi povzemanja. Razpoložljive možnosti povzemanja so **Razred transakcije**, **Kategorija**, **Vloga** in **Projektno opravilo**. Na podlagi izbranih možnosti za povzemanje je prekopirana ocena iz projekta za vse razrede transakcij, ki so vključeni v teh podrobnostih pogodb. 
@@ -57,6 +59,3 @@ Pri uvozu ocen aplikacija privzeto določi cene na podlagi cenikov projekta, pri
 | Opravilo A | Letalska vozovnica | 10. 1. 2020 | 4 | 400 | 1600 |
 | Opravilo B | Hotel | 1. 10. 2020 | 4 | 200 | 800 |
 | Opravilo C | Hotel | 1. 11. 2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

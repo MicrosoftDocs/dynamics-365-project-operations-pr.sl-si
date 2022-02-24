@@ -2,9 +2,11 @@
 title: Sinhroniziranje dejanskih vrednosti projekta neposredno iz rešitve Project Service Automation v dnevnik integracije projekta za objavo v rešitvi Finance and Operations
 description: Ta tema opisuje predloge in osnovna opravila, ki se uporabljajo za sinhronizacijo dejanskih vrednosti projekta neposredno iz rešitve Microsoft Dynamics 365 Project Service Automation v Finance and Operations.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988131"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084888"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinhroniziranje dejanskih vrednosti projekta neposredno iz rešitve Project Service Automation v dnevnik integracije projekta za objavo v rešitvi Finance and Operations
 
@@ -42,7 +44,7 @@ Rešitev za integracijo rešitve Project Service Automation v rešitev Finance u
 
 Naslednja slika prikazuje, kako se podatki sinhronizirajo med rešitvama Project Service Automation in Finance.
 
-[![Podatkovni tok za integracijo rešitve Project Service Automation v rešitvi Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Podatkovni tok za integracijo rešitve Project Service Automation v Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Dejanske vrednosti projekta iz rešitve Project Service Automation
 
@@ -93,9 +95,9 @@ V predlogi za dejanske vrednosti projekta morate uporabiti Microsoft Power Query
 
 Spodnja slika prikazuje primer preslikave predloge opravila v integracijo podatkov. Preslikava prikazuje informacije o polju, ki bodo sinhronizirane iz rešitve Project Service Automation v Finance.
 
-[![Preslikava predloge – dejanske vrednosti.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Preslikava predloge – dejanske vrednosti](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Preslikava predloge – povezave transakcij.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Preslikava predloge – povezave transakcij](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Uvoz iz pripravljalne tabele po integraciji iz rešitve Project Service Automation
 
@@ -135,9 +137,6 @@ V predlogi za posodobitev dejanskih vrednosti projekta morate uporabiti Power Qu
 
 Spodnje slike prikazujejo primere preslikav predlog opravil v Integracijo podatkov. Preslikava prikazuje informacije o polju, ki bodo sinhronizirane iz rešitve Finance v Project Service Automation.
 
-[![Preslikava predloge – posodobitev dejanskih vrednosti.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Preslikava predloge – posodobitev dejanskih vrednosti](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Preslikava predloge – posodobitev transakcij.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Preslikava predloge – posodobitev transakcij](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)

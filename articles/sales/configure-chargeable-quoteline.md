@@ -2,16 +2,18 @@
 title: Konfiguriranje plačljivih komponent podrobnosti ponudb, ki temeljijo na projektih
 description: Ta tema vsebuje informacije o vključenih, plačljivih in neplačljivih komponentah v podrobnostih ponudb, ki temeljijo na projektih.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004016"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642563"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Konfiguriranje plačljivih komponent podrobnosti ponudb, ki temeljijo na projektih
 
@@ -51,6 +53,3 @@ Ocena ali dejanska vrednost, ustvarjena za strošek, se šteje za plačljivo le,
 | No | Da | Ni mogoče nastaviti | Se ne zaračuna | Obračun po dejanskem času: Ni na voljo </br>Vrsta obračuna za dejansko vrednost stroška: Se ne zaračuna |
 | Da | No | Se zaračuna | Ni mogoče nastaviti | Obračun po dejanskem času: Se zaračuna </br>Vrsta obračuna za dejansko vrednost stroška: Ni na voljo |
 | Da | No | Se ne zaračuna | Ni mogoče nastaviti | Obračun po dejanskem času: Se ne zaračuna </br> Vrsta obračuna za dejansko vrednost stroška: Ni na voljo |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

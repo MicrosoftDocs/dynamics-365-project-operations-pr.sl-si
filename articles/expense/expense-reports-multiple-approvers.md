@@ -2,9 +2,11 @@
 title: Poročila o stroških in več odobriteljev
 description: Ta tema vsebuje informacije o poročilih o stroških, ki jih mora odobriti več kot ena oseba.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2acae2d518a02539f01d5498450236999fe609d1e8f26b5f90e18b986b83cab1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cfa8677f38e9468aa3236f587d2e9bd5af839054
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988446"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121013"
 ---
 # <a name="expense-reports-and-multiple-approvers"></a>Poročila o stroških in več odobriteljev
 
@@ -39,6 +41,3 @@ Glede na pravilnik o odobritvi stroškov vaše organizacije bo morda morala pred
 
     1. Vodja zaposlenega odobri poročilo o stroških.
     2. Lastnik proračuna odobri poročilo o stroških.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

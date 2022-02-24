@@ -2,16 +2,18 @@
 title: Kopiranje ponudb, ki temeljijo na projektih
 description: Ta tema vsebuje informacije o kopiranju ponudb, ki temeljijo na projektih, v storitvi Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992181"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181832"
 ---
 # <a name="copy-project-based-quotes"></a>Kopiranje ponudb, ki temeljijo na projektih
 
@@ -43,6 +45,3 @@ Ko izberete **V redu** na strani s pogovornim oknom, sistem ustvari kopijo ponud
 > - Sklic na projekt pri podrobnostih ponudb, ki temeljijo na izdelkih – podatki o proračunu stranke
 >
 >Ker so ti podatki zelo specifični za vsako ponudbo, se ta polja in zapisi ne kopirajo. Kopirajo se podrobnosti ponudb za projekte in izdelke, ocene pri podrobnostih ponudbe in vrednosti, ki jih ni dovoljeno preseči na ravni ponudbe. Privzete vrednosti cen in mer stroškov so odvisne od možnosti **Kopiranje cen**, ki se jo izbere na strani s pogovornim oknom **Kopiraj parametre**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

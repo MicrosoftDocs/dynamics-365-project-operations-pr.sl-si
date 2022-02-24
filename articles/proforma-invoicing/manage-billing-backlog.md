@@ -2,61 +2,39 @@
 title: Upravljanje nedokončanih opravil obračunavanja
 description: Ta tema vsebuje informacije o tem, kako si ogledati in uporabljati nedokončana opravila obračunavanja v aplikaciji Project Operations.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e839c1f32248fff6d97271796666b5031f66490ccd98574045b770100bf379f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991101"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122363"
 ---
-# <a name="manage-billing-backlog"></a>Upravljanje nedokončanih opravil obračunavanja
+# <a name="manage-the-billing-backlog"></a>Upravljanje nedokončanih opravil obračunavanja
 
-**Velja za**: za scenarije v aplikaciji Project Operations, ki temeljijo na virih/nezalogi
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Aplikacija Dynamics 365 Project Operations ima namenske poglede za pomoč pri upravljanju nedokončanih opravil obračunavanja. Za upravljanje nedokončanih opravil obračunavanja izberite povezave v območju **Prodaja** pod možnostjo **Obračunavanje**. 
-
-Na voljo so ti pogledi:
-
-- Honorarji in predujmi
-- Razpoložljivi honorarji in predujmi
-- Mejniki s fiksno ceno
-- Nedokončana opravila obračunavanja časa in materiala
-
-## <a name="retainers-and-advances"></a>Honorarji in predujmi
-
-Pogled **Honorarji in predujmi** navaja honorarje in predujme v vseh projektnih pogodbah. Po zaračunanju honorarja ali predujma postane znesek predujma na voljo za uporabo.
-
-## <a name="available-retainers-and-advances"></a>Razpoložljivi honorarji in predujmi
-
-Pogled **Razpoložljivi honorarji in predujmi** navaja vse razpoložljive honorarje in predujme v vseh projektnih pogodbah. Po zaračunanju honorarja ali predujma postane znesek predujma na voljo za uporabo in je dodan na seznam. Ko je znesek honorarja ali predujma v celoti porabljen, se odstrani s seznama.
+Dynamics 365 Project Operations ima dva namenska pogleda, ki vam pomagata pri delu in upravljanju nedokončanih opravil obračunavanja. To sta **Mejniki s fiksno ceno** in **Nedokončana opravila obračunavanja časa in materiala** Za izbiro pogleda pojdite v razdelek **Prodaja** v aplikaciji Project Operations in na levi strani za krmarjenje izberite **Obračunavanje**. Tam so shranjene povezave do nedokončanih opravil obračunavanja.
 
 ## <a name="fixed-price-milestones"></a>Mejniki s fiksno ceno
 
-Pogled **Mejniki s fiksno ceno** navaja vse mejnike s fiksno ceno v vseh podrobnostih projektne pogodbe. V tem pogledu lahko enega ali več mejnikov označite kot **Pripravljeno na račun** ali **Ni pripravljeno na račun**. Z označevanjem mejnika kot **Pripravljeno za izdajanje računov** ta postane na voljo za dajanje na osnutke računov.
+V tem pogledu so navedeni vsi mejniki s fiksno ceno vseh podrobnosti projektnih pogodb v sistemu. V tem pogledu lahko posamezne mejnike ali več mejnikov označimo kot **Pripravljeno za izdajanje računa** ali **Ni pripravljeno za izdajanje računa**. Ko označite mejnik z možnostjo **Pripravljeno za izdajanje računa**, postane na voljo za osnutek računa.
 
-Ko imajo podrobnosti pogodbe za več strank način obračunavanja fiksne cene, je mejnik ustvarjen za vsako stranko v podrobnostih pogodbe. Mejnik je lahko ustvarjen in nato razdeljen na posamezne zapise mejnikov, specifične za stranko. Ta delitev je interna in v skladu z delitvijo odstotkov obračunavanja, opredeljenega za vsako stranko v podrobnostih pogodbe. V pogledu **Mejniki s fiksno ceno** boste videli posamezne zapise mejnikov, specifičnih za stranko. V tem pogledu je mogoče vsakega od teh zapisov o mejnikih ločeno označiti z možnostjo **Pripravljeno za izdajanje računa**. Ko je eden ali več povezanih razdeljenih mejnikov označenih kot **Pripravljeno na račun**, se stanje glave z **Ni se še začelo** posodobi na **V postopku**. Ko so vsi deli mejnika zaračunani, se stanje glave mejnika posodobi na **Dokončano**.
+Ko imajo podrobnosti pogodb za več strank vzpostavljen način obračunavanja po fiksni ceni, se za vsako stranko v podrobnostih pogodb ustvari en mejnik. Uporabnik ustvari mejnik in ta mejnik se interno razdeli na zapise o posameznih mejnikih za stranke v skladu z razdelitvijo deleža obračuna, ki je določen za vsako stranko v podrobnostih pogodbe. V pogledu **Mejniki s fiksno ceno** boste videli zapise o posameznih mejnikih za stranke. V tem pogledu je mogoče vsakega od teh zapisov o mejnikih ločeno označiti z možnostjo **Pripravljeno za izdajanje računa**. Ko je eden ali več povezanih razdeljenih mejnikov označenih z možnostjo **Pripravljeno za izdajanje računa**, se glava premakne v stanje **V teku** iz **Se še ni začelo**. Ko so fakturirani vsi razdeljeni mejniki, se stanje glave mejnika spremeni v **Dokončano**.
 
-V tem pogledu je prikazan mejnik na osnutku računa s stanjem obračunavanja **Račun za stranko je ustvarjen**. Ko je osnutek računa potrjen, je stanje obračunavanja na zapisu posodobljeno na **Račun za stranko je objavljen**. 
-
-> [!NOTE] 
-> Te vrednosti stanja ne posodabljajte s kodo po meri. Project Operations ne deluje pravilno, ko so te vrednosti stanja posodobljene s kodo po meri.
+V tem pogledu je prikazan mejnik na osnutku računa s stanjem obračunavanja **Račun za stranko je ustvarjen**. Ko je osnutek računa potrjen, se stanje obračunavanja tega zapisa posodobi na **Račun je knjižen**. Posodabljanje teh vrednosti stanja s kodami po meri ni priporočljivo. Aplikacija Project Operations ne bo delovala pravilno, če bodo te vrednosti stanja posodobljene s kodami po meri.
 
 ## <a name="time-and-material-billing-backlog"></a>Nedokončana opravila obračunavanja časa in materiala
 
-V pogledu **Nedokončana opravila obračunavanja časa in materiala** so navedene vse neobračunane dejanske vrednosti prodaje po vseh projektnih pogodbah v sistemu, ki niso bile zaračunane. V tem pogledu lahko posamezno ali več dejanskih vrednosti neobračunane prodaje označimo kot **Pripravljeno za izdajanje računa** ali **Ni pripravljeno za izdajanje računa**. Če označite dejansko vrednost neobračunane prodaje kot **Pripravljeno za izdajanje računa**, bo na voljo za osnutek računa.
+Ta pogled navaja vse dejanske prodajne podatke, ki niso bili fakturirani v vseh projektnih pogodbah v sistemu. V tem pogledu lahko posamezno ali več dejanskih vrednosti neobračunane prodaje označimo kot **Pripravljeno za izdajanje računa** ali **Ni pripravljeno za izdajanje računa**. Če označite dejansko vrednost neobračunane prodaje kot **Pripravljeno za izdajanje računa**, bo na voljo za osnutek računa.
 
-Neobračunanih dejanskih vrednosti prodaje s stanjem **Ni dovoljeno preseči** za **Ni uspelo** ni mogoče označiti kot **Pripravljeno za izdajanje računov**. Če je treba dejanske vrednosti označiti kot **Pripravljeno na račun**, ponastavite stanje za druge potrjene dejanske vrednosti v podrobnostih pogodbe in nato ponovno ocenite stanje **ne sme preseči**.
+Dejanskih vrednosti neobračunane prodaje, katerih stanje **Ne sme preseči** je **Neuspešno**, ni mogoče označiti kot **Pripravljeno za izdajanje računa**. Če je treba te dejanske vrednosti označiti kot take, ponastavite stanje drugih dejanskih vrednosti v podrobnostih pogodbe in ocenite stanje **Ne sme preseči**.
 
-Če imajo podrobnosti pogodbe za več strank način obračunavanja časa in materiala, je ob odobritvi časa in stroškov ustvarjena ena dejanska vrednost neobračunane prodaje za vsako stranko v podrobnostih pogodbe v skladu z delitvijo odstotkov obračunavanja, opredeljenega za vsako od strank. V pogledu **Nedokončana opravila obračunavanja časa in materiala** boste videli te posamezne neobračunane dejanske vrednosti prodaje, specifične za stranko. V tem pogledu je mogoče vsakega od teh zapisov o dejanskih vrednostih neobračunane prodaje ločeno označiti z možnostjo **Pripravljeno za izdajanje računa**.
+V primeru podrobnosti pogodb z več strankami, ki imajo vzpostavljen način obračunavanja po času in materialu, se ob odobritvi časa in stroškov za vsako stranko v podrobnostih pogodbe ustvari dejanska vrednost neobračunane prodaje glede na razdeljeni odstotek obračunavanja, ki je določen za vsako stranko v podrobnostih pogodbe. V pogledu **Nedokončana opravila obračunavanja časa in materiala** boste videli te dejanske vrednosti neobračunane prodaje za posamezne stranke. V tem pogledu je mogoče vsakega od teh zapisov o dejanskih vrednostih neobračunane prodaje ločeno označiti z možnostjo **Pripravljeno za izdajanje računa**.
 
-V tem pogledu je prikazana dejanska neobračunana prodaja na osnutku računa in ima status **Račun za stranko je ustvarjen**. Ko je osnutek računa potrjen, se stanje obračunavanja tega zapisa posodobi na **Račun za stranko je knjižen**. 
-
-> [!NOTE] 
-> Te vrednosti stanja ne posodabljajte s kodo po meri. Project Operations ne deluje pravilno, ko so te vrednosti stanja posodobljene s kodo po meri.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+V tem pogledu so prikazane dejanske vrednosti neobračunane prodaje na osnutku računa s **Stanjem obračunavanja** **Račun za stranko je ustvarjen**. Ko je osnutek računa potrjen, se stanje obračunavanja tega zapisa posodobi na **Račun za stranko je knjižen**. Posodabljanje teh vrednosti stanja s kodami po meri, kadar so v tem stanju, ni priporočljivo. Aplikacija Project Operations ne bo delovala pravilno, če bodo te vrednosti stanja posodobljene s kodami po meri.

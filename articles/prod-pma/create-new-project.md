@@ -2,9 +2,11 @@
 title: Ustvarite nov projekt
 description: Ta tema vsebuje informacije o ustvarjanju novega projekta.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985971"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270743"
 ---
 # <a name="create-a-new-project"></a>Ustvarite nov projekt
 
@@ -51,9 +53,9 @@ Prav tako lahko dodelite kategorije za vir, kot je potrebno. Vrsta kategorije je
 
 Projektni vodja lahko uporabi funkcionalnost iskanja virov za projekt, da ustvari vloge, ki so potrebne za projekt. Vloge se lahko uporabijo, če so potrjeni viri še vedno neznani, ko se viri rezervirajo. Vloge so lahko začasno rezervirane kot načrtovani viri, da lahko nadaljujete faze načrtovanja projekta.
 
-[![Primer vloge.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Primer vloge](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scenarij:** Contoso je bil najet za dokončanje projekta Čas in material, ki ima odobreno projektno listino. Mlajši projektni vodja še vedno izpolnjuje obseg projekta. Upravitelj virov trenutno prepoznava specifične vire, ki bodo rezervirani za delo na novem projektu. Zaradi kritične narave projekta je sponzor projekta za eno od vlog zahteval višjega projektnega vodjo. Upravitelj virov mora pridobiti nov vir in določiti vlogo v sistemu, če mlajši projektni vodja med načrtovanjem projekta zahteva informacije o viru.
+**Scenarij:** Podjetje Contoso je prejelo naročilo za izpolnitev časovnega in materialnega projekta, ki ima odobreno projektno listino. Mlajši projektni vodja še vedno izpolnjuje obseg projekta. Upravitelj virov trenutno prepoznava specifične vire, ki bodo rezervirani za delo na novem projektu. Zaradi kritične narave projekta je sponzor projekta za eno od vlog zahteval višjega projektnega vodjo. Upravitelj virov mora pridobiti nov vir in določiti vlogo v sistemu, če mlajši projektni vodja med načrtovanjem projekta zahteva informacije o viru.
 
 Naslednji koraki prikazujejo, kako lahko upravitelj virov nastavi vlogo višjega projektnega vodje in z njo poveže značilnosti vira. Pozneje lahko vlogo uporabimo za iskanje razpoložljivih virov, ki se ujemajo z zahtevanimi sposobnostmi virov.
 

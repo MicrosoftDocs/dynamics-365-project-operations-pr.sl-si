@@ -2,22 +2,23 @@
 title: Pregled cenovnih razsežnosti
 description: Ta tema vsebuje informacije o cenovnih razsežnostih v aplikaciji Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001991"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650231"
 ---
 # <a name="pricing-dimensions-overview"></a>Pregled cenovnih razsežnosti
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Razsežnosti, ki se uporabljajo v človeških virih za nastavitev določanja cen in stroškov, se delijo v dve kategoriji:
 
@@ -33,7 +34,7 @@ Zaradi tega obstajata dve vrsti vrednosti cenovnih razsežnosti, ki so na voljo:
 
 Dynamics 365 Project Operations vključuje privzet nabor cenovnih razsežnosti. Te cenovne razsežnosti si lahko ogledate v **Project Operations** > **Parametri**. V zapisu parametra na zavihku **Cenovna razsežnost na podlagi zneska** preverite, ali sta pri vlogi **msdyn_resourcecategory** in organizacijski enoti za vire **msdyn_organizationalunit** polji **Mogoče uporabiti za prodajo** in **Mogoče uporabiti za ceno** nastavljeni na **Da**. Z omogočenimi temi polji lahko nastavite ceno in strošek za vsako kombinacijo vloge in organizacijske enote.
 
-![Prikaz parametrov v aplikaciji Project Service z označeno možnostjo »Mogoče uporabiti za prodajo«.](media/PS-OOB-parameters.png)
+![Prikaz parametrov v aplikaciji Project Service z označeno možnostjo »Mogoče uporabiti za prodajo«](media/PS-OOB-parameters.png)
 
 Če morate zagotoviti ceno ali strošek za svoje vire z dodatnimi atributi, lahko ustvarite polja, entitete in razsežnosti po meri. Za več informacij glejte naslednjo temo. 
   
@@ -60,16 +61,13 @@ Spodnji primer prikazuje deleže obračunavanja, ki so nastavljeni na podlagi vl
 
 | Vloga        | Organizacijska enota    |Enota      |Cena      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Razvijalec   | Contoso US  |Ura | 200|USD     |
-| Razvijalec   | Contoso Indija |Ura|   112|USD     |
+| Developer   | Contoso, ZDA  |Ura | 200|USD     |
+| Developer   | Contoso Indija |Ura|   112|USD     |
 
 
 **Vzorčne mere stroškov**
 
 | Razpon plače     | Organizacijska enota    |Enota      |Cena      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje podjetje_razpon1 | Contoso US  |Ura | 145|USD     |
+| Moje podjetje_razpon1 | Contoso, ZDA  |Ura | 145|USD     |
 | Moje podjetje_razpon2 | Contoso Indija |Ura|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

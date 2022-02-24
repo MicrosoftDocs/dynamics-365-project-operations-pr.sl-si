@@ -2,9 +2,11 @@
 title: Nastavitev polj po meri kot cenovnih razsežnosti
 description: Ta tema vsebuje informacije o tem, kako nastaviti cenovne razsežnosti z uporabo polj po meri.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003611"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650248"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavitev polj po meri kot cenovnih razsežnosti
 
@@ -42,11 +44,11 @@ Ta tema vsebuje informacije o nastavitvi cenovnih razsežnosti po meri. Na stran
 
 - ustvariti kot vrstico v tabeli **Cenovna razsežnost**. Vrstice cenovnih razsežnosti lahko na primer dodate tako, kot je prikazano na spodnji grafiki. 
 
-![Vrstice s cenovnimi razsežnostmi na podlagi zneska.](media/Amt-based-PD.png)
+![Vrstice s cenovnimi razsežnostmi na podlagi zneska](media/Amt-based-PD.png)
 
 V mrežo na zavihku **Cenovna razsežnost na podlagi pribitka** je dodan delovni čas vira (**msdyn_resourceworkhours**) kot ena od razsežnosti na podlagi pribitka.
 
-![Vrstice s cenovnimi razsežnostmi na podlagi pribitka.](media/Markup-based-PD.png)
+![Vrstice s cenovnimi razsežnostmi na podlagi pribitka](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -75,7 +77,7 @@ Obstajata dve vrsti cenovnih razsežnosti:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso Indija|Na lokaciji            |                    |Nadure                 |15     |
 |             | Contoso Indija|Lokalno             |                    |Nadure                 |10     |
-|             | Contoso US   |Lokalno             |                    |Nadure                 |20     |
+|             | Contoso, ZDA   |Lokalno             |                    |Nadure                 |20     |
 
 
 Če vir iz Contoso Indija, katerega osnovna postavka je 100 USD, deluje na licu mesta in v časovni vnos zabeleži 8 ur rednega dela in 2 uri nadur, bo cenovni mehanizem uporabil osnovno postavko v višini 100 za 8 ur in zabeležil 800 USD. Za 2 uri nadur se bo upošteval pribitek v višini 15 % na osnovno postavko 100, s čimer se bo cenovna enota zvišala na 115 USD, skupni strošek pa bo znašal 230 USD.
@@ -94,6 +96,3 @@ Določanje prioritete razsežnosti pomaga pri določanju cene, tudi kadar ta ne 
 
 - **Cenovna prioriteta**: vrednost cenovne prioritete razsežnosti, ki določa težo razsežnosti pri ugotavljanju ujemanja z nastavljenimi lastnimi cenami. Vrednost **Cenovna prioriteta** mora biti enaka za vse razsežnosti, za katere velja, da jih je **Mogoče uporabiti za ceno**.
 - **Prodajna prioriteta**: vrednost prodajne prioritete razsežnosti, ki določa težo razsežnosti pri ugotavljanju ujemanja z nastavljenimi prodajnimi cenami ali obračunskimi stopnjami. Vrednost **Prodajna prioriteta** mora biti enaka za vse razsežnosti, za katere velja, da jih je **Mogoče uporabiti za prodajo**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

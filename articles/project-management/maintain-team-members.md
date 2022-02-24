@@ -2,16 +2,18 @@
 title: Vzdrževanje članov ekipe
 description: Ta tema vsebuje informacije o rezervaciji poimenovanih virov projektne ekipe in njihovi dodelitvi opravilom.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997086"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131543"
 ---
 # <a name="maintain-team-members"></a>Vzdrževanje članov ekipe
 
@@ -19,7 +21,7 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoč
 
 Poimenovani vir lahko v projektno ekipo dodate tako, da ga neposredno rezervirate v ekipi.
 
-1. V aplikaciji Dynamics 365 Project Operations odprite razdelek **Projekti** in odprite projekt, za katerega želite izvesti rezervacijo.
+1. V storitvi Dynamics 365 Project Operations odprite možnost **Projekti** in odprite projekt, za katerega želite izvesti rezervacijo.
 2. Na strani **Projekt** na zavihku **Ekipa** izberite **Novo**. 
 3. V pogovornem oknu **Hitro ustvarjanje člana projektne ekipe** izberite vir, ki ga je mogoče rezervirati. Polje **Vloga** bo izpolnjeno s privzeto vlogo vira, če ima dodeljeno. Vlogo lahko spremenite. 
 4. Izberite začetni in končni datum obdobja, v katerem potrebujete vir, in izberite način dodeljevanja zmogljivosti vira. 
@@ -40,6 +42,3 @@ Ko opravite izbor, je vir dodan projektni ekipi in dodeljen opravilu, vendar se 
 Za rezervacijo zmogljivosti vira za projekt lahko uporabite funkcijo razširjanja rezervacij na zavihku **Uskladitev** ali **ploščo razporeda**.
 
 Ko je član ekipe rezerviran za vaš projekt, lahko uporabite možnost **Upravljanje rezervacij** ali **Plošča razporeda** ter neposredno urejate njegove rezervacije.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

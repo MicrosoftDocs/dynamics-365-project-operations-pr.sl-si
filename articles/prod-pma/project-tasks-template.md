@@ -2,9 +2,11 @@
 title: Sinhronizacija opravil projekta neposredno iz rešitve Project Service Automation v Finance and Operations
 description: Ta tema opisuje predlogo in temeljno opravilo, ki se uporabljata za sinhronizacijo opravil projekta neposredno iz rešitve Microsoft Dynamics 365 Project Service Automation v Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992811"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084738"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizacija opravil projekta neposredno iz rešitve Project Service Automation v Finance and Operations
 
@@ -39,7 +41,7 @@ Rešitev za integracijo rešitve Project Service Automation v rešitev Finance u
 
 Naslednja slika prikazuje, kako se podatki sinhronizirajo med rešitvama Project Service Automation in Finance.
 
-[![Podatkovni tok za integracijo rešitve Project Service Automation z rešitvijo Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Pretok podatkov za integracijo rešitve Project Service Automation v Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Predloga in opravilo
 
@@ -80,7 +82,4 @@ Preden lahko pride do sinhronizacije opravil projekta, morate sinhronizirati pro
 
 Naslednja ilustracija prikazuje primer preslikave predloge opravila v integracijo podatkov. Preslikava prikazuje informacije o polju, ki bodo sinhronizirane iz rešitve Project Service Automation v Finance.
 
-[![Preslikava predloge.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Preslikava predloge](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
