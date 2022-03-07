@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 20562b98ccc8451ab57dd42fb8c2f9f303811dbe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144388"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283163"
 ---
 # <a name="resource-management-faq"></a>Pogosta vprašanja in odgovori o upravljanju virov
 
@@ -54,3 +54,6 @@ V aplikaciji Dynamics 365 Project Service Automation sta podprti le vrsti virov 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Kakšna je razlika med dodelitvijo in rezervacijo?
 
 Dodelitve označujejo dodeljevanje virov k projektnim opravilom v projektnem razporedu. Viri so lahko resnični ali splošni. Rezervacije so potrjene ali začasne dodelitve virov določenemu projektu. Potrjene rezervacije porabijo zmogljivost vira. Načeloma bi se morale rezervacije in dodelitve za resnične vire skladati, saj se ne razlikujejo. Vendar PSA ne vsiljuje tega pravila. V pogledu »Usklajevanje« se vodji projekta prikažejo mesta, kjer se rezervacije in dodelitve vira ne skladajo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

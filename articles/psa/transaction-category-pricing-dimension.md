@@ -2,12 +2,10 @@
 title: Uporaba kategorije transakcije kot cenovne razsežnosti
 description: Ta tema vsebuje informacije o uporabi kategorije transakcije kot cenovne razsežnosti.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150778"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988895"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Uporaba kategorije transakcije kot cenovne razsežnosti
 
@@ -53,3 +51,6 @@ V spodnji tabeli je obsežen seznam vnaprej pripravljenih obrazcev in pogledov, 
 2. Na zavihku **Cenovne razsežnosti na podlagi zneska** na strani **Parametri** lahko vidite, da mreža na zavihku prikazuje zapise v entiteti **Cenovne razsežnosti**.
 3. Dodajte možnost **Kategorija transakcije** na ta seznam in nastavite polji **Mogoče uporabiti za ceno** in **Mogoče uporabiti za prodajo** na **Da**.
 4. V polju **Vrsta razsežnosti** izberite **Na podlagi zneska** in nato izberite prioriteto za možnost **Kategorija transakcije**, povezano s ceno in prodajo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

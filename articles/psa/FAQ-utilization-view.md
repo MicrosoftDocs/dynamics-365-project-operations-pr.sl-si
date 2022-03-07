@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992854"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007166"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Prikaz zaračunane uporabe virov
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992854"
  
 **Pogled »Uporaba«** na strani **Project Service – uporaba virov** prikazuje zaračunano uporabo za vsak vir, ki ga je mogoče rezervirati. Ker pogled temelji na plošči razporeda, ima veliko podobnih funkcij.
 
-> ![Posnetek zaslona pogleda Uporaba](media/FAQ-utilization-1.png)
+> ![Posnetek zaslona pogleda "Uporaba".](media/FAQ-utilization-1.png)
  
 
 Izračun zaračunane uporabe se izvaja kot sledi:
@@ -48,7 +48,7 @@ Ciljna uporaba se lahko določi glede na privzeto vlogo vira ali glede na posame
 2. Izberite vir, da odprete zapis. 
 3. Na zavihku **Project Service** lahko nastavite ciljno uporabo za vir.
 
-> ![Posnetek zaslona z zavihkom Project Service za nastavitev ciljne uporabe](media/FAQ-utilization-2.png)
+> ![Posnetek zaslona z zavihkom "Project Service" za nastavitev ciljne uporabe.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Nastavljanje ciljne uporabe v vlogi
 
@@ -56,7 +56,7 @@ Ciljna uporaba se lahko določi glede na privzeto vlogo vira ali glede na posame
 2. Izberite vlogo in odprite zapis. 
 3. Nastavite ciljno uporabo za to vlogo.
 
-> ![Posnetek zaslona z možnostjo Vloge virov za nastavitev ciljne uporabe](media/FAQ-utilization-3.png)
+> ![Posnetek zaslona z možnostjo "Vloge virov" za nastavitev ciljne uporabe.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Izračun zaračunane uporabe za vir
 

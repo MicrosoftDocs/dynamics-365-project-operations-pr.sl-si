@@ -1,29 +1,25 @@
 ---
-title: Konfiguracija samodejnega ustvarjanja računov – poenostavljena različica
-description: Ta tema vsebuje informacije o konfiguraciji samodejnega ustvarjanja predračunov.
+title: Nastavitev samodejnega ustvarjanja računov
+description: Ta tema vsebuje informacije o nastavitvi in konfiguraciji samodejnega ustvarjanja računov.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176586"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997536"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Konfiguracija samodejnega ustvarjanja računov – poenostavljena različica
+# <a name="set-up-automatic-invoice-creation"></a>Nastavitev samodejnega ustvarjanja računov 
  
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** poenostavljeno uvedbo – posel do izstavitve predračuna, Project Operations za primere, ki temeljijo na virih/manjkajoči zalogi_
 
-Samodejno ustvarjanje računov lahko konfigurirate v aplikaciji Dynamics 365 Project Operations. Sistem ustvari osnutek predračuna na podlagi razporeda izdajanja računov za vsako posamezno projektno pogodbo in podrobnost pogodbe. Razporedi izdajanja računov so konfigurirani na ravni podrobnosti pogodbe. Vsaka podrobnost pogodbe ima lahko različen razpored izdajanja računov ali pa je ta isti razpored izdajanja računov vključen v vsako podrobnost pogodbe.
+V aplikaciji Dynamics 365 Project Operations lahko konfigurirate samodejno ustvarjanje računov. Sistem ustvari osnutek predračuna na podlagi razporeda izdajanja računov za vsako posamezno projektno pogodbo in podrobnost pogodbe. Razporedi izdajanja računov so konfigurirani na ravni podrobnosti pogodbe. Vsaka podrobnost pogodbe ima lahko različen razpored izdajanja računov ali pa je ta isti razpored izdajanja računov vključen v vsako podrobnost pogodbe.
 
-Ko ustvarite račun, sistem ustvari vsaj en račun na projektno pogodbo. V nekaterih primerih je lahko ustvarjenih več računov.
-
-Če ima na primer pogodba več strank, bo ustvarjeno toliko računov, kot je strank, ki imajo v tej projektni pogodbi določene plačljive transakcije, za katere je treba izdati račun.
+Ko ustvarite račun, sistem ustvari vsaj en račun na projektno pogodbo. V nekaterih primerih je lahko ustvarjenih več računov. Če ima na primer pogodba več strank, bo ustvarjeno toliko računov, kot je strank, ki imajo v tej projektni pogodbi določene plačljive transakcije, za katere je treba izdati račun.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Vključevanje transakcij v račun 
 
@@ -91,3 +87,6 @@ Paketna obdelava za ustvarjanje računov je ponavljajoče se opravilo. Če je pa
 
 > [!NOTE]
 > Paketno izdajanje računov v aplikaciji Project Operations se izvaja samo za podrobnosti pogodbe, ki so konfigurirane z razporedi izdajanja računov. V podrobnostih pogodbe z načinom obračunavanja s fiksno ceno morajo biti nastavljeni mejniki. V podrobnostih pogodbe z načinom obračunavanja za časovne in materialne transakcije je treba nastaviti datumski urnik računov.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

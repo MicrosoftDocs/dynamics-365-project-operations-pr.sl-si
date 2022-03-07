@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084612"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279248"
 ---
 # <a name="schedule-assistant-overview"></a>Pregled pomočnika za razporejanje
 
@@ -25,7 +25,7 @@ Ko so določeni ustrezni viri, lahko vodja virov ali projekta rezervira vir za o
 
 ## <a name="prerequisites"></a>Zahteve
 
-Pomočnik za razporejanje je del rešitve Universal Resource Scheduling. Ta rešitev je vključena in nameščena v storitev Dynamics 365 Project Operations, Dynamics 365 Field Service in Dynamics 365 Customer Service.
+Pomočnik za razporejanje je del rešitve Universal Resource Scheduling. Ta rešitev je vključena in nameščena v aplikacijah Dynamics 365 Project Operations, Dynamics 365 Field Service in Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Usklajevanje zahtev z viri
 
@@ -57,3 +57,6 @@ Podokno filtra prikazuje z delom povezane možnosti, kot so:
 -   Podjetje, ki zagotavlja vire
 -   Vrste virov
 -   Prednostni viri
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

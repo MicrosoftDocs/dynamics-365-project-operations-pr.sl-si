@@ -2,18 +2,16 @@
 title: Ustvarjanje strukturirane členitve dela
 description: V tej temi je pojasnjeno, kako ustvarite strukturirano členitev dela (SČD), ki vključuje osnovne kontrolnike v novem vmesniku za načrtovanje.
 author: ruhercul
-manager: tfehr
-ms.date: 01/07/2021
+ms.date: 12/16/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841403"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928635"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Ustvarjanje strukturirane členitve dela (SČD)
 
@@ -93,13 +91,15 @@ Spodnja tabela prikazuje dodatne atribute razporeda.
 | Imenu | Ime opravila. |
 | ID | ID opravila v strukturirani členitvi dela. |
 
+Kot skrbnik lahko v entiteti opravila določite polja po meri. Vendar polj ni mogoče prikazati v mreži razporeda. Če si želite ogledati polja po meri, jih dodajte na stran s podrobnostmi **projektne naloge**.
+
 ## <a name="staffing-attributes"></a>Atributi števila delavcev
 
-Do atributov za dodelitev osebja lahko dostopate prek polja **Viri** v razporedu. Poiščete lahko obstoječi vir ali izberete **Ustvari** in v podoknu **Hitro ustvarjanje** dodate člana projektne ekipe kot nov vir.
+Do atributov za dodelitev osebja lahko dostopate prek polja **Viri** v razporedu. Poiščete lahko obstoječi vir ali izberete **Ustvari** in v podoknu **Hitro ustvarjanje** dodate člana projektne ekipe kot nov vir.  Ko iščete vir z izbirnikom virov v mreži opravil, pogledu plošče ali gantu, iskanje vrne obstoječe člane projektne skupine ali aktivne vire, ki jih je mogoče rezervirati.
 
 Polja **Vloga**, **Enota vira** in **Ime položaja** se uporabljajo za opis zahtev za dodelitev osebja za opravilo. Ti atributi za dodelitev osebja se skupaj z razporedom opravila uporabljajo za iskanje razpoložljivih virov za to opravilo.
 
-   - **Vloga**: določite vrsto vira, ki se zahteva za opravilo.
+   - **Vloga** : Določite vrsto vira, ki je potreben za izvedbo naloge.,
    - **Enota vira**: določite enoto, iz katere se dodelijo viri za opravilo. Ta atribut vpliva na oceno stroškov in prodaje za opravilo, če sta mera stroškov in delež obračunavanja za vir nastavljena na podlagi enot vira.
    - **Naziv delovnega mesta**: vnesite ime za splošni vir, ki služi kot označba mesta za vir, ki bo opravil delo.
 
@@ -116,3 +116,28 @@ Način opravila ne vpliva na posodobitve začetnega in končnega datuma predhodn
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Pripomočki za osebe s posebnimi potrebami in bližnjice na tipkovnici
 
 Mreža **Razpored** v celoti podpira pripomočke za osebe s posebnimi potrebami in se lahko uporablja z bralniki zaslona, kot so Pripovedovalec, JAWS in NVDA. Po mreži se lahko pomikate s puščičnimi tipkami (kot v aplikaciji Microsoft Excel), lahko uporabite tipko Tab za pomikanje po interaktivnih elementih uporabniškega vmesnika, lahko pa uporabite tudi tipko s puščico dol, tipko Enter ali preslednico, da izberete in odprete spustne menije.
+
+## <a name="project-limitations"></a>Projektne omejitve 
+Če uporabljate strukturirano členitev dela v rešitvi Project Operations, se morate zavedati naslednjih omejitev. Te omejitve veljajo za projekte in opravila. Za več informacij glejte [Omejitve in meje rešitve Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Polje**                                          |  **Omejitev**           |
+|----------------------------------------------------|----------------------|
+| Največje skupno število opravil za projekt                  | 500                  |
+| Največje skupno trajanje projekta               | 3650 dni (10 let) |
+| Največje skupno število virov za projekt              | 150                  |
+| Največje skupno število povezav (samo naslednik) za projekt | 600                  |
+| Največje skupno število polj po meri za projekt          | 10                   |
+| Največje število elementov kontrolnega seznama na nalogo                   | 20                   |
+
+**Omejitve opravila**
+
+| **Polje**                               |   **Omejitev**           |
+|-----------------------------------------|-----------------------|
+| Najvišja raven hierarhije                 | 10 ravni             |
+| Največje število povezav (naslednik + predhodnik) | 20                    |
+| Najdaljše trajanje listnega opravila           | 1250 dni             |
+| Najdaljše trajanje opravila povzetka      | 3650 dni (10 let)  |
+| Največje število virov, dodeljenih opravilu    | 20 virov          |
+| Podprto datumsko obdobje za opravilo         | 1. 1. 2000–31. 12. 2149 |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

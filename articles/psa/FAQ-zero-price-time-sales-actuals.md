@@ -2,8 +2,6 @@
 title: Zakaj se cena pri dejanski vrednosti »čas – prodaja« privzeto nastavi na nič?
 description: 'Odpravljanje težav: cena pri dejanski vrednosti »čas – prodaja« se privzeto nastavi na 0.'
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f72e0db94392a35fee9fdcf2c4adb8a08feef13
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 2df4ce2d6391e70fea8e8f15c1b5774c9a9bfbe5f5ef2e6d8da8668afd34d4c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146233"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992586"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Zakaj se cena pri dejanski vrednosti »čas – prodaja« privzeto nastavi na nič?
 
@@ -57,3 +55,6 @@ Ko izvedete potrebne popravke, znova ustvarite vnos časa, ga odobrite in prever
 
 Če po treh opravljenih preverjanjih, opisanih zgoraj, še vedno ne vidite veljavne cene pri dejanski vrednosti »čas – prodaja«, vložite zahtevo za podporo. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Izklop cenovne razsežnosti
 description: Ta tema vsebuje informacije o tem, kako izklopiti cenovne razsežnosti.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
-ms.translationtype: HT
+ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650069"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994521"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Izklop cenovne razsežnosti
 
@@ -34,14 +32,17 @@ Cenovno razsežnost lahko izklopite tako, da polji **Mogoče uporabiti za ceno**
 
 Ko pa to storite, boste morda prejeli sporočilo o napaki **Cenovne razsežnosti ni mogoče posodobiti ali izbrisati, če obstajajo povezani zapisi cen**.
 
-![Napaka v poslovnem procesu, ki se lahko pojavi ob izklopu cenovne razsežnosti](media/Business-Process-Error.png)
+![Napaka v poslovnem procesu, ki se lahko pojavi ob izklopu cenovne razsežnosti.](media/Business-Process-Error.png)
 
 To sporočilo o napaki pomeni, da obstajajo zapisi cen, ki so bili predhodno nastavljeni za razsežnost, ki jo želite izklopiti. Vse zapise **Cena vloge** in **Pribitki na ceno vloge**, ki se sklicujejo na razsežnost, je treba izbrisati, preden lahko uporabnost razsežnosti nastavite na **Ne**. To pravilo velja tako za vnaprej pripravljene cenovne razsežnosti kot za vse cenovne razsežnosti po meri, ki ste jih morda ustvarili. To preverjanje je potrebno zato, ker mora imeti vsak zapis **Cena vloge** edinstveno kombinacijo razsežnosti. Na ceniku, imenovanem **Stroški v ZDA, 2018**, so naslednje vrstice **Cena vloge**. 
 
 | Standardni naziv         | Organizacijska enota    |Enota   |Cena  |Valuta  |
 | -----------------------|-------------|-------|-------|----------|
-| Sistemski inženir|Contoso, ZDA|Ura| 100|USD|
-| Višji sistemski inženir|Contoso, ZDA|Ura| 150| USD|
+| Sistemski inženir|Contoso US|Ura| 100|USD|
+| Višji sistemski inženir|Contoso US|Ura| 150| USD|
 
 
-Če izklopite **Standardni naziv** kot cenovno razsežnost, bo mehanizem za izračunavanje cen pri iskanju cene uporabil le vrednost **Organizacijska enota** iz konteksta vnosa. Če je **Organizacijska enota** za kontekst vnosa »Contoso, ZDA«, rezultata ne bo mogoče določiti, saj se bosta obe vrstici ujemali. Če se želite izogniti temu, naredite naslednje: ko ustvarite zapise **Cena vloge**, sistem potrdi, da je kombinacija razsežnosti edinstvena. Če razsežnost po ustvarjanju zapisov **Cena vloge** izklopite, je to omejitev mogoče zaobiti. Zato morate pred izklopom razsežnosti izbrisati vse vrstice **Cena vlog** in **Pribitek na ceno vloge**, ki imajo izpolnjeno to vrednost razsežnosti.
+Če izklopite **Standardni naziv** kot cenovno razsežnost, bo mehanizem za izračunavanje cen pri iskanju cene uporabil le vrednost **Organizacijska enota** iz konteksta vnosa. Če je **Organizacijska enota** za kontekst vnosa »Contoso ZDA«, rezultata ne bo mogoče določiti, saj se bosta obe vrstici ujemali. Če se želite izogniti temu, naredite naslednje: ko ustvarite zapise **Cena vloge**, sistem potrdi, da je kombinacija razsežnosti edinstvena. Če razsežnost po ustvarjanju zapisov **Cena vloge** izklopite, je to omejitev mogoče zaobiti. Zato morate pred izklopom razsežnosti izbrisati vse vrstice **Cena vlog** in **Pribitek na ceno vloge**, ki imajo izpolnjeno to vrednost razsežnosti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

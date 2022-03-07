@@ -2,11 +2,9 @@
 title: Zaračunavanje med podjetji
 description: V tem članku so na voljo informacije in primeri zaračunavanja za projekte med podjetji.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270788"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995826"
 ---
 # <a name="intercompany-invoicing"></a>Zaračunavanje med podjetji
 
@@ -35,7 +33,7 @@ Vaša organizacija ima lahko več oddelkov, podružnic in drugih pravnih subjekt
 
 Na spodnji sliki je prikazan tipičen primer, ko si dve pravni osebi, SI FR (pravna oseba, ki si izposoja) in SI USA (pravna oseba, ki posoja), delita sredstva za izvedbo projekta za stranko A. V tem primeru mora SI FR po pogodbi opraviti delo za stranko A. 
 
-[![Primer zaračunavanja med podjetji](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Primer zaračunavanja med podjetji.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Cilj je, da nadzor stroškov, upoštevanje prihodkov, davki in cena prenosa za projektne transakcije postanejo bolj prilagodljivi in zmogljivi. Poleg tega so na voljo naslednje zmogljivosti:
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150553"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949654"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Kaj je Dynamics 365 Project Service Automation?
 
@@ -47,10 +47,10 @@ Za lažje spremljanje in nadzor stroškov projektnega dela lahko svetovalci prek
 ## <a name="whats-new-in-psa"></a>Novosti v aplikaciji PSA
 Ekipa navdušeno sporoča, da so najnovejše posodobitve pripravljene! Od izboljšav uporabniškega vmesnika, odpravljanja napak ter dodajanja pomembnih novih funkcij in zmogljivosti. Vi ste spraševali, mi smo poslušali.
 
-Najnovejše izboljšave in dodatke si oglejte v [opombah k izdaji za oktober 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index).
+Najnovejše izboljšave in dodatke si oglejte v [opombah k izdaji za oktober 2019](/dynamics365-release-plan/2019wave2/index).
 
 ### <a name="in-development"></a>V razvoju
-Če si želite ogledati načrte za bližnjo prihodnost, glejte [Dynamics 365: načrt 1. faze izdaje za leto 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Če si želite ogledati načrte za bližnjo prihodnost, glejte [Dynamics 365: načrt 1. faze izdaje za leto 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Pomoč za PSA 3.x
 Ali iščete vire, ki bi vam bili v pomoč pri načrtovanju uvedbe? Oglejte si te vodnike, ki jih lahko prenesete.
@@ -86,3 +86,6 @@ Ali iščete vire, ki bi vam bili v pomoč pri načrtovanju uvedbe? Oglejte si t
  <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

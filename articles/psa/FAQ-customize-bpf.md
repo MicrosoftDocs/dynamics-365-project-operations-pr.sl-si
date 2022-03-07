@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993166"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002981"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Kako prilagodim potek poslovnega procesa stopenj projekta?
 
@@ -60,11 +60,11 @@ V različici 2.4.5.48 ali novejših različicah je bila poslovna logika, ki je o
 1. Privzeti konfiguraciji dodajte dodatne stopnje, pri tem pa ohranite angleška imena stopenj za **Quote**, **Plan** in **Close**.
 
 
-![Posnetek zaslona dodajanja stopenj privzeti konfiguraciji](media/FAQ-Customize-BPF-1.png)
+![Posnetek zaslona dodajanja stopenj privzeti konfiguraciji.](media/FAQ-Customize-BPF-1.png)
  
 2. Ustvarite svoj potek poslovnega procesa in ga spremenite v primarni potek poslovnega procesa za entiteto projekta, ki omogoča poimenovanje stopenj s poljubnimi imeni. Če želite uporabiti iste standardne stopnje projekta **Quote**, **Plan** in **Close**, pa morate izvesti nekatere prilagoditve, ki omogočajo uporabo imen stopenj po meri. Bolj zapletena logika obstaja pri zapiranju projekta, ki ga lahko še vedno sprožite z deaktiviranjem zapisa projekta.
 
-![Prilagajanje BPF](media/FAQ-Customize-BPF-2.png)
+![Prilagajanje BPF.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Dodatni vidiki za aplikacijo Project Service, različica 2.4.4.30 ali starejša različica na platformi 9.0
 
@@ -80,11 +80,11 @@ V aplikaciji Project Service, različica 2.4.4.30 ali starejša različica na pl
 
 1. Odprite **Nastavitve** > **Središče procesov**. Ne kopirajte poteka poslovnega procesa stopenj projekta, saj boste s tem kopirali tudi poslovno logiko za Project Service.
 
-  ![Ustvari proces](media/FAQ-Customize-BPF-3.png)
+  ![Ustvari proces.](media/FAQ-Customize-BPF-3.png)
 
 2. Z oblikovalnikom procesov ustvarite poljubna imena stopenj. Če želite enake funkcije, kot so funkcije privzetih stopenj za **Quote**, **Plan** in **Close**, jih boste morali ustvariti na podlagi vaših imen stopenj poteka poslovnega procesa po meri.
 
-   ![Posnetek zaslona oblikovalnika procesov za prilagajanje BPF](media/FAQ-Customize-BPF-4.png) 
+   ![Posnetek zaslona oblikovalnika procesov za prilagajanje BPF.](media/FAQ-Customize-BPF-4.png) 
 
 3. V oblikovalniku procesov kliknite **Potek procesa naročila**, da potek poslovnega procesa po meri spremenite v primarni potek poslovnega procesa za entiteto projekta tako, da ga premaknete na vrh seznama nad potek poslovnega procesa stopenj projekta.
 
@@ -95,15 +95,15 @@ V aplikaciji Project Service, različica 2.4.4.30 ali starejša različica na pl
 
 4. Entiteti projekta dodajte novo polje po meri, da v svojem poteku poslovnega procesa po meri zajamete stopnje po meri. Za posodobitev tega polja boste morali dodati poslovno logiko (vtičnik/potek dela), če je stopnja poteka poslovnega procesa po meri posodobljena.
 
-   ![Posnetek zaslona prilagajanja entitete projekta](media/FAQ-Customize-BPF-6-720.png)
+   ![Posnetek zaslona prilagajanja entitete projekta.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Spremenite grafikon **Projekt po stopnjah**, da boste lahko za stopnje uporabili novo polje po meri.
 
-   ![Posnetek zaslona uporabe grafikona »Projekt po stopnjah«](media/FAQ-Customize-BPF-7-720.png)
+   ![Posnetek zaslona uporabe grafikona »Projekt po stopnjah«.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Spremenite vse poglede za entiteto projekta, da boste za stopnje lahko vključili novo polje po meri.
 
-   ![Posnetek zaslona spreminjanja pogledov v entiteti projekta](media/FAQ-Customize-BPF-8-720.png)
+   ![Posnetek zaslona spreminjanja pogledov v entiteti projekta.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

@@ -2,18 +2,16 @@
 title: Upravljanje več strank v podrobnostih pogodb, ki temeljijo na projektih – poenostavljeno
 description: Ta tema zagotavlja informacije o upravljanju več strank v podrobnostih pogodb, ki temeljijo na projektu.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f28e7d1363647621f7bd23504aa6d4ea3fc95fc9
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: a7e29b1a92a5fefcf4812931383d03e5f81a27001f0e6525bb4eeb8dc93b18b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181673"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001811"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Upravljanje več strank v podrobnostih pogodb, ki temeljijo na projektih – poenostavljeno
 
@@ -43,3 +41,6 @@ Spodaj so polja na zapisu stranke podrobnosti **pogodbe** v podrobnosti pogodbe,
 Odstotke razdelitve stroškov lahko urejate v mreži. Ko odstotki razdelitve stroškov ne znašajo 100 odstotkov, se prikaže napaka. Ko uredite odstotke razdelitve stroškov, osvežite stran, da obvestilo o napaki odstranite.
 
 V podmreži stranke podrobnosti pogodbe lahko izberete možnost **Enakomerna razporeditev**. To dejanje enakomerno dodeli razdelitve stroškov vsem strankam podrobnosti pogodbe. Če obstaja dejavnik zaokroževanja, se doda stranki za zaokroževanje. Ena stranka podrobnosti pogodbe je vedno označena kot stranka za **Zaokroževanje** z nastavljeno zastavico **Zaokroževanje** na **Da**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

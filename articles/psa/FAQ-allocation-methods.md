@@ -2,6 +2,8 @@
 title: Načini za rezervacijo dodelitev v storitvi Project Service Automation
 description: V tej temi najdete informacije o različnih načinih za rezervacijo dodelitev.
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89c455b45829a4e28dc8bb71cf34e52375ed6efd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 295da428ce15e7775450dfa94e96047f200bdede
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993342"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084750"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Načini za rezervacijo dodelitev v storitvi Project Service Automation
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Če člana ekipe dodate projektu neposredno na zavihku **Ekipa** ali rezervirate vir za projekt oz. zahtevo na plošči razporeda, lahko uporabite več različnih načinov rezervacije dodelitev. V tej temi je pojasnjeno, kako delujejo posamezni načini in kateri načini lahko vodijo v preveliko število rezervacij virov.
 
@@ -69,6 +69,3 @@ Način »Brez« je na voljo samo, če rezervacijo ustvarite na zavihku **Ekipa**
 - Enakomerna porazdelitev ur
 
 Če uporabite enega od teh treh načinov dodeljevanja, ne boste obveščeni o tem, da je bilo doseženo preveliko število rezervacij vira. Če želite popraviti preveliko število rezervacij, morate uporabiti ploščo razporeda.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

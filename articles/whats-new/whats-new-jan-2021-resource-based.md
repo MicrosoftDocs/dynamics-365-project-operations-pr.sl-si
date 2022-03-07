@@ -2,23 +2,21 @@
 title: Novosti v januarju 2021 – Project Operations za primere uporabe z viri/brez zalog
 description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v januarski izdaji (2021) aplikacije Project Operations za primere uporabe z viri/brez zalog.
 author: sigitac
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24a6f3b49b9c67b7c2d97461ab0f23a9a704dbc7
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
-ms.translationtype: HT
+ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958953"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008111"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti v januarju 2021 – Project Operations za primere uporabe z viri/brez zalog
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 
 Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
@@ -88,4 +86,7 @@ Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Proj
 
 ## <a name="regulatory-updates"></a>Regulativne posodobitve
 
-Za informacije o regulativnih posodobitvah za aplikacije Finance and Operations glejte [Regulativne posodobitve](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+Za informacije o regulativnih posodobitvah za aplikacije Finance and Operations glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

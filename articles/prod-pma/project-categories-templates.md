@@ -2,11 +2,9 @@
 title: Sinhronizacija kategorij stroškov projekta med Finance and Operations in Project Service Automation
 description: Ta tema opisuje predloge in temeljna opravila, ki se uporabljajo za sinhronizacijo kategorij stroškov projekta med rešitvama Microsoft Dynamics 365 Finance in Dynamics 365 Project Service Automation.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084895"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001136"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinhronizacija kategorij stroškov projekta med Finance and Operations in Project Service Automation
 
@@ -58,7 +56,7 @@ Rešitev za integracijo rešitve Project Service Automation in Finance uporablja
 
 Naslednja slika prikazuje, kako se podatki sinhronizirajo med rešitvama Project Service Automation in Finance.
 
-[![Pretok podatkov za integracijo rešitve Project Service Automation v Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Podatkovni tok za integracijo rešitve Project Service Automation z rešitvijo Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Sinhronizacija kategorije stroškov projekta iz rešitve Finance v Project Service Automation
 
@@ -95,7 +93,7 @@ Ko izvajate sinhronizacijo z rešitvijo Project Service Automation, morate upora
 
 Naslednja ilustracija prikazuje primer preslikave predloge opravila v integracijo podatkov. Preslikava prikazuje informacije o polju, ki bodo sinhronizirane iz rešitve Finance v Project Service Automation.
 
-[![Preslikava predloge za kategorijo stroškov projekta v Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Preslikava predloge za kategorijo stroškov projekta v rešitev Project Service Automation.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Sinhronizacija kategorije stroškov projekta iz rešitve Project Service Automation v Finance
 
@@ -123,4 +121,7 @@ Naslednja ilustracija prikazuje primer preslikave predloge opravila v integracij
 > [!NOTE]
 > Preslikava prikazuje informacije o polju, ki bodo sinhronizirane iz rešitve Project Service Automation v Finance.
 
-[![Preslikava predloge Project Service Automation v Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Preslikava predloge Project Service Automation v rešitev Finance.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

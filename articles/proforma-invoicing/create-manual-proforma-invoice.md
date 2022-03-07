@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128078"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287798"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Ustvarjanje ročnega predračuna
 
@@ -30,7 +30,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
 
 Zaračunavanje vodjem projektov zagotavlja drugo stopnjo odobritve, preden ustvarijo račune za kupce. Prva stopnja odobritve se zaključi, ko so odobreni časovni vnosi in vnosi stroškov, ki jih predložijo člani projektne ekipe.
 
-Storitev Dynamics 365 Project Operations ni zasnovana za ustvarjanje računov za stranke iz teh razlogov:
+Aplikacij Dynamics 365 Project Operations ni zasnovana za izstavljanje računov za stranke iz teh razlogov:
 
 - Ne vsebuje davčnih podatkov.
 - Ne more pretvoriti drugih valut v valuto računa z uporabo pravilno konfiguriranih menjalnih tečajev.
@@ -111,3 +111,6 @@ Ko potrdite korektivni račun, je prvotna obračunana dejanska prodaja storniran
 
 - Obračunana dejanska prodaja za šest ur.
 - Neobračunana dejanska prodaja za preostali dve uri. Ta transakcija je lahko obračunana pozneje ali označena kot transakcija, ki se ne zaračuna, odvisno od pogajanj s stranko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

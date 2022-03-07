@@ -2,18 +2,16 @@
 title: Upravljanje predlogov za račune projekta
 description: V tej temi so na voljo podrobnosti o obdelavi računov za stranke v aplikaciji Project Operations za primere uporabe z viri/brez zalog.
 author: sigitac
-manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
-ms.translationtype: HT
+ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089305"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989931"
 ---
 # <a name="manage-project-invoice-proposals"></a>Upravljanje predlogov za račune projekta
 
@@ -80,7 +78,8 @@ Vrednosti **Skupina prometnega davka** in **Skupina davka od prodaje izdelkov** 
     - **Stranka** kot privzeto vedno nastavi skupino za obračun prometnega davka iz stranke.
     - **Iskanje** išče po vseh entitetah na tem seznamu in izbere prvo vrednost, ki je na voljo. Iskanje se začne z entiteto **Projekt**, nato pa sledita entiteti **Projektna pogodba** in **Stranka**.
 
-- **Skupina davka od prodaje izdelkov za mejnik s fiksno ceno** se uporablja za nastavitev privzete vrednosti v polju **Skupina za davek od prodaje izdelkov**.
+- **Skupina davka od prodaje izdelkov z mejniki s fiksno cene** se uporablja kot privzeta vrednost v polju **Skupina davka od prodaje izdelkov** za mejnik obračunavanja. Računovodja lahko to vrednost pregleda in prilagodi na strani **Transakcije za kupca**. Sistem pri ustvarjanju vrstice s predlogom za račune podjetja uporabi vrednost iz transakcije za kupca.
+ 
 
 ### <a name="financial-dimensions"></a>Finančne razsežnosti
 
@@ -132,7 +131,7 @@ Stran **Oblikovanje predlogov računov** omogoča prikaz razvrščanja transakci
 
 Upravljanje tiskanja uporablja različne datoteke poročil za tiskanje, določanje ciljev in prilagajanje besedila noge za račun. Upravljanje tiskanja je mogoče nastaviti na ravni modula, vendar je te nastavitve mogoče preglasiti za določeno stranko, pogodbo ali predlog za račun. Za dostop do te funkcije na strani **Predlog za račun projekta** izberite **Natisni** > **Upravljanje tiskanja**.
 
-Nastavitev upravljanja tiskanja je prikazana kot drevesni pogled, kjer vsaka raven vozlišča prikaže razpoložljive dokumente za prilagajanje. Izpise po meri lahko dodelite na ravni modula, stranke, pogodbe ali predloga za račun. Če želite spremeniti izpis izvirnega dokumenta, razširite želeno vozlišče in izberite **Izvirni element**. V polju **Oblika zapisa poročila** izberite obliko zapisa poročila, ki jo želite uporabiti za tiskanje. Za oblike zapisa poročil po meri lahko uporabite [okvir za upravljanje poslovnih dokumentov](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Nastavitev upravljanja tiskanja je prikazana kot drevesni pogled, kjer vsaka raven vozlišča prikaže razpoložljive dokumente za prilagajanje. Izpise po meri lahko dodelite na ravni modula, stranke, pogodbe ali predloga za račun. Če želite spremeniti izpis izvirnega dokumenta, razširite želeno vozlišče in izberite **Izvirni element**. V polju **Oblika zapisa poročila** izberite obliko zapisa poročila, ki jo želite uporabiti za tiskanje. Za oblike zapisa poročil po meri lahko uporabite [okvir za upravljanje poslovnih dokumentov](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Knjiženje predlogov za račune
 
@@ -143,3 +142,6 @@ Ko je račun pregledan in urejen in so vrstice predloga za računa zadovoljive, 
 Poleg strani **Predlog za račun** lahko predloge za račune knjižite tudi tako, da zaženete redno opravilo **Knjiži predloge za račune**. To opravilo najdete v možnosti **Upravljanje projektov in računovodstvo** > **Redno** > **Projektni računi** > **Knjiženje predlogov za račune**.
 
 Ta stran prikaže vse predloge za račune, ki so pripravljeni za knjiženje. Knjiženje predlogov za račune lahko načrtujete tako, da izberete **Paket**. **Parameter za paketno obdelavo** nastavite na **Da** in nato nastavite ponavljanje paketne obdelave tako, da izberete **Ponavljanje**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

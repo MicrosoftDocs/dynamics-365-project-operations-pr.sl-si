@@ -2,18 +2,16 @@
 title: Vrste obdobij
 description: Ta tema vsebuje informacije o tem, kako nastaviti vrste obdobij za oceno prihodkov.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
-ms.translationtype: HT
+ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531557"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998796"
 ---
 # <a name="period-types"></a>Vrste obdobij
 
@@ -34,3 +32,6 @@ Vrsta obdobja določa, kako pogosto bodo izdelane ocene prihodkov od projekta. T
 4. Izberite zapis vrste obdobja in nato **Ustvari obdobja**, da ustvarite obdobja za izbrano vrsto obdobja. Glede na izbrano pogostost obdobja boste morda imeli možnost določiti začetni datum ali število obdobij, ki jih želite ustvariti.
 5. Izberite **Obdobja** za pregled ustvarjenih obdobij.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

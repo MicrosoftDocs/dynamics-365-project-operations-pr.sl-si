@@ -1,21 +1,21 @@
 ---
-title: Popravljalni računi za projekt
-description: Ta tema vsebuje informacije o tem, kako ustvariti in potrditi popravljalne račune v aplikaciji Project Operations.
+title: Popravljeni računi – poenostavljena različica
+description: Ta tema vsebuje informacije o popravljenih računih v aplikaciji Project Operations
 author: rumant
 manager: Annbe
-ms.date: 04/05/2021
+ms.date: 10/15/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866611"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176451"
 ---
-# <a name="corrective-project-invoices"></a>Popravljalni računi za projekt
+# <a name="corrected-invoices---lite"></a>Popravljeni računi – poenostavljena različica
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -37,9 +37,9 @@ Iz potrjenega računa se ustvari nov osnutek računa. Vse podrobnosti vrstice ra
 > [!IMPORTANT]
 > Podrobnosti vrstice računa oz. popravki drugih že zaračunanih stroškov imajo polje **Popravek** nastavljeno na **Da**. Računi s popravljenimi podrobnostmi vrstice računa imajo polje **Vsebuje popravke**, ki je prav tako nastavljeno na **Da**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Dejanske vrednosti, ustvarjene ob potrditvi popravljenega računa
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Dejanske vrednosti, ustvarjene ob potrditvi popravljenega računa:
 
-V naslednji tabeli so navedene dejanske vrednosti, ki se ustvarijo, ko je popravljalni račun potrjen.
+Spodaj so prikazane dejanske vrednosti, ki jih je ustvarila aplikacija ob potrditvi popravka na podlagi izvedenih operacij na osnutku popravljenega računa pred potrditvijo.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,51 +214,6 @@ Nova dejanska vrednost neobračunane prodaje, ki se zaračuna za preostalo koli�
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Izdajanje računov predhodno zaračunanih materialnih transakcij v celoti v dobro.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Storniranje obračunane prodaje za količino in znesek v izvirnih podrobnostih vrstice računa za material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nova neobračunana dejanska prodaja za količino in znesek v izvirnih podrobnostih vrstice računa za material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Račun za delno dobroimetje pri materialni transakciji.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Storniranje obračunane prodaje za količino in znesek, zaračunan v izvirnih podrobnostih vrstice računa za material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nova neobračunana dejanska prodaja, ki se zaračuna za količino in znesek v podrobnostih vrstice računa, storno in vrednost obračuna dejanske prodaje.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nova dejanska vrednost neobračunane prodaje, ki se zaračuna za preostalo količino in zneske po odštetju popravljenih številk na podrobnostih vrstice računa.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 Izdajanje računov za celotno dobroimetje predhodno zaračunane transakcije dajatve.
                 </p>
             </td>
@@ -305,7 +260,7 @@ Izdajanje računov za celotno dobroimetje predhodno zaračunanega mejnika.
 Stornacija obračunane prodaje za ure in znesek na prvotnih podrobnostih vrstice računa za mejnik.
                 </p>
                 <p>
-Stanje računa na mejniku se posodablja od <b>Račun stranke je objavljen</b> do <b>Pripravljeno za račun</b>.
+Račun za mejnik ali stanje obračunavanja v podrobnostih projektne pogodbe sta posodobljena na **Pripravljeno za izdajanje računov**.
                 </p>
             </td>
         </tr>
@@ -333,6 +288,3 @@ Niso podprti </p>
         </tr>
     </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

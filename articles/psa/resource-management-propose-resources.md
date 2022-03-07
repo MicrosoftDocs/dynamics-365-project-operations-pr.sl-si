@@ -3,7 +3,7 @@ title: Predlaganje projektnih virov
 description: Ta tema vsebuje informacije o predlaganju projektnih virov.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147538"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084975"
 ---
 # <a name="propose-project-resources"></a>Predlaganje projektnih virov
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Upravitelji virov lahko vodji projekta predlagajo vir prek zahteve za vir.
 

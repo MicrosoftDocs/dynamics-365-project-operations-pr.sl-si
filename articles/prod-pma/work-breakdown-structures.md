@@ -2,28 +2,26 @@
 title: Pregled strukturirane členitve dela
 description: Strukturirana členitev dela (SČD) je opis dela, ki bo opravljeno za projekt. Gre za hierarhijo opravil, ki predstavlja razumevanje projektne skupine glede sestave dela ter velikosti, stroškov in trajanja vsake komponente ali opravila.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 23861
+ms.custom: intro-internal
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 093f9901aec0db1fa8f920533c0084f877f26445fd07159e8e1ae0cf53849641
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084731"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998841"
 ---
 # <a name="work-breakdown-structures-overview"></a>Pregled strukturirane členitve dela
 
@@ -316,3 +314,6 @@ Napake pri načrtovanju pa lahko odpravite tudi tako, da za vsako opravilo klikn
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

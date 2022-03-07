@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009236"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433673"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Novosti za julij 2021 – poenostavljeno uvajanje storitve Project Operations
 
@@ -20,7 +20,7 @@ _Velja za: poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
 Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
-  - Aplikacija Project Operations v okolju Dataverse (različica 4.12.0.148 ali 4.12.0.152).
+  - Project Operations v okolju Dataverse različice 4.12.0.148.
 
 ## <a name="quality-updates"></a>Posodobitve kakovosti
 | **Območje funkcij**              | **Številka sklica** | **Posodobitev kakovosti**                                                                                                                                                                                             |
@@ -59,4 +59,3 @@ Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Proj
 | Splošno                       | 2296857              | Sledenje napredku za dolgotrajne posle.                                                                                                                                                                        |
 | Splošno                       | 2253682              | Rešitve dvojnega zapisovanja storitve Project Operations ne smemo nameščati, če je osnova dvojnega zapisovanja nameščena v okolju brez rešitve za organiziranje z dvojnim zapisovanjem.                                                |
 | Splošno                       | 2316420              | Jedro aplikacije Project Service ni omogočeno, če je poslovna enota uporabnika aplikacije spremenjena.                                                                                                                     |
-| Splošno                       | 2376405              | Odpravljena težava s posodobitvami, ki jih vodi izdajatelj (posodobitev kakovosti je na voljo v različici 4.12.0.152)                                                                                                                     |

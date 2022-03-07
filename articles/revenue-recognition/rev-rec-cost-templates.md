@@ -2,18 +2,16 @@
 title: Nastavitev predlog stroškov
 description: Ta tema vsebuje informacije o tem, kako ustvariti in uporabljati predloge stroškov v storitvi Project Operations.
 author: sigitac
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642743"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993576"
 ---
 # <a name="set-up-cost-templates"></a>Nastavitev predlog stroškov
 
@@ -79,3 +77,6 @@ Za ustvarjanje predlog stroškov sledite spodnjim navodilom:
 7. V zavihku **Kategorije** izberite kategorije projektov, ki jih želite vključiti v predlogo vrstic cene.
 8. V zavihku **Splošno** izberite, ali bo ta vrstica vključena v izračun odstotka dokončanja.
 9. Izberite metodo za izračun cene za dokončanje, ki bo uporabljena pri izračunu odstotka dokončanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

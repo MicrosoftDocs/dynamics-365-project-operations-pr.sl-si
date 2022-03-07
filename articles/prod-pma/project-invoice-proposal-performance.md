@@ -2,11 +2,9 @@
 title: Uspešnost predlogov za račune projekta
 description: Ta tema vsebuje informacije o izboljšavah učinkovitosti delovanja predlogov računov za projekte.
 author: Yowelle
-manager: AnnBe
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
-ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
-ms.translationtype: HT
+ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920322"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005726"
 ---
 # <a name="project-invoice-proposal-performance"></a>Uspešnost predlogov za račune projekta
 
@@ -46,4 +44,6 @@ Ko ustvarite nov predlog računa, lahko naletite na težave z učinkovitostjo de
 3.  Osvežite brskalnik.
 
 > [!NOTE]
-> Učinkovitosti delovanja predloga za račun ni mogoče uporabiti, če so omogočena pravila za obračun ali se izvajajo paketni procesi.
+> Uspešnost predloga za račun ne more biti uporabljena, ko so pravila za izstavitev računa onemogočena.
+> 
+> Med paketno obdelavo za ustvarjanje predloga za račun bodo številna podopravila, ne glede na to, kaj ste vnesli, na podlagi števila pogodb s transakcijami, ki se zaračunajo, opravila razdelila na največje možno število opravil. Če označite, da serija zajema **3** podopravila za ustvarjanje predloge za račun, obstajata pa samo dve pogodbi s transakcijami, za katere se lahko izda račun, bosta ustvarjeni samo dve podopravili.

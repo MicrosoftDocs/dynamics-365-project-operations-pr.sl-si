@@ -2,8 +2,6 @@
 title: Domača stran upravljanja virov
 description: Ta tema vsebuje informacije o upravljanju virov.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47d8fcc8b648921df43b9c03999ed27d85823a98
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 778002ea07a7be3cade988f515a6d890427e6613
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147583"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008736"
 ---
 # <a name="resource-management-home-page"></a>Domača stran upravljanja virov
 
@@ -41,3 +39,6 @@ Viri so najpomembnejše sredstvo organizacije, ki temelji na storitvah. Sposobno
 - [Zahteve za začasne rezervacije](resource-management-softbook-requirements.md)
 - [Modeli znanj in usposobljenosti](resource-management-skills-proficiency.md)
 - [Pogosta vprašanja in odgovori o upravljanju virov](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

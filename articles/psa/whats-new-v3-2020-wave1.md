@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5110679038ae7ed1e21a3e7dc80a4657e0752b49
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fef9cb62e989c693c8b3d00cb15441c284f66554
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150958"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280193"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Novosti ali spremembe v storitvi Project Service Automation različice 3, 1. faza za leto 2020
 
@@ -43,3 +43,6 @@ Poleg tega velja tudi, da če imate module aplikacij po meri, ki vsebujejo vse o
 
 ### <a name="currently-extended-time-entry-changes"></a>Trenutne razširjene spremembe časovnih vnosov
 Za zmanjšanje vpliva na trenutne uporabnike časovnega vnosa je ta sprememba vloge edina bistvena zahteva, potrebna za nadaljevanje uporabe časovnega vnosa. Če ste ustvarili poglede po meri ali ločene izkušnje časovnega vnosa, morate nastaviti polja **Nastavitev časovnega vnosa** na pravilno vrednost PSA.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

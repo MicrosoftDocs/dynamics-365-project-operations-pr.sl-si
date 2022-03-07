@@ -2,18 +2,16 @@
 title: Znanja in potrdila
 description: Ta tema vsebuje informacije o dodajanju lastnosti znanja in potrdil v vire.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128888"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990201"
 ---
 # <a name="skills-and-certifications"></a>Znanja in potrdila
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
@@ -43,3 +41,5 @@ Z dodajanjem lastnosti zahtevam za vire lahko dokumentirate znanje ali strokovno
 3. V podmreži **Znanje** izberite možnost **+Dodaj novo lastnost zahteve**.
 4. V podoknu za hitro ustvarjanje poiščite in izberite zahtevane lastnosti ter dodajte **Vrednost ocene**.
 5. Izberite **Shrani in zapri**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

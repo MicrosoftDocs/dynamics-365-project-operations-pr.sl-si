@@ -3,17 +3,17 @@ title: Upravljanje projektnih cenikov v projektnih pogodbah
 description: V tej temi so na voljo informacije o upravljanju projektnih cenikov v projektnih pogodbah.
 author: rumant
 manager: Annbe
-ms.date: 03/30/2021
+ms.date: 10/27/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858583"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278618"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Upravljanje projektnih cenikov v projektnih pogodbah
 
@@ -21,13 +21,13 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoč
 
 Projektne pogodbe v storitvi Dynamics 365 Project Operations so zasnovane za podporo več prodajnih cenikov, veljavnih na datum, v pogodbi. V storitvi Project Operations obstaja nova povezana entiteta, imenovana **Projektni ceniki**. Ta entiteta ima odnos »ena proti mnogo« s projektno pogodbo.
 
-Ceniki projekta se uporabljajo za določanje časovnih, materialnih in stroškovnih transakcij projekta. Če ima pogodba enega ali več cenikov projekta, se ti ceniki uporabljajo za določanje cene časa, materiala, ocene stroškov in dejanskih podatkov za projekte, ki so s pogodbo povezani prek njenih podrobnosti.
+Ceniki projektov se uporabljajo za določanje časovnih in stroškovnih transakcij projekta. Ko ima pogodba enega ali več cenikov projektov, se ti ceniki uporabijo za nastavitev cene za ocene časa in stroška ter dejanskih vrednosti za projekte, ki so povezani s pogodbo prek podrobnosti pogodbe.
 
-Ko na projektni pogodbi ni cenikov za projekte, boste videli opozorilno sporočilo, da ceniki za projekt ne obstajajo, za vaše zabeležene ocene, dejansko projektno delo, material in stroške pa cena ne bo določena. Ne bo cene za prodajne vrednosti.
+Ko ni projektnih cenikov v projektni pogodbi, boste videli opozorilo, da ni projektnih cenikov ter za vaše ocene, dejansko projektno delo in stroške cena ne bo nastavljena. Ne bo cene za prodajne vrednosti.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Povezava ali odstranjevanje povezave cenika projekta v projektni pogodbi
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Ustvarite ali povežite določen cenik za oceno dela, materiala in stroškov, ki temeljijo na projektu
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Ustvarjanje ali povezovanje specifičnih cenikov za ocenjevanje dela in stroškov, ki temeljijo na projektu
 
 1. V projektni pogodbi izberite zavihek **Projektni ceniki**.
 2. V podmreži izberite **+ Dodaj nov cenik projekta**.
@@ -52,7 +52,7 @@ Ko na projektni pogodbi ni cenikov za projekte, boste videli opozorilno sporoči
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>V pogodbi nastavite samodejno povrnitev projektnih cenikov na privzeto
 
-Cenik projekta je mogoče nastaviti kot privzeti cenik projekta. Ta nastavitev zagotavlja, da se vse pogodbe v vaši organizaciji vedno začnejo s standardnim cenikom projekta za to cenovno obdobje.
+Projektni cenik je mogoče nastaviti kot privzeti cenik na projektni pogodbi. Ta nastavitev lahko pomaga zagotoviti, da vsi stiki v vaši organizaciji vedno začnejo s standardnim cenikom za to časovno obdobje.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Nastavitev organizacijske privzete nastavitve za projektne cenike
 

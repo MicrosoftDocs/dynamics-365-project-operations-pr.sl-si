@@ -2,18 +2,16 @@
 title: Upravljanje možnih strank – poenostavljeno
 description: Ta tema vsebuje informacije o upravljanju možnih strank, ki temeljijo na projektu (Pro).
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 218461e6b2013b014d59e2846fe19681d785771aa82284db33ff18c8b6b83946
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272858"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991416"
 ---
 # <a name="manage-leads---lite"></a>Upravljanje možnih strank – poenostavljeno
 
@@ -55,7 +53,7 @@ Možne stranke, ki imajo vrednost **Vrsta** nastavljeno na **Temelji na delu**, 
 - Zapis stika, povezan s kupcem na podlagi vrednosti v poljih **Ime** in **Priimek** pri možni stranki.
 - Priložnost, ki temelji na projektu, ima polje **Vrsta** nastavljeno na **Temelji na delu**.
 
-Za podrobnejše informacije o potrjevanju možnih strank glejte [Potrjevanje ali pretvorba možnih strank](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Za podrobnejše informacije o potrjevanju možnih strank glejte [Potrjevanje ali pretvorba možnih strank](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Potek poslovnega procesa za posle, ki temeljijo na projektu
 

@@ -2,8 +2,6 @@
 title: Stroški in prihodki projekta
 description: Ta tema vsebuje informacije o ocenjevanju stroškov in prihodkov projekta.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148348"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002576"
 ---
 # <a name="project-costs-and-revenue"></a>Stroški in prihodki projekta
 
@@ -33,7 +31,7 @@ ms.locfileid: "5148348"
 
 Ocene projekta omogočajo finančni pregled za predvideno in načrtovano delo v razporedu projekta. Zavihek **Ocene** na strani **Projekti** prikazuje vpliv stroškov in prihodkov dela, ki ga načrtujete. Vsebuje tudi informacije o številnih vnaprej določenih razsežnostih. 
 
-> ![Zavihek »Ocene«](media/project-5.png)
+> ![Zavihek »Ocene«.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Vrednost stroškov in prodajna vrednost projekta
 
@@ -68,13 +66,13 @@ Vsaka vrstica ocene ima enoto vira, ki je povezana z njo. Enota vira označuje o
 
 Zavihek **Ocene** ima pogled mreže, ki prikazuje vrstice ocene. Mreža vključuje stolpce za enoto, skupno lastno ceno in skupno prodajno ceno, kot je prikazano na spodnji sliki. 
 
-> ![Pogled mreže na zavihku »Ocene«](media/project-6.png)
+> ![Pogled mreže na zavihku »Ocene«.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Časovno razporejeni pogled ocen projekta
 
 Časovno razporejen pogled ocen projekta prikazuje podatke o oceni iz pogleda omrežja skozi časovnico v izbranem časovnem merilu. Podatki o oceni so privzeto zavrteni v razsežnosti **Vloga**.
 
-> ![Časovno razporejeni pogled za ocene projekta](media/project-7.png)
+> ![Časovno razporejeni pogled za ocene projekta.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Dodeljevanje ocenjenega obsega dela glede na način opravila
 
@@ -97,3 +95,6 @@ V pogledu mreže in časovno razporejenem pogledu lahko izberete polja za prikaz
 ## <a name="expense-estimates"></a>Ocena stroškov
 
 Gumb **Dodaj novo oceno stroškov** v pogledu mreže omogoča beleženje vseh stroškov, ki nastanejo v projektu, vendar niso neposredno povezani z delom. Ocene stroškov lahko zabeležite za določeno opravilo ali za celoten projekt. Izberite kategorije stroškov in predvideni datum, ko pričakujete, da bodo nastali stroški. Če imata povezani cenik z lastnimi cenami in prodajni cenik privzete cene (ali če so odstotki pribitka določeni za kategorije stroškov), so te samodejno vnesene v vrstico ocene, ko pride do povezave.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

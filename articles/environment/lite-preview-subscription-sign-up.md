@@ -2,22 +2,20 @@
 title: Prijava za naročnino na predogledno različico – poenostavljena različica
 description: Ta tema vsebuje informacije o tem, kako se lahko naročite in uvedete poenostavljeno uvedbo storitve Project Operations – od posla do izstavitve predračuna.
 author: sigitac
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175911"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997441"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Prijava za naročnino na predogledno različico – poenostavljena različica 
 
-Ta tema pojasnjuje, kako se lahko naročite na ponudbo partnerja za predogled in nastavite poenostavljeno uvedbo storitve Dynamics 365 Project Operations – od posla do izstavitve predračuna.
+V tej temi je pojasnjeno, kako se naročite na predogled ponudbe partnerja in kako izvedete poenostavljeno uvedbo storitve Dynamics 365 Project Operations – posel do izstavitve predračuna.
 
 > [!NOTE]
 > Ta postopek se bo spremenil v prihodnjih izdajah storitve Project Operations.
@@ -32,17 +30,17 @@ Ta tema pojasnjuje, kako se lahko naročite na ponudbo partnerja za predogled in
 
 Ko prejmete odobritev [zahteve za predogled](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), boste od Microsofta po elektronski pošti prejeli dve ponudbi. Te ponudbe omogočajo uvedbo predogleda Project Operations:
 
-- Dynamics 365 Project Operations (CRM) – preskus predogleda
+- Dynamics 365 Project Operations (CRM) – predogled preskusne različice
 - Office 365 Project Operations – poskusna različica
 
 > [!IMPORTANT]
 > To nalogo mora opraviti samo ena oseba in sicer skrbnik najemnika v organizaciji. Če niste naročnik te izdaje, počakajte, da se organizacija prijavi in prejmete svoje uporabniške poverilnice.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – preskus predogleda 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – predogled preskusne različice 
 
 Preden začnete, se prepričajte, da ste prijavljeni v brskalnik z uporabnikovim službenim računom v najemniku, kjer želite imeti predogled aplikacije Project Operations.
 
-1. Unovčite kodo prve ponudbe **Dynamics 365 Project Operations (CRM) – preskusna različica**, tako da jo prilepite v URL brskalnika.
+1. Unovčite prvo promocijsko kodo **Dynamics 365 Project Operations (CRM) – predogled preskusne različice**, tako da jo prilepite v URL brskalnika.
 
 ![Prevzem ponudbe](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +69,7 @@ Ponovite enake korake kot pri kodi prve ponudbe. Ne pozabite dodati kode druge p
 
 ![Dodeljevanje licenc](./media/15AssignLicenses.png)
 
-3. Preverite, ali sta izbrani licenci za **Dynamics 365 Project Operations (CRM) predogledna različica** in **Office 365 Project Operations – predogledna različica**. 
+3. Preverite, ali sta izbrani licenci **Dynamics 365 Project Operations (CRM) – predogledna različica** in **Office 365 Project Operations – predogledna različica**. 
 4. Izberite **Shrani spremembe**.
 
 ## <a name="create-a-new-cds-environment"></a>Ustvarjanje novega okolja CDS
@@ -91,3 +89,6 @@ Ponovite enake korake kot pri kodi prve ponudbe. Ne pozabite dodati kode druge p
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Namestitev predstavitvenih podatkov za nastavitev in konfiguracijo CDS
 
 Namestite konfiguracijo CDS in nastavite predstavitvene podatke ob upoštevanju navodil v temi [Uporaba predstavitvenih podatkov za nastavitev in konfiguracijo](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

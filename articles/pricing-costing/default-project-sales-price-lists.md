@@ -2,18 +2,16 @@
 title: Privzeti cenik
 description: Ta tema vsebuje informacije o privzetih cenikih s prodajno in lastno ceno v aplikaciji Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130958"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989886"
 ---
 # <a name="default-price-lists"></a>Privzeti cenik
 
@@ -21,7 +19,7 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoč
 
 ## <a name="sales-price-lists"></a>Prodajni ceniki
 
-Vsaka projektna ponudba in pogodba v aplikaciji Dynamics 365 Project Operations vsebuje privzeti prodajni cenik. 
+Vse ponudbe in pogodbe za projekt v aplikaciji Dynamics 365 Project Operations vsebujejo privzeti prodajni cenik. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Privzeti cenik za projektne ponudbe
 Sistem izvede spodnji postopek, da določi, kateri cenik bo privzeto uporabljen za projektno ponudbo:
@@ -57,3 +55,6 @@ Ceniki z lastnimi cenami niso privzeto nastavljeni za nobeno entiteto v aplikaci
 5. Nato sistem preveri veljavnost datumov cenikov, ki se ujemajo z datumom dohodne vrstice ocene ali dejanske vrednosti. 
 6. Če obstaja več cenikov, ki so v veljavi na datum dohodne ocene ali dejanske vrednosti, bo izbran nazadnje ustvarjen cenik.
 7. Če projektnim parametrom, ki se ujemajo z valuto in datumom začetka veljavnosti, ni priložen noben prodajni cenik, sistem privzeto nastavi stopnjo stroškov na nič (0) za dohodne vrstice ocene ali dejanskih vrednosti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

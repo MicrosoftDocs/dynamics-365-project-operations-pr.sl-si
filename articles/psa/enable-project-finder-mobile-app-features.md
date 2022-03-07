@@ -2,9 +2,7 @@
 title: Omogočanje funkcij aplikacije Project Finder Mobile
 description: Kako omogočiti funkcije aplikacije Project Finder Mobile za rešitev Project Service
 author: JohnPBurrows
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144568"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004916"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Omogočanje funkcij aplikacije Project Finder Mobile (Project Service)
 
@@ -49,11 +47,11 @@ Vaši viri lahko uporabljajo aplikacijo Project Finder Mobile v svojih telefonih
   
 4. Možnost **Dovoli virom posodobitev znanja** nastavite na **Da**.  
   
-   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    To je splošna nastavitev. Vodje projektov lahko nastavijo, ali naj bo posamezen projekt viden na strani **projektne ekipe**, ki ga izvaja.  
   
-   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>E-poštna obvestila  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] pošilja e-poštna sporočila glede zahtev za vire tem prejemnikom ob naslednjih dogodkih:  
@@ -68,3 +66,6 @@ Vaši viri lahko uporabljajo aplikacijo Project Finder Mobile v svojih telefonih
   
 ### <a name="see-also"></a>Glejte tudi  
  [Nastavitev virov](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Konfiguriranje parametrov upravljanja stroškov
 description: V tej temi so opisani parametri, ki nadzorujejo splošno vedenje pri upravljanju stroškov.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121058"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007796"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfiguriranje parametrov upravljanja stroškov
 
@@ -83,3 +81,6 @@ V tej temi so opisani parametri, ki nadzorujejo splošno vedenje pri upravljanju
 | Prikaz potrdila za preprečevanje korupcije   | Izberite to možnost, da prikažete besedilo za preprečevanje korupcije, ko se ustvari poročilo o stroških. Nato lahko omogočite posebne kategorije stroškov, ki bodo zahtevale, da se v poročilu o stroških izbere potrdilo za preprečevanje korupcije. Na primer, kategorija daril, ki je povezana s stroški državnega uslužbenca, lahko zahteva, da zaposleni potrdi, da stroški ustrezajo pravilnikom podjetja, ki so povezani z državnimi uslužbenci. |
 | Sporočilo za preprečevanje korupcije za pošiljatelja | Vnesite besedilo, ki naj bo prikazano zaposlenemu, ki ustvarja poročilo o stroških. Če želite vnesti besedilo, ki bo prikazano v skladu z uporabniškim jezikom, izberite **Prevodi**. |
 | Sporočilo za preprečevanje korupcije za odobritelja  | Vnesite besedilo, ki naj bo prikazano odobritelju, ko je ustvarjeno poročilo o stroških. Če želite vnesti besedilo, ki bo prikazano v skladu z uporabniškim jezikom, izberite **Prevodi**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

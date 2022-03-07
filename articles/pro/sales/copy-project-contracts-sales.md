@@ -1,21 +1,21 @@
 ---
-title: Kopiranje projektnih pogodb – poenostavljena različica
+title: Kopiranje projektnih pogodb
 description: Ta tema vsebuje informacije o kopiranju projektnih pogodb v aplikaciji Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 6da8e3ba8e062f3e06dc7f440caebdd93e496c65
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181427"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084661"
 ---
-# <a name="copy-project-contracts---lite"></a>Kopiranje projektnih pogodb – poenostavljena različica
+# <a name="copying-project-contracts"></a>Kopiranje projektnih pogodb
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -26,7 +26,7 @@ Nove projektne pogodbe lahko enostavno ustvarite tako, da na enega od teh dveh n
 
 Odprla se bo stran s pogovornim oknom, kjer lahko izberete parametre kopirane pogodbe. Naslednja polja so del pogovornega okna. Postopek kopiranja se lahko spremeni glede na izbiro vrednosti v pogovornem oknu.
 
-| **Polje** | **Opis** | **Nadaljnji vpliv** |
+| **Polje** | **Ustreznost, namen in smernice** | **Nadaljnji vpliv** |
 | --- | --- | --- |
 | Tema | Vnesite temo ciljne pogodbe. Ko se pogovorno okno odpre, sistemu to polje nastavi na ime izvorne pogodbe z dodano končnico **-kopija**. | To polje nima nadaljnjega vpliva. |
 | Stranki | Sklic na zapis strankinega podjetja ali kupca. Ko se odpre pogovorno okno, sistem to polje nastavi na kupca iz izvorne ponudbe. | Vrednost polja je primarna stranka v pogodbi. |

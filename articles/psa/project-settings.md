@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c55d0f4c8f8db231a995d91a46a582bca2e1e6e3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148168"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283748"
 ---
 # <a name="project-settings"></a>Nastavitve projekta
 
@@ -68,3 +68,6 @@ Vsaka organizacija mora nastaviti te vloge na strani **Kategorije dejavnih virov
 ## <a name="price-lists"></a>Ceniki
 
 S ceniki lahko nastavite lastne in prodajne cene za vloge virov, kategorije stroškov, izdelke in druge elemente v organizaciji. Preden nastavite finančne ocene za delo, ki mora biti opravljeno pri projektu, ustvarite osnovni cenik z lastnimi in prodajnimi cenami. V razdelku s parametri nastavite tudi privzeti cenik z lastnimi in prodajnimi cenami, ki velja za vse projekte, ustvarjene v organizaciji. Na strani **Dejavni projektni parametri** preverite, ali ste nastavili privzeti cenik z lastnimi in prodajnimi cenami.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

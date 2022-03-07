@@ -2,28 +2,26 @@
 title: Pregled mobilnih aplikacij Project
 description: V tej temi so na voljo splošne informacije o aplikacijah, ki so povezane s časom projekta, za Microsoft Dynamics 365 Project Timesheet, Vnos časa v projektu in Moji časovni listi/Časovni listi, ki so na voljo v mobilni napravi.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 69f44aa73b33bf55df324a71b67e0a743208b4e4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6c14fdc043b2a95f1e548c160620a3b06c79bf5
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084745"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369576"
 ---
 # <a name="project-mobile-applications-overview"></a>Pregled mobilnih aplikacij Project
 
@@ -49,3 +47,6 @@ Moji časovni listi (optimizirano za mobilne naprave) in Časovni listi za moj p
 - [Vnos časa v projektu]( project-time-entry-mobile-workspace.md)
 - [Časovni listi projekta v mobilni napravi](Mobile-timesheets.md)
 - [Vključevanje polj po meri za mobilno aplikacijo Microsoft Dynamics 365 Project Timesheet v sistemih iOS in Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

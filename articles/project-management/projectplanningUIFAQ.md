@@ -2,19 +2,17 @@
 title: Odpravljanje težav dela v mreži opravil
 description: Ta tema zagotavlja informacije o odpravljanju težav, potrebne pri delu v mreži opravil.
 author: ruhercul
-manager: tfehr
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
-ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031557"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989121"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Odpravljanje težav dela v mreži opravil 
 
@@ -26,7 +24,7 @@ Ta tema opisuje, kako odpraviti težave, s katerimi se lahko srečate pri delu z
 
 Project Operations zahteva, da so omogočeni piškotki tretjih oseb, da se lahko upodobi strukturirana členitev dela. Če piškotki tretjih oseb niso omogočeni, boste namesto, da bi videli opravila, videli prazno stran, ko izberete zavihek **Opravila** na strani **Projekti**.
 
-![Prazen zavihek, ko piškotki tretjih oseb niso omogočeni](media/blankschedule.png)
+![Prazna stran v primeru, ko piškotki tretjih oseb niso omogočeni.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Nadomestna rešitev
@@ -54,11 +52,22 @@ Za brskalnike Microsoft Edge ali Google Chrome naslednji postopki orisujejo, kak
 Project Operations zahteva, da se parametri projekta sklicujejo na končno točko PEX. Ta končna točka je potrebna za komunikacijo s storitvijo, uporabljeno za upodobitev strukturirane členitve dela. Če parameter ni omogočen, se prikaže napaka »Parameter projekta ni veljaven«. 
 
 ### <a name="workaround"></a>Nadomestna rešitev
- ![Polje končne točke PEX na parametru projekta](media/projectparameter.png)
 
 1. Dodaj polje **Končna točka PEX** na stran **Projektni parametri**.
-2. Posodobi polje z naslednjo vrednostjo: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
-3. Odstranite polje s strani **Projektni parametri**.
+2. Določite vrsto izdelka, ki ga uporabljate. Ta vrednost se uporablja, ko je nastavljena končna točka PEX. Pri pridobivanju končne točke PEX je vrsta izdelka že določena. Ohranite to vrednost. 
+   
+    ![Polje končne točke PEX na parametru projekta.](media/pex-endpoint.png)
+
+3. Posodobite polje z naslednjo vrednostjo: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Vrsta izdelka                         | Vrsta parametra |
+   |--------------------------------------|----------------|
+   | Storitev Project for the Web v privzeti organizaciji   | tipa=0         |
+   | Storitev Project for the Web v organizaciji CDS | tipa=1         |
+   | Project Operations                   | tipa=2         |
+   
+4. Odstranite polje s strani **Projektni parametri**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Pravice za projekt za splet
 
@@ -69,7 +78,7 @@ Project Operations se zanaša na zunanjo storitev razporejanja. Storitev zahteva
 
 1. Pojdite na **Nastavitev > Varnost > Uporabniki > Uporabniki aplikacije**.  
 
-   ![Bralnik aplikacije](media/applicationuser.jpg)
+   ![Bralnik aplikacije.](media/applicationuser.jpg)
    
 2. Dvokliknite zapis uporabnika aplikacije, da preverite naslednje:
 
@@ -78,7 +87,7 @@ Project Operations se zanaša na zunanjo storitev razporejanja. Storitev zahteva
  
 3. Če ta uporabnik ne obstaja, lahko ustvarite zapis novega uporabnika. Izberite **Novi uporabniki**. Spremenite obrazec za vnos na **Uporabnik aplikacije**, nato pa dodajte **ID aplikacije**.
 
-   ![Podrobnosti uporabnika aplikacije](media/applicationuserdetails.jpg)
+   ![Podrobnosti uporabnika aplikacije.](media/applicationuserdetails.jpg)
 
 4. Prepričajte se, da je bila uporabniku dodeljena pravilna licenca in da je storitev omogočena v podrobnostih naročniških paketov licence.
 5. Prepričajte se, da uporabnik lahko odpre project.microsoft.com.
@@ -106,3 +115,6 @@ Ko se izvede ena ali več posodobitev strukturirane členitve dela, spremembe na
   - Sistem Project Operations
   - Sistem projekta
   - Sistem dvojnega zapisovanja Project Operations (ta vloga je obvezna, če uvajate scenarije, ki temeljijo na virih/nezalogi v storitvi Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

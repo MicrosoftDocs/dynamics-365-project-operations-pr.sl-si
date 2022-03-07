@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993333"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987726"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Kako dodelim vir, ki ga je mogoče rezervirati, opravilu v spletni aplikaciji (aplikacija Project Service različice 2.x)?
 
@@ -43,7 +43,7 @@ S tem načinom dodate vir projektni ekipi in nato opravila dodelite viru v načr
 3.  Izberite datum **Od** in **Do**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Posnetek zaslona dodajanja člana ekipe](media/FAQ-Resources-to-Tasks2-1.png "Posnetek zaslona dodajanja člana ekipe")
+    > ![Posnetek zaslona dodajanja člana ekipe.](media/FAQ-Resources-to-Tasks2-1.png "Posnetek zaslona dodajanja člana ekipe")
  
 4.  Izberite enega od naslednjih načinov dodeljevanja za rezervacijo vira:
     - **Polna zmogljivost** rezervira polno zmogljivost vira za navedeni datumski obseg »Od« in »Do«.
@@ -63,12 +63,12 @@ S tem načinom dodate vir projektni ekipi in nato opravila dodelite viru v načr
     3. izberite **V redu**. Član ekipe je zdaj dodeljen opravilu.
 
     > [!div class="mx-imgBorder"] 
-    > ![Posnetek zaslona dodajanja virov s SČD](media/FAQ-Resources-to-Tasks2-2.png "Posnetek zaslona dodajanja virov s SČD")
+    > ![Posnetek zaslona dodajanja virov s SČD.](media/FAQ-Resources-to-Tasks2-2.png "Posnetek zaslona dodajanja virov s SČD")
  
 V mreži člana ekipe boste pod možnostjo »Dodeljene ure« videli združeno število ur, dodeljenih viru. To število je manjše ali enako številu rezerviranih ur za vir. 
 
 > [!div class="mx-imgBorder"] 
-> ![Posnetek zaslona dodeljenih ur za vir](media/FAQ-Resources-to-Tasks2-3.png "Posnetek zaslona dodeljenih ur za vir")
+> ![Posnetek zaslona dodeljenih ur za vir.](media/FAQ-Resources-to-Tasks2-3.png "Posnetek zaslona dodeljenih ur za vir")
  
 Če se opravilo, ki ga skušate dodeliti viru, začne po končnem datumu rezervacij virov, vir ne bo prikazan na spustnem seznamu.
 
@@ -92,22 +92,22 @@ Ta način zagotavlja, da imajo viri dovolj rezervacij za opravila. Najprej ustva
 4. Izberite **V redu**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Posnetek zaslona uporabe SČD za dodajanje vira](media/FAQ-Resources-to-Tasks2-4.png "Posnetek zaslona uporabe SČD za dodajanje vira")
+    > ![Posnetek zaslona uporabe SČD za dodajanje vira.](media/FAQ-Resources-to-Tasks2-4.png "Posnetek zaslona uporabe SČD za dodajanje vira")
  
 Ko končate z dodeljevanjem vlog opravilom v SČD, izberite **Ustvari projektno ekipo**. Storitev Project Service ustvari najmanjše število generičnih članov ekipe na podlagi njihovih vlog, organizacijskih enot vira in koledarja projekta z združevanjem dodelitev opravil.
 
 > [!div class="mx-imgBorder"] 
-> ![Posnetek zaslona ustvarjanja projektne ekipe](media/FAQ-Resources-to-Tasks2-5.png "Posnetek zaslona ustvarjanja projektne ekipe")
+> ![Posnetek zaslona ustvarjanja projektne ekipe.](media/FAQ-Resources-to-Tasks2-5.png "Posnetek zaslona ustvarjanja projektne ekipe")
  
 V mreži člana ekipe boste videli vire vrste »Splošni vir« z vlogo in imenom položaja. Če sta potrebna dva vira za vlogo za dokončanje dela, funkcija »Ustvari ekipo« ustvari dva člana ekipe in uporabi ime položaja, da ju loči.
 
 > [!div class="mx-imgBorder"] 
-> ![Posnetek zaslona dodajanja dveh splošnih virov](media/FAQ-Resources-to-Tasks2-6.png "Posnetek zaslona dodajanja dveh splošnih virov")
+> ![Posnetek zaslona dodajanja dveh splošnih virov.](media/FAQ-Resources-to-Tasks2-6.png "Posnetek zaslona dodajanja dveh splošnih virov")
  
 Zahtevo za rezervni vir za generičnega člana ekipe lahko odprete tako, da izberete povezavo pod možnostjo »Zahteva za vir«.
 
 > [!div class="mx-imgBorder"] 
-> ![Posnetek zaslona odpiranja zahteve za rezervni vir](media/FAQ-Resources-to-Tasks2-7.png "Posnetek zaslona odpiranja zahteve za rezervni vir")
+> ![Posnetek zaslona odpiranja zahteve za rezervni vir.](media/FAQ-Resources-to-Tasks2-7.png "Posnetek zaslona odpiranja zahteve za rezervni vir")
 
 Za splošni vir izberite možnost **Rezerviraj**, nato pa prek plošče razporeda poiščite in rezervirajte pravi vir. Prav tako lahko pošljete zahtevo za izpolnitev s strani upravitelja virov tako, da izberete **Pošlji zahtevo**.
 

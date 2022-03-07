@@ -2,6 +2,8 @@
 title: Dodajanje virov
 description: Navodila za dodajanje virov v rešitvi Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 72d365171bbbcb94b8d63e825c9f98091772c274
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5d957f793b7909893a7fa311e6572a8ace9fde0f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992671"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145828"
 ---
 # <a name="add-resources-project-service"></a>Dodajanje virov (rešitev Project Service)
 
@@ -53,6 +55,3 @@ Vire lahko dodelite organizacijskim enotam, če potrebujete različno vrednotenj
   
 ### <a name="see-also"></a>Glejte tudi  
  [Nastavitev virov](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

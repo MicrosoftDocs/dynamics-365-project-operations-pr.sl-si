@@ -2,24 +2,22 @@
 title: Ključni pojmi upravljanja virov
 description: Ta tema vsebuje informacije o funkcijah za upravljanje virov v storitvi Microsoft Dynamics Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6362daab7e2e01c7b7b2c2b801fe7e258b21ef16
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123893"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000996"
 ---
 # <a name="resource-management-key-concepts"></a>Ključni pojmi upravljanja virov
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Viri so najpomembnejše sredstvo organizacije, ki temelji na storitvah. Sposobnost iskanja pravih virov ob pravem času, rezerviranja teh virov v projektih in ohranjanja uporabe teh virov pomaga organizaciji izpolniti cilje glede prihodkov in zadovoljstva strank. Funkcijo za dodelitev virov projekta v storitvi Dynamics 365 Project Operations lahko uporabite za izvajanje naslednjih opravil:
+Viri so najpomembnejše sredstvo organizacije, ki temelji na storitvah. Sposobnost iskanja pravih virov ob pravem času, rezerviranja teh virov v projektih in ohranjanja uporabe teh virov pomaga organizaciji izpolniti cilje glede prihodkov in zadovoljstva strank. Funkcijo za dodelitev virov projekta v aplikaciji Dynamics 365 Project Operations lahko uporabite za naslednja opravila:
 
 - Oblikovanje projektnih skupin z rezervacijo razpoložljivih in kvalificiranih virov.
 - Ustvarjanje zapisov o splošnih članih ekipe ter določanje njihovih vlog in organizacijskih enot virov.
@@ -35,3 +33,6 @@ Viri so najpomembnejše sredstvo organizacije, ki temelji na storitvah. Sposobno
 
 
 Za projekt si lahko izberete ekipo splošnih ali poimenovanih virov v storitvi Project Operations. Uporabite lahko različne metode za dodajanje in dodeljevanje članov ekipe ter upravljanje njihovih rezervacij in dodelitev. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

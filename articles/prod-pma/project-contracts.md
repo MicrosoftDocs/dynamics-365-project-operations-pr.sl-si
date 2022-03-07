@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084887"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289569"
 ---
 # <a name="project-contracts"></a>Projektne pogodbe
 
@@ -344,3 +344,6 @@ V prvem mesecu so svetovalci na projektu zabeležili skupno 800 ur. Strošek pis
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

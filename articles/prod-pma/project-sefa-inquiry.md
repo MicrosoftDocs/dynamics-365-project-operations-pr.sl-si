@@ -2,11 +2,9 @@
 title: Poizvedba glede načrta porabe zveznih subvencij
 description: Ta tema vsebuje informacije o poizvedbi glede načrta porabe zveznih subvencij.
 author: velofog
-manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -20,12 +18,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a16b0fb097124e26da09e220a1239cd6df303f98
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084740"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010086"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Poizvedba glede načrta porabe zveznih subvencij
 
@@ -62,7 +60,7 @@ Nastaviti morate številke CFDA, ki jih je mogoče dodati subvencijam in vključ
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Vzpostavitev subvencij za poročanje glede poizvedbe glede načrta porabe zveznih subvencij
 
 1. Izberite **Vodenje projektov in računovodstvo \> Subvencije \> Subvencije** in izberite obstoječo subvencijo.
-2. Na zavihku za hitri dostop **Nastavitev** v polju **Katalog za zvezno pomoč domačim entitetam** dodelite številko CFDA. Številka CFDA pri subvenciji določa gručo CFDA za poročanje.
+2. Na zavihku za hitri dostop **Nastavitev** v polju **Katalog za zvezno pomoč domačim entitetam** dodelite številko CFDA. Številka CFDA pri subvenciji določa gručo CFDA za poročanje.
 3. Na zavihku za hitri dostop **Podatki za stik** vnesite podatke o dajalcu subvencije tako, da upoštevate ta navodila:
 
     1. V polju **Prejemnik subvencije** vnesite prejemnika, ki je odgovoren za subvencijo. Za obstoječo subvencijo so ti podatki morda že vneseni.
@@ -79,8 +77,8 @@ Zvezna vlada je financirala infrastrukturni projekt za zvezno državo. Zvezna vl
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Izključitev subvencij v zvezi s poročanjem SEFA glede na vrsto subvencije
 
-1. Odprite **Vodenje projektov in računovodstvo \> Nastavitev \> Subvencije \> Vrste subvencij**.
-2. Na zavihku za hitri dostop **Privzeti podatki** izberite potrditveno polje **Izključi iz načrta porabe zveznih subvencij**.
+1. Odprite razdelek **Vodenje projektov in računovodstvo \> Nastavitev \> Subvencije \> Vrste subvencij**.
+2. Na zavihku za hitri dostop **Privzeti podatki** izberite potrditveno polje **Izključi iz načrta porabe zveznih subvencij**.
 3. Izberite **Shrani**, da shranite spremembe.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Zagon poizvedbe glede načrta porabe zveznih subvencij
@@ -104,3 +102,6 @@ Poizvedba glede načrta porabe zveznih subvencij vključuje naslednje stolpce:
 - Katalog za zvezno pomoč domačim entitetam
 - Potrdila
 - Izdatki
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

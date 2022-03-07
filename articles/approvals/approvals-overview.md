@@ -2,22 +2,21 @@
 title: Pregled odobritev
 description: Ta tema vsebuje informacije o delu z odobritvami v aplikaciji Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 03/31/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b2da22e10cf6c40a2c84bcd32437b2830f830d07
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.custom: intro-internal
+ms.openlocfilehash: d77c62455c346d6d427d71af4b01d62b5132a2377c2c1a0a64f56fb313219c46
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852519"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991731"
 ---
 # <a name="approvals-overview"></a>Pregled odobritev
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Predlogi za čas, stroške in uporabo materiala grejo skozi potek odobritve. Po odobritvi vnosov se transakcije zabeležijo v dejanske vrednosti ali pa se v urnik vpiše čas.
 

@@ -2,24 +2,22 @@
 title: Upravljanje kompleksnih enot za podrobnosti pogodbe, ki temeljijo na izdelkih – poenostavljena različica
 description: V tej temi so na voljo informacije o podpori prodaje naročniških izdelkov.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177396"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003386"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Upravljanje kompleksnih enot za podrobnosti pogodbe, ki temeljijo na izdelkih – poenostavljena različica
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Dynamics 365 Project Operations uporablja količnike za količino, ki podpirajo prodajo naročniških izdelkov. Pri naročniških izdelkih je količina v pogodbi ali podrobnostih pogodbe projekta izražena kot število mesecev uporabe.
+Aplikacija Dynamics 365 Project Operations uporablja količnike za količino, ki podpirajo prodajo naročniških izdelkov. Pri naročniških izdelkih je količina v pogodbi ali podrobnostih pogodbe projekta izražena kot število mesecev uporabe.
 
 Cena naročniške programske opreme je shranjena v katalogu kot cena na uporabnika na mesec. Med prodajnim postopkom je cena v podrobnostih pogodbe običajno cena na uporabnika na mesec, ki jo je izpogajal in znižal prodajni agent. Vsak posel ima različno število uporabnikov in različno število naročniških mesecev. Količina, ki se uporablja za izračun zneska podrobnosti pogodbe, je produkt števila uporabnikov in števila mesecev naročnine.
 
@@ -46,3 +44,6 @@ Za ustvarjanje količnikov za količino za lastnosti izdelkov, izvedite naslednj
 7. Ponovite korake 2–6 za vse lastnosti, ki skupaj predstavljajo količino za podrobnosti pogodbe, ki temeljijo na izdelkih.
 
 Z nastavljenimi količniki za količino, ko uporabnik ustvari podrobnosti pogodbe za ta izdelek, je količina podrobnosti pogodbe zaklenjena. Količina je nato izračunana kot izdelke vrednosti lastnosti za te podrobnosti pogodbe.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

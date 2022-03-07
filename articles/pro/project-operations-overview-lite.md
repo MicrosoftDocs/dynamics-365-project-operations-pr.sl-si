@@ -2,24 +2,22 @@
 title: Pregled poenostavljenega uvajanja
 description: Ta tema vsebuje informacije o poenostavljenem uvajanju aplikacije Dynamics 365 Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 9f09cb447d314cb172161ad3501a154285d9b636
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365628"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003831"
 ---
 # <a name="lite-deployment-overview"></a>Pregled poenostavljenega uvajanja
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Poenostavljeno uvajanje aplikacije Dynamics 365 Project Operations ima naslednje zmogljivosti za podjetja, ki temeljijo na projektu:
+Poenostavljeno uvajanje aplikacije Dynamics 365 Project Operations ima za podjetja, ki temeljijo na projektu, naslednje zmogljivosti:
 
 - Načrtovanje projektov z uporabo spletne aplikacije Microsoft Project
 - Večdimenzionalne cene in stroški za delovne vire
@@ -37,3 +35,6 @@ Uporabite to vrsto uvajanja, če od aplikacije Project Operations pričakujete u
 - Integriran sistem, ki upravlja notranje in plačljive projekte za razporede in finance od prodaje do izstavljanja računov.
 - Finančno računovodski sistem za načrtovanje virov v poslovnem okolju neodvisnega ponudnika za integracijo z aplikacijo Project Operations.
 - Sistem neodvisnega ponudnika za delo s prometnim davkom, menjalnimi tečaji, povračili stroškov in neprojektnimi stroški.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

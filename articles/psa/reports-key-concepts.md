@@ -2,8 +2,6 @@
 title: Ključni pojmi
 description: Ta tema vsebuje informacije o ključnih pojmih za upravljanje virov v aplikaciji Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147763"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995106"
 ---
 # <a name="key-concepts"></a>Ključni pojmi
 
@@ -48,3 +46,6 @@ V spodnji tabeli so opredeljeni ključni pojmi, ki so uporabljeni v aplikaciji D
 | Krivulja                    | Trajanje opravila, zahtevanega pogoja ali dodelitve, prikazan glede na dnevno razporeditev. Petdnevno opravilo z obsegom 40 ur je mogoče s krivuljo prikazati kot osem ur na dan v petih dneh. |
 | Pogled »Uskladitev«        | Pogled, ki prikazuje rezervacije in dodelitve za vsakega člana projektne ekipe. Ta pogled omogoča vodji projekta, da si ogleda morebitna neskladja med rezervacijami in dodelitvami ter sprejme popravljalna dejanja v primeru neskladij. |
 | Delovne ure                 | Entiteta, ki se uporablja za določitev zmogljivosti vira ter njegovega delovnega in prostega časa. Ta entiteta se imenuje tudi koledar virov. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

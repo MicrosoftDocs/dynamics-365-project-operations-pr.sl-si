@@ -2,18 +2,16 @@
 title: Uporaba kategorije transakcije kot cenovne razsežnosti
 description: Ta tema vsebuje informacije o tem, kako uporabiti polje Kategorija transakcije kot cenovno razsežnost.
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: d956545e1ad38fb09660f107e085f38d099c2207
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514026"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004461"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Uporaba kategorije transakcije kot cenovne razsežnosti
 
@@ -41,7 +39,7 @@ V spodnji tabeli so navedeni vsi vnaprej pripravljeni obrazci in pogledi, razvr�
 |  Član projektne ekipe|- Informacije<br>- Novi obrazec|- Dejavni člani projektne ekipe<br>- Člani projektne ekipe<br>- Povezani člani projektne ekipe |
 |  Časovni vnos|- Informacije<br>- Ustvari časovni vnos|- Moji časovni vnosi po datumu<br>- Moji časovni vnosi za ta teden<br>- Časovni vnosi za odobritev|
 |  Vrstica dnevnika|- Informacije<br>- Hitro ustvarjanje|- Dejavne vrstice dnevnika<br>- Povezane vrstice dnevnika|
-|  Podrobnosti vrstice računa|- informacije<br>- Hitro ustvarjanje|- Dejavne podrobnosti vrstice računa<br>- Transakcije računa, ki se zaračunajo<br>- Brezplačne transakcije računa<br>- Povezane podrobnosti vrstice računa <br>- Transakcije računa, ki se ne zaračunajo|
+|  Podrobnosti vrstice računa|- Informacije<br>- Hitro ustvarjanje|- Dejavne podrobnosti vrstice računa<br>- Transakcije računa, ki se zaračunajo<br>- Brezplačne transakcije računa<br>- Povezane podrobnosti vrstice računa <br>- Transakcije računa, ki se ne zaračunajo|
 |  Dejansko|- Informacije<br>- Dejavno opravljeno delo| Povezano opravljeno delo |
 
 ## <a name="set-up-the-transaction-category-field-as-a-pricing-dimension"></a>Nastavitev polja kategorije transakcije kot cenovne razsežnosti
@@ -50,3 +48,6 @@ V spodnji tabeli so navedeni vsi vnaprej pripravljeni obrazci in pogledi, razvr�
 2. Na zavihku **Cenovne razsežnosti na podlagi zneska** na strani **Parametri** preverite, ali mreža na zavihku prikazuje zapise v entiteti **Cenovne razsežnosti**.
 3. Dodajte možnost **Kategorija transakcije** na ta seznam in nastavite polji **Mogoče uporabiti za ceno** in **Mogoče uporabiti za prodajo** na **Da**.
 4. V polju **Vrsta razsežnosti** izberite **Na podlagi zneska** in nato izberite prioriteto za možnost **Kategorija transakcije**, saj je povezana s ceno in prodajo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

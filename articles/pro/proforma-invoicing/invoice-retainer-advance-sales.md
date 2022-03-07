@@ -2,18 +2,16 @@
 title: Izdaja računa za honorar ali predujem
 description: Ta tema vsebuje informacije o izdajanju računov za honorar ali predujem v aplikaciji Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
-ms.translationtype: HT
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596212"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997491"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Izdaja računa za honorar ali predplačilo
 
@@ -51,3 +49,6 @@ To je razvidno iz mreže **Uporabljeni honorarji in predujmi** na strani **Raču
 | Uporabljen znesek | Mreža **Uporabljeni predujmi in honorarji** na strani **Račun projekta**  | To polje, ki je na voljo samo za branje, vsebuje izračunano vrednost, ki povzema, koliko honorarja ali predujma je bilo porabljenega. | To polje se lahko stranki prikaže na natisnjenem računu, da jo seznani z višino honorarja ali predujma, ki je bil že uporabljen. |
 | Skupna vrednost postavk na računu | Mreža **Uporabljeni predujmi in honorarji** na strani **Račun projekta**  | To polje, ki ga je mogoče urediti, vsebuje višino honorarja ali predujma, ki se uporablja za ta račun projekta. Ta znesek ne sme biti večji od tistega, ki je na voljo s predujmom. Sistem samodejno izračuna to vrednost kot razliko med poljema **Znesek** in **Uporabljeni znesek** na mreži. Ta znesek lahko zmanjšate tako, da porabite manj, kot je na voljo, ne morete pa povečati zneska, da porabite več, kot je na voljo. | To polje se lahko stranki prikaže na natisnjenem računu, da jo seznani z višino honorarja ali predujma, ki je uporabljen na računu. |
 | Znesek salda honorarja. | Mreža **Uporabljeni predujmi in honorarji** na strani **Račun projekta**  | V tem polju, ki je na voljo samo za branje, je navedena vrednost honorarja ali predujma, ki bo ostala po potrditvi računa. | To polje se lahko stranki prikaže na natisnjenem računu, da jo seznani z višino honorarja ali predujma, ki bo ostala po potrditvi in plačilu računa. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

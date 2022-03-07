@@ -2,22 +2,21 @@
 title: Člani projektne ekipe
 description: Ta tema vsebuje informacije o tem, kako delati s podatki, atributi in razporejanjem glede članov projektnih ekip.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127448"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994026"
 ---
 # <a name="project-team-members"></a>Člani projektne ekipe
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Člani projektnih ekip so udeleženci projekta, ki zaključijo delo na projektu. Cilj mreže članov ekipe je zagotoviti seznam imenovanih virov, ki so predani interakciji, in splošnih članov ekipe, ki predstavljajo ograde za vire, ki bodo kasneje zaposleni.
 
@@ -60,3 +59,6 @@ Iz mreže članov ekipe lahko izvedete naslednja dejanja:
 
 - **Novo**: poleg dodajanja virov neposredno iz razporeda lahko vodje projektov iz mreže članov ekipe dodajo nove imenovane ali splošne člane ekipe.
 - **Izbriši**: z izbiro enega ali več članov ekipe lahko vodja projekta izbriše vire, ki ne bodo več sodelovali v projektu. Če izbrišete člana ekipe, boste izbrisali tudi vse povezane dodelitve virov in preklicali vse obstoječe rezervacije.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

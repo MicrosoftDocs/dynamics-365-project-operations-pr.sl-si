@@ -2,18 +2,16 @@
 title: Pregled uporabe virov
 description: V tej temi so na voljo informacije o uporabi virov v storitvi Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: a683931bcd6a357c5feec9198b190b948ad17a40
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401396"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000816"
 ---
 # <a name="resource-utilization-overview"></a>Pregled uporabe virov
 
@@ -45,3 +43,6 @@ Poleg tega morate vsakemu viru, ki ga je mogoče rezervirati, dodati tudi privze
 Na zavihku **Project Service** lahko nastavite tudi posamično ciljno uporabo za vir. Izračun uporabe nato uporabi to ciljno uporabo za oceno cilja vira namesto cilja privzete vloge vira.
 
 Uporaba se za posamezen vir prikaže samo, če je vir odobril čas, ki se zaračuna, v obdobju, ki je prikazan v mreži.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

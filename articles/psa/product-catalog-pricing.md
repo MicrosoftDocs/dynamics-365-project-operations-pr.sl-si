@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e3a070f2e0a13e2caff2157b200c334bc4418f0b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151228"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284063"
 ---
 # <a name="product-catalog-pricing"></a>Cene v katalogu izdelkov 
 
@@ -64,3 +64,6 @@ Entitete »Priložnost«, »Ponudba« in »Projektna pogodba« uporabljajo spodn
 Polje **Izdelek** v vrstici ponudbe privzeto navaja vse dejavne izdelke v ceniku izdelkov za ponudbo. Če je bil izdelek dezaktiviran ali če gre za osnutek izdelka, ga ni na seznamu, tudi če je na ceniku. 
 
 Vrstice kataloga izdelkov se dodajo kot vrstice računa na prvem računu, ki je ustvarjen za projektno pogodbo. Na osnutku računa lahko izbrišete te vrstice računa. V tem primeru se vrstice prikažejo na naslednjem računu, dokler ni fakturiran oz. dokler se ne pošlje stranki. V PSA ne morete fakturirati delne količine vrstice računa izdelka. Ko so vrstice izdelka iz projektne pogodbe fakturirane, se ustvarijo dejanske vrednosti. Vendar pa te dejanske vrednosti niso povezane s povezano entiteto projekta. Z drugimi besedami, vrstice projektne pogodbe, ki temeljijo na izdelku, so neodvisne od uporabe, ki temelji na projektu. PSA ne sledi porabi materiala v projektih.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

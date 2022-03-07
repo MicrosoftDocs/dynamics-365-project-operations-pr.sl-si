@@ -2,18 +2,16 @@
 title: Urejanje rezervacij
 description: V tej temi so na voljo informacije o posodabljanju in spreminjanju rezervacij.
 author: ruhercul
-manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
-ms.translationtype: HT
+ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841402"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008336"
 ---
 # <a name="edit-bookings"></a>Urejanje rezervacij
 
@@ -33,3 +31,6 @@ V mreži **Član ekipe** lahko vodja projekta označi določen vir in izbere **U
 ## <a name="schedule-board"></a>Plošča za načrtovanje
 
 Na **plošči razporeda** je upravitelju virov na voljo pogled portfelja vseh rezervacij v organizaciji. V tem pogledu lahko upravitelj virov podaljša, skrajša ali premakne obstoječe rezervacije, podobno kot z možnostmi, ki so na voljo v funkciji **Upravljanje rezervacij**. Upravitelj virov lahko tudi nadomesti obstoječe vire, ki so dodeljeni določeni rezervaciji, tako da z desno miškino tipko klikne rezervacijo in izbere **Nadomeščanje vira**. Upravitelji virov lahko tudi urejajo krivulje obstoječih rezervacij, tako da z desno miškino tipko kliknejo rezervacijo in izberejo **Uredi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

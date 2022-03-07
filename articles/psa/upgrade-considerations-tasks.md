@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149563"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281768"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Nadgradnja vidikov za strukturirano členitev dela
 
@@ -96,3 +96,6 @@ Za natančno strukturirano členitev dela, ki že ima naložene vire, so potrebn
 
 - Vse odvisnosti projektnih opravil morajo biti povezane z istim projektom.
 - Opravilo ne more imeti več kot enega sklica na odvisnost.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

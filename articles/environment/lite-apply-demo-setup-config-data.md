@@ -2,18 +2,16 @@
 title: Uporaba nastavitve predstavitvenega načina in konfiguracijskih podatkov – poenostavljena različica
 description: Ta tema vsebuje informacije o uporabi predstavitvenih podatkov za nastavitev in konfiguracijo za storitev Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089139"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997171"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Uporaba nastavitve predstavitvenega načina in konfiguracijskih podatkov za Project Operations – poenostavljena različica 
 
@@ -28,8 +26,8 @@ Preden začnete s konfiguracijo morate imeti omogočeno okolje Common Data Servi
 
 ## <a name="instructions"></a>Navodila
 
-1. Prenesite [paket glavnih podatkov](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Pomaknite se do mape *ProjOpsDemoDataSetupAndMaster – integrirani CMT* in zaženite izvedljivo datoteko *DataMigrationUtility*.
+1. Prenesite [paket glavnih podatkov](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
+2. Pomaknite se v mapo *ProjOpsSampleSetupData - CE only CMT* in zaženite izvedljivo datoteko, *DataMigrationUtility*.
 3. Na 1. strani čarovnika za selitev konfiguracije Common Data Service (CMT) izberite **Uvozi podatke** in nato izberite **Nadaljuj**.
 
     ![Selitev konfiguracije](./media/1ConfigurationMigration.png)
@@ -41,7 +39,7 @@ Preden začnete s konfiguracijo morate imeti omogočeno okolje Common Data Servi
    ![Prijava v konfiguracijo](./media/2ConfigurationSignin.png)
 
 7. Na 3. strani s seznama organizacij pri najemniku izberite, v katero organizacijo želite uvoziti predstavitvene podatke, in nato izberite **Prijava**.
-8. Na 4. strani izberite datoteko ZIP, *MasterAndSetupData* iz razstavljene mape, *ProjOpsDemoDataSetupAndMaster – integrirani CMT*.
+8. Na strani 4 izberite datoteko zip *SampleSetupAndConfigData* iz razpakirane mape *ProjOpsSampleSetupData - CE only CMT*.
 
    ![Datoteka ZIP](./media/3ZipFile.png)
 
@@ -52,7 +50,7 @@ Preden začnete s konfiguracijo morate imeti omogočeno okolje Common Data Servi
    ![Uvozi podatke](./media/5ImportData.png)
 
 10. Uvoz bo trajal od približno dveh do deset minut, odvisno od hitrosti vašega omrežja. Ko se konča, zapustite čarovnik CMT. 
-11. Preverite, ali ima vaša organizacija podatke o naslednjih 20 entitetah:
+11. Preverite, ali ima vaša organizacija podatke o naslednjih 18 entitetah:
 
     -   Valuta
     -   Račun
@@ -74,3 +72,6 @@ Preden začnete s konfiguracijo morate imeti omogočeno okolje Common Data Servi
     -   Lastnost vira, ki ga je mogoče rezervirati
 
     ![Zaključek uvoza](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Nastavitev in uporaba plačil dobavitelju, ki se izvedejo po prejemu plačila
 description: Ta tema razlaga, kako ustvariti pogoje za plačilo, ki se izvede po prejemu plačila (PWP), da lahko dobavitelju izplačate delna plačila na podlagi plačil, ki jih prejmete od strank.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084735"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008876"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Nastavitev in uporaba plačil dobavitelju, ki se izvedejo po prejemu plačila
 
@@ -80,3 +78,6 @@ Ko dobavitelj zaključi delo na projektu in vam pošlje račun, morate pregledat
 2. Na strani **Račun dobavitelja s plačilom, ki se izvede po prejemu plačila** v iskalno polje vnesite vrednosti, da poiščete račun dobavitelja, ki ga želite pregledati, in nato izberite **Iskanje**.
 3. Na zavihku za hitri dostop **Vrstnice računa dobavitelja** izberite vrstice, ki jih želite spremeniti.
 4. Če so pogoji za **plačilo, ki se izvede po prejemu plačila**, za vrstico računa izpolnjeni, izberite **Izplačaj plačilo dobavitelju**. Možnost **Plačilo, ki se izvede po prejemu plačila** je počiščena in vrednost polja **Pripravljeno za plačilo** se spremeni v **Da**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

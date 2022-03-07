@@ -1,25 +1,23 @@
 ---
-title: Upravljanje nedokončanih opravil obračunavanja – poenostavljena različica
-description: V tej temi so na voljo informacije o različnih pogledih, ki so na voljo za uporabo ob upravljanju nedokončanih opravil obračunavanja.
+title: Upravljanje nedokončanih opravil obračunavanja v projektu
+description: Ta tema vsebuje informacije o različnih pogledih, ki so na voljo za upravljanje nedokončanih opravil obračunavanja na projektih.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176991"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988311"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Upravljanje nedokončanih opravil obračunavanja – poenostavljena različica
+# <a name="manage-project-billing-backlog"></a>Upravljanje nedokončanih opravil obračunavanja v projektu 
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Dynamics 365 Project Operations ima namenske poglede za pomoč pri upravljanju nedokončanih opravil obračunavanja. Za upravljanje nedokončanih opravil obračunavanja izberite povezave v območju **Prodaja** pod možnostjo **Obračunavanje**. 
+Aplikacija Dynamics 365 Project Operations ima namenske poglede za pomoč pri upravljanju nedokončanih opravil obračunavanja. Za upravljanje nedokončanih opravil obračunavanja izberite povezave v območju **Prodaja** pod možnostjo **Obračunavanje**. 
 
 Na voljo so ti pogledi:
 
@@ -60,3 +58,6 @@ Neobračunanih dejanskih vrednosti prodaje s stanjem **Ni dovoljeno preseči** z
 Če imajo podrobnosti pogodbe za več strank način obračunavanja časa in materiala, je ob odobritvi časa in stroškov ustvarjena ena dejanska vrednost neobračunane prodaje za vsako stranko v podrobnostih pogodbe v skladu z delitvijo odstotkov obračunavanja, opredeljenega za vsako od strank. V pogledu **Nedokončana opravila obračunavanja časa in materiala** boste videli te posamezne neobračunane dejanske vrednosti prodaje, specifične za stranko. V tem pogledu je mogoče vsakega od teh zapisov o dejanskih vrednostih neobračunane prodaje ločeno označiti z možnostjo **Pripravljeno za izdajanje računa**.
 
 Dejanska vrednost neobračunane prodaje, ki je na osnutku računa, je prikazana v tem pogledu s stanjem obračunavanja **Račun za stranko je ustvarjen**. Ko je osnutek računa potrjen, se stanje obračunavanja tega zapisa posodobi na **Račun za stranko je knjižen**. Te vrednosti stanja ne posodobite s kodo po meri. Project Operations ne deluje pravilno, ko so te vrednosti stanja posodobljene s kodo po meri.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

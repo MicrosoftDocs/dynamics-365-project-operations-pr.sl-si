@@ -2,18 +2,16 @@
 title: Razvoj predlog projekta s funkcijo »Kopiraj projekt«
 description: Ta tema vsebuje informacije o tem, kako ustvariti predloge projektov z uporabo dejanja po meri »Kopiraj projekt«.
 author: stsporen
-manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
-ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
+ms.openlocfilehash: 7a1f602e789e07014fd6c742940f52341ce6c672
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5045029"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005676"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Razvoj predlog projekta s funkcijo »Kopiraj projekt«
 
@@ -44,7 +42,7 @@ Na voljo so trije parametri za vnos:
 - **{"clearTeamsAndAssignments":true}**: privzeto vedenje za spletni projekt, ki odstrani vse naloge in člane ekipe.
 - **{"removeNamedResources":true}** Privzeto vedenje za aplikacijo Project Operations, ki povrne naloge nazaj na splošne vire.
 
-Za več informacij o dejanjih glejte [Uporaba dejanj spletnega API-ja](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Za več informacij o dejanjih glejte [Uporaba dejanj spletnega API-ja](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Določi polja za kopiranje 
 Ko je dejanje klicano, si bo dejanje **Kopiraj projekt** v projektnem pogledu ogledalo **Kopiraj projektne stolpce**, da bo določilo, katera polja kopirati pri kopiranju projekta.
@@ -112,3 +110,6 @@ V spodnjem primeru je prikazano, kako pokličete dejanje po meri **CopyProject**
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

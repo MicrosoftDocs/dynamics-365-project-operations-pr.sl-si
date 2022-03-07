@@ -2,22 +2,20 @@
 title: Novosti v novembru 2020 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v novembrski izdaji (2020) aplikacije Project Operations za scenarije, ki temeljijo na virih/nezalogi.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
-ms.translationtype: HT
+ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367286"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007976"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti v novembru 2020 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
@@ -67,4 +65,7 @@ Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Proj
 | Vodenje računov projekta  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Če omogočite funkcijo, možnost več pogodbenih vrstic ni mogoča brez integracije CDS-ja.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regulativne posodobitve
-Za informacije o regulativnih posodobitvah za aplikacije Finance and Operations glejte [Regulativne posodobitve](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+Za informacije o regulativnih posodobitvah za aplikacije Finance and Operations glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

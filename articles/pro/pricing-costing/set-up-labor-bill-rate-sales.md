@@ -2,24 +2,22 @@
 title: Nastavitev obračunske stopnje za delo – poenostavljeno
 description: Ta tema vsebuje informacije o nastavljanju deležev obračunavanja dela v aplikaciji Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 26c3743283dd9032e044071b3127a2885ad5ae49
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181202"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004281"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Nastavitev obračunske stopnje za delo – poenostavljeno
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Vsak cenik ima nabor cen vlog ali stopenj dela, ki veljajo za kontekst in datum veljavnosti cenika, ki sta vključena v glavo cenika. Deleže obračunavanja za čas lahko v aplikaciji Dynamics 365 Project Operations nastavite samo v eni valuti, ki je valuta v glavi cenika.
+Vsak cenik ima nabor cen vlog ali stopenj dela, ki veljajo za kontekst in datum veljavnosti cenika, ki sta vključena v glavo cenika. Obračunske stopnje za čas v aplikaciji Dynamics 365 Project Operations lahko nastavite v samo eni valuti, ki je valuta v glavi cenika.
 
 1. Če želite nastaviti deleže obračunavanja dela za prodajni cenik, ustvarite cenik na podlagi glave cenika. 
 2. V podmreži na zavihku **Cena vloge** izberite **+ Nova cena vloge**. 
@@ -55,3 +53,6 @@ Na primer, urna postavka razvijalca iz podjetja Fabrikam India, ki dela pri amer
     | Razvijalec | Fabrikam ZDA | 150 USD |
 
 3. Prodajni cenik **Delež obračunavanja za podjetje Fabrikam ZDA** priložite ceniku za projekte projektne pogodbe ali določeni stranki.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

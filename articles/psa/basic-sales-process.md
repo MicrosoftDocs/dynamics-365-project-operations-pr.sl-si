@@ -2,8 +2,6 @@
 title: Prodajni postopki
 description: V tej temi so na voljo informacije o osnovnih prodajnih postopkih.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145198"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000551"
 ---
 # <a name="sales-processes"></a>Prodajni postopki
 
@@ -41,7 +39,7 @@ Prodajni postopki, ki se uporabljajo v organizaciji, v kateri poslovanje poteka 
 
 Na spodnji sliki je prikazan običajen prodajni postopek v organizaciji, v kateri poslovanje temelji na projektih.
 
-> ![Prodajni postopek v organizaciji, v kateri poslovanje temelji na projektih](media/basic-guide-1.png)
+> ![Prodajni postopek v organizaciji, v kateri poslovanje temelji na projektih.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Ocenjevanje prodaje
 Vrednost prodaje se lahko oceni na podlagi projektov, ki so bili predhodno izvedeni, in njihovi zahtevnosti. Za projekte, ki vključujejo razširitve predhodnih projektov ali projekte, pri katerih je strokovno znanje dobavitelja visoko in so uporabljene dobro znane predloge za delo, lahko uporabite preprostejši postopek ocenjevanja. Običajno imajo bolj zapleteni projekti daljši postopek nakupa. Zato je v postopku ocenjevanja prodaje več faz. V začetnih fazah postopka ekipa za prodajo uporabi vnos upraviteljev kupcev in strokovnjakov z ustreznih področij, da začne ustvarjati splošnejšo oceno za vsako različno komponento dela, ki je zajeto v ponudbi. Te komponente dela predstavljajo vrstice ponudbe. 
@@ -52,7 +50,7 @@ Za projekt lahko ustvarite več ponudb in jih združite v eno vrsto entitete pri
 
 Lahko ustvarite tudi nadomestne ponudbe v eni vrsti entitete priložnosti ali nastavite sistem tako, da se projektna pogodba ustvari, ko je ponudba pridobljena. V tem primeru lahko priložite Wordov dokument, ki predstavlja izjavo SOW v zapisu projektne pogodbe.
 
-![Zapiranje ponudbe za ustvarjanje projektne pogodbe](media/basic-guide-2.png)
+![Zapiranje ponudbe za ustvarjanje projektne pogodbe.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Konfiguriranje prodajnega postopka
 Za konfiguriranje prodajnega postopka lahko uporabite poteke poslovnega procesa iz aplikacije Microsoft Dynamics 365. Poteki poslovnega procesa vašemu prodajnemu osebju zagotavljajo vodeni vizualni vmesnik, ki ga lahko uporabljajo za premikanje ponudb skozi faze, značilne za vaše podjetje.
@@ -68,7 +66,7 @@ V prodajnem postopku lahko vaše podjetje ima šest naslednjih faz:
 
 Teh šest faz predstavljajo škarnice (\>), ki jih izberete za razširitev v vsaki vrsti entitete za priložnost, ki jo ustvarite.
 
-![Konfiguriranje poslovnega procesa v aplikaciji Dynamics 365](media/basic-guide-3.png)
+![Konfiguriranje poslovnega procesa v aplikaciji Dynamics 365.](media/basic-guide-3.png)
  
 Vaša organizacija lahko uporabi različne entitete, da tekom svojega razvoja predstavi isti posel. V začetnih fazah prodajnega postopka je posel predstavljen kot entiteta priložnosti. Ko pa mine nekaj časa in imate na voljo več podrobnosti, lahko uporabite splošnejše ocene, da ustvarite eno ali več ponudb. Če eno od teh ponudb pregledajo notranje zainteresirane skupine in zainteresirane skupine strank, posel predstavlja entiteta ponudbe. Ko stranka sprejme ponudbo, posel predstavlja projektna pogodba ali izjava SOW. Za podporo tega delovanja so poteki poslovnega procesa strukturirani tako, da je vsaka faza v procesu povezana z drugo tabelo zbirke podatkov.
 
@@ -79,7 +77,7 @@ Ko boste posle premikali skozi faze, boste pozvani, da ustvarite ustrezen zapis 
 > [!NOTE]
 > Aplikacija PSA ima določene strani za entitete priložnosti, ponudb, naročil in računov. Morate ustvariti priložnosti, ponudbe, naročila in račune v aplikaciji Project Service s stranmi podatkov o projektu za te entitete. Če za ustvarjanje zapisa uporabite drugo stran, ne boste mogli odpreti zapisa s strani **Podatki o projektu**. Če želite odpreti zapis s strani **Podatki o projektu**, morate zapis izbrisati in ga znova ustvariti s stranjo **Podatki o projektu**. Na strani **Podatki o projektu** zagotavlja poslovna logika za vsako od teh vrst entitet, da je polje zapisa **Vrsta** pravilno nastavljeno ter da so vsi obvezni koncepti ustrezno inicializirani.
 
-> ![Podatki o projektu za novo naročilo](media/basic-guide-4.png)
+> ![Podatki o projektu za novo naročilo.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Razlike med aplikacijama Project Service Automation in Sales
 Čeprav prodajni postopek v aplikaciji PSA uporablja osnovne zmožnosti prodajnega postopka iz aplikacije Sales, je bistveno drugačen zaradi sprememb poslovnih praks organizacij, v katerih poslovanje poteka na podlagi projektov. Tukaj je nekaj primerov:
@@ -93,3 +91,6 @@ V aplikaciji PSA ni mogoče slediti popravkom, ki so izvedeni v ponudbi. Namesto
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Sledenje komentarjem in odobritvam ponudb in projektnih pogodb
 Pregled in odobritev ponudb in projektnih pogodb lahko upravljate z zidom z zapisi in objavami. Vaša organizacija lahko ustvari poteke dela in vtičnike po meri za dodeljevanje, preusmerjanje, stopnjevanje in upravljanje obvestil o pregledu in odobritvi delovnih nalogov.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

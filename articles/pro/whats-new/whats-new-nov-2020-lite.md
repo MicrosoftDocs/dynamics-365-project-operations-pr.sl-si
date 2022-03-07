@@ -2,16 +2,18 @@
 title: Novosti v novembru 2020 – uvajanje storitve Project Operations Lite – posel do izstavitve predračuna
 description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v novembrski izdaji (2020) uvajanja storitve Project Operations – posel do izstavitve predračuna.
 author: sigitac
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 99539c378748f40df330841dbc52814a7841837a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: eb7c15fa937d508fa30ed2c04a6aa9cb117ef011
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993832"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272093"
 ---
 # <a name="whats-new-november-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Novosti v novembru 2020 – uvajanje storitve Project Operations Lite – posel do izstavitve predračuna
 

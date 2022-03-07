@@ -2,18 +2,16 @@
 title: Rezervacije v primerjavi z dodelitvami
 description: Ta tema ponuja informacije o razlikah med rezervacijami virov in dodeljevanjem virov.
 author: ruhercul
-manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
-ms.translationtype: HT
+ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841192"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008471"
 ---
 # <a name="bookings-vs-assignments"></a>Rezervacije v primerjavi z dodelitvami
 
@@ -26,3 +24,6 @@ Za razliko od rezervacij, so dodelitve zaveza virov k projektnih opravilom v raz
 Običajno bo vsota rezervacij za vir enaka vsoti dodelitev vira po eni ali več opravilih. Vendar pa aplikacija Project Operations ne vsiljuje tega pravila. V pogledu **Usklajevanje** se vodji projekta prikažejo mesta, kjer se rezervacije in dodelitve vira ne skladajo.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

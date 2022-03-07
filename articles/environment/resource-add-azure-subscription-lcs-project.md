@@ -2,18 +2,16 @@
 title: Dodajanje naročnine na Azure projektu LCS
 description: Ta tema vsebuje informacije o povezovanju naročnine Azure s projektom LCS.
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
-ms.translationtype: HT
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880558"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986691"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Dodajanje naročnine na Azure projektu LCS
 
@@ -25,35 +23,35 @@ Okolja, ki se jih gosti v oblaku, je treba uvesti z obstoječo naročnino na Azu
 
 1. V projektu LCS v razdelku **Okolja** izberite **Nastavitve Microsoft Azure**.
 
-![Nastavitve Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Nastavitve Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. Na strani **Nastavitve projekta** na zavihku **Povezovalniki Azure** izberite **Pooblasti**. To omogoča uvedbo okolij v ta projekt.
 
-![Povezovalniki Azure](./media/2AzureConnectors.png)
+![Povezovalniki Azure.](./media/2AzureConnectors.png)
 
 3. Znova izberite **Pooblasti**, da zagotovite soglasje skrbnika.
 
-![Podelitev soglasja skrbnika](./media/3GrantAdminConsent.png)
+![Podelitev soglasja skrbnika.](./media/3GrantAdminConsent.png)
 
 4. Sprejmite zahtevo za dovoljenja.
 
-![Sprejmite zahtevo za dovoljenja](./media/4AcceptPermissionRequest.png)
+![Sprejmite zahtevo za dovoljenja.](./media/4AcceptPermissionRequest.png)
 
 Pooblastitev je zdaj končana. 
 
-![Pooblastitev je bila uspešna](./media/5AuthorizationComplete.png)
+![Pooblastitev je bila uspešna.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Omogočite dostop do storitev za uvajanje Dynamics za naročnino Azure
 
 1. Odprite [Obračunavanje Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) in izberite naročnino. Storitve za uvajanje Dynamics morajo imeti dostop do te naročnine, da lahko uvajajo okolja.
 
-![Podrobnosti o naročnini Azure](./media/6AzureSubscription.png)
+![Podrobnosti o naročnini na storitev Azure.](./media/6AzureSubscription.png)
 
 2. V podoknu za krmarjenje izberite **Nadzor dostopa (IAM)** in nato izberite **Dodaj dodelitev vloge**.
 3. Pri drsniku na desni strani izberite **Vloga sodelujočega** ter na podanem seznamu poiščite in izberite **Storitve za uvajanje Dynamics**. 
 4. Izberite **Shrani**.
 
-![Dostop do naročnine](./media/7SubscriptionAccess.png)
+![Dostop do naročnine.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Dodajanje povezovalnika naročnine na projekt LCS
 

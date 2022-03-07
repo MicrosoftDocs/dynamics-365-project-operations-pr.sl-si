@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 30af778c31dc7dfc1f80f8f8295f8791873a05dd
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150283"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282308"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Prijava v storitev Project Service Automation
 
@@ -56,3 +56,6 @@ Ob prijavi v aplikacije Dynamics 365 potrebujete naslednje podatke od vašega sk
   
 ### <a name="see-also"></a>Glejte tudi  
  [Vodnik po času, stroških in sodelovanju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

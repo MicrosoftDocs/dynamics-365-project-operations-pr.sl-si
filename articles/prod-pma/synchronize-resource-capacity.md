@@ -2,11 +2,9 @@
 title: Sinhronizacija zmogljivosti vira
 description: Ta tema vsebuje informacije o sinhronizaciji zmogljivosti vira v koledarjih in projektih.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 006ebbfea42572f17663fab324a20a10321b78f0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084734"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997531"
 ---
 # <a name="synchronize-resource-capacity"></a>Sinhronizacija zmogljivosti vira
 
@@ -49,3 +47,6 @@ Priporočamo uporabo paketa. Možnosti so na voljo med sinhronizacijo rezervacij
     | Končni datum    | Vnesite končni datum za proces sinhronizacije za zbiranja zmogljivosti vira. |
 
 [![Proces sinhronizacije](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

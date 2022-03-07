@@ -2,22 +2,21 @@
 title: Pregled priznavanja prihodkov
 description: V tej temi so na voljo informacije o priznavanju prihodkov v storitvi Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6844f4c5d4cda8a6a901b0302448f70f4c597f5d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.custom: intro-internal
+ms.openlocfilehash: ab9b36b71223b1bcfe48de5f9b68b6fb6a98f388
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531554"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368046"
 ---
 # <a name="revenue-recognition-overview"></a>Pregled priznavanja prihodkov
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 V storitvi Dynamics 365 Project Operations se načela priznavanja prihodkov razlikujejo glede na izbrani način obračunavanja za projekt ali del projekta. V tej temi so na voljo informacije o priznavanju prihodkov v storitvi Project Operations.
 
@@ -60,3 +59,6 @@ V storitvi Dynamics 365 Project Operations se načela priznavanja prihodkov razl
 [Upravljanje ocen prihodkov](rev-rec-completed-contract-method.md)
 
 [Metode za izračun stroškov za dokončanje](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

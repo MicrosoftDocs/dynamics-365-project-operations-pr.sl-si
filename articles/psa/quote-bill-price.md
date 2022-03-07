@@ -3,10 +3,9 @@ title: Domača stran za ponudbe, cene in obračunavanje
 description: V tej temi so na voljo informacije o ponudbah, cenah in obračunavanju.
 author: rumant
 ms.author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 audience: Admin
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 35fa9440a6f58a08092bcc3cc57a9097dce01e33
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 0b3d40158534f039160156087d6edab0d21dd5f3eaf71d5b665eff794793a9b3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147897"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004781"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Domača stran za ponudbe, cene in obračunavanje
 
@@ -44,3 +43,6 @@ V spodnjih temah je na voljo več informacij o oblikovanju ponudb, določanju ce
 - [Skupine enot in enote](advanced-units.md)
 - [Valuta za več enot](advanced-currency.md)
 - [Zapisovanje dejanskih vrednosti](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

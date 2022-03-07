@@ -2,11 +2,9 @@
 title: Sinhronizacija ocen projektov neposredno iz rešitve Project Service Automation v Finance and Operations
 description: Ta tema opisuje predloge in temeljna opravila, ki se uporabljajo za sinhronizacijo ocen delovnih ur projekta in ocen stroškov projekta neposredno iz rešitve Microsoft Dynamics 365 Project Service Automation v Dynamics 365 Finance.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084884"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988221"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizacija ocen projektov neposredno iz rešitve Project Service Automation v Finance and Operations
 
@@ -40,7 +38,7 @@ Rešitev za integracijo rešitve Project Service Automation v rešitev Finance u
 
 Naslednja slika prikazuje, kako se podatki sinhronizirajo med rešitvama Project Service Automation in Finance.
 
-[![Pretok podatkov za integracijo rešitve Project Service Automation s Finance](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
+[![Podatkovni tok za integracijo rešitve Project Service Automation z rešitvijo Finance.](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
 
 ## <a name="project-hour-estimates"></a>Ocene delovnih ur projekta
 
@@ -97,7 +95,7 @@ Dodati morate filter, da odstranite vse vrstice s praznimi kategorijami transakc
 
 Naslednja ilustracija prikazuje primer preslikave predloge opravila v integracijo podatkov. Preslikava prikazuje informacije o polju, ki bodo sinhronizirane iz rešitve Project Service Automation v Finance.
 
-[![Preslikava predloge opravila pri funkciji za integracijo podatkov](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
+[![Preslikava predloge opravila pri funkciji za integracijo podatkov.](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
 
 ## <a name="project-expense-estimates"></a>Ocene stroškov projekta
 
@@ -167,6 +165,9 @@ Sicer velja: **null**
 
 Spodnje slike prikazujejo primere preslikav predlog opravil v Integracijo podatkov. Preslikava prikazuje informacije o polju, ki bodo sinhronizirane iz rešitve Project Service Automation v Finance.
 
-[![Preslikava predloge transakcij za ocene stroškov](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
+[![Preslikava predloge transakcij za ocene stroškov.](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
-[![Preslikava predloge za ocene stroškov](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+[![Preslikava predloge za ocene stroškov.](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

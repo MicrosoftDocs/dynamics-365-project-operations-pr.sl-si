@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 684167f0a68872ef871fbaa06c5161e78045c9a5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5b4c47513b96310745fd2cdb296988a57df0e966
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145423"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291414"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in ustvarjanje pogojev za vir 
 
@@ -59,3 +59,6 @@ Na mreži ekipe lahko kliknete tudi **Zahtevani pogoj za vir**, da se odpre zaht
 
 ![Zahtevani pogoj za vir](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

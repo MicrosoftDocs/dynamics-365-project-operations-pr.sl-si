@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 30a74f683a032d5bd6caed347f4d0a948376d267
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858125"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177666"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Preslikava projektov in opravil v podrobnosti pogodbe, ki temeljijo na projektih 
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Preslikava projektov in opravil v podrobnosti pogodbe, ki temeljijo na projektih – poenostavljeno
 
-_**Velja za:** poenostavljeno uvedbo – posel do izstavitve predračuna, Project Operations za primere, ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
 V podrobnostih pogodb, ki temeljijo na projektu, lahko določena opravila v projektu preslikate v podrobnosti pogodbe.
 
@@ -82,6 +82,3 @@ To je optimalna izkušnja za odstranjevanje povezave med projektnimi opravili in
 4. Na strani pogovornega okna, ki se odpre, v spustnem meniju izberite podrobnosti pogodbe.
 5. Izberite potrditveno polje, če želite, da se povezava prekine tudi z podrejenimi opravili izbranih opravil. Če potrdite polje, bodo povezava prekinjena tudi med podrejenimi opravili izbranih opravil in podrobnostmi pogodbe.
 6. Izberite **V redu**. Opozorilo pomeni, da lahko prekinitev te povezave povzroči razveljavitev dejanskega dela, ki je bil predhodno zabeležen v opravilu. V pogovornem oknu z opozorilom izberite **V redu** za prekinitev povezave med opravilom in podrobnostmi pogodbe, ki temelji na projektu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

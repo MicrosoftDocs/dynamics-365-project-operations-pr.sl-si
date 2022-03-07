@@ -2,8 +2,6 @@
 title: Ponudbe in vrstice ponudb
 description: V tej temi so na voljo informacije o ponudbah in vrsticah ponudb.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145153"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995466"
 ---
 # <a name="quotes-and-quote-lines"></a>Ponudbe in vrstice ponudb
 
@@ -86,7 +84,7 @@ Organizacije, ki ponujajo strokovne storitve, svojim kupcem običajno dajejo pon
 
 Z vsako vrstico ponudbe je mogoče povezati eno ali več teh klasifikacij transakcij. Ko je ponudba pridobljena, se preslikava med klasifikacijo transakcije in vrstico ponudbe prenese v podrobnosti pogodbe.
  
-> ![Posnetek zaslona preslikave vrst transakcij v vrstice ponudbe in podrobnosti pogodbe](media/basic-guide-5.png)
+> ![Posnetek zaslona preslikave vrst transakcij v ponudbi in podrobnosti pogodbe.](media/basic-guide-5.png)
   
 Ponudba lahko na primer vsebuje naslednji vrstici ponudbe: 
 - Svetovalno delo, ki uporablja način obračunavanja na podlagi časa in materiala, v katerem je mogoče uveljavljati klasifikacije transakcij na podlagi časa in nadomestila. Npr. vse transakcije časa in nadomestila za primer projekta **Uvedba Dynamics AX** se stranki zaračunajo na podlagi uporabljenega časa in materialov. 
@@ -131,3 +129,6 @@ Za vrstico ponudbe fiksne cene lahko uporabite mrežo **Razpored izdajanja raču
 - Da ustvarite mejnike obračunavanja, ki so enako razdeljeni, izberite pogostost izvajanja računov, vnesite začetni datum obračunavanja v vrstico ponudbe in izberite **Zahtevani datum zaključka** za ponudbo v razdelku glave ponudbe **Povzetek**. Nato izberite **Ustvari periodične mejnike**, da ustvarite enakomerno razdeljene mejnike na podlagi izbrane pogostosti izdajanja računov. 
 - Če želite ustvariti mejnik obračunavanja za enkratno izplačilo, ustvarite mejnik in nato vnesite vrednost vrstice ponudbe kot znesek mejnika.
 - Če želite ustvariti mejnike obračunavanja, ki temeljijo na določenih opravilih v načrtu projekta, ustvarite mejnik in ga preslikajte v element projektnega razporeda v uporabniškem vmesniku mejnika obračunavanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

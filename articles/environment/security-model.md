@@ -2,18 +2,16 @@
 title: Varnostni model
 description: Ta tema vsebuje informacije o varnostnem modelu v aplikaciji Dynamics 365 Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642923"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002280"
 ---
 # <a name="security-model"></a>Varnostni model
 
@@ -58,7 +56,7 @@ Skupine omogočajo skupno uporabo dovoljenj za projekt in podporne artefakte. Na
 
 Project Operations ne ustvari skupine z implicitnim dejanjem, ampak samo z dejanskim pritiskom na Skupine.
 
-Iskanje članov skupine v pogovornem oknu **Upravljanje skupine** je omejeno na tiste, ki so nastavljeni kot del varnostne skupine okolja. Za več informacij glejte [Nadzor uporabniškega dostopa do okolij: varnostne skupine in licence](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Iskanje članov skupine v pogovornem oknu **Upravljanje skupine** je omejeno na tiste, ki so nastavljeni kot del varnostne skupine okolja. Za več informacij glejte [Nadzor uporabniškega dostopa do okolij: varnostne skupine in licence](/power-platform/admin/control-user-access).
 
 ![Skupinski način](./media/groupsmode.png)
 
@@ -70,7 +68,7 @@ Iskanje članov skupine v pogovornem oknu **Upravljanje skupine** je omejeno na 
 ## <a name="deployment-recommendation"></a>Priporočilo za uvajanje
 Z razvojem modela za sodelovanje v skupini Office bo dodana funkcionalnost, ki bo sčasoma zagotavljala podrobnejši nadzor. Stranke, ki danes uvajajo storitev Project Operations, spodbujamo, da se osredotočijo na tradicionalni varnostni model Microsoft Dynamics 365.
 
-Za več informacij glejte [Varnost v Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+Za več informacij glejte [Varnost v Common Data Service](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Varnost v storitvah Project Operations in Microsoft Dynamics 365 Finance
 Storitev Project Operations vključuje naslednje vloge:
@@ -78,6 +76,9 @@ Storitev Project Operations vključuje naslednje vloge:
 - Vodja projektov
 - Projektni računovodja
 
-Za več informacij o varnosti v storitvi Finance glejte [Varnost na podlagi vlog](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Za več informacij o varnosti v storitvi Finance glejte [Varnost na podlagi vlog](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

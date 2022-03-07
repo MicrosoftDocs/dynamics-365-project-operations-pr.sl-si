@@ -2,19 +2,17 @@
 title: Novosti ali spremembe v storitvi Project Operations, januar 2021, za scenarije, ki temeljijo na zalogi/proizvodnji
 description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v januarski izdaji (2021) aplikacije Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji.
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
-ms.translationtype: HT
+ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958668"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992766"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Novosti ali spremembe v storitvi Project Operations, januar 2021, za scenarije, ki temeljijo na zalogi/proizvodnji
 
@@ -144,4 +142,7 @@ Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Proj
 | Potovanje in strošek                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | V storitvi Project Operations ni mogoče ustvariti ali odobriti časa z medpodjetnimi opravili v storitvi Dataverse.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Regulativne posodobitve
-Za informacije o regulativnih posodobitvah za aplikacije Finance and Operations glejte [Regulativne posodobitve](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+Za informacije o regulativnih posodobitvah za aplikacije Finance and Operations glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
