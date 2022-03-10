@@ -2,19 +2,17 @@
 title: Nakup materialov, ki niso na zalogi, s čakajočim računom dobavitelja
 description: V tej temi je pojasnjeno, kako zabeležiti čakajoče račune dobavitelja.
 author: sigitac
-manager: tfehr
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7a706f419443dcdf92ce3b247d719943272907d0
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
-ms.translationtype: HT
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880686"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547309"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Nakup materialov, ki niso na zalogi, s čakajočim računom dobavitelja
 
@@ -22,7 +20,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
 
 Ker podjetje za projekt nabavlja materiale, ki niso na zalogi, lahko stroške takoj zabeležimo glede na projekt. 
 
-Podjetje Contoso Robotics US na primer izvaja projekt obnove opreme in potrebuje licence za programsko opremo. Te licence dobavlja neodvisni dobavitelj.  Z aplikacijo Dynamics 365 Finance uradnik za obveznosti zabeleži dokument čakajočega računa dobavitelja in neposredno pripiše stroške licence projektu obnove opreme. 
+Na primer, Contoso Robotics US izvaja projekt obnovitve opreme in potrebuje licence za programsko opremo. Te licence dobavlja neodvisni dobavitelj.  Z aplikacijo Dynamics 365 Finance uradnik za obveznosti zabeleži dokument čakajočega računa dobavitelja in neposredno pripiše stroške licence projektu obnove opreme. 
 
 > [!IMPORTANT]
 > Preden uporabite funkcijo, opisano v tej temi, preglejte zahtevane konfiguracije in jih uporabite. Za več informacij glejte [Omogočanje materialov, ki niso na zalogi, in čakajočih računov dobavitelja](configure-materials-nonstocked.md). 
@@ -47,4 +45,5 @@ Podjetje Contoso Robotics US na primer izvaja projekt obnove opreme in potrebuje
     - znesek stanja dobavitelja,
     - znesek prometnega davka,
     - stroške glede na projekt so zabeleženi na račun za integracijo naročil,
-    - dejansko transakcijo projekta v storitvi Dataverse. Ta transakcija se nadalje obdeluje z [dnevnikom integracij za Project Operations](../project-accounting/project-operations-integration-journal.md). Knjiženje tega dnevnika premakne znesek z računa za integracijo naročil na račun stroškov projekta.
+    - Transakcija dejanskih stroškov projekta v storitvi Dataverse.  Ta transakcija se nadalje obdeluje z [dnevnikom integracij za Project Operations](../project-accounting/project-operations-integration-journal.md). Knjiženje tega dnevnika premakne znesek z računa za integracijo naročil na račun stroškov projekta. 
+    - Nakupi, ki se naročniku projekta zaračunajo po načinu obračunavanja časa in materiala. Poleg tega se v storitvi Dataverse za nakupe ustvarijo neobračunane prodajne transakcije. Cenik izdelkov v storitvi Dataverse se uporablja za prodajne cene in zneske za neobračunane prodajne transakcije.

@@ -2,8 +2,6 @@
 title: Predlaganje projektnih virov
 description: Ta tema vsebuje informacije o predlaganju projektnih virov.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,35 +16,37 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084975"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995061"
 ---
 # <a name="propose-project-resources"></a>Predlaganje projektnih virov
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Upravitelji virov lahko vodji projekta predlagajo vir prek zahteve za vir.
 
 1. V mreži zahtev ali sami zahtevi izberite **Poišči vire**.
 2. Na strani **Pomočnik za razporejanje** izberite vir in nato v polju **Stanje rezervacije** v podoknu **Ustvari rezervacijo vira** izberite **Rezerviraj**.
 
-    ![Izbran predlagani vir](media/Resource-Management-image62.png)
+    ![Izbran predlagani vir.](media/Resource-Management-image62.png)
 
 Pojavijo se naslednje posodobitve stanja:
 
 - Na strani **Pomočnik za razporejanje** se kazalniki stanja posodobijo in sporočajo, da je rezervacija šele predlagana in ne potrjena.
 
-    ![Kazalniki stanja za predlagano rezervacijo na strani pomočnika za razporejanje](media/Resource-Management-image63.png)
+    ![Kazalniki stanja za predlagano rezervacijo na strani pomočnika za razporejanje .](media/Resource-Management-image63.png)
 
 - V zahtevi za vir se stanje spremeni v **Potreben pregled**.
 
-    ![Sprememba stanja zahteve za vir v »Potreben pregled«](media/Resource-Management-image64.png)
+    ![Sprememba stanja zahteve za vir v »Potreben pregled«.](media/Resource-Management-image64.png)
 
 - Na zavihku **Ekipa** izbranega projekta se vrednost splošnega člana ekipe **Stanje zahteve** spremeni v **Potreben pregled**.
 
-    ![Sprememba stanja zahteve splošnega člana ekipe v »Potreben pregled« na zavihku »Ekipa«](media/Resource-Management-image48.png)
+    ![Sprememba stanja zahteve splošnega člana ekipe v »Potreben pregled« na zavihku »Ekipa«.](media/Resource-Management-image48.png)
 
 Vodja projekta lahko predlog sprejme ali zavrne.
 
@@ -70,7 +70,7 @@ Za izračun uporabe se uporabljajo naslednje enačbe:
 
 Pogled **Uporaba vira** lahko najdete v podoknu **Viri**.
 
-![Pogled uporabe virov](media/Resource-Management-image65.png)
+![Ogled uporabe virov.](media/Resource-Management-image65.png)
 
 Vsaka celica v mreži predstavlja delež zaračunane uporabe vira v določenem obdobju, na primer dnevu, tednu ali mesecu. Za obarvanje celic se uporabljajo naslednje enačbe:
 
@@ -84,7 +84,7 @@ Zaradi mreže morate nastaviti ciljno uporabo za vlogo ali posamezni vir. To nas
 
 Poleg tega morate vsakemu viru, ki ga je mogoče rezervirati, dodati tudi privzeto vlogo. Odprite možnost **Viri** \> **Viri**. Na zavihku **Project Service** preverite, ali je vloga vira določena in ali je polje **Je privzeto** nastavljeno na **Da**. Kjer je vrednost **Je privzeto = Ne**, lahko dodate dodatne vloge. Vloga, pri kateri je vrednost **Je privzeto = Da**, se uporablja za oceno uporabe vira v primerjavi s ciljem za to vlogo.
 
-![Nastavitev privzete vloge](media/Resource-Management-image67.png)
+![Nastavitev privzete vloge.](media/Resource-Management-image67.png)
 
 Na zavihku **Project Service** lahko nastavite tudi posamično ciljno uporabo za vir. Izračun uporabe nato uporabi to ciljno uporabo za oceno cilja vira namesto cilja privzete vloge vira.
 
@@ -96,18 +96,21 @@ Upravitelji virov morajo imeti možnost ogleda razpoložljivosti virov in posodo
 
 Delovni čas virov se uporablja kot osnova za izračun razpoložljivosti vira. Rezervacije virov porabijo del zmogljivosti virov.
 
-![Plošča razporeda](media/Resource-Management-image68.png)
+![Plošča razporeda.](media/Resource-Management-image68.png)
 
 Na plošči razporeda so za prikaz rezervacij, razpoložljivosti, prezasedenosti in stanja rezervacij uporabljene različne barve in senčenje. Z izbiro ustrezne nastavitve v nastavitvah plošče razporeda lahko prikažete tudi legendo.
 
 Če je ob posameznem viru, ki ga je mogoče rezervirati, na plošči razporeda prikazana puščica v desno, lahko vir razširite in s tem prikažete podrobnosti o delu, za katerega je vir rezerviran.
 
-![Razširitev vira, ki ga je mogoče rezervirati, na plošči razporeda](media/Resource-Management-image69.png)
+![Razširitev vira, ki ga je mogoče rezervirati, na plošči razporeda.](media/Resource-Management-image69.png)
 
 Ker rešitev Dynamics 365 Project Service Automation uporablja mehanizem Universal Resource Scheduling, si lahko tudi vi ogledate podrobnosti o rezervacijah virov za projekte, delovne naloge in vse druge entitete, na katere ste razširili razporejanje, ob predpostavki, da imate nameščeno aplikacijo Dynamics 365 Field Service.
 
-![Podrobnosti o rezervacijah virov za projekte in delovne naloge](media/Resource-Management-image70.png)
+![Podrobnosti o rezervacijah virov za projekte in delovne naloge.](media/Resource-Management-image70.png)
 
 Če si želite ogledati podrobnosti o posameznem viru, ga kliknite z desno tipko miške, da odprete kartico vira.
 
-![Kartica vira](media/Resource-Management-image71.png)
+![Kartica vira.](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,32 +2,38 @@
 title: Odpravljanje težav dela v mreži opravil
 description: Ta tema zagotavlja informacije o odpravljanju težav, potrebne pri delu v mreži opravil.
 author: ruhercul
-ms.date: 08/02/2021
+ms.date: 09/22/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989121"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547219"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Odpravljanje težav dela v mreži opravil 
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Ta tema opisuje, kako odpraviti težave, s katerimi se lahko srečate pri delu z upravljanjem stroškov.
+_**Velja za:** aplikacija Project Operations za okoliščine, ki temeljijo na virih/nezalogi, poenostavljeno uvajanje – posel do izstavitve predračuna, storitev Project for the web_
 
-## <a name="enable-cookies"></a>Omogočanje piškotkov
+Mreža opravil, ki jo je uporabila aplikacija Dynamics 365 Project Operations, je gostujoči element iframe znotraj storitve Microsoft Dataverse. Zaradi te uporabe morajo biti izpolnjene posebne zahteve za zagotovitev pravilnega delovanja preverjanja pristnosti in avtorizacije. Ta tema opisuje pogoste težave, ki lahko vplivajo na možnost upodabljanja mreže ali upravljanja opravil v strukturirani členitvi dela (SČD).
 
-Project Operations zahteva, da so omogočeni piškotki tretjih oseb, da se lahko upodobi strukturirana členitev dela. Če piškotki tretjih oseb niso omogočeni, boste namesto, da bi videli opravila, videli prazno stran, ko izberete zavihek **Opravila** na strani **Projekti**.
+Pogoste težave vključujejo:
 
-![Prazna stran v primeru, ko piškotki tretjih oseb niso omogočeni.](media/blankschedule.png)
+- Zavihek **Opravilo** v mreži opravil je prazen.
+- Ko se projekt odpre, se projekt ne naloži, uporabniški vmesnik pa je obtičal na vrtavki za nalaganje.
+- Skrbništvo pravic za storitev **Project for the Web**.
+- Ko ustvarite, posodobite ali izbrišete opravilo, se spremembe ne shranijo.
 
+## <a name="issue-the-task-tab-is-empty"></a>Težava: Zavihek Opravilo je prazen
 
-### <a name="workaround"></a>Nadomestna rešitev
+### <a name="mitigation-1-enable-cookies"></a>Rešitev št. 1: Omogočite piškotke
+
+Aplikacija Project Operations zahteva, da so piškotki tretjih oseb omogočeni za upodabljanje strukturirane členitve dela. Če piškotki tretjih oseb niso omogočeni, boste namesto, da bi videli opravila, videli prazno stran, ko izberete zavihek **Opravila** na strani **Projekti**.
+
 Za brskalnike Microsoft Edge ali Google Chrome naslednji postopki orisujejo, kako posodobiti nastavitve brskalnika, da se omogočijo piškotki tretjih oseb.
 
 #### <a name="microsoft-edge"></a>Microsoft Edge
@@ -36,6 +42,7 @@ Za brskalnike Microsoft Edge ali Google Chrome naslednji postopki orisujejo, kak
 2. V desnem zgornjem kotu izberite **tri pike** (...) in nato izberite **Nastavitve**.
 3. Pod možnostjo **Piškotki in dovoljenja za mesta** izberite **Piškotki in podatki o mestih**.
 4. Izklopite **Blokiraj piškotke tretjih oseb**.
+5. Osvežite brskalnik. 
 
 #### <a name="google-chrome"></a>Google Chrome
 
@@ -43,78 +50,101 @@ Za brskalnike Microsoft Edge ali Google Chrome naslednji postopki orisujejo, kak
 2. V desnem zgornjem kotu izberite tri navpične pike in nato izberite **Nastavitve**.
 3. Pod možnostjo **Zasebnost in varnost** izberite **Piškotki in drugi podatki mesta**.
 4. Izberite možnost **Dovoli vse piškotke**.
+5. Osvežite brskalnik. 
 
-> [!IMPORTANT]
+> [!NOTE]
 > Če blokirate piškotke tretjih oseb, bodo vsi piškotki in podatki mesta iz drugih mest blokirani, tudi če je mesto dovoljeno na seznamu izjem.
 
-## <a name="pex-endpoint"></a>Končna točka PEX
+### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Rešitev št. 2: Preverite, da je bila končna točka PEX pravilno konfigurirana
 
-Project Operations zahteva, da se parametri projekta sklicujejo na končno točko PEX. Ta končna točka je potrebna za komunikacijo s storitvijo, uporabljeno za upodobitev strukturirane členitve dela. Če parameter ni omogočen, se prikaže napaka »Parameter projekta ni veljaven«. 
-
-### <a name="workaround"></a>Nadomestna rešitev
+Project Operations zahteva, da se parametri projekta sklicujejo na končno točko PEX. Ta končna točka je potrebna za komunikacijo s storitvijo, ki se uporablja za upodabljanje strukturirane členitve dela. Če parameter ni omogočen, se prikaže napaka »Parameter projekta ni veljaven«. Če želite končno točko PEX posodobiti, upoštevajte naslednje korake.
 
 1. Dodaj polje **Končna točka PEX** na stran **Projektni parametri**.
-2. Določite vrsto izdelka, ki ga uporabljate. Ta vrednost se uporablja, ko je nastavljena končna točka PEX. Pri pridobivanju končne točke PEX je vrsta izdelka že določena. Ohranite to vrednost. 
-   
-    ![Polje končne točke PEX na parametru projekta.](media/pex-endpoint.png)
+2. Določite vrsto izdelka, ki ga uporabljate. Ta vrednost se uporablja, ko je nastavljena končna točka PEX. Pri pridobivanju končne točke PEX je vrsta izdelka že določena. Ohranite to vrednost.
+3. Posodobite polje z naslednjo vrednostjo: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. Spodnja tabela prikazuje parametre vrste, ki jih je treba uporabiti glede na vrsto izdelka.
 
-3. Posodobite polje z naslednjo vrednostjo: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+      | **Vrsta izdelka**                     | **Vrsta parametra** |
+      |--------------------------------------|--------------------|
+      | Storitev Project for the Web v privzeti organizaciji   | tipa=0             |
+      | Storitev Project for the Web v organizaciji CDS | tipa=1             |
+      | Project Operations                   | tipa=2             |
 
-   
-   | Vrsta izdelka                         | Vrsta parametra |
-   |--------------------------------------|----------------|
-   | Storitev Project for the Web v privzeti organizaciji   | tipa=0         |
-   | Storitev Project for the Web v organizaciji CDS | tipa=1         |
-   | Project Operations                   | tipa=2         |
-   
 4. Odstranite polje s strani **Projektni parametri**.
 
-## <a name="privileges-for-project-for-the-web"></a>Pravice za projekt za splet
+## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Težava: Projekt se ne naloži in uporabniški vmesnik je obtičal na vrtavki
 
-Project Operations se zanaša na zunanjo storitev razporejanja. Storitev zahteva, da ima uporabnik več vlog za branje in pisanje dodeljenih entitetam, povezanih s strukturirano členitvijo dela. Te entitete vključujejo projektna opravila, dodelitve virov in odvisnosti opravil. Če uporabnik ne more upodobiti strukturirane členitve dela, ko odpre zavihek **Opravila**, verjetno projekt za Project Operations ni bil omogočen. Uporabnik lahko prejme bodisi napako varnostne vloge ali napako, povezano z zavrnitvijo dostopa.
+Za namene preverjanja pristnosti morajo biti omogočena pojavna okna, da se mreža opravil lahko naloži. Če pojavna okna niso omogočena, bo zaslon obtičal na vrtavki za nalaganje. Naslednji grafični prikaz prikazuje spletni naslov z blokirano pojavno oznako v naslovni vrstici, zaradi česar vrtavka obtiči, ko poskuša naložiti stran. 
 
+   ![Nedokončana vrtavka in blokirana pojavna okna.](media/popupsblocked.png)
 
-## <a name="workaround"></a>Nadomestna rešitev
+### <a name="mitigation-1-enable-pop-ups"></a>Rešitev št. 1: Omogočite pojavna okna
 
-1. Pojdite na **Nastavitev > Varnost > Uporabniki > Uporabniki aplikacije**.  
+Če je vaš projekt obtičal na vrtavki, je mogoče, da pojavna okna niso omogočena.
+
+#### <a name="microsoft-edge"></a>Microsoft Edge
+
+Pojavna okna v brskalniku Edge lahko omogočite na dva načina.
+
+1. V brskalniku Edge izberite obvestilo v zgornjem desnem kotu brskalnika.
+2. Izberite **Vedno dovoli pojavna okna in preusmeritve iz** določenega okolja storitve Dataverse.
+ 
+     ![Pojavna okna blokirajo okno.](media/enablepopups.png)
+
+Druga možnost je, da upoštevate naslednje korake:
+
+1. Odprite brskalnik Edge.
+2. V zgornjem desnem kotu izberite **tri pike** (...) in nato izberite **Nastavitve** > **Dovoljenja za spletno mesto** > **Pojavna okna in preusmeritve**.
+3. Gumb **Pojavna okna in preusmeritve** izklopite, če želite blokirati pojavna okna, ali ga pa vklopite, da v napravi omogočite pojavna okna.
+4. Ko omogočite pojavna okna, osvežite brskalnik. 
+
+#### <a name="google-chrome"></a>Google Chrome
+1. Odprite brskalnik Chrome.
+2. Odprite stran, kjer so pojavna okna blokirana.
+3. V naslovni vrstici izberite možnost **Pojavno okno je blokirano**.
+4. Izberite povezavo za pojavno okno, ki ga želite videti.
+5. Ko omogočite pojavna okna, osvežite brskalnik. 
+
+> [!NOTE]
+> Če želite vedno videti pojavna okna za spletno mesto, izberite možnost **Vedno dovoli pojavna okna in preusmeritve iz [spletno mesto]** in nato izberite možnost **Končano**.
+
+## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Težava št. 3: Skrbništvo pravic za storitev Project for the Web
+
+Project Operations se zanaša na zunanjo storitev razporejanja. Storitev zahteva, da ima uporabnik dodeljenih več vlog, ki mu omogočajo branje in pisanje entitetam, povezanim s SČD. Te entitete vključujejo projektna opravila, dodelitve virov in odvisnosti opravil. Če uporabnik ne more upodobiti SČD, ko se pomakne do zavihka **Opravila**, je razlog verjeto to, da **Projekt** za **Aplikacijo Project Operations** ni bil omogočen. Uporabnik lahko prejme bodisi napako varnostne vloge ali napako, povezano z zavrnitvijo dostopa.
+
+### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Rešitev št. 1: Preverite varnostne vloge uporabnika aplikacije in končnega uporabnika
+
+1. Odprite možnost **Nastavitev** > **Varnost** > **Uporabniki** > **Uporabniki aplikacije**.  
 
    ![Bralnik aplikacije.](media/applicationuser.jpg)
    
-2. Dvokliknite zapis uporabnika aplikacije, da preverite naslednje:
+2. Za preverjanje dvokliknite zapis uporabnika aplikacije:
 
- - Uporabnik ima dostop do projekta. To preverjanje se običajno opravi tako, da se zagotovi, da ima uporabnik varnostno vlogo **Vodja projektov**.
- - Uporabnik aplikacije Microsoft Project obstaja in je pravilno konfiguriran.
+     - Uporabnik ima dostop do projekta. To lahko storite tako, da preverite, ali ima uporabnik varnostno vlogo **Vodje projekta**.
+     - Uporabnik aplikacije Microsoft Project obstaja in je pravilno konfiguriran.
  
-3. Če ta uporabnik ne obstaja, lahko ustvarite zapis novega uporabnika. Izberite **Novi uporabniki**. Spremenite obrazec za vnos na **Uporabnik aplikacije**, nato pa dodajte **ID aplikacije**.
+3. Če ta uporabnik ne obstaja, ustvarite nov zapis uporabnika. 
+4. Izberite **Novi uporabniki**, obrazec za vnos spremenite v **Uporabnik aplikacije** in nato dodajte **ID aplikacije**.
 
    ![Podrobnosti uporabnika aplikacije.](media/applicationuserdetails.jpg)
 
-4. Prepričajte se, da je bila uporabniku dodeljena pravilna licenca in da je storitev omogočena v podrobnostih naročniških paketov licence.
-5. Prepričajte se, da uporabnik lahko odpre project.microsoft.com.
-6. Prepričajte se, prek projektnih parametrov, da sistem kaže na pravilno projektno končno točko.
-7. Prepričajte se, je ustvarjen uporabnik projektne aplikacije.
-8. Uveljavite naslednje varnostne vloge za uporabnika:
 
-  - Uporabnik storitve Dataverse
-  - Sistem Project Operations
-  - Sistem projekta
+## <a name="issue-4-changes-arent-saved-when-you-create-update-or-delete-a-task"></a>Težava št. 4: Ko ustvarite, posodobite ali izbrišete opravilo, se spremembe ne shranijo
 
-## <a name="error-when-updating-the-work-breakdown-structure"></a>Napaka pri posodabljanju strukturirane členitve dela
+Ko izvedete eno ali več posodobitev SČD, spremembe niso uspešne in se ne shranijo. V mreži razporeda se pojavi napaka s sporočilom: »Nedavne spremembe ni mogoče shraniti«.
 
-Ko se izvede ena ali več posodobitev strukturirane členitve dela, spremembe nazadnje niso uspešne in se ne shranijo. Pride do napake v mreži razporeda s sporočilom »Nedavnih sprememb, ki ste jih izvedli, ni bilo mogoče shraniti«.
+### <a name="mitigation-1-validate-the-license-assignment"></a>Rešitev št. 1: Preverite dodeljevanje licenc
 
-### <a name="workaround"></a>Nadomestna rešitev
-
-1. Prepričajte se, da je bila uporabniku dodeljena pravilna licenca in da je storitev omogočena v podrobnostih naročniških paketov licence.
-2. Prepričajte se, da uporabnik lahko odpre project.microsoft.com.
-3. Prepričajte se, da sistem kaže na pravilno projektno končno točko.
-4. Prepričajte se, je bil ustvarjen uporabnik projektne aplikacije.
-5. Uveljavite naslednje varnostne vloge za uporabnika:
+1. Prepričajte se, da je bila uporabniku dodeljena pravilna licenca in da je storitev omogočena v podrobnostih naročniških paketov licence.  
+2. Prepričajte se, da uporabnik lahko odpre spletno stran **project.microsoft.com**.
+    
+### <a name="mitigation-2-validation-configuration-of-the-project-application-user"></a>Rešitev št. 2: Potrditvena konfiguracija uporabnika aplikacije Project
+1. Prepričajte se, da je bil uporabnik aplikacije Project ustvarjen.
+2. Uveljavite naslednje varnostne vloge za uporabnika:
   
   - Uporabnik storitve Dataverse ali osnovni uporabnik
   - Sistem Project Operations
   - Sistem projekta
-  - Sistem dvojnega zapisovanja Project Operations (ta vloga je obvezna, če uvajate scenarije, ki temeljijo na virih/nezalogi v storitvi Project Operations.)
+  - Sistem dvojnega zapisovanja v aplikaciji Project Operations. Ta vloga je obvezna za okoliščino uvajanja aplikacije Project Operations, ki temelji na virih/nezalogi.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

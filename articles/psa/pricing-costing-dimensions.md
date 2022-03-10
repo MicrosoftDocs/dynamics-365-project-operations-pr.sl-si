@@ -4,6 +4,7 @@ description: V tej temi je na voljo pregled cenovnih razsežnosti.
 author: rumant
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: rumant
@@ -15,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009276"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998481"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Domača stran razsežnosti za določanje cen in razčlenitev stroškov
 
@@ -40,7 +41,7 @@ Glede na naravo teh atributov dela in ljudi, ki so potrebni za izvedbo dela, sta
 
 Storitev PSA vključuje privzet nabor cenovnih razsežnosti. Te si lahko ogledate v **Project Service** > **Parametri**. V zapisu parametra na zavihku **Cenovna razsežnost na podlagi zneska** preverite, ali sta pri vlogi **msdyn_resourcecategory** in organizacijski enoti za vire **msdyn_organizationalunit** polji **Mogoče uporabiti za prodajo** in **Mogoče uporabiti za ceno** nastavljeni na **Da**. To vam bo omogočilo, da nastavite ceno in ceno za vsako kombinacijo vloge in organizacijske enote.
 
-![Prikaz parametrov v aplikaciji Project Service z označeno možnostjo »Mogoče uporabiti za prodajo«](media/PS-OOB-parameters.png)
+![Prikaz parametrov v aplikaciji Project Service z označeno možnostjo »Mogoče uporabiti za prodajo«.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Če ste uporabljali vnaprej pripravljena polja vloge in organizacijske enote kot cenovne razsežnosti pred različico 3 aplikacije PSA, ne bo nobene opazne spremembe. Project Service lahko še naprej uporabljate kot običajno. 

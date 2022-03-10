@@ -2,58 +2,40 @@
 title: Prijava za naročnino na predogledno različico – poenostavljena različica
 description: Ta tema vsebuje informacije o tem, kako se lahko naročite in uvedete poenostavljeno uvedbo storitve Project Operations – od posla do izstavitve predračuna.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997441"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991551"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Prijava za naročnino na predogledno različico – poenostavljena različica 
 
-V tej temi je pojasnjeno, kako se naročite na predogled ponudbe partnerja in kako izvedete poenostavljeno uvedbo storitve Dynamics 365 Project Operations – posel do izstavitve predračuna.
+Ta tema vsebuje informacije o tem, kako se naročiti na preskusno različico in uvesti poenostavljeno uvajanje storitve Dynamics 365 Project Operations – od posla do izstavitve predračuna.
 
 > [!NOTE]
 > Ta postopek se bo spremenil v prihodnjih izdajah storitve Project Operations.
 
 ## <a name="prerequisites"></a>Zahteve
-
-- Prejeli boste e-poštno sporočilo z vabilom k sodelovanju v predogledu. Predogled lahko zahtevate na [spletnem mestu storitve Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Uporabnik, ki uvede predogled, mora imeti pravice globalnega skrbnika za najemnika imenika Azure.
-- Preglejte vse pogoje in določila.
-
-## <a name="subscribe"></a>Naročite se
-
-Ko prejmete odobritev [zahteve za predogled](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), boste od Microsofta po elektronski pošti prejeli dve ponudbi. Te ponudbe omogočajo uvedbo predogleda Project Operations:
-
-- Dynamics 365 Project Operations (CRM) – predogled preskusne različice
-- Office 365 Project Operations – poskusna različica
+- Uporabnik, ki uvede predogled, mora imeti pravice globalnega skrbnika za najemnika imenika Azure. Med prvim koriščenjem ponudbe lahko ustvarite najemnika.
 
 > [!IMPORTANT]
 > To nalogo mora opraviti samo ena oseba in sicer skrbnik najemnika v organizaciji. Če niste naročnik te izdaje, počakajte, da se organizacija prijavi in prejmete svoje uporabniške poverilnice.
+> 
+> Preskusne različice v najemniku so namenjene enkratni uporabi. Preskusno različico lahko namestite samo enkrat. Priporočamo, da za preskusno različico ustvarite novega najemnika.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – predogled preskusne različice 
+### <a name="dynamics-365-project-operations-trial"></a>Preskus storitve Dynamics 365 Project Operations 
 
 Preden začnete, se prepričajte, da ste prijavljeni v brskalnik z uporabnikovim službenim računom v najemniku, kjer želite imeti predogled aplikacije Project Operations.
 
-1. Unovčite prvo promocijsko kodo **Dynamics 365 Project Operations (CRM) – predogled preskusne različice**, tako da jo prilepite v URL brskalnika.
-
-![Prevzem ponudbe](./media/16RedeemFirstOfferNew.png)
-
+1. Izberite možnost [Preskusna različico aplikacije Project Operations](https://aka.ms/try-po) in izkoristite prvo kodo v okviru ponudbe **Dynamics 365 Project Operations**.
 2. Potrdite svoje naročilo.
-![Potrdite naročilo](./media/17ConfirmOrderNew.png)
 
-Videli boste, da je bila ponudba za potrditev uspešno izkoriščena.
-
-![Potrditev](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – poskusna različica
-
-Ponovite enake korake kot pri kodi prve ponudbe. Ne pozabite dodati kode druge ponudbe z istim uporabniškim računom, ki je bil uporabljen za kodo prve ponudbe.
+  Prikazalo se vam bo potrditveno sporočilo, da je bila ponudba uspešno obdelana.
 
 ## <a name="assign-licenses"></a>Dodeljevanje licenc
 
@@ -62,29 +44,24 @@ Ponovite enake korake kot pri kodi prve ponudbe. Ne pozabite dodati kode druge p
 
 
 1. Odprite [skrbniško središče za Microsoft 365](https://portal.office.com/), da dodelite licence svojim uporabnikom.
-
-![Začetna stran skrbniškega središča](./media/14AdminPortal.png)
-
 2. Na strani **Aktivni uporabniki** izberite uporabnike, ki jim želite dodeliti licenco.
-
-![Dodeljevanje licenc](./media/15AssignLicenses.png)
-
-3. Preverite, ali sta izbrani licenci **Dynamics 365 Project Operations (CRM) – predogledna različica** in **Office 365 Project Operations – predogledna različica**. 
+3. Preverite, ali je licenca **Dynamics 365 Project Operations** izbrana. 
 4. Izberite **Shrani spremembe**.
 
-## <a name="create-a-new-cds-environment"></a>Ustvarjanje novega okolja CDS
+## <a name="create-a-new-dataverse-environment"></a>Ustvarite novo okolje Dataverse
 
-1. Zagotovite si novo okolje za uvajanje CDS Project Operations tako, da upoštevate navodila v temi [Model za uvajanje CDS](lite-deployment.md). Ko izberete vrsto okolja, obvezno izberite **Poskusna različica (na podlagi naročnine)**.
-![Novo okolje](./media/19CreateEnvironment.png)
+1. Zagotovite si novo okolje za uvajanje Dataverse v aplikaciji Project Operations tako, da upoštevate navodila v temi [Model uvajanja Dataverse](lite-deployment.md). Ko izberete vrsto okolja, obvezno izberite **Poskusna različica (na podlagi naročnine)**.
+
+  ![Novo okolje.](./media/19CreateEnvironment.png)
 
 2. Izberite nastavitev **Omogoči aplikacije Dynamics 365** in pustite polje **Samodejno uvedi te aplikacije** prazno.  
 3. Izberite **Shrani**, da ustvarite okolje.
 
-![Dodaj zbirko podatkov](./media/20CreateEnvironment1.png)
+  ![Dodajanje zbirke podatkov.](./media/20CreateEnvironment1.png)
 
 4. Ko je okolje ustvarjeno, namestite rešitev **Microsoft Dynamics 365 Project Operations**. 
 
-![Namestitev rešitve](./media/21InstallSolution.png)
+![Namestitev rešitve.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Namestitev predstavitvenih podatkov za nastavitev in konfiguracijo CDS
 

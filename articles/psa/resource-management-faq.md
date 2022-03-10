@@ -2,8 +2,6 @@
 title: Pogosta vprašanja in odgovori o upravljanju virov
 description: Ta tema vsebuje odgovore na pogosta vprašanja o upravljanju virov.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20562b98ccc8451ab57dd42fb8c2f9f303811dbe
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283163"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002396"
 ---
 # <a name="resource-management-faq"></a>Pogosta vprašanja in odgovori o upravljanju virov
 

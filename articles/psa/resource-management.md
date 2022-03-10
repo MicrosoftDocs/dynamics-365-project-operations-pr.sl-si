@@ -2,10 +2,9 @@
 title: Domača stran projektnih virov
 description: Ta tema vsebuje informacije o zmogljivostih upravljanja virov v aplikaciji Project Service Automation (PSA) za Dynamics 365.
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 11/28/2018
 ms.topic: article
 ms.author: ruhercul
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d6a499ca8b143b549e0457fb967e4795e608050
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: b0ea56a7b41f5bb7d458b780f4e2611063e1b4a0ae2a6eb2acfa9cfef8c1cff0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084968"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984801"
 ---
 # <a name="resourcing-projects-home-page"></a>Domača stran projektnih virov
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -51,3 +52,6 @@ Za projekt si lahko izberete ekipo splošnih ali poimenovanih virov v PSA. Upora
 - [Rezervacija poimenovanih virov iz zahtevanih pogojev za vire](book-named-resource.md)
 - [Pošiljanje zahteve za vir](submit-resource-request.md)
 - [Sprejem ali zavrnitev predlaganega projektnega vira iz zahteve za vir](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

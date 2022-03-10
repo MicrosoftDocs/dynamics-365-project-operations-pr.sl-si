@@ -2,8 +2,6 @@
 title: Uporaba dodatka za rešitev Project Service za načrtovanje dela v programu Microsoft Project | MicrosoftDocs
 description: V tej temi najdete informacije o dodajanju, konfiguriranju in uporabi dodatka Microsoft Project za Microsoft Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129698"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005321"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Uporaba dodatka za rešitev Project Service Automation za načrtovanje dela v Microsoft Project
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -92,7 +92,7 @@ Projekt se bo uvozil v [!INCLUDE[pn_project_service_auto](../includes/pn-project
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Ganttov grafikon**   | Uvoze na [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] zaslon **Strukturirane členitve dela**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **List z viri** |   Uvozi na [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] zaslon **Člani projektne ekipe**.   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Uporaba uporabe**    |    Uvoze na [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] zaslon **Ocene projekta**.     |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Uporaba uporabe**    |    Uvozi na zaslon [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Ocene projekta**.     |
 
 **Uvoz in objava projekta**  
 1. Na zavihku **Project Service** kliknite **Objavi** > **Nov projekt rešitve Project Service Automation**.  
@@ -174,5 +174,61 @@ Projekt se bo uvozil v [!INCLUDE[pn_project_service_auto](../includes/pn-project
 
 Če povežete projektno datoteko z rešitvijo [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], projektna datoteka postane glavna datoteka in strukturirano členitev dela v predlogi rešitve [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] nastavi samo za branje.  Če želite spremeniti načrt projekta, morate to storiti v programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] in spremembe objaviti kot posodobitve za [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
 
+## <a name="read-a-resource-loaded-schedule"></a>Preberite razpored naloženih virov
+
+Ko berete projekt iz storitve Project Service Automation, koledar vira ni sinhroniziran z namiznim odjemalcem. Če obstajajo razlike v trajanju, količino dela ali koncu opravila, je to verjetno zato, ker viri in namizni odjemalec nimata iste predloge koledarja za delovne ure projekta.
+
+
+## <a name="data-synchronization"></a>Sinhronizacija podatkov
+
+Naslednja tabela prikazuje, kako se sinhronizirajo podatki med storitvijo Project Service Automation in namiznim vtičnikom Microsoft Project.
+
+| **Entiteta** | **Polje** | **Microsoft Project v Project Service Automation** | **Project Service Automation v Microsoft Project** |
+| --- | --- | --- | --- |
+| Projektno opravilo | Datum zapadlosti | ● | - |
+| Projektno opravilo | Predviden obseg dela | ● | - |
+| Projektno opravilo | ID odjemalca za MS Project | ● | - |
+| Projektno opravilo | Nadrejeno opravilo | ● | - |
+| Projektno opravilo | Project | ● | - |
+| Projektno opravilo | Projektno opravilo | ● | - |
+| Projektno opravilo | Ime projektnega opravila | ● | - |
+| Projektno opravilo | Enota vira (zastarelo od različice 3.0) | ● | - |
+| Projektno opravilo | Načrtovano trajanje | ● | - |
+| Projektno opravilo | Datum začetka | ● | - |
+| Projektno opravilo | ID SČD | ● | - |
+
+| **Entiteta** | **Polje** | **Microsoft Project v Project Service Automation** | **Project Service Automation v Microsoft Project** |
+| --- | --- | --- | --- |
+| Član ekipe | ID odjemalca za MS Project | ● | - |
+| Član ekipe | Naziv delovnega mesta | ● | - |
+| Član ekipe | projekt | ● | ● |
+| Član ekipe | Projektna ekipa | ● | ● |
+| Član ekipe | Enota vira | - | ● |
+| Član ekipe | Vloga | - | ● |
+| Član ekipe | Delovni čas | Ni sinhronizirano | Ni sinhronizirano |
+
+| **Entiteta** | **Polje** | **Microsoft Project v Project Service Automation** | **Project Service Automation v Microsoft Project** |
+| --- | --- | --- | --- |
+| Dodelitev vira | Od datuma | ● | - |
+| Dodelitev vira | ur | ● | - |
+| Dodelitev vira | ID odjemalca za MS Project | ● | - |
+| Dodelitev vira | Načrtovano delo | ● | - |
+| Dodelitev vira | Project | ● | - |
+| Dodelitev vira | Projektna ekipa | ● | - |
+| Dodelitev vira | Dodelitev vira | ● | - |
+| Dodelitev vira | Opravilo | ● | - |
+| Dodelitev vira | Do danes | ● | - |
+
+| **Entiteta** | **Polje** | **Microsoft Project v Project Service Automation** | **Project Service Automation v Microsoft Project** |
+| --- | --- | --- | --- |
+| Odvisnosti projektnih opravil | Odvisnost projektnega opravila | ● | - |
+| Odvisnosti projektnih opravil | Vrsta povezave | ● | - |
+| Odvisnosti projektnih opravil | Predhodno opravilo | ● | - |
+| Odvisnosti projektnih opravil | Project | ● | - |
+| Odvisnosti projektnih opravil | Naslednje opravilo | ● | - |
+
 ### <a name="see-also"></a>Glejte tudi  
  [Priročnik za vodje projektov](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

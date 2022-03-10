@@ -2,18 +2,16 @@
 title: Ustvarjanje razporeda računov v podrobnostih pogodbe na podlagi projekta
 description: Ta tema vsebuje informacije o ustvarjanju razporedov računov in mejnikov za podrobnosti pogodbe.
 author: rumant
-manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
-ms.translationtype: HT
+ms.openlocfilehash: 51a34e5a62fdadf7a6601f0a635efd484238f3565abcac8a1f7de3d49cebf23e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513944"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999696"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Ustvarjanje razporeda računov v podrobnostih pogodbe na podlagi projekta 
 
@@ -74,3 +72,6 @@ Mejnike s fiksno ceno lahko generirate tudi ročno, če se niso periodično delj
 | Davek | Hitro ustvarjanje | Znesek davka, ki se uporablja za mejnik. | Prenese se na mejnik podrobnosti pogodbe projekta in na račun. |
 
 3. Izberite možnost **Shrani in zapri**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Priročnik za vodje projektov
 description: Priročnik za vodenje projektov z rešitvijo Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47761815403992799950ca2c8a5469343bd1c9ff
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: d24d3966ee4f495fc4cfdf35492495fd0244b5ef08e53005d8ac4a854cd7cce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283883"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998391"
 ---
 # <a name="project-manager-guide-project-service"></a>Priročnik za vodje projektov (Project Service)
 

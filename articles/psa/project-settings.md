@@ -2,8 +2,6 @@
 title: Nastavitve projekta
 description: Ta tema vsebuje informacije o nastavitvah upravljanja projektov.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c55d0f4c8f8db231a995d91a46a582bca2e1e6e3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283748"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996951"
 ---
 # <a name="project-settings"></a>Nastavitve projekta
 
@@ -49,7 +47,7 @@ Za dostop do funkcij za načrtovanje projekta uporabite spodnje nastavitve.
   - Urnik dela za en dan
   - Prosti čas
 
-> ![Nastavitev možnosti](media/project-13.png)
+> ![Nastavitev možnosti.](media/project-13.png)
 
 4. Izberite **Nov tedenski urnik** in nato nastavite možnosti za ta razpored virov. Nastavite lahko ponavljajoči se tedenski razpored, dnevne in urne parametre, čas, ko je podjetje zaprto, in še več.
 5. Nastavite datumski obseg, izberite **Shrani** in nato kliknite **Zapri**. 

@@ -2,12 +2,10 @@
 title: Ustvarjanje polj in entitet po meri
 description: V tej temi je pojasnjeno, kako ustvarite nabor možnosti in entitete v svoji rešitvi v platformi Power Apps.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c58745a46e84a40b90fbb3cbf89b10e293588fc3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290558"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992451"
 ---
 # <a name="create-custom-fields-and-entities"></a>Ustvarjanje polj in entitet po meri 
 
@@ -45,7 +43,7 @@ Cenovna razsežnost je lahko nabor možnosti ali entiteta. Oboje morate ustvarit
 2. V raziskovalcu rešitev v podoknu za krmarjenje na levi izberite **Entitete**.
 3. Kliknite **Novo**, da ustvarite novo entiteto **Standardni naziv**. Vnesite ostale zahtevane informacije in kliknite **Shrani**.
 
-> ![Definicija entitete standardnega naziva](media/Standard-Title-entity-definition.png)
+> ![Definicija entitete standardnega naziva.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Razsežnosti na osnovi nabora možnosti 
@@ -56,9 +54,9 @@ Ustvarite lahko dve razsežnosti na osnovi nabora možnosti. Uporabite **Lokacij
 2. V raziskovalcu rešitev v podoknu za krmarjenje na levi izberite **Nabori možnosti**. 
 3. Kliknite **Novo**, da ustvarite nov nabor možnosti, vnesite ostale zahtevane podatke in kliknite **Shrani**.
 
-> ![Cenovna razsežnost na osnovi nabora možnosti, imenovana »Lokacija dela vira« ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Cenovna razsežnost na osnovi nabora možnosti, imenovana »Lokacija dela vira«.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Cenovna razsežnost na osnovi nabora možnosti, imenovana »Delovne ure vira« ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Cenovna razsežnost na osnovi nabora možnosti, imenovana »Delovni čas vira«.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Ustvarjanje podatkov za razsežnosti na osnovi entitete
@@ -70,7 +68,7 @@ Podatke za razsežnosti na osnovi entitete lahko ustvarite ročno ali z uvozom v
 3. Zaprite obrazec. 
 4. Ponovite korake od 1 do 3, da ustvarite drug standardni naziv za »Višji sistemski inženir«.
 
-> ![Vzorčni podatki za entiteto standardnega naziva ](media/ST-data.png)
+> ![Vzorčni podatki za entiteto standardnega naziva.](media/ST-data.png)
 
 
 

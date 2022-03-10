@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025794"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547129"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Različice preslikave dvojnega zapisovanja za Project Operations
 
@@ -32,7 +32,7 @@ Naslednje preslikave so predpogoj za rešitev Project Operations. Zaženite pres
 
 1. Na seznamu preslikav izberite preslikavo »Glavna knjiga **(msdyn\_ledgers)**« z vsemi zahtevami in izberite potrditveno polje **Začetna sinhronizacija**. V polju **Glavni za začetno sinhronizacijo** izberite **aplikacije Finance and Operations** za preslikavo glavne knjige in zahtevane preslikave. Izberite **Zaženi**.
 
-![Sinhronizacija preslikave knjige](media/DW6.png)
+![Sinhronizacija preslikave knjige.](media/DW6.png)
 
 2. Izvedite iste korake za vse preostale preslikave tabel, navedene v zgornji tabeli. Pri izvajanju teh preslikav ne izberite potrditvenega polja **Začetna sinhronizacija**.
 
@@ -49,8 +49,8 @@ Naslednje preslikave so obvezne za rešitev Project Operations. Naštete so razl
 | Integracije tabele aplikacije Project Operations za ocene materiala (msdyn\_estimatelines) | 1.0.0.0 | Ni potrebno za omogočanje uporabe. |
 | Predlogi za račune projekta V2 (računi) | 1.0.0.3 | Ni potrebno za omogočanje uporabe. |
 | Dejanske vrednosti integracije za Project Operations (msdyn_actuals) | 1.0.0.14 | Ni potrebno za omogočanje uporabe. |
-| Mejniki podrobnosti pogodbe o integraciji storitve Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Ni potrebno za omogočanje uporabe. |
-| Entiteta za integracijo za oceno stroškov v storitvi Project Operations (msdyn_estimateslines) | 1.0.0.2 | Ni potrebno za omogočanje uporabe. |
+| Mejniki podrobnosti izvajalske pogodbe integracije aplikacije Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Ni potrebno za omogočanje uporabe. |
+| Entiteta integracije aplikacije Project Operations za ocene stroškov (msdyn_estimatelines) | 1.0.0.2 | Ni potrebno za omogočanje uporabe. |
 | Entiteta za integracijo za oceno ur v storitvi Project Operations (msdyn_resourceassignments) | 1.0.0.5 | Ni potrebno za omogočanje uporabe. |
 | Entiteta za izvoz kategorije stroškov projekta pri integraciji storitve Project Operations (msdyn_expensecategories) | 1.0.0.1 | Ni potrebno za omogočanje uporabe. |
 | Entiteta za izvoz stroškov projekta pri integraciji storitve Project Operations (msdyn_expenses) | 1.0.0.2 | Ni potrebno za omogočanje uporabe. |
@@ -65,7 +65,7 @@ Za izvajanje navedenih preslikav izvedite naslednje korake.
 
 1. Omogočite vloge virov projekta za preslikavo tabele **vsa podjetja (bookableresourcecategories)**, saj ta preslikava zahteva začetno sinhronizacijo. V polju **Glavni za začetno sinhronizacijo** izberite možnost **Common Data Service**. 
 
- ![Sinhronizacija preslikave tabele vloge virov](media/6ResourceInitialSync.jpg)
+ ![Sinhronizacija preslikave tabele vloge virov.](media/6ResourceInitialSync.jpg)
 
  Počakajte, da je stanje preslikave **Izvajanje**, preden se pomaknete na naslednji korak.
 

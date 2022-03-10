@@ -7,16 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2a26b321e15080cc6a4a6a3ed410be175e790a1b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 7ba4d090e15bffa687d69d3d8e5733d2519668e2879249e1d6dc6aba26f7fbf6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995416"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988491"
 ---
 # <a name="expense-home-page"></a>Domača stran stroška
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 
 Dynamics 365 Project Operations podpira možnost obdelave stroškov. Obdelava stroškov se izvaja s projekti ali brez njih z uporabo prilagodljivega poteka dela pravilnikov, kategorij transakcij in odobritev.

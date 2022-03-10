@@ -2,23 +2,21 @@
 title: Novosti v februarju 2021 – Project Operations za primere uporabe z viri/brez zalog
 description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v februarski izdaji (2021) aplikacije Project Operations za primere uporabe z viri/brez zalog.
 author: sigitac
-manager: tfehr
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ba44ea471f7d72d1e816ec74de304d3fdcf1f68
-ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
-ms.translationtype: HT
+ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141353"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986826"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti v februarju 2021 – Project Operations za primere uporabe z viri/brez zalog
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
@@ -53,4 +51,7 @@ Za več informacij o upravljanju projektov in računovodstva v storitvi Dynamics
 
 ## <a name="regulatory-updates"></a>Regulativne posodobitve
 
-Za informacije o regulativnih posodobitvah za aplikacije Finance and Operations glejte [Regulativne posodobitve](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Drug način za informiranje o regulativnih posodobitvah je vpis v Lifecycle Services (LCS) in ogled načrtovanih regulativnih posodobitev z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+Za informacije o regulativnih posodobitvah za aplikacije Finance and Operations glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Drug način za informiranje o regulativnih posodobitvah je vpis v Lifecycle Services (LCS) in ogled načrtovanih regulativnih posodobitev z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

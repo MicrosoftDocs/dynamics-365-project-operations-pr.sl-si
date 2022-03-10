@@ -2,8 +2,6 @@
 title: Koledar časovnih vnosov
 description: Ta tema vsebuje informacije o uporabi koledarja časovnih vnosov.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94e580955b83b9f2eaf6c0487cc9fe8a30f51ce0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 699cfd1d89d90ace092ffe44abb242ab91464d5d8a813ee7964e923abe245d21
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150193"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996771"
 ---
 # <a name="time-entry-calendar"></a>Koledar časovnih vnosov
 
@@ -42,3 +40,6 @@ Koledar ne podpira dejanj za posamezne elemente koledarja, prav tako pa ne moret
 ## <a name="extensibility"></a>Razširljivost
 
 Na strani **Časovni vnosi** z mrežo časovnih vnosov lahko dodate polja po meri, nastavite polja za iskanje in ustvarite poglede po meri. Nastavite lahko tudi poslovno logiko po meri, ki temelji na vrednostih, ki so izbrane ali vnesene v polja po meri.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

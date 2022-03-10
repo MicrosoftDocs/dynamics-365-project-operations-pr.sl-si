@@ -2,8 +2,6 @@
 title: Konfiguriranje vloge virov
 description: Navodila za konfiguriranje vlog virov v rešitvi Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: deaff0977ebb50382a28494fba2a1c34ed5cc9b4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: d57f843b681760c214d1f66fb4e3c748d0c8b659ab844189f24c682f42d309f0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144928"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002801"
 ---
 # <a name="configure-resource-roles-project-service"></a>Konfiguriranje vlog virov (rešitev Project Service)
 
@@ -59,3 +57,6 @@ Pri določanju zahtev za vire ali stroškov projekta so vloge pomemben del načr
   
 ### <a name="see-also"></a>Glejte tudi  
  [Nastavitev virov](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

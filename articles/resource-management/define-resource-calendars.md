@@ -2,18 +2,16 @@
 title: Določanje koledarjev virov
 description: Ta tema vsebuje informacije o tem, kako v aplikaciji Project Operations določiti koledarje delovnega časa za vire.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123938"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990336"
 ---
 # <a name="define-resource-calendars"></a>Določanje koledarjev virov
 
@@ -43,3 +41,6 @@ Vsak projektni vir, ki ga je mogoče rezervirati, mora imeti koledar delovnega �
 2. V pogledu mreže izberite do 25 **razpoložljivih virov**, ki jih želite posodobiti.
 3. Izberite možnost **Nastavitve koledarja** za prikaz seznama razpoložljivih predlog delovnega časa v pogovornem oknu.
 4. Izberite predlogo, ki jo želite uporabiti, in nato izberite možnost **Uporabi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

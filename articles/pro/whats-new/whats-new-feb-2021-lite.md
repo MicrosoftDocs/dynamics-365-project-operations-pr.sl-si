@@ -2,19 +2,17 @@
 title: Novosti v februarju 2021 – poenostavljeno uvajanje storitve Project Operations
 description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v februarski izdaji (2021) poenostavljenega uvajanja storitve Project Operations.
 author: sigitac
-manager: tfehr
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bfc4c622c423e689938e58666ae47abbe3c23d48
-ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
-ms.translationtype: HT
+ms.openlocfilehash: f9f162dd07f62b1ef82367de7d8186002fedae57b56bb83dbc6741232d70e4f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141354"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009326"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Novosti v februarju 2021 – poenostavljeno uvajanje storitve Project Operations
 
@@ -38,3 +36,6 @@ Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Proj
 | **Načrtovanje in sledenje projektov** | 2164035 | Odpravljene težave s funkcijo **Kopiraj projekt**. |
 | **Časovni vnos** | 2129161 | Uveljavljene so strožje omejitve, da se zagotovi, da uporabniki ne morejo spreminjati in posodabljati časovnega vnosa, ki je bil predložen ali odobren. |
 | **Časovni vnos** | 2103572 | Odobritev časa za neprojektne časovne vnose ne sme iskati vloge odobritelja projekta. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

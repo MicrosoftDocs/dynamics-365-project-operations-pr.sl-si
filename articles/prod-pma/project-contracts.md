@@ -2,11 +2,9 @@
 title: Projektne pogodbe
 description: Ta tema vsebuje primere projektnih pogodb, ki jih lahko ustvarite za različne vrste projektov in vire financiranja, in načine za upravljanje pogodb in izdajanje računov strankam projektov.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289569"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001046"
 ---
 # <a name="project-contracts"></a>Projektne pogodbe
 

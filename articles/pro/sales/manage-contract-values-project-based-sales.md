@@ -1,25 +1,24 @@
 ---
-title: Delo s podrobnostmi pogodbe, ki temeljijo na projektu – poenostavljena različica
+title: Pregled podrobnosti pogodbe, ki temelji na projektu
 description: V tej temi so na voljo informacije o delu s podrobnostmi pogodbe, ki temelji na projektu.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7ec8973df1def3f707603019cdd45147423c1ae3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.custom: intro-internal
+ms.openlocfilehash: 7da8a7f898e6f0bb46d4cf6de65812e3aabb7416a2fdf2f9d9c8bad07e77cd85
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180662"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999066"
 ---
-# <a name="work-with-projectbased-contract-lines---lite"></a>Delo s podrobnostmi pogodbe, ki temeljijo na projektu – poenostavljena različica
+# <a name="project-based-contract-lines-overview"></a>Pregled podrobnosti pogodbe, ki temelji na projektu
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Podrobnosti pogodbe, ki temelji na projektu, v storitvi Dynamics 365 Project Operations so zasnovane, da hranijo dogovore o oceni in obračunavanju za določene komponente dela na projektu v interakciji. Struktura podrobnosti pogodbe, ki temeljijo na projektu, je razširjena za ocene projektov in scenarije obračunavanja z naslednjimi koncepti:
+Podrobnosti pogodbe, ki temelji na projektu, v aplikaciji Dynamics 365 Project Operations so zasnovane, da hranijo dogovore o oceni in obračunavanju za določene komponente dela na projektu v interakciji. Struktura podrobnosti pogodbe, ki temeljijo na projektu, je razširjena za ocene projektov in scenarije obračunavanja z naslednjimi koncepti:
 
 - Način obračunavanja
 - Preslikavanje projektov in opravil
@@ -35,11 +34,12 @@ Naslednja tabela vključuje polja na zavihku **Splošno** podrobnosti pogodbe, k
 | --- | --- | --- |
 | **Ime** | Ime podrobnosti pogodbe. To opredeljuje posamezno komponento pogodbe, ki se ocenjuje. Za projektno pogodbo, ustvarjeno iz ponudbe, je ta vrednost kopirana iz pripadajoče vrednosti podrobnosti ponudbe, ki temelji na projektu. | Ime, kopirano v projektno vrstico računa, ki je ustvarjena iz teh podrobnosti pogodbe, ko je ustvarjen račun. |
 | **Način obračunavanja** | V projektni pogodbi, ustvarjeni iz ponudbe, je ta vrednost kopirana iz pripadajočega polja podrobnosti ponudbe. To je nabor možnosti, ki predstavlja dva glavna pogodbena modela, ki ju podpira Project Operations:</br>- **Fiksna cena**</br>- **Čas in material** | Na podlagi metode obračunavanja v sklicevanih podrobnostih pogodbe bo dejanska transakcija obdelana. Če imajo podrobnosti pogodbe, sklicevane z dejansko vrednostjo, način obračunavanja časa in materiala, sta ustvarjena zapisa stroška in dejanska vrednost neobračunane prodaje. Če imajo podrobnosti pogodbe, na katere se sklicuje dejanska vrednost, način obračunavanja fiksne cene, je ustvarjena samo dejanska vrednost stroška. |
-| **Project** | Uporabite to polje za prepoznavanje projekta, ki bo uporabljen za zagotavljanje dela za to interakcijo. | Ta vrednost bo uporabljena v povezavi s poljema **Vključena opravila** in **Vključeni razredi transakcij** za odpravljanje sklica podrobnosti pogodbe v zapisu dejanskih ali ocenjenih podrobnosti. |
+| **Project** | Uporabite to polje za prepoznavanje projekta, ki bo uporabljen za zagotavljanje dela za to interakcijo. | Ta vrednost se bo uporabljala skupaj z **vključenimi opravili** in **vključenimi razredi transakcij** za razrešitev sklica podrobnosti pogodbe v zapisu dejanske vrstice ali ocene vrstice. |
 | **Vključena opravila** | Označuje, ali te podrobnosti pogodbe vključujejo vsa projektna opravila za izbrani projekt ali samo podnabor opravil. To je nabor možnosti, ki ima naslednje možne vrednosti:</br>- **Vsa opravila projekta**</br>- **Samo izbrana opravila projekta**. Privzeta vrednost v tem polju je enaka izbiri možnosti **Vsa opravila projekta**. | Če je izbrana možnost **Samo izbrana opravila**, lahko izberete določena opravila in jih povežete s temi podrobnostmi pogodbe na zavihku **Nastavitev obračunavanja opravil** strani **Projekt**. Vrednost bo uporabljena v povezavi z možnostma **Projekt** in **Vključeni razredi transakcij** za odpravljanje sklica podrobnosti pogodbe v zapisu dejanskih ali ocenjenih podrobnosti. |
-| **Vključi čas** | Oznaka označuje, ali bodo časovne transakcije ali stroški dela v izbranem projektu vključeni v te podrobnosti pogodbe. Vrednost **Ne** označuje, da časovne transakcije ali stroški dela ne bodo vključeni v te podrobnosti pogodbe. Vrednost **Da** označuje, da bodo. | Ta vrednost je uporabljena v povezavi s projektom za odpravljanje sklica podrobnosti pogodbe v zapisu dejanskih ali ocenjenih podrobnosti. |
-| **Vključi strošek** | Oznaka označuje, ali bodo stroški v izbranem projektu vključeni v te podrobnosti pogodbe. Vrednost **Ne** označuje, da stroški ne bodo vključeni v te podrobnosti pogodbe. Vrednost **Da** označuje, da bodo. | Ta vrednost je uporabljena v povezavi s projektom za odpravljanje sklica podrobnosti pogodbe v zapisu dejanskih ali ocenjenih podrobnosti. |
-| **Vključi dajatev** | Oznaka označuje, ali bodo dajatve v izbranem projektu vključene v te podrobnosti pogodbe. Vrednost **Ne** označuje, da dajatve ne bodo vključene v te podrobnosti pogodbe. Vrednost **Da** označuje, da bodo. | Ta vrednost je uporabljena v povezavi s projektom za odpravljanje sklica podrobnosti pogodbe v zapisu dejanskih ali ocenjenih podrobnosti. |
+| **Vključi čas** | Vrednost **Da**/**Ne** označuje, ali bodo časovne transakcije ali stroški dela za izbrani projekt vključeni v v tej pogodbeni vrstici. Vrednost **Ne** označuje, da časovne transakcije ali stroški dela ne bodo vključeni v te podrobnosti pogodbe. Vrednost **Da** označuje, da bodo. | Ta vrednost se uporablja skupaj s projektom za razrešitev sklica na pogodbeno vrstico v zapisu vrstice dejanske vrednosti ali ocene. |
+| **Vključi strošek** | Vrednost **Da**/**Ne** označuje, ali bodo stroški za izbrani projekt vključeni v oceno v tej pogodbeni vrstici. Vrednost **Ne** označuje, da stroški ne bodo vključeni v te podrobnosti pogodbe. Vrednost **Da** označuje, da bodo. | Ta vrednost se uporablja skupaj s projektom za razrešitev sklica na pogodbeno vrstico v zapisu vrstice dejanske vrednosti ali ocene. |
+| **Vključi materiale** | Vrednost **Da**/**Ne** označuje, ali bodo stroški materiala za izbrani projekt vključeni v oceno v tej pogodbeni vrstici. Vrednost **Ne** označuje, da stroški materiala ne bodo vključeni v oceno v tej pogodbeni vrstici. Vrednost **Da** označuje, da bodo. | Ta vrednost se uporablja skupaj s projektom za razrešitev sklica na pogodbeno vrstico v zapisu vrstice dejanske vrednosti ali ocene. |
+| **Vključi dajatev** | Vrednost **Da**/**Ne** označuje, ali bodo dajatve za izbrani projekt vključeni v oceno v tej pogodbeni vrstici. Vrednost **Ne** označuje, da dajatve ne bodo vključene v te podrobnosti pogodbe. Vrednost **Da** označuje, da bodo. | Ta vrednost se uporablja skupaj s projektom za razrešitev sklica na pogodbeno vrstico v zapisu vrstice dejanske vrednosti ali ocene. |
 | **Pogodbeni znesek** | V podrobnostih pogodbe za fiksno ceno je ta znesek dogovorjena vrednost, ki bo zaračunana stranki za vse komponente dela, povezane s temi podrobnostmi pogodbe. V podrobnostih pogodbe za čas in material je ta znesek ocenjena vrednost, kaj bo zaračunano stranki za vse komponente dela, povezane s temi podrobnostmi pogodbe. V projektni pogodbi, ki je ustvarjena iz ponudbe, je ta vrednost kopirana iz pripadajočega polja podrobnosti ponudbe. Ko imajo podrobnosti pogodbe, ki temeljijo na projektu, podrobnosti vrstice, je to polje zaklenjeno za urejanje in je povzeto z zneska v podrobnostih vrstice pogodbe. | Ko imajo podrobnosti pogodbe podrobnosti vrstice, je mogoče to vrednost spremeniti s spremembo zneskov v podrobnostih vrstice. V podrobnostih pogodbe za fiksno ceno je ta vrednost uporabljena za ustvarjanje zneska pred davkom v rednih mejnikih obračunavanja. |
 | **Predvideni davek** | Uporabnik lahko uredi to polje za vnos ocenjenega zneska davka v podrobnosti pogodbe. Ko imajo podrobnosti pogodbe, ki temeljijo na projektu, podrobnosti vrstice, je to polje zaklenjeno za urejanje in je povzeto z zneska davka v podrobnostih vrstice pogodbe. | Ko imajo podrobnosti pogodbe podrobnosti vrstice, je mogoče to vrednost spremeniti s spremembo zneskov davka v podrobnostih vrstice. V podrobnostih pogodbe za fiksno ceno je ta vrednost uporabljena za ustvarjanje davka v rednih mejnikih obračunavanja. |
 | **Pogodbeni znesek po obdavčitvi** | Znesek podrobnosti pogodbe po obdavčitvi. To polje je samo za branje in je izračunano kot **Pogodbeni znesek + davek**. | V podrobnostih pogodbe za fiksno ceno je ta vrednost uporabljena za ustvarjanje rednih mejnikov obračunavanja. |
@@ -54,15 +54,559 @@ Pravilo 2: Če je polje **Vključena opravila** prazno ali izrecno nastavljeno 
 
 Pravilo 3: Če je polje **Vključena opravila** nastavljeno na **Samo izbrana opravila projekta**, sta lahko projekt in določen razred transakcije vključena v več sklopov podrobnosti pogodbe, ki temeljijo na projektu, pogodbe.
 
-| Pogodba | Podrobnosti pogodbe | Project | Vključena opravila      | Vključi čas | Vključi strošek | Vključi dajatev | Veljavno/neveljavno | Razlog                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|----------|---------------|---------|---------------------|--------------|-----------------|-------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| C1       | CL1           | O1      | Prazno               | Da          | Da             | Da         | Neveljavno       | Kršitev 2. pravila. Čas, strošek in dajatve za projekt P1 so vključene v obeh sklopih podrobnosti pogodbe, CL1 in CL2.                                                                                                                                                                                                                                                                                                              |
-| C1       | CL2           | O1      | Prazno               | Da          | Da             | Da         | Neveljavno       | Kršitev 2. pravila. Čas, strošek in dajatve za projekt P1 so vključene v obeh sklopih podrobnosti pogodbe, CL1 in CL2.                                                                                                                                                                                                                                                                                                              |
-| C1       | CL1           | O1      | Prazno               | Da          | No              | Da         | Neveljavno       | Kršitev 2. pravila. Čas in dajatve za projekt P1 so vključene v obeh sklopih podrobnosti pogodbe, CL1 in CL2.                                                                                                                                                                                                                                                                                                                          |
-| C1       | CL2           | O1      | Prazno               | Da          | Da             | Da         | Neveljavno       | Kršitev 2. pravila. Čas in dajatve za projekt P1 so vključene v obeh sklopih podrobnosti pogodbe, CL1 in CL2.                                                                                                                                                                                                                                                                                                                          |
-| C1       | CL1           | O1      | Prazno               | Da          | No              | Da         | Veljavno           | Čas in dajatve za projekt P1 so vključeni v CL1. Stroški za projekt P1 so vključeni v CL2. </br>   Ni prekrivanja v tem, kar je vključeno v vsak sklop podrobnosti pogodbe, zato je veljavno.                                                                                                                                                                                                                         |
-| C1       | CL2           | O1      | Prazno               | No           | Da             | No          | Veljavno           | Čas in dajatve za projekt P1 so vključeni v CL1. Stroški za projekt P1 so vključeni v CL2. </br>   Ni prekrivanja v tem, kar je vključeno v vsak sklop podrobnosti pogodbe, zato je veljavno.                                                                                                                                                                                                                         |
-| C1       | CL1           | O1      | Samo izbrana opravila | Da          | Da             | Da         | Neveljavno       | Kršitev 2. pravila.   </br>- C1 vključuje čas, stroške in dajatve za podnabor opravil v projektu P1. </br>- CL2 vključuje čas, stroške in dajatve za celoten projekt P1 in se torej prekriva s tem, kar je vključeno v C1.                                                                                                                                                                                          |
-| C1       | CL2           | O1      | Prazno               | Da          | Da             | Da         | Neveljavno       | Kršitev 2. pravila.   </br>- C1 vključuje čas, stroške in dajatve za podnabor opravil v projektu P1. </br>- CL2 vključuje čas, stroške in dajatve za celoten projekt P1 in se torej prekriva s tem, kar je vključeno v C1.                                                                                                                                                                                          |
-| C1       | CL1           | O1      | Samo izbrana opravila | Da          | Da             | Da         | Veljavno           | Po pravilu št. 3</br>- C1 vključuje čas, stroške in dajatve za podnabor opravil v projektu P1. </br> - CL2 vključuje čas, stroške in dajatve za podnabor opravil v projektu P1. </br> Edino dodatno preverjanje veljavnosti je podnabor opravil v CL1, ki se razlikuje od podnabora opravil v CL2, da se zagotovi, da ni prekrivanj. To preverjanje veljavnosti izvede sistem, ko so opravila povezana. |
-| C1       | CL2           | O1      | Samo izbrana opravila | Da          | Da             | Da         | Veljavno           | Po pravilu št. 3</br>- C1 vključuje čas, stroške in dajatve za podnabor opravil v projektu P1. </br> - CL2 vključuje čas, stroške in dajatve za podnabor opravil v projektu P1. </br> Edino dodatno preverjanje veljavnosti je podnabor opravil v CL1, ki se razlikuje od podnabora opravil v CL2, da se zagotovi, da ni prekrivanj. To preverjanje veljavnosti izvede sistem, ko so opravila povezana. |
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    <strong>Pogodba</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Podrobnosti pogodbe</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Project</strong>
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    <strong>Vključena opravila</strong>
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    <strong>Vključi čas</strong>
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    <strong>Vključi strošek</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Vključi materiale</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Vključi</strong>
+                </p>
+                <p>
+                    <strong>Dajatev</strong>
+                </p>
+            </td>
+            <td width="53" valign="top">
+                <p>
+                    <strong>Veljavno/neveljavno</strong>
+                </p>
+            </td>
+            <td width="250" valign="top">
+                <p>
+                    <strong>Razlog</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+O1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Prazno </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Neveljavno </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Kršitev 2. pravila. Čas, stroški, materiali in dajatve za projekt P1 so vključeni v podrobnostih pogodbe CL1 in CL2.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+O1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Prazno </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+O1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Prazno </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Neveljavno </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Kršitev 2. pravila. Čas, materiali in dajatve za projekt P1 so vključeni v podrobnostih pogodbe CL1 in CL2.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+O1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Prazno </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+O1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Prazno </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Veljavno </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Čas, materiali in dajatve za projekt P1 so vključeni v CL1.
+                </p>
+                <ul>
+                    <li>
+Stroški za projekt P1 so vključeni v CL2.
+                    </li>
+                </ul>
+                <p>
+Ni prekrivanja tega, kar je vključeno v vsako podrobnosti pogodbe in je zato veljavno.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+O1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Prazno </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+No </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+O1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Samo izbrana opravila </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Neveljavno </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Kršitev 2. pravila </p>
+                <p>
+C1 vključuje čas, materiale, stroške in nadomestila za podmnožico opravil v projektu P1.
+                </p>
+                <p>
+CL2 vključuje čas, materiale, stroške in dajatve za celoten projekt P1 in se torej prekriva s tem, kar je vključeno v C1.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+O1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Prazno </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+O1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Samo izbrana opravila </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Veljavno </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Po 3. pravilu, </p>
+                <p>
+C1 vključuje čas, stroške, materiale in nadomestila za podmnožico opravil v projektu P1.
+                </p>
+                <p>
+CL2 vključuje čas, stroške, materiale in nadomestila za podmnožico opravil v projektu P1.
+                </p>
+                <p>
+Edino dodatno preverjanje se izvaja okoli podmnožice opravil za CL1, ki se razlikuje od podmnožice opravil za CL2, da se prepreči prekrivanje. To opravi sistem, ko so opravila povezana.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+O1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Samo izbrana opravila </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Da </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

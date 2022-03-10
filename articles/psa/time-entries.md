@@ -2,8 +2,6 @@
 title: Ustvarjanje časovnih vnosov
 description: Ta tema vsebuje informacije o ustvarjanju časovnih vnosov.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8f86f69090e869bf5e6a7505a4cb1ad1c69b475b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282173"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990426"
 ---
 # <a name="create-time-entries"></a>Ustvarjanje časovnih vnosov
 

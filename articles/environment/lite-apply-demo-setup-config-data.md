@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997171"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993306"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Uporaba nastavitve predstavitvenega načina in konfiguracijskih podatkov za Project Operations – poenostavljena različica 
 
@@ -30,24 +30,24 @@ Preden začnete s konfiguracijo morate imeti omogočeno okolje Common Data Servi
 2. Pomaknite se v mapo *ProjOpsSampleSetupData - CE only CMT* in zaženite izvedljivo datoteko, *DataMigrationUtility*.
 3. Na 1. strani čarovnika za selitev konfiguracije Common Data Service (CMT) izberite **Uvozi podatke** in nato izberite **Nadaljuj**.
 
-    ![Selitev konfiguracije](./media/1ConfigurationMigration.png)
+    ![Selitev konfiguracije.](./media/1ConfigurationMigration.png)
 
 4. Na 2. strani čarovnika CMT izberite **Microsoft 365** kot možnost **Vrsta uvajanja**.
 5. Izberite potrditvena polja **Prikaži seznam organizacij, ki so na voljo** in **Pokaži napredno**.
 6. Izberite regijo vašega najemnika, vnesite poverilnice in nato izberite **Prijava**.
 
-   ![Prijava v konfiguracijo](./media/2ConfigurationSignin.png)
+   ![Vpis v konfiguracijo.](./media/2ConfigurationSignin.png)
 
 7. Na 3. strani s seznama organizacij pri najemniku izberite, v katero organizacijo želite uvoziti predstavitvene podatke, in nato izberite **Prijava**.
 8. Na strani 4 izberite datoteko zip *SampleSetupAndConfigData* iz razpakirane mape *ProjOpsSampleSetupData - CE only CMT*.
 
-   ![Datoteka ZIP](./media/3ZipFile.png)
+   ![Datoteka ZIP.](./media/3ZipFile.png)
 
-   ![Izberite datoteko](./media/4SelectAFile.png)
+   ![Izbiranje datoteke.](./media/4SelectAFile.png)
 
 9. Ko je izbrana datoteka ZIP, izberite **Uvozi podatke**.
 
-   ![Uvozi podatke](./media/5ImportData.png)
+   ![Uvoz podatkov.](./media/5ImportData.png)
 
 10. Uvoz bo trajal od približno dveh do deset minut, odvisno od hitrosti vašega omrežja. Ko se konča, zapustite čarovnik CMT. 
 11. Preverite, ali ima vaša organizacija podatke o naslednjih 18 entitetah:
@@ -71,7 +71,7 @@ Preden začnete s konfiguracijo morate imeti omogočeno okolje Common Data Servi
     -   Povezava kategorije vira, ki ga je mogoče rezervirati
     -   Lastnost vira, ki ga je mogoče rezervirati
 
-    ![Zaključek uvoza](./media/6CompleteImport.png)
+    ![Uvoz je končan.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

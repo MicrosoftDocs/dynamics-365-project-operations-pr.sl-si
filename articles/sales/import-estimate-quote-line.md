@@ -1,21 +1,19 @@
 ---
-title: Uvoz ocene projekta v vrstico ponudbe, ki temelji na projektu
-description: Ta tema vsebuje informacije o tem, kako uvoziti ocene projekta v vrstico ponudbe.
+title: Uvoz ocen za projekt v podrobnostih projektnih ponudb
+description: Ta tema vsebuje informacije o uvozu ocen podrobnosti iz projekta v podrobnosti projektne ponudbe.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b32ac22188922a56fa13ea67e0ead77b9b045d9f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: a9ac27b7694927f9cea88b49310f3106fbc6542cc0f7f1756744b970358c1057
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278348"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993531"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Uvoz ocene projekta v vrstico ponudbe, ki temelji na projektu
+# <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Uvoz ocen za projekt v podrobnostih projektnih ponudb
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 

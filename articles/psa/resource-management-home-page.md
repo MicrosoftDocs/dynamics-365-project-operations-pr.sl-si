@@ -4,6 +4,7 @@ description: Ta tema vsebuje informacije o upravljanju virov.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/28/2019
 ms.topic: article
 ms.author: ruhercul
@@ -16,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 778002ea07a7be3cade988f515a6d890427e6613
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: a55b0f7c8190fd88017851a8e7c9b44cefacb483cd563f6f94110a7421de5d1d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008736"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998211"
 ---
 # <a name="resource-management-home-page"></a>Domača stran upravljanja virov
 

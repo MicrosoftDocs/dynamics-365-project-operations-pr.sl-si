@@ -2,18 +2,16 @@
 title: Nastavitev urnika za honorarje
 description: Ta tema vsebuje informacije o tem, kako nastaviti urnik za honorar za Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
-ms.translationtype: HT
+ms.openlocfilehash: a1cfd83837a91a8d1b3db6df688da6e216a90ada4735e5909a7e8cb26b87247d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596392"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994386"
 ---
 # <a name="set-up-a-retainer-schedule"></a>Nastavitev urnika za honorarje
 
@@ -32,3 +30,6 @@ Urniki za honorarje so nastavljeni na strani **Projektna pogodba** v storitvi Dy
 | Število honorarjev, ki jih želite ustvariti | Ko vnesete število honorarjev, ki jih želite ustvariti, sistem v tem polju uporabi začetni datum in pogostost. | Ko je to polje ročno posodobljeno, sistem prezre vrednost polja **Konec urnika za honorar** in namesto tega ustvari določeno število honorarjev ali predplačil. |
 | Pogostost izdajanja računov | Kako pogosto bo aplikacija ustvarila honorarje in preplačila. | Ta vrednost neposredno vpliva na število honorarjev in predplačil ter ustvarjene datume. |
 | Skupni znesek | Skupni znesek je znesek, razdeljen na posamezen račun za honorar ali predplačilo, ki bo ustvarjen. | To polje nima nadaljnjega vpliva. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

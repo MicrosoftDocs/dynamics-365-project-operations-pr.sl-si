@@ -2,8 +2,6 @@
 title: Scenariji z več valutami (različica 3.x)
 description: Ta tema vsebuje informacije o scenarijih z več valutami.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084866"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005142"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenariji z več valutami
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -34,7 +34,7 @@ Microsoft Dynamics 365 ima dva koncepta valut:
 - **Valuta transakcije** – valuta, v kateri se izvede transakcija 
 - **Osnovna valuta** – valuta primerka Dynamics 365 Ta valuta je nastavljena, ko je omogočena uporaba primerka Dynamics 365. Ni je mogoče spremeniti.
 
-Primer: Contoso ZDA proda 100 majic stranki v Združenem kraljestvu za 15 funtov (GBP) na kos. Spodnja tabela prikazuje, kako je ta transakcija zapisana v entiteti »Izdelek iz naročila«.
+Contoso ZDA na primer proda 100 majic stranki v Združenem kraljestvu za 15 funtov (GBP) na kos. Spodnja tabela prikazuje, kako je ta transakcija zapisana v entiteti »Izdelek iz naročila«.
 
 | Izdelek | Količina | Cena na enoto | Valuta | Znesek | Menjalni tečaj | Cena na enoto (osnova)| Znesek (osnova)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -70,7 +70,7 @@ V tem razdelku je opisan primer projekta, ki ga Contoso Združeno kraljestvo dos
 
 1. GBP in japonski jen (JPY) sta nastavljena v razdelku **Nastavitve** \> **Upravljanje poslovanja** \> **Valute**. 
 2. Odpre se račun stranke z imenom **Fabrikam – Japonska** in JPY je izbran kot valuta za račun.
-3. Nastavi se organizacija enota, ki je imenovana **Contoso Združeno kraljestvo**, za katero je izbrana valuta GBP.
+3. Nastavi se organizacijska enota, imenovana **Contoso Združeno kraljestvo**, za katero je izbrana valuta GBP.
 4. Ustvarjena je projektna pogodba, v kateri je podjetje **Contoso Združeno kraljestvo** opredeljeno kot pogodbena enota, podjetje **Fabrikam – Japonska** pa je določeno kot stranka.
 5. Ustvarijo se podrobnosti projektne pogodbe, in sicer na podlagi različnih razredov dogovorov za zaračunavanje v okviru projekta, npr. obračunavanje za čas v primerjavi z obračunavanjem za stroške.
 6. Ustvari se projekt, v katerem je podjetje **Contoso Združeno kraljestvo** opredeljeno kot pogodbena enota. Ta projekt je ustvarjen in preslikan v vrstice projektne pogodbe.
@@ -103,3 +103,6 @@ Dynamics 365 samodejno izvede zbiranje zneskov v različnih valutah. Spodaj je p
 | Expense           | Neobračunana prodaja   | 17. jun | Martin  | Najem avtomobila           | 1 enota     | 150 EUR      | 150 EUR     | 0,94          | 159,57 USD     |
 
 Če želite izračunati skupno vrednost neobračunanega prodajnega zneska za projekt, lahko ustvarite zbirno polje za polje **Znesek** za vse povezane dejanske vrednosti neobračunanih prodajnih zneskov. Zbirno polje je konstrukt v Dynamics 365, ki omogoča hitre izračune formule v sorodnih zapisih.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

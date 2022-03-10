@@ -2,26 +2,24 @@
 title: Upravljanje stanja in veljavnosti »Ni dovoljeno preseči«
 description: Ta tema vsebuje informacije o preverjanjih veljavnosti »Ni dovoljeno preseči« izvedenih v aplikaciji Project Operations.
 author: rumant
-manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: b08a6834fa0bc5254f4baab15b40c7f733d0dc6ec7e6c4fceea2836e5e4c656a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274054"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003521"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Upravljanje stanja in veljavnosti »Ni dovoljeno preseči« 
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 ## <a name="not-to-exceed-on-approvals"></a>»Ni dovoljeno preseči« za odobritve
 
-Ko je oddan vnos časa ali stroškov, se ustvari zapis odobritve. Če je odobritev plačljiva in se ujema s podrobnosti pogodbe za čas in material, sistem opravi preverjanje veljavnosti »Ni dovoljeno preseči« na naslednjih ravneh:
+Ko oddate vnos za čas, stroške ali porabo materiala, se ustvari odobritveni zapis. Če je odobritev plačljiva in se ujema s podrobnosti pogodbe za čas in material, sistem opravi preverjanje veljavnosti »Ni dovoljeno preseči« na naslednjih ravneh:
 
   - Preverjanje omejitve, nastavljene za stranko v vrstici projektne pogodbe
   - Preverjanje omejitve, nastavljene v podrobnosti pogodbe
@@ -34,11 +32,11 @@ Preverjanja na vsaki ravni vključujejo zagotovitev, da znesek vrednosti prodaje
 
 Če preverjanje ne uspe, je stanje preverjanja veljavnosti odobritve **Neuspelo**. Podrobnosti preverjanja veljavnosti »Ni dovoljeno preseči« uporabnika obvestijo, na kateri ravni preverjanje ni uspelo.
 
-Kadar se oddani vnos časa ali stroškov šteje za neplačljivega, je stanje preverjanja veljavnosti »Ni dovoljeno preseči« nastavljeno na **Ni na voljo**, podrobnostmi preverjanja veljavnosti pa na **Ni na voljo**.
+Ko se vloženi čas, stroški ali vnos uporabe materiala, ne zaračunajo, je status preverjanja veljavnosti »Ni dovoljeno preseči«, nastavljen na **Ni na voljo** s podrobnostmi preverjanja veljavnosti **Ni na voljo**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>»Ni dovoljeno preseči« za neobračunane dejanske vrednosti prodaje
 
-Ko je vnos časa ali stroškov odobren, se ustvarijo zapisi dejanskih vrednosti stroškov in neobračunane dejanske prodaje. Če je ustvarjena neobračunana dejanska vrednost prodaje plačljiva in se ujema s podrobnosti pogodbe za čas in material, aplikacija izvede preverjanje veljavnosti »Ni dovoljeno preseči« na naslednjih ravneh:
+Ko je vnos časa, stroškov ali uporabe materiala odobren, se ustvarijo zapisi o dejanskih stroških in neobračunanih prodajah. Če je ustvarjena neobračunana dejanska vrednost prodaje plačljiva in se ujema s podrobnosti pogodbe za čas in material, aplikacija izvede preverjanje veljavnosti »Ni dovoljeno preseči« na naslednjih ravneh:
 
   - Preverjanje omejitve, nastavljene za stranko vrstice projektne pogodbe
   - Preverjanje omejitve, nastavljene v podrobnosti pogodbe
@@ -55,9 +53,9 @@ Preverjanja na vsaki ravni zagotavljajo, da znesek vrednosti prodaje na dejanski
 
 ## <a name="reset-the-not-to-exceed-status"></a>Ponastavitev stanja »Ni dovoljeno preseči«
 
-Opravite lahko množično ponastavitev stanja »Ni dovoljeno preseči«. To vodjam projektov omogoča, da preverjanje veljavnosti »Ni dovoljeno preseči« prednostno obravnava določeno delo, čas ali stroške pred drugimi, ki so že potrjeni iz razpoložljivega zneska »Ni dovoljeno preseči«.
+Opravite lahko množično ponastavitev stanja »Ni dovoljeno preseči«. Vodje projektov lahko prilagodijo preverjanje veljavnosti »Ni dovoljeno preseči« in dajo prednost izstavljanju računov določenega dela, časa, stroškov ali uporabe materiala pred drugimi, ki so že potrjeni v razpoložljivem znesku »Ni dovoljeno preseči«.
 
-Ko je pri neobračunanih dejanskih vrednostih prodaje po ponastavitvi stanja »Ni dovoljeno preseči«, se potrjeni znesek zmanjša. Vodja projekta lahko izbere drugo delo, čas ali stroške, ki prej niso prestali preverjanja veljavnosti »Ni dovoljeno preseči«, ter jih znova oceni. Z zmanjšanjem potrjenega zneska bodo dejanske vrednosti zdaj prestale preverjanje veljavnosti. To vodji projekta za to obdobje zagotovi večji vpliv in nadzor nad fakturiranimi transakcijami.
+Ko je pri neobračunanih dejanskih vrednostih prodaje po ponastavitvi stanja »Ni dovoljeno preseči«, se potrjeni znesek zmanjša. Vodja projekta lahko izbere vnos drugega dela, časa, stroškov ali uporabe materiala, ki prej ni uspel pri preverjanju »Ni dovoljeno preseči«, in ga znova oceni. Z zmanjšanjem potrjenega zneska ti dejanski podatki zdaj preidejo na potrditev, kar vodji projekta pomaga, da ima večji vpliv in nadzor nad transakcijami za to obdobje, ki jih je mogoče zaračunati.
 
 Če želite ponastaviti stanje »Ni dovoljeno preseči« izberite eno ali več dejanskih vrednosti v pogledu **Nedokončana opravila obračunavanja časa in materiala** ali **Dejanske vrednosti** in nato izberite **Ponastavi stanje »Ni dovoljeno preseči«**.
 

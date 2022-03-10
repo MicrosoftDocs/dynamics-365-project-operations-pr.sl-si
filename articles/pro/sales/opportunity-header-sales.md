@@ -2,20 +2,18 @@
 title: Nastavitve priložnosti – poenostavljeno
 description: Ta tema vsebuje informacije o poslih, ki temeljijo na projektu, in podrobnostih pri priložnosti, ki temelji na projektu.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 6a9a1ea9dacdb3aa2dbc8a0500481b204ff14eddfc1138e3db43ff568d7cd48b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272723"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994476"
 ---
-# <a name="opportunity-header---lite"></a>Glava priložnosti – poenostavljeno
+# <a name="header-details-for-project-opportunities"></a>Podrobnosti glave za projektne priložnosti
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -33,7 +31,7 @@ Naslednja tabela vključuje polja pri priložnosti, ki temelji na projektih, ki 
 | Vodja za upravljanje kupcev | Zavihek Splošno | Ime upravitelja kupcev za to priložnost, ki temelji na projektu. | Upravitelj kupcev je odgovoren za upravljanje odnosa s stranko do zaključka tega projekta. Na podlagi zapisa vira, ki ga je mogoče rezervirati in je povezan z upraviteljem kupcev, je privzeto nastavljena pogodbena enota. |
 | Pogodbena enota | Zavihek Splošno | Organizacijska enota, ki je odgovorna za izvedbo projektov, povezanih s tem poslom. | Pogodbena enota je oddelek podjetja, ki bo izvedel projekte po zaključku posla. Vsaka pogodbena enota ima valuto in ta valuta se uporablja za poročanje o ocenjenih in dejanskih stroških, nastalih med projektom. |
 
-Za vsa druga polja in razdelke v zavihku priložnosti **Povzetek** glejte [Ustvarjanje ali urejanje priložnosti (Sales in središče za prodajo)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+Za vsa druga polja in razdelke v zavihku priložnosti **Povzetek** glejte [Ustvarjanje ali urejanje priložnosti (Sales in središče za prodajo)](/dynamics365/sales-enterprise/create-edit-opportunity-sales)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

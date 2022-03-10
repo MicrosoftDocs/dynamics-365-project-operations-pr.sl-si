@@ -2,18 +2,16 @@
 title: Upravljanje več strank v projektnih pogodbah – poenostavljeno
 description: Ta tema vsebuje informacije o upravljanju več strank v projektnih pogodbah.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181337"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001766"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Upravljanje več strank v projektnih pogodbah – poenostavljeno
 
@@ -52,3 +50,6 @@ Stranko pogodbe lahko ustvarite, posodobite ali izbrišete z zavihka **Stranke**
 Odstotke razdelitve stroškov lahko urejate z izkušnjo urejanja mreže v vrstici. Ko odstotki razdelitve stroškov ne znašajo 100 odstotkov, se prikaže napaka. Ko uredite odstotke razdelitve stroškov, osvežite stran, da obvestilo o napaki opustite.
 
 Lahko tudi izberete možnost **Enakomerna razporeditev** na podmreži **Stranke pogodbe**, da enakomerno dodelite razdelitve stroškov vsem strankam pogodbe. Če obstaja dejavnik zaokroževanja, se doda stranki za zaokroževanje. Ena od strank pogodbe je vedno označena kot stranka za **zaokroževanje**, kar pomeni, da je v zapisu stranke pogodbe nastavljena zastavica **Da**. Običajno je to primarna stranka pogodbe, vendar jo je mogoče tudi spremeniti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

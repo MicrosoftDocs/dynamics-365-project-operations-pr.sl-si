@@ -2,19 +2,17 @@
 title: Novosti za december 2020 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji
 description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v decembrski izdaji (2020) aplikacije Project Operations za primere uporabe z naročili na zalogi/v proizvodnji.
 author: Yowelle
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950239"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008831"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Novosti ali spremembe v storitvi Project Operations, december 2020, za scenarije, ki temeljijo na zalogi/proizvodnji
 

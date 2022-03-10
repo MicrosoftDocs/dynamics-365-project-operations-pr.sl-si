@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 205a4fbe41637be12970041ff309c0a8d206db513987c4f64610e842183ed781
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070261"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004837"
 ---
 Če omogočite aplikacijo Project Finder Mobile, uporabnikom v organizaciji omogočite vpogled v delo na projektu in možnost, da se prijavijo za delo. Uporabniki lahko delajo tudi s programom Project Finder, da si ogledajo svoje spretnosti in jih posodobijo. Aplikacija Project Finder Mobile je omogočena prek nastavitve za parametre rešitve Project Service, če je vrednost zahtev po virih vidna virom in če so omogočeni atributi, s katerimi dovolite posodobitev znanja z viri. Če vrednost teh atributov spremenite v »Ne«, je ta funkcija onemogočena.  
   

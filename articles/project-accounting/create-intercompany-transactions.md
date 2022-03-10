@@ -2,18 +2,16 @@
 title: Ustvarjanje medpodjetnih transakcij
 description: Ta tema vsebuje informacije o tem, kako ustvariti medpodjetne transakcije.
 author: sigitac
-manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287438"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005501"
 ---
 # <a name="create-intercompany-transactions"></a>Ustvarjanje medpodjetnih transakcij
 
@@ -62,7 +60,7 @@ Simona Horvat, razvijalka, ki je zaposlena v GBPM, je zabeležila 10 ur dela za 
     4. Nastavite valuto na **USD**.
     5. Shranjevanje zapisa.
 3. Odprite **Prodaja** > **Projektne pogodbe** in ustvarite novo projektno pogodbo za Adventure Works.
-    1. Nastavite lastniško podjetje na **USPM** in pogodbeno enoto na **Contoso Robotics US**.
+    1. Lastniško podjetje nastavite na **USPM** in pogodbeno enoto na **Contoso Robotics US**.
     2. Kot stranko izberite Adventure Works.
     3. Izberite cenik izdelkov in shranite zapis.
     4. V zavihku **Podrobnosti pogodbe** ustvarite nove podrobnosti pogodbe. Nastavite poljubno ime in izberite **Čas in materiali** kot način obračunavanja.
@@ -94,7 +92,7 @@ Simona Horvat, razvijalka, ki je zaposlena v GBPM, je zabeležila 10 ur dela za 
     Ta neobračunana prodaja je zdaj pripravljena za izdajo računa. Račun za stranko Adventure Works je lahko knjižen, ko je to potrebno.
 
 10. Prijavite se kot računovodja **GBPM**. Odprite primerek Finance v aplikaciji Project Operations in odprite podjetje **GBPM**. 
-11. Pojdite v **Upravljanje projektov in računovodstvo** > **Periodično** > **Project Operations za Customer Engagement** > **Uvoz iz pripravljalnega okolja** in zaženite periodični postopek za izpolnjevanje dnevnika integracije Project Operations.
+11. Odprite razdelek **Upravljanje projektov in računovodstvo** > **Občasno** > **Integracija za Project Operations** > **Uvoz iz pripravljalne tabele** in zaženite občasni postopek za izpolnjevanje dnevnika integracij za Project Operations.
 12. Pojdite v **Upravljanje projektov in računovodstvo** > **Dnevniki** > **Dnevnik integracije Project Operations** in preglejte vrstice. Sistem ustvari naslednje vrstice.
 
     | **Vrsta transakcije** | **Cena** | **Valuta transakcije** | **Znesek** |

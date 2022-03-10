@@ -2,19 +2,17 @@
 title: Posodobitev storitve Project Operations v okolju Finance
 description: Ta tema vsebuje informacije o tem, kako posodobite Project Operations v okolju Dynamics 365 Finance.
 author: ruhercul
-manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d68296ec59f0bd58f848154c90e02c58f275ab12
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291999"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986781"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Posodobitev storitve Project Operations v okolju Finance
 
@@ -35,7 +33,7 @@ Ta tema vsebuje informacije o tem, kako posodobite Dynamics 365 Project Operatio
 4. Prepričajte se, da se okolje izvaja. Če ni zagnano, zaženite okolje.
 5. V razdelku **Nova izdaja** pod možnostjo **Razpoložljive posodobitve** izberite **Ogled posodobitev** za 10.0.15.
 
-![Ogled gumba za posodobitev](media/view-update.png)
+![Ogled gumba za posodobitev.](media/view-update.png)
 
 6. Na strani **Binarne posodobitve** izberite **Shrani paket**.
 7. Na strani **Preglej in shrani posodobitve** izberite **Shrani paket**.
@@ -49,11 +47,11 @@ Ta tema vsebuje informacije o tem, kako posodobite Dynamics 365 Project Operatio
 2. Na seznamu izberite paket, ki ste ga prej shranili, in nato izberite **Uporabi**.
 3. Izberite **Da**, da potrdite, da želite uvesti paket.
 
-![Potrdite pogovorno okno za uvajanje paketa](media/confirm-package-deployment.png)
+![Potrdite pogovorno okno za uvajanje paketa.](media/confirm-package-deployment.png)
 
 4. Izberite **Da**, da potrdite, da želite posodobiti aplikacijo.
 
-![Potrdite pogovorno okno za posodobitev aplikacije](media/confirm-application-update.png)
+![Potrdite pogovorno okno za posodobitev aplikacije.](media/confirm-application-update.png)
 
 Uvajanje in posodobitev aplikacije se začne. 
 
@@ -86,7 +84,7 @@ Naslednje posodobitve varnostnih pravic za entitete so zahtevane kot del posodob
 
 1. V svojem okolju Dataverse pojdite na **Nastavitve** in v skupini **Sistem** izberite **Varnost**.
 
-![Nastavitve okolja Dataverse](media/Picture21.png)
+![Nastavitve okolja Dataverse.](media/Picture21.png)
 
 2. Izberite **Varnostne vloge**.
 3. Na seznamu vlog izberite **uporabnik aplikacije dvojnega zapisovanja** in izberite zavihek **Entitete po meri**. 
@@ -123,7 +121,7 @@ Naslednje posodobitve varnostnih pravic za entitete so zahtevane kot del posodob
 6. Na seznamu preslikav izberite preslikavo **Knjiga (msdyn_ledgers)** z vsemi zahtevami in izberite potrditveno polje **Začetna sinhronizacija**. 
 7. V polju **Glavni za začetno sinhronizacijo** izberite **Aplikacije Finance and Operations** in nato izberite **Zagon**.
  
- ![Sinhronizacija preslikave knjige](media/DW6.png)
+ ![Sinhronizacija preslikave knjige.](media/DW6.png)
  
 
 

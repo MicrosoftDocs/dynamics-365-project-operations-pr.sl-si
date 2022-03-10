@@ -2,8 +2,6 @@
 title: Cene v katalogu izdelkov
 description: Ta tema vsebuje informacije o tem, kako delujejo cene v katalogu izdelkov v aplikaciji Dynamics 365 Project Service Automation (PSA).
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e3a070f2e0a13e2caff2157b200c334bc4418f0b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284063"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000191"
 ---
 # <a name="product-catalog-pricing"></a>Cene v katalogu izdelkov 
 
@@ -46,7 +44,7 @@ Izdelke iz kataloga izdelkov lahko dodajate različnim cenikom. Vrstice cenika z
 
 PSA podpira različne načine zaokroževanja, ko so cene konfigurirane kot funkcija cenika, standardnih stroškov ali trenutnih stroškov. Izkoristite lahko več načinov oblikovanja cen in zaokroževanja ter tudi povežete sezname popustov z elementi cenika. 
 
-> ![Dodajanje izdelkov iz kataloga izdelkov različnim cenikom](media/basic-guide-16.png)
+> ![Dodajanje izdelkov iz kataloga izdelkov različnim cenikom.](media/basic-guide-16.png)
 
 Ko ustvarite nov cenik po meri za ponudbo tako, da izberete možnost **Ustvarjanje cen po meri** na strani **Projektna ponudba**, PSA naredi kopijo cenika in polje **Entiteta** v glavi novega cenika je nastavljeno na **Entiteta za prodajo**. Ime novega cenika je priloženo z imenom ponudbe in časovnim žigom. Ime novega cenika in ime ponudbe v potekih dela po meri lahko uporabite tudi za to, da sprožite dodaten pregled in odobritve za ponudbe, ki uporabljajo cene po meri.
 

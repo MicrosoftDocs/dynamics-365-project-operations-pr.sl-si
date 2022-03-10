@@ -1,25 +1,24 @@
 ---
-title: Pregled podrobnosti pogodb, ki temeljijo na izdelkih
+title: Pregled podrobnosti pogodbe, ki temeljijo na izdelkih – poenostavljeno
 description: V tej temi so na voljo informacije o podrobnostih pogodb, ki temeljijo na izdelkih.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 79b4f6355afb7472f843eda06bf33a3fe732274d6f2566bd23000aa11cbfdce1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084683"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007571"
 ---
-# <a name="product-based-contract-lines-overview"></a>Pregled podrobnosti pogodb, ki temeljijo na izdelkih
+# <a name="product-based-contract-lines-overview---lite"></a>Pregled podrobnosti pogodbe, ki temeljijo na izdelkih – poenostavljeno
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-V storitvi Dynamics 365 Project Operations lahko ustvarite podrobnosti pogodb, ki temeljijo na izdelkih. Podrobnosti pogodb so lahko ročno ustvarjene vrstice ali pa artikli iz kataloga izdelkov.
+V aplikaciji Dynamics 365 Project Operations lahko ustvarite podrobnosti pogodbe, ki temeljijo na izdelku. Podrobnosti pogodb so lahko ročno ustvarjene vrstice ali pa artikli iz kataloga izdelkov.
 
 ## <a name="product-catalog"></a>Katalog izdelkov
 
@@ -46,3 +45,6 @@ Izberete lahko izdelke iz drugih cenikov ali pa neposredno iz kataloga izdelkov.
 Če nastavite polje **Cene** na **Preglasi oblikovanje cene**, privzeta cena ni nastavljena. Vnesite ceno za izdelek pri podrobnosti pogodbe. Če polje nastavite na **Uporabi privzeto**, se uporablja privzeta prodajna cena in polja ni mogoče urejati.
 
 Ko namestite Project Operations, se privzete prodajne cene vnesejo v vrstice v pogodbi, ki temeljijo na izdelkih. Polje **Oblikovanje cen** je nastavljeno na **Preglasi oblikovanje cene**, tako da lahko uredite privzeto ceno v podrobnostih pogodbe. To je preglasitev vedenja podrobnosti, ki temeljijo na izdelkih, v storitvi Dynamics 365 Sales, ki je specifična za Project Operations.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Poslovne transakcije
 description: Ta tema vsebuje informacije o poslovnih transakcijah.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d82f5d75de69b32b39c9a55d77287c0719930eb4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084878"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987546"
 ---
 # <a name="business-transactions"></a>Poslovne transakcije
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -88,7 +88,7 @@ Skupaj vam izvor transakcije in povezava transakcije pomagata spremljati odnose 
 
 Naslednji primer prikazuje običajno obdelavo časovnih vnosov v življenjskem ciklu projekta v PSA.
 
-> ![Obdelovanje časovnih vnosov v življenjskem ciklu projekta v aplikaciji Project Service](media/basic-guide-17.png)
+> ![Obdelava časovnih vnosov v življenjskem ciklu projekta v aplikaciji Project Service.](media/basic-guide-17.png)
  
 1. Pošiljanje časovnega vnosa povzroči ustvarjanje dveh vrstic dnevnika: eno za strošek in eno za neobračunano prodajo.
 2. Morebitna odobritev časovnega vnosa povzroči ustvarjanje dveh dejanskih vrednosti: eno za strošek in eno za neobračunano prodajo.
@@ -147,3 +147,6 @@ Spodnja tabela prikazuje zapise v entiteti povezave transakcije izvora za predho
 | Popravek osnutka računa       | GUID transakcije vrstice računa | Nadomeščanje          | msdyn_invoicelinetransaction | GUID obračunane prodaje            | Izvirnik           | msdyn_actual       |
 | Potrditev popravka računa     | GUID storniranja obračunane prodaje    | Storniranje          | msdyn_actual                 | GUID obračunane prodaje            | Izvirnik           | msdyn_actual       |
 | GUID novega dejanskega zneska neobračunane prodaje | Nadomeščanje                     | msdyn_actual       | GUID obračunane prodaje            | Izvirnik                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

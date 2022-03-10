@@ -2,8 +2,6 @@
 title: Delo s podatkovnim modelom storitve Project Service Automation
 description: Ta tema vsebuje informacije o delu s podatkovnim modelom.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,16 +16,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120293"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002441"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Delo s podatkovnim modelom storitve Project Service Automation
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Service Automation razširja druge entitete aplikacije in uvaja svoje entitete v podatkovni model Common Data Service. Ta tema opisuje nekaj entitet, s katerimi boste imeli opravka v tipičnih scenarijih poročanja PSA.
 
@@ -52,7 +53,7 @@ PSA je v podatkovni model aplikacije Dynamics 365 dodal tudi nove entitete, pove
 
 PSA v ponudbe dodaja tudi druge entitete, kot so **Projektni cenik vrstice ponudbe**, **Kategorija virov vrstice ponudbe** in **Kategorija transakcije vrstice ponudbe**.
 
-![Diagram, ki prikazuje ponudbo, podrobnosti ponudbe in projektne odnose](media/PS-Reporting-image2.png "Diagram, ki prikazuje ponudbo, podrobnosti ponudbe in projektne odnose")
+![Diagram, ki prikazuje ponudbo, podrobnosti ponudbe in projektne odnose.](media/PS-Reporting-image2.png "Diagram, ki prikazuje ponudbo, podrobnosti ponudbe in projektne odnose")
 
 ## <a name="reporting-on-project-contracts"></a>Poročanje o projektnih pogodbah
 
@@ -68,7 +69,7 @@ PSA dodaja tudi nove entitete, ki so zasnovane za projektne pogodbe. Tukaj je ne
 
 PSA v pogodbe dodaja tudi druge entitete, kot so **Projektni cenik projektnih podrobnosti pogodbe**, **Kategorija virov projektnih podrobnosti pogodbe** in **Kategorija transakcije projektnih podrobnosti pogodbe**.
 
-![Diagram, ki prikazuje naročilo, podrobnosti naročila in projektne odnose](media/PS-Reporting-image3.png "Diagram, ki prikazuje naročilo, podrobnosti naročila in projektne odnose")
+![Diagram, ki prikazuje naročilo, podrobnosti naročila in projektne odnose.](media/PS-Reporting-image3.png "Diagram, ki prikazuje naročilo, podrobnosti naročila in projektne odnose")
 
 ## <a name="reporting-on-projects"></a>Poročanje o projektih
 
@@ -80,7 +81,7 @@ Entiteta **Projekti** in povezane entitete so uporabljene izključno v PSA. **Pr
 - **Zahtevani pogoj za vir** – ta entiteta vsebuje zahtevane pogoje za vse splošne vire med člani ekipe.
 - **Ocena** in **Vrstica ocene** – ti entiteti imata vzpostavljeno razmerje med glavo in vrstico ter vsebujeta ocene stroškov za določen projekt. Ocene opravil so shranjene v entiteti **Ocena vira**.
 
-![Diagram, ki prikazuje zahteve vira in projektne odnose](media/PS-Reporting-image4.png "Diagram, ki prikazuje zahteve vira in projektne odnose")
+![Diagram, ki prikazuje zahteve vira in projektne odnose.](media/PS-Reporting-image4.png "Diagram, ki prikazuje zahteve vira in projektne odnose")
 
 ## <a name="reporting-on-resources"></a>Poročanje o virih
 
@@ -91,7 +92,7 @@ Projektni viri uporabljajo entitete **Vir, ki ga je mogoče rezervirati** iz Uni
 - **Kategorija vira, ki ga je mogoče rezervirati** – ta entiteta označuje vlogo vira, ki ga je mogoče rezervirati.
 - **Rezervacije vira, ki ga je mogoče rezervirati** – ta entiteta predstavlja čas, za katerega je posamezen vir rezerviran za delo na projektu. Vsaka rezervacija ima entiteto v glavi in več entitet v vrsticah, vsaka vrstica pa je označena s stanjem, ki predstavlja stanje rezervacije.
 
-![Diagram, ki prikazuje odnose lastnosti virov, ki jih je mogoče rezervirati](media/PS-Reporting-image5.png "Diagram, ki prikazuje odnose lastnosti virov, ki jih je mogoče rezervirati")
+![Diagram, ki prikazuje odnose lastnosti virov, ki jih je mogoče rezervirati.](media/PS-Reporting-image5.png "Diagram, ki prikazuje odnose lastnosti virov, ki jih je mogoče rezervirati")
 
 ## <a name="reporting-on-actual-transactions"></a>Poročanje o dejanskih transakcijah
 
@@ -119,4 +120,7 @@ Ko delate z entiteto **Dejansko**, morate razumeti, katere transakcije se zabele
 
 Entiteta **Izvor transakcije** beleži izvor zapisa **Dejansko**, entiteta **Povezava transakcije** pa beleži povezane zapise za zapis **Dejansko**. Poleg tega zapis **Dejansko** vsebuje sklice za projekt, projektno pogodbo (naročilo), vir, ki ga je mogoče rezervirati, in kupca.
 
-![Diagram, ki prikazuje povezavo transakcije, izvor in dejanske odnose](media/PS-Reporting-image6.png "Diagram, ki prikazuje povezavo transakcije, izvor in dejanske odnose")
+![Diagram, ki prikazuje povezavo transakcije, izvor in dejanske odnose.](media/PS-Reporting-image6.png "Diagram, ki prikazuje povezavo transakcije, izvor in dejanske odnose")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

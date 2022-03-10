@@ -2,11 +2,9 @@
 title: Upravljanje pooblastitev
 description: Ta tema vsebuje informacije o tem, kako lahko pooblaščenec za stroške ustvari in upravlja poročila o stroških drugega zaposlenega.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bfc141c6f1072314bdfaef835d730c6ca82bae1a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084757"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997806"
 ---
 # <a name="manage-delegation"></a>Upravljanje pooblastitev
 Pooblaščenec za stroške lahko ustvari in upravlja poročila o stroških drugega zaposlenega.
@@ -39,3 +37,6 @@ Pooblaščenec za stroške lahko ustvari in upravlja poročila o stroških druge
 Pooblaščenec lahko hitro filtrira in poišče obstoječa poročila o stroških, ki so jim bila dodeljena. Pooblaščenec lahko hitro ustvari tudi novo poročilo o stroških za druge uporabnike tako, da izbere možnost **Novo poročilo o stroških**.
 
 Pooblaščenci lahko ustvarijo in upravljajo poročila o stroških za druge zaposlene tako, da odprejo **Upravljanje stroškov** > **Moji stroški** > **Poročila o stroških** in izberejo **Odpri stroške drugega uporabnika**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

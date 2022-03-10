@@ -2,19 +2,17 @@
 title: Novosti v januarju 2021 – poenostavljeno uvajanje storitve Project Operations
 description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v januarski izdaji (2021) poenostavljenega uvajanja storitve Project Operations.
 author: sigitac
-manager: tfehr
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 460240c90f98f268dfda11858897b47c61e8af4e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: d275bacd13b2ec896a40cafab3434200dca537d7d108cfc46370b01b67c98aa2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272138"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009281"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>Novosti v januarju 2021 – poenostavljeno uvajanje storitve Project Operations
 

@@ -1,21 +1,19 @@
 ---
-title: Kopiranje projektnih pogodb
+title: Kopiranje projektnih pogodb – poenostavljena različica
 description: Ta tema vsebuje informacije o kopiranju projektnih pogodb v aplikaciji Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6da8e3ba8e062f3e06dc7f440caebdd93e496c65
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084661"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006041"
 ---
-# <a name="copying-project-contracts"></a>Kopiranje projektnih pogodb
+# <a name="copy-project-contracts---lite"></a>Kopiranje projektnih pogodb – poenostavljena različica
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -26,7 +24,7 @@ Nove projektne pogodbe lahko enostavno ustvarite tako, da na enega od teh dveh n
 
 Odprla se bo stran s pogovornim oknom, kjer lahko izberete parametre kopirane pogodbe. Naslednja polja so del pogovornega okna. Postopek kopiranja se lahko spremeni glede na izbiro vrednosti v pogovornem oknu.
 
-| **Polje** | **Ustreznost, namen in smernice** | **Nadaljnji vpliv** |
+| **Polje** | **Opis** | **Nadaljnji vpliv** |
 | --- | --- | --- |
 | Tema | Vnesite temo ciljne pogodbe. Ko se pogovorno okno odpre, sistemu to polje nastavi na ime izvorne pogodbe z dodano končnico **-kopija**. | To polje nima nadaljnjega vpliva. |
 | Stranki | Sklic na zapis strankinega podjetja ali kupca. Ko se odpre pogovorno okno, sistem to polje nastavi na kupca iz izvorne ponudbe. | Vrednost polja je primarna stranka v pogodbi. |
@@ -45,3 +43,6 @@ Naslednji podatki se ne kopirajo iz **Izvorne** v **Ciljno pogodbo**:
   - Podatki o proračunu stranke
 
 Ker so ti podatki specifični za vsako pogodbo, se ta polja in zapisi ne kopirajo. Kopirane so podrobnosti pogodb za projekte in izdelke, ocene v podrobnostih pogodbe ter vrednosti, ki jih na ravni pogodbe ni dovoljeno preseči. Privzete vrednosti cen in mer stroškov so odvisne od izbire v polju **Kopiraj cene** na strani s pogovornim oknom **Kopiraj parametre**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
