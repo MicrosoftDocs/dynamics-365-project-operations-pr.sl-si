@@ -4,20 +4,20 @@ description: Ta tema ponuja informacije o tem, kako se naročiti in uvesti stori
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323436"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575830"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prijava za naročnino na predogledno različico storitve Project Operations za primere uporabe z viri/brez zalog
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Ta tema vsebuje informacije o tem, kako se naročiti na preskusno različico in uvesti okolje storitve Project Operations za scenarije, ki temeljijo na virih/nezalogi.
 
@@ -40,7 +40,7 @@ Preden začnete, se prepričajte, da ste prijavljeni v brskalnik z uporabnikovim
 
   Videli boste, da je bila ponudba za potrditev uspešno izkoriščena.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Preskus predogleda storitve Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance predogled preskusne različice
 
 Pojdite v razdelek [Dynamics 365 za preskusno različico storitve Finance](https://aka.ms/trypoche) in ponovite korake iz prejšnjega razdelka s ponudbo, »Prijava za okolje, gostovano v oblaku«.  
 
@@ -49,7 +49,7 @@ Pojdite v razdelek [Dynamics 365 za preskusno različico storitve Finance](https
 > [!IMPORTANT]
 > Potrebovali boste skrbniški dostop do portala Microsoft 365 vaše organizacije, če želite dokončati naslednje korake.
 
-1. Odprite [skrbniško središče za Microsoft 365](https://portal.office.com/), da dodelite licence svojim uporabnikom.
+1. Pojdi do [Microsoft 365 skrbniško središče](https://portal.office.com/) za dodelitev licenc vašim uporabnikom.
 
 2. Na strani **Aktivni uporabniki** izberite uporabnike, ki jim želite dodeliti licenco.
 

@@ -2,18 +2,16 @@
 title: Nabori odobritev
 description: V tej temi je pojasnjeno, kako upravljati z nabori odobritev in zahtevami ter s podmnožicami teh postopkov.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323256"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576244"
 ---
 # <a name="approval-sets"></a>Nabori odobritev
 
@@ -27,6 +25,18 @@ Nabori odobritev kažejo splošno stanje obdelave njihovih povezanih zapisov. Ko
 Odobritve, ki so v čakalni vrsti za obdelavo, so vidne v pogledu **Obdelava odobritev**. Sistem večkrat asinhrono obdela vse vnose; če so bili predhodni poskusi neuspešni, pa prav tako ponovno poskusi z odobritvijo.
 
 Polke **Življenjska doba nabora odobritev** beleži število poskusov obdelave niza, preden je označen kot neuspešen.
+
+Nabori odobritev se obdelujejo s periodično aktivacijo na podlagi a **Oblačni tok** imenovani **Projektna storitev – Redno načrtujte komplete za odobritev projekta**. To se nahaja v **Rešitev** imenovani **Projektne operacije**. 
+
+Prepričajte se, da je pretok aktiviran, tako da dokončate naslednje korake.
+
+1. Kot skrbnik se prijavite v [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. V zgornjem desnem kotu preklopite na okolje, za katerega uporabljate Dynamics 365 Project Operations.
+3. Izberite **Rešitve** navesti rešitve, ki so nameščene v okolju.
+4. Na seznamu rešitev izberite **Projektne operacije**.
+5. Zamenjajte filter iz **vse** do **Oblačni tokovi**.
+6. Preverite, da je **Projektna storitev – Redno načrtujte komplete za odobritev projekta** pretok je nastavljen na **Vklopljeno**. Če ni, izberite tok in nato izberite **Vklopiti**.
+7. Preverite, ali se obdelava izvaja vsakih pet minut, tako da pregledate **Sistemska delovna mesta** seznam v **Nastavitve** območje znotraj vašega projektnega delovanja Dataverse okolje.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Neuspešne odobritve in nabori odobritev
 Pogled **Neuspešne odobritve** ponuja seznam vseh odobritev, za katere mora posredovati uporabnik. Odprite povezane dnevnike nabora odobritev, da ugotovite vzrok napake.

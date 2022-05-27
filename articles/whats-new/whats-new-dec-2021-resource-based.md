@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c4869f3ab06ec80d620ec51bb4f0429412cd4d00
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
-ms.translationtype: HT
+ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943043"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579832"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti v decembru 2021 – Project Operations za primere uporabe z viri/brez zalog
 
@@ -20,8 +20,8 @@ ms.locfileid: "7943043"
 
 Ta tema velja za naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
 
-- Projektno delovanje v a Dataverse različica okolja 4.27.0.195, 4.27.0.242
-- Vodenje projektov in računovodstvo v a Dynamics 365 Finance različica okolja 10.0.23
+- Projektno delovanje v a Dataverse različica okolja 4.27.0.195, 4.27.0.242, 4.27.0.244
+- Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.23
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 
@@ -48,7 +48,7 @@ Vedno zaženite najnovejšo različico zemljevida v svojem okolju in omogočite 
 | Čas in strošek | 2468188 | Odpravljena je težava z besedilom dnevnika, ki presega največjo dolžino v **besedilo beležke** atribut **Opomba** entiteta. |
 | Zaračunavanje in oblikovanje cen | 2488698 | Posodobljeno sporočilo o napaki, ki se pojavi, ko v nastavitvi okolja manjkajo zapisi entitete Ledger, ki so izpolnjeni iz Finance. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Pregled upravljanja projektov in računovodstva v storitvi Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Vodenje projektov in računovodstvo na Dynamics 365 Finance
 
 | **Območje funkcij** | **Številka sklica** | **Posodobitev kakovosti** |
 | --- | --- | --- |

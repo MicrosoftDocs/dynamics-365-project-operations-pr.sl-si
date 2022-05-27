@@ -2,16 +2,16 @@
 title: Kopiranje projekta
 description: Ta tema vsebuje informacije o kopiranju projektov v aplikaciji Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 05/21/2021
+ms.date: 03/07/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e9b637d2d282d123dfacb8a295292ea06549aa1e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007211"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574450"
 ---
 # <a name="copy-a-project"></a>Kopiranje projekta
 
@@ -25,39 +25,47 @@ V aplikaciji Dynamics 365 Project Operations lahko hitro gradite nove projekte t
 - Projektne ocene
 - Ocene stroškov projekta
 - Ocene materiala za projekt
+- Kontrolni seznami projekta
+- Projektna vedra
 
 ## <a name="project-properties"></a>Lastnosti projekta
 
-Pri kopiranju projekta se kopirajo vrednosti v naslednjih poljih:
+Ko je projekt kopiran, se kopirajo vrednosti v naslednjih poljih.
 
-- Imenu
-- Opis
-- Stranki
-- Predloga koledarja
-- Valuta
-- Pogodbena enota
-- Vodja projektov
-- Stanje
-- Splošno stanje projekta
-- Pripombe
-- Ocene
-- Predvideni začetni datum: to je datum, ko je projekt ustvarjen iz kopije.
-- Predvideni končni datum: ta datum se prilagodi glede na začetni datum novega projekta, ki je bil narejen iz kopije.
-- Obseg dela (ure)
-- Ocenjena cena dela
-- Ocenjena cena stroškov
-- Ocenjena vrednost »material – cena«
+| Polje | Projektne operacije Nezaloženi materiali | Project Operations Lite | Projekt za splet |
+|-------|------------------------------------------|-------------------------|---------------------|
+| Imenu | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Description | :heavy_check_mark: | :heavy_check_mark: | |
+| stranka | :heavy_check_mark: | :heavy_check_mark: | |
+| Predloga koledarja | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Valuta | :heavy_check_mark: | :heavy_check_mark: | |
+| Pogodbena enota | :heavy_check_mark: | :heavy_check_mark: | |
+| Lastniško podjetje | :heavy_check_mark: | | |
+| Vodja projektov | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Status | :heavy_check_mark: | :heavy_check_mark: | |
+| Splošno stanje projekta | :heavy_check_mark: | :heavy_check_mark: | |
+| Comments | :heavy_check_mark: | :heavy_check_mark: | |
+| Ocene | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Predvideni začetni datum</p><p><strong>Opomba:</strong> To polje določa datum, ko je projekt ustvarjen iz kopije. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Predvideni datum zaključka</p><p><strong>Opomba:</strong> Datum v tem polju je prilagojen glede na datum začetka novega projekta, ki je bil izdelan iz kopije.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| Obseg dela (ure) | :heavy_check_mark: | :heavy_check_mark: | |
+| Ocenjena cena dela | :heavy_check_mark: | :heavy_check_mark: | |
+| Ocenjena cena stroškov | :heavy_check_mark: | :heavy_check_mark: | |
+| Ocenjena vrednost »material – cena« | | :heavy_check_mark: | |
 
 > [!NOTE]
 > Kopiranje projekta je dolgotrajen postopek. Kopirajo se tudi projektni zapisi, njihovi ustrezni atributi in številne povezane entitete. Zaradi dolgotrajne narave postopka je po začetku kopiranja stran ciljnega projekta zaklenjena za urejanje, dokler postopek kopiranja ni končan.
 
 ## <a name="work-breakdown-structure"></a>Strukturirana členitev dela
 
-Pri kopiranju projekta se kopira celotna struktura razčlenitve dela z naloženimi viri. Poimenovani vir je zamenjaj s splošnim. Če imenovani viri nimajo enakega delovnega časa kot splošni vir, se urnik preračuna in trajanje opravil se lahko spremeni.
+Pri kopiranju projekta se kopira celotna struktura razčlenitve dela z naloženimi viri. Poimenovani vir je zamenjaj s splošnim. Če imenovani viri nimajo enakega delovnega časa kot generični vir, bo urnik ponovno izračunan in trajanje opravil se lahko spremeni.
 
 ## <a name="project-team-members"></a>Člani projektne ekipe
 
 Če je iz izvornega projekta kopirana projektna skupina, so kopirani splošni viri. Iz izvornega projekta so ohranjene tudi dodelitve splošnega vira. Poimenovani viri bodo pretvorjeni v splošne člane skupine.
+
+> [!NOTE]
+> Člani ekipe in naloge se ne kopirajo v Project za splet.
 
 ## <a name="estimates"></a>Ocene
 
@@ -65,5 +73,8 @@ Ko je projekt kopiran, se iz izvornega projekta kopirajo vrstice virov, stroško
 
 Za informacije o programskem dostopu do programa Copy Project glejte razdelek [Razvijanje predlog projektov s programom Copy Project](dev-copy-project.md).
 
+## <a name="quotes-and-contracts"></a>Ponudbe in pogodbe
+
+Ponudbe in pogodbe niso povezane s ciljnim projektom.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

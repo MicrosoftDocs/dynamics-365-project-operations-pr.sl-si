@@ -1,19 +1,19 @@
 ---
-title: Zaposlovanje projekta s pogodbenimi delavci in podizvajalci
+title: Zaposlovanje pogodbenih delavcev in podizvajalskih zmogljivosti pri projektu
 description: Ta tema pojasnjuje, kako je mogoče zapolniti zahteve projekta s pogodbenimi delavci ali podizvajalci v Microsoftu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7e9a0ca08f472999138589f31ca820b733b6303e
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: a0efea80484dfca0a9dae8404837c3376dfecaed
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903794"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574662"
 ---
-# <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Zaposlovanje projekta s pogodbenimi delavci in podizvajalci
+# <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Zaposlovanje pogodbenih delavcev in podizvajalskih zmogljivosti pri projektu
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -26,7 +26,7 @@ Generični člani projektne skupine so lahko zaposleni z zaposlenimi ali pogodbe
 Za iskanje in potrebe po kadrovskih virih pri pogodbenih delavcih, ki pripadajo določeni vrsti podizvajalcev, sledite tem korakom:
 
 1. Ustvarite generičnega člana projektne skupine, ki se sklicuje na vrstico podizvajalcev in podizvajalcev.
-2. Ustvarite zahtevo po virih za tega splošnega člana projektne skupine z uporabo **Ustvarite zahtevo** gumb na podmreži članov projektne skupine.
+2. Ustvarite zahtevo po virih za tega generičnega člana projektne skupine z uporabo **Ustvarite zahtevo** gumb na podmreži članov projektne skupine.
 3. Izberite vrstico za člane ekipe in nato izberite **knjiga** gumb na podmreži. 
 4. To odpre tablo razporeda s kontekstom zahtev. Poleg drugih atributov, kot so polja datumov, vloge in organizacijske enote, se filtri plošče razporeda samodejno izpolnijo tudi s polji vrstice dobavitelj, podizvajalec in podizvajalec iz zahteve po virih.
 5. Sistem poišče vire, ki ustrezajo kriterijem filtra, in jih navede. 
@@ -41,7 +41,7 @@ Za iskanje in potrebe po kadrovskih virih pri pogodbenih delavcih, ki pripadajo 
 Če želite pri katerem koli pogodbenem delavcu poiskati zahteve po kadrovskih virih, sledite tem korakom:
 
 1. Ustvarite generičnega člana projektne skupine.
-2. Ustvarite zahtevo po virih za tega splošnega člana projektne skupine z uporabo **Ustvarite zahtevo** gumb na podmreži članov projektne skupine.
+2. Ustvarite zahtevo po virih za tega generičnega člana projektne skupine z uporabo **Ustvarite zahtevo** gumb na podmreži članov projektne skupine.
 3. Izberite vrstico za člane ekipe in nato izberite **knjiga** gumb na podmreži. 
 4. To odpre tablo razporeda s kontekstom zahtev. Poleg drugih atributov, kot so polja datumov, vloge in organizacijske enote, se filtri plošče razporeda samodejno izpolnijo tudi s polji vrstice dobavitelj, podizvajalec in podizvajalec iz zahteve po virih. Ker zahteva ni imela izpolnjenih vrednosti vrstice podizvajalcev ali podizvajalcev, bodo ti atributi v podoknu filtra prazni.
 5. Sistem poišče vire, ki ustrezajo kriterijem filtra, in jih navede.

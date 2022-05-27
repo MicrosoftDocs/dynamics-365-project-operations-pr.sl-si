@@ -3,16 +3,15 @@ title: Pregled uvajanja aplikacije Project Operations za scenarije, ki temeljijo
 description: Ta tema vsebuje informacije o vrsti uvajanja aplikacije Project Operations za scenarije, ki temeljijo na virih/nezalogi.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009731"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575141"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Pregled uvajanja aplikacije Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
@@ -32,7 +31,7 @@ Vrsta uvajanja aplikacije Dynamics 365 Project Operations za scenarije, ki temel
 - Pripoznavanje prihodkov projekta
 - Razširljivost prek platforme Power Platform
 
-Ta vrsta uvajanja ponuja razširitev funkcionalnosti, ki jo zagotavljata aplikaciji Dynamics 365 Finance in Dynamics 365 Supply Chain Management.
+Ta vrsta uvajanja zagotavlja razširitev funkcionalnosti, ki jo zagotavlja Dynamics 365 Finance in Dynamics 365 Supply Chain Management aplikacije.
 
 Izberite to vrsto uvajanja, če od aplikacije Project Operations pričakujete uporabo celotnega življenjskega cikla projekta, ki vključuje naslednje zahteve:
 

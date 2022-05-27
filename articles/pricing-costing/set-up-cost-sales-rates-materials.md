@@ -2,16 +2,16 @@
 title: Nastavitev cen in stopenj prodaje za materiale
 description: Ta tema vsebuje informacije o tem, kako nastaviti stroške in stopnje prodaje materialov, uporabljenih pri projektih.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999201"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576888"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Nastavitev cen in stopenj prodaje za materiale
 
@@ -25,6 +25,9 @@ Nastavite lahko cene in stopnje prodaje za izdelke v Dynamics 365 Project Operat
 2. Pri možnosti **Elementi cenika** v meniju podmreže izberite **Nov element cenika**. 
 3. Na strani **Hitro ustvarjanje** vnesite izdelek in enoto, za katero ustvarjate novo ceno.
 
-Za več informacij o določanju cen za elemente v katalogu glejte razdelka [Nastavitev cen izdelkov](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) in [Decimalna natančnost pri valuti in cenah](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Za več informacij o tem, kako definirati cene za artikle iz kataloga, glejte [Določite cene izdelkov s ceniki in artikli iz cenika](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) in [Decimalna natančnost v valuti in cenah](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations ne podpira vseh metod oblikovanja cen za izdelke kot Dynamics 365 Sales. Edina podprta metoda oblikovanja cen za izdelke, ki se uporabljajo v projektih, je *Znesek valute*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,14 +4,14 @@ description: Ta tema vsebuje informacije o odstranjevanju aplikacije Dynamics 36
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b87c9324b1c95c10ef1e18b0fbf4572bdbe76827
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e2600c770477ad32cebb66f33a8ca31502a6da3d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783663"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575876"
 ---
 # <a name="uninstall-dynamics-365-project-operations"></a>Odstranitev rešitve Dynamics 365 Project Operations 
 
@@ -35,8 +35,8 @@ Za odstranitev aplikacije Dynamics 365 Project Operations vam mora biti dodeljen
     | 6 | ProjectServiceCore_Patch                           | Ni dodatnih opomb.                                                                         |
     | 7 | ProjectServiceCore                                 | Ni dodatnih opomb.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Če je ne najdete, preskočite to rešitev.                                                            |
-    | 9 | FieldServiceCommon                                 | Zahtevano za dvojno zapisovanje z aplikacijo Dynamics 365 Finance ali Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | Zahtevano za dvojno zapisovanje z aplikacijo Dynamics 365 Finance ali Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Obvezno za dvojno pisanje z Dynamics 365 Finance ali Dynamics 365 Supply Chain Management.   |
+    | 10 | msdyn_AssetCommon                                  | Obvezno za dvojno pisanje z Dynamics 365 Finance ali Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Zahtevano za Dynamics 365 Field Service.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Zahtevano za Dynamics 365 Field Service.                                                     |
     | 13 | msdyn_TESA                                         | Zahtevano za Dynamics 365 Field Service.                                                     |

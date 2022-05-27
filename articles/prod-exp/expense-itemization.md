@@ -1,19 +1,19 @@
 ---
-title: Razporeditev stroškov
+title: Razčlenitev stroškov
 description: Ta tema pojasnjuje, kako razčleniti stroške z uporabo prenovljenega delovnega prostora Expense.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: b2077b77af036ce64aad203f52b03cacca8c4099
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944161"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574542"
 ---
-# <a name="expense-itemization"></a>Razporeditev stroškov
+# <a name="expense-itemization"></a>Razčlenitev stroškov
 
 [!include [banner](../includes/banner.md)]
 
@@ -23,7 +23,7 @@ Organizacije pogosto zahtevajo, da zaposleni zagotovijo podrobno razčlenitev st
 
 ## <a name="enable-quick-itemization"></a>Omogoči hitro razvrščanje elementov 
 
-Lahko uporabite **Sposobnost hitrega razvrščanja ponavljajočih se stroškov** funkcija za hitro razvrščanje ponavljajočih se stroškov, hkrati pa se izognete potrebi po vnosu dnevnih stroškov vsakič za čas bivanja. Izvedite naslednje korake, da omogočite hitro razvrščanje elementov.
+Lahko uporabite **Sposobnost hitrega razvrščanja ponavljajočih se stroškov** funkcija za hitro razvrščanje ponavljajočih se stroškov, hkrati pa se izognete potrebi po vnosu dnevnih stroškov vsakič za čas bivanja. Izpolnite naslednje korake, da omogočite hitro razvrščanje elementov.
 
 1. Pojdite na **Upravljanje funkcij** delovni prostor in na seznamu funkcij poiščite in izberite, **Prenovljena poročila o stroških**. 
 2. Izberite **Omogoči zdaj**. 

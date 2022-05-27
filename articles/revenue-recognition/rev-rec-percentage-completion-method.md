@@ -4,14 +4,14 @@ description: Ta tema vsebuje informacije o prihodkih s fiksno ceno v projektih.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006446"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578728"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Projekti ocene prihodkov s fiksno ceno 
 
@@ -26,7 +26,7 @@ Ko ustvarite podrobnosti pogodbe projekta z naslednjimi atributi v aplikaciji Dy
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Pregled projektov ocen prihodkov s fiksno ceno
 Če želite pregledati projekte ocen prihodkov s fiksnimi cenami, izvedite naslednje korake:
 
-1. V okolju Dynamics 365 Finance odprite **Upravljanje projektov in računovodstvo** > **Projekti** > **Projekti ocene prihodkov s fiksno ceno**.
+1. V okolju Dynamics 365 Finance pojdite na **Vodenje projektov in računovodstvo** > **Projekti** > **Projekti za oceno prihodkov s fiksno ceno**.
 2. Izberite projekt, ki si ga želite ogledati, in dvokliknite možnost **ID ocene projekta**, da odprete zapis in pregledate podrobnosti projekta.
 3. Razširite zavihek **Projekt**. Projekt se vam bo prikazal v mreži **Izbrani projekti**. Sistem ga uporablja kot privzeti projekt, saj je povezan s podrobnostmi pogodbe projekta. 
 4. Če želite spremeniti povezavo, izberite dodatne projekte in jih dodajte v mrežo **Izbrani projekti**. Če je v tej mreži izbranih več projektov, se odstotek dokončanosti projekta in ocene prihodkov izračunajo skupaj za vse izbrane projekte.

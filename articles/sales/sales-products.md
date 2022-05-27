@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,22 +15,22 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5c57b2596e1d480ff59591618f073ceb8f70a289
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986871"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574128"
 ---
 # <a name="products"></a>Izdelki
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Izdelki so hrbtenica vašega podjetja. Katalog izdelkov v storitvi Dynamics 365 Sales Professional je zbirka informacij o izdelkih in njihovih cenah. Olajšajte predstavnikom prodaje povečanje prodaje tako, da hitro ustvarite katalog izdelkov.
+Izdelki so hrbtenica vašega podjetja. Katalog izdelkov v aplikaciji Dynamics 365 Sales Professional je zbirka informacij o izdelkih in njihovih cenah. Olajšajte predstavnikom prodaje povečanje prodaje tako, da hitro ustvarite katalog izdelkov.
 
 ## <a name="add-a-product"></a>Dodajanje izdelka
 
-1.  Preverite, ali imate vlogo skrbnika sistema ali vodje prodaje, s katero lahko dodajate izdelke v storitev Dynamics 365 Sales Professional.
+1.  Preverite, ali imate vlogo skrbnika sistema ali vodje prodaja, tako da lahko dodajate izdelke v aplikacijo Dynamics 365 Sales Professional.
 2.  Na zemljevidu mesta pod možnostjo **Nastavitev** izberite **Izdelki**.
 3.  Izberite **Dodaj izdelek** in vnesite naslednje informacije:
 

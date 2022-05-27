@@ -1,25 +1,25 @@
 ---
 title: Posodobitev storitve Project Operations v okolju Finance
-description: Ta tema vsebuje informacije o tem, kako posodobite Project Operations v okolju Dynamics 365 Finance.
+description: Ta tema ponuja informacije o tem, kako posodobiti projektne operacije v okolju Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986781"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579970"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Posodobitev storitve Project Operations v okolju Finance
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
 
-Ta tema vsebuje informacije o tem, kako posodobite Dynamics 365 Project Operations v okolju Dynamics 365 Finance. Trije postopki so obvezni za posodobitev storitve Project Operations na posodobitev 5 (UR5):
+Ta tema vsebuje informacije o tem, kako posodobiti Dynamics 365 Project Operations v vašem Dynamics 365 Finance okolju. Trije postopki so obvezni za posodobitev storitve Project Operations na posodobitev 5 (UR5):
 
 - [Uvoz paketa v projekt predogledne različice](#import)
 - [Uveljavitev posodobitve](#apply)
@@ -119,7 +119,7 @@ Naslednje posodobitve varnostnih pravic za entitete so zahtevane kot del posodob
 4. Na strani **Različica preslikave tabele** uporabite novo različico preslikave za vsako od treh entitet.
 5. Na strani **Dvojno zapisovanje** izberite izvajanje za ponovni zagon preslikav.
 6. Na seznamu preslikav izberite preslikavo **Knjiga (msdyn_ledgers)** z vsemi zahtevami in izberite potrditveno polje **Začetna sinhronizacija**. 
-7. V polju **Glavni za začetno sinhronizacijo** izberite **Aplikacije Finance and Operations** in nato izberite **Zagon**.
+7. V **Master za začetno sinhronizacijo** polje, izberite **Aplikacije za finance in operacije** in nato izberite **teci**.
  
  ![Sinhronizacija preslikave knjige.](media/DW6.png)
  

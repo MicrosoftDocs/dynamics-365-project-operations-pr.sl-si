@@ -4,22 +4,22 @@ description: V tej temi so na voljo informacije o tem, kako nastaviti privzete v
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
-ms.translationtype: HT
+ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922958"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579510"
 ---
 # <a name="financial-dimension-defaults"></a>Privzete vrednosti finančnih razsežnosti
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations uporablja ogrodje [Finančne razsežnosti](/dynamics365/finance/general-ledger/financial-dimensions) v storitvi Dynamics 365 Finance za podajanje dodatnih vpogledov na transakcije podknjige in glavne knjige projekta.
+
+Dynamics 365 Project Operations uporablja [Finančne razsežnosti](/dynamics365/finance/general-ledger/financial-dimensions) okvir v Dynamics 365 Finance za dodatne vpoglede v transakcije podknjige in glavne knjige projekta.
 
 Privzete finančne razsežnosti je mogoče nastaviti na stranko, vir financiranja projekta, mejnik, vrstico projektne pogodbe ali projekt.
 
@@ -60,15 +60,5 @@ Projekti so ustvarjeni in vzdrževani v storitvi CDS. Računovodski atributi za 
 4. Nastavite privzete vrednosti finančne razsežnosti. Upoštevajte, da so privzete vrednosti finančne razsežnosti iz računa stranke. Če je projekt povezan s podrobnostmi pogodbe z več strankami za pogodbo projekta, se uporabi primarna stranka za nastavitev finančnih razsežnosti na privzete.
 
 Privzete finančne razsežnosti projekta se uporabljajo za nastavitev privzetih vrednosti vrstice dnevnika za čas, stroške in brezplačne transakcije v možnosti **Dnevnik integracij za Project Operations** ter na povezanih projektnih vrsticah računa.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Uporabite finančne razsežnosti za vnose časa projekta
-Če želite uporabiti finančne razsežnosti za vnose časa projekta, upoštevajte, da privzeta vrednost dimenzije temelji na naslednjem vrstnem redu:
-
-1. Vir
-2. Projekt
-3. Vir financiranja
-
-Na primer, če je privzeta dimenzija podana v viru, bo uporabljena nad privzeto, ki je podana v projektu. Podobno bo privzeta dimenzija projekta uporabljena nad privzeto, ki je določena v viru financiranja.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

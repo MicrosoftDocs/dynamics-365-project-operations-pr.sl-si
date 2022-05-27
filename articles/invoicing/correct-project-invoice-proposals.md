@@ -2,16 +2,16 @@
 title: Pravilno obračunavanje osnutkov predlogov za račune projekta
 description: V tej temi je pojasnjeno, kako prilagoditi z računovodstvom povezane informacije na osnutku predloga za račun.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999336"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575094"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Pravilno obračunavanje osnutkov predlogov za račune projekta
 
@@ -27,12 +27,21 @@ Privzete skupine za obračun prometnega davka in skupine davka od prodaje izdelk
 
 ## <a name="adjust-financial-dimensions"></a>Prilagoditev finančnih razsežnosti
 
+### <a name="header-dimensions"></a>Dimenzije glave
+
+Finančne razsežnosti računa so privzeto izpeljane iz nezaračunanih zapisov projektnih transakcij, ki se fakturirajo. Vendar pa sistemske nastavitve omogočajo uporabo finančnih razsežnosti v glavi predlogov računov projekta za knjiženje stanja strank. Če želite omogočiti to funkcijo, izberite **Dovoli posodobitve dimenzij projekta za terjatve** na **Finance** zavihek na **Vodenje projektov in računovodski parametri** stran.
+
+Finančne razsežnosti v glavah računov je mogoče urediti, preden je račun objavljen. Na **Predlog računa projekta** stran, preklopite na **Glava** si oglejte in nato uredite vrednosti na **Finančne razsežnosti** zavihek.
+
+The **Glava** pogled je na voljo šele, ko skrbnik sistema omogoči **Uporabite predlog računov projekta in obrazce dnevnika računov s pogledom Glava in vrstice** značilnost v **Upravljanje funkcij** delovni prostor. Ta funkcija zahteva posodobitev Finance 10.0.25 ali novejšo.
+
+### <a name="line-dimensions"></a>Dimenzije črt
+
 Finančnih razsežnosti ni mogoče urejati neposredno v vrstici predloga za račun projekta. Če želite prilagoditi finančne razsežnosti v predlogu za račun projekta, sledite naslednjim korakom.
 
 1. V predlogu za račun projekta izberite možnost **Izbriši vse** in tako odstranite vrstice v njem.
 
-    > [!NOTE]
-    > Gumb **Izbriši vse** je na voljo šele potem, ko skrbnik sistema omogoči funkcijo **Izbriši vrstice predloga za račun projekta ob uporabi aplikacije Project Operations za scenarije, ki temeljijo na virih/nezalogi** v delovnem prostoru **Upravljanje funkcij**.
+    Gumb **Izbriši vse** je na voljo šele potem, ko skrbnik sistema omogoči funkcijo **Izbriši vrstice predloga za račun projekta ob uporabi aplikacije Project Operations za scenarije, ki temeljijo na virih/nezalogi** v delovnem prostoru **Upravljanje funkcij**.
 
 2. Prilagodite finančne razsežnosti:
 
