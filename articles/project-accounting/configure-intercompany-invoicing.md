@@ -4,14 +4,14 @@ description: Ta tema vsebuje informacije in primere o konfiguriranju medpodjetne
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994071"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591608"
 ---
 # <a name="configure-intercompany-invoicing"></a>Konfiguriranje medpodjetnega izstavljanja računov
 
@@ -21,11 +21,11 @@ Izvedite naslednje korake za nastavitev medpodjetnega izstavljanja računov za p
 
 ## <a name="example-configure-intercompany-invoicing"></a>Primer: Konfiguriranje medpodjetnega izstavljanja računov
 
-V naslednjem primeru je podjetje Contoso Robotics USA (USPM) izposojevalna pravna oseba, podjetje Contoso Robotics UK (GBPM) pa posojilna pravna oseba. 
+V naslednjem primeru je Contoso Robotics USA (USPM) izposojevalna pravna oseba, Contoso Robotics UK (GBPM) pa posojilna pravna oseba. 
 
 1. **Konfiguriranje medpodjetnega računovodstva med pravnimi osebami**. Vsak par izposojevalnih in posojilnih pravnih oseb mora biti konfiguriran v glavni knjigi na strani [Medpodjetno računovodstvo](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. V storitvi Dynamics 365 Finance odprite **Glavna knjiga** > **Nastavitev knjiženja** > **Medpodjetno računovodstvo**. Ustvarite zapis z naslednjimi informacijami:
+    1. V Dynamics 365 Finance pojdite na **Glavna knjiga** > **Nastavitev objave** > **Medpodjetniško računovodstvo**. Ustvarite zapis z naslednjimi informacijami:
 
         - **Izvorno podjetje** = **GBPM**
         - **Ciljno podjetje** = **USPM**
@@ -35,7 +35,7 @@ V naslednjem primeru je podjetje Contoso Robotics USA (USPM) izposojevalna pravn
      1. V razdelku Finance izberite pravno osebo **GBPM**.
      2. Pojdite na **Terjatve** > **Stranka** > **Vse stranke**. Ustvarite nov zapis za pravno osebo **USPM**.
      3. Razširite **Ime**, filtrirajte zapise po atributu **Vrsta** in izberite **Pravne osebe**. 
-     4. Poiščite in izberite zapis stranke za **Contoso Robotics USA (USPM)**.
+     4. Poiščite in izberite zapis stranke za **Contoso Robotics ZDA (USPM)**.
      5. Izberite **Uporabi ujemanje**. 
      6. Izberite skupino strank **50 - Medpodjetne stranke** in shranite zapis.
      7. Izberite pravno osebo **USPM**.
@@ -80,19 +80,19 @@ V naslednjem primeru je podjetje Contoso Robotics USA (USPM) izposojevalna pravn
 
 5. **Nastavitev prenosnih cen za delo**. Medpodjetne prenosne cene so konfigurirane v storitvi Project Operations v okolju Dataverse. Konfigurirajte [stroške za delo](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) in [obračunske stopnje za delo](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) za medpodjetno izstavljanje računov. Prenosne cene niso podprte pri medpodjetnih transakcijah stroškov. Prodajna cena medorganizacijske enote bo vedno nastavljena na enako vrednost kot lastna cena enote, ki zagotavlja vire.
 
-      Stroški virov za razvijalce v podjetju Contoso Robotics UK znašajo 88 GBP na uro. Podjetje Contoso Robotics UK bo zaračunalo podjetju Contoso Robotics USA 120 USD za vsako uro, ko je ta vir delal na ameriških projektih. Podjetje ContosoRobotics USA bo stranki Adventure Works zaračunal 200 USD za delo, ki ga je opravil vir razvijalce v podjetju Contoso Robotics UK.
+      Strošek za vire razvijalce v podjetju Contoso Robotics UK znaša 88 GBP na uro. Contoso Robotics UK bo zaračunal Contoso Robotics USA 120 USD za vsako uro, ko je ta vir delal na ameriških projektih. Contoso Robotics USA bo stranki Adventure Works zaračunal 200 USD za delo, ki ga je opravil vir razvijalec Contoso Robotics UK.
 
-      1. V storitvi Project Operations v okviru Dataverse odprite **Prodaja** > **Ceniki**. Ustvarite nov cenik z lastnimi cenami z imenom **Stroški za delo podjetja Contoso Robotics UK.** 
+      1. V storitvi Project Operations v okviru Dataverse odprite **Prodaja** > **Ceniki**. Ustvarite nov cenik z imenom **Stroški podjetja Contoso Robotics UK.** 
       2. V ceniku ustvarite zapis z naslednjimi podatki:
          - **Vloga** = **Razvijalec**
          - **Strošek** = **88 GBP**
-      3. Odprite razdelek **Nastavitve** > **Organizacijske enote** in ta cenik z lastnimi cenami priložite organizacijski enoti **Contoso Robotics UK**.
-      4. Pojdite v razdelek **Prodaja** > **Ceniki**. Ustvarite nov cenik z lastnimi cenami z imenom **Stroški za delo podjetja Contoso Robotics USA**. 
+      3. Odprite **Nastavitve** > **Organizacijske enote** in ta cenik priložite v organizacijsko enoto **Contoso Robotics UK**.
+      4. Pojdite v razdelek **Prodaja** > **Ceniki**. Ustvarite nov cenik z imenom **Stroški podjetja Contoso Robotics USA**. 
       5. V ceniku ustvarite zapis z naslednjimi podatki:
           - **Vloga** = **Razvijalec**
           - **Podjetje, ki zagotavlja vire** = **Contoso Robotics UK**
           - **Strošek** = **120 USD**
-      6. Odprite razdelek **Nastavitve** > **Organizacijske enote** in cenik z lastnimi cenami **Stroški za delo podjetja Contoso Robotics USA** priložite organizacijski enoti **Contoso Robotics USA**.
+      6. Odprite **Nastavitve** > **Organizacijske enote** in cenik **Stroški podjetja Contoso Robotics USA** priložite v organizacijsko enoto **Contoso Robotics USA**.
       7. Pojdite v razdelek **Prodaja** > **Ceniki**. Ustvarite prodajni cenik z imenom **Obračunske stopnje za Adventure Works**. 
       8. V prodajnem ceniku ustvarite zapis z naslednjimi podatki:
           - **Vloga** = **Razvijalec**

@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996816"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587376"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Načrtovanje projekta s strukturirano členitvijo dela (Project Service)
 
@@ -63,7 +64,7 @@ Načrtovanje projekta vključuje postopke, ki jih je treba opraviti, kateri viri
 ## <a name="task-types"></a>Vrste opravil  
 Pri ustvarjanju strukturirane členitve dela boste uporabljali naslednje vrste opravil:  
 
-| | | 
+| opravilo, | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Korensko vozlišče projekta** | Opravilo povzetka na najvišji ravni za projekt. Vsa druga opravila projekta so ustvarjena pod njim. Ime korenskega opravila je ime projekta. Obseg dela, datumi in trajanje korenskega vozlišča temeljijo na vrednostih v hierarhiji pod njim. Lastnosti korenskega vozlišča ni mogoče urejati, prav tako ga ne morete izbrisati. | 
 | **Opravila povzetka ali vsebnika** | Opravilo povzetka je opravilo, ki vsebuje podopravila. Opravilo povzetka nima svojega obsega dela ali stroškov. Obseg dela in stroški opravila povzetka so skupna vrednost vseh njegovih podopravil. Ime opravila povzetka lahko spremenite, ne morete pa spremeniti obsega dela, datumov ali trajanja, saj se ti izračunajo samodejno. Če izbrišete opravilo povzetka, izbrišete opravilo in vsa podopravila v njem.|  

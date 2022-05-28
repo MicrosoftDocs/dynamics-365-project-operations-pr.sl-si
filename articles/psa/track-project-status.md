@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996726"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593402"
 ---
 # <a name="track-a-projects-status-project-service"></a>Spremljajte stanje projekta (Project Service)
 
@@ -33,14 +34,13 @@ Z [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-serv
 
 Ko dejavnost napreduje, se stanje projekta posodablja, da prikazuje stanje dejavnosti:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Nov**    | Ko ustvarite projekt, je stanje nastavljeno na **Novo**. Če ste ustvarili projekt iz predloge, ima na tej stopnji projekt morda urnik, ocene in podatke o ekipi. V nasprotnem primeru je na voljo osnutek projekta in morate preostale komponente projekta vnesti ročno. |
-|  **Ponudba**   |      Ko povežete projekt s ponudbo ali ga ustvarite iz ponudbe, je stopnja projekta nastavljena na **Ponudba**, pri čemer se posodobita tudi ocenjeni začetek in konec projekta. Ko je projekt v stanju ponudbe, so podrobnosti o ponudbi prikazane na zavihku **Prodaja** na strani **Projekt**.      |
-|   **Načrt**   |                                     Ko je ponudba, povezana s projektom, sprejeta, in ko se dejavnost premakne v stanje pogodbe, se stanje projekta posodobi v **Načrt**. Podrobnosti pogodbe so prikazane na zavihku **Prodaja** na strani **Projekt**.                                      |
-| **Dokončaj** |                    Ko je delo na projektu končano, lahko stanje preklopite v **Zaključeno**. Ko je projekt zaključen, to pomeni, da je delo v celoti opravljeno, vseeno pa je projekt odprt zaradi čakajočih vnosov, povezanih s časom ali stroški.                     |
-|  **Zapri**   |           Ko so vse transakcije, povezane s projektom zabeležene in ne pričakujete nobenih novih, lahko stanje ročno preklopite v **Zaprto**. Ko je projekt nastavljen na **Zaprto**, vanj ni več mogoče zapisovati transakcij, saj je projekt dostopen samo za branje.           |
+| opravilo, | Description | 
+|------------|----------|
+| **New** | Ko ustvarite projekt, je stanje nastavljeno na **Novo**. Če ste ustvarili projekt iz predloge, ima na tej stopnji projekt morda urnik, ocene in podatke o ekipi. V nasprotnem primeru je na voljo osnutek projekta in morate preostale komponente projekta vnesti ročno. |
+| **Ponudba** |  Ko projekt povežete s ponudbo ali ga ustvarite iz ponudbe, je faza projekta nastavljena na **Kvota**, posodobljena pa sta tudi predvideni začetni in končni datum. Ko je projekt v stanju ponudbe, so podrobnosti o ponudbi prikazane na zavihku **Prodaja** na strani **Projekt**. |
+| **Načrt** |  Ko je ponudba, povezana s projektom, sprejeta, in ko se dejavnost premakne v stanje pogodbe, se stanje projekta posodobi v **Načrt**. Podrobnosti pogodbe so prikazane na zavihku **Prodaja** na strani **Projekt**. |
+| **Dokončaj** | Ko je delo na projektu končano, lahko stanje preklopite v **Zaključeno**. Ko je projekt zaključen, to pomeni, da je delo v celoti opravljeno, vseeno pa je projekt odprt zaradi čakajočih vnosov, povezanih s časom ali stroški. |
+| **Zapri** | Ko so vse transakcije, povezane s projektom zabeležene in ne pričakujete nobenih novih, lahko stanje ročno preklopite v **Zaprto**. Ko je projekt nastavljen na **Zaprto**, vanj ni več mogoče zapisovati transakcij, saj je projekt dostopen samo za branje. |
 
 ## <a name="to-track-a-projects-status"></a>Spremljanje stanja projekta  
 

@@ -4,20 +4,20 @@ description: Ta tema ponuja informacije in vzorce, ki vam bodo pomagali uporablj
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1c5632a880fa30d1b863c326b22e3d930c9564dc
-ms.sourcegitcommit: 844ec8eacd0fc10d1659b437cc5cbb4480ec9e1e
+ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "7877521"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589538"
 ---
 # <a name="project-scheduling-logs"></a>Dnevniki načrtovanja projekta
 
 _**Velja za:** Projektne operacije za scenarije, ki temeljijo na virih/brez zalog, uvedba Lite - obračunavanje s predračunom_, _za splet_
 
-Microsoft Dynamics 365 Project Operations uporablja [Projekt za splet](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) kot njegov primarni mehanizem za načrtovanje. Namesto uporabe standardnih vmesnikov za programiranje spletnih aplikacij (API) Microsoft Dataverse, Project Operations uporablja nove API-je za načrtovanje projektov za ustvarjanje, posodabljanje in brisanje projektnih nalog, dodelitev sredstev, odvisnosti opravil, projektnih segmentov in članov projektnih skupin. Ko pa se operacije ustvarjanja, posodabljanja ali brisanja programsko izvajajo na entitetah strukture razčlenitve dela (WBS), lahko pride do napak. Za sledenje tem napakam in zgodovini operacij sta bila implementirana dva nova skrbniška dnevnika: **Operacijski komplet** in **Storitev načrtovanja projektov (PSS)**. Za dostop do teh dnevnikov pojdite na **Nastavitve** \> **Integracija urnika**.
+Microsoft Dynamics 365 Project Operations uporablja [Projekt za splet](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) kot njegov primarni mehanizem za načrtovanje. Namesto uporabe standarda Microsoft Dataverse Programski vmesniki spletnih aplikacij (API), Project Operations uporablja nove API-je za načrtovanje projektov za ustvarjanje, posodabljanje in brisanje projektnih nalog, dodelitev virov, odvisnosti opravil, projektnih segmentov in članov projektnih skupin. Ko pa se operacije ustvarjanja, posodabljanja ali brisanja programsko izvajajo na entitetah strukture razčlenitve dela (WBS), lahko pride do napak. Za sledenje tem napakam in zgodovini operacij sta bila implementirana dva nova skrbniška dnevnika: **Operacijski komplet** in **Storitev načrtovanja projektov (PSS)**. Za dostop do teh dnevnikov pojdite na **Nastavitve** \> **Integracija urnika**.
 
 Naslednja slika prikazuje podatkovni model za dnevnike načrtovanja projekta.
 
@@ -45,7 +45,7 @@ Naslednja tabela prikazuje polja, ki so povezana z **Operacijski komplet** entit
 | msdyn_PSSErrorLogName | Ni na voljo.                                                                                              | Ni na voljo.         |
 | msdyn_status          | Stanje niza operacij.                                                                             | Status                 |
 | msdyn_statusName      | Ni na voljo.                                                                                              | Ni na voljo.         |
-| msdyn_useraadid       | ID objekta Azure Active Directory (Azure AD) uporabnika, ki mu pripada zahteva.                     | UserAADID              |
+| msdyn_useraadid       | The Azure Active Directory (Azure AD) ID objekta uporabnika, ki mu pripada zahteva.                     | UserAADID              |
 
 ### <a name="operation-set-detail"></a>Podrobnosti nabora operacij
 
@@ -53,7 +53,7 @@ Naslednja tabela prikazuje polja, ki so povezana z **Podrobnosti nabora operacij
 
 | Ime sheme                 | Description                                                                                 | DisplayName           |
 |----------------------------|---------------------------------------------------------------------------------------------|-----------------------|
-| msdyn_cdspayload           | Serializirana polja Dataverse za zahtevo.                                            | CdsPayload            |
+| msdyn_cdspayload           | Serializirano Dataverse polja za zahtevo.                                            | CdsPayload            |
 | msdyn_entityname           | Ime subjekta za zahtevo.                                                     | EntityName            |
 | msdyn_httpglagol             | Metoda zahteve.                                                                         | Glagol HTTP (opuščeno) |
 | msdyn_httpverbName         | Ni na voljo.                                                                             | Ni na voljo.        |
@@ -82,7 +82,7 @@ Naslednja tabela prikazuje polja, ki so vključena v dnevnik storitve načrtovan
 |---------------------|--------------------------------------------------------------------------------|----------------|
 | msdyn_CallStack     | Klicni sklad izjeme.                                               | Klicni sklad     |
 | msdyn_correlationid | ID korelacije napake.                                               | CorrelationId  |
-| msdyn_errorcode     | Polje, ki se uporablja za shranjevanje kode napake Dataverse ali kode napake HTTP. | Koda napake     |
+| msdyn_errorcode     | Polje, ki se uporablja za shranjevanje Dataverse kodo napake ali kodo napake HTTP. | Koda napake     |
 | msdyn_HelpLink      | Povezava do javne dokumentacije pomoči.                                       | Povezava do pomoči      |
 | msdyn_log           | Dnevnik storitve načrtovanja projektov.                                   | Dnevnik            |
 | msdyn_project       | Projekt, ki je povezan z dnevnikom napak.                             | Projekt        |
@@ -94,7 +94,7 @@ Naslednja tabela prikazuje polja, ki so vključena v dnevnik storitve načrtovan
 
 Privzeto je mogoče tako dnevnike napak storitve Project Scheduling Service kot dnevnik nabora operacij očistiti vsakih 90 dni. Vsi zapisi, ki so starejši od 90 dni, bodo izbrisani. Vendar pa s spremembo vrednosti **msdyn_StateOperationSetAge** polje na **Parametri projekta** strani, lahko skrbniki prilagodijo razpon čiščenja tako, da je med 1 in 120 dnevi. Na voljo je več načinov za spreminjanje te vrednosti:
 
-- Prilagodite **Parameter projekta** entiteto z ustvarjanjem strani po meri in dodajanjem **Zastarele operacije nastavljene starosti** polje.
+- Prilagodite **Parameter projekta** entiteto z ustvarjanjem strani po meri in dodajanjem **Starost zastarelih operacij** polje.
 - Uporabite odjemalsko kodo, ki uporablja [Komplet za razvoj programske opreme WebApi (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
 - Uporabite kodo SDK za storitve, ki uporablja SDK Xrm **updateRecord** metoda (referenca odjemalskega API-ja) v aplikacijah, ki jih poganja model. Power Apps vključuje opis in podprte parametre za **updateRecord** metoda.
 

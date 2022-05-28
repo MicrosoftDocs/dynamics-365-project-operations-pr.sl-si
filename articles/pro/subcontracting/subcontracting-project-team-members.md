@@ -1,19 +1,19 @@
 ---
-title: Podizvajalec članov projektne skupine
+title: Oddaja del podizvajalcem, ki so člani projektne ekipe
 description: Ta tema pojasnjuje, kako skleniti pogodbe s člani projektne skupine v Microsoftu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b98fc356d7de77fa7f05667acaa5569a7053e4d1
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: f43f817e59ef83fbf4dda6267327080f7c56e0f7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903786"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587882"
 ---
-# <a name="subcontracting-project-team-members"></a>Podizvajalec članov projektne skupine
+# <a name="subcontracting-project-team-members"></a>Oddaja del podizvajalcem, ki so člani projektne ekipe
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -39,12 +39,12 @@ The **Podrobnosti o članu ekipe** stran vsebuje vrstica podizvajalcev in podizv
 
 5.  Vloga za zapis člana projektne skupine se mora ujemati z vlogo v vrstici podizvajalcev. To zagotavlja, da je čas za vlogo, ki se ocenjuje v projektu, enaka vloga, kot je kupljena v vrstici podizvajalcev. 
 
-Ko je generični član ekipe povezan s podizvajalcem in podizvajalsko linijo, **Vrsta delavca** polje v vrstici splošnih članov ekipe bo posodobljeno v **Pogodbeni delavec** in **Veljavnost podizvajalske pogodbe** bo nastavljeno na **veljavno**.
+Ko je generični član ekipe povezan s podizvajalcem in podizvajalsko linijo, **Vrsta delavca** polje v vrstici s splošnimi člani ekipe bo posodobljeno v **Pogodbeni delavec** in **Veljavnost podizvajalske pogodbe** bo nastavljeno na **veljavno**.
 
-## <a name="subcontracting-a-staffed-project-team-member"></a>Oddajanje podizvajalskega dela za zaposlenega člana projektne skupine
-Podobno kot splošni člani skupine ali člani ekipe brez osebja je tudi zmogljivost osebja, ki je potrebna za projekt, povezana s podizvajalsko pogodbo. Če želite imenovanega člana projektne skupine oddati podizvajalcem, sledite tem korakom:
+## <a name="subcontracting-a-staffed-project-team-member"></a>Oddajanje podizvajalskega člana projektne skupine z osebjem
+Tako kot splošni člani skupine ali člani ekipe brez osebja je tudi zmogljivost osebja, ki je potrebna za projekt, povezana s podizvajalsko pogodbo. Če želite imenovanega člana projektne skupine oddati podizvajalcem, sledite tem korakom:
 
-1.  Prepričajte se, da je poimenovani vir nastavljen kot pogodbeni delavec, ki ga je mogoče rezervirati. Prav tako se prepričajte, da **Prodajalec** polje na viru, ki ga je mogoče rezervirati, se ujema s prodajalcem v podizvajalski pogodbi, ki jo izberete. 
+1.  Prepričajte se, da je imenovani vir nastavljen kot vrsta vira, ki ga je mogoče rezervirati, kot pogodbeni delavec. Prav tako se prepričajte, da **Prodajalec** polje na viru, ki ga je mogoče rezervirati, se ujema s prodajalcem v podizvajalski pogodbi, ki jo izberete. 
 
 2.  Izberete lahko samo podizvajalce v **Osnutek** oz **Potrjeno** stanje. **Zaprto** oz **Prekinjeno** podizvajalcev ni mogoče izbrati. 
 

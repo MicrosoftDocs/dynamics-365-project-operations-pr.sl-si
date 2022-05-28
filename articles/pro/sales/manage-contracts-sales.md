@@ -4,14 +4,14 @@ description: V tej temi so na voljo informacije o ogledu pogodb, ki temeljijo na
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 64e81593065d97272af6261e17175c76bd8dca7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001856"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590526"
 ---
 # <a name="manage-project-contracts"></a>Upravljanje projektnih pogodb
 
@@ -31,6 +31,9 @@ Seznam vseh pogodb za projekt si lahko ogledate na strani s seznamom **Pogodbe**
 2. Izberite **Preklopnik med pogledi** (puščica spustnega seznama poleg imena pogleda) za izbiro drugih filtriranih pogledov. Ustvarite lahko lastne poglede s pogoji filtra po meri.
 
 Pogodbe lahko ustvarite ali izbrišete s strani s seznamom ali strani s podrobnostmi.
+
+> [!NOTE]
+> Pogodb, s katerimi so povezani projekti, naloge, ocene, dnevniki in/ali dejansko stanje, ni mogoče izbrisati. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

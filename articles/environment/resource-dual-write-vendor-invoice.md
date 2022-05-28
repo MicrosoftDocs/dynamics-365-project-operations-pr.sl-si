@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986511"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591195"
 ---
 # <a name="vendor-invoice-integration"></a>Integracija računa dobavitelja
 
@@ -34,7 +34,7 @@ V aplikaciji Project Operations so računi dobavitelja, povezani s projektom, kn
      > [!NOTE]
      > Podrobnosti o računu dobavitelja v storitvi Dataverse ni mogoče urejati.
 
-Pomožna poslovna knjiga za davke, dobavitelje in druga finančna knjiženja so v aplikaciji Dynamics 365 Finance zabeležena, kot je ustrezno v času knjiženja računa dobavitelja.
+Davčna podknjiga, podknjiga prodajalcev in druge finančne knjižbe so zabeležene, kot je ustrezno, v Dynamics 365 Finance, ko je knjižen račun prodajalca.
 
 ![Integracija računa dobavitelja.](media/DW7VendorInvoice.png)
 

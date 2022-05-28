@@ -4,14 +4,14 @@ description: Ta tema vsebuje informacije o nastavitvah kategorij projekta.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997131"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591562"
 ---
 # <a name="configure-project-categories"></a>Konfiguracija kategorij projekta
 
@@ -27,7 +27,7 @@ Kategorije transakcij so osnovna skupina za projektne transakcije. Znotraj te sk
 
 ## <a name="transaction-categories"></a>Kategorije transakcij
 
-Kategorije transakcij predstavljajo osnovno razvrščanje projektnih transakcij in niso določene glede na podjetje ali vrsto transakcije. Contoso Robotics na primer za združevanje projektnih transakcij uporablja transakcijske kategorije Načrtovanje, Potovanje, Namestitev in Storitev.
+Kategorije transakcij predstavljajo osnovno razvrščanje projektnih transakcij in niso določene glede na podjetje ali vrsto transakcije. Družba Contoso Robotics na primer za razvrščanje projektnih transakcij uporablja kategorije načrtovanja, potovanja, namestitve in storitvenih transakcij.
 
 Kategorije transakcij so definirane v modulu Project Operations. 
 1. Obrazec lahko odprete v razdelku **Nastavitve** \> **Kategorije transakcij**. 
@@ -35,7 +35,7 @@ Kategorije transakcij so definirane v modulu Project Operations.
 
 ## <a name="shared-categories"></a>Kategorije v skupni rabi
 
-Storitev Dynamics 365 temelji na konceptu skupnih kategorij za kategorizacijo stroškov v različnih aplikacijah, kot so Dynamics 365 Finance, Dynamics 365 Supply Chain in Dynamics 365 Project Operations. Za vsako ustvarjeno kategorijo transakcij aplikacija Project Operations samodejno ustvari štiri povezane kategorije v skupni rabi: ure, stroški, provizije in postavka. Kategorije v skupni rabi lahko pregledate in prilagodite v razdelku **Vodenje projektov in računovodstvo** \> **Nastavitve** \> **Kategorije** \> **Kategorije v skupni rabi**.
+Dynamics 365 uporablja koncept skupnih kategorij za kategorizacijo stroškov v različnih aplikacijah, kot so Dynamics 365 Finance, Dynamics 365 Supply Chain in Dynamics 365 Project Operations. Za vsako ustvarjeno kategorijo transakcij aplikacija Project Operations samodejno ustvari štiri povezane kategorije v skupni rabi: ure, stroški, provizije in postavka. Kategorije v skupni rabi lahko pregledate in prilagodite v razdelku **Vodenje projektov in računovodstvo** \> **Nastavitve** \> **Kategorije** \> **Kategorije v skupni rabi**.
 
 ## <a name="project-categories"></a>Projektne kategorije
 

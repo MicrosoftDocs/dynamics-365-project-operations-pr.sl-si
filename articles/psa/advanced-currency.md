@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005142"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590182"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenariji z več valutami
 
@@ -34,7 +35,7 @@ Microsoft Dynamics 365 ima dva koncepta valut:
 - **Valuta transakcije** – valuta, v kateri se izvede transakcija 
 - **Osnovna valuta** – valuta primerka Dynamics 365 Ta valuta je nastavljena, ko je omogočena uporaba primerka Dynamics 365. Ni je mogoče spremeniti.
 
-Contoso ZDA na primer proda 100 majic stranki v Združenem kraljestvu za 15 funtov (GBP) na kos. Spodnja tabela prikazuje, kako je ta transakcija zapisana v entiteti »Izdelek iz naročila«.
+Primer: Contoso ZDA proda 100 majic stranki v Združenem kraljestvu za 15 funtov (GBP) na kos. Spodnja tabela prikazuje, kako je ta transakcija zapisana v entiteti »Izdelek iz naročila«.
 
 | Izdelek | Količina | Cena na enoto | Valuta | Znesek | Menjalni tečaj | Cena na enoto (osnova)| Znesek (osnova)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -70,7 +71,7 @@ V tem razdelku je opisan primer projekta, ki ga Contoso Združeno kraljestvo dos
 
 1. GBP in japonski jen (JPY) sta nastavljena v razdelku **Nastavitve** \> **Upravljanje poslovanja** \> **Valute**. 
 2. Odpre se račun stranke z imenom **Fabrikam – Japonska** in JPY je izbran kot valuta za račun.
-3. Nastavi se organizacijska enota, imenovana **Contoso Združeno kraljestvo**, za katero je izbrana valuta GBP.
+3. Nastavi se organizacija enota, ki je imenovana **Contoso Združeno kraljestvo**, za katero je izbrana valuta GBP.
 4. Ustvarjena je projektna pogodba, v kateri je podjetje **Contoso Združeno kraljestvo** opredeljeno kot pogodbena enota, podjetje **Fabrikam – Japonska** pa je določeno kot stranka.
 5. Ustvarijo se podrobnosti projektne pogodbe, in sicer na podlagi različnih razredov dogovorov za zaračunavanje v okviru projekta, npr. obračunavanje za čas v primerjavi z obračunavanjem za stroške.
 6. Ustvari se projekt, v katerem je podjetje **Contoso Združeno kraljestvo** opredeljeno kot pogodbena enota. Ta projekt je ustvarjen in preslikan v vrstice projektne pogodbe.

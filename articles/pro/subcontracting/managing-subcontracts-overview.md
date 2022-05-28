@@ -3,15 +3,15 @@ title: Upravljanje podizvajalskih pogodb v aplikaciji Project Operations
 description: V tem članku je predstavljen postopek upravljanja celovite podizvajalske pogodbe, in sicer v organizacijah, v katerih poslovanje poteka na podlagi projektov.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323616"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593034"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Upravljanje podizvajalskih pogodb v aplikaciji Project Operations
 
@@ -46,7 +46,7 @@ Podrobnosti podizvajalske pogodbe lahko temeljijo na količini ali na delu.
 
 Če podrobnosti podizvajalske pogodbe **temeljijo na količini**, je lahko količina, ki je v podrobnostih podizvajalske pogodbe naročena za čas, stroške ali material, uporabljena za katerikoli projekt.
 
-Če podrobnosti podizvajalske pogodbe **temeljijo na delu**, se preslikajo v delo, ki ga predstavlja vozlišče v načrtu projekta. Vrednost podrobnosti podizvajalske pogodbe sestavlja vsota vseh komponent, ki so potrebne, da je to delo opravljeno. Te so oblikovane kot podrobnosti vrstice podizvajalske pogodbe in lahko obsegajo zbirko za čas, stroške ali material. Podrobnosti podizvajalske pogodbe, ki temeljijo na delu, so prav tako namenjene enemu projektu.
+Če podrobnosti podizvajalske pogodbe **temeljijo na delu**, se preslikajo v delo, ki ga predstavlja vozlišče v načrtu projekta. Vrednost podrobnosti podizvajalske pogodbe sestavlja vsota vseh komponent, ki so potrebne, da je to delo opravljeno. Te so oblikovane kot podrobnosti vrstice podizvajalske pogodbe in lahko obsegajo zbirko za čas, stroške ali material. Podrobnosti podizvajalske pogodbe, ki temeljijo na delu, so prav tako namenjene enemu projektu. Te vrste podizvajalcev trenutno ne podpirajo Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

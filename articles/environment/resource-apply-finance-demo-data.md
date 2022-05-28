@@ -1,24 +1,24 @@
 ---
 title: Uporaba predstavitvenih podatkov v okolju, gostovanem v oblaku Finance
-description: Ta tema vsebuje razlago, kako uporabiti predstavitvene podatke iz storitve Project Operations v okolju Dynamics 365 Finance v oblaku.
+description: Ta tema pojasnjuje, kako uporabiti predstavitvene podatke iz Project Operations v Dynamics 365 Finance okolju, ki gostuje v oblaku.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009686"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588986"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Uporaba predstavitvenih podatkov v okolju, gostovanem v oblaku Finance
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 > [!IMPORTANT]
-> Ta tema se nanaša samo na Microsoft Dynamics 365 Finance različice 10.0.13 in jo je mogoče izvajati samo v okolju, ki je gostovano v oblaku. Dokončajte korake v tej temi, **PREDEN** izvedete posodobitev kakovosti v okolju.
+> Ta tema je samo uporabna Microsoft Dynamics 365 Finance različice 10.0.13 in se lahko izvaja samo v okolju, ki gostuje v oblaku. Dokončajte korake v tej temi, **PREDEN** izvedete posodobitev kakovosti v okolju.
 
 1. V projektu LCS odprite stran **Podrobnosti o okolju**. Upoštevajte, da vključuje podrobnosti, ki so potrebne za povezavo z okoljem prek protokola RDP (Remote Desktop Protocol).
 
@@ -76,7 +76,7 @@ To traja nekaj minut. Prejeti bi morali potrditveno sporočilo, da je bil skrbni
 
 18. Zaprite sejo oddaljenega namizja in uporabite stran **Podrobnosti o okolju** LCS, da se prijavite v okolje in potrdite, da deluje po pričakovanjih.
 
-![Storitve Finance and Operations.](./media/10FinanceAndOperations.png)
+![Finance in poslovanje.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
