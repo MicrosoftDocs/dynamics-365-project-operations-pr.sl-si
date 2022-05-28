@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0432e2d4970c352e91cca589987bbdace57c6eaf
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
-ms.translationtype: HT
+ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942997"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585398"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Kaj je novega december 2021 – uvajanje Project Operations lite
 
@@ -20,7 +20,7 @@ _Velja za: poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
 Ta tema velja za naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
 
-- Projektno delovanje v a Dataverse različica okolja 4.27.0.195, 4.27.0.242
+- Projektno delovanje v a Dataverse različica okolja 4.27.0.195, 4.27.0.242, 4.27.0.244
 
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
@@ -37,7 +37,7 @@ Ta tema velja za naslednje komponente in različice Microsofta Dynamics 365 Proj
 
 ### <a name="task-planning"></a>Načrtovanje opravil
 - Izboljšano odpravljanje težav za sistemske skrbnike. Ko uporabnik ne more odpreti projekta, lahko skrbnik pregleda napake, ki niso povezane z licenco, ustvarjene iz Project za splet v [Dnevniki načrtovanja projekta](../../project-management/schedule-api-logs.md).
-- [Uporabite kontrolne sezname opravil v Microsoft Projectu za splet](https://support.microsoft.com/en-us/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c). V Microsoft Project za splet lahko opravilu dodate kontrolni seznam, da spremljate določene elemente.
+- [Uporabite kontrolne sezname opravil v programu Microsoft Project za splet](https://support.microsoft.com/en-us/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c). V Microsoft Project za splet lahko opravilu dodate kontrolni seznam, da spremljate določene elemente.
 
 ## <a name="quality-updates"></a>Posodobitve kakovosti
 

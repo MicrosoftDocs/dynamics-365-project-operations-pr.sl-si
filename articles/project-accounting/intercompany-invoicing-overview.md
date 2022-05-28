@@ -3,16 +3,15 @@ title: Pregled izstavljanja računov med podjetji
 description: Ta tema vsebuje informacije in primere o medpodjetnem izdajanju računov za projekte.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005411"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586272"
 ---
 # <a name="intercompany-invoicing-overview"></a>Pregled izstavljanja računov med podjetji
 
@@ -20,7 +19,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/n
 
 Vaša organizacija ima lahko več oddelkov, podružnic in drugih pravnih subjektov, ki si za projekte izmenjujejo izdelke in storitve. Pravna oseba, ki zagotavlja storitev ali izdelek, se imenuje *posojilna pravna oseba*. Pravna oseba, ki sprejme storitev ali izdelek, se imenuje *izposojevalna pravna oseba*.
 
-Naslednja ilustracija prikazuje tipičen scenarij, ko si dve pravni entiteti, Contoso Robotics USA (izposojevalna pravna entiteta) in Contoso Robotics UK (posojilna pravna oseba) delita sredstva za izvedbo projekta za stranko Adventure works. V tem primeru je podjetje Contoso Robotics USA po pogodbi dolžno dostaviti delo podjetju Adventure Works.
+Naslednja slika prikazuje tipičen scenarij, kjer si dve pravni osebi, Contoso Robotics USA (izposojevalna pravna oseba) in Contoso Robotics UK (posojilna pravna oseba), delita sredstva za izvedbo projekta za stranko Adventure works. V tem scenariju je podjetje Contoso Robotics USA po pogodbi dolžno opraviti storitev za Adventure Works.
 
 ![Izstavljanje računov med podjetji.](./media/IntercompanyScenario.png) 
 

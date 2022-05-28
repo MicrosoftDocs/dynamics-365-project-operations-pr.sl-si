@@ -4,14 +4,14 @@ description: V tej temi so na voljo podrobnosti o obdelavi računov za stranke v
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989931"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585628"
 ---
 # <a name="manage-project-invoice-proposals"></a>Upravljanje predlogov za račune projekta
 
@@ -22,7 +22,7 @@ Predloge za račune projekta lahko obdela vaš oddelek za obračunavanje, če st
   - Vodja projekta potrdi predračun v storitvi Microsoft Dataverse.
   - Vse neobračunane časovne in materialne prodajne transakcije, ki so vključene v predračun, se knjižijo v dnevniku **integracij za Project Operations** v storitvi Dynamics 365.
 
-Sledite spodnjim korakom za dokončanje predloga za račun projekta v storitvi Dynamics 365 Finance.
+Za dokončanje predloga računa projekta v Dynamics 365 Finance uporabite naslednje korake.
 
 1. Preglejte podatke za obračunavanje za časovne in materialne transakcije in objavite dnevnik **integracij za Project Operations**.
 2. Preglejte podatke za obračunavanje za mejnike obračunavanja po fiksni ceni.

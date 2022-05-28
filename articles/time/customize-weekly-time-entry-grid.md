@@ -2,16 +2,16 @@
 title: Razširitev časovnih vnosov
 description: Ta tema vsebuje informacije o tem, kako lahko razvijalci razširijo kontrolnik za vnos časa.
 author: stsporen
-ms.date: 10/08/2020
+ms.date: 01/27/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993351"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583006"
 ---
 # <a name="extending-time-entries"></a>Razširitev časovnih vnosov
 
@@ -43,7 +43,7 @@ Podaljšanje časovnih vnosov je možno na dveh območjih:
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Časovni vnosi in entiteta časovnega vira
-Vsak časovni vnos je povezan z zapisom časovnega vira. Ta zapis določa, kako in katere aplikacije naj obdelujejo vnos časa.
+Vsak časovni vnos je povezan z zapisom časovnega vira. Ta zapis določa, katere aplikacije naj obdelajo vnos časa in kako.
 
 Časovni vnosi vedno predstavljajo posamezen neprekinjen termin, ki je povezan z začetkom, koncem in trajanjem.
 
@@ -55,7 +55,7 @@ Zapis vnosa časa bo z logiko samodejno posodobljen v naslednjih primerih:
     - **msdyn_end**
     - **msdyn_duration**
 
-- V poljih **msdyn_start** in **msdyn_end** je upoštevan časovni pas.
+- The **msdyn_start** in **msdyn_end** polja se zavedajo časovnega pasu.
 - Časovni vnosi, ki so ustvarjeni samo z določenima entitetama **msdyn_date** in **msdyn_duration**, se bodo zagnali ob polnoči. Polji **msdyn_start** in **msdyn_end** se bosta ustrezno posodobili.
 
 #### <a name="time-entry-types"></a>Vrste časovnih vnosov
@@ -72,73 +72,63 @@ Zapisi vnosa časa imajo povezan tip, ki določa vedenje v toku oddaje za poveza
 |Dopust   | 192,350,002|
 
 
-
 ## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Prilagajanje tedenskega kontrolnika časovnih vnosov
 Razvijalci lahko drugim entitetam dodajo dodatna polja in poizvedbe ter uvedejo prilagojena poslovna pravila za podporo poslovnih scenarijev.
 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Dodajanje polj po meri z možnostjo iskanja po drugih entitetah
 Za dodajanje polja po meri v tedensko mrežo časovnih vnosov je treba izvesti tri glavne korake.
 
-1. Dodajte polje po meri v pogovorno okno za hitro ustvarjanje.
+1. Dodajte polje po meri v **Hitro ustvarjanje** pogovorno okno.
 2. Konfigurirajte mrežo tako, da prikazuje polja po meri.
-3. Dodajte polje po meri na potek opravila za urejanje vrstice ali pa na potek opravila za urejanje celice.
+3. Dodajte polje po meri v **Urejanje vrstice** oz **Urejanje časovnega vnosa** stran, kot je primerno.
 
-Prepričajte se, da ima novo polje zahtevano preverjanje v poteku opravila za urejanje vrstic ali celic. Del tega koraka je zaklepanje polja na podlagi stanja časovnega vnosa.
+Prepričajte se, da ima novo polje zahtevane potrditve na **Urejanje vrstice** oz **Urejanje časovnega vnosa** stran. Kot del te naloge zaklenite polje glede na stanje vnosa časa.
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Dodajanje polja po meri v pogovorno okno za hitro ustvarjanje
-Polje po meri dodajte v pogovorno okno **Hitro ustvarjanje časovnega vnosa**. Po tem, ko so časovni vnosi dodani, je mogoče vnesti tudi vrednost z izbiro možnosti **Novo**.
+Ko dodate polje po meri v **Vnos časa** mrežo in nato ustvarite časovne vnose neposredno v mreži, se polje po meri za te vnose samodejno nastavi tako, da se ujema z vrstico. 
+
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Dodajte polje po meri v pogovorno okno Hitro ustvarjanje
+Dodajte polje po meri v **Hitro ustvarjanje: Ustvari vnos časa** pogovorno okno. Uporabniki lahko nato vnesejo vrednost pri dodajanju časovnih vnosov z izbiro možnosti **Novo**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfiguriranje mreže za prikaz polja po meri
-Za dodajanje polja po meri v tedensko mrežo časovnih vnosov obstajata dva načina:
+Polje po meri lahko dodate na dva načina **Tedenski vnos časa** mreža.
 
-  - Prilagodite pogled in dodajte polje po meri
-  - Ustvarite nov privzeti časovni vnos po meri 
+- Prilagodite **Moji tedenski vnosi časa** pogled in mu dodajte polje po meri. Določite lahko položaj in velikost polja po meri v mreži z urejanjem lastnosti v pogledu.
+- Ustvarite nov pogled vnosa časa po meri in ga nastavite kot privzeti pogled. Ta pogled bi moral vsebovati **Opis** in **Zunanji komentarji** polja poleg stolpcev, ki jih želite vključiti v mrežo. Določite lahko položaj, velikost in privzeti vrstni red mreže z urejanjem lastnosti v pogledu. Nato konfigurirajte kontrolnik po meri za ta pogled, da bo nastavljen na **Mreža časovnih vnosov**. Dodajte kontrolnik v pogled in ga izberite za **spletu**, **·**, in **tablica**. Nato konfigurirajte parametre za **Tedenski vnos časa** mreža. Nastavite **Začetni datum** polje do **msdyn\_ datum**, nastavite **Trajanje** polje do **msdyn\_ trajanje**, in nastavite **Stanje** polje do **msdyn\_ vstopni status**. The **Seznam statusov samo za branje** polje je nastavljeno na **192350002 (odobreno)**, **(Oddano)**, oz **192350004 (zahtevan odpoklic)**.
 
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Dodajte polje po meri na ustrezno stran za urejanje
+Strani, ki se uporabljajo za urejanje časovnega vnosa ali vrstice časovnih vnosov, najdete pod **Obrazci**. The **Uredi vnos** gumb v mreži odpre **Uredi vnos** stran in **Uredi vrstico** gumb odpre **Urejanje vrstice** stran. Te strani lahko uredite tako, da vključujejo polja po meri.
 
-#### <a name="customize-a-view-and-add-a-custom-field"></a>Prilagodite pogled in dodajte polje po meri
+Obe možnosti odstranita vklopljeno filtriranje izven škatle **Projekt** in **Projektna naloga** entitete, tako da so vidni vsi pogledi iskanja za entitete. Med vnaprej pripravljenimi pogledi so vidni le ustrezni pogledi za iskanje.
 
-Prilagodite lahko pogled **Moji tedenski časovni vnosi** in mu dodate polje po meri. Izberete lahko položaj in velikost polja po meri v mreži, tako da uredite te lastnosti v pogledu.
+Določiti morate ustrezno stran za polje po meri. Najverjetneje, če ste polje dodali v mrežo, bi moralo iti na **Urejanje vrstice** stran, ki se uporablja za polja, ki veljajo za celotno vrstico časovnih vnosov. Če ima polje po meri vsakodnevno edinstveno vrednost v vrstici (na primer, če je to polje po meri za končni čas), bi moralo iti na **Urejanje časovnega vnosa** stran.
 
-#### <a name="create-a-new-default-custom-time-entry"></a>Ustvarite nov privzeti časovni vnos po meri
-
-Ta pogled mora poleg stolpcev, ki jih želite imeti v mreži, vsebovati še polja **Opis** in **Zunanji komentarji**. 
-
-1. Izberete lahko položaj, velikost in privzeto zaporedje razvrščanja mreže, tako da uredite te lastnosti v pogledu. 
-2. Konfigurirajte kontrolnik po meri za ta pogled, da bo nastavljen na kontrolnik **Mreža časovnih vnosov**. 
-3. Ta kontrolnik dodajte v pogled in ga izberite za splet, telefon in tablični računalnik. 
-4. Konfigurirajte parametre za tedensko mrežo časovnih vnosov. 
-5. Nastavite polje **Začetni datum** na **msdyn_date**, polje **Trajanje** na **msdyn_duration** in polje **Stanje** na **msdyn_entrystatus**. 
-6. Za privzeti pogled je polje **Seznam stanj samo za branje** nastavljeno na **192350002,192350003,192350004**. Polje **Potek opravila urejanja vrstice** je nastavljeno na **msdyn_timeentryrowedit**. Polje **Potek opravila urejanja celice** je nastavljeno na **msdyn_timeentryedit**. 
-7. Ta polja lahko prilagodite, če želite dodati ali odstraniti stanje samo za branje ali uporabiti drugačno izkušnjo na podlagi opravila (TBX) za urejanje vrstic ali celic. Ta polja so zdaj vezana na statično vrednost.
-
-
-> [!NOTE] 
-> Z obema načinoma boste odstranili nekaj vnaprej nastavljenih filtrirnih možnosti v entitetah **Projekt** in **Projektna opravila**, da bodo vidni vsi pogledi za iskanje po entitetah. Med vnaprej pripravljenimi pogledi so vidni le relevantni pogledi za iskanje.
-
-Določite ustrezen potek opravila za polje po meri. Če ste polje dodali v mrežo, bi se moralo prikazati v poteku opravila za urejanje vrstice, ki se uporablja za polja, ki veljajo za celotno vrstico časovnih vnosov. Če ima polje po meri vsak dan drugačno vrednost, tako kot na primer polje po meri za **Končni čas**, bi moralo iti v potek opravila za urejanje celic.
-
-Če želite dodati polje po meri v potek opravila, povlecite element **Polje** v ustrezen položaj na strani in nato nastavite lastnosti polja. Nastavite lastnost **Vir** na **Časovni vnos** in nato nastavite še lastnost **Podatkovno polje** v polje po meri. Lastnost **Polje** označuje prikazno ime na strani TBX. Izberite možnost **Uporabi**, da shranite spremembe v polju, in nato izberite možnost **Nadgradnja**, da shranite spremembe na strani.
-
-Če želite namesto tega uporabiti novo stran TBX po meri, ustvarite nov proces. Nastavite kategorijo na **Potek poslovnega procesa**, entiteto na **Časovni vnos** in nato še vrsto poslovnega procesa na **Zaženi proces kot potek opravila**. V razdelku **Lastnosti** mora biti lastnost **Ime strani** nastavljena na prikazno ime strani. Dodajte vsa ustrezna polja na stran TBX. Shranite in aktivirajte proces. Posodobite lastnost kontrolnika po meri za ustrezen potek opravila v vrednost **Ime** za izbrani postopek.
+Če želite na stran dodati polje po meri, povlecite a **Polje** element na ustrezen položaj na strani in nato nastavite njegove lastnosti.
 
 ### <a name="add-new-option-set-values"></a>Dodajanje novih vrednosti iz nabora možnosti
-Če želite dodati vrednosti iz nabora možnosti v vnaprej nastavljeno polje, odprite stran za urejanje polja in nato pod **Vrsta** ob naboru možnosti izberite **Uredi**. Dodajte novo možnost z oznako in barvo po meri. Če želite dodati novo stanje časovnega vnosa, je pravilno ime vnaprej pripravljenega polja **Stanje vnosa** in ne **Stanje**.
+Če želite dodati vrednosti nabor možnosti v polje izven škatle, sledite tem korakom.
+
+1. Odprite stran za urejanje polja in nato pod **Vrsta**, izberite **Uredi** poleg nabor možnosti.
+2. Dodajte novo možnost z oznako in barvo po meri. Če želite dodati nov status časovnega vnosa, se poimenuje polje izven škatle **Status vstopa**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Določitev novega stanja časovnega vnosa kot »samo za branje«
-Če želite določiti novo stanje časovnega vnosa kot »samo za branje«, dodajte novo vrednost časovnega vnosa z lastnostjo **Seznam vnosov, ki so na voljo samo za branje**. Del mreže časovnih vnosov, ki ga je mogoče urejati, bo zaklenjen za vrstice z novim stanjem.
-Nato dodajte pravila poslovanja, da zaklenete vsa polja v straneh TBX **Urejanje vrstice časovnega vnosa** in **Urejanje časovnega vnosa**. Do pravil poslovanja za te strani lahko dostopate tako, da odprete urejevalnik poteka poslovnega procesa za to stran in izberete **Pravila poslovanja**. Novo stanje lahko dodate v pogoj obstoječih pravil poslovanja ali pa novemu stanju dodate novo pravilo poslovanja.
+Če želite določiti novo stanje časovnega vnosa kot »samo za branje«, dodajte novo vrednost časovnega vnosa z lastnostjo **Seznam vnosov, ki so na voljo samo za branje**. Ne pozabite dodati številke, ne oznake. Del mreže za vnos časa, ki ga je mogoče urejati, bo zdaj zaklenjen za vrstice, ki imajo nov status. Za nastavitev **Seznam statusov samo za branje** lastnine različno za različne **Vnos časa** ogledov, dodajte **Vnos časa** mreža v pogledu **Kontrole po meri** razdelku in ustrezno konfigurirajte parametre.
+
+Nato dodajte poslovna pravila, da zaklenete vsa polja na **Urejanje vrstice** in **Urejanje časovnega vnosa** strani. Za dostop do poslovnih pravil za te strani odprite urejevalnik obrazcev za vsako stran in nato izberite **Poslovna pravila**. Novo stanje lahko dodate v pogoj obstoječih pravil poslovanja ali pa novemu stanju dodate novo pravilo poslovanja.
 
 ### <a name="add-custom-validation-rules"></a>Dodajanje pravil za preverjanje po meri
-Za izkušnjo tedenske mreže za vnos časa lahko dodate dve vrsti pravil preverjanja veljavnosti:
+Dodate lahko dve vrsti pravil za preverjanje veljavnosti za **Tedenski vnos časa** izkušnja mreže:
 
-- Poslovna pravila na strani odjemalca, ki delujejo v pogovornih oknih za hitro ustvarjanje in na straneh TBX.
-- Preverjanja vtičnikov na strani strežnika, ki veljajo za vse posodobitve vnosa časa.
+- Poslovna pravila na strani odjemalca, ki delujejo na straneh
+- Preverjanja vtičnikov na strani strežnika, ki veljajo za vse posodobitve časovnih vnosov
 
-#### <a name="business-rules"></a>Poslovna pravila
-Uporabite pravila poslovanja za zaklepanje in odklepanje polj, vnesite privzete vrednosti v polja in določite preverjanja, ki potrebujejo le informacije iz trenutnega zapisa časovnega vnosa. Do pravil poslovanja za stran TBX lahko dostopate tako, da odprete urejevalnik poteka poslovnega procesa za to stran in izberete **Pravila poslovanja**. Nato lahko urejate obstoječa pravila poslovanja ali dodate novo pravilo poslovanja. Za večjo izbiro prilagojenih preverjanj lahko uporabite pravilo poslovanja za zagon JavaScript.
+#### <a name="client-side-business-rules"></a>Poslovna pravila na strani odjemalca
+Uporabite pravila poslovanja za zaklepanje in odklepanje polj, vnesite privzete vrednosti v polja in določite preverjanja, ki potrebujejo le informacije iz trenutnega zapisa časovnega vnosa. Za dostop do poslovnih pravil za stran odprite urejevalnik obrazcev in nato izberite **Poslovna pravila**. Nato lahko urejate obstoječa pravila poslovanja ali dodate novo pravilo poslovanja.
 
-#### <a name="plug-in-validations"></a>Preverjanja vtičnika
-Uporabite preverjanje vtičnika za vsa preverjanja, ki zahtevajo več konteksta, kot je na voljo za posamezen zapis časovnega vnosa, ali vsa preverjanja, ki jih želite zagnati v posodobitvah znotraj vrstic v mreži. Če želite dokončati preverjanje, ustvarite vtičnik po meri v entiteti **Časovni vnos**.
+#### <a name="server-side-plug-in-validations"></a>Preverjanja vtičnikov na strani strežnika
+Uporabite validacije vtičnikov za vse validacije, ki zahtevajo več konteksta, kot je na voljo v enem zapisu časovnega vnosa. Uporabite jih tudi za morebitne validacije, ki jih želite zagnati pri vgrajenih posodobitvah v mreži. Če želite dokončati preverjanja, ustvarite vtičnik po meri na **Vnos časa** entiteta.
+
+### <a name="limits"></a>Omejitve
+Trenutno je **Vnos časa** mreža ima omejitev velikosti 500 vrstic. Če je več kot 500 vrstic, odvečne vrstice ne bodo prikazane. Te omejitve velikosti ni mogoče povečati.
 
 ### <a name="copying-time-entries"></a>Kopiranje časovnih vnosov
 Uporabite pogled **Kopiraj stolpce časovnih vnosov**, da določite seznam polj, ki jih želite kopirati med vnosom časa. **Datum** in **Trajanje** sta obvezni polji, ki jih ne smete odstraniti iz pogleda.

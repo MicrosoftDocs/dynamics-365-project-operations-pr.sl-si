@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 06490148d0f245ac49d5599e0e23bc1a59976204
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987591"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580384"
 ---
 # <a name="unit-groups-and-units"></a>Skupine enot in enote
 
@@ -86,7 +87,7 @@ Ta primer prikazuje, kako PSA uporablja skupino enot, enote in faktorje za pretv
 
 | Vloga      | Skupina enot | Enota | Organizacijska enota | Cena   |
 |-----------|------------|------|---------------------|---------|
-| Razvijalec | Čas       | dan  | Contoso Združeno kraljestvo          | 800 GBP |
+| Developer | Time       | Day  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Časovni vnos
 

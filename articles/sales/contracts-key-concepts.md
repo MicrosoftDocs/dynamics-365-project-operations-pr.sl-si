@@ -4,26 +4,26 @@ description: Ta tema vsebuje informacije o ključnih pojmih projektnih pogodb v 
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986961"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582960"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Koncepti, enolični za pogodbe, ki temeljijo na projektih
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Ta tema vsebuje ključne koncepte, ki jih morate upoštevati, preden začnete uporabljati Projektne pogodbe v aplikaciji Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Lastniško podjetje
 
-Lastniško podjetje je pravna osebe v modulu **Vodenje projektov in računovodstvo** v aplikaciji Project Operations iz storitve Dynamics 365 Finance. Lastniško podjetje predstavlja pravno osebo, ki bo obračunala stroške in prihodke, ki nastanejo pri poslu.
+Lastniška družba je pravna oseba iz **Vodenje projektov in računovodstvo** modul za projektne operacije iz Dynamics 365 Finance. Lastniško podjetje predstavlja pravno osebo, ki bo obračunala stroške in prihodke, ki nastanejo pri poslu.
 
 ## <a name="contracting-unit"></a>Pogodbena enota
 

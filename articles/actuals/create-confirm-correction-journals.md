@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986736"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582823"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Ustvarjanje in potrjevanje dnevnikov popravkov
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Občasno je vnos za čas ali strošek vnesen napačno. Svetovalec lahko na primer pri ustvarjanju časovnega vnosa izbere napačen datum ali pa prenese številke pri vnosu stroška. Če svetovalec ne more posodobiti poslanih vnosov, lahko skrbnik neposredno popravi vnos za projekt.
-
-Za dokončanje postopkov v tej temi boste potrebovali skrbniška dovoljenja.
+Včasih je lahko vnos časa ali stroškov napačno vpisan. Na primer, svetovalec lahko izbere napačen datum, ko ustvari vnos časa, ali pa izbere napačen projekt, ko vnese strošek. Če svetovalec ne more posodobiti predloženih vnosov, lahko zaledni skrbnik neposredno popravi dejanske podatke za projekt.
 
 ## <a name="correct-approved-time-entries"></a>Popravek odobrenih časovnih vnosov     
 
@@ -46,8 +42,8 @@ Za popravljanje posameznega ali več časovnih vnosov za projekt izvedite nasled
 
 6. Izberite **Predogled**. V pogovornem oknu izberite **V redu**. Na zavihku **Vrstice dnevnika** si lahko ogledate seznam prvotnih dejanskih vrednosti, povezanih z izbranimi časovnimi vnosi, ki so bili razveljavljani, ter popravljene ustrezne vrstice, ki so bile ustvarjene. Če je treba izvesti dodatne popravke, ponovite 5. in 6. korak. 
 
-> [!NOTE]
-> Vse popravljene dejanske vrednosti bodo imele iste vrednosti, kot ste jih izbrali v razdelku **Nove vrednosti za časovne vnose**.
+    > [!NOTE]
+    > Vse popravljene dejanske vrednosti bodo imele iste vrednosti, kot ste jih izbrali v razdelku **Nove vrednosti za časovne vnose**.
 
 7. Če se popravki prikažejo po pričakovanjih, izberite **Potrdi**. V pogovornem oknu izberite **V redu**.
 
@@ -55,12 +51,10 @@ Za popravljanje posameznega ali več časovnih vnosov za projekt izvedite nasled
 
 9. Na strani **Projekti** v zavihku **Opravljeno delo** si oglejte spremembe, ki ste jih izvedli. 
 
-> [!NOTE]
-> Če zavihek **Opravljeno delo** ni viden, izberite **Povezano** > **Opravljeno delo**.  
+    > [!NOTE]
+    > Če zavihek **Opravljeno delo** ni viden, izberite **Povezano** > **Opravljeno delo**.  
 
 10. Na seznamu **Povezani pogled za opravljeno delo** lahko vidite, da so prvotni časovni vnosi, ki so bili razveljavljeni, še vedno navedeni, navedeni pa so tudi ustrezni popravljeni časovni vnosi. 
-
-Na naslednji grafiki sta na primer dve vrstični postavki s količino 8,00, ki imata bremena, navedena v stolpcu »Znesek«. Poleg tega sta v stolpcu »Znesek« prikazani dve vrstici s količino –8,00, ki prikazujeta znesek, knjižen v dobro. S temi popravki se količina zmanjša na nič.
 
  
 ## <a name="correct-approved-expense-entries"></a>Popravek odobrenih vnosov stroškov
@@ -79,14 +73,30 @@ Za popravljanje enega ali več vnosov stroškov opravite naslednje korake.
 
 6. Če so popravljene vrednosti v skladu s pričakovanji, izberite **Potrdi**. V pogovornem oknu izberite **V redu**. Če vrednosti niso prikazane v skladu s pričakovanji, izberite **Prekliči**, da se vrnete na seznam **Odobreni stroški**. Ponovite korake od 2. do 5. 
 
-> [!NOTE]
-> Popravljene dejanske vrednosti bodo imele iste vrednosti, kot ste jih izbrali v razdelku **Nove vrednosti za stroške**.
+7. Ko potrdite dnevnik popravkov, se vrnite na projekt ali projekte, ki ste jih posodobili, da si ogledate svoje spremembe.
 
-7. Ko potrdite dnevnik za popravke, se pomaknite nazaj do projekta ali projektov, ki ste jih posodobili, da si ogledate spremembe.  
-
-8. Na strani projekta, na zavihku **Opravljeno delo** preglejte **Povezani pogled za opravljeno delo**. Izvirni vnosi in popravljeni vnosi so navedeni. Naslednji grafični prikaz prikazuje izvirne zneske za vnos stroška in ustrezne popravljene zneske za vnos stroška. 
+8. Na strani projekta, na **Dejansko stanje** zavihek, preglejte **Dejanski povezani pogled** seznam. Izvirni vnosi in popravljeni vnosi so navedeni.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Popravite odobrene dnevnike uporabe materiala
+
+Izvedite naslednje korake, da popravite enega ali več vnosov v dnevnik porabe materiala.
+
+1. V **Prodaja** območje, v levem podoknu za krmarjenje, pod **Transakcije**, izberite **Dejansko stanje**.
+
+2. V **Dejansko stanje** seznamu, uporabite filtre stolpcev, da izberete **Material** transakcijski razred, tako da so prikazani samo dejanski podatki za materiale. Uporabite druge filtre stolpcev, da dodatno omejite prikazane dejanske vrednosti. Ko najdete želeni niz dejanskih vrednosti, izberite dejanske vrednosti in nato izberite **Pravilni vnosi**. Nov dnevnik popravkov se samodejno ustvari in **Popravek materiala** vrsta je dodeljena.
+
+3. Na **Novi časopis** strani, v **Opis** vnesite opis popravka. Nato na **Popravek materiala** zavihek, v **Nove vrednosti za materiale** razdelku izberite podatkovna polja, ki jih želite popraviti za izbrane vrstice materiala. Gradivo lahko na primer dodelite drugemu projektu ali popravite izdelek, datum materiala ali pogodbo s podizvajalcem.
+
+4. Izberite **Predogled**. Nato v pogovornem oknu izberite **v redu**.
+
+5. Na **Dnevniške vrstice** zavihek, preverite popravke. Ogledate si lahko seznam prvotnih dejanskih dejstev, ki se nanašajo na izbrane vnose materiala, ki so bili obrnjeni, in popravljene ustrezne vrstice, ki so bile ustvarjene.
+
+6. Če so popravljene vrednosti v skladu s pričakovanji, izberite **Potrdi**. Nato v pogovornem oknu izberite **v redu**. Če vrednosti niso po pričakovanjih, izberite **Prekliči** da se vrnem na **Dejansko stanje** seznam. Nato ponovite korake od 2 do 5.
+
+7. Ko potrdite dnevnik popravkov, se vrnite na projekt ali projekte, ki ste jih posodobili, da si ogledate svoje spremembe.
+
+8. Na strani projekta, na **Dejansko stanje** zavihek, preglejte **Dejanski povezani pogled** seznam. Izvirni vnosi in popravljeni vnosi so navedeni.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

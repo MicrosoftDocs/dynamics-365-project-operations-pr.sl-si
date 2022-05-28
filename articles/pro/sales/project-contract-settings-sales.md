@@ -2,16 +2,16 @@
 title: Nastavitve projektnih pogodb – poenostavljeno
 description: Ta tema vsebuje informacije o poljih, ki vplivajo na podrobnosti pogodbe, in informacije o pogodbi, ki so povzete v vrstičnih postavkah.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995961"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586410"
 ---
 # <a name="header-details-for-project-contracts"></a>Podrobnosti glave za projektne pogodbe
 
@@ -32,12 +32,15 @@ V naslednji tabeli so navedena polja v projektni pogodbi, ki so edinstvena za ap
 | Omejitev »Ni dovoljeno preseči« | Zavihek **Povzetek** | To polje pomeni dogovorjeno zgornjo mejo končne vrednosti, s katero se stranka strinja za ta posel. | Zgornja meja se oceni med izvajanjem ter velja za vse vrstične postavke in projekte, povezane s tem poslom. |
 | Zahtevani datum dostave | Zavihek **Povzetek** | V pogodbi, ustvarjeni iz projektne ponudbe, se ta vrednost kopira iz ustreznega polja pri projektni ponudbi. | Ta datum se uporablja kot končni datum za ustvarjanje razporedov za izdajanje računov. |
 
-Naslednji KPI-ji so na voljo na zavihku **Izvedba pogodbe** projektne pogodbe.
+Naslednji KPI-ji so na voljo na zavihku **Izvedba pogodbe** projektne pogodbe. 
 
-| Polje | LOkacija | Opis |
+>[!NOTE]
+>Vsi zneski na **Izvedba pogodbe** tab so izražene v privzeti valuti okolja.
+
+| Polje | LOkacija | Description |
 | --- | --- | --- |
-| Vrednost pogodbe | Splošna pogodba | Skupna vrednost projektne pogodbe. |
-| Obračunani znesek | Splošna pogodba | Vsota zneskov na vseh računih za to pogodbo. |
+| Vrednost pogodbe | Splošna pogodba | Skupna vrednost pogodbe o projektu.|
+| Obračunani znesek | Splošna pogodba | Vsota zneskov na vseh računih za to pogodbo.|
 | Nastali stroški | Splošna pogodba | Vsota vseh dejanskih stroškov, zabeleženih za vse projekte, ki so preslikani v pogodbo. |
 | Stopnja bruto dobička | Splošna pogodba | Obračunani znesek – strošek, nastal do datuma/obračunani znesek |
 | Pričakovana marža | Splošna pogodba | (vrednost naročila – ocenjeni stroški)/vrednost pogodbe; ocenjeni stroški = vsota vseh ocenjenih stroškov za vse projekte, preslikane v pogodbo.|

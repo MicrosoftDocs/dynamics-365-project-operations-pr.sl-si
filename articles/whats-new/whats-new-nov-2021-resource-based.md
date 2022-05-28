@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942905"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584892"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti v novembru 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
@@ -21,7 +21,7 @@ ms.locfileid: "7942905"
 Ta tema velja za naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
 
 - Projektno delovanje v a Dataverse različica okolja 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
-- Vodenje projektov in računovodstvo v a Dynamics 365 Finance različica okolja 10.0.22
+- Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 

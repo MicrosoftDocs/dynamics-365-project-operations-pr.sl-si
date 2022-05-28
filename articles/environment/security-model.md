@@ -4,20 +4,20 @@ description: Ta tema vsebuje informacije o varnostnem modelu v aplikaciji Dynami
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991506"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585766"
 ---
 # <a name="security-model"></a>Varnostni model
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Microsoft Dynamics 365 Project Operations vsebuje edinstven varnostni model, ki omogoča delovanje poslovnega varnostnega modela, ki sodeluje s skupinami v Microsoft Office. 
 
@@ -70,7 +70,7 @@ Z razvojem modela za sodelovanje v skupini Office bo dodana funkcionalnost, ki b
 
 Za več informacij glejte [Varnost v Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Varnost v storitvah Project Operations in Microsoft Dynamics 365 Finance
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Projektno delovanje in Microsoft Dynamics 365 Finančna varnost
 Storitev Project Operations vključuje naslednje vloge:
 
 - Vodja projektov

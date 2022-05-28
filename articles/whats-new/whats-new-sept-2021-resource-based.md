@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547174"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582914"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti za september 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547174"
 Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
    - Project Operations v različici okolja 4.14.0.99. storitve Microsoft Dataverse.
-   - Upravljanje projektov in računovodstvo v različici okolja 10.0.20 storitve Dynamics 365 Finance.
+   - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Posodobitve preslikave za dvojno zapisovanje za Project Operations
 
@@ -45,7 +45,7 @@ Vedno, ko posodabljate različico rešitev Project Operations Dataverse in Finan
 | Zaračunavanje in oblikovanje cen | 2385802 | Odpravljena napaka, do katere pride z negativnimi dejanskimi urami, ko so skupne vrednosti za projekt osvežene. |
 | Zaračunavanje in oblikovanje cen | 2389675 | Izboljšano delovanje potrditve predračuna. Entiteta dolgotrajnih poslov mora upoštevati dejavnost, ki je obvezna za zapisovanje rezultatov potrditve za računovodstvo. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pregled upravljanja projektov in računovodstva v storitvi Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Vodenje projektov in računovodstvo v Dynamics 365 Finance
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |

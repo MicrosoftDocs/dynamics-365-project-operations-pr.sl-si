@@ -1,92 +1,37 @@
 ---
-title: Povezava dejanskih vrednosti z izvirnimi zapisi
-description: Ta tema pojasnjuje, kako povezati dejanske vrednosti z izvirnimi zapisi, kot so vnos časa, vnos stroškov ali dnevniki uporabe materiala.
+title: Izvor transakcije – povežite dejanske podatke z njihovim virom
+description: Ta tema pojasnjuje, kako se koncept izvora transakcije uporablja za povezavo dejanskih dejstev z izvirnimi izvornimi zapisi, kot so vnos časa, vnos stroškov ali dnevniki porabe materiala.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 908f78f7d58ec4b18f37d03b6fa7c4e2295491fa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991776"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584846"
 ---
-# <a name="link-actuals-to-original-records"></a>Povezava dejanskih vrednosti z izvirnimi zapisi
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Izvor transakcije – povežite dejanske podatke z njihovim virom
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-
-V aplikaciji Dynamics 365 Project Operations je *poslovna transakcija* abstrakten koncept, ki ga ne predstavlja entiteta. Vendar so nekatera skupna področja in procesi za entitete zasnovani tako, da uporabljajo koncept poslovnih transakcij. Ta koncept uporabljajo naslednje entitete:
-
-- Podrobnosti vrstice ponudb
-- Podrobnosti vrstice pogodb
-- Vrstice ocen
-- Vrstice dnevnikov
-- Opravljeno delo
-
-Od teh entitet so **podrobnosti vrstice ponudb**, **podrobnosti vrstice pogodb** in **vrstice ocen** preslikane na stopnjo ocenjevanja v življenjskem ciklu projekta. Entiteti **Vrstice dnevnikov** in **Dejanske vrednosti** so preslikane na stopnjo izvedbe v življenjskem ciklu projekta.
-
-Project Operations prepozna zapise v teh petih entitetah obravnava kot poslovne transakcije. Edina razlika je, da se zapisi v entitetah, ki so preslikane na stopnjo ocenjevanja, upoštevajo kot finančne napovedi, medtem ko se zapisi v entitetah, ki so preslikane na stopnjo izvedbe, upoštevajo kot finančna dejstva, ki so se že zgodila.
-
-## <a name="concepts-that-are-unique-to-business-transactions"></a>Koncepti, ki so značilni za poslovne transakcije
-Naslednji koncepti so značilni za koncept poslovnih transakcij:
-
-- Vrsta transakcije
-- Razred transakcije
-- Izvor transakcije
-- Povezava transakcije
-
-### <a name="transaction-type"></a>Vrsta transakcije
-
-Vrsta transakcije predstavlja čas in kontekst finančnega učinka na projekt. Predstavlja jo nabor možnosti, ki ima v aplikaciji Project Operations naslednje podprte vrednosti:
-
-  - Cena
-  - Projektna pogodba
-  - Neobračunana prodaja
-  - Obračunana prodaja
-  - Prodaja znotraj organizacije
-  - Cena enote vira
-
-### <a name="transaction-class"></a>Razred transakcije
-
-Razred transakcije predstavlja različne vrste stroškov, ki nastanejo pri projektih. Predstavlja jo nabor možnosti, ki ima v aplikaciji Project Operations naslednje podprte vrednosti:
-
-  - Čas
-  - Stroški
-  - Material
-  - Dajatev
-  - Mejnik
-  - Davek
-
-Vrednost **Mejnik** se v aplikaciji Project Operations običajno uporablja v poslovni logiki za obračunavanje fiksnih cen.
-
-### <a name="transaction-origin"></a>Izvor transakcije
-
-**Izvor transakcije** je entiteta, ki shranjuje izvor vsake poslovne transakcije. Ko se projekt začne izvajati, bo vsaka poslovna transakcija privedla do druge poslovne transakcije, ki pa bo ustvarila novo in tako naprej. Entiteta izvora transakcije je zasnovana za shranjevanje podatkov o izvoru vsake transakcije za pomoč pri poročanju in sledljivosti. 
-
-### <a name="transaction-connection"></a>Povezava transakcije
-
-**Povezava transakcije** je entiteta, ki shranjuje odnos med dvema podobnima poslovnima transakcijama, kot so stroški in povezani dejanski podatki o prodaji ali stornirane transakcije, ki jih sprožijo obračunske dejavnosti, kot sta potrditev računa ali popravki računa.
-
-Skupaj vam **izvor transakcije** in **povezava transakcije** pomagata spremljati odnose med poslovnimi transakcijami in dejanji, ki povzročijo ustvarjanje določene poslovne transakcije.
-
-### <a name="example-how-transaction-origin-works-with-transaction-connection"></a>Primer: delovanje izvora transakcije s povezavo transakcije
+Zapisi izvora transakcij so ustvarjeni za povezavo dejanskih dejstev z njihovim virom, kot so vnosi časa, vnosi stroškov, dnevniki porabe materiala in projektni računi.
 
 Naslednji primer prikazuje običajno obdelavo časovnih vnosov v življenjskem ciklu projekta v aplikaciji Project Operations.
 
-> ![Obdelava časovnih vnosov v življenjskem ciklu projekta v aplikaciji Project Service.](media/basic-guide-17.png)
+> ![Celoten čas obdelave v projektnih operacijah.](media/basic-guide-17.png)
  
-1. Pošiljanje časovnega vnosa ustvari dve vrstici dnevnika: eno za strošek in eno za neobračunano prodajo.
-2. Morebitna odobritev časovnega vnosa ustvari dve dejanski vrednosti: eno za strošek in eno za neobračunano prodajo.
-3. Ko je ustvarjen nov račun projekta, se transakcija vrstice računa ustvari z uporabo podatka iz dejanske vrednosti neobračunane prodaje. 
-4. Ko je račun potrjen, sta ustvarjeni dve novi dejanski vrednosti: dejanska vrednost stornirane neobračunane prodaje in obračunane prodaje.
+1. Predložitev časovnega vnosa povzroči, da se ustvarita dve vrstici dnevnika: ena za stroške in ena za neobračunano prodajo.
+2. Končna odobritev časovnega vnosa povzroči, da se ustvarita dve dejanski vrednosti: ena za stroške in ena za neobračunano prodajo.
+3. Ko uporabnik ustvari račun projekta, se transakcija vrstice računa ustvari z uporabo podatka iz dejanske vrednosti neobračunane prodaje.
+4. Ko je račun potrjen, sta ustvarjeni dve novi dejanski vrednosti: stornirana neobračunana prodaja in dejanska vrednost obračunane prodaje.
 
-Vsak od teh dogodkov ustvari zapis v entitetah **izvor transakcije** in **povezava transakcije**. Ti novi zapisi pomagajo ustvariti zgodovino odnosov med zapisi, ki so ustvarjeni v časovnem vnosu, vrstici dnevnika, dejanskih podatkih in podrobnostih vrstice računa.
+Vsak dogodek v tem delovnem toku obdelave sproži ustvarjanje zapisov v izvorni entiteti transakcije, da se pomaga zgraditi sled Odnosi med temi zapisi, ki so ustvarjeni med vnosom časa, vrstico dnevnika, dejanskimi podatki in podatki v vrstici računa.
 
-Spodnja tabela prikazuje zapise v entiteti **izvora transakcije** za predhodni potek dela.
+Spodnja tabela prikazuje zapise v entiteti izvora transakcije izvora za predhodni potek dela.
 
 | Dogodek                        | Izvor                   | Vrsta izvora                       | Transakcija                       | Vrsta transakcije         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
@@ -122,20 +67,11 @@ Spodnja tabela prikazuje zapise v entiteti **izvora transakcije** za predhodni p
 | GUID zapisa vrstice dnevnika     | Vrstica dnevnika             | GUID novega dejanskega zneska neobračunane prodaje    | Dejansko                            |                          |
 | GUID popravka podr. vr. rač.          | Transakcija vrstice računa | GUID novega dejanskega zneska neobračunane prodaje    | Dejansko                            |                          |
 | GUID popravka vrst. rač.           | Vrstica računa             | GUID novega dejanskega zneska neobračunane prodaje    | Dejansko                            |                          |
-| GUID popravka računa      | Račun                  | GUID novega dejanskega zneska neobračunane prodaje    | Dejansko                            |                          |
+| GUID popravka računa      | Kupec                  | GUID novega dejanskega zneska neobračunane prodaje    | Dejansko                            |                          |
 
-Spodnja tabela prikazuje zapise v entiteti **povezave transakcije** za predhodni potek dela.
 
-| Dogodek                          | Transakcija 1                 | Vloga transakcije 1 | Vrsta transakcije 1           | Transakcija 2                | Vloga transakcije 2 | Vrsta transakcije 2 |
-|--------------------------------|-------------------------------|--------------------|------------------------------|------------------------------|--------------------|--------------------|
-| Pošiljanje časovnega vnosa          | GUID vrstice dnevnika (prodaje)     | Neobračunana prodaja     | msdyn_journalline            | GUID vrstice dnevnika (stroška)     | Stroški               | msdyn_journalline  |
-| Odobritev časa                  | GUID dejanskega neobračunanega zneska (prodaje)  | Neobračunana prodaja     | msdyn_actual                 | GUID dejanske vrednosti stroška (strošek)       | Stroški               | msdyn_actual       |
-| Ustvarjanje računa               | GUID podrobnosti vrstice računa      | Obračunana prodaja       | msdyn_invoicelinetransaction | GUID dejanskega neobračunanega zneska prodaje   | Neobračunana prodaja     | msdyn_actual       |
-| Potrditev računa           | GUID storniranega dejanskega zneska         | Storniranje          | msdyn_actual                 | GUID izvorne neobračunane prodaje | Izvirnik           | msdyn_actual       |
-| GUID obračunane prodaje              | Obračunana prodaja                  | msdyn_actual       | GUID dejanskega neobračunanega zneska prodaje   | Neobračunana prodaja               | msdyn_actual       |                    |
-| Popravek osnutka računa       | GUID transakcije vrstice računa | Nadomeščanje          | msdyn_invoicelinetransaction | GUID obračunane prodaje            | Izvirnik           | msdyn_actual       |
-| Potrditev popravka računa     | GUID storniranja obračunane prodaje    | Storniranje          | msdyn_actual                 | GUID obračunane prodaje            | Izvirnik           | msdyn_actual       |
-| GUID novega dejanskega zneska neobračunane prodaje | Nadomeščanje                     | msdyn_actual       | GUID obračunane prodaje            | Izvirnik                     | msdyn_actual       |                    |
+Naslednja slika prikazuje povezave, ki so ustvarjene med dejanskimi stvarmi in njihovimi viri na različnih dogodkih na primeru časovnih vnosov v Operacijah projekta.
 
+> ![Kako so dejanski podatki povezani z izvornimi zapisi v Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

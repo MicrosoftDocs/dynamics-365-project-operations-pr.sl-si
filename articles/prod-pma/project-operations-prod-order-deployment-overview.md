@@ -3,16 +3,15 @@ title: Pregled uvajanja aplikacije Project Operations za scenarije, ki temeljijo
 description: Ta tema vsebuje informacije o vrsti uvajanja aplikacije Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: de9a83949a838f8ca90771022339c6da17f6dde1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009101"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582500"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Pregled uvajanja aplikacije Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji
 
@@ -23,21 +22,21 @@ Ta vrsta uvajanja ima za podjetja, ki temeljijo na projektu, naslednje zmogljivo
 
 - Načrtovanje projekta z uporabo [strukturirane členitve dela](work-breakdown-structures.md)
 - Oskrba in poraba zalog za projekte
-- Upravljanje prodaje na podlagi projektov z modulom **Prodaja in trženje** v aplikaciji Dynamics 365 Finance and Operations
-- Določanje cen in stroškov za projekt s konfiguracijami za mere stroškov in deleže obračunavanja v aplikacijah Finance and Operations
-- Upravljanje virov za projekte v aplikacijah Finance and Operations
-- Napredek projekta in sledenje času v aplikacijah Finance and Operations
+- Upravljanje projektne prodaje z uporabo **Prodaja in trženje** modul v Dynamics 365 Finance and Operations aplikacijah
+- Projektno oblikovanje cen in stroškov z uporabo konfiguracij stroškovne stopnje in obračunske stopnje v aplikacijah Finance in Operations
+- Upravljanje virov za projekte v aplikacijah Finance in Operations
+- Napredek projekta in spremljanje časa v aplikacijah Finance in Operations
 - Izkušnje upravljanja stroškov za projektne in neprojektne stroške z zajemanjem potrdil z uporabo zmogljivosti optičnega prepoznavanja znakov
 - Izdajanje računov s sistemom za prometni davek in menjalni tečaj ki ima datum začetka veljavnosti, v podjetniškem razredu
 - Nastavljive projektne skupine za računovodstvo in razmejitev dela v teku (WIP)
 - Pripoznavanje prihodkov projekta
 
-Ta vrsta uvajanja ponuja tudi razširitev funkcionalnosti, ki jo zagotavljata aplikaciji Dynamics 365 Finance in Dynamics 365 Supply Chain Management.
+Ta vrsta uvajanja zagotavlja tudi razširitev funkcionalnosti, ki jo zagotavljata Dynamics 365 Finance in Dynamics 365 Supply Chain Management aplikacije.
 
 Izberite to vrsto uvajanja, če želite aplikacijo Dynamics 365 Project Operations uporabljati za celotni življenjski cikel projekta, vključno z naslednjimi ključnimi zahtevami:
 
 - Obsežen sistem upravljanja projektov, ki upravlja elemente na zalogi in stroške naročil posla/v proizvodnji nalogov za interne in plačljive projekte za razporede in finance.
-- Organizacija že ima aplikacijo Dynamics 365 Finance ali aplikaciji Dynamics 365 Supply Chain in Manufacturing, vključevanje transakcij, ki temeljijo na projektu, pa bodo poenostavili dostop do podatkov in namene poročanja.
+- Organizacija že ima aplikacije Dynamics 365 Finance ali Dynamics 365 Supply Chain in Manufacturing, integracija transakcij, ki temeljijo na projektih, pa bo poenostavila dostop do podatkov in potrebe poročanja.
 - V celoti funkcionalen sistem upravljanja stroškov, ki vključuje izvajanje politik in povračila stroškov za sledenje projektnim in neprojektnim stroškom.
 - Mehanizem za prometni davek in menjalni tečaj v podjetniškem razredu za ustvarjanje računov, usmerjenih k strankam, za projekte.
 - Sistem vodenja računov projekta in pripoznavanja prihodkov, skladen z mednarodnimi standardi finančnega poročanja (IFRS).

@@ -4,14 +4,14 @@ description: Ta tema vsebuje informacije za pomoč pri izbiri prave vrste uvajan
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994656"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584156"
 ---
 # <a name="determine-your-deployment-type"></a>Določanje vrste uvedbe
 
@@ -25,7 +25,7 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoč
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Obstoječe stranke rešitve Dynamics, ki uporabljajo aplikacijo Dynamics 365 Project Service Automation
 Aplikacija Project Operations vključuje zmogljivosti, ki so bile na voljo v aplikaciji Project Service Automation. Pot nadgradnje bo tem strankam izdana v 1. valu izdaj za leto 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Obstoječe stranke aplikacije Dynamics 365 Finance, ki uporabljajo Projektno vodenje in računovodstvo 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Obstoječe stranke Dynamics 365 Finance uporabljajo projektno vodenje in računovodstvo 
 
 Obstoječe stranke rešitve Finance, ki uporabljajo funkcionalnost upravljanja projektov in računovodstva lahko nadaljujejo z uporabo rešitve, kakršna je. Glejte razdelek [Aplikacija Project Operations za scenarije z naročili na zalogi/v proizvodnji](#pma).
 
@@ -42,7 +42,7 @@ Naš [vprašalnik o uvajanju](https://aka.ms/provisionprojectoperations) vam bo 
 - [Project Operations za primere uporabe z viri/brez zalog](#integrated)
 - [Project Operations za primere uporabe z naročili na zalogi/v proizvodnji](#pma)
 
-Aplikacija Project Operations podpira primere naročil na zalogi/v proizvodnji in primere z viri/brez zalog v istem okolju prek konfiguracij na ravni pravne osebe. Contoso lahko na primer uporablja zmogljivosti zalog/proizvodnje naročil v ameriškem proizvodnem obratu (pravna oseba = Contoso Manufacturing United States). Contoso lahko v svoji ustanovi za servisiranje Contoso Robotics Arms uporabi zmogljivosti, ki temeljijo na manjkajoči zalogi/virih (pravna oseba = Contoso Robotics United Kingdom).
+Aplikacija Project Operations podpira primere naročil na zalogi/v proizvodnji in primere z viri/brez zalog v istem okolju prek konfiguracij na ravni pravne osebe. Družba Contoso lahko na primer izkoristi zmogljivosti zalog/proizvodnih naročil v svojem ameriškem proizvodnem obratu (pravna oseba = Contoso Manufacturing United States). Družba Contoso lahko na primer izkoristi zmogljivosti virov/brez zalog v njihovem obratu za servisiranje Contoso Robotics Arms v ZK (pravna oseba = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Poenostavljeno uvajanje – posel do izstavitve predračuna
 
