@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992721"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597082"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Novosti in spremembe v storitvi Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji (julij 2021)
 
@@ -20,7 +20,7 @@ _**Velja za:** storitev Project Operations za scenarije, ki temeljijo na zalogi/
 
 Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
-- Upravljanje projektov in računovodstvo v različici okolja 10.0.20 storitve Dynamics 365 Finance
+- Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.20
  
 ### <a name="quality-updates"></a>Posodobitve kakovosti
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Proj
 | Pot in stroški                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Če poteka dela ni mogoče najti, mora orodje **Ponastavi stanje dokumenta o stroških** stanje poročila o stroških ponastaviti na možnost **Osnutek**. 
 
 ### <a name="regulatory-updates"></a>Regulativne posodobitve
-Za informacije o regulativnih posodobitvah za aplikacije Finance and Operations glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev Lifecycle Services (LCS) in si s pomočjo orodja za iskanje težav ogledate načrtovane regulativne posodobitve. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+Za informacije o regulativnih posodobitvah za aplikacije Finance in Operations glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev Lifecycle Services (LCS) in si s pomočjo orodja za iskanje težav ogledate načrtovane regulativne posodobitve. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

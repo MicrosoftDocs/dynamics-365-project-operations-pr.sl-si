@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e5175b12c9e06962888bf09c8e07119b9505dda
-ms.sourcegitcommit: 2aba2082d50b20b596ee86735045644cd647c2b0
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 16994535d57dc1d7fefbe6e892c154f52638c7c0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7901520"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598738"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-38-v3"></a>Novosti ali spremembe v izdaji posodobitve za Project Service Automation 38, V3
 
@@ -45,7 +46,7 @@ Odpravljene so naslednje težave:
 
 **Vodenje projektov**
 
-- Obrisi niso pravilno prikazani v dodelitvah sredstev za UTC(+09:30) in UTC(+10:00), ko se začne poletni čas.
+- Obrisi niso pravilno prikazani v dodelitvah virov za UTC(+09:30) in UTC(+10:00), ko se začne poletni čas.
 - The **Dodatni stolpec** polje za strukture razčlenitve dela je skrito v nekaterih jezikih.
 - Izbirnik datuma za kontrolnik koledarja v **Projektna naloga** mreža ni pravilno lokalizirana za kitajščino.
 

@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 5788378c7e015c4b11182aaf427aca7d1da48b40
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987411"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598968"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Ustvarjanje predloge delovnih ur (rešitev Project Service)
 
@@ -49,7 +50,7 @@ Predloga koledarja, ki se uporablja za projekt, je kopija predloge koledarja, do
 
 1. Odprite možnost **Viri** \> **Viri**.
 2. Ustvarite nov vir za sklicevanje v predlogi koledarja ali izberite obstoječega.
-3. Izberite zavihek **Delovni čas** vira in upoštevajte navodila v članku [Nastavitev delovnih ur za vir](/dynamics365/field-service/set-work-hours-resource.md), da konfigurirate pravila koledarja.
+3. Izberite zavihek **Delovni čas** vira in upoštevajte navodila v članku [Nastavitev delovnih ur za vir](/dynamics365/field-service/set-work-hours-resource), da konfigurirate pravila koledarja.
 
 **Ustvarjanje nove predloge koledarja**
 

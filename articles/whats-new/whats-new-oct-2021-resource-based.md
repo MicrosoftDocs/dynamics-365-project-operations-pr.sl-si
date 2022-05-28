@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753312"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598508"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti za oktober 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753312"
 Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
    - Project Operations v različici okolja 4.25.0.91 storitve Microsoft Dataverse
-   - Upravljanje projektov in računovodstvo v okolju Dynamics 365 Finance, različica 10.0.21
+   - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 
@@ -49,7 +49,7 @@ Vedno, ko posodabljate različico rešitev Project Operations Dataverse in Finan
 | Zaračunavanje in cene | 2338357 | Valuta v dnevniku uporabe materiala mora biti prevzeta iz valute projekta, ko je projekt izbran. |
 | Čas in strošek | 2414777 | Preklic odobritve, če ima vnos stroška ali časa več kot eno povezano odobritev projekta, mora biti mogoč. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Pregled upravljanja projektov in računovodstva v storitvi Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Vodenje projektov in računovodstvo na Dynamics 365 Finance
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |

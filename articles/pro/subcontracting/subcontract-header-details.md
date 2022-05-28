@@ -4,14 +4,14 @@ description: V okviru te teme so pojasnjene funkcije, ki so na voljo v glavi pod
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee863d31b45e7de962488fe804202ddfe580eb04
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501346"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598186"
 ---
 # <a name="header-details-for-subcontracts"></a>Podrobnosti glave za podizvajalske pogodbe
 

@@ -4,14 +4,14 @@ description: Ta tema vsebuje informacije o tem, kako ustvariti in uporabljati pr
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993576"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594230"
 ---
 # <a name="set-up-cost-templates"></a>Nastavitev predlog stroškov
 
@@ -56,7 +56,7 @@ Odločitev, kateri pristop uporabiti za izdelavo predloge stroškov, je lahko od
 ## <a name="create-cost-templates"></a>Ustvarjanje predlog stroškov
 Za ustvarjanje predlog stroškov sledite spodnjim navodilom:
 
-1. Za dostop do predlog stroškov v okolju Dynamics 365 Finance pojdite v razdelek **Upravljanje projektov in računovodstvo** > **Nastavitev** > **Ocene** > **Predloga stroškov**.
+1. Za dostop do predlog stroškov v okolju Dynamics 365 Finance pojdite na **Vodenje projektov in računovodstvo** > **Nastaviti** > **Ocene** > **Predloga stroškov**.
 2. Če želite ustvariti novo predlogo stroškov, izberite **Novo**. Vnesite Ime in opis.
 3. Navedite ID vrstice cene za vsako vrsto transakcije.
 4. Izberite privzeti način dokončanja:

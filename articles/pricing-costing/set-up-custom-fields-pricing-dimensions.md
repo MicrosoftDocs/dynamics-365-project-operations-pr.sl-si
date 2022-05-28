@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003611"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599428"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavitev polj po meri kot cenovnih razsežnosti
 
@@ -75,7 +75,7 @@ Obstajata dve vrsti cenovnih razsežnosti:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso Indija|Na lokaciji            |                    |Nadure                 |15     |
 |             | Contoso Indija|Lokalno             |                    |Nadure                 |10     |
-|             | Contoso US   |Lokalno             |                    |Nadure                 |20     |
+|             | Contoso, ZDA   |Lokalno             |                    |Nadure                 |20     |
 
 
 Če vir iz Contoso Indija, katerega osnovna postavka je 100 USD, deluje na licu mesta in v časovni vnos zabeleži 8 ur rednega dela in 2 uri nadur, bo cenovni mehanizem uporabil osnovno postavko v višini 100 za 8 ur in zabeležil 800 USD. Za 2 uri nadur se bo upošteval pribitek v višini 15 % na osnovno postavko 100, s čimer se bo cenovna enota zvišala na 115 USD, skupni strošek pa bo znašal 230 USD.

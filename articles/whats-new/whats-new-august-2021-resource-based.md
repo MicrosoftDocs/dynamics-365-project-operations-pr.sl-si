@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501391"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594184"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti za avgust 2021 – storitev Project Operations za scenarije, ki temeljijo na virih/pomanjkanju zaloge
 
@@ -21,7 +21,7 @@ ms.locfileid: "7501391"
 Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
    - Project Operations v različici okolja 4.13.0.152. storitve Microsoft Dataverse.
-   - Upravljanje projektov in računovodstvo v različici okolja 10.0.20 storitve Dynamics 365 Finance.
+   - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 
@@ -54,7 +54,7 @@ Vedno, ko posodabljate različico rešitev Project Operations Dataverse in Finan
 | Čas in strošek | 2336884 | Gumb za časovni vnos **Kopiraj teden** mora delovati tudi za druge uporabnike, ne le za trenutnega. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Pregled upravljanja projektov in računovodstva v storitvi Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Vodenje projektov in računovodstvo na Dynamics 365 Finance
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |

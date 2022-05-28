@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998481"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593632"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Domača stran razsežnosti za določanje cen in razčlenitev stroškov
 
@@ -66,15 +67,15 @@ Spodnji primer prikazuje deleže obračunavanja, ki so nastavljeni na podlagi vl
 
 | Vloga        | Organizacijska enota    |Enota      |Cena      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Razvijalec   | Contoso US  |Ura | 200|USD     |
-| Razvijalec   | Contoso Indija |Ura|   112|USD     |
+| Developer   | Contoso, ZDA  |Ura | 200|USD     |
+| Developer   | Contoso Indija |Ura|   112|USD     |
 
 
 **Vzorčne mere stroškov**
 
 | Razpon plače     | Organizacijska enota    |Enota      |Cena      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje podjetje_razpon1 | Contoso US  |Ura | 145|USD     |
+| Moje podjetje_razpon1 | Contoso, ZDA  |Ura | 145|USD     |
 | Moje podjetje_razpon2 | Contoso Indija |Ura|   67|USD     |
 
 

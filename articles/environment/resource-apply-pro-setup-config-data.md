@@ -4,27 +4,27 @@ description: Ta tema vsebuje informacije o nastavitvi in uporabi konfiguracijski
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986646"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594736"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Nastavitev in uporabo konfiguracijskih podatkov v storitvi Common Data Service 
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Zahteve
 
 Preden začnete konfigurirati podatke v storitev Common Data Service (CDS), morajo biti izpolnjeni naslednji pogoji:
 
-1.  Omogočanje okolja CDS v okolju storitve Dynamics 365 Finance za Project Operations.
-2.  Podatki o pravni osebi iz storitve Dynamics 365 Finance so v skupni rabi z okoljem CDS. To pomeni, da ima entiteta **Podjetje** v CDS-ju naslednje zapise podjetja:
+1.  Zagotovite okolje CDS in Dynamics 365 Finance okolje za projektne operacije.
+2.  Informacije o pravni osebi iz Dynamics 365 Finance se delijo v okolje CDS. To pomeni, da ima entiteta **Podjetje** v CDS-ju naslednje zapise podjetja:
   - THPM
   - USPM
   - GBPM

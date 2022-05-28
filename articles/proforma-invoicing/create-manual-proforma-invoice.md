@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995646"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600072"
 ---
 # <a name="proforma-invoices"></a>Predračuni
 
@@ -82,6 +82,9 @@ Ko ustvarite osnutek računa za projekt, se v račun prenesejo vse neobračunane
 - Uredite in prilagodite količino in vrsto obračunavanja.
 
 Izberite **Potrdi**, da potrdite račun. Dejanje »Potrdi« je enosmerno dejanje. Ko izberete **Potrdi**, sistem nastavi račun samo za branje in ustvari dejanske vrednosti obračunane prodaje iz vsake podrobnosti vrstice računa za vsako vrstico računa. Če se podrobnost vrstice računa sklicuje na neobračunano dejansko prodajo, sistem tudi stornira neobračunano dejansko prodajo. (Vsaka podrobnost vrstice računa, ki je bila ustvarjena iz časovnega vnosa ali vnosa stroškov, se bo sklicevala na neobračunano dejansko prodajo.) Sistemi za integracijo glavne knjige lahko to storniranje uporabijo za storno projektnega dela v teku (WIP) za računovodske namene.
+
+> [!NOTE]
+> Potrjenih predračunov in povezanih zapisov, kot so vrstice računov in podrobnosti vrstice računa, ni mogoče urejati ali izbrisati. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Popravek potrjenega računa
 

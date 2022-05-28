@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928681"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594874"
 ---
 # <a name="provision-a-new-environment"></a>Omogočanje novega okolja
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Ta tema vsebuje informacije o tem, kako zagotoviti novo okolje Dynamics 365 Project Operations za primere uporabe z viri/brez zalog.
 
@@ -34,7 +34,7 @@ Uporabite naslednje korake, da omogočite avtomatizirano omogočanje uporabe sto
 
 ## <a name="provision-a-project-operations-environment"></a>Omogočanje uporabe okolja Project Operations
 
-1. Odprite novo [predstavitveno okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance ali [preskusno/produkcijsko okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) za uvedbo. 
+1. Odprite nov Dynamics 365 Finance [demo okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) oz [peskovnik/proizvodno okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) uvajanje. 
 2. Sprehodite se skozi čarovnika **Omogočanje okolja**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Za prejem te različice boste morda morali zagnati posodobitev kakovosti svojega
 
     ![Uporaba rešitev.](./media/13ApplySolutions.png)
 
-5. Izberite rešitvi **Preslikava entitete za dvojno pisanje Dynamics 365 Finance and Operations** in **Preslikava entitete za dvojno pisanje Dynamics 365 Project Operations** ter izberite **Uporabi**.
+5. Izberite obe rešitvi, **Dynamics 365 Finance and Operations Zemljevid entitet dvojnega pisanja** in **Dynamics 365 Project Operations Zemljevidi entitet dvojnega pisanja**, nato pa izberite **Prijavite se**.
 
     ![Potrjevanje rešitev.](./media/14ConfirmSolutions.png)
 

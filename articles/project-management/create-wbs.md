@@ -4,14 +4,14 @@ description: V tej temi je pojasnjeno, kako ustvarite strukturirano členitev de
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928635"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597818"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Ustvarjanje strukturirane členitve dela (SČD)
 
@@ -124,7 +124,7 @@ Mreža **Razpored** v celoti podpira pripomočke za osebe s posebnimi potrebami 
 |----------------------------------------------------|----------------------|
 | Največje skupno število opravil za projekt                  | 500                  |
 | Največje skupno trajanje projekta               | 3650 dni (10 let) |
-| Največje skupno število virov za projekt              | 150                  |
+| Največje skupno število virov za projekt              | 300                  |
 | Največje skupno število povezav (samo naslednik) za projekt | 600                  |
 | Največje skupno število polj po meri za projekt          | 10                   |
 | Največje število elementov kontrolnega seznama na nalogo                   | 20                   |

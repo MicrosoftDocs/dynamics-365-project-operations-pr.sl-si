@@ -2,17 +2,16 @@
 title: Sledenje obsegu projektov
 description: Ta tema vsebuje informacije o spremljanju obsega projekta in napredka dela.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993981"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593816"
 ---
 # <a name="project-effort-tracking"></a>Sledenje obsegu projektov
 
@@ -46,7 +45,8 @@ Obseg dela v opravilih povzetka ali vsebnika je mogoče znova projicirati. Vodje
 - Izračuna se nova ocena končnih stroškov za vsako posamezno opravilo do opravil v listnem vozlišču. 
 - Prizadeta podrejena opravila do listnih vozlišč imajo svoj preostali obseg dela in odstotek napredka, ki je znova izračunan na podlagi vrednosti ocene končnih stroškov. Zato pride do nove projekcije odmika od obsega dela za opravilo. 
 - Znova se izračunajo vrednosti EAC opravil povzetka vse do korenskega vozlišča.
-
+- Odobreni napor za povzetek naloge je vsota odobrenega napora za vse otroške naloge in odobrenega napora za povzetek naloge.
+- Preostali napor pri povzetku naloge je vsota preostalega napora pri vseh podrejenih opravilih minus odobreni napor pri povzetku nalogi.
 
 ## <a name="project-status-summary"></a>Povzetek stanja projekta
 

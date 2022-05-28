@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798060"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596300"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Zajem računa s tehnologijo OCR
 
@@ -52,7 +52,7 @@ Za samodejno prilaganje potrdil, ki vključujejo transakcije s kreditnimi kartic
 
 ## <a name="installation"></a>Namestitev
 
-Če želite uporabiti te napredne zmožnosti stroškov, namestite dodatek Expense Management Service za Microsoft Dynamics 365 Finance in vklopite funkcije v svojem primeru. Do dodatka lahko dostopate iz svojega projekta v Microsoft Dynamics storitvah življenjskega cikla (LCS).
+Če želite uporabiti te napredne zmožnosti stroškov, namestite dodatek Expense Management Service za Microsoft Dynamics 365 Finance in vklopite funkcije v svojem primeru. Do dodatka lahko dostopate iz svojega projekta v Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Prijavite se v LCS in odprite želeno okolje.
 2. Odprite **Vse podrobnosti**.
@@ -73,7 +73,7 @@ Ko vklopite te funkcije, se zgodijo naslednja dejanja:
 - Dodana je nova postavka menija za vidljivost polja stroška.
 - Še vedno lahko odprete prejšnjo stran **Poročila o stroških**, tako da obiščete **Upravljanje stroškov > Moji stroški > Poročila o stroških**.
 - Poteki dela in morebitne odobritve vas še vedno vodijo na obstoječo stran s poročili o stroških.
-- Prejemki bodo obdelani prek Microsoft Azure Cognitive Services, metapodatki pa bodo ekstrahirani in dodani.
+- Potrdila bodo obdelana prek Microsoft Azure Cognitive Services ter metapodatki bodo izvlečeni in dodani.
 - Dodana je možnost, ki omogoča ustvarjanje poročila o stroških, ki vključuje ujemajoča se nepovezana potrdila.
 - Možnost, ki je dodana v poročila o stroških, vam omogoča, da iz potrdila ustvarite vrstico stroška ali poskušate poiskati ujemanje obstoječega potrdila z obstoječo vrstico stroška.
 

@@ -4,14 +4,14 @@ description: Ta tema vsebuje informacije o tem, kako ustvariti medpodjetne trans
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005501"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600010"
 ---
 # <a name="create-intercompany-transactions"></a>Ustvarjanje medpodjetnih transakcij
 
@@ -30,14 +30,14 @@ Ko je medpodjetna transakcija odobrena, se ustvarijo naslednje dejanske transakc
 
 Ceno in valuto transakcije za stroške, urno postavko vira in prodajo medorganizacijske enote določa **organizacijska enota**. To morate upoštevati, ko se odločate, kako strukturirati podjetja in organizacijske enote pri svojem izvajanju.
 
-Ko ustvarite zapise o priložnostih, ponudbah, projektnih pogodbah in projektih, sistem preveri, ali se valuta pogodbene enote ujema z računovodsko valuto pogodbenega podjetja. Če nista enaki, zapisov ni mogoče ustvariti. Valuto organizacijske enote določite v Dynamics 365 Project Operations, tako da odprete **Dataverse** > **Nastavitve** > **Organizacijske enote**. Računovodsko valuto podjetja določite v Dynamics 365 Finance, tako da odprete **Glavna knjiga** > **Nastavitev knjige** > **Knjiga**. Valuta je sinhronizirana z vašim okoljem Dataverse prek zemljevida Ledgers Dual Write.
+Ko ustvarite zapise o priložnostih, ponudbah, projektnih pogodbah in projektih, sistem preveri, ali se valuta pogodbene enote ujema z računovodsko valuto pogodbenega podjetja. Če nista enaki, zapisov ni mogoče ustvariti. Valuto organizacijske enote določite v Dynamics 365 Project Operations, tako da odprete **Dataverse** > **Nastavitve** > **Organizacijske enote**. Računovodska valuta podjetja je definirana v Dynamics 365 Finance tako, da greste na **Glavna knjiga** > **Nastavitev glavne knjige** > **Ledger**. Valuta je sinhronizirana z vašim okoljem Dataverse prek zemljevida Ledgers Dual Write.
 
 Sistem ustvari dejanske podatke stroškov za enoto vira in prodajo medorganizacijskih enot v naslednjih situacijah:
 
   - Ko se enota vira razlikuje od pogodbene enote
   - Ko se podjetje, ki zagotavlja vire, razlikuje od pogodbenega podjetja
 
-V okolje Dynamics 365 Finance pa se bodo za dodatne računovodske storitve prenesle samo transakcije, pri katerih se podjetje, ki zagotavlja vire, razlikuje od pogodbenega podjetja.
+Vendar pa bodo v okolje Dynamics 365 Finance za dodatno obračunavanje prenesene samo transakcije, ki imajo drugačno dobaviteljsko podjetje od pogodbenega podjetja.
 
 Računovodstvo za dejanske podatke projekta je zabeleženo v dnevniku integracij Project Operations v aplikaciji Finance. Sistem ustvari naslednje vrstice dnevnika.
 
@@ -60,7 +60,7 @@ Simona Horvat, razvijalka, ki je zaposlena v GBPM, je zabeležila 10 ur dela za 
     4. Nastavite valuto na **USD**.
     5. Shranjevanje zapisa.
 3. Odprite **Prodaja** > **Projektne pogodbe** in ustvarite novo projektno pogodbo za Adventure Works.
-    1. Lastniško podjetje nastavite na **USPM** in pogodbeno enoto na **Contoso Robotics US**.
+    1. Nastavite lastniško podjetje na **USPM** in pogodbeno enoto na **Contoso Robotics US**.
     2. Kot stranko izberite Adventure Works.
     3. Izberite cenik izdelkov in shranite zapis.
     4. V zavihku **Podrobnosti pogodbe** ustvarite nove podrobnosti pogodbe. Nastavite poljubno ime in izberite **Čas in materiali** kot način obračunavanja.

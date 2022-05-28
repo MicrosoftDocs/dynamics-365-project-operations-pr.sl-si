@@ -2,17 +2,17 @@
 title: Odpravljanje težav dela v mreži opravil
 description: Ta tema zagotavlja informacije o odpravljanju težav, potrebne pri delu v mreži opravil.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547219"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596438"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Odpravljanje težav dela v mreži opravil 
 
@@ -70,6 +70,9 @@ Project Operations zahteva, da se parametri projekta sklicujejo na končno točk
       | Project Operations                   | tipa=2             |
 
 4. Odstranite polje s strani **Projektni parametri**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Omilitev 3: prijavite se na project.microsoft.com
+V vašem Microsoft Edge brskalniku, odprite nov zavihek, pojdite na project.microsoft.com in se prijavite z uporabniško vlogo, ki jo uporabljate za dostop do operacij projekta.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Težava: Projekt se ne naloži in uporabniški vmesnik je obtičal na vrtavki
 

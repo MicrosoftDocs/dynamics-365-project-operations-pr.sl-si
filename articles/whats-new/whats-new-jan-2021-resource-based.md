@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008111"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599566"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti v januarju 2021 – Project Operations za primere uporabe z viri/brez zalog
 
@@ -22,7 +22,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/n
 Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
   - Project Operations v okolju Dataverse različice 4.6.0.154
-  - Upravljanje projektov in računovodstvo v okolju Dynamics 365 Finance, različica 10.0.16
+  - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.16
 
 ## <a name="quality-updates"></a>Posodobitve kakovosti
 
@@ -43,7 +43,7 @@ Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Proj
 | **Načrtovanje in sledenje projektov** | 2090202 | Označena pravila poslovanja, ki se ne uporabljajo, kot **Zastarelo**. |
 | **Čas in strošek** | 2091249 | Strožji nadzori, tako da uporabniki ne morejo spremeniti opravila na predloženem ali odobrenem časovnem vnosu. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pregled upravljanja projektov in računovodstva v storitvi Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Vodenje projektov in računovodstvo v Dynamics 365 Finance
 
 | **Območje funkcij** | **Številka sklica** | **Posodobitev kakovosti** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Proj
 
 ## <a name="regulatory-updates"></a>Regulativne posodobitve
 
-Za informacije o regulativnih posodobitvah za aplikacije Finance and Operations glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+Za informacije o regulativnih posodobitvah za aplikacije Finance in Operations glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

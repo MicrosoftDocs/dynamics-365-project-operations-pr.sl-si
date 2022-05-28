@@ -1,19 +1,19 @@
 ---
-title: Možnosti podizvajalcev za člane projektne skupine
+title: Možnosti za oddajo del podizvajalcem za člane projektne ekipe
 description: Ta tema pojasnjuje možnosti podizvajalcev za člane projektne skupine v Microsoftu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4db283db728b50ccf76eafabfd643313620bbce2
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: aacd2f97d3120a854c78fe87e512fad1c43b9651
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903792"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600210"
 ---
-# <a name="subcontracting-options-for-project-team-members"></a>Možnosti podizvajalcev za člane projektne skupine
+# <a name="subcontracting-options-for-project-team-members"></a>Možnosti za oddajo del podizvajalcem za člane projektne ekipe
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -45,7 +45,7 @@ Za naslednje ni na voljo nobenih možnosti podizvajalcev:
 6. Ko izberete ustvarjanje novih vrstic podizvajalcev za člane projektne skupine, vam bo sistem omogočil, da izberete podizvajalsko pogodbo, za katero želite ustvariti te vrstice. Podizvajalska pogodba, ki jo izberete za ustvarjanje novih vrstic, mora biti v **Osnutek** stanje. S to možnostjo za ustvarjanje novih vrstic podizvajalcev za izbrane člane projektne skupine bo sistem ustvaril eno vrstico podizvajalcev za čas za vsakega člana projektne skupine. Vloga, ure in datumi bodo kopirani od člana projektne skupine v vsako ustvarjeno vrstico podizvajalcev. 
 7. Ko je generični član ekipe povezan s podizvajalcem in podizvajalsko linijo, **Vrsta delavca** polje v vrstici splošnih članov ekipe bo posodobljeno v **Pogodbeni delavec** in **Veljavnost podizvajalske pogodbe** vrednost bo nastavljena na **veljavno**.
 
-## <a name="subcontracting-a-staffed-project-team-member"></a>Oddajanje podizvajalskega dela za zaposlenega člana projektne skupine
+## <a name="subcontracting-a-staffed-project-team-member"></a>Oddajanje podizvajalskega člana projektne skupine z osebjem
 
 Podobno kot splošni člani ekipe ali člani ekipe brez osebja, si lahko ogledate tudi možnosti podizvajalcev za člana projektne skupine z osebjem, če je član ekipe z osebjem pogodbeni delavec. Če želite pregledati in izbrati med razpoložljivimi možnostmi podizvajalcev za zaposlenega ali imenovanega člana projektne skupine, sledite tem korakom:
 
@@ -55,7 +55,7 @@ Podobno kot splošni člani ekipe ali člani ekipe brez osebja, si lahko ogledat
 4. Če ste v 1. koraku izbrali samo en zapis člana projektne skupine, bodo na voljo naslednje možnosti:
       - Ustvarite nove vrstice podizvajalcev.
       - Rezervirajte za obstoječo podizvajalsko pogodbo.
-  Če ste v 1. koraku izbrali več zapisov članov projektne skupine, je edina na voljo možnost, da ustvarite nove vrstice podizvajalcev.
+  Če ste v 1. koraku izbrali več zapisov članov projektne skupine, je edina razpoložljiva možnost, da ustvarite nove vrstice podizvajalcev.
 5. Možnost rezervacije za obstoječo vrstico podizvajalcev vam omogoča, da izberete podizvajalsko in podizvajalsko vrstico, za katero želite rezervirati. Pri izbiri podizvajalske linije za rezervacijo zmogljivosti morate zagotoviti naslednje:
       - Izbrana vrstica podizvajalcev je za čas. 
       - Zahtevana vloga za člana projektne skupine se ujema z vlogo, ki je bila kupljena v vrstici podizvajalcev. 
@@ -66,6 +66,6 @@ Podobno kot splošni člani ekipe ali člani ekipe brez osebja, si lahko ogledat
 
 ## <a name="re-costing-subcontractor-assignments"></a>Preračunavanje stroškov podizvajalcev
 
-Ko je član projektne skupine (generični ali imenovan) povezan s podizvajalskimi vrsticami z uporabo **Možnosti podizvajalcev** pogovornem oknu, bodo vse naloge, ki jih ima član ekipe, preračunane na podlagi nabavnega cenika, priloženega podizvajalski pogodbi. Na **Ocene** zavihek na **Podrobnosti o projektu** strani, izberite **Posodobite cene** gumb za ogled posodobljenih cen in/ali stroškov, ki izhajajo iz odločitve o podizvajalcu.
+Ko je član projektne skupine (generični ali imenovan) povezan s podizvajalskimi vrsticami z uporabo **Možnosti podizvajalcev** pogovornem oknu, bodo vse dodelitve nalog, ki jih ima član ekipe, preračunane na podlagi nabavnega cenika, priloženega podizvajalski pogodbi. Na **Ocene** zavihek na **Podrobnosti o projektu** strani, izberite **Posodobite cene** gumb za ogled posodobljenih cen in/ali stroškov, ki izhajajo iz odločitve o podizvajalcu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
