@@ -1,6 +1,6 @@
 ---
 title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 37.5, V3
-description: Ta tema navaja funkcije in popravke, ki so na voljo v posodobitvi Microsoft Dynamics 365 Project Service Automation, izdaja 37.5, V3.
+description: Ta tema navaja funkcije in popravke, ki so na voljo v izdaji posodobitve 37.5, V3 storitve Microsoft Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 11/15/2021
@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4bb9a33f72cd98b74a4576bcc2a3760b42b3486
-ms.sourcegitcommit: 6a852ca1e3aacb55d7357cd474d2f07b39381f03
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f36d15bdce7b7b243cf26f6513665c6519bee8fa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7816673"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601195"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-375-v3"></a>Novosti ali spremembe v izdaji posodobitve za Project Service Automation 37.5, V3
 

@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005321"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727978"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Uporaba dodatka za rešitev Project Service Automation za načrtovanje dela v Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005321"
 ## <a name="download-and-install-the-add-in"></a>Prenos in namestitev dodatka  
  Pripravite svoje vpisne podatke za [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Te podatke potrebujete, da se s programom [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] lahko povežete v rešitev [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  Iz središča za prenose prenesite dodatek za podprto različico aplikacije Project Service, [V2. X](https://go.microsoft.com/fwlink/?linkid=828268) ali [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Iz središča za prenose prenesite dodatek za podprto različico aplikacije Project Service, [V2. X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) ali [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Kliknite povezavo za prenos.  
 
@@ -87,9 +88,8 @@ Ko končate z načrtovanjem projekta, sledi uvoz in objava projekta v [!INCLUDE[
 
 Projekt se bo uvozil v [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Oblikovati je treba ceno in ustvariti ekipo. Odprite projekt v rešitvi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], da preverite, ali so ekipa, ocene za projekte in strukturirana členitev dela ustvarjene. Spodnja tabela prikazuje, kje lahko najdete rezultate:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Projekt | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Ganttov grafikon**   | Uvoze na [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] zaslon **Strukturirane členitve dela**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **List z viri** |   Uvozi na [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] zaslon **Člani projektne ekipe**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Uporaba uporabe**    |    Uvozi na zaslon [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Ocene projekta**.     |

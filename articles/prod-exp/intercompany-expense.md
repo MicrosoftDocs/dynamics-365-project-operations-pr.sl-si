@@ -1,25 +1,24 @@
 ---
 title: Medpodjetni stroški
 description: V tej temi so na voljo informacije o tem, kako uporabite stroške med podjetji za dodelitev stroškov delavca pravni osebi, za katero je bilo delo opravljeno.
-author: Surya Vaidyanathan
+author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6788a590879bd839ebb9dedc45895dc047cc9f15
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001226"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684254"
 ---
 # <a name="intercompany-expenses"></a>Medpodjetni stroški
 

@@ -1,32 +1,31 @@
 ---
-title: Sinhronizacija ocen projektov neposredno iz rešitve Project Service Automation v Finance and Operations
-description: Ta tema opisuje predloge in temeljna opravila, ki se uporabljajo za sinhronizacijo ocen delovnih ur projekta in ocen stroškov projekta neposredno iz rešitve Microsoft Dynamics 365 Project Service Automation v Dynamics 365 Finance.
+title: Sinhronizirajte ocene projekta neposredno iz avtomatizacije projektnih storitev do financ in poslovanja
+description: Ta tema opisuje predloge in osnovne naloge, ki se uporabljajo za sinhronizacijo ocen projektnih ur in ocen stroškov projekta neposredno iz Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988221"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684616"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizacija ocen projektov neposredno iz rešitve Project Service Automation v Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizirajte ocene projekta neposredno iz avtomatizacije projektnih storitev do financ in poslovanja
 
 [!include[banner](../includes/banner.md)]
 
-Ta tema opisuje predloge in temeljna opravila, ki se uporabljajo za sinhronizacijo ocen delovnih ur projekta in ocen stroškov projekta neposredno iz rešitve Dynamics 365 Project Service Automation v Dynamics 365 Finance.
+Ta tema opisuje predloge in osnovne naloge, ki se uporabljajo za sinhronizacijo ocen projektnih ur in ocen stroškov projekta neposredno iz Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
 > [!NOTE]
 > - V različici 8.0 so na voljo integracija projektnih opravil, kategorije transakcije stroškov, ocene delovnih ur, ocene stroškov in zaklepanje funkcionalnosti.
@@ -70,7 +69,7 @@ Preden lahko pride do sinhronizacije ocen delovnih ur projekta, morate sinhroniz
 
 ### <a name="power-query"></a>Power Query
 
-V predlogi za oceno delovnih ur projekta morate uporabiti Microsoft Power Query za Excel, če želite dokončati naslednja opravila:
+V predlogi ocen projektnih ur morate uporabiti Microsoft Power Query da Excel dokonča te naloge:
 
 - Nastavite privzeti ID modela napovedi, ki se bo uporabljal, ko bo integracija ustvarila nove napovedi delovnih ur.
 - S filtriranjem izločite vse zapise, povezane z viri, v opravilu, ki bo neuspešno izvedlo integracijo napovedi delovnih ur.
@@ -81,7 +80,7 @@ V predlogi za oceno delovnih ur projekta morate uporabiti Microsoft Power Query 
 Če želite v predlogi posodobiti privzeti ID modela napovedi, kliknite puščico **Zemljevid**, da odprete preslikavo. Nato izberite povezavo **Napredno pošiljanje poizvedb in filtriranje**.
 
 - Če uporabljate privzeto predlogo Ocena delovnih ur projekta (PSA v Fin in Ops), izberite možnost **Vstavljen pogoj** na seznamu **Uporabljeni koraki**. V vnosu **Funkcija** zamenjajte **Napoved O\_** z imenom ID-ja modela napovedi, ki ga je treba uporabiti pri integraciji. Privzeta predloga vsebuje ID modela napovedi iz predstavitvenih podatkov.
-- Če ustvarjate novo predlogo, morate dodati ta stolpec. V rešitvi Power Query izberite **Dodaj pogojni stolpec** in vnesite ime novega stolpca, na primer **ModelID**. Vnesite pogoj za stolpec; če vrednost projektnega opravila ni »null«, potem je \<enter the forecast model ID\>; v nasprotnem primeru ju »null«.
+- Če ustvarjate novo predlogo, morate dodati ta stolpec. V Power Query, izberite **Dodaj pogojni stolpec** in vnesite ime za nov stolpec, npr **ID modela**. Vnesite pogoj za stolpec; če vrednost projektnega opravila ni »null«, potem je \<enter the forecast model ID\>; v nasprotnem primeru ju »null«.
 
 #### <a name="filter-out-resource-specific-records"></a>S filtriranjem izločite zapise, povezane z viri
 
@@ -126,7 +125,7 @@ Preden lahko pride do sinhronizacije ocen stroškov projekta, morate sinhronizir
 
 ### <a name="power-query"></a>Power Query
 
-V predlogi za oceno stroškov projekta morate uporabiti rešitev Power Query, če želite dokončati naslednja opravila:
+V predlogi za ocene stroškov projekta, ki jo morate uporabiti Power Query za dokončanje naslednjih nalog:
 
 - S filtriranjem poiščite izključno zapise vrstic ocene stroškov.
 - Nastavite privzeti ID modela napovedi, ki se bo uporabljal, ko bo integracija ustvarila nove napovedi delovnih ur.
@@ -141,8 +140,8 @@ Predloga Ocena stroškov projekta (PSA v Fin in Ops) ima privzeti filter, ki vkl
 
 Če želite v predlogi posodobiti privzeti ID modela napovedi, izberite opravilo **Ocene stroškov** in kliknite puščico **Zemljevid**, da odprete preslikavo. Izberite povezavo **Napredno pošiljanje poizvedb in filtriranje**.
 
-- Če uporabljate privzeto predlogo Ocena stroškov projekta (PSA v Fin in Ops), v rešitvi Power Query najprej izberite možnost **Vstavljen pogoj** v razdelku **Uporabljeni koraki**. V vnosu **Funkcija** zamenjajte **Napoved O\_** z imenom ID-ja modela napovedi, ki ga je treba uporabiti pri integraciji. Privzeta predloga vsebuje ID modela napovedi iz predstavitvenih podatkov.
-- Če ustvarjate novo predlogo, morate dodati ta stolpec. V rešitvi Power Query izberite **Dodaj pogojni stolpec** in vnesite ime novega stolpca, na primer **ModelID**. Vnesite pogoj za stolpec; če vrednost ID-ja vrstice ocene ni »null«, potem je \<enter the forecast model ID\>; v nasprotnem primeru ju »null«.
+- Če uporabljate privzeto predlogo za ocene stroškov projekta (PSA do Fin in Ops), v Power Query, izberite prvo **Vstavljeno stanje** Iz **Uporabljeni koraki** oddelek. V vnosu **Funkcija** zamenjajte **Napoved O\_** z imenom ID-ja modela napovedi, ki ga je treba uporabiti pri integraciji. Privzeta predloga vsebuje ID modela napovedi iz predstavitvenih podatkov.
+- Če ustvarjate novo predlogo, morate dodati ta stolpec. V Power Query, izberite **Dodaj pogojni stolpec** in vnesite ime za nov stolpec, npr **ID modela**. Vnesite pogoj za stolpec; če vrednost ID-ja vrstice ocene ni »null«, potem je \<enter the forecast model ID\>; v nasprotnem primeru ju »null«.
 
 #### <a name="transform-the-billing-types"></a>Sprememba vrst obračuna
 

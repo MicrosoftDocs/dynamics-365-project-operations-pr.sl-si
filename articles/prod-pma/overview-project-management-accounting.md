@@ -3,25 +3,23 @@ title: Pregled vodenja projektov in računovodstva
 description: Funkcija vodenja projektov in računovodstva je uporabna v več panogah, in sicer za zagotavljanje storitev, proizvodnjo izdelkov ali doseganje rezultatov.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007526"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683604"
 ---
 # <a name="project-management-and-accounting-overview"></a>Pregled vodenja projektov in računovodstva
 
@@ -248,7 +246,7 @@ Spodnja tabela opisuje metode za izračun stroškov za dokončanje projekta.
 <tbody>
 <tr class="odd">
 <td>Skupni strošek – dejanski</td>
-<td>Ocenjene stroške je treba ročno vnesti. Ko je izpolnjen stolpec <strong>Skupni stroški</strong> ali <strong>Skupna količina</strong> na strani <strong>Ocena stroškov</strong>, se dejanski stroški odštejejo od skupnih zneskov, ki jih je vnesel uporabnik. Rezultat so stroški za dokončanje projekta. Razvoj stroškov se običajno ne spremlja na podlagi števila nočitev v hotelu in obrokov, zabeleženih v posameznem obdobju. Namesto tega. Sledenje običajno temelji na primerjavi s skupnim številom ocenjenih ur. Ta pristop ne zahteva uporabe modela napovedi, skupne stroške ali skupno količino pa je mogoče spremeniti ročno. Ko vnesete vrednost v stolpec <strong>Skupni stroški</strong> ali <strong>Skupna količina</strong>, rešitev Finance to vrednost primerja z dejanskimi transakcijami, ki so bile knjižene v tem obdobju, nato pa zmanjša vrednost v stolpcu <strong>Količina za dokončanje</strong> ali <strong>Strošek za dokončanje</strong>.</td>
+<td>Ocenjene stroške je treba ročno vnesti. Ko je izpolnjen stolpec <strong>Skupni stroški</strong> ali <strong>Skupna količina</strong> na strani <strong>Ocena stroškov</strong>, se dejanski stroški odštejejo od skupnih zneskov, ki jih je vnesel uporabnik. Rezultat so stroški za dokončanje projekta. Običajno napredek stroškov ni&#39; t sledi na primer na podlagi števila hotelskih bivanj in obrokov, ki so zabeleženi v posameznem obdobju. Namesto tega. Sledenje običajno temelji na primerjavi s skupnim številom ocenjenih ur. Ta pristop ne&#39; t zahteva model napovedi, skupni strošek ali skupno količino pa lahko spremenite ročno. Ko vnesete vrednost v stolpec <strong>Skupni stroški</strong> ali <strong>Skupna količina</strong>, rešitev Finance to vrednost primerja z dejanskimi transakcijami, ki so bile knjižene v tem obdobju, nato pa zmanjša vrednost v stolpcu <strong>Količina za dokončanje</strong> ali <strong>Strošek za dokončanje</strong>.</td>
 </tr>
 <tr class="even">
 <td>Skupni proračun – dejanski</td>

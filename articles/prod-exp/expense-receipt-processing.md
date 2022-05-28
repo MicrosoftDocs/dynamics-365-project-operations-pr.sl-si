@@ -1,24 +1,23 @@
 ---
 title: Obdelava potrdila o stroških
-description: Ta tema vsebuje informacije o obdelavi z optičnim prepoznavanjem znakov (OCR) za potrdila. Ta funkcija je namenjena izboljšanju uporabniške izkušnje pri ustvarjanju poročil o stroških v storitvi Microsoft Dynamics 365 Finance.
+description: Ta tema vsebuje informacije o obdelavi z optičnim prepoznavanjem znakov (OCR) za potrdila. Ta funkcija je zasnovana za izboljšanje uporabniške izkušnje pri ustvarjanju poročil o stroških Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001406"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684340"
 ---
 # <a name="expense-receipt-processing"></a>Obdelava potrdila o stroških
 
@@ -51,7 +50,7 @@ Za samodejno prilaganje potrdil, ki vključujejo transakcije s kreditnimi kartic
 
 Ta funkcija deluje v kombinaciji s funkcijo **Preoblikovana poročila o stroških** za poenostavljeno izkušnjo s stroški. Ta funkcija je na voljo samo za okolja Tier 2+, in sicer preskusna in produkcijska okolja.
 
-Če želite uporabiti te napredne zmožnosti stroškov, namestite dodatek za storitev upravljanja stroškov za Microsoft Dynamics 365 Finance in vklopite funkcije v svojem primerku. Do dodatka lahko dostopate iz svojega projekta v Microsoft Dynamics Lifecycle Services (LCS).
+Če želite uporabiti te napredne zmožnosti stroškov, namestite dodatek Expense Management Service za Microsoft Dynamics 365 Finance in vklopite funkcije v svojem primeru. Do dodatka lahko dostopate iz svojega projekta v Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Prijavite se v LCS in odprite želeno okolje.
 2. Odprite **Vse podrobnosti**.

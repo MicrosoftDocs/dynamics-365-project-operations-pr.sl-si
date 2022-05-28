@@ -7,25 +7,24 @@ ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 664c1044c1ff23e892d7f90d255517b22cfa1a5656670efa1bf15339c5ae2112
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 62229d8565a594a75970a8e769443541c2b4cb19
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998931"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683880"
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Preimenovanje oziroma spreminjanje stopnje projekta
 
 [!include [banner](../../includes/banner.md)]
 
-Projektne stopnje lahko služijo kot vodilo za življenjski cikel projekta. Stopnje projekta, ki jih želite vključiti v svoje projekte, lahko določite v območju »Stopnja projekta« na strani »Vodenje projekta in računovodski parametri«. Aplikacija Dynamics 365 Finance ponuja pet vnaprej določenih stopenj projekta in tri uporabniško določene stopnje. Da bi sledili napredku projektov, lahko posodobite ime stopnje projekta, ki ga uporabljate. Prav tako lahko navedete uporabniško določena imena stanja. To opravilo prikazuje, kako lahko preimenujete ali spremenite stopnjo projekta, in uporablja nabor podatkov USSI.
+Projektne stopnje lahko služijo kot vodilo za življenjski cikel projekta. Stopnje projekta, ki jih želite vključiti v svoje projekte, lahko določite v območju »Stopnja projekta« na strani »Vodenje projekta in računovodski parametri«. Dynamics 365 Finance ponuja pet vnaprej določenih stopenj projekta in tri uporabniško določene faze. Da bi sledili napredku projektov, lahko posodobite ime stopnje projekta, ki ga uporabljate. Prav tako lahko navedete uporabniško določena imena stanja. To opravilo prikazuje, kako lahko preimenujete ali spremenite stopnjo projekta, in uporablja nabor podatkov USSI.
 
 1. Odprite »Vodenje projektov in računovodstvo« > »Nastavitve« > »Vodenje projekta in računovodski parametri«.
 2. Kliknite zavihek »Stopnja projekta«.

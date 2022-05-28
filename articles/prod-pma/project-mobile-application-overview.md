@@ -3,25 +3,23 @@ title: Pregled mobilnih aplikacij Project
 description: V tej temi so na voljo splošne informacije o aplikacijah, ki so povezane s časom projekta, za Microsoft Dynamics 365 Project Timesheet, Vnos časa v projektu in Moji časovni listi/Časovni listi, ki so na voljo v mobilni napravi.
 author: Yowelle
 ms.date: 05/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005681"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685428"
 ---
 # <a name="project-mobile-applications-overview"></a>Pregled mobilnih aplikacij Project
 
@@ -31,7 +29,7 @@ Na voljo so tri mobilne aplikacije, povezane s časom projekta, za Microsoft Dyn
 
 ## <a name="project-timesheet-mobile-app"></a>Mobilna aplikacija Project Timesheet
 
-Mobilna aplikacija Dynamics 365 Project Timesheet omogoča uporabnikom, da oddajo časovne liste za projekte in jih odobrijo prek mobilne naprave. Ta mobilna aplikacija vključuje funkcijo časovnega lista v območju »Vodenje projektov in računovodstvo« v rešitvi Dynamics 365 Finance. Pomaga izboljšati storilnost in učinkovitost uporabnika ter pomaga tudi pri pravočasnem vnosu in odobritvi časovnih listov projekta.
+Mobilna aplikacija Dynamics 365 Project Timesheet omogoča uporabnikom, da oddajo časovne liste za projekte in jih odobrijo prek mobilne naprave. Ta mobilna aplikacija prikazuje funkcionalnost časovnega lista na področju upravljanja projektov in računovodstva Dynamics 365 Finance. Pomaga izboljšati storilnost in učinkovitost uporabnika ter pomaga tudi pri pravočasnem vnosu in odobritvi časovnih listov projekta.
 
 ## <a name="project-time-entry-workspace"></a>Delovni prostor »Vnos časa v projektu«
 
@@ -39,7 +37,7 @@ Delovni prostor »Vnos časa v projektu« uporabnikom omogoča vnos in shranjeva
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Moji časovni listi/Časovni listi za moj pregled
 
-Moji časovni listi (optimizirano za mobilne naprave) in Časovni listi za moj pregled (optimizirano za mobilne naprave) predstavljajo rešitev, ki zaposlenim omogoča ustvarjanje, pošiljanje in odobritev časovnih listov projekta v mobilni napravi. Delavci lahko dostopajo do funkcije Finance prek URL-ja aplikacije. Ta rešitev ne potrebuje mobilne aplikacije Finance and Operations.
+Moji časovni listi (optimizirano za mobilne naprave) in Časovni listi za moj pregled (optimizirano za mobilne naprave) predstavljajo rešitev, ki zaposlenim omogoča ustvarjanje, pošiljanje in odobritev časovnih listov projekta v mobilni napravi. Delavci lahko dostopajo do funkcije Finance prek URL-ja aplikacije. Ta rešitev ne zahteva mobilne aplikacije Finance and Operations.
 
 ## <a name="for-more-information"></a>Za dodatne informacije
 

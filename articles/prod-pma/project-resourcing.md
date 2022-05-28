@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007346"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684892"
 ---
 # <a name="project-resourcing-home-page"></a>Domača stran iskanja virov za projekt
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007346"
 
 Ta tema vsebuje informacije o iskanju virov za projekt.
 
-Eden od izzivov za projektne vodje in upravitelje virov v fazi načrtovanja projekta je dodeljevanje virov, kjer morajo določiti in rezervirati pravi vir za delo na projektu. V storitvi Dynamics 365 Finance vam zmogljivosti iskanja virov za projekte omogočajo opredelitev vlog, ki se obravnavajo kot začasni viri, ki jih je mogoče rezervirati za specifičen angažma ali del angažmaja. Ta vrsta iskanja virov omogoča projektnim vodjem in upraviteljem virov, da izvedejo naslednja opravila:
+Eden od izzivov za projektne vodje in upravitelje virov v fazi načrtovanja projekta je dodeljevanje virov, kjer morajo določiti in rezervirati pravi vir za delo na projektu. V Dynamics 365 Finance vam zmogljivosti virov za projekte omogočajo definiranje vlog, ki se obravnavajo kot začasni viri, ki jih je mogoče rezervirati za določeno dejavnost ali del posla. Ta vrsta iskanja virov omogoča projektnim vodjem in upraviteljem virov, da izvedejo naslednja opravila:
 
 - Opredelitev vloge, ki ima zahtevane sposobnosti, da je zanjo enostavno najti ujemajoče se vire.
 - Uporaba vlog za opredelitev prvotnega razporeda angažmaja, ki temelji na rezerviranih virih.

@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988041"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685005"
 ---
 # <a name="microsoft-project-client-integration"></a>Integracija odjemalca Microsoft Project
 
 [!include [banner](../includes/banner.md)]
 
-Načrtovanje in vzdrževanje projektnega razporeda je lahko zapleteno, zato morajo vodje projektov uporabljati orodja, ki jim pomagajo pri izpolnjevanju te naloge. Integracija z odjemalcem Microsoft Project Client nudi podporo za odpiranje in upravljanje strukturirane členitve projektnega dela. Vodja projekta lahko objavi vse spremembe nazaj v strukturirano členitev projektnega dela rešitve Dynamics 365 Finance.
+Načrtovanje in vzdrževanje projektnega razporeda je lahko zapleteno, zato morajo vodje projektov uporabljati orodja, ki jim pomagajo pri izpolnjevanju te naloge. Integracija z odjemalcem Microsoft Project Client nudi podporo za odpiranje in upravljanje strukturirane členitve projektnega dela. Vodja projekta lahko objavi vse spremembe nazaj v strukturi razčlenitve projektnega dela Dynamics 365 Finance.
 
 > [!NOTE]
 > Če uporabljate julijsko posodobitev (različica 10.0.4), morate namestiti KB 4054797 in 4055884.
@@ -40,7 +39,7 @@ Načrtovanje in vzdrževanje projektnega razporeda je lahko zapleteno, zato mora
 •   Kliknite **Odpri** in ob pozivu še **Zaženi**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Odpiranje in urejevanje obstoječega osnutka strukturirane členitve dela v odjemalcu Microsoft Project Client
-Če ima projekt v rešitvi Dynamics 365 Finance že ustvarjeno strukturirano členitev dela, lahko strukturirano členitev dela odprete v aplikaciji Microsoft Project Client, kadar je ta v stanju osnutka. Če želite to možnost odpreti na strani **Projekt**, kliknite povezavo **Odpri v odjemalcu Microsoft Project** na zavihku **Načrt**. To stran lahko odprete tudi v aplikaciji Microsoft Project Client s klikom **Odpri** na zavihku **Microsoft Dynamics 365**. Na seznamu izberite možnost **Pravna oseba** in **Projekt**.
+Če ima projekt v Dynamics 365 Finance že ustvarjeno strukturo razčlenitve dela, lahko strukturo razčlenitve dela odprete v aplikaciji Microsoft Project Client, če je struktura razčlenitve dela v statusu osnutka. Če želite to možnost odpreti na strani **Projekt**, kliknite povezavo **Odpri v odjemalcu Microsoft Project** na zavihku **Načrt**. To stran lahko odprete tudi v aplikaciji Microsoft Project Client s klikom **Odpri** na zavihku **Microsoft Dynamics 365**. Na seznamu izberite možnost **Pravna oseba** in **Projekt**.
 
 > [!NOTE]
 > Če uporabljate Internet Explorer za svoj brskalnik, boste morali klikniti **Shrani**, da boste lahko datoteko ročno odprli iz mesta, kamor je prenesena. Ali pa kliknite **Shrani in odpri**, da odprete datoteko v odjemalcu Microsoft Project Client. Ne preimenujte datoteke med shranjevanjem.

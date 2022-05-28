@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001496"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682822"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobilni delovni prostor za upravljanje stroškov
 
@@ -35,7 +34,7 @@ Ta mobilni delovni prostor je namenjen uporabi z mobilno aplikacijo Dynamics 365
 
 Natančneje, mobilni delovni prostor **Upravljanje stroškov** uporabnikom omogoča izvajanje teh opravil:
 
-- Fotografirajte račun in ga naložite v Dynamics 365 Finance. To fotografijo lahko pozneje priložite k poročilu o stroških.
+- Fotografirajte račun in ga naložite na Dynamics 365 Finance. To fotografijo lahko pozneje priložite k poročilu o stroških.
 - Nalaganje datoteke kot zajeto potrdilo. Nato lahko to datoteko pozneje priložite k poročilu o stroških.
 - Ustvarjanje nove vrstice stroška z uporabo priloženega potrdila. Nato lahko postavko vrstice pozneje dodate v poročilo o stroških ter ga predložite v odobritev in povračilo.
 

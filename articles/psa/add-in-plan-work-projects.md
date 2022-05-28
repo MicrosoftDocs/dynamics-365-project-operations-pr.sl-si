@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993891"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8728024"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Načrtovanje dela v programu Microsoft Project z dodatkom Project Service
 
@@ -40,7 +41,7 @@ Namestite [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-
 ## <a name="download-and-install-the-add-in"></a>Prenos in namestitev dodatka  
  Pripravite svoje vpisne podatke za [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Te podatke potrebujete, da se s programom [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] lahko povežete v rešitev [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  Iz središča za prenose prenesite dodatek za podprto različico aplikacije Project Service, [V2. X](https://go.microsoft.com/fwlink/?linkid=828268) ali [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Iz središča za prenose prenesite dodatek za podprto različico aplikacije Project Service, [V2. X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) ali [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Izberite povezavo za prenos.  
 

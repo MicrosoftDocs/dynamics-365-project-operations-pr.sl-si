@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323931"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723696"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Novosti pri 2. valu posodobitev izdaje 2021 za zgodnji dostop – poenostavljeno uvajanje storitve Project Operations
 
@@ -26,7 +26,7 @@ Izdaja se uporablja le, če je za okolje bil [izbran zgodnji dostop](/power-plat
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 
-[Upravljanje podizvajalskih pogodb](../subcontracting/subcontracting_EA_scope.md) – Ta funkcija zagotavlja boljšo vidljivost in nadzor nad vsemi vidiki dela na projektu. Predogled upravljanja podizvajalskih pogodb vključuje naslednje zmogljivosti:
+[Upravljanje podizvajalskih pogodb](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) – Ta funkcija zagotavlja boljšo vidljivost in nadzor nad vsemi vidiki dela na projektu. Predogled upravljanja podizvajalskih pogodb vključuje naslednje zmogljivosti:
 
   - Vodja projekta lahko z dobaviteljem ustvari podizvajalsko pogodbo. Pri podizvajalski pogodbi se privzeto uporabljajo ceniki, ki so priloženi zapisu dobavitelja. Račun dobavitelja ima vrsto odnosa **Prodajalec** ali **Dobavitelj**.
   - Vodja projekta lahko vse nakupe v podizvajalski pogodbi našteje kot vrstične postavke v podizvajalski pogodbi. Podizvajalske pogodbe so lahko vezane na čas, stroške ali izdelke. Razred transakcije v vsaki podrobnosti podizvajalske pogodbe določa, čemu ta podrobnost služi.
