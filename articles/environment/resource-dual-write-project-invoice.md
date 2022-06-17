@@ -1,24 +1,24 @@
 ---
 title: Integracija računa projekta
-description: Ta tema vsebuje informacije o integraciji za dvojno zapisovanje za Project Operations za zaračunavanje strank.
+description: Ta članek vsebuje informacije o integraciji dvojnega pisanja Project Operations za izdajanje računov strankam.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581258"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912122"
 ---
 # <a name="project-invoice-integration"></a>Integracija računa projekta
 
-Ta tema vsebuje informacije o integraciji za dvojno zapisovanje za Project Operations za zaračunavanje strank.
+Ta članek vsebuje informacije o integraciji dvojnega pisanja Project Operations za izdajanje računov strankam.
 
-V aplikaciji Project Operations vodja projekta upravlja nedokončana opravila obračunavanja v projektu in ustvari predračun za stranko v storitvi Microsoft Dataverse. Na podlagi tega predračuna uradnik za terjatve ali računovodja projekta ustvari račun za stranko. Integracija z dvojnim pisanjem zagotavlja, da so podrobnosti o predračunu sinhronizirane z aplikacijami Finance in Operations. Po knjiženju računa za stranko, sistem posodobi ustrezne dejanske vrednosti projekta v storitvi Dataverse s podrobnostmi računovodstva. Naslednji grafični prikaz predstavlja konceptualni pregled te integracije na visoki ravni.
+V aplikaciji Project Operations vodja projekta upravlja nedokončana opravila obračunavanja v projektu in ustvari predračun za stranko v storitvi Microsoft Dataverse. Na podlagi tega predračuna uradnik za terjatve ali računovodja projekta ustvari račun za stranko. Integracija dvojnega pisanja zagotavlja, da so podrobnosti o predračunu sinhronizirane z aplikacijami Finance in Operations. Po knjiženju računa za stranko, sistem posodobi ustrezne dejanske vrednosti projekta v storitvi Dataverse s podrobnostmi računovodstva. Naslednji grafični prikaz predstavlja konceptualni pregled te integracije na visoki ravni.
 
    ![Integracija računa projekta.](./media/DW5Invoicing.png)
 

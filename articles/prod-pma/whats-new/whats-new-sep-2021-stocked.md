@@ -1,24 +1,24 @@
 ---
 title: Kaj je novega ali spremenjenega v Project Operations, september 2021 za scenarije, ki temeljijo na zalogi/produkciji
-description: Ta tema ponuja informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations septembra 2021 za scenarije, ki temeljijo na zalogi/produkciji.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations septembra 2021 za scenarije, ki temeljijo na zalogi/produkciji.
 author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916538"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Kaj je novega ali spremenjenega v Project Operations, september 2021 za scenarije, ki temeljijo na zalogi/produkciji
 
 _**Velja za:** storitev Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji_
 
-Ta tema velja za naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
+Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
 
 - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.21
  
@@ -54,7 +54,7 @@ Ta tema velja za naslednje komponente in različice Microsofta Dynamics 365 Proj
 | Upravljanje projektov in računovodstvo | [590349](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590349) | Obstaja napačna pretvorba v dnevnikih predmetov, ki so objavljeni v projektu. |
 | Upravljanje projektov in računovodstvo | [557294](https://fix.lcs.dynamics.com/Issue/Details/?bugId=557294) | Naročilo lahko potrdite, tudi če je bila omejitev financiranja presežena. |
 | Upravljanje projektov in računovodstvo | [574162](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574162) | The **Popravek/Preklic računa** razdelek na računu z brezplačnim besedilom izgine, ko izberete ID projekta. |
-| Upravljanje projektov in računovodstvo | [575425](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575425) | Obstajajo težave z zmogljivostjo, ko je predlog računa projekta knjižen iz projektnega prodajnega naloga, ki vključuje založeno postavko. |
+| Upravljanje projektov in računovodstvo | [575425](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575425) | Težave z zmogljivostjo se pojavijo, ko je predlog računa projekta objavljen iz projektnega prodajnega naloga, ki vključuje založeno postavko. |
 | Upravljanje projektov in računovodstvo | [575939](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575939) | Računov za nakup projekta ni mogoče knjižiti, ker se pojavi naslednja napaka: "Funkcija AccDistProcessorProjectExtension.createForProjectRevenueLine je bila napačno poklicana." |
 | Upravljanje projektov in računovodstvo | [578970](https://fix.lcs.dynamics.com/Issue/Details/?bugId=578970) | Posodobitev ustvarjanja paketnih opravil ocene projekta za podporo izvajanju več podopravil. |
 | Upravljanje projektov in računovodstvo | [584519](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584519) | Stanja časovnega lista ni mogoče posodobiti na **Osnutek**, če se potek dela zatakne pri stanju **Preklicano**. |
@@ -64,7 +64,7 @@ Ta tema velja za naslednje komponente in različice Microsofta Dynamics 365 Proj
 | Upravljanje projektov in računovodstvo | [588851](https://fix.lcs.dynamics.com/Issue/Details/?bugId=588851) | Pri objavi časovnega lista pride do težav z zmogljivostjo. |
 | Upravljanje projektov in računovodstvo | [590535](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590535) | Hierarhija ocen stroškov strukture razčlenitve dela ni pravilno poravnana, ko so vsa opravila razširjena ali ko je posamezno opravilo ročno razširjeno. |
 | Upravljanje projektov in računovodstvo | [593663](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593663) | Predloge za predloge projekta Excel ni mogoče dodati v **Odprite v Excelu** meni. |
-| Upravljanje projektov in računovodstvo | [596669](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596669) | Številka, oproščena davka za pravno osebo, ni vključena na natisnjenem računu projekta. |
+| Upravljanje projektov in računovodstvo | [596669](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596669) | Davčna oproščena številka za pravno osebo ni vključena na natisnjenem računu projekta. |
 | Upravljanje projektov in računovodstvo | [597563](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597563) | V napaki inventarne enote se finančni podatki ne posodobijo, ko je projekt prilagojen glede na kreditne linije. |
 | Upravljanje projektov in računovodstvo | [598109](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598109) | Ko uporabite KB 461935, ne morete objaviti ocen, če preklopite na neprekinjena številska zaporedja. |
 | Upravljanje projektov in računovodstvo | [598688](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598688) | **TimeEntryDataManager** povzroči mobilno aplikacijo Project timesheet za Android nehati odgovarjati. |
@@ -79,7 +79,7 @@ Ta tema velja za naslednje komponente in različice Microsofta Dynamics 365 Proj
 | Pot in stroški | [572783](https://fix.lcs.dynamics.com/Issue/Details/?bugId=572783) | Po tem, ko je transakcija s kreditno kartico razdeljena na osebne stroške, ne morete priložiti potrdila in urediti nadrejenih stroškov. |
 | Pot in stroški | [574252](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574252) | Politika stroškov za transakcije med podjetji, ki imajo ID projekta, ne deluje pravilno. |
 | Pot in stroški | [574489](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574489) | Za knjižena poročila o stroških manjkajo podatki o datumu knjiženja. |
-| Pot in stroški | [574504](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574504) | V mobilni aplikaciji Expense obstajajo težave z načinom plačila. |
+| Pot in stroški | [574504](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574504) | V mobilni aplikaciji Expense so težave z načinom plačila. |
 | Pot in stroški | [584799](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584799) | Potni zahtevek, ki je ustvarjen za enega delavca, se lahko uporabi za poročilo o stroških drugega delavca pred datumom pooblastila. |
 | Pot in stroški | [586023](https://fix.lcs.dynamics.com/Issue/Details/?bugId=586023) | Ko ustvarite odhodek, spremembe vrednosti finančne razsežnosti niso pravilno posodobljene na ravni računovodske distribucije v **Upravljanje odhodkov** delovni prostor. |
 | Pot in stroški | [586081](https://fix.lcs.dynamics.com/Issue/Details/?bugId=586081) | Stanje odobritve glavne vrstice stroškov ni sinhronizirano s stanjem odobritve delovnega toka razčlenjene vrstice. |

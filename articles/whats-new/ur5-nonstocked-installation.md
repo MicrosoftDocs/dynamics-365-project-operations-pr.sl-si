@@ -1,25 +1,25 @@
 ---
 title: Posodobitev storitve Project Operations v okolju Finance
-description: Ta tema ponuja informacije o tem, kako posodobiti projektne operacije v okolju Dynamics 365 Finance.
+description: Ta članek vsebuje informacije o tem, kako posodobiti Project Operations v okolju Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579970"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912490"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Posodobitev storitve Project Operations v okolju Finance
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 
-Ta tema vsebuje informacije o tem, kako posodobiti Dynamics 365 Project Operations v vašem Dynamics 365 Finance okolju. Trije postopki so obvezni za posodobitev storitve Project Operations na posodobitev 5 (UR5):
+Ta članek vsebuje informacije o tem, kako posodobiti Dynamics 365 Project Operations v vašem Dynamics 365 Finance okolju. Trije postopki so obvezni za posodobitev storitve Project Operations na posodobitev 5 (UR5):
 
 - [Uvoz paketa v projekt predogledne različice](#import)
 - [Uveljavitev posodobitve](#apply)

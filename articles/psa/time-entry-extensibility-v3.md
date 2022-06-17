@@ -1,6 +1,6 @@
 ---
-title: Prilagajanje tedenskih vnosov
-description: Ta tema vsebuje informacije o izvajanju pravil poslovanja po meri, ki sledijo poslovnim praksam organizacije.
+title: Prilagajanje tedenskih časovnih vnosov
+description: Ta članek vsebuje informacije o tem, kako izvajati poslovna pravila po meri, ki podpirajo prakse organizacije.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581074"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918976"
 ---
 # <a name="customize-weekly-time-entry"></a>Prilagajanje tedenskih časovnih vnosov 
 
@@ -46,7 +46,7 @@ V razdelku **Razsežnosti** so v obliki naslova stolpca prikazane vse razsežnos
 - Vrsta
 - Stanje vnosa
 
-V razdelku **Razsežnosti** urejanje v vrstici ni mogoče. Ta razdelek je podprt s pogledom, ki omogoča dodajanje polj po meri v tedensko mrežo časovnih vnosov. Za več informacij o dodajanju polj po meri si oglejte razdelek »Razširljivost« v nadaljevanju te teme.
+V razdelku **Razsežnosti** urejanje v vrstici ni mogoče. Ta razdelek je podprt s pogledom, ki omogoča dodajanje polj po meri v tedensko mrežo časovnih vnosov. Za informacije o dodajanju polj po meri glejte razdelek »Razširljivost« pozneje v tem članku.
 
 ### <a name="duration"></a>Trajanje
 Razdelek »Trajanje« prikazuje dneve v tednu kot glave stolpcev. Ta razdelek omogoča urejanje v vrstici. Ko je ustvarjena vrstica za časovni vnos z ustreznimi razsežnostmi, lahko uporabniki v vrstico hitro vnesejo količino časa, ki so ga porabili za te razsežnosti.

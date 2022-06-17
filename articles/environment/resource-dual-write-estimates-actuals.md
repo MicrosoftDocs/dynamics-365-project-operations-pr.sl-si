@@ -1,24 +1,24 @@
 ---
 title: Ocene projekta in integracija dejanskih vrednosti
-description: Ta tema vsebuje informacije o integraciji za dvojno zapisovanje za Project Operations za ocene in dejanske vrednosti projektov.
+description: Ta članek vsebuje informacije o integraciji dvojnega pisanja projektnih operacij za ocene in dejanske podatke projekta.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577210"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914606"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Ocene projekta in integracija dejanskih vrednosti
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta tema vsebuje informacije o integraciji za dvojno zapisovanje za Project Operations za ocene in dejanske vrednosti projektov.
+Ta članek vsebuje informacije o integraciji dvojnega pisanja projektnih operacij za ocene in dejanske podatke projekta.
 
 ## <a name="project-estimates"></a>Projektne ocene
 

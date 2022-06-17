@@ -1,6 +1,6 @@
 ---
 title: Mobilni delovni prostor za upravljanje stroškov
-description: Ta tema vsebuje informacije o mobilnem delovnem prostoru »Upravljanje stroškov«. Ta delovni prostor omogoča uporabnikom, da zajamejo in naložijo potrdilo, da ga lahko pozneje priložijo poročilu o stroških. Uporabniki lahko tudi hitro ustvarijo vrstico stroškov z uporabo priloženega potrdila ter ustvarijo in upravljajo svoja poročila o stroških.
+description: Ta članek vsebuje informacije o mobilnem delovnem prostoru za upravljanje stroškov. Ta delovni prostor omogoča uporabnikom, da zajamejo in naložijo potrdilo, da ga lahko pozneje priložijo poročilu o stroških. Uporabniki lahko tudi hitro ustvarijo vrstico stroškov z uporabo priloženega potrdila ter ustvarijo in upravljajo svoja poročila o stroških.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920908"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobilni delovni prostor za upravljanje stroškov
 
-Ta tema vsebuje informacije o mobilnem delovnem prostoru **Upravljanje stroškov**. Ta delovni prostor omogoča uporabnikom, da zajamejo in naložijo potrdilo, da ga lahko pozneje priložijo poročilu o stroških. Uporabniki lahko tudi hitro ustvarijo vrstico stroškov z uporabo priloženega potrdila ter ustvarijo in upravljajo svoja poročila o stroških. Poleg tega lahko odobritelji uporabljajo mobilni delovni prostor **Upravljanje stroškov**, da si ogledajo poročila o stroških, ki so jim dodeljena, in jih odobrijo ali zavrnejo.
+Ta članek vsebuje informacije o **Upravljanje odhodkov** mobilni delovni prostor. Ta delovni prostor omogoča uporabnikom, da zajamejo in naložijo potrdilo, da ga lahko pozneje priložijo poročilu o stroških. Uporabniki lahko tudi hitro ustvarijo vrstico stroškov z uporabo priloženega potrdila ter ustvarijo in upravljajo svoja poročila o stroških. Poleg tega lahko odobritelji uporabljajo mobilni delovni prostor **Upravljanje stroškov**, da si ogledajo poročila o stroških, ki so jim dodeljena, in jih odobrijo ali zavrnejo.
 
 
 Ta mobilni delovni prostor je namenjen uporabi z mobilno aplikacijo Dynamics 365 Unified Ops.

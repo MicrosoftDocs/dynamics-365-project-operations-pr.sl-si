@@ -1,17 +1,17 @@
 ---
 title: Nastavitev obračunske stopnje za delo – poenostavljeno
-description: Ta tema vsebuje informacije o nastavljanju deležev obračunavanja dela v aplikaciji Project Operations.
+description: Ta članek vsebuje informacije o nastavitvi stopenj obračunavanja delovne sile v Project Operations.
 author: rumant
 ms.date: 10/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3bce867df2e01178876a891e267676036ac8bd7c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 443132797f20c961b42ed20340e74f420965526f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599382"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917458"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Nastavitev obračunske stopnje za delo – poenostavljeno
 

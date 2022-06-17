@@ -1,18 +1,18 @@
 ---
 title: Integracija računa dobavitelja
-description: Ta tema vsebuje informacije o integraciji računa dobavitelja v aplikaciji Project Operations.
+description: Ta članek vsebuje informacije o integraciji računov dobavitelja v Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591195"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912076"
 ---
 # <a name="vendor-invoice-integration"></a>Integracija računa dobavitelja
 
@@ -21,7 +21,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
 Projektna naročila iz rešitve Dynamics 365 Project Operations lahko beležite tako, da odprete razdelek **Obveznosti** > **Računi** > **Čakajoči računi prodajalcev** in uporabite dokument čakajočega računa dobavitelja. Za več informacij preberite razdelek [Nakup materialov, ki niso na zalogi, z uporabo čakajočih računov dobavitelja](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Preden uporabite funkcijo, opisano v tej temi, preglejte zahtevane konfiguracije in jih uporabite. Za več informacij glejte [Omogočanje materialov, ki niso na zalogi, in čakajočih računov dobavitelja](../procurement/configure-materials-nonstocked.md).
+> Preden uporabite funkcionalnost, opisano v tem članku, preglejte in uporabite zahtevane konfiguracije. Za več informacij glejte [Omogočanje materialov, ki niso na zalogi, in čakajočih računov dobavitelja](../procurement/configure-materials-nonstocked.md).
 
 V aplikaciji Project Operations so računi dobavitelja, povezani s projektom, knjiženi s posebnimi pravili knjiženja:
 

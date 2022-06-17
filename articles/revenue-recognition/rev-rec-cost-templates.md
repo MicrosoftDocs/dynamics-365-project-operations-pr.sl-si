@@ -1,24 +1,24 @@
 ---
 title: Nastavitev predlog stroškov
-description: Ta tema vsebuje informacije o tem, kako ustvariti in uporabljati predloge stroškov v storitvi Project Operations.
+description: Ta članek vsebuje informacije o tem, kako ustvariti in uporabiti predloge stroškov v Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594230"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918424"
 ---
 # <a name="set-up-cost-templates"></a>Nastavitev predlog stroškov
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 
-Ta tema vsebuje informacije o tem, kako ustvariti in uporabljati predloge stroškov v storitvi Project Operations. Predloga stroškov določa:
+Ta članek vsebuje informacije o tem, kako ustvariti in uporabiti predloge stroškov v Project Operations. Predloga stroškov določa:
 
 - Kategorije projektov za napovedi in dejanske transakcije se vključijo v izračun odstotka dokončanosti projekta. Odstotna vrednost dokončanosti se nato uporabi za izračun upoštevanega prihodka.
 - Ali je mogoče odstotek dokončanja spremeniti, če se izračuna samodejno.

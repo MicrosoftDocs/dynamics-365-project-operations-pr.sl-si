@@ -1,25 +1,25 @@
 ---
 title: Ročna uvedba aplikacije Project Operations Dataverse s podporo za dvojno zapisovanje
-description: Ta tema vsebuje informacije o tem, kako ročno uvesti aplikacijo Project Operations Dataverse tako, da bo podpirala dvojno zapisovanje.
+description: V tem članku je razloženo, kako ročno uvesti operacije projekta Dataverse aplikacijo, tako da podpira dvojno pisanje.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591240"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912030"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Ročna uvedba aplikacije Project Operations Dataverse s podporo za dvojno zapisovanje
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta tema vsebuje informacije o tem, kako aplikacijo Microsoft Dynamics 365 Project Operations ročno uvesti v storitev Microsoft Dataverse tako, da bo podpirala dvojno zapisovanje. Če so izpolnjene določene zahteve, Aplikacija Project Operations zazna konfiguracijo okolja in nudi dodatno podporo za dvojno zapisovanje.
+V tem članku je razloženo, kako ročno uvesti Microsoft Dynamics 365 Project Operations v Microsoft Dataverse tako da podpira dvojno pisanje. Če so izpolnjene določene zahteve, Aplikacija Project Operations zazna konfiguracijo okolja in nudi dodatno podporo za dvojno zapisovanje.
 
-Če ste sledili navodilom v tej temi, lahko med uvajanjem prek Microsoft Dynamics Lifecycle Services (LCS) preskočite uvajanje integracije Microsoft Power Platform (pred tem poznane kot okolje storitve Common Data Service).
+Med uvajanjem prek Microsoft Dynamics Storitve življenjskega cikla (LCS), če ste sledili navodilom v tem članku, lahko preskočite uvajanje Microsoft Power Platform integracija (prej znana kot Common Data Service okolje).
 
 Postopek uvajanja aplikacije Project Operations v Dataverse z omogočeno podporo za dvojno zapisovanje je sestavljen iz štirih korakov:
 

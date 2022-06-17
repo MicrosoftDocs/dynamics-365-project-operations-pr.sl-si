@@ -1,6 +1,6 @@
 ---
-title: Ustvarite in potrdite dnevnike vnosov
-description: Ta tema vsebuje informacije o tem, kako ustvariti in potrditi dnevnike vnosov v Microsoftu Dynamics 365 Project Operations.
+title: Ustvarjanje in potrjevanje dnevnikov vnosov
+description: Ta članek vsebuje informacije o tem, kako ustvariti in potrditi dnevnike vnosov v Microsoftu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cb768337bc197895a837670f93b99b132c97437
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 138dccd72607d6515eeeffb066fa485f83eabbec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584248"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912352"
 ---
-# <a name="create-and-confirm-entry-journals"></a>Ustvarite in potrdite dnevnike vnosov
+# <a name="create-and-confirm-entry-journals"></a>Ustvarjanje in potrjevanje dnevnikov vnosov
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Dnevnike vnosov uporabljate za beleženje dejanskega stanja neposredno v Microsoftu Dynamics 365 Project Operations. Ko uporabljate dnevnike vnosov, vam ni treba vnesti dnevnikov časa, stroškov in porabe materiala v Project Operations.
+Dnevnike vnosov uporabljate za beleženje dejanskega stanja neposredno v Microsoftu Dynamics 365 Project Operations. Ko uporabljate dnevnike vnosov, vam ni treba vnesti dnevnikov časa, stroškov in materiala v Operacije projekta.
 
 En dnevnik vnosa vam omogoča ustvarjanje več vrstic dnevnika. Ko je dnevnik potrjen, se v vrstico dnevnika vnosa zabeleži dejanski podatki za naslednje podrobnosti:
 
@@ -36,8 +36,8 @@ Sledite tem korakom, da ustvarite dnevnik vnosov v Project Operations.
 
 1. Pojdi do **Prodaja** \> **Transakcije** \> **Časopisi**.
 2. Na **Vstopni dnevniki** strani s seznamom, v podoknu za dejanja izberite **Novo** ustvariti dnevnik.
-3. Na **Nova revija** strani, v **Opis** vnesite opis revije.
-4. Prepričajte se, da **Vrsta dnevnika** polje je nastavljeno na **Vstop** in nato izberite **Shrani**. Ko je novi dnevnik vnosov shranjen, a **Dnevniške vrstice** na strani dnevnika se mora pojaviti zavihek.
+3. Na **Nova revija** strani, v **Opis** v polje vnesite opis revije.
+4. Prepričajte se, da je **Vrsta dnevnika** polje je nastavljeno na **Vstop** in nato izberite **Shrani**. Ko je novi dnevnik vnosov shranjen, a **Dnevniške vrstice** na strani dnevnika se mora pojaviti zavihek.
 5. Na **Dnevniške vrstice** zavihku, v orodni vrstici nad mrežo izberite **Novo** da ustvarite vrstico dnevnika vstopa.
 6. V **Hitro ustvarjanje** pogovornem oknu za ustvarjanje vrstice dnevnika vnosa, nastavite polja, kot je opisano v naslednji tabeli.
 
@@ -51,12 +51,12 @@ Sledite tem korakom, da ustvarite dnevnik vnosov v Project Operations.
     | Zunanji opis | Opis vrstice dnevnika, ki se lahko uporablja za skupno rabo z zunanjimi zainteresiranimi stranmi. | Za neobračunane vrstice dnevnika prodaje bo vrednost uporabljena kot zunanji opis, ko bodo ustvarjene podrobnosti vrstice računa. Lahko se pojavi tudi na računu, ki je poslan stranki. |
     | Vrsta obračunavanja | Vrednost, ki kaže, ali se bo vrstica dnevnika štela kot plačljiva, brezplačna ali neplačljiva komponenta v projektu. | V tipičnem toku je vrsta obračunavanja izpeljana iz dogovorjenih pogojev, ki so določeni v pogodbi. Ko pa beležite vrstico dnevnika, lahko v to polje vnesete vrednost. |
     | Datum dokumenta | Uporabite datum, ko se je transakcija zgodila. | |
-    | Datum začetka | Uporabite datum, ko se je transakcija zgodila. | To polje se uporablja za primerjavo z datumom izdelave računa za transakcije **Nezaračunana prodaja** tip. Ta primerjava vam bo pomagala pri odločitvi, ali je transakcija datumsko ali pretekla. Računu bodo dodane samo pretekle transakcije. |
-    | Datum konca | Uporabite datum, ko se je transakcija zgodila. | |
+    | Datum začetka | Uporabite datum, ko je prišlo do transakcije. | To polje se uporablja za primerjavo z datumom izdelave računa za transakcije **Nezaračunana prodaja** tip. Ta primerjava vam bo pomagala pri odločitvi, ali je transakcija datumsko ali pretekla. Računu bodo dodane samo pretekle transakcije. |
+    | Datum konca | Uporabite datum, ko je prišlo do transakcije. | |
     | Datum knjiženja | Uporabite datum, ko bo zabeležen računovodski vpliv. | |
     | Stranka pogodbene linije | Če ima pogodbena vrstica samo eno stranko, je to polje privzeto nastavljeno na stranko v pogodbeni vrstici, ko je vrstica dnevnika shranjena. Če ima pogodbena vrstica več strank, izberite pravilno stranko na pogodbeni vrstici. | Če sistem ne more določiti stranko pogodbene vrstice v dnevniški vrstici in če je na dejanski vrstici prazen **Nezaračunana prodaja** tip, ki je ustvarjen iz vrstice dnevnika, dejanski ne bo zaračunan. |
     | Projekt | Izberite projekt za snemanje dejanskega na. | Na podlagi izbranega projekta, razreda transakcije in naloge bo sistem poskušal določiti stranko pogodbe, pogodbene vrstice in pogodbene vrstice. |
-    | opravilo, | Izberite nalogo za snemanje dejanskega na. | Če ste med nastavitvijo pogodbe povezali naloge s pogodbenimi vrsticami, bo sistem uporabil izbrano nalogo, skupaj z razredom projekta in transakcije, da določi stranko pogodbe, pogodbene vrstice in pogodbene vrstice. |
+    | opravilo, | Izberite nalogo za snemanje dejansko na. | Če ste med nastavitvijo pogodbe povezali naloge s pogodbenimi vrsticami, bo sistem uporabil izbrano nalogo, skupaj z razredom projekta in transakcije, da določi stranko pogodbe, pogodbene vrstice in pogodbene vrstice. |
     | Kategorija transakcije | Izberite kategorijo transakcije, da zabeležite dejansko na. | Za odhodke izbrana kategorija transakcije določi privzeto ceno, ki bo vpisana v vrstico dnevnika, ko je shranjena. |
     | Vloga | To polje je pomembno za vrstice časovnega dnevnika. Izberite vlogo vira, ki je porabil čas za projekt in/ali nalogo. | Če za vrstice časovnega dnevnika uporabite konfiguracijo izven škatle za vnos privzetih stroškov virov in obračunskih stopenj, se izbrana vloga uporablja skupaj z enoto virov za določitev privzete cene, ki bo vnesena v vrstico dnevnika, ko je shranjeno. Če za vnos privzetih cen uporabljate konfiguracijo po meri, morate to konfiguracijo pregledati, da ugotovite, ali je **Vloga** polje se uporablja za vnos privzetih vrednosti cene. |
     | Podizvajalska pogodba | Če vrstica dnevnika predstavlja zmogljivost podizvajalcev ali stroške ali material podizvajalcev, izberite ustrezno podizvajalsko pogodbo. | Ko so zapisane vrstice stroškovnega dnevnika, bo izbrana podizvajalska pogodba določila cenik, ki se uporablja za vnos privzete cene na enoto. |

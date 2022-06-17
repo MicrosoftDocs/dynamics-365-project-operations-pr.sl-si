@@ -1,17 +1,17 @@
 ---
 title: Pravilno obračunavanje osnutkov predlogov za račune projekta
-description: V tej temi je pojasnjeno, kako prilagoditi z računovodstvom povezane informacije na osnutku predloga za račun.
+description: V tem članku je pojasnjeno, kako prilagoditi računovodske informacije v predlogu osnutka računa.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575094"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921230"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Pravilno obračunavanje osnutkov predlogov za račune projekta
 
@@ -19,7 +19,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/n
 
 *Podrobnosti operacije* računov za projekte vodja projekta hrani na predračunu. V podrobnosti so vključene odločitve o urah, stroških, gradivu ali mejnikih, za katere mora biti izdan račun, cene ter izdaja zneska predujmov in honorarjev. Ko potrdite izvirni predračun, lahko operativne podrobnosti prilagodite tako, da ustvarite [popravljalni predračun](../proforma-invoicing/corrective-invoices.md) in ga potrdite.
 
-*Računovodske podrobnosti* o računih za projekte so shranjene v računu za stranke. V podrobnosti so vključeni izračuni prometnega davka in finančne razsežnosti, uporabljene za račun. V to temo so vključeni podatki o tem, kako prilagoditi računovodske podrobnosti na osnutku predloga za račun.
+*Računovodske podrobnosti* o računih za projekte so shranjene v računu za stranke. V podrobnosti so vključeni izračuni prometnega davka in finančne razsežnosti, uporabljene za račun. Ta članek vsebuje podrobnosti o tem, kako je mogoče te računovodske podrobnosti prilagoditi na osnutku predloga računa projekta.
 
 ## <a name="adjust-sales-tax"></a>Prilagoditev prometnega davka
 

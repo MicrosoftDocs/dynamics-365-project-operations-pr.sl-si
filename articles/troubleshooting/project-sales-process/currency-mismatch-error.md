@@ -1,18 +1,18 @@
 ---
 title: Napaka neusklajenosti valute
-description: Ta tema ponuja informacije o odpravljanju težav o napaki pri neujemanja valute, ki se pojavi, ko shranite določene vrste zapisov.
+description: Ta članek vsebuje informacije o odpravljanju težav o napaki pri neusklajenosti valute, ki se pojavi, ko shranite določene vrste zapisov.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5bb54a121f0dc22f1c0ea88ada9c922c1d4c6544
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5b0973a340dec8e68f326803d75bea9803e19791
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914744"
 ---
 # <a name="currency-mismatch-error"></a>Napaka neusklajenosti valute 
 
@@ -25,8 +25,8 @@ Ko shranite projekt, pogodbo, ponudbo ali vir, ki ga je mogoče rezervirati, se 
 
 Če želite odpraviti to težavo, naredite naslednje:
 - Preverite valuto pogodbene enote za ta zapis. Valuto si lahko ogledate tako, da odprete zapis organizacijske enote in preverite vrednost na **General** zavihek v **valuta** polje.
-- Preverite valuto lastniškega podjetja. Valuto si lahko ogledate tako, da obiščete **Povezano** > **Glavne knjige** v evidenci podjetja. Dvokliknite zapis glavne knjige, ki je povezan s podjetjem, in preverite vrednost na **General** zavihek v **Računovodska valuta** polje.
+- Preverite valuto lastniškega podjetja. Valuto si lahko ogledate tako, da obiščete **Povezano** > **Knjige** v evidenci podjetja. Dvokliknite zapis glavne knjige, ki je povezan s podjetjem, in preverite vrednost na **General** zavihek v **Računovodska valuta** polje.
 
 Če se valuta, nastavljena v pogodbeni enoti, in zapis knjige ne ujemata, prilagodite konfiguracijo ali izberite različne vrednosti, ko shranite zapis. Sistem zahteva, da se ti zapisi ujemajo, da zagotovi pravilne tokove izdajanja računov med podjetji. Za več informacij o konfiguracijah med podjetji glejte [Ustvarite transakcije med podjetji](../../project-accounting/create-intercompany-transactions.md).
 
-Če zapis podjetja nima povezanega zapisa glavne knjige, to pomeni, da pri nastavljanju okolja manjka konfiguracija. Konfiguracijo mora popraviti skrbnik sistema. Skrbnik sistema mora iti na **Konfiguracije dvojnega pisanja** in ustavite in znova zaženite **Zemljevid z dvojnim zapisom Ledgers** z začetno sinhronizacijo tega zemljevida in to predpogoji. Za več informacij si oglejte [Različice preslikovanja dvojnega zapisovanja v aplikaciji Project Operations](../../environment/resource-dual-write-maps.md).
+Če zapis podjetja nima povezanega zapisa glavne knjige, to pomeni, da pri nastavljanju okolja manjka konfiguracija. Konfiguracijo mora popraviti skrbnik sistema. Skrbnik sistema mora iti na **Konfiguracije dvojnega pisanja** in ustavite in znova zaženite **Zemljevid z dvojnim zapisom Ledgers** z začetno sinhronizacijo tega zemljevida in njegovimi predpogoji. Za več informacij si oglejte [Različice preslikovanja dvojnega zapisovanja v aplikaciji Project Operations](../../environment/resource-dual-write-maps.md).

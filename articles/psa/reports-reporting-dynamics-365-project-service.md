@@ -1,6 +1,6 @@
 ---
-title: Domača stran za poročanje
-description: Ta tema vsebuje informacije o poročanju v aplikaciji Dynamics 365 Project Service Automation.
+title: Domača stran poročanja
+description: Ta članek vsebuje informacije o poročanju v Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595978"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921690"
 ---
 # <a name="reporting-home-page"></a>Domača stran poročanja
 
@@ -47,7 +47,7 @@ Skupna uporaba aplikacij Microsoft Power BI in Dynamics 365 predstavlja učinkov
 
 
 ## <a name="additional-resources"></a>Dodatni viri
-Za več informacij o poročanju v PSA si oglejte naslednje teme:
+Za več informacij o poročanju v PSA si oglejte naslednje članke:
 
 - [Delo s podatkovnim modelom storitve Project Service](reports-working-project-service-data-model.md)
 - [Nadzorne plošče](reports-dashboards.md)

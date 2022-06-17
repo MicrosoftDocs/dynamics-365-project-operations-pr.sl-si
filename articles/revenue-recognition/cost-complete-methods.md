@@ -1,23 +1,23 @@
 ---
 title: Metode za izračun stroškov za dokončanje
-description: Ta tema vsebuje informacije o metodah, uporabljenih za izračun stroškov za dokončanje projekta.
+description: Ta članek vsebuje informacije o metodah, uporabljenih za izračun stroškov za dokončanje projekta.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601682"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920310"
 ---
 # <a name="cost-to-complete-methods"></a>Metode za izračun stroškov za dokončanje
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta tema vsebuje informacije o metodah, uporabljenih za izračun stroškov za dokončanje projekta. Obstaja več metod, s katerimi lahko izračunate stroške za dokončanje projekta. 
+Ta članek vsebuje informacije o metodah, uporabljenih za izračun stroškov za dokončanje projekta. Obstaja več metod, s katerimi lahko izračunate stroške za dokončanje projekta. 
 
 Ko ustvarite oceno za projekt, lahko na strani **Ustvari oceno** v polju **Metoda za izračun stroškov za dokončanje** izberete eno od naslednjih metod za izračun stroškov za dokončanje.
 

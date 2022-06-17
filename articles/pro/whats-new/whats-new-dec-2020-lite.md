@@ -1,24 +1,24 @@
 ---
 title: Novosti v decembru 2020 – uvajanje storitve Project Operations Lite – posel do izstavitve predračuna
-description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v decembrski izdaji (2020) uvajanja storitve Project Operations – posel do izstavitve predračuna.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji za december 2020 uvedbe Project Operations Lite – dogovor o predračunu.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924082"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Novosti v decembru 2020 – uvajanje storitve Project Operations Lite – posel do izstavitve predračuna
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
+Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
 
   - Project Operations v okolju Dataverse različice 4.5.0.134 
 

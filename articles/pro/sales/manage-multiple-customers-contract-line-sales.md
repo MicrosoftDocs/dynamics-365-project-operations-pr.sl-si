@@ -1,17 +1,17 @@
 ---
 title: Upravljanje več strank v podrobnostih pogodb, ki temeljijo na projektih – poenostavljeno
-description: Ta tema zagotavlja informacije o upravljanju več strank v podrobnostih pogodb, ki temeljijo na projektu.
+description: Ta članek vsebuje informacije o upravljanju več strank na pogodbenih linijah, ki temeljijo na projektih.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 565ae4d2c639b3933c0a05c04f27367ef16fece7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f7648c7ef7ec6ffb68932552a0c25b79f1f93733
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922150"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Upravljanje več strank v podrobnostih pogodb, ki temeljijo na projektih – poenostavljeno
 

@@ -1,6 +1,6 @@
 ---
 title: Prikaz zaračunane uporabe virov
-description: V tej temi so na voljo informacije o prikazu uporabe virov.
+description: Ta članek vsebuje informacije o pogledu uporabe virov.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0f6240a3337eb78496570ddfabc85d431e61d640
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 57203ecff99ab4434dacdded04245435d31bc8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921874"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Prikaz zaračunane uporabe virov
 

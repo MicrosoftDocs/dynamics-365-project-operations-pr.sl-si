@@ -1,17 +1,17 @@
 ---
 title: Upravljanje predračuna projekta
-description: Ta tema vsebuje informacije o tem, kako delati s predračuni projekta.
+description: Ta članek vsebuje informacije o tem, kako delati s predračuni projektov.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 359f17fb5510b13de97d2349dcbc91d11b48e0f9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7253b2f8beefb970c573279b1873070219edce08
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582638"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923024"
 ---
 # <a name="manage-a-proforma-project-invoice"></a>Upravljanje predračuna projekta 
 

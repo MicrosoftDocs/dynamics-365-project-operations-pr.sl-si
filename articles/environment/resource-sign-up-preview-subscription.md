@@ -1,17 +1,17 @@
 ---
 title: Prijava za naročnino na predogledno različico storitve Project Operations za primere uporabe z viri/brez zalog
-description: Ta tema ponuja informacije o tem, kako se naročiti in uvesti storitev Project Operations za primere uporabe z viri/brez zalog.
+description: Ta članek vsebuje informacije o tem, kako se naročiti in uvesti Project Operations za scenarije, ki temeljijo na virih/brez zalog.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920126"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prijava za naročnino na predogledno različico storitve Project Operations za primere uporabe z viri/brez zalog
 
@@ -19,7 +19,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/n
 
 
 
-Ta tema vsebuje informacije o tem, kako se naročiti na preskusno različico in uvesti okolje storitve Project Operations za scenarije, ki temeljijo na virih/nezalogi.
+Ta članek pojasnjuje, kako se naročiti na poskusno ponudbo in uvesti okolje Project Operations za scenarije, ki temeljijo na virih/brez zalog.
 
 ## <a name="prerequisites"></a>Zahteve
 - Uporabnik, ki uvede predogled, mora imeti pravice globalnega skrbnika za najemnika imenika Azure. Med prvim koriščenjem ponudbe lahko ustvarite najemnika. 
@@ -60,19 +60,19 @@ Pojdite v razdelek [Dynamics 365 za preskusno različico storitve Finance](https
 
 ## <a name="start-a-new-project-in-lcs"></a>Začetek novega projekta LCS
 
-Ustvarite nov projekt LCS, kot je opisano v temi [Začnite nov projekt v LCS](create-lcs-project.md)
+Ustvarite nov projekt LCS, kot je opisano v članku, [Začnite nov projekt v LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Dodajanje naročnine na Azure projektu LCS
 
-Za dokončanje te naloge sledite korakom v temi [Dodajanje naročnine na Azure projektu LCS](resource-add-azure-subscription-lcs-project.md).
+Če želite dokončati to nalogo, sledite korakom v članku, [Projektu LCS dodajte naročnino na Azure](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Uvedba predstavitvenega okolja Finance s storitvijo Project Operations za primere uporabe z viri/brez zalog
 
-Sledite navodilom v temi [Zagotovitev novega okolja](resource-provision-new-environment.md), da dokončate uvajanje. Za predogled uporabite vrsto uvajanja za [predstavitveno okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment). 
+Sledite navodilom v članku, [Zagotovite si novo okolje](resource-provision-new-environment.md) za dokončanje uvajanja. Za predogled uporabite vrsto uvajanja za [predstavitveno okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment). 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Namestitev podatkov za nastavitev in konfiguracijo CDS
 
-Namestite podatke za nastavitev in konfiguracijo CDS, kot je opisano v temi [Nastavitev in uporaba konfiguracijskih podatkov v storitvi Common Data Service](resource-apply-pro-setup-config-data.md).
+Namestite nastavitve in konfiguracijske podatke CDS, kot je opisano v članku, [Nastavite in uporabite konfiguracijske podatke v Common Data Service](resource-apply-pro-setup-config-data.md).
 Ta korak dokončajte šele, ko je predstavitveno okolje storitve Finance uvedeno in ko so predstavitveni podatki pripravljeni.
 
 

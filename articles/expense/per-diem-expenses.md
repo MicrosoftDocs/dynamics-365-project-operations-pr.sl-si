@@ -1,6 +1,6 @@
 ---
-title: Dnevnice
-description: Ta tema ponuja informacije o tem, kako delati z dnevnimi stroški.
+title: Stroški za dnevnice
+description: Ta članek vsebuje informacije o tem, kako delati z dnevnimi stroški.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596070"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923208"
 ---
-# <a name="per-diem-expenses"></a>Dnevnice
+# <a name="per-diem-expenses"></a>Stroški za dnevnice
 
 > [!IMPORTANT] 
-> Funkcionalnost, ki je opisana v tem tema, je na voljo ciljnim uporabnikom kot del izdaje za predogled.
+> Funkcionalnost, opisana v tem članku, je na voljo ciljnim uporabnikom kot del izdaje za predogled.
 
 Dnevnica je fiksna, vnaprej določena dnevnica, ki jo podjetje plača svojim zaposlenim za prenočišče (hotele), prehrano in nepredvidene stroške, ki jih imajo ti zaposleni med potovanjem na delo. Podjetje zaposlenim izplačuje ta dodatek namesto dejanskih potnih stroškov. Zaposleni lahko uporabljajo svoje **Slučaji/drugo** dnevnice za kritje napitnine, sobne strežbe, pranja perila ali kemičnega čiščenja za pomembna poslovna srečanja. Dnevnica se lahko razlikuje, odvisno od tega, ali se delodajalec odloči, da bo povrnil skupne stroške nastanitve in obrokov ali samo stroške obrokov in nepredvidenih stroškov.
 
@@ -76,7 +76,7 @@ V tem razdelku so primeri za tri konfiguracijske scenarije. Za vsak primer, **Iz
 
 V tem primeru je zmanjšanje obroka 30 odstotkov za zajtrk, 30 odstotkov za kosilo in 40 odstotkov za večerjo. Na **Parametri upravljanja odhodkov** stran, **Izračunajte zmanjšanje obroka za** polje je nastavljeno na **Vrsta obroka na potovanje**. Tukaj so izračuni, če so bili zaposlenemu zagotovljeni trije zajtrki, dve kosili in nič večerje:
 
-- Zmanjšanje obroka = (3 ×\[ 75 × 30 %\]) + (2 ×\[ 75 × 30 %\]) + 0 = (3 × 22,50) + (2 × 22,50) + 0 = 67,50 + 45 + 0 = USD 112.50
+- Zmanjšanje obrokov = (3 ×\[ 75 × 30 %\]) + (2 ×\[ 75 × 30 %\]) + 0 = (3 × 22,50) + (2 × 22,50) + 0 = 67,50 + 45 + 0 = USD 112.50
 - Obroki in pomožni stroški = 400 – 112,50 = USD 287.50
 - Skupni znesek, ki ga je treba plačati = Skupni dodatek – Zmanjšanje obrokov = 1.150 – 112,50 = USD 1,037.50
 
@@ -92,7 +92,7 @@ Tukaj so na primer izračuni, če je bil zajtrk zagotovljen za prve tri dni poto
 - Skupno zmanjšanje obrokov = 3 × 22,50 = USD 67.50
 - Obroki in dodatni stroški za dneve od 1. do 3. = 75 – 22.50 = USD 57.50
 - Skupni obroki in nepredvideni stroški = Vsota obrokov in nepredvidenih stroškov v petih dneh = 400 – 67,50 = USD 332.50
-- Skupni znesek, ki ga je treba plačati = Skupni znesek – Zmanjšanje obrokov = 1.150 – 67,50 = USD 1,082.50
+- Skupni znesek za plačilo = Skupni znesek – Zmanjšanje obrokov = 1.150 – 67,50 = USD 1,082.50
 
 ![Dnevnice, kjer znižanje obroka temelji na vrsti obroka na dan.](media/2-meal-type-per-day.png)
 
@@ -118,7 +118,7 @@ Tukaj so izračuni za **obroki in nepredvideni stroški**, ki vključuje USD 5 z
 
 - Skupno število obrokov in nepredvidenih stroškov = Obroki in dogodki za 1. dan + 2. dan + 3. dan + 4. dan + 5. dan = USD 235
 - Skupno zmanjšanje obroka = zmanjšanje obroka za 1. dan+ 2. dan + 3. dan+ 4. dan+ 5. dan= 37,5+ 37,5+ 15 + 0+ 75 = USD 165
-- Skupni znesek, ki ga je treba plačati = Skupni dodatek – Skupno zmanjšanje obrokov = USD 1,150 - USD 165 = USD 985
+- Skupni znesek, ki se plača = Skupni dodatek – Skupno zmanjšanje obrokov = USD 1,150 - USD 165 = USD 985
 
 ![Dnevnice, kjer znižanje obrokov temelji na številu obrokov na dan.](media/3-number-of-meals-per-day.png)
 

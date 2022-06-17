@@ -1,25 +1,25 @@
 ---
-title: Uporabite API-je za načrtovanje projekta z Power Automate
-description: Ta tema ponuja vzorčni tok, ki uporablja vmesnike za programiranje aplikacij za načrtovanje projekta (API).
+title: Uporaba API-jev razporeda projekta s storitvijo Power Automate
+description: Ta članek ponuja vzorčni tok, ki uporablja programske vmesnike (API) za načrtovanje projekta.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916354"
 ---
-# <a name="use-project-schedule-apis-with-power-automate"></a>Uporabite API-je za načrtovanje projekta z Power Automate
+# <a name="use-project-schedule-apis-with-power-automate"></a>Uporaba API-jev razporeda projekta s storitvijo Power Automate
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Ta tema opisuje vzorčni tok, ki prikazuje, kako ustvariti celoten načrt projekta z uporabo Microsoft Power Automate, kako ustvariti nabor operacij in kako posodobiti entiteto. Primer prikazuje, kako ustvariti projekt, člana projektne skupine, nize operacij, naloge projekta in dodelitve virov. Ta tema pojasnjuje tudi, kako posodobiti entiteto in izvesti nabor operacij.
+Ta članek opisuje vzorčni tok, ki prikazuje, kako ustvariti celoten načrt projekta z uporabo Microsoft Power Automate, kako ustvariti nabor operacij in kako posodobiti entiteto. Primer prikazuje, kako ustvariti projekt, člana projektne skupine, nize operacij, naloge projekta in dodelitve virov. Ta članek pojasnjuje tudi, kako posodobiti entiteto in izvesti nabor operacij.
 
-Spodaj je popoln seznam korakov, ki so dokumentirani v vzorčnem toku v tem tema:
+Spodaj je popoln seznam korakov, ki so dokumentirani v vzorčnem toku v tem članku:
 
 1. [Ustvariti PowerApps sprožilec](#1)
 2. [Ustvari projekt](#2)
@@ -40,7 +40,7 @@ Spodaj je popoln seznam korakov, ki so dokumentirani v vzorčnem toku v tem tema
 
 ## <a name="assumptions"></a>Predpostavke
 
-Ta tema predvideva, da imate osnovno znanje o tem Dataverse platformo, tokove v oblaku in aplikacijski programski vmesnik (API) za načrtovanje projekta. Za več informacij glejte [Reference](#references) razdelek kasneje v tem tema.
+Ta članek predvideva, da imate osnovno znanje o tem Dataverse platformo, tokove v oblaku in aplikacijski programski vmesnik (API) za načrtovanje projekta. Za več informacij glejte [Reference](#references) razdelek kasneje v tem članku.
 
 ## <a name="create-a-flow"></a>Ustvari tok
 
@@ -65,7 +65,7 @@ Sledite tem korakom, da ustvarite a [tok, ki se zaveda rešitve](/power-automate
 1. Na **Rešitve** strani, izberite rešitev, ki ste jo ustvarili, in nato izberite **Novo**.
 2. V levem podoknu izberite **Oblak teče** \> **Avtomatizacija** \> **Oblačni tok** \> **Takoj**.
 3. V **Ime toka** polje, vnesite **Načrtujte predstavitveni tok API-ja**.
-4. V **Izberite, kako sprožiti ta tok** seznam, izberite **Power Apps**. Ko ustvarite a Power Apps sprožilec, logika je odvisna od vas kot avtorja. V tem tema pustite vhodne parametre prazne za namene testiranja.
+4. V **Izberite, kako sprožiti ta tok** seznam, izberite **Power Apps**. Ko ustvarite a Power Apps sprožilec, logika je na tebi kot avtorju. V tem članku pustite vhodne parametre prazne za namene testiranja.
 5. izberite **Ustvari**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>2. korak: ustvarjanje projekta
@@ -143,7 +143,7 @@ Sledite tem korakom, da ustvarite vzorčni projekt.
 ## <a name="step-6-create-a-project-bucket"></a><a id="6"></a> 6. korak: Ustvarite vedro projekta
 
 1. V toku izberite **Nov korak**.
-2. V **Izberite operacijo** pogovornem oknu, v iskalno polje vnesite **dodaj novo vrstico**. Nato na **Dejanja** zavihku, izberite operacijo na seznamu rezultatov.
+2. V **Izberite operacijo** pogovornem oknu v iskalno polje vnesite **dodaj novo vrstico**. Nato na **Dejanja** zavihku, izberite operacijo na seznamu rezultatov.
 3. V novem koraku izberite tritočko (**...**), nato pa izberite **Preimenuj**.
 4. Preimenujte korak **Ustvari vedro**.
 5. V **Ime tabele** polje, izberite **Projektna vedra**.
@@ -183,7 +183,7 @@ Sledite tem korakom, da ustvarite vzorčni projekt.
 ## <a name="step-10-do-until"></a><a id="10"></a> 10. korak: Naredite do
 
 1. V toku izberite **Nov korak**.
-2. V **Izberite operacijo** pogovornem oknu v iskalno polje vnesite **narediti dokler**. Nato na **Dejanja** zavihku, izberite operacijo na seznamu rezultatov.
+2. V **Izberite operacijo** pogovornem oknu, v iskalno polje vnesite **narediti dokler**. Nato na **Dejanja** zavihku, izberite operacijo na seznamu rezultatov.
 3. Prvo vrednost v pogojnem stavku nastavite na **število nalog** spremenljivka iz **Dinamična vsebina** pogovorno okno.
 4. Nastavite pogoj na **manj kot enako**.
 5. Drugo vrednost v pogojnem stavku nastavite na **0**.

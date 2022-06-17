@@ -1,23 +1,23 @@
 ---
 title: Konfiguracija integracije storitve Project Operations po pravnih osebah
-description: Ta tema vsebuje informacije o nastavitvi integracije po pravnih osebah v storitvi Project Operations.
+description: Ta članek vsebuje informacije o nastavitvi integracije pravne osebe v Project Operations.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914698"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfiguracija integracije storitve Project Operations po pravnih osebah 
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta tema vsebuje postopna navodila za konfiguracijo aplikacije Dynamics 365 Project Operations za pravno osebo.
+Ta članek vas vodi skozi korake, potrebne za konfiguracijo Dynamics 365 Project Operations na pravno osebo.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Omogoči funkcijske tipke v Dynamics 365 Finance
 

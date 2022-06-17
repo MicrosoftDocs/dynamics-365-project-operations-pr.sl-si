@@ -1,17 +1,17 @@
 ---
 title: Beleženje uporabe materiala v projektih in projektnih nalogah
-description: Ta tema ponuja informacije o tem, kako beležiti uporabo materiala glede na projekte in opravila projekta.
+description: Ta članek vsebuje informacije o tem, kako evidentirati porabo materiala za projekte in projektne naloge.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 60aed9aa82eeb0339e71b0171719e765a63d91e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: eeb8303821bc4c246e37333ddbcb77ca798d2e8f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579694"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920080"
 ---
 # <a name="record-material-usage-on-projects-and-project-tasks"></a>Beleženje uporabe materiala v projektih in projektnih nalogah
 

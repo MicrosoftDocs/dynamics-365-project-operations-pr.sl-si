@@ -1,17 +1,17 @@
 ---
 title: Nabori odobritev
-description: V tej temi je pojasnjeno, kako upravljati z nabori odobritev in zahtevami ter s podmnožicami teh postopkov.
+description: Ta članek pojasnjuje, kako delati z nizi odobritev, zahtevami in podnabori teh operacij.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918102"
 ---
 # <a name="approval-sets"></a>Nabori odobritev
 
@@ -28,7 +28,7 @@ Polke **Življenjska doba nabora odobritev** beleži število poskusov obdelave 
 
 Nabori odobritev se obdelujejo s periodično aktivacijo na podlagi a **Oblačni tok** imenovani **Projektna storitev – Redno načrtujte komplete za odobritev projekta**. To se nahaja v **Rešitev** imenovani **Projektne operacije**. 
 
-Prepričajte se, da je pretok aktiviran, tako da dokončate naslednje korake.
+Prepričajte se, da je tok aktiviran, tako da dokončate naslednje korake.
 
 1. Kot skrbnik se prijavite v [flow.microsoft.com](https://powerautomate.microsoft.com).
 2. V zgornjem desnem kotu preklopite na okolje, za katerega uporabljate Dynamics 365 Project Operations.

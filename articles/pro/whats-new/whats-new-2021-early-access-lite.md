@@ -1,24 +1,24 @@
 ---
 title: Novosti pri 2. valu posodobitev izdaje 2021 za zgodnji dostop – poenostavljeno uvajanje storitve Project Operations
-description: V tej temi so na voljo informacije o funkcijah, ki so na voljo v 2. valu posodobitev izdaje 2021 za zgodnji dostop poenostavljenega uvajanja storitve Project Operations.
+description: Ta članek vsebuje informacije o funkcijah, ki so na voljo v izdaji zgodnjega dostopa 2. vala 2021 uvajanja Project Operations lite.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723696"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924128"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Novosti pri 2. valu posodobitev izdaje 2021 za zgodnji dostop – poenostavljeno uvajanje storitve Project Operations
 
 _Velja za: poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
+Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
 
   - Project Operations v okolju Dataverse različice 4.23.0.4
 

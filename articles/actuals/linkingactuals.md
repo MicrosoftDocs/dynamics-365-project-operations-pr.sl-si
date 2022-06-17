@@ -1,18 +1,18 @@
 ---
 title: Izvor transakcije – povežite dejanske podatke z njihovim virom
-description: Ta tema pojasnjuje, kako se koncept izvora transakcije uporablja za povezavo dejanskih dejstev z izvirnimi izvornimi zapisi, kot so vnos časa, vnos stroškov ali dnevniki porabe materiala.
+description: Ta članek pojasnjuje, kako se koncept izvora transakcije uporablja za povezavo dejanskih dejstev z izvirnimi izvornimi zapisi, kot so vnos časa, vnos stroškov ali dnevniki porabe materiala.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 908f78f7d58ec4b18f37d03b6fa7c4e2295491fa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f1beff392ddd449a930d38016ca6083fea97953b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921322"
 ---
 # <a name="transaction-origins---link-actuals-to-their-source"></a>Izvor transakcije – povežite dejanske podatke z njihovim virom
 
@@ -22,7 +22,7 @@ Zapisi izvora transakcij so ustvarjeni za povezavo dejanskih dejstev z njihovim 
 
 Naslednji primer prikazuje običajno obdelavo časovnih vnosov v življenjskem ciklu projekta v aplikaciji Project Operations.
 
-> ![Celoten čas obdelave v projektnih operacijah.](media/basic-guide-17.png)
+> ![Celotni čas obdelave v projektnih operacijah.](media/basic-guide-17.png)
  
 1. Predložitev časovnega vnosa povzroči, da se ustvarita dve vrstici dnevnika: ena za stroške in ena za neobračunano prodajo.
 2. Končna odobritev časovnega vnosa povzroči, da se ustvarita dve dejanski vrednosti: ena za stroške in ena za neobračunano prodajo.

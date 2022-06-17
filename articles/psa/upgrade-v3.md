@@ -1,6 +1,6 @@
 ---
 title: Vidiki nadgradnje – Microsoft Dynamics 365 Project Service Automation različice 2.x ali 1.x na različico 3
-description: V tej temi so na voljo informacije o vidikih, ki jih morate upoštevati pri nadgradnji storitve Project Service Automation različice 2.x ali 1.x na različico 3.
+description: Ta članek vsebuje informacije o premislekih, ki jih morate upoštevati pri nadgradnji z različice Project Service Automation 2.x ali 1.x na različico 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601774"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918930"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Vidiki nadgradnje – nadgradnja storitve PSA različice 2.x ali 1.x na različico 3
 
@@ -40,7 +40,7 @@ Dodelitve opravil so bile v rešitvi Project Service Automation različic 2 in 
 
 V storitvi Project Service Automation različice 3 je spremenjena temeljna shema za dodeljevanje virov, ki jih je mogoče rezervirati, opravilom. Opravilo vrstice je zastarelo in neposredno razmerje med opravilom v polju **Entiteta opravila** in članom ekipe v entiteti **Dodelitev vira** je 1:1. Opravila, ki so dodeljena članu projektne ekipe, so zdaj shranjena neposredno v entiteti dodelitve virov.  
 
-Te spremembe vplivajo na nadgradnjo vseh obstoječih projektov, ki imajo dodelitve virov za imenovane vire, ki jih je mogoče rezervirati, in splošne vire v projektni ekipi. V tej temi so na voljo informacije o vidikih, ki jih bo treba upoštevati pri projektih, ko nadgradite na različico 3. 
+Te spremembe vplivajo na nadgradnjo vseh obstoječih projektov, ki imajo dodelitve virov za imenovane vire, ki jih je mogoče rezervirati, in splošne vire v projektni ekipi. Ta članek vsebuje premisleke, ki jih boste morali upoštevati pri svojih projektih, ko nadgradite na različico 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Opravila, dodeljena poimenovanim virom
 S temeljno entiteto opravila so opravila v različici 2 in različici 1 članom ekipe omogočala uporabo vloge, ki ni njihova privzeta določena vloga. Mateja Hribar, ki ji je na primer privzeto dodeljena vloga upravitelja programa, se lahko dodeli opravilo z vlogo razvijalca. V različici 3 je vloga imenovanega člana ekipe vedno privzeta, zato vsako opravilo, dodeljeno Mateji Hribar, uporablja Matejino privzeto vlogo upravitelja programa.

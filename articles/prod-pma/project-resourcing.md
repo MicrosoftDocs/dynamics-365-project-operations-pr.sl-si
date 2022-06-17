@@ -1,6 +1,6 @@
 ---
 title: Domača stran iskanja virov za projekt
-description: Ta tema vsebuje informacije o iskanju virov za projekt.
+description: Ta članek vsebuje informacije o financiranju projektov.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924036"
 ---
 # <a name="project-resourcing-home-page"></a>Domača stran iskanja virov za projekt
 
 [!include [banner](../includes/banner.md)]
 
-Ta tema vsebuje informacije o iskanju virov za projekt.
+Ta članek vsebuje informacije o financiranju projektov.
 
 Eden od izzivov za projektne vodje in upravitelje virov v fazi načrtovanja projekta je dodeljevanje virov, kjer morajo določiti in rezervirati pravi vir za delo na projektu. V Dynamics 365 Finance vam zmogljivosti virov za projekte omogočajo definiranje vlog, ki se obravnavajo kot začasni viri, ki jih je mogoče rezervirati za določeno dejavnost ali del posla. Ta vrsta iskanja virov omogoča projektnim vodjem in upraviteljem virov, da izvedejo naslednja opravila:
 
@@ -41,7 +41,7 @@ Eden od izzivov za projektne vodje in upravitelje virov v fazi načrtovanja proj
 
 Ko se načrtovanje projekta nadaljuje, je mogoče načrtovane vire zamenjati z zaposlenimi viri. Projektni vodja se lahko tudi vrača in posodablja rezervacije ob iskanju virov v kateri koli fazi projekta.
 
-Naslednje teme ponujajo informacije o opravilih, ki jih je treba opraviti, ko iščete projektne vire.
+Naslednji članki ponujajo informacije o nalogah, ki jih je treba opraviti, ko delate na projektih pridobivanja virov.
 
 - [Nastavitev virov projekta](set-up-project-resources.md)
 - [Upravljanje sposobnosti virov](manage-resource-competencies.md)

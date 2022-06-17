@@ -1,24 +1,24 @@
 ---
 title: Novosti za junij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
-description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji storitve Project Operations (junij 2021) za scenarije, ki temeljijo na virih/nezalogi.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations junija 2021 za scenarije, ki temeljijo na virih/brez zalog.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910604"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti za junij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
+Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
 
 - Aplikacija Project Operations v okolju Dynamics 365 Dataverse (različica 4.11.0.156 ali 4.11.0.164).
 - Vodenje projektov in računovodstvo v okoljih aplikacij Finance in Operations, različica 10.0.19.
@@ -38,7 +38,7 @@ V tej izdaji ni posodobitev za preslikave dvojnega zapisovanja v aplikaciji Proj
 
 Za trenutni seznam in različice preslikovanja dvojnega zapisovanja v aplikaciji Project Operations si oglejte [Različice preslikovanja dvojnega zapisovanja v aplikaciji Project Operations](../environment/resource-dual-write-maps.md).
 
-Vedno zaženite najnovejšo različico zemljevida v svojem okolju in omogočite vse povezane zemljevide tabel, ko posodabljate svoje operacije projekta Dataverse rešitev ter različica rešitve aplikacij za finance in operacije. Če ne aktivirate najnovejše različice preslikave, nekatere funkcije in zmogljivosti morda ne bodo delovale pravilno. Aktivna različica za preslikovanje se prikaže na strani **Dvojno zapisovanje**, in sicer v stolpcu **Različica**. Novo različico za preslikovanje aktivirajte tako, da izberete možnost **Različica preslikave tabele**, ko ste izbrali najnovejšo različico, pa jo shranite. Če ste prilagodili vnaprej pripravljeno preslikavo tabele, znova uporabite spremembe. Za več informacij glejte [Upravljanje življenjskega cikla aplikacij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Vedno zaženite najnovejšo različico zemljevida v svojem okolju in omogočite vse povezane zemljevide tabel, ko posodabljate svoje operacije projekta Dataverse rešitev in različica rešitve aplikacij za finance in operacije. Če ne aktivirate najnovejše različice preslikave, nekatere funkcije in zmogljivosti morda ne bodo delovale pravilno. Aktivna različica za preslikovanje se prikaže na strani **Dvojno zapisovanje**, in sicer v stolpcu **Različica**. Novo različico za preslikovanje aktivirajte tako, da izberete možnost **Različica preslikave tabele**, ko ste izbrali najnovejšo različico, pa jo shranite. Če ste prilagodili vnaprej pripravljeno preslikavo tabele, znova uporabite spremembe. Za več informacij glejte [Upravljanje življenjskega cikla aplikacij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Če pri zagonu preslikave naletite na težave, upoštevajte navodila iz razdelka [Težava z manjkajočimi stolpci tabele v preslikavi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) v vodniku za odpravljanje težav pri dvojnem zapisovanju.
 

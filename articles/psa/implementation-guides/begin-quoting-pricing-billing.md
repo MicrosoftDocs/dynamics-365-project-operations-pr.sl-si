@@ -1,6 +1,6 @@
 ---
 title: Osnovni vodnik za ponudbe, cene in zaračunavanje
-description: V tej temi so na voljo povezave do informacij o osnovnih ponudbah, cenah in zaračunavanju v aplikaciji Project Service Automation.
+description: Ta članek vsebuje povezave do informacij o osnovnih ponudbah, cenah in obračunavanju v Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910834"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Osnovni vodnik za ponudbe, cene in zaračunavanje
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592252"
 
 Sposobnost iskanja pravih virov ob pravem času, rezerviranja teh virov v projektih in ohranjanja uporabe teh virov pomaga organizacijam pri izpolnjevanju ciljev glede prihodkov in zadovoljstva strank. 
 
-Povezava PDF, ki je bila vključena v tej temi, je odstranjena, vsebina pa je premaknjena v naslednje teme:
+Povezava PDF, ki je bila prej v tem članku, je bila odstranjena in vsebina je bila premaknjena v naslednje članke:
 
 - [Ponudbe, cene, zaračunavanje](../quote-bill-price.md)
 - [Prodajni postopki](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Povezava PDF, ki je bila vključena v tej temi, je odstranjena, vsebina pa je pr
 - [Zapisovanje dejanskih vrednosti](../advanced-actuals.md)
 
 > [!NOTE]
-> Ta tema ne bo več na voljo v prihodnji posodobitvi dokumentacije. 
+> Ta članek bo odstranjen v prihodnji posodobitvi dokumentacije. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

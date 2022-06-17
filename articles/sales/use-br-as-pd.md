@@ -1,26 +1,26 @@
 ---
 title: Uporaba vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti
-description: V tej temi so na voljo informacije o uporabi vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti.
+description: Ta članek vsebuje informacije o tem, kako uporabiti vir, ki ga je mogoče rezervirati, kot dimenzijo cene.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598647"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914836"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Uporaba vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti
 
  _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_ 
 
-V tej temi so na voljo informacije o uporabi vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti. Če je vaša cenovna strategija nastavljena tako, da mora imeti vsak vir, ki ga je mogoče rezervirati, določeno cenovno ali stroškovno stopnjo, uporabite vir, ki ga je mogoče rezervirati, kot cenovno razsežnost.
+Ta članek vsebuje informacije o tem, kako uporabiti vir, ki ga je mogoče rezervirati, kot dimenzijo cene. Če je vaša cenovna strategija nastavljena tako, da mora imeti vsak vir, ki ga je mogoče rezervirati, določeno cenovno ali stroškovno stopnjo, uporabite vir, ki ga je mogoče rezervirati, kot cenovno razsežnost.
 
 ## <a name="prerequisites"></a>Zahteve
-Preden dokončate postopke v tej temi, morate imeti novo rešitev za cenovne razsežnosti za svojo organizacijo. Če je še niste ustvarili, glejte [Ustvarjanje polj in entitet po meri](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Preden dokončate postopke v tem članku, morate imeti novo rešitev za cenovno dimenzijo za svojo organizacijo. Če je še niste ustvarili, glejte [Ustvarjanje polj in entitet po meri](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Dodajanje polja Vir, ki ga je mogoče rezervirati, v obrazce in poglede
 Če želite narediti polje **Vir, ki ga je mogoče rezervirati** vidno v rešitvi za cenovne razsežnosti, morate polje dodati vsem obrazcem in pogledom v obliki entitete.

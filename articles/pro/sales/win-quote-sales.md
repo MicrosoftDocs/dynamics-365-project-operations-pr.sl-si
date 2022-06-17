@@ -1,18 +1,18 @@
 ---
 title: Zapiranje ponudbe – poenostavljeno
-description: Ta tema vsebuje informacije o zapiranju ponudbe v aplikaciji Project Operations.
+description: Ta članek vsebuje informacije o zaključku ponudbe v Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bde4794c19dd69b6dd77abf5483c674cd7503d23
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916952"
 ---
 # <a name="close-a-quote---lite"></a>Zapiranje ponudbe – poenostavljeno
 

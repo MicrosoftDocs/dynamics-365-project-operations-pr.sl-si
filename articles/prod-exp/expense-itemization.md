@@ -1,17 +1,17 @@
 ---
 title: Razčlenitev stroškov
-description: Ta tema pojasnjuje, kako razčleniti stroške z uporabo prenovljenega delovnega prostora Expense.
+description: V tem članku je razloženo, kako razčleniti stroške s prenovljenim delovnim prostorom Expense.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 71bfbe83259804fc0b0355c81d430805da23dd45
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574542"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920954"
 ---
 # <a name="expense-itemization"></a>Razčlenitev stroškov
 
@@ -19,11 +19,11 @@ ms.locfileid: "8574542"
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Organizacije pogosto zahtevajo, da zaposleni zagotovijo podrobno razčlenitev stroškov, nastalih med potovanjem. Na primer, hotelski list lahko vsebuje več razčlenjenih vrstic za ceno sobe, davek, parkiranje in druge različne stroške, ki nastanejo vsak dan med trajanjem bivanja. Ali pa bo zaradi stroškov obroka morda potrebno, da zagotovite bolj natančno razčlenitev za zajtrk, kosilo ali večerjo. Ne glede na potrebe organizacije lahko vsako kategorijo stroškov nastavite tako, da odraža podkategorije ali postavke vrstic, ki sestavljajo strošek. Medtem ko je bila razvrščanje po artiklih vedno podprto v **Upravljanje odhodkov**, **stroški** delovni prostor omogoča učinkovitejše razdeljevanje elementov, ko funkcija, **Sposobnost hitrega razvrščanja ponavljajočih se stroškov** je omogočeno.  
+Organizacije pogosto zahtevajo, da zaposleni zagotovijo podrobno razčlenitev stroškov, nastalih med potovanjem. Na primer, hotelski list lahko vsebuje več razčlenjenih vrstic za ceno sobe, davek, parkiranje in druge različne stroške, ki nastanejo vsak dan med trajanjem bivanja. Ali pa bo strošek obroka morda zahteval, da zagotovite bolj natančno razčlenitev za zajtrk, kosilo ali večerjo. Ne glede na potrebe organizacije lahko vsako kategorijo stroškov nastavite tako, da odraža podkategorije ali postavke vrstic, ki sestavljajo strošek. Medtem ko je bila razvrščanje po artiklih vedno podprto v **Upravljanje odhodkov**, **stroški** delovni prostor omogoča učinkovitejše razdeljevanje elementov, ko funkcija, **Sposobnost hitrega razvrščanja ponavljajočih se stroškov** je omogočeno.  
 
 ## <a name="enable-quick-itemization"></a>Omogoči hitro razvrščanje elementov 
 
-Lahko uporabite **Sposobnost hitrega razvrščanja ponavljajočih se stroškov** funkcija za hitro razvrščanje ponavljajočih se stroškov, hkrati pa se izognete potrebi po vnosu dnevnih stroškov vsakič za čas bivanja. Izpolnite naslednje korake, da omogočite hitro razvrščanje elementov.
+Lahko uporabite **Sposobnost hitrega razvrščanja ponavljajočih se stroškov** funkcija za hitro razvrščanje ponavljajočih se stroškov, hkrati pa se izognete potrebi po vnosu dnevnih stroškov vsakič v času bivanja. Izvedite naslednje korake, da omogočite hitro razvrščanje elementov.
 
 1. Pojdite na **Upravljanje funkcij** delovni prostor in na seznamu funkcij poiščite in izberite, **Prenovljena poročila o stroških**. 
 2. Izberite **Omogoči zdaj**. 
@@ -37,7 +37,7 @@ Lahko uporabite **Sposobnost hitrega razvrščanja ponavljajočih se stroškov**
 |     Polje          |     Description                                                                                  |     Primer              |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
 |     Podkategorija    |     Seznam podkategorij, konfiguriranih pod vrsto kategorije stroškov, **Hotel**.             |     Dnevna cena sobe      |
-|     Datum začetka     |     Datum, ko je bil odhodek prvič nastal.                                           |     09. 2021           |
+|     Datum začetka     |     Datum, ko je bila postavka odhodka prvič nastala.                                           |     09. 2021           |
 |     Dnevna stopnja     |     Znesek, nastal za postavko odhodka.                                                    |     200                  |
 |     Količina       |     Kolikokrat se polnjenje ponovi v neprekinjenem obdobju.                       |     3                    |
 

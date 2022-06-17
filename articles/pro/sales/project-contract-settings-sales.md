@@ -1,23 +1,23 @@
 ---
 title: Nastavitve projektnih pogodb – poenostavljeno
-description: Ta tema vsebuje informacije o poljih, ki vplivajo na podrobnosti pogodbe, in informacije o pogodbi, ki so povzete v vrstičnih postavkah.
+description: Ta članek vsebuje informacije o poljih, ki vplivajo na pogodbene vrstice, in informacije o pogodbi, ki so povzete v vseh postavkah vrstic.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917090"
 ---
 # <a name="header-details-for-project-contracts"></a>Podrobnosti glave za projektne pogodbe
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta tema vsebuje informacije o poljih, ki veljajo za celotno projektno pogodbo, vključno z nastavitvami, ki vplivajo na vse podrobnosti pogodbe. Vključene so tudi informacije o pogodbi, ki so povzete po vrstičnih postavkah za vodenje KPI-jev projektne pogodbe.
+Ta članek vsebuje informacije o poljih, ki veljajo za celotno projektno pogodbo, vključno z nastavitvami, ki vplivajo na vse pogodbene vrstice. Vključene so tudi informacije o pogodbi, ki so povzete po vrstičnih postavkah za vodenje KPI-jev projektne pogodbe.
 
 V naslednji tabeli so navedena polja v projektni pogodbi, ki so edinstvena za aplikacijo Dynamics 365 Project Operations ali imajo nekaj pomembnih razlik v vedenju v primerjavi s prodajnimi naročili v storitvi Dynamics 365 Sales.
 

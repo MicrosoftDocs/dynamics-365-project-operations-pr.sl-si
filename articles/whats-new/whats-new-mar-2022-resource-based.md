@@ -1,24 +1,24 @@
 ---
 title: Novosti v marcu 2022 – Project Operations za primere uporabe z viri/brez zalog
-description: Ta tema ponuja informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations marca 2022 za scenarije, ki temeljijo na virih/brez zalog.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations marca 2022 za scenarije, ki temeljijo na virih/brez zalog.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600762"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910926"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti v marcu 2022 – Project Operations za primere uporabe z viri/brez zalog
 
 *Velja za: scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi*
 
-Ta tema velja za naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
+Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
 
 - Projektno delovanje v a Dataverse različica okolja 4.30.0.99
 - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.25
@@ -91,11 +91,11 @@ Vedno zaženite najnovejšo različico zemljevida v svojem okolju in omogočite 
 
 ## <a name="removed-and-deprecated-features"></a>Odstranjene in zastarele funkcije
 
-The [Odstranjene ali zastarele funkcije v Project Operations](removed-depreciated-features-project.md) tema opisuje funkcije, ki so bile odstranjene ali zastarele Dynamics 365 Project Operations.
+The [Odstranjene ali zastarele funkcije v Project Operations](removed-depreciated-features-project.md) članek opisuje funkcije, ki so bile odstranjene ali zastarele Dynamics 365 Project Operations.
 
 - Odstranjena funkcija v izdelku ni več na voljo.
 - Zastarela funkcija ni v aktivnem razvoju in bo morda odstranjena v prihodnji posodobitvi.
 
-Obvestilo o prenehanju veljavnosti bo prikazano v [Odstranjene ali zastarele funkcije v Project Operations](removed-depreciated-features-project.md) tema 12 mesecev pred odstranitvijo katere koli funkcije iz izdelka.
+Obvestilo o prenehanju veljavnosti bo prikazano v [Odstranjene ali zastarele funkcije v Project Operations](removed-depreciated-features-project.md) člen 12 mesecev preden se katera koli funkcija odstrani iz izdelka.
 
 Za prekinitvene spremembe, ki vplivajo samo na čas kompilacije, vendar so binarno združljive s peskovnikom in produkcijskimi okolji, bo čas zastaranja krajši od 12 mesecev. Običajno so te spremembe funkcionalne posodobitve, ki jih je treba izvesti v prevajalnik.

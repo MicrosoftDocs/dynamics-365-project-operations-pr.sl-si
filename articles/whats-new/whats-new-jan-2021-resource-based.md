@@ -1,25 +1,25 @@
 ---
 title: Novosti v januarju 2021 – Project Operations za primere uporabe z viri/brez zalog
-description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v januarski izdaji (2021) aplikacije Project Operations za primere uporabe z viri/brez zalog.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations januarja 2021 za scenarije, ki temeljijo na virih/brez zalog.
 author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cd20ba47a45593e7694234b4f58aecd79b1c3736
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910696"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti v januarju 2021 – Project Operations za primere uporabe z viri/brez zalog
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 
-Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
+Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
 
   - Project Operations v okolju Dataverse različice 4.6.0.154
   - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.16

@@ -1,24 +1,24 @@
 ---
 title: Kaj je novega november 2021 – uvajanje Project Operations lite
-description: Ta tema zagotavlja informacije o posodobitvah kakovosti, ki so na voljo v izdaji novembrske različice Project Operations lite uvajanja.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji uvajanja Project Operations lite novembra 2021.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3f3a19cddd1b91fc76c852153526fb7197a9f92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 947e7f6183ddeef3ab9a88d140331956bbcf23bd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913824"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Kaj je novega november 2021 – uvajanje Project Operations lite
 
 _Velja za: poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta tema velja za naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
+Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
 
 - Projektno delovanje v a Dataverse različica okolja 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
   

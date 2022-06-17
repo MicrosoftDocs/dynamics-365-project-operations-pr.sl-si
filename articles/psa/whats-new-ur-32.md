@@ -1,6 +1,6 @@
 ---
 title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 32, V3
-description: V tej temi so navedene funkcije in popravki, ki so na voljo za Project Service Automation V3, izdaja posodobitve 32.
+description: V tem članku so navedene funkcije in popravki, ki so na voljo v posodobitvi Project Service Automation, izdaja 32, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/01/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3ad87eceb90a48997aadf00803b8d14c5108eb83
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5124137c24da9b579ee1365524d66d9135b2d420
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912904"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-32-v3"></a>Novosti ali spremembe v izdaji posodobitve za Project Service Automation 32, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8580108"
 
 Z veseljem objavljamo najnovejšo posodobitev za aplikacijo Microsoft Dynamics 365 Project Service Automation. Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Združljiva je z s storitvijo Dynamics 365 9.x. Če želite posodobiti to različico, obiščite spletno stran rešitev za Skrbniško središče za Dynamics 365 in namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).
 
-V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation V3, izdaja posodobitve 32. Ta različica ima številko gradnje V3.10.53.108 in je na splošno na voljo s samoposodobitvijo junija 2021.
+V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation V3, posodobitev izdaja 32. Ta različica ima številko gradnje V3.10.53.108 in je na splošno na voljo s samoposodobitvijo junija 2021.
 
 ## <a name="update-release-32"></a>Izdaja posodobitve 32
 

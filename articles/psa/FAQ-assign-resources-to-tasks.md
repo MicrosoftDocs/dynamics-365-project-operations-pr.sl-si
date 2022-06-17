@@ -1,6 +1,6 @@
 ---
 title: Dodeljevanje vira opravilu
-description: Ta tema vsebuje informacije o dodeljevanju virov opravilom.
+description: Ta članek vsebuje informacije o tem, kako dodeliti vire nalogam.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 42363814a8ef395652ed8f8a79d0e6f02f2f5177
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dae5a81c51f34b9115ac8c267452b167a6d7bef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586180"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913502"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Dodeljevanje vira opravilu
 

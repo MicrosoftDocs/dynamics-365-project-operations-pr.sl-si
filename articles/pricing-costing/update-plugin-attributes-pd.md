@@ -1,33 +1,33 @@
 ---
 title: Posodabljanje atributov vtičnikov z novimi cenovnimi razsežnostmi
-description: Ta tema vsebuje informacije o posodabljanju atributov vtičnika za cenovne razsežnosti.
+description: Ta članek vsebuje informacije o tem, kako posodobiti atribute vtičnika za razsežnosti cen.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575048"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920034"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Posodabljanje atributov vtičnikov z novimi cenovnimi razsežnostmi
 
-Ta tema vsebuje informacije o posodabljanju atributov vtičnika za cenovne razsežnosti.
+Ta članek vsebuje informacije o tem, kako posodobiti atribute vtičnika za razsežnosti cen.
 
 > [!NOTE]
-> Ta tema se uporablja samo za funkcije ponudbe in pogodbe v storitvi Dynamics 365 Project Operations.
+> Ta člen se uporablja samo za ponudbe in funkcije pogodbe v Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Zahteve
-Preden dokončate korake v tej temi, morate izvesti postopke v naslednjih temah:
+Preden dokončate korake v tem članku, morate opraviti postopke v naslednjih člankih:
 
   - [Ustvarjanje polj in entitet po meri](create-custom-fields-entities-pricing-dimensions.md) 
   - [Dodajanje polj po meri v entitete za nastavitev cene in transakcijske entitete ](add-custom-fields-price-setup-transactional-entities.md)
   - [Nastavitev polj po meri kot cenovnih razsežnosti](set-up-custom-fields-pricing-dimensions.md). 
   
-Če teh postopkov še niste izvedli, jih dokončajte in se vrnite na to temo.
+Če teh postopkov še niste izvedli, jih dokončajte in se nato vrnite na ta članek.
 
 ## <a name="register-a-plug-in"></a>Registracija vtičnika
 Ko se na strani **Vrstica ponudbe** ustvarijo podrobnosti vrstice ponudbe za projektno vrstico ponudbe, sistem ustvari dve vrstici ocene. Ena vrstica je na strani stroškov ocene, druga vrstica pa na strani prodaje. Enako velja za podrobnosti projektne pogodbe.

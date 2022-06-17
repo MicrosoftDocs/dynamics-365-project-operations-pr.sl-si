@@ -1,17 +1,17 @@
 ---
 title: Prenesite v celoti zaračunane mejnike obračunavanja ob preseku
-description: Ta tema pojasnjuje, kako preseliti mejnike obračunavanja s fiksno ceno, ki so bili zaračunani stranki za pogodbe o odprtih projektih pred datumom objave.
+description: V tem članku je razloženo, kako preseliti mejnike obračunavanja s fiksno ceno, ki so bili stranki zaračunani za pogodbe o odprtih projektih pred datumom začetka uporabe.
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ccdba864a68521024b2c479c12cf5cea616c5bbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912260"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Prenesite v celoti zaračunane mejnike obračunavanja ob preseku
 
@@ -33,13 +33,13 @@ Contoso bo v živo z Microsoftom Dynamics 365 Project Operations za scenarije vi
 
 1. Prepričajte se, da je ciljna preslikava za **Mejniki pogodbene linije za integracijo projektnih operacij** subjekt je posodobljen. 
 
-    1. V Financah pojdite na **Upravljanje s podatki** \> **Podatkovne entitete** in izberite **Mejniki pogodbene linije za integracijo projektnih operacij** entiteta. 
+    1. V Financah pojdite na **Upravljanje podatkov** \> **Podatkovne entitete** in izberite **Mejniki pogodbene linije za integracijo projektnih operacij** entiteta. 
     2. Izberite **Spremenite ciljne preslikave**. 
     3. Na **Uprizoritev zemljevida do cilja** stran, izberite **Ustvari preslikavo** in nato potrdite, da želite ustvariti preslikavo.
 
 2. Ustavite in osvežite **Mejniki pogodbene linije za integracijo projektnih operacij** (**msdyn\_ pogodbeni razpored vrednosti**) zemljevid z dvojnim zapisom. 
 
-    1. Pojdi do **Upravljanje s podatki** \> **Dvojno pisanje**, izberite zemljevid in odprite njegove podrobnosti. 
+    1. Pojdi do **Upravljanje podatkov** \> **Dvojno pisanje**, izberite zemljevid in odprite njegove podrobnosti. 
     2. Izberite **Ustavi se** in počakajte, da sistem ustavi zemljevid. 
     3. Izberite **Osvežite tabele**.
 
@@ -78,8 +78,8 @@ Contoso bo v živo z Microsoftom Dynamics 365 Project Operations za scenarije vi
 
     Če želite ustaviti zemljevide, sledite tem korakom:
 
-    1. V Financah pojdite na **Upravljanje s podatki** \> **Dvojno pisanje**, izberite zemljevid in odprite njegove podrobnosti.
-    2. Izberite **Ustavi se**, in počakajte, da sistem ustavi zemljevid.
+    1. V Financah pojdite na **Upravljanje podatkov** \> **Dvojno pisanje**, izberite zemljevid in odprite njegove podrobnosti.
+    2. Izberite **Ustavi se** in počakajte, da sistem ustavi zemljevid.
 
 3. V projektnih operacijah Dataverse okolju, ustvarite in potrdite predračune za obračunske mejnike. 
 
@@ -91,7 +91,7 @@ Contoso bo v živo z Microsoftom Dynamics 365 Project Operations za scenarije vi
 4. Ko so vsi predračuni potrjeni, vrnite vse zemljevide z dvojnim pisanjem v prvotno stanje.
 
     1. Posodobite različico **Mejniki pogodbene linije za integracijo projektnih operacij** (**msdyn\_ pogodbeni razpored vrednosti**) zemljevid z dvojnim pisanjem nazaj na izvirnik. 
-    2. Na seznamu zemljevidov izberite zemljevid z dvojnim zapisom, izberite **Različica tabele zemljevida**, nato pa izberite izvirno različico zemljevida tabele.
+    2. Na seznamu zemljevidov izberite zemljevid z dvojnim zapisom, izberite **Tabela različica zemljevida**, nato pa izberite izvirno različico zemljevida tabele.
     3. Izberite **Shrani**.
     4. Znova zaženite naslednje zemljevide z dvojnim pisanjem:
 

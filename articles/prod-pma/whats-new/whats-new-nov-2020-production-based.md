@@ -1,17 +1,17 @@
 ---
 title: Novosti v novembru 2020 – Project Operations za primere uporabe z naročili na zalogi/v proizvodnji
-description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v novembrski izdaji (2020) aplikacije Project Operations za primere uporabe z naročili na zalogi/v proizvodnji.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations novembra 2020 za scenarije, ki temeljijo na zalogi proizvodnje.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 24796eb70f5da6fa181ef7e88ec5d4d4fddbb436
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67f71aa045dc3c9dd513462709db79436c971b7b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576612"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911249"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Novosti v novembru 2020 – Project Operations za primere uporabe z naročili na zalogi/v proizvodnji
 

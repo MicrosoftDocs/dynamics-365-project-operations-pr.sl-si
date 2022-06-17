@@ -1,23 +1,23 @@
 ---
 title: Dnevnik integracij v aplikaciji Project Operations
-description: Ta tema vsebuje informacije o delu z dnevnikom integracij v aplikaciji Project Operations.
+description: Ta članek vsebuje informacije o delu z revijo Integration v Project Operations.
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582454"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923898"
 ---
 # <a name="integration-journal-in-project-operations"></a>Dnevnik integracij v aplikaciji Project Operations
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Vnosi časa in stroškov ustvarijo **Dejanske** transakcije, ki predstavljajo operativni pogled na delo, opravljenega v zvezi s projektom. Aplikacija Dynamics 365 Project Operations računovodjam zagotavlja orodje za pregled transakcij in prilagoditev računovodskih atributov. Po zaključku pregleda in prilagoditev se transakcije zabeležijo v podknjigo in glavno knjigo projekta. Računovodja lahko te dejavnosti opravlja z uporabo **Integracija projektnih operacij** dnevnik (**Dynamics 365 Finance** > **Vodenje projektov in računovodstvo** > **Časopisi** > **Integracija projektnih operacij** dnevnik.
+Vnosi časa in stroškov ustvarijo **Dejanske** transakcije, ki predstavljajo operativni pogled na delo, opravljenega v zvezi s projektom. Aplikacija Dynamics 365 Project Operations računovodjam zagotavlja orodje za pregled transakcij in prilagoditev računovodskih atributov. Po zaključku pregleda in prilagoditev se transakcije zabeležijo v podknjigo in glavno knjigo projekta. Računovodja lahko te dejavnosti izvaja z uporabo **Integracija projektnih operacij** dnevnik (**Dynamics 365 Finance** > **Vodenje projektov in računovodstvo** > **Časopisi** > **Integracija projektnih operacij** dnevnik.
 
 ![Potek dnevnika integracij.](./media/IntegrationJournal.png)
 

@@ -1,17 +1,17 @@
 ---
 title: Uporaba kategorije transakcije kot cenovne razsežnosti
-description: Ta tema vsebuje informacije o tem, kako uporabiti polje Kategorija transakcije kot cenovno razsežnost.
+description: Ta članek vsebuje informacije o tem, kako uporabiti polje Kategorija transakcije kot dimenzijo cene.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911723"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Uporaba kategorije transakcije kot cenovne razsežnosti
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591148"
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 
-Ta tema opisuje, kako uporabiti polje **Kategorija transakcije** kot cenovno razsežnost. 
+Ta članek pojasnjuje, kako uporabljati **Kategorija transakcije** polje kot dimenzijo cene. 
 
 ## <a name="prerequisites"></a>Zahteve
-Preden dokončate postopke v tej temi, morate imeti novo rešitev za cenovne razsežnosti za svojo organizacijo. Če je še niste ustvarili, glejte [Ustvarjanje polj in entitet po meri kot cenovnih razsežnosti](create-custom-fields-entities-pricing-dimensions.md).
+Preden dokončate postopke v tem članku, morate imeti novo rešitev za cenovno dimenzijo za svojo organizacijo. Če je še niste ustvarili, glejte [Ustvarjanje polj in entitet po meri kot cenovnih razsežnosti](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Dodajanje polja Kategorija transakcije v obrazce in poglede
 Če želite narediti polje **Kategorija transakcije** vidno v rešitvi za cenovne razsežnosti, morate polje dodati vsem obrazcem in pogledom v obliki entitete.

@@ -1,6 +1,6 @@
 ---
 title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 15, V3
-description: V tej temi so na voljo informacije o novostih v izdaji posodobitve za Project Service Automation 15, V3.
+description: Ta članek vsebuje informacije o tem, kaj je novega v posodobitvi Project Service Automation, izdaja 15, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 26b9ee0a6ff1ad81d6c77a6a7091733667c493ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b87cae2cd8913457c2931d1661a57509d1398d29
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585168"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915664"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Izdaja posodobitve 15 za Project Service Automation, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8585168"
 
 Z veseljem predstavljamo najnovejšo posodobitev za aplikacijo Dynamics 365 Project Service Automation (PSA). Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Ta izdaja je združljiva s storitvijo Dynamics 365 9.x. Če želite posodobiti na to izdajo, obiščite skrbniško središče za Dynamics 365 online in odprite stran z rešitvami, da namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).
 
-V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za PSA V3, izdaja posodobitve 15. Ta različica ima številko graditve V3.10.5.28 in je splošno na voljo s samostojno posodobitvijo v januarju 2020.
+V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za PSA V3, posodobitev izdaje 15. Ta različica ima številko graditve V3.10.5.28 in je splošno na voljo s samostojno posodobitvijo v januarju 2020.
 
 ## <a name="update-release-15"></a>Izdaja posodobitve 15 
 

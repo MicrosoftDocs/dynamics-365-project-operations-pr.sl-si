@@ -1,23 +1,23 @@
 ---
 title: Dnevniki načrtovanja projekta
-description: Ta tema ponuja informacije in vzorce, ki vam bodo pomagali uporabljati dnevnike načrtovanja projektov za sledenje napakam, ki so povezane s storitvijo načrtovanja projektov in API-ji za načrtovanje projektov.
+description: Ta članek vsebuje informacije in vzorce, ki vam bodo pomagali uporabljati dnevnike načrtovanja projektov za sledenje napakam, ki so povezane s storitvijo načrtovanja projektov in API-ji za načrtovanje projektov.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c57419642e90e4def01f2cd2474c9e82dc162b86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923715"
 ---
 # <a name="project-scheduling-logs"></a>Dnevniki načrtovanja projekta
 
 _**Velja za:** Projektne operacije za scenarije, ki temeljijo na virih/brez zalog, uvedba Lite - obračunavanje s predračunom_, _za splet_
 
-Microsoft Dynamics 365 Project Operations uporablja [Projekt za splet](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) kot njegov primarni mehanizem za načrtovanje. Namesto uporabe standarda Microsoft Dataverse Programski vmesniki spletnih aplikacij (API), Project Operations uporablja nove API-je za načrtovanje projektov za ustvarjanje, posodabljanje in brisanje projektnih nalog, dodelitev virov, odvisnosti opravil, projektnih segmentov in članov projektnih skupin. Ko pa se operacije ustvarjanja, posodabljanja ali brisanja programsko izvajajo na entitetah strukture razčlenitve dela (WBS), lahko pride do napak. Za sledenje tem napakam in zgodovini operacij sta bila implementirana dva nova skrbniška dnevnika: **Operacijski komplet** in **Storitev načrtovanja projektov (PSS)**. Za dostop do teh dnevnikov pojdite na **Nastavitve** \> **Integracija urnika**.
+Microsoft Dynamics 365 Project Operations uporablja [Projekt za splet](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) kot njegov primarni mehanizem za načrtovanje. Namesto uporabe standarda Microsoft Dataverse Programski vmesniki spletnih aplikacij (API), Project Operations uporablja nove API-je za načrtovanje projektov za ustvarjanje, posodabljanje in brisanje projektnih nalog, dodelitev virov, odvisnosti opravil, projektnih segmentov in članov projektnih skupin. Ko pa se operacije ustvarjanja, posodabljanja ali brisanja programsko izvajajo na entitetah strukture razčlenitve dela (WBS), lahko pride do napak. Za sledenje tem napakam in zgodovini operacij sta bila implementirana dva nova skrbniška dnevnika: **Komplet operacij** in **Storitev načrtovanja projektov (PSS)**. Za dostop do teh dnevnikov pojdite na **Nastavitve** \> **Integracija urnika**.
 
 Naslednja slika prikazuje podatkovni model za dnevnike načrtovanja projekta.
 
@@ -64,7 +64,7 @@ Naslednja tabela prikazuje polja, ki so povezana z **Podrobnosti nabora operacij
 | msdyn_operationtypeName    | Ni na voljo.                                                                             | Ni na voljo.        |
 | msdyn_psspayload           | Zaporedna polja storitve načrtovanja projektov za zahtevo.                           | PssPayload            |
 | msdyn_recordid             | Identifikator zapisa zahteve.                                                       | ID zapisa             |
-| msdyn_requestnumber        | Samodejno ustvarjena številka, ki označuje vrstni red, v katerem so bile zahteve prejete. | Številka zahteve        |
+| msdyn_requestnumber        | Samodejno ustvarjena številka, ki označuje vrstni red, v katerem so bile prejete zahteve. | Številka zahteve        |
 
 ## <a name="project-scheduling-service-error-logs"></a>Dnevniki napak storitve načrtovanja projektov
 

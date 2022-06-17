@@ -1,6 +1,6 @@
 ---
 title: Sinhronizirajte ocene projekta neposredno iz avtomatizacije projektnih storitev do financ in poslovanja
-description: Ta tema opisuje predloge in osnovne naloge, ki se uporabljajo za sinhronizacijo ocen projektnih ur in ocen stroškov projekta neposredno iz Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Finance.
+description: Ta članek opisuje predloge in osnovne naloge, ki se uporabljajo za sinhronizacijo ocen projektnih ur in ocen stroškov projekta neposredno iz Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684616"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920862"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizirajte ocene projekta neposredno iz avtomatizacije projektnih storitev do financ in poslovanja
 
 [!include[banner](../includes/banner.md)]
 
-Ta tema opisuje predloge in osnovne naloge, ki se uporabljajo za sinhronizacijo ocen projektnih ur in ocen stroškov projekta neposredno iz Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+Ta članek opisuje predloge in osnovne naloge, ki se uporabljajo za sinhronizacijo ocen projektnih ur in ocen stroškov projekta neposredno iz Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
 > [!NOTE]
 > - V različici 8.0 so na voljo integracija projektnih opravil, kategorije transakcije stroškov, ocene delovnih ur, ocene stroškov in zaklepanje funkcionalnosti.

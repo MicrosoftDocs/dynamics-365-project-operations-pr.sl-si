@@ -1,6 +1,6 @@
 ---
 title: Dejanski vpliv na čas in materiale
-description: Ta tema zagotavlja informacije o vplivu na tabelo Dejanske vrednosti pri različnih dogodkih med življenjskim ciklom časovne in materialne dejavnosti v Microsoftu Dynamics 365 Project Operations.
+description: Ta članek vsebuje informacije o vplivu na tabelo Dejanske vrednosti pri različnih dogodkih med življenjskim ciklom časovne in materialne dejavnosti v Microsoftu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a4ea3f9cf74d8a67447571001b75065b8cde5c00
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 039700e61796bf77c7661e5269b6923101139a1e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923346"
 ---
 # <a name="actuals-impact-in-a-time-and-materials-engagement"></a>Dejanski vpliv na čas in materiale
 
@@ -28,7 +28,7 @@ Naslednja tabela navaja dejansko stanje različnih vrst transakcij, ki so ustvar
 
 | Dogodek | Dejanska cena | Dejanski nezaračunani znesek prodaje | Zaračunana dejanska prodaja | Primer |
 |---|---|---|---|---|
-| Čas je ustvarjen. | Ni na voljo. | Ni na voljo. | Ni na voljo. | <p>Bob Kozack, iz organizacijske enote Fabrikam v ZDA, ki ima cenovno stopnjo 100 ameriških dolarjev (100 USD) na uro, dela na projektu, ki se imenuje "Namestitev armature v Adatumu." Za ta projekt je njegova pogodbena stopnja računa USD 200 na uro. Tukaj je vzorčni vnos časa Boba Kozaka:</p><p>Bob Kozack, 8 ur</p> |
+| Čas je ustvarjen. | Ni na voljo. | Ni na voljo. | Ni na voljo. | <p>Bob Kozack iz organizacijske enote Fabrikam v ZDA, ki ima cenovno stopnjo 100 ameriških dolarjev (100 USD) na uro, dela na projektu, ki se imenuje "Namestitev armature v Adatumu." Za ta projekt je njegova pogodbena stopnja računa USD 200 na uro. Tukaj je vzorčni vnos časa Boba Kozaka:</p><p>Bob Kozack, 8 ur</p> |
 | Čas je oddan. | Ni na voljo. | Ni na voljo. | Ni na voljo. | Za vnos časa se ustvari vrstica stroškovnega dnevnika in neobračunani prodajni dnevnik. Privzeta cena in stroškovna stopnja se vneseta v temeljnico. |
 | Časovni vnos se prikliče, preden je odobren. | Ni na voljo. | Ni na voljo. | Ni na voljo. | |
 | Čas je odobren: predložene ure so enake plačljivim uram. | Ustvari se dejanski strošek. | Ustvari se dejanska neobračunana prodaja. | Ni na voljo. | <p>Nova dejanska dejstva, ki so ustvarjena:</p><ul><li>**Dejanski strošek:** Bob Kozack, 8 ur, USD 800</li><li>**Dejanska neobračunana prodaja:** Bob Kozack, 8 ur, USD 1,600</li></ul> |

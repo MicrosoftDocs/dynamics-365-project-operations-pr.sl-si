@@ -1,6 +1,6 @@
 ---
 title: Ključni pojmi
-description: Ta tema vsebuje informacije o ključnih pojmih za upravljanje virov v aplikaciji Project Service Automation.
+description: Ta članek vsebuje informacije o ključnih konceptih za upravljanje virov v Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3a0305ab35a28348798f9d9c7452b3bee75412e4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 41b13000ca17ec3a5d86fdb17885f09692d6f0c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921736"
 ---
 # <a name="key-concepts"></a>Ključni pojmi
 

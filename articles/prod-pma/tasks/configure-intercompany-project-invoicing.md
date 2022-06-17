@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje zaračunavanja projektov med podjetji
-description: V tej temi je prikazano, kako nastavite zaračunavanje projektov med dvema podjetjema v vaši organizaciji.
+description: V tem članku je prikazano, kako nastaviti projektno fakturiranje med dvema podjetjema v vaši organizaciji.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683295"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916630"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konfiguriranje zaračunavanja projektov med podjetji
 
 [!include [banner](../../includes/banner.md)]
 
-V tej temi je prikazano, kako nastavite zaračunavanje projektov med dvema podjetjema v vaši organizaciji. To opravilo uporablja nabor podatkov USSI.
+V tem članku je prikazano, kako nastaviti projektno fakturiranje med dvema podjetjema v vaši organizaciji. To opravilo uporablja nabor podatkov USSI.
 
 1. V podoknu za krmarjenje pojdite na **Moduli > Obveznosti > Dobavitelji > Vsi dobavitelji**.
 2. Na seznamu **Vsi dobavitelji** poiščite in izberite želeni zapis.

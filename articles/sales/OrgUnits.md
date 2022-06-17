@@ -1,6 +1,6 @@
 ---
 title: Organizacijske enote
-description: Ta tema opisuje koncept organizacijskih enot in pojasnjuje, kako ustvariti in vzdrževati organizacijske enote v Microsoftu Dynamics 365 Project Operations.
+description: Ta članek opisuje koncept organizacijskih enot in pojasnjuje, kako ustvariti in vzdrževati organizacijske enote v Microsoftu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 1/31/2022
 ms.topic: article
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9a8c503dc6286f40c80ed9b7a8a04974ff7e50b4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a20a37b61db68d70869a11e10bef5d30c422b1eb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921644"
 ---
 # <a name="organizational-units-overview"></a>Pregled organizacijskih enot
 
@@ -77,7 +77,7 @@ Contoso, Ltd. ima uspešno ekipo za Microsoftove tehnologije. Martin in Nina sta
 Tukaj je optimalen način oblikovanja za ta scenarij z uporabo Dynamics 365 in Project Operations.
 
 1. Oddelek za Microsoftove tehnologije ustvarite kot poslovno enoto in z njo povežite Martina in Nino. Na ta način pomagate zagotoviti, da imata oba zaposlena enako raven varnostnega dostopa do vseh projektov na tem področju prakse. Oba bosta lahko preverjala napredek in poročala o času, stroških, porabi materiala in posodobitvah opravil.
-2. Ustvarite dve organizacijski enoti, da zagotovite, da se stroški projekta pravilno odražajo.
+2. Ustvarite dve organizacijski enoti, ki pomagata zagotoviti, da se stroški projekta pravilno odražajo.
 3. Poveži Tricia z Contoso ZDA in Prakash z Contoso Indija.
 4. Vsaki organizacijski enoti dodelite ustrezne cenike z lastnimi cenami. Na ta način pomagate zagotoviti, da stroški, ki so zabeleženi v projektu za Prakash in Tricia, natančno odražajo razliko v stroških med Contoso ZDA in Contoso Indija.
 

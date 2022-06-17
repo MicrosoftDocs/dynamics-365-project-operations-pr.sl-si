@@ -1,6 +1,6 @@
 ---
 title: Rezervacije virov in njihova povezava z dodelitvami opravil
-description: V tej temi so na voljo informacije o upravljanju poimenovanih virov, rezervacij virov in dodelitev opravil ter o tem, kako so povezani med sabo.
+description: Ta članek vsebuje informacije o tem, kako upravljati poimenovane vire, rezervacije virov in dodelitve opravil ter kako so povezani med seboj.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 953d7ca1995eae823fd29d0a9e85ff6a2a2eb59b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fd8f028a9f4056a646f5001ee8c91191c71140af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575508"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910972"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Rezervacije virov in njihova povezava z dodelitvami opravil
 

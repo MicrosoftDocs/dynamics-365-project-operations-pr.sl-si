@@ -1,19 +1,19 @@
 ---
-title: Izdajanje računov prodajalcem – koncept in izdelava
-description: Ta tema opisuje koncept računov dobavitelja, scenarije za uporabo in kako ustvariti račune dobaviteljev v Microsoftu Dynamics 365 Project Operations.
+title: Izdajanje računov dobaviteljem – koncept in ustvarjanje
+description: Ta članek opisuje koncept računov dobavitelja, scenarije za uporabo in kako ustvariti račune dobavitelja v Microsoftu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dc9b3954b237294f52aa0bb74f8008a5dfdf78fd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911478"
 ---
-# <a name="vendor-invoicing---concept-and-creation"></a>Izdajanje računov prodajalcem – koncept in izdelava
+# <a name="vendor-invoicing---concept-and-creation"></a>Izdajanje računov dobaviteljem – koncept in ustvarjanje
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -82,7 +82,7 @@ Za vrstice podizvajalcev s fiksno ceno bodo naslednja polja kopirana iz vrstice 
 
 - Sklici na vrstice podizvajalcev in podizvajalcev.
 - Transakcijski razred. Privzeto bo vrednost **Mejnik**.
-- Ime in znesek mejnika bosta kopirana iz povezanega mejnika podizvajalske vrstice.
+- Ime in znesek mejnika bosta kopirana iz povezanega mejnika pogodbe s podizvajalci.
 - Uporabnik bo lahko izbral projekt in nalogo v vrstici računa prodajalca.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

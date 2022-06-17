@@ -1,17 +1,17 @@
 ---
 title: Prehodi stanja pri podizvajalski pogodbi
-description: Ta tema pojasnjuje prehode stanja na podizvajalski pogodbi v Microsoftu Dynamics 365 Project Operations ko se podizvajalska pogodba ustvari, izvede in zapre.
+description: Ta članek pojasnjuje prehode stanja pri podizvajalski pogodbi v Microsoftu Dynamics 365 Project Operations ko se podizvajalska pogodba ustvari, izvede in zapre.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c9533d046398c708c55467e6b1a25acf6abade3e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b41e3d44a17c51778dd850c7d4a48351a5d44554
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579188"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919758"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Prehodi stanja pri podizvajalski pogodbi 
 
@@ -19,7 +19,7 @@ ms.locfileid: "8579188"
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta tema pojasnjuje prehode stanja na podizvajalski pogodbi v Microsoftu Dynamics 365 Project Operations. Vsako stanje je predstavljeno kot osnutek, potrjeno, zaprto ali preklicano. Naslednja slika predstavlja prehode stanja.
+Ta članek pojasnjuje prehode stanja pri podizvajalski pogodbi v Microsoftu Dynamics 365 Project Operations. Vsako stanje je predstavljeno kot osnutek, potrjeno, zaprto ali preklicano. Naslednja slika predstavlja prehode stanja.
 
 ![Model stanja podizvajalcev](../media/SubconStates.png)  
 

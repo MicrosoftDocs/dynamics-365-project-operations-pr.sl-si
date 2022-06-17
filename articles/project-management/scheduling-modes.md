@@ -1,17 +1,17 @@
 ---
 title: Načini razporejanja
-description: Ta tema vsebuje informacije o načinih razporejanja.
+description: Ta članek vsebuje informacije o načinih načrtovanja.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588434"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923668"
 ---
 # <a name="scheduling-modes"></a>Načini razporejanja
 
@@ -38,7 +38,7 @@ Ko določite način razporejanja projekta, nastavite eno od teh vrednosti, ki je
 | Opravilo z nespremenljivim obsegom dela    | Trajanje je znova izračunano. | Enote so znova izračunane.    | Trajanje je znova izračunano. |
 | Opravilo z nespremenljivim trajanjem  | Obseg dela je znova izračunan.   | Obseg dela je znova izračunan.    | Enote so znova izračunane.   |
 
-Za več informacij o vplivih posameznega načina si preberite razdelek [Sprememba vrste opravila za natančnejše razporejanje](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). V temi se namesto izraza **Obseg dela** uporablja izraz **Delo**.
+Za več informacij o vplivih posameznega načina si preberite razdelek [Sprememba vrste opravila za natančnejše razporejanje](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). V članku izraz **Delo** se uporablja namesto **Trud**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Sprememba načina razporejanja organizacije
 

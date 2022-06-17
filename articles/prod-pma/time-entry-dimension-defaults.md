@@ -1,19 +1,19 @@
 ---
-title: Privzete finančne razsežnosti za vnose časa projekta
-description: Ta tema zagotavlja informacije o tem, kako se privzete finančne razsežnosti uporabljajo za vnose časa.
+title: Privzeto nastavljanje finančnih razsežnosti za časovne vnose projekta
+description: Ta članek vsebuje informacije o tem, kako se privzete finančne razsežnosti uporabljajo za vnose časa.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: cc51fcdcbbfec23591471c0f7522d571be813a84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9863738a2d6d0e001961554043939f62f65d9ce5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916584"
 ---
-# <a name="defaulting-financial-dimensions-for-project-time-entries"></a>Privzete finančne razsežnosti za vnose časa projekta
+# <a name="defaulting-financial-dimensions-for-project-time-entries"></a>Privzeto nastavljanje finančnih razsežnosti za časovne vnose projekta
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,28 +1,28 @@
 ---
 title: Učinkovitost API-jev razporeda projekta
-description: Ta tema zagotavlja informacije o merilih uspešnosti API-jev razporeda projekta in opredeljuje najboljše prakse za optimalno uporabo.
+description: Ta članek vsebuje informacije o merilih uspešnosti API-jev za načrtovanje projekta in opredeljuje najboljše prakse za optimalno uporabo.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911202"
 ---
 # <a name="project-schedule-api-performance"></a>Učinkovitost API-jev razporeda projekta
 
 _**Velja za:** aplikacija Project Operations za okoliščine, ki temeljijo na virih/nezalogi, poenostavljeno uvajanje – posel do izstavitve predračuna, storitev Project for the web_
 
-Ta tema zagotavlja informacije o merilih uspešnosti API-jev razporeda projekta in opredeljuje najboljše prakse za optimizacijo uporabe.
+Ta članek vsebuje informacije o merilih uspešnosti aplikacijskih programskih vmesnikov (API-jev) za načrtovanje projekta in opredeljuje najboljše prakse za optimizacijo uporabe.
 
 ## <a name="project-scheduling-service"></a>Storitev razporejanja projektov
 Storitev razporejanja projektov je storitev z več najemniki, ki se izvaja v Microsoft Azure. Zasnovan je za izboljšanje interakcije z zagotavljanjem hitre in tekoče izkušnje, ko uporabniki delajo na projektih. Ta izboljšava je dosežena tako, da sprejmemo zahtevke za spremembe, jih obdelamo in nato takoj vrnemo rezultat. Storitev asinhrono deluje v okolju Dataverse in uporabnikom ne blokira izvajanja drugih operacij.
 
-API-ji razporeda projekta se zanašajo na storitev razporejanja projektov za izvajanje zahtev, ki so podrobneje opisane v kasnejših razdelkih te teme.
+API-ji za razpored projekta se zanašajo na storitev načrtovanja projektov za izvajanje zahtev, ki so podrobneje opisane v kasnejših razdelkih tega članka.
 
 API-ji razporeda projekta so zasnovani za delo z naslednjimi entitetami strukturirane členitve dela (WBS):
 

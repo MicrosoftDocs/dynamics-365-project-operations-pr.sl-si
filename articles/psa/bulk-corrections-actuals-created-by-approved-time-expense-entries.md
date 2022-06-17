@@ -1,6 +1,6 @@
 ---
 title: Množični popravki dejanskih vrednosti, ustvarjeni s potrjenimi vnosi časov in stroškov
-description: Ta tema pojasnjuje, kako lahko skrbnik izvede posamične ali množične popravke predhodno odobrenih vnosov za čas ali strošek, če obračun ni popoln.
+description: V tem članku je razloženo, kako lahko skrbnik izvede posamezne ali množične popravke predhodno odobrenih vnosov časa ali stroškov, če obračun ni popoln.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683382"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916309"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Množični popravki dejanskih vrednosti, ustvarjeni s potrjenimi vnosi časov in stroškov
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683382"
 
 Občasno je vnos za čas ali strošek vnesen napačno. Svetovalec lahko na primer pri ustvarjanju časovnega vnosa izbere napačen datum ali pa prenese številke pri vnosu stroška. Če svetovalec ne more posodobiti poslanih vnosov, lahko skrbnik neposredno popravi vnos za projekt.
 
-Za dokončanje postopkov v tej temi boste potrebovali skrbniška dovoljenja.
+Za dokončanje postopkov v tem članku boste potrebovali skrbniška dovoljenja.
 
 ## <a name="correct-approved-time-entries"></a>Popravek odobrenih časovnih vnosov     
 

@@ -1,6 +1,6 @@
 ---
 title: Ponudbe – ključni pojmi
-description: Ta tema vsebuje informacije o ponudbah in prodajnih ponudbah za projekt, ki so na voljo v storitvi Project Operations.
+description: Ta članek vsebuje informacije o projektnih ponudbah in prodajnih ponudbah, ki so na voljo v Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912536"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Koncepti, enolični za ponudbe, ki temeljijo na projektih
 
@@ -35,7 +35,7 @@ V aplikaciji Dynamics 365 Project Operations obstajata dve vrsti ponudb: projekt
 - **Polja in koncepti**: prodajna ponudba ne vsebuje nekaterih polj in konceptov, ki so vključeni v projektno ponudbo. Polja vključujejo **pogodbeno enoto**, **upravitelja kupcev** in **ime stika za plačilo**.  
 - **Vrsta**: prodajne in projektne ponudbe so določene tudi s poljem, ki temelji na naboru možnosti in se imenuje **Vrsta**. Za prodajno ponudbo ima to polje vrednost **Temelji na elementu**. Za projektno ponudbo pa ima polje vrednost **Temelji na delu**.
 
-V tej temi se osredotočamo na podrobnosti projektnih ponudb.
+Ta članek se osredotoča na podrobnosti projektnih ponudb.
 
 Projektna ponudba v storitvi Project Operations ima lahko več vrstičnih postavk ali vrstic ponudbe. U bistvu ima projektna ponudba dve mreži za vrstične postavke. Ena mreža je za vrstice, ki temeljijo na projektih in omogočajo podrobne ocene. Druga mreža je za vrstice, ki temeljijo na izdelkih in uporabljajo enostavno ceno enote in pristop na podlagi količine.
 

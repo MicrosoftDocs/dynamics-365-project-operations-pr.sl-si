@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje naprednih pogodb za obračunavanje na podlagi napredka
-description: Ta tema razlaga, kako ustvariti projektne pogodbe, da boste lahko ustvarili račune za stranke na podlagi odstotka opravljenega dela.
+description: V tem članku je razloženo, kako ustvarite projektne pogodbe, tako da lahko ustvarite račune za stranke na podlagi odstotka opravljenega dela.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683183"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913686"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Ustvarjanje naprednih pogodb za obračunavanje na podlagi napredka
 [!include [banner](../includes/banner.md)]
 
-Ta tema razlaga, kako ustvariti projektne pogodbe, da boste lahko ustvarili račune za stranke na podlagi odstotka opravljenega dela. Zneski računov se samodejno izračunajo za proračunske kategorije dela, ki ste jih nastavili za projekt. Čas računa je nastavljen, ko se s stranko dogovorite za projektno pogodbo.
+V tem članku je razloženo, kako ustvarite projektne pogodbe, tako da lahko ustvarite račune za stranke na podlagi odstotka opravljenega dela. Zneski računov se samodejno izračunajo za proračunske kategorije dela, ki ste jih nastavili za projekt. Čas računa je nastavljen, ko se s stranko dogovorite za projektno pogodbo.
 
-S postopki v tej temi nastavite pogodbo, z njo povezani projekt in obračunska pravila, ki izračunajo zneske računov za proračunske kategorije del, ki ste jih nastavili za projekt.
+Uporabite postopke v tem članku za nastavitev pogodbe, povezanega projekta in pravil za obračunavanje, ki izračunajo zneske računov za proračunske kategorije dela, ki ste jih nastavili za projekt.
 
 Ko ustvarite pogodbo in projekt, lahko nastavite podrobnosti o projektu. Na primer, določite lahko dejavnosti in projektu dodelite delavce.
 

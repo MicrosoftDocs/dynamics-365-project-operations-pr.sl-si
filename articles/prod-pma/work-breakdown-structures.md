@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920678"
 ---
 # <a name="work-breakdown-structures-overview"></a>Pregled strukturirane členitve dela
 
@@ -35,7 +35,7 @@ Stopnja podrobnosti v vmesniku SČD je odvisna od ravni natančnosti, ki se zaht
 
 Nasprotno pa so projekti v določenih panogah (npr. mediji in oglaševanje, programska oprema in informacijska infrastruktura) običajno edinstveni, produktivnost pa je odvisna od izkušenj in usposobljenosti posameznika, ki opravlja opravilo. Zato te industrije uporabljajo vmesnik SČD, da dobijo približek velikosti projekta, ne da bi podrobno spremljale napredek tega projekta. 
 
-Izdelava vmesnika SČD je intenziven postopek, ki se običajno izvaja v daljšem obdobju in zahteva sodelovanje in informacije najrazličnejših ljudi. Ta tema opisuje, kako lahko z izboljšavami vmesnika SČD izpolnite svoje zahteve za ocene in sledenje.
+Izdelava vmesnika SČD je intenziven postopek, ki se običajno izvaja v daljšem obdobju in zahteva sodelovanje in informacije najrazličnejših ljudi. Ta članek opisuje, kako lahko uporabite izboljšave WBS, da izpolnite svoje zahteve glede ocen in sledenja.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Predpogoji za ustvarjanje vmesnika SČD
 Če želite ustvariti vmesnik SČD, morate biti sposobni ustvariti delovni urnik in oceniti stroške dela.
@@ -166,7 +166,7 @@ Rešitev Finance imajo za SČD projekta tri poglede: pogled načrtovanja, pogled
 
 ### <a name="planning-view"></a>Pogled načrtovanja
 
-Pogled načrtovanja prikazuje načrtovano ali osnovno oceno razporeda in informacije o stroških. Čeprav ni funkcij za sledenje različici in izhodišču za SČD projekt, so vrednosti v tem pogledu namenjene predstavitvi osnovne različice. Razdelka za oceno razporeda in oceno stroškov te teme opisujeta ta pogled in to, kako je uporabljen za ustvarjanje vmesnika SČD.
+Pogled načrtovanja prikazuje načrtovano ali osnovno oceno razporeda in informacije o stroških. Čeprav ni funkcij za sledenje različici in izhodišču za SČD projekt, so vrednosti v tem pogledu namenjene predstavitvi osnovne različice. Razdelka o oceni urnika in oceni stroškov v tem članku opisujeta ta pogled in kako se uporablja za ustvarjanje WBS.
 
 ### <a name="effort-tracking-view"></a>Pogled sledenja obsegu dela
 

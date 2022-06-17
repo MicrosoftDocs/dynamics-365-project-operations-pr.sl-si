@@ -1,6 +1,6 @@
 ---
 title: Vključevanje polj po meri za mobilno aplikacijo Microsoft Dynamics 365 Project Timesheet v sistemih iOS in Android
-description: Ta tema ponuja skupne vzorce za uporabo razširitev za vključevanje polj po meri.
+description: Ta članek ponuja običajne vzorce za uporabo razširitev za implementacijo polj po meri.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913732"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Vključevanje polj po meri za mobilno aplikacijo Microsoft Dynamics 365 Project Timesheet v sistemih iOS in Android
 
 [!include [banner](../includes/banner.md)]
 
-Ta tema ponuja skupne vzorce za uporabo razširitev za vključevanje polj po meri. Zajete so naslednje teme:
+Ta članek ponuja običajne vzorce za uporabo razširitev za implementacijo polj po meri. Zajeti so naslednji članki:
 
 - Različne vrste podatkov, ki jih podpira ogrodje polja po meri
 - Prikaz polj samo za branje ali polj, ki jih je mogoče urejati, v vnosih časovnega lista in shranjevanje vrednosti, ki jih vnese uporabnik, nazaj v zbirko podatkov
@@ -35,7 +35,7 @@ Ta tema ponuja skupne vzorce za uporabo razširitev za vključevanje polj po mer
 
 ## <a name="audience"></a>Občinstvo
 
-Ta tema je namenjena razvijalcem, ki vključujejo svoja polja po meri v mobilno aplikacijo Microsoft Dynamics 365 Project Timesheet, ki je na voljo za Apple iOS in Google Android. Predpostavlja se, da bralci poznajo razvoj X++ in funkcije časovnega lista projekta.
+Ta članek je namenjen razvijalcem, ki svoja polja po meri integrirajo v Microsoft Dynamics 365 Project Timesheet mobilna aplikacija, ki je na voljo za Apple iOS in Google Android. Predpostavlja se, da bralci poznajo razvoj X++ in funkcije časovnega lista projekta.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Pogodba o podatkih – razred TSTimesheetCustomField X++
 
@@ -64,7 +64,7 @@ Lastnost **FieldBaseType** v predmetu **TsTimesheetCustom** določa vrsto polja,
 
 - Če je lastnost **stringOptions** na voljo v predmetu **TSTimesheetCustomField**, so ti elementi seznama edine vrednosti, ki jih lahko uporabniki izberejo z uporabo izbirnih gumbov.
 
-    V tem primeru lahko polje niza deluje kot vrednost oštevilčenja za vnos uporabnika. Če želite shraniti vrednost v zbirko podatkov kot oštevilčenje, ročno preslikajte vrednost niza nazaj na vrednost oštevilčenja, preden jo shranite v zbirko podatkov z uporabo niza ukazov (za primer glejte razdelek »Uporaba niza ukazov v razredu TSTimesheetEntryService za shranjevanje vnosa v časovnem listu iz aplikacije nazaj v zbirko podatkov« v nadaljevanju te teme).
+    V tem primeru lahko polje niza deluje kot vrednost oštevilčenja za vnos uporabnika. Če želite vrednost shraniti v bazo podatkov kot enum, ročno preslikajte vrednost niza nazaj v vrednost enum, preden shranite v bazo podatkov z uporabo verige ukazov (glejte »Uporabi verigo ukazov v razredu TSTimesheetEntryService, da shranite vnos časovnice iz aplikacijo nazaj v bazo podatkov" v nadaljevanju tega članka za primer).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Ta lastnost določa oznako, ki je prikazana poleg polja v aplikaciji.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (List of Strings)
 
-Ta lastnost se uporablja samo, če je lastnost **fieldBaseType** nastavljena na vrsto **Niz**. Če je nastavljena lastnost **stringOptions**, so vrednosti nizov, ki so na voljo za izbiro z izbirnimi gumbi, določene z nizi na seznamu. Če ni nizov, je dovoljen vnos prostega besedila v polje niza (za primer glejte razdelek »Uporaba niza ukazov v razredu TSTimesheetEntryService za shranjevanje vnosa v časovnem listu iz aplikacije nazaj v zbirko podatkov« v nadaljevanju te teme).
+Ta lastnost se uporablja samo, če je lastnost **fieldBaseType** nastavljena na vrsto **Niz**. Če je nastavljena lastnost **stringOptions**, so vrednosti nizov, ki so na voljo za izbiro z izbirnimi gumbi, določene z nizi na seznamu. Če ni podan noben niz, je dovoljen vnos prostega besedila v polje niza (glejte razdelek »Uporabi verigo ukazov v razredu TSTimesheetEntryService, da shranite vnos časovnice iz aplikacije nazaj v bazo podatkov« pozneje v tem članku za primer) .
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

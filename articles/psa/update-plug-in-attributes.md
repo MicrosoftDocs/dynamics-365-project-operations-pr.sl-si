@@ -1,6 +1,6 @@
 ---
 title: Posodabljanje atributov vtičnikov za vključitev novih cenovnih razsežnosti
-description: Ta tema vsebuje informacije o posodabljanju atributov vtičnika za cenovne razsežnosti.
+description: Ta članek vsebuje informacije o posodabljanju atributov vtičnika za razsežnosti cen.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913226"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Posodabljanje atributov vtičnikov za vključitev novih cenovnih razsežnosti
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Če ne uporabljate funkcij za oblikovanje ponudb in sklepanje pogodb v rešitvi Project Service Automation (PSA), lahko to temo preskočite.
+> Če ne uporabljate funkcij Project Service Automation (PSA) za ponudbe in sklepanje pogodb, lahko ta članek preskočite.
 
-Predpostavljamo, da ste izvedli postopke v temah [Ustvarjanje polj in entitet po meri](create-custom-fields-entities.md), [Dodajanje polj po meri v entitete za nastavitev cene in transakcijske entitete](field-references.md) in [Nastavitev polj po meri kot cenovnih razsežnosti](set-up-pricing-dimensions.md). Če teh postopkov še niste izvedli, se vrnite nazaj in jih dokončajte, preden se vrnete na to temo.
+Ta članek predvideva, da ste izvedli postopke v člankih, [Ustvarite polja in entitete po meri](create-custom-fields-entities.md),[Dodajte polja po meri nastavitvi cen in transakcijskim entitetam](field-references.md), in [Nastavite polja po meri kot razsežnosti cen](set-up-pricing-dimensions.md). Če teh postopkov še niste dokončali, se vrnite in jih dokončajte, nato pa se vrnite na ta članek.
 
 Ko ste ustvarili vrstico ponudbe na strani **Vrstica ponudbe** za vrstico ponudbe projekta, bo sistem v ozadju ustvaril dve vrstici ocen – eno za stroškovno stran ocene in eno za prodajno stran. Enako velja za podrobnosti projektne pogodbe.
 

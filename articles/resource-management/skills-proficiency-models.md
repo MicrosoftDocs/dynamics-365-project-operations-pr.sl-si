@@ -1,17 +1,17 @@
 ---
 title: Znanja in potrdila
-description: Ta tema vsebuje informacije o dodajanju lastnosti znanja in potrdil v vire.
+description: Ta članek vsebuje informacije o dodajanju značilnosti spretnosti in certifikatov virom.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 836784bf45ba45da35d685e9372b29bb843a7268
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 12871964fec536849c55888f0704725b439dd2af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918379"
 ---
 # <a name="skills-and-certifications"></a>Znanja in potrdila
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_

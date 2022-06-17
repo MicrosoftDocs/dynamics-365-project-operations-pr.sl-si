@@ -1,6 +1,6 @@
 ---
 title: Načini rezervacije dodelitev
-description: Ta tema vsebuje informacije o tem, kako načini dodeljevanja rezervacij delujejo v storitvi Project Operations.
+description: Ta članek vsebuje informacije o tem, kako delujejo metode dodeljevanja rezervacij v Project Operations.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912766"
 ---
 # <a name="booking-allocation-methods"></a>Načini rezervacije dodelitev
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Če člana ekipe dodate projektu neposredno na zavihku **Ekipa** ali rezervirate vir za projekt oz. zahtevo na plošči razporeda, lahko uporabite več različnih načinov rezervacije dodelitev. V tej temi je pojasnjeno, kako delujejo posamezni načini in kateri načini lahko vodijo v preveliko število rezervacij virov.
+Če člana ekipe dodate projektu neposredno na zavihku **Ekipa** ali rezervirate vir za projekt oz. zahtevo na plošči razporeda, lahko uporabite več različnih načinov rezervacije dodelitev. V tem članku je razloženo, kako deluje vsaka metoda in katere metode bi lahko vodile do prezasedenosti virov.
 
 ## <a name="booking-allocation-methods"></a>Načini rezervacije dodelitev
 

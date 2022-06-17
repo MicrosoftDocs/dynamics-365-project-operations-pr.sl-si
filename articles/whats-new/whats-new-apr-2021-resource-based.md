@@ -1,24 +1,24 @@
 ---
 title: 'Novosti pri izdaji: April 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so bile na voljo v izdaji Project Operations aprila 2021 za scenarije, ki temeljijo na virih/nezalogi.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations aprila 2021 za scenarije, ki temeljijo na virih/brez zalog.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912444"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti pri izdaji: April 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
+Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
 
 - Project Operations v okolju Dataverse različice 4.9.0.221
 - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.17

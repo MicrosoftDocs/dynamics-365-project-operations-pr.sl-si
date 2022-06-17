@@ -1,24 +1,24 @@
 ---
 title: Novosti ali spremembe za april 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji
-description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so bile na voljo v izdaji za poenostavljeno uvajanje Project Operations aprila 2021 za scenarije, ki temeljijo na virih/produkciji.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations aprila 2021 za scenarije, ki temeljijo na zalogi/produkciji.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589630"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916492"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Novosti ali spremembe za april 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji_
 
-Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
+Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
 
 - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.18
  

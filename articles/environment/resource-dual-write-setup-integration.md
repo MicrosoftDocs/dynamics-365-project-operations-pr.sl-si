@@ -1,24 +1,24 @@
 ---
 title: Nastavitev aplikacije Project Operations in integracija konfiguracijskih podatkov
-description: Ta tema vsebuje informacije o nastavitvi in konfiguracij preslikav za dvojno zapisovanje za Project Operations.
+description: Ta članek vsebuje informacije o nastavitvi in konfiguriranju preslikav z dvojnim pisanjem Project Operations.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914560"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Nastavitev aplikacije Project Operations in integracija konfiguracijskih podatkov
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta tema vsebuje informacije o integraciji za dvojno zapisovanje za Project Operations za entitete nastavitev in konfiguracije.
+Ta članek vsebuje informacije o integraciji dvojnega pisanja Project Operations za enote nastavitve in konfiguracije.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Projektne pogodbe, podrobnosti pogodbe in projekti
 
@@ -26,7 +26,7 @@ Projektne pogodbe, pogodbene vrstice in projekti se ustvarjajo v Dataverse in si
 
   ![Koncepti integracije projektne pogodbe.](./media/1ProjectContract.jpg)
 
-Sledijo se potencialne stranke, priložnosti in ponudbe prodajne dejavnosti Dataverse in ne sinhronizirajte z aplikacijami Finance in Operations, ker s to dejavnostjo ni povezano računovodstvo na nižji stopnji.
+Sledijo se potencialne stranke, priložnosti in ponudbe prodajne dejavnosti Dataverse in ne sinhronizirajte z aplikacijami Finance in Operations, ker s to dejavnostjo ni povezano računovodstvo.
 
 Funkcionalnost pogodbe o projektu v Dataverse ustvari zapis projektne pogodbe v aplikacijah Finance in Operations z uporabo **Glave projektne pogodbe (prodajna naročila)** namizni zemljevid. Če shranite projektno pogodbo v storitvi Dataverse, prav tako začnete ustvarjati zapis entitete stranke projektne pogodbe. Ta zapis je sinhroniziran z aplikacijami Finance in Operations z uporabo **Vir financiranja projekta (msdyn\_ projektne pogodbe o deljenem obračunu)** namizni zemljevid. Ta preslikava prav tako sinhronizira tudi dodajanja, posodobitve in brisanja strank projektne pogodbe. Razdeljeni odstotki obračunavanja med naročniki projektne pogodbe se obvladujejo samo v Dataverse in ni sinhroniziran z aplikacijami Finance in Operations.
 
@@ -49,7 +49,7 @@ Projektne pogodbe lahko računovodja projekta pregleda v aplikacijah Finance in 
 
 ## <a name="billing-milestones"></a>Mejniki obračunavanja
 
-Podrobnosti projektne pogodbe, ki uporabljajo način obračunavanja »Fiksna cena«, se fakturirajo prek mejnikov obračunavanja. Mejniki zaračunavanja se sinhronizirajo s projektiranjem transakcij na računu v aplikacijah Finance in Operations z uporabo **Mejniki pogodbene linije za integracijo projektnih operacij (msdyn\_ pogodbena linija razpored vrednosti)** namizni zemljevid.
+Podrobnosti projektne pogodbe, ki uporabljajo način obračunavanja »Fiksna cena«, se fakturirajo prek mejnikov obračunavanja. Mejniki zaračunavanja so sinhronizirani s projektiranjem transakcij na računu v aplikacijah Finance in Operations z uporabo **Mejniki pogodbene linije za integracijo projektnih operacij (msdyn\_ pogodbena linija razpored vrednosti)** namizni zemljevid.
 
   ![Integracija mejnikov obračunavanja.](./media/2Milestones.jpg)
 

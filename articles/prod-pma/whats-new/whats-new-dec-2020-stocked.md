@@ -1,24 +1,24 @@
 ---
 title: Novosti za december 2020 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji
-description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v decembrski izdaji (2020) aplikacije Project Operations za primere uporabe z naročili na zalogi/v proizvodnji.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations decembra 2020 za scenarije, ki temeljijo na zalogi/produkciji.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911386"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Novosti ali spremembe v storitvi Project Operations, december 2020, za scenarije, ki temeljijo na zalogi/proizvodnji
 
 _Velja za: Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji_
 
-Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
+Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
 
   - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.15
 

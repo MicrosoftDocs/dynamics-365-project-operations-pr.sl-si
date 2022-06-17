@@ -1,25 +1,25 @@
 ---
 title: Odpravljanje težav dela v mreži opravil
-description: Ta tema zagotavlja informacije o odpravljanju težav, potrebne pri delu v mreži opravil.
+description: Ta članek vsebuje informacije o odpravljanju težav, ki so potrebne pri delu v mreži opravil.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596438"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911064"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Odpravljanje težav dela v mreži opravil 
 
 
 _**Velja za:** aplikacija Project Operations za okoliščine, ki temeljijo na virih/nezalogi, poenostavljeno uvajanje – posel do izstavitve predračuna, storitev Project for the web_
 
-Mreža opravil, ki jo je uporabila aplikacija Dynamics 365 Project Operations, je gostujoči element iframe znotraj storitve Microsoft Dataverse. Zaradi te uporabe morajo biti izpolnjene posebne zahteve za zagotovitev pravilnega delovanja preverjanja pristnosti in avtorizacije. Ta tema opisuje pogoste težave, ki lahko vplivajo na možnost upodabljanja mreže ali upravljanja opravil v strukturirani členitvi dela (SČD).
+Mreža opravil, ki jo je uporabila aplikacija Dynamics 365 Project Operations, je gostujoči element iframe znotraj storitve Microsoft Dataverse. Zaradi te uporabe morajo biti izpolnjene posebne zahteve za zagotovitev pravilnega delovanja preverjanja pristnosti in avtorizacije. Ta članek opisuje pogoste težave, ki lahko vplivajo na zmožnost upodabljanja mreže ali upravljanja nalog v strukturi razčlenitve dela (WBS).
 
 Pogoste težave vključujejo:
 

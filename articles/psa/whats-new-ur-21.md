@@ -1,6 +1,6 @@
 ---
 title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 21, V3
-description: V tej temi so navedene funkcije in popravki, ki so na voljo za Project Service Automation V3, izdaja posodobitve 21.
+description: V tem članku so navedene funkcije in popravki, ki so na voljo v posodobitvi Project Service Automation, izdaja 21, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 34d1540639352f635068b849500a104de2509a7f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7d7c098a4572aa4f5730ffdbdab77b2897cdfeff
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918838"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Izdaja posodobitve 21 za Project Service Automation, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577855"
 
 Z veseljem predstavljamo najnovejšo posodobitev za aplikacijo Project Service Automation za Dynamics 365. Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Ta izdaja je združljiva s storitvijo Dynamics 365 9.x. Če želite posodobiti na to izdajo, obiščite stran z rešitvami v skrbniškem središču za Dynamics 365 online, da namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).
 
-V tej temi so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation V3, izdaja posodobitve 21. Številka graditve te različice je V3.10.32.50 in je na splošno na voljo prek samostojne posodobitve junija 2020.
+V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation V3, posodobitev izdaja 21. Številka graditve te različice je V3.10.32.50 in je na splošno na voljo prek samostojne posodobitve junija 2020.
 
 ## <a name="update-release-21"></a>Izdaja posodobitve 21
 

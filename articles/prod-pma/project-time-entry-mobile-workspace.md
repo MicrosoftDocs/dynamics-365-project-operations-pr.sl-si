@@ -1,6 +1,6 @@
 ---
 title: Delovni prostor za vnos časa v projektu prek mobilne naprave
-description: Ta tema vsebuje informacije o delovnem prostoru za vnos časa v projektu prek mobilne naprave. Ta delovni prostor omogoča uporabnikom, da vnesejo čas v projektu in ga shranijo prek mobilne naprave.
+description: Ta članek vsebuje informacije o mobilnem delovnem prostoru za vnos časa projekta. Ta delovni prostor omogoča uporabnikom, da vnesejo čas v projektu in ga shranijo prek mobilne naprave.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919574"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Delovni prostor za vnos časa v projektu prek mobilne naprave
 
 [!include [banner](../includes/banner.md)]
 
-Ta tema vsebuje informacije o delovnem prostoru za **vnos časa v projektu** prek mobilne naprave. Ta delovni prostor omogoča uporabnikom, da vnesejo čas v projektu in ga shranijo prek mobilne naprave.
+Ta članek vsebuje informacije o **Vnos časa projekta** mobilni delovni prostor. Ta delovni prostor omogoča uporabnikom, da vnesejo čas v projektu in ga shranijo prek mobilne naprave.
 
 Ta mobilni delovni prostor je namenjen uporabi z mobilno aplikacijo Dynamics 365 Unified Ops. 
 

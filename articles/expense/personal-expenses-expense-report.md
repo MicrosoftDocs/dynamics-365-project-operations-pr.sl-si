@@ -1,18 +1,18 @@
 ---
 title: Delo z osebnimi stroški v poročilu o stroških
-description: V tej temi so na voljo informacije o delu z osebnimi stroški, ki jih imajo zaposleni med poslovnimi potovanji.
+description: Ta članek vsebuje informacije o tem, kako delati z osebnimi stroški, ki jih imajo zaposleni med službenim potovanjem.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: d35bf6960bb60e2ad4184e1b5f188695a3525be0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1cda5151a32482f92c69402bcc0056d7b6572db8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586548"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922288"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Delo z osebnimi stroški v poročilu o stroških
 

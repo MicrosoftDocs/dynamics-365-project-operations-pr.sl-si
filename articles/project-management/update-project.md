@@ -1,17 +1,17 @@
 ---
 title: Ustvarjanje in posodabljanje projekta
-description: Ta tema vsebuje informacije o posodabljanju projektov v aplikacij Project Operations.
+description: Ta članek vsebuje informacije o posodabljanju projektnih operacij.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 07f96973a1341e65e648f126a931d72454334e9c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dcb822a726f94a7e8e8621dc7a04f9051168d361
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911110"
 ---
 # <a name="create-and-update-a-project"></a>Ustvarjanje in posodabljanje projekta
 

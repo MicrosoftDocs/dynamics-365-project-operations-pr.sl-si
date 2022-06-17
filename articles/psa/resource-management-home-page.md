@@ -1,6 +1,6 @@
 ---
 title: Domača stran upravljanja virov
-description: Ta tema vsebuje informacije o upravljanju virov.
+description: Ta članek vsebuje informacije o upravljanju virov.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578774"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913272"
 ---
 # <a name="resource-management-home-page"></a>Domača stran upravljanja virov
 
@@ -31,9 +31,9 @@ ms.locfileid: "8578774"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Viri so najpomembnejše sredstvo organizacije, ki temelji na storitvah. Sposobnost iskanja in rezerviranja ustreznih virov v skladu s povpraševanjem in njihova stalna aktivnost pomagajo organizaciji izpolniti cilje glede prihodkov in zadovoljstva strank. Naslednje teme so osredotočene na zmožnosti upravljanja z aplikacijo Dynamics 365 Project Service Automation:
+Viri so najpomembnejše sredstvo organizacije, ki temelji na storitvah. Sposobnost iskanja in rezerviranja ustreznih virov v skladu s povpraševanjem in njihova stalna aktivnost pomagajo organizaciji izpolniti cilje glede prihodkov in zadovoljstva strank. Naslednji članki se osredotočajo na zmožnosti upravljanja virov Dynamics 365 Project Service Automation:
 
-- [Upravljaj vire](manage-resources.md)
+- [Upravljanje virov](manage-resources.md)
 - [Ključni pojmi](reports-key-concepts.md)
 - [Izpolnjevanje zahtev za vire](resource-management-fulfill-requests.md)
 - [Predlaganje virov](resource-management-propose-resources.md)

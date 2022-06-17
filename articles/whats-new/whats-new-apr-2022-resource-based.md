@@ -1,24 +1,24 @@
 ---
 title: 'Novosti pri izdaji: April 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Microsofta aprila 2022 Dynamics 365 Project Operations za scenarije, ki temeljijo na virih/brez zalog.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Microsofta aprila 2022 Dynamics 365 Project Operations za scenarije, ki temeljijo na virih/brez zalog.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dc713e7a0dd6993e38ce3e3b2ba19f796a6f4773
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912398"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti pri izdaji: April 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta tema velja za naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
+Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
 
 - Projektno delovanje v a Dataverse različica okolja 4.41.0.45
 - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.26

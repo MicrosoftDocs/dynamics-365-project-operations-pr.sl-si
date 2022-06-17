@@ -1,6 +1,6 @@
 ---
 title: Nadgradnja vidikov za strukturirano členitev dela
-description: Ta tema vsebuje informacije o nadgradnji strukturirane členitve dela iz storitve Project Service Automation 2.x na 3.x.
+description: Ta članek vsebuje informacije o nadgradnji strukture razčlenitve dela iz Project Service Automation 2.x na 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599750"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913134"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Nadgradnja vidikov za strukturirano členitev dela
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ta tema vsebuje informacije o nadgradnji strukturirane členitve dela iz storitve Project Service Automation 2.x na 3.x. Ta tema opisuje zdravo stanje projekta v rešitvi Project Service Automation (PSA), ki je potrebno za uspešno nadgradnjo. Vsebuje tudi informacije o pogostih razlogih za blokiranje, zaradi katerih bi bila nadgradnja neuspešna. Za več informacij o določanju projektnih opravil in njihovih funkcijah v okviru projektnega razporeda glejte temo [Projektni razporedi](project-creating.md).
+Ta članek vsebuje informacije o nadgradnji strukture razčlenitve dela iz Project Service Automation 2.x na 3.x. Ta članek opredeljuje zdravo stanje projekta v Project Service Automation (PSA), ki je potrebno za uspešno nadgradnjo. Vsebuje tudi informacije o pogostih razlogih za blokiranje, zaradi katerih bi bila nadgradnja neuspešna. Za več informacij o določanju projektnih opravil in njihovih funkcijah v okviru projektnega razporeda glejte temo [Projektni razporedi](project-creating.md).
 
 ## <a name="key-entities"></a>Ključne entitete
 Za natančno strukturirano členitev dela, ki že ima naložene vire, so potrebne naslednje entitete:
