@@ -1,6 +1,6 @@
 ---
 title: Spremembe entitete, kontrolnika in uporabniškega vmesnika (Project Service Automation 3.x)
-description: V tej temi so opisane spremembe rešitve za Microsoft Dynamics Project Service Automation 3.x.
+description: Ta članek opisuje spremembe rešitev za Microsoft Dynamics Avtomatizacija projektnih storitev 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926888"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Spremembe entitete, kontrolnika in uporabniškega vmesnika (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Z izdajo rešitve Microsoft Dynamics Project Service Automation (PSA) 3.x je v entitetah, kontrolnikih, pogledih in uporabniškem vmesniku prišlo do številnih sprememb. V tej temi najdete informacije o teh pomembnih spremembah.
+Z izdajo rešitve Microsoft Dynamics Project Service Automation (PSA) 3.x je v entitetah, kontrolnikih, pogledih in uporabniškem vmesniku prišlo do številnih sprememb. Ta članek vsebuje informacije o teh pomembnih spremembah.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Odnosi nadrejeni-podrejeni za entitete prodajnega dokumenta, vrstice prodajnega dokumenta in podrobnosti vrstice prodajnega dokumenta
 V različicah rešitve Dynamics 365 Project Service Automation (PSA), ki so bile izdane pred različico 3.0, so bili nekateri odnosi med entitetami prodajnih dokumentov, vrstic prodajnega dokumenta in podrobnosti vrstice prodajnega dokumenta uporabljeni prek polj z nizi s ponazoritvijo GUID-a povezane entitete. To je bila posledica omejitev platforme, ki so zahtevale pomembno kodo po meri v strežniku in v odjemalcu rešitve, da so ti odnosi delovali podobno kot tipični odnosi entitete programa Dynamics CRM in da so polja z nizi delovala kot polja za iskanje.

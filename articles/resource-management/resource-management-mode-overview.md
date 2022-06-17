@@ -1,17 +1,17 @@
 ---
 title: Pregled načinov upravljanja virov
-description: TaTa tema vsebuje informacije o funkciji »Upravljanje virov« v storitvi Dynamics 365 Project Operations.
+description: Ta članek vsebuje informacije o funkcionalnosti upravljanja virov v Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928452"
 ---
 # <a name="resource-management-modes-overview"></a>Pregled načinov upravljanja virov
 
@@ -38,7 +38,7 @@ Organizacijam, ki potrebujejo prilagodljivost pri dodeljevanju virov, hibridni n
 
 ![Hibridni način.](./media/resource-management-hybrid.png)
 
-Poleg podprtega postopka v osrednjem načinu glejte tudi naslednje teme za upravljanje vseh drugih podprtih potekov za rezervacije v hibridnem načinu:
+Poleg podprtega postopka centralnega načina si oglejte naslednje članke za upravljanje vseh drugih podprtih tokov rezervacij v hibridnem načinu:
 
 Rezervacija vira neposredno iz projekta:
 - [Rezervacija poimenovanih virov, ki jih je mogoče rezervirati, za projektno ekipo in dodelitev opravil](/dynamics365/project-service/assign-named-bookable-resource)

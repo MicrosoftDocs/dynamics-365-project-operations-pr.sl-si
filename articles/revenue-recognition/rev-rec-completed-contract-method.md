@@ -1,23 +1,23 @@
 ---
 title: Upravljanje ocen prihodkov
-description: Ta tema vsebuje informacije o tem, kako delati z ocenami prihodkov za projekte.
+description: Ta članek vsebuje informacije o tem, kako delati z ocenami prihodkov za projekte.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928498"
 ---
 # <a name="manage-revenue-estimates"></a>Upravljanje ocen prihodkov
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-Ocene prihodkov lahko ustvarite, izračunate, knjižite, razveljavite ali odstranite. To lahko storite ročno ali z uporabo periodičnega postopka. Ta tema vsebuje informacije o tem, kako delati z ocenami prihodkov za projekte.
+Ocene prihodkov lahko ustvarite, izračunate, knjižite, razveljavite ali odstranite. To lahko storite ročno ali z uporabo periodičnega postopka. Ta članek vsebuje informacije o tem, kako delati z ocenami prihodkov za projekte.
 
 ### <a name="manage-revenue-estimates-manually"></a>Ročno upravljanje ocen prihodkov
 

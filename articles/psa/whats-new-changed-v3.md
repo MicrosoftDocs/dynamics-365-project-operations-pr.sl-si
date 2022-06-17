@@ -1,6 +1,6 @@
 ---
 title: Novosti ali spremembe v storitvi Project Service Automation različice 3
-description: V tej temi so na voljo informacije o novostih in spremembah v storitvi Project Service Automation različice 3.
+description: Ta članek vsebuje informacije o tem, kaj je novega in spremenjenega v različici Project Service Automation različice 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581672"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926612"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novosti ali spremembe v storitvi Project Service Automation različice 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581672"
 
 
 
-V tej temi so na voljo informacije o spremembah uporabniškega vmesnika, funkcij in terminologije v storitvi Project Service Automation med različico 2 ali 1 in različico 3.
+Ta članek vsebuje informacije o spremembah uporabniškega vmesnika (UI), funkcionalnosti in terminologije v Project Service Automation med različico 2 ali različico 1 in različico 3.
 
 ## <a name="project-scheduling"></a>Razporejanje projektov
 Razpored projektov, ki je v prejšnjih različicah bil znan kot strukturirana členitev dela (SČD), je preimenovan v razpored in do njega lahko dostopate s klikom zavihka **Razpored**. 
@@ -150,7 +150,7 @@ Pogled upošteva razliko med rezervacijami člana ekipe in skupno vrednostjo nje
 V tem razdelku so navedene informacije o spremembah časa, stroškov in odobritev v različici 3 storitve Project Service Automation. Kot del rešitve Dynamics 365 Project Service Automation je bila funkcija **Časovni vnos** osvežena za uporabo ogrodja poenotenega vmesnika. To zagotavlja skladen in enoten uporabniški vmesnik, ki sledi odzivnemu oblikovanju za optimalen prikaz na zaslonu poljubne velikosti ali kateri koli napravi. 
 
 ### <a name="landing-page"></a>Ciljna stran
-Nerazširljiva izkušnja časovnega vnosa po meri je v različici 3 zastarela. Namesto tega je na voljo razširljiva in dostopna izkušnja izvorne mreže. Do funkcije časovnega vnosa lahko dostopate z zemljevidom mesta na levi strani. Zaradi te spremembe ne boste več mogli hkrati vnesti časa za en teden. Namesto tega boste morali ustvariti časovni vnos za vsak dan v mreži. Po ustvarjanju nekaj časovnih vnosov lahko uporabniki množično ustvarjajo časovne vnose s funkcijo **Kopiraj**, kot je razloženo v nadaljevanju te teme. 
+Nerazširljiva izkušnja časovnega vnosa po meri je v različici 3 zastarela. Namesto tega je na voljo razširljiva in dostopna izkušnja izvorne mreže. Do funkcije časovnega vnosa lahko dostopate z zemljevidom mesta na levi strani. Zaradi te spremembe ne boste več mogli hkrati vnesti časa za en teden. Namesto tega boste morali ustvariti časovni vnos za vsak dan v mreži. Ko je ustvarjenih nekaj časovnih vnosov, lahko uporabniki v velikem obsegu ustvarijo časovne vnose z **Kopirati** funkcija, razložena kasneje v tem članku. 
 
 ![Ciljna stran za časovne vnose.](media/time-entry-landing-page-07.png)
  

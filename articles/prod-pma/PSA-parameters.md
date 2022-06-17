@@ -1,6 +1,6 @@
 ---
 title: Parametri integracije rešitve Project Service Automation
-description: Ta tema pojasnjuje, kako konfigurirati, kako se vnesejo privzeti podatki, ko integrirate Microsoft Dynamics 365 for Project Service Automation z Microsoft Dynamics 365 Finance.
+description: V tem članku je razloženo, kako konfigurirati, kako se pri integraciji vnesejo privzeti podatki Microsoft Dynamics 365 for Project Service Automation z Microsoft Dynamics 365 Finance.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a4abeb2960981196ed1d7c453e7daa0558e326ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683737"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932316"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Parametri integracije rešitve Project Service Automation
 

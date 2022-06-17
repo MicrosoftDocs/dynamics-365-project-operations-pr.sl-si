@@ -1,17 +1,17 @@
 ---
 title: Prijava za preskusne različice aplikacije Project Operations
-description: Ta tema vsebuje informacije o tem, kako uvesti preskusno različico aplikacije Dynamics 365 Project Operations.
+description: Ta članek vsebuje informacije o tem, kako namestiti preizkusno različico Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584294"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959730"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Prijava za preskusne različice aplikacije Project Operations 
 
@@ -19,9 +19,9 @@ _**Velja za:** Project Operations za primere uporabe z viri/brez zalog, poenosta
 
 
 
-V tej temi je pojasnjeno, kako se naročiti na partnersko ponudbo predogledne različice in kako uvesti okolje storitve Dynamics 365 Project Operations.
+V tem članku je pojasnjeno, kako se naročiti na predogled partnerske ponudbe in uvesti a Dynamics 365 Project Operations okolje.
 
-Z novo preskusno različico aplikacije Project Operations lahko samodejno uvedete kateregakoli od treh podprtih primerov uvajanja, in sicer tako, da izpolnite vprašalnik, ki ponuja najboljši pristop uvajanja. Ta tema vam bo podala odgovore na vprašanja, kako:
+Z novo preskusno različico aplikacije Project Operations lahko samodejno uvedete kateregakoli od treh podprtih primerov uvajanja, in sicer tako, da izpolnite vprašalnik, ki ponuja najboljši pristop uvajanja. Ta članek vsebuje informacije o tem, kako:
 
 - Unovčiti ponudbo preskusne različice.
 - Začeti z omogočanjem uporabe.
@@ -89,8 +89,9 @@ Preden začnete, se s službenim uporabniškim računom prijavite v brskalnik, i
 4.  Izberite ustrezno Microsoft Dataverse URL ter URL-ji aplikacij Finance and Operations za potrditev uvajanja.
 
 ## <a name="configuring-dual-write"></a>Konfiguracija dvojnega zapisovanja
-- Če želite konfigurirati varnostne vloge za dvojno pisanje, glejte [Posodobite varnostne nastavitve za Project Operations v Dataverse](resource-provision-new-environment.md).
-- Če želite konfigurirati zemljevide z dvojnim pisanjem, glejte [Zaženite zemljevide z dvojnim pisanjem Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Če želite konfigurirati varnostne vloge za dvojno pisanje, glejte [Posodobite varnostne nastavitve za Project Operations v Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Za dostop do konfiguracije dvojnega pisanja se pomaknite do primerka Finance and Operations, nato pa se pomaknite do **Upravljanje podatkov** > **Dvojno pisanje**.
+- Če želite konfigurirati zemljevide z dvojnim zapisom, glejte [Zaženite zemljevide z dvojnim pisanjem Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Dodelitev licenc
 

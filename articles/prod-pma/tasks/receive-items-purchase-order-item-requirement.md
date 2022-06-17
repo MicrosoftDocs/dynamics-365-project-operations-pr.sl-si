@@ -1,6 +1,6 @@
 ---
 title: Prejemanje izdelkov, ki so navedeni v naročilu, v okviru zahteve po izdelku
-description: Ta tema pojasnjuje, kako sprejeti izdelke, navedene v naročilu, v okviru zahteve po izdelku.
+description: V tem članku je razloženo, kako prejeti artikle na naročilnico iz zahteve po artiklu.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab08dda6e81609595f54f3dd71c0154c12807270
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 9bbe15fac325ad00bdd2f2fc6ddf3ae15df45271
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682549"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929556"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Prejemanje izdelkov, ki so navedeni v naročilu, v okviru zahteve po izdelku
 
 [!include [banner](../../includes/banner.md)]
 
-Ta tema pojasnjuje, kako sprejeti izdelke, navedene v naročilu, v okviru zahteve po izdelku.
+V tem članku je razloženo, kako prejeti artikle na naročilnico iz zahteve po artiklu.
 
 S tem ko namesto transakcije izdelka uporabite zahtevo po izdelku, lahko načrtujete dostavo tik pred dejansko uporabo izdelka, ustvarite naročilo, vključite izdelek v ogrodje trgovinskega sporazuma in zahtevo po izdelku vključite v načrtovanje proizvodnje. 
 

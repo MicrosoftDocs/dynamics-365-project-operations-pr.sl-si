@@ -1,19 +1,19 @@
 ---
-title: Potrdite račun dobavitelja projekta
-description: Ta tema pojasnjuje, kako potrditi račun dobavitelja projekta v Microsoftu Dynamics 365 Project Operations in finančni učinek potrditve računa prodajalca projekta.
+title: Potrditev računa dobavitelja za projekt
+description: V tem članku je razloženo, kako potrdite račun dobavitelja projekta v Microsoftu Dynamics 365 Project Operations in finančni učinek potrditve računa prodajalca projekta.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c248b3baec6d3f14a020e4fa93f3dad50c65b263
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 092b3cd5981f7d9bb8767c7a2acb2f4952801d06
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932454"
 ---
-# <a name="confirm-a-project-vendor-invoice"></a>Potrdite račun dobavitelja projekta
+# <a name="confirm-a-project-vendor-invoice"></a>Potrditev računa dobavitelja za projekt
 
 [!include [banner](../../includes/dataverse-preview.md)]
 

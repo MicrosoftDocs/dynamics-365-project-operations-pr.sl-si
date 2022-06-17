@@ -1,24 +1,24 @@
 ---
 title: Novosti za julij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
-description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji storitve Project Operations (julij 2021) za scenarije, ki temeljijo na virih/nezalogi.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations julija 2021 za scenarije, ki temeljijo na virih/brez zalog.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c004a6adc265f8f02fc557700d9b88a174c221c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600900"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931718"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti za julij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
 *Velja za: scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi*
 
-Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
+Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
 
    - Storitev Project Operations v okolju Microsoft Dataverse različice 4.12.0.148 ali 4.12.0.152.
    - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.20.

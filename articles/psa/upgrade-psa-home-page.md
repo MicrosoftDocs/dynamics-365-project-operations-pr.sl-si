@@ -1,6 +1,6 @@
 ---
 title: Nadgradnja domače strani
-description: Ta tema vsebuje informacije o tem, kje najdete pomembne informacije o novih in spremenjenih funkcijah aplikacije Dynamics 365 Project Service Automation, in o postopku za nadgradnjo na najnovejšo različico.
+description: Ta članek prikazuje, kje najdete pomembne informacije o novih in spremenjenih funkcijah Dynamics 365 Project Service Automation, in postopek za nadgradnjo na najnovejšo različico.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926658"
 ---
 # <a name="upgrade-home-page"></a>Nadgradnja domače strani
 
@@ -48,14 +48,14 @@ V preteklosti so se morale stranke, ki imajo primerek PSA različice 2.x in so g
 Priporočamo vam, da pred izvedbo postopka za nadgradnjo izvedete naslednja opravila:
 
 - Preverite, ali sta v identificiranem primerku nameščeni tako Dynamics 365 Field Service kot Project Service Automation. Če sta nameščeni obe rešitvi, ju najprej nadgradite in šele nato nadaljujete z običajno uporabo primerka.
-- Pozorno preglejte naslednje teme. Seznanjenje in razumevanje sprememb med različicami vam bo pomagalo pri postopku nadgradnje. Te teme zagotavljajo informacije o večjih spremembah v PSA, skupaj z nasveti in priporočili za načrtovanje nadgradnje na različico 3.x.
+- Pozorno preberite naslednje članke. Seznanjenje in razumevanje sprememb med različicami vam bo pomagalo pri postopku nadgradnje. Ti članki ponujajo informacije o večjih spremembah v PSA, skupaj s premisleki in priporočili za načrtovanje nadgradnje na različico 3.x.
 
     - [Novosti ali spremembe v storitvi Project Service Automation različice 3](whats-new-changed-v3.md)
     - [Vidiki nadgradnje – nadgradnja storitve Project Service Automation različice 2.x ali 1.x na različico 3](upgrade-v3.md)
 
 - Nadgradite različico za preizkusno okolje, da ocenite spremembe v uvedbi, preden nadgradite produkcijski primerek.
 
-Ko boste pregledali zgoraj omenjene teme in boste pripravljeni na nadgradnjo na PSA različice 3.x ali različico na podlagi UCI, pošljite zahtevo Microsoftovi podpori, da bo ta omogočila nadgradnjo v skrbniškem središču. Vaša zahteva naj vsebuje tudi podrobnosti vašega primerka.
+Ko ste pregledali prej omenjene članke in ste pripravljeni za nadgradnjo na različico PSA 3.x ali različico, ki temelji na UCI, pošljite zahtevo Microsoftovi podpori, da bo nadgradnja na voljo v skrbniškem centru. Vaša zahteva naj vsebuje tudi podrobnosti vašega primerka.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Starejše različice PSA (PSA različice 2.x) v novo ustvarjenem primerku
 

@@ -1,17 +1,17 @@
 ---
 title: Odpoklic predhodno odobrenih vnosov
-description: Ta tema pojasnjuje, kako lahko član projektne skupine zahteva odpoklic predhodno predloženih in odobrenih evidenc o času, stroških in porabi materiala ter kako lahko vodja projekta odobri ali zavrne zahteve za odpoklic.
+description: Ta članek pojasnjuje, kako lahko član projektne skupine zahteva odpoklic predhodno predloženih in odobrenih evidenc o času, stroških in porabi materiala ter kako lahko vodja projekta odobri ali zavrne zahteve za odpoklic.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 18796e803ff73806aaa60b453048ee3160406b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 54fc7ac2301a4423ebf70b0b67ad489580c347b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930384"
 ---
 # <a name="recall-previously-approved-entries"></a>Odpoklic predhodno odobrenih vnosov
 
@@ -52,7 +52,7 @@ Sledite tem korakom, da zahtevate odpoklic odobrenih vnosov časa, stroškov ali
     Če ste izbrali **Zavrni**, je zahteva za preklic zavrnjena.
 
 > [!IMPORTANT]
-> Ko je odpoklic odobren, tako kot takrat, ko je zahtevan, sistem preveri kakršno koli dejavnost izdajanja računov za vnose časa, stroškov ali porabe materiala. Če je bil vnos že zaračunan ali če je na osnutku računa, odobritelj prejme sporočilo o napaki, ki navaja, da časa ali stroškov ni mogoče odobriti za odpoklic, ker je bil že zaračunan. V tem primeru lahko odobritelj odobri odpoklic le, če se uporabi korektivni račun za izdajo celotnega dobropisa ali vračila kupcu na izvirnem računu.
+> Ko je odpoklic odobren, tako kot takrat, ko je zahtevan, sistem preveri kakršno koli dejavnost izdajanja računov za vnose časa, stroškov ali porabe materiala. Če je bil vnos že zaračunan ali če je na osnutku računa, odobritelj prejme sporočilo o napaki, ki navaja, da časa ali stroškov ni mogoče odobriti za odpoklic, ker je bil že zaračunan. V tem primeru lahko odobritelj odobri odpoklic le, če se za izdajo celotnega dobropisa ali vračila kupcu na izvirnem računu uporabi korektivni račun.
 
 ## <a name="impact-of-a-recall-request"></a>Učinek zahteve za preklic
 
@@ -87,6 +87,6 @@ Naslednja slika prikazuje spremembe, ki se pojavijo za odobrene vnose časa in u
 
 Naslednja slika prikazuje spremembe, ki se pojavijo za odobrene vnose stroškov in porabe materiala ter ustrezne zapise o odobritvah, ko so odpoklicani.
 
-![Prehodi stanja vnosa odhodkov.](media/ExpenseEntryStateTransitions.png)
+![Prehodi med stanjem vnosa odhodkov.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

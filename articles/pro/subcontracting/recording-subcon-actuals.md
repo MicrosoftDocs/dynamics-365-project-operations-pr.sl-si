@@ -1,17 +1,17 @@
 ---
 title: Beleženje časa, stroškov in uporabe materiala za podizvajalske komponente
-description: Ta tema pojasnjuje, kako Microsoft spremlja porabo časa, stroškov in materiala, zabeleženih pri projektih iz podizvajalskih komponent Dynamics 365 Project Operations.
+description: V tem članku je razloženo, kako Microsoft spremlja porabo časa, stroškov in materiala, zabeležene pri projektih iz podizvajalcev Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927670"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Beleženje časa, stroškov in porabe materiala pri projektih za podizvajalske komponente
 
@@ -19,9 +19,9 @@ ms.locfileid: "8599244"
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta tema pojasnjuje, kako Microsoft spremlja porabo časa, stroškov in materiala, zabeleženih pri projektih iz podizvajalskih komponent Dynamics 365 Project Operations.
+V tem članku je razloženo, kako Microsoft spremlja porabo časa, stroškov in materiala, zabeležene pri projektih iz podizvajalcev Dynamics 365 Project Operations.
 
-## <a name="costing-for-subcontractor-time-on-projects"></a>Izračunavanje stroškov časa podizvajalcev pri projektih
+## <a name="costing-for-subcontractor-time-on-projects"></a>Stroški časa podizvajalcev pri projektih
 V projektnem poslovanju lahko pogodbeni delavci beležijo čas na projektih na podoben način kot zaposleni. Pri vnašanju časa za projekte in/ali projektne naloge lahko pogodbeni delavec izbere določeno podizvajalsko in podizvajalsko vrstico.
 
 Ko je čas, ki ga predložijo pogodbeni delavci, odobren, se stroški projekta evidentirajo z uporabo stroškovne stopnje na enoto, ki je določena za ta vir pogodbenega delavca v **Cene vlog** razdelku nabavnega cenika na podizvajalski pogodbi.

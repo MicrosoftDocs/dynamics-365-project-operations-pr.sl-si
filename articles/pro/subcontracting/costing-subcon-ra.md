@@ -1,17 +1,17 @@
 ---
 title: Ocena stroškov dodelitev virov s podizvajalsko pogodbo
-description: Ta tema pojasnjuje, kako Microsoft Dynamics 365 Project Operations izračuna oceno stroškov podizvajalskih dodelitev virov.
+description: Ta članek pojasnjuje, kako Microsoft Dynamics 365 Project Operations izračuna oceno stroškov podizvajalskih dodelitev virov.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f276e12713261538d1e7520dac17243e578db433
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 40603c1d2dfdd49909d9a4bf5085f43201e8f6bd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596714"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932362"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Ocena stroškov dodelitev virov s podizvajalsko pogodbo
 
@@ -19,7 +19,7 @@ ms.locfileid: "8596714"
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Dodelitve nalog podizvajalskih članov projektne skupine se obračunavajo z uporabo **Nakup** cenik, ki je priložen podizvajalski pogodbi na evidenci povezanega člana ekipe. To se razlikuje od tega, kako se vrednotijo dodelitve virov zaposlenih, kjer se dodelitve nalog za vire zaposlenih vrednotijo z uporabo **Stroški** cenik, ki je priložen naročniku projekta. 
+Dodelitve nalog podizvajalskih članov projektne skupine se obračunavajo z uporabo **Nakup** cenik, ki je priložen podizvajalski pogodbi na evidenci povezanega člana ekipe. To se razlikuje od tega, kako se obračunavajo dodelitve virov zaposlenih, kjer se dodelitve nalog za vire zaposlenih vrednotijo z uporabo **Stroški** cenik, ki je priložen naročniku projekta. 
 
 Za generične člane projektne skupine, ki so oddani podizvajalcem, se dodelitve obračunajo z uporabo cene na podlagi vlog v nabavnem ceniku, priloženem podizvajalski pogodbi. Nakupne cene je mogoče določiti tudi posebej za vsak vir. Te cene, specifične za vir, bodo imele prednost pri obračunavanju stroškov nalog imenovanih članov projektne skupine, ki so pogodbeni delavci. 
 

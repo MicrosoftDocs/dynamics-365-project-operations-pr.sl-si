@@ -1,23 +1,23 @@
 ---
-title: Zahteve za postavke za projektne pogodbe z več viri financiranja
-description: Ta tema ponuja informacije o tem, kako konfigurirati in uporabljati zahteve elementov z več viri financiranja.
+title: Zahteve za elemente za projektne pogodbe z več viri financiranja
+description: Ta članek vsebuje informacije o tem, kako konfigurirati in uporabljati zahteve elementov z več viri financiranja.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931212"
 ---
-# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Zahteve za postavke za projektne pogodbe z več viri financiranja
+# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Zahteve za elemente za projektne pogodbe z več viri financiranja
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji_
 
-Nekateri pogodbeni sporazumi za končne rezultate, ki temeljijo na projektih, lahko zahtevajo več virov financiranja. Ta tema pojasnjuje, kako izbrati in konfigurirati želene vire financiranja, ko je za projekt ali projektno pogodbo potrebnih več virov.
+Nekateri pogodbeni sporazumi za končne rezultate, ki temeljijo na projektih, lahko zahtevajo več virov financiranja. Ta članek pojasnjuje, kako izbrati in konfigurirati želene vire financiranja, ko je za projekt ali projektno pogodbo potrebnih več virov.
 
 ## <a name="terminology"></a>Terminologija
 

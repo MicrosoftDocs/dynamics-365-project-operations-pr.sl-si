@@ -1,23 +1,23 @@
 ---
 title: Sledenje obsegu projektov
-description: Ta tema vsebuje informacije o spremljanju obsega projekta in napredka dela.
+description: Ta članek vsebuje informacije o tem, kako slediti prizadevanjem projekta in napredku dela.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929280"
 ---
 # <a name="project-effort-tracking"></a>Sledenje obsegu projektov
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Potreba po spremljanju napredka v primerjavi z razporedom se razlikuje glede na panogo. V nekaterih panogah spremljanje poteka na zelo podrobno ravni, v drugih panogah pa na bolj splošni ravni. V tej temi je prikazan način razporejanja, s katerim boste izpolnili zahteve vaše organizacije.
+Potreba po spremljanju napredka v primerjavi z razporedom se razlikuje glede na panogo. V nekaterih panogah spremljanje poteka na zelo podrobno ravni, v drugih panogah pa na bolj splošni ravni. V tem članku je prikazano, kako načrtovati, da bi izpolnili zahteve vaše organizacije.
 
 ## <a name="effort-tracking-view"></a>Pogled sledenja obsegu dela
 

@@ -1,6 +1,6 @@
 ---
 title: Scenariji z več valutami (različica 3.x)
-description: Ta tema vsebuje informacije o scenarijih z več valutami.
+description: Ta članek vsebuje informacije o scenarijih z več valutami.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c302526991f8887395c11fb6c07dd29f5e6f65d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590182"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925508"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenariji z več valutami
 

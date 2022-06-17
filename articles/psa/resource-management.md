@@ -1,6 +1,6 @@
 ---
 title: Domača stran projektnih virov
-description: Ta tema vsebuje informacije o zmogljivostih upravljanja virov v aplikaciji Project Service Automation (PSA) za Dynamics 365.
+description: Ta članek vsebuje informacije o zmožnostih upravljanja virov v Project Service Automation (PSA) za Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925278"
 ---
 # <a name="resourcing-projects-home-page"></a>Domača stran projektnih virov
 
@@ -46,7 +46,7 @@ Viri so najpomembnejše sredstvo organizacije, ki temelji na storitvah. Sposobno
 - Vzdrževanje skladišča znanj in usposobljenosti.
 
 
-Za projekt si lahko izberete ekipo splošnih ali poimenovanih virov v PSA. Uporabite lahko različne metode za dodajanje in dodeljevanje članov ekipe ter upravljanje njihovih rezervacij in dodelitev. Za dodatne informacije glejte naslednje teme:
+Za projekt si lahko izberete ekipo splošnih ali poimenovanih virov v PSA. Uporabite lahko različne metode za dodajanje in dodeljevanje članov ekipe ter upravljanje njihovih rezervacij in dodelitev. Za dodatne informacije si oglejte naslednje članke:
 
 - [Rezervacija poimenovanih virov, ki jih je mogoče rezervirati, za projektno ekipo in dodeljevanje opravil tem virom](assign-named-bookable-resource.md)
 - [Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in ustvarjanje zahtevanih pogojev za vir](assign-generic-bookable-resource.md)

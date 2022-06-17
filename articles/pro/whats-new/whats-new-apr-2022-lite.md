@@ -1,24 +1,24 @@
 ---
 title: Novosti za april 2022 – poenostavljeno uvajanje Project Operations
-description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Microsofta aprila 2022 Dynamics 365 Project Operations lahka uvedba.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Microsofta aprila 2022 Dynamics 365 Project Operations lahka uvedba.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f75d75e57d6a6396b0148f0449899735089b06a
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 6d6fc52d535244b339e43f88e85797a957d98b89
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613345"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927486"
 ---
 # <a name="whats-new-april-2022---project-operations-lite-deployment"></a>Novosti za april 2022 – poenostavljeno uvajanje Project Operations
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta tema velja za naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
+Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
 
 - Projektno delovanje v a Dataverse različica okolja 4.41.0.45
 

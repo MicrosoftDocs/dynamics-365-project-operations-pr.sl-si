@@ -1,17 +1,17 @@
 ---
 title: Kopiranje projektnih pogodb – poenostavljena različica
-description: Ta tema vsebuje informacije o kopiranju projektnih pogodb v aplikaciji Project Operations.
+description: Ta članek vsebuje informacije o kopiranju projektnih pogodb v Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 082cd6597a066f6dac8a7583a377d8e34bc74e2e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a1846af677f7cea3ec22fdba4408f2bbd7db8a3c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594092"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932638"
 ---
 # <a name="copy-project-contracts---lite"></a>Kopiranje projektnih pogodb – poenostavljena različica
 

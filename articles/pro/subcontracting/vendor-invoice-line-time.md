@@ -1,19 +1,19 @@
 ---
-title: Vrstice računov prodajalca za čas
-description: Ta tema pojasnjuje, kako zabeležiti vrstice računov prodajalca za časovne stroške, ki jih vložijo podizvajalci.
+title: Vrstice računa dobavitelja za čas
+description: V tem članku je razloženo, kako zabeležiti vrstice računov prodajalca za časovne stroške, ki jih vložijo podizvajalci.
 author: rumant
 ms.date: 03/15/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ac598dff7b0b4a29ac0397a31130ada3b197fe44
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0b81d2884580e9054457906627c1f9101f435524
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597220"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927578"
 ---
-# <a name="vendor-invoice-lines-for-time"></a>Vrstice računov prodajalca za čas
+# <a name="vendor-invoice-lines-for-time"></a>Vrstice računa dobavitelja za čas
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -21,7 +21,7 @@ _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
 Račun prodajalca v Microsoftu Dynamics 365 Project Operations lahko imajo vrstice računov prodajalca za čas. Vodje projektov lahko uporabljajo vrstice računov prodajalca za čas za beleženje stroškov časa podizvajalcev na projektih.
 
-Vrstice faktur prodajalca za čas se lahko sklicujejo na vrstico podizvajalcev za čas ali pa tudi ne. Če se vrstica računa prodajalca za čas sklicuje na podizvajalsko pogodbo, bodo vodje projektov lahko uskladili in preverili čas, ki je bil zaračunan v vrstici računa prodajalca, s časom, ki ga zabeležijo podizvajalci in odobrijo vodje projekta na projektu.
+Vrstice faktur prodajalca za čas se lahko sklicujejo na vrstico podizvajalcev za čas ali pa tudi ne. Če se vrstica računa prodajalca za čas sklicuje na podizvajalsko pogodbo, bodo vodje projektov lahko uskladili in preverili čas, ki je bil zaračunan v vrstici računov prodajalca, s časom, ki ga zabeležijo podizvajalci in odobrijo vodje projekta na projektu.
 
 Naslednja tabela vsebuje informacije o poljih v vrsticah računa prodajalca za čas.
 
@@ -34,7 +34,7 @@ Naslednja tabela vsebuje informacije o poljih v vrsticah računa prodajalca za �
 | Datum transakcije | Datum, ko bo dejanski strošek vrstice računa prodajalca zabeležen v projektu. | Ni priprav ali omejitev |
 | Razred transakcije | Privzeta vrednost je **Čas**. | Vrednost **Čas** označuje, da se vrstica računa prodajalca uporablja za beleženje zneska računa podizvajalčevega časa. |
 | Projekt | Ime projekta, pri katerem so bile uporabljene storitve, ki se zaračunavajo. | To polje je obvezno in ga ne morete pustiti prazno. |
-| opravilo, | Ime projektne naloge, za katero so bile uporabljene storitve, ki se zaračunavajo. To polje je na voljo samo, če je izbran projekt. Izbira projektne naloge je neobvezna. | Če to polje ostane prazno, lahko vodja projekta uskladi vrstico računa prodajalca s časom, ki ga zabeležijo viri podizvajalcev pri kateri koli nalogi projekta. Če se vrstica računa prodajalca ne sklicuje na vrstico podizvajalcev in je to polje prazno, dejanski stroški, ki jih ustvari vrstica fakture prodajalca, ne bodo povezani z nobeno nezaračunano dejansko prodajo. V tem primeru, če je nastavljeno obračunavanje na podlagi opravil, stroškov morda ne bo mogoče zaračunati končnemu kupcu. |
+| opravilo, | Ime projektne naloge, za katero so bile uporabljene storitve, ki se zaračunavajo. To polje je na voljo samo, če je izbran projekt. Izbira projektne naloge je neobvezna. | Če je to polje prazno, lahko vodja projekta uskladi vrstico računa prodajalca s časom, ki ga zabeležijo viri podizvajalcev pri kateri koli nalogi projekta. Če se vrstica računa prodajalca ne sklicuje na vrstico podizvajalcev in je to polje prazno, dejanski stroški, ki jih ustvari vrstica fakture prodajalca, ne bodo povezani z nobeno nezaračunano dejansko prodajo. V tem primeru, če je nastavljeno obračunavanje na podlagi opravil, stroškov morda ne bo mogoče zaračunati končnemu kupcu. |
 | Vloga | Vloga virov podizvajalcev, katerih čas se zaračunava. | To polje določa vlogo, ki jo opravljajo podizvajalski viri, katerih čas je zaračunan na računu prodajalca. |
 | Vir, ki ga je mogoče rezervirati | Ime podizvajalca, katerega čas se zaračunava. Izbira vira, ki ga je mogoče rezervirati, ni obvezna. | Če to polje ostane prazno, lahko vodja projekta uskladi vrstico računa prodajalca s časom, ki ga zabeleži kateri koli vir, ki pripada prodajalcu v vrstici računa prodajalca. |
 | Količina | V vrstico za račun vnesite število ur, ki jih prodajalec zaračuna. |Ni priprav ali omejitev |

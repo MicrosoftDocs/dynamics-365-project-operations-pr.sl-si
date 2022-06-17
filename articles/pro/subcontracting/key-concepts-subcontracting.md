@@ -1,17 +1,17 @@
 ---
 title: Ključni pojmi pri oddajanju naročil podizvajalcem
-description: V članku so pojasnjeni nekateri ključni koncepti, ki veljajo za podizvajalske pogodbe v storitvi Microsoft Dynamics 365 Project Operations.
+description: Ta članek pojasnjuje nekaj ključnih konceptov, ki veljajo za podizvajanje v Microsoftu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 08/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 159eeca3aa9ed0c490be5ce3a8f46c7d7206aebe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0ac84d132a2d62528d97ed3776a78062a589a380
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578177"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927716"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Ključni pojmi pri oddajanju naročil podizvajalcem
 
@@ -19,7 +19,7 @@ ms.locfileid: "8578177"
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-V članku so razloženi nekateri ključni koncepti, ki jih morate poznati, preden začnete uporabljati funkcijo podizvajalske pogodbe v storitvi Microsoft Dynamics 365 Project Operations.
+Članek pojasnjuje nekaj ključnih konceptov, ki se jih morate zavedati, preden začnete uporabljati funkcionalnost podizvajalcev v Microsoftu Dynamics 365 Project Operations.
 
 ## <a name="contracting-unit-on-the-subcontract"></a>Pogodbene enote pri podizvajalski pogodbi
 

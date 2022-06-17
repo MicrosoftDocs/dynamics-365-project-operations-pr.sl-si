@@ -1,17 +1,17 @@
 ---
 title: Različice preslikave dvojnega zapisovanja za Project Operations
-description: Ta tema zagotavlja seznam preslikav za dvojno zapisovanje, ki jih potrebuje aplikacija Dynamics 365 Project Operations.
+description: Ta članek vsebuje seznam zemljevidov z dvojnim pisanjem, potrebnih za Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612784"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959718"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Različice preslikave dvojnega zapisovanja za Project Operations
 
@@ -54,7 +54,7 @@ Naslednje preslikave so obvezne za rešitev Project Operations. Naštete so razl
 | Entiteta za integracijo za oceno ur v storitvi Project Operations (msdyn_resourceassignments) | 1.0.0.5 | Ni potrebno za omogočanje uporabe. ||
 | Entiteta za izvoz kategorije stroškov projekta pri integraciji storitve Project Operations (msdyn_expensecategories) | 1.0.0.1 | Ni potrebno za omogočanje uporabe. ||
 | Entiteta za izvoz stroškov projekta pri integraciji storitve Project Operations (msdyn_expenses) | 1.0.0.3 | Ni potrebno za omogočanje uporabe. ||
-| Entiteta za izvoz računa dobavitelja za projekt za integracijo aplikacije Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Ni potrebno za omogočanje uporabe. ||
+| Entiteta za izvoz računa dobavitelja za projekt za integracijo aplikacije Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Ni potrebno za omogočanje uporabe. |10.0.26 ali novejša|
 | Entiteta za izvoz vrstice računa dobavitelja za projekt za integracijo aplikacije Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Ni potrebno za omogočanje uporabe. | 10.0.26 ali novejša |
 | Vloge virov podjetja za vsa podjetja (bookableresourcecategories) | 1.0.0.1 | Zahteva začetno sinhronizacijo preslikave tabele za sinhronizacijo vlog virov vodje projekta in članov ekipe, ki so zapolnjene v okolju Dynamics 365 Dataverse med omogočanjem uporabe. Storitev Dataverse je glavni vir za začetno sinhronizacijo. ||
 | Opravila projekta (msdyn_projecttasks) | 1.0.0.4 | Ni potrebno za omogočanje uporabe. ||

@@ -1,19 +1,19 @@
 ---
-title: Transakcijske povezave - Povežite dejansko stanje različnih vrst transakcij
-description: Ta tema pojasnjuje, kako se transakcijska povezava uporablja za povezovanje dejanskih dejstev različnih vrst za pomoč pri sledenju dobičkonosnosti, zaostankov obračunavanja in izračunov zaračunanega v primerjavi z nezaračunanim prihodkom.
+title: Povezave transakcij – povezovanje dejanskih vrednosti različnih vrst transakcij
+description: V tem članku je razloženo, kako se transakcijska povezava uporablja za povezovanje dejanskih dejstev različnih vrst za pomoč pri sledenju dobičkonosnosti, zaostankom obračunavanja in izračunom zaračunanega v primerjavi z nezaračunanim prihodkom.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e8d75a69e27619e6a21f0fe61e2c656e94017b0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19a78336099f54c5d6b36a963a90b9fd77e3d0af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926106"
 ---
-# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Transakcijske povezave - Povežite dejansko stanje različnih vrst transakcij
+# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Povezave transakcij – povezovanje dejanskih vrednosti različnih vrst transakcij
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 

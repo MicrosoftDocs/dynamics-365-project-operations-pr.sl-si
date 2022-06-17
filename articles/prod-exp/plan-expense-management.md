@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934018"
 ---
 # <a name="configure-expense-management"></a>Konfiguracija upravljanja stroškov
 
-V tej temi so opisani dejavniki in odločitve, ki jih morate upoštevati med postopkom načrtovanja, preden konfigurirate upravljanje stroškov. V prostoru za upravljanje stroškov lahko shranite podatke o načinih plačila, zahtevah za pot, poročilih o stroških, pravilnikih itd.
+Ta članek opisuje premisleke in odločitve, ki jih morate sprejeti med postopkom načrtovanja, preden konfigurirate upravljanje stroškov. V prostoru za upravljanje stroškov lahko shranite podatke o načinih plačila, zahtevah za pot, poročilih o stroških, pravilnikih itd.
 
 Ker veliko odločitev, ki jih sprejmete, ko načrtujete konfiguracijo upravljanja odhodkov, temelji na hierarhiji in finančni strukturi vaše organizacije, se morate sklicevati na dokumente načrtovanja za ta področja.
 

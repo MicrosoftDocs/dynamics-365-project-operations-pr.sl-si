@@ -1,25 +1,25 @@
 ---
 title: Projektne pogodbe – ključni pojmi
-description: Ta tema vsebuje informacije o ključnih pojmih projektnih pogodb v aplikaciji Project Operations.
+description: Ta članek vsebuje informacije o ključnih konceptih projektnih pogodb v projektnih operacijah.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926244"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Koncepti, enolični za pogodbe, ki temeljijo na projektih
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 
 
-Ta tema vsebuje ključne koncepte, ki jih morate upoštevati, preden začnete uporabljati Projektne pogodbe v aplikaciji Dynamics 365 Project Operations:
+V tem članku so navedeni ključni koncepti, ki se jih morate zavedati, preden začnete uporabljati projektne pogodbe Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Lastniško podjetje
 

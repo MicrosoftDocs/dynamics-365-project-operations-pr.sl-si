@@ -1,24 +1,24 @@
 ---
 title: Novosti in spremembe v storitvi Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji (julij 2021)
-description: Ta tema vsebuje informacije o posodobitvah kakovosti, ki so na voljo v julijski (2021) izdaji storitve Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations julija 2021 za scenarije, ki temeljijo na zalogi/produkciji.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597082"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933650"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Novosti in spremembe v storitvi Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji (julij 2021)
 
 _**Velja za:** storitev Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji_
 
-Ta tema velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
+Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
 
 - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.20
  

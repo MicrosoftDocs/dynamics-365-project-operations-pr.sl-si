@@ -1,6 +1,6 @@
 ---
 title: Pregled predlaganih virov
-description: Ta tema vsebuje informacije o tem, kako predlagati projektne vire.
+description: Ta članek vsebuje informacije o tem, kako predlagati vire projekta.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d2ab3ba9e5b18a2b42acaa2dc51ad94b8189274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924864"
 ---
 # <a name="review-proposed-resources"></a>Pregled predlaganih virov
 

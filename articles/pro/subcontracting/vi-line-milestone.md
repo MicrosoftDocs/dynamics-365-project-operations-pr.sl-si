@@ -1,19 +1,19 @@
 ---
-title: Vrstice računov prodajalca za mejnike
-description: Ta tema pojasnjuje, kako ustvariti vrstice računov dobavitelja za mejnike v podizvajalski pogodbi.
+title: Vrstice računa dobavitelja za mejnike
+description: V tem članku je razloženo, kako ustvariti vrstice računov dobavitelja za mejnike podizvajalske pogodbe.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4fa11e2a4f459016b3ce141b03fe97e55c9a2759
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 212d68c32e712ac2349d1670f9e799bcc5144148
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931350"
 ---
-# <a name="vendor-invoice-lines-for-milestones"></a>Vrstice računov prodajalca za mejnike
+# <a name="vendor-invoice-lines-for-milestones"></a>Vrstice računa dobavitelja za mejnike
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -30,7 +30,7 @@ Naslednja tabela vsebuje informacije o poljih v vrsticah računov prodajalca za 
 | Imenu | Ime vrstice računa prodajalca za pomoč pri identifikaciji. | To ime bo prikazano kot prvi stolpec v vseh iskanjih, ki temeljijo na vrsticah računov prodajalca. |
 | Description | Kratek opis storitev, ki jih prodajalec zaračunava v vrstici faktur za dobavitelja. | Ni priprav ali omejitev |
 | Podizvajalska pogodba | Podizvajalska pogodba, na podlagi katere so bile storitve prvotno naročene. | Ko je za račun prodajalca izbrana podizvajalska pogodba, bodo vse vrstice na računu prodajalca podedovale to izbiro. Račun dobavitelja ne sme vsebovati vrstic računa prodajalca, ki se sklicujejo na različne podizvajalske pogodbe. |
-| Podizvajalska linija | Podizvajalska linija, na kateri so bile storitve naročene. Seznam vrstic podizvajalcev, ki jih je mogoče izbrati, je omejen na vrstice v izbrani podizvajalski pogodbi. | Ko je v vrstici računa prodajalca za mejnike izbrana vrstica podizvajalcev, se **Vloga** in **Kategorija transakcije** polja in polja, povezana z izdelkom, niso pomembna in niso na voljo. The **Količina**, **·**, in **Skupina enot** polja prav tako niso pomembna za vrstice računov dobavitelja, ki temeljijo na mejnikih. |
+| Podizvajalska linija | Podizvajalska linija, na kateri so bile storitve naročene. Seznam vrstic podizvajalcev, ki jih je mogoče izbrati, je omejen na vrstice v izbrani podizvajalski pogodbi. | Ko je vrstica podizvajalcev izbrana v vrstici računa prodajalca za mejnike, se **Vloga** in **Kategorija transakcije** polja in polja, povezana z izdelkom, niso pomembna in niso na voljo. The **Količina**, **·**, in **Skupina enot** polja prav tako niso pomembna za vrstice računov dobavitelja, ki temeljijo na mejnikih. |
 | Datum transakcije | Datum, ko bo dejanski strošek vrstice računa prodajalca zabeležen v projektu. | Ni priprav ali omejitev |
 | Razred transakcije | Izberite **Mejnik** zabeležiti račun prodajalca za zaključen mejnik, ki je bil opredeljen v vrstici podizvajalcev. | Ni priprav ali omejitev |
 | Mejnik | Izberite mejnik, ki je opredeljen v povezani vrstici podizvajalcev, ki je označena kot **Pripravljen za fakturiranje**. | Mejniki vrstice podizvajalcev, ki imajo status **Pripravljen za fakturiranje** lahko izberete v vrstici računa prodajalca. |

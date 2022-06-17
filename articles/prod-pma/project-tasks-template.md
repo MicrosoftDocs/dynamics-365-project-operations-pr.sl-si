@@ -1,6 +1,6 @@
 ---
 title: Sinhronizirajte projektna opravila neposredno iz Project Service Automation v Finance in Operations
-description: Ta tema opisuje predlogo in osnovno opravilo, ki se uporabljata za sinhronizacijo projektnih nalog neposredno iz Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Finance.
+description: Ta članek opisuje predlogo in osnovno nalogo, ki se uporabljata za sinhronizacijo projektnih nalog neposredno iz Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683330"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931166"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizirajte projektna opravila neposredno iz Project Service Automation v Finance in Operations
 
 [!include[banner](../includes/banner.md)]
 
-Ta tema opisuje predlogo in osnovno opravilo, ki se uporabljata za sinhronizacijo projektnih nalog neposredno iz Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+Ta članek opisuje predlogo in osnovno nalogo, ki se uporabljata za sinhronizacijo projektnih nalog neposredno iz Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
 > [!NOTE]
 > - V različici 8.0 so na voljo integracija projektnih opravil, kategorije transakcije stroškov, ocene delovnih ur, ocene stroškov in zaklepanje funkcionalnosti.

@@ -1,6 +1,6 @@
 ---
 title: Domača stran za ponudbe, cene in obračunavanje
-description: V tej temi so na voljo informacije o ponudbah, cenah in obračunavanju.
+description: Ta članek vsebuje informacije o ponudbi, cenah in obračunavanju.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926750"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Domača stran za ponudbe, cene in obračunavanje
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581120"
 
 Oblikovanje ponudb, določanje cen in obračunavanje so funkcije, ki jih uporabljajo majhne in velike organizacije. S poznavanjem delovanja teh funkcij v aplikaciji lahko organizacije lažje prilagodijo konfiguracije.
 
-V spodnjih temah je na voljo več informacij o oblikovanju ponudb, določanju cen in obračunavanju v PSA:
+Naslednji članki ponujajo več informacij o funkcionalnosti ponudb, cen in obračunavanja v PSA:
 
 - [Prodajni proces](basic-sales-process.md)
 - [Vrstice ponudb](basic-quote-lines.md)

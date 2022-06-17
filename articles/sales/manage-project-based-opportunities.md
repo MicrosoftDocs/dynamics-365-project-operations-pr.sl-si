@@ -1,17 +1,17 @@
 ---
 title: Upravljanje priložnosti, ki temeljijo na projektu
-description: Ta tema vsebuje informacije o tem, kako delati s priložnostmi, povezanimi s projekti.
+description: Ta članek vsebuje informacije o tem, kako delati s priložnostmi, povezanimi s projekti.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933236"
 ---
 # <a name="manage-project-based-opportunities"></a>Upravljanje priložnosti, ki temeljijo na projektu
 
@@ -19,7 +19,7 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoč
 
 Običajno imajo podjetja, ki temeljijo na projektih, postopke za dostavo razvejane po več državah in regijah. Stroški izvajanja in dostave projekta se lahko razlikujejo glede na to, katera regija ali oddelek upravlja dostavo. To pa lahko vpliva na marže posla. Izvajanje projektnih storitev običajno vključuje velike količine porabljenega časa kadra, znatne potne stroške, materialne stroške in druge stroške.
 
-Priložnosti, ki temeljijo na projektih, v aplikaciji Dynamics 365 Project Operations so zasnovani z razširitvami za aplikacijo Dynamics 365 Sales. Ta tema vsebuje podrobnosti o različnih poljih in poslovni logiki, vključeni v dodatno funkcionalnost, ki jo potrebujejo podjetja, ki temeljijo na projektih, za upravljanje projektnih priložnosti.
+Priložnosti, ki temeljijo na projektih, v aplikaciji Dynamics 365 Project Operations so zasnovani z razširitvami za aplikacijo Dynamics 365 Sales. Članek vsebuje podrobnosti o različnih področjih in poslovni logiki, vključeni v dodatno funkcionalnost, ki jo zahtevajo projektna podjetja za upravljanje priložnosti, ki temeljijo na projektih.
 
 ## <a name="view-all-project-based-opportunities"></a>Ogled vseh priložnosti, ki temeljijo na projektu
 

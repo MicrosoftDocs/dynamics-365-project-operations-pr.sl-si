@@ -1,6 +1,6 @@
 ---
 title: Ponudbe in vrstice ponudb
-description: V tej temi so na voljo informacije o ponudbah in vrsticah ponudb.
+description: Ta članek vsebuje informacije o ponudbah in ponudbah.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599060"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933374"
 ---
 # <a name="quotes-and-quote-lines"></a>Ponudbe in vrstice ponudb
 
@@ -39,7 +39,7 @@ V aplikaciji Dynamics 365 Project Service Automation obstajata dve vrsti ponudb:
 - Prodajna ponudba ne vsebuje nekaterih polj in konceptov, ki so vključeni v polja projektne ponudbe. Polja vključujejo **pogodbeno enoto**, **upravitelja kupcev** in **ime stika za plačilo**.  
 - Prodajne in projektne ponudbe so določene tudi s poljem, ki temelji na naboru možnosti in se imenuje **Vrsta**. Za prodajno ponudbo ima to polje vrednost **Temelji na elementu**. Za projektno ponudbo pa ima polje vrednost **Temelji na delu**.
 
-V tej temi se osredotočamo na podrobnosti projektnih ponudb.
+Ta članek se bo osredotočil na podrobnosti projektnih ponudb.
 
 V aplikaciji PSA je mogoče, da ima projektna ponudba več vrstičnih postavk ali vrstic ponudbe. U bistvu ima projektna ponudba dve mreži za vrstične postavke. Ena mreža je za vrstice, ki temeljijo na projektih in omogočajo podrobne ocene. Druga mreža je za vrstice, ki temeljijo na izdelkih in uporabljajo enostavno ceno enote in pristop na podlagi količine.
 

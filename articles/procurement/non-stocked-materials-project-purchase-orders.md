@@ -1,24 +1,24 @@
 ---
 title: Naročanje materialov, ki niso na zalogi, za projekt, ki uporablja naročilnice za projekte
-description: Ta tema pojasnjuje, kako lahko naročite materiale, ki niso na zalogi, za projekt, ki uporablja naročilnice za projekte.
+description: V tem članku je razloženo, kako lahko naročite materiale brez zalog za projekt z naročili projekta.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2aa8fb94e2f9cbf91182f3f169339284d3eb9f44
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: fe24faa143869af2396f3b0f28aae31417cadda7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612723"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929832"
 ---
 # <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Naročite kategorije nabave ali materiale brez zalog za projekt z uporabo projektnih naročil
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Nabavni oddelek v vaši organizaciji bi lahko uporabil [naročilnice](/dynamics365/supply-chain/procurement/purchase-order-overview) za sledenje naročil blaga in storitev. Projektu je mogoče pripisati naročila za kategorije nabave ali materiale, ki niso na zalogi. Zaračunavanje teh naročilnic beleži stroške projekta.
+Nabavni oddelek v vaši organizaciji bi lahko uporabil [naročilnice](/dynamics365/supply-chain/procurement/purchase-order-overview) za sledenje naročil blaga in storitev. Projektu je mogoče pripisati naročila za nabavne kategorije ali materiale, ki niso na zalogi. Zaračunavanje teh naročilnic beleži stroške projekta.
 
 ## <a name="prerequisites"></a>Zahteve
 Upoštevajte naslednje korake, da omogočite funkcijo naročilnic projektov.
@@ -38,7 +38,7 @@ Upoštevajte naslednje korake, da omogočite funkcijo naročilnic projektov.
 5. Vnesite številko artikla ali kategorijo nabave, količino, enoto, ceno na enoto in druge ustrezne informacije.
 
     > [!NOTE]
-    > Pri projektnih naročilnicah se lahko uporabljajo samo kategorije nabave, artikli brez zalog in storitve. Založeni artikli niso podprti.
+    > S projektnimi naročilnicami se lahko uporabljajo samo kategorije nabav, artikli, ki niso na zalogi, in storitve. Založeni artikli niso podprti.
 
 6. Po potrebi nadaljujte z dodajanjem artiklov ali kategorij nabave in potrdite naročilo.
 

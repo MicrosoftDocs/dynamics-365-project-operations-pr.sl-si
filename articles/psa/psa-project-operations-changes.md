@@ -1,6 +1,6 @@
 ---
-title: Spremembe funkcij iz Project Service Automation v Project Operations
-description: Ta tema ponuja pregled sprememb funkcij iz Project Service Automation v Dynamics 365 Project Operations.
+title: Spremembe funkcij iz aplikacije Project Service Automation v aplikacijo Project Operations
+description: Ta članek ponuja pregled sprememb funkcij iz Project Service Automation v Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925370"
 ---
-# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Spremembe funkcij iz Project Service Automation v Project Operations
+# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Spremembe funkcij iz aplikacije Project Service Automation v aplikacijo Project Operations
 
-Nadgradnja iz Dynamics 365 Project Service Automation do Dynamics 365 Project Operations Lite bo dostavljen v treh fazah. Ta tema ponuja informacije o večjih spremembah, ki jih lahko pričakujete, ko bo nadgradnja končana.
+Nadgradnja iz Dynamics 365 Project Service Automation do Dynamics 365 Project Operations Lite bo dostavljen v treh fazah. Ta članek vsebuje informacije o večjih spremembah, ki jih lahko pričakujete, ko bo nadgradnja končana.
 
 | Nadgradite dostavo | 1. faza <br>(januar 2022) | 2. faza <br>(aprilski val 2022) | 3. faza  |
 |------------------|------------------------|---------------------------|---------------------------|

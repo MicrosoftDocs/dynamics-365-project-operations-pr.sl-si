@@ -1,26 +1,26 @@
 ---
 title: Omogočanje novega okolja
-description: Ta tema vsebuje informacije o omogočanju novega okolja v storitvi Project Operations.
+description: Ta članek vsebuje informacije o tem, kako zagotoviti novo okolje Project Operations.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931626"
 ---
 # <a name="provision-a-new-environment"></a>Omogočanje novega okolja
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 
 
-Ta tema vsebuje informacije o tem, kako zagotoviti novo okolje Dynamics 365 Project Operations za primere uporabe z viri/brez zalog.
+Ta članek vsebuje informacije o tem, kako omogočiti novo Dynamics 365 Project Operations okolje za scenarije, ki temeljijo na virih/brez zalog.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Omogočite avtomatizirano omogočanje uporabe storitve Project Operations v projektu LCS
 
@@ -117,7 +117,7 @@ Za prejem te različice boste morda morali zagnati posodobitev kakovosti svojega
 
     ![Uporaba rešitev.](./media/13ApplySolutions.png)
 
-5. Izberite obe rešitvi, **Dynamics 365 Finance and Operations Zemljevid entitet dvojnega pisanja** in **Dynamics 365 Project Operations Zemljevidi entitet dvojnega pisanja**, nato pa izberite **Prijavite se**.
+5. Izberite obe rešitvi, **Dynamics 365 Finance and Operations Zemljevid entitet dvojnega pisanja** in **Dynamics 365 Project Operations Zemljevidi entitet dvojnega pisanja** in nato izberite **Prijavite se**.
 
     ![Potrjevanje rešitev.](./media/14ConfirmSolutions.png)
 

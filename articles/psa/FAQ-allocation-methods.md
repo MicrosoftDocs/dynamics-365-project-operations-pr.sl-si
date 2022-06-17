@@ -1,6 +1,6 @@
 ---
 title: Načini za rezervacijo dodelitev v storitvi Project Service Automation
-description: V tej temi najdete informacije o različnih načinih za rezervacijo dodelitev.
+description: Ta članek vsebuje informacije o različnih načinih, na katere lahko rezervirate dodelitve.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929188"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Načini za rezervacijo dodelitev v storitvi Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Če člana ekipe dodate projektu neposredno na zavihku **Ekipa** ali rezervirate vir za projekt oz. zahtevo na plošči razporeda, lahko uporabite več različnih načinov rezervacije dodelitev. V tej temi je pojasnjeno, kako delujejo posamezni načini in kateri načini lahko vodijo v preveliko število rezervacij virov.
+Če člana ekipe dodate projektu neposredno na zavihku **Ekipa** ali rezervirate vir za projekt oz. zahtevo na plošči razporeda, lahko uporabite več različnih načinov rezervacije dodelitev. V tem članku je razloženo, kako deluje vsaka metoda in katere metode bi lahko vodile do prezasedenosti virov.
 
 ## <a name="full-capacity"></a>Polna zmogljivost 
 Način »Polna zmogljivost« rezervira polno zmogljivost vira za navedeni datumski obseg. Če je na primer koledar vira nastavljen za delo osem ur na dan in pet dni v tednu, bo vir rezerviran za 40 ur, če nastavite začetni in končni datum, ki zajema pet delovnih dni. Rezervacija je zaključena ne glede na preostalo zmogljivost vira. Če je vir v tem obdobju že rezerviran za druge projekte, je 40 ur rezerviranih kot dodatne ure, kar lahko vodi v preveliko število rezervacij.

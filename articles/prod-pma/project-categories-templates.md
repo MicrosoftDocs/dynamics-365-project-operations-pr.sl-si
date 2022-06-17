@@ -1,6 +1,6 @@
 ---
 title: Sinhronizirajte kategorije stroškov projekta med financami in poslovanjem ter avtomatizacijo projektnih storitev
-description: Ta tema opisuje predloge in osnovne naloge, ki se uporabljajo za sinhronizacijo kategorij stroškov projekta med Microsoft Dynamics 365 Finance in Dynamics 365 Project Service Automation.
+description: Ta članek opisuje predloge in osnovne naloge, ki se uporabljajo za sinhronizacijo kategorij stroškov projekta med njimi Microsoft Dynamics 365 Finance in Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927256"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinhronizirajte kategorije stroškov projekta med financami in poslovanjem ter avtomatizacijo projektnih storitev
 
 [!include[banner](../includes/banner.md)]
 
-Ta tema opisuje predloge in osnovne naloge, ki se uporabljajo za sinhronizacijo kategorij stroškov projekta med Dynamics 365 Finance in Dynamics 365 Project Service Automation.
+Ta članek opisuje predloge in osnovne naloge, ki se uporabljajo za sinhronizacijo kategorij stroškov projekta med Dynamics 365 Finance in Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - V različici 8.0 so na voljo integracija projektnih opravil, kategorije transakcije stroškov, ocene delovnih ur, ocene stroškov in zaklepanje funkcionalnosti.

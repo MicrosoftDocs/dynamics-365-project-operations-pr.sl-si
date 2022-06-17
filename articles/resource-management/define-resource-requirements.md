@@ -1,17 +1,17 @@
 ---
 title: Določanje zahtev za vir
-description: Ta tema vsebuje informacije o podatkih za določanje zahtev za vir.
+description: Ta članek vsebuje informacije o definiranju informacij o zahtevah po virih.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 6f1b69269203a9b05dbda9d3ac8d9fbb57d917c5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0ea0b883b764478f381312d9fb9c323a1563b22a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924956"
 ---
 # <a name="define-resource-requirements"></a>Določanje zahtev za vir
 

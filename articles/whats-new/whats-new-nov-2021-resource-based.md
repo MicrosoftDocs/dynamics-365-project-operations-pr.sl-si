@@ -1,24 +1,24 @@
 ---
 title: Novosti v novembru 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
-description: Ta tema ponuja informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations novembra 2021 za scenarije, ki temeljijo na virih/brez zalog.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations novembra 2021 za scenarije, ki temeljijo na virih/brez zalog.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b58965f728321cc30d4e476b0dacf621fdec71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932914"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti v novembru 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
 *Velja za: scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi*
 
-Ta tema velja za naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
+Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
 
 - Projektno delovanje v a Dataverse različica okolja 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
 - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.22

@@ -1,6 +1,6 @@
 ---
 title: Mobilna aplikacija za upravljanje stroškov
-description: Ta tema vsebuje informacije o mobilnem delovnem prostoru »Upravljanje stroškov«.
+description: Ta članek vsebuje informacije o mobilnem delovnem prostoru za upravljanje stroškov.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930246"
 ---
 # <a name="mobile-expense-app"></a>Mobilna aplikacija za upravljanje stroškov
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Ta tema vsebuje informacije o mobilnem delovnem prostoru **Upravljanje stroškov**. Ta delovni prostor omogoča uporabnikom, da zajamejo in naložijo potrdilo, da ga lahko pozneje priložijo poročilu o stroških. Uporabniki lahko tudi hitro ustvarijo vrstico stroškov z uporabo priloženega potrdila ter ustvarijo in upravljajo svoja poročila o stroških. Poleg tega lahko odobritelji uporabljajo mobilni delovni prostor **Upravljanje stroškov**, da si ogledajo poročila o stroških, ki so jim dodeljena, in jih odobrijo ali zavrnejo.
+Ta članek vsebuje informacije o **Upravljanje odhodkov** mobilni delovni prostor. Ta delovni prostor omogoča uporabnikom, da zajamejo in naložijo potrdilo, da ga lahko pozneje priložijo poročilu o stroških. Uporabniki lahko tudi hitro ustvarijo vrstico stroškov z uporabo priloženega potrdila ter ustvarijo in upravljajo svoja poročila o stroških. Poleg tega lahko odobritelji uporabljajo mobilni delovni prostor **Upravljanje stroškov**, da si ogledajo poročila o stroških, ki so jim dodeljena, in jih odobrijo ali zavrnejo.
 
 Ta mobilni delovni prostor je namenjen uporabi z mobilno aplikacijo Dynamics 365 Unified Ops.
 
@@ -220,7 +220,7 @@ Vnos dimenzij in distribucij ni podprt. Če želite premagati to omejitev, lahko
 
 Če vrstice stroškov ne izpolnjujejo zahtev pravilnika in uporabnik predloži poročilo o stroških, ne da bi obravnaval opozorilo pravilnika, se mobilni podatki ne sinhronizirajo s strežnikom in pride do napake pri sinhronizaciji. Vsa poročila o stroških, ki so poslana po tem, ko pride do napake pri sinhronizaciji, bodo ostala v neuspešnem stanju in povzročila več napak pri sinhronizaciji. Edini način za odpravo te situacije je, da ročno izbrišete obvestila o sinhronizaciji. To težavo smo odpravili tako, da smo ustavili predložitev poročil o stroških, ko opozorila pravilnika niso bila obravnavana, da bi se izognili napakam pri sinhronizaciji.
 
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Zakaj se validacija projekta in kategorije ne odraža pravilno v mobilni aplikaciji Expense?
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Zakaj se validacija projekta in kategorije v mobilni aplikaciji Expense ne odraža pravilno?
 
 Ta potrditev trenutno ni podprta. Vendar pa bo podpora morda dodana v prihodnosti. 
 

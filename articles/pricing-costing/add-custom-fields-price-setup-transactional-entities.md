@@ -1,6 +1,6 @@
 ---
 title: Dodajanje zahtevanih polj po meri v entitete za nastavitev cene in transakcijske entitete
-description: Ta tema vsebuje informacije o tem, kako dodati zahtevane sklice na polja po meri entitetam ter obrazcem in pogledom.
+description: Ta članek vsebuje informacije o tem, kako dodati zahtevane reference polj po meri v entitete ter v obrazce in poglede.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597404"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926060"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Dodajanje zahtevanih polj po meri v entitete za nastavitev cene in transakcijske entitete
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Ta tema predpostavlja, da ste zaključili postopke v temi [Ustvarjanje polj in entitet po meri za uporabo kot cenovne razsežnosti](create-custom-fields-entities-pricing-dimensions.md). Če teh postopkov še niste izvedli, se vrnite nazaj in jih dokončajte, preden se vrnete na to temo. 
+Ta članek predvideva, da ste izvedli postopke v članku, [Ustvarite polja in entitete po meri, ki jih boste uporabili kot razsežnosti cen](create-custom-fields-entities-pricing-dimensions.md). Če teh postopkov še niste dokončali, se vrnite in jih dokončajte, nato pa se vrnite na ta članek. 
 
-V tej temi je s postopki prikazano, kako dodate zahtevane sklice na polja po meri entitetam in elementom uporabniškega vmesnika, kot so obrazci in pogledi.
+V tem članku vam bodo postopki pokazali, kako dodati zahtevane reference polj po meri v entitete in elemente uporabniškega vmesnika (UI), kot so obrazci in pogledi.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Dodajanje polj cenovne razsežnosti po meri 
 Ko ustvarite polja in entitete po meri, morate nastaviti entitete za nastavitev cene in transakcijske entitete tako, da vključijo entitete ali nabore možnosti po meri. To naredite tako, da ustvarite sklicno polje. Glede na to, ali seznam cenovnih razsežnosti vključuje razsežnosti na osnovi nabora možnosti ali razsežnosti na osnovi entitete oz. oboje, sledite le korakom v razdelku **Cenovne razsežnosti po meri na osnovi nabora možnosti** ali **Cenovne razsežnosti po meri na osnovi entitete** oz. v obeh.

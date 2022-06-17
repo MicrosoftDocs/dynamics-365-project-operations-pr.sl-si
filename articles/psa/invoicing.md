@@ -1,6 +1,6 @@
 ---
 title: Zaračunavanje v storitvi Project Service Automation
-description: Ta tema vsebuje informacije o zaračunavanju.
+description: Ta članek vsebuje informacije o izdajanju računov.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579326"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926842"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Zaračunavanje v storitvi Project Service Automation
 
@@ -94,7 +94,7 @@ Ko se potek dela **processrunner** preneha izvajati, prikliče potek dela **Proc
 Paketna obdelava za ustvarjanje računov je ponavljajoče se opravilo. Če se paketna obdelava zažene večkrat, se ustvari več primerkov opravila in pride do napak. Zato paketno obdelavo zaženite samo enkrat in jo znova zaženite le, če se preneha izvajati.
 
 > [!NOTE]
-> Paketno izdajanje računov v storitvi Project Service Automation se izvaja samo za podrobnosti pogodb, ki so konfigurirane z razporedi računov. V podrobnostih pogodbe z načinom obračunavanja s fiksno ceno morajo biti nastavljeni mejniki. V podrobnostih pogodbe z načinom obračunavanja za časovne in materialne transakcije je treba nastaviti datumski urnik računov. Informacije o nastavitvi pogostosti izdajanja računov v okviru projekta, ki temelji na vrstici s ponudbo, so na voljo v temi [Ponudbe in vrstice s ponudbo](basic-quote-lines.md#invoice-schedule). Enako velja v podrobnosti pogodbe za projekt.      
+> Paketno izdajanje računov v storitvi Project Service Automation se izvaja samo za podrobnosti pogodb, ki so konfigurirane z razporedi računov. V podrobnostih pogodbe z načinom obračunavanja s fiksno ceno morajo biti nastavljeni mejniki. V podrobnostih pogodbe z načinom obračunavanja za časovne in materialne transakcije je treba nastaviti datumski urnik računov. Informacije o nastavitvi frekvence fakturiranja v okviru projekta, ki temelji na vrstici ponudbe, so podane v članku, [Citati in citatne vrstice](basic-quote-lines.md#invoice-schedule). Enako velja v podrobnosti pogodbe za projekt.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Urejanje osnutka računa v PSA
 
