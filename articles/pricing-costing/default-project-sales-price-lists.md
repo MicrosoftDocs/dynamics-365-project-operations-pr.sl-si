@@ -1,17 +1,17 @@
 ---
 title: Privzeti cenik
-description: Ta članek vsebuje informacije o privzetih prodajnih in stroškovnih cenikih v Project Operations.
+description: Ta članek nudi informacije o privzetih prodajah in cenikih stroškov v Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917734"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036431"
 ---
 # <a name="default-price-lists"></a>Privzeti cenik
 
@@ -25,7 +25,7 @@ Vse ponudbe in pogodbe za projekt v aplikaciji Dynamics 365 Project Operations v
 Sistem izvede spodnji postopek, da določi, kateri cenik bo privzeto uporabljen za projektno ponudbo:
 
 1. Sistem preuči cenike, ki so priloženi projektnim cenikom računa. 
-2. Če so zapisu o računu priloženi projektni ceniki, sistem pregleda prodajne cenike, priložene projektnim parametrom, ki ustrezajo valuti projektne ponudbe.
+2. Če zapisu računa ni priloženih cenikov projekta, sistem pogleda prodajne cenike, priložene parametrom projekta, ki se ujemajo z valuto ponudbe projekta.
 3. Nato sistem preveri veljavnost datumov cenikov, ki ustrezajo časovnemu obdobju projektne ponudbe. Še posebno datum, ko je bila ponudba ustvarjena.
 4. Če je na datum projektne ponudbe v veljavi več cenikov, se vsi ceniki privzeto nastavijo za projektno ponudbo.
 5. Če na datum projektne ponudbe ni v veljavi noben cenik, na projektni ponudbi ne bo privzetega projektnega cenika. Na projektni ponudbi se bo pojavilo opozorilno sporočilo. V sporočilu je zapisano, da dejanske vrednosti in ocene projekta ne bodo podane, ker niste priložili nobenega cenika.

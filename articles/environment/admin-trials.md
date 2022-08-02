@@ -1,17 +1,17 @@
 ---
 title: Prijava za preskusne različice aplikacije Project Operations
-description: Ta članek vsebuje informacije o tem, kako namestiti preizkusno različico Dynamics 365 Project Operations.
+description: Ta članek vsebuje informacije o tem, kako uvesti preskusno različico Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959730"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029320"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Prijava za preskusne različice aplikacije Project Operations 
 
@@ -19,7 +19,7 @@ _**Velja za:** Project Operations za primere uporabe z viri/brez zalog, poenosta
 
 
 
-V tem članku je pojasnjeno, kako se naročiti na predogled partnerske ponudbe in uvesti a Dynamics 365 Project Operations okolje.
+V tem članku je razloženo, kako se naročiti na ponudbo partnerja za predogled in uvesti a Dynamics 365 Project Operations okolju.
 
 Z novo preskusno različico aplikacije Project Operations lahko samodejno uvedete kateregakoli od treh podprtih primerov uvajanja, in sicer tako, da izpolnite vprašalnik, ki ponuja najboljši pristop uvajanja. Ta članek vsebuje informacije o tem, kako:
 
@@ -86,18 +86,18 @@ Preden začnete, se s službenim uporabniškim računom prijavite v brskalnik, i
  
   Ko je omogočanje uporabe končano, je stanje vašega okolja nastavljeno na **Pripravljeno**. Omogočanje uporabe okolja vključuje uvajanje predstavitvenih podatkov.
  
-4.  Izberite ustrezno Microsoft Dataverse URL ter URL-ji aplikacij Finance and Operations za potrditev uvajanja.
+4.  Izberite ustrezno Microsoft Dataverse URL ter URL-ji aplikacij za finance in operacije za potrditev uvedbe.
 
 ## <a name="configuring-dual-write"></a>Konfiguracija dvojnega zapisovanja
 - Če želite konfigurirati varnostne vloge za dvojno pisanje, glejte [Posodobite varnostne nastavitve za Project Operations v Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Za dostop do konfiguracije dvojnega pisanja se pomaknite do primerka Finance and Operations, nato pa se pomaknite do **Upravljanje podatkov** > **Dvojno pisanje**.
-- Če želite konfigurirati zemljevide z dvojnim zapisom, glejte [Zaženite zemljevide z dvojnim pisanjem Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Za dostop do konfiguracije dvojnega pisanja se pomaknite do primerka financ in operacij, nato se pomaknite do **Upravljanje podatkov** > **Dvojno pisanje**.
+- Če želite konfigurirati zemljevide z dvojnim pisanjem, glejte [Zaženite zemljevide za dvojno pisanje Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Dodelitev licenc
 
 Potrebovali boste skrbniški dostop do portala Microsoft 365 vaše organizacije, če želite dokončati naslednje korake.
 
-1. Pojdite na [Microsoft 365 skrbniško središče](https://portal.office.com/) za dodelitev licenc vašim uporabnikom.
+1. Pojdi na [Microsoft 365 skrbniški center](https://portal.office.com/) za dodelitev licenc vašim uporabnikom.
 
    ![Začetna stran skrbniškega središča](./media/14AdminPortal.png)
 
@@ -117,7 +117,7 @@ Na začetku uporabe aplikacije Project Operations si lahko pomagate z uporabnimi
 
 ## <a name="frequently-asked-questions"></a>Pogosto zastavljena vprašanja
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Kaj pa, če potrebujem ALM ali ELM za svoje okolje aplikacij za finance in operacije?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Kaj pa, če potrebujem ALM ali ELM za svoje okolje aplikacij za finance in poslovanje?
 
 - Če partnerji potrebujejo zmogljivosti upravljanja za celoten življenjski cikel okolja, si oglejte temo [Zahteva licence za preizkusno okolje partnerja](https://experience.dynamics.com/requestlicense). 
 - Če želijo partnerji pridobiti več informacij o pravicah do interne uporabe, si oglejte [Prednost oblaka pravic do interne uporabe in programske opreme (microsoft.com)](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +125,7 @@ Na začetku uporabe aplikacije Project Operations si lahko pomagate z uporabnimi
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Ali lahko preskusno različico uporabljam več kot 30 dni?
 Če želite podaljšati preskusno obdobje, upoštevajte naslednja navodila.
 
-1. V **Microsoft 365 Skrbniški center**, Pojdi do **Zaračunavanje** > **Vaši izdelki**.
+1. V **Microsoft 365 Skrbniški center**, Pojdi do **Obračunavanje** > **Vaši izdelki**.
 2. Izberite možnost **Dynamics 365 Project Operations (CE) – preskus predogledne različice**.
 3. Pod možnostjo **Datum poteka** izberite **Podaljšanje roka**.
 

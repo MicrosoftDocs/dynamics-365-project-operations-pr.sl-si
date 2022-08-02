@@ -1,18 +1,18 @@
 ---
 title: Omogočanje novega okolja
-description: Ta članek vsebuje informacije o tem, kako zagotoviti novo okolje Project Operations.
+description: Ta članek ponuja informacije o tem, kako zagotoviti novo okolje Project Operations.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931626"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028538"
 ---
 # <a name="provision-a-new-environment"></a>Omogočanje novega okolja
 
@@ -20,7 +20,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/n
 
 
 
-Ta članek vsebuje informacije o tem, kako omogočiti novo Dynamics 365 Project Operations okolje za scenarije, ki temeljijo na virih/brez zalog.
+Ta članek vsebuje informacije o tem, kako zagotoviti novo Dynamics 365 Project Operations okolje za scenarije, ki temeljijo na virih/brez zalog.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Omogočite avtomatizirano omogočanje uporabe storitve Project Operations v projektu LCS
 
@@ -34,7 +34,7 @@ Uporabite naslednje korake, da omogočite avtomatizirano omogočanje uporabe sto
 
 ## <a name="provision-a-project-operations-environment"></a>Omogočanje uporabe okolja Project Operations
 
-1. Odprite nov Dynamics 365 Finance [demo okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) oz [peskovnik/proizvodno okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) uvajanje. 
+1. Odprite nov Dynamics 365 Finance [demo okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) oz [peskovnik/produkcijsko okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) uvajanje. 
 2. Sprehodite se skozi čarovnika **Omogočanje okolja**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Za prejem te različice boste morda morali zagnati posodobitev kakovosti svojega
 
     ![Uporaba rešitev.](./media/13ApplySolutions.png)
 
-5. Izberite obe rešitvi, **Dynamics 365 Finance and Operations Zemljevid entitet dvojnega pisanja** in **Dynamics 365 Project Operations Zemljevidi entitet dvojnega pisanja** in nato izberite **Prijavite se**.
+5. Izberite obe rešitvi, **Dynamics 365 Finance Zemljevid entitet z dvojnim pisanjem** in **Dynamics 365 Project Operations Zemljevidi entitet z dvojnim pisanjem** in nato izberite **Prijavite se**.
 
     ![Potrjevanje rešitev.](./media/14ConfirmSolutions.png)
 

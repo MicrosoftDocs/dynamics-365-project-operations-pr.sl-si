@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924864"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183995"
 ---
 # <a name="review-proposed-resources"></a>Pregled predlaganih virov
 
@@ -40,8 +40,8 @@ Za pregled predlaganih virov sledite naslednjim korakom:
     Pojavijo se naslednje posodobitve stanja:
 
     - Na strani **Pomočnik za načrtovanje** se kazalniki stanja posodobijo in s tem sporočajo, da je rezervacija šele predlagana in da veljavna rezervacija ni bila izvedena.
-    - V zahtevi za vir se stanje spremeni v **Potreben pregled**.
-    - Na zavihku **Ekipa** izbranega projekta se vrednost splošnega člana ekipe **Stanje zahteve** spremeni v **Potreben pregled**.
+    - Pri zahtevi za vir mora pregledovalec zahteve spremeniti status v **Potrebuje pregled**.
+    - Na **Ekipa** zavihek projekta, generični član ekipe **Status zahteve** vrednost se samodejno spremeni v **Potrebuje pregled**.
 
 Vodja projekta lahko predlog sprejme ali zavrne.
 

@@ -1,27 +1,27 @@
 ---
 title: 'Novosti pri izdaji: April 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations aprila 2021 za scenarije, ki temeljijo na virih/brez zalog.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations aprila 2021 za scenarije, ki temeljijo na virih/brez zaloge.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912444"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029274"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti pri izdaji: April 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
+Ta člen se nanaša na naslednje Dynamics 365 Project Operations komponente in različice:
 
 - Project Operations v okolju Dataverse različice 4.9.0.221
-- Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.17
+- Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance verzija 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 
@@ -42,13 +42,13 @@ Na naslednjem seznamu so prikazane preslikave za dvojno zapisovanje, ki so sprem
 | **Preslikava entitete** | **Posodobljena različica** | **Pripombe** |
 | --- | --- | --- |
 | Dejanske vrednosti integracije storitve Project Operations (msdyn\_actuals) | 1.0.0.14 | Prelikava je spremenjena tako, da sinhronizira dejanske vrednosti materialov projekta. |
-| Integracijska entiteta za ocene stroškov v storitvi Project Operations (msdyn\_estimateslines) | 1.0.0.2 | Dodana je sinhronizacija projektne pogodbene vrstice z aplikacijami Finance in Operations za podporo za obračunavanje na podlagi nalog. |
-| Integracijska entiteta za oceno časa v storitvi Project Operations (msdyn\_resourceassignments) | 1.0.0.5 | Dodana je sinhronizacija projektne pogodbene vrstice z aplikacijami Finance in Operations za podporo za obračunavanje na podlagi nalog. |
-| Integracije tabele aplikacije Project Operations za ocene materiala (msdyn\_estimatelines) | 1.0.0.0 | Nov zemljevid tabele za sinhronizacijo ocen materiala Dataverse v aplikacije Finance in Operations. |
-| Entiteta za izvoz računa dobavitelja za projekt za integracijo aplikacije Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nov zemljevid tabele za sinhronizacijo glav računov dobavitelja iz aplikacij Finance in Operations v Dataverse. |
-| Entiteta za izvoz vrstice računa dobavitelja za projekt za integracijo aplikacije Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nov zemljevid tabele za sinhronizacijo vrstic računov dobavitelja iz aplikacij Finance in Operations na Dataverse. |
+| Integracijska entiteta za ocene stroškov v storitvi Project Operations (msdyn\_estimateslines) | 1.0.0.2 | Dodana je sinhronizacija vrstice projektne pogodbe v aplikacije za finance in operacije za podporo za obračunavanje na podlagi nalog. |
+| Integracijska entiteta za oceno časa v storitvi Project Operations (msdyn\_resourceassignments) | 1.0.0.5 | Dodana je sinhronizacija vrstice projektne pogodbe v aplikacije za finance in operacije za podporo za obračunavanje na podlagi nalog. |
+| Integracije tabele aplikacije Project Operations za ocene materiala (msdyn\_estimatelines) | 1.0.0.0 | Nov zemljevid tabele za sinhronizacijo ocen materiala Dataverse v aplikacije za finance in poslovanje. |
+| Entiteta za izvoz računa dobavitelja za projekt za integracijo aplikacije Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nov zemljevid tabel za sinhronizacijo glav računov dobaviteljev iz aplikacij za finance in poslovanje v Dataverse. |
+| Entiteta za izvoz vrstice računa dobavitelja za projekt za integracijo aplikacije Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nov zemljevid tabel za sinhronizacijo vrstic računov dobaviteljev iz aplikacij za finance in poslovanje v Dataverse. |
 
-Vedno morate zagnati najnovejšo različico zemljevida v svojem okolju in omogočiti vse povezane zemljevide tabel, ko posodabljate svoje operacije projekta Dataverse rešitev in različica rešitve Finance and Operations. Če ne aktivirate najnovejše različice preslikave, nekatere funkcije in zmogljivosti morda ne bodo delovale pravilno. Aktivno različico preslikave si lahko ogledate v stolpcu **Različica** na strani **Dvojno zapisovanje**. Novo različico preslikave lahko aktivirate tako, da izberete možnost **Različice preslikave tabele**, izberete najnovejšo različico in nato shranite izbrano različico. Če ste prilagodili vnaprej pripravljeno preslikavo tabele, znova uporabite spremembe. Za več informacij glejte [Upravljanje življenjskega cikla aplikacij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Vedno zaženite najnovejšo različico preslikave v svojem okolju in omogočite vse povezane preslikave tabel, ko posodabljate svoje projektne operacije Dataverse rešitev ter različica rešitve za finance in poslovanje. Če ne aktivirate najnovejše različice preslikave, nekatere funkcije in zmogljivosti morda ne bodo delovale pravilno. Aktivno različico preslikave si lahko ogledate v stolpcu **Različica** na strani **Dvojno zapisovanje**. Novo različico preslikave lahko aktivirate tako, da izberete možnost **Različice preslikave tabele**, izberete najnovejšo različico in nato shranite izbrano različico. Če ste prilagodili vnaprej pripravljeno preslikavo tabele, znova uporabite spremembe. Za več informacij glejte [Upravljanje življenjskega cikla aplikacij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Če pri zagonu preslikave naletite na težavo, upoštevajte navodila v razdelku [Težava z manjkajočimi stolpci tabele v preslikavah](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) iz vodiča za odpravljanje težav z dvojnim zapisovanjem.
 

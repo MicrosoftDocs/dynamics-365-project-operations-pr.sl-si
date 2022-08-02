@@ -1,27 +1,27 @@
 ---
 title: Novosti v decembru 2020 – Project Operations za primere uporabe z viri/brez zalog
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations decembra 2020 za scenarije, ki temeljijo na virih/brez zalog.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations iz decembra 2020 za scenarije, ki temeljijo na virih/brez zaloge.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933052"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029734"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti v decembru 2020 – Project Operations za primere uporabe z viri/brez zalog
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
+Ta člen se nanaša na naslednje Dynamics 365 Project Operations komponente in različice:
 
 - Project Operations v okolju Dataverse različice 4.5.0.134
-- Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.15
+- Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance verzija 10.0.15
 
 Za informacije o tem, kako posodobite na to izdajo, glejte [Posodobitev aplikacije Project Operations v okolju Finance](ur5-nonstocked-installation.md).
 
@@ -61,7 +61,7 @@ V to izdajo so vključene naslednje funkcije:
 | Načrtovanje in sledenje projektov | 2057197          | Kopija ocenjene vrstice s sklicem na opravilo ni podprta                                                                                                     |
 | Načrtovanje in sledenje projektov | 2060687          | Opozorilo o časovnem pasu zdaj po določenem obdobju izgine                                                                                                      |
 | Upravljanje virov           | 1832887          | Privzeti ID kategorije vira mora biti statičen, da se zagotovi ponovljivo nalaganje podatkov za okolji Dataverse in Finance                                                 |
-| Čas in strošek              | 2081793          | **Ime kategorije odhodkov** je treba preslikati na **Opis kategorije odhodkov** polje v aplikacijah Finance in Operations                                                  |
+| Čas in strošek              | 2081793          | **Ime kategorije stroškov** je treba preslikati na **Opis kategorije stroškov** področju financ in operacijskih aplikacij                                                  |
 | Čas in strošek              | 2034882          | V ukazni vrstici se dvakrat pojavi gumb **Novo** za časovne vnose, ko je nameščen Dynamics 365 Field Service                                          |
 | Čas in strošek              | 2056028          | Posodobitev strani **Urejanje časa**, ki vključuje časovno vrstico                                                                                                              |
 | Čas in strošek              | 1983747          | Grafikon časovnih vnosov prikazuje dodatne podatke                                                                                                                   |
@@ -106,7 +106,7 @@ V to izdajo so vključene naslednje funkcije:
 | Potovanje in strošek                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Potek dela samodejnega knjiženja poročila o stroških je dokončan, račun pa ni knjižen                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Regulativne posodobitve
-Za informacije o regulativnih posodobitvah za aplikacije Finance in Operations glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+Za informacije o regulativnih posodobitvah za aplikacije za finance in poslovanje glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

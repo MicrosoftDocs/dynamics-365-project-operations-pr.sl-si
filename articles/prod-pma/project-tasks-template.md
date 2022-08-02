@@ -1,6 +1,6 @@
 ---
-title: Sinhronizirajte projektna opravila neposredno iz Project Service Automation v Finance in Operations
-description: Ta članek opisuje predlogo in osnovno nalogo, ki se uporabljata za sinhronizacijo projektnih nalog neposredno iz Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Finance.
+title: Sinhronizirajte projektne naloge neposredno iz Project Service Automation s financami in operacijami
+description: Ta članek opisuje predlogo in osnovno nalogo, ki se uporabljata za neposredno sinhronizacijo projektnih nalog Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ed559fcd9e0e666f68e7d9f4f1fca91417fe4970
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931166"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028381"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizirajte projektna opravila neposredno iz Project Service Automation v Finance in Operations
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizirajte projektne naloge neposredno iz Project Service Automation s financami in operacijami
 
 [!include[banner](../includes/banner.md)]
 
-Ta članek opisuje predlogo in osnovno nalogo, ki se uporabljata za sinhronizacijo projektnih nalog neposredno iz Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+Ta članek opisuje predlogo in osnovno nalogo, ki se uporabljata za neposredno sinhronizacijo projektnih nalog Dynamics 365 Project Service Automation na Dynamics 365 Finance.
 
 > [!NOTE]
 > - V različici 8.0 so na voljo integracija projektnih opravil, kategorije transakcije stroškov, ocene delovnih ur, ocene stroškov in zaklepanje funkcionalnosti.
@@ -67,11 +67,11 @@ Preden lahko pride do sinhronizacije opravil projekta, morate sinhronizirati pro
 
 ## <a name="power-query"></a>Power Query
 
-Uporabiti morate Microsoft Power Query da Excel filtrira podatke, če je ta pogoj izpolnjen:
+Uporabiti morate Microsoft Power Query da Excel filtrira podatke, če je izpolnjen ta pogoj:
 
 - V opravilu projekta imate zapise, povezane z viri.
 
-Če morate uporabiti Power Query, sledite tej smernici:
+Če morate uporabiti Power Query, upoštevajte to smernico:
 
 - Predloga opravil projekta (PSA v Fin in Ops) ima privzeti filter, ki iz opravila projekta izključi zapise, povezane z viri, tako, da filter v možnosti **IsLineTask** nastavi na **Napačno**. Če ustvarite svojo predlogo, morate dodati ta filter.
 

@@ -1,59 +1,59 @@
 ---
 title: Preverjanje računov dobavitelja z odobrenimi dejanskimi vrednostmi
-description: Ta članek pojasnjuje, kako Microsoft Dynamics 365 Project Operations naj vodje projektov preverijo račune dobaviteljev z dejanskim stanjem, ki so bili odobreni, saj so izvajalci opravili delo in evidentiran čas ter stroške in materiale, ki so jih porabili člani projektne skupine.
+description: Ta članek pojasnjuje, kako Microsoft Dynamics 365 Project Operations naj vodje projektov preverijo račune dobaviteljev z dejanskimi podatki, ki so bili potrjeni kot izvajalci opravljenih del in evidentiranim časom ter stroški in materiali, ki so jih porabili člani projektne skupine.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7bf48dd17063daece5df3ce44c0375eec3dc3cae
+ms.sourcegitcommit: 49c2a668b8d7bf0acb9e9b0bb44687e6d3dcaa8c
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914238"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9204195"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Preverjanje računov dobavitelja z odobrenimi dejanskimi vrednostmi
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
-_ **Velja za:** Lite uvedba – dogovor s predračunom
+_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Microsoft Dynamics 365 Project Operations naj vodje projektov preverijo vrstice računov prodajalca na naslednje načine:
+Microsoft Dynamics 365 Project Operations naj vodje projektov preverijo vrstice računa dobavitelja na naslednje načine:
 
-- Uporabi **Stanje preverjanja** polje v vrsticah računa prodajalca.
-- Če se vrstice računa prodajalca sklicujejo na vrstico podizvajalcev, povežite dejanske stroške iz dejavnosti podizvajalca s temi vrsticami računa prodajalca. Povezava je ustvarjena tako, da se dejanski stroški ujemajo z vrsticami računa prodajalca.
+- Uporabi **Stanje preverjanja** polje v vrsticah računa dobavitelja.
+- Če se vrstice računa dobavitelja sklicujejo na vrstico podizvajalca, povežite dejanske stroške iz dejavnosti podizvajalca s temi vrsticami računa dobavitelja. Povezava se ustvari tako, da se dejanski stroški primerjajo z vrsticami računa dobavitelja.
 
     > [!NOTE]
-    > Čeprav je stanje preverjanja mogoče slediti za vrstice računov prodajalca, ki se ne sklicujejo na podizvajalsko pogodbo, dejanskih stroškov ni mogoče povezati s temi vrsticami računov dobavitelja.
+    > Čeprav je statusu preverjanja mogoče slediti za vrstice računa dobavitelja, ki se ne sklicujejo na podizvajalsko pogodbo, dejanskih stroškov ni mogoče povezati s temi vrsticami računa dobavitelja.
 
 ## <a name="verification-status"></a>Stanje preverjanja
 
-The **Stanje preverjanja** polje v vrstici računa prodajalca označuje status preverjanja. Podprta so naslednja stanja:
+The **Stanje preverjanja** polje v vrstici računa dobavitelja označuje ta status preverjanja. Podprti so naslednji statusi:
 
 1. Ni začeto
 2. Poteka
 3. Zaključevanje
 
-Vrstice računov prodajalca, ki imajo status preverjanja **Ni se začelo** se lahko ureja.
+Vrstice računa dobavitelja, ki imajo status preverjanja **Ni se začelo** lahko urejate.
 
-Vrstice računov prodajalca, ki imajo status preverjanja **V postopku** ni več mogoče urejati. Za vrstico računa prodajalca, ki se sklicuje na podizvajalsko pogodbo, je status preverjanja samodejno nastavljen na **V postopku** takoj ko se prvi dejanski strošek ujema z vrstico računa prodajalca.
+Vrstice računa dobavitelja, ki imajo status preverjanja **V postopku** ni več mogoče urejati. Za vrstico računa dobavitelja, ki se sklicuje na podizvajalsko pogodbo, je status preverjanja samodejno nastavljen na **V postopku** takoj ko se prvi dejanski strošek ujema z vrstico računa dobavitelja.
 
-Vrstice računov prodajalca, ki imajo status preverjanja **Dokončano** ni več mogoče urejati. Ko imajo vse vrstice na računu prodajalca ta status preverjanja, je mogoče račun prodajalca potrditi.
+Vrstice računa dobavitelja, ki imajo status preverjanja **Popolna** ni več mogoče urejati. Ko imajo vse vrstice na računu dobavitelja ta status preverjanja, je mogoče račun dobavitelja potrditi.
 
-## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Uskladite dejanske stroške z vrsticami računa prodajalca
+## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Povežite dejanske stroške z vrsticami računa dobavitelja
 
-Usklajevanje dejanskih stroškov pomaga pri postopku preverjanja v vrstici računa prodajalca. Če želite uskladiti dejanske stroške z vrstico računa prodajalca, sledite tem korakom.
+Ujemanje dejanskih stroškov pomaga pri postopku preverjanja v vrstici računa dobavitelja. Če želite uskladiti dejanske stroške z vrstico računa dobavitelja, sledite tem korakom.
 
-1. Odprite vrstico za račun prodajalca in izberite **Neprimerljivi dejanski stroški** zavihek. Mreža prikazuje seznam dejanskih stroškov, ki se sklicujejo na isto vrstico podizvajalcev kot vrstica računa prodajalca.
-2. Izberite eno ali več dejanskih stroškov in nato izberite **Tekma** na orodni vrstici nad mrežo. Sistem potrdi, da se izbrani dejanski stroški lahko ujemajo. Po opravljeni validaciji so dejanski stroški povezani z vrstico računa prodajalca.
+1. Odprite vrstico računa dobavitelja in izberite **Neprimerljivi dejanski stroški** zavihek. Mreža prikazuje seznam dejanskih stroškov, ki se nanašajo na isto podizvajalsko vrstico kot vrstica računa dobavitelja.
+2. Izberite enega ali več dejanskih stroškov in nato izberite **Ujemanje** v orodni vrstici nad mrežo. Sistem potrdi, da je izbrane dejanske stroške mogoče ujemati. Ko je preverjanje opravljeno, se dejanski stroški povežejo z vrstico računa dobavitelja.
 
-### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Merila za potrditev, ki se uporabljajo za povezavo dejanskih stroškov z vrsticami računov prodajalca
+### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Merila veljavnosti, ki se uporabljajo za povezavo dejanskih stroškov z vrsticami računa dobavitelja
 
-Med postopkom ujemanja je mogoče vzpostaviti povezavo med dejansko ceno in vrstico računa prodajalca le, če sta izpolnjena oba naslednja pogoja:
+Med postopkom ujemanja je mogoče vzpostaviti povezavo med dejanskim stroškom in vrstico računa dobavitelja le, če sta izpolnjena oba naslednja pogoja:
 
-- The **Stanje prilagoditve** polje za vsak izbrani dejanski strošek mora biti prazno. Z drugimi besedami, dejanski stroški ne smejo biti zamenjani z drugimi dejanskimi stroški med postopkom odpoklica, preklica odobritve ali dnevnika popravkov.
-- Vrednosti naslednjih polj se ujemajo med vrstico računa prodajalca in izbranim dejanskim stroškom. Če katero koli polje ni nastavljeno v vrstici računa prodajalca, se ne upošteva za ujemanje.
+- The **Stanje prilagoditve** polje za vsak izbrani dejanski strošek mora biti prazno. Z drugimi besedami, dejanski stroški ne smejo biti nadomeščeni z drugimi dejanskimi stroški med postopkom odpoklica, preklica odobritve ali dnevnika popravkov.
+- Vrednosti naslednjih polj se ujemajo med vrstico računa dobavitelja in izbranim dejanskim stroškom. Če katero koli polje v vrstici računa dobavitelja ni nastavljeno, se ne upošteva za ujemanje.
 
     - Projektna pogodba
     - Vrstica projektne pogodbe
@@ -66,11 +66,11 @@ Med postopkom ujemanja je mogoče vzpostaviti povezavo med dejansko ceno in vrst
     - Podizvajalska linija
     - Vir, ki ga je mogoče rezervirati
 
-## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Neujemanje dejanskih stroškov iz vrstice računa prodajalca
+## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Odstranite ujemanje dejanskih stroškov iz vrstice računa dobavitelja
 
-Neujemanje dejanskih stroškov lahko pomaga tudi pri postopku preverjanja na računu prodajalca, tako da omogoči odstranitev predhodno vzpostavljenih povezav. Dejanski stroški so lahko neusklajeni samo iz vrstic računov prodajalca, ki imajo status preverjanja **V postopku**. Če želite razveljaviti dejanske stroške iz vrstice računa prodajalca, sledite tem korakom.
+Neujemanje dejanskih stroškov lahko pomaga tudi pri postopku preverjanja na računu prodajalca, tako da omogoči odstranitev predhodno vzpostavljenih povezav. Dejanski stroški se lahko ne ujemajo samo z vrsticami računa dobavitelja, ki imajo status preverjanja **V postopku**. Če želite odstraniti ujemanje dejanskih stroškov iz vrstice računa dobavitelja, sledite tem korakom.
 
-1. Odprite vrstico za račun prodajalca in izberite **Ustrezni dejanski stroški** zavihek. Mreža prikazuje seznam dejanskih stroškov, ki se sklicujejo na vrstico računa prodajalca.
-2. Izberite eno ali več dejanskih stroškov in nato izberite **Neprimerljivo** na orodni vrstici nad mrežo.
+1. Odprite vrstico računa dobavitelja in izberite **Ujemanje dejanskih stroškov** zavihek. Mreža prikazuje seznam dejanskih stroškov, ki se sklicujejo na vrstico računa dobavitelja.
+2. Izberite enega ali več dejanskih stroškov in nato izberite **Razveljavi ujemanje** v orodni vrstici nad mrežo.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

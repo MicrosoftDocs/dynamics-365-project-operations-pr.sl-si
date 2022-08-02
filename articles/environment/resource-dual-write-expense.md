@@ -1,40 +1,40 @@
 ---
 title: Integracija upravljanja stroškov
-description: Ta članek ponuja informacije o integraciji poročila o stroških v Project Operations z uporabo dvojnega pisanja.
+description: Ta članek vsebuje informacije o integraciji poročila o stroških v Project Operations z uporabo dvojnega pisanja.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924634"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029229"
 ---
 # <a name="expense-management-integration"></a>Integracija upravljanja stroškov
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta članek vsebuje informacije o integraciji poročil o stroških v Project Operations [polna razporeditev stroškov](../expense/expense-overview.md) z uporabo dvojnega pisanja.
+Ta članek ponuja informacije o integraciji poročil o stroških v Project Operations [polna uvedba stroškov](../expense/expense-overview.md) z uporabo dvojnega pisanja.
 
 ## <a name="expense-categories"></a>Kategorije stroškov
 
-Pri popolni uvedbi stroškov se kategorije stroškov ustvarijo in vzdržujejo v aplikacijah Finance in Operations. Če želite ustvariti novo kategorijo stroškov, izvedite naslednje korake:
+Pri popolni uvedbi stroškov se kategorije stroškov ustvarijo in vzdržujejo v aplikacijah za finance in poslovanje. Če želite ustvariti novo kategorijo stroškov, izvedite naslednje korake:
 
-1. V storitvi Microsoft Dataverse ustvarite kategorijo **transakcije**. Integracija dvojnega pisanja bo sinhronizirala to kategorijo transakcij z aplikacijami Finance in Operations. Za več informacij glejte [Konfiguracija kategorij projekta](/dynamics365/project-operations/project-accounting/configure-project-categories) in [Nastavitev aplikacije Project Operations in integracija konfiguracijskih podatkov](resource-dual-write-setup-integration.md). Kot rezultat te integracije sistem ustvari štiri skupne zapise kategorij v aplikacijah Finance in Operations.
+1. V storitvi Microsoft Dataverse ustvarite kategorijo **transakcije**. Integracija dvojnega pisanja bo to kategorijo transakcij sinhronizirala z aplikacijami za finance in poslovanje. Za več informacij glejte [Konfiguracija kategorij projekta](/dynamics365/project-operations/project-accounting/configure-project-categories) in [Nastavitev aplikacije Project Operations in integracija konfiguracijskih podatkov](resource-dual-write-setup-integration.md). Kot rezultat te integracije sistem ustvari štiri zapise kategorij v skupni rabi v aplikacijah za finance in poslovanje.
 2. V aplikaciji Finance se pomaknite v razdelek **Upravljanje stroškov** > **Nastavitev** > **Skupne kategorije** in izberite skupno kategorijo z razredom transakcije **Strošek**. Parameter **Lahko se uporablja v stroških** na **Resnično** in določite vrsto stroškov, ki jih želite uporabiti.
 3. Z zapisom skupne kategorije ustvarite novo kategorijo stroškov tako, da v razdelku **Upravljanje stroškov** > **Nastavitev** > **Kategorije stroškov** izberete **Novo**. Ko je zapis shranjen, dvojno zapisovanje uporabi preslikavo tabele, **Entiteta za izvor kategorij stroškov projekta za integracijo aplikacije Project Operations (msdyn\_expensecategories)**, za sinhronizacijo zapisa v storitev Dataverse.
 
   ![Integracija kategorije stroškov.](./media/DW6ExpenseCategories.png)
 
-Kategorije stroškov v aplikacijah Finance in Operations so specifične za podjetje ali pravno osebo. V storitvi Dataverse so na voljo ločeni, ustrezni zapisi, določeni za pravne osebe. Ko vodja projekta oceni stroške, ne more izbrati kategorij stroškov, ustvarjenih za projekt, ki je v lasti drugega podjetja kot podjetje, ki je lastnik projekta, pri katerem delajo. 
+Kategorije stroškov v aplikacijah za finance in poslovanje so specifične za podjetje ali pravno osebo. V storitvi Dataverse so na voljo ločeni, ustrezni zapisi, določeni za pravne osebe. Ko vodja projekta oceni stroške, ne more izbrati kategorij stroškov, ustvarjenih za projekt, ki je v lasti drugega podjetja kot podjetje, ki je lastnik projekta, pri katerem delajo. 
 
 ## <a name="expense-reports"></a>Poročila o stroških
 
-Poročila o stroških so ustvarjena in odobrena v aplikacijah Finance in Operations. Za več informacij glejte [Ustvarjanje in obdelava poročil o stroških v aplikaciji Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Ko vodja projekta odobri poročilo o stroških, je knjižen v glavni knjigi. V aplikaciji Project Operations so vrstice poročila o stroških, povezane s projektom, objavljene s posebnimi pravili knjiženja:
+Poročila o stroških so ustvarjena in odobrena v aplikacijah za finance in poslovanje. Za več informacij glejte [Ustvarjanje in obdelava poročil o stroških v aplikaciji Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Ko vodja projekta odobri poročilo o stroških, je knjižen v glavni knjigi. V aplikaciji Project Operations so vrstice poročila o stroških, povezane s projektom, objavljene s posebnimi pravili knjiženja:
 
   - Stroški, povezani s projektom (vključno z nevračljivim davkom), se ne knjižijo takoj na račun stroškov projekta v glavni knjigi, ampak se knjižijo na račun za integracijo stroškov. Ta račun je konfiguriran na zavihku **Upravljanje projektov in računovodstvo** > **Nastavitev** > **Vodenje projektov in računovodski parametri**, **Project Operations v aplikaciji Dynamics 365 Customer Engagement**.
   - Dvojno zapisovanje sinhronizira v storitev Dataverse z preslikavo tabele **Entiteta za izvoz stroškov projekta integracije za Project Operations (msdyn\_expenses)**.

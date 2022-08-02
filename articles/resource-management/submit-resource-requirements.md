@@ -6,12 +6,12 @@ ms.date: 10/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 583524ccf33f2dc42ee6beba7e00cc5fd74819d4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e09d92de310dbe09e53ae134e5bb195fd64178f
+ms.sourcegitcommit: 341192e1e45eb42d6b18a8370ac2e1100c4a4ca4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598692"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9137201"
 ---
 # <a name="submit-a-resource-request"></a>Pošiljanje zahteve za vir
 
@@ -24,7 +24,11 @@ Ustvarjen zahtevani pogoj za vir lahko pošljete kot zahtevo za vir. Zahteva se 
 
 Status zahteve splošnega člana ekipe se bo spremenil v **Poslano**.
 
-Ko je zahteva iz izpolnjena, se splošni vir zamenja z imenovanim virom, v primeru da upravitelj virov izpolni zahtevo z rezervacijo imenovanega vira. V nasprotnem primeru, če upravitelj virov predlaga imenovani vir, bo splošni vir ostal v ekipi in se bo stanje zahteve spremenilo v **Potreben pregled**.
+Prejemnik zahteve za vir ima možnost delno izpolniti zahtevo z enim ali več viri ali v celoti izpolniti zahtevo za vir.
+
+Ko je zahteva izpolnjena, je eden ali več imenovanih virov dodanih projektu kot člani projektne skupine. Če zahtevo za vir izpolnjuje en vir, se generični član skupine, povezan z zahtevo za vir, izbriše. 
+
+Ko prejemnik zahteve za vir predlaga vire in je pripravljen, da vodja projekta pregleda predlagane vire, mora posodobiti status zahteve za vir na **Potrebuje pregled**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

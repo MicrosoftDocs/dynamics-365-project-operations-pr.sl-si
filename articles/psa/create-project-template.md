@@ -4,7 +4,7 @@ description: Navodila za ustvarjanje predloge projekta v rešitvi Project Servic
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599014"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177446"
 ---
 # <a name="create-a-project-template-project-service"></a>Ustvarjanje predloge projekta (rešitev Project Service)
 
@@ -35,14 +35,21 @@ ms.locfileid: "8599014"
 ## <a name="components-of-project-template"></a>Komponente projektne predloge
  Projektna predloga je sestavljena iz treh delov:  
   
-- **Strukturirana členitev dela**: strukturirana členitev dela v projektni predlogi vsebuje enak nabor elementov kot v projektu. Ustvarite lahko hierarhijo opravil, povežete vloge z opravilom, določite atribute načrtovanja, nastavite odvisnosti in si vse podatke ogledate v Ganttovem grafikonu. Strukturirana členitev dela v projektnih predlogah za vsako opravilo podpira tudi način opravila. Če ustvarjate načrtovanje dela, med projektno predlogo in projektom ni razlik.  
+- **Strukturirana členitev dela**: strukturirana členitev dela v projektni predlogi vsebuje enak nabor elementov kot v projektu. Ustvarite lahko hierarhijo opravil, nalogi povežete vloge, definirate atribute urnika, nastavite odvisnosti in si ogledate vse podatke v Gantt. Struktura razčlenitve dela v projektnih predlogah podpira tudi načine opravil za vsako opravilo. Med predlogo projekta in projektom pri izdelavi urnika dela ni razlike.  
   
 - **Ocene za projekte**: v predlogah ocene za projekte delujejo na enak način kot v projektih, saj so z izjemo cenikov za privzeto lastne in prodajne cene vedno privzete lastne in prodajne cene cenikov, ki so določeni s parametri [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Preostale funkcije so enake kot v projektu.  
   
 - **Oblikovanje projektne ekipe**: ko za projektno predlogo oblikujete projektno ekipo, v predlogi ne morete rezervirati poimenskega vira. Če želite ustvariti nabor splošnih virov, lahko v strukturirani členitvi dela uporabite **Ustvari projektno ekipo**. Za splošne vire lahko določite tudi zahtevane spretnosti in usposobljenost. V predlogah projekta ne morete nadomestiti splošnega vira z virom, ki ga je mogoče rezervirati.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Ustvarite predlogo projekta iz obstoječega projekta
+Predlogo projekta lahko ustvarite iz projekta na naslednje načine:
+
+- **Struktura razčlenitve dela** : Struktura razčlenitve dela v predlogi, ki izhaja iz projekta, bo kopirala vse naloge in odvisnosti. Ustvarjene dodelitve bodo temeljile na generičnih članih skupine, ki so dodani projektni skupini, ko je ustvarjena predloga projekta.
+- **Ocene projekta** : Ko je predloga projekta ustvarjena iz obstoječega projekta, se ocene iz izvornega projekta prekopirajo v predlogo projekta.
+- **Člani projektne skupine** : Ko je predloga ustvarjena iz obstoječega projekta, so vsi imenovani člani skupine nadomeščeni z generičnim virom organizacije. Ohranjajo se vsa imena položajev in vloge.
+
 ## <a name="create-a-project-from-a-template"></a>Ustvari projekt iz predloge  
- Iz predloge lahko projekt ustvarite na naslednje načine:  
+ Projekt lahko ustvarite iz predloge na naslednje načine:  
   
 -   Če ustvarjate projekt iz ponudbe, lahko projektno predlogo izberete v obrazcu za hitro ustvarjanje projekta.  
   

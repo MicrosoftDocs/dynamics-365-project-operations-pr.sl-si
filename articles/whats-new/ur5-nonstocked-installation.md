@@ -1,18 +1,18 @@
 ---
 title: Posodobitev storitve Project Operations v okolju Finance
-description: Ta članek vsebuje informacije o tem, kako posodobiti Project Operations v okolju Dynamics 365 Finance.
+description: Ta članek vsebuje informacije o tem, kako posodobiti projektne operacije v okolju Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912490"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030055"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Posodobitev storitve Project Operations v okolju Finance
 
@@ -119,7 +119,7 @@ Naslednje posodobitve varnostnih pravic za entitete so zahtevane kot del posodob
 4. Na strani **Različica preslikave tabele** uporabite novo različico preslikave za vsako od treh entitet.
 5. Na strani **Dvojno zapisovanje** izberite izvajanje za ponovni zagon preslikav.
 6. Na seznamu preslikav izberite preslikavo **Knjiga (msdyn_ledgers)** z vsemi zahtevami in izberite potrditveno polje **Začetna sinhronizacija**. 
-7. V **Master za začetno sinhronizacijo** polje, izberite **Aplikacije za finance in operacije** in nato izberite **teci**.
+7. V **Glavni za začetno sinhronizacijo** polje izberite **Aplikacije za finance in poslovanje** in nato izberite **Teči**.
  
  ![Sinhronizacija preslikave knjige.](media/DW6.png)
  

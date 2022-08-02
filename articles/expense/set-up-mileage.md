@@ -1,17 +1,17 @@
 ---
 title: Nastavitev prevožene razdalje s stopnjami prevožene razdalje
-description: Ta članek vsebuje informacije o stopnjah prevoženih kilometrov in stopnjah stopnje prevoženih kilometrov.
+description: Ta članek vsebuje informacije o stopnjah kilometrine in stopnjah stopnje kilometrine.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930154"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064298"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Nastavitev prevožene razdalje s stopnjami prevožene razdalje
 
@@ -50,5 +50,15 @@ Funkcija **Omogočanje izračuna količine prevožene razdalje za več ravni pre
 
 Ko omogočite funkcijo, ponastavite ravni prevožene razdalje, da bodo pravilno odražale vrednost v polju **Količina**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Omogoči izračun skupne kilometrine s funkcijo proračunsko leto
+
+The **Izračun skupne kilometrine po proračunsko leto** funkcija omogoča novo nastavitev v parametrih za upravljanje stroškov, ki izvaja izračune skupnih kilometrov po proračunsko leto namesto po koledarskem letu. Za omogočanje te funkcije sledite naslednjim korakom.
+
+1. Odprite zavihek **Delovni prostori** > **Upravljanje funkcije**.
+1. Na seznamu poiščite in izberite **Izračun skupne kilometrine po proračunsko leto** in nato izberite **Omogoči zdaj**.
+1. Pojdi do **Upravljanje stroškov** > **Nastaviti** > **Splošno** > **Parametri upravljanja stroškov**.
+1. Na **Parametri upravljanja stroškov** strani, poiščite in omogočite **Za skupno število kilometrov uporabite proračunsko leto**.
+
+Ko omogočite **Za skupno število kilometrov uporabite proračunsko leto**, skupne kilometrine izračuna proračunsko leto.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,24 +1,24 @@
 ---
 title: Uporaba predstavitvenih podatkov v okolju, gostovanem v oblaku Finance
-description: Ta članek pojasnjuje, kako uporabiti predstavitvene podatke iz Project Operations v Dynamics 365 Finance okolju, ki gostuje v oblaku.
+description: V tem članku je razloženo, kako uporabiti predstavitvene podatke iz projektnih operacij v Dynamics 365 Finance okolju, ki gostuje v oblaku.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924680"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029917"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Uporaba predstavitvenih podatkov v okolju, gostovanem v oblaku Finance
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 > [!IMPORTANT]
-> Ta člen se uporablja samo Microsoft Dynamics 365 Finance različice 10.0.13 in se lahko izvaja samo v okolju, ki gostuje v oblaku. Dokončajte korake v tem članku **PRED** izvajate kakovostne posodobitve v okolju.
+> Ta člen se uporablja samo Microsoft Dynamics 365 Finance različica 10.0.13 in se lahko izvede samo v okolju, ki gostuje v oblaku. Dokončajte korake v tem članku **PREJ** v okolje uporabite kakovostne posodobitve.
 
 1. V projektu LCS odprite stran **Podrobnosti o okolju**. Upoštevajte, da vključuje podrobnosti, ki so potrebne za povezavo z okoljem prek protokola RDP (Remote Desktop Protocol).
 
