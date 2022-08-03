@@ -62,42 +62,48 @@
           href: environment/uninstall-project-operations.md
     - name: Novosti
       items:
-        - name: 'Maj 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-may-2022-resource-based.md
-        - name: 'April 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-apr-2022-resource-based.md
-        - name: 'Marec 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-mar-2022-resource-based.md
-        - name: 'Februar 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-feb-2022-resource-based.md
-        - name: 'December 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: 'November 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: 'Oktober 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: 'September 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: 'Avgust 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: 'Julij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: 'Junij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: 'Maj 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-may-2021-resource-based.md
-        - name: 'April 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: 'Marec 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: 'Februar 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: 'Januar 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: 'December 2020 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: 'November 2020 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-nov-2020-resource-based.md
+        - name: 'Julij 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Arhiv
+          items:
+            - name: 'Junij 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-june-2022-resource-based.md
+            - name: 'Maj 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-may-2022-resource-based.md
+            - name: 'April 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-apr-2022-resource-based.md
+            - name: 'Marec 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-mar-2022-resource-based.md
+            - name: 'Februar 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-feb-2022-resource-based.md
+            - name: 'December 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-dec-2021-resource-based.md
+            - name: 'November 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-nov-2021-resource-based.md
+            - name: 'Oktober 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-oct-2021-resource-based.md
+            - name: 'September 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-sept-2021-resource-based.md
+            - name: 'Avgust 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-august-2021-resource-based.md
+            - name: 'Julij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-july-2021-resource-based.md
+            - name: 'Junij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-june-2021-resource-based.md
+            - name: 'Maj 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-may-2021-resource-based.md
+            - name: 'April 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-apr-2021-resource-based.md
+            - name: 'Marec 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-mar-2021-resource-based.md
+            - name: 'Februar 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-feb-2021-resource-based.md
+            - name: 'Januar 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-jan-2021-resource-based.md
+            - name: 'December 2020 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-dec-2020-resource-based.md
+            - name: 'November 2020 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Prodajni proces projekta
       items:
         - name: Pregled prodajnega procesa projekta
@@ -468,6 +474,14 @@
           href: actuals/businesstransactions.md
         - name: Pregled dejanskih vrednosti
           href: actuals/actuals-overview.md
+        - name: Vpliv dejanskih vrednosti pri interakciji časa in materialov
+          href: actuals/ActualsonTM.md
+        - name: Vpliv dejanskih vrednosti pri interakciji s fiksno ceno
+          href: actuals/ActualonFP.md
+        - name: Vpliv dejanskih vrednosti med fazo predprodaje interakcije
+          href: actuals/ActualonPreSales.md
+        - name: Vpliv dejanskih vrednosti na interni projekt
+          href: actuals/ActualonInternal.md
         - name: Izvori transakcij – povezovanje dejanskih vrednosti z virom
           href: actuals/linkingactuals.md
         - name: Povezave transakcij – povezovanje dejanskih vrednosti različnih vrst transakcij
@@ -513,10 +527,12 @@
             - name: 'Potrditev predračuna, ki temelji na projektu'
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: 'Ustvarjanje popravljalnih računov, ki temeljijo na projektih'
-              href: proforma-invoicing/corrective-invoices.md
+              href: pro/proforma-invoicing/corrective-invoices-sales.md
             - name: 'Konfiguriranje avtomatizacije računov, ki temeljijo na projektih'
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Zaračunavanje stranki
+            - name: 'Popravljalni računi, ki temeljijo na projektih'
+              href: proforma-invoicing/corrective-invoices.md
+        - name: Izdajanje računov stranki
           items:
             - name: Upravljanje predlogov za račune projekta
               href: invoicing/format-update-project-invoice-proposals.md
@@ -594,44 +610,50 @@
           href: environment/security-model.md
     - name: Novosti
       items:
-        - name: Novosti pri 2. valu posodobitev izdaje 2021 za zgodnji dostop – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Novosti za maj 2022 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-may-2022-lite.md
-        - name: Novosti za april 2022 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-apr-2022-lite.md
-        - name: Novosti za marec 2022 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-mar-2022-lite.md
-        - name: Novosti za februar 2022 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-feb-2022-lite.md
-        - name: Novosti za december 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: Novosti za november 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: Novosti za oktober 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: Novosti za september 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: Novosti za avgust 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Novosti za julij 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: Novosti za junij 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: Novosti za maj 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: Novosti za april 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: Novosti za marec 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: Novosti za februar 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: Novosti za januar 2021 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: Novosti za december 2020 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Novosti za november 2020 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-nov-2020-lite.md
+        - name: Novosti za julij 2022 – poenostavljeno uvajanje
+          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Arhiv
+          items:
+            - name: Novosti za junij 2022 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-june-2022-lite.md
+            - name: Novosti pri 2. valu posodobitev izdaje 2021 za zgodnji dostop – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-2021-early-access-lite.md
+            - name: Novosti za maj 2022 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-may-2022-lite.md
+            - name: Novosti za april 2022 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-apr-2022-lite.md
+            - name: Novosti za marec 2022 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-mar-2022-lite.md
+            - name: Novosti za februar 2022 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-feb-2022-lite.md
+            - name: Novosti za december 2021 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-dec-2021-lite.md
+            - name: Novosti za november 2021 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-nov-2021-lite.md
+            - name: Novosti za oktober 2021 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-oct-2021-lite.md
+            - name: Novosti za september 2021 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-sept-2021-lite.md
+            - name: Novosti za avgust 2021 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-august-2021-lite.md
+            - name: Novosti za julij 2021 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-july-2021-lite.md
+            - name: Novosti za junij 2021 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-june-2021-lite.md
+            - name: Novosti za maj 2021 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-may-2021-lite.md
+            - name: Novosti za april 2021 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-apr-2021-lite.md
+            - name: Novosti za marec 2021 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-mar-2021-lite.md
+            - name: Novosti za februar 2021 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-feb-2021-lite.md
+            - name: Novosti za januar 2021 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-jan-2021-lite.md
+            - name: Novosti za december 2020 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-dec-2020-lite.md
+            - name: Novosti za november 2020 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Prodajni proces projekta
       items:
         - name: Pregled prodajnega procesa projekta
@@ -1068,26 +1090,54 @@
           href: team-member/project-operations-team-member.md
 - name: 'Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
   items:
+    - name: Začetek
+      items:
+        - name: Integracija konfiguracijskih podatkov
+          items:
+            - name: Pregled storitve Project Service Automation
+              href: prod-pma/PSA-integration.md
+            - name: Parametri integracije za Project Service Automation
+              href: prod-pma/PSA-parameters.md
+            - name: Sinhronizacija projektnih pogodb in projektov iz rešitve Project Service Automation v storitev Finance
+              href: prod-pma/project-contracts-templates.md
+            - name: Sinhronizacija dejanskih vrednosti projekta iz rešitve Project Service Automation v dnevnik integracij projekta za objavljanje v financah in postopkih
+              href: prod-pma/project-actuals-templates.md
+            - name: Sinhronizacija ocen projekta iz rešitve Project Service Automation v finance in postopke
+              href: prod-pma/project-estimates-templates.md
+            - name: Sinhronizacija kategorij stroškov projekta med financami in postopki in rešitvijo Project Service Automation
+              href: prod-pma/project-categories-templates.md
+            - name: Sinhronizacija projektnih opravil iz rešitve Project Service Automation v finance in postopke
+              href: prod-pma/project-tasks-template.md
+        - name: Uvedba okolij
+          items:
+            - name: Posodobitev aplikacije Project Operations v okolju Finance
+              href: whats-new/ur5-nonstocked-installation.md
     - name: Novosti
       items:
-        - name: 'Novosti za oktober 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: 'Novosti za september 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: 'Novosti za julij 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: 'Novosti za maj 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: 'Novosti za april 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: 'Novosti za marec 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: 'Novosti za januar 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
-          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: 'Novosti za december 2020 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
-          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: 'Novosti za november 2020 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
-          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+        - name: 'Novosti za julij 2022 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Arhiv
+          items:
+            - name: 'Novosti za junij 2022 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+              href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
+            - name: 'Novosti za oktober 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+              href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+            - name: 'Novosti za september 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+              href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+            - name: 'Novosti za julij 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+              href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+            - name: 'Novosti za maj 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+              href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+            - name: 'Novosti za april 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+              href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+            - name: 'Novosti za marec 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+              href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+            - name: 'Novosti za januar 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+              href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+            - name: 'Novosti za december 2020 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+              href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+            - name: 'Novosti za november 2020 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+              href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: 'Pregled uvedbe aplikacije Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Pregled upravljanja projektov in računovodstva
@@ -1118,10 +1168,12 @@
           href: prod-pma/project-mobile-application-overview.md
         - name: Mobilni delovni prostor časovnega vnosa projekta
           href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Mobilna aplikacija časovnega lista projekta
+        - name: Mobilna aplikacija Project Timesheet
           href: prod-pma/project-timesheet.md
         - name: Časovni listi projekta v mobilni napravi
           href: prod-pma/mobile-timesheets.md
+        - name: Preimenovanje oziroma spreminjanje stopnje projekta
+          href: prod-pma/tasks/rename-project.md
         - name: Izvedba polj po meri za mobilno aplikacijo Project Timesheet
           href: prod-pma/custom-fields-mobile.md
     - name: Upravljanje virov
@@ -1150,6 +1202,8 @@
       items:
         - name: Napovedi in proračuni projektov
           href: prod-pma/project-forecasts-budgets.md
+        - name: Dodeljevanje proračuna projekta ali revizije proračuna po obdobjih
+          href: prod-pma/tasks/allocate-project.md
         - name: Ustvarjanje modelov napovedi za proračune projektov
           href: prod-pma/create-forecast-models-project-budgets.md
         - name: Prenos proračunov projektov ob koncu proračunskega leta
@@ -1246,6 +1300,10 @@
       items:
         - name: Odstranjevanje projektne ocene
           href: prod-pma/eliminate-project-estimate.md
+    - name: Javni sektor
+      items:
+        - name: Poizvedba glede načrta porabe zveznih subvencij
+          href: prod-pma/project-sefa-inquiry.md
 - name: Upravljanje stroškov
   items:
     - name: Pregled upravljanja stroškov
@@ -1264,6 +1322,8 @@
           href: expense/set-up-workflows.md
         - name: Upravljanje pooblastitev
           href: expense/manage-delegation.md
+        - name: Konfiguracija upravljanja stroškov
+          href: prod-exp/plan-expense-management.md
         - name: Konfiguriranje parametrov upravljanja stroškov
           href: expense/configure-expense-management-parameters.md
         - name: Nastavitev integracije kreditne kartice
@@ -1278,10 +1338,14 @@
       items:
         - name: Porazdelitve za poročilo o stroških
           href: expense/distributions-expense-report.md
+        - name: Uvažanje in vzdrževanje transakcij s kreditnimi karticami
+          href: prod-exp/import-credit-card.md
     - name: Odobritev poročil o stroških
       items:
         - name: Poročila o stroških in več odobriteljev
           href: expense/expense-reports-multiple-approvers.md
+        - name: Upravljanje pooblastitev stroškov
+          href: prod-exp/manage-expense-delegation.md
     - name: Objavljanje poročil o stroških
       href: expense/posting-expense-reports.md
     - name: Zahteva za pot
@@ -1296,14 +1360,18 @@
       items:
         - name: Izterjava DDV-ja
           href: expense/vat-recovery.md
+        - name: Prikaz poročila o stroških iz glavne knjige ali nabave in iskanja dobaviteljev
+          href: prod-exp/view-expense-report.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
       href: psa/overview.md
     - name: Novosti
       items:
-        - name: Razporeda izdaje posodobitev za Project Service 3.x
+        - name: Razpored izdaje posodobitev za Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ali spremembe v izdaji posodobitve 44, V3'
+          href: psa/whats-new-ur-44.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 43, V3'
           href: psa/whats-new-ur43.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 42, V3'
@@ -1360,11 +1428,13 @@
           href: psa/whats-new-ur-24.md
         - name: "Novosti ali spremembe v izdaji posodobitve\_23, V3"
           href: psa/whats-new-ur-23.md
-        - name: "Novosti ali spremembe v izdaji posodobitve\_22, V3"
+        - name: 'Novosti ali spremembe v izdaji posodobitve 22, V3'
+          href: psa/whats-new-ur-22.md
+        - name: 'Novosti ali spremembe v izdaji posodobitve 21, V3'
           href: psa/whats-new-ur-21.md
-        - name: "Novosti ali spremembe v izdaji posodobitve\_20, V3"
+        - name: 'Novosti ali spremembe v izdaji posodobitve 20, V3'
           href: psa/whats-new-ur-20.md
-        - name: "Novosti ali spremembe v izdaji posodobitve\_19, V3"
+        - name: 'Novosti ali spremembe v izdaji posodobitve 19, V3'
           href: psa/whats-new-ur-19.md
         - name: "Novosti ali spremembe v izdaji posodobitve\_18, V3"
           href: psa/whats-new-ur-18.md
