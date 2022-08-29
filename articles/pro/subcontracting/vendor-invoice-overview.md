@@ -1,65 +1,63 @@
 ---
 title: Izdajanje računov dobaviteljem – koncept in ustvarjanje
-description: Ta članek opisuje koncept računov dobavitelja, scenarije za uporabo in kako ustvariti račune dobavitelja v Microsoftu Dynamics 365 Project Operations.
+description: Ta članek opisuje koncept dobaviteljskih računov, scenarije za uporabo in kako ustvariti dobaviteljske račune v Microsoftu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b57ec8cdb6097e6f2207056667aadfb43ee8acfc
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911478"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261964"
 ---
 # <a name="vendor-invoicing---concept-and-creation"></a>Izdajanje računov dobaviteljem – koncept in ustvarjanje
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Izdajanje računov prodajalcem v Microsoftu Dynamics 365 Project Operations se lahko uporablja za evidentiranje stroškov iz dobave storitev in/ali materiala na projektu s strani prodajalcev.
+Fakturiranje dobavitelja v Microsoftu Dynamics 365 Project Operations se lahko uporablja za beleženje stroškov dobav storitev in/ali materialov na projektu s strani prodajalcev.
 
-Ko so storitve in/ali materiali oddani v podizvajalce s prodajalcem, podizvajalska pogodba predstavlja pogodbeno pogodbo s tem prodajalcem. Ko prodajalec izvaja storitve ali je material prejet in uporabljen pri projektnih nalogah, se stroški evidentirajo v projektu. Prodajalec občasno pošilja račune, ki so preverjeni in usklajeni s stroški, ki so zabeleženi v projektu. Po končanem postopku preverjanja se račun prodajalca potrdi in sprosti v plačilo.
+Kadar so storitve in/ali materiali oddani v podizvajanje prodajalcu, podizvajalska pogodba predstavlja pogodbeni dogovor s tem prodajalcem. Ko prodajalec opravi storitve ali ko materiale prejme in uporabi pri projektnih nalogah, se stroški evidentirajo na projektu. Občasno prodajalec pošilja račune, ki so preverjeni in usklajeni s stroški, ki so zabeleženi na projektu. Po končanem postopku preverjanja je račun dobavitelja potrjen in sproščen v plačilo.
 
 ## <a name="scenarios-for-use"></a>Scenariji za uporabo
 
-Računi prodajalcev v projektnih operacijah se lahko uporabljajo za podporo dveh različnih scenarijev.
+Račune dobaviteljev v Project Operations je mogoče uporabiti za podporo dveh različnih scenarijev.
 
-### <a name="customers-use-the-full-subcontracting-experiences"></a>Stranke uporabljajo vse izkušnje s podizvajalci
+### <a name="customers-use-the-full-subcontracting-experiences"></a>Stranke uporabljajo vse izkušnje podizvajalcev
 
-Izkušnje z računi prodajalca omogočajo preverjanje in ujemanje vnosov časa, porabe materiala in vnosov stroškov, ki se sklicujejo na komponente podizvajalcev z vrsticami računov dobavitelja. Ta postopek se lahko uporablja za preverjanje točnosti vrstic računa prodajalca. Ko je postopek preverjanja zaključen in je račun prodajalca potrjen, bo aplikacija razveljavila dejanske vrednosti, ki so bile zabeležene v potrjenih dnevnikih časa, stroškov in porabe materiala, ter ustvarila nove dejanske stroške z uporabo vrstic računa prodajalca.
+Izkušnje z računi dobavitelja ponujajo način za preverjanje in ujemanje časovnih vnosov, porabe materiala in vnosov stroškov, ki se nanašajo na podizvajalske komponente z vrsticami računa dobavitelja. Ta postopek je mogoče uporabiti za preverjanje točnosti vrstic računa dobavitelja. Ko je postopek preverjanja končan in je račun dobavitelja potrjen, bo aplikacija razveljavila dejanske vrednosti, ki so bile zabeležene v odobrenih dnevnikih časa, stroškov in porabe materiala, ter ustvarila nove dejanske stroške z uporabo vrstic računa dobavitelja.
 
-### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Stranke ne uporabljajo vseh izkušenj s podizvajalci, ampak želijo imeti enoten pogled na stroške projektov v Project Operations
+### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Stranke ne uporabljajo vseh podizvajalskih izkušenj, vendar želijo imeti enoten pogled na stroške projektov v projektnih operacijah
 
-Če sledite postopku oddaje podizvajalcev v sistemu tretje osebe, lahko stroške iz tega sistema tretje osebe zabeležite v Project Operations, tako da ustvarite račune prodajalca, ki se ne sklicujejo na podizvajalske pogodbe. Na ta način imajo lahko vodje vaših projektov enoten, enoten pogled na vse stroške na določenem projektu.
+Če sledite postopku podizvajanja v sistemu tretje osebe, lahko beležite stroške iz tega sistema tretje osebe v Project Operations tako, da ustvarite račune dobavitelja, ki se ne sklicujejo na podizvajalske pogodbe. Na ta način imajo lahko vaši vodje projektov enoten, poenoten pogled na vse stroške na določenem projektu.
 
 ## <a name="creation-of-vendor-invoices-in-project-operations"></a>Izdelava računov dobaviteljev v projektnih operacijah
 
-Račune prodajalca lahko ustvarite na dva načina:
+Račune dobavitelja lahko ustvarite na dva načina:
 
-- Na strani s seznamom računov dobavitelja ali strani s podrobnostmi za račun posameznega ponudnika
-- S strani s seznamom podizvajalcev ali strani s podrobnostmi za posamezno podizvajalsko pogodbo
+- Na strani s seznamom računov dobavitelja ali na strani s podrobnostmi za račun posameznega dobavitelja
+- Na strani s seznamom podizvajalcev ali strani s podrobnostmi za posamezno podizvajalsko pogodbo
 
-### <a name="creation-from-the-vendor-invoice-list-page-or-details-page"></a>Ustvarjanje na strani s seznamom računov dobavitelja ali strani s podrobnostmi
+### <a name="creation-from-the-vendor-invoice-list-page-or-details-page"></a>Ustvarjanje s strani s seznamom računov dobavitelja ali strani s podrobnostmi
 
-1. Pojdi do **Nakup** \> **Računi prodajalca**.
-2. Na strani s seznamom računov dobavitelja ali strani s podrobnostmi za račun posameznega ponudnika izberite **Novo** ustvariti nov račun prodajalca.
+1. Pojdi do **Nakupovanje** \> **Računi prodajalcev**.
+2. Na strani s seznamom računov dobavitelja ali strani s podrobnostmi za posamezen račun dobavitelja izberite **Novo** za ustvarjanje novega računa dobavitelja.
 
-Računi prodajalca, ki so ustvarjeni na ta način, se lahko sklicujejo tudi na podizvajalsko pogodbo.
+Računi dobavitelja, ki so ustvarjeni na ta način, se lahko sklicujejo tudi na podizvajalsko pogodbo.
 
-### <a name="creation-from-the-subcontract-list-page-or-details-page"></a>Ustvarjanje na strani s seznamom podizvajalcev ali strani s podrobnostmi
+### <a name="creation-from-the-subcontract-list-page-or-details-page"></a>Ustvarjanje s strani s seznamom podizvajalcev ali strani s podrobnostmi
 
-1. Pojdi do **Nakup** \> **Podizvajalci**.
-2. Izberite eno ali več podizvajalcev.
-3. Na strani s seznamom podizvajalcev ali strani s podrobnostmi za posamezno podizvajanje izberite **Ustvarite račun prodajalca** ustvariti nov račun prodajalca.
+1. Pojdi do **Nakupovanje** \> **Podizvajalske pogodbe**.
+2. Izberite eno ali več podizvajalskih pogodb.
+3. Na strani s seznamom podizvajalcev ali strani s podrobnostmi za posamezno podizvajalce izberite **Ustvarite račun dobavitelja** za ustvarjanje novega računa dobavitelja.
 
-Nov račun prodajalca **Osnutek** status se ustvari za vsako podizvajalsko pogodbo, ki ste jo izbrali.
+Nov račun dobavitelja v **Osnutek** status se ustvari za vsako podizvajalsko pogodbo, ki ste jo izbrali.
 
-Računi dobavitelja, ki jih ustvarite na ta način, se vedno sklicujejo na podizvajalsko pogodbo v glavi računa dobavitelja. Vsaka vrstica podizvajalske pogodbe, ki ima način obračunavanja časa in materiala, bo povzročila, da se na računu prodajalca ustvari vrstica. Vsaka vrstica v podizvajalski pogodbi, ki ima način obračunavanja s fiksno ceno, bo povzročila, da se na računu prodajalca ustvari vrstica za vsak mejnik vrstice podizvajalcev, ki ima status **Pripravljen za fakturiranje**.
+Računi dobavitelja, ki jih ustvarite na ta način, se vedno sklicujejo na podizvajalsko pogodbo v glavi računa dobavitelja. Vsaka vrstica v podizvajalski pogodbi, ki ima metodo zaračunavanja časa in materiala, bo povzročila ustvarjanje vrstice na računu dobavitelja. Vsaka vrstica v podizvajalski pogodbi, ki ima metodo zaračunavanja po fiksni ceni, bo povzročila ustvarjanje vrstice na računu dobavitelja za vsak mejnik podizvajalske vrstice, ki ima status **Pripravljen za fakturiranje**.
 
-Naslednja polja in povezani zapisi bodo kopirani iz podizvajalske pogodbe v glavo računa prodajalca:
+Naslednja polja in povezani zapisi bodo kopirani iz podizvajalske pogodbe v glavo računa dobavitelja:
 
 - Prodajalec.
 - Povezani ceniki bodo kopirani na račun prodajalca kot ceniki.
@@ -67,9 +65,9 @@ Naslednja polja in povezani zapisi bodo kopirani iz podizvajalske pogodbe v glav
 - Pogodbena enota.
 - Plačilni pogoji.
 
-Za vrstice podizvajalcev za čas in material bodo naslednja polja in povezani zapisi kopirani iz vrstice podizvajalcev v vrstico računa prodajalca:
+Za podizvajalske vrstice Čas in material bodo naslednja polja in povezani zapisi kopirani iz podizvajalske vrstice v vrstico računa dobavitelja:
 
-- Sklici na vrstice podizvajalcev in podizvajalcev
+- Reference podizvajalcev in podizvajalcev
 - Razred transakcije
 - Vloga
 - Kategorija transakcije
@@ -78,11 +76,11 @@ Za vrstice podizvajalcev za čas in material bodo naslednja polja in povezani za
 - opravilo,
 - Vir, ki ga je mogoče rezervirati
 
-Za vrstice podizvajalcev s fiksno ceno bodo naslednja polja kopirana iz vrstice podizvajalcev in mejnika vrstice podizvajalcev v vrstico računa prodajalca:
+Za podizvajalske vrstice s fiksno ceno bodo naslednja polja kopirana iz podizvajalske vrstice in mejnika podizvajalske vrstice v vrstico računa dobavitelja:
 
-- Sklici na vrstice podizvajalcev in podizvajalcev.
+- Reference podizvajalcev in podizvajalcev.
 - Transakcijski razred. Privzeto bo vrednost **Mejnik**.
-- Ime in znesek mejnika bosta kopirana iz povezanega mejnika pogodbe s podizvajalci.
-- Uporabnik bo lahko izbral projekt in nalogo v vrstici računa prodajalca.
+- Ime mejnika in znesek bosta kopirana iz povezanega mejnika vrstice podizvajalca.
+- Uporabnik bo lahko izbral projekt in nalogo na vrstici računa dobavitelja.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

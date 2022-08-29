@@ -1,30 +1,30 @@
 ---
-title: Nastavitev in uporabo konfiguracijskih podatkov v storitvi Common Data Service
-description: Ta članek vsebuje informacije o nastavitvi in uporabi konfiguracijskih podatkov v Project Operations.
+title: Nastavitev in uporabo konfiguracijskih podatkov v storitvi Microsoft Dataverse
+description: Ta članek ponuja informacije o nastavljanju in uporabi konfiguracijskih podatkov v Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928038"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230272"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Nastavitev in uporabo konfiguracijskih podatkov v storitvi Common Data Service 
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 
 
 ## <a name="prerequisites"></a>Zahteve
 
-Preden začnete konfigurirati podatke v storitev Common Data Service (CDS), morajo biti izpolnjeni naslednji pogoji:
+Preden začnete konfigurirati podatke v Microsoft Dataverse, morajo biti izpolnjeni naslednji predpogoji:
 
-1.  Zagotovite okolje CDS in Dynamics 365 Finance okolje za projektne operacije.
-2.  Informacije o pravni osebi iz Dynamics 365 Finance se delijo v okolje CDS. To pomeni, da ima entiteta **Podjetje** v CDS-ju naslednje zapise podjetja:
+1.  Določba a Dataverse okolje in okolje Dynamics 365 Finance za projektne operacije.
+2.  Podatki o pravni osebi iz Dynamics 365 Finance se delijo z Dataverse okolju. To pomeni, da je **Podjetje** subjekt v Dataverse ima naslednje evidence podjetja:
   - THPM
   - USPM
   - GBPM

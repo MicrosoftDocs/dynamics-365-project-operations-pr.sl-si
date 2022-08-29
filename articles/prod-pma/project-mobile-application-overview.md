@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028906"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317008"
 ---
 # <a name="project-mobile-applications-overview"></a>Pregled mobilnih aplikacij Project
 
@@ -42,9 +42,8 @@ Moji časovni listi (optimizirano za mobilne naprave) in Časovni listi za moj p
 ## <a name="for-more-information"></a>Za dodatne informacije
 
 - [Mobilna aplikacija Project Timesheet](project-timesheet.md)
-- [Vnos časa v projektu]( project-time-entry-mobile-workspace.md)
+- [Vnos časa v projektu](project-time-entry-mobile-workspace.md)
 - [Časovni listi projekta v mobilni napravi](Mobile-timesheets.md)
 - [Vključevanje polj po meri za mobilno aplikacijo Microsoft Dynamics 365 Project Timesheet v sistemih iOS in Android](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

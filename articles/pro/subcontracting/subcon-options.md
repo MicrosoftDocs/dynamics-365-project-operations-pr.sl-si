@@ -6,66 +6,64 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 88a76ccf73a4b6cfa13a67b50130b007f244d831
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 5e0955d58365a4ecbe1c053882736f196758816e
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919804"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261627"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>Možnosti za oddajo del podizvajalcem za člane projektne ekipe
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-V Microsoftu Dynamics 365 Project Operations, lahko ocenite možnosti podizvajalcev, ki so na voljo za enega ali več članov projektne skupine. Razpoložljive možnosti podizvajalcev vam omogočajo:
+V Microsoftu Dynamics 365 Project Operations, lahko ocenite možnosti podizvajalcev, ki so na voljo za enega ali več članov projektne skupine. Razpoložljive možnosti podizvajalcev vam omogočajo, da:
 
-- Ustvarite novo podizvajalsko pogodbo in/ali ustvarite nove vrstice na obstoječi podizvajalski pogodbi za izbrane člane projektne skupine. 
-- Rezerva za že obstoječo podizvajalsko in podizvajalsko linijo. 
+- Ustvarite novo podizvajalsko pogodbo in/ali ustvarite nove vrstice v obstoječi podizvajalski pogodbi za izbrane člane projektne skupine. 
+- Rezervacija za že obstoječo podizvajalsko pogodbo in podizvajalsko linijo. 
 
-Izbirate lahko med razpoložljivimi možnostmi oddaje pogodb s podizvajalci za splošne člane projektne skupine ali pa izbirate med člani projektne skupine, ki so bili zaposleni z imenovanim virom, ki je pogodbeni delavec. 
+Izbirate lahko med razpoložljivimi podizvajalskimi možnostmi za generične člane projektne skupine ali med člani projektne skupine, ki so zaposleni z imenovanim virom, ki je pogodbeni delavec. 
 
-Za naslednje ni na voljo nobenih možnosti podizvajalcev:
+Možnosti podizvajalcev niso na voljo za naslednje:
 
-- Člani projektne skupine, ki imajo zaposlenega. 
-- Člani projektne skupine, ki so že povezani s podizvajalcem in podizvajalsko linijo. 
+- Člani projektne skupine, ki so bili zaposleni z zaposlenim. 
+- Člani projektne skupine, ki so že povezani s podizvajalsko pogodbo in podizvajalsko linijo. 
 
-## <a name="subcontracting-an-unstaffed-project-team-member"></a>Oddaja podizvajalskega člana projektne skupine brez osebja
+## <a name="subcontracting-an-unstaffed-project-team-member"></a>Sklenitev pogodbe s podizvajalcem za člana projektne skupine brez osebja
 
-Če želite pregledati in izbrati med razpoložljivimi možnostmi podizvajalcev za splošnega člana projektne skupine ali člana projektne skupine brez osebja, sledite tem korakom:
+Če želite pregledati in izbrati med razpoložljivimi podizvajalskimi možnostmi za splošnega člana ali člana projektne skupine brez osebja, sledite tem korakom:
 
-1. Izberite enega ali več zapisov članov projektne skupine, kjer je vir splošni vir.
-2. Prepričajte se, da noben od izbranih zapisov članov projektne skupine ni že podizvajalec. 
+1. Izberite enega ali več zapisov članov projektne skupine, kjer je vir generični vir.
+2. Prepričajte se, da nobeden od izbranih zapisov članov projektne skupine ni že podizvajalec. 
 3. Izberite **Možnosti podizvajalcev** na podmreži članov projektne skupine. The **Možnosti podizvajalcev** odpre se pogovorno okno. 
 4. Če ste v 1. koraku izbrali samo en zapis člana projektne skupine, bodo na voljo naslednje možnosti:
-    - Ustvarite nove vrstice podizvajalcev. 
-    - Rezervacija za obstoječo podizvajalsko pogodbo Če ste v 1. koraku izbrali več zapisov članov projektne skupine, je edina razpoložljiva možnost, da ustvarite nove vrstice podizvajalcev.
-5. Možnost rezervacije za obstoječo vrstico podizvajalcev vam omogoča, da izberete podizvajalsko in podizvajalsko vrstico, za katero želite rezervirati. Ko izberete vrstico podizvajalcev za rezervacijo zmogljivosti, morate zagotoviti, da je izbrana vrstica podizvajalcev za čas in da se zahtevana vloga za člana projektne skupine ujema z vlogo, ki je bila kupljena v vrstici podizvajalcev.
-6. Ko izberete ustvarjanje novih vrstic podizvajalcev za člane projektne skupine, vam bo sistem omogočil, da izberete podizvajalsko pogodbo, za katero želite ustvariti te vrstice. Podizvajalska pogodba, ki jo izberete za ustvarjanje novih vrstic, mora biti v **Osnutek** stanje. S to možnostjo za ustvarjanje novih vrstic podizvajalcev za izbrane člane projektne skupine bo sistem ustvaril eno vrstico podizvajalcev za čas za vsakega člana projektne skupine. Vloga, ure in datumi bodo kopirani od člana projektne skupine v vsako ustvarjeno vrstico podizvajalcev. 
-7. Ko je generični član ekipe povezan s podizvajalcem in podizvajalsko linijo, **Vrsta delavca** polje v vrstici s splošnimi člani ekipe bo posodobljeno v **Pogodbeni delavec** in **Veljavnost podizvajalske pogodbe** vrednost bo nastavljena na **veljavno**.
+    - Ustvarite nove podizvajalske vrstice. 
+    - Rezervacija za obstoječo podizvajalsko pogodbo Če ste v 1. koraku izbrali več zapisov članov projektne skupine, je edina razpoložljiva možnost, da ustvarite nove podizvajalske vrstice.
+5. Možnost rezervacije za obstoječo podizvajalsko linijo vam omogoča, da izberete podizvajalsko pogodbo in podizvajalsko linijo, za katero želite rezervirati. Ko izbirate podizvajalsko linijo za rezervacijo zmogljivosti, morate zagotoviti, da je izbrana podizvajalska linija za čas in da se zahtevana vloga za člana projektne skupine ujema z vlogo, ki je bila kupljena na podizvajalski liniji.
+6. Ko izberete ustvarjanje novih podizvajalskih vrstic za člane projektne skupine, vam bo sistem omogočil, da izberete podizvajalsko pogodbo, za katero želite ustvariti te vrstice. Podizvajalska pogodba, ki jo izberete za ustvarjanje novih vrstic, mora biti v **Osnutek** stanje. S to možnostjo ustvarjanja novih podizvajalskih vrstic za izbrane člane projektne skupine bo sistem ustvaril eno podizvajalsko vrstico za čas za vsakega člana projektne skupine. Vloga, ure in datumi bodo kopirani od člana projektne skupine v vsako vrstico podizvajalca, ki je ustvarjena. 
+7. Ko je generični član skupine povezan s podizvajalcem in podizvajalsko linijo, **Delavski tip** polje v vrstici s splošnimi člani ekipe bo posodobljeno na **Pogodbeni delavec** in **Veljavnost podizvajalske pogodbe** vrednost bo nastavljena na **Veljavno**.
 
-## <a name="subcontracting-a-staffed-project-team-member"></a>Oddajanje podizvajalskega člana projektne skupine z osebjem
+## <a name="subcontracting-a-staffed-project-team-member"></a>Sklenitev pogodbe s podizvajalcem zaposlenega člana projektne skupine
 
-Podobno kot splošni člani ekipe ali člani ekipe brez osebja, si lahko ogledate tudi možnosti podizvajalcev za člana projektne skupine z osebjem, če je član ekipe z osebjem pogodbeni delavec. Če želite pregledati in izbrati med razpoložljivimi možnostmi podizvajalcev za zaposlenega ali imenovanega člana projektne skupine, sledite tem korakom:
+Tako kot generični člani skupine ali člani ekipe brez osebja si lahko ogledate tudi možnosti podizvajalcev za člana projektne skupine z osebjem, če je član ekipe s zaposlenimi pogodbeni delavec. Če želite pregledati in izbrati med razpoložljivimi podizvajalskimi možnostmi za zaposlenega ali imenovanega člana projektne skupine, sledite tem korakom:
 
 1. Izberite enega ali več zapisov članov projektne skupine, kjer je vir imenovan pogodbeni delavec.
-2. Zagotovite, da noben od izbranih zapisov članov projektne skupine ni že sklenjen s podizvajalci. 
+2. Prepričajte se, da nobeden od izbranih zapisov članov projektne skupine ni že podizvajalec. 
 3. Izberite **Možnosti podizvajalcev** na podmreži članov projektne skupine. The **Možnosti podizvajalcev** odpre se pogovorno okno. 
 4. Če ste v 1. koraku izbrali samo en zapis člana projektne skupine, bodo na voljo naslednje možnosti:
-      - Ustvarite nove vrstice podizvajalcev.
-      - Rezervirajte za obstoječo podizvajalsko pogodbo.
-  Če ste v 1. koraku izbrali več zapisov članov projektne skupine, je edina na voljo možnost, da ustvarite nove vrstice podizvajalcev.
-5. Možnost rezervacije za obstoječo vrstico podizvajalcev vam omogoča, da izberete podizvajalsko in podizvajalsko vrstico, za katero želite rezervirati. Pri izbiri podizvajalske linije za rezervacijo zmogljivosti morate zagotoviti naslednje:
-      - Izbrana vrstica podizvajalcev je za čas. 
-      - Zahtevana vloga za člana projektne skupine se ujema z vlogo, ki je bila kupljena v vrstici podizvajalcev. 
-      - Prodajalec, s katerim je pogodbeni delavec povezan, je isti kot prodajalec v podizvajalski pogodbi.
-6. Ko izberete ustvarjanje novih vrstic podizvajalcev za člane projektne skupine, vam bo sistem omogočil, da izberete podizvajalsko pogodbo, za katero želite ustvariti te vrstice. S to možnostjo bi morali zagotoviti, da je prodajalec, ki mu pripada pogodbeni delavec, isti kot prodajalec v podizvajalski pogodbi. 
-7. Podizvajalska pogodba, ki jo izberete za ustvarjanje novih vrstic, mora biti v **Osnutek** stanje. S to možnostjo za ustvarjanje novih vrstic podizvajalcev za izbrane člane projektne skupine bo sistem ustvaril eno vrstico podizvajalcev za čas za vsakega člana projektne skupine. Vloga, ure in datumi bodo kopirani od člana projektne skupine v vsako ustvarjeno vrstico podizvajalcev.  
-8. Ko je imenovani član ekipe povezan s podizvajalcem in podizvajalsko linijo, **Vrsta delavca** polje v vrstici imenovani član ekipe bo posodobljeno v **Pogodbeni delavec** in **Veljavnost podizvajalske pogodbe** vrednost bo nastavljena na **veljavno**.
+      - Ustvarite nove podizvajalske vrstice.
+      - Rezervacija za obstoječo podizvajalsko pogodbo.
+  Če ste v 1. koraku izbrali več zapisov članov projektne skupine, je edina razpoložljiva možnost ustvarjanje novih podizvajalskih vrstic.
+5. Možnost rezervacije za obstoječo podizvajalsko linijo vam omogoča, da izberete podizvajalsko pogodbo in podizvajalsko linijo, za katero želite rezervirati. Pri izbiri podizvajalske linije za rezervacijo zmogljivosti morate zagotoviti naslednje:
+      - Izbrana podizvajalska linija je za čas. 
+      - Zahtevana vloga za člana projektne skupine se ujema z vlogo, ki je bila kupljena v liniji podizvajalcev. 
+      - Prodajalec, s katerim je povezan pogodbeni delavec, je isti kot prodajalec v podizvajalski pogodbi.
+6. Ko izberete ustvarjanje novih podizvajalskih vrstic za člane projektne skupine, vam bo sistem omogočil, da izberete podizvajalsko pogodbo, za katero želite ustvariti te vrstice. Pri tej možnosti bi morali zagotoviti, da je prodajalec, ki mu pripada pogodbeni delavec, isti kot prodajalec na podizvajalski pogodbi. 
+7. Podizvajalska pogodba, ki jo izberete za ustvarjanje novih vrstic, mora biti v **Osnutek** stanje. S to možnostjo ustvarjanja novih podizvajalskih vrstic za izbrane člane projektne skupine bo sistem ustvaril eno podizvajalsko vrstico za čas za vsakega člana projektne skupine. Vloga, ure in datumi bodo kopirani od člana projektne skupine v vsako vrstico podizvajalca, ki je ustvarjena.  
+8. Ko je imenovani član skupine povezan s podizvajalcem in podizvajalsko linijo, **Delavski tip** polje v vrstici imenovanega člana ekipe bo posodobljeno na **Pogodbeni delavec** in **Veljavnost podizvajalske pogodbe** vrednost bo nastavljena na **Veljavno**.
 
-## <a name="re-costing-subcontractor-assignments"></a>Preračunavanje stroškov podizvajalcev
+## <a name="re-costing-subcontractor-assignments"></a>Prevrednotenje dodelitev podizvajalcem
 
-Ko je član projektne skupine (generični ali imenovan) povezan s podizvajalskimi vrsticami z uporabo **Možnosti podizvajalcev** pogovornem oknu, bodo vse naloge, ki jih ima član ekipe, preračunane na podlagi nabavnega cenika, priloženega podizvajalski pogodbi. Na **Ocene** zavihek na **Podrobnosti o projektu** strani, izberite **Posodobite cene** gumb za ogled posodobljenih cen in/ali stroškov, ki izhajajo iz odločitve o podizvajalcu.
+Ko je član projektne skupine (splošen ali imenovan) povezan s podizvajalskimi linijami z uporabo **Možnosti podizvajalcev** morebitne dodelitve nalog, ki jih ima član ekipe, bodo preračunane na podlagi nabavnega cenika, priloženega podizvajalski pogodbi. Na **Ocene** zavihek na **Podrobnosti projekta** strani izberite **Posodobite cene** gumb za ogled posodobljenih cen in/ali stroškov, ki izhajajo iz odločitve o podizvajalcu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

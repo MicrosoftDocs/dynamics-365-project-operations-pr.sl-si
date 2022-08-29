@@ -1,17 +1,17 @@
 ---
 title: Uporaba API-jev razporejanja projektov za izvajanje postopkov s pomočjo entitet razporejanja
-description: Ta članek vsebuje informacije in vzorce za uporabo API-jev za načrtovanje projekta.
+description: Ta članek ponuja informacije in vzorce za uporabo API-jev za načrtovanje projekta.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929234"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230336"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Uporaba API-jev razporejanja projektov za izvajanje postopkov s pomočjo entitet razporejanja
 
@@ -42,12 +42,12 @@ OperationSet je vzorec enote dela, ki se lahko uporablja, kadar je treba v trans
 
 Naslednji seznam vsebuje trenutne API-je razporejanja projektov.
 
-- **msdyn_CreateProjectV1**: ta API se lahko uporablja za ustvarjanje projekta. Projekt in privzeti vedro projekta se ustvarita takoj.
+- **msdyn_CreateProjectV1**: ta API se lahko uporablja za ustvarjanje projekta. Projekt in privzeto projektno vedro sta ustvarjena takoj.
 - **msdyn_CreateTeamMemberV1**: ta API se lahko uporablja za ustvarjanje člana projektne skupine. Zapis člana ekipe se ustvari takoj.
 - **msdyn_CreateOperationSetV1**: ta API se lahko uporablja za razporejanje več zahtev, ki jih je treba izvesti znotraj transakcije.
-- **msdyn_PSSCreateV1**: ta API se lahko uporablja za ustvarjanje entitete. Lahko gre za katerokoli entiteto razporejanja projektov, ki podpira postopek ustvarjanja.
-- **msdyn_PSSUpdateV1**: ta API se lahko uporablja za posodabljanje entitete. Lahko gre za katerokoli entiteto razporejanja projektov, ki podpira postopek posodabljanja.
-- **msdyn_PSSDeleteV1**: ta API se lahko uporablja za brisanje entitete. Lahko gre za katerokoli entiteto razporejanja projektov, ki podpira postopek brisanja.
+- **msdyn_PssCreateV1** : Ta API se lahko uporablja za ustvarjanje entitete. Lahko gre za katerokoli entiteto razporejanja projektov, ki podpira postopek ustvarjanja.
+- **msdyn_PssUpdateV1** : Ta API se lahko uporablja za posodobitev entitete. Lahko gre za katerokoli entiteto razporejanja projektov, ki podpira postopek posodabljanja.
+- **msdyn_PssDeleteV1** : Ta API se lahko uporablja za brisanje entitete. Lahko gre za katerokoli entiteto razporejanja projektov, ki podpira postopek brisanja.
 - **msdyn_ExecuteOperationSetV1**: ta API se uporablja za izvajanje vseh postopkov znotraj danega nabora postopkov.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Uporaba API-jev razporejanja projektov s funkcijo OperationSet
@@ -58,10 +58,10 @@ Ker se zapisi, ki vsebujejo **CreateProjectV1** in **CreateTeamMemberV1**, ustva
 
 | Entiteta za razporejanje | Ustvari | Posodabljanje | Delete | Pomembni premisleki |
 | --- | --- | --- | --- | --- |
-Projektno opravilo | Da | Da | Da | The **napredek**, **dokončan**, in **Preostali napor** polja je mogoče urejati v Projectu za splet, vendar jih ni mogoče urejati v Project Operations.  |
+Projektno opravilo | Da | Da | Da | The **Napredek**, **je končan**, in **Preostali trud** polja je mogoče urejati v programu Project za splet, ni pa jih mogoče urejati v programu Project Operations.  |
 | Odvisnost projektnega opravila | Da |  | Da | Zapisi odvisnosti od projektne naloge se ne posodabljajo. Namesto tega lahko stari zapis izbrišete in ustvarite nov zapis. |
 | Dodelitev vira | Da | Da | | Postopki z naslednjimi polji niso podprti: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** in **PlannedWork**. Zapisi o dodeljevanju virov niso posodobljeni. Namesto tega lahko stari zapis izbrišete in ustvarite nov zapis. |
-| Vedro projekta | Da | Da | Da | Privzeto vedro je ustvarjeno z uporabo **UstvariProjektV1** API. Podpora za ustvarjanje in brisanje projektnih segmentov je bila dodana v posodobitvi izdaje 16. |
+| Vedro projekta | Da | Da | Da | Privzeto vedro je ustvarjeno z uporabo **CreateProjectV1** API. Podpora za ustvarjanje in brisanje projektnih veder je bila dodana v posodobitvi izdaje 16. |
 | Član projektne ekipe | Da | Da | Da | Za postopek ustvarjanja uporabite API **CreateTeamMemberV1**. |
 | Projekt | Da | Da |  | Postopki z naslednjimi polji niso podprti: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** in **Duration**. |
 
@@ -265,7 +265,7 @@ Naslednje tabele določajo polja, ki so omejena **Ustvari** in **Uredi**.
 ## <a name="limitations-and-known-issues"></a>Omejitve in znane težave
 Sledi seznam omejitev in znanih težav:
 
-- API-je Project Schedule lahko uporabljajo samo **Uporabniki z licenco Microsoft Project**. Ne morejo jih uporabljati:
+- API-je za urnik projekta lahko uporablja samo **Uporabniki z licenco Microsoft Project**. Ne morejo jih uporabljati:
 
     - Uporabniki aplikacij
     - Uporabniki sistema
