@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Novosti
       items:
-        - name: 'Julij 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: 'Avgust 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Arhiv
           items:
+            - name: 'Julij 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: 'Junij 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: 'Maj 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
@@ -384,6 +386,42 @@
           items:
             - name: Pregled uporabe virov
               href: resource-management/resource-utilization-overview.md
+    - name: Upravljanje podizvajalskih pogodb
+      items:
+        - name: Upravljanje podizvajalskih pogodb v aplikaciji Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Ključni pojmi pri oddajanju naročil podizvajalcem
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Upravljanje dobaviteljev in cenikov projektov
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: 'Podizvajalci kot viri, ki jih je mogoče rezervirati'
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Podrobnosti glave za podizvajalske pogodbe
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Podrobnosti podizvajalske pogodbe za čas
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Podrobnosti podizvajalske pogodbe za kategorije stroškov
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Podrobnosti podizvajalske pogodbe za izdelke
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Viri podrobnosti podizvajalske pogodbe
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Mejniki podrobnosti podizvajalske pogodbe
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: 'Oddaja del podizvajalcem, ki so člani projektne ekipe'
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Možnosti za oddajo del podizvajalcem za člane projektne ekipe
+          href: pro/subcontracting/subcon-options.md
+        - name: Ocena stroškov dodelitev virov s podizvajalsko pogodbo
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: 'Konfigurirajte ploščo za načrtovanje, da prikaže pogodbene delavce in podizvajalske zmogljivosti'
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Zaposlovanje pogodbenih delavcev in podizvajalskih zmogljivosti pri projektu
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Beleženje časa, stroškov in uporabe materiala za podizvajalske komponente'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Prehodi stanja pri podizvajalski pogodbi
+          href: pro/subcontracting/subcon-states.md
     - name: Čas
       items:
         - name: Pregled časa
@@ -580,6 +618,8 @@
       items:
         - name: Selitev v celoti zaračunanih mejnikov obračunavanja med prehodom
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: 'Sinhronizirajte status projekta, da preprečite vnose v zaprte projekte'
+          href: advanced-configuration/sync-project-status.md
     - name: Nadgradnja
       items:
         - name: Nadgradnja premislekov za sodobne odobritve
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Novosti
       items:
-        - name: Novosti za julij 2022 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Novosti za avgust 2022 – poenostavljeno uvajanje
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Arhiv
           items:
+            - name: Novosti za julij 2022 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Novosti za junij 2022 – poenostavljeno uvajanje
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: Novosti pri 2. valu posodobitev izdaje 2021 za zgodnji dostop – poenostavljeno uvajanje
