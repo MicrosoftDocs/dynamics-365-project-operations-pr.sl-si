@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295899"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409976"
 ---
 # <a name="project-operations-updates"></a>Posodobitve aplikacije Project Operations
 
@@ -36,9 +36,9 @@ Dynamics 365 Project Operations vsebuje dve komponenti:
 
 | Project Operations v okolju Dataverse | Vodenje projektov in računovodstvo v okoljih aplikacij za finance in poslovanje | 
 | --- | --- |
-| 4.45.0.53 | 10.0.28 |
+| 4.45.0.53 | 10.0.29 |
 
-Za scenarij vira projektnih operacij/nezaloženega scenarija priporočamo, da uporabite različico orkestracije z dvojnim pisanjem 2.3.1.15 ali novejšo.
+Za scenarij projektnih operacij vira/nezaloženega scenarija priporočamo, da uporabite različico orkestracije z dvojnim pisanjem 2.3.1.15 ali novejšo.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Razpored izdaje za aplikacijo Project Operations v okolju Dataverse
 
@@ -47,24 +47,24 @@ Posodobitve za aplikacijo Project Operations v okolju Dataverse so na voljo mese
 | Skupina | Regija | Trenutna številka različice | Samodejne posodobitve za poenostavljeno uvajanje | Samodejne posodobitve za uvedbe z viri/brez zaloge | Naslednja številka različice | Naslednja različica je splošno na voljo |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. skupina |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prva izdaja         |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 26. avgusta 2022       |
+|   &nbsp;  | Prva izdaja         |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 09. september 2022      |
 | 2. skupina |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Južna Amerika         |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 02. september 2022       |
-|   &nbsp;  | Kanada                |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 02. september 2022       |
-|   &nbsp;  | Indija                 |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 02. september 2022       |
-|   &nbsp;  | Francija                |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 02. september 2022       |
-|   &nbsp;  | Južnoafriška republika          |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 02. september 2022       |
-|   &nbsp;  | Švica           |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 02. september 2022       |
+|   &nbsp;  | Južna Amerika         |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 09. september 2022       |
+|   &nbsp;  | Kanada                |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 09. september 2022       |
+|   &nbsp;  | Indija                 |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 09. september 2022       |
+|   &nbsp;  | Francija                |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 09. september 2022       |
+|   &nbsp;  | Južnoafriška republika          |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 09. september 2022       |
+|   &nbsp;  | Švica           |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno                 | 09. september 2022       |
 | 3. skupina |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonska                 |  4.44.0.22      | Zaključevanje      | Zaključevanje       | 4.45.0.53                 | 19. avgusta 2022       |
-|   &nbsp;  | Azija-Pacifik          |  4.44.0.22      | Zaključevanje      | Zaključevanje       | 4.45.0.53                 | 19. avgusta 2022       |
-|   &nbsp;  | Velika Britanija         |  4.44.0.22      | Zaključevanje      | Zaključevanje       | 4.45.0.53                 | 19. avgusta 2022       |
-|   &nbsp;  | Oceanija               |  4.44.0.22      | Zaključevanje      | Zaključevanje       | 4.45.0.53                 | 19. avgusta 2022       |
-|   &nbsp;  | Združeni arabski emirati  |  4.44.0.22      | Zaključevanje      | Zaključevanje       | 4.45.0.53                 | 19. avgusta 2022       |
+|   &nbsp;  | Japonska                 |  4.45.0.53      | Zaključevanje      | Zaključevanje       | Še ni določeno                 | 09. september 2022       |
+|   &nbsp;  | Azija-Pacifik          |  4.45.0.53      | Zaključevanje      | Zaključevanje       | Še ni določeno                 | 09. september 2022       |
+|   &nbsp;  | Velika Britanija         |  4.45.0.53      | Zaključevanje      | Zaključevanje       | Še ni določeno                 | 09. september 2022       |
+|   &nbsp;  | Oceanija               |  4.45.0.53      | Zaključevanje      | Zaključevanje       | Še ni določeno                 | 09. september 2022       |
+|   &nbsp;  | Združeni arabski emirati  |  4.45.0.53      | Zaključevanje      | Zaključevanje       | Še ni določeno                 | 09. september 2022       |
 | 4. skupina |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Evropa                |  4.44.0.22      | Zaključevanje           | Zaključevanje            | 4.45.0.53           | 26. avgusta 2022       |
+|   &nbsp;  | Evropa                |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno           | 16. september 2022       |
 | 5. skupina |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Severna Amerika         |  4.44.0.22      | Zaključevanje           | Zaključevanje            | 4.45.0.53           | 02. september 2022       |
+|   &nbsp;  | Severna Amerika         |  4.45.0.53      | Zaključevanje           | Zaključevanje            | Še ni določeno           | 16. september 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Razpored izdaj za upravljanje projektov in računovodstvo v okolju aplikacij za finance in poslovanje
 

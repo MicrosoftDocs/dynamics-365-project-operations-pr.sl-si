@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348120"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403877"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti za avgust 2022 – storitev Project Operations za scenarije, ki temeljijo na virih/pomanjkanju zaloge
 
@@ -27,7 +27,7 @@ Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 
 
 V tej izdaji ni posodobitev za preslikave dvojnega zapisovanja v aplikaciji Project Operations. Za trenutni seznam in različice preslikovanja dvojnega zapisovanja v aplikaciji Project Operations si oglejte [Različice preslikovanja dvojnega zapisovanja v aplikaciji Project Operations](../environment/resource-dual-write-maps.md).
 
-Vedno zaženite najnovejšo različico zemljevida v svojem okolju in omogočite vse povezane zemljevide tabel, ko posodabljate svoje projektne operacije Dataverse rešitev in različica rešitve Finance. Nekatere funkcije in zmožnosti morda ne bodo delovale pravilno, če najnovejša različica zemljevida ni aktivirana. Aktivno različico preslikave si lahko ogledate v stolpcu **Različica** na strani **Dvojno zapisovanje**. Če želite aktivirati novo različico preslikave, izberite možnost **Različice preslikave tabele**, izberite najnovejšo različico in nato shranite izbrano različico. Če ste prilagodili vnaprej pripravljen zemljevid tabele, znova uveljavite spremembe. Za več informacij glejte [Upravljanje življenjskega cikla aplikacij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Vedno zaženite najnovejšo različico zemljevida v svojem okolju in omogočite vse povezane zemljevide tabel, ko posodabljate svoje projektne operacije Dataverse rešitev in različica rešitve Finance. Nekatere funkcije in zmožnosti morda ne bodo delovale pravilno, če najnovejša različica zemljevida ni aktivirana. Aktivno različico preslikave si lahko ogledate v stolpcu **Različica** na strani **Dvojno zapisovanje**. Če želite aktivirati novo različico preslikave, izberite možnost **Različice preslikave tabele**, izberite najnovejšo različico in nato shranite izbrano različico. Če ste prilagodili vnaprej pripravljen zemljevid tabel, znova uveljavite spremembe. Za več informacij glejte [Upravljanje življenjskega cikla aplikacij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Če naletite na težavo, ko zaženete zemljevid, sledite navodilom v [Težava z manjkajočimi stolpci tabele na zemljevidih](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) razdelek vodnika za odpravljanje težav z dvojnim pisanjem.
 
@@ -38,6 +38,11 @@ Vedno zaženite najnovejšo različico zemljevida v svojem okolju in omogočite 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |
 | Upravljanje priložnosti | 2762089 | Obravnava napake med zapiranjem pogodbe kot izgubljene, če je samodejno shranjevanje onemogočeno v organizaciji.|
+|Načrtovanje in sledenje projektov | 2767841 | Posodobitve telemetrije Projektna entiteta Ustvari ali posodobi scenarije.|
+|Zaračunavanje in oblikovanje cen | 2771072 | Obravnava izjem ničelne reference med pridobivanjem ponudbe.|
+|Zaračunavanje in oblikovanje cen | 2844181 |Napaka pri pridobivanju ID-ja korelacije in blokiranje ustvarjanja računa.|
+|Zaračunavanje in oblikovanje cen | 2852836 | Dejanski podatki med podjetji manjkajo za stroške med podjetji, ustvarjeni in odobreni v CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Vodenje projektov in računovodstvo v Financah
 

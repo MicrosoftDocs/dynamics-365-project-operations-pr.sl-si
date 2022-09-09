@@ -1,21 +1,21 @@
 ---
 title: Prijava za naročnino na predogledno različico – poenostavljena različica
-description: Ta članek vsebuje informacije o tem, kako se naročiti na in uvesti razmestitev Project Operations lite – obračunavanje s predračunom.
+description: Ta članek vsebuje informacije o tem, kako se naročite in uvedete uvedbo Project Operations lite – dogovor s predračunom.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 29bf31cd1bc9c1c5ac757de989154b4c7acc53fe
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921276"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410096"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Prijava za naročnino na predogledno različico – poenostavljena različica 
 
-V tem članku je razloženo, kako se naročiti na poskusno ponudbo in uvesti Dynamics 365 Project Operations lahka uvedba - dogovor s predračunom.
+V tem članku je razloženo, kako se naročiti na preskusno ponudbo in uvesti Dynamics 365 Project Operations enostavna uvedba – od dogovora do predračunov.
 
 > [!NOTE]
 > Ta postopek se bo spremenil v prihodnjih izdajah storitve Project Operations.
@@ -43,14 +43,14 @@ Preden začnete, se prepričajte, da ste prijavljeni v brskalnik z uporabnikovim
 > Potrebovali boste skrbniški dostop do portala Microsoft 365 vaše organizacije, če želite dokončati naslednje korake.
 
 
-1. Pojdi do [Microsoft 365 skrbniško središče](https://portal.office.com/) za dodelitev licenc vašim uporabnikom.
+1. Pojdi do [Microsoft 365 skrbniški center](https://portal.office.com/) za dodelitev licenc vašim uporabnikom.
 2. Na strani **Aktivni uporabniki** izberite uporabnike, ki jim želite dodeliti licenco.
 3. Preverite, ali je licenca **Dynamics 365 Project Operations** izbrana. 
 4. Izberite **Shrani spremembe**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Ustvarite novo okolje Dataverse
 
-1. Zagotavljanje novih projektnih operacij Dataverse okolje uvajanja, tako da sledite navodilom v članku, [Dataverse model uvajanja](lite-deployment.md). Ko izberete vrsto okolja, obvezno izberite **Poskusna različica (na podlagi naročnine)**.
+1. Zagotavljanje novih projektnih operacij Dataverse umestitveno okolje po navodilih v članku, [Dataverse model uvajanja](lite-deployment.md). Ko izberete vrsto okolja, obvezno izberite **Poskusna različica (na podlagi naročnine)**.
 
   ![Novo okolje.](./media/19CreateEnvironment.png)
 
@@ -63,9 +63,9 @@ Preden začnete, se prepričajte, da ste prijavljeni v brskalnik z uporabnikovim
 
 ![Namestitev rešitve.](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Namestitev predstavitvenih podatkov za nastavitev in konfiguracijo CDS
+## <a name="set-up-demo-data"></a>Nastavite predstavitvene podatke
 
-Namestite konfiguracijo CDS in nastavite demo podatke po navodilih v članku, [Uporabi demo nastavitve in konfiguracijske podatke](lite-apply-demo-setup-config-data.md).
+Nastavite predstavitvene podatke po navodilih v članku, [Uporabi podatke o predstavitvenih nastavitvah in konfiguraciji](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

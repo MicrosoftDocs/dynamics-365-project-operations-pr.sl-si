@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183938"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403972"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti za julij 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
@@ -45,6 +45,12 @@ Vedno zaženite najnovejšo različico zemljevida v svojem okolju in omogočite 
 | Zaračunavanje in oblikovanje cen | 2675880 | Preprečite, da bi bil projekt povezan s pogodbeno vrstico, ki ne temelji na delu. |
 | Zaračunavanje in oblikovanje cen | 2664396 | Če je ponudbeni cenik shranjen brez ponudbe, mora obstajati napaka, da ponudba ne sme biti prazna. |
 | Zaračunavanje in oblikovanje cen | 2184019 | The **Zaračunavanje na podlagi nalog** Zavihek ne sme biti prikazan za projekte, ki nimajo podporne pogodbe ali ponudbe. |
+| Čas in strošek | 2754459 | Ko je ponavljajoči se tok v oblaku za razporejanje neaktiven, prikaži pasico in obidi asinhrono obdelavo. |
+| Zaračunavanje in oblikovanje cen | 2724391 | Napačna izjema je vržena, ko pravilo za razdeljeno obračunavanje projektne pogodbe manjka vrednost stranke. |
+| Zaračunavanje in oblikovanje cen | 2708638 | Zapis ni bil najden med iskanjem z iskanjem po mreži v Uporabah materialov in odobritvah za uporabo materialov.|
+| Zaračunavanje in oblikovanje cen | 2686977 | Preprečite preverjanje veljavnosti za vrstico računa med ustvarjanjem računa. |
+| Zaračunavanje in oblikovanje cen | 2683032 | Kopiranje plačljivih vlog in kategorij ne presega 5000 zapisov.|
+| Zaračunavanje in oblikovanje cen | 2673363 | % porabe stroškov pri projektu je pokvarjen, ko za projekt obstajajo ocene truda in stroškov ter dejanske vrednosti. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Vodenje projektov in računovodstvo v Financah
 
@@ -56,9 +62,9 @@ Naslednja tabela navaja funkcije, ki so privzeto vklopljene v različici 10.0.29
 
 | Ime funkcije | Omogoči datum | Dodana funkcija | Stanje funkcije | Modul |
 | --- | --- | --- |--- |--- |
-| Omogoči prilagoditev transakcije ur glede na spremembo dodelitve pravila financiranja | 16. september 2022 | 7. oktober 2020 | Privzeto vklopljeno | Upravljanje projektov in računovodstvo |
+| Omogoči prilagoditev transakcije ur glede na spremembo dodelitve pravil financiranja | 16. september 2022 | 7. oktober 2020 | Privzeto vklopljeno | Upravljanje projektov in računovodstvo |
 | Funkcija razveljavitve predplačilnega računa za naročilo projekta | 16. september 2022 | 6. oktober 2021 | Privzeto vklopljeno | Upravljanje projektov in računovodstvo |
-| Izbrišite vrstice predlogov računa, ko uporabljate Project Operations za scenarije, ki temeljijo na virih/nezaloženih | 16. september 2022 | 6. oktober 2021 | Privzeto vklopljeno | Upravljanje projektov in računovodstvo |
+| Izbrišite vrstice predloga računa, ko uporabljate Project Operations za scenarije, ki temeljijo na virih/nezaloženih | 16. september 2022 | 6. oktober 2021 | Privzeto vklopljeno | Upravljanje projektov in računovodstvo |
 | Prilagodite računovodstvo na transakciji knjiženega projekta | 16. september 2022 | 10. maj 2020 | Privzeto vklopljeno | Upravljanje projektov in računovodstvo |
 | Omogoči privzeto nastavitev računovodstva za projekt | 16. september 2022 | 19. februar 2020 | Privzeto vklopljeno | Upravljanje projektov in računovodstvo |
 | Omogočanje več podrobnosti pogodbe za projekt | 16. september 2022 | 29. junij 2020 | Privzeto vklopljeno | Upravljanje projektov in računovodstvo |
