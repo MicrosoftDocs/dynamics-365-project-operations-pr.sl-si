@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Preglasitev prodajnih cenikov za projekt
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: 'Nastavite preglasitve, ki začnejo veljati na določen datum, za določene cene na ceniku'
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Določitev lastnih cen za ocene in dejanske vrednosti
               href: pricing-costing/cost-price-resolution.md
             - name: Določitev prodajnih cen za ocene in dejanske vrednosti
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: 'Naročanje materialov in storitev za projekte, ki uporabljajo naročilnice za projekte'
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Računi dobaviteljev za podizvajalce v storitvi Dataverse
+          items:
+            - name: Ustvari račune dobavitelja
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Preverjanje računov dobavitelja z odobrenimi dejanskimi vrednostmi
+              href: pro/subcontracting/VI-Verification.md
+            - name: Potrditev računov dobavitelja za projekt
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Zadrževanje dobaviteljev
           items:
             - name: Pregled zadrževanja dobaviteljev
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Preglasitev prodajnih cenikov za projekt
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: 'Nastavite preglasitve, ki začnejo veljati na določen datum, za določene cene na ceniku'
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Določitev lastnih cen za ocene in dejanske vrednosti projektov
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Določitev prodajnih cen za ocene in dejanske vrednosti projektov
