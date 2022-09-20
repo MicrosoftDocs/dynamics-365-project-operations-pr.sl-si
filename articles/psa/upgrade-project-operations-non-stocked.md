@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230289"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446056"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Nadgradite s Project Service Automation na Project Operations
 
@@ -29,7 +29,7 @@ Z veseljem objavljamo prvo od treh faz za nadgradnjo Microsoft Dynamics 365 Proj
 
 Program nadgradnje bo razdeljen v tri faze.
 
-| Dostava nadgradnje | 1. faza (januar 2022) | 2. faza (aprilski val 2022) | Faza 3  |
+| Dostava nadgradnje | 1. faza (januar 2022) | 2. faza (november 2022) | 3. faza (aprilski val 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Brez odvisnosti od strukture razčlenitve dela (WBS) za projekte | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS znotraj trenutno podprtih omejitev projektnih operacij | | :heavy_check_mark: | :heavy_check_mark: |
@@ -37,9 +37,9 @@ Program nadgradnje bo razdeljen v tri faze.
 
 ## <a name="upgrade-process-features"></a>Funkcije postopka nadgradnje 
 
-Kot del postopka nadgradnje smo na zemljevid spletnega mesta dodali dnevnike nadgradnje, tako da lahko skrbniki lažje diagnosticirajo napake. Poleg novega vmesnika bodo dodana nova pravila za preverjanje veljavnosti, da se zagotovi celovitost podatkov po nadgradnji. V postopek nadgradnje bodo dodane naslednje potrditve.
+Kot del postopka nadgradnje smo na zemljevid spletnega mesta dodali dnevnike nadgradnje, tako da lahko skrbniki lažje diagnosticirajo napake. Poleg novega vmesnika bodo dodana nova pravila za preverjanje veljavnosti, ki zagotavljajo celovitost podatkov po nadgradnji. V postopek nadgradnje bodo dodane naslednje potrditve.
 
-| Validacije | 1. faza (januar 2022) | 2. faza (aprilski val 2022) | Faza 3  |
+| Validacije | 1. faza (januar 2022) | 2. faza (november 2022) | Faza 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | WBS bo preverjen glede pogostih kršitev celovitosti podatkov (na primer dodelitve virov, ki so povezane z isto nadrejeno nalogo, vendar imajo različne nadrejene projekte). | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS bo potrjen glede na [znane omejitve Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
@@ -52,7 +52,7 @@ V fazi 3 bo dodana podpora za namiznega odjemalca Project v korist strank, ki ž
 
 ## <a name="prerequisites"></a>Zahteve
 
-Da je stranka upravičena do nadgradnje faze 1, mora izpolnjevati naslednja merila:
+Da bi bila stranka upravičena do nadgradnje faze 1, mora izpolnjevati naslednja merila:
 
 - Ciljno okolje ne sme vsebovati nobenih zapisov v **msdyn_projecttask** entiteta.
 - Veljavne licence Project Operations morajo biti dodeljene vsem aktivnim uporabnikom stranke. 

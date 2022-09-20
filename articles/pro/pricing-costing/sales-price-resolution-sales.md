@@ -1,23 +1,23 @@
 ---
-title: Določite prodajne cene za ocene projekta in dejanske vrednosti
+title: Določitev prodajnih cen za ocene in dejanske vrednosti projektov
 description: Ta članek vsebuje informacije o tem, kako se določijo prodajne cene za ocene in dejanske vrednosti projekta.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410162"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475205"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Določite prodajne cene za ocene projekta in dejanske vrednosti
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Določitev prodajnih cen za ocene in dejanske vrednosti projektov
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Za določitev prodajnih cen na podlagi ocen in dejanskih vrednosti v Microsoftu Dynamics 365 Project Operations, sistem najprej uporabi datum in valuto v dohodnem predračunu ali dejanskem kontekstu za določitev prodajnega cenika. Konkretno v dejanskem kontekstu sistem uporablja **Datum transakcije** polje za določitev, kateri cenik velja. Po določitvi prodajnega cenika sistem določi prodajni oziroma obračunski tečaj.
+Za določitev prodajnih cen na podlagi ocen in dejanskih vrednosti v Microsoftu Dynamics 365 Project Operations, sistem najprej uporabi datum in valuto v dohodnem predračunu ali dejanskem kontekstu za določitev prodajnega cenika. Konkretno v dejanskem kontekstu sistem uporablja **Datum transakcije** polje za določitev, kateri cenik velja. The **Datum transakcije** vrednost vhodne ocene ali dejanske primerja z **Učinkovit začetek (neodvisno od časovnega pasu)** in **Dejanski konec (neodvisno od časovnega pasu)** vrednosti na ceniku. Po določitvi prodajnega cenika sistem določi prodajni oziroma obračunski tečaj.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Določanje prodajnih stopenj na dejanskih in ocenjenih vrsticah za Čas
 
@@ -40,7 +40,7 @@ Ko je cenik za prodajo določen, sistem dokonča naslednje korake za vnos privze
 1. Če se sistem ne more ujemati z **Vloga** in **Enota za vire** vrednosti, pridobi vrstice cen vlog, ki imajo ujemajoče se vrednosti za **Vloga** vendar ničelne vrednosti za **Enota virov** polje. Ko sistem najde ujemajoč se zapis cene vloge, bo stopnja računa iz tega zapisa uporabljena kot privzeta stopnja računa. To ujemanje predpostavlja vnaprej pripravljeno konfiguracijo za relativno prednost **Vloga** proti **Enota za vire** kot dimenzija prodajnih cen.
 
 > [!NOTE]
-> Če konfigurirate drugačno prednostno nalogo **Vloga** in **Enota za vire** polja ali če imate druge dimenzije z višjo prednostjo, se bo prejšnje vedenje ustrezno spremenilo. Sistem pridobi zapise cen vlog, ki imajo vrednosti, ki se ujemajo z vsako vrednostjo dimenzije cen po prednostnem vrstnem redu. Vrstice z ničelnimi vrednostmi za te dimenzije so zadnje.
+> Če konfigurirate drugačno prednostno razvrščanje **Vloga** in **Enota za vire** polja ali če imate druge dimenzije z višjo prednostjo, se bo prejšnje vedenje ustrezno spremenilo. Sistem pridobi zapise cen vlog, ki imajo vrednosti, ki se ujemajo z vsako vrednostjo dimenzije cen po prednostnem vrstnem redu. Vrstice z ničelnimi vrednostmi za te dimenzije so zadnje.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Določanje stopenj prodaje v dejanskih in ocenjenih vrsticah za stroške
 
@@ -83,7 +83,7 @@ Ocenite kontekst za **Material** se nanaša na:
 
 Dejanski kontekst za **Material** se nanaša na:
 
-- Vrstice dnevnika vnosa in popravkov za **Material**.
+- Vrstice dnevnika vnosa in popravljanja za **Material**.
 - Vrstice dnevnika, ki se ustvarijo, ko je predložen dnevnik porabe materiala.
 - Podrobnosti vrstice računa za **Material**. 
 

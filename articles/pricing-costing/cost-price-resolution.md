@@ -1,43 +1,84 @@
 ---
-title: Razreševanje lastnih cen za ocene in dejanske vrednosti
-description: Ta članek vsebuje informacije o reševanju stroškovnih cen za ocene in dejanske vrednosti.
+title: Določite stopnje stroškov za ocene in dejanske vrednosti na podlagi projekta
+description: Ta članek vsebuje informacije o tem, kako se določijo stopnje stroškov za ocene in dejanske vrednosti na podlagi projekta.
 author: rumant
-ms.date: 04/09/2021
+ms.date: 9/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: af17712f0aef4fe3e6e758edd976cc377e90631d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 822a7bd8ae87d4fd4044d8b46347bfe1b4ca13ca
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919988"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475299"
 ---
-# <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Razreševanje lastnih cen za ocene in dejanske vrednosti
+# <a name="determine-cost-rates-for-project-based-estimates-and-actuals"></a>Določite stopnje stroškov za ocene in dejanske vrednosti na podlagi projekta
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Za razrešitev lastnih cen in cenika lastnih cen za ocene in dejanske podatke sistem uporablja podatke v poljih **Datum**, **Valuta** in **Pogodbena enota** povezanega projekta. Ko je cenik lastnih cen razrešen, aplikacija razreši mero stroškov.
+Za določitev stroškovnih cen na podlagi ocen in dejanskih vrednosti v Microsoftu Dynamics 365 Project Operations, sistem najprej uporabi datum in valuto v dohodnem predračunu ali dejanskem kontekstu za določitev prodajnega cenika. Konkretno v dejanskem kontekstu sistem uporablja **Datum transakcije** polje za določitev, kateri cenik velja. The **Datum transakcije** vrednost vhodne ocene ali dejanske primerja z **Učinkovit začetek (neodvisno od časovnega pasu)** in **Dejanski konec (neodvisno od časovnega pasu)** vrednosti na ceniku. Po določitvi stroškovnega cenika sistem določi stroškovno stopnjo.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Razrešitev mere stroškov vrstic dejanskih podatkov ali vrstic ocen za čas
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Določanje stroškovnih stopenj v predračunskem in dejanskem kontekstu za čas
 
-Vrstice ocen za čas se nanašajo na podrobnosti ponudbe in pogodbe za dodelitev časa in virov v projektu.
+Ocenite kontekst za **Čas** se nanaša na:
 
-Ko je cenik lastnih cen razrešen, sistem uporabi polja **Vloga**, **Podjetje, ki zagotavlja vire** in **Enota vira**, ki so v vrstici ocene za čas, za ujemanje z vrsticami za cene vloge v ceniku. To ujemanje predpostavlja, da za strošek dela uporabljate vnaprej pripravljene cenovne razsežnosti. Če ste sistem nastavili tako, da se ujema s polji, ki niso **Vloga**, **Podjetje, ki zagotavlja vire** in **Enota vira** ali še s kakšnimi poleg teh polj, potem bo uporabljena drugačna kombinacija za pridobivanje vrstic za cene vloge. Če aplikacija poišče vrstico za cene vloge z mero stroškov za kombinacijo polj **Vloga**, **Podjetje, ki zagotavlja vire** in **Enota vira**, potem je to privzeta stopnja stroška. Če se aplikacija ne more natančno ujemati s kombinacijo vrednosti **Vloga**, **Podjetje, ki zagotavlja vire** in **Enota vira**, bo pridobila vrstice cen vlog z ujemajočo se vrednostjo vloge, vendar bosta imeli vrednosti **Enota vira** in **Podjetje, ki zagotavlja vire** vrednost nič. Ko je najden ujemajoč se zapis cene vloge z ujemajočo se vrednostjo vloge, je mera stroškov privzeta iz tega zapisa. 
+- Navedite podrobnosti vrstice za **Čas**.
+- Podrobnosti pogodbene linije za **Čas**.
+- Dodeljevanje virov na projektu.
+
+Dejanski kontekst za **Čas** se nanaša na:
+
+- Vrstice dnevnika vnosa in popravkov za **Čas**.
+- Vrstice dnevnika, ki se ustvarijo, ko je oddan vnos časa.
+
+Ko je določen cenik stroškov, sistem dokonča naslednje korake za vnos privzete stopnje stroškov.
+
+1. Sistem se ujema s kombinacijo **Vloga**, **Company**, in **Enota za vire** polja v oceni ali dejanskem kontekstu za **Čas** glede na cene vlog na ceniku. To ujemanje predpostavlja, da uporabljate standardne dimenzije cen za stroške dela. Če ste konfigurirali sistem za ujemanje s polji, ki niso ali poleg **Vloga**, **Company** in **Enota za vire**, se za pridobitev ujemajoče se vrstice cene vloge uporabi drugačna kombinacija.
+1. Če sistem najde vrstico cen vlog, ki ima stopnjo stroškov za **Vloga**, **Company**, in **Enota za vire** kombinaciji, se ta stopnja stroškov uporablja kot privzeta stopnja stroškov.
+1. Če se sistem ne more ujemati z **Vloga**, **Company**, in **Enota za vire** vrednosti, izpusti dimenzijo, ki ima najnižjo prioriteto, poišče vrstice s cenami vloge, ki se ujemajo z vrednostma drugih dveh dimenzij, in nadaljuje s postopnim spuščanjem dimenzij, dokler ne najde ustrezne vrstice s ceno vloge. Stopnja stroškov iz tega zapisa bo uporabljena kot privzeta stopnja stroškov. Če sistem ne najde ustrezne vrstice s ceno vloge, bo cena nastavljena na **0** (nič) privzeto.
 
 > [!NOTE]
-> Če ste konfigurirali drugo določanje prednosti polj **Vloga**, **Podjetje, ki zagotavlja vire** in **Enota vira**, ali če imate druge dimenzije z večjo prioriteto, se bo to vedenje ustrezno spremenilo. Sistem pridobi zapise o cenah vlog z vrednostmi, ki se po prednostnem vrstnem redu ujemajo z vsako vrednostjo cenovnih razsežnosti z vrsticami, ki imajo ničelne vrednosti za tiste razsežnosti, ki so zadnje v prednostnem vrstnem redu.
+> Če konfigurirate drugačno prednostno razvrščanje **Vloga** in **Enota za vire** polja ali če imate druge dimenzije z višjo prednostjo, se bo prejšnje vedenje ustrezno spremenilo. Sistem pridobi zapise cen vlog, ki imajo vrednosti, ki se ujemajo z vsako vrednostjo dimenzije cen po prednostnem vrstnem redu. Vrstice z ničelnimi vrednostmi za te dimenzije so zadnje.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Razrešitev mer stroškov vrstic dejanskih podatkov ali vrstic ocen za strošek
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Določanje stopenj stroškov v dejanskih in ocenjenih vrsticah za stroške
 
-Ocena vrstic za strošek se nanaša na ponudbo in podrobnosti pogodbe za stroške ter na vrstice ocen stroškov za projekt.
+Ocenite kontekst za **Stroški** se nanaša na:
 
-Ko je cenik lastnih cen razrešen, sistem uporabi kombinacijo polj **Kategorija** in **Enota**, ki so v vrstici ocene za strošek, za ujemanje z vrsticami **Cena kategorije** na razrešenem ceniku. Če sistem poišče vrstico s cenami kategorij, ki ima mero stroškov za kombinacijo polj **Kategorija** in **Enota**, potem je to privzeta mera stroškov. Če sistem ne more povezati vrednosti **Kategorija** in **Enota** ali če lahko najde ujemajočo se cenovno vrstico kategorije, način obračunavanja ni **Cena na enoto**, se mera stroškov privzeto nastavi na nič (0).
+- Navedite podrobnosti vrstice za **Stroški**.
+- Podrobnosti pogodbene linije za **Stroški**.
+- Ocena stroškov za projekt.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Reševanje mer stroškov na dejanskih vrsticah in vrsticah ocen za material
+Dejanski kontekst za **Stroški** se nanaša na:
 
-Vrstice ocene za material se nanašajo na podrobnosti ponudbe in pogodbe za materiale in podrobnosti ocene materiala za projekt.
+- Vrstice dnevnika vnosa in popravkov za **Stroški**.
+- Vrstice dnevnika, ki se ustvarijo, ko je oddan vnos stroškov.
 
-Ko je cenik z lastnimi cenami razrešen, sistem na vrstici ocene uporabi kombinacijo polj **Izdelek** in **Enota**, da se ocena materiala ujema z vrsticami **Elementi cenika** na razrešenem ceniku. Če sistem najde ceno izdelka, ki ima mero stroškov za kombinacijo polj **Izdelek** in **Enota**, se uporabi privzeta mera stroškov. Če se sistem ne more ujemati z vrednostma **Izdelek** in **Enota**, so privzeti stroški na enoto enaki nič. To se bo zgodilo tudi, če obstaja ustrezna vrstica elementa cenika, vendar metoda določanja cen temelji na standardnih stroških ali trenutnih stroških, ki v izdelku niso opredeljeni.
+Ko je določen cenik stroškov, sistem dokonča naslednje korake za vnos privzete stopnje stroškov.
+
+1. Sistem se ujema s kombinacijo **Kategorija** in **Enota** polja v oceni ali dejanskem kontekstu za **Stroški** glede na cenovne vrstice kategorije na ceniku.
+1. Če sistem najde cenovno vrstico kategorije, ki ima stopnjo stroškov za **Kategorija** in **Enota** kombinaciji, se ta stopnja stroškov uporablja kot privzeta stopnja stroškov.
+1. Če se sistem ne more ujemati z **Kategorija** in **Enota** vrednosti, cena je nastavljena na **0** (nič) privzeto.
+1. V kontekstu ocenjevanja, če lahko sistem najde ujemajočo se cenovno linijo kategorije, vendar je metoda oblikovanja cen nekaj drugega kot **Cena na enoto**, je stopnja stroškov nastavljena na **0** (nič) privzeto.
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Določanje stroškovnih stopenj na dejanskih in predračunskih postavkah za Material
+
+Ocenite kontekst za **Material** se nanaša na:
+
+- Navedite podrobnosti vrstice za **Material**.
+- Podrobnosti pogodbene linije za **Material**.
+- Ocene materiala na projektu.
+
+Dejanski kontekst za **Material** se nanaša na:
+
+- Vrstice dnevnika vnosa in popravljanja za **Material**.
+- Vrstice dnevnika, ki se ustvarijo, ko je predložen dnevnik porabe materiala.
+
+Ko je določen cenik stroškov, sistem dokonča naslednje korake za vnos privzete stopnje stroškov.
+
+1. Sistem uporablja kombinacijo **Izdelek** in **Enota** polja v oceni ali dejanskem kontekstu za **Material** proti vrsticam postavk cenika na ceniku.
+1. Če sistem najde vrstico postavke cenika, ki ima stopnjo stroškov za **Izdelek** in **Enota** kombinaciji, se ta stopnja stroškov uporablja kot privzeta stopnja stroškov.
+1. Če se sistem ne more ujemati z **Izdelek** in **Enota** vrednosti, je cena enote nastavljena na **0** (nič) privzeto.
+1. V okviru ocene ali dejanskega konteksta, če lahko sistem najde ujemajočo se vrstico postavke cenika, vendar je metoda oblikovanja cen nekaj drugega kot **Znesek valute**, je cena enote nastavljena na **0** privzeto. Do tega vedenja pride, ker Project Operations podpira samo **Znesek valute** metoda oblikovanja cen za materiale, ki se uporabljajo pri projektu.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
