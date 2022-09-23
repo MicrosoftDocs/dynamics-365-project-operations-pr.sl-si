@@ -324,7 +324,7 @@
           items:
             - name: Sodelovanje s skupinami storitve Office
               href: project-management/collaboration-groups.md
-        - name: Opombe razvijalcev
+        - name: Opombe za razvijalce
           items:
             - name: Razvoj predlog projekta s kopiranjem projekta
               href: project-management/dev-copy-project.md
@@ -436,7 +436,7 @@
           items:
             - name: Uporabniški vmesnik časovnega vnosa
               href: time/ui-behavior-time.md
-        - name: Opombe razvijalcev
+        - name: Opombe za razvijalce
           items:
             - name: Prilagajanje mreže tedenskih časovnih vnosov
               href: time/customize-weekly-time-entry-grid.md
@@ -508,9 +508,11 @@
           href: approvals/cancelapproval.md
         - name: Odpoklic predhodno odobrenih vnosov
           href: approvals/recall-cancel.md
-        - name: Opombe razvijalcev
+        - name: Varnost in odobritve
+          href: approvals/approvals-security.md
+        - name: Opombe za razvijalce
           items:
-            - name: Opombe razvijalcev za odobritve
+            - name: Opombe za razvijalce za odobritve
               href: approvals/dev-notes-approvals.md
     - name: Dejanske vrednosti
       items:
@@ -560,9 +562,11 @@
               href: procurement/vendor-retention-overview.md
             - name: Nastavitev zadrževanja dobaviteljev
               href: procurement/set-up-vendor-retention.md
-    - name: Zaračunavanje
+            - name: 'Plačajte, ko je plačano'
+              href: procurement/Pay-when-paid.md
+    - name: Izdajanje računov
       items:
-        - name: Pregled postopka zaračunavanja
+        - name: Pregled postopka izdajanja računov
           href: invoicing/post-project-invoices.md
         - name: Izstavljanje predračunov
           items:
@@ -946,7 +950,7 @@
           items:
             - name: Sodelovanje s skupinami storitve Office
               href: project-management/collaboration-groups.md
-        - name: Opombe razvijalcev
+        - name: Opombe za razvijalce
           items:
             - name: Razvoj predlog projekta s kopiranjem projekta
               href: project-management/dev-copy-project.md
@@ -1078,7 +1082,7 @@
           items:
             - name: Uporabniški vmesnik časovnega vnosa
               href: time/ui-behavior-time.md
-        - name: Opombe razvijalcev
+        - name: Opombe za razvijalce
           items:
             - name: Prilagajanje mreže tedenskih časovnih vnosov
               href: time/customize-weekly-time-entry-grid.md
@@ -1102,9 +1106,11 @@
           href: approvals/cancelapproval.md
         - name: Odpoklic predhodno odobrenih vnosov
           href: approvals/recall-cancel.md
-        - name: Opombe razvijalcev
+        - name: Varnost in odobritve
+          href: approvals/approvals-security.md
+        - name: Opombe za razvijalce
           items:
-            - name: Opombe razvijalcev za odobritve
+            - name: Opombe za razvijalce za odobritve
               href: approvals/dev-notes-approvals.md
     - name: Dejanske vrednosti
       items:
@@ -1524,9 +1530,9 @@
           href: psa/install-sample-data-3-x.md
         - name: Vodnik za načrtovanje in sledenje projektov
           href: psa/implementation-guides/project-planning-tracking.md
-        - name: 'Osnovni vodnik za ponudbe, cene in zaračunavanje'
+        - name: 'Osnovni vodnik za ponudbe, cene in izdajanje računov'
           href: psa/implementation-guides/begin-quoting-pricing-billing.md
-        - name: 'Napredni vodnik za ponudbe, cene in obračunavanje'
+        - name: 'Napredni vodnik za ponudbe, cene in izdajanje računov'
           href: psa/implementation-guides/adv-quoting-pricing-billing.md
         - name: Vodnik za upravljanje virov
           href: psa/implementation-guides/resource-management-guide.md
@@ -1602,7 +1608,7 @@
               href: psa/bookable-resource-multiple-roles.md
             - name: Izklop cenovne razsežnosti
               href: psa/turn-off-pricing-dimension.md
-        - name: 'Ponudbe, cene in zaračunavanje'
+        - name: 'Ponudbe, cene in Izdajanje računov'
           items:
             - name: 'Domača stran ponudb, cen in zaračunavanja'
               href: psa/quote-bill-price.md
@@ -1636,7 +1642,7 @@
               href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
             - name: Pregled nedokončanih opravil obračunavanja v projektu
               href: psa/review-invoicing-backlog.md
-            - name: Zaračunavanje
+            - name: Izdajanje računov
               href: psa/invoicing.md
             - name: Scenariji z več valutami
               href: psa/advanced-currency.md
