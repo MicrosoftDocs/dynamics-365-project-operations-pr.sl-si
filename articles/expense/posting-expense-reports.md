@@ -1,8 +1,8 @@
 ---
 title: Objavljanje poročil o stroških
-description: Ta članek pojasnjuje, kako objaviti poročila o stroških.
-author: suvaidya
-ms.date: 09/09/2020
+description: V tem članku je razloženo, kako objaviti poročila o stroških.
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934524"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524890"
 ---
 # <a name="post-expense-reports"></a>Objavljanje poročil o stroških
 
@@ -30,5 +30,15 @@ Ko je poročilo o stroških odobreno in preneseno v splošno temeljnico, ga lahk
 
 Na seznamu lahko hkrati objavite tudi vsa poročila o stroških. Izberite vsa poročila o stroških in nato izberite **Objavi**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Omogočite možnost knjiženja obveznosti za stroške v valuti prodajalca za funkcijo načina gotovinskega plačila
+
+The **Možnost knjiženja obveznosti za stroške v valuti prodajalca za gotovinsko plačilno metodo** funkcija omogoča objavo poročil o stroških v valuti prodajalca za način gotovinskega plačila.
+
+Trenutno se ob oddaji blagajniških stroškov poročila o stroških knjižijo v obračunski valuti. Zaradi pretvorbe zneska med valuto transakcije, obračunsko valuto in valuto dobavitelja je prodajalcem plačan napačen znesek, če imata transakcijski datum stroška in dejanski datum plačila različna menjalna tečaja.
+
+Ta funkcija bo zagotovila, da se stanje dobavitelja zabeleži v valuti prodajalca, ko je poročilo o stroških objavljeno.
+
+1. Odprite zavihek **Delovni prostori** \> **Upravljanje funkcije**.
+2. Na seznamu poiščite in izberite **Možnost knjiženja obveznosti za stroške v valuti prodajalca za gotovinsko plačilno metodo** in nato izberite **Omogoči zdaj**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

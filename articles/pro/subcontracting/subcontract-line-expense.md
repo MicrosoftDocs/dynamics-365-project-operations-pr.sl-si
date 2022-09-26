@@ -2,20 +2,20 @@
 title: Podrobnosti podizvajalske pogodbe za kategorije stroškov
 description: V tem članku je razloženo, kako evidentirati postavke podizvajalcev za stroške in uporabiti polja za beleženje nakupa časa od prodajalcev.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261861"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522628"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Podrobnosti podizvajalske pogodbe za kategorije stroškov
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Podizvajalska pogodba v storitvi Dynamics 365 Project Operations lahko vsebuje vrstico za kategorije stroškov. Podrobnosti podizvajalske pogodbe glede kategorij stroškov vodji projekta omogočijo, da od dobaviteljev, ki jih lahko vključijo v projekt, naročajo kategorije storitev in izdelkov.
 

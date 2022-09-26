@@ -2,20 +2,20 @@
 title: Oddaja del podizvajalcem, ki so člani projektne ekipe
 description: Ta članek pojasnjuje, kako skleniti pogodbe s člani projektne skupine v Microsoftu Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 9/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: a2f17d6f270029e3a517e99c7bb518cdb19b8d23
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261391"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522816"
 ---
 # <a name="subcontracting-project-team-members"></a>Oddaja del podizvajalcem, ki so člani projektne ekipe
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 V Microsoftu Dynamics 365 Project Operations, se lahko odločite za podizvajanje članov projektne skupine brez osebja ali zaposlenih.
 
@@ -40,7 +40,7 @@ The **Podrobnosti o članih ekipe** stran ima polja za podizvajalce in vrstice z
 Ko je generični član skupine povezan s podizvajalcem in podizvajalsko linijo, **Delavski tip** polje v vrstici s splošnimi člani ekipe bo posodobljeno na **Pogodbeni delavec** in **Veljavnost podizvajalske pogodbe** bo nastavljeno na **Veljavno**.
 
 ## <a name="subcontracting-a-staffed-project-team-member"></a>Sklenitev pogodbe s podizvajalcem zaposlenega člana projektne skupine
-Tako kot generični člani ekipe ali člani ekipe brez osebja je tudi zmogljivost članov ekipe z osebjem, potrebna za projekt, povezana s podizvajalsko pogodbo. Če želite s podizvajalcem skleniti imenovanega člana projektne skupine, sledite tem korakom:
+Tako kot generični člani ekipe ali člani ekipe brez osebja je tudi zmogljivost članov ekipe z osebjem, potrebna za projekt, lahko povezana s podizvajalsko pogodbo. Če želite s podizvajalcem skleniti imenovanega člana projektne skupine, sledite tem korakom:
 
 1.  Prepričajte se, da je imenovani vir nastavljen kot vrsta pogodbenega delavca vira, ki ga je mogoče rezervirati. Prepričajte se tudi, da je **Prodajalec** polje v viru, ki ga je mogoče rezervirati, se ujema s prodajalcem v podizvajalski pogodbi, ki jo izberete. 
 

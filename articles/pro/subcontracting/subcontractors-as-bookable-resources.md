@@ -2,20 +2,20 @@
 title: Nastavitev podizvajalskih pogodb kot vire, ki jih je mogoče rezervirati
 description: Ta članek pojasnjuje, kako nastaviti in vzdrževati vire podizvajalcev, ki so ustvarjeni iz uporabnikov in stikov v sistemu, tako da jih je mogoče povezati s podizvajalci v Microsoftu Dynamics 365 Project Operations.
 author: rumant
-ms.date: 07/28/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 67df514cd1a0bd07d4ff2582e1a7738d913e0ac5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 727508c41c190c3703e9cd1420066fa0e551f147
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261344"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522722"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Nastavitev podizvajalskih pogodb kot vire, ki jih je mogoče rezervirati
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Sledite tem korakom, da nastavite podizvajalske pogodbe kot vire za rezervacijo v storitvi Microsoft Dynamics 365 Project Operations.
 

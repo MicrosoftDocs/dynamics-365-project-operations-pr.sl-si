@@ -2,20 +2,20 @@
 title: Mejniki vrstice podizvajalske pogodbe
 description: V tem članku je razloženo, kako ustvariti in vzdrževati razpored računov na podlagi mejnikov za podizvajalsko pogodbo s prodajalcem.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261814"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522485"
 ---
 # <a name="subcontract-line-milestones"></a>Mejniki vrstice podizvajalske pogodbe
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Vrstica podizvajalske pogodbe z načinom obračunavanja s fiksno ceno v storitvi Dynamics 365 Project Operations lahko pri dobavitelju določi razpored za izstavljanje računov, ki temelji na mejnikih.
 

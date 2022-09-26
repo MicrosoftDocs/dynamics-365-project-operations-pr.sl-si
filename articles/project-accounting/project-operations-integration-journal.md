@@ -1,17 +1,17 @@
 ---
 title: Dnevnik integracij v aplikaciji Project Operations
-description: Ta članek nudi informacije o delu z dnevnikom Integration v Project Operations.
+description: Ta članek vsebuje informacije o delu z dnevnikom Integration v Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106295"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541098"
 ---
 # <a name="integration-journal-in-project-operations"></a>Dnevnik integracij v aplikaciji Project Operations
 
@@ -65,6 +65,12 @@ Knjiženje se lahko izvaja interaktivno ali v paketu. Upoštevajte, da bodo vse 
 > [!NOTE]
 > Če želite uporabiti to možnost, omogočite **Prenesite vse vrstice z napakami pri knjiženju v nov dnevnik integracije Project Operations** funkcija v **Upravljanje funkcij** delovni prostor.
 
-Med objavljanjem v integracijski dnevnik Project Operations sistem preveri vsako vrstico v dnevniku. Sistem knjiži vse vrstice, ki nimajo napak, in ustvari nov dnevnik za vse vrstice, ki imajo napake pri knjiženju. Če želite pregledati dnevnike, ki imajo vrstice napak pri knjiženju, pojdite na **Vodenje projektov in računovodstvo** > **Dnevniki** > **Dnevnik integracije projektnih operacij** in filtrirajte dnevnike z uporabo **Izvirni dnevnik** polje.
+Ta funkcija pomaga izboljšati izkušnjo z integracijskim dnevnikom Project Operations. Ko je omogočen, težave z dvojnim časom pisanja in nastavitve ne preprečujejo več objave veljavnih dnevnikov. Med objavljanjem v integracijski dnevnik Project Operations sistem preveri vsako vrstico v dnevniku. Knjiži vse vrstice, ki nimajo napak, in ustvari nov dnevnik za vse vrstice, ki imajo napake pri knjiženju.
+
+Če želite pregledati dnevnike, ki imajo vrstice napak pri knjiženju, pojdite na **Vodenje projektov in računovodstvo** \> **Dnevniki** \> **Dnevnik integracije projektnih operacij** in filtrirajte seznam revij z uporabo **Izvirni dnevnik** polje. Naslednja slika prikazuje primer, ko so dnevniki na **Dnevnik integracije projektnih operacij** stran je bila filtrirana na ta način.
+
+![Izvirni dnevnik, prikazan na strani dnevnika integracije projektnih operacij.](./media/transferLines-originalJournal.png)
+
+Če je periodično paketno opravilo konfigurirano za objavo integracijskega dnevnika, bo objavljanje znova poskuseno, dnevniki pa bodo objavljeni, če je bila težava s časovnim razporedom odpravljena. Morebitne preostale dnevnike je treba ročno preiskati s pregledovanjem dnevnikov in sprejetjem potrebnih ukrepov.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

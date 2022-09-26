@@ -1,21 +1,21 @@
 ---
 title: Preverjanje računov dobavitelja z odobrenimi dejanskimi vrednostmi
-description: Ta članek pojasnjuje, kako Microsoft Dynamics 365 Project Operations naj vodje projektov preverijo račune dobaviteljev z dejanskimi podatki, ki so bili potrjeni kot izvajalci opravljenih del in evidentiranim časom ter stroški in materiali, ki so jih porabili člani projektne skupine.
+description: Ta članek pojasnjuje, kako Microsoft Dynamics 365 Project Operations naj vodje projektov preverijo račune dobaviteljev z dejanskimi podatki, ki so bili odobreni kot izvajalci opravljenih del in evidentiranim časom ter stroški in materiali, ki so jih porabili člani projektne skupine.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ab9f69e36aa58bfe3a2f8e3455db66b6bceea968
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 67e0a0143fa354ca9a87bfac5fbbd6306a97811c
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261767"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522960"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Preverjanje računov dobavitelja z odobrenimi dejanskimi vrednostmi
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Microsoft Dynamics 365 Project Operations naj vodje projektov preverijo vrstice računa dobavitelja na naslednje načine:
 

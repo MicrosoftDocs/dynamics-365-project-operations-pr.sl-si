@@ -2,20 +2,20 @@
 title: Vrstice podizvajalske pogodbe, vezane na čas
 description: V tem članku je razloženo, kako beležiti podizvajalske vrstice za čas in beležiti nakup časa od prodajalcev.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262115"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522253"
 ---
 # <a name="subcontract-lines-for-time"></a>Vrstice podizvajalske pogodbe, vezane na čas
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Podizvajalska pogodba v storitvi Dynamics 365 Project Operations lahko vsebuje vrstico podizvajalske pogodbe, vezane na čas. Vrstice podizvajalske pogodbe, vezane na čas, vodji projekta omogočajo, da kupi čas dobaviteljevih virov za osebje projektnih nalog in zahteve za vir.
 

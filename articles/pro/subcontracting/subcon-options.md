@@ -2,20 +2,20 @@
 title: Možnosti za oddajo del podizvajalcem za člane projektne ekipe
 description: Ta članek pojasnjuje možnosti podizvajalcev za člane projektne skupine v Microsoftu Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5e0955d58365a4ecbe1c053882736f196758816e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 046b5d38ef7e433d02e3eac2e858a3333e941c45
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261627"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522299"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>Možnosti za oddajo del podizvajalcem za člane projektne ekipe
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 V Microsoftu Dynamics 365 Project Operations, lahko ocenite možnosti podizvajalcev, ki so na voljo za enega ali več članov projektne skupine. Razpoložljive možnosti podizvajalcev vam omogočajo, da:
 
@@ -39,7 +39,7 @@ Možnosti podizvajalcev niso na voljo za naslednje:
 4. Če ste v 1. koraku izbrali samo en zapis člana projektne skupine, bodo na voljo naslednje možnosti:
     - Ustvarite nove podizvajalske vrstice. 
     - Rezervacija za obstoječo podizvajalsko pogodbo Če ste v 1. koraku izbrali več zapisov članov projektne skupine, je edina razpoložljiva možnost, da ustvarite nove podizvajalske vrstice.
-5. Možnost rezervacije za obstoječo podizvajalsko linijo vam omogoča, da izberete podizvajalsko pogodbo in podizvajalsko linijo, za katero želite rezervirati. Ko izbirate podizvajalsko linijo za rezervacijo zmogljivosti, morate zagotoviti, da je izbrana podizvajalska linija za čas in da se zahtevana vloga za člana projektne skupine ujema z vlogo, ki je bila kupljena na podizvajalski liniji.
+5. Možnost rezervacije za obstoječo podizvajalsko linijo vam omogoča, da izberete podizvajalsko pogodbo in podizvajalsko linijo, za katero želite rezervirati. Ko izbirate podizvajalsko linijo za rezervacijo zmogljivosti, morate zagotoviti, da je izbrana podizvajalska linija za čas in da zahtevana vloga za člana projektne skupine ustreza vlogi, ki je bila kupljena na podizvajalski liniji.
 6. Ko izberete ustvarjanje novih podizvajalskih vrstic za člane projektne skupine, vam bo sistem omogočil, da izberete podizvajalsko pogodbo, za katero želite ustvariti te vrstice. Podizvajalska pogodba, ki jo izberete za ustvarjanje novih vrstic, mora biti v **Osnutek** stanje. S to možnostjo ustvarjanja novih podizvajalskih vrstic za izbrane člane projektne skupine bo sistem ustvaril eno podizvajalsko vrstico za čas za vsakega člana projektne skupine. Vloga, ure in datumi bodo kopirani od člana projektne skupine v vsako vrstico podizvajalca, ki je ustvarjena. 
 7. Ko je generični član skupine povezan s podizvajalcem in podizvajalsko linijo, **Delavski tip** polje v vrstici s splošnimi člani ekipe bo posodobljeno na **Pogodbeni delavec** in **Veljavnost podizvajalske pogodbe** vrednost bo nastavljena na **Veljavno**.
 

@@ -2,20 +2,20 @@
 title: Podrobnosti glave za podizvajalske pogodbe
 description: Ta članek pojasnjuje funkcionalnost, ki je na voljo v glavi podizvajalske pogodbe v Project Operations.
 author: rumant
-ms.date: 09/14/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce16b7a968bc7e6904411ae9e021a5ca1839d02e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 00b7c08235654d4bed0bcb4053d2044a3d092b54
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261438"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522581"
 ---
 # <a name="header-details-for-subcontracts"></a>Podrobnosti glave za podizvajalske pogodbe
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 V tem članku je razložena funkcija v glavi podizvajalske pogodbe v Dynamics 365 Project Operations.
 

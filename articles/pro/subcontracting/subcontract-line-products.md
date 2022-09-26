@@ -2,20 +2,20 @@
 title: Vrstice podizvajalske pogodbe za izdelke
 description: V tem članku je razloženo, kako evidentirati podizvajalske vrstice za izdelke in uporabiti različna polja za beleženje nakupov izdelkov od prodajalcev.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262143"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522863"
 ---
 # <a name="subcontract-lines-for-products"></a>Vrstice podizvajalske pogodbe za izdelke
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 Podizvajalska pogodba v storitvi Dynamics 365 Project Operations lahko vsebuje vrstico podizvajalske pogodbe za izdelke. Te vrstice vodji projektov omogočajo nakup izdelkov od dobaviteljev, ki jih lahko nato uporabijo pri projektnih opravilih.
 
