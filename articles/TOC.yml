@@ -58,14 +58,16 @@
               href: environment/resource-dual-write-expense.md
             - name: Integracija računa dobavitelja
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Odstranitev aplikacije Dynamics 365 Project Operations
+        - name: Odstranitev storitve Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Novosti
       items:
-        - name: 'Avgust 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: 'September 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: Arhiv
           items:
+            - name: 'Avgust 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: 'Julij 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: 'Junij 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi'
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: Novosti
       items:
-        - name: Novosti za avgust 2022 – poenostavljeno uvajanje
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: Novosti za september 2022 – poenostavljeno uvajanje
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: Arhiv
           items:
+            - name: Novosti za avgust 2022 – poenostavljeno uvajanje
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Novosti za julij 2022 – poenostavljeno uvajanje
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Novosti za junij 2022 – poenostavljeno uvajanje
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Novosti
       items:
-        - name: 'Novosti za julij 2022 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: 'Novosti za september 2022 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: Arhiv
           items:
+            - name: 'Novosti za julij 2022 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: 'Novosti za junij 2022 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: 'Novosti za oktober 2021 – Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji'
@@ -1434,8 +1440,12 @@
       href: psa/overview.md
     - name: Novosti
       items:
-        - name: Razpored izdaje posodobitev za Project Service 3.x
+        - name: Razporeda izdaje posodobitev za Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ali spremembe v izdaji posodobitve 47, V3'
+          href: psa/whats-new-ur-47.md
+        - name: 'Novosti ali spremembe v izdaji posodobitve 45, V3'
+          href: psa/whats-new-ur-45.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 44, V3'
           href: psa/whats-new-ur-44.md
         - name: 'Novosti ali spremembe v izdaji posodobitve 43, V3'
