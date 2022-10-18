@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932086"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655209"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Ustvarjanje strukturirane členitve dela (SČD)
 
@@ -63,7 +63,7 @@ Sledite spodnjim korakom, da zamaknete ali povišate opravilo.
 
 ### <a name="move-tasks-up-and-down"></a>Premikanje opravil gor in dol
 
-Opravila lahko premaknete na poljubno raven v strukturirani členitvi dela na enega od dveh načinov:
+Naloge je mogoče premakniti na katero koli raven v strukturi razčlenitve dela na enega od dveh načinov:
 
 - Izberite eno ali več opravil in jih povlecite na želeno mesto.
 - Izberite eno ali več opravil, z desno miškino tipko kliknite in izberite **Izreži**, izberite ciljno celico v razporedu in nato z desno miškino tipko kliknite in izberite **Prilepi**.
@@ -113,6 +113,18 @@ Razpored v aplikaciji Project Operations lahko uporabite za ustvarjanje odnosov 
 
 Način opravila ne vpliva na posodobitve začetnega in končnega datuma predhodnih/odvisnih opravil.
 
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Razumevanje vplivov trajanja, koledarjev virov in koledarjev projekta na opravila
+Trajanje opravila je opredeljeno kot število delovnih ur med začetnim časom začetnega datuma in končnim časom končnega datuma opravila.   Projekt za splet določa merske enote trajanja na naslednji način:
+
+| **Mera trajanja** | **Količina**|
+|----------------------------------------------------|----------------------|
+| Ure na dan | 8 |
+| Ure na teden |  40 |
+| Dni na mesec |  20 |
+
+Nedodeljena opravila so načrtovana z uporabo koledarja projekta. Vendar se ob začetni dodelitvi vira razpored opravila posodobi tako, da upošteva koledar vira. Naknadne spremembe naloge, ki ima dodelitev, bo urejal [način razporejanja](scheduling-modes.md) projekta. Če želite izvedeti več o vplivu koledarjev na opravila, glejte [Koledarji virov v Projectu za splet](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) in [Začetni časi nalog in vaši projekti!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
+
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Pripomočki za osebe s posebnimi potrebami in bližnjice na tipkovnici
 
 Mreža **Razpored** v celoti podpira pripomočke za osebe s posebnimi potrebami in se lahko uporablja z bralniki zaslona, kot so Pripovedovalec, JAWS in NVDA. Po mreži se lahko pomikate s puščičnimi tipkami (kot v aplikaciji Microsoft Excel), lahko uporabite tipko Tab za pomikanje po interaktivnih elementih uporabniškega vmesnika, lahko pa uporabite tudi tipko s puščico dol, tipko Enter ali preslednico, da izberete in odprete spustne menije.
@@ -127,7 +139,7 @@ Mreža **Razpored** v celoti podpira pripomočke za osebe s posebnimi potrebami 
 | Največje skupno število virov za projekt              | 300                  |
 | Največje skupno število povezav (samo naslednik) za projekt | 600                  |
 | Največje skupno število polj po meri za projekt          | 10                   |
-| Največje število elementov kontrolnega seznama na nalogo                   | 20                   |
+| Največje število elementov na kontrolnem seznamu na nalogo                   | 20                   |
 
 **Omejitve opravila**
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621371"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634826"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti za september 2022 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
@@ -35,6 +35,7 @@ Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 
 | Upravljanje stroškov | **Možnost knjiženja obveznosti za stroške v valuti prodajalca**<br>Ta funkcija omogoča objavo poročil o stroških v valuti prodajalca za način gotovinskega plačila. | [Možnost knjiženja obveznosti za stroške v valuti prodajalca](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | Nabava projekta | **Plačajte, ko plačate plačila prodajalca**<br>Ta funkcija omogoča uporabo funkcije Plačaj ob plačilu (PWP) v okoljih Project Operations brez zaloge. Omogoča blokiranje/zadrževanje plačil prodajalca na podlagi pogojev hrambe, dokler plačilo ni prejeto od stranke. | [Plačajte, ko plačate plačila prodajalca](/dynamics365/project-operations/procurement/pay-when-paid) |
 | Nabava projekta | **Zahtevki za nakup projekta**<br>Ta funkcija uporabnikom omogoča ustvarjanje naročilnic, povezanih s projektom, v pravnih osebah, kjer je omogočena integracija projektnih operacij na Dynamics 365 Customer Engagement. Naročila za projekt se lahko uporabijo za evidentiranje nabave materiala, ki ni na zalogi, za projekt s strani osebne službe nabave. Projektna naročila ne bodo sinhronizirana z Dataverse. Vendar pa lahko uporabite navidezno entiteto, da prikažete vrstice naročilnice za Project Dataverse za informacije vodje projekta. Stroški računa dobavitelja, povezani s projektom, so integrirani z entiteto Project Actuals v Dataverse. Stroški projekta se evidentirajo v podknjigi projekta z uporabo dnevnika integracije projektnih operacij. | |
+|Načrtovanje in sledenje projektov|**Uporaba API-jev razporejanja projektov za izvajanje postopkov s pomočjo entitet razporejanja** </br> </br>API za urejanje obrisa dodelitve virov omogoča razvijalcem, da programsko določijo trud osebe, ki je dodelila nalogo, v katerem koli podprtem časovnem obdobju za bolj natančno načrtovanje truda v časovnih fazah.|[Uporaba API-jev razporejanja projektov za izvajanje postopkov s pomočjo entitet razporejanja](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Posodobitve preslikave za dvojno zapisovanje za Project Operations
 

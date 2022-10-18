@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621378"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634873"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>Novosti za september 2022 – poenostavljeno uvajanje storitve Project Operations
 
@@ -30,6 +30,7 @@ Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 
 | Zaračunavanje in oblikovanje cen | **Neplačila cene glede na časovni pas**<br>Project Operations je uvedel koncept agnostičnega datuma glede na časovni pas za vse dejanske podatke projekta. Novo polje, **Datum transakcije**, je zdaj na voljo v vrsticah dnevnika in dejanskih podatkih in bo uporabljen za shranjevanje datuma, ko je prišlo do transakcije, vendar brez pretvorbe tega datuma v koordinirani univerzalni čas. Ta datum bo uporabljen za nadaljnje postopke, kot sta neplačilo cene in ustvarjanje računov. | <p>[Določite stopnje stroškov za ocene in dejanske vrednosti na podlagi projekta](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Določite prodajne cene za ocene in dejanske vrednosti na podlagi projekta](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Zaračunavanje in oblikovanje cen | **Preglasitve cen z datumom veljavnosti v Project Operations**<br>Preglasitve cen z datumom veljavnosti omogočajo preglasitev ali spremembo določenih cen v ceniku. | [Preglasitve cen z datumom veljavnosti](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Čas in strošek | **Globalni odobritelj**<br>Ta funkcija omogoča neodvisnega prodajalca programske opreme (ISV) in centralizirano odobritev, ne glede na status projekta ali člana ekipe v projektu. | [Varnost in odobritve](/dynamics365/project-operations/approvals/approvals-security) |
+|Načrtovanje in sledenje projektov|**Uporaba API-jev razporejanja projektov za izvajanje postopkov s pomočjo entitet razporejanja** </br> </br>API za urejanje obrisa dodelitve virov omogoča razvijalcem, da programsko določijo trud osebe, ki je dodelila nalogo, v katerem koli podprtem časovnem obdobju za bolj natančno načrtovanje truda v časovnih fazah.|[Uporaba API-jev razporejanja projektov za izvajanje postopkov s pomočjo entitet razporejanja](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Posodobitve kakovosti
 
