@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Novosti ali spremembe v storitvi Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: Nadgradnja za Project Service Automation (različica aplikacije Project Operations – poenostavljena različica 4.x)
+      items:
+        - name: Aplikacijo Project Service Automation nadgradite na aplikacijo Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Spremembe funkcij iz aplikacije Project Service Automation v aplikacijo Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Proces pretvorbe načrtovanja projekta Project Service Automation v Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Načrtovanje uvedbe (aplikacija različice 3.x)
       items:
         - name: Namestitev vzorčnih podatkov
