@@ -1752,9 +1752,7 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Kako prilagodim potek poslovnega procesa stopenj projekta?
               href: psa/FAQ-customize-bpf.md
-            - name: Vidiki nadgradnje za strukturirano členitev dela
-              href: psa/upgrade-considerations-tasks.md
-        - name: Informativni dokumenti
+        - name: Bele knjige
           href: psa/white-papers.md
         - name: Vodnik za skrbnike
           items:
