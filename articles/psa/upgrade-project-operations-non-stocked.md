@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
-ms.translationtype: HT
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686996"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709465"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Aplikacijo Project Service Automation nadgradite na aplikacijo Project Operations
 
@@ -70,7 +70,7 @@ Predpogoji za 3. fazo bodo posodobljeni, ko se bo bližal datum splošne razpolo
 
 ## <a name="licensing"></a>Licenciranje
 
-Če imate aktivne licence za Project Service Automation, lahko namestite in uporabljate Project Operations, ki vključuje vse zmožnosti Project Service Automation in več. Nato lahko preizkusite zmogljivosti Project Operations v ločenem okolju, medtem ko še naprej uporabljate Project Service Automation v proizvodnji. Po poteku licenc za Project Service Automation boste morali preiti na Project Operations. Ko načrtujete ta prehod, morate upoštevati dejstvo, da licenca Project Operations ne vključuje licence Project Service Automation.
+Če imate aktivne licence za Project Service Automation, lahko namestite in uporabljate Project Operations, ki vključuje vse zmožnosti Project Service Automation in več. Na ta način lahko preizkusite zmogljivosti Project Operations, medtem ko še naprej uporabljate Project Service Automation v proizvodnji. Po poteku licenc za Project Service Automation boste morali preiti na Project Operations. Ko načrtujete ta prehod, morate upoštevati dejstvo, da licenca Project Operations ne vključuje licence Project Service Automation. Stranke, ki imajo scenarije, v katerih so razmestile Project Service Automation in morajo še naprej uporabljati ali povečati svoje licence za PSA, medtem ko nameravajo preiti na Project Operations, lahko zahtevajo začasne licence PSA na podlagi kupljenih licenc Project Operations. Ena licenca Project Service Automation bo izdana za eno licenco Project Operations. Začasne licence PSA lahko zahtevate na tej povezavi: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Testiranje in preoblikovanje prilagoditev
 
@@ -108,7 +108,7 @@ Naslednji koraki opisujejo postopek nadgradnje in povezano beleženje napak:
 1. **Preverjanje različice PSA:** Če želite namestiti Project Operations, morate imeti V3.10.58.120 ali novejši.
 1. **Predhodna validacija:** Ko skrbnik sproži nadgradnjo, sistem izvede operacijo predpreverjanja za vsako entiteto, ki je jedro rešitve Project Operations. Ta korak preveri, ali so vse reference entitet veljavne, in zagotovi, da so podatki, ki so povezani z WBS, znotraj objavljenih omejitev Project for the Web.
 1. **Nadgradnja metapodatkov:** Po uspešnem predhodnem preverjanju sistem sproži spremembe v shemi in ustvari rešitev za zastarele komponente. To zastarelo rešitev lahko odstranite, ko dokončate vso zahtevano refaktorizacijo prilagoditev. Ta korak je najdaljši del postopka nadgradnje in lahko traja do štiri ure.
-1. **Podatkovna nadgradnja:** Ko so v koraku nadgradnje metapodatkov opravljene vse zahtevane spremembe sheme, se vaši podatki preselijo v novo shemo in opravijo se morebitne zahtevane privzete nastavitve in ponovni izračuni.
+1. **Podatkovna nadgradnja:** Ko so v koraku nadgradnje metapodatkov opravljene vse zahtevane spremembe sheme, se vaši podatki preselijo v novo shemo in opravijo se morebitne zahtevane privzete vrednosti in ponovni izračuni.
 1. **Posodobitev motorja urnika projekta:** Po uspešni nadgradnji podatkov se **Urnik** zavihek na glavni strani je preimenovan **Naloge**. Ko uporabnik po nadgradnji izbere ta zavihek, je usmerjen na navigacijo do mreže za sledenje in si ogleda različico WBS samo za branje. Za urejanje WBS morajo sprožiti urnik [proces pretvorbe](/PSA-Upgrade-Project-Conversion.md). Vsi projekti brez že obstoječega WBS lahko uporabljajo novo izkušnjo razporejanja neposredno, brez pretvorbe.
  
 ### <a name="validate-common-scenarios"></a>Potrdite pogoste scenarije
@@ -135,7 +135,7 @@ Kot del nenehnih naložb v projektne operacije je na voljo več novih zmogljivos
 
 ### <a name="resource-management"></a>Upravljanje virov
 
-Project Operations ponuja izbirno podporo za Universal Resource Scheduling (URS) upravnega odbora in pomočnik pri načrtovanju. Ta nova izkušnja bo postala obvezna v valu aprila 2023.
+Project Operations ponuja izbirno podporo za Universal Resource Scheduling (URS) pomočnik upravnega odbora in urnika. Ta nova izkušnja bo postala obvezna v valu aprila 2023.
 
 ## <a name="frequently-asked-questions"></a>Pogosto zastavljena vprašanja
 

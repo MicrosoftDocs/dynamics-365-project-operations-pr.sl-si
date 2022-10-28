@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525415"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709418"
 ---
 # <a name="security-and-approvals"></a>Varnost in odobritve
 
@@ -33,6 +33,6 @@ Morate imeti **Odobritelj projekta** varnostna vloga za odobritev projektnega č
 > [!NOTE]
 > The [Odobritveni nizi](approval-sets.md) mora biti omogočena, preden lahko uporabite skrbniško funkcijo odobritelja projekta.
 
-The **Administrator odobritve projekta** varnostna vloga omogoča uporabnikom, da obidejo pravilnike in omogoča odobritev vnosov v vseh projektih. Dodelitev te vloge bo zaobšla logiko preverjanja, ki zahteva članstvo v skupini in oznako odobritelja. Imeti morate dostop do ustreznih povezanih subjektov, kot je npr **Projekt**. Ta dostop lahko dodeli nekdo, ki ima **Vodja projekta** vlogo.
+The **Administrator odobritve projekta** varnostna vloga omogoča uporabnikom, da obidejo pravilnike in omogoča odobritev vnosov v vseh projektih. Dodelitev te vloge bo zaobšla logiko preverjanja, ki zahteva članstvo v skupini in oznako odobritelja. Imeti morate dostop do ustreznih povezanih tabel, kot npr **Projekt**, prek varnostnih vlog, ki so vam dodeljene.
 
 Uporabniški kontekst SYSTEM obide preverjanja veljavnosti na enak način kot skrbnik odobritelja projekta varnostna vloga.
