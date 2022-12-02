@@ -1,6 +1,6 @@
 ---
 title: Analiza ponudb za projekte
-description: Ta članek vsebuje informacije o analizi ponudb projekta.
+description: Ta članek vsebuje informacije o analizi ponudb za projekte.
 author: rumant
 ms.custom:
 - dyn365-projectservice

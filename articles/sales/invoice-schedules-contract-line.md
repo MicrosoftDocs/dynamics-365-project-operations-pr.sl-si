@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje razporeda računov v podrobnostih pogodbe na podlagi projekta
-description: Ta članek vsebuje informacije o tem, kako ustvariti razporede računov in mejnike na pogodbenih vrsticah.
+description: Ta članek vsebuje informacije o ustvarjanju razporedov računov in mejnikov za podrobnosti pogodbe.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article

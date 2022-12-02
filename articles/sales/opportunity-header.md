@@ -1,6 +1,6 @@
 ---
 title: Glava/povzetek priložnosti
-description: Ta članek vsebuje informacije o projektnih poslih in vrsticah priložnosti, ki temeljijo na projektih.
+description: Ta članek vsebuje informacije o poslih, ki temeljijo na projektih, in podrobnostih priložnosti, ki temeljijo na projektih.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

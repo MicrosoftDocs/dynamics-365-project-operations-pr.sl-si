@@ -1,6 +1,6 @@
 ---
 title: Novosti ali spremembe v izdaji posodobitve aplikacije Project Service Automation 29.5, sprotni popravek, V3
-description: V tem članku so navedene funkcije in popravki, ki so na voljo v posodobitvi Project Service Automation, izdaja 29.5 Hotfix, V3.
+description: V tem članku so navedene funkcije in popravki, ki so na voljo v aplikaciji Project Service Automation 29.5, sprotni popravek, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/26/2021
@@ -27,7 +27,7 @@ ms.locfileid: "8926382"
 
 Z veseljem predstavljamo najnovejšo posodobitev za aplikacijo Project Service Automation za Dynamics 365. Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Ta izdaja je združljiva s storitvijo Dynamics 365 9.x. Če želite posodobiti na to izdajo, obiščite stran z rešitvami v skrbniškem središču za Dynamics 365 online, da namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).
 
-V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation V3, posodobitev izdaja 29.5. Ta različica ima številko graditve V3.10.47.150 in je splošno na voljo s samostojno posodobitvijo v januarju 2021.
+V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation V3, izdaja posodobitve 29.5. Ta različica ima številko graditve V3.10.47.150 in je splošno na voljo s samostojno posodobitvijo v januarju 2021.
 
 ## <a name="update-release-295"></a>Izdaja posodobitve 29.5
 

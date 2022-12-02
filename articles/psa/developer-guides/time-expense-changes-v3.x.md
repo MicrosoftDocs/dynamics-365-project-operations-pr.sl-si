@@ -1,6 +1,6 @@
 ---
 title: Spremembe v zvezi s časom in stroški (Project Service Automation 3.x)
-description: Ta članek vsebuje informacije o spremembah rešitve za čas in stroške.
+description: Ta članek zagotavlja informacije o spremembah rešitve v zvezi s časom in stroški.
 author: makk
 ms.custom:
 - dyn365-projectservice

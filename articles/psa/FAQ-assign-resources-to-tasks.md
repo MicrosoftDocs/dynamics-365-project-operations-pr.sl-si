@@ -1,6 +1,6 @@
 ---
 title: Dodeljevanje vira opravilu
-description: Ta članek vsebuje informacije o tem, kako dodeliti vire nalogam.
+description: Ta članek vsebuje informacije o dodeljevanju virov opravilom.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje novega projekta
-description: Ta članek vsebuje informacije o tem, kako ustvariti nov projekt.
+description: Ta članek vsebuje informacije o ustvarjanju novega projekta.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

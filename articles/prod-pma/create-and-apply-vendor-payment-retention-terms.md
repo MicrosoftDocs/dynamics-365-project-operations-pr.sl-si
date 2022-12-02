@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje in uporaba pogojev za zadrževanje plačila dobaviteljem
-description: Ta članek vsebuje informacije o tem, kako nastaviti in vzdrževati pogoje hrambe za plačila prodajalcev.
+description: Ta članek vsebuje informacije o tem, kako nastaviti in vzdrževati pogoje za zadrževanje plačila dobaviteljem.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

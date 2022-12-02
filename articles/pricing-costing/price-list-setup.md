@@ -1,6 +1,6 @@
 ---
 title: Nastavitev cenikov
-description: Ta članek vsebuje informacije o tem, kako nastaviti cenovne in prodajne cenike.
+description: Ta članek vsebuje informacije o nastavitvi cenikov za stroške in prodajo.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

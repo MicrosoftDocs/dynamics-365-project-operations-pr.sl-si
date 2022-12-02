@@ -1,6 +1,6 @@
 ---
 title: Nastavitve projektnih pogodb – poenostavljeno
-description: Ta članek vsebuje informacije o poljih, ki vplivajo na pogodbene vrstice, in informacije o pogodbi, ki so povzete v vseh postavkah vrstic.
+description: Ta članek vsebuje informacije o poljih, ki vplivajo na podrobnosti pogodbe, in informacije o pogodbi, ki so povzete v vrstičnih postavkah.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8917090"
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta članek vsebuje informacije o poljih, ki veljajo za celotno projektno pogodbo, vključno z nastavitvami, ki vplivajo na vse pogodbene vrstice. Vključene so tudi informacije o pogodbi, ki so povzete po vrstičnih postavkah za vodenje KPI-jev projektne pogodbe.
+Ta članek vsebuje informacije o poljih, ki veljajo za celotno projektno pogodbo, vključno z nastavitvami, ki vplivajo na vse podrobnosti pogodbe. Vključene so tudi informacije o pogodbi, ki so povzete po vrstičnih postavkah za vodenje KPI-jev projektne pogodbe.
 
 V naslednji tabeli so navedena polja v projektni pogodbi, ki so edinstvena za aplikacijo Dynamics 365 Project Operations ali imajo nekaj pomembnih razlik v vedenju v primerjavi s prodajnimi naročili v storitvi Dynamics 365 Sales.
 
@@ -35,11 +35,11 @@ V naslednji tabeli so navedena polja v projektni pogodbi, ki so edinstvena za ap
 Naslednji KPI-ji so na voljo na zavihku **Izvedba pogodbe** projektne pogodbe. 
 
 >[!NOTE]
->Vsi zneski na **Izvedba pogodbe** tab so izražene v privzeti valuti okolja.
+>Vsi zneski v zavihku **Izvedba pogodbe** so izraženi v privzeti valuti okolja.
 
 | Polje | LOkacija | Description |
 | --- | --- | --- |
-| Vrednost pogodbe | Splošna pogodba | Skupna vrednost pogodbe o projektu.|
+| Vrednost pogodbe | Splošna pogodba | Skupna vrednost projektne pogodbe.|
 | Obračunani znesek | Splošna pogodba | Vsota zneskov na vseh računih za to pogodbo.|
 | Nastali stroški | Splošna pogodba | Vsota vseh dejanskih stroškov, zabeleženih za vse projekte, ki so preslikani v pogodbo. |
 | Stopnja bruto dobička | Splošna pogodba | Obračunani znesek – strošek, nastal do datuma/obračunani znesek |

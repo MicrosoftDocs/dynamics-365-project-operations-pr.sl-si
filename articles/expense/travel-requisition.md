@@ -1,6 +1,6 @@
 ---
 title: Zahteve za pot
-description: Ta članek vsebuje informacije o potovalnih zahtevah.
+description: Ta članek vsebuje informacije o zahtevah za pot.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

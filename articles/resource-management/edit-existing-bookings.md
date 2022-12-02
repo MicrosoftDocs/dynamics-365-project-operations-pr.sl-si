@@ -1,6 +1,6 @@
 ---
 title: Urejanje rezervacij
-description: Ta članek vsebuje informacije o tem, kako posodobiti in spremeniti rezervacije.
+description: V tem članku so na voljo informacije o posodabljanju in spreminjanju rezervacij.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8915250"
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 
-Ko v projektu pride do sprememb, ki zahtevajo posodobitev obstoječih rezervacij, lahko spremembe naredite na več načinov. Ta članek opisuje, kako posodobiti in spremeniti rezervacije.
+Ko v projektu pride do sprememb, ki zahtevajo posodobitev obstoječih rezervacij, lahko spremembe naredite na več načinov. V tem članku je pojasnjeno, kako posodobite in spremenite rezervacije.
 
 ## <a name="resource-reconciliation"></a>Uskladitev virov
 

@@ -1,6 +1,6 @@
 ---
 title: Upravljanje več strank v ponudbi za projekt
-description: Ta članek vsebuje informacije o delu na ponudbah, ki vključujejo več strank, ki bodo financirale projekt.
+description: Ta članek vsebuje informacije o delu s ponudbami, ki vključujejo več strank, ki bodo financirale projekt.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

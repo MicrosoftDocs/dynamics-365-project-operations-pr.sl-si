@@ -1,6 +1,6 @@
 ---
 title: Dodajanje zahtevanih polj po meri v entitete za nastavitev cene in transakcijske entitete
-description: Ta članek vsebuje informacije o tem, kako dodati zahtevane reference polj po meri v entitete ter v obrazce in poglede.
+description: Ta članek vsebuje informacije o tem, kako dodati zahtevane sklice na polja po meri entitetam ter obrazcem in pogledom.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8926060"
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Ta članek predvideva, da ste izvedli postopke v članku, [Ustvarite polja in entitete po meri, ki jih boste uporabili kot razsežnosti cen](create-custom-fields-entities-pricing-dimensions.md). Če teh postopkov še niste dokončali, se vrnite in jih dokončajte, nato pa se vrnite na ta članek. 
+Ta članek predpostavlja, da ste zaključili postopke v članku [Ustvarjanje polj in entitet po meri za uporabo kot cenovne razsežnosti](create-custom-fields-entities-pricing-dimensions.md). Če teh postopkov še niste izvedli, se vrnite nazaj in jih dokončajte, preden se vrnete na ta članek. 
 
-V tem članku vam bodo postopki pokazali, kako dodati zahtevane reference polj po meri v entitete in elemente uporabniškega vmesnika (UI), kot so obrazci in pogledi.
+V tem članku je s postopki prikazano, kako dodate zahtevane sklice na polja po meri entitetam in elementom uporabniškega vmesnika, kot so obrazci in pogledi.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Dodajanje polj cenovne razsežnosti po meri 
 Ko ustvarite polja in entitete po meri, morate nastaviti entitete za nastavitev cene in transakcijske entitete tako, da vključijo entitete ali nabore možnosti po meri. To naredite tako, da ustvarite sklicno polje. Glede na to, ali seznam cenovnih razsežnosti vključuje razsežnosti na osnovi nabora možnosti ali razsežnosti na osnovi entitete oz. oboje, sledite le korakom v razdelku **Cenovne razsežnosti po meri na osnovi nabora možnosti** ali **Cenovne razsežnosti po meri na osnovi entitete** oz. v obeh.

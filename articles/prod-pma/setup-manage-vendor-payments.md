@@ -1,6 +1,6 @@
 ---
 title: Nastavitev in uporaba plačil dobavitelju, ki se izvedejo po prejemu plačila
-description: V tem članku je razloženo, kako ustvarite pogoje plačila ob plačilu (PWP), tako da lahko sprostite delna plačila prodajalcem na podlagi plačil strank.
+description: Ta članek razlaga, kako ustvariti pogoje za plačilo, ki se izvede po prejemu plačila (PWP), da lahko dobavitelju izplačate delna plačila na podlagi plačil, ki jih prejmete od strank.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article

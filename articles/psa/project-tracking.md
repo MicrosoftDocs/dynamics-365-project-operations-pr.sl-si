@@ -1,6 +1,6 @@
 ---
 title: Napredek projekta in poraba stroškov
-description: Ta članek vsebuje informacije o sledenju napredka projekta in porabi stroškov.
+description: Ta članek vsebuje informacije o spremljanju napredka projekta in porabi stroškov.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8921782"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Potreba po spremljanju napredka v primerjavi z razporedom se razlikuje glede na panogo. V nekaterih panogah spremljanje poteka na zrnati ravni, v drugih panogah pa na višji ravni. V tem članku je prikazano, kako načrtovati, da bi izpolnili zahteve vaše organizacije.
+Potreba po spremljanju napredka v primerjavi z razporedom se razlikuje glede na panogo. V nekaterih panogah spremljanje poteka na zrnati ravni, v drugih panogah pa na višji ravni. V tem članku je prikazan način razporejanja, s katerim boste izpolnili zahteve vaše organizacije.
 
 ## <a name="effort-tracking-view"></a>Pogled sledenja obsegu dela
 

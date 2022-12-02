@@ -35,7 +35,7 @@ Stopnja podrobnosti v vmesniku SČD je odvisna od ravni natančnosti, ki se zaht
 
 Nasprotno pa so projekti v določenih panogah (npr. mediji in oglaševanje, programska oprema in informacijska infrastruktura) običajno edinstveni, produktivnost pa je odvisna od izkušenj in usposobljenosti posameznika, ki opravlja opravilo. Zato te industrije uporabljajo vmesnik SČD, da dobijo približek velikosti projekta, ne da bi podrobno spremljale napredek tega projekta. 
 
-Izdelava vmesnika SČD je intenziven postopek, ki se običajno izvaja v daljšem obdobju in zahteva sodelovanje in informacije najrazličnejših ljudi. Ta članek opisuje, kako lahko uporabite izboljšave WBS, da izpolnite svoje zahteve glede ocen in sledenja.
+Izdelava vmesnika SČD je intenziven postopek, ki se običajno izvaja v daljšem obdobju in zahteva sodelovanje in informacije najrazličnejših ljudi. Ta članek opisuje, kako lahko z izboljšavami vmesnika SČD izpolnite svoje zahteve za ocene in sledenje.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Predpogoji za ustvarjanje vmesnika SČD
 Če želite ustvariti vmesnik SČD, morate biti sposobni ustvariti delovni urnik in oceniti stroške dela.
@@ -166,7 +166,7 @@ Rešitev Finance imajo za SČD projekta tri poglede: pogled načrtovanja, pogled
 
 ### <a name="planning-view"></a>Pogled načrtovanja
 
-Pogled načrtovanja prikazuje načrtovano ali osnovno oceno razporeda in informacije o stroških. Čeprav ni funkcij za sledenje različici in izhodišču za SČD projekt, so vrednosti v tem pogledu namenjene predstavitvi osnovne različice. Razdelka o oceni urnika in oceni stroškov v tem članku opisujeta ta pogled in kako se uporablja za ustvarjanje WBS.
+Pogled načrtovanja prikazuje načrtovano ali osnovno oceno razporeda in informacije o stroških. Čeprav ni funkcij za sledenje različici in izhodišču za SČD projekt, so vrednosti v tem pogledu namenjene predstavitvi osnovne različice. Razdelka za oceno razporeda in oceno stroškov tega članka opisujeta ta pogled in to, kako je uporabljen za ustvarjanje vmesnika SČD.
 
 ### <a name="effort-tracking-view"></a>Pogled sledenja obsegu dela
 

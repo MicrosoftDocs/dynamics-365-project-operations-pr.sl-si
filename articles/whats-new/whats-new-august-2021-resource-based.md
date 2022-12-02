@@ -1,6 +1,6 @@
 ---
 title: Novosti za avgust 2021 – storitev Project Operations za scenarije, ki temeljijo na virih/pomanjkanju zaloge
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations avgusta 2021 za scenarije, ki temeljijo na virih/brez zalog.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v avgustovski (2021) izdaji aplikacije Project Operations za scenarije, ki temeljijo na virih/pomanjkanju zaloge.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8912306"
 
 *Velja za: scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi*
 
-Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
+Ta članek velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
    - Project Operations v različici okolja 4.13.0.152. storitve Microsoft Dataverse.
-   - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.20.
+   - Upravljanje projektov in računovodstvo v okoljih aplikacije Dynamics 365 Finance različice 10.0.20
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 
@@ -54,7 +54,7 @@ Vedno, ko posodabljate različico rešitev Project Operations Dataverse in Finan
 | Čas in strošek | 2336884 | Gumb za časovni vnos **Kopiraj teden** mora delovati tudi za druge uporabnike, ne le za trenutnega. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Vodenje projektov in računovodstvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektov in računovodstvo v okoljih aplikacij Dynamics 365 Finance
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: Prenos ponudbe v projekt
-description: Ta članek vsebuje informacije o tem, kako prenesti ponudbo v nov ali obstoječi projekt.
+description: Ta članek vsebuje informacije o tem, kako prenesti ponudbo v nov ali obstoječ projekt.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

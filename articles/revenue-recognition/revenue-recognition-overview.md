@@ -1,6 +1,6 @@
 ---
 title: Pregled priznavanja prihodkov
-description: Ta članek vsebuje informacije o priznavanju prihodkov v projektnem poslovanju.
+description: V tem članku so na voljo informacije o priznavanju prihodkov v storitvi Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8926290"
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-V storitvi Dynamics 365 Project Operations se načela priznavanja prihodkov razlikujejo glede na izbrani način obračunavanja za projekt ali del projekta. Ta članek vsebuje informacije o priznavanju prihodkov v projektnem poslovanju.
+V storitvi Dynamics 365 Project Operations se načela priznavanja prihodkov razlikujejo glede na izbrani način obračunavanja za projekt ali del projekta. V tem članku so na voljo informacije o priznavanju prihodkov v storitvi Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Knjižene transakcije po načinu obračunavanja časa in materiala
 

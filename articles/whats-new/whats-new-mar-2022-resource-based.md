@@ -1,6 +1,6 @@
 ---
 title: Novosti v marcu 2022 – Project Operations za primere uporabe z viri/brez zalog
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations marca 2022 za scenarije, ki temeljijo na virih/brez zalog.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v marčevski izdaji (2022) aplikacije Project Operations za primere uporabe z viri/brez zalog.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
@@ -18,26 +18,26 @@ ms.locfileid: "8910926"
 
 *Velja za: scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi*
 
-Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
+Ta članek velja za naslednje komponente in različice aplikacije Microsoft Dynamics 365 Project Operations:
 
-- Projektno delovanje v a Dataverse različica okolja 4.30.0.99
-- Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.25
+- Project Operations v različici okolja 4.30.0.99. storitve Dataverse
+- Upravljanje projektov in računovodstvo v okoljih aplikacije Dynamics 365 Finance različice 10.0.25
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 
-Dnevnice so zdaj podprte v novem in na novo zasnovanem sodobnem delovnem prostoru stroškov. Podjetja, ki uporabljajo dnevnice, lahko to funkcijo omogočijo, da uporabnikom omogočijo enostaven način za oddajo in povračilo dnevnic. Za več informacij glejte [Dnevnice](../expense/per-diem-expenses.md).
+Dnevnice so zdaj podprte v novem in prenovljenem sodobnem delovnem prostoru za stroške. Podjetja, ki uporabljajo dnevnice, lahko omogočijo to funkcijo, da uporabnikom omogočijo enostaven način oddaje in povrnitve dnevnic. Več informacij najdete v razdelku [Stroški dnevnic](../expense/per-diem-expenses.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Posodobitve preslikave za dvojno zapisovanje za Project Operations
 
-Naslednji seznam prikazuje zemljevide z dvojnim pisanjem, ki so bili spremenjeni ali dodani v izdaji Project Operations marca 2022.
+Na naslednjem seznamu so prikazane preslikave za dvojno zapisovanje, ki so spremenjene ali dodane v izdaji različice Project Operations iz marca 2022.
 
 | **Preslikava entitete** | **Posodobljena različica** | **Pripombe** |
 | --- | --- | --- |
-| Integracija projektnih operacij, izvozna entiteta vrstice računa prodajalca projekta msdyn\_ projektvendorinvoicelines | 1.0.0.3 | Preslikave so posodobljene tako, da se uskladijo z entiteto vrstice računa prodajalca v Dataverse. <br>Ne aktivirajte različice preslikave 1.0.0.4. V naslednji mesečni posodobitvi bo pripravljen za uporabo v kombinaciji z različico okolja Finance 10.0.26. |
+| Entiteta msdyn\_projectvendorinvoicelines za izvoz vrstice računa dobavitelja za projekt za integracijo aplikacije Project Operations | 1.0.0.3 | Preslikave so posodobljene za uskladitev z entiteto vrstice računa dobavitelja v okolju Dataverse. <br>Ne aktivirajte različice za preslikavo 1.0.0.4. Za uporabo v kombinaciji z okoljem Finance različice 10.0.26 bo na voljo v naslednji mesečni posodobitvi. |
 
-Vedno zaženite najnovejšo različico zemljevida v svojem okolju in omogočite vse povezane zemljevide tabel, ko posodabljate svoje operacije projekta Dataverse rešitev in različica rešitve Finance. Nekatere funkcije in zmožnosti morda ne bodo delovale pravilno, če najnovejša različica zemljevida ni aktivirana. Aktivno različico preslikave si lahko ogledate v stolpcu **Različica** na strani **Dvojno zapisovanje**. Če želite aktivirati novo različico preslikave, izberite možnost **Različice preslikave tabele**, izberite najnovejšo različico in nato shranite izbrano različico. Če ste prilagodili izključen zemljevid tabele, znova uporabite spremembe. Za več informacij glejte [Upravljanje življenjskega cikla aplikacij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Vedno, ko posodabljate različico rešitev Project Operations Dataverse in Finance, v svojem okolju zaženite najnovejšo verzijo preslikav in omogočite povezane preslikave tabel. Če ne aktivirate najnovejše različice preslikave, nekatere funkcije in zmogljivosti morda ne bodo delovale pravilno. Aktivno različico preslikave si lahko ogledate v stolpcu **Različica** na strani **Dvojno zapisovanje**. Če želite aktivirati novo različico preslikave, izberite možnost **Različice preslikave tabele**, izberite najnovejšo različico in nato shranite izbrano različico. Če ste prilagodili vnaprej pripravljeno preslikavo tabele, znova uporabite spremembe. Za več informacij glejte [Upravljanje življenjskega cikla aplikacij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Če pri zagonu zemljevida naletite na težavo, sledite navodilom v [Težava z manjkajočimi stolpci tabele na zemljevidih](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) razdelek vodnika za odpravljanje težav z dvojnim pisanjem.
+Če pri zagonu preslikave naletite na težavo, upoštevajte navodila v razdelku [Težava z manjkajočimi stolpci tabele v preslikavah](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) iz vodiča za odpravljanje težav z dvojnim zapisovanjem.
 
 ## <a name="quality-updates"></a>Posodobitve kakovosti
 
@@ -45,57 +45,57 @@ Vedno zaženite najnovejšo različico zemljevida v svojem okolju in omogočite 
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |
-| Čas in strošek | 2388011 | Pokažite zavrnitvene komentarje vlagateljem vnosa časa med odobritvijo v velikem obsegu. |
-| Načrtovanje in sledenje projektov | 2495294 | Podrobnosti projekta ni mogoče urejati na **Podrobnosti o nalogi** stran. |
-| Zaračunavanje in cene | 2499605 | Mejniki pogodbe, ki so ustvarjeni iz mejnikov ponudbe, so napačno označeni kot samo za branje. |
-| Načrtovanje in sledenje projektov | 2506050 | Nabor operacij ostane na čakanju eno uro, če ni sprememb za shranjevanje. Nabor je nato napačno označen kot **Neuspešno**, medtem ko ga je treba dokončati takoj. |
-| Zaračunavanje in cene | 2507401 | Privzete pogodbene enote so napačno vnesene v projekte zaradi nepravilnega predpomnjenja. |
-| Zaračunavanje in cene | 2541660 | **Potrditev ustvarjanja prodajnega naročila** v dvojnem pisanju mora biti samo za naročila, ki temeljijo na projektu. |
-| Zaračunavanje in cene | 2552745 | Davek ni razdeljen med stranke, ki so nastavile pravila za deljeno obračunavanje. |
-| Zaračunavanje in cene | 2558859 | Izboljšana sporočila o napakah pri nastavitvi dimenzij cen. |
-| Zaračunavanje in cene | 2558933 | **Uvoz iz ocen projekta** ne uspe, ko **msdyn\_ projekt** je dodan kot cena. |
+| Čas in strošek | 2388011 | Pokažite komentarje zavrnitve predlagateljem vnosa časa med množično odobritvijo. |
+| Načrtovanje in sledenje projektov | 2495294 | Podrobnosti projekta ne smete urejati na strani **Podrobnosti opravila**. |
+| Zaračunavanje in cene | 2499605 | Mejniki pogodbe, ki so ustvarjeni iz mejnikov ponudb, so nepravilno označeni kot samo za branje. |
+| Načrtovanje in sledenje projektov | 2506050 | Komplet postopkov ostane na čakanju eno uro, če ni nobene spremembe za shranjevanje. Komplet je nato lažno označen kot **Neuspel**, medtem ko moral biti takoj dokončan. |
+| Zaračunavanje in cene | 2507401 | Privzete pogodbene enote so v projektih nepravilno vnesene zaradi nepravilnega predpomnjenja. |
+| Zaračunavanje in cene | 2541660 | **Preverjanje veljavnosti izdelave prodajnega naloga** v dvojnem zapisovanju bi moralo biti namenjeno samo naročilom, ki temeljijo na projektu. |
+| Zaračunavanje in cene | 2552745 | Davek ni razdeljen med stranke, ki so nastavile pravila za razdeljeno obračunavanje. |
+| Zaračunavanje in cene | 2558859 | Izboljšana sporočila o napakah, ko so nastavljene razsežnosti cen. |
+| Zaračunavanje in cene | 2558933 | **Uvoz iz ocen projekta** ne uspe, ko je vrednost **msdyn\_project** dodana kot cenovna razsežnost. |
 | Zaračunavanje in cene | 2559101 | Brisanje parametrov projekta ni blokirano in povzroča težave. |
-| Upravljanje priložnosti | 2570390 | Vtičnik dvojnega pisanja prisili vrsto računa na ponudbe, naročila in priložnosti **Stranka**, tudi če ta vrsta računa ni pravilna. |
-| Zaračunavanje in cene | 2586097 | Dejanski dejanski zaračunani stroški se ne razveljavijo, ko je projekt odstranjen iz pogodbene vrstice projekta. |
-| Zaračunavanje in cene | 2589619 | Davek na vpisno gradivo se razširi na neobračunano dejansko prodajo in račun. |
-| Upravljanje priložnosti | 2594015 | Ponudbe ni mogoče zaključiti kot zmagovalno za stranke, ki so **Net60** plačilni pogoji. |
-| Načrtovanje in sledenje projektov | 2595841 | V Project for the Web uporabniki prejmejo sporočilo o napaki o manjkajočih **msdyn\_ dejanski začetek** ko ustvarijo novo zahtevo za vir. |
-| Čas in strošek | 2602511 | The **Zavrnjeno s strani** polje za prikaze časovnih vnosov **sistem** namesto imenovanega uporabnika kot zavrnilca. |
-| Čas in strošek | 2602528 | Odobritelj projekta lahko odobri čas za projekte, kjer niso navedeni kot odobritelj. |
-| Zaračunavanje in cene | 2608550 | Popravek računa je mogoče potrditi tudi, če izvirnik ni sprememb. |
+| Upravljanje priložnosti | 2570390 | Vtičnik za dvojno zapisovanje na ponudbah, naročilih in priložnostih vsili vrsto računa **Stranka**, tudi če ta vrsta računa ni pravilna. |
+| Zaračunavanje in cene | 2586097 | Dejanski stroški deljenega obračunavanja se ne razveljavijo, ko je projekt odstranjen iz podrobnosti projektne pogodbe. |
+| Zaračunavanje in cene | 2589619 | Davek na material, ki ni v katalogu, se prenese na neobračunane dejanske vrednosti prodaje in na račun. |
+| Upravljanje priložnosti | 2594015 | Ponudbe za stranke, ki imajo plačilne pogoje **Net60**, ni mogoče zapreti kot pridobljeno. |
+| Načrtovanje in sledenje projektov | 2595841 | Uporabniki v aplikaciji Project for the Web prejmejo sporočilo o napaki o manjkajoči vrednosti **msdyn\_actualstart**, ko ustvarijo novo zahtevo za vir. |
+| Čas in strošek | 2602511 | Polje **Zavrnil(-a)** za vnos časa kaže vrednost **Sistem** namesto imenovanega uporabnika kot zavrnitelja. |
+| Čas in strošek | 2602528 | Odobritelj projekta lahko odobri čas za projekte, kjer ni naveden kot odobritelj. |
+| Zaračunavanje in cene | 2608550 | Popravek računa je mogoče potrditi tudi, če na izvirniku ni sprememb. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Vodenje projektov in računovodstvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektov in računovodstvo v okoljih aplikacij Dynamics 365 Finance
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |
-| Upravljanje projektov in računovodstvo | [606759](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606759) | Obstaja neskladje med financami in projektnimi operacijami v dovoljeni dolžini **ID kategorije** polje. |
-| Upravljanje projektov in računovodstvo | [617806](https://fix.lcs.dynamics.com/Issue/Details/?bugId=617806) | Projektov s fiksno ceno ni mogoče odpraviti, ko **Na račun računov** polje je nastavljeno na **Profit in izguba** in **Izpolnjen odstotek** uporablja se načelo. |
-| Upravljanje projektov in računovodstvo | [620979](https://fix.lcs.dynamics.com/Issue/Details/?bugId=620979) | Nepravilna privzeta skupina prometnega davka je vnesena iz nastavitve projekta v odhodkovne vrstice v integracijskem dnevniku projektnih operacij. |
-| Upravljanje projektov in računovodstvo | [623014](https://fix.lcs.dynamics.com/Issue/Details/?bugId=623014) | Razsežnosti glave predloga računa projekta ne morete urejati v integrirani razmestitvi s projektnimi operacijami. |
-| Upravljanje projektov in računovodstvo | [624283](https://fix.lcs.dynamics.com/Issue/Details/?bugId=624283) | Računi med podjetji ne smejo biti integrirani z Dataverse. |
-| Upravljanje projektov in računovodstvo | [634156](https://fix.lcs.dynamics.com/Issue/Details/?bugId=634156) | Obstaja neusklajenost v valuti stanja strank in valuti poročanja. |
-| Upravljanje projektov in računovodstvo | [641612](https://fix.lcs.dynamics.com/Issue/Details/?bugId=641612) | Projektni račun lahko objavite tudi, če je stranka na čakanju za vse račune. |
-| Upravljanje projektov in računovodstvo | [642945](https://fix.lcs.dynamics.com/Issue/Details/?bugId=642945) | The **Izbrišite vse vrstice** V predlogih projektnih računov, ki imajo možnost, manjka gumb **Glava** in **vrstice** pogledov. |
-| Upravljanje projektov in računovodstvo | [637760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=637760) | Ko knjižite račun prodajalca, se pojavi naslednja napaka: »Obračunski datum za račun mora biti v istem obračunskem letu kot povezano kupljeno naročilo. Zaženite postopek ob koncu leta naročilnice ali spremenite datum v tekoče obračunsko leto." |
-| Pot in stroški | [604128](https://fix.lcs.dynamics.com/Issue/Details/?bugId=604128) | Prevzeti stroški za projekt se ne sprostijo po sprostitvi obveznosti potnih zahtevkov. |
-| Pot in stroški | [620803](https://fix.lcs.dynamics.com/Issue/Details/?bugId=620803) | Ko oddate poročilo o stroških, se pojavi naslednja napaka: "Sledenje sklada: Podjetje ne obstaja." |
-| Pot in stroški | [622465](https://fix.lcs.dynamics.com/Issue/Details/?bugId=622465) | Privzeto **ID projekta** se ne vnese v poročila o izdatkih, ko je **Zahtevaj dejavnost za revijo** parameter je izbran na projektu. |
-| Pot in stroški | [626781](https://fix.lcs.dynamics.com/Issue/Details/?bugId=626781) | The **Poštni stroški** Gumb ne deluje pravilno v projektnih operacijah za scenarije virov/brez zalog. |
-| Pot in stroški | [635348](https://fix.lcs.dynamics.com/Issue/Details/?bugId=635348) | Obstaja težava z **Stopnja na miljo** za poročilo o stroških prevoženih kilometrov, ki vključuje potnike. |
-| Pot in stroški | [638019](https://fix.lcs.dynamics.com/Issue/Details/?bugId=638019) | Stopnje stroškov prevoženih kilometrov za zaposlene niso pravilno sešteti, če sta v uporabi dve različni vrsti vozil **Stopnje kilometrine** kategorijo stroškov. |
-| Pot in stroški | [641272](https://fix.lcs.dynamics.com/Issue/Details/?bugId=641272) | Iskanje za **Projekt** polje v vrstici potnih zahtevkov ne vrne pravilnega seznama projektov. |
-| Pot in stroški | [645905](https://fix.lcs.dynamics.com/Issue/Details/?bugId=645905) | **Kilometraža v pregledu** prikazuje opozorilo na poročilih o stroških. |
-| Pot in stroški | [647819](https://fix.lcs.dynamics.com/Issue/Details/?bugId=647819) | Storitev optičnega prepoznavanja znakov (OCR) potrdila ne deluje zaradi težave z URL-jem storitve OCR stroškov. |
-| Pot in stroški | [648684](https://fix.lcs.dynamics.com/Issue/Details/?bugId=648684) | Ko **Sposobnost hitrega razvrščanja ponavljajočih se stroškov** je omogočena, se zneski v vrsticah razčlenitve v poročilih o izdatkih spremenijo zneske vsakič, ko se **Razčlenite** stran se odpre. |
+| Upravljanje projektov in računovodstvo | [606759](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606759) | Med aplikacijama Finance in Project Operations je prišlo do neujemanja v dovoljeni dolžini polja **ID kategorije**. |
+| Upravljanje projektov in računovodstvo | [617806](https://fix.lcs.dynamics.com/Issue/Details/?bugId=617806) | Projektov z nespremenljivo ceno ni mogoče izločiti, ko je polje **O izdaji računov za kupce** nastavljeno na **Poslovni izid** in se uporablja načelo **Delež napredka**. |
+| Upravljanje projektov in računovodstvo | [620979](https://fix.lcs.dynamics.com/Issue/Details/?bugId=620979) | Nepravilna privzeta skupina prometnega davka je vnesena iz nastavitve projekta v vrsticah stroškov v dnevniku integracije aplikacije Project Operations. |
+| Upravljanje projektov in računovodstvo | [623014](https://fix.lcs.dynamics.com/Issue/Details/?bugId=623014) | V integriranem uvajanju z aplikacijo Project Operations ne morete urejati razsežnosti glave predloga računa za projekt. |
+| Upravljanje projektov in računovodstvo | [624283](https://fix.lcs.dynamics.com/Issue/Details/?bugId=624283) | Računi medpodjetnih dobaviteljev ne smejo biti integrirani z okoljem Dataverse. |
+| Upravljanje projektov in računovodstvo | [634156](https://fix.lcs.dynamics.com/Issue/Details/?bugId=634156) | Valuta stanja strank in valuta poročanja se ne ujemata. |
+| Upravljanje projektov in računovodstvo | [641612](https://fix.lcs.dynamics.com/Issue/Details/?bugId=641612) | Račun za projekt lahko knjižite, tudi če je stranka na čakanju za vse račune. |
+| Upravljanje projektov in računovodstvo | [642945](https://fix.lcs.dynamics.com/Issue/Details/?bugId=642945) | Gumb **Izbriši vse vrstice** v predlogih računa projekta, ki imajo pogleda **Glava** in **Vrstice**. |
+| Upravljanje projektov in računovodstvo | [637760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=637760) | Ko knjižite račun dobavitelja, se pojavi naslednja napaka: »Datum obračuna za račun mora biti v istem obračunskem letu kot povezano naročilo. Zaženite proces naročilnice ob koncu leta ali spremenite datum na tekoče obračunsko leto.« |
+| Pot in stroški | [604128](https://fix.lcs.dynamics.com/Issue/Details/?bugId=604128) | Potrjena cena za projekt se ne sprosti po sprostitvi zahteve za pot s potrjeno ceno. |
+| Pot in stroški | [620803](https://fix.lcs.dynamics.com/Issue/Details/?bugId=620803) | Ko oddate poročilo o stroških, se pojavi naslednja napaka: »Sled sklada: podjetje ne obstaja.« |
+| Pot in stroški | [622465](https://fix.lcs.dynamics.com/Issue/Details/?bugId=622465) | Privzeti **ID projekta** se ne vnese v poročila o stroških, ko je v projektu izbran parameter **Zahteva dejavnosti za dnevnik**. |
+| Pot in stroški | [626781](https://fix.lcs.dynamics.com/Issue/Details/?bugId=626781) | Gumb **Stroški knjiženja** v aplikaciji Project Operations ne deluje pravilno za primere uporabe z viri/brez zalog. |
+| Pot in stroški | [635348](https://fix.lcs.dynamics.com/Issue/Details/?bugId=635348) | Prišlo je do težave s **Stopnjo na prevoženo razdaljo** za poročilo o stroških prevožene razdalje, ki vključuje potnike. |
+| Pot in stroški | [638019](https://fix.lcs.dynamics.com/Issue/Details/?bugId=638019) | Stopnje stroška na prevoženo razdalje za zaposlene niso pravilno seštete, če se v kategoriji stroškov **Stopnje prevožene razdalje** uporabljata dve različni vrsti vozil. |
+| Pot in stroški | [641272](https://fix.lcs.dynamics.com/Issue/Details/?bugId=641272) | Iskanje za polje **Projekt** v vrstici zahteve za pot ne vrne pravilnega seznama projektov. |
+| Pot in stroški | [645905](https://fix.lcs.dynamics.com/Issue/Details/?bugId=645905) | **Prevožena razdalja v pregledu** prikaže opozorilo na poročilih o stroških. |
+| Pot in stroški | [647819](https://fix.lcs.dynamics.com/Issue/Details/?bugId=647819) | Storitev optičnega prepoznavanja znakov (OCR) na potrdilih ne deluje zaradi težave z URL-jem storitve OCR za stroške. |
+| Pot in stroški | [648684](https://fix.lcs.dynamics.com/Issue/Details/?bugId=648684) | Ko je funkcija **Sposobnost hitrega razčlenjevanja ponavljajočih se stroškov** omogočena, se zneski v vrsticah razčlenitve v poročilih o stroških spremenijo vsakič, ko se odpre stran **Razčlenitev**. |
 | Pot in stroški | [651899](https://fix.lcs.dynamics.com/Issue/Details/?bugId=651899) | Poročila o stroških ne morete izbrisati, če ima vmesni seznam več kot enega odobritelja. |
 
-## <a name="removed-and-deprecated-features"></a>Odstranjene in zastarele funkcije
+## <a name="removed-and-deprecated-features"></a>Odstranjene in opuščene funkcije
 
-The [Odstranjene ali zastarele funkcije v Project Operations](removed-depreciated-features-project.md) članek opisuje funkcije, ki so bile odstranjene ali zastarele Dynamics 365 Project Operations.
+Članek [Odstranjene ali opuščene funkcije v aplikaciji Project Operations](removed-depreciated-features-project.md) opisuje funkcije, ki so bile za aplikacijo Dynamics 365 Project Operations odstranjene ali opuščene.
 
 - Odstranjena funkcija v izdelku ni več na voljo.
-- Zastarela funkcija ni v aktivnem razvoju in bo morda odstranjena v prihodnji posodobitvi.
+- Opuščena funkcija se ne razvija več in bo lahko odstranjena s prihodnjo posodobitvijo.
 
-Obvestilo o prenehanju veljavnosti bo prikazano v [Odstranjene ali zastarele funkcije v Project Operations](removed-depreciated-features-project.md) člen 12 mesecev preden se katera koli funkcija odstrani iz izdelka.
+Obvestilo o opustitvi bo prikazano v članku [Odstranjene ali zastarele funkcije v aplikaciji Project Operations](removed-depreciated-features-project.md), 12 mesecev preden bo katera koli funkcija odstranjena iz izdelka.
 
-Za prekinitvene spremembe, ki vplivajo samo na čas kompilacije, vendar so binarno združljive s peskovnikom in produkcijskimi okolji, bo čas zastaranja krajši od 12 mesecev. Običajno so te spremembe funkcionalne posodobitve, ki jih je treba izvesti v prevajalnik.
+Za predirajoče spremembe, ki vplivajo le na čas zbiranja, vendar so binarno združljive s peskovnikom in produkcijskimi okolji, bo čas opustitve krajši od 12 mesecev. Običajno so te spremembe funkcionalne posodobitve, ki jih je treba izvesti v sestavljalniku.

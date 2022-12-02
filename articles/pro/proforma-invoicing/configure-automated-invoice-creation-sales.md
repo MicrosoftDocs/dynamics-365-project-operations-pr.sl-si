@@ -1,6 +1,6 @@
 ---
 title: Nastavitev samodejnega ustvarjanja računov
-description: Ta članek vsebuje informacije o nastavitvi in konfiguriranju samodejnega ustvarjanja predračunov.
+description: Ta članek vsebuje informacije o nastavitvi in konfiguraciji samodejnega ustvarjanja računov.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

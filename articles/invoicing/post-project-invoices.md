@@ -1,6 +1,6 @@
 ---
 title: Pregled postopka izdajanja računa
-description: Ta članek ponuja pregled postopka izdajanja računov v projektnih operacijah za scenarije, ki temeljijo na virih/brez zalog.
+description: V tem članku je na voljo pregled postopka izdajanja računov v aplikaciji Project Operations za primere uporabe z viri/brez zalog.
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
@@ -21,7 +21,7 @@ Aplikacija Project Operations za primere uporabe z viri/brez zalog ponuja obsež
 
 ![Diagram poteka izdajanja računa.](./media/invoicing-flow.png)
 
-Podrobnosti projektne pogodbe določajo način obračunavanja za povezane projektne transakcije. Ko vodja projekta odobri časovne in stroškovne transakcije, sistem zabeleži transakcije v **Dejanski podatki o projektu** subjekt in podatke pošlje na **Vodenje projektov in računovodstvo** modul v Dynamics 365 Finance. Projektni računovodja nato pregleda in objavi zapise v [dnevniku integracij za aplikacijo Project Operations](../project-accounting/project-operations-integration-journal.md). V tem dnevniku so pomembne računovodske podrobnosti za opravljeno delo v projektu, kot so obračun, skupina prometnega davka, skupina prometnega davka za artikel obračuna in finančne razsežnosti.
+Podrobnosti projektne pogodbe določajo način obračunavanja za povezane projektne transakcije. Ko vodja projekta odobri časovne in stroškovne transakcije, sistem zabeleži transakcije v entiteto **Dejanske vrednosti projekta** in pošlje podatke v modul **Upravljanje projektov in računovodstvo** v storitvi Dynamics 365 Finance. Projektni računovodja nato pregleda in objavi zapise v [dnevniku integracij za aplikacijo Project Operations](../project-accounting/project-operations-integration-journal.md). V tem dnevniku so pomembne računovodske podrobnosti za opravljeno delo v projektu, kot so obračun, skupina prometnega davka, skupina prometnega davka za artikel obračuna in finančne razsežnosti.
 
 Vodja projekta lahko pregleda neobračunane prodajne transakcije z metodo obračunavanja časa in materiala v možnosti [Nedokončana opravila obračunavanja časa in materiala](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) in obračunavanja po fiksni ceni v možnosti [Mejniki s fiksno ceno](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Ti pogledi vam omogočajo, da filtrirate in izberete transakcije, ki jih je treba vključiti v naslednji cikel obračunavanja, in jih nato označite kot **Pripravljeno za izdajanje računov**.
 

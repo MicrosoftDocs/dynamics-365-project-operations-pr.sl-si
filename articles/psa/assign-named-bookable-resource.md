@@ -1,6 +1,6 @@
 ---
 title: Rezervacija poimenovanih virov, ki jih je mogoče rezervirati, za projektno ekipo in dodelitev opravil
-description: Ta članek vsebuje informacije o tem, kako rezervirati poimenovane vire projektnim skupinam in jih dodeliti nalogam.
+description: Ta članek vsebuje informacije o rezervaciji poimenovanih virov projektne ekipe in njihovi dodelitvi opravilom.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

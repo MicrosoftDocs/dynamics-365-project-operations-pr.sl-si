@@ -1,6 +1,6 @@
 ---
 title: Sinhronizacija zmogljivosti vira
-description: Ta članek vsebuje informacije o sinhronizaciji zmogljivosti vira med koledarji in projekti.
+description: Ta članek vsebuje informacije o sinhronizaciji zmogljivosti vira v koledarjih in projektih.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

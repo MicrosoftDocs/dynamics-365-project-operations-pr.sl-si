@@ -1,6 +1,6 @@
 ---
 title: Uvoz ocene v podrobnosti pogodbe, ki temeljijo na projektu
-description: Ta članek vsebuje informacije o tem, kako uvoziti ocene iz projekta v pogodbeno vrstico.
+description: Ta članek vsebuje informacije o tem, kako uvoziti ocene projekta v podrobnosti pogodbe.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

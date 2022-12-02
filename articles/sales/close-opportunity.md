@@ -1,6 +1,6 @@
 ---
 title: Zapiranje priložnosti
-description: Ta članek vsebuje informacije o zaprtju priložnosti za projekt.
+description: Ta članek vsebuje informacije o zapiranju projektne priložnosti.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

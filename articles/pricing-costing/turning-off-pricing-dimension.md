@@ -1,6 +1,6 @@
 ---
 title: Izklop cenovne razsežnosti
-description: V tem članku so informacije o tem, kako izklopiti razsežnosti cen.
+description: Ta članek vsebuje informacije o tem, kako izklopiti cenovne razsežnosti.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

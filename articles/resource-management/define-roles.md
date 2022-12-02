@@ -1,6 +1,6 @@
 ---
 title: Določanje vlog
-description: Ta članek vsebuje povezavo do informacij o nastavitvi kategorij virov, ki jih je mogoče rezervirati.
+description: Ta članek ponuja povezavo do informacij o nastavitvi kategorij virov, ki jih je mogoče rezervirati.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

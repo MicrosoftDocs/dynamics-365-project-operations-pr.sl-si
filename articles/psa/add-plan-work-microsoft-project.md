@@ -1,6 +1,6 @@
 ---
 title: Uporaba dodatka za rešitev Project Service za načrtovanje dela v programu Microsoft Project | MicrosoftDocs
-description: Ta članek vsebuje informacije o tem, kako dodati, konfigurirati in uporabljati dodatek Microsoft Project za storitev Microsoft Project.
+description: V tem članku najdete informacije o dodajanju, konfiguriranju in uporabi dodatka Microsoft Project za Microsoft Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

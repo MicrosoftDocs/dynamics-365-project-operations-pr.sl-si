@@ -1,6 +1,6 @@
 ---
 title: Nastavitev mer stroškov in prodajnih zneskov za stroške
-description: Ta članek vsebuje informacije o tem, kako nastaviti stroške in prodajne stopnje za kategorije transakcij in stroškov.
+description: Ta članek vsebuje informacije o nastavitvi mer stroškov in prodajnih zneskov za transakcije in kategorije stroškov.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Načini za rezervacijo dodelitev v storitvi Project Service Automation
-description: Ta članek vsebuje informacije o različnih načinih, na katere lahko rezervirate dodelitve.
+description: V tem članku najdete informacije o različnih načinih za rezervacijo dodelitev.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8929188"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Če člana ekipe dodate projektu neposredno na zavihku **Ekipa** ali rezervirate vir za projekt oz. zahtevo na plošči razporeda, lahko uporabite več različnih načinov rezervacije dodelitev. V tem članku je razloženo, kako deluje vsaka metoda in katere metode bi lahko vodile do prezasedenosti virov.
+Če člana ekipe dodate projektu neposredno na zavihku **Ekipa** ali rezervirate vir za projekt oz. zahtevo na plošči razporeda, lahko uporabite več različnih načinov rezervacije dodelitev. V tem članku je pojasnjeno, kako delujejo posamezni načini in kateri načini lahko vodijo v preveliko število rezervacij virov.
 
 ## <a name="full-capacity"></a>Polna zmogljivost 
 Način »Polna zmogljivost« rezervira polno zmogljivost vira za navedeni datumski obseg. Če je na primer koledar vira nastavljen za delo osem ur na dan in pet dni v tednu, bo vir rezerviran za 40 ur, če nastavite začetni in končni datum, ki zajema pet delovnih dni. Rezervacija je zaključena ne glede na preostalo zmogljivost vira. Če je vir v tem obdobju že rezerviran za druge projekte, je 40 ur rezerviranih kot dodatne ure, kar lahko vodi v preveliko število rezervacij.

@@ -1,6 +1,6 @@
 ---
 title: Upravljanje več strank v podrobnostih pogodb, ki temeljijo na projektih – poenostavljeno
-description: Ta članek vsebuje informacije o upravljanju več strank na pogodbenih linijah, ki temeljijo na projektih.
+description: Ta članek zagotavlja informacije o upravljanju več strank v podrobnostih pogodb, ki temeljijo na projektu.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

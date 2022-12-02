@@ -1,6 +1,6 @@
 ---
 title: Razvoj predlog projekta s funkcijo »Kopiraj projekt«
-description: Ta članek vsebuje informacije o tem, kako ustvariti predloge projektov z dejanjem po meri Kopiraj projekt.
+description: Ta članek vsebuje informacije o tem, kako ustvariti predloge projektov z uporabo dejanja po meri »Kopiraj projekt«.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
@@ -25,42 +25,42 @@ Ko izberete **Kopiraj projekt**, se posodobi stanje ciljnega projekta. Uporabite
 
 ### <a name="name"></a>Imenu 
 
-msdyn\_ CopyProjectV3
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Parametri vnosa
 
 Na voljo so trije parametri za vnos:
 
-- **ReplaceNamedResources** oz **ClearTeamsAndAssignments** – Nastavite samo eno od možnosti. Ne nastavite obojega.
+- **ReplaceNamedResources** ali **ClearTeamsAndAssignments** – Nastavite samo eno od teh možnosti. Ne nastavite obeh.
 
-    - **\{"ReplaceNamedResources":true\}** – Privzeto vedenje za projektne operacije. Vsi poimenovani viri se nadomestijo s splošnimi viri.
-    - **\{"ClearTeamsAndAssignments":true\}** – Privzeto vedenje za Project za splet. Vse naloge in člani ekipe so odstranjeni.
+    - **\{"ReplaceNamedResources":true\}** – Privzeto vedenje za aplikacijo Project Operations. Poimenovani viri so zamenjani s splošnimi viri.
+    - **\{"ClearTeamsAndAssignments":true\}** – Privzeto vedenje za storitev Project for the Web. Vsa opravila in člani ekipe so odstranjeni.
 
-- **SourceProject** – Sklic entitete izvornega projekta, iz katerega želite kopirati. Ta parameter ne more biti nič.
-- **Tarča** – Referenca entitete ciljnega projekta, na katero se kopira. Ta parameter ne more biti nič.
+- **SourceProject** – Sklic entitete izvornega projekta, v katerega se kopira. Ta parameter ne sme imeti vrednosti »null«.
+- **Target** – Sklic entitete ciljnega projekta, v katerega se kopira. Ta parameter ne sme imeti vrednosti »null«.
 
-Naslednja tabela ponuja povzetek treh parametrov.
+Naslednja tabela prikazuje povzetek treh parametrov.
 
 | Parameter                | Vnesi             | Vrednost                 |
 |--------------------------|------------------|-----------------------|
-| ReplaceNamedResources    | Logično          | **Prav** oz **Napačno** |
-| ClearTeamsAndAssignments | Logično          | **Prav** oz **Napačno** |
+| ReplaceNamedResources    | Logično          | **True** ali **False** |
+| ClearTeamsAndAssignments | Logično          | **True** ali **False** |
 | SourceProject            | Sklic na entiteto | Izvorni projekt    |
 | Cilj                   | Sklic na entiteto | Ciljni projekt    |
 
-Za več privzetih nastavitev za dejanja glejte [Uporabite dejanja spletnega API-ja](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+Za več informacij o dejanjih glejte [Uporaba dejanj spletnega API-ja](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
-### <a name="validations"></a>Validacije
+### <a name="validations"></a>Preverjanje veljavnosti
 
-Opravljene so naslednje validacije.
+Opravijo se naslednja preverjanja veljavnosti.
 
-1. Null preveri in pridobi izvorne in ciljne projekte, da potrdi obstoj obeh projektov v organizaciji.
-2. Sistem potrdi, da je ciljni projekt veljaven za kopiranje, tako da preveri naslednje pogoje:
+1. »Null« preveri in pridobi izvorni in ciljni projekt, da potrdi obstoj obeh projektov v organizaciji.
+2. Sistem preveri, ali je ciljni projekt veljaven za kopiranje, tako da preveri naslednje pogoje:
 
-    - Na projektu ni nobene prejšnje aktivnosti (vključno z izbiro **Naloge** zavihek), projekt pa je na novo ustvarjen.
-    - V tem projektu ni nobene prejšnje kopije, za ta projekt ni bil zahtevan uvoz in projekt nima datoteke **Neuspešno** stanje.
+    - Na projektu ni predhodnih dejavnosti (vključno z izborom zavihka **Opravila**) in projekt je na novo ustvarjen.
+    - Ni prejšnjih kopij, za ta projekt ni bil zahtevan noben uvoz in projekt nima stanja **Ni uspelo**.
 
-3. Operacija se ne kliče z uporabo HTTP.
+3. Postopek se ne kliče z uporabo HTTP.
 
 ## <a name="specify-fields-to-copy"></a>Določi polja za kopiranje
 
@@ -68,7 +68,7 @@ Ko je dejanje klicano, si bo dejanje **Kopiraj projekt** v projektnem pogledu og
 
 ### <a name="example"></a>Primer
 
-Naslednji primer prikazuje, kako poklicati **CopyProjectV3** dejanje po meri z **odstraniNamedResources** nabor parametrov.
+V spodnjem primeru je prikazano, kako prikličete dejanje po meri **CopyProjectV3** z nastavljenim parametrom **removeNamedResources**.
 
 ```C#
 {

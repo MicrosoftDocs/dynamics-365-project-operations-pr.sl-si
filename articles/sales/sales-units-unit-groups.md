@@ -1,6 +1,6 @@
 ---
 title: Enote in skupine enot
-description: Ta članek vsebuje informacije o tem, kako ustvariti enote in skupine enot v Dynamics 365 Project Operations.
+description: Ta članek vsebuje informacije o tem, kako v aplikaciji Dynamics 365 Project Operations ustvariti enote in skupine enot.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -28,7 +28,7 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoč
 
 Enote so količine ali meritve, v katerih prodajate svoje izdelke ali storitve. Če na primer prodajate vrtnarske izdelke, lahko semena prodajate v enotah, kot so paketi, škatle in palete. Skupina enot je zbirka teh različnih enot.
 
-Če želite dokončati korake v tem članku, se prepričajte, da ste bili dodeljeni vlogi sistemskega skrbnika ali vodje strokovnjaka za prodajo ali imate enakovredna dovoljenja.
+Za izvedbo korakov v tem članku, se prepričajte, da imate dodeljeno vlogo skrbnika sistema ali upravitelja za Sales Professional ali pa imate enakovredna dovoljenja.
 
 ## <a name="create-a-unit-group"></a>Ustvarjanje skupine enot
 

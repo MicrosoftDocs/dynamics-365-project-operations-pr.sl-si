@@ -1,6 +1,6 @@
 ---
 title: Uporaba kategorije transakcije kot cenovne razsežnosti
-description: Ta članek vsebuje informacije o tem, kako uporabiti polje Kategorija transakcije kot dimenzijo cene.
+description: Ta članek vsebuje informacije o tem, kako uporabiti polje Kategorija transakcije kot cenovno razsežnost.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,10 +19,10 @@ ms.locfileid: "8911723"
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 
-Ta članek pojasnjuje, kako uporabljati **Kategorija transakcije** polje kot dimenzijo cene. 
+Ta članek opisuje, kako uporabiti polje **Kategorija transakcije** kot cenovno razsežnost. 
 
 ## <a name="prerequisites"></a>Zahteve
-Preden dokončate postopke v tem članku, morate imeti novo rešitev za cenovno dimenzijo za svojo organizacijo. Če je še niste ustvarili, glejte [Ustvarjanje polj in entitet po meri kot cenovnih razsežnosti](create-custom-fields-entities-pricing-dimensions.md).
+Preden dokončate postopke v tem članku, morate imeti novo rešitev za cenovne razsežnosti za svojo organizacijo. Če je še niste ustvarili, glejte [Ustvarjanje polj in entitet po meri kot cenovnih razsežnosti](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Dodajanje polja Kategorija transakcije v obrazce in poglede
 Če želite narediti polje **Kategorija transakcije** vidno v rešitvi za cenovne razsežnosti, morate polje dodati vsem obrazcem in pogledom v obliki entitete.

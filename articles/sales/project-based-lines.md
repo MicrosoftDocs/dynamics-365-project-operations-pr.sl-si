@@ -1,6 +1,6 @@
 ---
 title: Podrobnosti priložnosti, ki temeljijo na projektih
-description: Ta članek vsebuje informacije o delu s priložnostnimi linijami, ki temeljijo na projektih.
+description: Ta članek vsebuje informacije o delu s podrobnostmi priložnosti, ki temeljijo na projektu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

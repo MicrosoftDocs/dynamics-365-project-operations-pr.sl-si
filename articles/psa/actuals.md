@@ -1,6 +1,6 @@
 ---
 title: Pregled dejanskih vrednosti
-description: Ta članek vsebuje informacije o dejanskem stanju projekta.
+description: Ta članek vsebuje informacije o dejanskih podatkih za projekt.
 author: rumant
 ms.custom:
 - dyn365-projectservice

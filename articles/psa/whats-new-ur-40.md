@@ -1,6 +1,6 @@
 ---
 title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 40, V3
-description: V tem članku so navedene funkcije in popravki, ki so na voljo v Microsoft Dynamics 365 Project Service Automation Posodobitev izdaja 40, V3.
+description: Ta članek navaja funkcije in popravke, ki so na voljo v izdaji posodobitve 40, V3 storitve Microsoft Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/31/2022
@@ -29,21 +29,21 @@ ms.locfileid: "8912812"
 
 Z veseljem objavljamo najnovejšo posodobitev za aplikacijo Microsoft Dynamics 365 Project Service Automation. Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Združljiva je z s storitvijo Dynamics 365 9.x. Če želite posodobiti to različico, obiščite spletno stran rešitev za Skrbniško središče za Dynamics 365 in namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).
 
-V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za posodobitev Project Service Automation, izdaja 40, V3. Ta različica ima številko graditve V3.10.61.61 in je splošno na voljo s samoposodobitvijo februarja 2022.
+V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation 40, V3. Ta različica ima številko graditve V3.10.61.61 in je splošno na voljo s samoposodobitvijo februarja 2022.
 
 ## <a name="update-release-40"></a>Izdaja posodobitve 40
 
 ### <a name="features"></a>Funkcije
-Prva faza nadgradnje z avtomatizacije Project Service na Project Operations - Lite bo izdana februarja 2022 za vse stranke. Če želite preveriti primernost, glejte [Nadgradite s Project Service Automation na Project Operations](upgrade-project-operations-non-stocked.md). Če se aplikacija ne pojavi v vašem primeru v Power Platform Skrbniški center, se obrnite na podporo in zahtevajte, da se let omogoči za vaša okolja. Vaša zahteva mora vsebovati seznam ID-jev okolja, kjer je treba let omogočiti.
+1. faza nadgradnje s Project Service Automation na Project Operations – poenostavljena različica bo izdana februarja 2022 za vse stranke. Če želite preveriti upravičenost, glejte [Nadgradnja s Project Service Automation na Project Operations](upgrade-project-operations-non-stocked.md). Če se aplikacija v vašem primerku ne prikaže v skrbniškem središču za Power Platform, se obrnite na podporo in zahtevajte, da se let omogoči za vaša okolja. Vaša zahteva mora vsebovati seznam ID-jev okolja, kjer je treba omogočiti let.
 
 ### <a name="bug-fixes"></a>Popravki napak
 
 Odpravljene so naslednje težave:
 
 **Čas in strošek**
-- Vnos beležke manjka, ko je vnos časa zavrnjen ali preklican. 
+- Vnos opombe manjka, ko je vnos časa zavrnjen ali preklican. 
 
 **Prodaja**
 
-- Ko posodabljate ocene stroškov ali prodaje z uporabo vtičnikov, ki so že pripravljeni, imate napačno dovoljenje za pošiljanje koristnih podatkov JSON, ki niso veljavni zunaj uporabniškega vmesnika.
-- Ko posodobite vrstice ponudb s hitrim pogledom, lahko aktivirate ponudbe.
+- Ko posodobite ocene stroškov ali prodaje z vnaprej pripravljenimi vtičniki, vam je nepravilno dovoljeno pošiljati koristne vsebine JSON, ki niso veljavne zunaj uporabniškega vmesnika.
+- Ko s hitrim vpogledom posodobite vrstice ponudb, lahko aktivirate ponudbe.

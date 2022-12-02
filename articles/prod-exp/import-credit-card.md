@@ -1,6 +1,6 @@
 ---
 title: Uvoz in vzdrževanje transakcij s kreditnimi karticami
-description: Ta članek pojasnjuje, kako uvoziti in vzdrževati transakcije s kreditno kartico, povezane s stroški. Te transakcije lahko nastavite tako, da se samodejno uvozijo v rednem intervalu, ali pa jih po potrebi ročno uvozite.
+description: V tem članku je pojasnjeno, kako uvoziti in vzdrževati transakcije s kreditnimi karticami, povezane s stroški. Te transakcije lahko nastavite tako, da se samodejno uvozijo v rednem intervalu, ali pa jih po potrebi ročno uvozite.
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article

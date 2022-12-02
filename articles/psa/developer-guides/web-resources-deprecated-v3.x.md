@@ -1,6 +1,6 @@
 ---
 title: Zastareli spletni viri v rešitvi Project Service Automation 3.x
-description: Ta članek opisuje spletne vire, ki se ne uporabljajo več Dynamics 365 Project Service Automation 3.0.
+description: Ta članek opisuje spletne vire, ki se v rešitvi Dynamics 365 Project Service Automation 3.0 več ne uporabljajo.
 author: makk
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Novosti za oktober 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations iz oktobra 2021 za scenarije, ki temeljijo na virih/brez zalog.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji storitve Project Operations za scenarije, ki temeljijo na virih/nezalogi, za oktober 2021.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8914657"
 
 *Velja za: scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi*
 
-Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
+Ta članek velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
    - Project Operations v različici okolja 4.25.0.91 storitve Microsoft Dataverse
-   - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.21
+   - Upravljanje projektov in računovodstvo v okoljih aplikacije Dynamics 365 Finance različice 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 
@@ -49,7 +49,7 @@ Vedno, ko posodabljate različico rešitev Project Operations Dataverse in Finan
 | Zaračunavanje in cene | 2338357 | Valuta v dnevniku uporabe materiala mora biti prevzeta iz valute projekta, ko je projekt izbran. |
 | Čas in strošek | 2414777 | Preklic odobritve, če ima vnos stroška ali časa več kot eno povezano odobritev projekta, mora biti mogoč. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Vodenje projektov in računovodstvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektov in računovodstvo v okoljih aplikacij Dynamics 365 Finance
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |

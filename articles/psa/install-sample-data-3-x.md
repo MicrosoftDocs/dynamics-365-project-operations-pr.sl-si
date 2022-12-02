@@ -1,6 +1,6 @@
 ---
 title: Namestitev vzorčnih podatkov
-description: Ta članek vsebuje informacije o nameščanju vzorčnih podatkov v Project Service Automation.
+description: Ta članek vsebuje informacije o namestitvi vzorčnih podatkov v storitvi Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak

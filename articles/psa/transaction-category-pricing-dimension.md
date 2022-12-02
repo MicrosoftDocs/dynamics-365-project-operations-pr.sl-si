@@ -1,6 +1,6 @@
 ---
 title: Uporaba kategorije transakcije kot cenovne razsežnosti
-description: Ta članek vsebuje informacije o uporabi kategorije transakcije kot razsežnosti cene.
+description: Ta članek vsebuje informacije o uporabi kategorije transakcije kot cenovne razsežnosti.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8915756"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-V tem članku je prikazano, kako uporabiti kategorijo transakcij kot dimenzijo cene. Preden začnete, morate ustvariti novo rešitev cenovne razsežnosti, če je še niste. Če že imate rešitev cenovne razsežnosti, lahko izvedete spremembe kar v tisti rešitvi. Če za svojo organizacijo niste ustvarili nove rešitve za cenovne dimenzije, dokončajte postopke v [Ustvarite polja in entitete po meri](create-custom-fields-entities.md) Članek.
+Ta članek opisuje, kako uporabiti kategorijo transakcije kot cenovno razsežnost. Preden začnete, morate ustvariti novo rešitev cenovne razsežnosti, če je še niste. Če že imate rešitev cenovne razsežnosti, lahko izvedete spremembe kar v tisti rešitvi. Če še niste ustvarili nove rešitve cenovne razsežnosti za vašo organizacijo, najprej do konca izvedite postopke v članku [Ustvarjanje polj in entitet po meri](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Dodajanje kategorij transakcij v obrazce in poglede
 Če želite kategorije transakcij prikazati v uporabniškem vmesniku rešitve za cenovne razsežnosti, boste morali odpreti vse obrazce in poglede v ključnih entitetah rešitve Project Service in ta polja dodati v obrazce in poglede teh entitet.

@@ -1,6 +1,6 @@
 ---
 title: Izdaja računa za honorar ali predplačilo
-description: Ta članek vsebuje informacije o tem, kako zaračunati zadrževalniku ali predujmu v projektnih operacijah.
+description: Ta članek vsebuje informacije o izdajanju računov za honorar ali predujem v aplikaciji Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

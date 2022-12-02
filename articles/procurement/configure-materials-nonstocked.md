@@ -1,6 +1,6 @@
 ---
 title: Konfiguracija materialov, ki niso na zalogi, in čakajočih računov dobavitelja
-description: V tem članku je razloženo, kako omogočiti materiale brez zalog in čakajoče račune prodajalcev.
+description: V tem članku je pojasnjeno, kako omogočiti materiale, ki niso na zalogi, in čakajoče račune dobavitelja.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Zagon preslikav za dvojno zapisovanje za materiale, ki niso na zalogi, in čakajoče račune dobavitelja
 
-V tem razdelku so na voljo informacije o posebnih preslikavah, potrebnih za materiale, ki niso na zalogi, in čakajoče račune dobavitelja. Preverite, ali so zemljevidi predpogojev, navedeni v [Zagotovite si novo okolje](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) članek deluje v vašem okolju.
+V tem razdelku so na voljo informacije o posebnih preslikavah, potrebnih za materiale, ki niso na zalogi, in čakajoče račune dobavitelja. Preverite, ali se zahtevane preslikave, navedene v članku [Omogočanje novega okolja](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps), izvajajo v vašem okolju.
 
 1. Odprite storitev Lifecycle Services (LCS), pomaknite se v svoj projekt LCS in odprite stran **Podrobnosti o okolju**.
 2. V razdelku **Informacije o okolju Common Data Service** izberite možnost **Povezava do storitve CDS za aplikacije**. Ko izberete povezavo, boste preusmerjeni na seznam entitet v preslikavah.

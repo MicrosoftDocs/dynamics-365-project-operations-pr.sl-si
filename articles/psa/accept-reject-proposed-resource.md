@@ -1,6 +1,6 @@
 ---
 title: Sprejem ali zavrnitev predlaganega vira projekta
-description: Ta članek vsebuje informacije o tem, kako odobriti ali zavrniti predlagani vir projekta.
+description: Ta članek vsebuje informacije o odobritvi ali zavrnitvi predlaganega vira projekta.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -30,7 +30,7 @@ ms.locfileid: "8916216"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Ta članek vsebuje informacije o tem, kako odobriti ali zavrniti predlagani vir projekta.
+Ta članek vsebuje informacije o odobritvi ali zavrnitvi predlaganega vira projekta.
 
 Ko upravitelj virov predlaga imenovani vir za zapolnitev zahteve splošnega vira za projekt, se polje **Stanje zahteve** splošnega člana ekipe posodobi na **Potreben pregled**. Vodji projekta bo poslana zahteva za odobritev ali zavrnitev.
 

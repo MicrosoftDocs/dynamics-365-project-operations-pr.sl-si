@@ -37,7 +37,7 @@ Ko dejavnost napreduje, se stanje projekta posodablja, da prikazuje stanje dejav
 | opravilo, | Description | 
 |------------|----------|
 | **New** | Ko ustvarite projekt, je stanje nastavljeno na **Novo**. Če ste ustvarili projekt iz predloge, ima na tej stopnji projekt morda urnik, ocene in podatke o ekipi. V nasprotnem primeru je na voljo osnutek projekta in morate preostale komponente projekta vnesti ročno. |
-| **Ponudba** |  Ko projekt povežete s ponudbo ali ga ustvarite iz ponudbe, je faza projekta nastavljena na **Kvota**, posodobljena pa sta tudi predvideni začetni in končni datum. Ko je projekt v stanju ponudbe, so podrobnosti o ponudbi prikazane na zavihku **Prodaja** na strani **Projekt**. |
+| **Ponudba** |  Ko povežete projekt s ponudbo ali ga ustvarite iz ponudbe, je stopnja projekta nastavljena na **Ponudba**, pri čemer se posodobita tudi ocenjeni začetek in konec projekta. Ko je projekt v stanju ponudbe, so podrobnosti o ponudbi prikazane na zavihku **Prodaja** na strani **Projekt**. |
 | **Načrt** |  Ko je ponudba, povezana s projektom, sprejeta, in ko se dejavnost premakne v stanje pogodbe, se stanje projekta posodobi v **Načrt**. Podrobnosti pogodbe so prikazane na zavihku **Prodaja** na strani **Projekt**. |
 | **Dokončaj** | Ko je delo na projektu končano, lahko stanje preklopite v **Zaključeno**. Ko je projekt zaključen, to pomeni, da je delo v celoti opravljeno, vseeno pa je projekt odprt zaradi čakajočih vnosov, povezanih s časom ali stroški. |
 | **Zapri** | Ko so vse transakcije, povezane s projektom zabeležene in ne pričakujete nobenih novih, lahko stanje ročno preklopite v **Zaprto**. Ko je projekt nastavljen na **Zaprto**, vanj ni več mogoče zapisovati transakcij, saj je projekt dostopen samo za branje. |

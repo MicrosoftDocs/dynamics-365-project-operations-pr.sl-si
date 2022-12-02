@@ -1,6 +1,6 @@
 ---
 title: Novosti v decembru 2020 – uvajanje storitve Project Operations Lite – posel do izstavitve predračuna
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji za december 2020 uvedbe Project Operations Lite – dogovor o predračunu.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v decembrski izdaji (2020) uvajanja aplikacije Project Operations – posel do izstavitve predračuna.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924082"
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
+Ta članek velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
   - Project Operations v okolju Dataverse različice 4.5.0.134 
 

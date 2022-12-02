@@ -1,6 +1,6 @@
 ---
 title: Novosti za september 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations septembra 2021 za scenarije, ki temeljijo na virih/brez zalog.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji aplikacije Project Operations za scenarije, ki temeljijo na virih/nezalogi, za september 2021.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8923392"
 
 *Velja za: scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi*
 
-Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
+Ta članek velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
    - Project Operations v različici okolja 4.14.0.99. storitve Microsoft Dataverse.
-   - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.20.
+   - Upravljanje projektov in računovodstvo v okoljih aplikacije Dynamics 365 Finance različice 10.0.20
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Posodobitve preslikave za dvojno zapisovanje za Project Operations
 
@@ -45,7 +45,7 @@ Vedno, ko posodabljate različico rešitev Project Operations Dataverse in Finan
 | Zaračunavanje in oblikovanje cen | 2385802 | Odpravljena napaka, do katere pride z negativnimi dejanskimi urami, ko so skupne vrednosti za projekt osvežene. |
 | Zaračunavanje in oblikovanje cen | 2389675 | Izboljšano delovanje potrditve predračuna. Entiteta dolgotrajnih poslov mora upoštevati dejavnost, ki je obvezna za zapisovanje rezultatov potrditve za računovodstvo. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Vodenje projektov in računovodstvo v Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektov in računovodstvo v okoljih aplikacij Dynamics 365 Finance
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |

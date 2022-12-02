@@ -1,6 +1,6 @@
 ---
 title: Pogosta vprašanja in odgovori o upravljanju virov
-description: Ta članek ponuja odgovore na pogosto zastavljena vprašanja o upravljanju virov.
+description: Ta članek vsebuje odgovore na pogosta vprašanja o upravljanju virov.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Določanje zahtev za vir
-description: Ta članek vsebuje informacije o definiranju informacij o zahtevah po virih.
+description: Ta članek vsebuje informacije o podatkih za določanje zahtev za vir.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

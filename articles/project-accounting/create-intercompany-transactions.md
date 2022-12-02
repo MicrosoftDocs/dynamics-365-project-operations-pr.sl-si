@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje medpodjetnih transakcij
-description: Ta članek vsebuje informacije o tem, kako ustvariti transakcije med podjetji.
+description: Ta članek vsebuje informacije o tem, kako ustvariti medpodjetne transakcije.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -30,14 +30,14 @@ Ko je medpodjetna transakcija odobrena, se ustvarijo naslednje dejanske transakc
 
 Ceno in valuto transakcije za stroške, urno postavko vira in prodajo medorganizacijske enote določa **organizacijska enota**. To morate upoštevati, ko se odločate, kako strukturirati podjetja in organizacijske enote pri svojem izvajanju.
 
-Ko ustvarite zapise o priložnostih, ponudbah, projektnih pogodbah in projektih, sistem preveri, ali se valuta pogodbene enote ujema z računovodsko valuto pogodbenega podjetja. Če nista enaki, zapisov ni mogoče ustvariti. Valuto organizacijske enote določite v Dynamics 365 Project Operations, tako da odprete **Dataverse** > **Nastavitve** > **Organizacijske enote**. Računovodska valuta podjetja je definirana v Dynamics 365 Finance tako, da greste na **Glavna knjiga** > **Nastavitev glavne knjige** > **Ledger**. Valuta je sinhronizirana z vašim okoljem Dataverse prek zemljevida Ledgers Dual Write.
+Ko ustvarite zapise o priložnostih, ponudbah, projektnih pogodbah in projektih, sistem preveri, ali se valuta pogodbene enote ujema z računovodsko valuto pogodbenega podjetja. Če nista enaki, zapisov ni mogoče ustvariti. Valuto organizacijske enote določite v Dynamics 365 Project Operations, tako da odprete **Dataverse** > **Nastavitve** > **Organizacijske enote**. Računovodsko valuto podjetja določite v aplikaciji Dynamics 365 Finance, tako da odprete **Glavna knjiga** > **Nastavitev knjige** > **Knjiga**. Valuta je sinhronizirana z vašim okoljem Dataverse prek zemljevida Ledgers Dual Write.
 
 Sistem ustvari dejanske podatke stroškov za enoto vira in prodajo medorganizacijskih enot v naslednjih situacijah:
 
   - Ko se enota vira razlikuje od pogodbene enote
   - Ko se podjetje, ki zagotavlja vire, razlikuje od pogodbenega podjetja
 
-Vendar pa bodo v okolje Dynamics 365 Finance za dodatno obračunavanje prenesene samo transakcije, ki imajo drugačno dobaviteljsko podjetje od pogodbenega podjetja.
+V okolje Dynamics 365 Finance pa se bodo za dodatne računovodske storitve prenesle samo transakcije, pri katerih se podjetje, ki zagotavlja vire, razlikuje od pogodbenega podjetja.
 
 Računovodstvo za dejanske podatke projekta je zabeleženo v dnevniku integracij Project Operations v aplikaciji Finance. Sistem ustvari naslednje vrstice dnevnika.
 

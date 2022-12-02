@@ -1,6 +1,6 @@
 ---
 title: Izklop cenovne razsežnosti
-description: V tem članku je prikazano, kako nastaviti razsežnosti cen v rešitvi Project Service.
+description: Ta članek vsebuje informacije o tem, kako nastavite cenovne razsežnosti v rešitvi Project Service.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Upravljanje več strank v projektnih pogodbah
-description: Ta članek vsebuje informacije o tem, kako upravljati več strank na projektni pogodbi.
+description: Ta članek vsebuje informacije o upravljanju več strank v projektni pogodbi.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "8928360"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Upravljanje več strank v projektnih pogodbah
 
-Ta članek vsebuje informacije o tem, kako upravljati več strank na projektni pogodbi. Projektno pogodbo lahko uporabite, kadar je za financiranje posla potreben pogodbeni sporazum za več strank. Na zavihku **Povzetek** na strani **Projektna pogodba** so vključene informacije o primarni stranki za posel. Druge stranke, ki prav tako sodelujejo pri poslu, lahko dodate v zavihku **Stranke**.
+Ta članek vsebuje informacije o upravljanju več strank v projektni pogodbi. Projektno pogodbo lahko uporabite, kadar je za financiranje posla potreben pogodbeni sporazum za več strank. Na zavihku **Povzetek** na strani **Projektna pogodba** so vključene informacije o primarni stranki za posel. Druge stranke, ki prav tako sodelujejo pri poslu, lahko dodate v zavihku **Stranke**.
 
 Vse stranke pogodbe na zavihku **Stranke** v projektni pogodbi, so privzeto stranke podrobnosti pogodbe v vseh novih podrobnostih pogodb, ki temeljijo na projektu in so ustvarjene za projektno pogodbo. Vse obstoječe podrobnosti pogodbe, ki temeljijo na projektu, ne podedujejo pozneje ustvarjenih novih zapisov o pogodbenih strankah.
 

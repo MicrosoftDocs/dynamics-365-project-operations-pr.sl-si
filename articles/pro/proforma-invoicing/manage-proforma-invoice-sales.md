@@ -1,6 +1,6 @@
 ---
 title: Upravljanje predračuna projekta
-description: Ta članek vsebuje informacije o tem, kako delati s predračuni projektov.
+description: Ta članek vsebuje informacije o tem, kako delati s predračuni projekta.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

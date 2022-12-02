@@ -1,6 +1,6 @@
 ---
 title: Privzeto nastavljanje finančnih razsežnosti za časovne vnose projekta
-description: Ta članek vsebuje informacije o tem, kako se privzete finančne razsežnosti uporabljajo za vnose časa.
+description: Ta članek zagotavlja informacije o tem, kako se privzete finančne razsežnosti uporabljajo za časovne vnose.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8916584"
 
 [!include [banner](../includes/banner.md)]
 
-Ko uporabljate finančne razsežnosti za vnose časa projekta, se privzeta vrednost dimenzije oceni v naslednjem vrstnem redu:
+Ko uporabljate finančne razsežnosti za časovne vnose projekta, se privzeta vrednost razsežnosti oceni v naslednjem vrstnem redu:
 
 1. Vir
 2. Projekt
 3. Vir financiranja
 
-Če je na primer privzeta dimenzija podana za vir, se privzeta vrednost uporabi za privzeto vrednost, ki je podana za projekt. Podobno, če je pri projektu podana privzeta dimenzija, se privzeta vrednost uporabi nad privzeto vrednostjo, ki je podana za vir financiranja.
+Če je privzeta razsežnost na primer določena na viru, se privzeta vrednost uporabi nad privzeto vrednostjo, ki je določena za projekt. Če je privzeta razsežnost določena na projektu, se privzeta vrednost prav tako uporabi nad privzeto vrednostjo, ki je določena za vir financiranja.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

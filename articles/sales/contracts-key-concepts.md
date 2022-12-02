@@ -1,6 +1,6 @@
 ---
 title: Projektne pogodbe – ključni pojmi
-description: Ta članek vsebuje informacije o ključnih konceptih projektnih pogodb v projektnih operacijah.
+description: Ta članek vsebuje informacije o ključnih pojmih projektnih pogodb v aplikaciji Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/n
 
 
 
-V tem članku so navedeni ključni koncepti, ki se jih morate zavedati, preden začnete uporabljati projektne pogodbe Dynamics 365 Project Operations:
+Ta članek vsebuje ključne koncepte, ki jih morate upoštevati, preden začnete uporabljati Projektne pogodbe v aplikaciji Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Lastniško podjetje
 
-Lastniška družba je pravna oseba iz **Vodenje projektov in računovodstvo** modul za projektne operacije iz Dynamics 365 Finance. Lastniško podjetje predstavlja pravno osebo, ki bo obračunala stroške in prihodke, ki nastanejo pri poslu.
+Lastniško podjetje je pravna osebe v modulu **Vodenje projektov in računovodstvo** v aplikaciji Project Operations iz storitve Dynamics 365 Finance. Lastniško podjetje predstavlja pravno osebo, ki bo obračunala stroške in prihodke, ki nastanejo pri poslu.
 
 ## <a name="contracting-unit"></a>Pogodbena enota
 

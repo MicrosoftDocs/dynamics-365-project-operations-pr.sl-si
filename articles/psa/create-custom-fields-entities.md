@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje polj in entitet po meri
-description: Ta članek pojasnjuje, kako ustvariti nabore možnosti in entitete v lastni rešitvi v Power Apps platforma.
+description: V tem članku je pojasnjeno, kako ustvarite nabor možnosti in entitete v svoji rešitvi v platformi Power Apps.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8926934"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Če želite ustvariti nabor možnosti ali entiteto po meri v platformi Power Apps, upoštevajte spodnje korake.  
-Postopke v tem članku je treba izvesti s spletnim vmesnikom Project Service Automation (PSA).
+Postopke v tem članku morate izvesti s spletnim vmesnikom aplikacije Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Priporočamo, da vse cenovne razsežnosti po meri spremenite v ločeni rešitvi. Ta pomembna najboljša praksa zagotavlja nadaljnjo prilagodljivost pri posodabljanju ali odstranjevanju sprememb po potrebi, pomaga pri ponovni uporabi vašega dela in olajša prenos teh sprememb v drug primerek. Ko naredite vse zahtevane spremembe, izvozite to rešitev kot **upravljano rešitev** in jo uvozite v druge primerke, da znova uporabite nastavitev cen.

@@ -1,6 +1,6 @@
 ---
 title: Pregled uskladitve virov
-description: Ta članek vsebuje informacije, ki vam bodo pomagale zagotoviti, da so rezervacije virov in dodelitve za projekte usklajene.
+description: Ta članek podaja informacije, ki vam bodo pomagale zagotoviti, da so rezervacije virov in dodelitve za projekte poravnane.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview

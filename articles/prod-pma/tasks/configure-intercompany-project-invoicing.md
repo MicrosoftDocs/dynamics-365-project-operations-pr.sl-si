@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje zaračunavanja projektov med podjetji
-description: V tem članku je prikazano, kako nastaviti projektno fakturiranje med dvema podjetjema v vaši organizaciji.
+description: V tem članku je prikazano, kako nastavite zaračunavanje projektov med dvema podjetjema v vaši organizaciji.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8916630"
 
 [!include [banner](../../includes/banner.md)]
 
-V tem članku je prikazano, kako nastaviti projektno fakturiranje med dvema podjetjema v vaši organizaciji. To opravilo uporablja nabor podatkov USSI.
+V tem članku je prikazano, kako nastavite zaračunavanje projektov med dvema podjetjema v vaši organizaciji. To opravilo uporablja nabor podatkov USSI.
 
 1. V podoknu za krmarjenje pojdite na **Moduli > Obveznosti > Dobavitelji > Vsi dobavitelji**.
 2. Na seznamu **Vsi dobavitelji** poiščite in izberite želeni zapis.

@@ -1,6 +1,6 @@
 ---
 title: Pregled zadrževanja dobaviteljev
-description: Ta članek ponuja pregled zmožnosti zadrževanja prodajalcev.
+description: Ta članek vsebuje pregled zmogljivosti zadrževanja dobaviteljev.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview

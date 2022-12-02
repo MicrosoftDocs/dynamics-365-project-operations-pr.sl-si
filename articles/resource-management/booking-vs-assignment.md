@@ -1,6 +1,6 @@
 ---
 title: Rezervacije v primerjavi z dodelitvami
-description: Ta članek ponuja informacije o razlikah med rezervacijami virov in dodelitvami virov.
+description: Ta članek ponuja informacije o razlikah med rezervacijami virov in dodeljevanjem virov.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article

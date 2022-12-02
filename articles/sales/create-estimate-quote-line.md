@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje ocen za podrobnosti ponudbe
-description: Ta članek vsebuje informacije o tem, kako ustvariti oceno v vrstici ponudbe za projekt.
+description: Ta članek vsebuje informacije o tem, kako ustvariti oceno za podrobnosti ponudbe za projekt.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

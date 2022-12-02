@@ -1,6 +1,6 @@
 ---
 title: Vnos stroškov (poenostavljen)
-description: Ta članek vsebuje informacije o tem, kako delati z vnosom stroškov pri preprosti uvedbi.
+description: Ta članek vsebuje informacije o tem, kako delati z vnosom stroškov v poenostavljeni uvedbi.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Projektne subvencije
-description: Ta članek pojasnjuje, kako ustvariti ali spremeniti donacijo.
+description: Ta članek pojasnjuje, kako ustvariti ali spremeniti subvencijo.
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article

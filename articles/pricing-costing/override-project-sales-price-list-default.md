@@ -1,6 +1,6 @@
 ---
 title: Preglasitev prodajnih cenikov za projekte
-description: Ta članek vsebuje informacije o izdelavi prodajnih cenikov po meri.
+description: Ta članek vsebuje informacije o ustvarjanju prodajnih cenikov po meri.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

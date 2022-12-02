@@ -1,6 +1,6 @@
 ---
 title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 44, V3
-description: V tem članku so navedene funkcije in popravki, ki so na voljo v Microsoft Dynamics 365 Project Service Automation Posodobitev izdaja 44, V3.
+description: Ta članek navaja funkcije in popravke, ki so na voljo v izdaji posodobitve 44, V3 storitve Microsoft Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/26/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8918700"
 
 Z veseljem objavljamo najnovejšo posodobitev za aplikacijo Microsoft Dynamics 365 Project Service Automation. Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Združljiva je z s storitvijo Dynamics 365 9.x. Če želite posodobiti to različico, obiščite spletno stran rešitev za Skrbniško središče za Dynamics 365 in namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).
 
-V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za posodobitev Project Service Automation, izdaja 44, V3. Ta različica ima številko gradnje V3.10.75.142 in je na splošno na voljo s samoposodobitvijo junija 2022.
+V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation 44, V3. Ta različica ima številko gradnje V3.10.75.142 in je na splošno na voljo s samoposodobitvijo junija 2022.
 
 ## <a name="update-release-44"></a>Izdaja posodobitve 44
 
@@ -39,4 +39,4 @@ Odpravljene so naslednje težave:
 
 **Čas in strošek**
 
-- Zamujena sistemska opravila so preprečevala obdelavo čakajočih odobritev.
+- Zakasnjeni sistemski posli so preprečevali obdelavo čakajočih odobritev.

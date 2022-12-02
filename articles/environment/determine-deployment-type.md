@@ -1,6 +1,6 @@
 ---
 title: Določanje vrste uvedbe
-description: Ta članek vsebuje informacije, ki vam bodo pomagale določiti pravilno vrsto uvajanja operacij projekta za vaše podjetje.
+description: Ta članek vsebuje informacije za pomoč pri izbiri prave vrste uvajanja z aplikacijo Project Operations v vašem podjetju.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
@@ -25,7 +25,7 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoč
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Obstoječe stranke rešitve Dynamics, ki uporabljajo aplikacijo Dynamics 365 Project Service Automation
 Aplikacija Project Operations vključuje zmogljivosti, ki so bile na voljo v aplikaciji Project Service Automation. Pot nadgradnje bo tem strankam izdana v 1. valu izdaj za leto 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Obstoječe stranke Dynamics 365 Finance uporabljajo projektno vodenje in računovodstvo 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Obstoječe stranke aplikacije Dynamics 365 Finance, ki uporabljajo Upravljanje projektov in računovodstvo 
 
 Obstoječe stranke rešitve Finance, ki uporabljajo funkcionalnost upravljanja projektov in računovodstva lahko nadaljujejo z uporabo rešitve, kakršna je. Glejte razdelek [Aplikacija Project Operations za scenarije z naročili na zalogi/v proizvodnji](#pma).
 

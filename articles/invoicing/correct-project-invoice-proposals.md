@@ -1,6 +1,6 @@
 ---
 title: Pravilno obračunavanje osnutkov predlogov za račune projekta
-description: V tem članku je pojasnjeno, kako prilagoditi računovodske informacije v predlogu osnutka računa.
+description: V tem članku je pojasnjeno, kako prilagoditi z računovodstvom povezane informacije na osnutku predloga za račun.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
@@ -19,7 +19,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/n
 
 *Podrobnosti operacije* računov za projekte vodja projekta hrani na predračunu. V podrobnosti so vključene odločitve o urah, stroških, gradivu ali mejnikih, za katere mora biti izdan račun, cene ter izdaja zneska predujmov in honorarjev. Ko potrdite izvirni predračun, lahko operativne podrobnosti prilagodite tako, da ustvarite [popravljalni predračun](../proforma-invoicing/corrective-invoices.md) in ga potrdite.
 
-*Računovodske podrobnosti* o računih za projekte so shranjene v računu za stranke. V podrobnosti so vključeni izračuni prometnega davka in finančne razsežnosti, uporabljene za račun. Ta članek vsebuje podrobnosti o tem, kako je mogoče te računovodske podrobnosti prilagoditi na osnutku predloga računa projekta.
+*Računovodske podrobnosti* o računih za projekte so shranjene v računu za stranke. V podrobnosti so vključeni izračuni prometnega davka in finančne razsežnosti, uporabljene za račun. V ta članek so vključeni podatki o tem, kako prilagoditi računovodske podrobnosti na osnutku predloga za račun.
 
 ## <a name="adjust-sales-tax"></a>Prilagoditev prometnega davka
 
@@ -27,15 +27,15 @@ Privzete skupine za obračun prometnega davka in skupine davka od prodaje izdelk
 
 ## <a name="adjust-financial-dimensions"></a>Prilagoditev finančnih razsežnosti
 
-### <a name="header-dimensions"></a>Dimenzije glave
+### <a name="header-dimensions"></a>Razsežnosti glave
 
-Finančne razsežnosti računa so privzeto izpeljane iz nezaračunanih zapisov projektnih transakcij, ki se fakturirajo. Vendar pa sistemske nastavitve omogočajo uporabo finančnih razsežnosti v glavi predlogov računov projekta za knjiženje stanja strank. Če želite omogočiti to funkcijo, izberite **Dovoli posodobitve dimenzij projekta za terjatve** na **Finance** zavihek na **Vodenje projektov in računovodski parametri** stran.
+Privzeto so finančne razsežnosti računa izpeljane iz zapisov o neobračunanih transakcijah projekta, za katere se izda račun. Vendar pa vam sistemske nastavitve omogočajo uporabo finančnih razsežnosti v glavi predlogov za račune projekta za knjiženje stanj strank. Če želite omogočiti to funkcijo, izberite **Dovoli posodobitve projektnih razsežnosti za terjatve** v zavihku **Finance** na strani **Vodenje projekta in računovodski parametri**.
 
-Finančne razsežnosti v glavah računov je mogoče urediti, preden je račun objavljen. Na **Predlog računa projekta** stran, preklopite na **Glava** si oglejte in nato uredite vrednosti na **Finančne razsežnosti** zavihek.
+Finančne razsežnosti v glavah računa je mogoče urediti, preden je račun knjižen. Na strani **Predlog za račune projekta** preklopite na pogled **Glava** in nato uredite vrednosti v zavihku **Finančne razsežnosti**.
 
-The **Glava** pogled je na voljo šele, ko skrbnik sistema omogoči **Uporabite predlog računov projekta in obrazce dnevnika računov s pogledom Glava in vrstice** značilnost v **Upravljanje funkcij** delovni prostor. Ta funkcija zahteva posodobitev Finance 10.0.25 ali novejšo.
+Pogled **Glava** je na voljo šele potem, ko skrbnik sistema omogoči funkcijo **Uporabi predlog za račune projekta in obrazce dnevnikov računov s pogledom »Glava« in »Vrstice«** v delovnem prostoru **Upravljanje funkcij**. Ta funkcija zahteva posodobitev aplikacije Finance na različico 10.0.25 ali novejšo.
 
-### <a name="line-dimensions"></a>Dimenzije črt
+### <a name="line-dimensions"></a>Razsežnosti vrstic
 
 Finančnih razsežnosti ni mogoče urejati neposredno v vrstici predloga za račun projekta. Če želite prilagoditi finančne razsežnosti v predlogu za račun projekta, sledite naslednjim korakom.
 

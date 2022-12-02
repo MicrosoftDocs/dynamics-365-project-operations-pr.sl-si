@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje in posodabljanje projekta
-description: Ta članek vsebuje informacije o posodabljanju projektnih operacij.
+description: Ta članek vsebuje informacije o posodabljanju projektov v aplikacij Project Operations.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

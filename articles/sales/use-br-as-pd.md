@@ -1,6 +1,6 @@
 ---
 title: Uporaba vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti
-description: Ta članek vsebuje informacije o tem, kako uporabiti vir, ki ga je mogoče rezervirati, kot dimenzijo cene.
+description: V tem članku so na voljo informacije o uporabi vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "8914836"
 
  _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_ 
 
-Ta članek vsebuje informacije o tem, kako uporabiti vir, ki ga je mogoče rezervirati, kot dimenzijo cene. Če je vaša cenovna strategija nastavljena tako, da mora imeti vsak vir, ki ga je mogoče rezervirati, določeno cenovno ali stroškovno stopnjo, uporabite vir, ki ga je mogoče rezervirati, kot cenovno razsežnost.
+V tem članku so na voljo informacije o uporabi vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti. Če je vaša cenovna strategija nastavljena tako, da mora imeti vsak vir, ki ga je mogoče rezervirati, določeno cenovno ali stroškovno stopnjo, uporabite vir, ki ga je mogoče rezervirati, kot cenovno razsežnost.
 
 ## <a name="prerequisites"></a>Zahteve
-Preden dokončate postopke v tem članku, morate imeti novo rešitev za cenovno dimenzijo za svojo organizacijo. Če je še niste ustvarili, glejte [Ustvarjanje polj in entitet po meri](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Preden dokončate postopke v tem članku, morate imeti novo rešitev za cenovne razsežnosti za svojo organizacijo. Če je še niste ustvarili, glejte [Ustvarjanje polj in entitet po meri](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Dodajanje polja Vir, ki ga je mogoče rezervirati, v obrazce in poglede
 Če želite narediti polje **Vir, ki ga je mogoče rezervirati** vidno v rešitvi za cenovne razsežnosti, morate polje dodati vsem obrazcem in pogledom v obliki entitete.

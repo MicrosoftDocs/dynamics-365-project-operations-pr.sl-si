@@ -1,6 +1,6 @@
 ---
 title: Množični popravki dejanskih vrednosti, ustvarjeni s potrjenimi vnosi časov in stroškov
-description: V tem članku je razloženo, kako lahko skrbnik izvede posamezne ali množične popravke predhodno odobrenih vnosov časa ali stroškov, če obračun ni popoln.
+description: Ta članek pojasnjuje, kako lahko skrbnik izvede posamične ali množične popravke predhodno odobrenih vnosov za čas ali strošek, če obračun ni popoln.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article

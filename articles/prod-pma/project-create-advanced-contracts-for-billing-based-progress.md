@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje naprednih pogodb za obračunavanje na podlagi napredka
-description: V tem članku je razloženo, kako ustvarite projektne pogodbe, tako da lahko ustvarite račune za stranke na podlagi odstotka opravljenega dela.
+description: Ta članek pojasnjuje, kako ustvariti projektne pogodbe, da boste lahko ustvarili račune za stranke na podlagi odstotka opravljenega dela.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -25,9 +25,9 @@ ms.locfileid: "8913686"
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Ustvarjanje naprednih pogodb za obračunavanje na podlagi napredka
 [!include [banner](../includes/banner.md)]
 
-V tem članku je razloženo, kako ustvarite projektne pogodbe, tako da lahko ustvarite račune za stranke na podlagi odstotka opravljenega dela. Zneski računov se samodejno izračunajo za proračunske kategorije dela, ki ste jih nastavili za projekt. Čas računa je nastavljen, ko se s stranko dogovorite za projektno pogodbo.
+Ta članek pojasnjuje, kako ustvariti projektne pogodbe, da boste lahko ustvarili račune za stranke na podlagi odstotka opravljenega dela. Zneski računov se samodejno izračunajo za proračunske kategorije dela, ki ste jih nastavili za projekt. Čas računa je nastavljen, ko se s stranko dogovorite za projektno pogodbo.
 
-Uporabite postopke v tem članku za nastavitev pogodbe, povezanega projekta in pravil za obračunavanje, ki izračunajo zneske računov za proračunske kategorije dela, ki ste jih nastavili za projekt.
+S postopki v tem članku nastavite pogodbo, z njo povezani projekt in obračunska pravila, ki izračunajo zneske računov za proračunske kategorije del, ki ste jih nastavili za projekt.
 
 Ko ustvarite pogodbo in projekt, lahko nastavite podrobnosti o projektu. Na primer, določite lahko dejavnosti in projektu dodelite delavce.
 

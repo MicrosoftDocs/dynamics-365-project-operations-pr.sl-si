@@ -1,6 +1,6 @@
 ---
 title: Upravljanje možnih strank
-description: Ta članek vsebuje informacije o upravljanju potencialnih strank, ki temeljijo na projektih.
+description: Ta članek vsebuje informacije o upravljanju možnih strank, ki temeljijo na projektu (Pro).
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

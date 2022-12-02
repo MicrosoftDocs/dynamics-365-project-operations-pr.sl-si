@@ -1,6 +1,6 @@
 ---
 title: Prejemanje izdelkov, ki so navedeni v naročilu, v okviru zahteve po izdelku
-description: V tem članku je razloženo, kako prejeti artikle na naročilnico iz zahteve po artiklu.
+description: Ta članek pojasnjuje, kako sprejeti izdelke, navedene v naročilu, v okviru zahteve po izdelku.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -24,7 +24,7 @@ ms.locfileid: "8929556"
 
 [!include [banner](../../includes/banner.md)]
 
-V tem članku je razloženo, kako prejeti artikle na naročilnico iz zahteve po artiklu.
+Ta članek pojasnjuje, kako sprejeti izdelke, navedene v naročilu, v okviru zahteve po izdelku.
 
 S tem ko namesto transakcije izdelka uporabite zahtevo po izdelku, lahko načrtujete dostavo tik pred dejansko uporabo izdelka, ustvarite naročilo, vključite izdelek v ogrodje trgovinskega sporazuma in zahtevo po izdelku vključite v načrtovanje proizvodnje. 
 

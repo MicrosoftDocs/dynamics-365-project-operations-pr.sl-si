@@ -1,6 +1,6 @@
 ---
 title: Sledenje prodaji v projektu
-description: Ta članek vsebuje informacije o tem, kako projektne operacije spremljajo napredek glede na prihodke od dela na projektu.
+description: Ta članek vsebuje informacije o tem, kako operacije Project Operations spremljajo napredek glede na prihodek od dela na projektu.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

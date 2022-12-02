@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje projektne ekipe
-description: Ta članek vsebuje informacije o ustvarjanju in upravljanju projektnih skupin.
+description: Ta članek vsebuje informacije o tem, kako ustvariti in upravljati projektne ekipe.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

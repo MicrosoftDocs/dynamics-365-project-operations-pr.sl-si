@@ -31,7 +31,7 @@ ms.locfileid: "8913272"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Viri so najpomembnejše sredstvo organizacije, ki temelji na storitvah. Sposobnost iskanja in rezerviranja ustreznih virov v skladu s povpraševanjem in njihova stalna aktivnost pomagajo organizaciji izpolniti cilje glede prihodkov in zadovoljstva strank. Naslednji članki se osredotočajo na zmožnosti upravljanja virov Dynamics 365 Project Service Automation:
+Viri so najpomembnejše sredstvo organizacije, ki temelji na storitvah. Sposobnost iskanja in rezerviranja ustreznih virov v skladu s povpraševanjem in njihova stalna aktivnost pomagajo organizaciji izpolniti cilje glede prihodkov in zadovoljstva strank. Naslednji članki so osredotočeni na zmožnosti upravljanja z aplikacijo Dynamics 365 Project Service Automation:
 
 - [Upravljanje virov](manage-resources.md)
 - [Ključni pojmi](reports-key-concepts.md)

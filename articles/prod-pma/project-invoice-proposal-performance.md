@@ -1,6 +1,6 @@
 ---
 title: Uspešnost predlogov za račune projekta
-description: Ta članek ponuja informacije o izboljšavah učinkovitosti predlogov računov za projekte.
+description: Ta članek vsebuje informacije o izboljšavah učinkovitosti delovanja predlogov računov za projekte.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

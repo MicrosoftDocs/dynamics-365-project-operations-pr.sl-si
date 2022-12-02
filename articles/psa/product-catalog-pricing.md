@@ -1,6 +1,6 @@
 ---
 title: Cene v katalogu izdelkov
-description: Ta članek vsebuje informacije o tem, kako delujejo cene v katalogu izdelkov Dynamics 365 Project Service Automation (PSA).
+description: Ta članek vsebuje informacije o tem, kako delujejo cene v katalogu izdelkov v aplikaciji Dynamics 365 Project Service Automation (PSA).
 author: rumant
 ms.custom:
 - dyn365-projectservice

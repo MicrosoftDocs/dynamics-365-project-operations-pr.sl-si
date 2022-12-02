@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje predloge delovnih ur
-description: V tem članku je opisano, kako ustvarite predlogo delovnih ur v storitvi Project Service.
+description: V tem članku so opisana navodila za ustvarjanje predloge delovnih ur v storitvi Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

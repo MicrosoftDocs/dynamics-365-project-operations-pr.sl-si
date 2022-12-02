@@ -1,6 +1,6 @@
 ---
 title: Izpolnjevanje zahtevanih pogojev za vir
-description: Ta članek vsebuje informacije o tem, kako izpolniti zahteve po virih.
+description: Ta članek vsebuje informacije o izpolnjevanju zahtevanih pogojev za vire.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

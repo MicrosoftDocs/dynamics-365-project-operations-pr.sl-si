@@ -1,6 +1,6 @@
 ---
 title: Ocene prodaje in projekti
-description: Ta članek vsebuje informacije o tem, kako izkoristiti razpored in ocene v prodajnem procesu.
+description: Ta članek vsebuje informacije o tem, kako izkoristite razpored in ocene v prodajnem procesu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

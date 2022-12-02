@@ -1,6 +1,6 @@
 ---
 title: Izpolnitev zahteve za splošni vir
-description: Ta članek vsebuje informacije o tem, kako rezervirati poimenovane vire za splošno zahtevo po virih.
+description: Ta članek vsebuje informacije o rezervaciji imenovanih virov za zahtevo za splošni vir.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

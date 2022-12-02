@@ -24,7 +24,7 @@ ms.locfileid: "8683880"
 
 [!include [banner](../../includes/banner.md)]
 
-Projektne stopnje lahko služijo kot vodilo za življenjski cikel projekta. Stopnje projekta, ki jih želite vključiti v svoje projekte, lahko določite v območju »Stopnja projekta« na strani »Vodenje projekta in računovodski parametri«. Dynamics 365 Finance ponuja pet vnaprej določenih stopenj projekta in tri uporabniško določene faze. Da bi sledili napredku projektov, lahko posodobite ime stopnje projekta, ki ga uporabljate. Prav tako lahko navedete uporabniško določena imena stanja. To opravilo prikazuje, kako lahko preimenujete ali spremenite stopnjo projekta, in uporablja nabor podatkov USSI.
+Projektne stopnje lahko služijo kot vodilo za življenjski cikel projekta. Stopnje projekta, ki jih želite vključiti v svoje projekte, lahko določite v območju »Stopnja projekta« na strani »Vodenje projekta in računovodski parametri«. Dynamics 365 Finance ponuja pet vnaprej določenih stopenj projekta in tri uporabniško določene stopnje. Da bi sledili napredku projektov, lahko posodobite ime stopnje projekta, ki ga uporabljate. Prav tako lahko navedete uporabniško določena imena stanja. To opravilo prikazuje, kako lahko preimenujete ali spremenite stopnjo projekta, in uporablja nabor podatkov USSI.
 
 1. Odprite »Vodenje projektov in računovodstvo« > »Nastavitve« > »Vodenje projekta in računovodski parametri«.
 2. Kliknite zavihek »Stopnja projekta«.

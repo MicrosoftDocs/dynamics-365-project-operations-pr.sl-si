@@ -1,6 +1,6 @@
 ---
 title: Določanje znanj in usposobljenosti
-description: Ta članek vsebuje informacije o tem, kako nastaviti modele strokovnosti za ocenjevanje virov.
+description: Ta članek vsebuje informacije o tem, kako nastaviti modele usposobljenosti za ocenjevanje virov.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

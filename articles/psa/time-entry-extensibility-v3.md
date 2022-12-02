@@ -1,6 +1,6 @@
 ---
 title: Prilagajanje tedenskih časovnih vnosov
-description: Ta članek vsebuje informacije o tem, kako izvajati poslovna pravila po meri, ki podpirajo prakse organizacije.
+description: Ta članek vsebuje informacije o izvajanju pravil poslovanja po meri, ki sledijo poslovnim praksam organizacije.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ V razdelku **Razsežnosti** so v obliki naslova stolpca prikazane vse razsežnos
 - Vrsta
 - Stanje vnosa
 
-V razdelku **Razsežnosti** urejanje v vrstici ni mogoče. Ta razdelek je podprt s pogledom, ki omogoča dodajanje polj po meri v tedensko mrežo časovnih vnosov. Za informacije o dodajanju polj po meri glejte razdelek »Razširljivost« pozneje v tem članku.
+V razdelku **Razsežnosti** urejanje v vrstici ni mogoče. Ta razdelek je podprt s pogledom, ki omogoča dodajanje polj po meri v tedensko mrežo časovnih vnosov. Za več informacij o dodajanju polj po meri si oglejte razdelek »Razširljivost« v nadaljevanju tega članka.
 
 ### <a name="duration"></a>Trajanje
 Razdelek »Trajanje« prikazuje dneve v tednu kot glave stolpcev. Ta razdelek omogoča urejanje v vrstici. Ko je ustvarjena vrstica za časovni vnos z ustreznimi razsežnostmi, lahko uporabniki v vrstico hitro vnesejo količino časa, ki so ga porabili za te razsežnosti.

@@ -1,6 +1,6 @@
 ---
 title: Prikaz zaračunane uporabe virov
-description: Ta članek vsebuje informacije o pogledu uporabe virov.
+description: V tem članku so na voljo informacije o prikazu uporabe virov.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

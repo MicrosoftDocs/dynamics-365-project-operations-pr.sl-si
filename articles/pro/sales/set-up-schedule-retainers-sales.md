@@ -1,6 +1,6 @@
 ---
 title: Nastavitev urnika za honorarje
-description: Ta članek vsebuje informacije o tem, kako nastaviti časovni razpored zadrževanja v projektnih operacijah.
+description: Ta članek vsebuje informacije o tem, kako nastaviti urnik za honorar za Project Operations.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

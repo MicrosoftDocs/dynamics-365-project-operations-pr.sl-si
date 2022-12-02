@@ -1,6 +1,6 @@
 ---
 title: Dnevniki načrtovanja projekta
-description: Ta članek vsebuje informacije in vzorce, ki vam bodo pomagali uporabljati dnevnike načrtovanja projektov za sledenje napakam, ki so povezane s storitvijo načrtovanja projektov in API-ji za načrtovanje projektov.
+description: Ta članek zagotavlja informacije in vzorce, ki vam bodo pomagali pri uporabi dnevnikov razporejanja projektov za sledenje napakam, ki so povezane s storitvijo razporejanja projektov in API-ji za razporejanje projektov.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
@@ -15,88 +15,88 @@ ms.locfileid: "8923715"
 ---
 # <a name="project-scheduling-logs"></a>Dnevniki načrtovanja projekta
 
-_**Velja za:** Projektne operacije za scenarije, ki temeljijo na virih/brez zalog, uvedba Lite - obračunavanje s predračunom_, _za splet_
+_**Velja za:** aplikacija Project Operations za okoliščine, ki temeljijo na virih/nezalogi, poenostavljeno uvajanje – posel do izstavitve predračuna_, _storitev Project for the Web_
 
-Microsoft Dynamics 365 Project Operations uporablja [Projekt za splet](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) kot njegov primarni mehanizem za načrtovanje. Namesto uporabe standarda Microsoft Dataverse Programski vmesniki spletnih aplikacij (API), Project Operations uporablja nove API-je za načrtovanje projektov za ustvarjanje, posodabljanje in brisanje projektnih nalog, dodelitev virov, odvisnosti opravil, projektnih segmentov in članov projektnih skupin. Ko pa se operacije ustvarjanja, posodabljanja ali brisanja programsko izvajajo na entitetah strukture razčlenitve dela (WBS), lahko pride do napak. Za sledenje tem napakam in zgodovini operacij sta bila implementirana dva nova skrbniška dnevnika: **Komplet operacij** in **Storitev načrtovanja projektov (PSS)**. Za dostop do teh dnevnikov pojdite na **Nastavitve** \> **Integracija urnika**.
+Microsoft Dynamics 365 Project Operations kot primarni mehanizem za razporejanje uporablja [Project for the Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5). Project Operations namesto standardnih spletnih vmesnikov za programiranje aplikacij (API) Microsoft Dataverse uporablja nove API-je za razporejanje projektov za ustvarjanje, posodabljanje in brisanje opravil projekta, dodelitev virov, odvisnosti od opravil, projektnih veder in članov projektnih ekip. Ko pa se postopki ustvarjanja, posodabljanja ali brisanja programsko izvajajo na entitetah strukturirane razčlenitve dela (SČD), lahko pride do napak. Za sledenje tem napakam in zgodovini postopkov sta bila implementirana dva nova skrbniška dnevnika: **Komplet postopkov** in **Storitev razporejanja projektov (PSS)**. Do teh dnevnikov lahko dostopate v razdelku **Nastavitve** \> **Integracija urnika**.
 
-Naslednja slika prikazuje podatkovni model za dnevnike načrtovanja projekta.
+Naslednja slika prikazuje podatkovni model za dnevnike razporejanja projektov.
 
-![Podatkovni model za dnevnike načrtovanja projekta.](media/LOGDATAMODEL.jpg)
+![Podatkovni model za dnevnike razporejanja projektov.](media/LOGDATAMODEL.jpg)
 
-## <a name="operation-set-log"></a>Dnevnik nabora operacij
+## <a name="operation-set-log"></a>Dnevnik kompleta postopkov
 
-Dnevnik nabora operacij sledi izvedbi nabora operacij, ki se uporablja za izvajanje ene ali več operacij ustvarjanja, posodabljanja ali brisanja v paketu na projektih, projektnih nalogah, dodelitvah virov, odvisnosti opravil, projektnih vedrih ali članih projektne skupine. The **Delovanje v statusu** polje prikazuje splošno stanje niza operacij. Podrobnosti koristne obremenitve nabora operacij so zajete v povezanih zapisih podrobnosti nabora operacij.
+Dnevnik kompleta postopkov sledi izvajanju kompleta postopkov, ki se uporablja za zagon ene ali več postopkov ustvarjanja, posodabljanja ali brisanja v paketu na projektih, projektnih opravilih, dodelitvah virov, odvisnostih opravil, projektnih vedrih ali članih projektne ekipe. Polje **Postopek v stanju** prikazuje splošno stanje kompleta postopkov. Podrobnosti koristnih vrednosti kompleta postopkov so zajete v povezanih zapisih podrobnosti kompleta postopkov.
 
-### <a name="operation-set"></a>Operacijski komplet
+### <a name="operation-set"></a>Komplet postopkov
 
-Naslednja tabela prikazuje polja, ki so povezana z **Operacijski komplet** entiteta.
+Spodnja tabela prikazuje polja, ki se nanašajo na entiteto **Komplet postopkov**.
 
 | Ime sheme            | Description                                                                                                  | DisplayName            |
 |-----------------------|--------------------------------------------------------------------------------------------------------------|------------------------|
-| msdyn_completedon     | Datum/čas, ko je bila nastavitev operacij končana ali neuspešna.                                                | CompletedOn            |
-| msdyn_correlationid   | The **Id korelacije** vrednost zahteve.                                                                  | CorrelationId          |
-| msdyn_description     | Opis kompleta operacij.                                                                        | Description            |
-| msdyn_executedon      | Datum/čas, ko se je zapis izvajal.                                                                       | Izvedeno:            |
-| msdyn_operationsetId  | Edinstveni identifikator primerkov entitete.                                                                   | OperationSet           |
-| msdyn_Project         | Projekt, ki je povezan z operacijskim sklopom.                                                            | Projekt                |
-| msdyn_projectid       | The **ID projekta** vrednost zahteve.                                                                      | ProjectId (opuščeno) |
+| msdyn_completedon     | Datum/ura, ko je bil komplet postopkov dokončan ali neuspel.                                                | CompletedOn            |
+| msdyn_correlationid   | Vrednost **correlationId** zahteve.                                                                  | CorrelationId          |
+| msdyn_description     | Opis kompleta postopkov.                                                                        | Description            |
+| msdyn_executedon      | Datum/ura zagona zapisa                                                                       | Izvedeno:            |
+| msdyn_operationsetId  | Enolični identifikator primerkov entitete.                                                                   | OperationSet           |
+| msdyn_Project         | Projekt, ki je povezan s kompletom postopkov.                                                            | Projekt                |
+| msdyn_projectid       | Vrednost **projectId** zahteve.                                                                      | ProjectId (opuščeno) |
 | msdyn_projectName     | Ni na voljo.                                                                                              | Ni na voljo.         |
-| msdyn_PSSErrorLog     | Enolični identifikator dnevnika napak storitve načrtovanja projektov, ki je povezan z nizom operacij. | Dnevnik napak za PSS          |
+| msdyn_PSSErrorLog     | Enolični identifikator dnevnika napak storitve razporejanja projektov, ki je povezan s kompletom postopkov. | Dnevnik napak za PSS          |
 | msdyn_PSSErrorLogName | Ni na voljo.                                                                                              | Ni na voljo.         |
-| msdyn_status          | Stanje niza operacij.                                                                             | Status                 |
+| msdyn_status          | Stanje kompleta postopkov.                                                                             | Status                 |
 | msdyn_statusName      | Ni na voljo.                                                                                              | Ni na voljo.         |
-| msdyn_useraadid       | The Azure Active Directory (Azure AD) ID objekta uporabnika, ki mu pripada zahteva.                     | UserAADID              |
+| msdyn_useraadid       | ID predmeta Azure Active Directory (Azure AD) uporabnika, ki mu pripada ta zahteva.                     | UserAADID              |
 
-### <a name="operation-set-detail"></a>Podrobnosti nabora operacij
+### <a name="operation-set-detail"></a>Podrobnosti kompleta postopkov
 
-Naslednja tabela prikazuje polja, ki so povezana z **Podrobnosti nabora operacij** entiteta.
+Spodnja tabela prikazuje polja, ki se nanašajo na entiteto **Podrobnosti kompleta postopkov**.
 
 | Ime sheme                 | Description                                                                                 | DisplayName           |
 |----------------------------|---------------------------------------------------------------------------------------------|-----------------------|
-| msdyn_cdspayload           | Serializirano Dataverse polja za zahtevo.                                            | CdsPayload            |
-| msdyn_entityname           | Ime subjekta za zahtevo.                                                     | EntityName            |
-| msdyn_httpglagol             | Metoda zahteve.                                                                         | Glagol HTTP (opuščeno) |
+| msdyn_cdspayload           | Serializirana polja Dataverse za zahtevo.                                            | CdsPayload            |
+| msdyn_entityname           | Ime entitete za zahtevo.                                                     | EntityName            |
+| msdyn_httpverb             | Način zahteve.                                                                         | Glagol HTTP (opuščeno) |
 | msdyn_httpverbName         | Ni na voljo.                                                                             | Ni na voljo.        |
-| msdyn_operationset         | Enolični identifikator niza operacij, ki mu pripada zapis.                      | OperationSet          |
-| msdyn_operationsetdetailId | Edinstveni identifikator primerkov entitete.                                                  | Podrobnost za OperationSet   |
+| msdyn_operationset         | Enolični identifikator za komplet postopkov, ki mu pripada ta zapis.                      | OperationSet          |
+| msdyn_operationsetdetailId | Enolični identifikator primerkov entitete.                                                  | Podrobnost za OperationSet   |
 | msdyn_operationsetName     | Ni na voljo.                                                                             | Ni na voljo.        |
-| msdyn_operationtype        | Vrsta operacije podrobnosti nabora operacij.                                             | OperationType         |
+| msdyn_operationtype        | Vrsta postopka podrobnosti kompleta postopkov.                                             | OperationType         |
 | msdyn_operationtypeName    | Ni na voljo.                                                                             | Ni na voljo.        |
-| msdyn_psspayload           | Zaporedna polja storitve načrtovanja projektov za zahtevo.                           | PssPayload            |
+| msdyn_psspayload           | Serializirana polja storitve razporejanja projektov za zahtevo.                           | PssPayload            |
 | msdyn_recordid             | Identifikator zapisa zahteve.                                                       | ID zapisa             |
-| msdyn_requestnumber        | Samodejno ustvarjena številka, ki označuje vrstni red, v katerem so bile prejete zahteve. | Številka zahteve        |
+| msdyn_requestnumber        | Samodejno ustvarjena številka, ki se uporablja za določanje vrstnega reda, v katerem so bile prejete zahteve. | Številka zahteve        |
 
-## <a name="project-scheduling-service-error-logs"></a>Dnevniki napak storitve načrtovanja projektov
+## <a name="project-scheduling-service-error-logs"></a>Dnevniki napak storitve razporejanja projektov
 
-Dnevniki napak storitve Project Scheduling Service zajemajo napake, ki se pojavijo, ko storitev načrtovanja projektov poskusi a **Shrani** oz **Odprto** delovanje. Obstajajo trije podprti scenariji, kjer se ustvarijo ti dnevniki:
+Dnevniki napak storitve razporejanja projektov zajamejo napake, do katerih pride, ko storitev razporejanja projektov poskusi izvesti postopek **Shrani** ali **Odpri**. Obstajajo trije podprti scenariji, v katerih so ustvarjeni ti dnevniki:
 
-- Dejanja, ki jih sproži uporabnik, kritično ne uspejo (na primer, dodelitve ni mogoče ustvariti zaradi manjkajočih privilegijev).
-- Storitev načrtovanja projektov ne more programsko ustvariti, posodobiti, izbrisati ali izvesti nobene druge kaskadne operacije na entiteti.
-- Uporabnik doživi napake, ko se zapis ne odpre (na primer, ko se odpre projekt ali se posodobijo podatki o članu ekipe).
+- Pri dejanjih, ki jih sproži uporabnik, pride do kritične napake (na primer, dodelitve ni mogoče ustvariti zaradi manjkajočih privilegijev).
+- Storitev razporejanja projektov ne more programsko ustvariti, posodobiti, izbrisati ali izvesti katerega koli drugega kaskadnega postopka na entiteti.
+- Uporabnik naleti na napake, ko se zapis ne odpre (na primer, ko se odpre projekt ali se posodobijo informacije o članu ekipe).
 
-### <a name="project-scheduling-service-log"></a>Dnevnik storitve načrtovanja projektov
+### <a name="project-scheduling-service-log"></a>Dnevnik storitve razporejanja projektov
 
-Naslednja tabela prikazuje polja, ki so vključena v dnevnik storitve načrtovanja projektov.
+Spodnja tabela prikazuje polja, ki so vključena v dnevnik storitve razporejanja projektov.
 
 | Ime sheme          | Description                                                                    | DisplayName    |
 |---------------------|--------------------------------------------------------------------------------|----------------|
 | msdyn_CallStack     | Klicni sklad izjeme.                                               | Klicni sklad     |
-| msdyn_correlationid | ID korelacije napake.                                               | CorrelationId  |
-| msdyn_errorcode     | Polje, ki se uporablja za shranjevanje Dataverse kodo napake ali kodo napake HTTP. | Koda napake     |
-| msdyn_HelpLink      | Povezava do javne dokumentacije pomoči.                                       | Povezava do pomoči      |
-| msdyn_log           | Dnevnik storitve načrtovanja projektov.                                   | Dnevnik            |
+| msdyn_correlationid | ID korelacije za napako.                                               | CorrelationId  |
+| msdyn_errorcode     | Polje, ki se uporablja za shranjevanje kode napake Dataverse ali kode napake HTTP. | Koda napake     |
+| msdyn_HelpLink      | Povezava do javne dokumentacije s pomočjo.                                       | Povezava do pomoči      |
+| msdyn_log           | Dnevnik iz storitve razporejanja projektov.                                   | Dnevnik            |
 | msdyn_project       | Projekt, ki je povezan z dnevnikom napak.                             | Projekt        |
-| msdyn_projectName   | Ime projekta, če bo koristna obremenitev niza operacij ohranjena. | Ni na voljo. |
-| msdyn_psserrorlogId | Edinstveni identifikator primerkov entitete.                                     | Dnevnik napak za PSS  |
+| msdyn_projectName   | Ime projekta, če bo koristna vsebina kompleta postopkov ohranjena. | Ni na voljo. |
+| msdyn_psserrorlogId | Enolični identifikator primerkov entitete.                                     | Dnevnik napak za PSS  |
 | msdyn_SessionId     | ID seje projekta.                                                        | ID seje     |
 
 ## <a name="error-log-cleanup"></a>Čiščenje dnevnika napak
 
-Privzeto je mogoče tako dnevnike napak storitve Project Scheduling Service kot dnevnik nabora operacij očistiti vsakih 90 dni. Vsi zapisi, ki so starejši od 90 dni, bodo izbrisani. Vendar pa s spremembo vrednosti **msdyn_StateOperationSetAge** polje na **Parametri projekta** strani, lahko skrbniki prilagodijo razpon čiščenja tako, da je med 1 in 120 dnevi. Na voljo je več načinov za spreminjanje te vrednosti:
+Privzeto je mogoče dnevnike napak storitve razporejanja projektov in dnevnik kompleta postopkov počistiti vsakih 90 dni. Vsi zapisi o napakah, ki so starejši od 90 dni, bodo izbrisani. Vendar pa lahko skrbniki s spremembo vrednosti polja **msdyn_StateOperationSetAge** na strani **Parametri projekta** prilagodijo obseg čiščenja med 1 in 120 dnevi. Na voljo je več načinov za spreminjanje te vrednosti:
 
-- Prilagodite **Parameter projekta** entiteto z ustvarjanjem strani po meri in dodajanjem **Starost zastarelih operacij** polje.
-- Uporabite odjemalsko kodo, ki uporablja [Komplet za razvoj programske opreme WebApi (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
-- Uporabite kodo SDK za storitve, ki uporablja SDK Xrm **updateRecord** metoda (referenca odjemalskega API-ja) v aplikacijah, ki jih poganja model. Power Apps vključuje opis in podprte parametre za **updateRecord** metoda.
+- Prilagodite entiteto **Parameter projekta** tako, da ustvarite stran po meri in dodate polje **Starost zastarelega kompleta postopkov**.
+- Uporabite kodo odjemalca, ki uporablja [Komplet za razvoj programske opreme WebApi (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
+- Uporabite kodo Service SDK, ki uporablja način Xrm SDK **updateRecord** (sklic API-ja odjemalca) v aplikacijah, ki temeljijo na modelu. Power Apps vključuje opis in podprte parametre za način **updateRecord**.
 
     ```C#
     Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {

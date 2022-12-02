@@ -1,6 +1,6 @@
 ---
 title: Vidiki nadgradnje – Microsoft Dynamics 365 Project Service Automation različice 2.x ali 1.x na različico 3
-description: Ta članek vsebuje informacije o premislekih, ki jih morate upoštevati pri nadgradnji z različice Project Service Automation 2.x ali 1.x na različico 3.
+description: V tem članku so na voljo informacije o vidikih, ki jih morate upoštevati pri nadgradnji storitve Project Service Automation različice 2.x ali 1.x na različico 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -40,7 +40,7 @@ Dodelitve opravil so bile v rešitvi Project Service Automation različic 2 in 
 
 V storitvi Project Service Automation različice 3 je spremenjena temeljna shema za dodeljevanje virov, ki jih je mogoče rezervirati, opravilom. Opravilo vrstice je zastarelo in neposredno razmerje med opravilom v polju **Entiteta opravila** in članom ekipe v entiteti **Dodelitev vira** je 1:1. Opravila, ki so dodeljena članu projektne ekipe, so zdaj shranjena neposredno v entiteti dodelitve virov.  
 
-Te spremembe vplivajo na nadgradnjo vseh obstoječih projektov, ki imajo dodelitve virov za imenovane vire, ki jih je mogoče rezervirati, in splošne vire v projektni ekipi. Ta članek vsebuje premisleke, ki jih boste morali upoštevati pri svojih projektih, ko nadgradite na različico 3. 
+Te spremembe vplivajo na nadgradnjo vseh obstoječih projektov, ki imajo dodelitve virov za imenovane vire, ki jih je mogoče rezervirati, in splošne vire v projektni ekipi. V tem članku so na voljo informacije o vidikih, ki jih bo treba upoštevati pri projektih, ko nadgradite na različico 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Opravila, dodeljena poimenovanim virom
 S temeljno entiteto opravila so opravila v različici 2 in različici 1 članom ekipe omogočala uporabo vloge, ki ni njihova privzeta določena vloga. Mateja Hribar, ki ji je na primer privzeto dodeljena vloga upravitelja programa, se lahko dodeli opravilo z vlogo razvijalca. V različici 3 je vloga imenovanega člana ekipe vedno privzeta, zato vsako opravilo, dodeljeno Mateji Hribar, uporablja Matejino privzeto vlogo upravitelja programa.

@@ -1,6 +1,6 @@
 ---
 title: Kopiranje cenikov
-description: Ta članek vsebuje informacije o tem, kako kopirati cenike v Project Operations.
+description: Ta članek vsebuje informacije o tem, kako se v aplikaciji Project Operations kopirajo ceniki.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

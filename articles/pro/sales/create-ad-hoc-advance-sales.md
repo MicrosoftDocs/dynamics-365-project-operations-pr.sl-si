@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje namenskega predplačila za pogodbo
-description: V tem članku so informacije o ustvarjanju predujma na pogodbi po potrebi.
+description: V tem članku so na voljo informacije o ustvarjanju predujma za pogodbo, kot je potrebno.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

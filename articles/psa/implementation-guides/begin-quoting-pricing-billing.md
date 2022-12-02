@@ -1,6 +1,6 @@
 ---
 title: Osnovni vodnik za ponudbe, cene in zaračunavanje
-description: Ta članek vsebuje povezave do informacij o osnovnih ponudbah, cenah in obračunavanju v Project Service Automation.
+description: V tem članku so na voljo povezave do informacij o osnovnih ponudbah, cenah in zaračunavanju v aplikaciji Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8910834"
 
 Sposobnost iskanja pravih virov ob pravem času, rezerviranja teh virov v projektih in ohranjanja uporabe teh virov pomaga organizacijam pri izpolnjevanju ciljev glede prihodkov in zadovoljstva strank. 
 
-Povezava PDF, ki je bila prej v tem članku, je bila odstranjena in vsebina je bila premaknjena v naslednje članke:
+Povezava PDF, ki je bila vključena v tem članku, je odstranjena, vsebina pa je premaknjena v naslednje članke:
 
 - [Ponudbe, cene, zaračunavanje](../quote-bill-price.md)
 - [Prodajni postopki](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Povezava PDF, ki je bila prej v tem članku, je bila odstranjena in vsebina je b
 - [Zapisovanje dejanskih vrednosti](../advanced-actuals.md)
 
 > [!NOTE]
-> Ta članek bo odstranjen v prihodnji posodobitvi dokumentacije. 
+> Ta članek ne bo več na voljo v prihodnji posodobitvi dokumentacije. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

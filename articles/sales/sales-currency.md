@@ -1,6 +1,6 @@
 ---
 title: Valuta
-description: Ta članek vsebuje informacije o dodajanju in odstranjevanju vrst valut v Project Operations.
+description: Ta članek vsebuje informacije o dodajanju in odstranjevanju vrst valut v storitvi Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

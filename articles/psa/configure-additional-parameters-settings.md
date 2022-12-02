@@ -30,7 +30,7 @@ ms.locfileid: "8919252"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Ko konfigurirate elemente v prejšnjih člankih, morate nastaviti dodatne parametre projekta, ki jih želite uporabiti za svoje projekte. Ob prvi namestitvi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ste ustvarili nastavitev parametrov, s katero ste najprej ustvarili vse zapise, ki so potrebni za delovanje [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Zdaj je čas, da se vrnete nazaj in konfigurirate dodatna polja za te nastavitve.  
+Ko ste konfigurirali elemente v prejšnjih člankih, morate nastaviti še dodatne parametre projekta, ki jih boste uporabljali za svoje projekte. Ob prvi namestitvi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ste ustvarili nastavitev parametrov, s katero ste najprej ustvarili vse zapise, ki so potrebni za delovanje [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Zdaj je čas, da se vrnete nazaj in konfigurirate dodatna polja za te nastavitve.  
   
  Konfigurirati boste morali naslednje nastavitve:  
   

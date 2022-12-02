@@ -1,6 +1,6 @@
 ---
 title: Integracija računa dobavitelja
-description: Ta članek vsebuje informacije o integraciji računov dobavitelja v Project Operations.
+description: Ta članek vsebuje informacije o integraciji računa dobavitelja v aplikaciji Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
@@ -21,7 +21,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
 Projektna naročila iz rešitve Dynamics 365 Project Operations lahko beležite tako, da odprete razdelek **Obveznosti** > **Računi** > **Čakajoči računi prodajalcev** in uporabite dokument čakajočega računa dobavitelja. Za več informacij preberite razdelek [Nakup materialov, ki niso na zalogi, z uporabo čakajočih računov dobavitelja](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Preden uporabite funkcionalnost, opisano v tem članku, preglejte in uporabite zahtevane konfiguracije. Za več informacij glejte [Omogočanje materialov, ki niso na zalogi, in čakajočih računov dobavitelja](../procurement/configure-materials-nonstocked.md).
+> Preden uporabite funkcijo, opisano v tem članku, preglejte zahtevane konfiguracije in jih uporabite. Za več informacij glejte [Omogočanje materialov, ki niso na zalogi, in čakajočih računov dobavitelja](../procurement/configure-materials-nonstocked.md).
 
 V aplikaciji Project Operations so računi dobavitelja, povezani s projektom, knjiženi s posebnimi pravili knjiženja:
 
@@ -34,7 +34,7 @@ V aplikaciji Project Operations so računi dobavitelja, povezani s projektom, kn
      > [!NOTE]
      > Podrobnosti o računu dobavitelja v storitvi Dataverse ni mogoče urejati.
 
-Davčna podknjiga, podknjiga prodajalcev in druge finančne knjižbe so zabeležene, kot je ustrezno, v Dynamics 365 Finance, ko je knjižen račun prodajalca.
+Pomožna poslovna knjiga za davke, dobavitelje in druga finančna knjiženja so v aplikaciji Dynamics 365 Finance zabeležena, kot je ustrezno v času knjiženja računa dobavitelja.
 
 ![Integracija računa dobavitelja.](media/DW7VendorInvoice.png)
 

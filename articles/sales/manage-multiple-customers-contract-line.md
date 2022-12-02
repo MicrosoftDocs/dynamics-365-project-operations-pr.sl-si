@@ -1,6 +1,6 @@
 ---
 title: Upravljanje več strank v podrobnostih pogodbe, ki temelji na projektu
-description: Ta članek vsebuje informacije o delu s pogodbenimi vrsticami in pogodbami, ki vsebujejo več strank.
+description: V tem članku so na voljo informacije o delu s podrobnostmi pogodbe in pogodbami, ki vsebujejo več strank.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

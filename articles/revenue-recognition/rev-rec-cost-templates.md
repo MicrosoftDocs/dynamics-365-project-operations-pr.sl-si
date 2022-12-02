@@ -1,6 +1,6 @@
 ---
 title: Nastavitev predlog stroškov
-description: Ta članek vsebuje informacije o tem, kako ustvariti in uporabiti predloge stroškov v Project Operations.
+description: Ta članek vsebuje informacije o tem, kako ustvariti in uporabljati predloge stroškov v storitvi Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8918424"
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 
-Ta članek vsebuje informacije o tem, kako ustvariti in uporabiti predloge stroškov v Project Operations. Predloga stroškov določa:
+Ta članek vsebuje informacije o tem, kako ustvariti in uporabljati predloge stroškov v storitvi Project Operations. Predloga stroškov določa:
 
 - Kategorije projektov za napovedi in dejanske transakcije se vključijo v izračun odstotka dokončanosti projekta. Odstotna vrednost dokončanosti se nato uporabi za izračun upoštevanega prihodka.
 - Ali je mogoče odstotek dokončanja spremeniti, če se izračuna samodejno.
@@ -56,7 +56,7 @@ Odločitev, kateri pristop uporabiti za izdelavo predloge stroškov, je lahko od
 ## <a name="create-cost-templates"></a>Ustvarjanje predlog stroškov
 Za ustvarjanje predlog stroškov sledite spodnjim navodilom:
 
-1. Za dostop do predlog stroškov v okolju Dynamics 365 Finance pojdite na **Vodenje projektov in računovodstvo** > **Nastaviti** > **Ocene** > **Predloga stroškov**.
+1. Za dostop do predlog stroškov v okolju Dynamics 365 Finance pojdite v razdelek **Upravljanje projektov in računovodstvo** > **Nastavitev** > **Ocene** > **Predloga stroškov**.
 2. Če želite ustvariti novo predlogo stroškov, izberite **Novo**. Vnesite Ime in opis.
 3. Navedite ID vrstice cene za vsako vrsto transakcije.
 4. Izberite privzeti način dokončanja:

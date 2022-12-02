@@ -1,6 +1,6 @@
 ---
 title: Nastavitev mer stroškov dela
-description: Ta članek vsebuje informacije o tem, kako nastaviti stopnje za stroške dela Projektne operacije
+description: Ta članek vsebuje informacije o nastavljanju stroškov dela v aplikaciji Project Operations
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

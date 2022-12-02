@@ -1,6 +1,6 @@
 ---
 title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 37.5, V3
-description: V tem članku so navedene funkcije in popravki, ki so na voljo v Microsoft Dynamics 365 Project Service Automation Posodobitev izdaja 37.5, V3.
+description: Ta članek navaja funkcije in popravke, ki so na voljo v izdaji posodobitve 37.5, V3 storitve Microsoft Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 11/15/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8915310"
 
 Z veseljem objavljamo najnovejšo posodobitev za aplikacijo Microsoft Dynamics 365 Project Service Automation. Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Združljiva je z s storitvijo Dynamics 365 9.x. Če želite posodobiti to različico, obiščite spletno stran rešitev za Skrbniško središče za Dynamics 365 in namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).
 
-V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za posodobitev Project Service Automation, izdaja 37.5, V3. Ta različica ima številko izdelave V3.10.58.130 in je na splošno na voljo prek samodejne posodobitve novembra 2021.
+V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation 37.5, V3. Ta različica ima številko izdelave V3.10.58.130 in je na splošno na voljo prek samodejne posodobitve novembra 2021.
 
 ## <a name="update-release-375"></a>Izdaja posodobitve 37.5
 
@@ -38,4 +38,4 @@ V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za po
 Odpravljene so naslednje težave:
 
 **Upravljanje virov**
-- Podvojene rezervacije se ustvarijo, ko posodobite obstoječe rezervacije in **Proporcionalna** je izbran za **Metoda povečanja ur** oz **Metoda zmanjšanja ur**.
+- Podvojene rezervacije se ustvarijo, ko posodobite obstoječe rezervacije in je za možnost **Način povečanja števila ur** ali **Način zmanjšanja števila ur** izbrana možnost **Sorazmerno**.

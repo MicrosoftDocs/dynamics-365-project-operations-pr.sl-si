@@ -1,6 +1,6 @@
 ---
 title: Dodajanje naročnine na Azure projektu LCS
-description: Ta članek vsebuje informacije o tem, kako svojo naročnino na Azure povežete s projektom LCS.
+description: Ta članek vsebuje informacije o povezovanju naročnine Azure s projektom LCS.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8912168"
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-Okolja, ki se jih gosti v oblaku, je treba uvesti z obstoječo naročnino na Azure. V tem članku je razloženo, kako svojo obstoječo naročnino Azure povežete s projektom LCS. 
+Okolja, ki se jih gosti v oblaku, je treba uvesti z obstoječo naročnino na Azure. Ta članek pojasnjuje, kako lahko povežete obstoječo naročnino na Azure s projektom LCS. 
 
 ## <a name="grant-admin-consent"></a>Podelitev soglasja skrbnika
 
@@ -56,16 +56,16 @@ Pooblastitev je zdaj končana.
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Dodajanje povezovalnika naročnine na projekt LCS
 
 1. V projektu LCS na strani z **nastavitvami Microsoft Azure** izberite **Dodaj**, da dodate nov povezovalnik.
-2. Vnesite ID naročnine na Azure. ID naročnine na Azure lahko najdete v [portalu Azure](https://ms.portal.azure.com/), pod možnostjo **Nastavitve** v spodnjem levem kotu zaslona.
+2. Vnesite ID naročnine na Azure. ID naročnine na Azure lahko najdete na [portalu Azure](https://ms.portal.azure.com/), pod možnostjo **Nastavitve** v spodnjem levem kotu zaslona.
 3. V polju **Konfiguriraj za uporabo storitve Azure Resource Manager** izberite **Da**.
 4. Prepričajte se, da se domena najemnika AAD za naročnino AAD ujema z naročnino na Azure, ki jo uporabljate in je lastnik domene, in izberite **Naprej**.
-5. Na zaslonu **Nastavitev Microsoft Azure** izberite **Naprej**, da potrdite izbiro. Če na tem zaslonu prejmete napako, se vrnite na razdelek [Storitvam Dynamics Deployment Services zagotovite dostop do naročnine Azure](#provide) v tem članku in se prepričajte, da ste izvedli vse korake.
+5. Na zaslonu **Nastavitev Microsoft Azure** izberite **Naprej**, da potrdite izbiro. Če se na tem zaslonu prikaže napaka, se vrnite v razdelek [Omogočite dostop do storitev za uvajanje Dynamics za naročnino Azure](#provide) v tem članku in se prepričajte, da ste opravili vse korake.
 6. Prenesite potrdilo o upravljanju Azure v lokalno mapo v računalniku. Prosite skrbnika naročnine za Azure, da potrdilo naloži na portal za upravljanje Azure tako, da izbere naročnino in odpre razdelek **Nastavitve** > **Potrdila o upravljanju**. To potrdilo omogoča LCS, da v vašem imenu komunicira z Azure. Ta korak lahko preskočite, če ima vaš uporabnik dostop do naročnine.
 7. Izberite **Naprej**.
 8. Izberite regijo Azure, v kateri želite uvesti to možnost, in izberite podatkovno središče, ki je blizu mesta, kjer nameravate uporabljati ta sistem.
 9.  Izberite **Poveži**.
 
-Uspešno ste povezali naročnino na Azure. Zdaj lahko namestite Dynamics 365 Finance okolja, ki gostujejo v oblaku.
+Uspešno ste povezali naročnino na Azure. Zdaj lahko uvedete okolja Dynamics 365 Finance, ki se jih gosti v oblaku.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Nabori odobritev v aplikaciji Project Service Automation
-description: Ta članek vsebuje informacije o nizu odobritev, zahtevah in podnaborih teh operacij.
+description: Ta članek zagotavlja informacije o naboru odobritev, zahtevah in podmnožicah teh postopkov.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021

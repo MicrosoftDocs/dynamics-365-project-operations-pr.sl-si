@@ -1,6 +1,6 @@
 ---
 title: Novosti za avgust 2021 – poenostavljeno uvajanje storitve Project Operations
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji uvajanja Project Operations lite avgusta 2021.
+description: V tem članku so na voljo informacije o posodobitvah kakovosti, ki so na razpolago v avgustovski (2021) izdaji poenostavljenega uvajanja aplikacije Project Operations.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8922058"
 
 _Velja za: poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
+Ta članek velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
   - Project Operations v okolju Dataverse različice 4.13.0.152
 

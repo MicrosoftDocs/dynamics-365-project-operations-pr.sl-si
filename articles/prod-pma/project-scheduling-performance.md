@@ -1,6 +1,6 @@
 ---
 title: Učinkovitost razporejanja projektnih virov
-description: Ta članek vsebuje informacije o tem, kako izboljšati učinkovitost načrtovanja virov za veliko število projektov.
+description: Ta članek vsebuje informacije o tem, kako izboljšati učinkovitost razporejanja virov za veliko število projektov.
 author: Yowelle
 ms.date: 08/31/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Predračuni
-description: Ta članek vsebuje informacije o predračunih v Project Operations.
+description: Ta članek vsebuje informacije o predračunih v aplikaciji Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -84,7 +84,7 @@ Ko ustvarite osnutek računa za projekt, se v račun prenesejo vse neobračunane
 Izberite **Potrdi**, da potrdite račun. Dejanje »Potrdi« je enosmerno dejanje. Ko izberete **Potrdi**, sistem nastavi račun samo za branje in ustvari dejanske vrednosti obračunane prodaje iz vsake podrobnosti vrstice računa za vsako vrstico računa. Če se podrobnost vrstice računa sklicuje na neobračunano dejansko prodajo, sistem tudi stornira neobračunano dejansko prodajo. (Vsaka podrobnost vrstice računa, ki je bila ustvarjena iz časovnega vnosa ali vnosa stroškov, se bo sklicevala na neobračunano dejansko prodajo.) Sistemi za integracijo glavne knjige lahko to storniranje uporabijo za storno projektnega dela v teku (WIP) za računovodske namene.
 
 > [!NOTE]
-> Potrjenih predračunov in povezanih zapisov, kot so vrstice računov in podrobnosti vrstice računa, ni mogoče urejati ali izbrisati. 
+> Potrjenih predračunov in povezanih zapisov, kot so vrstice računa in podrobnosti vrstice računa, ni mogoče urejati ali brisati. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Popravek potrjenega računa
 

@@ -1,6 +1,6 @@
 ---
 title: Upravljanje sposobnosti virov
-description: Ta članek vsebuje informacije o nastavitvi kompetenc za vire projekta.
+description: Ta članek vsebuje informacije o nastavitvi sposobnosti za vire projekta.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

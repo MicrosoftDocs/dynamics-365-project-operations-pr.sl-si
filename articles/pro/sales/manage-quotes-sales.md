@@ -1,6 +1,6 @@
 ---
 title: Upravljanje ponudb za projekte
-description: Ta članek vsebuje informacije o projektnih ponudbah.
+description: Ta članek vsebuje informacije o ponudbah za projekt.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Seznam vseh ponudb za projekt si lahko ogledate na strani s seznamom **Ponudbe**
 Ponudbe lahko ustvarite ali izbrišete s strani s seznamom ali strani s podrobnostmi.
 
  > [!NOTE]
- > Citatov, s katerimi so povezani projekti, naloge, ocene, dnevniki in/ali dejansko stanje, ni mogoče izbrisati. Tudi, ko je ponudba zaprta kot Dobljena ali Izgubljena, je ni več mogoče izbrisati ali spremeniti. 
+ > Ponudb, ki imajo povezane projekte, opravila, ocene, dnevnike in/ali dejanske vrednosti, ni mogoče izbrisati. Ko je ponudba zaključena kot »Pridobljena« ali »Izgubljena«, je ni več mogoče izbrisati ali spremeniti. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

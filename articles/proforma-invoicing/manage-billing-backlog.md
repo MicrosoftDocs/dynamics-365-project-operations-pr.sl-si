@@ -1,6 +1,6 @@
 ---
 title: Upravljanje nedokončanih opravil obračunavanja
-description: Ta članek vsebuje informacije o ogledu in delu z zaostankom obračunavanja v Project Operations.
+description: Ta članek vsebuje informacije o tem, kako si ogledati in uporabljati nedokončana opravila obračunavanja v aplikaciji Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

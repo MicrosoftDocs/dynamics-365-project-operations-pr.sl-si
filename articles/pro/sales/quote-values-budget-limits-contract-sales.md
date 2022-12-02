@@ -1,6 +1,6 @@
 ---
 title: Povzetek informacij o projektni ponudbi – poenostavljeno
-description: Ta članek vsebuje informacije o informacijah in nastavitvah, ki veljajo za in vplivajo na ponudbe projekta. (Sales)
+description: Ta članek vsebuje informacije glede podatkov in nastavitev, ki veljajo za projektne ponudbe in vplivajo nanje. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

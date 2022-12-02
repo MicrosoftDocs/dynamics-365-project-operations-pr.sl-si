@@ -1,6 +1,6 @@
 ---
 title: Uporaba plošče razporeda za rezervacijo projektnih virov
-description: Ta članek vsebuje informacije o tem, kako rezervirati vire.
+description: Ta članek vsebuje informacije o postopku rezervacije virov.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

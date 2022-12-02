@@ -1,6 +1,6 @@
 ---
 title: Stanja rezervacij
-description: Ta članek vsebuje povezavo do informacij o tem, kako nastaviti statuse rezervacije za operacije projekta.
+description: Ta članek vsebuje povezavo do informacij o nastavitvi stanja rezervacije za Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

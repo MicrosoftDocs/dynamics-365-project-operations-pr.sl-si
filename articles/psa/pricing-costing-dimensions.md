@@ -1,6 +1,6 @@
 ---
 title: Domača stran razsežnosti za določanje cen in razčlenitev stroškov
-description: Ta članek ponuja pregled dimenzij cen.
+description: V tem članku je na voljo pregled cenovnih razsežnosti.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ Storitev PSA vključuje privzet nabor cenovnih razsežnosti. Te si lahko ogledat
 > [!IMPORTANT]
 > Če ste uporabljali vnaprej pripravljena polja vloge in organizacijske enote kot cenovne razsežnosti pred različico 3 aplikacije PSA, ne bo nobene opazne spremembe. Project Service lahko še naprej uporabljate kot običajno. 
 
-Če morate zagotoviti ceno ali strošek za svoje vire z dodatnimi atributi, lahko ustvarite polja, entitete in razsežnosti po meri. Za več informacij si oglejte naslednje članke, vendar upoštevajte, da morate postopke izvesti v spodnjem vrstnem redu:
+Če morate zagotoviti ceno ali strošek za svoje vire z dodatnimi atributi, lahko ustvarite polja, entitete in razsežnosti po meri. Če želite več informacij, glejte spodnje članke, vendar upoštevajte, da morate dokončati postopke v spodaj navedenem vrstnem redu:
 
 - [Ustvarjanje polj in entitet po meri](create-custom-fields-entities.md)
 - [Dodajanje polj po meri v entitete za nastavitev cene in transakcijske entitete](field-references.md)

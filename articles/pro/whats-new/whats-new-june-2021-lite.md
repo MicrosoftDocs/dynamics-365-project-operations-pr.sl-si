@@ -1,6 +1,6 @@
 ---
 title: Novosti za junij 2021 – poenostavljeno uvajanje aplikacije Project Operations
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji uvajanja Project Operations lite junija 2021.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v junijski (2021) izdaji poenostavljenega uvajanja aplikacije Project Operations.
 author: sigitac
 ms.date: 06/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8913962"
 
 _Velja za: poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
+Ta članek velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
   - Aplikacija Project Operations v okolju Dataverse (različica 4.11.0.156 ali 4.11.0.164).
 

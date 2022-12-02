@@ -1,6 +1,6 @@
 ---
 title: Rezervacija v projekt
-description: Ta članek vsebuje informacije o rezervaciji vira za projekt.
+description: Ta članek vsebuje informacije o tem, kako rezervirati vir v projekt.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
@@ -55,7 +55,7 @@ Kadar mora upravitelj virov vir rezervirati neposredno v projekt, lahko uporabi 
     - Trajanje
    
    > [!NOTE]
-   > trenutno Dynamics 365 Project Operations ne podpira razporedne plošče.   
+   > Dynamics 365 Project Operations trenutno ne podpira plošče razporeda.   
 
 ## <a name="book-from-the-project-form"></a>Dodajanje rezervacij iz obrazca projekta
 

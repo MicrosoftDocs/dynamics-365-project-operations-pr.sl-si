@@ -1,6 +1,6 @@
 ---
 title: Usklajevanje rezervacij in dodelitev
-description: Ta članek vsebuje informacije o dejanskem stanju.
+description: Ta članek vsebuje informacije o opravljenem delu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

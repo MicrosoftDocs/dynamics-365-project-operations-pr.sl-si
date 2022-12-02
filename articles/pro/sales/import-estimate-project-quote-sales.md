@@ -1,6 +1,6 @@
 ---
 title: Uvoz ocen za projekt v podrobnostih ponudbe, ki temelji na projektih – poenostavljena različica
-description: Ta članek vsebuje informacije o tem, kako uvoziti ocene iz projekta v vrstico ponudbe.
+description: Ta članek vsebuje informacije o tem, kako uvoziti ocene projekta v vrstici ponudbe.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

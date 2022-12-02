@@ -26,7 +26,7 @@ Ko ustvarite podrobnosti pogodbe projekta z naslednjimi atributi v aplikaciji Dy
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Pregled projektov ocen prihodkov s fiksno ceno
 Če želite pregledati projekte ocen prihodkov s fiksnimi cenami, izvedite naslednje korake:
 
-1. V okolju Dynamics 365 Finance pojdite na **Vodenje projektov in računovodstvo** > **Projekti** > **Projekti za oceno prihodkov s fiksno ceno**.
+1. V okolju Dynamics 365 Finance odprite **Upravljanje projektov in računovodstvo** > **Projekti** > **Projekti ocene prihodkov s fiksno ceno**.
 2. Izberite projekt, ki si ga želite ogledati, in dvokliknite možnost **ID ocene projekta**, da odprete zapis in pregledate podrobnosti projekta.
 3. Razširite zavihek **Projekt**. Projekt se vam bo prikazal v mreži **Izbrani projekti**. Sistem ga uporablja kot privzeti projekt, saj je povezan s podrobnostmi pogodbe projekta. 
 4. Če želite spremeniti povezavo, izberite dodatne projekte in jih dodajte v mrežo **Izbrani projekti**. Če je v tej mreži izbranih več projektov, se odstotek dokončanosti projekta in ocene prihodkov izračunajo skupaj za vse izbrane projekte.

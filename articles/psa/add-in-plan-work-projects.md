@@ -1,6 +1,6 @@
 ---
 title: Načrtovanje dela v programu Microsoft Project z dodatkom Project Service
-description: Ta članek vsebuje informacije o tem, kako uporabljati dodatek Microsoft Project za storitev Microsoft Project.
+description: V tem članku najdete informacije o uporabi dodatka Microsoft Project za Microsoft Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

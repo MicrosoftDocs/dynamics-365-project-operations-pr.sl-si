@@ -1,6 +1,6 @@
 ---
 title: Domača stran za ponudbe, cene in obračunavanje
-description: Ta članek vsebuje informacije o ponudbi, cenah in obračunavanju.
+description: V tem članku so na voljo informacije o ponudbah, cenah in obračunavanju.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -33,7 +33,7 @@ ms.locfileid: "8926750"
 
 Oblikovanje ponudb, določanje cen in obračunavanje so funkcije, ki jih uporabljajo majhne in velike organizacije. S poznavanjem delovanja teh funkcij v aplikaciji lahko organizacije lažje prilagodijo konfiguracije.
 
-Naslednji članki ponujajo več informacij o funkcionalnosti ponudb, cen in obračunavanja v PSA:
+V spodnjih člankih je na voljo več informacij o oblikovanju ponudb, določanju cen in obračunavanju v PSA:
 
 - [Prodajni proces](basic-sales-process.md)
 - [Vrstice ponudb](basic-quote-lines.md)

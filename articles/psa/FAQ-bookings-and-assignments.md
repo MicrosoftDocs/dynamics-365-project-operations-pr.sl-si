@@ -1,6 +1,6 @@
 ---
 title: Rezervacije virov in njihova povezava z dodelitvami opravil
-description: Ta članek vsebuje informacije o tem, kako upravljati poimenovane vire, rezervacije virov in dodelitve opravil ter kako so povezani med seboj.
+description: V tem članku so na voljo informacije o upravljanju poimenovanih virov, rezervacij virov in dodelitev opravil ter o tem, kako so povezani med sabo.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

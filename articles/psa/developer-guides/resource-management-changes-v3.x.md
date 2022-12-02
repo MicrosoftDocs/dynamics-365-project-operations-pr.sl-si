@@ -1,6 +1,6 @@
 ---
 title: Spremembe upravljanja virov (Project Service Automation 3.x)
-description: Ta članek vsebuje informacije o spremembah področja upravljanja virov.
+description: Ta članek vsebuje informacije o spremembah Območja za upravljanje virov.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -26,7 +26,7 @@ ms.locfileid: "8916032"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Razdelki tega članka zagotavljajo informacije o spremembah, ki so bile narejene na področju upravljanja virov Dynamics 365 Project Service Automation različica 3.x.
+Posamezni razdelki tega članka vsebujejo informacije o spremembah Območja za upravljanje virov aplikacije Dynamics 365 Project Service Automation, različica 3.x.
 
 ## <a name="project-estimates"></a>Projektne ocene
 

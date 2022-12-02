@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje medpodjetnega izstavljanja računov
-description: Ta članek vsebuje informacije in primere o konfiguriranju medpodjetniškega izdajanja računov za projekte.
+description: Ta članek vsebuje informacije in primere o konfiguriranju medpodjetnega izstavljanja računov za projekte.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ V naslednjem primeru je Contoso Robotics USA (USPM) izposojevalna pravna oseba, 
 
 1. **Konfiguriranje medpodjetnega računovodstva med pravnimi osebami**. Vsak par izposojevalnih in posojilnih pravnih oseb mora biti konfiguriran v glavni knjigi na strani [Medpodjetno računovodstvo](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. V Dynamics 365 Finance pojdite na **Glavna knjiga** > **Nastavitev objave** > **Medpodjetniško računovodstvo**. Ustvarite zapis z naslednjimi informacijami:
+    1. V storitvi Dynamics 365 Finance odprite **Glavna knjiga** > **Nastavitev knjiženja** > **Medpodjetno računovodstvo**. Ustvarite zapis z naslednjimi informacijami:
 
         - **Izvorno podjetje** = **GBPM**
         - **Ciljno podjetje** = **USPM**

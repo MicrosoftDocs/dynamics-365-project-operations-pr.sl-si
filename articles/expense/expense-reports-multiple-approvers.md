@@ -1,6 +1,6 @@
 ---
 title: Poročila o stroških in več odobriteljev
-description: Ta članek vsebuje informacije o poročilih o stroških, ki zahtevajo odobritev več kot ene osebe.
+description: Ta članek vsebuje informacije o poročilih o stroških, ki jih mora odobriti več kot ena oseba.
 author: suvaidya
 ms.date: 09/23/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Pregled odobritev
-description: Ta članek vsebuje informacije o delu z odobritvami v Project Operations.
+description: Ta članek vsebuje informacije o delu z odobritvami v aplikaciji Project Operations.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

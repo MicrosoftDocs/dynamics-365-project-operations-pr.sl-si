@@ -26,7 +26,7 @@ ms.locfileid: "8685005"
 
 [!include [banner](../includes/banner.md)]
 
-Načrtovanje in vzdrževanje projektnega razporeda je lahko zapleteno, zato morajo vodje projektov uporabljati orodja, ki jim pomagajo pri izpolnjevanju te naloge. Integracija z odjemalcem Microsoft Project Client nudi podporo za odpiranje in upravljanje strukturirane členitve projektnega dela. Vodja projekta lahko objavi vse spremembe nazaj v strukturi razčlenitve projektnega dela Dynamics 365 Finance.
+Načrtovanje in vzdrževanje projektnega razporeda je lahko zapleteno, zato morajo vodje projektov uporabljati orodja, ki jim pomagajo pri izpolnjevanju te naloge. Integracija z odjemalcem Microsoft Project Client nudi podporo za odpiranje in upravljanje strukturirane členitve projektnega dela. Vodja projekta lahko objavi vse spremembe nazaj v strukturirano členitev projektnega dela rešitve Dynamics 365 Finance.
 
 > [!NOTE]
 > Če uporabljate julijsko posodobitev (različica 10.0.4), morate namestiti KB 4054797 in 4055884.
@@ -39,7 +39,7 @@ Načrtovanje in vzdrževanje projektnega razporeda je lahko zapleteno, zato mora
 •   Kliknite **Odpri** in ob pozivu še **Zaženi**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Odpiranje in urejevanje obstoječega osnutka strukturirane členitve dela v odjemalcu Microsoft Project Client
-Če ima projekt v Dynamics 365 Finance že ustvarjeno strukturo razčlenitve dela, lahko strukturo razčlenitve dela odprete v aplikaciji Microsoft Project Client, če je struktura razčlenitve dela v statusu osnutka. Če želite to možnost odpreti na strani **Projekt**, kliknite povezavo **Odpri v odjemalcu Microsoft Project** na zavihku **Načrt**. To stran lahko odprete tudi v aplikaciji Microsoft Project Client s klikom **Odpri** na zavihku **Microsoft Dynamics 365**. Na seznamu izberite možnost **Pravna oseba** in **Projekt**.
+Če ima projekt v rešitvi Dynamics 365 Finance že ustvarjeno strukturirano členitev dela, lahko strukturirano členitev dela odprete v aplikaciji Microsoft Project Client, kadar je ta v stanju osnutka. Če želite to možnost odpreti na strani **Projekt**, kliknite povezavo **Odpri v odjemalcu Microsoft Project** na zavihku **Načrt**. To stran lahko odprete tudi v aplikaciji Microsoft Project Client s klikom **Odpri** na zavihku **Microsoft Dynamics 365**. Na seznamu izberite možnost **Pravna oseba** in **Projekt**.
 
 > [!NOTE]
 > Če uporabljate Internet Explorer za svoj brskalnik, boste morali klikniti **Shrani**, da boste lahko datoteko ročno odprli iz mesta, kamor je prenesena. Ali pa kliknite **Shrani in odpri**, da odprete datoteko v odjemalcu Microsoft Project Client. Ne preimenujte datoteke med shranjevanjem.

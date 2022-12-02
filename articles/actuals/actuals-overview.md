@@ -1,6 +1,6 @@
 ---
 title: Dejanske vrednosti
-description: Ta članek vsebuje informacije o tem, kako delati z dejanskimi podatki v Microsoftu Dynamics 365 Project Operations.
+description: Ta članek vsebuje informacije o delu z dejanskimi vrednostmi v aplikaciji Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -24,20 +24,20 @@ ms.locfileid: "8924818"
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Dejanske vrednosti predstavljajo pregledane in odobrene finančne in časovne napredke projekta. Nastanejo, ko so odobreni vnosi časa, stroškov in porabe materiala, vnosi v dnevnik in računi.
+Dejanske vrednosti predstavljajo pregledane in odobrene finančne in časovne napredke projekta. Ustvarijo se, ko so odobreni čas, strošek, vnosi porabe materiala, vknjižbe in računi.
 
 > [!IMPORTANT]
-> Dejanskih podatkov ne smete urejati ali brisati iz sistema. V nasprotnem primeru bi lahko negativno vplivali na finančno integriteto in kakršno koli integracijo z drugimi finančnimi in računovodskimi sistemi. Microsoft Dynamics 365 Project Operations vam omogoča uporabo obračanja in zamenjave dejanskih vrednosti za urejanje dejanskih vrednosti na različnih točkah življenjskega cikla poslovnega procesa vaših projektov.
+> Dejanskih vrednosti ne smete urejati ali jih brisati iz sistema. V nasprotnem primeru bi to lahko negativno vplivalo na finančno integriteto in kakršno koli integracijo z drugimi finančnimi in računovodskimi sistemi. Microsoft Dynamics 365 Project Operations omogoča uporabo storniranja in zamenjave dejanskih vrednosti za urejanje dejanskih vrednosti na različnih točkah življenjskega cikla poslovnega procesa vaših projektov.
 
 ## <a name="recording-actuals-based-on-project-events"></a>Zapisovanje dejanskih podatkov na podlagi projektnih dogodkov
 
-Projektno poslovanje beleži finančne transakcije, ki se zgodijo v življenjskem ciklu projektnega posla, kot dejanske. Ustvarjanje dejstev na različnih dogodkih v življenjskem ciklu se razlikuje, odvisno od tega, ali projektni posel uporablja model obračunavanja časa in materiala ali model obračunavanja s fiksno ceno in ali je v fazi predprodaje ali gre za interni projekt.
+Aplikacija Project Operations beleži finančne transakcije, ki se v življenjskem ciklu projektne interakcije pojavijo kot dejanske vrednosti. Ustvarjanje dejanskih vrednosti ob različnih dogodkih v življenjskem ciklu se razlikuje glede na to, ali projektna interakcija uporablja model obračunavanja časa in materiala ali model obračunavanja po fiksni ceni in ali je v fazi predprodaje ali je interni projekt.
 
-Naslednji članki pojasnjujejo vpliv na tabelo Dejanske vrednosti na različnih dogodkih za različne različice:
+Naslednji članki pojasnjujejo vpliv na tabelo »Dejanske vrednosti« ob različnih dogodkih za različne različice:
 
-- [Dejanski vpliv na čas in materiale](ActualsonTM.md)
-- [Dejanski vpliv na dogovor s fiksno ceno](ActualonFP.md)
-- [Dejanski vplivi med predprodajno fazo posla](ActualonPreSales.md)
-- [Dejanski vpliv za interni projekt](ActualonInternal.md)
+- [Vpliv dejanskih vrednosti pri interakciji časa in materialov](ActualsonTM.md)
+- [Vpliv dejanskih vrednosti pri interakciji s fiksno ceno](ActualonFP.md)
+- [Vpliv dejanskih vrednosti med fazo predprodaje interakcije](ActualonPreSales.md)
+- [Vpliv dejanskih vrednosti na interni projekt](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

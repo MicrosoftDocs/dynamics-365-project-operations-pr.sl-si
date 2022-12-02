@@ -1,6 +1,6 @@
 ---
 title: Člani projektne ekipe
-description: Ta članek vsebuje informacije o tem, kako delati s podatki o članih projektne skupine, atributi in razporejanjem.
+description: Ta članek vsebuje informacije o tem, kako delati s podatki, atributi in razporejanjem glede članov projektnih ekip.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

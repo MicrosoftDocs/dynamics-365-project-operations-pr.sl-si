@@ -1,6 +1,6 @@
 ---
 title: Znanja in potrdila
-description: Ta članek vsebuje informacije o dodajanju značilnosti spretnosti in certifikatov virom.
+description: Ta članek vsebuje informacije o dodajanju lastnosti znanja in potrdil v vire.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

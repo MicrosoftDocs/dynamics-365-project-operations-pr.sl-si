@@ -1,6 +1,6 @@
 ---
 title: Upravljanje kompleksnih enot za podrobnosti pogodbe, ki temeljijo na izdelkih – poenostavljena različica
-description: Ta članek vsebuje informacije o podpori prodaje izdelkov, ki temeljijo na naročnini.
+description: V tem članku so na voljo informacije o podpori prodaje naročniških izdelkov.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article

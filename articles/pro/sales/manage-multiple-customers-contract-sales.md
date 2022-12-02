@@ -1,6 +1,6 @@
 ---
 title: Upravljanje več strank v projektnih pogodbah – poenostavljeno
-description: Ta članek vsebuje informacije o upravljanju več strank na projektnih pogodbah.
+description: Ta članek vsebuje informacije o upravljanju več strank v projektnih pogodbah.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

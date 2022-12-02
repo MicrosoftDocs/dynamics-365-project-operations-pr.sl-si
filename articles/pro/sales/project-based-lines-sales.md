@@ -1,6 +1,6 @@
 ---
 title: Vrstice priložnosti, ki temeljijo na projektu – poenostavljeno
-description: Ta članek vsebuje informacije o priložnostnih linijah, ki temeljijo na projektih. (Pro)
+description: Ta članek vsebuje informacije o podrobnostih priložnosti, ki temeljijo na projektu. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

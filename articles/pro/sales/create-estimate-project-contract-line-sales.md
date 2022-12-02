@@ -1,6 +1,6 @@
 ---
 title: Ocenjevanje podrobnosti pogodbe, ki temelji na projektu – poenostavljena različica
-description: Ta članek vsebuje informacije o oceni pogodbene vrstice, ki temelji na projektu.
+description: V tem članku so na voljo informacije o ocenjevanju podrobnosti pogodbe, ki temelji na projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

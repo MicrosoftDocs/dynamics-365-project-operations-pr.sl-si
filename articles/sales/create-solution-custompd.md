@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje rešitve za cenovne razsežnosti po meri
-description: Ta članek vsebuje informacije o tem, kako ustvariti rešitve za razsežnosti cen po meri.
+description: Ta članek vsebuje informacije o ustvarjanju rešitev za cenovne razsežnosti po meri.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article

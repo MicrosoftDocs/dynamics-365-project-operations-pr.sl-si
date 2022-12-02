@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje razporedov izdajanja računov v podrobnostih pogodbe, ki temelji na projektu – poenostavljena različica
-description: Ta članek vsebuje informacije o ustvarjanju urnikov računov in mejnikov.
+description: V tem članku so na voljo informacije o ustvarjanju razporedov računov in mejnikov.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

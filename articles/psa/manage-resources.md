@@ -1,6 +1,6 @@
 ---
 title: Upravljanje virov
-description: Ta članek vsebuje informacije o tem, kako lahko upravljate vire.
+description: Ta članek vsebuje informacije o upravljanju virov.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

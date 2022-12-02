@@ -1,6 +1,6 @@
 ---
 title: Modeli znanj in usposobljenosti
-description: Ta članek vsebuje informacije o tem, kako uporabljati modele veščin in veščin.
+description: Ta članek vsebuje informacije o uporabi modelov znanj in usposobljenosti.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

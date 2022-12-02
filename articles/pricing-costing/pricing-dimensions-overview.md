@@ -1,6 +1,6 @@
 ---
 title: Pregled cenovnih razsežnosti
-description: Ta članek vsebuje informacije o dimenzijah cen v Dynamics 365 Project Operations.
+description: Ta članek vsebuje informacije o cenovnih razsežnostih v aplikaciji Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations vključuje privzet nabor cenovnih razsežnosti. 
 
 ![Prikaz parametrov v aplikaciji Project Service z označeno možnostjo »Mogoče uporabiti za prodajo«.](media/PS-OOB-parameters.png)
 
-Če morate zagotoviti ceno ali strošek za svoje vire z dodatnimi atributi, lahko ustvarite polja, entitete in razsežnosti po meri. Za več informacij glejte naslednje članke. 
+Če morate zagotoviti ceno ali strošek za svoje vire z dodatnimi atributi, lahko ustvarite polja, entitete in razsežnosti po meri. Za več informacij si oglejte naslednje članke. 
   
   > [!NOTE]
   > Postopki morajo biti zaključeni v vrstnem redu, v katerem so bili navedeni.

@@ -1,6 +1,6 @@
 ---
 title: Ključni pojmi
-description: Ta članek vsebuje informacije o ključnih konceptih za upravljanje virov v Project Service Automation.
+description: Ta članek vsebuje informacije o ključnih pojmih za upravljanje virov v aplikaciji Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

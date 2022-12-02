@@ -1,6 +1,6 @@
 ---
 title: Preslikava projektov in opravil v podrobnosti ponudbe, ki temelji na projektih
-description: Ta članek vsebuje informacije o tem, kako preslikati projekte in naloge v vrstico opravil, ki temelji na projektu.
+description: Ta članek ponuja informacije o tem, kako preslikati projekte in opravila v podrobnost opravila, ki temelji na projektih.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

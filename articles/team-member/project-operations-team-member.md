@@ -1,6 +1,6 @@
 ---
-title: Aplikacija za člane projektne operativne skupine
-description: Ta članek vsebuje informacije o aplikaciji Project Operations Team Member v Microsoftu Dynamics 365 Project Operations.
+title: Aplikacija za člane ekipe za Project Operations
+description: Ta članek vsebuje informacije o aplikaciji za člane ekipe za Project Operations v programu Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
@@ -22,20 +22,20 @@ ms.contentlocale: sl-SI
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8918240"
 ---
-# <a name="project-operations-team-member-app"></a>Aplikacija za člane projektne operativne skupine
+# <a name="project-operations-team-member-app"></a>Aplikacija za člane ekipe za Project Operations
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Aplikacija Project Operations Team Member (prej znana kot Project Resource Hub) vključuje vse zmogljivosti, ki jih Microsoft Dynamics 365 Project Operations ponuja uporabniško licenco za člane ekipe.
+Aplikacija za člane ekipe za Project Operations (prej poznana kot Project Resource Hub) vključuje vse zmožnosti, ki jih program Microsoft Dynamics 365 Project Operations ponuja za uporabniško licenco za člane ekipe.
 
-Tukaj je nekaj zmogljivosti aplikacije Project Operations Team Member:
+Tukaj je nekaj zmožnosti aplikacije za člane ekipe za Project Operations:
 
 - Časovni vnos
-- Vnos stroškov (uvedba Lite)
+- Vnos stroškov (poenostavljeno uvajanje)
 - Uporaba materiala
 - Approvals
 - Razširljivost (do 15 entitet)
 
-Če želite uporabljati aplikacijo Project Operations Team Member, morate imeti bodisi polno licenco Project Operations bodisi uporabniško licenco za člane skupine Dynamics Team. Za več informacij o licencah glejte [Vodnik za licenciranje Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Aplikacija Project Operations Team Member zahteva uvedbo Project Operations.
+Če želite uporabljati aplikacijo za člane ekipe za Project Operations, morate imeti polno licenco za Project Operations ali uporabniško licenco za člane ekipe za Dynamics. Za več informacij o licencah glejte [Vodnik za licenciranje za Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Aplikacija za člane ekipe za Project Operations zahteva uvedbo aplikacije Project Operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

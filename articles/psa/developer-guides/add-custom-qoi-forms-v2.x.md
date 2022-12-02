@@ -1,6 +1,6 @@
 ---
 title: Dodajanje novih obrazcev entitet po meri (Project Service Automation 2.x)
-description: Ta članek vsebuje informacije o tem, kako dodati obrazce subjektov po meri za priložnosti, ponudbe, naročila ali račune v Dynamics 365 Project Service Automation 2.x.
+description: V tem članku so navedene informacije o dodajanju obrazcev entitet po meri za priložnosti, ponudbe, naročila ali račune v aplikaciji Dynamics 365 Project Service Automation 2. x.
 author: makk
 ms.custom:
 - dyn365-projectservice

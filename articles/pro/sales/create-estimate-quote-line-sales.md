@@ -1,6 +1,6 @@
 ---
 title: Ocenjevanje vrstice ponudbe, ki temelji na projektih
-description: Ta članek vsebuje informacije o tem, kako ustvariti oceno v vrstici ponudb, ki temelji na projektu.
+description: Ta članek vsebuje informacije o tem, kako ustvariti oceno za vrstico ponudbe, ki temelji na projektih.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article

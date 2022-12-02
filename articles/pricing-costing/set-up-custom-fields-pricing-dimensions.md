@@ -1,6 +1,6 @@
 ---
 title: Nastavitev polj po meri kot cenovnih razsežnosti
-description: Ta članek vsebuje informacije o tem, kako nastaviti razsežnosti cen z uporabo polj po meri.
+description: Ta članek vsebuje informacije o tem, kako nastaviti cenovne razsežnosti z uporabo polj po meri.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8917596"
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Preden začnete, ta članek predvideva, da ste izvedli postopke v člankih, [Ustvarite polja in entitete po meri](create-custom-fields-entities-pricing-dimensions.md) in [Dodajte zahtevana polja po meri za nastavitev cen in transakcijske entitete](add-custom-fields-price-setup-transactional-entities.md). Če teh postopkov še niste dokončali, se vrnite in jih dokončajte, nato pa se vrnite na ta članek. 
+Predpostavljamo, da ste pred začetkom tega postopka izvedli postopke v člankih [Ustvarjanje polj in entitet po meri](create-custom-fields-entities-pricing-dimensions.md) in [Dodajanje zahtevanih polj po meri v entitete za nastavitev cene in transakcijske entitete](add-custom-fields-price-setup-transactional-entities.md). Če teh postopkov še niste izvedli, se vrnite nazaj in jih dokončajte, preden se vrnete na ta članek. 
 
-Ta članek vsebuje informacije o nastavitvi razsežnosti cen po meri. Na strani **Parametri** zavihek **Cenovne razsežnosti na podlagi zneska** prikazuje zapise v entitetah cenovnih razsežnosti. Privzeto sta na tem zavihku dve vrstici v mreži:
+Ta članek vsebuje informacije o nastavitvi cenovnih razsežnosti po meri. Na strani **Parametri** zavihek **Cenovne razsežnosti na podlagi zneska** prikazuje zapise v entitetah cenovnih razsežnosti. Privzeto sta na tem zavihku dve vrstici v mreži:
 
 - **msdyn_resourcecategory** (vloga)
 - **msdyn_OrganizationalUnit** (organizacijska enota)

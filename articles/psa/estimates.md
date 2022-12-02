@@ -1,6 +1,6 @@
 ---
 title: Ocene
-description: Ta članek vsebuje informacije o ocenah v Dynamics 365 Project Service Automation.
+description: Ta članek vsebuje informacije o ocenah v rešitvi Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

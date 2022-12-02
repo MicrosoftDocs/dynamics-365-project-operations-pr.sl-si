@@ -1,6 +1,6 @@
 ---
 title: Načini razporejanja
-description: Ta članek vsebuje informacije o načinih načrtovanja.
+description: Ta članek vsebuje informacije o načinih razporejanja.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
@@ -38,7 +38,7 @@ Ko določite način razporejanja projekta, nastavite eno od teh vrednosti, ki je
 | Opravilo z nespremenljivim obsegom dela    | Trajanje je znova izračunano. | Enote so znova izračunane.    | Trajanje je znova izračunano. |
 | Opravilo z nespremenljivim trajanjem  | Obseg dela je znova izračunan.   | Obseg dela je znova izračunan.    | Enote so znova izračunane.   |
 
-Za več informacij o vplivih posameznega načina si preberite razdelek [Sprememba vrste opravila za natančnejše razporejanje](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). V članku izraz **Delo** se uporablja namesto **Trud**.
+Za več informacij o vplivih posameznega načina si preberite razdelek [Sprememba vrste opravila za natančnejše razporejanje](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). V članku se namesto izraza **Obseg dela** uporablja izraz **Delo**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Sprememba načina razporejanja organizacije
 

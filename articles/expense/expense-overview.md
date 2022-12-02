@@ -1,6 +1,6 @@
 ---
 title: Pregled stroškov
-description: Ta članek vsebuje informacije o funkcionalnosti Expense v Project Operations.
+description: Ta članek vsebuje informacije o funkcijah stroškov v aplikaciji Project Operations.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview

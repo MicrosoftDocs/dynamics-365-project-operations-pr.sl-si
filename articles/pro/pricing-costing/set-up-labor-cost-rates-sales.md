@@ -1,6 +1,6 @@
 ---
 title: Nastavitev stroškov za delo – poenostavljeno
-description: Ta članek vsebuje informacije o tem, kako nastaviti cenovne stopnje za delo v projektnih operacijah.
+description: Ta članek vsebuje informacije o nastavljanju mer stroškov dela v aplikaciji Project Operations.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Ceniki za izdelke
-description: Ta članek vsebuje informacije o cenikih v kataloških cenah, ki se uporabljajo za projektne ponudbe in pogodbe.
+description: Ta članek vsebuje informacije o cenikih pri določanju cen v katalogu, ki se uporabljajo za ponudbe in pogodbe za projekte.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

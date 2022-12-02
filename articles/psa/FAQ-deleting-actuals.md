@@ -1,6 +1,6 @@
 ---
 title: Zakaj ne morem izbrisati zapisov iz entitete opravljenega dela?
-description: Ta članek vsebuje informacije o tem, zakaj ne morete izbrisati zapisov iz dejanske entitete.
+description: V tem članku so na voljo informacije o tem, zakaj ne morete izbrisati zapisov iz entitete opravljenega dela.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice

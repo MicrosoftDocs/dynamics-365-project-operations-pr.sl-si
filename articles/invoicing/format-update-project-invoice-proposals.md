@@ -1,6 +1,6 @@
 ---
 title: Upravljanje predlogov za račune projekta
-description: Ta članek vsebuje podrobnosti o obdelavi računov za stranke s projektnimi operacijami za scenarije, ki temeljijo na virih/brez zalog.
+description: V tem članku so na voljo podrobnosti o obdelavi računov za stranke v aplikaciji Project Operations za primere uporabe z viri/brez zalog.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -22,7 +22,7 @@ Predloge za račune projekta lahko obdela vaš oddelek za obračunavanje, če st
   - Vodja projekta potrdi predračun v storitvi Microsoft Dataverse.
   - Vse neobračunane časovne in materialne prodajne transakcije, ki so vključene v predračun, se knjižijo v dnevniku **integracij za Project Operations** v storitvi Dynamics 365.
 
-Za dokončanje predloga računa projekta v Dynamics 365 Finance uporabite naslednje korake.
+Sledite spodnjim korakom za dokončanje predloga za račun projekta v storitvi Dynamics 365 Finance.
 
 1. Preglejte podatke za obračunavanje za časovne in materialne transakcije in objavite dnevnik **integracij za Project Operations**.
 2. Preglejte podatke za obračunavanje za mejnike obračunavanja po fiksni ceni.

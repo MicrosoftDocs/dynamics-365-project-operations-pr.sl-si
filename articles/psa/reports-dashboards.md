@@ -1,6 +1,6 @@
 ---
 title: Nadzorne plošče
-description: Ta članek vsebuje informacije o nadzornih ploščah za poročanje, ki so vključene v Dynamics 365 Project Service Automation.
+description: Ta članek vsebuje informacije o nadzornih ploščah za poročanje, ki so vključene v aplikacijo Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Zapiranje ponudbe – poenostavljeno
-description: Ta članek vsebuje informacije o zaključku ponudbe v Project Operations.
+description: Ta članek vsebuje informacije o zapiranju ponudbe v aplikaciji Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

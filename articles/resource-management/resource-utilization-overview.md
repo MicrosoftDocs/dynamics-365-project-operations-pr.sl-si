@@ -1,6 +1,6 @@
 ---
 title: Pregled uporabe virov
-description: Ta članek vsebuje informacije o uporabi virov v Project Operations.
+description: V tem članku so na voljo informacije o uporabi virov v storitvi Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

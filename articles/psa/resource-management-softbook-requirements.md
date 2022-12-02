@@ -1,6 +1,6 @@
 ---
 title: Zahtevani pogoji za začasne rezervacije
-description: Ta članek vsebuje informacije o tem, kako zahtevati programsko knjigo.
+description: Ta članek vsebuje informacije o tem, kako začasno rezervirati zahtevane pogoje.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

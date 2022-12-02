@@ -1,6 +1,6 @@
 ---
 title: Nastavitev cen in stopenj prodaje za materiale
-description: Ta članek vsebuje informacije o tem, kako nastaviti stroške in prodajne stopnje za materiale, uporabljene pri projektih.
+description: Ta članek vsebuje informacije o tem, kako nastaviti stroške in stopnje prodaje materialov, uporabljenih pri projektih.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
@@ -25,9 +25,9 @@ Nastavite lahko cene in stopnje prodaje za izdelke v Dynamics 365 Project Operat
 2. Pri možnosti **Elementi cenika** v meniju podmreže izberite **Nov element cenika**. 
 3. Na strani **Hitro ustvarjanje** vnesite izdelek in enoto, za katero ustvarjate novo ceno.
 
-Za več informacij o tem, kako definirati cene za artikle iz kataloga, glejte [Določite cene izdelkov s ceniki in artikli iz cenika](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) in [Decimalna natančnost v valuti in cenah](/dynamics365/sales/decimal-precision-currency-pricing).
+Za več informacij o določanju cen za elemente v katalogu glejte razdelka [Določanje cen izdelkov s ceniki in elementov cenika](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) ter [Decimalna natančnost pri valuti in cenah](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!NOTE]
-> Dynamics 365 Project Operations ne podpira vseh metod oblikovanja cen za izdelke kot Dynamics 365 Sales. Edina podprta metoda oblikovanja cen za izdelke, ki se uporabljajo v projektih, je *Znesek valute*.
+> Dynamics 365 Project Operations ne podpira vseh načinov za določanje cen izdelkov kot Dynamics 365 Sales. Edini podprti način za določanje cen izdelkov za uporabo pri projektih je *Valutni znesek*.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Dodeljevanje splošnih virov, ki jih je mogoče rezervirati, opravilu in projektni ekipi
-description: Ta članek vsebuje informacije o rezervaciji splošnih virov za naloge in projektne skupine.
+description: Ta članek vsebuje informacije o rezervaciji splošnih virov za opravila in projektne ekipe.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

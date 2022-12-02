@@ -1,6 +1,6 @@
 ---
 title: Uvoz ocene v podrobnosti pogodbe, ki temeljijo na projektu – poenostavljena različica
-description: Ta članek vsebuje informacije o uvozu finančnih ocen iz projekta v pogodbeno vrstico.
+description: Ta članek vsebuje informacije o uvozu finančnih ocen projekta v podrobnosti pogodbe.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Vodnik za upravljanje virov
-description: Ta članek vsebuje povezave do informacij o upravljanju virov v Project Service Automation
+description: V tem članku so na voljo povezave do informacij o upravljanju virov v aplikaciji Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8910818"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Povezava PDF, ki je bila prej v tem članku, je bila odstranjena in vsebina je bila premaknjena v naslednje članke:
+Povezava PDF, ki je bila vključena v tem članku, je odstranjena, vsebina pa je premaknjena v naslednje članke:
 
 - [Domača stran upravljanja virov](../resource-management-home-page.md)
 - [Ključni pojmi](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Povezava PDF, ki je bila prej v tem članku, je bila odstranjena in vsebina je b
 - [Pogosta vprašanja in odgovori o upravljanju virov](../resource-management-faq.md)
 
 > [!NOTE]
-> Ta članek bo odstranjen v prihodnji posodobitvi dokumentacije. 
+> Ta članek ne bo več na voljo v prihodnji posodobitvi dokumentacije. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

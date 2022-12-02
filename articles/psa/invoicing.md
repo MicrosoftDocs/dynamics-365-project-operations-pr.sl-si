@@ -1,6 +1,6 @@
 ---
 title: Zaračunavanje v storitvi Project Service Automation
-description: Ta članek vsebuje informacije o izdajanju računov.
+description: Ta članek vsebuje informacije o zaračunavanju.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -94,7 +94,7 @@ Ko se potek dela **processrunner** preneha izvajati, prikliče potek dela **Proc
 Paketna obdelava za ustvarjanje računov je ponavljajoče se opravilo. Če se paketna obdelava zažene večkrat, se ustvari več primerkov opravila in pride do napak. Zato paketno obdelavo zaženite samo enkrat in jo znova zaženite le, če se preneha izvajati.
 
 > [!NOTE]
-> Paketno izdajanje računov v storitvi Project Service Automation se izvaja samo za podrobnosti pogodb, ki so konfigurirane z razporedi računov. V podrobnostih pogodbe z načinom obračunavanja s fiksno ceno morajo biti nastavljeni mejniki. V podrobnostih pogodbe z načinom obračunavanja za časovne in materialne transakcije je treba nastaviti datumski urnik računov. Informacije o nastavitvi frekvence fakturiranja v okviru projekta, ki temelji na vrstici ponudbe, so podane v članku, [Citati in citatne vrstice](basic-quote-lines.md#invoice-schedule). Enako velja v podrobnosti pogodbe za projekt.      
+> Paketno izdajanje računov v storitvi Project Service Automation se izvaja samo za podrobnosti pogodb, ki so konfigurirane z razporedi računov. V podrobnostih pogodbe z načinom obračunavanja s fiksno ceno morajo biti nastavljeni mejniki. V podrobnostih pogodbe z načinom obračunavanja za časovne in materialne transakcije je treba nastaviti datumski urnik računov. Informacije o nastavitvi pogostosti izdajanja računov v okviru projekta, ki temelji na vrstici s ponudbo, so na voljo v članku [Ponudbe in vrstice s ponudbo](basic-quote-lines.md#invoice-schedule). Enako velja v podrobnosti pogodbe za projekt.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Urejanje osnutka računa v PSA
 

@@ -1,6 +1,6 @@
 ---
 title: Prenos proračunov projektov ob koncu proračunskega leta
-description: Ta članek vsebuje informacije o tem, kako prenesti preostale proračunske zneske v prihodnja leta in ustvariti podrobnosti proračunskega registra.
+description: Ta članek vsebuje informacije o prenosu zneskov preostalega proračuna v prihodnja leta in ustvarjanju podrobnosti registra proračuna.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article

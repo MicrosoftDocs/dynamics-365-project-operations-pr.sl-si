@@ -1,6 +1,6 @@
 ---
 title: Delo z osebnimi stroški v poročilu o stroških
-description: Ta članek vsebuje informacije o tem, kako delati z osebnimi stroški, ki jih imajo zaposleni med službenim potovanjem.
+description: V tem članku so na voljo informacije o delu z osebnimi stroški, ki jih imajo zaposleni med poslovnimi potovanji.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article

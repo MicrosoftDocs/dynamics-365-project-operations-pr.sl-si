@@ -1,6 +1,6 @@
 ---
 title: Zajem računa s tehnologijo OCR
-description: Ta članek vsebuje informacije o obdelavi optičnega prepoznavanja znakov (OCR) za potrdila.
+description: Ta članek vsebuje informacije o obdelavi z optičnim prepoznavanjem znakov (OCR) za potrdila.
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -52,7 +52,7 @@ Za samodejno prilaganje potrdil, ki vključujejo transakcije s kreditnimi kartic
 
 ## <a name="installation"></a>Namestitev
 
-Če želite uporabiti te napredne zmožnosti stroškov, namestite dodatek Expense Management Service za Microsoft Dynamics 365 Finance in vklopite funkcije v svojem primeru. Do dodatka lahko dostopate iz svojega projekta v Microsoft Dynamics Lifecycle Services (LCS).
+Če želite uporabiti te napredne zmožnosti stroškov, namestite dodatek za storitev upravljanja stroškov za Microsoft Dynamics 365 Finance in vklopite funkcije v svojem primerku. Do dodatka lahko dostopate iz svojega projekta v Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Prijavite se v LCS in odprite želeno okolje.
 2. Odprite **Vse podrobnosti**.
@@ -85,14 +85,14 @@ Ne, Microsoft je za storitev obdelave potrdil zgradil splošni model strojnega u
 
 **Kje je na voljo in obdelana ta funkcija?**
 
-Razpoložljivost te funkcije v različnih regijah je navedena v naslednji tabeli. Če vaša regija trenutno ni podprta, pošljite zahtevo za prednostno razpoložljivost storitve OCR v vaši regiji. 
+Razpoložljivost te funkcije v različnih regijah je navedena v naslednji tabeli. Če vaša regija trenutno ni podprta, oddajte zahtevo za prednostno razpoložljivost storitve OCR v vaši regiji. 
 
 | Regija | Podprto                         |
 |--------|-----------------------------------|
 | ZDA    | Da                               |
 | Kanada    | Da                               |
 | Združeno kraljestvo     | Da                               |
-| AUS    | Da                               |
+| Avstralija    | Da                               |
 | EU     | Delno. Samo angleški računi. |
 | Azija   | No                                |
 | Japonska  | No                                |

@@ -1,6 +1,6 @@
 ---
 title: Opombe za razvijalce za odobritve
-description: Ta članek vsebuje dodatne informacije za razvijalce o delu z odobritvami.
+description: V tem članku so na voljo dodatne informacije o delu z odobritvami.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

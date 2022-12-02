@@ -1,6 +1,6 @@
 ---
 title: Upravljanje več strank v projektnih ponudbah – poenostavljeno
-description: Ta članek vsebuje informacije o delu na ponudbah z več strankami, ki bodo financirale projekt. (Sales)
+description: Ta članek vsebuje informacije o delu s ponudbami z več strankami, ki bodo financirale projekt. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Beleženje uporabe materiala v projektih in projektnih nalogah
-description: Ta članek vsebuje informacije o tem, kako evidentirati porabo materiala za projekte in projektne naloge.
+description: Ta članek ponuja informacije o tem, kako beležiti uporabo materiala glede na projekte in opravila projekta.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

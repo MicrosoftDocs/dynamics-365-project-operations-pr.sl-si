@@ -1,6 +1,6 @@
 ---
 title: Konfiguracija vodenja računov za interne projekte
-description: Ta članek vsebuje informacije o tem, kako nastaviti računovodske prakse za interne projekte v Project Operations.
+description: Ta članek vsebuje informacije o nastavitvah računovodskih postopkov za interne projekte v aplikaciji Project Operations.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article

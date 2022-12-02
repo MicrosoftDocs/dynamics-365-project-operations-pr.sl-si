@@ -1,6 +1,6 @@
 ---
 title: Napredne organizacijske enote
-description: Ta članek vsebuje informacije o organizacijskih enotah v Dynamics 365 Project Service Automation.
+description: Ta članek vsebuje informacije o organizacijskih enotah v aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

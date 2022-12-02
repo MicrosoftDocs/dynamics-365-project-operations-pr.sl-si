@@ -1,6 +1,6 @@
 ---
-title: Izvor transakcije – povežite dejanske podatke z njihovim virom
-description: Ta članek pojasnjuje, kako se koncept izvora transakcije uporablja za povezavo dejanskih dejstev z izvirnimi izvornimi zapisi, kot so vnos časa, vnos stroškov ali dnevniki porabe materiala.
+title: Izvori transakcij – povezovanje dejanskih vrednosti z njihovim virom
+description: Ta članek pojasnjuje, kako se koncept izvorov transakcij uporablja za povezovanje dejanskih vrednosti z izvornimi zapisi, kot so vnos časa, vnos stroškov ali dnevniki uporabe materiala.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.contentlocale: sl-SI
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921322"
 ---
-# <a name="transaction-origins---link-actuals-to-their-source"></a>Izvor transakcije – povežite dejanske podatke z njihovim virom
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Izvori transakcij – povezovanje dejanskih vrednosti z njihovim virom
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Zapisi izvora transakcij so ustvarjeni za povezavo dejanskih dejstev z njihovim virom, kot so vnosi časa, vnosi stroškov, dnevniki porabe materiala in projektni računi.
+Zapisi o izvoru transakcij so ustvarjeni za povezavo dejanskih vrednosti z njihovim virom, kot so časovni vnosi, vnosi stroškov, dnevniki porabe materiala in računi za projekt.
 
 Naslednji primer prikazuje običajno obdelavo časovnih vnosov v življenjskem ciklu projekta v aplikaciji Project Operations.
 
-> ![Celotni čas obdelave v projektnih operacijah.](media/basic-guide-17.png)
+> ![Obdelovanje časovnih vnosov v aplikaciji Project Operations.](media/basic-guide-17.png)
  
-1. Predložitev časovnega vnosa povzroči, da se ustvarita dve vrstici dnevnika: ena za stroške in ena za neobračunano prodajo.
-2. Končna odobritev časovnega vnosa povzroči, da se ustvarita dve dejanski vrednosti: ena za stroške in ena za neobračunano prodajo.
+1. Pošiljanje časovnega vnosa povzroči ustvarjanje dveh vrstic dnevnika: eno za strošek in eno za neobračunano prodajo.
+2. Morebitna odobritev časovnega vnosa povzroči ustvarjanje dveh dejanskih vrednosti: eno za strošek in eno za neobračunano prodajo.
 3. Ko uporabnik ustvari račun projekta, se transakcija vrstice računa ustvari z uporabo podatka iz dejanske vrednosti neobračunane prodaje.
 4. Ko je račun potrjen, sta ustvarjeni dve novi dejanski vrednosti: stornirana neobračunana prodaja in dejanska vrednost obračunane prodaje.
 
-Vsak dogodek v tem delovnem toku obdelave sproži ustvarjanje zapisov v izvorni entiteti transakcije, da se pomaga zgraditi sled Odnosi med temi zapisi, ki so ustvarjeni med vnosom časa, vrstico dnevnika, dejanskimi podatki in podatki v vrstici računa.
+Vsak dogodek v tem poteku dela obdelave sproži ustvarjanje zapisov v entiteti izvora transakcije, ki pomagajo sestaviti sled odnosov med temi zapisi, ki so ustvarjeni za podrobnosti časovnega vnosa, vrstice dnevnika, dejansko vrednost in vrstice računa.
 
 Spodnja tabela prikazuje zapise v entiteti izvora transakcije izvora za predhodni potek dela.
 
@@ -70,8 +70,8 @@ Spodnja tabela prikazuje zapise v entiteti izvora transakcije izvora za predhodn
 | GUID popravka računa      | Kupec                  | GUID novega dejanskega zneska neobračunane prodaje    | Dejansko                            |                          |
 
 
-Naslednja slika prikazuje povezave, ki so ustvarjene med dejanskimi stvarmi in njihovimi viri na različnih dogodkih na primeru časovnih vnosov v Operacijah projekta.
+Naslednja slika prikazuje povezave, ki so ustvarjene med dejanskimi vrednostmi in njihovimi viri ob različnih dogodkih z uporabo primera časovnih vnosov v aplikaciji Project Operations.
 
-> ![Kako so dejanski podatki povezani z izvornimi zapisi v Project Operations.](media/TransactionOrigins.png)
+> ![Kako so dejanske vrednosti povezane z izvornimi zapisi v aplikaciji Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

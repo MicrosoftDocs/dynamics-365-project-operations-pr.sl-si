@@ -1,6 +1,6 @@
 ---
 title: Vrstice priložnosti, ki temeljijo na izdelkih – poenostavljeno
-description: Ta članek vsebuje informacije o postavkah vrstic priložnosti, ki temeljijo na izdelkih, v Project Operations.
+description: Ta članek vsebuje informacije o vrstičnih postavkah priložnosti, ki temeljijo na izdelkih, v storitvi Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

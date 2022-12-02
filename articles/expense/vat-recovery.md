@@ -1,6 +1,6 @@
 ---
 title: Izterjava DDV pri upravljanju stroškov
-description: V tem članku je razloženo, kako prejeti vračilo za upravičene transakcije davka na dodano vrednost (DDV).
+description: Ta članek vsebuje razlago, kako prejemati vračila za upravičene transakcije z davkom na dodano vrednost (DDV).
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

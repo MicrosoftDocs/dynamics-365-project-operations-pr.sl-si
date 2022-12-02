@@ -1,6 +1,6 @@
 ---
 title: Upravljanje projektnih pogodb
-description: Ta članek vsebuje informacije o ogledu pogodb, ki temeljijo na projektih.
+description: V tem članku so na voljo informacije o ogledu pogodb, ki temeljijo na projektu.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Seznam vseh pogodb za projekt si lahko ogledate na strani s seznamom **Pogodbe**
 Pogodbe lahko ustvarite ali izbrišete s strani s seznamom ali strani s podrobnostmi.
 
 > [!NOTE]
-> Pogodb, s katerimi so povezani projekti, naloge, ocene, dnevniki in/ali dejansko stanje, ni mogoče izbrisati. 
+> Pogodb, ki imajo povezane projekte, opravila, ocene, dnevnike in/ali dejanske vrednosti, ni mogoče izbrisati. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

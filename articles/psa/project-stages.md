@@ -1,6 +1,6 @@
 ---
 title: Vrste stopenj projekta
-description: Ta članek vsebuje informacije o fazah projekta.
+description: Ta članek vsebuje informacije o stopnjah projekta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

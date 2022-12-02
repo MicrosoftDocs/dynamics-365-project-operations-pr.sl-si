@@ -1,6 +1,6 @@
 ---
 title: Novosti v novembru 2020 – uvajanje storitve Project Operations Lite – posel do izstavitve predračuna
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji uvajanja Project Operations Lite novembra 2020 – dogovor o izdajanju računov po predračunu.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v novembrski izdaji (2020) uvajanja aplikacije Project Operations – posel do izstavitve predračuna.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

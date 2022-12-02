@@ -1,6 +1,6 @@
 ---
 title: Finančne ocene za čase virov v projektih
-description: Ta članek vsebuje informacije o tem, kako se izračunajo finančne ocene časa.
+description: Ta članek vsebuje informacije o tem, kako se izračunajo finančne ocene za čas.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

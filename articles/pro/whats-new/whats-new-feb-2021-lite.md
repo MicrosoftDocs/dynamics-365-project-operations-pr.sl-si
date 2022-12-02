@@ -1,6 +1,6 @@
 ---
 title: Novosti v februarju 2021 – poenostavljeno uvajanje storitve Project Operations
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji različice Project Operations lite februarja 2021.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v februarski izdaji (2021) poenostavljenega uvajanja aplikacije Project Operations.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.locfileid: "8914054"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Novosti v februarju 2021 – poenostavljeno uvajanje storitve Project Operations
 
-Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
+Ta članek velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
   - Project Operations v okolju Dataverse različice 4.7.0.95
 

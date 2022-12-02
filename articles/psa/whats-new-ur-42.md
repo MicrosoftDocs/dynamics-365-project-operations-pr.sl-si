@@ -1,6 +1,6 @@
 ---
 title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 42, V3
-description: V tem članku so navedene funkcije in popravki, ki so na voljo v Microsoft Dynamics 365 Project Service Automation Posodobitev izdaja 42, V3.
+description: Ta članek navaja funkcije in popravke, ki so na voljo v izdaji posodobitve 42, V3 storitve Microsoft Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/05/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8912735"
 
 Z veseljem objavljamo najnovejšo posodobitev za aplikacijo Microsoft Dynamics 365 Project Service Automation. Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Združljiva je z s storitvijo Dynamics 365 9.x. Če želite posodobiti to različico, obiščite spletno stran rešitev za Skrbniško središče za Dynamics 365 in namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).
 
-V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za posodobitev Project Service Automation, izdaja 42, V3. Številka graditve te različice je V3.10.73.61 in je na splošno na voljo prek samostojne posodobitve v aprilu 2022.
+V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation 42, V3. Številka graditve te različice je V3.10.73.61 in je na splošno na voljo prek samostojne posodobitve v aprilu 2022.
 
 ## <a name="update-release-42"></a>Izdaja posodobitve 42
 
@@ -39,10 +39,10 @@ Odpravljene so naslednje težave:
 
 **Čas in strošek**
 
-- Ko je časovni list zavrnjen, je uporabnik, ki ga je zavrnil, napačno identificiran kot **sistem**.
-- Ko so uvoženi časovni vnosi, se **Kategorija vira** manjka vrednost.
-- Odobritelji projektov lahko odobrijo predložene projekte, če njihova dovoljenja niso posebej nastavljena **Lahko odobri**.
+- Ko je časovni list zavrnjen, je uporabnik, ki ga je zavrnil, nepravilno prepoznan kot **Sistem**.
+- Ko so časovni vnosi uvoženi, manjka vrednost **Kategorija vira**.
+- Odobritelji projekta lahko odobrijo predložene projekte, če njihova dovoljenja niso posebej nastavljena na **Lahko odobri**.
 
 **Prodaja**
 
-- Ko so dejanski podatki prijavljeni za naloge na nekorenski ravni, so dejanski stroški napačno združeni.
+- Ko so dejanske vrednosti zabeležene na opravilih, ki niso na ravni korena, so dejanski stroški nepravilno združeni.

@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje rešitev po meri za cenovne razsežnosti
-description: Ta članek pojasnjuje, kako ustvariti rešitev po meri pri ustvarjanju dimenzij cen po meri.
+description: V tem članku je opisano, kako pri ustvarjanju cenovnih razsežnosti po meri ustvarite rešitev po meri.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

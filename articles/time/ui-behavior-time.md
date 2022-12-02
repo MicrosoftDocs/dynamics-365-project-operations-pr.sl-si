@@ -1,6 +1,6 @@
 ---
 title: Vedenje uporabniškega vmesnika za časovni vnos
-description: Ta članek vsebuje informacije o obnašanju uporabniškega vmesnika za vnos časa.
+description: Ta članek vsebuje informacije o vedenju uporabniškega vmesnika za časovni vnos.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article

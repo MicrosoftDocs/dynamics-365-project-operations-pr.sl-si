@@ -1,6 +1,6 @@
 ---
 title: Stroški in prihodki projekta
-description: Ta članek vsebuje informacije o oceni stroškov in prihodkov projekta.
+description: Ta članek vsebuje informacije o ocenjevanju stroškov in prihodkov projekta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

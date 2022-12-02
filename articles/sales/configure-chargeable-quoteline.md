@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje plačljivih komponent podrobnosti ponudb, ki temeljijo na projektih
-description: Ta članek vsebuje informacije o vključenih, plačljivih in neplačljivih komponentah v vrsticah s ponudbami na podlagi projekta.
+description: Ta članek vsebuje informacije o vključenih, plačljivih in neplačljivih komponentah v podrobnostih ponudb, ki temeljijo na projektih.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Posodabljanje atributov vtičnikov z novimi cenovnimi razsežnostmi
-description: Ta članek vsebuje informacije o tem, kako posodobiti atribute vtičnika za razsežnosti cen.
+description: Ta članek vsebuje informacije o posodabljanju atributov vtičnika za cenovne razsežnosti.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.locfileid: "8920034"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Posodabljanje atributov vtičnikov z novimi cenovnimi razsežnostmi
 
-Ta članek vsebuje informacije o tem, kako posodobiti atribute vtičnika za razsežnosti cen.
+Ta članek vsebuje informacije o posodabljanju atributov vtičnika za cenovne razsežnosti.
 
 > [!NOTE]
-> Ta člen se uporablja samo za ponudbe in funkcije pogodbe v Dynamics 365 Project Operations.
+> Ta članek se uporablja samo za funkcije ponudbe in pogodbe v storitvi Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Zahteve
-Preden dokončate korake v tem članku, morate opraviti postopke v naslednjih člankih:
+Preden dokončate korake v tem članku, morate izvesti postopke v naslednjih člankih:
 
   - [Ustvarjanje polj in entitet po meri](create-custom-fields-entities-pricing-dimensions.md) 
   - [Dodajanje polj po meri v entitete za nastavitev cene in transakcijske entitete ](add-custom-fields-price-setup-transactional-entities.md)
   - [Nastavitev polj po meri kot cenovnih razsežnosti](set-up-custom-fields-pricing-dimensions.md). 
   
-Če teh postopkov še niste izvedli, jih dokončajte in se nato vrnite na ta članek.
+Če teh postopkov še niste izvedli, jih dokončajte in se vrnite na ta članek.
 
 ## <a name="register-a-plug-in"></a>Registracija vtičnika
 Ko se na strani **Vrstica ponudbe** ustvarijo podrobnosti vrstice ponudbe za projektno vrstico ponudbe, sistem ustvari dve vrstici ocene. Ena vrstica je na strani stroškov ocene, druga vrstica pa na strani prodaje. Enako velja za podrobnosti projektne pogodbe.

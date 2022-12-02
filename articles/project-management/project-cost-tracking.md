@@ -1,6 +1,6 @@
 ---
 title: Sledenje stroškom projekta
-description: Ta članek vsebuje informacije o tem, kako projektne operacije spremljajo napredek glede na stroške dela in porabo pri projektu.
+description: Ta članek vsebuje informacije o tem, kako aplikacija Project Operations spremlja napredek glede na stroške in porabo pri projektu.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

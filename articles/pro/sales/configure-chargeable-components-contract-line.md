@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje plačljivih komponent za podrobnosti pogodbe, ki temelji na projektu
-description: Ta članek vsebuje informacije o tem, kako dodati plačljive komponente v pogodbene vrstice v Project Operations.
+description: Ta članek ponuja informacije o tem, kako v aplikaciji Project Operations v podrobnost pogodbe dodati komponente, ki se zaračunajo.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

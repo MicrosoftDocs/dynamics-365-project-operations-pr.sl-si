@@ -1,6 +1,6 @@
 ---
 title: Kopiranje ponudb, ki temeljijo na projektih
-description: Ta članek vsebuje informacije o kopiranju projektnih ponudb v Project Operations.
+description: Ta članek vsebuje informacije o kopiranju ponudb, ki temeljijo na projektih, v storitvi Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Nastavitev vlog za predloge strukturirane členitve dela
-description: Ta članek vsebuje informacije o nastavitvi informacij o vlogi v predlogah strukture razčlenitve dela.
+description: Ta članek vsebuje informacije o nastavitvi informacij o vlogah na predlogah strukturirane členitve dela.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

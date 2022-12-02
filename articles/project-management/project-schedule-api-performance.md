@@ -1,6 +1,6 @@
 ---
 title: Učinkovitost API-jev razporeda projekta
-description: Ta članek vsebuje informacije o merilih uspešnosti API-jev za načrtovanje projekta in opredeljuje najboljše prakse za optimalno uporabo.
+description: Ta članek zagotavlja informacije o merilih uspešnosti API-jev razporeda projekta in opredeljuje najboljše prakse za optimalno uporabo.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8911202"
 
 _**Velja za:** aplikacija Project Operations za okoliščine, ki temeljijo na virih/nezalogi, poenostavljeno uvajanje – posel do izstavitve predračuna, storitev Project for the web_
 
-Ta članek vsebuje informacije o merilih uspešnosti aplikacijskih programskih vmesnikov (API-jev) za načrtovanje projekta in opredeljuje najboljše prakse za optimizacijo uporabe.
+Ta članek zagotavlja informacije o merilih uspešnosti API-jev razporeda projekta in opredeljuje najboljše prakse za optimizacijo uporabe.
 
 ## <a name="project-scheduling-service"></a>Storitev razporejanja projektov
 Storitev razporejanja projektov je storitev z več najemniki, ki se izvaja v Microsoft Azure. Zasnovan je za izboljšanje interakcije z zagotavljanjem hitre in tekoče izkušnje, ko uporabniki delajo na projektih. Ta izboljšava je dosežena tako, da sprejmemo zahtevke za spremembe, jih obdelamo in nato takoj vrnemo rezultat. Storitev asinhrono deluje v okolju Dataverse in uporabnikom ne blokira izvajanja drugih operacij.
 
-API-ji za razpored projekta se zanašajo na storitev načrtovanja projektov za izvajanje zahtev, ki so podrobneje opisane v kasnejših razdelkih tega članka.
+API-ji razporeda projekta se zanašajo na storitev razporejanja projektov za izvajanje zahtev, ki so podrobneje opisane v kasnejših razdelkih tega članka.
 
 API-ji razporeda projekta so zasnovani za delo z naslednjimi entitetami strukturirane členitve dela (WBS):
 

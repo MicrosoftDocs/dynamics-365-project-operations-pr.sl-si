@@ -1,6 +1,6 @@
 ---
 title: Poslovne transakcije v aplikaciji Project Operations
-description: Ta članek ponuja pregled koncepta poslovnih transakcij v Microsoftu Dynamics 365 Project Operations.
+description: Ta članek nudi pregled koncepta poslovnih transakcij v programu Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -24,7 +24,7 @@ ms.locfileid: "8923300"
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-V Microsoftu Dynamics 365 Project Operations, *transakcija* je abstrakten koncept, ki ga ne predstavlja nobena entiteta. Vendar so nekatera skupna področja in procesi za entitete zasnovani tako, da uporabljajo koncept poslovnih transakcij. Ta abstraktni element uporabljajo naslednje entitete:
+V programu Microsoft Dynamics 365 Project Operations je *poslovna transakcija* abstrakten koncept, ki ga ne predstavlja nobena entiteta. Vendar so nekatera skupna področja in procesi za entitete zasnovani tako, da uporabljajo koncept poslovnih transakcij. Ta abstraktni element uporabljajo naslednje entitete:
 
 - Podrobnosti vrstice ponudb
 - Podrobnosti vrstice pogodb
@@ -32,9 +32,9 @@ V Microsoftu Dynamics 365 Project Operations, *transakcija* je abstrakten koncep
 - Vrstice dnevnikov
 - Opravljeno delo
 
-Od teh entitet so podrobnosti vrstice ponudbe, podrobnosti pogodbene vrstice in vrstice ocene preslikane v *faza ocene* v življenjskem ciklu projekta. Entitete vrstice dnevnika in dejanske vrednosti so preslikane v *faza izvedbe* v življenjskem ciklu projekta.
+Od teh entitet so podrobnosti vrstice ponudb, podrobnosti vrstice pogodb in vrstice ocen preslikane na *stopnjo ocenjevanja* v življenjskem ciklu projekta. Entiteti »Vrstice dnevnikov« in »Dejanske vrednosti« sta preslikani na *stopnjo izvedbe* v življenjskem ciklu projekta.
 
-Projektno poslovanje obravnava evidence v vseh petih od teh subjektov kot poslovne transakcije. Edina razlika je v tem, da se upoštevajo zapisi v entitetah, ki so preslikani v fazo ocene (podrobnosti vrstice ponudbe, podrobnosti pogodbene vrstice in vrstice ocene).*finančne napovedi*, medtem ko se upoštevajo zapisi v entitetah, ki so preslikani na fazo izvajanja (vrstice dnevnika in dejanske vrednosti).*finančna dejstva* ki so se že zgodile.
+Project Operations zapise v vseh teh petih entitetah obravnava kot poslovne transakcije. Edina razlika je, da se zapisi v entitetah, ki so preslikane na stopnjo ocenjevanja (podrobnosti vrstice ponudb, podrobnosti vrstice pogodb in vrstice ocen), upoštevajo kot *finančne napovedi*, medtem ko se zapisi v entitetah, ki so preslikane na stopnjo izvedbe (vrstice dnevnikov in dejanske vrednosti), upoštevajo kot *finančna dejstva*, ki so se že zgodila.
 
 Če želite več informacij, glejte [Ocene](../project-management/estimating-projects-overview.md) in [Dejanske vrednosti](actuals-overview.md).
 
@@ -49,7 +49,7 @@ Naslednji koncepti so značilni za koncept poslovnih transakcij:
 
 ### <a name="transaction-type"></a>Vrsta transakcije
 
-Vrsta transakcije predstavlja čas in kontekst finančnega učinka na projekt. Opredeljuje ga nabor možnosti, ki ima naslednje podprte vrednosti v projektnih operacijah:
+Vrsta transakcije predstavlja čas in kontekst finančnega učinka na projekt. Določa jo nabor možnosti, ki ima v aplikaciji Project Operations naslednje podprte vrednosti:
 
 - Cena
 - Projektna pogodba
@@ -60,7 +60,7 @@ Vrsta transakcije predstavlja čas in kontekst finančnega učinka na projekt. O
 
 ### <a name="transaction-class"></a>Razred transakcije
 
-Razred transakcije predstavlja različne vrste stroškov, ki nastanejo pri projektih. Opredeljuje ga nabor možnosti, ki ima naslednje podprte vrednosti v projektnih operacijah:
+Razred transakcije predstavlja različne vrste stroškov, ki nastanejo pri projektih. Določa jo nabor možnosti, ki ima v aplikaciji Project Operations naslednje podprte vrednosti:
 
 - Čas
 - Stroški
@@ -70,16 +70,16 @@ Razred transakcije predstavlja različne vrste stroškov, ki nastanejo pri proje
 - Davek
 
 > [!NOTE]
-> The **Mejnik** vrednost običajno uporablja poslovna logika za obračunavanje s fiksno ceno v Project Operations.
+> Vrednost **Mejnik** se v aplikaciji Project Operations običajno uporablja v poslovni logiki za obračunavanje fiksnih cen.
 
 ### <a name="transaction-origin"></a>Izvor transakcije
 
-Izvor transakcije je entiteta, ki shranjuje izvor vsake poslovne transakcije za pomoč pri poročanju in sledljivosti. Ko se izvedba projekta začne, vsaka poslovna transakcija ustvari drugo poslovno transakcijo, ki bo posledično ustvarila drugo poslovno transakcijo itd.
+Izvor transakcije je entiteta, ki hrani izvor vsake poslovne transakcije za pomoč pri poročanju in sledljivosti. Ko se začne izvajati projekt, vsaka poslovna transakcija ustvari še eno poslovno transakcijo, ki bo posledično ustvarila drugo poslovno transakcijo in tako naprej.
 
 ### <a name="transaction-connection"></a>Povezava transakcije
 
-Transakcijska povezava je entiteta, ki shranjuje razmerje med dvema podobnima poslovnima transakcijama, kot so dejanski stroški in z njimi povezani prodajni stroški ali razveljavitve transakcij, ki jih sprožijo dejavnosti obračunavanja, kot so potrditev računa ali popravki računa.
+Povezava transakcije je entiteta, ki shranjuje odnos med dvema podobnima poslovnima transakcijama, kot so stroški in povezani dejanski podatki o prodaji ali stornirane transakcije, ki jih sprožijo obračunske dejavnosti, kot so potrditev računa ali popravki računa.
 
-Entiteti izvor transakcije in povezave transakcije vam skupaj pomagajo slediti Odnosi med poslovnimi transakcijami in dejanji, zaradi katerih je bila ustvarjena določena poslovna transakcija.
+Skupaj vam entiteti izvora transakcije in povezave transakcije pomagata slediti odnosom med poslovnimi transakcijami in dejanji, ki povzročijo ustvarjanje določene poslovne transakcije.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

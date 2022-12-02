@@ -1,6 +1,6 @@
 ---
 title: Dodajanje polj po meri v entitete za nastavitev cene in transakcijske entitete
-description: Ta članek vsebuje informacije o dodajanju polj po meri nastavitvi cen in transakcijskim entitetam.
+description: V tem članku so na voljo informacije o dodajanju polj po meri v entitete za nastavitev cene in transakcijske entitete.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8920494"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ta članek predvideva, da ste izvedli postopke v članku, [Ustvarite polja in entitete po meri](create-custom-fields-entities.md). Če teh postopkov še niste dokončali, se vrnite in jih dokončajte, nato pa se vrnite na ta članek. 
+Ta članek predpostavlja, da ste zaključili postopke v članku [Ustvarjanje polj in entitet po meri](create-custom-fields-entities.md). Če teh postopkov še niste izvedli, se vrnite nazaj in jih dokončajte, preden se vrnete na ta članek. 
 
-V tem članku vam bodo postopki pokazali, kako dodati zahtevane reference polj po meri v entitete in elemente uporabniškega vmesnika (UI), kot so obrazci in pogledi.
+V tem članku je s postopki prikazano, kako dodate zahtevane sklice na polja po meri entitetam in elementom uporabniškega vmesnika, kot so obrazci in pogledi.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Dodajanje polj cenovne razsežnosti po meri 
 Ko ustvarite polja in entitete po meri, morate nastaviti entitete za nastavitev cene in transakcijske entitete tako, da vključijo entitete ali nabore možnosti po meri. To naredite tako, da ustvarite sklicno polje. Glede na to, ali seznam cenovnih razsežnosti vključuje razsežnosti na osnovi nabora možnosti ali razsežnosti na osnovi entitete oz. oboje, sledite le korakom v razdelku **Cenovne razsežnosti po meri na osnovi nabora možnosti** ali **Cenovne razsežnosti po meri na osnovi entitete** oz. v obeh.

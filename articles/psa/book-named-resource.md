@@ -1,6 +1,6 @@
 ---
 title: Rezervacija poimenovanih virov iz zahtevanih pogojev za vire
-description: Ta članek vsebuje informacije o rezervaciji poimenovanih virov za splošno zahtevo po virih.
+description: Ta članek vsebuje informacije o rezervaciji imenovanih virov za zahtevo za splošni vir.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

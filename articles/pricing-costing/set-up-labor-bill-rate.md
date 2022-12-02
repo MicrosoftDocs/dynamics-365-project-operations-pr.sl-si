@@ -1,6 +1,6 @@
 ---
 title: Nastavitev obračunske stopnje za delo
-description: Ta članek vsebuje informacije o tem, kako nastaviti stopnje obračunavanja delovne sile v Project Operations.
+description: Ta članek vsebuje informacije o tem, kako nastaviti deleže obračunavanja dela v aplikaciji Project Operations.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

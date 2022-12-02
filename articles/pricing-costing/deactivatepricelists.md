@@ -1,6 +1,6 @@
 ---
 title: Deaktivacija cenikov
-description: V tem članku je razloženo, kako deaktivirati ali odstraniti neuporabljene ali stare cenike.
+description: Ta članek pojasnjuje, kako deaktivirati ali odstraniti neuporabljene ali stare cenike.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

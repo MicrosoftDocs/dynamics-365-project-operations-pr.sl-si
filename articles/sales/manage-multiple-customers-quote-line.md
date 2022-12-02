@@ -1,6 +1,6 @@
 ---
 title: Upravljanje več strank v podrobnostih ponudb, ki temeljijo na projektih
-description: Ta članek vsebuje informacije o tem, kako upravljati več strank na podlagi projektnih ponudb.
+description: Ta članek vsebuje informacije o upravljanju več strank pri podrobnostih ponudb, ki temeljijo na projektu.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

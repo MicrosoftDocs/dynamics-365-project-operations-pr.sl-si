@@ -1,6 +1,6 @@
 ---
 title: Razporedi projektov
-description: Ta članek vsebuje informacije o tem, kako ustvariti urnik.
+description: Ta članek vsebuje informacije o ustvarjanju razporeda.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

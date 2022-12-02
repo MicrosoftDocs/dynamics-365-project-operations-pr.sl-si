@@ -1,6 +1,6 @@
 ---
 title: Razporedi računov v vrsticah ponudbe, ki temeljijo na projektu
-description: Ta članek vsebuje informacije o ustvarjanju urnikov računov in mejnikov za vrstice ponudb.
+description: Ta članek vsebuje informacije o ustvarjanju razporedov računov in mejnikov za vrstice ponudb.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Dodajanje članov ekipe iz mreže članov ekipe
-description: Ta članek vsebuje informacije o tem, kako lahko upravljate vire članov ekipe.
+description: Ta članek vsebuje informacije o upravljanju človeških virov v ekipah.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

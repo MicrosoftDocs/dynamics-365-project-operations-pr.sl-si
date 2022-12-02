@@ -1,6 +1,6 @@
 ---
 title: Finančne ocene za materiale v projektih
-description: Ta članek vsebuje informacije o definiranju ali ocenjevanju projektnih materialov.
+description: Ta članek vsebuje informacije o določanju ali ocenjevanju materialov, ki temeljijo na projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8925733"
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Dynamics 365 Project Operations omogoča projektnim vodjem, da za vsak projekt ali opravilo določijo stroške materiala, ki temelji na projektu. Vsaka ocena materiala je lahko povezana z določenim projektnim opravilom. Materiali, ki se uporabljajo pri projektih, so lahko vpisani izdelki ali izdelki iz kataloga izdelkov. Za vsako kombinacijo izdelka in enote je mogoče določiti ceno v projektnih cenikih za prodajo in v projektnih cenikih za stroške.  
+Dynamics 365 Project Operations omogoča projektnim vodjem, da za vsak projekt ali opravilo določijo stroške materiala, ki temelji na projektu. Vsaka ocena materiala je lahko povezana z določenim projektnim opravilom. Materiali, ki se uporabljajo pri projektih, so lahko izdelki, ki niso v katalogu, ali izdelki iz kataloga izdelkov. Za vsako kombinacijo izdelka in enote je možno določiti ceno v cenikih projektov za prodajo in cenikih projektov za ceno.  
 
 Dokončajte naslednje korake za ogled, dodajanje ali brisanje ocene projektnega materiala.
 

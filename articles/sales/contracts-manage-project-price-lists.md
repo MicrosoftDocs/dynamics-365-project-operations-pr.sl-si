@@ -1,6 +1,6 @@
 ---
 title: Upravljanje projektnih cenikov v projektnih pogodbah
-description: Ta članek vsebuje informacije o upravljanju cenikov projektov na projektnih pogodbah.
+description: V tem članku so na voljo informacije o upravljanju projektnih cenikov v projektnih pogodbah.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

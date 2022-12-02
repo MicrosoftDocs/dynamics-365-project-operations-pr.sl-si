@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje standardnih stroškov dela in drugih stroškov
-description: Ta članek pojasnjuje, kako nastaviti standardne stroške za delo in stroške za projekt.
+description: V tem članku je pojasnjeno, kako nastavite standardne stroške dela in stroške projekta.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919558"
 
 [!include [banner](../../includes/banner.md)]
 
-Ta članek pojasnjuje, kako nastaviti standardne stroške za delo in stroške za projekt. To opravilo uporablja nabor podatkov USSI.
+V tem članku je pojasnjeno, kako nastavite standardne stroške dela in stroške projekta. To opravilo uporablja nabor podatkov USSI.
 
 1. V podoknu za krmarjenje pojdite na **Moduli > Vodenje projektov in računovodstvo> Nastavitev> Cene > Lastna cena (ura)**.
 2. Izberite **Novo**.

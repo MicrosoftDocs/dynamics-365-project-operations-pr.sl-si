@@ -1,6 +1,6 @@
 ---
 title: Spremembe entitete, kontrolnika in uporabniškega vmesnika (Project Service Automation 3.x)
-description: Ta članek opisuje spremembe rešitev za Microsoft Dynamics Avtomatizacija projektnih storitev 3.x.
+description: V tem članku so opisane spremembe rešitve za Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8926888"
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Z izdajo rešitve Microsoft Dynamics Project Service Automation (PSA) 3.x je v entitetah, kontrolnikih, pogledih in uporabniškem vmesniku prišlo do številnih sprememb. Ta članek vsebuje informacije o teh pomembnih spremembah.
+Z izdajo rešitve Microsoft Dynamics Project Service Automation (PSA) 3.x je v entitetah, kontrolnikih, pogledih in uporabniškem vmesniku prišlo do številnih sprememb. V tem članku najdete informacije o teh pomembnih spremembah.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Odnosi nadrejeni-podrejeni za entitete prodajnega dokumenta, vrstice prodajnega dokumenta in podrobnosti vrstice prodajnega dokumenta
 V različicah rešitve Dynamics 365 Project Service Automation (PSA), ki so bile izdane pred različico 3.0, so bili nekateri odnosi med entitetami prodajnih dokumentov, vrstic prodajnega dokumenta in podrobnosti vrstice prodajnega dokumenta uporabljeni prek polj z nizi s ponazoritvijo GUID-a povezane entitete. To je bila posledica omejitev platforme, ki so zahtevale pomembno kodo po meri v strežniku in v odjemalcu rešitve, da so ti odnosi delovali podobno kot tipični odnosi entitete programa Dynamics CRM in da so polja z nizi delovala kot polja za iskanje.

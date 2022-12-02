@@ -1,6 +1,6 @@
 ---
 title: Poizvedba glede načrta porabe zveznih subvencij
-description: Ta članek vsebuje informacije o razporedu izdatkov poizvedbe o zveznih nagradah.
+description: Ta članek vsebuje informacije o poizvedbi glede načrta porabe zveznih subvencij.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Ključni pojmi upravljanja virov
-description: Ta članek vsebuje informacije o zmožnostih upravljanja virov v Microsoft Dynamics Projektne operacije.
+description: Ta članek vsebuje informacije o funkcijah za upravljanje virov v storitvi Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

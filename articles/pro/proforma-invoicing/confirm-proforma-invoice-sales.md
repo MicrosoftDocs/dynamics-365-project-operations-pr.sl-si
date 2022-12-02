@@ -1,6 +1,6 @@
 ---
 title: Potrditev predračuna projekta
-description: Ta članek vsebuje informacije o potrditvi projektnih predračunov v Operaciji projekta.
+description: Ta članek vsebuje informacije o potrditvi predračunov projekta v aplikaciji Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

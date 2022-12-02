@@ -1,6 +1,6 @@
 ---
 title: Kopiranje priložnosti, ki temeljijo na projektu
-description: Ta članek vsebuje informacije o kopiranju priložnosti, ki temeljijo na projektih, v Project Operations.
+description: Ta članek vsebuje informacije o kopiranju priložnosti, ki temeljijo na projektih, v aplikaciji Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

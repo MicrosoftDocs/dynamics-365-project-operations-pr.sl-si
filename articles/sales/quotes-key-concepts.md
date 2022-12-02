@@ -1,6 +1,6 @@
 ---
 title: Ponudbe – ključni pojmi
-description: Ta članek vsebuje informacije o projektnih ponudbah in prodajnih ponudbah, ki so na voljo v Project Operations.
+description: Ta članek vsebuje informacije o ponudbah in prodajnih ponudbah za projekt, ki so na voljo v storitvi Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -35,7 +35,7 @@ V aplikaciji Dynamics 365 Project Operations obstajata dve vrsti ponudb: projekt
 - **Polja in koncepti**: prodajna ponudba ne vsebuje nekaterih polj in konceptov, ki so vključeni v projektno ponudbo. Polja vključujejo **pogodbeno enoto**, **upravitelja kupcev** in **ime stika za plačilo**.  
 - **Vrsta**: prodajne in projektne ponudbe so določene tudi s poljem, ki temelji na naboru možnosti in se imenuje **Vrsta**. Za prodajno ponudbo ima to polje vrednost **Temelji na elementu**. Za projektno ponudbo pa ima polje vrednost **Temelji na delu**.
 
-Ta članek se osredotoča na podrobnosti projektnih ponudb.
+V tem članku se osredotočamo na podrobnosti projektnih ponudb.
 
 Projektna ponudba v storitvi Project Operations ima lahko več vrstičnih postavk ali vrstic ponudbe. U bistvu ima projektna ponudba dve mreži za vrstične postavke. Ena mreža je za vrstice, ki temeljijo na projektih in omogočajo podrobne ocene. Druga mreža je za vrstice, ki temeljijo na izdelkih in uporabljajo enostavno ceno enote in pristop na podlagi količine.
 

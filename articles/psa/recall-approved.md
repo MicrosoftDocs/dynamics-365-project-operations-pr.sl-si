@@ -1,6 +1,6 @@
 ---
 title: Preklic odobrenih časovnih vnosov ali vnosov stroškov
-description: Ta članek vsebuje informacije o tem, kako priklicati predhodno odobreno transakcijo časa ali stroškov.
+description: V tem članku najdete informacije o tem, kako prekličete predhodno potrjen čas ali transakcijo stroškov.
 author: rumant
 ms.custom: ''
 ms.author: rumant

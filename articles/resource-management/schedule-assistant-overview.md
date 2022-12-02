@@ -1,6 +1,6 @@
 ---
 title: Pregled pomočnika za razporejanje
-description: Ta članek vsebuje informacije o delu s pomočnikom za razporejanje virov.
+description: Ta članek vsebuje informacije o uporabljanju pomočnika za razporejanje pri rezervaciji virov.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

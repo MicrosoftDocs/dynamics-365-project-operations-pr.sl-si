@@ -1,6 +1,6 @@
 ---
-title: Dejanski vpliv za interni projekt
-description: Ta članek vsebuje informacije o vplivu na tabelo Dejanske vrednosti na različnih dogodkih za interni projekt v Microsoftu Dynamics 365 Project Operations.
+title: Vpliv dejanskih vrednosti na interni projekt
+description: Ta članek vsebuje informacije o vplivu na tabelo »Dejanske vrednosti« ob različnih dogodkih za interni projekt v programu Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -20,19 +20,19 @@ ms.contentlocale: sl-SI
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921368"
 ---
-# <a name="actuals-impact-for-an-internal-project"></a>Dejanski vpliv za interni projekt
+# <a name="actuals-impact-for-an-internal-project"></a>Vpliv dejanskih vrednosti na interni projekt
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Naslednja tabela navaja dejansko stanje različnih vrst transakcij, ki so ustvarjene na različnih dogodkih v internem projektu.
+Naslednja tabela navaja dejanske vrednosti različnih vrst transakcij, ki se ustvarijo ob različnih dogodkih pri interakciji z internim projektom.
 
 | Dogodek | Dejanska cena | Primer |
 |---|---|---|
-| Čas je ustvarjen. | Ni na voljo. | <p>Bob Kozack iz organizacijske enote Fabrikam v ZDA, ki ima cenovno stopnjo 100 ameriških dolarjev (100 USD) na uro, dela na projektu, ki se imenuje "Namestitev armature v Adatumu." Ta projekt je preslikan na metodo obračunavanja s fiksno ceno na pogodbeni vrstici. Tukaj je vzorčni vnos časa Boba Kozaka:</p><p>Bob Kozack - 8 ur</p> |
-| Čas je oddan. | Ni na voljo. | Za vnos časa se ustvari vrstica stroškovnega dnevnika. Privzeta stroškovna stopnja se vnese v temeljnico. |
-| Časovni vnos se prikliče, preden je odobren. | Ni na voljo. | |
-| Čas je odobren. | Ustvari se dejanski strošek. | <p>Novo dejansko, ki je ustvarjeno:</p><ul><li>**Dejanski strošek:** Bob Kozack, 8 ur, USD 800</li></ul> |
-| Odobritev časa je preklicana. | <p>Stanje prilagoditve dejanskih prvotnih stroškov je posodobljeno na **Prilagojen**.</p><p>Ustvari se dejanski strošek razveljavitve, ki ima status prilagoditve **Nenastavljiva**.</p> | <p>Obstoječe dejansko, ki je posodobljeno:</p><ul><li>**Dejanski strošek:** Bob Kozack, 8 ur, USD 800, *Prilagojen*</li></ul><p>Novo dejansko stanje, ki je ustvarjeno za razveljavitev prejšnjega finančnega učinka:</p><ul><li>**Dejanski strošek:** Bob Kozack, (8 ur), (800 USD), *Nenastavljiva*</li></ul> |
-| Časovni vnos se prikliče, ko je odobren. | <p>Stanje prilagoditve dejanskih prvotnih stroškov je posodobljeno na **Prilagojen**.</p><p>Ustvari se dejanski strošek razveljavitve, ki ima status prilagoditve **Nenastavljiva**.</p> | <p>Obstoječe dejansko, ki je posodobljeno:</p><ul><li>**Dejanski strošek:** Bob Kozack, 8 ur, USD 800, *Prilagojen*</li></ul><p>Novo dejansko stanje, ki je ustvarjeno za razveljavitev prejšnjega finančnega učinka:</p><ul><li>**Dejanski strošek:** Bob Kozack, (8 ur), (800 USD), *Nenastavljiva*</li></ul> |
+| Čas je ustvarjen. | Ni na voljo. | <p>Bob Kozack iz organizacijske enote Fabrikam ZDA, ki ima mero stroškov 100 ameriških dolarjev (100 USD) na uro, dela na projektu, ki se imenuje »Namestitev roke v podjetju Adatum«. Ta projekt je preslikan v način obračunavanja po fiksni ceni v podrobnostih pogodbe. Tukaj je vzorec časovnega vnosa Boba Kozaka:</p><p>Bob Kozack – 8 ur</p> |
+| Čas je poslan. | Ni na voljo. | Ustvari se vrstica dnevnika stroškov za časovni vnos. Privzeta stopnja stroška je vnesena v dnevniški zapis. |
+| Časovni vnos je preklican, preden je odobren. | Ni na voljo. | |
+| Čas je odobren. | Ustvarjena je dejanska cena. | <p>Nova dejanska vrednost, ki je ustvarjena:</p><ul><li>**Dejanska cena:** Bob Kozack, 8 ur, 800 USD</li></ul> |
+| Odobritev časa je preklicana. | <p>Stanje prilagoditve prvotne dejanske cene se posodobi na **Prilagojeno**.</p><p>Ustvari se dejanska cena storniranja, ki ima stanje prilagoditve **Ni mogoče prilagoditi**.</p> | <p>Obstoječa dejanska vrednost, ki je posodobljena:</p><ul><li>**Dejanska cena:** Bob Kozack, 8 ur, 800 USD, *Prilagojeno*</li></ul><p>Nova dejanska vrednost, ki je ustvarjena za storniranje prejšnjega finančnega učinka:</p><ul><li>**Dejanska cena:** Bob Kozack, (8 ur), (800 USD), *Ni mogoče prilagoditi*</li></ul> |
+| Časovni vnos se prekliče, ko je odobren. | <p>Stanje prilagoditve prvotne dejanske cene se posodobi na **Prilagojeno**.</p><p>Ustvari se dejanska cena storniranja, ki ima stanje prilagoditve **Ni mogoče prilagoditi**.</p> | <p>Obstoječa dejanska vrednost, ki je posodobljena:</p><ul><li>**Dejanska cena:** Bob Kozack, 8 ur, 800 USD, *Prilagojeno*</li></ul><p>Nova dejanska vrednost, ki je ustvarjena za storniranje prejšnjega finančnega učinka:</p><ul><li>**Dejanska cena:** Bob Kozack, (8 ur), (800 USD), *Ni mogoče prilagoditi*</li></ul> |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

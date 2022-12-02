@@ -1,6 +1,6 @@
 ---
 title: Vrstice ponudb, ki temeljijo na izdelkih
-description: Ta članek vsebuje informacije o vrsticah ponudb, ki temeljijo na izdelkih.
+description: V tem članku so na voljo informacije o vrsticah ponudb, ki temeljijo na izdelkih.
 author: rumant
 ms.custom:
 - dyn365-projectservice

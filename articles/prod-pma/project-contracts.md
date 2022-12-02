@@ -44,7 +44,7 @@ Nekatere projektne pogodbe določajo, da je več strank odgovornih za financiran
 -   Projekt za cesto sofinancirata dve občini.
 -   Projekt za most financira javna uprava z nepovratnimi sredstvi in zasebna družba.
 
-V Dynamics 365 Finance lahko razdelite obračun za posamezno transakcijo ali celoten projekt med več strank, nepovratnih sredstev ali organizacij. 
+V rešitvi Dynamics 365 Finance lahko račun za eno transakcijo ali celoten projekt razdelite na več strank, nepovratnih sredstev ali organizacij. 
 
 V projektih z več vlagatelji se vse strani, ki prispevajo k financiranju projekta z naprednim financiranjem, imenujejo viri financiranja. Ko so stranka, organizacija ali nepovratna sredstva opredeljena kot vir financiranja, se lahko dodelijo enemu ali več pravilom financiranja. Pravila financiranja vsebujejo merila, ki določajo, kako se stroški razdelijo različnim virom financiranja za projekt. 
 

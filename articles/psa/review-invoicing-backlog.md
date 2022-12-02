@@ -1,6 +1,6 @@
 ---
 title: Pregled nedokončanih opravil za izdajo računov pri projektih in projektnih pogodbah
-description: Ta članek vsebuje informacije o tem, kako pregledati čas, stroške in zaostanke izdelkov ter kako jih označiti kot pripravljene za izdajanje računov.
+description: Ta članek vsebuje informacije o tem, kako pregledati nedokončana opravila za čas, stroške in izdelke in kako jih označiti kot pripravljene za izdajo računa.
 author: rumant
 ms.custom: ''
 ms.author: rumant

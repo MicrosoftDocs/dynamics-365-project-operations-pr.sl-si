@@ -1,6 +1,6 @@
 ---
 title: Pregled podrobnosti pogodbe, ki temeljijo na izdelkih – poenostavljeno
-description: Ta članek vsebuje informacije o pogodbenih linijah, ki temeljijo na izdelkih.
+description: V tem članku so na voljo informacije o podrobnostih pogodb, ki temeljijo na izdelkih.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

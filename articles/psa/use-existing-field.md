@@ -1,6 +1,6 @@
 ---
 title: Uporaba obstoječega polja kot cenovne razsežnosti v rešitvi Project Service
-description: Ta članek vsebuje informacije o uporabi obstoječih polj Project Service kot dimenzij cen.
+description: V tem članku so na voljo informacije o uporabi obstoječih polj rešitve Project Service kot cenovnih razsežnosti.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

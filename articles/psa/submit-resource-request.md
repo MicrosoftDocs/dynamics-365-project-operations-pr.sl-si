@@ -1,6 +1,6 @@
 ---
 title: Pošiljanje zahteve za vir
-description: Ta članek vsebuje informacije o predložitvi zahteve za vir projekta.
+description: Ta članek vsebuje informacije o pošiljanju zahteve za vir projekta.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

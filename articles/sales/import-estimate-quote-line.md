@@ -1,6 +1,6 @@
 ---
 title: Uvoz ocen za projekt v podrobnostih projektnih ponudb
-description: Ta članek vsebuje informacije o uvozu ocen iz projekta v vrstico ponudbe projekta.
+description: Ta članek vsebuje informacije o uvozu ocen podrobnosti iz projekta v podrobnosti projektne ponudbe.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

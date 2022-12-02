@@ -1,6 +1,6 @@
 ---
 title: Finančne ocene za stroške v projektih
-description: Ta članek vsebuje informacije o definiranju ali ocenjevanju stroškov, ki temeljijo na projektu.
+description: Ta članek vsebuje informacije o določanju ali oceni stroškov za posamezen projekt.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

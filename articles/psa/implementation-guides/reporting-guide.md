@@ -32,14 +32,14 @@ ms.locfileid: "8919206"
 
 Metode poročanja in tehnologije v tej aplikaciji vam lahko pomagajo ugotoviti stanje vaših projektov in določiti čas za sprejetje popravljalnih ukrepov. 
 
-Povezava PDF, ki je bila prej v tem članku, je bila odstranjena in vsebina je bila premaknjena v naslednje članke:
+Povezava PDF, ki je bila vključena v tem članku, je odstranjena, vsebina pa je premaknjena v naslednje članke:
 
 - [Domača stran za poročanje](../reports-reporting-dynamics-365-project-service.md)
 - [Nadzorne plošče](../reports-dashboards.md)
 - [Delo s podatkovnim modelom storitve Project Service Automation](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Ta članek bo odstranjen v prihodnji posodobitvi dokumentacije. 
+> Ta članek ne bo več na voljo v prihodnji posodobitvi dokumentacije. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

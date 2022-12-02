@@ -1,6 +1,6 @@
 ---
 title: Uporaba vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti
-description: Ta članek vsebuje informacije o uporabi vira, ki ga je mogoče rezervirati, kot dimenzijo cene.
+description: V tem članku so na voljo informacije o uporabi vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8916124"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ta članek vsebuje informacije o uporabi vira, ki ga je mogoče rezervirati, kot dimenzijo cene. Preden začnete, morate ustvariti novo rešitev cenovne razsežnosti, če je še niste. Če že imate rešitev cenovne razsežnosti, lahko izvedete spremembe kar v tisti rešitvi. Če za svojo organizacijo niste ustvarili nove rešitve za cenovne dimenzije, dokončajte postopke v [Ustvarite polja in entitete po meri](create-custom-fields-entities.md) Članek.
+V tem članku so na voljo informacije o uporabi vira, ki ga je mogoče rezervirati, kot cenovne razsežnosti. Preden začnete, morate ustvariti novo rešitev cenovne razsežnosti, če je še niste. Če že imate rešitev cenovne razsežnosti, lahko izvedete spremembe kar v tisti rešitvi. Če še niste ustvarili nove rešitve cenovne razsežnosti za vašo organizacijo, najprej do konca izvedite postopke v članku [Ustvarjanje polj in entitet po meri](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Dodajanje vira, ki ga je mogoče rezervirati, v obrazce in poglede
 Če želite polja prikazati v uporabniškem vmesniku rešitve za cenovne razsežnosti, boste morali odpreti vse obrazce in poglede v ključnih entitetah rešitve Project Service in ta polja dodati v obrazce in poglede teh entitet.

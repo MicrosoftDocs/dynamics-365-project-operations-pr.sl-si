@@ -1,6 +1,6 @@
 ---
 title: Pregled podrobnosti ponudb, ki temeljijo na izdelkih – poenostavljeno
-description: Ta članek vsebuje informacije o delu s ponudbami, ki temeljijo na izdelkih.
+description: V tem članku so na voljo informacije o delu z vrsticami ponudb, ki temeljijo na izdelkih.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

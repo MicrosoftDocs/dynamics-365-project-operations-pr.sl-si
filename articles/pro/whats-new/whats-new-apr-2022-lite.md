@@ -1,6 +1,6 @@
 ---
 title: Novosti za april 2022 – poenostavljeno uvajanje Project Operations
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Microsofta aprila 2022 Dynamics 365 Project Operations lahka uvedba.
+description: V tem članku so na voljo informacije o posodobitvah kakovosti, ki so na razpolago v aprilski (2022) izdaji poenostavljenega uvajanja storitve Microsoft Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
@@ -18,21 +18,21 @@ ms.locfileid: "8927486"
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
+Ta članek velja za naslednje komponente in različice aplikacije Microsoft Dynamics 365 Project Operations:
 
-- Projektno delovanje v a Dataverse različica okolja 4.41.0.45
+- Project Operations v različici okolja 4.41.0.45. storitve Dataverse
 
 ## <a name="quality-updates"></a>Posodobitve kakovosti
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |
-| Čas in strošek | 2573900 | The **Sodobna odobritev** funkcija mora biti privzeto omogočena. |
-| Zaračunavanje in cene | 2603313 | Odpravljena je napaka podvojenega zapisa, ki je preprečila dodajanje ponudbe in pogodbenih vrstic, ki vsebujejo izdelek. |
-| Namestitev in konfiguracija | 2611368 | Stranke morajo imeti možnost dodati do pet entitet po meri v rešitev z uporabo sodobnega oblikovalca aplikacij. |
-| Čas in strošek | 2628285 | Odpravljena je težava, ki je vplivala na zmožnost nastavitve pravilne kategorije vira med uvozom časovnega vnosa. |
-| Upravljanje priložnosti| 2628815 | Posodobite omejitev znakov v podrobnem opisu vrstice narekovaja, da se ujema z omejitvijo znakov predmeta opravila, tako da bo uvoz uspešen za opravila, pri katerih je predmet daljši od 100 znakov. |
-| Čas in strošek| 2629547 | The **Predložil** polje odobritev projektov mora kazati na uporabnika, ki je predložil zapis. |
-| Čas in strošek| 2629865 | The **Kopiraj kategorijo** polje na nalogah, ko se projekti kopirajo. |
-| Čas in strošek| 2636463 | Popravljeni filtri za odobritve v sodobnih obrazcih za odobritev. |
+| Čas in strošek | 2573900 | Funkcija **Sodobna odobritev** mora biti privzeto omogočena. |
+| Zaračunavanje in cene | 2603313 | Odpravljena je napaka podvojenega zapisa, ki je preprečevala dodajanje ponudb in podrobnosti pogodbe, ki vsebujejo izdelek. |
+| Uvajanje in konfiguracija | 2611368 | Stranke lahko z uporabo sodobnega oblikovalnika aplikacij v rešitev dodajo do pet entitet po meri. |
+| Čas in strošek | 2628285 | Odpravljena je težava, ki je vplivala na možnost nastavitve pravilne kategorije vira med uvozom časovnega vnosa. |
+| Upravljanje priložnosti| 2628815 | Posodobite omejitev znakov v opisu podrobnosti vrstice ponudbe, da se bo ujemala z omejitvijo znakov predmeta opravila, tako da bo uvoz uspel za opravila, kjer je predmet daljši od 100 znakov. |
+| Čas in strošek| 2629547 | Polje **Oddal(-a)** za odobritve projekta mora kazati na uporabnika, ki je oddal zapis. |
+| Čas in strošek| 2629865 | Polje **Kopiranje kategorije** pri opravilih, ko so projekti kopirani. |
+| Čas in strošek| 2636463 | Popravljeni filtri na odobritvah v obrazcih sodobnih odobritev. |
 | Načrtovanje in sledenje projektov | 2648300 | Odpravljena je težava, ki preprečuje spremembo lastnika projekta. |
-| Zaračunavanje in cene | 2563000 | Dnevniške vrstice za neobračunano prodajo, kjer se valuta razlikuje od pogodbene valute, ne smejo biti dovoljene. |
+| Zaračunavanje in cene | 2563000 | Vrstice dnevnika za neobračunano prodajo, kjer se valuta razlikuje od valute pogodbe, ne smejo biti dovoljene. |

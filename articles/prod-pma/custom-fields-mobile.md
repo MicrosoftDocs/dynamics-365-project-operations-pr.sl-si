@@ -1,6 +1,6 @@
 ---
 title: Vključevanje polj po meri za mobilno aplikacijo Microsoft Dynamics 365 Project Timesheet v sistemih iOS in Android
-description: Ta članek ponuja običajne vzorce za uporabo razširitev za implementacijo polj po meri.
+description: Ta članek ponuja skupne vzorce za uporabo razširitev za vključevanje polj po meri.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8913732"
 
 [!include [banner](../includes/banner.md)]
 
-Ta članek ponuja običajne vzorce za uporabo razširitev za implementacijo polj po meri. Zajeti so naslednji članki:
+Ta članek ponuja skupne vzorce za uporabo razširitev za vključevanje polj po meri. Zajeti so naslednji članki:
 
 - Različne vrste podatkov, ki jih podpira ogrodje polja po meri
 - Prikaz polj samo za branje ali polj, ki jih je mogoče urejati, v vnosih časovnega lista in shranjevanje vrednosti, ki jih vnese uporabnik, nazaj v zbirko podatkov
@@ -35,7 +35,7 @@ Ta članek ponuja običajne vzorce za uporabo razširitev za implementacijo polj
 
 ## <a name="audience"></a>Občinstvo
 
-Ta članek je namenjen razvijalcem, ki svoja polja po meri integrirajo v Microsoft Dynamics 365 Project Timesheet mobilna aplikacija, ki je na voljo za Apple iOS in Google Android. Predpostavlja se, da bralci poznajo razvoj X++ in funkcije časovnega lista projekta.
+Ta članek je namenjen razvijalcem, ki vključujejo svoja polja po meri v mobilno aplikacijo Microsoft Dynamics 365 Project Timesheet, ki je na voljo za Apple iOS in Google Android. Predpostavlja se, da bralci poznajo razvoj X++ in funkcije časovnega lista projekta.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Pogodba o podatkih – razred TSTimesheetCustomField X++
 
@@ -64,7 +64,7 @@ Lastnost **FieldBaseType** v predmetu **TsTimesheetCustom** določa vrsto polja,
 
 - Če je lastnost **stringOptions** na voljo v predmetu **TSTimesheetCustomField**, so ti elementi seznama edine vrednosti, ki jih lahko uporabniki izberejo z uporabo izbirnih gumbov.
 
-    V tem primeru lahko polje niza deluje kot vrednost oštevilčenja za vnos uporabnika. Če želite vrednost shraniti v bazo podatkov kot enum, ročno preslikajte vrednost niza nazaj v vrednost enum, preden shranite v bazo podatkov z uporabo verige ukazov (glejte »Uporabi verigo ukazov v razredu TSTimesheetEntryService, da shranite vnos časovnice iz aplikacijo nazaj v bazo podatkov" v nadaljevanju tega članka za primer).
+    V tem primeru lahko polje niza deluje kot vrednost oštevilčenja za vnos uporabnika. Če želite shraniti vrednost v zbirko podatkov kot oštevilčenje, ročno preslikajte vrednost niza nazaj na vrednost oštevilčenja, preden jo shranite v zbirko podatkov z uporabo niza ukazov (za primer glejte razdelek »Uporaba niza ukazov v razredu TSTimesheetEntryService za shranjevanje vnosa v časovnem listu iz aplikacije nazaj v zbirko podatkov« v nadaljevanju tega članka).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Ta lastnost določa oznako, ki je prikazana poleg polja v aplikaciji.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (List of Strings)
 
-Ta lastnost se uporablja samo, če je lastnost **fieldBaseType** nastavljena na vrsto **Niz**. Če je nastavljena lastnost **stringOptions**, so vrednosti nizov, ki so na voljo za izbiro z izbirnimi gumbi, določene z nizi na seznamu. Če ni podan noben niz, je dovoljen vnos prostega besedila v polje niza (glejte razdelek »Uporabi verigo ukazov v razredu TSTimesheetEntryService, da shranite vnos časovnice iz aplikacije nazaj v bazo podatkov« pozneje v tem članku za primer) .
+Ta lastnost se uporablja samo, če je lastnost **fieldBaseType** nastavljena na vrsto **Niz**. Če je nastavljena lastnost **stringOptions**, so vrednosti nizov, ki so na voljo za izbiro z izbirnimi gumbi, določene z nizi na seznamu. Če ni nizov, je dovoljen vnos prostega besedila v polje niza (za primer glejte razdelek »Uporaba niza ukazov v razredu TSTimesheetEntryService za shranjevanje vnosa v časovnem listu iz aplikacije nazaj v zbirko podatkov« v nadaljevanju tega članka).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

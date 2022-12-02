@@ -1,6 +1,6 @@
 ---
 title: Začasna rezervacija vira
-description: Ta članek vsebuje informacije o tem, kako začasno razporediti člane projektne skupine ali soft book.
+description: V tem članku so na voljo informacije o tem, kako okvirno načrtujete ali začasno rezervirate člane projektne ekipe.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

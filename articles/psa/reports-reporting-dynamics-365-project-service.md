@@ -1,6 +1,6 @@
 ---
 title: Domača stran poročanja
-description: Ta članek vsebuje informacije o poročanju v Dynamics 365 Project Service Automation.
+description: Ta članek vsebuje informacije o poročanju v aplikaciji Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Določanje koledarjev virov
-description: Ta članek vsebuje informacije o tem, kako definirati koledarje delovnih ur za vire v Project Operations.
+description: Ta članek vsebuje informacije o tem, kako v aplikaciji Project Operations določiti koledarje delovnega časa za vire.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Sledenje obsegu projektov
-description: Ta članek vsebuje informacije o tem, kako slediti prizadevanjem projekta in napredku dela.
+description: Ta članek vsebuje informacije o spremljanju obsega projekta in napredka dela.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8929280"
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Potreba po spremljanju napredka v primerjavi z razporedom se razlikuje glede na panogo. V nekaterih panogah spremljanje poteka na zelo podrobno ravni, v drugih panogah pa na bolj splošni ravni. V tem članku je prikazano, kako načrtovati, da bi izpolnili zahteve vaše organizacije.
+Potreba po spremljanju napredka v primerjavi z razporedom se razlikuje glede na panogo. V nekaterih panogah spremljanje poteka na zelo podrobno ravni, v drugih panogah pa na bolj splošni ravni. V tem članku je prikazan način razporejanja, s katerim boste izpolnili zahteve vaše organizacije.
 
 ## <a name="effort-tracking-view"></a>Pogled sledenja obsegu dela
 
@@ -45,8 +45,8 @@ Obseg dela v opravilih povzetka ali vsebnika je mogoče znova projicirati. Vodje
 - Izračuna se nova ocena končnih stroškov za vsako posamezno opravilo do opravil v listnem vozlišču. 
 - Prizadeta podrejena opravila do listnih vozlišč imajo svoj preostali obseg dela in odstotek napredka, ki je znova izračunan na podlagi vrednosti ocene končnih stroškov. Zato pride do nove projekcije odmika od obsega dela za opravilo. 
 - Znova se izračunajo vrednosti EAC opravil povzetka vse do korenskega vozlišča.
-- Odobreni napor za povzetek naloge je vsota odobrenega napora za vse otroške naloge in odobrenega napora za povzetek naloge.
-- Preostali napor pri povzetku naloge je vsota preostalega napora pri vseh podrejenih opravilih minus odobreni napor pri povzetku nalogi.
+- Odobreni obseg dela pri opravilu povzetka je vsota odobrenega obsega dela pri vseh podrejenih opravilih plus odobren obseg dela pri opravilu povzetka.
+- Preostali obseg dela pri opravilu povzetka je vsota preostalega obsega dela pri vseh podrejenih opravilih minus odobren obseg dela pri opravilu povzetka.
 
 ## <a name="project-status-summary"></a>Povzetek stanja projekta
 

@@ -1,6 +1,6 @@
 ---
 title: Domača stran za načrtovanje projektov
-description: Ta članek vsebuje informacije o načrtovanju projekta.
+description: Ta članek vsebuje informacije o načrtovanju projektov.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -43,7 +43,7 @@ Orodja za upravljanje projektov v PSA vam pomagajo voditi projekte z lahkoto. Vg
 - Napovejte zahtevane pogoje za vire za projekte v prodajnem lijaku.
 - Sledite napredku in porabi stroškov in uspešno dostavite projekte.
 
-Naslednji članki ponujajo informacije, ki bodo vodjem projektov pomagale oceniti delo, oceniti stroške projekta in napovedati potrebe po virih z uporabo orodij, ki jih podpira PSA:
+Spodnji članki ponujajo informacije, ki bodo vodjem projektov pomagale oceniti obseg dela in stroške projekta ter predvideti zahtevane pogoje za vir z uporabo orodij, ki so podprta v PSA:
 
 - [Ustvarjanje razporeda](project-creating.md)
 - [Ocenjevanje stroškov in prihodkov projekta](project-estimating.md)

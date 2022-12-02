@@ -1,6 +1,6 @@
 ---
 title: Nastavitev polj po meri kot cenovnih razsežnosti
-description: Ta članek vsebuje informacije o nastavitvi razsežnosti cen po meri.
+description: Ta članek vsebuje informacije o nastavitvi cenovnih razsežnosti po meri.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8922617"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Preden začnete, ta članek predvideva, da ste zaključili postopke v člankih, [Ustvarite polja in entitete po meri](create-custom-fields-entities.md) in [Dodajte polja po meri nastavitvi cen in transakcijskim entitetam](field-references.md). Če teh postopkov še niste dokončali, se vrnite in jih dokončajte, nato pa se vrnite na ta članek. 
+Predpostavljamo, da ste pred začetkom tega postopka izvedli postopke v člankih [Ustvarjanje polj in entitet po meri](create-custom-fields-entities.md) in [Dodajanje polj po meri v entitete za nastavitev cene in transakcijske entitete](field-references.md). Če teh postopkov še niste izvedli, se vrnite nazaj in jih dokončajte, preden se vrnete na ta članek. 
 
-Ta članek vsebuje informacije o nastavitvi razsežnosti cen po meri. V spletnem vmesniku storitve Project Service so v zavihku **Cenovne razsežnosti na podlagi zneska** na strani **Parametri** prikazani zapisi v entitetah cenovnih razsežnosti. Ob namestitvi storitev Project Service privzeto ustvari 2 vrstici v mreži v tem zavihku:
+Ta članek vsebuje informacije o nastavitvi cenovnih razsežnosti po meri. V spletnem vmesniku storitve Project Service so v zavihku **Cenovne razsežnosti na podlagi zneska** na strani **Parametri** prikazani zapisi v entitetah cenovnih razsežnosti. Ob namestitvi storitev Project Service privzeto ustvari 2 vrstici v mreži v tem zavihku:
 
 - **msdyn_resourcecategory** (vloga)
 - **msdyn_OrganizationalUnit** (organizacijska enota)

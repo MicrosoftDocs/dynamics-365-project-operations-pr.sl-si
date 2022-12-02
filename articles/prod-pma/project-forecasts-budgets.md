@@ -1,6 +1,6 @@
 ---
 title: Napovedi projektov in proračuni
-description: Microsoft Dynamics 365 Finance ponuja projektne napovedi in proračune projektov za upravljanje in nadzor vaših projektov.
+description: Microsoft Dynamics 365 Finance zagotavlja napovedi projektov in proračune projektov za upravljanje in nadzor vaših projektov.
 author: Yowelle
 ms.date: 10/25/2017
 ms.topic: article

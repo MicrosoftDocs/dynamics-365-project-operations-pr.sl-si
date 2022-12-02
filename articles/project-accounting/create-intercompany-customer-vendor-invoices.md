@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje medpodjetniških računov za stranke in dobavitelje
-description: Ta članek vsebuje informacije o tem, kako ustvariti račune za stranke in dobavitelje med podjetji.
+description: Ta članek vsebuje informacije o tem, kako ustvariti medpodjetne račune za stranke in dobavitelje.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Uporabite ta postopek za ročno ustvarjanje medpodjetnega računa za stranke za 
 
 V posojilni pravni osebi je treba izvesti naslednje korake. 
 
-1. V Dynamics 365 Finance pojdite na **Vodenje projektov in računovodstvo** > **Projektni računi** > **Računi med podjetji strank**. Na strani s seznamom **Medpodjetni računi za stranke** v akcijskem podoknu izberite **Novo**.
+1. V aplikaciji Dynamics 365 Finance odprite **Upravljanje projektov in računovodstvo** > **Računi za projekt** > **Medpodjetni računi za stranke**. Na strani s seznamom **Medpodjetni računi za stranke** v akcijskem podoknu izberite **Novo**.
 2. Na strani **Ustvarjanje medpodjetnega računa** v polju **Pravna oseba** izberite posojilno pravno osebo.
 3. Izbirno: Vnesite izbrano projektno pogodbo in številko projekta.
 4. Izberite časovno obdobje, da zožite iskanje. V polji **Začetni datum** in **Končni datum** vnesite želene datume. V rezultatih iskanja so prikazane samo medpodjetne transakcije, ki so bile knjižene v tem časovnem obdobju.

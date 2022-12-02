@@ -1,6 +1,6 @@
 ---
 title: Ocena prodaje in stroškov projekta, ko vir, ki ga je mogoče rezervirati, prevzame več vlog za projekt
-description: Ta članek vsebuje informacije o tem, kako je mogoče uporabiti razsežnosti cen za podporo oblikovanja cen in stroškov za vir, ki izpolnjuje več vlog v projektu.
+description: V tem članku so informacije o tem, kako je mogoče uporabiti cenovne razsežnosti za podporo določanja cen in stroškov za vir, ki prevzame več vlog v projektu.
 author: rumant
 ms.custom:
 - dyn365-projectservice

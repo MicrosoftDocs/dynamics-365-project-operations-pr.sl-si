@@ -1,6 +1,6 @@
 ---
 title: Povezave transakcij – povezovanje dejanskih vrednosti različnih vrst transakcij
-description: V tem članku je razloženo, kako se transakcijska povezava uporablja za povezovanje dejanskih dejstev različnih vrst za pomoč pri sledenju dobičkonosnosti, zaostankom obračunavanja in izračunom zaračunanega v primerjavi z nezaračunanim prihodkom.
+description: V tem članku je pojasnjeno, kako se povezava transakcije uporablja za povezovanje dejanskih vrednosti različnih vrst za pomoč pri sledenju dobičkonosnosti, nedokončanim opravilom obračunavanja in izračunom obračunanih in neobračunanih prihodkov.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -17,22 +17,22 @@ ms.locfileid: "8926106"
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Zapisi o transakcijskih povezavah so ustvarjeni za povezavo dejanskih dejstev različnih vrst, ko se poraba časa, stroškov ali materiala premika v njegovem življenjskem ciklu od stopnje ponudbe ali predprodaje v fazo pogodbe, odobritve in/ali odpoklici, izdajanje računov in morebitno kreditno ali korektivno fakturiranje.
+Zapisi povezav transakcije so ustvarjeni za povezovanje dejanskih vrednosti različnih vrst, ko se čas, stroški ali poraba materiala premikajo v življenjskem ciklu od faze ponudbe ali predprodaje do faze pogodbe, odobritev in/ali odpoklicev, izstavljanja računov in morebitnega dobropisa ali izstavljanja popravljenih računov.
 
 Naslednji primer prikazuje običajno obdelavo časovnih vnosov v življenjskem ciklu projekta v aplikaciji Project Operations.
 
-> ![Obdelava vnosov časa v projektnih operacijah.](media/basic-guide-17.png)
+> ![Obdelava časovnih vnosov v aplikaciji Project Operations.](media/basic-guide-17.png)
 
-Obdelava časovnih vnosov v življenjskem ciklu projekta Project Operations sledi tem korakom: 
+Obdelava časovnih vnosov v življenjskem ciklu projekta v aplikaciji Project Operations poteka po naslednjih korakih: 
 
-1. Predložitev časovnega vnosa povzroči, da se ustvarita dve vrstici dnevnika: ena za stroške in ena za neobračunano prodajo. 
-2. Končna odobritev časovnega vnosa povzroči, da se ustvarita dve dejanski vrednosti: ena za stroške in ena za neobračunano prodajo. Ti 2 dejanski vrednosti sta povezani s transakcijskimi povezavami.
+1. Pošiljanje časovnega vnosa povzroči ustvarjanje dveh vrstic dnevnika: eno za strošek in eno za neobračunano prodajo. 
+2. Morebitna odobritev časovnega vnosa povzroči ustvarjanje dveh dejanskih vrednosti: eno za strošek in eno za neobračunano prodajo. Ti dve dejanski vrednosti sta povezani s povezavami transakcij.
 3. Ko uporabnik ustvari račun projekta, se transakcija vrstice računa ustvari z uporabo podatka iz dejanske vrednosti neobračunane prodaje.
-4. Ko je račun potrjen, se ustvarita dve novi dejanski vrednosti: neobračunana razveljavitev prodaje in zaračunana dejanska prodaja. Nezaračunana razveljavitev prodaje in prvotna neobračunana dejanska prodaja sta povezana s povezavami obrnjene transakcije. Zaračunana prodaja in prvotna neobračunana dejanska prodaja sta povezana tudi, da pokažeta povezave med prihodki, ki so bili nekoč zaostanki ali nedokončane dejavnosti (WIP), in zdajšnjim zaračunanim prihodkom.   
+4. Ko je račun potrjen, sta ustvarjeni dve novi dejanski vrednosti: stornirana neobračunana prodaja in dejanska vrednost obračunane prodaje. Stornirana neobračunana prodaja in izvirna neobračunana dejanska prodaja sta povezani s povezavami razveljavitvene transakcije. Obračunana prodaja in izvirna neobračunana dejanska prodaja sta prav tako povezani, da prikažeta povezave med prihodki, ki so bili nekoč nedokončani ali delo v teku (WIP), zdaj pa so obračunani.   
 
-Vsak dogodek v delovnem toku obdelave sproži ustvarjanje zapisov v **Transakcijska povezava** mizo. To pomaga zgraditi sled Odnosi med zapisi, ki so ustvarjeni med podatki o časovnem vnosu, vrstici dnevnika, dejanski in fakturni vrstici.
+Vsak dogodek v poteku dela obdelave sproži ustvarjanje zapisov v tabeli **Povezava transakcije**. To omogoča ustvarjanje sledi odnosov med zapisi, ki so ustvarjeni v časovnem vnosu, vrstici dnevnika, dejanski vrednosti in podrobnostih vrstice računa.
 
-Naslednja tabela prikazuje zapise v **Transakcijska povezava** subjekt za prejšnji potek dela.
+Spodnja tabela prikazuje zapise v entiteti **Povezava transakcije** za predhodni potek dela.
 
 |Dogodek                   |Transakcija 1                 |Vloga transakcije 1 |Vrsta transakcije 1       |Transakcija 2          |Vloga transakcije 2 |Vrsta transakcije 2 |
 |------------------------|------------------------------|---------------|-----------------------------|-----------------------------|-------------------|-------------------|
@@ -43,11 +43,11 @@ Naslednja tabela prikazuje zapise v **Transakcijska povezava** subjekt za prejš
 |                        |GUID obračunane prodaje             |Obračunana prodaja   |msdyn_actual                 |GUID dejanskega neobračunanega zneska prodaje   |Neobračunana prodaja  |msdyn_actual       |
 |Popravek osnutka računa |GUID transakcije vrstice računa|Nadomeščanje      |msdyn_invoicelinetransaction |GUID obračunane prodaje            |Izvirnik        |msdyn_actual       |
 |Potrditev popravka računa|GUID storniranja obračunane prodaje  |Storniranje      |msdyn_actual                 |GUID obračunane prodaje            |Izvirnik        |msdyn_actual       |
-|                        |Nov GUID nezaračunane prodaje |Nadomeščanje            |msdyn_actual                 |GUID obračunane prodaje            |Izvirnik        |msdyn_actual       |
+|                        |Nova neobračunana prodaja GUID |Nadomeščanje            |msdyn_actual                 |GUID obračunane prodaje            |Izvirnik        |msdyn_actual       |
 
 
-Naslednja slika prikazuje povezave, ki so ustvarjene med različnimi vrstami dejanskega stanja na različnih dogodkih na primeru časovnih vnosov v Operacijah projekta.
+Naslednja slika prikazuje povezave, ki so ustvarjene med različnimi vrstami dejanskih vrednosti ob različnih dogodkih z uporabo primera časovnih vnosov v aplikaciji Project Operations.
 
-> ![Kako so dejanski podatki različnih vrst med seboj povezani v projektnih operacijah.](media/TransactionConnections.png)
+> ![Kako so dejanske vrednosti različnih vrst med seboj povezane v aplikaciji Project Operations.](media/TransactionConnections.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
