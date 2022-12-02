@@ -1,6 +1,6 @@
 ---
 title: Omogočanje novega okolja
-description: Ta članek ponuja informacije o tem, kako zagotoviti novo okolje Project Operations.
+description: Ta članek vsebuje informacije o omogočanju novega okolja v storitvi Project Operations.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -20,7 +20,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/n
 
 
 
-Ta članek vsebuje informacije o tem, kako zagotoviti novo Dynamics 365 Project Operations okolje za scenarije, ki temeljijo na virih/brez zalog.
+Ta članek vsebuje informacije o tem, kako zagotoviti novo okolje Dynamics 365 Project Operations za primere uporabe z viri/brez zalog.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Omogočite avtomatizirano omogočanje uporabe storitve Project Operations v projektu LCS
 
@@ -34,7 +34,7 @@ Uporabite naslednje korake, da omogočite avtomatizirano omogočanje uporabe sto
 
 ## <a name="provision-a-project-operations-environment"></a>Omogočanje uporabe okolja Project Operations
 
-1. Odprite nov Dynamics 365 Finance [demo okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) oz [peskovnik/produkcijsko okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) uvajanje. 
+1. Odprite novo [predstavitveno okolje Dynamics 365 Finance](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ali [preskusno/produkcijsko okolje](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) za uvedbo. 
 2. Sprehodite se skozi čarovnika **Omogočanje okolja**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Za prejem te različice boste morda morali zagnati posodobitev kakovosti svojega
 
     ![Uporaba rešitev.](./media/13ApplySolutions.png)
 
-5. Izberite obe rešitvi, **Dynamics 365 Finance Zemljevid entitet z dvojnim pisanjem** in **Dynamics 365 Project Operations Zemljevidi entitet z dvojnim pisanjem** in nato izberite **Prijavite se**.
+5. Izberite obe rešitvi – **Preslikava entitete z dvojnim zapisovanjem v aplikaciji Dynamics 365 Finance** in **Preslikava entitete z dvojnim zapisovanjem v aplikaciji Dynamics 365 Project Operations** ter kliknite možnost **Uporabi**.
 
     ![Potrjevanje rešitev.](./media/14ConfirmSolutions.png)
 

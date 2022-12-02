@@ -1,6 +1,6 @@
 ---
 title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 45, V3
-description: V tem članku so navedene funkcije in popravki, ki so na voljo v Microsoft Dynamics 365 Project Service Automation Posodobitev izdaje 45, V3.
+description: Ta članek navaja funkcije in popravke, ki so na voljo v izdaji posodobitve 45, V3 storitve Microsoft Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 07/14/2022
@@ -29,7 +29,7 @@ ms.locfileid: "9169189"
 
 Z veseljem objavljamo najnovejšo posodobitev za aplikacijo Microsoft Dynamics 365 Project Service Automation. Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Združljiva je z s storitvijo Dynamics 365 9.x. Če želite posodobiti to različico, obiščite spletno stran rešitev za Skrbniško središče za Dynamics 365 in namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).
 
-V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za posodobitev Project Service Automation, izdaja 45, V3. Različica z delovno številko V3.10.76.168 je julija 2022 na voljo s samoposodobitvijo.
+V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation 45, V3. Različica z delovno številko V3.10.76.168 je julija 2022 na voljo s samoposodobitvijo.
 
 ## <a name="update-release-45"></a>Izdaja posodobitve 45
 
@@ -39,9 +39,9 @@ Odpravljene so naslednje težave:
 
 **Prodaja**
 
-- Uporabniki ne morejo uspešno ustvariti računov, potem ko poskušajo ustvariti račun brez kakršne koli nezaračunane prodaje, če si tudi ogledujejo isti primerek strani in ga ne osvežijo.
+- Uporabniki ne morejo uspešno ustvariti računov, potem ko so poskusili ustvariti račun brez neobračunane prodaje, če si hkrati ogledujejo isti primerek strani in ne osvežijo.
 
 **Čas in strošek**
 
-- Ko so omogočene sodobne odobritve in je odobrena preklicana odobritev projekta, se stopnja zapisa nepravilno posodobi na **Zahteva za odpoklic odobrena**.
-- Ko so sodobne odobritve omogočene in je Cloud Flows neaktiven, postopek odobritve ni uspešen in uporabniki, ki predložijo ali odobrijo, niso obveščeni.
+- Ko so omogočene sodobne odobritve in je odobrena preklicana odobritev projekta, se stopnja zapisa nepravilno posodobi na **Zahteva za preklic odobrena**.
+- Ko so sodobne odobritve omogočene in so Tokovi za oblak neaktivni, postopek odobritve ni uspešen, uporabniki, ki predložijo ali odobrijo, pa niso obveščeni.

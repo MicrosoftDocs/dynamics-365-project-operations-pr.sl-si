@@ -1,6 +1,6 @@
 ---
 title: Konfiguracija upravljanja stroškov
-description: Ta članek opisuje premisleke in odločitve, ki jih morate sprejeti med postopkom načrtovanja, preden konfigurirate upravljanje stroškov v Microsoft Dynamics 365 Finance.
+description: V tem članku so opisani dejavniki in odločitve, ki jih morate upoštevati med postopkom načrtovanja, preden konfigurirate upravljanje stroškov v storitvi Microsoft Dynamics 365 Finance.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8934018"
 ---
 # <a name="configure-expense-management"></a>Konfiguracija upravljanja stroškov
 
-Ta članek opisuje premisleke in odločitve, ki jih morate sprejeti med postopkom načrtovanja, preden konfigurirate upravljanje stroškov. V prostoru za upravljanje stroškov lahko shranite podatke o načinih plačila, zahtevah za pot, poročilih o stroških, pravilnikih itd.
+V tem članku so opisani dejavniki in odločitve, ki jih morate upoštevati med postopkom načrtovanja, preden konfigurirate upravljanje stroškov. V prostoru za upravljanje stroškov lahko shranite podatke o načinih plačila, zahtevah za pot, poročilih o stroških, pravilnikih itd.
 
 Ker veliko odločitev, ki jih sprejmete, ko načrtujete konfiguracijo upravljanja odhodkov, temelji na hierarhiji in finančni strukturi vaše organizacije, se morate sklicevati na dokumente načrtovanja za ta področja.
 

@@ -1,6 +1,6 @@
 ---
 title: Viri vrstic podizvajalske pogodbe
-description: Ta članek pojasnjuje, kako določiti namenske vire, ki jih zagotovi prodajalec za določeno linijo podizvajalca za čas.
+description: Ta članek pojasnjuje, kako določiti namenska sredstva, ki jih ponudnik zagotovi določenim podrobnostim podizvajalske pogodbe, vezane na čas.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

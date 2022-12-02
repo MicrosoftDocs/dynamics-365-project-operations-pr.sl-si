@@ -1,6 +1,6 @@
 ---
 title: Novosti v marcu 2021 – Project Operations za primere uporabe z viri/brez zalog
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations marca 2021 za scenarije, ki temeljijo na virih/brez zalog.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v marčevski izdaji (2021) aplikacije Project Operations za primere uporabe z viri/brez zalog.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9028292"
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta člen se nanaša na naslednje Dynamics 365 Project Operations komponente in različice:
+Ta članek velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
 - Project Operations v okolju Dataverse različice 4.8.0.91 
-- Projektno vodenje in računovodstvo na Dynamics 365 Finance okolju verzija 10.0.16 
+- Upravljanje projektov in računovodstvo v okoljih aplikacije Dynamics 365 Finance različice 10.0.16 
 
 ## <a name="quality-updates"></a>Posodobitve kakovosti
 
@@ -42,13 +42,13 @@ Ta člen se nanaša na naslednje Dynamics 365 Project Operations komponente in r
 | Čas in strošek | 2148910 | V mreži **časovnih vnosov** je odpravljena težava s stranjo za **urejanje vnosov**. |
 | Čas in strošek | 2159798 | Poostren je nadzor za preprečevanje urejanja odobrenih vnosov stroškov. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Vodenje projektov in računovodstvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektov in računovodstvo v okoljih aplikacij Dynamics 365 Finance
 
 Za več informacij glejte [Novosti v januarju 2021 – Project Operations za primere uporabe z viri/brez zalog](whats-new-jan-2021-resource-based.md).
 
 ## <a name="regulatory-updates"></a>Regulativne posodobitve
 
-Za informacije o regulativnih posodobitvah za aplikacije za finance in poslovanje glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Drug način za informiranje o regulativnih posodobitvah je vpis v LCS in ogled načrtovanih regulativnih posodobitev z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+Za informacije o regulativnih posodobitvah za aplikacije za finance in postopke glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Drug način za informiranje o regulativnih posodobitvah je vpis v LCS in ogled načrtovanih regulativnih posodobitev z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

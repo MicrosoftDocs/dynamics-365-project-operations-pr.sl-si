@@ -1,6 +1,6 @@
 ---
 title: Začetek novega projekta LCS
-description: Ta članek nudi informacije o ustvarjanju novega projekta v LCS za vaše okolje Project Operations.
+description: Ta članek vsebuje informacije o ustvarjanju novega projekta LCS v okolju storitve Project Operations.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -27,7 +27,7 @@ Okolja v aplikaciji Dynamics 365 Project Operations upravljajte s storitvijo Lif
   ![Izberite projekt vrste LCS.](./media/create-lcs-1.png)
 
 5. Poimenujte projekt. 
-6. Izberite **Finance in poslovanje** kot ime izdelka ter izberite panogo in metodologijo. 
+6. Izberite **Finance in postopki** kot ime izdelka ter izberite panogo in metodologijo. 
 7. izberite **Ustvari**.
 
 ![Ustvarite projekt LCS.](./media/create-lcs-2.png)

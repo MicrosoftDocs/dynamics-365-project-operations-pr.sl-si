@@ -1,6 +1,6 @@
 ---
 title: Novosti v marcu 2022 – poenostavljeno uvajanje storitve Project Operations
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji različice Project Operations lite marca 2022.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v marčevski izdaji (2022) poenostavljenega uvajanja aplikacije Project Operations.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
@@ -18,42 +18,42 @@ ms.locfileid: "8934248"
 
 _Velja za: poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
+Ta članek velja za naslednje komponente in različice aplikacije Microsoft Dynamics 365 Project Operations:
 
-- Projektno delovanje v a Dataverse različica okolja 4.30.0.99
+- Project Operations v različici okolja 4.30.0.99. storitve Dataverse
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 
-- Sklepanje pogodb s podizvajalci: ustvarjanje računov prodajalca in izkušnje ujemanja
+- Podizvajalske pogodbe: Ustvarjanje računov dobaviteljev in izkušnje pri povezovanju
 
 ## <a name="quality-updates"></a>Posodobitve kakovosti
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |
-| Čas in strošek | 2388011 | Pokažite zavrnitvene komentarje vlagateljem vnosa časa med odobritvijo v velikem obsegu. |
-| Načrtovanje in sledenje projektov | 2495294 | Podrobnosti projekta ni mogoče urejati na **Podrobnosti o nalogi** stran. |
-| Zaračunavanje in cene | 2499605 | Mejniki pogodbe, ki so ustvarjeni iz mejnikov ponudbe, so napačno označeni kot samo za branje. |
-| Načrtovanje in sledenje projektov | 2506050 | Nabor operacij ostane na čakanju eno uro, če ni sprememb za shranjevanje. Nabor je nato napačno označen kot **Neuspešno**, medtem ko ga je treba dokončati takoj. |
-| Zaračunavanje in cene | 2507401 | Privzete pogodbene enote so napačno vnesene v projekte zaradi nepravilnega predpomnjenja. |
-| Zaračunavanje in cene | 2541660 | **Potrditev ustvarjanja prodajnega naročila** v dvojnem pisanju mora biti samo za naročila, ki temeljijo na projektu. |
-| Zaračunavanje in cene | 2552745 | Davek ni razdeljen med stranke, ki so nastavile pravila za deljeno obračunavanje. |
-| Zaračunavanje in cene | 2558859 | Izboljšana sporočila o napakah pri nastavitvi dimenzij cen. |
-| Zaračunavanje in cene | 2558933 | **Uvoz iz ocen projekta** ne uspe, ko **msdyn\_ projekt** je dodan kot cena. |
+| Čas in strošek | 2388011 | Pokažite komentarje zavrnitve predlagateljem vnosa časa med množično odobritvijo. |
+| Načrtovanje in sledenje projektov | 2495294 | Podrobnosti projekta ne smete urejati na strani **Podrobnosti opravila**. |
+| Zaračunavanje in cene | 2499605 | Mejniki pogodbe, ki so ustvarjeni iz mejnikov ponudb, so nepravilno označeni kot samo za branje. |
+| Načrtovanje in sledenje projektov | 2506050 | Komplet postopkov ostane na čakanju eno uro, če ni nobene spremembe za shranjevanje. Komplet je nato lažno označen kot **Neuspel**, medtem ko moral biti takoj dokončan. |
+| Zaračunavanje in cene | 2507401 | Privzete pogodbene enote so v projektih nepravilno vnesene zaradi nepravilnega predpomnjenja. |
+| Zaračunavanje in cene | 2541660 | **Preverjanje veljavnosti izdelave prodajnega naloga** v dvojnem zapisovanju bi moralo biti namenjeno samo naročilom, ki temeljijo na projektu. |
+| Zaračunavanje in cene | 2552745 | Davek ni razdeljen med stranke, ki so nastavile pravila za razdeljeno obračunavanje. |
+| Zaračunavanje in cene | 2558859 | Izboljšana sporočila o napakah, ko so nastavljene razsežnosti cen. |
+| Zaračunavanje in cene | 2558933 | **Uvoz iz ocen projekta** ne uspe, ko je vrednost **msdyn\_project** dodana kot cenovna razsežnost. |
 | Zaračunavanje in cene | 2559101 | Brisanje parametrov projekta ni blokirano in povzroča težave. |
-| Upravljanje priložnosti | 2570390 | Vtičnik dvojnega pisanja prisili vrsto računa na ponudbe, naročila in priložnosti **Stranka**, tudi če ta vrsta računa ni pravilna. |
-| Zaračunavanje in cene | 2586097 | Dejanski dejanski zaračunani stroški se ne razveljavijo, ko je projekt odstranjen iz pogodbene vrstice projekta. |
-| Zaračunavanje in cene | 2589619 | Davek na vpisno gradivo se razširi na neobračunano dejansko prodajo in račun. |
-| Upravljanje priložnosti | 2594015 | Ponudbe ni mogoče zaključiti kot zmagovalno za stranke, ki so **Net60** plačilni pogoji. |
-| Načrtovanje in sledenje projektov | 2595841 | V Project for the Web uporabniki prejmejo sporočilo o napaki o manjkajočih **msdyn\_ dejanski začetek** ko ustvarijo novo zahtevo za vir. |
-| Čas in strošek | 2602511 | The **Zavrnjeno s strani** polje za prikaze časovnih vnosov **sistem** namesto imenovanega uporabnika kot zavrnilca. |
-| Čas in strošek | 2602528 | Odobritelj projekta lahko odobri čas za projekte, kjer niso navedeni kot odobritelj. |
-| Zaračunavanje in cene | 2608550 | Popravek računa je mogoče potrditi tudi, če izvirnik ni sprememb. |
+| Upravljanje priložnosti | 2570390 | Vtičnik za dvojno zapisovanje na ponudbah, naročilih in priložnostih vsili vrsto računa **Stranka**, tudi če ta vrsta računa ni pravilna. |
+| Zaračunavanje in cene | 2586097 | Dejanski stroški deljenega obračunavanja se ne razveljavijo, ko je projekt odstranjen iz podrobnosti projektne pogodbe. |
+| Zaračunavanje in cene | 2589619 | Davek na material, ki ni v katalogu, se prenese na neobračunane dejanske vrednosti prodaje in na račun. |
+| Upravljanje priložnosti | 2594015 | Ponudbe za stranke, ki imajo plačilne pogoje **Net60**, ni mogoče zapreti kot pridobljeno. |
+| Načrtovanje in sledenje projektov | 2595841 | Uporabniki v aplikaciji Project for the Web prejmejo sporočilo o napaki o manjkajoči vrednosti **msdyn\_actualstart**, ko ustvarijo novo zahtevo za vir. |
+| Čas in strošek | 2602511 | Polje **Zavrnil(-a)** za vnos časa kaže vrednost **Sistem** namesto imenovanega uporabnika kot zavrnitelja. |
+| Čas in strošek | 2602528 | Odobritelj projekta lahko odobri čas za projekte, kjer ni naveden kot odobritelj. |
+| Zaračunavanje in cene | 2608550 | Popravek računa je mogoče potrditi tudi, če na izvirniku ni sprememb. |
 
-## <a name="removed-and-deprecated-features"></a>Odstranjene in zastarele funkcije
+## <a name="removed-and-deprecated-features"></a>Odstranjene in opuščene funkcije
 
-The [Odstranjene ali zastarele funkcije v Project Operations](../../whats-new/removed-depreciated-features-project.md) članek opisuje funkcije, ki so bile odstranjene ali zastarele Dynamics 365 Project Operations.
+Članek [Odstranjene ali opuščene funkcije v aplikaciji Project Operations](../../whats-new/removed-depreciated-features-project.md) opisuje funkcije, ki so bile za aplikacijo Dynamics 365 Project Operations odstranjene ali opuščene.
 
 - Odstranjena funkcija v izdelku ni več na voljo.
-- Zastarela funkcija ni v aktivnem razvoju in bo morda odstranjena v prihodnji posodobitvi.
+- Opuščena funkcija se ne razvija več in bo lahko odstranjena s prihodnjo posodobitvijo.
 
-Obvestilo o prenehanju veljavnosti bo prikazano v [Odstranjene ali zastarele funkcije v Project Operations](../../whats-new/removed-depreciated-features-project.md) člen 12 mesecev preden se katera koli funkcija odstrani iz izdelka.
+Obvestilo o opustitvi bo prikazano v članku [Odstranjene ali zastarele funkcije v aplikaciji Project Operations](../../whats-new/removed-depreciated-features-project.md), 12 mesecev preden bo katera koli funkcija odstranjena iz izdelka.

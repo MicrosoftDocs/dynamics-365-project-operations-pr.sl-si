@@ -1,6 +1,6 @@
 ---
 title: Aplikacijo Project Service Automation nadgradite na aplikacijo Project Operations
-description: Ta članek nudi pregled postopka nadgradnje Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Project Operations.
+description: Ta članek zagotavlja pregled procesa nadgradnje z aplikacije Microsoft Dynamics 365 Project Service Automation na aplikacijo Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/11/2022
@@ -16,126 +16,126 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709465"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736687"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Aplikacijo Project Service Automation nadgradite na aplikacijo Project Operations
 
-Z veseljem objavljamo drugo od treh faz za nadgradnjo Microsoft Dynamics 365 Project Service Automation Microsoftu Dynamics 365 Project Operations. Ta članek ponuja pregled za stranke, ki se podajajo na to razburljivo potovanje. 
+Z veseljem objavljamo drugo od treh faz za nadgradnjo z aplikacije Microsoft Dynamics 365 Project Service Automation na aplikacijo Microsoft Dynamics 365 Project Operations. Ta članek zagotavlja pregled za stranke, ki se podajajo na to razburljivo potovanje. 
 
-Program nadgradnje bo razdeljen na tri faze.
+Program za izvedbo nadgradnje bo razdeljen v tri faze.
 
-| Dostava nadgradnje | 1. faza (januar 2022) | 2. faza (november 2022) | 3. faza (aprilski val 2023)  |
+| Izvedba nadgradnje | 1. faza (januar 2022) | 2. faza (november 2022) | 3. faza (april 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
-| Brez odvisnosti od strukture razčlenitve dela (WBS) za projekte | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| WBS znotraj trenutno podprtih omejitev projektnih operacij | | :heavy_check_mark: | :heavy_check_mark: |
-| WBS zunaj trenutno podprtih omejitev Project Operations, vključno s podporo za namiznega odjemalca Project | | | :heavy_check_mark: |
+| Brez odvisnosti od strukturirane členitve dela (SČD) za projekte | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Vmesnik SČD je vključen v trenutno podprte omejitve aplikacije Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
+| SČD zunaj trenutno podprtih omejitev aplikacije Project Operations, vključno s podporo za Project desktop client | | | :heavy_check_mark: |
 
-## <a name="upgrade-process-features"></a>Funkcije postopka nadgradnje 
+## <a name="upgrade-process-features"></a>Funkcije procesa nadgradnje 
 
-Kot del postopka nadgradnje smo na zemljevid spletnega mesta dodali dnevnike nadgradnje, da skrbnikom omogočimo lažje diagnosticiranje napak. Poleg novega vmesnika bodo dodana nova pravila za preverjanje veljavnosti, da se zagotovi celovitost podatkov po nadgradnji. V postopek nadgradnje bodo dodane naslednje potrditve.
+Kot del procesa nadgradnje smo na zemljevid mesta dodali dnevnike nadgradnje, da skrbnikom omogočimo lažje prepoznavanje napak. Poleg novega vmesnika bodo dodana nova pravila za preverjanje veljavnosti, da se zagotovi celovitost podatkov po nadgradnji. V proces nadgradnje bodo dodane naslednja preverjanja veljavnosti.
 
-| Validacije | 1. faza (januar 2022) | 2. faza (november 2022) | Faza 3  |
+| Preverjanje veljavnosti | 1. faza (januar 2022) | 2. faza (november 2022) | 3. faza  |
 |-------------|------------------------|---------------------------|---------------------------|
-| WBS bo preverjen glede pogostih kršitev celovitosti podatkov (na primer dodelitve virov, ki so povezane z isto nadrejeno nalogo, vendar imajo različne nadrejene projekte). | | :heavy_check_mark: | :heavy_check_mark: |
-| WBS bo potrjen glede na [znane omejitve Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
-| WBS bo preverjen glede na znane omejitve namiznega odjemalca Project. | |  | :heavy_check_mark: |
+| Veljavnost vmesnika SČD bo preverjena glede na pogoste kršitve celovitosti podatkov (na primer dodelitve virov, ki so povezane z istim nadrejenim opravilom, vendar imajo različne nadrejene projekte). | | :heavy_check_mark: | :heavy_check_mark: |
+| Veljavnost vmesnika SČD bo preverjena glede na [znane omejitve za Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
+| Veljavnost vmesnika SČD bo preverjena glede na znane omejitve za Project Desktop Client. | |  | :heavy_check_mark: |
 | Viri, ki jih je mogoče rezervirati, in koledarji projektov bodo ovrednoteni glede na pogoste izjeme pravila za nezdružljive koledarje. | | :heavy_check_mark: | :heavy_check_mark: |
 
-V 2. fazi bodo stranke, ki nadgradijo na Project Operations, svoje obstoječe projekte nadgradile na izkušnjo samo za branje za načrtovanje projektov. V tej izkušnji samo za branje bo celoten WBS viden v mreži za sledenje. Za urejanje WBS lahko izberejo vodje projektov [**Pretvorba**](/PSA-Upgrade-Project-Conversion.md) na glavni strani projekta. Postopek v ozadju nato posodobi projekt, tako da podpira novo izkušnjo razporejanja projekta iz Projecta za splet. Ta faza je primerna za stranke, ki imajo projekte, ki ustrezajo [znane omejitve Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+V 2. fazi bodo stranke, ki nadgradijo na aplikacijo Project Operations, svoje obstoječe projekte nadgradile na izkušnjo samo za branje za načrtovanje projektov. V tej izkušnji samo za branje bo celoten vmesnik SČD viden v mreži za sledenje. Za urejanje vmesnika SČD lahko vodje projektov na glavni strani projekta izberejo možnost [**Pretvori**](/PSA-Upgrade-Project-Conversion.md). Postopek v ozadju nato posodobi projekt, tako da podpira novo izkušnjo razporejanja projekta iz storitve Project for the Web. Ta faza je primerna za stranke, ki imajo projekte znotraj [znanih omejitev za Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
-V fazi 3 bo dodana podpora za namiznega odjemalca Project v korist strank, ki želijo še naprej urejati svoje projekte iz te aplikacije. Če pa so obstoječi projekti pretvorjeni v novo izkušnjo Project for the Web, bo dostop do dodatka onemogočen za vsak pretvorjeni projekt.
+V 3. fazi bo dodana podpora za Project Desktop Client za prednost strank, ki želijo še naprej urejati svoje projekte iz te aplikacije. Če pa so obstoječi projekti pretvorjeni v novo izkušnjo Project for the Web, bo dostop do dodatka onemogočen za vsak pretvorjeni projekt.
 
 ## <a name="prerequisites"></a>Zahteve
 
-Če želite biti upravičeni do nadgradnje 1. faze, morate izpolnjevati naslednja merila:
+Če želite biti upravičeni do 1. faze nadgradnje, morate izpolnjevati naslednja merila:
 
-- Ciljno okolje ne sme vsebovati nobenih zapisov v **msdyn_projecttask** entiteta.
-- Veljavne licence Project Operations morajo biti dodeljene vsem aktivnim uporabnikom. 
-- Postopek nadgradnje morate potrditi v vsaj enem neprodukcijskem okolju, ki vsebuje reprezentativen nabor podatkov, ki je usklajen z vašim produkcijskim okoljem.
-- Ciljno okolje je treba posodobiti na različico Project Service Automation Update Release 37 (V3.10.58.120) ali novejšo.
+- Ciljno okolje ne sme vsebovati nobenih zapisov v entiteti **msdyn_projecttask**.
+- Veljavne licence za aplikacijo Project Operations morajo biti dodeljene vsem aktivnim uporabnikom. 
+- Proces nadgradnje morate potrditi v vsaj enem neprodukcijskem okolju, ki vsebuje reprezentativen nabor podatkov, ki je usklajen z vašim produkcijskim okoljem.
+- Ciljno okolje je treba posodobiti na izdajo posodobitve 37 za aplikacijo Project Service Automation (V3.10.58.120) ali novejšo različico.
 
-Če želite biti upravičeni do nadgradnje 2. faze, morate izpolnjevati naslednja merila:
+Če želite biti upravičeni do 2. faze nadgradnje, morate izpolnjevati naslednja merila:
 
-- Veljavne licence Project Operations morajo biti dodeljene vsem aktivnim uporabnikom. 
-- Postopek nadgradnje morate potrditi v vsaj enem neprodukcijskem okolju, ki vsebuje reprezentativen nabor podatkov, ki je usklajen z vašim produkcijskim okoljem.
-- Ciljno okolje je treba posodobiti na različico Project Service Automation Update Release 37 (V3.10.58.120) ali novejšo.
+- Veljavne licence za aplikacijo Project Operations morajo biti dodeljene vsem aktivnim uporabnikom. 
+- Proces nadgradnje morate potrditi v vsaj enem neprodukcijskem okolju, ki vsebuje reprezentativen nabor podatkov, ki je usklajen z vašim produkcijskim okoljem.
+- Ciljno okolje je treba posodobiti na izdajo posodobitve 37 za aplikacijo Project Service Automation (V3.10.58.120) ali novejšo različico.
 - Okolja, ki vsebujejo opravila (msdyn_projecttask), so podprta le, če je skupno število opravil na projekt 500 ali manj.
 
-Predpogoji za 3. fazo bodo posodobljeni, ko se bo bližal datum splošne razpoložljivosti.
+Predpogoji za 3. fazo bodo posodobljeni, ko se bo bližal datum splošne dostopnosti.
 
 ## <a name="licensing"></a>Licenciranje
 
-Če imate aktivne licence za Project Service Automation, lahko namestite in uporabljate Project Operations, ki vključuje vse zmožnosti Project Service Automation in več. Na ta način lahko preizkusite zmogljivosti Project Operations, medtem ko še naprej uporabljate Project Service Automation v proizvodnji. Po poteku licenc za Project Service Automation boste morali preiti na Project Operations. Ko načrtujete ta prehod, morate upoštevati dejstvo, da licenca Project Operations ne vključuje licence Project Service Automation. Stranke, ki imajo scenarije, v katerih so razmestile Project Service Automation in morajo še naprej uporabljati ali povečati svoje licence za PSA, medtem ko nameravajo preiti na Project Operations, lahko zahtevajo začasne licence PSA na podlagi kupljenih licenc Project Operations. Ena licenca Project Service Automation bo izdana za eno licenco Project Operations. Začasne licence PSA lahko zahtevate na tej povezavi: aka.ms/ineedpsa
+Če imate aktivne licence za Project Service Automation, lahko namestite in uporabljate aplikacijo Project Operations, ki vključuje vse zmogljivosti aplikacije Project Service Automation in še druge. Na ta način lahko preskusite zmogljivosti aplikacije Project Operations, medtem ko v proizvodnji še vedno uporabljate aplikacijo Project Service Automation. Po poteku licenc za Project Service Automation boste morali preiti na aplikacijo Project Operations. Ko načrtujete ta prehod, morate upoštevati, da licenca za Project Operations ne vključuje licence za Project Service Automation. Stranke, ki imajo scenarije, v katerih je uvedena aplikacija Project Service Automation, in morajo še naprej uporabljati ali povečati svoje licence za PSA, medtem ko načrtujejo prehod na aplikacijo Project Operations, lahko zahtevajo začasne licence za PSA na podlagi kupljenih licenc za Project Operations. Ena licenca za Project Service Automation bo izdana za eno licenco za Project Operations. Začasne licence za storitev PSA lahko zahtevate na tej povezavi: aka.ms/ineedpsa
 
-## <a name="testing-and-refactoring-customizations"></a>Testiranje in preoblikovanje prilagoditev
+## <a name="testing-and-refactoring-customizations"></a>Preskus in preoblikovanje prilagoditev
 
-Kot izhodišče uvozite vse prilagoditve v čisto okolje Project Operations (Lite), da potrdite, da je uvoz uspešen in da se poslovne operacije obnašajo po pričakovanjih.
+Za začetek uvozite vse prilagoditve v čisto okolje Project Operations (poenostavljena različica), s čimer potrdite, da je uvoz uspešen in da poslovni postopki potekajo po pričakovanjih.
 
-Tukaj je nekaj stvari, na katere morate biti pozorni:
+Bodite pozorni na naslednje:
 
-- Uvoz morda ne uspe zaradi manjkajočih odvisnosti. Z drugimi besedami, referenčna polja prilagoditev ali druge komponente, ki so bile odstranjene v Project Operations. V tem primeru odstranite te odvisnosti iz razvojnega okolja.
-- Če vaše neupravljane in upravljane rešitve vključujejo komponente, ki niso prilagojene, odstranite te komponente iz rešitve. Na primer, ko prilagodite **Projekt** entiteti, svoji rešitvi dodajte samo glavo entitete. Ne dodajte vseh polj. Če ste predhodno dodali vse podkomponente, boste morda morali ročno ustvariti novo rešitev in ji dodati ustrezne komponente.
-- Obrazci in pogledi morda ne bodo prikazani po pričakovanjih. V nekaterih okoliščinah, če ste prilagodili kateri koli od pripravljenih obrazcev ali pogledov, lahko prilagoditve preprečijo, da bi nove posodobitve v Project Operations začele veljati. Za prepoznavanje teh težav priporočamo, da vzporedno pregledate čisto namestitev Project Operations in namestitev Project Operations, ki vključuje vaše prilagoditve. Primerjajte obrazce, ki se najpogosteje uporabljajo v vašem podjetju, da potrdite, da je vaša različica obrazca še vedno smiselna in ji ne manjka ničesar od čiste različice obrazca. Opravite isto vrsto vzporednega pregleda za vse poglede, ki ste jih prilagodili.
-- Poslovna logika lahko odpove med izvajanjem. Ker sklicevanja na polja v vaših vtičnikih niso preverjena v času uvoza, lahko poslovna logika odpove zaradi sklicevanj na polja, ki ne obstajajo več, in morda prejmete sporočilo o napaki, ki je podobno temu primeru: »'Projekt' entiteta ne vsebuje atributa z Name = 'msdyn_plannedhours' in NameMapping = 'Logical'." V tem primeru spremenite svoje prilagoditve tako, da bodo uporabljale nova polja. Če v logiki vtičnika uporabljate samodejno ustvarjene razrede proxy in močne reference tipov, razmislite o ponovnem generiranju teh proxyjev iz čiste namestitve. Na ta način lahko preprosto prepoznate vsa mesta, kjer so vaši vtičniki odvisni od zastarelih polj.
+- Uvoz morda ne uspe zaradi manjkajočih odvisnosti. To pomeni sklicna polja prilagoditev ali druge komponente, ki so bile odstranjene v aplikaciji Project Operations. V tem primeru odstranite te odvisnosti iz razvojnega okolja.
+- Če vaše neupravljane in upravljane rešitve vključujejo komponente, ki niso prilagojene, odstranite te komponente iz rešitve. Ko prilagodite entiteto **Projekt**, svoji rešitvi dodajte na primer samo glavo entitete. Ne dodajte vseh polj. Če ste že dodali vse podkomponente, boste morda morali ročno ustvariti novo rešitev in ji dodati ustrezne komponente.
+- Obrazci in pogledi morda ne bodo prikazani po pričakovanjih. Če ste prilagodili katerega koli od pripravljenih obrazcev ali pogledov, lahko v nekaterih primerih prilagoditve preprečijo, da bi nove posodobitve v aplikaciji Project Operations začele veljati. Za prepoznavanje teh težav priporočamo, da vzporedno pregledate čisto namestitev aplikacije Project Operations in namestitev aplikacije Project Operations, ki vključuje vaše prilagoditve. Primerjajte obrazce, ki se najpogosteje uporabljajo v vašem podjetju, s čimer poskrbite, da je vaša različica obrazca še vedno smiselna in ne manjka ničesar od čiste različice obrazca. Opravite isto vrsto vzporednega pregleda za vse poglede, ki ste jih prilagodili.
+- Med izvajanjem lahko pride do napake poslovne logike. Ker se veljavnost sklicev na polja v vaših vtičnikih ne preverja v času uvoza, lahko pride do napake poslovne logike zaradi sklicev na polja, ki ne obstajajo več, in morda prejmete sporočilo o napaki, ki je podobno temu primeru: »Entiteta 'Projekt' ne vsebuje atributa z vrednostjo Ime = 'msdyn_plannedhours' in NameMapping = 'Logično'.« V tem primeru spremenite svoje prilagoditve tako, da bodo uporabljale nova polja. Če v logiki vtičnika uporabljate samodejno ustvarjene razrede proxy in močno vrsto sklicev, razmislite o ponovnem generiranju teh proxyjev iz čiste namestitve. Na ta način lahko preprosto prepoznate vsa mesta, kjer so vaši vtičniki odvisni od opuščenih polj.
 
-Ko posodobite svoje prilagoditve za čist uvoz projektnih operacij, nadaljujte z naslednjimi koraki.
+Ko posodobite svoje prilagoditve za čist uvoz aplikacije Project Operations, nadaljujte z naslednjimi koraki.
 
-## <a name="end-to-end-testing-in-development-environments"></a>Testiranje od konca do konca v razvojnih okoljih
+## <a name="end-to-end-testing-in-development-environments"></a>Celovito preskušanje v razvojnih okoljih
 
-### <a name="initiate-upgrade"></a>Začni nadgradnjo 
+### <a name="initiate-upgrade"></a>Začetek nadgradnje 
 
-1. V Power Platform skrbniško središče, poiščite in izberite svoje okolje. Nato v aplikacijah poiščite in izberite **Dynamics 365 Project Operations**.
-2. Izberite **Namestite** za začetek nadgradnje. The Power Platform skrbniško središče bo to namestitev predstavilo kot novo namestitev. Vendar pa bo zaznana prisotnost prejšnje različice Project Service Automation in obstoječa namestitev bo nadgrajena.
+1. V skrbniškem središču za Power Platform poiščite in izberite svoje okolje. Nato v aplikacijah poiščite in izberite možnost **Dynamics 365 Project Operations**.
+2. Za začetek nadgradnje izberite možnost **Namesti**. Skrbniško središče za Power Platform bo to namestitev predstavilo kot novo namestitev. Zaznana bo prisotnost prejšnje različice aplikacije Project Service Automation, obstoječa namestitev pa bo nadgrajena.
 
-    Ko je nadgradnja končana, bi moralo okolje pokazati, da je Project Operations nameščen in da Project Service Automation ni nameščen.
+    Po dokončanju nadgradnje, bi moralo okolje pokazati, da je aplikacija Project Operations nameščena, aplikacija Project Service Automation pa ne.
 
-    Odvisno od količine podatkov v okolju lahko nadgradnja traja več ur. Osrednja ekipa, ki upravlja nadgradnjo, mora ustrezno načrtovati in izvajati nadgradnjo med izven delovnega časa. V nekaterih primerih, če je količina podatkov velika, je treba nadgradnjo izvesti med vikendom. Odločitev o razporedu bi morala temeljiti na rezultatih testiranja v nižjih okoljih.
+    Postopek lahko traja več ur, odvisno od količine podatkov v okolju. Osrednja ekipa, ki upravlja nadgradnjo, mora ustrezno načrtovati in izvajati nadgradnjo izven delovnega časa. Če je količina podatkov velika, je treba nadgradnjo v nekaterih primerih izvesti med vikendom. Odločitev o razporejanju bi morala temeljiti na rezultatih preskušanja v nižjih okoljih.
 
-3. Po potrebi nadgradite rešitve po meri. Na tej točki uvedite vse spremembe, ki ste jih naredili v svojih prilagoditvah v [Testiranje in preoblikovanje prilagoditev](#testing-and-refactoring-customizations) razdelek tega članka.
-4. Pojdi do **nastavitve** \> **Rešitve** in izberite, da odstranite **Zastarele komponente projektnih operacij** rešitev.
+3. Po potrebi nadgradite rešitve po meri. Na tej točki uvedite vse spremembe, ki ste jih naredili v svojih prilagoditvah v razdelku [Preskušanje in preoblikovanje prilagoditev](#testing-and-refactoring-customizations) tega članka.
+4. Obiščite spletno mesto **make.powerapps.com**, na spustnem seznamu v zgornjem desnem kotu portala izberite svoje okolje, v levem meniju izberite možnost **Rešitve**, izberite rešitev **Opuščene komponente Project Operations** in možnost **Odstrani**.
 
-    Ta rešitev je začasna rešitev, ki vsebuje obstoječi podatkovni model in komponente, ki so prisotne med nadgradnjo. Z odstranitvijo te rešitve odstranite vsa polja in komponente, ki se ne uporabljajo več. Na ta način pomagate poenostaviti vmesnik ter olajšati integracijo in razširitev.
+    Ta rešitev je začasna rešitev, ki vsebuje obstoječi podatkovni model in komponente, ki so prisotne med nadgradnjo. Če odstranite to rešitev, boste odstranili tudi vsa polja in komponente, ki se ne uporabljajo več. Na ta način pomagate poenostaviti vmesnik ter olajšati integracijo in razširitev.
     
-### <a name="upgrade-to-project-operations-lite"></a>Nadgradite na Project Operations Lite
+### <a name="upgrade-to-project-operations-lite"></a>Nadgradnja na poenostavljeno različico aplikacije Project Operations
 
-Naslednji koraki opisujejo postopek nadgradnje in povezano beleženje napak:
+Naslednji koraki opisujejo postopek nadgradnje in povezano zapisovanje dnevnikov napak:
 
-1. **Preverjanje različice PSA:** Če želite namestiti Project Operations, morate imeti V3.10.58.120 ali novejši.
-1. **Predhodna validacija:** Ko skrbnik sproži nadgradnjo, sistem izvede operacijo predpreverjanja za vsako entiteto, ki je jedro rešitve Project Operations. Ta korak preveri, ali so vse reference entitet veljavne, in zagotovi, da so podatki, ki so povezani z WBS, znotraj objavljenih omejitev Project for the Web.
-1. **Nadgradnja metapodatkov:** Po uspešnem predhodnem preverjanju sistem sproži spremembe v shemi in ustvari rešitev za zastarele komponente. To zastarelo rešitev lahko odstranite, ko dokončate vso zahtevano refaktorizacijo prilagoditev. Ta korak je najdaljši del postopka nadgradnje in lahko traja do štiri ure.
-1. **Podatkovna nadgradnja:** Ko so v koraku nadgradnje metapodatkov opravljene vse zahtevane spremembe sheme, se vaši podatki preselijo v novo shemo in opravijo se morebitne zahtevane privzete vrednosti in ponovni izračuni.
-1. **Posodobitev motorja urnika projekta:** Po uspešni nadgradnji podatkov se **Urnik** zavihek na glavni strani je preimenovan **Naloge**. Ko uporabnik po nadgradnji izbere ta zavihek, je usmerjen na navigacijo do mreže za sledenje in si ogleda različico WBS samo za branje. Za urejanje WBS morajo sprožiti urnik [proces pretvorbe](/PSA-Upgrade-Project-Conversion.md). Vsi projekti brez že obstoječega WBS lahko uporabljajo novo izkušnjo razporejanja neposredno, brez pretvorbe.
+1. **Preverjanje različice PSA:** če želite namestiti aplikacijo Project Operations, morate imeti različico V3.10.58.120 ali novejšo.
+1. **Vnaprejšnje preverjanje veljavnosti:** ko skrbnik sproži nadgradnjo, sistem izvede postopek vnaprejšnjega preverjanja veljavnosti za vsako entiteto, ki je jedro rešitve Project Operations. Ta korak preveri, ali so vsi sklici entitet veljavni, in zagotovi, da so podatki, povezani z vmesnikom SČD, znotraj objavljenih omejitev za Project for the Web.
+1. **Nadgradnja metapodatkov:** po uspešnem vnaprejšnjem preverjanju veljavnosti sistem sproži spremembe v shemi in ustvari rešitev za opuščene komponente. To opuščeno rešitev lahko odstranite, ko dokončate vse zahtevano preoblikovanje prilagoditev. Ta korak je najdaljši del postopka nadgradnje in lahko traja do štiri ure.
+1. **Nadgradnja podatkov:** ko so v koraku nadgradnje metapodatkov opravljene vse zahtevane spremembe sheme, se vaši podatki preselijo v novo shemo, pridobijo se morebitne zahtevane privzete vrednosti in izvedejo ponovni izračuni.
+1. **Posodobitev mehanizma razporejanja projekta:** po uspešni nadgradnji podatkov se zavihek **Urnik** na glavni strani preimenuje v **Opravila**. Ko uporabnik po nadgradnji izbere ta zavihek, je usmerjen do mreže za sledenje in si ogleda različico SČD samo za branje. Za urejanje SČD mora sprožiti načrtovanje [procesa pretvorbe](/PSA-Upgrade-Project-Conversion.md). Vsi projekti brez že obstoječega vmesnika SČD lahko novo izkušnjo načrtovanja uporabljajo neposredno in brez pretvorbe.
  
-### <a name="validate-common-scenarios"></a>Potrdite pogoste scenarije
+### <a name="validate-common-scenarios"></a>Preverjanje veljavnosti pogostih scenarijev
 
-Ko potrdite svoje posebne prilagoditve, priporočamo, da pregledate tudi poslovne procese, ki so podprti v aplikacijah. Ti poslovni procesi vključujejo, vendar niso omejeni na, ustvarjanje prodajnih entitet, kot so ponudbe in pogodbe, ter ustvarjanje projektov, ki vključujejo WBS in odobritev dejanskih vrednosti.
+Ko preverite veljavnost posebnih prilagoditev, priporočamo, da pregledate tudi poslovne procese, ki so podprti v aplikacijah. Ti poslovni procesi vključujejo, vendar niso omejeni na, ustvarjanje prodajnih entitet, kot so ponudbe in pogodbe, ter ustvarjanje projektov, ki vključujejo SČD in odobritev dejanskih vrednosti.
 
-## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Večje spremembe med Project Service Automation in Project Operations
+## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Večje spremembe med aplikacijama Project Service Automation in Project Operations
 
-V tem razdelku je povzetek večjih sprememb, ki jih lahko pričakujete med Project Service Automation in Project Operations.
+V tem razdelku je povzetek večjih sprememb, ki jih lahko pričakujete med aplikacijama Project Service Automation in Project Operations.
 
 ### <a name="project-planning"></a>Načrtovanje projekta
 
-Zmožnosti načrtovanja projekta v Project Operations se ne zanašajo več na kombinacijo logike na strani odjemalca in logike na strani strežnika. Namesto tega Project Operations uporablja Project za splet kot mehanizem za razporejanje. Ta sprememba v zmožnostih razporejanja omogoča številne nove funkcije, kot so pogledi plošče in Gantt, načrtovanje na podlagi virov, [elemente kontrolnega seznama opravil](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) in načini načrtovanja projektov. Nove zmožnosti razporejanja so podprte tudi z bogatim naborom novih [vmesniki za programiranje aplikacij (API)](../project-management/schedule-api-preview.md). Ti API-ji so namenjeni zagotavljanju, da nobena programska operacija za ustvarjanje, posodabljanje ali brisanje entitete v WBS ne pokvari izračunanih polj v urniku.
+Zmogljivosti načrtovanja projekta v aplikaciji Project Operations se ne zanašajo več na kombinacijo logike na strani odjemalca in logike na strani strežnika. Namesto tega Project Operations kot mehanizem za razporejanje uporablja Project for the Web. Ta sprememba v zmogljivostih razporejanja omogoča številne nove funkcije, kot so pogledi plošče in Ganttovega grafikona, načrtovanje na podlagi virov, [elementi kontrolnega seznama opravil](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) in načini razporejanja projektov. Nove zmogljivosti razporejanja so podprte tudi z bogatim naborom novih [vmesnikov za programiranje aplikacij (API)](../project-management/schedule-api-preview.md). Ti API-ji zagotavljajo, da noben programski postopek za ustvarjanje, posodabljanje ali brisanje entitete v vmesniku SČD ne pokvari polj z izračunom v urniku.
 
 ### <a name="billing-and-pricing"></a>Zaračunavanje in cene
 
-Kot del nenehnih naložb v projektne operacije je na voljo več novih zmogljivosti pri zaračunavanju in cenah. Tukaj je nekaj primerov:
+Kot del nenehnih naložb v aplikacijo Project Operations je na voljo več novih zmogljivosti pri zaračunavanju in oblikovanju cen. Tukaj je nekaj primerov:
 
-- [Evidentiranje porabe gradiva na projektih in projektnih nalogah](../material/material-usage-log.md)
-- [Upravljanje s podizvajalci](../pro/subcontracting/managing-subcontracts-overview.md)
+- [Beleženje uporabe materiala v projektih in projektnih opravilih](../material/material-usage-log.md)
+- [Upravljanje podizvajalskih pogodb](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Pogodbe za predplačila in honorarje](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
-- [Stanje in potrditve pogodbe o prepovedi prekoračitve](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
-- Zaračunavanje na podlagi nalog
+- [Stanje in veljavnosti pogodbe »Ni dovoljeno preseči«](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
+- Obračunavanje na podlagi opravil
 
 ### <a name="resource-management"></a>Upravljanje virov
 
-Project Operations ponuja izbirno podporo za Universal Resource Scheduling (URS) pomočnik upravnega odbora in urnika. Ta nova izkušnja bo postala obvezna v valu aprila 2023.
+Project Operations ponuja izbirno podporo za ploščo Universal Resource Scheduling (URS) in pomočnika za razporejanje. Ta nova izkušnja bo postala obvezna v fazi aprila 2023.
 
 ## <a name="frequently-asked-questions"></a>Pogosto zastavljena vprašanja
 
@@ -143,17 +143,17 @@ Project Operations ponuja izbirno podporo za Universal Resource Scheduling (URS)
 
 | Vir                                                 | Cilj                                                    | Status                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
-| Project Service Automation                             | Uvedba Project Operations Lite                        | Podprto               |
-| Dynamics 365 Finance Vodenje projektov in računovodstvo | Uvedba Project Operations Lite                        | Trenutno ni podprto |
-| Finance Vodenje projektov in računovodstvo              | Project Operations za primere uporabe z viri/brez zalog     | Trenutno ni podprto |
+| Project Service Automation                             | Uvedba poenostavljene različice aplikacije Project Operations                        | Podprto               |
+| Upravljanje projektov in računovodstvo v aplikacijah Dynamics 365 Finance | Uvedba poenostavljene različice aplikacije Project Operations                        | Trenutno ni podprto |
+| Upravljanje finančnih projektov in računovodstvo              | Project Operations za primere uporabe z viri/brez zalog     | Trenutno ni podprto |
 | Project Service Automation 3.x                         | Project Operations za primere uporabe z viri/brez zalog     | Trenutno ni podprto |
-| Projekt za splet (namensko okolje)            | Uvedba Project Operations Lite                        | Trenutno ni podprto |
+| Project for the Web (namensko okolje)            | Uvedba poenostavljene različice aplikacije Project Operations                        | Trenutno ni podprto |
 
-### <a name="how-can-i-install-project-operations-before-the-upgrade-tooling-is-available"></a>Kako lahko namestim Project Operations, preden je na voljo orodje za nadgradnjo?
+### <a name="how-can-i-install-project-operations-before-the-upgrade-tooling-is-available"></a>Kako lahko namestim aplikacijo Project Operations, preden je na voljo orodje za nadgradnjo?
 
-Obstajata dve možnosti za namestitev Project Operations, preden je na voljo orodje za nadgradnjo:
+Obstajata dva načina za namestitev aplikacije Project Operations, preden je na voljo orodje za nadgradnjo:
 
-- Zagotavljanje novega okolja.
-- Razmestite Project Operations ločeno v kateri koli prodajni organizaciji, kjer Project Service Automation ni prisoten.
+- Omogočite novo okolje.
+- Ločeno uvedite Project Operations v kateri koli prodajni organizaciji, kjer aplikacija Project Service Automation ni prisotna.
 
-Če je Project Service Automation nameščen v organizaciji, vendar ni bil uporabljen, ga je mogoče odstraniti. Ko popolnoma odstranite Project Service Automation, lahko Project Operations namestite v isto organizacijo.
+Če je aplikacija Project Service Automation nameščena v organizaciji, vendar ni bila uporabljen, jo lahko odstranite. Ko popolnoma odstranite aplikacijo Project Service Automation, lahko Project Operations namestite v isto organizacijo.

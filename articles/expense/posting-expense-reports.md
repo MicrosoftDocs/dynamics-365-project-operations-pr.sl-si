@@ -1,6 +1,6 @@
 ---
 title: Objavljanje poročil o stroških
-description: V tem članku je razloženo, kako objaviti poročila o stroških.
+description: Ta članek pojasnjuje, kako objaviti poročila o stroških.
 author: ramagadu
 ms.date: 08/12/2022
 ms.topic: article
@@ -30,15 +30,15 @@ Ko je poročilo o stroških odobreno in preneseno v splošno temeljnico, ga lahk
 
 Na seznamu lahko hkrati objavite tudi vsa poročila o stroških. Izberite vsa poročila o stroških in nato izberite **Objavi**.
 
-## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Omogočite možnost knjiženja obveznosti za stroške v valuti prodajalca za funkcijo načina gotovinskega plačila
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Omogočanje možnost knjiženja obveznosti za stroške v valuti dobavitelja za funkcijo načina gotovinskega plačila
 
-The **Možnost knjiženja obveznosti za stroške v valuti prodajalca za gotovinsko plačilno metodo** funkcija omogoča objavo poročil o stroških v valuti prodajalca za način gotovinskega plačila.
+Funkcija **Možnost knjiženja obveznosti za stroške v valuti dobavitelja za način gotovinskega plačila** omogoča objavo poročil o stroških v valuti dobavitelja za način gotovinskega plačila.
 
-Trenutno se ob oddaji blagajniških stroškov poročila o stroških knjižijo v obračunski valuti. Zaradi pretvorbe zneska med valuto transakcije, obračunsko valuto in valuto dobavitelja je prodajalcem plačan napačen znesek, če imata transakcijski datum stroška in dejanski datum plačila različna menjalna tečaja.
+Trenutno se ob oddaji denarnih stroškov poročila o stroških objavijo v računovodski valuti. Zaradi pretvorbe zneska med valuto transakcije, računovodsko valuto in valuto dobavitelja je dobaviteljem plačan napačen znesek, če imata datum transakcije stroška in dejanski datum plačila različna menjalna tečaja.
 
-Ta funkcija bo zagotovila, da se stanje dobavitelja zabeleži v valuti prodajalca, ko je poročilo o stroških objavljeno.
+Ta funkcija bo zagotovila, da se stanje dobavitelja zabeleži v valuti dobavitelja, ko je poročilo o stroških objavljeno.
 
 1. Odprite zavihek **Delovni prostori** \> **Upravljanje funkcije**.
-2. Na seznamu poiščite in izberite **Možnost knjiženja obveznosti za stroške v valuti prodajalca za gotovinsko plačilno metodo** in nato izberite **Omogoči zdaj**.
+2. Na seznamu poiščite in izberite **Možnost knjiženja obveznosti za stroške v valuti dobavitelja za način gotovinskega plačila** in nato izberite **Omogoči zdaj**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Aktivirajte in popravite projektno ponudbo
-description: Ta članek vsebuje informacije o aktiviranju in pregledovanju ponudb v Microsoftu Dynamics 365 Project Operations.
+title: Aktiviranje in popravljanje projektne ponudbe
+description: Ta članek vsebuje informacije o aktivaciji in pregledu ponudb v programu Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -13,38 +13,38 @@ ms.contentlocale: sl-SI
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9410393"
 ---
-# <a name="activate-and-revise-a-project-quote"></a>Aktivirajte in popravite projektno ponudbo
+# <a name="activate-and-revise-a-project-quote"></a>Aktiviranje in popravljanje projektne ponudbe
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Zmožnosti aktiviranja in revizije vam pomagajo spremljati različice za ponudbe, ki temeljijo na projektu, med fazami ocenjevanja in pogajanj. Ko je osnutek ponudbe aktiviran, postane samo za branje.
+Funkciji aktivacije in pregleda vam pomagata spremljati različice ponudb, ki temeljijo na projektih, v fazah ocenjevanja in pogajanj. Ko je osnutek ponudbe aktiviran, je na voljo samo za branje.
 
-Zmožnosti aktivacije in revizije vam omogočajo izvajanje naslednjih nalog:
+Funkciji aktivacije in pregleda vam omogočata izvajanje naslednjih opravil:
 
-- Dobite ali izgubite ponudbe šele po aktivaciji.
-- Popravite ponudbo, da spremenite obstoječo ponudbo ali ustvarite novo različico.
+- Sprejem ali zavrnitev ponudb šele po aktivaciji.
+- Preglejte ponudbo, da spremenite obstoječo ponudbo ali ustvarite novo različico.
 
 > [!NOTE]
-> Ko je funkcija za aktivacijo in revizijo ponudb omogočena, je ni več mogoče onemogočiti.
+> Ko je funkcija za aktivacijo in pregled ponudb omogočena, je ni več mogoče onemogočiti.
 
-Če želite vklopiti možnost aktiviranja in pregleda projektnih ponudb, sledite tem korakom.
+Če želite vklopiti možnost aktivacije in pregleda ponudb, ki temeljijo na projektih, sledite tem korakom.
 
-1. Pojdi do **nastavitve** \> **Parametri**.
-1. Odprite **Parametri** zapis.
-1. V podoknu z dejanji na **Nadzor funkcij** zavihek izberite **Omogoči aktivacijo in revizijo ponudb**.
+1. Odprite možnost **Nastavitve** \> **Parametri**.
+1. Odprite zapis **Parametri**.
+1. V podoknu za dejanja pod zavihkom **Nadzor funkcij** izberite možnost **Omogoči aktivacijo in pregled ponudb**.
 1. V potrditvenem pogovornem oknu izberite **V redu**.
-1. Po nekaj trenutkih osvežite brskalnik. Zdaj bi morale biti na voljo možnosti za aktiviranje in revizijo. Vedeli boste, da so te zmožnosti omogočene, če **Omogoči aktivacijo in revizijo za ponudbe** gumb se ne prikaže več v podoknu z dejanji.
+1. Čez nekaj trenutkov osvežite brskalnik. Zdaj bi morali biti na voljo funkciji za aktivacijo in pregled. Če sta ti funkciji omogočeni, se gumb **Omogoči aktivacijo in pregled ponudb** ne prikaže več v podoknu za dejanja.
 
-## <a name="activating-a-quote"></a>Aktiviranje ponudbe
+## <a name="activating-a-quote"></a>Aktivacija ponudbe
 
-Ko je funkcija za aktivacijo in revizijo ponudb omogočena, se **Zapri citat kot zmagal** in **Zapri citat kot izgubljen** gumbi v podoknu z dejanji niso na voljo za ponudbe osnutka projekta. Na voljo so šele po aktiviranju ponudbe.
+Ko je funkcija za aktivacijo in pregled ponudb omogočena, gumba **Zaključi ponudbo kot uspešno** in **Zaključi ponudbo kot neuspešno** v podoknu za dejanja nista na voljo za osnutke ponudbe o projektu. Na voljo sta šele po aktivaciji ponudbe.
 
-Aktivacija predstavlja fazo v procesu ponudbe, ko želite preprečiti nadaljnje spremembe ponudbe. V tej fazi se ponudba pošlje v interni pregled ali stranki.
+Aktivacija predstavlja stopnjo v postopku ponudbe, ko želite preprečiti nadaljnje spremembe ponudbe. Na tej stopnji se ponudba pošlje v notranji pregled ali stranki.
 
-The **Zapri citat kot zmagal** in **Zapri citat kot izgubljen** gumbi v podoknu z dejanji so na voljo za aktivirane ponudbe. Odvisno od rezultata notranjega pregleda ali pregleda stranke lahko uporabite enega od teh gumbov, da zaprete aktivirano ponudbo. Z izbiro lahko izvedete pogajanja in spremembe o aktiviranih ponudbah **Popravi ponudbo**.
+Gumba **Zaključi ponudbo kot uspešno** in **Zaključi ponudbo kot neuspešno** v podoknu za dejanja sta na voljo za aktivirane ponudbe. Odvisno od izida notranjega pregleda ali pregleda stranke lahko uporabite enega od teh gumbov, da zaprete aktivirano ponudbo. Z izbiro možnosti **Preglej ponudbo** se lahko pogajate in spreminjate aktivirane ponudbe.
 
-## <a name="revising-a-quote"></a>Popravljanje ponudbe
+## <a name="revising-a-quote"></a>Pregled ponudbe
 
-Če morate spremeniti aktivirano ponudbo, izberite **Popravi ponudbo**. Ponudba je zaključena in **revidirano** uporabljena je koda vzroka. Nato se ustvari nova ponudba z enakim ID-jem in povečano številko revizije. Vse podrobnosti iz prvotne ponudbe se kopirajo v novo ponudbo. Nova ponudba je v stanju osnutka in jo je mogoče po potrebi urediti.
+Če morate spremeniti aktivirano ponudbo, izberite možnost **Preglej ponudbo**. Ponudba je zaključena in uporabljena je koda razloga **pregledano**. Nato se ustvari nova ponudba z enakim ID-jem in povečano številko pregleda. Vse podrobnosti iz prvotne ponudbe se kopirajo v novo ponudbo. Nova ponudba je v stanju osnutka in jo je mogoče po potrebi urediti.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje komponent podrobnosti ponudbe, ki se zaračunajo
-description: Ta članek vsebuje informacije o nastavitvi plačljivih in neplačljivih komponent v vrstici ponudbe, ki temelji na projektu.
+description: Ta članek ponuja informacije o nastavitvi zaračunljivih in nezaračunljivih komponent v vrstici projektne ponudbe.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

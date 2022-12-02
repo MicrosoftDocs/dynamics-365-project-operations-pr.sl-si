@@ -1,6 +1,6 @@
 ---
 title: Potrditev računa dobavitelja za projekt
-description: V tem članku je razloženo, kako potrditi račun prodajalca projekta v Microsoftu Dynamics 365 Project Operations in finančni učinek potrditve računa prodajalca projekta.
+description: V tem članku je pojasnjeno, kako potrditi račun dobavitelja za projekt v programu Microsoft Dynamics 365 Project Operations in kakšen je finančni učinek potrditve računa dobavitelja za projekt.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,17 +17,17 @@ ms.locfileid: "9261533"
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Potem ko ste v Microsoftu preverili vse vrstice na računu dobavitelja Dynamics 365 Project Operations, lahko uporabite dejanje Potrdi, da potrdite račun dobavitelja.
+Ko preverite vse vrstice na računu dobavitelja v programu Microsoft Dynamics 365 Project Operations, lahko z dejanjem »Potrdi« potrdite račun dobavitelja.
 
-Ko izberete **Potrdi** na računu prodajalca se zgodi naslednje:
+Ko izberete možnost **Potrdi** na računu dobavitelja, se zgodi naslednje:
 
 1. Stanje računa dobavitelja se posodobi na **Potrjeno**.
-2. Potrjeni račun dobavitelja in z njim povezani zapisi postanejo samo za branje in jih ni mogoče urejati ali brisati.
-3. Če se kateri koli dejanski stroški sklicujejo na vrstico računa dobavitelja kot del postopka ujemanja, so vsi dejanski stroški, ki so povezani z referenčno vrstico računa dobavitelja, obrnjeni.
+2. Potrjeni račun dobavitelja in z njim povezani zapisi postanejo dostopni samo za branje in jih ni mogoče urejati ali brisati.
+3. Če se kateri koli dejanski stroški sklicujejo na vrstico računa dobavitelja kot del postopka ujemanja, so vsi dejanski stroški, ki so povezani z referenčno vrstico računa dobavitelja, stornirani.
 4. Novi dejanski stroški se ustvarijo z uporabo informacij v vrstici računa dobavitelja.
-5. Ko je račun dobavitelja potrjen, ne morete več ustvarjati dnevnikov popravkov, odpoklica vnosa časa obdelave ali preklicati odobritve prvotnega časa, stroškov ali materialnih dejanskih vrednosti, ki so bile razveljavljene.
+5. Ko je račun dobavitelja potrjen, ne morete več ustvarjati popravkov dnevnika, obdelovati preklicanih časovnih vnosov ali preklicati odobritev prvotnega časa, stroškov ali dejanskih vrednosti materiala, ki so stornirane.
 
 > [!NOTE]
-> Če ima katera koli vrstica na računu dobavitelja status preverjanja, ki ni **Popolna**, računa dobavitelja ni mogoče potrditi.
+> Če ima katera koli vrstica na računu dobavitelja stanje preverjanja, ki ni **Končano**, računa dobavitelja ni mogoče potrditi.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

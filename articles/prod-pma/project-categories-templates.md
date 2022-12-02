@@ -1,6 +1,6 @@
 ---
-title: Sinhronizirajte kategorije stroškov projekta med financami in operacijami ter Project Service Automation
-description: Ta članek opisuje predloge in osnovna opravila, ki se uporabljajo za sinhronizacijo kategorij stroškov projekta med njimi Microsoft Dynamics 365 Finance in Dynamics 365 Project Service Automation.
+title: Sinhronizacija kategorij stroškov projekta med financami in postopki in rešitvijo Project Service Automation
+description: Ta članek opisuje predloge in temeljna opravila, ki se uporabljajo za sinhronizacijo kategorij stroškov projekta med rešitvama Microsoft Dynamics 365 Finance in Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: sl-SI
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028953"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinhronizirajte kategorije stroškov projekta med financami in operacijami ter Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinhronizacija kategorij stroškov projekta med financami in postopki in rešitvijo Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Ta članek opisuje predloge in osnovna opravila, ki se uporabljajo za sinhronizacijo kategorij stroškov projekta med Dynamics 365 Finance in Dynamics 365 Project Service Automation.
+Ta članek opisuje predloge in temeljna opravila, ki se uporabljajo za sinhronizacijo kategorij stroškov projekta med rešitvama Dynamics 365 Finance and Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - V različici 8.0 so na voljo integracija projektnih opravil, kategorije transakcije stroškov, ocene delovnih ur, ocene stroškov in zaklepanje funkcionalnosti.
@@ -80,10 +80,10 @@ Kategorije stroškov projekta se upravljajo v rešitvi Finance in sinhronizirajo
 
 ### <a name="power-query"></a>Power Query
 
-Ko sinhronizirate s storitvijo Project Service Automation, morate uporabiti Microsoft Power Query za Excel, da nastavite vrsto obračunavanja v kategoriji transakcije. Predloga kategorij transakcij stroškov projekta (Fin in Ops v PSA) vsebuje privzeti stolpec in preslikavo. Če ustvarite lastno predlogo, morate dodati pogojni stolpec v Power Query. Upoštevajte ta navodila.
+Ko izvajate sinhronizacijo z rešitvijo Project Service Automation, morate uporabiti Microsoft Power Query za Excel, da nastavite vrsto obračunavanja za kategorijo transakcij. Predloga kategorij transakcij stroškov projekta (Fin in Ops v PSA) vsebuje privzeti stolpec in preslikavo. Če ustvarite svojo predlogo, morate dodati ta pogojni stolpec v Power Query. Upoštevajte ta navodila.
 
 1. Kliknite puščico, da odprete preslikavo opravila kategorij stroškov projekta v predlogi Kategorije transakcij stroškov projekta (Fin in Ops v PSA).
-2. Kliknite na **Napredna poizvedba in filtriranje** povezava za odpiranje Power Query.
+2. Kliknite povezavo **Napredno pošiljanje poizvedb in filtriranje**, da odprete Power Query.
 2. Izberite **Dodaj pogojni stolpec**.
 3. Vnesite ime za nov stolpec, na primer **BillingType**.
 4. Vnesite naslednji pogoj: **če CATEGORYID ni enak nič, potem je 19235001, sicer pa nič**.

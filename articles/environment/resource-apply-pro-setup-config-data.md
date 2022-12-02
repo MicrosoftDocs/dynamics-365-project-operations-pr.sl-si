@@ -1,6 +1,6 @@
 ---
 title: Nastavitev in uporabo konfiguracijskih podatkov v storitvi Microsoft Dataverse
-description: Ta članek ponuja informacije o nastavljanju in uporabi konfiguracijskih podatkov v Project Operations.
+description: Ta članek vsebuje informacije o nastavitvi in uporabi konfiguracijskih podatkov v storitvi Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
@@ -21,10 +21,10 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/n
 
 ## <a name="prerequisites"></a>Zahteve
 
-Preden začnete konfigurirati podatke v Microsoft Dataverse, morajo biti izpolnjeni naslednji predpogoji:
+Preden začnete konfigurirati podatke v storitev Microsoft Dataverse, morajo biti izpolnjeni naslednji pogoji:
 
-1.  Določba a Dataverse okolje in okolje Dynamics 365 Finance za projektne operacije.
-2.  Podatki o pravni osebi iz Dynamics 365 Finance se delijo z Dataverse okolju. To pomeni, da je **Podjetje** subjekt v Dataverse ima naslednje evidence podjetja:
+1.  Omogočanje okolja Dataverse in okolja Dynamics 365 Finance za Project Operations.
+2.  Podatki o pravni osebi iz aplikacije Dynamics 365 Finance so v skupni rabi z okoljem Dataverse. To pomeni, da ima entiteta **Podjetje** v okolju Dataverse naslednje zapise podjetja:
   - THPM
   - USPM
   - GBPM

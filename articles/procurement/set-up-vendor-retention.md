@@ -1,6 +1,6 @@
 ---
 title: Nastavitev zadrževanja dobaviteljev
-description: Ta članek pojasnjuje, kako nastaviti zadrževanje prodajalca.
+description: Ta članek pojasnjuje, kako nastaviti zadrževanje dobaviteljev.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -18,11 +18,11 @@ ms.locfileid: "8929786"
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta članek vsebuje informacije o tem, kako nastaviti zadrževanje prodajalca.
+Ta članek zagotavlja informacije o tem, kako nastaviti zadrževanje dobaviteljev.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>V glavni knjigi ustvarite račun za zadrževanje dobaviteljev
 
-1. V Dynamics 365 Finance pojdite na **Glavna knjiga** > **Nastavitev objave** > **Računi za avtomatske transakcije**.
+1. V aplikaciji Dynamics 365 Finance odprite možnost **Glavna knjiga** > **Nastavitev knjiženja** > **Računi za samodejne transakcije**.
 2. Dodaj novo vrstico.
 3. V polju **Vrsta objave** izberite možnost **Zadrževanje dobaviteljev**.
 4. Izberite glavni račun za objavo zadrževanja dobaviteljev.

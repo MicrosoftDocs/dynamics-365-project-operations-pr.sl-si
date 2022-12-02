@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje strukturirane členitve dela
-description: Ta članek pojasnjuje, kako ustvariti strukturo razčlenitve dela (WBS), ki vključuje osnovne kontrole v novem vmesniku za razporejanje.
+description: V tem članku je pojasnjeno, kako ustvarite strukturirano členitev dela (SČD), ki vključuje osnovne kontrolnike v novem vmesniku za načrtovanje.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
@@ -63,7 +63,7 @@ Sledite spodnjim korakom, da zamaknete ali povišate opravilo.
 
 ### <a name="move-tasks-up-and-down"></a>Premikanje opravil gor in dol
 
-Naloge je mogoče premakniti na katero koli raven v strukturi razčlenitve dela na enega od dveh načinov:
+Opravila lahko premaknete na poljubno raven v strukturirani členitvi dela na enega od dveh načinov:
 
 - Izberite eno ali več opravil in jih povlecite na želeno mesto.
 - Izberite eno ali več opravil, z desno miškino tipko kliknite in izberite **Izreži**, izberite ciljno celico v razporedu in nato z desno miškino tipko kliknite in izberite **Prilepi**.
@@ -95,11 +95,11 @@ Kot skrbnik lahko v entiteti opravila določite polja po meri. Vendar polj ni mo
 
 ## <a name="staffing-attributes"></a>Atributi števila delavcev
 
-Do atributov za dodelitev osebja lahko dostopate prek polja **Viri** v razporedu. Poiščete lahko obstoječi vir ali izberete **Ustvari** in v podoknu **Hitro ustvarjanje** dodate člana projektne ekipe kot nov vir.  Ko iščete vir z izbirnikom virov v mreži opravil, pogledu plošče ali gantu, iskanje vrne obstoječe člane projektne skupine ali aktivne vire, ki jih je mogoče rezervirati.
+Do atributov za dodelitev osebja lahko dostopate prek polja **Viri** v razporedu. Poiščete lahko obstoječi vir ali izberete **Ustvari** in v podoknu **Hitro ustvarjanje** dodate člana projektne ekipe kot nov vir.  Ko iščete vir z izbirnikom za vire v mreži opravil, pogledu plošče ali Ganttovem grafikonu, iskanje zagotovi obstoječe člane projektne ekipe ali aktivne vire, ki jih je mogoče rezervirati.
 
 Polja **Vloga**, **Enota vira** in **Ime položaja** se uporabljajo za opis zahtev za dodelitev osebja za opravilo. Ti atributi za dodelitev osebja se skupaj z razporedom opravila uporabljajo za iskanje razpoložljivih virov za to opravilo.
 
-   - **Vloga** : Določite vrsto vira, ki je potreben za izvedbo naloge.,
+   - **Vloga**: določite vrsto vira, ki se zahteva za opravilo.
    - **Enota vira**: določite enoto, iz katere se dodelijo viri za opravilo. Ta atribut vpliva na oceno stroškov in prodaje za opravilo, če sta mera stroškov in delež obračunavanja za vir nastavljena na podlagi enot vira.
    - **Naziv delovnega mesta**: vnesite ime za splošni vir, ki služi kot označba mesta za vir, ki bo opravil delo.
 
@@ -113,16 +113,16 @@ Razpored v aplikaciji Project Operations lahko uporabite za ustvarjanje odnosov 
 
 Način opravila ne vpliva na posodobitve začetnega in končnega datuma predhodnih/odvisnih opravil.
 
-## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Razumevanje vplivov trajanja, koledarjev virov in koledarjev projekta na opravila
-Trajanje opravila je opredeljeno kot število delovnih ur med začetnim časom začetnega datuma in končnim časom končnega datuma opravila.   Projekt za splet določa merske enote trajanja na naslednji način:
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Razumevanje vplivov trajanja, koledarjev virov in koledarjev projektov na opravila
+Trajanje opravila je opredeljeno kot število delovnih ur med začetnim časom začetnega datuma in končnim časom končnega datuma opravila.   Project for the web določa merske enote trajanja na naslednji način:
 
-| **Mera trajanja** | **Količina**|
+| **Merska enota trajanja** | **Količina**|
 |----------------------------------------------------|----------------------|
 | Ure na dan | 8 |
 | Ure na teden |  40 |
-| Dni na mesec |  20 |
+| Dnevi na mesec |  20 |
 
-Nedodeljena opravila so načrtovana z uporabo koledarja projekta. Vendar se ob začetni dodelitvi vira razpored opravila posodobi tako, da upošteva koledar vira. Naknadne spremembe naloge, ki ima dodelitev, bo urejal [način razporejanja](scheduling-modes.md) projekta. Če želite izvedeti več o vplivu koledarjev na opravila, glejte [Koledarji virov v Projectu za splet](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) in [Začetni časi nalog in vaši projekti!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+Nedodeljena opravila so načrtovana z uporabo koledarja projekta. Vendar se ob začetni dodelitvi vira razpored opravila posodobi tako, da upošteva koledar vira. Naknadne spremembe opravila, ki ima dodelitev, bo urejal [način razporejanja](scheduling-modes.md) projekta. Če želite izvedeti več o vplivu koledarjev na opravila, glejte [Koledarji virov v Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) in [Začetni časi opravil in vaši projekti!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Pripomočki za osebe s posebnimi potrebami in bližnjice na tipkovnici
@@ -139,7 +139,7 @@ Mreža **Razpored** v celoti podpira pripomočke za osebe s posebnimi potrebami 
 | Največje skupno število virov za projekt              | 300                  |
 | Največje skupno število povezav (samo naslednik) za projekt | 600                  |
 | Največje skupno število polj po meri za projekt          | 10                   |
-| Največje število elementov na kontrolnem seznamu na nalogo                   | 20                   |
+| Največje število elementov kontrolnega seznama na opravilo                   | 20                   |
 
 **Omejitve opravila**
 

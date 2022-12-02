@@ -1,6 +1,6 @@
 ---
 title: Pregled uvajanja aplikacije Project Operations za scenarije, ki temeljijo na virih/nezalogi
-description: Ta članek ponuja informacije o vrsti razmestitve, projektnih operacijah za scenarije, ki temeljijo na virih/brez zalog.
+description: Ta članek vsebuje informacije o vrsti uvajanja aplikacije Project Operations za scenarije, ki temeljijo na virih/nezalogi.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -31,7 +31,7 @@ Vrsta uvajanja aplikacije Dynamics 365 Project Operations za scenarije, ki temel
 - Pripoznavanje prihodkov projekta
 - Razširljivost prek platforme Power Platform
 
-Ta vrsta uvajanja zagotavlja razširitev funkcionalnosti, ki jo zagotavlja Dynamics 365 Finance in Dynamics 365 Supply Chain Management aplikacije.
+Ta vrsta uvajanja ponuja tudi razširitev funkcionalnosti, ki jo zagotavljata aplikaciji Dynamics 365 Finance in Dynamics 365 Supply Chain Management.
 
 Izberite to vrsto uvajanja, če od aplikacije Project Operations pričakujete uporabo celotnega življenjskega cikla projekta, ki vključuje naslednje zahteve:
 

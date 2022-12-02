@@ -26,9 +26,9 @@ Status zahteve splošnega člana ekipe se bo spremenil v **Poslano**.
 
 Prejemnik zahteve za vir ima možnost delno izpolniti zahtevo z enim ali več viri ali v celoti izpolniti zahtevo za vir.
 
-Ko je zahteva izpolnjena, je eden ali več imenovanih virov dodanih projektu kot člani projektne skupine. Če zahtevo za vir izpolnjuje en vir, se generični član skupine, povezan z zahtevo za vir, izbriše. 
+Ko je zahteva izpolnjena, se projektu kot član projektne ekipe doda eden ali več poimenovanih virov. Če zahtevo za vir izpolnjuje en vir, se splošni član ekipe, povezan z zahtevo za vir, izbriše. 
 
-Ko prejemnik zahteve za vir predlaga vire in je pripravljen, da vodja projekta pregleda predlagane vire, mora posodobiti status zahteve za vir na **Potrebuje pregled**.
+Ko prejemnik zahteve za vir predlaga vire in je pripravljen, da vodja projektov pregleda predlagane vire, mora posodobiti stanje zahteve za vir na **Potreben pregled**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Pogodbe za predplačila in honorarje
-description: Ta članek vsebuje informacije o pogodbenih modelih, ki temeljijo na zadrževalcih, in napredku pri projektnih operacijah.
+description: Ta članek vsebuje informacije o pogodbenih modelih za predplačila in honorarje v aplikaciji Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

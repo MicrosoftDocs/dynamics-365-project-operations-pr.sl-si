@@ -1,6 +1,6 @@
 ---
 title: Novosti za september 2021 – poenostavljeno uvajanje storitve Project Operations
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji različice Project Operations lite iz septembra 2021.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji poenostavljenega uvajanja storitve Project Operations za september 2021.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8931304"
 
 _Velja za: poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
+Ta članek velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
   - Project Operations v okolju Microsoft Dataverse različice 4.14.0.99
 

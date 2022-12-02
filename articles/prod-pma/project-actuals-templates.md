@@ -1,6 +1,6 @@
 ---
-title: Sinhronizirajte dejanske podatke o projektu neposredno iz Project Service Automation v dnevnik integracije projektov za objavo v financah in operacijah
-description: Ta članek opisuje predloge in osnovna opravila, ki se uporabljajo za neposredno sinhronizacijo dejanskih projektov Microsoft Dynamics 365 Project Service Automation za finance in poslovanje.
+title: Sinhronizacija dejanskih vrednosti projekta iz rešitve Project Service Automation v dnevnik integracij projekta za objavljanje v financah in postopkih
+description: Ta članek opisuje predloge in osnovna opravila, ki se uporabljajo za sinhronizacijo dejanskih vrednosti projekta neposredno iz programa Microsoft Dynamics 365 Project Service Automation v finance in postopke.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: sl-SI
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028998"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinhronizirajte dejanske podatke o projektu neposredno iz Project Service Automation v dnevnik integracije projektov za objavo v financah in operacijah
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinhronizacija dejanskih vrednosti projekta iz rešitve Project Service Automation v dnevnik integracij projekta za objavljanje v financah in postopkih
 
 [!include[banner](../includes/banner.md)]
 
-Ta članek opisuje predloge in osnovna opravila, ki se uporabljajo za neposredno sinhronizacijo dejanskih projektov Dynamics 365 Project Service Automation na Dynamics 365 Finance.
+Ta članek opisuje predloge in osnovna opravila, ki se uporabljajo za sinhronizacijo dejanskih vrednosti projekta neposredno iz programa Dynamics 365 Project Service Automation v Dynamics 365 Finance.
 
 Predloga sinhronizira transakcije iz rešitve Project Service Automation v pripravljalno tabelo v rešitvi Finance. Po končani sinhronizaciji **morate** uvoziti podatke iz pripravljalne tabele v dnevnik integracije.
 
@@ -41,7 +41,7 @@ Rešitev za integracijo rešitve Project Service Automation v rešitev Finance u
 
 Naslednja slika prikazuje, kako se podatki sinhronizirajo med rešitvama Project Service Automation in Finance.
 
-[![Pretok podatkov za integracijo Project Service Automation s financami in operacijami.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Podatkovni tok za integracijo rešitve Project Service Automation s financami in postopki.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Dejanske vrednosti projekta iz rešitve Project Service Automation
 
@@ -74,7 +74,7 @@ Preden se lahko izvede sinhronizacija dejanskih vrednosti, morate konfigurirati 
 
 ### <a name="power-query"></a>Power Query
 
-V predlogi dejanskega stanja projekta morate uporabiti Microsoft Power Query da Excel opravi te naloge:
+V predlogi za dejanske vrednosti projekta morate uporabiti Microsoft Power Query za Excel, če želite dokončati naslednja opravila:
 
 - Pretvorite vrsto transakcije v rešitvi Project Service Automation v pravilno vrsto transakcije v rešitvi Finance. Ta pretvorba je že določena v predlogi za dejanske vrednosti projekta (PSA v Fin in Ops).
 - Pretvorite vrsto obračunavanja v rešitvi Project Service Automation v pravilno vrsto obračunavanja v rešitvi Finance. Ta pretvorba je že določena v predlogi za dejanske vrednosti projekta (PSA v Fin in Ops). Vrsta obračunavanja se nato preslika v lastnost vrstice glede na konfiguracijo na strani **Parametri integracije rešitve Project Service Automation**.
@@ -83,9 +83,9 @@ V predlogi dejanskega stanja projekta morate uporabiti Microsoft Power Query da 
 - Če se dejanske vrednosti medpodjetniškega časa ali stroška ne bodo sinhronizirale v rešitev Finance, morate iz predloge izbrisati zadnji vstavljeni pogojni stolpec. V nasprotnem primeru lahko pride do napake pri integraciji ali pa se v rešitev Finance uvozijo napačne dejanske transakcije.
 
 #### <a name="contract-organizational-unit"></a>Pogodbena organizacijska enota
-Če želite v predlogi posodobiti vstavljeni pogojni stolpec, kliknite puščico **Preslikava**, da odprete preslikavo. Izberite **Napredno poizvedovanje in filtriranje** povezava za odpiranje Power Query.
+Če želite v predlogi posodobiti vstavljeni pogojni stolpec, kliknite puščico **Preslikava**, da odprete preslikavo. Izberite povezavo **Napredno pošiljanje poizvedb in filtriranje**, da odprete Power Query.
 
-- Če uporabljate privzeto predlogo Dejanski podatki o projektu (PSA v Fin in Ops), v Power Query, izberite zadnjega **Vstavljeno stanje** Iz **Uporabljeni koraki** razdelek. V vnosu **Funkcija** zamenjajte **USSI** z imenom pravne osebe, ki jo želite uporabiti pri integraciji. Po želji dodajte dodatne pogoje v vnos **Funkcija** in posodobite pogoj **else** z **USMF** na pravilno pravno osebo.
+- Če uporabljate privzeto predlogo za dejanske vrednosti projekta (PSA v Fin in Ops), v rešitvi Power Query izberite zadnji **Vstavljen pogoj** v razdelku **Uporabljeni koraki**. V vnosu **Funkcija** zamenjajte **USSI** z imenom pravne osebe, ki jo želite uporabiti pri integraciji. Po želji dodajte dodatne pogoje v vnos **Funkcija** in posodobite pogoj **else** z **USMF** na pravilno pravno osebo.
 - Če ustvarjate novo predlogo, morate dodati stolpec za medpodjetniški čas in stroške. Izberite **Dodaj pogojni stolpec** in vnesite ime novega stolpca, na primer **LegalEntity**. Vnesite pogoj za stolpec; če je **msdyn\_contractorganizationalunitid.msdyn\_name** \<organizational unit\>, potem je \<enter the legal entity\>; v nasprotnem primeru ju »null«.
 
 ### <a name="template-mapping-in-data-integration"></a>Preslikava predlog v Integraciji podatkov
@@ -125,7 +125,7 @@ Dejanske vrednosti projekta se upravljajo v rešitvi Project Service Automation 
 
 ### <a name="power-query"></a>Power Query
 
-V predlogi za posodobitev dejanskega stanja projekta morate uporabiti Power Query za dokončanje teh nalog:
+V predlogi za posodobitev dejanskih vrednosti projekta morate uporabiti Power Query, če želite dokončati naslednja opravila:
 
 - Pretvorite vrsto transakcije v rešitvi Finance v pravilno vrsto transakcije v rešitvi Project Service Automation. Ta pretvorba je že določena v predlogi za posodobitev dejanskih vrednosti projekta (Fin in Ops v PSA).
 - Pretvorite vrsto obračunavanja v rešitvi Finance v pravilno vrsto obračunavanja v rešitvi Project Service Automation. Ta pretvorba je že določena v predlogi za posodobitev dejanskih vrednosti projekta (Fin in Ops v PSA).

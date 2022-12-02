@@ -1,6 +1,6 @@
 ---
 title: Odstranjevanje projektne ocene
-description: Ta članek vsebuje informacije o odpravi ocene projekta po zaključku.
+description: Ta članek vsebuje informacije o odstranjevanju projektne ocene, ko je ta končana.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

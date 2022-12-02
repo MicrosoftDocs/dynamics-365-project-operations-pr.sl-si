@@ -1,6 +1,6 @@
 ---
 title: Nastavitve projektnih ponudb
-description: Ta članek vsebuje informacije o informacijah in nastavitvah, ki veljajo za in vplivajo na ponudbe projekta.
+description: Ta članek vsebuje informacije glede podatkov in nastavitev, ki veljajo za projektne ponudbe in vplivajo nanje.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

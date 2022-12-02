@@ -1,6 +1,6 @@
 ---
 title: Upravljanje cenikov za projekte v projektnih ponudbah
-description: Ta članek vsebuje informacije o delu s ceniki projektov na ponudbah.
+description: Ta članek vsebuje informacije o delu s ceniki projektov v ponudbah.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

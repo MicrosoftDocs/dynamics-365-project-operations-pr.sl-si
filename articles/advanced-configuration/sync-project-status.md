@@ -1,6 +1,6 @@
 ---
-title: Sinhronizirajte status projekta, da preprečite vstop v zaprte projekte
-description: Ta članek pojasnjuje, kako sinhronizirati status projekta, da preprečite vstop v neaktivne ali zaprte projekte.
+title: Sinhronizirajte status projekta, da preprečite vnose v zaprte projekte
+description: Ta članek pojasnjuje, kako sinhronizirati stanje projekta, da preprečite vstop v neaktivne ali zaprte projekte.
 author: ryansandnessMSFT
 ms.date: 08/09/2022
 ms.topic: article
@@ -13,62 +13,62 @@ ms.contentlocale: sl-SI
 ms.lasthandoff: 08/24/2022
 ms.locfileid: "9348125"
 ---
-# <a name="sync-project-status-to-prevent-entry-against-closed-projects"></a>Sinhronizirajte status projekta, da preprečite vstop v zaprte projekte
+# <a name="sync-project-status-to-prevent-entry-against-closed-projects"></a>Sinhronizirajte status projekta, da preprečite vnose v zaprte projekte
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 ## <a name="scenario"></a>Scenarij
 
-Contoso je v živo z Microsoftom Dynamics 365 Project Operations za scenarije virov/nezaloženih. Kot del običajnih poslovnih dejavnosti se lahko projekti zaključijo ali odložijo. Projekt lahko deaktivirate, da zagotovite, da ne nastanejo stroški ali računi.
+Družba Contoso je začela izvajati storitev Microsoft Dynamics 365 Project Operations za scenarije z viri/brez zalog. Kot del običajnih poslovnih dejavnosti se lahko projekti zaključijo ali zadržijo. Projekt lahko deaktivirate, da preprečite nastanek stroškov ali računov.
 
 ## <a name="solution"></a>Rešitev
 
 ### <a name="prerequisites"></a>Zahteve
 
--   Microsoft Dynamics Nameščen mora biti 365 Finance 10.0.29 ali novejši.
--   Zemljevid dvojnega pisanja 1.0.0.3 za projekte V2 (msdyn\_ projekti) je treba namestiti ali ročno konfigurirati, kot je opisano spodaj.
+-   Nameščena mora biti aplikacija Microsoft Dynamics 365 Finance različice 10.0.29 ali novejša.
+-   Preslikava dvojnega zapisovanja 1.0.0.3 za Projekti V2 (msdyn\_projects) je treba namestiti ali ročno konfigurirati, kot je opisano spodaj.
 
-### <a name="create-an-updated-version-of-the-project-operations-integration-projects-v2-dual-write-map"></a>Ustvarite posodobljeno različico preslikave dvojnega pisanja za integracijo Project Operations Projects V2
+### <a name="create-an-updated-version-of-the-project-operations-integration-projects-v2-dual-write-map"></a>Ustvarjanje posodobljene različico preslikave dvojnega zapisovanja za integracijo aplikacije Project Operations Projekti V2
 
-Če želite posodobiti preslikavo dvojnega pisanja Project Operations Projects V2:
+Če želite posodobiti preslikavo dvojnega zapisovanja za aplikacijo Project Operations Projekti V2:
 
-1. Pojdi na **Upravljanje podatkov** delovni prostor in izberite **Dvojno pisanje**.
-2. Izberite **Dvojno pisanje** ploščica.
-3. Od T **Namizni zemljevid** stolpec, poiščite in izberite **Projekt V2 (msdyn\_ projekti)** in nato izberite Ustavi.
-4. Izberite ime zemljevida, da odprete zemljevid, in nato izberite **[brez]**.
-5. V pogovornem oknu Izberi stolpec izberite **državna koda\[ Status projekta\]** in nato izberite V redu. Lahko tipkaš **država** v vrednosti filtra, da zožite seznam.
-6.  Izberite **Dodajte ali uredite transformacijo** v **vrsta zemljevida** stolpec za urejanje transformacije.
-7.  Od **Vrsta preoblikovanja** izberite **ValueMap**.
-8.  Izberite **Dodajte preslikavo vrednosti** in nato dodajte naslednje **Ključi** in **Vrednote**:
+1. V delovnem prostoru **Upravljanje podatkov** izberite možnost **Dvojno zapisovanje**.
+2. Izberite ploščico **Dvojno zapisovanje**.
+3. V stolpcu **Preslikava tabele** poiščite in izberite možnost **Projekt V2 (msdyn\_projects)** in nato izberite možnost »Ustavi«.
+4. Izberite ime preslikave, da jo odprete, in nato izberite možnost **[brez]**.
+5. V pogovornem oknu »Izbira stolpca« izberite možnost **statecode\[Stanje projekta\]** in nato izberite možnost »V redu«. V vrednost filtra lahko vnesete **stanje**, da zožite seznam.
+6.  V stolpcu **vrsta preslikave** izberite možnost **Dodajanje ali urejanje preoblikovanja**, če želite urejati preoblikovanje.
+7.  V razdelku **Vrsta preoblikovanja** izberite možnost **ValueMap**.
+8.  Izberite možnost **Dodajanje preslikave vrednosti** in nato dodajte naslednje **ključe** in **vrednosti**:
 
    Tipka       | Vrednost 
    ----------|-------
-   V teku | 0     
+   InProcess | 0     
    končano | 1     
 
-![Posnetek zaslona, ki prikazuje preslikavo dvojnega pisanja](media/projectstage-dw-mapping.png)
+![Posnetek zaslona preslikave z dvojnim zapisovanjem](media/projectstage-dw-mapping.png)
 
 9. Izberite **Shrani**.
-10. Z vrha **Dvojno pisanje > Projekti V2 (msdyn_projects)** stran, izberite **Shrani kot**.
-11. Od **Dodaj tabelo** v **Založnik** polje izberite **Privzeti založnik CDS**.
-12. Nastavite **Različica** polje za 1.0.0.3.
-13. Vrsta a **Opis** in nato izberite **Shrani**.
-14. Z vrha **Dvojno pisanje > Projekti V2 (msdyn_projects)** stran, izberite **Teči** za zagon zemljevida in nato poiščite **ja** če se zahteva potrditev pred začetkom. 
+10. Na vrhu strani **Dvojno zapisovanje > Projekti V2 (msdyn_projects)** izberite možnost **Shrani kot**.
+11. V podoknu **Dodaj tabelo** v polju **Izdajatelj** izberite možnost **Privzeti izdajatelj CDS**.
+12. Nastavite polje **Različica** na 1.0.0.3.
+13. Vnesite **Opis** in nato izberite možnost **Shrani**.
+14. Na vrhu strani **Dvojno zapisovanje > Projekti V2 (msdyn_projects)** izberite možnost **Zaženi**, da zaženete preslikavo, in nato izberite možnost **Da**, če je pred zagonom zahtevana potrditev. 
 
 ### <a name="close-a-newly-completed-project"></a>Zaprite pravkar zaključen projekt
 
-Dynamics 365 Finance uporablja **fazi projekta** polje za razlikovanje med projekti **v teku** oz **Dokončano**. **Dokončano** projekti ne morejo povzročiti stroškov ali biti zaračunani strankam.
+Dynamics 365 Finance uporablja polje **stopnja projekta** za razlikovanje med projekti **v teku** in **dokončano**. **Dokončani** projekti ne morejo povzročiti stroškov ali biti zaračunani strankam.
 
 1. Odprite projekt za deaktivacijo.
-2. Na traku izberite **Deaktiviraj**.
+2. V zgornjem traku izberite polje **Deaktiviraj**.
 
 > [!NOTE]
-> Projekt lahko deaktivirate ali zaprete, saj se bosta oba v kontekstu Finance obnašala enako.
+> Projekt lahko deaktivirate ali zaprete, saj se bosta oba v kontekstu aplikacije Finance obnašala enako.
 
-3. V Financah odprite **Seznam vseh projektov** strani.
-4. Potrdite, da deaktivirani projekt ni prikazan na seznamu.
-5. V **razstavni projekti** filter nad seznamom, spremenite vrednost iz **Aktiven** do **Vse**.
+3. V aplikaciji Finance odprite stran **Seznam vseh projektov**.
+4. Potrdite, da deaktiviran projekt ni prikazan na seznamu.
+5. V filtru **prikaz projektov** nad seznamom spremenite vrednost z **Aktivno** na **Vse**.
 6. Zdaj boste videli deaktiviran projekt.
 
-Če poskušate zabeležiti čas ali stroške za ta projekt v Financah, ne bi smeli videti projekta za izbiro. Če ročno vnesete številko projekta za strošek, boste videli sporočilo, kot je »Zaključena faza projekta ne dovoljuje snemanja v projektu«. Izdajanje računov in druge funkcije zaračunavanja bi morale biti onemogočene, saj bodo v okviru zaprtega projekta.
+Če poskušate zabeležiti čas ali stroške za ta projekt v aplikaciji Finance, projekta ne bi smeli videti za izbiro. Če ročno vnesete številko projekta za strošek, boste videli sporočilo, kot je »Zaključena stopnja projekta ne dovoljuje snemanja v projektu«. Izdajanje računov in druge funkcije obračunavanja bi morale biti onemogočene, saj bodo v okviru zaprtega projekta.
 

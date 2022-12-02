@@ -1,6 +1,6 @@
 ---
 title: Predračuni projekta
-description: Ta članek vsebuje informacije o predračunih projektov v Operaciji projekta.
+description: Ta članek vsebuje informacije o predračunih projekta v aplikaciji Project Operations.
 author: rumant
 ms.date: 04/06/2021
 ms.topic: article

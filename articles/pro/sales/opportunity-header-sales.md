@@ -1,6 +1,6 @@
 ---
 title: Nastavitve priložnosti – poenostavljeno
-description: Ta članek vsebuje informacije o projektnih poslih in priložnostih, ki temeljijo na projektih.
+description: Ta članek vsebuje informacije o poslih, ki temeljijo na projektu, in podrobnostih pri priložnosti, ki temelji na projektu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

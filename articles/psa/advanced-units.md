@@ -1,6 +1,6 @@
 ---
 title: Skupine enot in enote
-description: Ta članek vsebuje informacije o skupinah enot in enotah.
+description: V tem članku so na voljo informacije o skupinah enot in enotah.
 author: rumant
 ms.custom:
 - dyn365-projectservice

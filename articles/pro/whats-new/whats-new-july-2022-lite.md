@@ -1,6 +1,6 @@
 ---
 title: Novosti za julij 2022 – poenostavljeno uvajanje storitve Project Operations
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Microsofta julija 2022 Dynamics 365 Project Operations enostavna uvedba.
+description: V tem članku so na voljo informacije o posodobitvah kakovosti, ki so na razpolago v julijski (2022) izdaji poenostavljenega uvajanja storitve Microsoft Dynamics 365 Project Operations.
 author: ramagadu
 ms.date: 07/19/2022
 ms.topic: article
@@ -18,25 +18,25 @@ ms.locfileid: "9404018"
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
+Ta članek velja za naslednje komponente in različice aplikacije Microsoft Dynamics 365 Project Operations:
 
-- Projektne operacije v a Dataverse različica okolja 4.44.0.22
+- Project Operations v različici okolja 4.44.0.22. storitve Dataverse
 
 ## <a name="quality-updates"></a>Posodobitve kakovosti
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |
-| Uvajanje in konfiguracija | 2761472 | Obdelana je napaka pri namestitvi Project Operations. |
-| Zaračunavanje in oblikovanje cen | 2746940 | Ime vrstice podizvajalca mora imeti največ 100 znakov. |
-| Zaračunavanje in oblikovanje cen | 2739162 | Stranke morajo imeti možnost videti gumbe na traku v dejanskem mrežnem pogledu. |
+| Uvajanje in konfiguracija | 2761472 | Obdelana je napaka pri namestitvi aplikacije Project Operations. |
+| Zaračunavanje in oblikovanje cen | 2746940 | Ime podrobnosti podizvajalske pogodbe podizvajalca ima lahko največ 100 znakov. |
+| Zaračunavanje in oblikovanje cen | 2739162 | Stranke morajo videti gumbe na traku v dejanskem mrežnem pogledu. |
 | Načrtovanje in sledenje projektov | 2730318 | Posodobljeno preverjanje veljavnosti za nepodprte znake v predmetu projekta. |
 | Zaračunavanje in oblikovanje cen | 2705361 | Dejanske vrednosti zaračunane prodaje mejnikov morajo biti vključene v polja za sledenje projekta. |
-| Zaračunavanje in oblikovanje cen | 2675880 | Preprečite, da bi bil projekt povezan s pogodbeno vrstico, ki ne temelji na delu. |
-| Zaračunavanje in oblikovanje cen | 2664396 | Če je ponudbeni cenik shranjen brez ponudbe, mora obstajati napaka, da ponudba ne sme biti prazna. |
-| Zaračunavanje in oblikovanje cen | 2184019 | The **Zaračunavanje na podlagi nalog** Zavihek ne sme biti prikazan za projekte, ki nimajo podporne pogodbe ali ponudbe. |
-| Čas in strošek | 2754459 | Ko je ponavljajoči se tok v oblaku za razporejanje neaktiven, prikaži pasico in obidi asinhrono obdelavo. |
-| Zaračunavanje in oblikovanje cen | 2724391 | Napačna izjema je vržena, ko pravilo za razdeljeno obračunavanje projektne pogodbe manjka vrednost stranke. |
-| Zaračunavanje in oblikovanje cen | 2708638 | Zapis ni bil najden med iskanjem z iskanjem po mreži v Uporabah materialov in odobritvah za uporabo materialov.|
+| Zaračunavanje in oblikovanje cen | 2675880 | Preprečite, da bi bil projekt povezan s podrobnostmi pogodbe, ki ne temeljijo na delu. |
+| Zaračunavanje in oblikovanje cen | 2664396 | Če je cenik ponudbe shranjen brez ponudbe, je prišlo do napake, ki navaja, da ponudba ne sme biti prazna. |
+| Zaračunavanje in oblikovanje cen | 2184019 | Zavihek **Zaračunavanje na podlagi opravil** ne sme biti prikazan za projekte, ki nimajo podporne pogodbe ali ponudbe. |
+| Čas in strošek | 2754459 | Ko je ponavljajoči se tok za oblak za razporejanje neaktiven, se prikaže pasico in obide asinhrono obdelavo. |
+| Zaračunavanje in oblikovanje cen | 2724391 | Ko pravilu za razdeljeno obračunavanje projektne pogodbe manjka vrednost stranke, se pojavi napačna izjema. |
+| Zaračunavanje in oblikovanje cen | 2708638 | Zapis ni bil najden med iskanjem po mreži v razdelkih »Uporaba materiala« in »Odobritve za uporabo materiala«.|
 | Zaračunavanje in oblikovanje cen | 2686977 | Preprečite preverjanje veljavnosti za vrstico računa med ustvarjanjem računa. |
 | Zaračunavanje in oblikovanje cen | 2683032 | Kopiranje plačljivih vlog in kategorij ne presega 5000 zapisov.|
-| Zaračunavanje in oblikovanje cen | 2673363 | % porabe stroškov pri projektu je pokvarjen, ko za projekt obstajajo ocene truda in stroškov ter dejanske vrednosti. |
+| Zaračunavanje in oblikovanje cen | 2673363 | Odstotek porabe stroškov pri projektu je poškodovan, ko za projekt obstajajo ocene truda in stroškov ter dejanske vrednosti. |

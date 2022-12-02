@@ -1,6 +1,6 @@
 ---
 title: Vrstice podizvajalske pogodbe, vezane na čas
-description: V tem članku je razloženo, kako beležiti podizvajalske vrstice za čas in beležiti nakup časa od prodajalcev.
+description: Ta članek pojasnjuje, kako zapisati podrobnosti podizvajalske pogodbe, vezane na čas, in zabeležiti odkup časa od dobaviteljev.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Mejniki vrstice podizvajalske pogodbe
-description: V tem članku je razloženo, kako ustvariti in vzdrževati razpored računov na podlagi mejnikov za podizvajalsko pogodbo s prodajalcem.
+description: Ta članek pojasnjuje, kako pri podizvajalskih pogodbah z dobaviteljem ustvarite in vzdržujete razpored za izstavljanje računov, ki temelji na mejnikih.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

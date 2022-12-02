@@ -1,6 +1,6 @@
 ---
 title: Projektne pogodbe – ključni pojmi – poenostavljena različica
-description: Ta članek vsebuje informacije o ključnih konceptih projektnih pogodb.
+description: Ta članek vsebuje informacije o ključnih pojmih projektnih pogodb.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
 
 
-V tem članku so navedeni ključni koncepti, ki se jih morate zavedati, preden začnete uporabljati projektne pogodbe Dynamics 365 Project Operations:
+Ta članek vsebuje ključne koncepte, ki jih morate upoštevati, preden začnete uporabljati Projektne pogodbe v aplikaciji Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Pogodbena enota
 

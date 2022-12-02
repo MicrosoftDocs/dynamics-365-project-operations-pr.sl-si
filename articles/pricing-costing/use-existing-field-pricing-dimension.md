@@ -1,6 +1,6 @@
 ---
 title: Polja aplikacije Project Operations kot cenovne razsežnosti
-description: Ta članek vsebuje informacije z uporabo polj kot dimenzij cen v Dynamics 365 Project Operations.
+description: Ta članek vsebuje informacije o uporabi polj kot cenovnih razsežnosti v aplikaciji Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

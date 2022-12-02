@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje rezervacije projekta na plošči razporeda
-description: Ta članek vsebuje informacije o tem, kako ustvariti rezervacijo projekta na plošči urnika.
+description: V tem članku so na voljo informacije o tem, kako ustvarite rezervacijo projekta na plošči razporeda.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

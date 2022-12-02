@@ -1,6 +1,6 @@
 ---
 title: Pregled predlaganih virov
-description: Ta članek vsebuje informacije o tem, kako predlagati vire projekta.
+description: Ta članek vsebuje informacije o tem, kako predlagati projektne vire.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -40,8 +40,8 @@ Za pregled predlaganih virov sledite naslednjim korakom:
     Pojavijo se naslednje posodobitve stanja:
 
     - Na strani **Pomočnik za načrtovanje** se kazalniki stanja posodobijo in s tem sporočajo, da je rezervacija šele predlagana in da veljavna rezervacija ni bila izvedena.
-    - Pri zahtevi za vir mora pregledovalec zahteve spremeniti status v **Potrebuje pregled**.
-    - Na **Ekipa** zavihek projekta, generični član ekipe **Status zahteve** vrednost se samodejno spremeni v **Potrebuje pregled**.
+    - Pri zahtevi za vir mora pregledovalec zahteve spremeniti status v **Potreben pregled**.
+    - Na zavihku **Ekipa** izbranega projekta se vrednost splošnega člana ekipe **Stanje zahteve** samodejno spremeni v **Potreben pregled**.
 
 Vodja projekta lahko predlog sprejme ali zavrne.
 

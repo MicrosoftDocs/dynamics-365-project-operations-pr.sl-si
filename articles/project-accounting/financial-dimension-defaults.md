@@ -1,6 +1,6 @@
 ---
 title: Privzete vrednosti finančnih razsežnosti
-description: Ta članek vsebuje informacije o tem, kako nastaviti privzete vrednosti finančne razsežnosti.
+description: V tem članku so na voljo informacije o tem, kako nastaviti privzete vrednosti finančne razsežnosti.
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/n
 
 
 
-Dynamics 365 Project Operations uporablja [Finančne razsežnosti](/dynamics365/finance/general-ledger/financial-dimensions) okvir v Dynamics 365 Finance za dodatne vpoglede v transakcije podknjige projekta in glavne knjige.
+Dynamics 365 Project Operations uporablja ogrodje [Finančne razsežnosti](/dynamics365/finance/general-ledger/financial-dimensions) v storitvi Dynamics 365 Finance za podajanje dodatnih vpogledov na transakcije podknjige in glavne knjige projekta.
 
 Privzete finančne razsežnosti je mogoče nastaviti na stranko, vir financiranja projekta, mejnik, vrstico projektne pogodbe ali projekt.
 

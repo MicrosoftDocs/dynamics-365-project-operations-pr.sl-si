@@ -1,6 +1,6 @@
 ---
-title: Kaj je novega ali spremenjenega v Project Operations, junij 2022 za scenarije, ki temeljijo na zalogi/produkciji
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations iz junija 2022 za scenarije, ki temeljijo na zalogi/produkciji.
+title: Novosti in spremembe v aplikaciji Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji (junij 2022)
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v junijski (2022) izdaji aplikacije Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji.
 author: andchoi
 ms.date: 06/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.contentlocale: sl-SI
 ms.lasthandoff: 08/19/2022
 ms.locfileid: "9316962"
 ---
-# <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Kaj je novega ali spremenjenega v Project Operations, junij 2022 za scenarije, ki temeljijo na zalogi/produkciji
+# <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Novosti in spremembe v aplikaciji Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji (junij 2022)
 
 _**Velja za:** storitev Project Operations za scenarije, ki temeljijo na zalogi/proizvodnji_
 
-Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
+Ta članek velja za naslednje komponente in različice aplikacije Microsoft Dynamics 365 Project Operations:
 
-- Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance verzija 10.0.27
+- Upravljanje projektov in računovodstvo v okoljih aplikacije Dynamics 365 Finance različice 10.0.27
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 
-Zahteve za postavke je mogoče uporabiti za projektne pogodbe, ki imajo več virov financiranja. Za več informacij glejte [Zahteve za postavke za projektne pogodbe z več viri financiranja](../multiple-funding-sources-item-req.md).
+Zahteve za elemente se lahko uporabi za projektne pogodbe z več viri financiranja. Za več informacij glejte [Zahteve za elemente za projektne pogodbe z več viri financiranja](../multiple-funding-sources-item-req.md).
 
 ## <a name="quality-updates"></a>Posodobitve kakovosti
 
-Za informacije o popravkih napak, ki so vključeni v to posodobitev, se prijavite v Microsoft Dynamics Lifecycle Services (LCS) in si oglejte [Članek KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=673271).
+Za informacije o popravkih napak, vključenih v tej posodobitvi, se prijavite v storitev Microsoft Dynamics Lifecycle Services (LCS) in si oglejte [Članek zbirke znanja](https://fix.lcs.dynamics.com/Issue/Details?bugId=673271).

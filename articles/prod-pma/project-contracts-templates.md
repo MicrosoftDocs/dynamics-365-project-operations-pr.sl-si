@@ -1,6 +1,6 @@
 ---
 title: Sinhronizacija projektnih pogodb in projektov neposredno iz rešitve Project Service Automation v storitev Finance
-description: Ta članek opisuje predlogo in osnovne naloge, ki se uporabljajo za sinhronizacijo projektnih pogodb in projektov neposredno iz Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Finance.
+description: Ta članek opisuje predlogo in temeljna opravila, ki se uporabljajo za sinhronizacijo projektnih pogodb in projektov neposredno iz rešitve Microsoft Dynamics 365 Project Service Automation v Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -27,7 +27,7 @@ ms.locfileid: "8933880"
 
 
 
-Ta članek opisuje predlogo in osnovne naloge, ki se uporabljajo za sinhronizacijo projektnih pogodb in projektov neposredno iz Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+Ta članek opisuje predlogo in temeljna opravila, ki se uporabljajo za sinhronizacijo projektnih pogodb in projektov neposredno iz rešitve Dynamics 365 Project Service Automation v Dynamics 365 Finance.
 
 > [!NOTE] 
 > Če uporabljate različico Enterprise 7.3.0, morate namestiti KB 4074835.
@@ -120,15 +120,15 @@ Ko je uporabljena rešitev za integracijo Project Service Automation v Finance, 
 
 ## <a name="power-query"></a>Power Query
 
-Uporabite Microsoft Power Query da Excel filtrira podatke, če so izpolnjeni naslednji pogoji:
+Za filtriranje podatkov uporabite Microsoft Power Query za Excel, če so izpolnjeni naslednji pogoji:
 
 - Imate prodajne naloge v rešitvi Dynamics 365 Sales.
 - Imate več organizacijskih enot v rešitvi Project Service Automation in bodo te organizacijske enote preslikane na več pravnih oseb v rešitvi Finance.
 
-Če morate uporabiti Power Query, upoštevajte te smernice:
+Če morate uporabiti rešitev Power Query, upoštevajte naslednja navodila:
 
 - Predloga Projekti in pogodbe (PSA v Fin in Ops) ima privzeti filter, ki vključuje samo prodajne naloge vrste **Delovna naloga (msdyn\_ordertype = 192350001)**. Ta filter pomaga zagotoviti, da se projektne pogodbe ne ustvarijo za prodajne naloge v rešitvi Finance. Če ustvarite svojo predlogo, morate dodati ta filter.
-- Ustvariti Power Query filter, ki vključuje samo pogodbene organizacije, ki bi morale biti sinhronizirane s pravno osebo niza integracijskih povezav. Primer: projektne pogodbe, ki jih imate s pogodbeno organizacijsko enoto Contoso US, je treba sinhronizirati s pravno osebo USSI, vendar je treba projektne pogodbe, ki jih imate s pogodbeno organizacijsko enoto Contoso Global, sinhronizirati s pravno osebo USMF. Če tega filtra ne dodate v preslikavo opravil, se bodo vse projektne pogodbe sinhronizirale s pravno osebo, ki je določena za nabor povezav, ne glede na pogodbeno organizacijsko enoto.
+- Ustvarite filter Power Query, ki vključuje samo pogodbene organizacije, ki jih je treba sinhronizirati s pravno osebo v naboru povezav za integracijo. Primer: projektne pogodbe, ki jih imate s pogodbeno organizacijsko enoto Contoso US, je treba sinhronizirati s pravno osebo USSI, vendar je treba projektne pogodbe, ki jih imate s pogodbeno organizacijsko enoto Contoso Global, sinhronizirati s pravno osebo USMF. Če tega filtra ne dodate v preslikavo opravil, se bodo vse projektne pogodbe sinhronizirale s pravno osebo, ki je določena za nabor povezav, ne glede na pogodbeno organizacijsko enoto.
 
 ## <a name="template-mapping-in-data-integration"></a>Preslikava predlog v Integraciji podatkov
 

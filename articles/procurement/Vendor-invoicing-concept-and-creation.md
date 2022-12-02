@@ -1,6 +1,6 @@
 ---
-title: Ustvarite račune dobavitelja
-description: Ta članek opisuje koncept računov dobavitelja in pojasnjuje, kako jih ustvarite v Microsoftu Dynamics 365 Project Operations.
+title: Ustvari račune dobavitelja
+description: Ta članek opisuje koncept računov dobavitelja in pojasnjuje, kako jih ustvarite v aplikaciji Microsoft Dynamics 365 Project Operations.
 author: suvaidya
 ms.date: 9/12/2022
 ms.topic: article
@@ -13,83 +13,83 @@ ms.contentlocale: sl-SI
 ms.lasthandoff: 09/13/2022
 ms.locfileid: "9475485"
 ---
-# <a name="create-vendor-invoices"></a>Ustvarite račune dobavitelja
+# <a name="create-vendor-invoices"></a>Ustvari račune dobavitelja
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Če želite uporabljati funkcionalnost, opisano v tem članku, morate omogočiti **Omogočite obdelavo dejanskih podizvajalskih pogodb s projektnimi operacijami za scenarije, ki temeljijo na virih** funkcija v **Upravljanje funkcij** delovni prostor.
+Če želite uporabljati funkcionalnost, opisano v tem članku, morate v delovnem prostoru **Upravljanje funkcije** omogočiti funkcijo **Omogočanje obdelave dejanskih vrednosti podizvajalskih pogodb z aplikacijo Project Operations za scenarije, ki temeljijo na virih**.
 
-Fakturiranje dobavitelja v Microsoftu Dynamics 365 Project Operations se lahko uporablja za beleženje stroškov dobav storitev in/ali materialov na projektu, ki ga dokončajo prodajalci.
+Izdajanje računov dobaviteljem v aplikaciji Microsoft Dynamics 365 Project Operations se lahko uporablja za zapisovanje stroškov dobav storitev in/ali materialov za projekt, ki ga dokončajo dobavitelji.
 
-Kadar so storitve in/ali materiali oddani v podizvajanje prodajalcu, podizvajalska pogodba predstavlja pogodbeni dogovor s tem prodajalcem. Ko prodajalec opravlja storitve ali ko materiale prejme in uporabi pri projektnih nalogah, se stroški evidentirajo na projektu. Prodajalec nato periodično pošilja račune. Ti računi so preverjeni in usklajeni s stroški, ki so zabeleženi na projektu. Po končanem postopku preverjanja je račun dobavitelja potrjen in sproščen v plačilo.
+Kadar so storitve in/ali materiali oddani v podizvajanje dobavitelju, podizvajalska pogodba predstavlja pogodbeni dogovor s tem dobaviteljem. Ko dobavitelj opravlja storitve ali ko so materiali prejeti in uporabljeni za opravila projekta, se stroški zapišejo za projekt. Dobavitelj nato občasno pošilja račune. Ti računi so preverjeni in usklajeni s stroški, ki so zabeleženi za projekt. Po končanem postopku preverjanja je račun dobavitelja potrjen in sproščen v plačilo.
 
-## <a name="scenarios-for-use"></a>Scenariji za uporabo
+## <a name="scenarios-for-use"></a>Uporabni scenariji
 
-Račune dobaviteljev v Project Operations je mogoče uporabiti za podporo dveh različnih scenarijev:
+Račune dobaviteljev v aplikaciji Project Operations lahko uporabite za podporo dveh različnih scenarijev:
 
-- Stranke uporabljajo vse izkušnje podizvajalcev.
-- Stranke ne uporabljajo vseh podizvajalskih izkušenj, ampak želijo imeti enoten pogled na stroške projektov v projektnih operacijah.
+- Stranke uporabljajo vse izkušnje podizvajalske pogodbe.
+- Stranke ne uporabljajo vseh izkušenj podizvajalske pogodbe, ampak želijo imeti enoten pogled na stroške projektov v aplikaciji Project Operations.
 
-### <a name="customers-use-the-full-subcontracting-experiences"></a>Stranke uporabljajo vse izkušnje podizvajalcev
+### <a name="customers-use-the-full-subcontracting-experiences"></a>Stranke uporabljajo vse izkušnje podizvajalske pogodbe
 
-Izkušnje z računi dobavitelja ponujajo način za preverjanje časovnih vnosov, porabe materiala in vnosov stroškov, ki se nanašajo na podizvajalske komponente, in njihovo ujemanje z vrsticami računa dobavitelja. Ta postopek je mogoče uporabiti za preverjanje točnosti vrstic računa dobavitelja. Ko je postopek preverjanja končan in je račun dobavitelja potrjen, sistem razveljavi dejanske vrednosti, ki so bile zabeležene v odobrenih dnevnikih časa, stroškov in porabe materiala, nato pa ustvari nove dejanske stroške z uporabo vrstic računa dobavitelja.
+Izkušnje računov dobavitelja ponujajo način za preverjanje časovnih vnosov, porabe materiala in vnosov stroškov, ki se nanašajo na podizvajalske komponente, in njihovo ujemanje z vrsticami računa dobavitelja. Ta proces je mogoče uporabiti za preverjanje točnosti vrstic računa dobavitelja. Ko je postopek preverjanja končan in je račun dobavitelja potrjen, sistem razveljavi dejanske vrednosti, ki so bile zapisane v odobrenih dnevnikih časa, stroškov in porabe materiala, nato pa ustvari nove dejanske stroške z vrsticami računa dobavitelja.
 
-### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Stranke ne uporabljajo vseh podizvajalskih izkušenj, ampak želijo imeti enoten pogled na stroške projektov v projektnih operacijah
+### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Stranke ne uporabljajo vseh izkušenj podizvajalske pogodbe, ampak želijo imeti enoten pogled na stroške projektov v aplikaciji Project Operations
 
-Če sledite postopku podizvajanja v sistemu tretje osebe, lahko beležite stroške iz tega sistema tretje osebe v Project Operations tako, da ustvarite račune dobavitelja, ki se ne sklicujejo na podizvajalske pogodbe. Na ta način imajo lahko vaši vodje projektov enoten, poenoten pogled na vse stroške na določenem projektu.
+Če sledite procesu podizvajalske pogodbe v sistemu drugega ponudnika, lahko beležite stroške iz tega sistema v aplikaciji Project Operations tako, da ustvarite račune dobavitelja, ki se ne sklicujejo na podizvajalske pogodbe. Na ta način imajo lahko vaše vodje projekta en poenoten pogled na vse stroške na določenem projektu.
 
-## <a name="create-vendor-invoices-in-project-operations"></a>Ustvarite račune dobavitelja v Project Operations
+## <a name="create-vendor-invoices-in-project-operations"></a>Ustvarjanje računov dobaviteljev v aplikaciji Project Operations
 
-Računi dobavitelja se ustvarijo v Dynamics 365 Finance, z uporabo **Obveznosti** modul. Računov dobaviteljev ne morete ustvariti neposredno v Dataverse.
+Računi dobavitelja so v aplikaciji Dynamics 365 Finance ustvarjeni z modulom **Obveznosti**. Računov dobaviteljev ne morete ustvariti neposredno v okolju Dataverse.
 
-### <a name="set-up-vendor-invoice-verification"></a>Nastavite preverjanje računov dobavitelja
+### <a name="set-up-vendor-invoice-verification"></a>Nastavitev preverjanja veljavnosti računov dobavitelja
 
-Če je račun prodajalca namenjen podizvajalcu v Dataverse, morate omogočiti **Zahtevano je ročno preverjanje pri PM** parameter. Nastavitev opcije določa, ali naj se račun dobavitelja samodejno potrdi Dataverse, ali zahteva ročno potrditev. Glava vsakega računa prodajalca projekta vključuje možnost z istim imenom. Privzeto je možnost v glavi vseh računov dobavitelja projekta nastavljena na vrednost, ki ste jo nastavili tukaj. Vendar pa lahko po potrebi posodobite vrednost v glavi posameznih računov dobavitelja.
+Če je račun dobavitelja namenjen podizvajalcu v okolju Dataverse, morate omogočiti parameter **Potrebno je ročno preverjanje vodje projekta**. Nastavitev možnosti določa, ali naj se račun dobavitelja samodejno potrdi v okolju Dataverse ali zahteva ročno potrditev. Glava vsakega računa dobavitelja projekta vključuje možnost z istim imenom. Možnost v glavi vseh računov dobavitelja projekta je privzeto nastavljena na vrednost, ki ste jo nastavili tukaj. Vendar pa lahko po potrebi posodobite vrednost v glavi posameznih računov dobavitelja.
 
-Če je možnost nastavljena na **ja**, račun dobavitelja, ki se ustvari v Financah in sinhronizira z njim Dataverse ima **Osnutek** stanje. Račun mora nato potrditi in potrditi vodja projekta ter potrditi, preden je obdelan in objavljen na določenem projektu in kontih glavne knjige v Financah.
+Če je možnost nastavljena na **Da**, ima račun dobavitelja, ki je ustvarjen v aplikaciji Finance in sinhroniziran v okolje Dataverse, stanje **Osnutek**. Vodja projekta mora nato preveriti veljavnost računa in ga potrditi, preden je obdelan in knjižen v določenem projektu in računih glavne knjige v aplikaciji Finance.
 
-Če je možnost nastavljena na **št**, se račun dobavitelja samodejno potrdi. Nadaljnji ukrepi niso potrebni.
+Če je možnost nastavljena na **Ne**, se račun dobavitelja samodejno potrdi. Nadaljnja dejanja niso potrebna.
 
-Če želite nastaviti preverjanje računov dobavitelja, sledite tem korakom.
+Če želite nastaviti preverjanje veljavnosti računov dobavitelja, sledite tem korakom.
 
-1. V Financah pojdite na **Vodenje projektov in računovodstvo** \> **Nastaviti** \> **Projektno vodenje in računovodski parametri**.
-1. Na **Finančna** zavihek, nastavite **Zahtevano je ročno preverjanje pri PM** možnost za **ja** če politika podjetja zahteva preverjanje računov prodajalcev podizvajalcev. Če preverjanje s strani vodje projekta ni potrebno v Dataverse, pustite nabor možnosti za **št**. Privzeto bo nastavitev uporabljena na **Čakajoč račun prodajalca** strani.
+1. V aplikaciji Finance odprite razdelek **Vodenje projektov in računovodstvo** \> **Nastavitev** \> **Vodenje projekta in računovodski parametri**.
+1. V zavihku **Finance** za možnost **Potrebno je ročno preverjanje vodje projekta** na vrednost **Da**, če pravilnik podjetja zahteva preverjanje veljavnosti računov podizvajalskih dobaviteljev. Če v okolju Dataverse preverjanje vodje projekta ni potrebno, pustite možnost nastavljeno na **Ne**. Nastavitev bo privzeto uporabljena na strani **Čakajoči račun dobavitelja**.
 
 > [!NOTE]
-> Računi dobaviteljev, ki so ustvarjeni za podizvajalce v Dataverse je mogoče pravilno obdelati le, če **Zahtevano je ročno preverjanje pri PM** možnost je nastavljena na **ja**. Dejanske stroške časa, materiala in stroškov, ki jih ustvarijo podizvajalci, lahko vodja projekta ročno poveže z vrsticami računa dobavitelja samo, če je ta možnost nastavljena na **ja**.
+> Račune dobaviteljev, ki so ustvarjeni za podizvajalce v okolju Dataverse, je mogoče pravilno obdelati le, če je možnost **Potrebno je ročno preverjanje vodje projekta** nastavljena na vrednost **Da**. Dejanske vrednosti časa, materiala in stroškov, ki jih ustvarijo podizvajalci, lahko vodja projekta ročno poveže z vrsticami računa dobavitelja samo, če je ta možnost nastavljena na **Da**.
 
-### <a name="set-up-a-procurement-integration-account-for-vendor-invoices"></a>Nastavite integracijski račun nabave za račune dobaviteljev
+### <a name="set-up-a-procurement-integration-account-for-vendor-invoices"></a>Nastavitev računa integracije nabave za račune dobaviteljev
 
-Ko je račun dobavitelja objavljen v Finance for Project Operations – integrirano okolje (brez zaloge), so finančni podatki objavljeni na računu integracije nabave. Sistem generira dejanske podatke Dataverse za izstavljeni račun. Ta dejstva so objavljena v Financah z uporabo Dnevnika integracije projektov. Knjiženje dnevnika integracije projekta knjiži dejanski strošek in stornira račun integracije nabave.
+Ko je račun dobavitelja objavljen v aplikaciji Finance za Project Operations – integrirano okolje (brez zaloge), so finančni podatki objavljeni na računu integracije nabave. Sistem v okolju Dataverse za knjižen račun ustvari dejanske vrednosti. Te dejanske vrednosti so objavljene v aplikaciji Finance z dnevnikom integracije projektov. Knjiženje dnevnika integracije projektov knjiži dejansko ceno in razveljavi račun integracije nabave.
 
-Če želite nastaviti integracijski račun nabave za račune dobaviteljev, sledite tem korakom.
+Če želite nastaviti račun integracije nabave za račune dobaviteljev, sledite tem korakom.
 
-1. V Financah pojdite na **Vodenje projektov in računovodstvo** \> **Nastaviti** \> **Projektno vodenje in računovodski parametri**.
-1. Na **Projektne operacije za vključevanje strank Dynamics 365** zavihek izberite **Materiali** \> **Račun integracije nabave**.
+1. V aplikaciji Finance odprite razdelek **Vodenje projektov in računovodstvo** \> **Nastavitev** \> **Vodenje projekta in računovodski parametri**.
+1. V zavihku **Project Operations za Dynamics 365 customer engagement** izberite razdelek **Materiali** \> **Račun integracije nabave**.
 
-### <a name="create-and-post-subcontract-vendor-invoices"></a>Ustvarite in knjižite račune podizvajalcev
+### <a name="create-and-post-subcontract-vendor-invoices"></a>Ustvarjanje in knjiženje računov podizvajalskih dobaviteljev
 
-Ko računovodstvo prejme račun od podizvajalca, se v Financah ustvari nov račun.
+Ko uradnik za obveznosti prejme račun od podizvajalca, se v aplikaciji Finance ustvari nov račun.
 
-1. V Financah pojdite na **Obveznosti do dobaviteljev** \> **Računi** \> **Čakajoči računi dobavitelja**.
-1. Na **Podokno dejanj**, izberite **Novo** za ustvarjanje računa dobavitelja.
-1. V glavi računa v **račun račun** polje izberite **Podizvajalec**.
+1. V aplikaciji Finance odprite razdelek **Obveznosti** \> **Računi** \> **Čakajoči računi dobavitelja**.
+1. V **Podoknu dejanj** izberite možnost **Novo**, da ustvarite račun dobavitelja.
+1. V glavi računa v polju **Račun za obračun** izberite možnost **Podizvajalec**.
 1. Izberite datum računa.
-1. Na **Glava** zavihek, nastavite **Zahtevano je ročno preverjanje pri PM** možnost za **ja**. Privzeta nastavitev te možnosti izvira iz **Projektno vodenje in računovodski parametri** strani. Lahko pa se spremeni na ravni računa dobavitelja.
-1. Na **Vrstica računa** FastTab, izberite **Dodaj vrstico** ustvarite vrstico računa dobavitelja.
-1. Izberite kategorijo nabave, ki je bila ustvarjena za podizvajalske postavke, in vnesite ceno na enoto, mersko enoto in količino.
-1. V razdelku vrstic računa dobavitelja na **Projekt** izberite projekt, za katerega podizvajalec deli račun podizvajalca.
-1. Izberite kategorijo projekta. Lahko je katere koli vrste **Postavka**, **·**, **·**, oz **Ure**.
-1. Izberite vlogo samo, če je izbrana kategorija projekta **ura** vrsta.
-1. Izberite **Objavi** za knjiženje računa dobavitelja.
+1. V zavihku **Glava** za možnost **Potrebno je ročno preverjanje vodje projekta** izberite vrednost **Da**. Privzeta nastavitev te možnosti izvira s strani **Parametri vodenja projekta in računovodstva**. Lahko pa se spremeni na ravni računa dobavitelja.
+1. V zavihku za hitri dostop **Vrstica računa** izberite možnost **Dodaj vrstico**, da ustvarite vrstico računa dobavitelja.
+1. Izberite kategorijo nabave, ki je bila ustvarjena za podrobnosti podizvajalske pogodbe, in vnesite ceno na enoto, mersko enoto in količino.
+1. V razdelku vrstic računa dobavitelja v zavihku **Projekt** izberite projekt, za katerega podizvajalec deli račun podizvajalca.
+1. Izberite kategorijo projekta. Lahko je katere koli vrste: **Element**, **Strošek**, **Materiali** ali **Ure**.
+1. Izberite vlogo samo, če je izbrana kategorija projekta vrste **Ura**.
+1. Izberite možnost **Knjiži**, če želite knjižiti račun dobavitelja.
 
-Druga možnost je, da ustvarite račun prodajalca tako, da obiščete **Obveznosti** \> **Računi** \> **Odprti računi dobavitelja** in izbiranje **Novo**.
+Lahko tudi ustvarite račun dobavitelja v razdelku **Obveznosti** \> **Računi** \> **Odprti računi dobavitelja**, kjer izberete možnost **Novo**.
 
-Ko je račun dobavitelja objavljen, postane na voljo v Dataverse za preverjanje in obdelavo vodje projekta.
+Ko je račun dobavitelja knjižen, je na voljo v okolju Dataverse, da lahko vodja projekta preveri veljavnost in ga obdela.
 
-## <a name="vendor-invoice-processing-in-dataverse"></a>Obdelava računov dobaviteljev v Dataverse
+## <a name="vendor-invoice-processing-in-dataverse"></a>Obdelava računa dobavitelja v okolju Dataverse
 
-V računu dobavitelja, ki je ustvarjen v Dataverse, nekatere vrednosti polj izvirajo iz računa dobavitelja, ki je evidentiran v Financah. Druge vrednosti so privzete vrednosti, ki izhajajo iz podizvajalske pogodbe.
+V računu dobavitelja, ki je ustvarjen v okolju Dataverse, nekatere vrednosti polj izvirajo iz računa dobavitelja, ki je evidentiran v razdelku Finance. Druge vrednosti so privzete vrednosti, ki izhajajo iz podizvajalske pogodbe.
 
 Naslednja polja in povezani zapisi bodo kopirani iz podizvajalske pogodbe v glavo računa dobavitelja:
 
@@ -97,16 +97,16 @@ Naslednja polja in povezani zapisi bodo kopirani iz podizvajalske pogodbe v glav
 - Pogodbena enota
 - Plačilni pogoji
 
-V vrsticah računa dobavitelja Project Operations uporablja naslednje vrednosti polj za vnos privzete podizvajalske pogodbe in reference vrstice podizvajalske pogodbe:
+V vrsticah računa dobavitelja aplikacija Project Operations uporablja naslednje vrednosti polj za vnos privzete podizvajalske pogodbe in sklica podrobnosti podizvajalske pogodbe:
 
 - Razred transakcije
 - Vloga
 - Kategorija transakcije
-- Polja izdelkov
+- Polja izdelka
 - Projekt
 - opravilo,
 
 > [!NOTE]
-> Podizvajalske vrstice s fiksno ceno niso podprte v Project Operations.
+> Nespremenljive cene podrobnosti podizvajalskih pogodb niso podprte v aplikaciji Project Operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

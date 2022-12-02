@@ -1,6 +1,6 @@
 ---
 title: Izdelki
-description: Ta članek vsebuje informacije o katalogu izdelkov, ki jih lahko uporabite za zagotavljanje informacij strankam o izdelkih in cenah, ki jih ponuja vaša organizacija.
+description: Ta članek vsebuje informacije o katalogu izdelkov, s katerimi lahko strankam posredujete informacije o izdelkih in cenah, ki jih ponuja vaša organizacija.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

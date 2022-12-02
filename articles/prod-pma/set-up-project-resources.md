@@ -1,6 +1,6 @@
 ---
 title: Nastavitev virov projekta
-description: Ta članek vsebuje informacije o nastavitvi ali zahtevanju projektnih virov.
+description: Ta članek vsebuje informacije o nastavitvi virov projekta ali pošiljanju zahtev za vire projekta.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

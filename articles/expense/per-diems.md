@@ -1,6 +1,6 @@
 ---
 title: Dnevnice
-description: Ta članek vsebuje informacije o pravilih za dnevnice, ki se uporabljajo pri upravljanju odhodkov.
+description: Ta članek vsebuje informacije o pravilih za dnevnice, ki se uporabljajo pri upravljanju stroškov.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

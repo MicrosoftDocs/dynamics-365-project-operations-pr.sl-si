@@ -1,6 +1,6 @@
 ---
 title: Upravljanje kompleksnih enot, na primer za uporabnika in za vsak mesec posebej, za podrobnosti ponudb, ki temeljijo na izdelkih – poenostavljeno
-description: Ta članek vsebuje informacije o upravljanju kompleksnih enot za ponudbe na podlagi izdelkov.
+description: Ta članek vsebuje informacije o upravljanju kompleksnih enot za podrobnosti ponudb, ki temeljijo na izdelkih.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

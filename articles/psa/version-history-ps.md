@@ -1,6 +1,6 @@
 ---
 title: Načrtovanje izdaj posodobitev za Project Service 3.x
-description: Ta članek vsebuje informacije o razpoložljivih in prihajajočih izdajah Dynamics 365 Project Service Automation.
+description: V tem članku so na voljo informacije o razpoložljivih in prihodnjih izdajah rešitve Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -65,7 +65,7 @@ Za več informacij o posodobitvah rešitve Project Service glejte razdelek [Nač
 |<strong>4. skupina</strong> | |  |  | |
 | | <i>Evropa</i> | [3.10.78.8](whats-new-ur-47.md) | Še ni določeno | 21. oktober 2022
 |<strong>5. skupina</strong> | |  |  | |
-| | <i>Severna Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | Še ni določeno | 4. november 2022
+| | <i>Severna Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | Še ni določeno | 04. november 2022
 |<strong>6. skupina</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.78.8](whats-new-ur-47.md) | Še ni določeno | 02. november 2022
 | | <i>Namenske skupine lestvic</i> | [3.10.78.8](whats-new-ur-47.md) | Še ni določeno | 11. november 2022

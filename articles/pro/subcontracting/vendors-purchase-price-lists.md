@@ -1,6 +1,6 @@
 ---
 title: Upravljanje dobaviteljev in cenikov nabave v storitvi Project Operations
-description: Ta članek vsebuje informacije, ki vam bodo pomagale ustvariti in vzdrževati podatke o prodajalcih in nabavne cenike za podizvajalce.
+description: Ta članek vsebuje informacije, ki vam bodo pomagale ustvariti in vzdrževati podatke o dobaviteljih in cenikih nakupov podizvajalskih pogodb.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

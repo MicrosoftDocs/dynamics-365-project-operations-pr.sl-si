@@ -1,6 +1,6 @@
 ---
 title: Parametri integracije rešitve Project Service Automation
-description: V tem članku je razloženo, kako konfigurirati, kako se pri integraciji vnesejo privzeti podatki Microsoft Dynamics 365 for Project Service Automation z Microsoft Dynamics 365 Finance.
+description: V tem članku je pojasnjeno, kako konfigurirati način vnosa privzetih podatkov med integracijo rešitve Microsoft Dynamics 365 for Project Service Automation z rešitvijo Microsoft Dynamics 365 Finance.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8932316"
 
 [!include[banner](../includes/banner.md)]
 
-Na **Integracijski parametri Project Service Automation** strani, lahko konfigurirate, kako se pri integraciji vnesejo privzeti podatki Dynamics 365 Project Service Automation z Dynamics 365 Finance. Za uspešno sinhronizacijo projektov iz rešitve Project Service Automation v Finance morate nastaviti naslednja polja.
+Na strani **Parametri integracije rešitve Project Service Automation** lahko nastavite, kako se vnašajo privzeti podatki pri integraciji rešitve Dynamics 365 Project Service Automation z rešitvijo Dynamics 365 Finance. Za uspešno sinhronizacijo projektov iz rešitve Project Service Automation v Finance morate nastaviti naslednja polja.
 
 Če želite odpreti stran **Parametri integracije rešitve Project Service Automation**, se pomanite v razdelek **Upravljanje projekta in računovodstvo** \> **Nastavitve** \> **Parametri integracije rešitve Dynamics 365 for Project Service Automation**. 
 

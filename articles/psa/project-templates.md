@@ -1,6 +1,6 @@
 ---
 title: Projektne predloge
-description: Ta članek vsebuje informacije o tem, kako uporabiti predloge projektov za hitro nastavitev projekta.
+description: Ta članek ponuja informacije o uporabi projektnih predlog za hitro nastavitev projekta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

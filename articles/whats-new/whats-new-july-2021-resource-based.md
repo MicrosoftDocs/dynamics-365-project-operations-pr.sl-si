@@ -1,6 +1,6 @@
 ---
 title: Novosti za julij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations julija 2021 za scenarije, ki temeljijo na virih/brez zalog.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji aplikacije Project Operations (julij 2021) za scenarije, ki temeljijo na virih/nezalogi.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8931718"
 
 *Velja za: scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi*
 
-Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
+Ta članek velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
    - Storitev Project Operations v okolju Microsoft Dataverse različice 4.12.0.148 ali 4.12.0.152.
-   - Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance različica 10.0.20.
+   - Upravljanje projektov in računovodstvo v okoljih aplikacije Dynamics 365 Finance različice 10.0.20
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 
@@ -80,7 +80,7 @@ Vedno, ko posodabljate različico rešitev Project Operations Dataverse in Finan
 | Splošno                       | 2253682              | Rešitve dvojnega zapisovanja storitve Project Operations ne smemo nameščati, če je osnova dvojnega zapisovanja nameščena v okolju brez rešitve za organiziranje z dvojnim zapisovanjem.                                                |
 | Splošno                       | 2316420              | Jedro aplikacije Project Service ni omogočeno, če je poslovna enota uporabnika aplikacije spremenjena.                                                                                                                     |
 | Splošno                       | 2376405              | Odpravljena težava s posodobitvami, ki jih vodi izdajatelj (posodobitev kakovosti je na voljo v različici 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Vodenje projektov in računovodstvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektov in računovodstvo v okoljih aplikacij Dynamics 365 Finance
 
 | Območje funkcij                      | Številka sklica | Posodobitev kakovosti                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

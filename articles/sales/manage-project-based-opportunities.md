@@ -19,7 +19,7 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoč
 
 Običajno imajo podjetja, ki temeljijo na projektih, postopke za dostavo razvejane po več državah in regijah. Stroški izvajanja in dostave projekta se lahko razlikujejo glede na to, katera regija ali oddelek upravlja dostavo. To pa lahko vpliva na marže posla. Izvajanje projektnih storitev običajno vključuje velike količine porabljenega časa kadra, znatne potne stroške, materialne stroške in druge stroške.
 
-Priložnosti, ki temeljijo na projektih, v aplikaciji Dynamics 365 Project Operations so zasnovani z razširitvami za aplikacijo Dynamics 365 Sales. Članek vsebuje podrobnosti o različnih področjih in poslovni logiki, vključeni v dodatno funkcionalnost, ki jo zahtevajo projektna podjetja za upravljanje priložnosti, ki temeljijo na projektih.
+Priložnosti, ki temeljijo na projektih, v aplikaciji Dynamics 365 Project Operations so zasnovani z razširitvami za aplikacijo Dynamics 365 Sales. Ta članek vsebuje podrobnosti o različnih poljih in poslovni logiki, vključeni v dodatno funkcionalnost, ki jo potrebujejo podjetja, ki temeljijo na projektih, za upravljanje projektnih priložnosti.
 
 ## <a name="view-all-project-based-opportunities"></a>Ogled vseh priložnosti, ki temeljijo na projektu
 

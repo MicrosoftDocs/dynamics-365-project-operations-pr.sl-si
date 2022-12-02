@@ -1,6 +1,6 @@
 ---
 title: Upravljanje predračuna, ki temelji na projektu
-description: Ta članek vsebuje informacije o upravljanju in delu s predračuni, ki temeljijo na projektih.
+description: Ta članek vsebuje informacije o tem, kako upravljati in delati s predračuni, ki temeljijo na projektu.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

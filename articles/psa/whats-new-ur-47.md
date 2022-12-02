@@ -1,6 +1,6 @@
 ---
 title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 47, V3
-description: V tem članku so navedene funkcije in popravki, ki so na voljo v Microsoft Dynamics 365 Project Service Automation Posodobitev izdaje 47, V3.
+description: Ta članek navaja funkcije in popravke, ki so na voljo v izdaji posodobitve 47, V3 storitve Microsoft Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/14/2022
@@ -29,7 +29,7 @@ ms.locfileid: "9477291"
 
 Z veseljem objavljamo najnovejšo posodobitev za aplikacijo Microsoft Dynamics 365 Project Service Automation. Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Združljiva je z s storitvijo Dynamics 365 9.x. Če želite posodobiti to različico, obiščite spletno stran rešitev za Skrbniško središče za Dynamics 365 in namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).
 
-V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za posodobitev Project Service Automation, izdaja 45, V3. Različica z delovno številko V3.10.78.8 je julija 2022 na voljo s samoposodobitvijo.
+V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation 45, V3. Različica z delovno številko V3.10.78.8 je julija 2022 na voljo s samoposodobitvijo.
 
 ## <a name="update-release-47"></a>Izdaja posodobitve 47
 
@@ -38,4 +38,4 @@ V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za po
 Odpravljene so naslednje težave:
 
 **Upravljanje virov**
-- Preverjanje je bilo posodobljeno, da se zagotovi, da uporabniki ne morejo sprožiti izjeme ničelne reference, ko poskušajo ustvariti člana projektne skupine brez **Vir, ki ga je mogoče rezervirati**.
+- Preverjanje veljavnosti je bilo posodobljeno, da uporabniki ne morejo sprožiti izjeme z referenco z vrednostjo »null«, ko poskušajo ustvariti člana projektne ekipe brez **vira, ki ga je mogoče rezervirati**.

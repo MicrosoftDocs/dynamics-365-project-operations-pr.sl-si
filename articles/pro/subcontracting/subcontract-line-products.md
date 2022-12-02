@@ -1,6 +1,6 @@
 ---
 title: Vrstice podizvajalske pogodbe za izdelke
-description: V tem članku je razloženo, kako evidentirati podizvajalske vrstice za izdelke in uporabiti različna polja za beleženje nakupov izdelkov od prodajalcev.
+description: Ta članek pojasnjuje, kako zapisovati podrobnosti podizvajalske pogodbe za izdelke in uporabiti različna polja za beleženje nakupov izdelkov pri dobaviteljih.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

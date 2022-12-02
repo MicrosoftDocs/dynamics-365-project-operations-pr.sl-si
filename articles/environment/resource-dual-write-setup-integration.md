@@ -1,6 +1,6 @@
 ---
 title: Nastavitev aplikacije Project Operations in integracija konfiguracijskih podatkov
-description: Ta članek vsebuje informacije o nastavljanju in konfiguriranju zemljevidov dvojnega pisanja Project Operations.
+description: Ta članek vsebuje informacije o nastavitvi in konfiguracij preslikav za dvojno zapisovanje za Project Operations.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
@@ -18,38 +18,38 @@ ms.locfileid: "9029172"
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta članek ponuja informacije o integraciji dvojnega pisanja Project Operations za nastavitve in konfiguracijske entitete.
+Ta članek vsebuje informacije o integraciji za dvojno zapisovanje za Project Operations za entitete nastavitev in konfiguracije.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Projektne pogodbe, podrobnosti pogodbe in projekti
 
-Projektne pogodbe, pogodbene linije in projekti so ustvarjeni v Dataverse in sinhroniziran z aplikacijami za finance in poslovanje za dodatno računovodstvo. Zapise v teh entitetah je mogoče ustvariti in izbrisati samo v storitvi Dataverse. Vendar je mogoče tem zapisom v aplikacijah za finance in poslovanje dodati računovodske atribute, kot so privzete vrednosti skupine prometnega davka in finančne razsežnosti.
+Projektne pogodbe, pogodbene vrstice in projekti so ustvarjeni v storitvi Dataverse in sinhronizirani z aplikacijami za finance in postopke za dodatno računovodstvo. Zapise v teh entitetah je mogoče ustvariti in izbrisati samo v storitvi Dataverse. Vendar pa je mogoče atribute računovodstva, kot so privzete vrednosti skupine davkov od prodaje in finančne razsežnosti, dodati tem zapisom v aplikacijah za finance in postopke.
 
   ![Koncepti integracije projektne pogodbe.](./media/1ProjectContract.jpg)
 
-Sledijo se prodajne aktivnosti, priložnosti in ponudbe Dataverse in ne sinhronizirajte z aplikacijami za finance in poslovanje, ker s to dejavnostjo ni povezano računovodstvo na nižji stopnji.
+Storitev Dataverse sledi prodajnim dejavnostim za možne stranke, priložnostim in ponudbam in jih ne sinhronizira z aplikacijami za finance in postopke, ker s to dejavnostjo ni povezano nadaljnje računovodstvo.
 
-Funkcionalnost projektne pogodbe v Dataverse ustvari zapis pogodbe o projektu v aplikacijah za finance in operacije z uporabo **Glave projektnih pogodb (prodajna naročila)** namizni zemljevid. Če shranite projektno pogodbo v storitvi Dataverse, prav tako začnete ustvarjati zapis entitete stranke projektne pogodbe. Ta zapis je sinhroniziran z aplikacijami za finance in poslovanje z uporabo **Vir financiranja projekta (msdyn\_ projectcontractssplitbillingrules)** namizni zemljevid. Ta preslikava prav tako sinhronizira tudi dodajanja, posodobitve in brisanja strank projektne pogodbe. Razdeljene obračunske odstotke med projektnimi pogodbenimi strankami obvladujemo samo v Dataverse in ni sinhroniziran z aplikacijami za finance in poslovanje.
+Funkcionalnost projektne pogodbe v storitvi Dataverse ustvari zapis projektne pogodbe v aplikacijah za finance in postopke s preslikavo tabele **Glave projektnih pogodb (salesorders)**. Če shranite projektno pogodbo v storitvi Dataverse, prav tako začnete ustvarjati zapis entitete stranke projektne pogodbe. Ta zapis je sinhroniziran v aplikacijah za finance in postopke s preslikavo tabele **Vir financiranja projekta (msdyn\_projectcontractssplitbillingrules)**. Ta preslikava prav tako sinhronizira tudi dodajanja, posodobitve in brisanja strank projektne pogodbe. Odstotni deleži izstavitve računa za delitev med strankami projektnih pogodb se upravljajo samo v storitvi Dataverse in niso sinhronizirani z aplikacijami za finance in postopke.
 
-Po sklenitvi projektne pogodbe v Dataverse, lahko računovodja projekta posodobi računovodske atribute za to projektno pogodbo v aplikacijah za finance in operacije tako, da obišče **Vodenje projektov in računovodstvo** > **Projektne pogodbe** > **Nastaviti** > **Prikaži privzeto računovodstvo**. Računovodja lahko pregleda operativne atribute projektne pogodbe, kot sta zahtevani datum dobave in znesek pogodbe, tako da izbere ID projektne pogodbe v aplikacijah za finance in operacije, ki odpre povezani zapis pogodbe o projektu v Dataverse.
+Ko je projektna pogodba ustvarjena v storitvi Dataverse, lahko računovodja projekta posodobi atribute računovodstva za to projektno pogodbo v aplikacijah za finance in postopke v razdelku **Upravljanje projektov in računovodstvo** > **Projektne pogodbe** > **Nastavitev** > **Prikaži privzeto računovodstvo**. Računovodja lahko pregleda operativne atribute projektne pogodbe, kot sta zahtevani datum dobave in znesek pogodbe tako, da v aplikacijah za finance in postopke izbere ID projektne pogodbe, ki odpre ustrezen zapis o projektni pogodbi v storitvi Dataverse.
 
-Entiteta projekta je sinhronizirana z aplikacijami za finance in poslovanje z uporabo **Projekti V2 (msdyn\_ projekti)** namizni zemljevid. Računovodja projekta lahko izvede ta dejanja:
+Entiteta projekta je sinhronizirana z aplikacijami za finance in postopke s preslikavo tabele **Projekti V2 (msdyn\_projects)**. Računovodja projekta lahko izvede ta dejanja:
 
-  - Preglejte projekte v aplikacijah za finance in poslovanje tako, da obiščete **Vodenje projektov in računovodstvo** > **Vsi projekti**. 
-  - Posodobite računovodske atribute za projekt v aplikacijah za finance in operacije tako, da obiščete **Vodenje projektov in računovodstvo** > **Vsi projekti** > **Nastaviti** > **Prikaži privzeto računovodstvo**.  
-  - Preglejte operativne atribute projekta, kot sta predvideni začetni in končni datum, tako da izberete ID projekta v aplikacijah za finance in operacije, ki odpre povezani zapis projekta v Dataverse.
+  - Projekte lahko pregledate v aplikacijah za finance in postopke v razdelku **Upravljanje projektov in računovodstvo** > **Vsi projekti**. 
+  - Atribute računovodstva za projekt lahko posodobite v aplikacijah za finance in postopke v razdelku **Upravljanje projektov in računovodstvo** > **Vsi projekti** > **Nastavitev** > **Prikaži privzeto računovodstvo**.  
+  - Operativne atribute projekta, kot sta predvideni začetni in končni datum, lahko pregledate tako, da v aplikacijah za finance in postopke izberete ID projekta, ki odpre ustrezen zapis projekta v storitvi Dataverse.
 
 Projekt je povezan s projektno pogodbo prek entitete **Podrobnosti projektne pogodbe**.
 
-Projektne pogodbe vrstice v Dataverse ustvari pravilo za obračunavanje projektne pogodbe v aplikacijah za finance in operacije z uporabo **Projektne pogodbene vrstice (podrobnosti o prodajnem nalogu)** namizni zemljevid. Metoda zaračunavanja določa vrsto pravila za zaračunavanje projektne pogodbe v aplikacijah za finance in operacije:
+Podrobnosti projektne pogodbe v storitvi Dataverse ustvari pravilo obračunavanja projektne pogodbe v aplikacijah za finance in postopke s preslikavo tabele **Podrobnosti projektne pogodbe (salesorderdetails)**. Način obračunavanja določa vrsto pravila za obračunavanje projektne pogodbe v aplikacijah za finance in postopke:
 
   - Podrobnosti projektne pogodbe z načinom obračunavanja časa in materiala ustvarjajo vrsto pravila za obračunavanje časa in materiala.
   - Podrobnosti pogodbe z načinom obračunavanja »Fiksna cena« ustvarijo pravilo mejnika obračunavanja.
 
-Projektne pogodbene vrstice lahko pregleda računovodja projekta v aplikacijah za finance in poslovanje tako, da obišče **Vodenje projektov in računovodstvo** > **Projektne pogodbe** > **Nastaviti** > **Prikaži privzeto računovodstvo**, in pregledovanje podrobnosti na **Pogodbene vrstice** zavihek. Računovodja lahko na tem zavihku nastavi tudi privzete finančne razsežnosti za pogodbene vrstice metode zaračunavanja po fiksni ceni.
+Računovodja projekta lahko podrobnosti projektne pogodbe pregleda v aplikacijah za finance in postopke v razdelku **Upravljanje projektov in računovodstvo** > **Projektne pogodbe** > **Nastavitev** > **Prikaži privzeto računovodstvo** na zavihku **Podrobnosti pogodbe**. Na tem zavihku lahko računovodja nastavi tudi privzete finančne razsežnosti za podrobnosti pogodbe z načinom obračunavanja »Fiksna cena«.
 
 ## <a name="billing-milestones"></a>Mejniki obračunavanja
 
-Podrobnosti projektne pogodbe, ki uporabljajo način obračunavanja »Fiksna cena«, se fakturirajo prek mejnikov obračunavanja. Mejniki zaračunavanja so sinhronizirani za projiciranje transakcij na računu v aplikacijah za finance in poslovanje z uporabo **Mejniki pogodbene vrstice integracije projektnih operacij (msdyn\_ contractlinescheduleofvalues)** namizni zemljevid.
+Podrobnosti projektne pogodbe, ki uporabljajo način obračunavanja »Fiksna cena«, se fakturirajo prek mejnikov obračunavanja. Mejniki obračunavanja se sinhronizirajo s transakcijami za kupca projekta v aplikacijah za finance in postopke s preslikavo tabele **Mejniki podrobnosti pogodbe za integracijo za Project Operations** (msdyn\_contractlinescheduleofvalues).
 
   ![Integracija mejnikov obračunavanja.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Ko prvič ustvarite mejnik obračunavanja za določeno podrobnost projektne pogo
 
 ### <a name="project-tasks"></a>Projektna opravila
 
-Projektne naloge so sinhronizirane z aplikacijami za finance in poslovanje prek **Projektne naloge (msdyn\_ projektne naloge)** tabelni zemljevid samo za referenčne namene. Ustvarjanje, posodabljanje in brisanje operacij ni podprto v aplikacijah za finance in operacije.
+Opravila projekta so sinhronizirana z aplikacijami za finance in postopke prek preslikave tabele **Opravila projekta (msdyn\_projecttasks)** samo za referenčne namene. Ustvarjanje, posodabljanje in brisanje postopkov ni podprto prek aplikacij za finance in postopke.
 
   ![Integracija opravil projekta.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Viri projekta
 
-The **Vloge projektnih virov** subjekt je sinhroniziran z aplikacijami za finance in poslovanje z uporabo **Vloge projektnih virov za vsa podjetja (bookableresourcecategories)** tabelni zemljevid samo za referenčne namene. Ker vloge virov v Dataverse niso specifične za podjetje, sistem samodejno ustvari ustrezne zapise vlog virov, specifične za podjetje, v aplikacijah za finance in operacije samodejno za vse pravne osebe, vključene v obseg integracije z dvojnim pisanjem.
+Entiteta **Vloge virov projekta** je sinhronizirana z aplikacijami za finance in postopke s preslikavo tabele **Vloge virov projekta za vsa podjetja (bookableresourcecategories)** samo za referenčne namene. Ker vloge virov v storitvi Dataverse niso določene za podjetje, sistem samodejno ustvari ustrezne zapise o vlogah virov za določeno podjetje v aplikacijah za finance in postopke za vse pravne osebe, vključene v obseg integracije za dvojno zapisovanje.
 
 ![Integracija vlog virov.](./media/5Resources.jpg)
 
-Projektni viri v projektnih operacijah se vzdržujejo v Dataverse in niso sinhronizirani z aplikacijami za finance in poslovanje.
+Viri projekta v aplikaciji Project Operations so vzdrževani v storitvi Dataverse in niso sinhronizirani z aplikacijami za finance in postopke.
 
 ### <a name="transaction-categories"></a>Kategorije transakcij
 
-Kategorije transakcij se vzdržujejo v Dataverse in sinhroniziran z aplikacijami za finance in poslovanje z uporabo **Kategorije projektnih transakcij (msdyn\_ kategorije transakcij)** namizni zemljevid. Po sinhronizaciji zapisa kategorije transakcij sistem samodejno ustvari štiri zapise skupnih kategorij. Vsak zapis ustreza vrsti transakcije v aplikacijah za finance in operacije ter jih povezuje z zapisom kategorije transakcije.
+Kategorije transakcij so vzdrževane v storitvi Dataverse in sinhronizirane z aplikacijami za finance in postopke s preslikavo tabele **Kategorije projektnih transakcij (msdyn\_transactioncategories)**. Po sinhronizaciji zapisa kategorije transakcij sistem samodejno ustvari štiri zapise skupnih kategorij. Vsak zapis ustreza vrsti transakcije v aplikacijah za finance in postopke in jih poveže z zapisom kategorije transakcij.
 
 ![Integracija kategorije transakcij.](./media/4TransactionCategories.jpg)
 

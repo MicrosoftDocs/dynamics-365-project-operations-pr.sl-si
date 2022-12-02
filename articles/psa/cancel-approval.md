@@ -1,6 +1,6 @@
 ---
 title: Preklic odobrenih časovnih vnosov in vnosov stroškov
-description: Ta članek vsebuje informacije o tem, kako preklicati odobreno transakcijo časa in stroškov projekta.
+description: V tem članku najdete informacije o tem, kako prekličete potrjen čas projekta in transakcijo stroškov.
 author: rumant
 ms.custom:
 - dyn365-projectservice

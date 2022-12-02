@@ -1,6 +1,6 @@
 ---
-title: Prekliči odobritev predhodno odobrenih vnosov
-description: Ta članek pojasnjuje, kako lahko vodja projekta prekliče odobritev predhodno odobrenih vnosov časa, stroškov ali porabe materiala.
+title: Preklic odobritve predhodno odobrenih vnosov
+description: Ta članek pojasnjuje, kako lahko vodja projektov prekliče odobritev predhodno odobrenih vnosov časa, stroškov ali porabe materiala.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -13,35 +13,35 @@ ms.contentlocale: sl-SI
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8930476"
 ---
-# <a name="cancel-the-approval-of-previously-approved-entries"></a>Prekliči odobritev predhodno odobrenih vnosov
+# <a name="cancel-the-approval-of-previously-approved-entries"></a>Preklic odobritve predhodno odobrenih vnosov
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Vodja projekta ali odobritelj, ki je predhodno odobril vnose za čas, stroške ali porabo materiala, lahko prekliče odobritev teh vnosov. 
+Vodja projektov ali odobritelj, ki je prej odobril vnose časa, stroškov ali porabe materiala, lahko prekliče svojo odobritev teh vnosov. 
 
-Sledite tem korakom, da prekličete odobritev predhodno odobrenega vnosa časa, stroškov ali porabe materiala.
+Če želite preklicati odobritev prej odobrenih vnosov časa, stroškov ali porabe materiala, sledite spodnjim korakom.
 
 1. Odprite **Projekti** \> **Moje delo** \> **Odobritve**.
-2. The **Odobritve** stran s seznamom prikazuje vse časovne vnose, ki čakajo na odobritev. Spremenite pogled v **Moje pretekle odobritve**.
-3. Izberite odobritve časa, stroškov ali materiala za preklic. Nato v podoknu za dejanja izberite **Prekliči odobritev**.
-4. V potrditvenem polju, ki se prikaže, izberite **v redu** za potrditev operacije.
+2. Stran s seznamom **Odobritve** prikazuje vse časovne vnose, ki čakajo na odobritev. Spremeni pogled na **Moje pretekle odobritve**.
+3. Izberite odobritve časa, stroškov ali materiala, ki jih želite preklicati. Nato v podoknu za dejanja izberite **Preklic odobritve**.
+4. V polju za potrditveno sporočilo, ki se prikaže, izberite možnost **V redu**, da potrdite postopek.
 
 > [!IMPORTANT]
-> Ne morete preklicati odobritve predhodno odobrenega vnosa časa, stroškov in porabe materiala, ki je že bil zaračunan stranki. Če poskusite, prejmete sporočilo, da odobritve ni mogoče preklicati, ker je bila že zaračunana. V tem primeru lahko prekličete odobritev le, če se za izdajo celotnega dobropisa ali vračila kupcu na izvirnem računu uporabi popravni račun.
+> Ne morete preklicati odobritve predhodno odobrenega vnosa časa, stroškov in porabe materiala, ki je že bila zaračunan stranki. Če to poskusite, prejmete sporočilo, da odobritve ni mogoče preklicati, ker je že bila zaračunana. V tem primeru lahko odobritev prekličete le, če se za izdajo celotnega dobroimetja ali vračila stranki na prvotnem računu uporabi popravljeni račun.
 
-## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Vpliv preklica odobritve predhodno odobrenega vnosa
+## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Učinek preklica odobritve predhodno odobrenega vnosa
 
 Preklic odobritve ima operativni in finančni učinek.
 
 ### <a name="operational-impact"></a>Operativni učinek
 
-Če je odobritev vpisa preklicana, se zapisnik o odobritvi označi kot **Oddano**. Status vnosa se spremeni v **Oddano**. V tej fazi lahko član projektne skupine odpokliče vnos, ne da bi predložil zahtevo za odpoklic.
+Če je odobritev vnosa preklicana, je zapis odobritve označen kot **Poslano**. Stanje vnosa se spremeni v **Poslano**. V tej fazi lahko član projektne ekipe odpokliče vnos, ne da bi predložil zahtevo za odpoklic.
 
-Odobrnik lahko spremeni **Obračunska količina** in **Vrsta obračunavanja** vrednosti in nato še enkrat odobrite vnos.
+Odobritelj lahko spremeni vrednosti **Količina za obračun** in **Vrsta obračunavanja** in nato še enkrat potrdi vnos.
 
 ### <a name="financial-impact"></a>Finančni učinek
 
-Če je odobritev vpisa preklicana, se ustrezni dejanski podatki za stroške in prodajo posodobijo na naslednji način:
+Če je odobritev vnosa preklicana, se ustrezne dejanske vrednosti za stroške in prodajne cene posodobijo tako:
 
 - Polje **Stanje prilagoditve** je posodobljeno na **Prilagojeno**.
 - Polje **Stanje obračunavanja** je posodobljeno na **Preklicano**.

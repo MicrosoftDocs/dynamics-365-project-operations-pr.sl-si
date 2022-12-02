@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje virov
-description: Ta članek ponuja povezavo do informacij o tem, kako ustvariti vire, ki jih je mogoče rezervirati.
+description: Ta članek ponuja povezavo do informacij o ustvarjanju virov, ki jih je mogoče rezervirati.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoč
 
 Lahko uporabite Dynamics 365 Field Service, da ustvarite vire, ki jih je mogoče rezervirati, za uporabo v vašem okolju Dynamics 365 Project Operations. Če želite ustvariti te vire, glejte [Nastavitev virov, ki jih je mogoče rezervirati](/dynamics365/field-service/set-up-bookable-resources).
 
-Project Operations podpira naslednje vrste virov:
+Aplikacija Project Operations podpira naslednje vrste virov:
 - Account
 - stik,
 - uporabnik.

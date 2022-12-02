@@ -1,6 +1,6 @@
 ---
 title: Prijava za naročnino na predogledno različico – poenostavljena različica
-description: Ta članek vsebuje informacije o tem, kako se naročite in uvedete uvedbo Project Operations lite – dogovor s predračunom.
+description: Ta članek vsebuje informacije o tem, kako se lahko naročite in uvedete poenostavljeno uvedbo storitve Project Operations – od posla do izstavitve predračuna.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "9410096"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Prijava za naročnino na predogledno različico – poenostavljena različica 
 
-V tem članku je razloženo, kako se naročiti na preskusno ponudbo in uvesti Dynamics 365 Project Operations enostavna uvedba – od dogovora do predračunov.
+Ta članek vsebuje informacije o tem, kako se naročiti na preskusno različico in uvesti poenostavljeno uvajanje storitve Dynamics 365 Project Operations – od posla do izstavitve predračuna.
 
 > [!NOTE]
 > Ta postopek se bo spremenil v prihodnjih izdajah storitve Project Operations.
@@ -43,14 +43,14 @@ Preden začnete, se prepričajte, da ste prijavljeni v brskalnik z uporabnikovim
 > Potrebovali boste skrbniški dostop do portala Microsoft 365 vaše organizacije, če želite dokončati naslednje korake.
 
 
-1. Pojdi do [Microsoft 365 skrbniški center](https://portal.office.com/) za dodelitev licenc vašim uporabnikom.
+1. Odprite [skrbniško središče za Microsoft 365](https://portal.office.com/), da dodelite licence svojim uporabnikom.
 2. Na strani **Aktivni uporabniki** izberite uporabnike, ki jim želite dodeliti licenco.
 3. Preverite, ali je licenca **Dynamics 365 Project Operations** izbrana. 
 4. Izberite **Shrani spremembe**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Ustvarite novo okolje Dataverse
 
-1. Zagotavljanje novih projektnih operacij Dataverse umestitveno okolje po navodilih v članku, [Dataverse model uvajanja](lite-deployment.md). Ko izberete vrsto okolja, obvezno izberite **Poskusna različica (na podlagi naročnine)**.
+1. Zagotovite si novo okolje za uvajanje Dataverse v aplikaciji Project Operations tako, da upoštevate navodila v članku [Model uvajanja Dataverse](lite-deployment.md). Ko izberete vrsto okolja, obvezno izberite **Poskusna različica (na podlagi naročnine)**.
 
   ![Novo okolje.](./media/19CreateEnvironment.png)
 
@@ -63,9 +63,9 @@ Preden začnete, se prepričajte, da ste prijavljeni v brskalnik z uporabnikovim
 
 ![Namestitev rešitve.](./media/21InstallSolution.png)
 
-## <a name="set-up-demo-data"></a>Nastavite predstavitvene podatke
+## <a name="set-up-demo-data"></a>Nastavitev predstavitvenih podatkov
 
-Nastavite predstavitvene podatke po navodilih v članku, [Uporabi podatke o predstavitvenih nastavitvah in konfiguraciji](lite-apply-demo-setup-config-data.md).
+Nastavite predstavitvene podatke tako, da upoštevate navodila v članku [Uporaba predstavitvenih podatkov za nastavitev in konfiguracijo](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

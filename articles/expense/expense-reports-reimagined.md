@@ -1,6 +1,6 @@
 ---
-title: Prenovljena poročila o stroških (vsebuje video)
-description: Ta članek pojasnjuje preoblikovano in na novo zasnovano izkušnjo za vnos poročila o stroških.
+title: Prenovljena poročila o stroških (vsebuje videoposnetek)
+description: Ta članek pojasnjuje preoblikovano in na novo zamišljeno izkušnjo vnašanja poročil o stroških.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -58,7 +58,7 @@ Vnos poročila o stroških je bil preoblikovan v želji po poenostavitvi postopk
 | Shranjevanje in dodajanje novih vrstic stroškov | Pri vnosu novih stroškov sta na voljo gumba za možnosti **Shrani** in **Novo** za pomoč pri hitrem vnosu vrstic stroškov. |
 | Boljši vpogled v razdeljene in razčlenjene vrstice | Razčlenjene in razdeljene vrstice so za dodatno vidljivost dodane neposredno na seznam stroškov, kar vam pomaga opaziti morebitne napake. |
 | Ogled podrobnosti podkategorije v razčlenjenih vrsticah | Razčlenjene vrstice nadrejenega stroška prikazujejo oznake podkategorije v poročilu o stroških. Razčlenitev vam omogoča, da podatke pregledate na enem mestu.|
-|Hitro razčlenite ponavljajoče se stroške | Prenovljeni delovni prostor stroškov zagotavlja možnost hitrega razvrščanja ponavljajočih se stroškov z dodajanjem podkategorije, začetni datum in količino. Količina se nanaša na število ponovitev polnjenja v neprekinjenem obdobju. |
+|Hitra razčlenitev ponavljajočih se stroškov | Prenovljen delovni prostor za stroške omogoča hitro razčlenjevanje ponavljajočih se stroškov z dodajanjem podkategorije, začetnega datuma in količine. Količina se nanaša na število ponovitev stroška v neprekinjenem obdobju. |
 | Prikaz potrdil med razčlenjevanjem | Med razčlenjevanjem je mogoč prikaz potrdil. |
 | Izbira denarnega predujma | Izberite enega ali več predujmov za izpolnitev ene transakcije stroškov. |
 | Saldo denarnega predujma | Sprotno spremljajte saldo denarnega predujma, ko ustvarite vnos stroška glede na odobrene in plačane denarne predujme. |

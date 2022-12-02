@@ -1,6 +1,6 @@
 ---
 title: Prikaz poročila o stroških iz glavne knjige ali nabave in iskanja dobaviteljev
-description: V tem članku je razloženo, kako si ogledate izvirno poročilo o stroških, v katerem se je pojavila transakcija.
+description: V tem članku je pojasnjeno, kako si ogledate izvirno poročilo o stroških, v katerem se je pojavila transakcija.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article

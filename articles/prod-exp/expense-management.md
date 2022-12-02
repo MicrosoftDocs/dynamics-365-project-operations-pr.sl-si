@@ -43,7 +43,7 @@ Za več informacij glejte [Preoblikovana poročila o stroških](ExpenseWorkspace
 
 ### <a name="blogs"></a>Spletni dnevniki
 
-Mnenja, novice in druge informacije najdete na [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) in [Microsoft Dynamics 365 Finance - blog o financah](https://community.dynamics.com/365/financeandoperations/b/financials).
+Na spletnem mestu najdete mnenja, novice in druge informacije o [Microsoft Dynamics spletnem dnevniku 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) in [Microsoft Dynamics 365 Finance – spletni dnevnik o financah](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Spletni dnevnik partnerske skupnosti Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) zagotavlja partnerjem Microsoft Dynamics enovit vir za učenje o novostih in trendih v MBS Operations.
 

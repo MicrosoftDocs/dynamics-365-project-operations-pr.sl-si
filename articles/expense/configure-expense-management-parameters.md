@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje parametrov upravljanja stroškov
-description: Ta članek opisuje parametre, ki nadzorujejo splošno vedenje v upravljanju stroškov.
+description: V tem članku so opisani parametri, ki nadzorujejo splošno vedenje pri upravljanju stroškov.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8931488"
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta članek opisuje parametre, ki nadzorujejo splošno vedenje v upravljanju izdatkov.
+V tem članku so opisani parametri, ki nadzorujejo splošno vedenje pri upravljanju stroškov.
 
 ## <a name="general"></a>Splošno
 

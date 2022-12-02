@@ -1,6 +1,6 @@
 ---
 title: Ocena podrobnosti projektne pogodbe
-description: Ta članek vsebuje informacije o ocenah v vrstici projektne pogodbe.
+description: Ta članek vsebuje informacije o ocenah za vrstico projektne pogodbe.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

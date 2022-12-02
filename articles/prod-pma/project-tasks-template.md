@@ -1,6 +1,6 @@
 ---
-title: Sinhronizirajte projektne naloge neposredno iz Project Service Automation s financami in operacijami
-description: Ta članek opisuje predlogo in osnovno nalogo, ki se uporabljata za neposredno sinhronizacijo projektnih nalog Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Finance.
+title: Sinhronizacija projektnih opravil iz rešitve Project Service Automation v finance in postopke
+description: Ta članek opisuje predlogo in osnovno opravilo, ki se uporabljata za sinhronizacijo opravil projekta neposredno iz programa Microsoft Dynamics 365 Project Service Automation v Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: sl-SI
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028381"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizirajte projektne naloge neposredno iz Project Service Automation s financami in operacijami
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizacija projektnih opravil iz rešitve Project Service Automation v finance in postopke
 
 [!include[banner](../includes/banner.md)]
 
-Ta članek opisuje predlogo in osnovno nalogo, ki se uporabljata za neposredno sinhronizacijo projektnih nalog Dynamics 365 Project Service Automation na Dynamics 365 Finance.
+Ta članek opisuje predlogo in osnovno opravilo, ki se uporabljata za sinhronizacijo opravil projekta neposredno iz programa Dynamics 365 Project Service Automation v Dynamics 365 Finance.
 
 > [!NOTE]
 > - V različici 8.0 so na voljo integracija projektnih opravil, kategorije transakcije stroškov, ocene delovnih ur, ocene stroškov in zaklepanje funkcionalnosti.
@@ -67,11 +67,11 @@ Preden lahko pride do sinhronizacije opravil projekta, morate sinhronizirati pro
 
 ## <a name="power-query"></a>Power Query
 
-Uporabiti morate Microsoft Power Query da Excel filtrira podatke, če je izpolnjen ta pogoj:
+Če je ta pogoj izpolnjen, morate za filtriranje podatkov uporabiti rešitev Microsoft Power Query za Excel:
 
 - V opravilu projekta imate zapise, povezane z viri.
 
-Če morate uporabiti Power Query, upoštevajte to smernico:
+Če morate uporabiti rešitev Power Query, upoštevajte naslednjo navodilo:
 
 - Predloga opravil projekta (PSA v Fin in Ops) ima privzeti filter, ki iz opravila projekta izključi zapise, povezane z viri, tako, da filter v možnosti **IsLineTask** nastavi na **Napačno**. Če ustvarite svojo predlogo, morate dodati ta filter.
 

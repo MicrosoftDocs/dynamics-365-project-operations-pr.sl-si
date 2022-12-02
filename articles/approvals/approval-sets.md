@@ -1,6 +1,6 @@
 ---
 title: Nabori odobritev
-description: Ta članek pojasnjuje, kako delati z nizi odobritev, zahtevami in podnabori teh operacij.
+description: V tem članku je pojasnjeno, kako upravljati z nabori odobritev in zahtevami ter s podmnožicami teh postopkov.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
@@ -26,17 +26,17 @@ Odobritve, ki so v čakalni vrsti za obdelavo, so vidne v pogledu **Obdelava odo
 
 Polke **Življenjska doba nabora odobritev** beleži število poskusov obdelave niza, preden je označen kot neuspešen.
 
-Nizi odobritev se obdelujejo s periodično aktivacijo na podlagi a **Cloud Flow** imenovan **Projektna storitev – ponavljajoče razporejanje nizov odobritev projekta**. To najdemo v **rešitev** imenovan **Projektne operacije**. 
+Nabori odobritev se obdelujejo s periodično aktivacijo na podlagi **toka za oblak**, ki je poimenovan **Project Service – ponavljajoče se načrtovanje naborov odobritev projekta**. To najdemo v možnosti **Rešitev**, ki je poimenovana **Project Operations**. 
 
-Prepričajte se, da je pretok aktiviran, tako da dokončate naslednje korake.
+Prepričajte se, da je tok aktiviran tako, da dokončate naslednje korake.
 
 1. Kot skrbnik se prijavite v [flow.microsoft.com](https://powerautomate.microsoft.com).
-2. V zgornjem desnem kotu preklopite na okolje, za katerega uporabljate Dynamics 365 Project Operations.
-3. Izberite **Rešitve** za seznam rešitev, ki so nameščene v okolju.
-4. Na seznamu rešitev izberite **Projektne operacije**.
-5. Spremenite filter iz **Vse** do **Cloud Flows**.
-6. Preverite, ali je **Projektna storitev – ponavljajoče načrtovanje nizov odobritev projekta** pretok je nastavljen na **Vklopljeno**. Če ni, izberite tok in nato izberite **Vklopiti**.
-7. Preverite, ali se obdelava izvaja vsakih pet minut, tako da pregledate **Sistemska opravila** seznam v **nastavitve** področje znotraj vaših projektnih operacij Dataverse okolju.
+2. V zgornjem desnem kotu preklopite na okolje, ki ga uporabljate za Dynamics 365 Project Operations.
+3. Izberite možnost **Rešitve** za seznam rešitev, ki so nameščene v okolju.
+4. Na seznamu rešitev izberite **Project Operations**.
+5. Spremenite filter z **Vse** na **Tokovi za oblak**.
+6. Preverite, ali je tok **Project Service – ponavljajoče se načrtovanje naborov odobritev projekta** nastavljen na **Vklopljeno**. Če ni, izberite tok in nato možnost **Vklopi**.
+7. Preverite, ali se obdelava izvaja vsakih pet minut tako, da pregledate seznam **Sistemski posli** v območju **Nastavitve** znotraj vašega okolja Project Operations Dataverse.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Neuspešne odobritve in nabori odobritev
 Pogled **Neuspešne odobritve** ponuja seznam vseh odobritev, za katere mora posredovati uporabnik. Odprite povezane dnevnike nabora odobritev, da ugotovite vzrok napake.

@@ -1,6 +1,6 @@
 ---
 title: Vrste obdobij
-description: Ta članek vsebuje informacije o tem, kako nastaviti vrste obdobij za oceno prihodka.
+description: Ta članek vsebuje informacije o tem, kako nastaviti vrste obdobij za oceno prihodkov.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8930982"
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
 
-Vrsta obdobja določa, kako pogosto bodo izdelane ocene prihodkov od projekta. Ta članek vsebuje informacije o tem, kako nastaviti vrste obdobij za oceno prihodka. 
+Vrsta obdobja določa, kako pogosto bodo izdelane ocene prihodkov od projekta. Ta članek vsebuje informacije o tem, kako nastaviti vrste obdobij za oceno prihodkov. 
 
 ## <a name="create-and-work-with-period-types"></a>Ustvarjanje vrst obdobij in delo z njimi
 Če želite ustvariti vrste obdobij in delati z njimi, izvedite naslednje korake:
 
-1. V svojem Dynamics 365 Finance okolju pojdite na **Vodenje projektov in računovodstvo** > **Nastaviti** > **Ocene** > **Vrste obdobij**.
+1. V vašem okolju Dynamics 365 Finance odprite **Upravljanje projektov in računovodstvo** > **Nastavitev** > **Ocene** > **Vrste obdobij**.
 2. Če želite ustvariti novo vrsto obdobja, izberite **Novo**. Vnesite Ime in opis.
 3. V polje **Pogostost** vnesite vrednost:
 

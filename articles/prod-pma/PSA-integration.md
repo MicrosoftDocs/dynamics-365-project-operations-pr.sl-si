@@ -1,6 +1,6 @@
 ---
 title: Pregled rešitve Project Service Automation
-description: Ta članek vsebuje informacije o Dynamics 365 Project Service Automation na Dynamics 365 Finance integracijsko rešitev.
+description: Ta članek vsebuje informacije o rešitvi za integracijo Dynamics 365 Project Service Automation v Dynamics 365 Finance.
 author: ruhercul
 ms.date: 07/25/2019
 ms.topic: overview
@@ -25,7 +25,7 @@ ms.locfileid: "8929648"
 [!include[banner](../includes/banner.md)]
 
 
-Integracijska rešitev Project Service Automation to Finance uporablja funkcijo integracije podatkov za sinhronizacijo podatkov med primerki Dynamics 365 Finance in Dynamics 365 Project Service Automation preko Common Data Service. Predloge za integracijo, ki so na voljo s funkcijo za integracijo podatkov, omogočajo pretok projektov, projektne pogodbe, podrobnosti projektnih pogodb, mejnike podrobnosti projektnih pogodb, opravila projekta, kategorije transakcije stroškov, ocene delovnih ur in ocene stroškov iz rešitve Project Service Automation v Finance.
+Rešitev za integracijo rešitve Project Service Automation v Finance uporablja funkcijo za integracijo podatkov za sinhronizacijo podatkov med primerki rešitev Dynamics 365 Finance in Dynamics 365 Project Service Automation prek storitve Common Data Service. Predloge za integracijo, ki so na voljo s funkcijo za integracijo podatkov, omogočajo pretok projektov, projektne pogodbe, podrobnosti projektnih pogodb, mejnike podrobnosti projektnih pogodb, opravila projekta, kategorije transakcije stroškov, ocene delovnih ur in ocene stroškov iz rešitve Project Service Automation v Finance.
 
 > [!NOTE]
 > - Če uporabljate različico 7.3.0, morate namestiti KB 4074835. Potem boste lahko vključili projekte s fiksno ceno.

@@ -1,6 +1,6 @@
 ---
 title: Zaposlovanje pogodbenih delavcev in podizvajalskih zmogljivosti pri projektu
-description: Ta članek pojasnjuje, kako je mogoče projektne zahteve izpolniti s pogodbenimi delavci ali podizvajalskimi zmogljivostmi v Microsoftu Dynamics 365 Project Operations.
+description: V tem članku je pojasnjeno, kako je mogoče projektne zahteve izpolniti s pogodbenimi delavci ali podizvajalci v aplikaciji Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,38 +17,38 @@ ms.locfileid: "9522456"
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Člani generične projektne skupine so lahko zaposleni z zaposlenimi ali pogodbenimi delavci. Pri zaposlovanju projekta s pogodbenimi delavci lahko svoje možnosti zaposlovanja omejite na določene pogodbene delavce, ki so dodeljeni vrsti podizvajalcev. 
+Splošni člani projektne ekipe so lahko zapolnjeni z zaposlenimi ali pogodbenimi delavci. Pri zaposlovanju pogodbenih delavcev za projekt lahko svoje možnosti zaposlovanja omejite na določene pogodbene delavce, ki so dodeljeni podrobnostim podizvajalske pogodbe. 
 
-## <a name="search-for-staff-resource-requirements-with-contract-workers-that-belong-to-a-specific-subcontract-line"></a>Poiščite zahteve glede kadrovskih virov s pogodbenimi delavci, ki spadajo v določeno linijo podizvajalcev
+## <a name="search-for-staff-resource-requirements-with-contract-workers-that-belong-to-a-specific-subcontract-line"></a>Poiščite zahteve glede zaposlovanja s pogodbenimi delavci, ki spadajo v določene podrobnosti podizvajalske pogodbe
 
-Če želite poiskati in zahtevati kadrovske vire s pogodbenimi delavci, ki spadajo v določeno linijo podizvajalcev, sledite tem korakom:
+Če želite poiskati in zapolniti zahteve glede zaposlovanja s pogodbenimi delavci, ki spadajo v določene podrobnosti podizvajalske pogodbe, sledite naslednjim korakom:
 
-1. Ustvarite generičnega člana projektne skupine, ki se sklicuje na podizvajalsko pogodbo in vrstico podizvajalske pogodbe.
-2. Ustvarite zahtevo po sredstvih za tega generičnega člana projektne skupine z uporabo **Ustvari zahtevo** gumb na podmreži članov projektne skupine.
-3. Izberite vrstico s člani ekipe in nato izberite **Knjiga** gumb na podmreži. 
-4. S tem se odpre tabla razporeda s kontekstom zahteve. Skupaj z drugimi atributi, kot so datumi, vloge in polja organizacijske enote, se filtri tabele razporedov samodejno zapolnijo tudi s polji dobavitelja, podizvajalca in podizvajalske vrstice iz zahteve po sredstvih.
-5. Sistem išče vire, ki ustrezajo kriterijem filtra, in jih izpiše. 
+1. Ustvarite splošnega člana projektne ekipe, ki se sklicuje na podizvajalsko pogodbo in podrobnosti podizvajalske pogodbe.
+2. Ustvarite zahtevo vira za tega splošnega člana projektne ekipe tako, da uporabite gumb **Ustvarjanje zahteve** na podmreži članov projektne ekipe.
+3. Izberite vrstico s člani ekipe in nato izberite gumb **Rezervacija** na podmreži. 
+4. S tem se odpre tabela za načrtovanje s kontekstom zahteve. Filtri tabele za načrtovanje se skupaj z drugimi atributi, kot so datumi, vloge in polja organizacijske enote, samodejno zapolnijo tudi s polji dobavitelja, podizvajalca in podrobnostmi podizvajalske pogodbe iz zahteve za vir.
+5. Sistem išče vire, ki ustrezajo kriterijem filtra, in jih navede. 
 6. Izberite enega od filtriranih virov in rezervirajte vir za zahtevo. 
-7. Član projektne skupine je ustvarjen in posodobljen s podizvajalci in referencami podizvajalcev. Pojdi do **Ocene projekta** in izberite **Posodobite cene** da vidite posodobljene stroške dodelitve vira. 
+7. Član projektne ekipe je ustvarjen in posodobljen s podizvajalsko pogodbo in sklici podrobnosti podizvajalske pogodbe. Odprite **Ocene projekta** in izberite možnost **Posodobitev cene**, da si ogledate posodobljene stroške dodelitve vira. 
 
 > [!NOTE]
-> Posodabljanje člana projektne skupine s podizvajalsko pogodbo in referenco podizvajalske vrstice morda ne bo vedno mogoče med rezervacijo, če je vir dodeljen več podizvajalskim vrsticam. Če sistem ne more posodobiti člana projektne skupine s podizvajalsko pogodbo in podizvajalsko vrstico, odprite zapis člana projektne skupine in ročno posodobite ta polja, tako da bo ocena finančnih stroškov natančno odražala stroške podizvajalca.
+> Posodabljanje člana projektne ekipe s podizvajalsko pogodbo in sklicem podrobnosti podizvajalske pogodbe morda ne bo vedno mogoče med rezervacijo, če je vir dodeljen več podrobnostim podizvajalske pogodbe. Če sistem ne more posodobiti člana projektne ekipa s podizvajalsko pogodbo in podrobnostmi podizvajalske pogodbe, odprite zapis člana projektne ekipe in ročno posodobite ta polja tako, da bo ocena finančnih stroškov natančno odražala stroške podizvajalca.
 
-## <a name="search-for-and-staff-resource-requirements-with-any-contract-worker"></a>Poiščite zahteve glede kadrovskih virov pri katerem koli pogodbenem delavcu
+## <a name="search-for-and-staff-resource-requirements-with-any-contract-worker"></a>Iskanje in zapolnitev zahteve virov s katerim koli pogodbenim delavcem
 
-Če želite poiskati in zahtevati kadrovske vire s katerim koli pogodbenim delavcem, sledite tem korakom:
+Če želite poiskati in zapolniti zahteve virov s katerim koli pogodbenim delavcem, sledite naslednjim korakom:
 
-1. Ustvarite generičnega člana projektne skupine.
-2. Ustvarite zahtevo po sredstvih za tega generičnega člana projektne skupine z uporabo **Ustvari zahtevo** gumb na podmreži članov projektne skupine.
-3. Izberite vrstico s člani ekipe in nato izberite **Knjiga** gumb na podmreži. 
-4. S tem se odpre tabla razporeda s kontekstom zahteve. Skupaj z drugimi atributi, kot so datumi, vloge in polja organizacijske enote, se filtri tabele razporedov samodejno zapolnijo tudi s polji dobavitelja, podizvajalca in podizvajalske vrstice iz zahteve po sredstvih. Ker zahteva ni imela izpolnjenih vrednosti podizvajalske pogodbe ali vrstice podizvajalske pogodbe, bodo ti atributi v podoknu filtra prazni.
-5. Sistem išče vire, ki ustrezajo kriterijem filtra, in jih izpiše.
-6. Posodobite **Delavski tip** polje v podoknu filtra za **Pogodbeni delavec** omejiti iskanje na pogodbene delavce. Nadgradnja **Prodajalec** v podoknu s filtri, da izberete prodajalca, da omejite iskanje na prikaz samo pogodbenih delavcev, ki pripadajo določenemu podjetju prodajalca.
+1. Ustvarite splošnega člana projektne ekipe.
+2. Ustvarite zahtevo vira za tega splošnega člana projektne ekipe tako, da uporabite gumb **Ustvarjanje zahteve** na podmreži članov projektne ekipe.
+3. Izberite vrstico s člani ekipe in nato izberite gumb **Rezervacija** na podmreži. 
+4. S tem se odpre tabela za načrtovanje s kontekstom zahteve. Filtri tabele za načrtovanje se skupaj z drugimi atributi, kot so datumi, vloge in polja organizacijske enote, samodejno zapolnijo tudi s polji dobavitelja, podizvajalca in podrobnostmi podizvajalske pogodbe iz zahteve za vir. Ker zahteva ni imela izpolnjenih vrednosti podizvajalske pogodbe ali podrobnosti podizvajalske pogodbe, bodo ti atributi v podoknu s filtri prazni.
+5. Sistem išče vire, ki ustrezajo kriterijem filtra, in jih navede.
+6. Posodobite polje **Vrsta delavca** v podoknu s filtri na **Pogodbeni delavec**, da omejite iskanje na pogodbene delavce. Posodobite polje **Dobavitelj** v podoknu s filtri, da izberete dobavitelja in omejite iskanje na prikaz samo pogodbenih delavcev, ki pripadajo določenemu podjetju dobavitelja.
 7. S seznama izberite pogodbenega delavca in rezervirajte vir za zahtevo.
-8. Ustvari se član projektne skupine. Vendar član projektne skupine ni posodobljen z nobeno podizvajalsko pogodbo ali vrstico podizvajalske pogodbe, zato dodelitev virov ne bo ovrednotena z uporabo cen podizvajalske pogodbe. Ročno posodobite člana projektne skupine s podizvajalsko vrstico in pojdite na **Ocene projekta** in izberite **Posodobite cene** da vidite posodobljene stroške dodelitve vira.
+8. Splošni član projektne ekipe je ustvarjen. Vendar član projektne ekipe ni posodobljen z nobeno podizvajalsko pogodbo ali podrobnostmi podizvajalske pogodbe, zato dodelitev virov ne bo ovrednotena s cenami podizvajalske pogodbe. Ročno posodobite člana projektne ekipe s podrobnostmi podizvajalske pogodbe in odprite **Ocene projekta** ter izberite možnost **Posodobitev cene**, da si ogledate posodobljene stroške dodelitve vira.
 
 > [!NOTE]
-> Člani projektne skupine, ki imajo **Delavski tip** kot **Pogodbeni delavec** vendar nimajo reference podizvajalca, so označeni kot **Neveljavno** na **Člani projektne skupine** mreža. Če obstajajo člani projektne skupine s tem statusom, odprite zapis člana projektne skupine in ročno posodobite polja podizvajalske pogodbe in vrstice podizvajalske pogodbe, tako da bo ocena finančnih stroškov natančno odražala stroške podizvajalca na **Ocene** zavihek. 
+> Člani projektne ekipe, ki imajo možnost **Vrsta delavca** nastavljeno kot **Pogodbeni delavec**, vendar nimajo sklica na podizvajalsko pogodbo, so v mreži **Člani projektne ekipe** označeni kot **Neveljavno**. Če obstajajo člani projektne ekipe s tem stanjem, odprite zapis člana projektne ekipe in ročno posodobite polja podizvajalske pogodbe in podrobnosti podizvajalske pogodbe tako, da bo ocena finančnih stroškov natančno odražala stroške podizvajalca v zavihku **Ocene**. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

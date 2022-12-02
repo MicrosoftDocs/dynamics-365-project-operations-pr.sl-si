@@ -1,6 +1,6 @@
 ---
-title: Sinhronizirajte ocene projekta neposredno iz Project Service Automation s financami in operacijami
-description: Ta članek opisuje predloge in osnovna opravila, ki se uporabljajo za sinhronizacijo ocen projektnih ur in ocen stroškov projekta neposredno iz Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Finance.
+title: Sinhronizacija ocen projekta iz rešitve Project Service Automation v finance in postopke
+description: Ta članek opisuje predloge in temeljna opravila, ki se uporabljajo za sinhronizacijo ocen delovnih ur projekta in ocen stroškov projekta neposredno iz rešitve Microsoft Dynamics 365 Project Service Automation v Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: sl-SI
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9029825"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizirajte ocene projekta neposredno iz Project Service Automation s financami in operacijami
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizacija ocen projekta iz rešitve Project Service Automation v finance in postopke
 
 [!include[banner](../includes/banner.md)]
 
-Ta članek opisuje predloge in osnovna opravila, ki se uporabljajo za sinhronizacijo ocen projektnih ur in ocen stroškov projekta neposredno iz Dynamics 365 Project Service Automation na Dynamics 365 Finance.
+Ta članek opisuje predloge in temeljna opravila, ki se uporabljajo za sinhronizacijo ocen delovnih ur projekta in ocen stroškov projekta neposredno iz rešitve Dynamics 365 Project Service Automation v Dynamics 365 Finance.
 
 > [!NOTE]
 > - V različici 8.0 so na voljo integracija projektnih opravil, kategorije transakcije stroškov, ocene delovnih ur, ocene stroškov in zaklepanje funkcionalnosti.
@@ -69,7 +69,7 @@ Preden lahko pride do sinhronizacije ocen delovnih ur projekta, morate sinhroniz
 
 ### <a name="power-query"></a>Power Query
 
-V predlogi za ocene ur projekta morate uporabiti Microsoft Power Query da Excel opravi te naloge:
+V predlogi za oceno delovnih ur projekta morate uporabiti Microsoft Power Query za Excel, če želite dokončati naslednja opravila:
 
 - Nastavite privzeti ID modela napovedi, ki se bo uporabljal, ko bo integracija ustvarila nove napovedi delovnih ur.
 - S filtriranjem izločite vse zapise, povezane z viri, v opravilu, ki bo neuspešno izvedlo integracijo napovedi delovnih ur.
@@ -80,7 +80,7 @@ V predlogi za ocene ur projekta morate uporabiti Microsoft Power Query da Excel 
 Če želite v predlogi posodobiti privzeti ID modela napovedi, kliknite puščico **Zemljevid**, da odprete preslikavo. Nato izberite povezavo **Napredno pošiljanje poizvedb in filtriranje**.
 
 - Če uporabljate privzeto predlogo Ocena delovnih ur projekta (PSA v Fin in Ops), izberite možnost **Vstavljen pogoj** na seznamu **Uporabljeni koraki**. V vnosu **Funkcija** zamenjajte **Napoved O\_** z imenom ID-ja modela napovedi, ki ga je treba uporabiti pri integraciji. Privzeta predloga vsebuje ID modela napovedi iz predstavitvenih podatkov.
-- Če ustvarjate novo predlogo, morate dodati ta stolpec. notri Power Query, izberite **Dodaj pogojni stolpec** in vnesite ime za nov stolpec, kot je **ID modela**. Vnesite pogoj za stolpec; če vrednost projektnega opravila ni »null«, potem je \<enter the forecast model ID\>; v nasprotnem primeru ju »null«.
+- Če ustvarjate novo predlogo, morate dodati ta stolpec. V rešitvi Power Query izberite **Dodaj pogojni stolpec** in vnesite ime novega stolpca, na primer **ModelID**. Vnesite pogoj za stolpec; če vrednost projektnega opravila ni »null«, potem je \<enter the forecast model ID\>; v nasprotnem primeru ju »null«.
 
 #### <a name="filter-out-resource-specific-records"></a>S filtriranjem izločite zapise, povezane z viri
 
@@ -125,7 +125,7 @@ Preden lahko pride do sinhronizacije ocen stroškov projekta, morate sinhronizir
 
 ### <a name="power-query"></a>Power Query
 
-V predlogi ocene stroškov projekta morate uporabiti Power Query za dokončanje naslednjih nalog:
+V predlogi za oceno stroškov projekta morate uporabiti rešitev Power Query, če želite dokončati naslednja opravila:
 
 - S filtriranjem poiščite izključno zapise vrstic ocene stroškov.
 - Nastavite privzeti ID modela napovedi, ki se bo uporabljal, ko bo integracija ustvarila nove napovedi delovnih ur.
@@ -140,8 +140,8 @@ Predloga Ocena stroškov projekta (PSA v Fin in Ops) ima privzeti filter, ki vkl
 
 Če želite v predlogi posodobiti privzeti ID modela napovedi, izberite opravilo **Ocene stroškov** in kliknite puščico **Zemljevid**, da odprete preslikavo. Izberite povezavo **Napredno pošiljanje poizvedb in filtriranje**.
 
-- Če uporabljate predlogo privzete ocene stroškov projekta (PSA v Fin in Ops), v Power Query, izberite prvo **Vstavljeno stanje** Iz **Uporabljeni koraki** razdelek. V vnosu **Funkcija** zamenjajte **Napoved O\_** z imenom ID-ja modela napovedi, ki ga je treba uporabiti pri integraciji. Privzeta predloga vsebuje ID modela napovedi iz predstavitvenih podatkov.
-- Če ustvarjate novo predlogo, morate dodati ta stolpec. notri Power Query, izberite **Dodaj pogojni stolpec** in vnesite ime za nov stolpec, kot je **ID modela**. Vnesite pogoj za stolpec; če vrednost ID-ja vrstice ocene ni »null«, potem je \<enter the forecast model ID\>; v nasprotnem primeru ju »null«.
+- Če uporabljate privzeto predlogo Ocena stroškov projekta (PSA v Fin in Ops), v rešitvi Power Query najprej izberite možnost **Vstavljen pogoj** v razdelku **Uporabljeni koraki**. V vnosu **Funkcija** zamenjajte **Napoved O\_** z imenom ID-ja modela napovedi, ki ga je treba uporabiti pri integraciji. Privzeta predloga vsebuje ID modela napovedi iz predstavitvenih podatkov.
+- Če ustvarjate novo predlogo, morate dodati ta stolpec. V rešitvi Power Query izberite **Dodaj pogojni stolpec** in vnesite ime novega stolpca, na primer **ModelID**. Vnesite pogoj za stolpec; če vrednost ID-ja vrstice ocene ni »null«, potem je \<enter the forecast model ID\>; v nasprotnem primeru ju »null«.
 
 #### <a name="transform-the-billing-types"></a>Sprememba vrst obračuna
 

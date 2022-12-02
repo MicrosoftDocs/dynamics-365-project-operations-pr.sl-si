@@ -1,6 +1,6 @@
 ---
 title: Potrditev, posodabljanje in pošiljanje projektne ponudbe
-description: Ta članek vsebuje informacije o pošiljanju ponudbe stranki v potrditev, spreminjanju na podlagi povratnih informacij in nato ponovnem pošiljanju ponudbe.
+description: Ta članek vsebuje informacije o pošiljanju ponudbe v potrjevanje stranki, spreminjanju ponudbe na podlagi povratnih informacij in ponovnemu pošiljanju ponudbe.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article

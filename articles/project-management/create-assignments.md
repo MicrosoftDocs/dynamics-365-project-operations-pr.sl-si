@@ -1,6 +1,6 @@
 ---
 title: Ustvarjanje dodelitev virov
-description: Ta članek vsebuje informacije o ustvarjanju splošnih in poimenovanih dodelitev virov.
+description: Ta članek vsebuje informacije o ustvarjanju splošnih in imenovanih dodelitev virov.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: ruhercul
 ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: sl-SI
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8933512"
@@ -18,7 +18,7 @@ ms.locfileid: "8933512"
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
 
-Dodelitev vira je neposredno povezovanje člana projektne skupine z opravilom listnega vozlišča. Ta članek vsebuje informacije o različnih načinih dodeljevanja virov.
+Dodelitev vira je neposredno povezovanje člana projektne skupine z opravilom listnega vozlišča. Ta članek vsebuje informacije o treh različnih načinih dodeljevanja virov.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Ustvarite generičnega člana ekipe z dodeljevanjem opravila
 

@@ -1,6 +1,6 @@
 ---
 title: Novosti v novembru 2020 – Project Operations za primere uporabe z naročili na zalogi/v proizvodnji
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations iz novembra 2020 za scenarije, ki temeljijo na založeni proizvodnji.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v novembrski izdaji (2020) aplikacije Project Operations za primere uporabe z naročili na zalogi/v proizvodnji.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
@@ -23,7 +23,7 @@ Za informacije o popravkih, vključenih v tej posodobitvi, se prijavite v storit
 
 ## <a name="regulatory-updates"></a>Regulativne posodobitve
 
-Za informacije o regulativnih posodobitvah za aplikacije za finance in poslovanje Dynamics 365 glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+Za informacije o regulativnih posodobitvah za aplikacije Dynamics 365 za finance in postopke glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

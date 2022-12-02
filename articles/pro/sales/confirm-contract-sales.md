@@ -1,6 +1,6 @@
 ---
 title: Potrditev projektne pogodbe
-description: Ta članek vsebuje informacije o potrditvi pogodbe v Project Operations.
+description: Ta članek vsebuje informacije o tem, kako se v aplikaciji Project Operations potrdi pogodbo.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Novosti v novembru 2020 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations novembra 2020 za scenarije, ki temeljijo na virih/brez zalog.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v novembrski izdaji (2020) aplikacije Project Operations za scenarije, ki temeljijo na virih/nezalogi.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "9029550"
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta člen se nanaša na naslednje Dynamics 365 Project Operations komponente in različice:
+Ta članek velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
 - Project Operations v okolju CDS, različica 4.4.0.70
-- Projektno vodenje in računovodstvo v okolju Dynamics 365 Finance verzija 10.0.14
+- Upravljanje projektov in računovodstvo v okoljih aplikacije Dynamics 365 Finance različice 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Posodobitve aplikacije Project Operations za scenarije, ki temeljijo na virih/nezalogi
 
@@ -42,7 +42,7 @@ Ta člen se nanaša na naslednje Dynamics 365 Project Operations komponente in r
 | Vnos časa in hitrih stroškov | 2059859          | Pri ustvarjanju vnosa stroškov se odpre nepričakovano pojavno okno.                                                                                                                         |
 | Drugo                        | 2044181          | (Odstranjevanje naročilnice) ko poskušate odstraniti osnovni rešitvi storitve »msdyn_ProjectServiceCore_Patch« in »msdyn Project«, pride do napake »Zapis ni na voljo«.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Vodenje projektov in računovodstvo v Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektov in računovodstvo v okoljih aplikacij Dynamics 365 Finance
 
 | Območje funkcij        | Številka sklica | Posodobitev kakovosti                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Ta člen se nanaša na naslednje Dynamics 365 Project Operations komponente in r
 | Vodenje računov projekta  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Če omogočite funkcijo, možnost več pogodbenih vrstic ni mogoča brez integracije CDS-ja.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regulativne posodobitve
-Za informacije o regulativnih posodobitvah za aplikacije za finance in poslovanje glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+Za informacije o regulativnih posodobitvah za aplikacije za finance in postopke glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

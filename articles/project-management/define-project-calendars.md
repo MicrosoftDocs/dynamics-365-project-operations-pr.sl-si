@@ -1,6 +1,6 @@
 ---
 title: Določitev koledarjev projektov
-description: Ta članek vsebuje informacije o tem, kako uporabiti predlogo koledarja za projekt za sledenje urniku projekta.
+description: Ta članek vsebuje informacije o tem, kako uporabiti predlogo koledarja v projektu za sledenje razporedu projekta.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article

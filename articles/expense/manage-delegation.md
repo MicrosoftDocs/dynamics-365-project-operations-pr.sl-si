@@ -1,6 +1,6 @@
 ---
 title: Upravljanje pooblastitev
-description: Ta članek vsebuje informacije o tem, kako lahko pooblaščenec za stroške ustvari in upravlja poročila o stroških za drugega zaposlenega.
+description: Ta članek vsebuje informacije o tem, kako lahko pooblaščenec za stroške ustvari in upravlja poročila o stroških drugega zaposlenega.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

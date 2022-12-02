@@ -1,6 +1,6 @@
 ---
 title: Urejanje pogoja za vir
-description: Ta članek vsebuje informacije o posodabljanju informacij o zahtevah po virih.
+description: Ta članek vsebuje informacije o posodabljanju podatkov zahteve za vir.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

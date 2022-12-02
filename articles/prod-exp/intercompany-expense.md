@@ -1,6 +1,6 @@
 ---
 title: Medpodjetni stroški
-description: Ta članek vsebuje informacije o tem, kako uporabiti medpodjetniške stroške za dodelitev stroškov delavca pravni osebi, za katero je bilo delo opravljeno.
+description: V tem članku so na voljo informacije o tem, kako uporabite stroške med podjetji za dodelitev stroškov delavca pravni osebi, za katero je bilo delo opravljeno.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article

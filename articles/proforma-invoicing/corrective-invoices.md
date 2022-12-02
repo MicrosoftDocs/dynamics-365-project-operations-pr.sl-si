@@ -1,6 +1,6 @@
 ---
 title: Popravljalni računi, ki temeljijo na projektih
-description: Ta članek vsebuje informacije o tem, kako ustvariti in potrditi popravne račune, ki temeljijo na projektih, v Project Operations.
+description: Ta članek vsebuje informacije o tem, kako v aplikaciji Project Operations ustvariti in potrditi popravljalne račune, ki temeljijo na projektu.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article

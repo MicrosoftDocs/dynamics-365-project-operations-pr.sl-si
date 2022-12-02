@@ -1,6 +1,6 @@
 ---
 title: Upravljanje nedokončanih opravil obračunavanja v projektu
-description: Ta članek ponuja informacije o različnih pogledih, ki so na voljo za uporabo pri upravljanju zaostanka zaračunavanja projektov.
+description: Ta članek vsebuje informacije o različnih pogledih, ki so na voljo za upravljanje nedokončanih opravil obračunavanja na projektih.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

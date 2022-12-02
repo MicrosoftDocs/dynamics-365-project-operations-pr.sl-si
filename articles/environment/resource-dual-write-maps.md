@@ -1,6 +1,6 @@
 ---
 title: Različice preslikave dvojnega zapisovanja za Project Operations
-description: Ta članek vsebuje seznam preslikav dvojnega pisanja, ki so potrebne za Dynamics 365 Project Operations.
+description: Ta članek zagotavlja seznam preslikav za dvojno zapisovanje, ki jih potrebuje aplikacija Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
@@ -25,12 +25,12 @@ Naslednje preslikave so predpogoj za rešitev Project Operations. Zaženite pres
 
 | Preslikava tabele | Začetna sinhronizacija |
 | --- | --- |
-| Knjiga (msdyn_ledgers) | Zahteva začetno sinhronizacijo za preslikavo tabele in vse predpogoje. Glavni za začetno sinhronizacijo so aplikacije za finance in poslovanje. |
+| Knjiga (msdyn_ledgers) | Zahteva začetno sinhronizacijo za preslikavo tabele in vse predpogoje. Za začetno sinhronizacijo so glavne aplikacije za finance in postopke. |
 | Pravne osebe (cdm_companies) | Ni potrebno. Sistem samodejno zapolni to entiteto, ko so okolja povezana z dvojnim zapisovanjem. |
 | Stranke V3 (računi) | Ni potrebno za omogočanje uporabe. |
 | Dobavitelji V2 (msdyn_vendors) | Ni potrebno za omogočanje uporabe. |
 
-1. Na seznamu preslikav izberite preslikavo »Glavna knjiga **(msdyn\_ledgers)**« z vsemi zahtevami in izberite potrditveno polje **Začetna sinhronizacija**. V **Glavni za začetno sinhronizacijo** polje izberite **Aplikacije za finance in poslovanje** tako za zemljevid glavne knjige kot za vse predpogojne zemljevide. Izberite **Zaženi**.
+1. Na seznamu preslikav izberite preslikavo »Glavna knjiga **(msdyn\_ledgers)**« z vsemi zahtevami in izberite potrditveno polje **Začetna sinhronizacija**. V polju **Glavni za začetno sinhronizacijo** izberite **Aplikacije za finance in postopke** za preslikavo glavne knjige in zahtevane preslikave. Izberite **Zaženi**.
 
 ![Sinhronizacija preslikave knjige.](media/DW6.png)
 
@@ -40,13 +40,13 @@ Naslednje preslikave so predpogoj za rešitev Project Operations. Zaženite pres
 
 Naslednje preslikave so obvezne za rešitev Project Operations. Naštete so različice preslikave dvojnega zapisovanja, prva je posodobitev aplikacije Project Operations v maju 2021, različica 4.10.0.186.
 
-| Preslikava entitete | Najnovejša različica | Začetna sinhronizacija | Zahtevana različica Dynamics 365 Finance |
+| Preslikava entitete | Najnovejša različica | Začetna sinhronizacija | Zahtevana različica aplikacije Dynamics 365 Finance |
 | --- | --- | --- | --- |
 | Entiteta za integracijo za odnose projektne transakcije (msdyn\_transactionconnections) | 1.0.0.0 | Ni potrebno za omogočanje uporabe. ||
 | Glave projektnih pogodb (prodajni nalogi) | 1.0.0.1 | Ni potrebno za omogočanje uporabe. ||
 | Podrobnosti pogodbe (salesorderdetails) | 1.0.0.0 | Ni potrebno za omogočanje uporabe. ||
 | Vir financiranja projekta (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Ni potrebno za omogočanje uporabe. ||
-| Projektna integracijska tabela za ocene materiala (msdyn\_ ocene) | 1.0.0.0 | Ni potrebno za omogočanje uporabe. ||
+| Integracije tabele aplikacije projekta za ocene materiala (msdyn\_estimatelines) | 1.0.0.0 | Ni potrebno za omogočanje uporabe. ||
 | Predlogi za račune projekta V2 (računi) | 1.0.0.3 | Ni potrebno za omogočanje uporabe. ||
 | Dejanske vrednosti integracije za Project Operations (msdyn_actuals) | 1.0.0.15 | Ni potrebno za omogočanje uporabe. |10.0.29 ali novejša|
 | Mejniki podrobnosti izvajalske pogodbe integracije aplikacije Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Ni potrebno za omogočanje uporabe. ||

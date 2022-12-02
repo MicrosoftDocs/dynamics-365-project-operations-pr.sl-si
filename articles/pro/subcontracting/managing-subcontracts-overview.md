@@ -1,6 +1,6 @@
 ---
 title: Upravljanje podizvajalskih pogodb v aplikaciji Project Operations
-description: Ta članek nudi pregled postopka upravljanja podizvajalskih pogodb od konca do konca, ki je običajno v projektnih organizacijah.
+description: V tem članku je predstavljen postopek upravljanja celovite podizvajalske pogodbe, in sicer v organizacijah, v katerih poslovanje poteka na podlagi projektov.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "9522346"
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Ta članek ponuja pregled procesa upravljanja s podizvajalci od konca do konca v projektno temelječih organizacijah. Izdajanje podizvajalskih pogodb za storitve navadno sledi poteku poslovnega procesa, ki je prikazan v naslednjem diagramu.
+Ta članek prikazuje pregled postopka upravljanja celovite podizvajalske pogodbe v organizacijah, v katerih poslovanje poteka na podlagi projektov. Izdajanje podizvajalskih pogodb za storitve navadno sledi poteku poslovnega procesa, ki je prikazan v naslednjem diagramu.
 
 ![Potek procesa podizvajalskih pogodb](../media/SubcontractingProcessFlow.png)
 
@@ -45,7 +45,7 @@ Podrobnosti podizvajalske pogodbe lahko temeljijo na količini ali na delu.
 
 Če podrobnosti podizvajalske pogodbe **temeljijo na količini**, je lahko količina, ki je v podrobnostih podizvajalske pogodbe naročena za čas, stroške ali material, uporabljena za katerikoli projekt.
 
-Če podrobnosti podizvajalske pogodbe **temeljijo na delu**, se preslikajo v delo, ki ga predstavlja vozlišče v načrtu projekta. Vrednost podrobnosti podizvajalske pogodbe sestavlja vsota vseh komponent, ki so potrebne, da je to delo opravljeno. Te so oblikovane kot podrobnosti vrstice podizvajalske pogodbe in lahko obsegajo zbirko za čas, stroške ali material. Podrobnosti podizvajalske pogodbe, ki temeljijo na delu, so prav tako namenjene enemu projektu. Te vrste podizvajalskih pogodb trenutno ne podpirajo projektne operacije.
+Če podrobnosti podizvajalske pogodbe **temeljijo na delu**, se preslikajo v delo, ki ga predstavlja vozlišče v načrtu projekta. Vrednost podrobnosti podizvajalske pogodbe sestavlja vsota vseh komponent, ki so potrebne, da je to delo opravljeno. Te so oblikovane kot podrobnosti vrstice podizvajalske pogodbe in lahko obsegajo zbirko za čas, stroške ali material. Podrobnosti podizvajalske pogodbe, ki temeljijo na delu, so prav tako namenjene enemu projektu. Te vrste podizvajalskih pogodb trenutno niso podprte v aplikaciji Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

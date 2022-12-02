@@ -1,6 +1,6 @@
 ---
 title: Novosti za junij 2022 – poenostavljeno uvajanje aplikacije Project Operations
-description: V tem članku so informacije o posodobitvah kakovosti, ki so na voljo v izdaji Microsofta junija 2022 Dynamics 365 Project Operations enostavna uvedba.
+description: V tem članku so na voljo informacije o posodobitvah kakovosti, ki so na razpolago v junijski (2022) izdaji poenostavljenega uvajanja aplikacije Microsoft Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 06/03/2022
 ms.topic: article
@@ -18,20 +18,20 @@ ms.locfileid: "9031213"
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
+Ta članek velja za naslednje komponente in različice aplikacije Microsoft Dynamics 365 Project Operations:
 
-- Projektne operacije v a Dataverse okoljska različica 4.43.0.77 ali 4.43.0.119
+- Project Operations v okolju Dataverse različice 4.43.0.77 ali 4.43.0.119
 
 ## <a name="quality-updates"></a>Posodobitve kakovosti
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |
-| Podizvajanje | 2708885 | Odpravljeno je sporočilo o napaki, ki se prikaže, ko uporabnik ustvari zapis glave rezervacije vira, ki ga je mogoče rezervirati, kjer ni izpolnjen vir, ki ga je mogoče rezervirati. |
-| Načrtovanje in sledenje projektov | 2629441 | Popravljena je bila logika sprožitve delovnega toka, da bi preprečili neskončno zanko, ko so projektne naloge posodobljene. |
-| Čas in strošek | 2641209 | Uvozi časovnih vnosov iz dodelitev/rezervacij morajo ohraniti referenco vira, ki ga je mogoče rezervirati. |
-| Načrtovanje in sledenje projektov | 2651148 | Glava projektnega dokumenta mora biti varovana.|
-| Načrtovanje in sledenje projektov | 2653145 | Dodana preverjanja veljavnosti za zagotovitev, da ni mogoče ustvariti zapisa projekta, ki ima v imenu neveljavne znake. |
-| Čas in strošek | 2654710 | Popravljeno filtriranje na **Odobritve** strani. |
-| Zaračunavanje in cene | 2667805 | Dodana preverjanja veljavnosti za pomoč pri preprečevanju ustvarjanja zaračunanih dejanskih prodajnih vrednosti, če podporne nezaračunane dejanske prodajne vrednosti ne obstajajo. |
-| Zaračunavanje in cene | 2668378 | Dodana preverjanja veljavnosti za pomoč pri preprečevanju dodajanja dimenzij cen po meri, razen če sta izpolnjena logično ime in ime polja. |
-| Čas in strošek | 2700428 | Izboljšana je logika odobritev za zagotovitev, da je mogoče obdelati druge nize odobritev za projekt, tudi če je eden od nizov odobritev obtičal v sistemskih opravilih. |
+| Podizvajalske pogodbe | 2708885 | Odpravljeno je sporočilo o napaki, ki se prikaže, ko uporabnik ustvari zapis glave za rezervacijo vira, ki ga je mogoče rezervirati, kjer ta ni izpolnjen. |
+| Načrtovanje in sledenje projektov | 2629441 | Popravljena logika sprožitve delovnega toka, da bi preprečili neskončno zanko, ko so opravila projekta posodobljena. |
+| Čas in strošek | 2641209 | Uvozi časovnih vnosov iz dodelitev/rezervacij morajo ohraniti sklic vira, ki ga je mogoče rezervirati. |
+| Načrtovanje in sledenje projektov | 2651148 | Glava dokumenta projekta mora biti varovana.|
+| Načrtovanje in sledenje projektov | 2653145 | Dodana preverjanja veljavnosti za preprečevanje ustvarjanja zapisa projekta, ki ima v imenu neveljavne znake. |
+| Čas in strošek | 2654710 | Popravljeno filtriranje na strani **Odobritve**. |
+| Zaračunavanje in cene | 2667805 | Dodana preverjanja veljavnosti za pomoč pri preprečevanju ustvarjanja obračunanih dejanskih prodajnih vrednosti, če podporne neobračunane dejanske prodajne vrednosti ne obstajajo. |
+| Zaračunavanje in cene | 2668378 | Dodana preverjanja veljavnosti za pomoč pri preprečevanju dodajanja razsežnosti cen po meri, razen če sta izpolnjena logično ime in ime polja. |
+| Čas in strošek | 2700428 | Izboljšana logika odobritev za zagotavljanje obdelave drugih nizov odobritev za projekt, tudi če je eden od nizov odobritev obtičal v sistemskih poslih. |

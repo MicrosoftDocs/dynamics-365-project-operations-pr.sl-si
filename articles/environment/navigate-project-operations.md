@@ -1,6 +1,6 @@
 ---
 title: Pomik v aplikacijo Project Operations
-description: Ta članek vsebuje informacije o tem, kako dostopati do projektnih operacij iz storitev življenjskega cikla.
+description: Ta članek vsebuje informacije o tem, kako dostopati do aplikacije Project Operations iz portala Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
@@ -22,9 +22,9 @@ _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/m
 Dynamics 365 Project Operations za primere uporabe z viri/brez zalog je sestavljena iz dveh komponent: 
 
  - **Project Operations v okolju Common Data Service (CDS)**: ta komponenta zajema zmogljivosti in procese od priložnosti do predračuna. 
- - **Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance** : Ta komponenta zajema zmogljivosti upravljanja odhodkov, projektnega računovodstva in priznavanja prihodkov. 
+ - **Upravljanje projektov in računovodstvo v okolju Dynamics 365 Finance**: ta komponenta zajema zmogljivosti upravljanja stroškov, vodenje računov projekta in pripoznavanje prihodkov. 
 
-Ko zagotovite operacije projekta, kot je opisano v tem članku, storitve življenjskega cikla (LCS) **Podrobnosti o okolju** stran omogoča enostaven dostop do obeh komponent Project Operations.  
+Ko omogočite aplikacijo Project Operations, na način, ki je opisan v tem članku, stran **Podrobnosti o okolju** v storitvi Lifecycle Services (LCS) zagotavlja enostaven dostop do obeh komponent aplikacije Project Operations.  
 
 V razdelku **Ime okolja Common Data Service** uporabite ime okolja za pomik v aplikacijo Project Operations v okolju CDS. 
 

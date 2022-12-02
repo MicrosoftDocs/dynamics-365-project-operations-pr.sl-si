@@ -1,6 +1,6 @@
 ---
 title: Novosti za april 2021 – poenostavljeno uvajanje Project Operations
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji različice Project Operations lite iz aprila 2021.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so bile na voljo v izdaji za poenostavljeno uvajanje Project Operations aprila 2021.
 author: sigitac
 ms.date: 04/07/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8931259"
 
 _Velja za: poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta članek velja za naslednje Dynamics 365 Project Operations komponente in različice:
+Ta članek velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
   - Project Operations v okolju Dataverse različice 4.9.0.221 
 

@@ -1,6 +1,6 @@
 ---
 title: Projektni prodajni nalogi za časovne in materialne projekte
-description: V tem članku je razloženo, kako ustvariti projektna prodajna naročila za časovne in materialne projekte.
+description: Ta članek pojasnjuje, kako ustvariti prodajne naloge na podlagi projekta za časovne in materialne projekte.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8933834"
 
 [!include[banner](../includes/banner.md)]
 
-Ta članek opisuje, kako ustvariti prodajno naročilo za projekt. Prodajni nalog je mogoče ustvariti samo za projekte tipa **čas in material**.
+Ta članek opisuje, kako ustvariti prodajni nalog za projekt. Prodajni nalog je mogoče ustvariti samo za projekte tipa **čas in material**.
 
 Če ima časovni in materialni projekt po pogodbi več virov financiranja, morate omogočiti parameter **Omogoči prodajne naloge za projekte z več viri financiranja** na strani **Parametri za vodenje projektov in računovodstvo**. 
 

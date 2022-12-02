@@ -1,6 +1,6 @@
 ---
 title: Delovni prostor za vnos časa v projektu prek mobilne naprave
-description: Ta članek ponuja informacije o mobilnem delovnem prostoru za vnos časa projekta. Ta delovni prostor omogoča uporabnikom, da vnesejo čas v projektu in ga shranijo prek mobilne naprave.
+description: Ta članek vsebuje informacije o mobilnem delovnem prostoru za vnos časa v projektu. Ta delovni prostor omogoča uporabnikom, da vnesejo čas v projektu in ga shranijo prek mobilne naprave.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "9029688"
 
 [!include [banner](../includes/banner.md)]
 
-Ta članek vsebuje informacije o **Vnos časa projekta** mobilni delovni prostor. Ta delovni prostor omogoča uporabnikom, da vnesejo čas v projektu in ga shranijo prek mobilne naprave.
+Ta članek vsebuje informacije o mobilnem delovnem prostoru za **Vnos časa v projektu**. Ta delovni prostor omogoča uporabnikom, da vnesejo čas v projektu in ga shranijo prek mobilne naprave.
 
 Ta mobilni delovni prostor je namenjen uporabi z mobilno aplikacijo Dynamics 365 Unified Ops. 
 
@@ -44,7 +44,7 @@ Natančneje, v delovnem prostoru za **vnos časa v projektu** prek mobilne napra
 ## <a name="prerequisites"></a>Zahteve
 Predpogoji se razlikujejo glede na različico rešitve Microsoft Dynamics 365, ki je uvedena za organizacijo.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Predpogoji, če uporabljate Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Predpogoji, če uporabljate aplikacijo Dynamics 365 Finance
 Če je bila za vašo organizacijo uvedena rešitev Finance, mora skrbnik sistema objaviti delovni prostor za **vnos časa v projektu** prek mobilne naprave. Za navodila glejte [Objava mobilnega delovnega prostora](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Predpogoji, če uporabljate različico 1611 s posodobitvijo platforme na 3 ali novejšo
@@ -82,7 +82,7 @@ Predpogoji se razlikujejo glede na različico rešitve Microsoft Dynamics 365, k
 
 ## <a name="download-and-install-the-mobile-app"></a>Prenos in namestitev mobilne aplikacije
 
-Prenesite in namestite mobilno aplikacijo za finance in poslovanje:
+Prenos in namestitev mobilne aplikacije za finance in postopke:
 
 -   [Za telefone s sistemom Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Za naprave iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

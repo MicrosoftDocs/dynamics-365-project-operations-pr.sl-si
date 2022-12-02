@@ -1,6 +1,6 @@
 ---
 title: Pregled podrobnosti ponudb, ki temeljijo na projektih
-description: Ta članek vsebuje informacije o uporabi projektnih vrstic za ponudbe za projektno delo.
+description: Ta članek vsebuje informacije o uporabi podrobnosti ponudb, ki temeljijo na projektih, za projektno delo.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

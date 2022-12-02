@@ -1,6 +1,6 @@
 ---
 title: Podrobnosti ponudb, ki temeljijo na stroškovnih izdelkih
-description: Ta članek vsebuje informacije o uporabi stroškovne cene v vrstici ponudb, ki temelji na izdelku.
+description: Ta članek vsebuje informacije o uveljavljanju lastne cene v vrstici ponudbe, ki temelji na izdelku.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

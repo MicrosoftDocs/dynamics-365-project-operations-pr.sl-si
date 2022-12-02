@@ -1,6 +1,6 @@
 ---
 title: Popravljalni računi za projekt
-description: Ta članek vsebuje informacije o tem, kako ustvariti in potrditi popravne račune v Project Operations.
+description: Ta članek vsebuje informacije o tem, kako ustvariti in potrditi popravljalne račune v aplikaciji Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

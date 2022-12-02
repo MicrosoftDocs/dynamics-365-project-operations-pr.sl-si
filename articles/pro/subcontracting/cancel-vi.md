@@ -1,6 +1,6 @@
 ---
 title: Preklic računa dobavitelja za projekt
-description: V tem članku je razloženo, kako preklicati račun prodajalca projekta v Microsoftu Dynamics 365 Project Operations in finančni učinek preklica računa prodajalca projekta.
+description: V tem članku je pojasnjeno, kako preklicati račun dobavitelja za projekt v programu Microsoft Dynamics 365 Project Operations, in finančni učinek preklica računa dobavitelja za projekt.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,17 +17,17 @@ ms.locfileid: "9261111"
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ko je račun dobavitelja potrjen, ga ni več mogoče urejati ali brisati. Če je prišlo do napake na računu dobavitelja, ki je bil potrjen, lahko uporabite dejanje Prekliči, da razveljavite vpliv računa dobavitelja in ustvarite nov račun dobavitelja.
+Po potrditvi računa dobavitelja, računa ni mogoče urediti ali ga izbrisati. Če je prišlo do napake na računu dobavitelja, ki je bil potrjen, lahko uporabite dejanje »Prekliči«, da razveljavite vpliv računa dobavitelja in ustvarite nov račun dobavitelja.
 
-Ko izberete **Prekliči** na računu prodajalca se zgodi naslednje:
+Ko izberete možnost **Prekliči** na računu dobavitelja, se zgodi naslednje:
 
-1. Stanje računa dobavitelja se posodobi na **Prekinjeno**.
-2. Preklicani račun dobavitelja in z njim povezani zapisi postanejo samo za branje in jih ni mogoče urejati ali brisati.
+1. Stanje računa dobavitelja se posodobi na **Preklicano**.
+2. Preklicani račun dobavitelja in z njim povezani zapisi postanejo dostopni samo za branje in jih ni mogoče urejati ali brisati.
 3. Morebitni dejanski stroški, ki so bili ustvarjeni na podlagi vrstic računa dobavitelja kot del potrditve računa dobavitelja, se razveljavijo.
 4. Če so bili kakršni koli dejanski stroški povezani z vrsticami računa dobavitelja kot del postopka ujemanja, jih je izvirna potrditev računa dobavitelja razveljavila. Med preklicevanjem računa dobavitelja se ti dejanski stroški ponovno ustvarijo. Izvor kaže na vnose časa, stroškov ali porabe materiala.
-5. Ko je račun dobavitelja preklican, lahko znova ustvarite dnevnike popravkov, obdelate odpoklice vnosa časa in prekličete odobritev prvotnega časa, stroškov ali materialnih dejanskih vrednosti.
+5. Ko je račun dobavitelja preklican, lahko znova ustvarite popravke dnevnika, obdelate preklicane časovne vnose in prekličete odobritev prvotnega časa, stroškov ali dejanskih vrednosti materiala.
 
 > [!NOTE]
-> Samo potrjene račune prodajalca projekta je mogoče preklicati. Računov dobaviteljev v drugih državah ni mogoče preklicati.
+> Preklicati je mogoče samo potrjene račune dobavitelja za projekt. Računov dobaviteljev iz drugih držav ni mogoče preklicati.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

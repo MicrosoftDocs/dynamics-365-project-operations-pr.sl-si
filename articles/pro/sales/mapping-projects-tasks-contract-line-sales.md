@@ -1,6 +1,6 @@
 ---
 title: Preslikava projektov in opravil v podrobnosti pogodbe, ki temeljijo na projektih – poenostavljeno
-description: Ta članek vsebuje informacije o dodajanju in odstranjevanju projektov in opravil v pogodbeno vrstico.
+description: Ta članek vsebuje informacije o dodajanju in odstranjevanju projektov in opravil v podrobnosti pogodbe.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

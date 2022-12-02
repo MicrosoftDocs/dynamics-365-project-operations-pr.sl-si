@@ -1,6 +1,6 @@
 ---
 title: Novosti za junij 2021 – Project Operations za scenarije, ki temeljijo na virih/nezalogi
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations iz junija 2021 za scenarije, ki temeljijo na virih/brez zaloge.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji aplikacije Project Operations (junij 2021) za scenarije, ki temeljijo na virih/nezalogi.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9028283"
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta člen se nanaša na naslednje Dynamics 365 Project Operations komponente in različice:
+Ta članek velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
 - Aplikacija Project Operations v okolju Dynamics 365 Dataverse (različica 4.11.0.156 ali 4.11.0.164).
-- Vodenje projektov in računovodstvo v okoljih aplikacij za finance in poslovanje različica 10.0.19.
+- Upravljanje projektov in računovodstvo v okoljih aplikacij za finance in postopke različice 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Funkcije, ki so na voljo v tej izdaji:
 
@@ -38,7 +38,7 @@ V tej izdaji ni posodobitev za preslikave dvojnega zapisovanja v aplikaciji Proj
 
 Za trenutni seznam in različice preslikovanja dvojnega zapisovanja v aplikaciji Project Operations si oglejte [Različice preslikovanja dvojnega zapisovanja v aplikaciji Project Operations](../environment/resource-dual-write-maps.md).
 
-Vedno zaženite najnovejšo različico preslikave v svojem okolju in omogočite vse povezane preslikave tabel, ko posodabljate svoje projektne operacije Dataverse rešitev ter različica rešitve aplikacij za finance in poslovanje. Če ne aktivirate najnovejše različice preslikave, nekatere funkcije in zmogljivosti morda ne bodo delovale pravilno. Aktivna različica za preslikovanje se prikaže na strani **Dvojno zapisovanje**, in sicer v stolpcu **Različica**. Novo različico za preslikovanje aktivirajte tako, da izberete možnost **Različica preslikave tabele**, ko ste izbrali najnovejšo različico, pa jo shranite. Če ste prilagodili vnaprej pripravljeno preslikavo tabele, znova uporabite spremembe. Za več informacij glejte [Upravljanje življenjskega cikla aplikacij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Vedno, ko posodabljate različico rešitev Project Operations Dataverse in aplikacij za finance in postopke, v svojem okolju zaženite najnovejšo verzijo preslikav in omogočite povezane preslikave tabel. Če ne aktivirate najnovejše različice preslikave, nekatere funkcije in zmogljivosti morda ne bodo delovale pravilno. Aktivna različica za preslikovanje se prikaže na strani **Dvojno zapisovanje**, in sicer v stolpcu **Različica**. Novo različico za preslikovanje aktivirajte tako, da izberete možnost **Različica preslikave tabele**, ko ste izbrali najnovejšo različico, pa jo shranite. Če ste prilagodili vnaprej pripravljeno preslikavo tabele, znova uporabite spremembe. Za več informacij glejte [Upravljanje življenjskega cikla aplikacij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Če pri zagonu preslikave naletite na težave, upoštevajte navodila iz razdelka [Težava z manjkajočimi stolpci tabele v preslikavi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) v vodniku za odpravljanje težav pri dvojnem zapisovanju.
 
@@ -62,7 +62,7 @@ Vedno zaženite najnovejšo različico preslikave v svojem okolju in omogočite 
 | Čas in strošek | 2194431 | Mreža **Vnos časa** mora upoštevati začetek tedna, kot je določeno v nastavitvah **Sistemske nastavitve**. |
 | Čas in strošek | 2277311 | Kazalec ostane v mreži **Vnos časa**, ko iz celice v njej izbrišete vrednost. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Vodenje projektov in računovodstvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektov in računovodstvo v okoljih aplikacij Dynamics 365 Finance
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |

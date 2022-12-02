@@ -1,6 +1,6 @@
 ---
 title: Podrobnosti podizvajalske pogodbe za kategorije stroškov
-description: V tem članku je razloženo, kako evidentirati postavke podizvajalcev za stroške in uporabiti polja za beleženje nakupa časa od prodajalcev.
+description: V tem članku je pojasnjeno, kako zapisovati podrobnosti podizvajalske pogodbe za stroške in kako polja uporabiti za beleženje odkupa časa od dobaviteljev.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

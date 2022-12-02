@@ -1,6 +1,6 @@
 ---
-title: Potrdite račune prodajalca projekta
-description: V tem članku je razloženo, kako potrditi račun prodajalca projekta v Microsoftu Dynamics 365 Project Operations in opisuje finančni učinek potrditve računa prodajalca projekta.
+title: Potrditev računov dobavitelja za projekt
+description: V tem članku je pojasnjeno, kako potrditi račun dobavitelja za projekt v programu Microsoft Dynamics 365 Project Operations, in opisano, kakšen je finančni učinek potrditve računa dobavitelja za projekt.
 author: suvaidya
 ms.date: 8/25/2022
 ms.topic: article
@@ -13,24 +13,24 @@ ms.contentlocale: sl-SI
 ms.lasthandoff: 09/13/2022
 ms.locfileid: "9475490"
 ---
-# <a name="confirm-project-vendor-invoices"></a>Potrdite račune prodajalca projekta
+# <a name="confirm-project-vendor-invoices"></a>Potrditev računov dobavitelja za projekt
 
 **Velja za**: za scenarije v aplikaciji Project Operations, ki temeljijo na virih/nezalogi
 
-Ko **Potrebna je ročna potrditev PM** parameter omogočen, računi dobavitelja, ki so ustvarjeni v Microsoft Dataverse imajo **Osnutek** stanje. Tako oblikovane račune dobaviteljev je treba pregledati in ročno potrditi. Ko **Potrebna je ročna potrditev PM** parameter onemogočen, računi dobavitelja, ki so ustvarjeni v Dataverse se samodejno potrdijo. Nadaljnji ukrepi niso potrebni. 
+Ko je omogočen parameter **Potrebna je ročna potrditev vodje projekta**, imajo računi dobavitelja, ki so ustvarjeni v Microsoft Dataverse, stanje **Osnutek**. Tako oblikovane račune dobaviteljev je treba pregledati in ročno potrditi. Ko je parameter **Potrebna je ročna potrditev vodje projekta** onemogočen, so računi dobavitelja, ki so ustvarjeni v Dataverse, samodejno potrjeni. Nadaljnja dejanja niso potrebna. 
 
-Ko preverite vse vrstice na računu dobavitelja v Dynamics 365 Project Operations, izberite **Potrdi** za potrditev računa prodajalca.
+Ko preverite vse vrstice na računu dobavitelja v aplikaciji Dynamics 365 Project Operations, izberite možnost **Potrdi** za potrditev računa dobavitelja.
 
-Ko izberete **Potrdi** na računu prodajalca se zgodi naslednje:
+Ko izberete možnost **Potrdi** na računu dobavitelja, se zgodi naslednje:
 
-1. Status računa dobavitelja se posodobi na **Potrjeno**.
-1. Potrjeni račun dobavitelja in z njim povezani zapisi postanejo samo za branje in jih ni mogoče urejati ali brisati.
-1. Če se kateri koli dejanski stroški sklicujejo na vrstico računa dobavitelja kot del postopka ujemanja, so vsi dejanski stroški, ki so povezani z referenčno vrstico računa dobavitelja, obrnjeni.
+1. Stanje računa dobavitelja se posodobi na **Potrjeno**.
+1. Potrjeni račun dobavitelja in z njim povezani zapisi postanejo dostopni samo za branje in jih ni mogoče urejati ali brisati.
+1. Če se kateri koli dejanski stroški sklicujejo na vrstico računa dobavitelja kot del postopka ujemanja, so vsi dejanski stroški, ki so povezani z referenčno vrstico računa dobavitelja, stornirani.
 1. Novi dejanski stroški se ustvarijo z uporabo informacij v vrstici računa dobavitelja.
-1. Ne morete več ustvariti dnevnikov popravkov, obdelati odpoklicev časovnih vnosov ali preklicati odobritve izvirnega časa, stroškov ali bistvenih dejanskih vrednosti, ki so bile razveljavljene.
-1. V Dynamics 365 Finance je **Stroški projekta** vrednost se posodobi z uporabo dnevnika integracije projekta, račun integracije nabave pa je *obrnjeno* po objavi dnevnika integracije projekta.
+1. Ne morete več ustvarjati popravkov dnevnika, obdelovati preklicanih časovnih vnosov ali preklicati odobritve prvotnega časa, stroškov ali dejanskih vrednosti materiala, ki so bile stornirane.
+1. V aplikaciji Dynamics 365 Finance se vrednost **Stroški projekta** posodobi z uporabo dnevnika integracij projekta, račun za integracijo naročil pa je po objavi dnevnika integracij projekta *storniran*.
 
 > [!NOTE]
-> Če ima katera koli vrstica na računu dobavitelja status preverjanja, ki ni **Popolna**, računa dobavitelja ni mogoče potrditi.
+> Če ima katera koli vrstica na računu dobavitelja stanje preverjanja, ki ni **Končano**, računa dobavitelja ni mogoče potrditi.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

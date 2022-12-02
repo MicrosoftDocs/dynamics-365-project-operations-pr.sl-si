@@ -1,6 +1,6 @@
 ---
 title: Posodobitev storitve Project Operations v okolju Finance
-description: Ta članek vsebuje informacije o tem, kako posodobiti projektne operacije v okolju Dynamics 365 Finance.
+description: Ta članek zagotavlja informacije o tem, kako posodobite aplikacijo Project Operations v okolju Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9030055"
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 
-Ta članek vsebuje informacije o tem, kako posodobiti Dynamics 365 Project Operations v vašem Dynamics 365 Finance okolju. Trije postopki so obvezni za posodobitev storitve Project Operations na posodobitev 5 (UR5):
+Ta članek zagotavlja informacije o tem, kako posodobite aplikacijo Dynamics 365 Project Operations v okolju Dynamics 365 Finance. Trije postopki so obvezni za posodobitev storitve Project Operations na posodobitev 5 (UR5):
 
 - [Uvoz paketa v projekt predogledne različice](#import)
 - [Uveljavitev posodobitve](#apply)
@@ -119,7 +119,7 @@ Naslednje posodobitve varnostnih pravic za entitete so zahtevane kot del posodob
 4. Na strani **Različica preslikave tabele** uporabite novo različico preslikave za vsako od treh entitet.
 5. Na strani **Dvojno zapisovanje** izberite izvajanje za ponovni zagon preslikav.
 6. Na seznamu preslikav izberite preslikavo **Knjiga (msdyn_ledgers)** z vsemi zahtevami in izberite potrditveno polje **Začetna sinhronizacija**. 
-7. V **Glavni za začetno sinhronizacijo** polje izberite **Aplikacije za finance in poslovanje** in nato izberite **Teči**.
+7. V polju **Glavni za začetno sinhronizacijo** izberite **Aplikacije za finance in postopke** in nato izberite možnost **Zagon**.
  
  ![Sinhronizacija preslikave knjige.](media/DW6.png)
  

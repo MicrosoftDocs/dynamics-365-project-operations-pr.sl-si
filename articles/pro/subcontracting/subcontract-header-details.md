@@ -1,6 +1,6 @@
 ---
 title: Podrobnosti glave za podizvajalske pogodbe
-description: Ta članek pojasnjuje funkcionalnost, ki je na voljo v glavi podizvajalske pogodbe v Project Operations.
+description: Ta članek pojasnjuje funkcije, ki so na voljo v glavi podizvajalske pogodbe v aplikaciji Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "9522581"
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-V tem članku je razložena funkcija v glavi podizvajalske pogodbe v Dynamics 365 Project Operations.
+Ta članek pojasnjuje funkcije, ki so na voljo v glavi podizvajalske pogodbe v aplikaciji Dynamics 365 Project Operations.
 
 Vodja projektov, ki načrtuje in izvaja projekte, lahko zaposli podizvajalce in od dobaviteljev kupi izdelke ali naroči storitve. Ko vodja projekta kupuje izdelke ali naroča storitve, lahko v aplikacij Project Operations ustvari podizvajalsko pogodbo.
 

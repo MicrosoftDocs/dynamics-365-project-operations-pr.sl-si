@@ -1,6 +1,6 @@
 ---
 title: Kopiranje projektnih pogodb
-description: Ta članek ponuja informacije o kopiranju projektnih pogodb v Project Operations.
+description: Ta članek vsebuje informacije o kopiranju projektnih pogodb v aplikaciji Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article

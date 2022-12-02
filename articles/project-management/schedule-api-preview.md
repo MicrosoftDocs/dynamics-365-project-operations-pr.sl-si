@@ -1,6 +1,6 @@
 ---
 title: Uporaba API-jev razporejanja projektov za izvajanje postopkov s pomočjo entitet razporejanja
-description: Ta članek ponuja informacije in vzorce za uporabo API-jev za načrtovanje projekta.
+description: V tem članku so na voljo informacije in vzorci za uporabo API-jev razporejanja projektov.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
@@ -34,7 +34,7 @@ Naslednja tabela vključuje celoten seznam entitet razporejanja projektov.
 | Član projektne ekipe     | msdyn_projectteam           |
 | Kontrolni seznami projekta      | msdyn_projectchecklist      |
 | Oznaka projekta           | msdyn_projectlabel          |
-| Projektna naloga za oznako   | msdyn_projecttasktolabel    |
+| Oznaka dodelitve opravila projektu   | msdyn_projecttasktolabel    |
 | Projektni sprint          | msdyn_projectsprint         |
 
 **OperationSet**
@@ -47,14 +47,14 @@ Naslednji seznam vsebuje trenutne API-je razporejanja projektov.
 
 | **API**                                 | Description                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | Ta API se uporablja za ustvarjanje projekta. Projekt in privzeto projektno vedro sta ustvarjena takoj.                         |
-| **msdyn_CreateTeamMemberV1**            | Ta API se uporablja za ustvarjanje člana projektne skupine. Zapis člana ekipe se ustvari takoj.                                  |
-| **msdyn_CreateOperationSetV1**          | Ta API se uporablja za načrtovanje več zahtev, ki jih je treba izvesti znotraj transakcije.                                        |
+| **msdyn_CreateProjectV1**               | Ta API se uporablja za ustvarjanje projekta. Projekt in privzeto vedro projekta se ustvarita takoj.                         |
+| **msdyn_CreateTeamMemberV1**            | Ta API se uporablja za ustvarjanje člana ekipe projekta. Zapis člana ekipe se ustvari takoj.                                  |
+| **msdyn_CreateOperationSetV1**          | Ta API se uporablja za razporejanje več zahtev, ki jih je treba izvesti znotraj transakcije.                                        |
 | **msdyn_PssCreateV1**                   | Ta API se uporablja za ustvarjanje entitete. Lahko gre za katerokoli entiteto razporejanja projektov, ki podpira postopek ustvarjanja. |
-| **msdyn_PssUpdateV1**                   | Ta API se uporablja za posodobitev entitete. Entiteta je lahko katera koli entiteta za načrtovanje projekta, ki podpira operacijo posodabljanja  |
+| **msdyn_PssUpdateV1**                   | Ta API se uporablja za posodobitev entitete. Lahko gre za katerokoli entiteto razporejanja projektov, ki podpira postopek posodabljanja  |
 | **msdyn_PssDeleteV1**                   | Ta API se uporablja za brisanje entitete. Lahko gre za katerokoli entiteto razporejanja projektov, ki podpira postopek brisanja. |
-| **msdyn_ExecuteOperationSetV1**         | Ta API se uporablja za izvajanje vseh operacij v danem nizu operacij.                                                 |
-| **msdyn_PssUpdateResourceAssignmentV1** | Ta API se uporablja za posodobitev konture načrtovanega dela Dodelitve virov.                                                        |
+| **msdyn_ExecuteOperationSetV1**         | Ta API se uporablja za izvajanje vseh postopkov znotraj danega nabora postopkov.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Ta API se uporablja za posodobitev načrtovanega dela krivulj dodelitve virov.                                                        |
 
 
 
@@ -66,16 +66,16 @@ Ker se zapisi, ki vsebujejo **CreateProjectV1** in **CreateTeamMemberV1**, ustva
 
 | **Entiteta za razporejanje**   | **Ustvari** | **Posodabljanje** | **Delete** | **Pomembni premisleki**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Projektno opravilo            | Da        | Da        | Da        | The **Napredek**, **je končan**, in **Preostali trud** polja je mogoče urejati v programu Project za splet, ni pa jih mogoče urejati v programu Project Operations.                                                                                                                                                                                             |
-| Odvisnost projektnega opravila | Da        | No         | Da        | Zapisi odvisnosti od projektne naloge se ne posodabljajo. Namesto tega lahko stari zapis izbrišete in ustvarite nov zapis.                                                                                                                                                                                                                                 |
-| Dodelitev vira     | Da        | Da\*      | Da        | Postopki z naslednjimi polji niso podprti: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** in **PlannedWork**. Zapisi o dodeljevanju virov niso posodobljeni. Namesto tega lahko stari zapis izbrišete in ustvarite nov zapis. Na voljo je bil ločen API za posodobitev kontur dodelitve virov. |
-| Vedro projekta          | Da        | Da        | Da        | Privzeto vedro je ustvarjeno z uporabo **CreateProjectV1** API. Podpora za ustvarjanje in brisanje projektnih veder je bila dodana v posodobitvi izdaje 16.                                                                                                                                                                                                   |
+| Projektno opravilo            | Da        | Da        | Da        | Polja **Napredek**, **EffortCompleted** in **EffortRemaining** lahko urejate v storitvi Project for the Web, ni pa jih mogoče urejati v aplikaciji Project Operations.                                                                                                                                                                                             |
+| Odvisnost projektnega opravila | Da        | No         | Da        | Zapisi odvisnosti od projektne naloge se ne posodabljajo. Namesto tega lahko stari zapis izbrišete in ustvarite novega.                                                                                                                                                                                                                                 |
+| Dodelitev vira     | Da        | Da\*      | Da        | Postopki z naslednjimi polji niso podprti: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** in **PlannedWork**. Zapisi o dodeljevanju virov niso posodobljeni. Namesto tega lahko stari zapis izbrišete in ustvarite novega. Na voljo je ločen API za posodobitev krivulj dodelitve virov. |
+| Vedro projekta          | Da        | Da        | Da        | Privzeto vedro je ustvarjeno z API-jem **CreateProjectV1**. Podpora za ustvarjanje in brisanje projektnih veder je bila dodana v izdaji posodobitve 16.                                                                                                                                                                                                   |
 | Član projektne ekipe     | Da        | Da        | Da        | Za postopek ustvarjanja uporabite API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
 | Projekt                 | Da        | Da        |            | Postopki z naslednjimi polji niso podprti: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** in **Duration**.                                                                                       |
 | Kontrolni seznami projekta      | Da        | Da        | Da        |                                                                                                                                                                                                                                                                                                                                                         |
-| Oznaka projekta           | No         | Da        | No         | Imena oznak je mogoče spremeniti. Ta funkcija je na voljo samo za Project za splet                                                                                                                                                                                                                                                                      |
-| Projektna naloga za oznako   | Da        | No         | Da        | Ta funkcija je na voljo samo za Project za splet                                                                                                                                                                                                                                                                                                  |
-| Projektni sprint          | Da        | Da        | Da        | The **Začetek** polje mora imeti datum pred **Končaj** polje. Šprinti za isti projekt se med seboj ne morejo prekrivati. Ta funkcija je na voljo samo za Project za splet                                                                                                                                                                    |
+| Oznaka projekta           | No         | Da        | No         | Imena oznak je mogoče spremeniti. Ta funkcija je na voljo samo v storitvi Project for the Web                                                                                                                                                                                                                                                                      |
+| Oznaka dodelitve opravila projektu   | Da        | No         | Da        | Ta funkcija je na voljo samo v storitvi Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Projektni sprint          | Da        | Da        | Da        | Polje **Začetek** mora imeti datum pred poljem **Zaključek**. Sprinti za isti projekt se med seboj ne morejo prekrivati. Ta funkcija je na voljo samo v storitvi Project for the Web                                                                                                                                                                    |
 
 
 
@@ -86,7 +86,7 @@ Lastnost ID ni obvezna. Če je na voljo, ga sistem poskuša uporabiti in zavrže
 
 Sledi seznam omejitev in znanih težav:
 
--   API-je za urnik projekta lahko uporablja samo **Uporabniki z licenco Microsoft Project**. Ne morejo jih uporabljati:
+-   API-je načrtovanja projektov lahko uporabljajo samo **Uporabniki z licenco za storitev Microsoft Project**. Ne morejo jih uporabljati:
     -   Uporabniki aplikacij
     -   Uporabniki sistema
     -   Uporabniki integracije
@@ -94,37 +94,37 @@ Sledi seznam omejitev in znanih težav:
 -   Vsak **OperationSet** ima lahko največ 100 postopkov.
 -   Vsak uporabnik ima lahko odprtih največ 10 postopkov **OperationSet**.
 -   Project Operations trenutno podpira največ 500 skupnih opravil na projektu.
--   Vsaka operacija Update Resource Assignment Contour se šteje kot ena sama operacija.
--   Vsak seznam posodobljenih kontur lahko vsebuje največ 100 časovnih rezin.
+-   Vsak postopek krivulj dodelitve virov velja za en sam postopek.
+-   Vsak seznam posodobljenih krivulj lahko vsebuje največ 100 časovnih rezin.
 -   Stanje napake in dnevniki napak **OperationSet** trenutno niso na voljo.
--   Na projekt je na voljo največ 400 sprintov.
--   [Omejitve in meje projektov in nalog](/project-for-the-web/project-for-the-web-limits-and-boundaries).
--   Oznake so trenutno na voljo samo za Project za splet.
+-   Za projekt je na voljo največ 400 sprintov.
+-   [Omejitve in meje projektov ter opravil](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   Oznake so trenutno na voljo samo v storitvi Project for the Web.
 
 **Obravnava napak**
 
 -   Če želite pregledati napake, ustvarjene iz naborov postopkov, odprite razdelek **Nastavitve** \> **Načrtovanje integracije** \> **Nabori postopkov**.
 -   Za ogled napak iz storitve razporejanja projektov pojdite v **Nastavitve** \> **Integracija načrtovanja** \> **Dnevniki napak za PSS**.
 
-**Urejanje obrisov dodelitve virov**
+**Urejanje krivulj dodelitve virov**
 
-Za razliko od vseh drugih API-jev za razporejanje projektov, ki posodabljajo entiteto, je API konture dodelitve virov izključno odgovoren za posodobitve posameznega polja, msdyn_plannedwork, v eni entiteti, msydn_resourceassignment.
+Za razliko od vseh drugih API-jev za načrtovanje projektov, ki posodabljajo entiteto, je API za krivulje dodelitve virov odgovoren izključno za posodobitve enega polja, msdyn_plannedwork, v eni entiteti, msydn_resourceassignment.
 
-Podani način urnika je:
+Podani način načrtovanja je:
 
--   **fiksne enote**
--   Koledar projekta je 9-5p je 9-5pst, pon, torek, četrtek, petek (OB SREDAH NI DELA)
--   In koledar virov je 9-13p PST od ponedeljka do petka
+-   **nespremenljive enote**
+-   koledar projekta: 9–17 je 9–17 PST, pon, tor, čet, pet (OB SREDAH NI DELA)
+-   in koledar virov je 9–13 PST od ponedeljka do petka
 
-Ta naloga traja en teden, štiri ure na dan. To je zato, ker je koledar virov od 9. do 1. PST ali štiri ure na dan.
+Ta dodelitev traja en teden, štiri ure na dan. To je zato, ker je koledar virov 9–13 PST ali štiri ure na dan.
 
-| &nbsp;     | opravilo, | Datum začetka | Datum konca  | Količina | 6. 2022 | 6. 2022 | 6. 2022 | 6. 2022 | 6. 2022 |
+| &nbsp;     | opravilo, | Datum začetka | Datum konca  | Količina | 13. 6. 2022 | 14. 6. 2022 | 15. 6. 2022 | 16. 6. 2022 | 17. 6. 2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 delavec |  T1  | 6. 2022  | 6. 2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+| delavec 9–13 |  T1  | 13. 6. 2022  | 17. 6. 2022 | 20       | 4         | 4         | 4         | 4         | 4         |
 
-Na primer, če želite, da delavec ta teden vsak dan dela samo tri ure in da ima eno uro za druge naloge.
+Če na primer želite, da delavec ta teden vsak dan dela samo tri ure in ima eno uro za druga opravila.
 
-#### <a name="updatedcontours-sample-payload"></a>Posodobljeni vzorčni tovor Contours:
+#### <a name="updatedcontours-sample-payload"></a>Koristne vrednosti vzorca UpdatedContours:
 
 ```json
 [{
@@ -138,11 +138,11 @@ Na primer, če želite, da delavec ta teden vsak dan dela samo tri ure in da ima
 }]
 ```
 
-To je dodelitev po zagonu API-ja Update Contour Schedule.
+To je dodelitev po zagonu API-ja Urnik krivulj posodobitve.
 
-| &nbsp;     | opravilo, | Datum začetka | Datum konca  | Količina | 6. 2022 | 6. 2022 | 6. 2022 | 6. 2022 | 6. 2022 |
+| &nbsp;     | opravilo, | Datum začetka | Datum konca  | Količina | 13. 6. 2022 | 14. 6. 2022 | 15. 6. 2022 | 16. 6. 2022 | 17. 6. 2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 delavec | T1   | 6. 2022  | 6. 2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+| delavec 9–13 | T1   | 13. 6. 2022  | 17. 6. 2022 | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
 **Vzorčni scenarij**

@@ -1,6 +1,6 @@
 ---
 title: Naročanje materialov, ki niso na zalogi, za projekt, ki uporablja naročilnice za projekte
-description: V tem članku je razloženo, kako lahko naročite materiale brez zalog za projekt z naročili projekta.
+description: Ta članek pojasnjuje, kako lahko naročite materiale, ki niso na zalogi, za projekt, ki uporablja naročilnice za projekte.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -14,20 +14,20 @@ ms.contentlocale: sl-SI
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8929832"
 ---
-# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Naročite kategorije nabave ali materiale brez zalog za projekt z uporabo projektnih naročil
+# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Naročanje kategorij za nabavo ali materialov, ki niso na zalogi, za projekt, ki uporablja naročilnice za projekte
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Nabavni oddelek v vaši organizaciji bi lahko uporabil [naročilnice](/dynamics365/supply-chain/procurement/purchase-order-overview) za sledenje naročil blaga in storitev. Projektu je mogoče pripisati naročila za nabavne kategorije ali materiale, ki niso na zalogi. Zaračunavanje teh naročilnic beleži stroške projekta.
+Nabavni oddelek v vaši organizaciji bi lahko uporabil [naročilnice](/dynamics365/supply-chain/procurement/purchase-order-overview) za sledenje naročil blaga in storitev. Naročilnice za kategorije za nabavo ali materiale, ki niso na zalogi, so lahko dodeljene projektu. Zaračunavanje teh naročilnic beleži stroške projekta.
 
 ## <a name="prerequisites"></a>Zahteve
 Upoštevajte naslednje korake, da omogočite funkcijo naročilnic projektov.
 
-1. V Dynamics 365 Finance pojdite na **Upravljanje funkcij** delovni prostor.
+1. V aplikaciji Dynamics 365 Finance odprite delovni prostor **Upravljanje funkcij**.
 2. Na seznamu funkcij poiščite in izberite funkcijo **Omogoči naročilnice projektov v aplikaciji Project Operations za scenarije, ki temeljijo na virih/nezalogi**.
 3. Izberite **Omogoči**.
 4. Konfigurirajte materiale, ki niso na zalogi, in račune dobaviteljev v čakanju, kot je opisano v razdelku [Konfiguracija materialov, ki niso na zalogi, in računov dobaviteljev v čakanju](configure-materials-nonstocked.md).
-5. Konfigurirajte kategorije naročil, kot je opisano v [Uporabite kategorije nabave s projektnimi naročilnicami in čakajočimi računi prodajalcev](configure-procurement-categories.md).
+5. Konfigurirajte kategorije za nabavo, kot je opisano v članku [Uporaba kategorij za nabavo z naročilnicami projektov in računi dobaviteljev na čakanju](configure-procurement-categories.md).
 
 ## <a name="create-a-project-purchase-order-from-the-project-purchase-order-list"></a>Ustvarite naročilnico projekta s seznama naročilnic projektov
 
@@ -35,12 +35,12 @@ Upoštevajte naslednje korake, da omogočite funkcijo naročilnic projektov.
 2. V podoknu za dejanja v zavihku **Upravljanje** v skupini **Novo** izberite **Opravilo elementa** > **Naročilnica**.
 3. Na strani **Ustvarite naročilnico** izberite dobavitelja, pri katerem želite oddati naročilo, vnesite ustrezne druge podatke in nato izberite možnost **V redu**.
 4. Na strani **Naročilnica** v mreži **Vrstice naročilnic** izberite **Dodaj vrstico**.
-5. Vnesite številko artikla ali kategorijo nabave, količino, enoto, ceno na enoto in druge ustrezne informacije.
+5. Vnesite številko izdelka ali kategorijo za nabavo, količino, enoto, ceno enote in druge ustrezne podatke.
 
     > [!NOTE]
-    > S projektnimi naročilnicami se lahko uporabljajo samo kategorije nabav, artikli, ki niso na zalogi, in storitve. Založeni artikli niso podprti.
+    > Z naročilnicami projektov je mogoče uporabljati samo kategorije za nabavo ter izdelke in storitve, ki niso na zalogi. Izdelki na zalogi niso podprti.
 
-6. Po potrebi nadaljujte z dodajanjem artiklov ali kategorij nabave in potrdite naročilo.
+6. Po potrebi dodajajte izdelke ali kategorije za nabavo in potrdite naročilnico.
 
     Potrdilo o blagu in storitvah lahko zabeležite tako, da ustvarite in objavite potrdilo o izdelku.
 

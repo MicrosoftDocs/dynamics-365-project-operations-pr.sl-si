@@ -1,6 +1,6 @@
 ---
 title: Stopnje projekta
-description: Ta članek vsebuje informacije o stopnjah projekta, ki so na voljo v Microsoft Dynamics Projektne operacije.
+description: Ta članek vsebuje informacije o stopnjah projekta, ki so na voljo v storitvi Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -47,7 +47,7 @@ Ko povežete projekt s ponudbo ali ga ustvarite iz ponudbe, je stanje projekta n
 
 ## <a name="plan"></a>Načrt
 
-Ko je ponudba, ki je povezana s projektom, sprejeta, in se projekt premakne na stopnjo **Pogodba**, se stopnja projekta posodobi na stopnjo **Načrt**. Medtem ko je projekt v **Načrtujte** oder, **Prodaja** zavihek na **Projektna entiteta** stran prikazuje podrobnosti pogodbe.
+Ko je ponudba, ki je povezana s projektom, sprejeta, in se projekt premakne na stopnjo **Pogodba**, se stopnja projekta posodobi na stopnjo **Načrt**. Ko je projekt na stopnji **Načrt**, so v zavihku **Prodaja** na strani **Entiteta projekta** prikazane podrobnosti pogodbe.
 
 ## <a name="deliver"></a>Dostava
 

@@ -1,6 +1,6 @@
 ---
 title: Novosti v decembru 2020 – Project Operations za primere uporabe z viri/brez zalog
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v izdaji Project Operations iz decembra 2020 za scenarije, ki temeljijo na virih/brez zaloge.
+description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v decembrski izdaji (2020) aplikacije Project Operations za primere uporabe z viri/brez zalog.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029734"
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta člen se nanaša na naslednje Dynamics 365 Project Operations komponente in različice:
+Ta članek velja za naslednje komponente in različice aplikacije Dynamics 365 Project Operations:
 
 - Project Operations v okolju Dataverse različice 4.5.0.134
-- Vodenje projektov in računovodstvo v okolju Dynamics 365 Finance verzija 10.0.15
+- Upravljanje projektov in računovodstvo v okoljih aplikacije Dynamics 365 Finance različice 10.0.15
 
 Za informacije o tem, kako posodobite na to izdajo, glejte [Posodobitev aplikacije Project Operations v okolju Finance](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ V to izdajo so vključene naslednje funkcije:
 | Načrtovanje in sledenje projektov | 2057197          | Kopija ocenjene vrstice s sklicem na opravilo ni podprta                                                                                                     |
 | Načrtovanje in sledenje projektov | 2060687          | Opozorilo o časovnem pasu zdaj po določenem obdobju izgine                                                                                                      |
 | Upravljanje virov           | 1832887          | Privzeti ID kategorije vira mora biti statičen, da se zagotovi ponovljivo nalaganje podatkov za okolji Dataverse in Finance                                                 |
-| Čas in strošek              | 2081793          | **Ime kategorije stroškov** je treba preslikati na **Opis kategorije stroškov** področju financ in operacijskih aplikacij                                                  |
+| Čas in strošek              | 2081793          | **Ime kategorije stroškov** mora biti preslikano v polje **Opis kategorije stroškov** v aplikacijah za finance in postopke                                                  |
 | Čas in strošek              | 2034882          | V ukazni vrstici se dvakrat pojavi gumb **Novo** za časovne vnose, ko je nameščen Dynamics 365 Field Service                                          |
 | Čas in strošek              | 2056028          | Posodobitev strani **Urejanje časa**, ki vključuje časovno vrstico                                                                                                              |
 | Čas in strošek              | 1983747          | Grafikon časovnih vnosov prikazuje dodatne podatke                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Vodenje projektov in računovodstvo v Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektov in računovodstvo v okoljih aplikacij Dynamics 365 Finance
 
 | Območje funkcij                        | Številka sklica | Posodobitev kakovosti                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ V to izdajo so vključene naslednje funkcije:
 | Potovanje in strošek                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Potek dela samodejnega knjiženja poročila o stroških je dokončan, račun pa ni knjižen                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Regulativne posodobitve
-Za informacije o regulativnih posodobitvah za aplikacije za finance in poslovanje glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
+Za informacije o regulativnih posodobitvah za aplikacije za finance in postopke glejte [Regulativne posodobitve](/dynamics365/finance/localizations/regulatory-updates). Prav tako se lahko prijavite v storitev LCS in si ogledate načrtovane regulativne posodobitve z orodjem za iskanje težav. Iskanje težav omogoča iskanje po državi, vrsti funkcije in izdaji.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

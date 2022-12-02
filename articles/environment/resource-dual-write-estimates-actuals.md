@@ -1,6 +1,6 @@
 ---
 title: Ocene projekta in integracija dejanskih vrednosti
-description: Ta članek vsebuje informacije o integraciji dvojnega zapisovanja projektnih operacij za ocene in dejanske vrednosti projekta.
+description: Ta članek vsebuje informacije o integraciji za dvojno zapisovanje za Project Operations za ocene in dejanske vrednosti projektov.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
@@ -18,58 +18,58 @@ ms.locfileid: "9029100"
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta članek vsebuje informacije o integraciji dvojnega zapisovanja projektnih operacij za ocene in dejanske vrednosti projekta.
+Ta članek vsebuje informacije o integraciji za dvojno zapisovanje za Project Operations za ocene in dejanske vrednosti projektov.
 
 ## <a name="project-estimates"></a>Projektne ocene
 
-Ocene projektnega dela, stroškov in materiala se ustvarijo in vzdržujejo v Microsoft Dataverse in sinhroniziran z aplikacijami za finance in poslovanje za računovodske namene. Operacije ustvarjanja, posodabljanja in brisanja niso podprte prek aplikacij za finance in operacije.
+Ocene dela, stroškov in materiala za projekt so ustvarjene in vzdrževane v storitvi Microsoft Dataverse in sinhronizirajo z aplikacijami za finance in postopke za računovodske namene. Ustvarjanje, posodabljanje in brisanje postopkov ni podprto prek aplikacij za finance in postopke.
 
 Ustvarjanje ocen zahteva veljavno konfiguracijo računovodstva za projekt. Projekti, ki so povezani s podrobnostmi pogodbe, morajo imeti veljaven profil stroškov in prihodkov projekta, določen v pravilih profila stroškov in prihodkov projekta. Za več informacij glejte [Konfiguracija vodenja računov za plačljive projekte](../project-accounting/configure-accounting-billable-projects.md#configure-project-cost-and-revenue-profile-rules).
 
 ## <a name="labor-estimates"></a>Ocene dela
 
-Ocene dela ustvari vodja projekta ali upravitelj virov, ki projektnemu opravilu dodeli tudi splošni ali poimenovani vir. Zapise o dodeljevanju virov lahko pregledate na zavihku **Dodelitev virov** na strani **Podrobnosti projekta** v storitvi Dataverse. Zapisi o dodelitvi virov v Dataverse ustvarite zapise urnih napovedi v aplikacijah za finance in poslovanje z uporabo **Integracijska entiteta Project Operations za ocene ur (msdyn\_ dodelitve virov)**.
+Ocene dela ustvari vodja projekta ali upravitelj virov, ki projektnemu opravilu dodeli tudi splošni ali poimenovani vir. Zapise o dodeljevanju virov lahko pregledate na zavihku **Dodelitev virov** na strani **Podrobnosti projekta** v storitvi Dataverse. Zapisi o dodeljevanju virov v storitvi Dataverse ustvarijo zapise napovedi ur dela v aplikacijah za finance in postopke z možnostjo **Entiteta za integracijo za oceno ur v aplikaciji Project Operations (msdyn\_resourceassignments)**.
 
    ![Integracija ocen dela.](./Media/DW4LaborEstimates.png)
 
 Dvojno zapisovanje sinhronizira zapise o dodeljevanju virov v pripravljalno tabelo (**ProjCDSEstimateHoursImport**), nato pa s poslovno logiko ustvari in posodobi zapise napovedi ur (**ProjForecastEmpl**).
 
-Računovodja projekta pregleda zapise predvidenih ur, ustvarjene v aplikacijah za finance in poslovanje, tako da obišče **Vodenje projektov in računovodstvo** > **Vsi projekti** > **Načrtujte** > **Urne napovedi**.
+Računovodja projekta pregleda zapise o napovedanih urah, ustvarjenih v aplikacijah za finance in postopke, v razdelku **Upravljanje projektov in računovodstvo** > **Vsi projekti** > **Načrt** > **Napovedi ur**.
 
 ## <a name="expense-estimates"></a>Ocena stroškov
 
-Ocene stroškov ustvari vodja projekta na zavihku **Ocene stroškov** na strani **Podrobnosti projekta** v storitvi Dataverse. Zapisi o oceni stroškov so shranjeni v entiteti **Vrstica ocene** v storitvi Dataverse. Ti ocenjevalni zapisi imajo razred transakcije, **Stroški** in so sinhronizirani z zapisi napovedi stroškov v aplikacijah za finance in poslovanje z uporabo **Enota integracije projektnih operacij za ocene stroškov (msdyn\_ ocene)**.
+Ocene stroškov ustvari vodja projekta na zavihku **Ocene stroškov** na strani **Podrobnosti projekta** v storitvi Dataverse. Zapisi o oceni stroškov so shranjeni v entiteti **Vrstica ocene** v storitvi Dataverse. Ti zapisi o oceni imajo razred transakcije **Strošek** in so sinhronizirani z zapisi o napovedi stroškov v aplikacijah za finance in postopke z možnostjo **Entiteta za integracijo za oceno stroškov v aplikaciji Project Operations (msdyn\_estimatelines)**.
 
    ![Integracija ocen stroškov.](./Media/DW4ExpenseEstimates.png)
 
-Dvojno zapisovanje sinhronizira zapise o ocenah stroškov v pripravljalno tabelo (**ProjCDSEstimateExpenseImport**), nato pa s poslovno logiko ustvari in posodobi zapise napovedi stroškov (**ProjForecastCost**). Vrstice ocen ločeno shranijo zapise o oceni prodaje in oceni stroškov. Poslovna logika v aplikacijah za finance in operacije zapolni en sam zapis napovedi stroškov z uporabo te podrobnosti v uprizoritveni tabeli.
+Dvojno zapisovanje sinhronizira zapise o ocenah stroškov v pripravljalno tabelo (**ProjCDSEstimateExpenseImport**), nato pa s poslovno logiko ustvari in posodobi zapise napovedi stroškov (**ProjForecastCost**). Vrstice ocen ločeno shranijo zapise o oceni prodaje in oceni stroškov. Poslovna logika v aplikacijah za finance in postopke zapolni en zapis napovedi stroškov z uporabo te podrobnosti v pripravljalni tabeli.
 
-Računovodja projekta lahko pregleda zapise napovedi stroškov v aplikacijah za finance in poslovanje tako, da obišče **Vodenje projektov in računovodstvo** > **Vsi projekti** > **Načrtujte** > **Napovedi stroškov**.
+Računovodja projekta lahko pregleda zapise napovedi stroškov, ustvarjenih v aplikacijah za finance in postopke, v razdelku **Upravljanje projektov in računovodstvo** > **Vsi projekti** > **Načrt** > **Napovedi stroškov**.
 
 ## <a name="material-estimates"></a>Ocene materiala
 
-Ocene materiala ustvari vodja projekta na zavihku **Ocene materiala** na strani **Podrobnosti projekta** v storitvi Dataverse. Zapisi o oceni materiala so shranjeni v entiteti **Vrstica ocene** v storitvi Dataverse. Ti zapisi ocen imajo razred transakcije, **Material** in so sinhronizirani z zapisi napovedi postavk v aplikacijah za finance in poslovanje z uporabo **Projektna integracijska tabela za ocene materiala (msdyn\_ ocene)**.
+Ocene materiala ustvari vodja projekta na zavihku **Ocene materiala** na strani **Podrobnosti projekta** v storitvi Dataverse. Zapisi o oceni materiala so shranjeni v entiteti **Vrstica ocene** v storitvi Dataverse. Ti zapisi o oceni imajo razred transakcije **Material** in so sinhronizirani z zapisi o napovedi elementa v aplikacijah za finance in postopke z možnostjo **Tabela integracije projekta za ocene materiala (msdyn\_estimatelines)**.
 
    ![Integracija ocen materiala.](./Media/DW4MaterialEstimates.png)
 
-Dvojno zapisovanje sinhronizira zapise o ocenah materiala v pripravljalno tabelo **ProjForecastSalesImpor**, nato pa s poslovno logiko ustvari in posodobi zapise napovedi elementa (**ForecastSales**). Vrstice ocen ločeno shranijo zapise o oceni prodaje in oceni stroškov. Poslovna logika v aplikacijah za finance in operacije zapolni en sam zapis napovedi postavke z uporabo te podrobnosti v uprizoritveni tabeli.
+Dvojno zapisovanje sinhronizira zapise o ocenah materiala v pripravljalno tabelo **ProjForecastSalesImpor**, nato pa s poslovno logiko ustvari in posodobi zapise napovedi elementa (**ForecastSales**). Vrstice ocen ločeno shranijo zapise o oceni prodaje in oceni stroškov. Poslovna logika v aplikacijah za finance in postopke zapolni en zapis napovedi elementa z uporabo te podrobnosti v pripravljalni tabeli.
 
-Računovodja projekta lahko pregleda zapise napovedi postavk v aplikacijah za finance in poslovanje tako, da obišče **Vodenje projektov in računovodstvo** > **Vsi projekti** > **Načrtujte** > **Napovedi artiklov**.
+Računovodja projekta lahko pregleda zapise napovedi elementa, ustvarjenih v aplikacijah za finance in postopke, v razdelku **Upravljanje projektov in računovodstvo** > **Vsi projekti** > **Načrt** > **Napovedi elementa**.
 
 ## <a name="project-actuals"></a>Dejanske vrednosti projekta
 
-Dejanske vrednosti projekta so ustvarjene v storitvi Dataverse, glede na čas, stroške, material in dejavnost obračunavanja. Entiteta Dataverse vključuje vse operativne atribute teh transakcij, vključno s količino, lastno ceno, prodajno ceno in projektom. Za več informacij glejte [Dejanske vrednosti](../actuals/actuals-overview.md). Dejanski zapisi se sinhronizirajo z aplikacijami za finance in poslovanje z uporabo preslikave tabele z dvojnim pisanjem **Dejanski podatki o integraciji projektnih operacij (msdyn\_ dejansko stanje)** za nadaljnje računovodstvo.
+Dejanske vrednosti projekta so ustvarjene v storitvi Dataverse, glede na čas, stroške, material in dejavnost obračunavanja. Entiteta Dataverse vključuje vse operativne atribute teh transakcij, vključno s količino, lastno ceno, prodajno ceno in projektom. Za več informacij glejte [Dejanske vrednosti](../actuals/actuals-overview.md). Zapisi o dejanskih vrednosti se sinhronizirajo z aplikacijami za finance in postopke s preslikavo tabele za dvojno zapisovanje **Dejanske vrednosti integracije za Project Operations (msdyn\_actuals)** za nadaljnje računovodstvo.
 
    ![Integracija dejanskih vrednosti.](./Media/DW4Actuals.png)
 
 Preslikava tabele **Dejanske vrednosti integracije za Project Operations** sinhronizira vse zapise iz entitete **Dejanske vrednosti** v storitvi Dataverse z atributom **Preskoči sinhronizacijo (samo za interno uporabo)**, nastavljenim na **Neresnično**. Ta vrednost atributa je pri ustvarjanju zapisa samodejno nastavljena v storitvi Dataverse. Primeri, ko je ta atribut nastavljen na **Resnično** so naslednji:
 
-  - Dejanske stroške projekta za transakcije med podjetji. Za več informacij glejte [Ustvarjanje transakcij med podjetji](../project-accounting/create-intercompany-transactions.md). Ti zapisi so preskočeni, ker sistem znova ustvari dejanski strošek projekta v aplikacijah za finance in operacije, ko je objavljen račun dobavitelja med podjetji.
-  - Negativni zapis neobračunane prodaje, ustvarjen ob potrditvi predračuna. Ti zapisi so preskočeni, ker podknjiga projekta v aplikacijah za finance in operacije ne razveljavi nezaračunanega prodajnega zapisa pri fakturiranju, ampak spremeni status v fakturirano v celoti.
+  - Dejanske stroške projekta za transakcije med podjetji. Za več informacij glejte [Ustvarjanje transakcij med podjetji](../project-accounting/create-intercompany-transactions.md). Ti zapisi so preskočeni, ker sistem v aplikacijah za finance in postopke znova ustvari dejanske stroške projekta, ko je knjižen račun dobavitelja med podjetji.
+  - Negativni zapis neobračunane prodaje, ustvarjen ob potrditvi predračuna. Ti zapisi so preskočeni, ker v aplikacijah za finance in postopke pomožna poslovna knjiga projekta ne razveljavi zapisa neobračunane prodaje pri izdaji računov, vendar zamenja stanje v »Zaračunano v celoti«.
 
 Preslikava tabele za dvojno zapisovanje sinhronizira zapise o dejanskih stroških s pripravljalno tabelo **ProjCDSActualsImport**. Te zapise obdela občasni postopek **Uvoz iz pripravljalne tabele** pri ustvarjanju vrstic dnevnika integracij za Project Operations in vrstic predlogov za račune projekta. Za več informacij glejte [Dnevnik integracij za Project Operations](../project-accounting/project-operations-integration-journal.md).
 
-Storitev Dataverse zajema tudi povezave med dejanskimi transakcijami projekta v entiteti **Povezava transakcije**. Za več informacij glejte [Povezava dejanskih vrednosti z izvirnimi zapisi](../actuals/linkingactuals.md). Povezave med dejanskimi transakcijami so prav tako sinhronizirane z aplikacijami za finance in poslovanje z uporabo preslikave tabele z dvojnim pisanjem, **Integracijska entiteta za projektno transakcijo Odnosi (msdyn\_ transakcijske povezave)**. Te zapise uporabi občasni postopek **Uvoz iz pripravljalne tabele** pri ustvarjanju vrstic dnevnika integracij za Project Operations in vrstic predlogov za račune projekta.
+Storitev Dataverse zajema tudi povezave med dejanskimi transakcijami projekta v entiteti **Povezava transakcije**. Za več informacij glejte [Povezava dejanskih vrednosti z izvirnimi zapisi](../actuals/linkingactuals.md). Povezave med dejanskimi transakcijami so tudi sinhronizirane z aplikacijami za finance in postopke s preslikavo tabele za dvojno zapisovanje **Entiteta za integracijo za odnose projektne transakcije (msdyn\_transactionconnections)**. Te zapise uporabi občasni postopek **Uvoz iz pripravljalne tabele** pri ustvarjanju vrstic dnevnika integracij za Project Operations in vrstic predlogov za račune projekta.
 
 Knjiženje dnevnika integracij za Project Operations in predloga za račune projekta sproži posodobitev v ustreznih zapisih v pripravljalni tabeli **ProjCDSActualsImport**. Sistem zajema in beleži naslednje atribute računovodstva za dejanske transakcije:
 

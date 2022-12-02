@@ -1,6 +1,6 @@
 ---
 title: Pregled mobilnih aplikacij Project
-description: Ta članek vsebuje splošne informacije o aplikacijah, povezanih s časom projekta Microsoft Dynamics 365 Project Timesheet, Vnos časa projekta in Moje časovnice/Časovnice, ki so na voljo v mobilni napravi.
+description: V tem članku so na voljo splošne informacije o aplikacijah, ki so povezane s časom projekta, za Microsoft Dynamics 365 Project Timesheet, Vnos časa v projektu in Moji časovni listi/Časovni listi, ki so na voljo v mobilni napravi.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -29,15 +29,15 @@ Na voljo so tri mobilne aplikacije, povezane s časom projekta, za Microsoft Dyn
 
 ## <a name="project-timesheet-mobile-app"></a>Mobilna aplikacija Project Timesheet
 
-Mobilna aplikacija Dynamics 365 Project Timesheet omogoča uporabnikom, da oddajo časovne liste za projekte in jih odobrijo prek mobilne naprave. Ta mobilna aplikacija prikazuje funkcionalnost časovnega lista na področju upravljanja projektov in računovodstva Dynamics 365 Finance. Pomaga izboljšati storilnost in učinkovitost uporabnika ter pomaga tudi pri pravočasnem vnosu in odobritvi časovnih listov projekta.
+Mobilna aplikacija Dynamics 365 Project Timesheet omogoča uporabnikom, da oddajo časovne liste za projekte in jih odobrijo prek mobilne naprave. Ta mobilna aplikacija vključuje funkcijo časovnega lista v območju »Vodenje projektov in računovodstvo« v rešitvi Dynamics 365 Finance. Pomaga izboljšati storilnost in učinkovitost uporabnika ter pomaga tudi pri pravočasnem vnosu in odobritvi časovnih listov projekta.
 
 ## <a name="project-time-entry-workspace"></a>Delovni prostor »Vnos časa v projektu«
 
-Delovni prostor »Vnos časa v projektu« uporabnikom omogoča vnos in shranjevanje časa za projekt. Vendar pa uporabnikom ne dovoli oddaje ali odobritve časovnih listov projekta. Uporablja se lahko le za vnos časa. Ta mobilni delovni prostor je namenjen uporabi skupaj z mobilno aplikacijo za finance in poslovanje.
+Delovni prostor »Vnos časa v projektu« uporabnikom omogoča vnos in shranjevanje časa za projekt. Vendar pa uporabnikom ne dovoli oddaje ali odobritve časovnih listov projekta. Uporablja se lahko le za vnos časa. Ta mobilni delovni prostor je namenjen uporabi skupaj z mobilno aplikacijo za finance in postopke.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Moji časovni listi/Časovni listi za moj pregled
 
-Moji časovni listi (optimizirano za mobilne naprave) in Časovni listi za moj pregled (optimizirano za mobilne naprave) predstavljajo rešitev, ki zaposlenim omogoča ustvarjanje, pošiljanje in odobritev časovnih listov projekta v mobilni napravi. Delavci lahko dostopajo do funkcije Finance prek URL-ja aplikacije. Ta rešitev ne zahteva mobilne aplikacije za finance in poslovanje.
+Moji časovni listi (optimizirano za mobilne naprave) in Časovni listi za moj pregled (optimizirano za mobilne naprave) predstavljajo rešitev, ki zaposlenim omogoča ustvarjanje, pošiljanje in odobritev časovnih listov projekta v mobilni napravi. Delavci lahko dostopajo do funkcije Finance prek URL-ja aplikacije. Ta rešitev ne potrebuje mobilne aplikacije za finance in postopke.
 
 ## <a name="for-more-information"></a>Za dodatne informacije
 

@@ -1,6 +1,6 @@
 ---
 title: Koncepti finančnih ocen
-description: Ta članek vsebuje informacije o finančnih ocenah projektov v Project Operations.
+description: Ta članek vsebuje informacije o potrditvi finančnih ocen projekta v aplikaciji Project Operations.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview

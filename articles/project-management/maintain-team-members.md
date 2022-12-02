@@ -1,6 +1,6 @@
 ---
 title: Vzdrževanje članov ekipe
-description: Ta članek vsebuje informacije o rezervaciji poimenovanih virov projektnim skupinam in njihovi dodelitvi nalogam.
+description: Ta članek vsebuje informacije o rezervaciji poimenovanih virov projektne ekipe in njihovi dodelitvi opravilom.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

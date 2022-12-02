@@ -1,6 +1,6 @@
 ---
 title: Ročna uvedba aplikacije Project Operations Dataverse s podporo za dvojno zapisovanje
-description: Ta članek pojasnjuje, kako ročno razmestiti Project Operations Dataverse aplikacijo, tako da podpira dvojno pisanje.
+description: Ta članek vsebuje informacije o tem, kako ročno uvesti aplikacijo Project Operations Dataverse tako, da bo podpirala dvojno zapisovanje.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
@@ -17,9 +17,9 @@ ms.locfileid: "9028584"
 
 _**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ta članek pojasnjuje, kako ročno uvesti Microsoft Dynamics 365 Project Operations v Microsoft Dataverse tako da podpira dvojno pisanje. Če so izpolnjene določene zahteve, Aplikacija Project Operations zazna konfiguracijo okolja in nudi dodatno podporo za dvojno zapisovanje.
+Ta članek vsebuje informacije o tem, kako aplikacijo Microsoft Dynamics 365 Project Operations ročno uvesti v storitev Microsoft Dataverse tako, da bo podpirala dvojno zapisovanje. Če so izpolnjene določene zahteve, Aplikacija Project Operations zazna konfiguracijo okolja in nudi dodatno podporo za dvojno zapisovanje.
 
-Med uvajanjem skozi Microsoft Dynamics Storitve življenjskega cikla (LCS), če ste sledili navodilom v tem članku, lahko preskočite uvajanje Microsoft Power Platform integracija (prej znana kot Common Data Service okolje).
+Če ste sledili navodilom v tem članku, lahko med uvajanjem prek Microsoft Dynamics Lifecycle Services (LCS) preskočite uvajanje integracije Microsoft Power Platform (pred tem poznane kot okolje storitve Common Data Service).
 
 Postopek uvajanja aplikacije Project Operations v Dataverse z omogočeno podporo za dvojno zapisovanje je sestavljen iz štirih korakov:
 
@@ -37,7 +37,7 @@ Postopek uvajanja aplikacije Project Operations v Dataverse z omogočeno podporo
 3. Izberite vrsto okolja. Če ste se prijavili za preskusno različico, izberite **Preskusna različica (na podlagi naročnine)**.
 4. Potrdite območje uvajanja.
 5. Omogočite možnost **Ustvarjenje zbirke podatkov za to okolje**. 
-6. Potrdite jezik in nato potrdite, da se valuta ujema z valuto vaših aplikacij za finance in poslovanje.
+6. Potrdite jezik ter potrdite, da se valuta ujema z valuto aplikacij za finance in postopke.
 7. Omogočite možnost **Aplikacije Dynamics 365** in potrdite, da je polje **Samodejno uvedi te aplikacije** nastavljeno na **Brez**.
 8. Dodajte varnostno skupino, če je to zahtevano.
 9. Izberite **Shrani**, da ustvarite okolje.
@@ -62,4 +62,4 @@ Ta postopek lahko zaključite samo, če ste zaključili prejšnje postopke, še 
 
 ## <a name="link-your-environments"></a><a name="link"></a>Povezava okolij
 
-Po Dataverse okolje uvedeno, lahko nastavite povezavo v svojih aplikacijah za finance in operacije. Upoštevajte korake v razdelku [Uporaba čarovnika za dvojno zapisovanje z namenom povezave okolij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Ko je okolje Dataverse uvedeno, lahko v aplikacijah za finance in postopke nastavite povezavo. Upoštevajte korake v razdelku [Uporaba čarovnika za dvojno zapisovanje z namenom povezave okolij](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

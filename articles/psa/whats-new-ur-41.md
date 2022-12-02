@@ -1,6 +1,6 @@
 ---
 title: Novosti ali spremembe v izdaji posodobitve za Project Service Automation 41, V3
-description: V tem članku so navedene funkcije in popravki, ki so na voljo v Microsoft Dynamics 365 Project Service Automation Posodobitev izdaja 41, V3.
+description: Ta članek navaja funkcije in popravke, ki so na voljo v izdaji posodobitve 41, V3 storitve Microsoft Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/07/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8930568"
 
 Z veseljem objavljamo najnovejšo posodobitev za aplikacijo Microsoft Dynamics 365 Project Service Automation. Ta izdaja vključuje nekatere pomembne izboljšave kakovosti, delovanja in uporabnosti. Združljiva je z s storitvijo Dynamics 365 9.x. Če želite posodobiti to različico, obiščite spletno stran rešitev za Skrbniško središče za Dynamics 365 in namestite posodobitev. Za več informacij glejte [Namestitev, posodobitev ali odstranitev prednostne rešitve](/power-platform/admin/install-remove-preferred-solution).
 
-V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za posodobitev Project Service Automation, izdaja 41, V3. Ta različica ima številko graditve V3.10.62.162 in je splošno na voljo s samostojno posodobitvijo v marcu 2022.
+V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za Project Service Automation 41, V3. Ta različica ima številko graditve V3.10.62.162 in je splošno na voljo s samostojno posodobitvijo v marcu 2022.
 
 ## <a name="update-release-41"></a>Izdaja posodobitve 41
 
@@ -38,10 +38,10 @@ V tem članku so navedene funkcije in popravki, ki so novi ali spremenjeni za po
 Odpravljene so naslednje težave:
 
 **Vodenje projektov**
-- Ko poskušate ustvariti projekt iz predloge, ki temelji na projektu, ustvarjenem z namizni dodatki, se prikaže naslednja napaka: »Preverjanje polja načrtovanega dela za dodelitev sredstev: Končni datum vsake časovne rezine dodelitve vira ne sme biti prej kot njen začetni datum Datum".
+- ko poskušate ustvariti projekt iz predloge, ki temelji na projektu, ustvarjenem iz namiznega vtičnika, se pojavi napaka »Preverjanje veljavnosti polja Načrtovano delo za dodelitev virov: datum konca posamezne časovne rezine dodelitve vira ne sme biti pred datumom začetka«.
 
 **Čas in strošek**
-- Ko poskušate izbrisati časovni vnos, se prikaže naslednje sporočilo o napaki: »Prišlo je do nepričakovane napake iz kode ISV«.
+- Ko poskušate izbrisati časovni vnos, se prikaže sporočilo o napaki »Prišlo je do nepričakovane napake v kodi ISV«.
 
 **Prodaja**
-- Ko ustvarite račun za mejnik s fiksno ceno, **Opis** in **Zunanji opis** polja niso zapolnjena. 
+- Ko ustvarite račun za mejnik s fiksno ceno, polja **Opis** in **Zunanji opis** niso izpolnjena. 

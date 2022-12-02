@@ -1,6 +1,6 @@
 ---
 title: Pregled poenostavljenega uvajanja
-description: Ta članek vsebuje informacije o uvajanju Lite Dynamics 365 Project Operations.
+description: Ta članek vsebuje informacije o poenostavljenem uvajanju aplikacije Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

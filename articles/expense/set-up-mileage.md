@@ -1,6 +1,6 @@
 ---
 title: Nastavitev prevožene razdalje s stopnjami prevožene razdalje
-description: Ta članek vsebuje informacije o stopnjah kilometrine in stopnjah stopnje kilometrine.
+description: Ta članek vsebuje podatke o prevoženi razdalji in stopnjah prevožene razdalje.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
@@ -50,15 +50,15 @@ Funkcija **Omogočanje izračuna količine prevožene razdalje za več ravni pre
 
 Ko omogočite funkcijo, ponastavite ravni prevožene razdalje, da bodo pravilno odražale vrednost v polju **Količina**. 
 
-## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Omogoči izračun skupne kilometrine s funkcijo proračunsko leto
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Omogočanje funkcije izračuna skupne prevožene razdalje za proračunsko leto
 
-The **Izračun skupne kilometrine po proračunsko leto** funkcija omogoča novo nastavitev v parametrih za upravljanje stroškov, ki izvaja izračune skupnih kilometrov po proračunsko leto namesto po koledarskem letu. Za omogočanje te funkcije sledite naslednjim korakom.
+Funkcija **Izračun skupne prevožene razdalje za proračunsko leto** omogoča novo nastavitev v parametrih upravljanja stroškov, ki izračune skupne prevožene razdalje izvede za proračunsko leto namesto koledarskega leta. Za omogočanje te funkcije sledite naslednjim korakom.
 
 1. Odprite zavihek **Delovni prostori** > **Upravljanje funkcije**.
-1. Na seznamu poiščite in izberite **Izračun skupne kilometrine po proračunsko leto** in nato izberite **Omogoči zdaj**.
-1. Pojdi do **Upravljanje stroškov** > **Nastaviti** > **Splošno** > **Parametri upravljanja stroškov**.
-1. Na **Parametri upravljanja stroškov** strani, poiščite in omogočite **Za skupno število kilometrov uporabite proračunsko leto**.
+1. Na seznamu poiščite in izberite **Izračun skupne prevožene razdalje za proračunsko leto** in nato izberite možnost **Omogoči zdaj**.
+1. Odprite razdelek **Upravljanje stroškov** > **Nastavitev** > **Splošno** > **Parametri upravljanja stroškov**.
+1. Na strani **Parametri upravljanja stroškov** poiščite in omogočite možnost **Za skupno prevoženo razdaljo uporabi proračunsko leto**.
 
-Ko omogočite **Za skupno število kilometrov uporabite proračunsko leto**, skupne kilometrine izračuna proračunsko leto.
+Ko omogočite možnost **Za skupno prevoženo razdaljo uporabi proračunsko leto**, bo skupna prevožena razdalja izračunana za proračunsko leto.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Denarni predujem
-description: Ta članek vsebuje informacije o gotovinskih predplačilih.
+description: Ta članek vsebuje informacije o denarnih predujmih.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -66,7 +66,7 @@ Preden oddate poročilo o stroških, lahko izberete denarni predujem, ki je v sk
  
  Ko so te funkcije omogočene:
  
-  - Za vsako odhodkovno vrstico lahko dodate eno ali več gotovinskih predplačil.
+  - Za vsako vrstico stroškov lahko dodate enega ali več denarnih predujmov.
   - Razpoložljivo stanje denarnega predujma je v realnem času vidno, ko se shrani poročilo o stroških. To vam omogoča obdelavo transakcij stroškov in hkrati vrnitev transakcij gotovine.
   - Za eno transakcijo stroškov lahko izberet več denarnih predujmov.
   - Podatki o uskladitvi denarnega predujma so na voljo prek poizvedbe. 

@@ -1,6 +1,6 @@
 ---
 title: Načrtovanje in sledenje projektov
-description: Ta članek vsebuje povezavo do informacij o načrtovanju in sledenju v Project Service Automation.
+description: V tem članku je na voljo povezava do informacij o načrtovanju in sledenju v aplikaciji Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8933282"
 
 Aplikacija Project Service pomaga storitvenim organizacijam prepoznati priložnosti, poslati ponudbe, doseči pogodbene dogovore, upravljati vire, slediti času in stroškom, izdati račune strankam ter dokončati projekte pravočasno in v okviru proračuna. 
 
-Povezava PDF, ki je bila prej v tem članku, je bila odstranjena in vsebina je bila premaknjena v naslednje članke:
+Povezava PDF, ki je bila vključena v tem članku, je odstranjena, vsebina pa je premaknjena v naslednje članke:
 
 - [Razporedi projektov](../project-creating.md)
 - [Stroški in prihodki projekta](../project-estimating.md)
@@ -43,7 +43,7 @@ Povezava PDF, ki je bila prej v tem članku, je bila odstranjena in vsebina je b
 - [Nastavitve projekta](../project-settings.md)
 
 > [!NOTE]
-> Ta članek bo odstranjen v prihodnji posodobitvi dokumentacije. 
+> Ta članek ne bo več na voljo v prihodnji posodobitvi dokumentacije. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

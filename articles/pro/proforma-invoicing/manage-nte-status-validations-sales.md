@@ -1,6 +1,6 @@
 ---
 title: Upravljanje stanja in veljavnosti »Ni dovoljeno preseči«
-description: Ta članek vsebuje informacije o preverjanjih mejnih vrednosti, ki se ne smejo preseči, opravljenih v projektnih operacijah.
+description: Ta članek vsebuje informacije o preverjanjih veljavnosti »Ni dovoljeno preseči« izvedenih v aplikaciji Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

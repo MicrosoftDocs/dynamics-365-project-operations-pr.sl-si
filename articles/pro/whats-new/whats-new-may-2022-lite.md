@@ -1,6 +1,6 @@
 ---
 title: Novosti za maj 2022 – poenostavljeno uvajanje Project Operations
-description: Ta članek vsebuje informacije o posodobitvah kakovosti, ki so na voljo v Microsoftovi izdaji maja 2022 Dynamics 365 Project Operations lahka uvedba.
+description: V tem članku so na voljo informacije o posodobitvah kakovosti, ki so na razpolago v majski (2022) izdaji poenostavljenega uvajanja aplikacije Microsoft Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
@@ -18,16 +18,16 @@ ms.locfileid: "8934156"
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Ta članek se nanaša na naslednje komponente in različice Microsofta Dynamics 365 Project Operations:
+Ta članek velja za naslednje komponente in različice aplikacije Microsoft Dynamics 365 Project Operations:
 
-- Projektno delovanje v a Dataverse različica okolja 4.42.0.70
+- Project Operations v različici okolja 4.42.0.70. storitve Dataverse
 
 ## <a name="quality-updates"></a>Posodobitve kakovosti
 
 | Območje funkcij | Številka sklica | Posodobitev kakovosti |
 | --- | --- | --- |
-| Upravljanje virov | 2634019 | Izboljšana sporočila o napakah za poslovna preverjanja pri dodajanju splošnih članov ekipe kot virov. |
-| Načrtovanje in sledenje projektov | 2648515 | Omejene posodobitve za **lastnik**, **·**, in **stanje** v subjektih razporejanja. |
-| Zaračunavanje in cene | 2653167 | The **Ocene** mrežni decimalni ločilo mora slediti nastavitvam formata v **Osebne možnosti**. |
-| Zaračunavanje in cene| 2662251 | Vrednosti v **Popravljena enota** in **Skupina enot** privzeta polja pri ustvarjanju zapisov v predračunih materiala. |
-| Zaračunavanje in cene| 2571408 | Neobračunane dejanske prodajne vrednosti so žigosane z ID-jem predračuna pri izdelavi osnutka računa. |
+| Upravljanje virov | 2634019 | Izboljšana sporočila o napaki za poslovna preverjanja veljavnosti pri dodajanju splošnih članov ekipe kot virov. |
+| Načrtovanje in sledenje projektov | 2648515 | Omejene posodobitve za vrednosti **idlastnika**, **stanje** in **status** v entitetah razporejanja. |
+| Zaračunavanje in cene | 2653167 | Decimalno ločilo v mreži **Ocene** mora slediti nastavitvam oblike v razdelku **Osebne možnosti**. |
+| Zaračunavanje in cene| 2662251 | Vrednosti v poljih **Popravljena enota** in **Skupina enot** so privzeto pridobljene pri ustvarjanju zapisov v ocenah materiala. |
+| Zaračunavanje in cene| 2571408 | Neobračunane dejanske vrednosti prodaje so pri ustvarjanju osnutka računa označene z ID-jem predračuna. |

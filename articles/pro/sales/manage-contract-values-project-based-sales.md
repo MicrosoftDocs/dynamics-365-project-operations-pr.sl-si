@@ -1,6 +1,6 @@
 ---
 title: Pregled podrobnosti pogodbe, ki temelji na projektu
-description: Ta članek vsebuje informacije o delu s pogodbenimi linijami, ki temeljijo na projektih.
+description: V tem članku so na voljo informacije o delu s podrobnostmi pogodbe, ki temelji na projektu.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Ocena stroškov dodelitev virov s podizvajalsko pogodbo
-description: Ta članek pojasnjuje, kako Microsoft Dynamics 365 Project Operations izračuna oceno stroškov podizvajalskih dodelitev virov.
+description: Ta članek pojasnjuje, kako program Microsoft Dynamics 365 Project Operations izračuna oceno stroškov dodelitev virov s podizvajalsko pogodbo.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,32 +17,32 @@ ms.locfileid: "9522676"
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Stroški dodelitve nalog podizvajalskih članov projektne skupine so ovrednoteni z uporabo **Nakup** cenik, ki je priložen podizvajalski pogodbi na pripadajočem zapisu članov ekipe. To se razlikuje od tega, kako se ovrednotijo stroški dodelitev virov zaposlenih, kjer se dodelitve nalog virov zaposlenih ovrednotijo z uporabo **Stroški** cenik, ki je priložen naročniku projekta. 
+Stroški dodelitve opravil podizvajalskih članov projektne ekipe se obračunajo s cenikom **Nakup**, ki je priložen podizvajalski pogodbi na povezanem zapisu člana ekipe. To se razlikuje od tega, kako se obračunajo stroški dodelitev virov zaposlenih, kjer se dodelitve opravil virov zaposlenih obračunajo s cenikom **Cena**, ki je priložen pogodbeni enoti projekta. 
 
-Za generične člane projektne skupine, ki so sklenjeni s podizvajalci, se dodelitve ovrednotijo z nastavitvijo cene na podlagi vloge v nabavnem ceniku, priloženem podizvajalski pogodbi. Nakupne cene je mogoče nastaviti tudi posebej za vsak vir. Te cene, specifične za vire, bodo imele prednost, ko so dodelitve stroškov imenovanih članov projektne skupine pogodbeni delavci. 
+Opravila splošnih članov projektne ekipe, ki so podizvajalci, se obračunajo z nastavitvijo cene, ki temelji na vlogi, v ceniku nabave, ki je priložen podizvajalski pogodbi. Nakupne cene je mogoče nastaviti tudi posebej za vsak vir. Te cene, povezane z viri, bodo imele prednost pri obračunavanju stroškov dodelitve opravil imenovanih članov projektne ekipe, ki so pogodbeni delavci. 
 
-Prednost uporabe nakupne cene, specifične za vlogo, v primerjavi s specifično za vir je odvisna od nastavitve prioritete dimenzije cen v **Parametri > Razsežnosti oblikovanja cen na podlagi zneska**.
+Prednost uporabe nakupne cene, povezane z vlogo, v primerjavi s ceno, povezano z viri, je odvisna od nastavitve prioritete cenovne razsežnosti v razdelku **Parametri > Cenovna razsežnost na podlagi zneska**.
 
-Ta funkcionalnost dinamičnega izpeljanja cen na podlagi nastavitve razsežnosti za nakupne cene podizvajalcev je podobna izpeljavi stroškov in stopenj računov za zaposlene s polnim delovnim časom. 
+Ta funkcionalnost dinamičnega določanja cen na podlagi nastavitve razsežnosti za nakupne cene podizvajalcev je podobna izpeljavi cen in deležev obračunavanja za zaposlene s polnim delovnim časom. 
 
-## <a name="creating-task-assignments-for-getting-cost-estimates-of-subcontractor-resources"></a>Izdelava nalog za pridobitev ocene stroškov virov podizvajalcev
+## <a name="creating-task-assignments-for-getting-cost-estimates-of-subcontractor-resources"></a>Ustvarjanje dodelitev opravil za pridobitev ocen stroškov virov podizvajalcev
 
-Naloge za podizvajalce se lahko ustvarijo na dva načina: 
-- Uporabljati **Naloge** zavihek.
-- Uporabljati **Ekipa** zavihek.
+Dodelitve opravil za podizvajalce se lahko ustvarijo na dva načina: 
+- Z izbiro zavihka **Opravila**.
+- Z izbiro zavihka **Ekipa**.
 
-### <a name="creating-resources-assignments-using-the-tasks-tab"></a>Ustvarjanje dodelitev virov z uporabo zavihka Naloge
-Uporabljati **Viri** seznam v **Naloge** za določeno nalogo, lahko ustvarite dodelitev naloge za imenovan vir ali generični vir. Če izberete imenovani vir iz **Dodeljeni viri** spustni meni na opravilu in je ta vir pogodbeni delavec, je imenovani vir dodeljen opravilu in ustvarjen je ustrezen zapis člana projektne skupine z vrsto delavca, nastavljeno na **Pogodbeni delavec** in **Veljavnost** nastavljena **Neveljavno**. Kot naslednji korak boste morali odpreti zapis člana projektne skupine in izbrati podizvajalsko pogodbo in vrstico podizvajalske pogodbe. To bo posodobilo dodelitev naloge, da se bo sklicevalo na podizvajalsko pogodbo in podizvajalsko vrstico, prav tako pa bo posodobilo status člana ekipe na **Veljavno**.
+### <a name="creating-resources-assignments-using-the-tasks-tab"></a>Ustvarjanje dodelitev virov z uporabo zavihka »Opravila«
+Z uporabo seznama **Viri** v zavihku **Opravila** za določeno nalogo lahko ustvarite dodelitev opravila za poimenovani vir ali splošni vir. Če izberete poimenovani vir iz spustnega seznama **Dodeljeni viri** na opravilu in je ta vir pogodbeni delavec, je poimenovani vir dodeljen opravilu in ustvarjen je ustrezen zapis člana projektne ekipe z vrsto delavca, nastavljeno na **Pogodbeni delavec**, in možnostjo **Veljavnost**, nastavljeno na **Neveljavno**. V naslednjem koraku boste morali odpreti zapis člana projektne ekipe in izbrati podizvajalsko pogodbo in podrobnosti podizvajalske pogodbe. S tem boste posodobili dodelitev opravila, da se bo sklicevalo na podizvajalsko pogodbo in podrobnosti podizvajalske pogodbe, prav tako pa boste posodobili stanje člana ekipe na **Veljavno**.
 
-Če se odločite ustvariti generičnega člana ekipe iz **Dodeljeni viri** spustni meni za nalogo, **Generično ustvarjanje članov ekipe** pogovorno okno vam bo omogočilo izbiro podizvajalske pogodbe in podizvajalske vrstice. Ko je generični vir dodeljen opravilu in je ustvarjen ustrezen zapis člana projektne skupine, boste opazili, da je zapis člana projektne skupine ustvarjen z vrsto delavca, nastavljeno na **Pogodbeni delavec** in **Veljavnost** nastavljena **Veljavno**.
+Če se odločite ustvariti splošnega člana ekipe iz spustnega seznama **Dodeljeni viri** na opravilu, vam bo pogovorno okno **Ustvarjanje splošnega člana ekipe** omogočilo izbiro podizvajalske pogodbe in podrobnosti podizvajalske pogodbe. Ko je splošni vir dodeljen opravilu in je ustvarjen ustrezen zapis člana projektne ekipe, boste opazili, da je zapis člana projektne ekipe ustvarjen z vrsto delavca, nastavljeno na **Pogodbeni delavec**, in možnostjo **Veljavnost**, nastavljeno na **Veljavno**.
 
-### <a name="creating-project-team-members-using-the-team-tab"></a>Ustvarjanje članov projektne skupine z uporabo zavihka Ekipa
-Z uporabo zavihka Ekipa v projektu lahko ustvarite splošnega ali imenovanega člana ekipe. Pri ustvarjanju člana ekipe lahko izberete podizvajalsko pogodbo in vrstico podizvajalske pogodbe. Ko je član ekipe ustvarjen, ga boste morali dodeliti nalogi z uporabo **Dodeljeni viri** spustni meni na nalogi. 
+### <a name="creating-project-team-members-using-the-team-tab"></a>Ustvarjanje članov projektne ekipe z uporabo zavihka »Ekipa«
+Z uporabo zavihka »Ekipa« v projektu lahko ustvarite splošnega ali poimenovanega člana ekipe. Pri ustvarjanju člana ekipe lahko izberete podizvajalsko pogodbo in podrobnosti podizvajalske pogodbe. Ko je član ekipe ustvarjen, ga boste morali dodeliti opravilu z uporabo spustnega seznama **Dodeljeni viri** v opravilu. 
 
 ## <a name="updating-estimates"></a>Posodabljanje ocen
-Ko boste člane projektne skupine dodelili nalogam, se boste morali pomakniti do **Ocene** na projektu in izberite **Posodobite cene** zagotoviti, da so stroški dodelitve sredstev podizvajalcem posodobljeni na podlagi nabavnega cenika, priloženega podizvajalski pogodbi. Ocene se ne ustvarijo za nedodeljena opravila v Microsoftu Dynamics 365 Project Operations. Posledično boste morali ustvariti dodelitve nalog za ceno in stroške različnih nalog v vašem projektu. 
+Ko boste člane projektne ekipe dodelili opravilom, se boste morali pomakniti do zavihka **Ocene** v projektu in izbrati možnost **Posodobi cene**, da zagotovite, da so mere stroškov dodelitve virov podizvajalcem posodobljene na podlagi nabavnega cenika, priloženega podizvajalski pogodbi. Ocene se ne ustvarijo za nedodeljena opravila v programu Microsoft Dynamics 365 Project Operations. Posledično boste morali ustvariti dodelitve opravil za ceno in stroške različnih opravil v vašem projektu. 
 
-> [OPOMBA!] Člani projektne skupine, ki so **Delavski tip** kot **Pogodbeni delavec** vendar nimajo reference podizvajalca, so označeni kot **Neveljavno** na **Člani projektne skupine** mreža. Če obstajajo člani projektne skupine s tem statusom, odprite zapis člana projektne skupine in ročno posodobite polja podizvajalske pogodbe in vrstice podizvajalske pogodbe, tako da bo ocena finančnih stroškov natančno odražala stroške podizvajalca na **Ocene** zavihek. 
+> [OPOMBA!] Člani projektne ekipe, ki imajo možnost **Vrsta delavca** nastavljeno kot **Pogodbeni delavec**, vendar nimajo sklica na podizvajalsko pogodbo, so v mreži **Člani projektne ekipe** označeni kot **Neveljavno**. Če obstajajo člani projektne ekipe s tem stanjem, odprite zapis člana projektne ekipe in ročno posodobite polja podizvajalske pogodbe in podrobnosti podizvajalske pogodbe tako, da bo ocena finančnih stroškov natančno odražala stroške podizvajalca v zavihku **Ocene**. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

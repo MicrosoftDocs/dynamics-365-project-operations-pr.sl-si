@@ -1,6 +1,6 @@
 ---
 title: Odpoklic predhodno odobrenih vnosov
-description: Ta članek pojasnjuje, kako lahko član projektne skupine zahteva odpoklic predhodno predloženih in odobrenih evidenc o času, stroških in porabi materiala ter kako lahko vodja projekta odobri ali zavrne zahteve za odpoklic.
+description: Ta članek pojasnjuje, kako lahko član projektne ekipe zahteva preklic predhodno predloženih in odobrenih zapisov o času, stroških in uporabi materiala ter kako lahko vodja projektov odobri ali zavrne zahteve za preklic.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -17,26 +17,26 @@ ms.locfileid: "8930384"
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Član projektne skupine, ki predloži vnos časa, stroškov ali porabe materiala, lahko ta vnos prikliče, potem ko je bil odobren. Postopek odpoklica ima dva glavna koraka:
+Član projektne ekipe, ki predloži vnos časa, stroškov ali uporabe materiala, lahko ta vnos po odobritvi prekliče. Postopek preklica ima dva glavna koraka:
 
 1. Pošiljatelj zahteva preklic.
-2. Odobrnik odobri zahtevo za odpoklic.
+2. Odobritelj odobri zahtevo za preklic.
 
 ## <a name="request-a-recall"></a>Zahteva za preklic
 
-Sledite tem korakom, da zahtevate odpoklic odobrenih vnosov časa, stroškov ali porabe materiala.
+Če želite zahtevati preklic odobrenega vnosa časa, stroškov ali uporabe materiala, sledite tem korakom.
 
-1. Sledite enemu od teh korakov, odvisno od vrste vnosa, ki ga želite priklicati:
+1. Sledite enemu od teh korakov, odvisno od vrste vnosa, ki ga želite preklicati:
 
-    - Za vnose časa pojdite na **Projekti** \> **Moje delo** \> **Vnos časa** in izberite vse časovne vnose za določeno kombinacijo projekta in opravila. Druga možnost je, da v mreži izberete posamezne celice za čas na določen datum za določen projekt.
-    - Za vnose stroškov pojdite na **Projekti** \> **Moje delo** \> **Stroški** in izberite vrstico za vnos stroškov, ki ga želite priklicati.
-    - Za vnose o porabi materiala pojdite na **Projekti** \> **Moje delo** \> **Dnevnik porabe materiala** in izberite vrstico za vnos porabe materiala, ki ga želite priklicati.
+    - Za časovne vnose odprite **Projekti** \> **Moje delo** \> **Časovni vnos** in izberite vse časovne vnose za določeno kombinacijo projekta in opravila. Druga možnost je, da v mreži izberete posamezne celice za čas na določen datum za določen projekt.
+    - Za vnose stroškov odprite **Projekti** \> **Moje delo** \> **Stroški** izberite vrstico za vnos stroškov, ki ga želite preklicati.
+    - Za vnose uporabe materiala odprite **Projekti** \> **Moje delo** \> **Dnevnik uporabe materiala** izberite vrstico za vnos uporabe materiala, ki jo želite preklicati.
 
-2. Izberite **Prekliči**. Prikaže se potrditveno pogovorno okno. Če so bili izbrani vnosi časa, stroškov ali porabe materiala že odobreni, boste pozvani, da vnesete razlog za odpoklic.
+2. Izberite **Prekliči**. Prikaže se potrditveno pogovorno okno. Če so bili izbrani vnosi časa, stroškov in uporabe materiala že odobreni, morate vnesti razlog za preklic.
 3. Vnesite razlog za preklic in nato izberite **V redu**, da potrdite postopek. Sistem pošlje osebi, ki je odobrila vnose, zahtevo za odobritev preklica.
 
 > [!IMPORTANT]
-> Ne morete ustvariti zahteve za odpoklic za odobreni vnos časa, stroškov ali porabe materiala, ki je že bil zaračunan stranki. Če poskusite, prejmete sporočilo, ki navaja, da vnosa časa, stroškov ali porabe materiala ni mogoče priklicati, ker je bil že zaračunan. V tem primeru lahko zahtevate odpoklic vnosa le, če se za izdajo celotnega dobropisa ali vračila kupcu na izvirnem računu uporabi popravni račun.
+> Ne morete ustvariti zahteve za preklic odobrenega vnosa časa, stroškov ali uporabe materiala, ki je že bila zaračunana stranki. Če to poskusite, prejmete sporočilo, v katerem je navedeno, da vnosa časa, stroškov ali uporabe materiala ni mogoče preklicati, ker je bil vnos že fakturiran. V tem primeru lahko zahtevate preklic vnosa le, če se za izdajo celotnega dobroimetja ali vračila stranki na prvotnem računu uporabi popravljeni račun.
 
 ## <a name="approve-or-reject-a-recall-request"></a>Odobritev ali zavrnitev zahteve za preklic
 
@@ -52,7 +52,7 @@ Sledite tem korakom, da zahtevate odpoklic odobrenih vnosov časa, stroškov ali
     Če ste izbrali **Zavrni**, je zahteva za preklic zavrnjena.
 
 > [!IMPORTANT]
-> Ko je odpoklic odobren, tako kot takrat, ko je zahtevan, sistem preveri kakršno koli dejavnost izdajanja računov za vnose časa, stroškov ali porabe materiala. Če je bil vnos že zaračunan ali če je na osnutku računa, odobritelj prejme sporočilo o napaki, ki navaja, da časa ali stroškov ni mogoče odobriti za odpoklic, ker je bil že zaračunan. V tem primeru lahko odobritelj odobri odpoklic le, če se za izdajo celotnega dobropisa ali vračila kupcu na izvirnem računu uporabi korektivni račun.
+> Če je preklic odobren, tako kot če je zahtevan, sistem v vnosih časa, stroškov ali uporabe materiala poišče dejavnosti fakturiranja. Če je bil vnos že fakturiran ali če je v osnutku računa, odobritelj prejme sporočilo o napaki, v katerem je navedeno, da časa ali stroškov ni mogoče odobriti za preklic, ker je bil vnos že fakturiran. V tem primeru lahko odobritelj odobri preklic le, če se za izdajo celotnega dobroimetja ali vračila stranki na prvotnem računu uporabi popravljeni račun.
 
 ## <a name="impact-of-a-recall-request"></a>Učinek zahteve za preklic
 
@@ -60,9 +60,9 @@ Preklic odobritve ima operativni in finančni učinek.
 
 ### <a name="operational-impact"></a>Operativni učinek
 
-Če je zahteva za preklic odobrena, je zapis odobritve označen kot **Zavrnjeno**. Status vnosa se spremeni v eno ali drugo **Vrnjeno** oz **Zavrnjeno**, odvisno od tega, ali gre za vnos časa ali vnos stroškov ali porabe materiala.
+Če je zahteva za preklic odobrena, je zapis odobritve označen kot **Zavrnjeno**. Stanje vnosa se spremeni na **Vrnjeno** ali **Zavrnjeno**, odvisno od tega, ali gre za vnos časa, stroškov ali uporabe materiala.
 
-Član projektne skupine si lahko ogleda vnose, jih ureja in nato znova odda ali popolnoma izbriše vnose.
+Član projektne ekipe si lahko ogleda vnose, jih uredi in nato znova pošlje ali pa jih v celoti izbriše.
 
 Če je zahteva za preklic zavrnjena, stanje vnosa ostane **Odobreno**, vnosa pa član projektne ekipe ali odobritelj v projektu ne more urejati.
 
@@ -79,14 +79,14 @@ Nato se v tabeli »Dejanske vrednosti« ustvarijo postavke storniranja. Če žel
 
 ## <a name="changes-to-time-entry-records"></a>Spremembe zapisov časovnega vnosa
 
-Naslednja slika prikazuje spremembe, ki se pojavijo za odobrene vnose časa in ustrezne zapise o odobritvi, ko so odpoklicani.
+Spodnja slika prikazuje spremembe, do katerih pride pri odobrenih časovnih vnosih, in ustrezne zapise o odobritvah, ko so ti vnosi preklicani.
 
-![Prehodi med stanjem vnosa časa.](media/TimeEntryStateTransitions.png)
+![Prehodi stanja vnosa stroškov.](media/TimeEntryStateTransitions.png)
 
-## <a name="changes-to-expense-and-material-usage-entry-records"></a>Spremembe evidenc o stroških in porabi materiala
+## <a name="changes-to-expense-and-material-usage-entry-records"></a>Spremembe zapisov vnosa stroškov in uporabe materiala
 
-Naslednja slika prikazuje spremembe, ki se pojavijo za odobrene vnose stroškov in porabe materiala ter ustrezne zapise o odobritvah, ko so odpoklicani.
+Spodnja slika prikazuje spremembe, do katerih pride pri odobrenih vnosih stroškov in uporabe materiala, in ustrezne zapise o odobritvah, ko so ti vnosi preklicani.
 
-![Prehodi med stanjem vnosa odhodkov.](media/ExpenseEntryStateTransitions.png)
+![Prehodi stanja vnosa stroškov.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

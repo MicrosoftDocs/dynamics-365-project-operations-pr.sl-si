@@ -1,6 +1,6 @@
 ---
 title: Posodobitve aplikacije Project Operations
-description: Ta članek vsebuje informacije o izdanih različicah Dynamics 365 Project Operations.
+description: Ta članek vsebuje informacije o izdanih različicah aplikacije Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
@@ -25,7 +25,7 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, 
 Dynamics 365 Project Operations vsebuje dve komponenti:
 
 - Project Operations v okolju Dataverse zajema zmogljivosti od priložnosti do predračuna. Dataverse se uporablja pri poenostavljenem uvajanju in uvajanju aplikacije Project Operations za primere uporabe z viri/brez zalog.
-- Projektno vodenje in računovodstvo v okolju Dynamics 365 Finance pokriva zmožnosti vodenja stroškov, projektnega računovodstva in priznavanja prihodkov. Okolje aplikacije za finance in operacije se uporablja v Project Operations za scenarije, ki temeljijo na virih/nezaloženih, in Project Operations za scenarije, ki temeljijo na zalogah/produkciji.
+- Upravljanje projektov in računovodstvo v okolju Dynamics 365 Finance zajema zmogljivosti upravljanja stroškov, vodenje računov projekta in pripoznavanje prihodkov. Okolje aplikacije za finance in postopke se uporablja v aplikaciji Project Operations za scenarije, ki temeljijo na virih/nezalogi in aplikaciji Project Operations za primere uporabe z naročili na zalogi/v proizvodnji.
 
 ## <a name="project-operations-release-notes"></a>Opombe ob izdaji aplikacije Project Operations
 - Opombe ob najnovejši izdaji Project Operations za [primere uporabe z viri/brez zalog](whats-new-july-2022-resource-based.md).
@@ -34,11 +34,11 @@ Dynamics 365 Project Operations vsebuje dve komponenti:
 
 ## <a name="project-operations-latest-version"></a>Najnovejša različica aplikacije Project Operations
 
-| Project Operations v okolju Dataverse | Vodenje projektov in računovodstvo v okoljih aplikacij za finance in poslovanje | 
+| Project Operations v okolju Dataverse | Upravljanje projektov in računovodstvo v okoljih aplikacij za finance in postopke | 
 | --- | --- |
 | 4.45.0.53 | 10.0.29 |
 
-Za scenarij projektnih operacij vira/nezaloženega scenarija priporočamo, da uporabite različico orkestracije z dvojnim pisanjem 2.3.1.15 ali novejšo.
+Za aplikacijo Project Operations za primere uporabe z viri/brez zalog priporočamo uporabo različice rešitve za organiziranje z dvojnim zapisovanjem 2.3.1.15 ali novejše.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Razpored izdaje za aplikacijo Project Operations v okolju Dataverse
 
@@ -66,7 +66,7 @@ Posodobitve za aplikacijo Project Operations v okolju Dataverse so na voljo mese
 | 5. skupina |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Severna Amerika         |  4.46.0.60      | Zaključevanje           | Zaključevanje            | Še ni določeno           | 04. november 2022       |
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Razpored izdaj za upravljanje projektov in računovodstvo v okolju aplikacij za finance in poslovanje
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Razpored izdaje za upravljanje projektov in računovodstvo v okolju aplikacij za finance in postopke
 
 Posodobitve za upravljanje projektov in računovodstvo izhajajo osemkrat na leto.
 

@@ -35,21 +35,21 @@ ms.locfileid: "9177446"
 ## <a name="components-of-project-template"></a>Komponente projektne predloge
  Projektna predloga je sestavljena iz treh delov:  
   
-- **Strukturirana členitev dela**: strukturirana členitev dela v projektni predlogi vsebuje enak nabor elementov kot v projektu. Ustvarite lahko hierarhijo opravil, nalogi povežete vloge, definirate atribute urnika, nastavite odvisnosti in si ogledate vse podatke v Gantt. Struktura razčlenitve dela v projektnih predlogah podpira tudi načine opravil za vsako opravilo. Med predlogo projekta in projektom pri izdelavi urnika dela ni razlike.  
+- **Strukturirana členitev dela**: strukturirana členitev dela v projektni predlogi vsebuje enak nabor elementov kot v projektu. Ustvarite lahko hierarhijo opravil, povežete vloge z opravilom, določite atribute načrtovanja, nastavite odvisnosti in si vse podatke ogledate v Ganttovem grafikonu. Strukturirana členitev dela v projektnih predlogah za vsako opravilo podpira tudi način opravila. Če ustvarjate načrtovanje dela, med projektno predlogo in projektom ni razlik.  
   
 - **Ocene za projekte**: v predlogah ocene za projekte delujejo na enak način kot v projektih, saj so z izjemo cenikov za privzeto lastne in prodajne cene vedno privzete lastne in prodajne cene cenikov, ki so določeni s parametri [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Preostale funkcije so enake kot v projektu.  
   
 - **Oblikovanje projektne ekipe**: ko za projektno predlogo oblikujete projektno ekipo, v predlogi ne morete rezervirati poimenskega vira. Če želite ustvariti nabor splošnih virov, lahko v strukturirani členitvi dela uporabite **Ustvari projektno ekipo**. Za splošne vire lahko določite tudi zahtevane spretnosti in usposobljenost. V predlogah projekta ne morete nadomestiti splošnega vira z virom, ki ga je mogoče rezervirati.  
 
-## <a name="create-a-project-template-from-an-existing-project"></a>Ustvarite predlogo projekta iz obstoječega projekta
-Predlogo projekta lahko ustvarite iz projekta na naslednje načine:
+## <a name="create-a-project-template-from-an-existing-project"></a>Ustvarjanje predloge projekta iz obstoječega projekta
+Iz projekta lahko predlogo projekta ustvarite na naslednje načine:
 
-- **Struktura razčlenitve dela** : Struktura razčlenitve dela v predlogi, ki izhaja iz projekta, bo kopirala vse naloge in odvisnosti. Ustvarjene dodelitve bodo temeljile na generičnih članih skupine, ki so dodani projektni skupini, ko je ustvarjena predloga projekta.
-- **Ocene projekta** : Ko je predloga projekta ustvarjena iz obstoječega projekta, se ocene iz izvornega projekta prekopirajo v predlogo projekta.
-- **Člani projektne skupine** : Ko je predloga ustvarjena iz obstoječega projekta, so vsi imenovani člani skupine nadomeščeni z generičnim virom organizacije. Ohranjajo se vsa imena položajev in vloge.
+- **Strukturirana členitev dela** : strukturirana členitev dela v predlogi, ki izhaja iz projekta, bo kopirala vsa opravila in odvisnosti. Ustvarjene dodelitve bodo temeljile na splošnih članih ekipe, ki so dodani projektni ekipi, ko je ustvarjena predloga projekta.
+- **Projektne ocene**: ko je predloga projekta ustvarjena iz obstoječega projekta, se ocene iz izvornega projekta prekopirajo v predlogo projekta.
+- **Člani projektne ekipe**: ko je predloga ustvarjena iz obstoječega projekta, so vsi poimenovani člani ekipe nadomeščeni s splošnim virom organizacije. Ohranijo se vsa imena položajev in vloge.
 
 ## <a name="create-a-project-from-a-template"></a>Ustvari projekt iz predloge  
- Projekt lahko ustvarite iz predloge na naslednje načine:  
+ Iz predloge lahko projekt ustvarite na naslednje načine:  
   
 -   Če ustvarjate projekt iz ponudbe, lahko projektno predlogo izberete v obrazcu za hitro ustvarjanje projekta.  
   

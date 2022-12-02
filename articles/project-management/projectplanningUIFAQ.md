@@ -1,6 +1,6 @@
 ---
 title: Odpravljanje težav dela v mreži opravil
-description: Ta članek vsebuje informacije o odpravljanju težav, ki so potrebne pri delu v mreži opravil.
+description: Ta članek zagotavlja informacije o odpravljanju težav, potrebne pri delu v mreži opravil.
 author: ruhercul
 ms.date: 07/22/2022
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9188252"
 
 _**Velja za:** aplikacija Project Operations za okoliščine, ki temeljijo na virih/nezalogi, poenostavljeno uvajanje – posel do izstavitve predračuna, storitev Project for the web_
 
-Mreža opravil, ki jo uporablja Dynamics 365 Project Operations je gostujoči iframe znotraj Microsoft Dataverse. Zaradi te uporabe morajo biti izpolnjene posebne zahteve za zagotovitev pravilnega delovanja avtentikacije in avtorizacije. Ta članek opisuje pogoste težave, ki lahko vplivajo na zmožnost upodabljanja mreže ali upravljanja opravil v strukturi razčlenitve dela (WBS).
+Mreža opravil, ki jo uporablja aplikacija Dynamics 365 Project Operations, je gostujoči element iframe znotraj storitve Microsoft Dataverse. Zaradi te uporabe morajo biti izpolnjene posebne zahteve za zagotovitev pravilnega delovanja preverjanja pristnosti in avtorizacije. Ta članek opisuje pogoste težave, ki lahko vplivajo na možnost upodabljanja mreže ali upravljanja opravil v strukturirani členitvi dela (SČD).
 
 Pogoste težave vključujejo:
 
@@ -32,7 +32,7 @@ Pogoste težave vključujejo:
 
 ### <a name="mitigation-1-enable-cookies"></a>Rešitev št. 1: Omogočite piškotke
 
-Aplikacija Project Operations zahteva, da so piškotki tretjih oseb omogočeni za upodabljanje strukturirane členitve dela. Če piškotki tretjih oseb niso omogočeni, boste namesto opravil videli prazno stran, ko izberete **Naloge** zavihek na **Projekt** strani.
+Aplikacija Project Operations zahteva, da so piškotki tretjih oseb omogočeni za upodabljanje strukturirane členitve dela. Če piškotki tretjih oseb niso omogočeni, boste namesto, da bi videli opravila, videli prazno stran, ko izberete zavihek **Opravila** na strani **Projekti**.
 
 Za brskalnike Microsoft Edge ali Google Chrome naslednji postopki orisujejo, kako posodobiti nastavitve brskalnika, da se omogočijo piškotki tretjih oseb.
 
@@ -57,7 +57,7 @@ Za brskalnike Microsoft Edge ali Google Chrome naslednji postopki orisujejo, kak
 
 ### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Rešitev št. 2: Preverite, da je bila končna točka PEX pravilno konfigurirana
 
-Project Operations zahteva, da se parametri projekta sklicujejo na končno točko PEX. Ta končna točka je potrebna za komunikacijo s storitvijo, ki se uporablja za upodabljanje strukturirane členitve dela. Če parameter ni omogočen, boste prejeli napako »Parameter projekta ni veljaven«. Če želite končno točko PEX posodobiti, upoštevajte naslednje korake.
+Project Operations zahteva, da se parametri projekta sklicujejo na končno točko PEX. Ta končna točka je potrebna za komunikacijo s storitvijo, ki se uporablja za upodabljanje strukturirane členitve dela. Če parameter ni omogočen, se prikaže napaka »Parameter projekta ni veljaven«. Če želite končno točko PEX posodobiti, upoštevajte naslednje korake.
 
 1. Dodaj polje **Končna točka PEX** na stran **Projektni parametri**.
 2. Določite vrsto izdelka, ki ga uporabljate. Ta vrednost se uporablja, ko je nastavljena končna točka PEX. Pri pridobivanju končne točke PEX je vrsta izdelka že določena. Ohranite to vrednost.
@@ -71,15 +71,15 @@ Project Operations zahteva, da se parametri projekta sklicujejo na končno točk
 
 4. Odstranite polje s strani **Projektni parametri**.
 
-### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Ublažitev 3: prijavite se v project.microsoft.com
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Ublažitev 3: Prijavite se v project.microsoft.com
 
-V brskalniku odprite nov zavihek, pojdite na project.microsoft.com in se prijavite z uporabniško vlogo, ki jo uporabljate za dostop do Project Operations. Pomembno je, da je v Microsoftov izdelek v brskalniku prijavljen samo en uporabnik. Sporočilo o napaki »login.microsoftonline.com zavrnil povezavo« se najpogosteje pojavi, ko je prijavljenih več kot en uporabnik, kot je prikazano na naslednji sliki.
+V brskalniku odprite nov zavihek, odprite project.microsoft.com in se prijavite z uporabniško vlogo, ki jo uporabljate za dostop do aplikacije Project Operations. Pomembno je, da je v Microsoftov izdelek v brskalniku prijavljen samo en uporabnik. Sporočilo o napaki »login.microsoftonline.com ni vzpostavil povezave« se najpogosteje pojavi, ko je prijavljen več kot en uporabnik, kot je prikazano na naslednji sliki.
 
-![Izberite stran za prijavo v račun, ki prikazuje, da sta prijavljena dva uporabnika.](media/MULTIPLE_USERS_LOGGED_IN.png)
+![Izberite stran za vpis v račun, ki prikazuje, da sta prijavljena dva uporabnika.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Težava: Projekt se ne naloži in uporabniški vmesnik je obtičal na vrtavki
 
-Za namene preverjanja pristnosti morajo biti omogočena pojavna okna, da se mreža opravil lahko naloži. Če pojavna okna niso omogočena, bo zaslon obtičal na vrtavki za nalaganje. Naslednja slika prikazuje URL z oznako blokiranega pojavnega okna v naslovni vrstici, zaradi česar se vrtalnik zatakne pri nalaganju strani. 
+Za namene preverjanja pristnosti morajo biti omogočena pojavna okna, da se mreža opravil lahko naloži. Če pojavna okna niso omogočena, bo zaslon obtičal na vrtavki za nalaganje. Naslednji grafični prikaz prikazuje spletni naslov z blokirano pojavno oznako v naslovni vrstici, zaradi česar vrtavka obtiči, ko poskuša naložiti stran. 
 
    ![Nedokončana vrtavka in blokirana pojavna okna.](media/popupsblocked.png)
 
@@ -115,7 +115,7 @@ Druga možnost je, da upoštevate naslednje korake:
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Težava št. 3: Skrbništvo pravic za storitev Project for the Web
 
-Project Operations se zanaša na zunanjo storitev razporejanja. Storitev zahteva, da ima uporabnik dodeljenih več vlog, ki mu omogočajo branje in pisanje entitetam, povezanim z WBS. Te entitete vključujejo projektna opravila, dodelitve virov in odvisnosti opravil. Če uporabnik ne more upodobiti WBS, ko se pomakne do **Naloge** zavihek, je verjetno zato, ker **Projekt** za **Projektne operacije** ni bil omogočen. Uporabnik lahko prejme bodisi napako varnostne vloge ali napako, povezano z zavrnitvijo dostopa.
+Project Operations se zanaša na zunanjo storitev razporejanja. Storitev zahteva, da ima uporabnik dodeljenih več vlog, ki mu omogočajo branje in pisanje entitetam, povezanim s SČD. Te entitete vključujejo projektna opravila, dodelitve virov in odvisnosti opravil. Če uporabnik ne more upodobiti SČD, ko se pomakne do zavihka **Opravila**, je razlog verjeto to, da **Projekt** za **Aplikacijo Project Operations** ni bil omogočen. Uporabnik lahko prejme bodisi napako varnostne vloge ali napako, povezano z zavrnitvijo dostopa.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Rešitev št. 1: Preverite varnostne vloge uporabnika aplikacije in končnega uporabnika
 

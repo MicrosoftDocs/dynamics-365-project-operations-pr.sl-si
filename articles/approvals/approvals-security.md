@@ -1,6 +1,6 @@
 ---
 title: Varnost in odobritve
-description: Ta članek vsebuje informacije o varnostni nastavitvi za delo z odobritvami v Microsoftu Dynamics 365 Project Operations.
+description: Ta članek vsebuje informacije o varnostni nastavitvi za delo z odobritvami v programu Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 08/29/2022
 ms.topic: security
@@ -20,19 +20,19 @@ _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoč
 Microsoft Dynamics 365 Project Operations uporablja dve varnostni vlogi za odobritev vnosov časa, stroškov in materiala:
 
 - Odobritelj projekta
-- Administrator odobritve projekta
+- Skrbnik odobritelja projekta
 
 ## <a name="project-approver"></a>Odobritelj projekta
 
-Morate imeti **Odobritelj projekta** varnostna vloga za odobritev projektnega časa, stroškov in vnosov materiala. Imeti morate tudi dostop do ustreznih povezanih subjektov, kot je npr **Projekt**. Ta dostop lahko dodeli nekdo, ki ima **Vodja projekta** vlogo. Poleg tega morate biti član ekipe projekta in označeni kot odobritelj.
+Za odobritev vnosov časa projekta, stroškov in materialov morate imeti varnostno vlogo **Odobritelj projekta**. Imeti morate tudi dostop do ustreznih povezanih entitet, kot je npr. **Projekt**. Ta dostop lahko dodeli nekdo, ki ima vlogo **Vodja projektov**. Poleg tega morate biti član projektne ekipe in označeni kot odobritelj.
 
-Če želite odobriti vnose, ki niso projekti, morate biti vodja prijavitelja.
+Če želite odobriti vnose, ki niso povezani s projektom, morate biti vodja pošiljatelja.
 
-## <a name="project-approver-admin"></a>Administrator odobritve projekta
+## <a name="project-approver-admin"></a>Skrbnik odobritelja projekta
 
 > [!NOTE]
-> The [Odobritveni nizi](approval-sets.md) mora biti omogočena, preden lahko uporabite skrbniško funkcijo odobritelja projekta.
+> Funkcija [Nabori odobritev](approval-sets.md) mora biti omogočena, preden lahko uporabite funkcijo »Skrbnik odobritelja projekta«.
 
-The **Administrator odobritve projekta** varnostna vloga omogoča uporabnikom, da obidejo pravilnike in omogoča odobritev vnosov v vseh projektih. Dodelitev te vloge bo zaobšla logiko preverjanja, ki zahteva članstvo v skupini in oznako odobritelja. Imeti morate dostop do ustreznih povezanih tabel, kot npr **Projekt**, prek varnostnih vlog, ki so vam dodeljene.
+Varnostna vloga **Skrbnik odobritelja projekta** uporabnikom omogoča, da zaobidejo pravilnike in odobrijo vnose v vseh projektih. Dodelitev te vloge bo zaobšla logiko preverjanja veljavnosti, ki zahteva članstvo v ekipi in oznako odobritelja. Imeti morate dostop do ustreznih povezanih tabel, kot je npr. **Projekt**, prek varnostnih vlog, ki so vam dodeljene.
 
-Uporabniški kontekst SYSTEM obide preverjanja veljavnosti na enak način kot skrbnik odobritelja projekta varnostna vloga.
+Uporabniški kontekst SYSTEM obide preverjanja veljavnosti na enak način kot varnostna vloga »Skrbnik odobritelja projekta«.
