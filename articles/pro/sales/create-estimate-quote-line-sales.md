@@ -1,21 +1,21 @@
 ---
-title: Ocenjevanje vrstice ponudbe, ki temelji na projektih
-description: Ta članek vsebuje informacije o tem, kako ustvariti oceno za vrstico ponudbe, ki temelji na projektih.
+title: Ocenjevanje podrobnosti projektne ponudbe
+description: Ta članek ponuja informacije o tem, kako ustvariti oceno v vrstici ponudbe projekta.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914376"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826008"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Ocenjevanje vrstice ponudbe, ki temelji na projektih
+# <a name="estimate-a-project-quote-line"></a>Ocenjevanje podrobnosti projektne ponudbe
 
-_**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
+_**Velja za:** poenostavljeno uvedbo – posel do izstavitve predračuna, Project Operations za primere, ki temeljijo na virih/nezalogi_
 
 Vrstica ponudbe, ki temelji na projektu, vsebuje podrobnosti, ki pomagajo pri oceni stroškov in potencialnih prihodkov od dela, ki so povezani z uresničitvijo vrstice ponudbe.
 
@@ -24,7 +24,7 @@ Za oceno vrstice ponudbe, ki temelji na projektu, v vrstici izberite zavihek **P
 - Oceno ročno ustvarite neposredno na vrstici ponudbe z uporabo podrobnosti vrstice ponudbe. 
 - Ustvarite projekt in načrt projekta ter nato projekt in opravila na projektu povežite z vrstico ponudbe. Omogočen bo postopek uvoza ocen iz načrta projekta v vrstico ponudbe na podlagi podatkov, ki ste jih navedli.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Ustvarjanje ocen iz projekta neposredno v vrstici ponudbe, ki temelji na projektu
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Ustvarite ocene neposredno v vrstici ponudbe projekta
 
 Če želite ustvariti oceno na vrstici ponudbe, ki temelji na projektu, izberite zavihek **Podrobnosti vrstice ponudbe**. V elementu vrstice, ki ga ustvarite na tem zavihku, bo povzeta ponudbena vrednost te vrstice ponudbe. 
 
@@ -68,8 +68,7 @@ Valuta v podrobnostih vrstice ponudbe privzame prodajne vrednosti iz cenika enot
 
 Izračuni donosnosti pretvorijo znesek v podrobnostih vrstice ponudbe za stroške in prodajo v osnovno valuto okolja za poročilo o celotni ocenjeni marži za ponudbo.
 
-> [!OPOMBA
-> > Pride lahko do napak pri zaokroževanju valut in spremenjenih marž zaradi pomanjkanja menjalnih tečajev, veljavnih na datum. Te izračune uporabljajte samo za projektne pogodbe, saj gre za približke in ne za dejansko zakonsko ali drugo poročanje, ki zahteva večjo natančnost zaokroževanja in zavedanje datuma začetka veljave za menjalne tečaje.
+> [!OPOMBA Do napak pri zaokroževanju valute in spremenjenih marž lahko pride zaradi pomanjkanja veljavnih menjalnih tečajev. Te izračune uporabljajte samo za projektne pogodbe, saj gre za približke in ne za dejansko zakonsko ali drugo poročanje, ki zahteva večjo natančnost zaokroževanja in zavedanje datuma začetka veljave za menjalne tečaje.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

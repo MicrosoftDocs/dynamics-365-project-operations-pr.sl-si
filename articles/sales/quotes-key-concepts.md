@@ -1,8 +1,8 @@
 ---
-title: Ponudbe – ključni pojmi
-description: Ta članek vsebuje informacije o ponudbah in prodajnih ponudbah za projekt, ki so na voljo v storitvi Project Operations.
+title: Koncepti, enolični za ponudbe, ki temeljijo na projektih
+description: Ta članek vsebuje informacije o ponudbah projektov v Microsoftu Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912536"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824348"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Koncepti, enolični za ponudbe, ki temeljijo na projektih
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-V aplikaciji Dynamics 365 Project Operations obstajata dve vrsti ponudb: projektne in prodajne. Vrsti ponudb se razlikujeta na naslednje načine:
+Preden začnete uporabljati projektne ponudbe v Microsoftu Dynamics 365 Project Operations, se morate zavedati naslednjih ključnih pojmov.
 
-- **Mreže za vrstične postavke**: v prodajni ponudbi obstaja samo ena mreža za vrstične postavke. V projektni ponudbi sta dve mreži za vrstične postavke. Ena mreža je za projektne vrstice in druga je za vrstice izdelka.
-- **Aktivacija in popravki**: prodajna ponudba podpira aktivacijo in popravke. Ti procesi niso podprti pri projektni ponudbi.
-- **Priložena naročila**: prodajni ponudbi lahko priložite več naročil. Projektni ponudbi lahko priložite samo eno projektno pogodbo.
-- **Dobitna ponudba**: ko dobite prodajno ponudbo, lahko povezana priložnost ostane odprta. Ko je projektna ponudba pridobljena, se povezana priložnost zapre.
-- **Polja in koncepti**: prodajna ponudba ne vsebuje nekaterih polj in konceptov, ki so vključeni v projektno ponudbo. Polja vključujejo **pogodbeno enoto**, **upravitelja kupcev** in **ime stika za plačilo**.  
-- **Vrsta**: prodajne in projektne ponudbe so določene tudi s poljem, ki temelji na naboru možnosti in se imenuje **Vrsta**. Za prodajno ponudbo ima to polje vrednost **Temelji na elementu**. Za projektno ponudbo pa ima polje vrednost **Temelji na delu**.
+## <a name="owning-company"></a>Lastniško podjetje
 
-V tem članku se osredotočamo na podrobnosti projektnih ponudb.
+Podjetje lastnik predstavlja pravno osebo, ki je lastnik izvedbe projekta. Stranka v ponudbi mora biti veljavna stranka te pravne osebe v aplikacijah za finance in poslovanje. Valuta lastnika podjetja in valuta pogodbene enote, ki je izbrana na podlagi ponudbe na podlagi projekta, se morata ujemati.
 
-Projektna ponudba v storitvi Project Operations ima lahko več vrstičnih postavk ali vrstic ponudbe. U bistvu ima projektna ponudba dve mreži za vrstične postavke. Ena mreža je za vrstice, ki temeljijo na projektih in omogočajo podrobne ocene. Druga mreža je za vrstice, ki temeljijo na izdelkih in uporabljajo enostavno ceno enote in pristop na podlagi količine.
+## <a name="contracting-unit"></a>Pogodbena enota
 
-- **Na podlagi projektov**: ponudbena vrednost je določena po tem, ko ocenite, koliko dela je potrebno. Delo lahko ocenite na visoki ravni, neposredno kot podrobnosti vrstice pod vsako ponudbeno vrstico ali na podlagi začetnih ocen z uporabo projekta in projektnega načrta. Vrstice ponudbe, ki temeljijo na projektih, so na voljo samo v ponudbah, ki temeljijo na projektih in so ustvarjene s storitvijo Project Operations. Ta vrsta vrstice ponudb je prilagojena oblika vrstic ponudb iz kataloga, na voljo v aplikaciji Microsoft Dynamics 365 Sales.
+Naročniška enota predstavlja oddelek ali prakso, ki je lastnik izvedbe projekta. Za vsako pogodbeno enoto lahko nastavite stroške virov. Ko podate stroške virov za vir v pogodbeni enoti, lahko nastavite različne stroškovne stopnje za vire, od katerih si pogodbena enota sposodi, ali za druge oddelke ali prakse v podjetju. Te stopnje stroškov se imenujejo transferne cene, izposoja virov ali menjalne cene. Ko nastavite stroške izposoje virov iz drugih oddelkov, lahko nastavite stopnje stroškov v valuti oddelka, ki posoja.
 
-- **Na podlagi izdelkov**: ponudbena vrednost je določena na podlagi količine prodanih enot in prodajne cene enote. Izdelek v vrstici, ki temelji na izdelku, lahko izhaja iz kataloga izdelkov aplikacije Sales, lahko pa gre za izdelek, ki ga določite. Ta vrsta vrstice ponudbe je na voljo tudi v ponudbah, ki temeljijo na projektih in so ustvarjene s storitvijo Project Operations.
+## <a name="cost-currency"></a>Valuta stroška
 
-Znesek v ponudbi je skupna vrednost iz vrstic, ki temeljijo na izdelkih, in vrstic, ki temeljijo na projektih.
+Stroškovna valuta v projektnih operacijah je valuta, v kateri se poroča o stroških. Ta valuta izhaja iz valute, ki je priložena polju **Pogodbena enota** v ponudbi, pogodbi in projektu. Stroške projekta je mogoče zabeležiti v kateri koli valuti. Vendar obstaja pretvorba valute iz valute, v kateri so bili zabeleženi stroški, v stroškovno valuto projekta.
 
-> [!NOTE]
-> Ponudbe in vrstice ponudbe niso zahtevane v storitvi Project Operations. Postopek projekta lahko začnete s projektno pogodbo (prodanim projektom). Vendar vedno potrebujete priložnost, ne glede na to, ali začnete s ponudbo ali projektno pogodbo.
+Ker menjalni tečaji na platformi Dataverse ne morejo veljati na datum, se lahko skupne vrednosti stroškov na zaslonu sčasoma spremenijo, če posodobite menjalne tečaje valut. Stroški, ki se evidentirajo v bazi, pa ostanejo nespremenjeni, saj so zneski shranjeni v valuti, v kateri so nastali.
 
-## <a name="project-based-quote-lines"></a>Podrobnosti ponudb, ki temeljijo na projektih
+## <a name="sales-currency"></a>Prodajna valuta
 
-Vrstice ponudb v storitvi Project Operations, ki temeljijo na projektih, uporabljajo naslednje načine obračunavanja:
+Prodajna valuta v projektnih operacijah je valuta, v kateri so zabeleženi in prikazani ocenjeni in dejanski zneski prodaje. To je tudi valuta, v kateri se stranki izda račun za posel. Za projektno ponudbo je privzeta prodajna valuta nastavljena iz zapisa stranke ali računa in jo je mogoče spremeniti, ko je ponudba ustvarjena. Vendar prodajne valute ni mogoče spremeniti, ko je ponudba shranjena. Privzeti ceniki izdelkov in projektov so nastavljeni glede na prodajno valuto ponudbe.
 
-- Čas in material
-- Fiksna cena
+Za razliko od stroškov lahko prodajne vrednosti beležimo **samo** v prodajni valuti.
 
-### <a name="time-and-material"></a>Čas in material
+## <a name="billing-method"></a>Način obračunavanja
 
-Način obračunavanja »Čas in material« temelji na porabi. Ko izberete ta način obračunavanja, je stranki zaračunano, ko nastanejo stroški pri projektu. Računi so ustvarjeni glede na periodično pogostost na osnovi datuma. Ponudbena vrednost komponente časa in materiala med prodajnim postopkom zagotavlja samo oceno končnih stroškov za kupca. Dobavitelj se ne zavezuje, da bo projekt dokončal na točno ponudbeni vrednosti. Komponente časa in materiala povečujejo tveganje za kupca. Stranke se bodo morda želele pogajati o dodatnih klavzulah nepreseganja, da zmanjšajo tveganje. Project Operations ne podpira nastavitve klavzul nepreseganja.
+Projekti imajo običajno pogodbene modele s fiksnimi honorarji in na podlagi porabe. V projektnih operacijah je pogodbeni model projekta predstavljen z metodo zaračunavanja. Način obračunavanja ima dve vrednosti: čas in material ter fiksno ceno.
 
-### <a name="fixed-price"></a>Fiksna cena
+- **Čas in material** – model sklepanja pogodb na podlagi porabe, kjer je vsak nastali strošek podprt z ustreznim prihodkom. Ko ocenite ali ustvarite več stroškov, se povečata tudi ustrezna predvidena in dejanska prodaja. Za podrobnosti ponudb, ki imajo ta način obračunavanja, lahko določite omejitve, ki se jih ne sme preseči. Na ta način lahko omejite dejanski prihodek. Omejitve, ki jih je treba preseči, ne vplivajo na predvideni prihodek.
+- **Fiksna cena** – pogodbeni model s fiksnim honorarjem, pri katerem so prodajne vrednosti neodvisne od nastalih stroškov. Prodajna vrednost je fiksna in se ne spremeni, ko ocenjujete ali ustvarite več stroškov.
 
-V načinu obračunavanja Fiksna cena se dobavitelj zaveže, da bo projekt dostavil stranki po fiksni ceni. Stranki je zaračunana ponudbena vrednost vrstice ponudbe za fiksno ceno, ne glede na stroške, ki nastanejo za dobavitelja, pri zagotavljanju te vrstice ponudbe. Vrednost vrstice ponudbe za fiksno ceno je zaračunana na enega od naslednjih načinov: 
+## <a name="project-price-lists"></a>Ceniki za projekte
 
-- Kot enkratno izplačilo ob začetku ali koncu projekta ali pa ko je dosežen mejnik projekta. 
-- S pogostostjo, ki temelji na datumu, enakih obrokov fiksne cene v vrstici ponudbe. Ti obroki so znani kot periodični mejniki.
-- V obrokih z denarno vrednostjo, ki je poravnana z napredkom dela ali posebnimi mejniki, ki so doseženi v projektu. V tem primeru se lahko vrednost vsakega obroka razlikuje, vendar ne sme presegati vrednosti fiksne cene v vrstici ponudbe.
+Projektni ceniki so ceniki, ki se uporabljajo za vnos privzetih cen, ne stroškovnih stopenj, za čas, stroške in druge komponente, povezane s projektom. Cenikov je lahko več, vsak seznam pa ima lahko lastno datumsko veljavnost za vsako projektno ponudbo. Project Operations ne podpira prekrivajočih se datumov veljavnosti za cenike projektov.
 
-Project Operations podpira vse tri vrste razporedov izdajanja računov za vrstice ponudb fiksne cene.
+## <a name="product-price-lists"></a>Ceniki za izdelke
 
-## <a name="transaction-classification"></a>Klasifikacije transakcij
+Ceniki izdelkov so ceniki, ki se uporabljajo za vnos privzetih cen, ne stopenj stroškov, za linije izdelkov v ponudbi. Na ponudbo je samo en cenik izdelkov.
 
-Organizacije, ki ponujajo strokovne storitve, svojim kupcem običajno dajejo ponudbe in jim zaračunajo glede na razvrstitev stroškov. Stroški so predstavljeni z naslednjimi klasifikacijami transakcij:
+## <a name="transaction-classes"></a>Razredi transakcije
 
-- **Čas**: ta klasifikacija predstavlja stroške dela ali časa človeških virov v projektu.
-- **Strošek**: ta klasifikacija predstavlja vse druge vrste stroškov v projektu. Ker so stroški lahko razvrščeni na splošno, večina organizacij ustvari podkategorije, kot so potni stroški, stroški najema avtomobila, hotelski stroški ali stroški pisarniškega materiala.
-- **Nadomestilo**: ta klasifikacija predstavlja razne dodatne stroške, kazni in druge elemente, ki se zaračunajo kupcu. 
-- **Davek**: ta klasifikacija predstavlja davčne zneske, ki jih uporabniki dodajo med vnašanjem stroškov.
-- **Materialna transakcija**: ta klasifikacija predstavlja dejanske vrednosti iz vrstice izdelkov na potrjenem računu projekta.
-- **Mejnik**: to klasifikacijo uporablja logika obračunavanja fiksnih cen.
+Project Operations podpira štiri vrste razredov transakcij:
 
-Z vsako vrstico ponudbe je mogoče povezati eno ali več teh klasifikacij transakcij. Ko je ponudba pridobljena, se preslikava med klasifikacijo transakcije in vrstico ponudbe prenese v podrobnosti pogodbe.
-  
-Ponudba lahko na primer vsebuje naslednji vrstici ponudbe: 
+- Čas
+- Stroški
+- Material
+- Dajatev
 
-- Svetovalno delo, ki uporablja način obračunavanja na podlagi časa in materiala, v katerem je mogoče uveljavljati klasifikacije transakcij na podlagi časa in nadomestila. Npr. vse transakcije časa in nadomestila za primer projekta **Uvedba Dynamics AX** se stranki zaračunajo na podlagi uporabljenega časa in materialov. 
-- Povezani potni stroški, ki uporabljajo način obračunavanja »Fiksna cena«. Vsi potni stroški za primer projekta **Uvedba Dynamics AX** so zaračunani po fiksni denarni vrednosti.
+Stroške in prodajne vrednosti je mogoče oceniti in nastati ob **Času**, **Odhodkih** in **Material** razredi transakcij. **Provizija** je razred transakcij, ki prinaša samo prihodek.
 
-> [!NOTE]
-> Kombinacija projekta in klasifikacij transakcij **Čas**, **Strošek** in **Nadomestilo**, ki so povezane z vrstico ponudbe ali podrobnostmi pogodbe, mora biti edinstvena. Če je ista kombinacija razreda projekta in transakcije povezana z več kot enimi podrobnostmi pogodbe ali vrsticami ponudbe, storitev Project Operations ne bo pravilno delovala.
+## <a name="work-entities-and-billing-entities"></a>Entitete za delo in obračunavanje
 
-## <a name="billing-types"></a>Vrste obračunavanja
+Projekti in naloge so entitete, ki predstavljajo delo. Vrstice ponudb in pogodbene vrstice so subjekti, ki predstavljajo obračunavanje. Različne delovne entitete lahko povežete z možnostmi zaračunavanja tako, da jih povežete z vrsticami ponudb ali vrsticami pogodbe.
 
-Polje **Vrsta obračunavanja** določa pojem zaračunavanja. To je nabor možnosti, ki ima naslednje možne vrednosti:
+## <a name="multi-customer-deals"></a>Posli za več strank
 
-- **Se zaračuna**: strošek, ki se obračuna s to vlogo/kategorijo, se šteje kot neposreden strošek, ki spodbuja izvedbo projekta, stranka pa bo plačala za to delo. Plačilo se lahko upravlja kot dogovor, zasnovan na času in materialu ali fiksni ceni. Zaposleni, ki porabi ta čas, pa bo dobil ustrezno plačilo za svojo zaračunano porabo.
-- **Se ne zaračuna**: strošek, ki se obračuna s to vlogo/kategorijo, se šteje kot neposreden strošek, ki spodbuja izvedbo projekta, tudi če stranka tega dejstva ne upošteva in ne želi plačati za to delo. Zaposleni, ki porabi ta čas, ne bo plačan za zaračunano porabo za ta čas.
-- **Brezplačno**: strošek, ki se obračuna s to vlogo/kategorijo, se šteje kot neposreden strošek, ki spodbuja izvedbo projekta, stranka pa to dejstvo priznava. Zaposleni, ki porabi ta čas, bo plačan za zaračunano porabo za ta čas. Vendar se ta strošek ne zaračuna kupcu.
-- **Ni na voljo**: s to možnostjo se spremljajo stroški, nastali pri internih projektih, ki ne zahtevajo sledenja prihodkom.
+Posli z več strankami se zgodijo, ko je na račun več kot ena stranka. Tukaj je nekaj tipičnih primerov:
 
-## <a name="invoice-schedule"></a>Razpored izdajanja računov
+- **Podjetja proizvajalcev originalne opreme (OEM) in njihovi partnerji** – Partnerji in preprodajalci prodajajo izdelek, ki vključuje storitve z dodano vrednostjo. Med dogovorom s stranko OEM običajno ponudi financiranje dela projekta.
+- **Projekti javnega sektorja** – Več oddelkov lokalne uprave se strinja, da bodo financirali projekt in se jim izda račun v skladu s predhodno dogovorjeno delitvijo. Na primer šolsko okrožje in mestna ali lokalna javna uprava se strinjata, da bosta financirala gradnjo bazena.
 
-Razpored izdajanja računov je niz datumov, ob katerih se izvaja izdajanje računov za projekt. Po želji lahko ustvarite razpored izdajanja računov v vrstici ponudbe. Vsaka vrstica ponudbe ima lahko svoj razpored izdajanja računov. Če želite ustvariti razpored izdajanja računov, morate navesti naslednje vrednosti atributov:
+## <a name="invoice-schedules"></a>Razporedi izdajanja računov
 
-- Začetni datum obračunavanja 
-- Datum dostave, ki predstavlja končni datum obračunavanja v projektu
-- Pogostost izdajanja računov
+Razporedi računov so specifični za vsako vrstico ponudbe in niso obvezni. Razporedi računov so ustvarjeni na podlagi določenih začetnih in končnih datumov ter pogostosti izdajanja računov. Uporabljajo se v fazi pogodbe, ko je konfiguriran postopek samodejnega ustvarjanja računa. V fazi ponudbe so urniki faktur neobvezni. Če so ustvarjeni med fazo ponudbe, se kopirajo v projektno pogodbo, ki je ustvarjena, ko je ponudba za projekt pridobljena.
 
-Te tri vrednosti atributov se uporabljajo za ustvarjanje pogojnega nabora datumov za vzpostavitev izdajanja računov.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Razlike od prodajnih ponudb Dynamics 365
 
-## <a name="invoice-frequency"></a>Pogostost izdajanja računov
+Ponudbe za projektne operacije so zgrajene na prodajnih ponudbah Dynamics 365. Obstajajo pa nekatere pomembne razlike v funkcionalnosti, ki se jih morate zavedati:
 
-Pogostost izdajanja računov je entiteta, ki shranjuje vrednosti atributov, ki pomagajo izraziti pogostost ustvarjanja računa. Naslednji atributi izražajo ali določajo entiteto pogostosti izdajanja računov:
+- Ponudbe projektnih operacij imajo dve različni vrsti vrstic: eno za projekte in eno za izdelke.
+- Ponudbe Project Operations imajo lastno stran in elemente uporabniškega vmesnika (UI), poslovna pravila, poslovno logiko v vtičnikih in skripte na strani odjemalca, po katerih se razlikujejo od prodajnih ponudb.
+- V prodaji lahko eni prodajni ponudbi pripnete več naročil. V projektnih operacijah lahko projektni ponudbi priložite samo eno projektno pogodbo.
+- Ko pridobite prodajno ponudbo, lahko povezana priložnost ostane odprta. Ko je projektna ponudba pridobljena, se povezana priložnost zapre.
+- Prodajna ponudba ne vključuje nekaterih področij in konceptov, ki jih vključuje projektna ponudba. Polja vključujejo **pogodbeno enoto**, **upravitelja kupcev** in **ime stika za plačilo**.
+- Prodajne ponudbe in ponudbe za projekte so označene s poljem nabor možnosti–based **Type** . Za prodajno ponudbo je vrednost tega polja **Na podlagi predmeta**. Za projektno ponudbo je vrednost **na podlagi dela**.
 
-- **Obdobje**: podprta so mesečna, dvotedenska in tedenska obdobja. 
-- **Izvajanje na obdobje**: za tedenska in dvotedenska obdobja lahko določite samo eno izvajanje na obdobje. Za mesečna obdobja lahko določite eno ali do štiri izvajanja na obdobje. 
-- **Dnevi izvajanja**: dnevi, ko je treba izvesti izdajanje računov. Ta atribut lahko konfigurirate na dva načina:
-  - **Delavniki**: lahko na primer določite, da se izdajanje računov izvaja vsak ponedeljek ali vsak drug ponedeljek. Takšna vrsta konfiguracije je lahko bolj všeč strankam, ki morajo nastaviti izvajanje izdajanja računov ob delovnih dneh. 
-  - **Koledarski dnevi**: lahko na primer določite, da se izdajanje računov izvaja sedmi in enaindvajseti dan vsakega meseca. Tovrstna konfiguracija bo morda všeč nekaterim organizacijam, ker zagotavlja, da se izdajanje računov izvaja vsak mesec po fiksnem razporedu.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Razpored izdajanja računov za vrstico ponudbo fiksne cene
-
-Za vrstico ponudbe fiksne cene lahko uporabite mrežo **Razpored izdajanja računov**, da ustvarite mejnike obračunavanja, ki so enaki vrednosti v vrstici ponudbe.
-
-- Da ustvarite mejnike obračunavanja, ki so enako razdeljeni, izberite pogostost izvajanja računov, vnesite začetni datum obračunavanja v vrstico ponudbe in izberite **Zahtevani datum zaključka** za ponudbo v razdelku glave ponudbe **Povzetek**. Nato izberite **Ustvari periodične mejnike**, da ustvarite enakomerno razdeljene mejnike na podlagi izbrane pogostosti izdajanja računov. 
-- Če želite ustvariti mejnik obračunavanja za enkratno izplačilo, ustvarite mejnik in nato vnesite vrednost vrstice ponudbe kot znesek mejnika.
-- Če želite ustvariti mejnike obračunavanja, ki temeljijo na določenih opravilih v načrtu projekta, ustvarite mejnik in ga preslikajte v element projektnega razporeda v uporabniškem vmesniku mejnika obračunavanja.
-
+Zaradi teh razlik vam ne priporočamo, da prodajne ponudbe in ponudbe projektnih operacij uporabljate izmenično.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

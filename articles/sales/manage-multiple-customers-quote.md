@@ -1,23 +1,23 @@
 ---
-title: Upravljanje več strank v ponudbi za projekt
+title: Upravljajte več strank na podlagi projektne ponudbe
 description: Ta članek vsebuje informacije o delu s ponudbami, ki vključujejo več strank, ki bodo financirale projekt.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928222"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825169"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Upravljanje več strank v ponudbi za projekt
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Upravljajte več strank na podlagi projektne ponudbe
 
-_**Velja za:** Project Operations za scenarije, ki temeljijo na virih/nezalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
-Ponudbe za projekte podpirajo scenarij, v katerem predlog vključuje več strank, ki bodo financirale posel. Na zavihku **Povzetek** ponudbe je polje **Potencialna stranka**, ki opredeljuje primarno stranko posla. Druge stranke za posel lahko nastavite na zavihku **Stranke** pri ponudbi za projekt.
+Projektno zasnovane ponudbe podpirajo scenarij, kjer predlog vključuje več strank, ki bodo financirale posel. Na zavihku **Povzetek** ponudbe je polje **Potencialna stranka**, ki opredeljuje primarno stranko posla. Druge stranke za posel lahko nastavite na zavihku **Stranke** pri ponudbi za projekt.
 
 Vse stranke ponudbe na zavihku **Stranke** ponudbe za projekt so privzeto nastavljene kot stranke v podrobnostih ponudbe pri katerih koli **novih** podrobnostih ponudbe, ki temeljijo na projektu, ustvarjenih za ponudbo. Morebitne obstoječe podrobnosti ponudbe, ki temelji na projektu, ne bodo podedovale novih zapisov strank o ponudbah, ki so bili ustvarjeni pozneje.
 

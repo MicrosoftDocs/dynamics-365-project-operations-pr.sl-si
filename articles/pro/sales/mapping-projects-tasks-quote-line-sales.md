@@ -1,23 +1,23 @@
 ---
-title: Preslikava projektov in opravil v podrobnosti ponudbe, ki temelji na projektih
-description: Ta članek ponuja informacije o tem, kako preslikati projekte in opravila v podrobnost opravila, ki temelji na projektih.
+title: Preslikajte projekte in naloge v ponudbene vrstice projektov
+description: Ta članek ponuja informacije o tem, kako preslikati projekte in naloge v vrstice ponudb projektov.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917182"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824367"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Preslikava projektov in opravil v podrobnosti ponudbe, ki temelji na projektih
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Preslikajte projekte in naloge v ponudbene vrstice projektov
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-V podrobnostih ponudbe, ki temeljijo na projektu, lahko preslikate določena opravila projekta, ki je že povezan s podrobnostjo ponudbe.
+V vrsticah ponudbe projekta lahko preslikate specifične naloge projekta, ki je že povezan z vrstico ponudbe.
 
 Ko preslikate opravila v podrobnost ponudbe, bodo naslednji elementi, ki ste jih določili v podrobnosti ponudbe, veljali samo za ta opravila:
 

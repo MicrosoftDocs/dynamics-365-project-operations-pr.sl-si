@@ -1,31 +1,29 @@
 ---
-title: Upravljanje možnih strank
+title: Upravljajte potencialne stranke, ki temeljijo na projektu
 description: Ta članek vsebuje informacije o upravljanju možnih strank, ki temeljijo na projektu (Pro).
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920218"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825820"
 ---
-# <a name="manage-leads"></a>Upravljanje možnih strank
+# <a name="manage-project-based-leads"></a>Upravljajte potencialne stranke, ki temeljijo na projektu
 
-_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** scenarije v storitvi Project Operations , ki temeljijo na virih/nezalogi_
 
 Možne stranke, ki temeljijo na projektu, je mogoče upravljati in potrditi v storitvi Project Operations. Postopek upravljanja možnih strank vključuje ustvarjanje možnih strank, ki temeljijo na projektu, in potrditvi teh možnih strank. 
-
-## <a name="project-sales-leads"></a>Možne stranke, ki temeljijo na projektu
 
 V razdelku **Prodaja** v levem podoknu za krmarjenje odprite stran s seznamom **Možne stranke**, da si ogledate seznam z vsemi zapisi vseh možnih strank v sistemu. Prikazani seznam možnih strank temelji na delu in drugih vrstah možnih strank, ki jih lahko ustvarite, če imate tudi aplikacijo Dynamics 365 Sales ali Dynamics 365 Field Service.
 
 Ustvarite lahko filtrirani pogled, da si ogledate samo možne stranke, ki temeljijo na projektu, tako da ustvarite filter pri vrednosti **Vrsta**. Na primer, izberete lahko, da se prikazujejo samo možne stranke, ki temeljijo na delu.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Ustvarjanje nove možne stranke za posel, ki temelji na projektu
+## <a name="create-a-new-project-based-lead"></a>Ustvarite novo potencialno stranko, ki temelji na projektu 
 
 Ko je možna stranka, ki temelji na projektu, potrjena, se ustvarita priložnost in kupec. Priložnost, ki temelji na projektu, je izhodišče za prodajne dejavnosti v fazi priložnosti. Priložnosti, ki temeljijo na projektu, imajo edinstvene zmogljivosti, ki so potrebne za prodajo dela na projektu. Te zmogljivosti vključujejo:
 

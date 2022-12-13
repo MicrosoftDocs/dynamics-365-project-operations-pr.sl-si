@@ -1,27 +1,27 @@
 ---
-title: Razporedi računov v vrsticah ponudbe, ki temeljijo na projektu
+title: Razporedi računov v vrsticah projektnih ponudb
 description: Ta članek vsebuje informacije o ustvarjanju razporedov računov in mejnikov za vrstice ponudb.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918332"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825774"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Razporedi računov v vrsticah ponudbe, ki temeljijo na projektu
+# <a name="invoice-schedules-on-project-quote-lines"></a>Razporedi računov v vrsticah projektnih ponudb
 
 _**Velja za:** Project Operations za scenarije, ki temeljijo na virih/manjkajoči zalogi, poenostavljeno uvedbo – posel do izstavitve predračuna_
 
-Vrstica ponudbe, ki temelji na projektu, omogoča uveljavljanje razporeda računov. To v fazi ponudbe ni obvezno, saj aplikacija ne podpira izdaje računa za projekt, če je vezan na vrstico ponudbe. Izdajanje računov je dovoljeno šele po pridobitvi ponudbe. Edini nadaljnji učinek ustvarjanja razporeda računov med fazo ponudbe je, da se ta razpored računov prepiše v podrobnosti pogodbe, ki temelji na projektu. Če med fazo ponudbe ne ustvarite razporeda računov, boste to lahko storili v podrobnostih pogodbe, ki temeljijo na projektu.
+Vrstica ponudbe projekta omogoča izražanje razporeda faktur. To v fazi ponudbe ni obvezno, saj aplikacija ne podpira izdaje računa za projekt, če je vezan na vrstico ponudbe. Izdajanje računov je dovoljeno šele po pridobitvi ponudbe. Edini nadaljnji učinek ustvarjanja razporeda računov med fazo ponudbe je, da se ta razpored računov prepiše v podrobnosti pogodbe, ki temelji na projektu. Če med fazo ponudbe ne ustvarite razporeda računov, boste to lahko storili v podrobnostih pogodbe, ki temeljijo na projektu.
 
 Na splošno je namen razporedov računov omogočiti samodejno ustvarjanje osnutkov računov za podrobnosti pogodbe, ki temeljijo na projektu. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Ustvarjanje razporeda računov za čas in material za vrstico ponudbe, ki temelji na projektu
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Ustvarite razpored fakturiranja časa in materiala za vrstico ponudbe projekta
 
 Kadar je način obračunavanja za ponudbeno vrstico , ki temelji na projektu, možnost Čas in material, se v sistemu ustvari časovni razpored računov na podlagi datuma. Za samodejno ustvarjanje razporeda računov na podlagi datuma, izvedite naslednje korake.
 
@@ -36,7 +36,7 @@ Kadar je način obračunavanja za ponudbeno vrstico , ki temelji na projektu, mo
     - **Datum zaključka transakcije** je nastavljen na dan pred **datumom izdaje računa**.
     - **Stanje izdaje** je samodejno nastavljeno na možnost **Ni izdano**. Ko se postopek samodejnega ustvarjanja računov zažene za posamezen datum izdaje računa, se vrednost polja posodobi bodisi na možnost **Uspešna izdaja** ali pa **Neuspešna izdaja**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Ustvarjanje razporeda računov s fiksno ceno za vrstico ponudbe, ki temelji na projektu
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Ustvarite razpored faktur s fiksno ceno za vrstico ponudbe projekta
 
 Če ima vrstica ponudbe, ki temelji na projektu, **fiksen** način obračunavanja, se v sistemu ustvari razpored računov, ki temelji na mejniku. Dokončajte naslednje korake za samodejno generiranje razporeda za fiksen nabor mejnikov, ki so za koledarsko obdobje enakomerno porazdeljeni.
 

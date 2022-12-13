@@ -1,23 +1,23 @@
 ---
-title: Upravljanje več strank v podrobnostih ponudb, ki temeljijo na projektih – poenostavljeno
-description: Ta članek opisuje, kako upravljati več strank pri podrobnostih ponudb, ki temeljijo na projektu.
+title: Upravljajte več strank na vrsticah projektnih ponudb
+description: Ta članek opisuje, kako upravljati več strank v vrsticah projektnih ponudb.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927808"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824459"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Upravljanje več strank v podrobnostih ponudb, ki temeljijo na projektih – poenostavljeno
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Upravljajte več strank na vrsticah projektnih ponudb
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-Podrobnosti ponudb, ki temeljijo na projektu, podpirajo scenarije, kjer ima vsaka podrobnost ponudbe seznam strank, ki zanj plačujejo. Ta seznam strank pri podrobnostih ponudb, ki temeljijo na projektu, je lahko enak seznamu strank v ponudbi. Seznam strank lahko spremenite tudi tako, da je drugačen. Ko pridobite ponudbo za projekt, se seznam strank pri podrobnostih ponudb, ki temeljijo na projektu, kopira v ustrezno podrobnost pogodbe, ki temeljijo na projektu, da se ustvari morebitna pogodba za projekt. Stranke v ponudbi, ki temelji na projektu, se kopirajo v pogodbo za projekt.
+Projektne vrstice s ponudbami podpirajo scenarije, kjer ima vsaka vrstica s ponudbami seznam strank, ki zanjo plačujejo. Ta seznam strank pri podrobnostih ponudb, ki temeljijo na projektu, je lahko enak seznamu strank v ponudbi. Seznam strank lahko spremenite tudi tako, da je drugačen. Ko pridobite ponudbo za projekt, se seznam strank pri podrobnostih ponudb, ki temeljijo na projektu, kopira v ustrezno podrobnost pogodbe, ki temeljijo na projektu, da se ustvari morebitna pogodba za projekt. Stranke v ponudbi, ki temelji na projektu, se kopirajo v pogodbo za projekt.
 
 Ko izstavite račun za morebitno pogodbo za projekt, ima seznam strank pri podrobnosti pogodbe, ki temelji na projektu, prednost pred seznamom v pogodbi za projekt. Seznam strank v pogodbi za projekt se uporablja samo za privzete nastavitve v podrobnostih pogodbe za nov projekt.
 

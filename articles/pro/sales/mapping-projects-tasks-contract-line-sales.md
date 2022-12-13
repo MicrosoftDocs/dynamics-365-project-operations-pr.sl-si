@@ -1,23 +1,23 @@
 ---
-title: Preslikava projektov in opravil v podrobnosti pogodbe, ki temeljijo na projektih – poenostavljeno
+title: Preslikava projektov in opravil v podrobnostih projektne pogodbe
 description: Ta članek vsebuje informacije o dodajanju in odstranjevanju projektov in opravil v podrobnosti pogodbe.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932546"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825079"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Preslikava projektov in opravil v podrobnosti pogodbe, ki temeljijo na projektih 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Preslikava projektov in opravil v podrobnostih projektne pogodbe 
 
-_**Velja za:** poenostavljeno uvedbo – posel do izstavitve predračuna, Project Operations za primere, ki temeljijo na virih/manjkajoči zalogi_
+_**Velja za:** poenostavljeno uvedbo – posel do izstavitve predračuna, Project Operations za primere, ki temeljijo na virih/nezalogi_
 
-V podrobnostih pogodb, ki temeljijo na projektu, lahko določena opravila v projektu preslikate v podrobnosti pogodbe.
+V pogodbenih vrsticah projekta lahko določene naloge v projektu preslikate v pogodbeno vrstico.
 
 Ko preslikate določena opravila v podrobnosti pogodbe, bodo način obračunavanja, možnosti zaračunavanja, omejitve »Ni dovoljeno preseči« in stranke, opredeljene v podrobnosti pogodbe, veljali samo za ta določena opravila.
 
@@ -25,7 +25,7 @@ Ko preslikate določena opravila v podrobnosti pogodbe, bodo način obračunavan
 
 Vse druge faze v projektu s strukturirano členitvijo dela (SČD) so lahko povezane s podrobnostmi pogodbe, ki temeljijo na času in materialu.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Povezava opravil s podrobnostmi pogodbe, ki temeljijo na projektu
+## <a name="associate-tasks-to-project-contract-lines"></a>Povežite naloge s projektnimi pogodbenimi linijami
 
 Opravila lahko povežete s podrobnostmi pogodbe z zavihka **Opravila, ki se zaračunajo** na strani **Podrobnosti pogodbe** ali z zavihka **Obračunavanje opravil** na strani **Projekt**.
 

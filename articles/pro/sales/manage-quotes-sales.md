@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911662"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826102"
 ---
 # <a name="manage-project-quotes"></a>Upravljanje ponudb za projekte
 
@@ -23,7 +23,7 @@ V aplikaciji Dynamics 365 Project Operations so ponudbe za projekt oblikovane ko
   - Podrobnosti vrstice ponudb, ki določajo in ocenjujejo delo za vsako komponento ali vrstico ponudbe na visoki ravni. Načrt ali časovne ocene in finančni vidiki dela so povezani s to vrstico ponudbe.
   - Za vsako vrstico ponudbe so nastavljeni pogodbeni modeli in plačljive komponente. Ta nastavitev pomaga oceniti razpršitev prihodka, porabo in donosnost za vsako vrstico ponudbe in splošno ponudbo.
 
-## <a name="view-all-project-based-quotes"></a>Ogled ponudb, ki temeljijo na projektih
+## <a name="view-all-project-quotes"></a>Oglejte si vse ponudbe projektov
 
 Seznam vseh ponudb za projekt si lahko ogledate na strani s seznamom **Ponudbe**. 
 

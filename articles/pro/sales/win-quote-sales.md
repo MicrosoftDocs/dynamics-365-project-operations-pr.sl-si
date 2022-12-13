@@ -1,5 +1,5 @@
 ---
-title: Zapiranje ponudbe – poenostavljeno
+title: Zapiranje projektnih ponudb
 description: Ta članek vsebuje informacije o zapiranju ponudbe v aplikaciji Project Operations.
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916952"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826196"
 ---
-# <a name="close-a-quote---lite"></a>Zapiranje ponudbe – poenostavljeno
+# <a name="close-project-quotes"></a>Zapiranje projektnih ponudb
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
@@ -30,7 +30,7 @@ Ko projektno ponudbo zaprete kot »Pridobljena«, je stanje nastavljeno na »Zap
 
 Če obstajajo dejanske vrednosti za čas za projekt, ko je ta še vedno povezan z osnutkom ponudbe, se beleži le strošek časa ali izdatek. Ko je ponudba zaprta kot »Pridobljena«, bo aplikacija refaktorirala stroške tako, da bo razveljavila starejše dejanske stroške in ponovno ustvarila nove dejanske stroške. Aplikacija bo te dejanske stroške obdelala na podlagi metode obračunavanja v povezani vrstici pogodbe o projektu. Če se dejanske vrednosti stroškov sklicujejo na podrobnosti pogodbe za čas in material, so po zapiranju ponudbe in ustvarjanju projektne pogodbe ustvarjene ustrezne neobračunane dejanske vrednosti prodaje. Če se dejanske vrednosti stroškov sklicujejo na podrobnosti pogodbe za fiksno ceno, bo aplikacija prenehala ponovno obdelovati dejanske vrednosti stroškov, ki temeljijo na pravilih za deljeno obračunavanje za stranke projektne pogodbe.
 
-## <a name="closing-a-quote-as-lost"></a>Zapiranje ponudbe kot izgubljene:
+## <a name="closing-a-quote-as-lost"></a>Zapiranje citata kot izgubljenega
 
 Ko projektno ponudbo zaprete kot »Izgubljena«, je stanje nastavljeno na »Zaprto«, razlog stanja pa je »Izgubljena«. Ko ponudbo zaprete, je ponudba projekta na voljo samo za branje. Ker zaprte ponudbe ni mogoče znova odpreti, bo potrditveno okno potrdilo vaše spremembe, preden ponudbo zaprete.
 

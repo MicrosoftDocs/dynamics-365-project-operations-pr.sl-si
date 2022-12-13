@@ -1,32 +1,32 @@
 ---
-title: Ocenjevanje podrobnosti pogodbe, ki temelji na projektu – poenostavljena različica
+title: Ocenite projektno pogodbo
 description: V tem članku so na voljo informacije o ocenjevanju podrobnosti pogodbe, ki temelji na projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914422"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824788"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Ocenjevanje podrobnosti pogodbe, ki temelji na projektu – poenostavljena različica
+# <a name="estimate-a-project-contract-line"></a>Ocena podrobnosti projektne pogodbe
 
 _**Velja za:** Poenostavljeno uvajanje – od posla do izstavitve predračuna_
 
-V storitvi Dynamics 365 Project Operations imajo podrobnosti pogodbe, ki temelji na projektu, podrobnosti, ki pomagajo oceniti strošek in možne prihodke dela, vključenega v zagotavljaje podrobnosti pogodbe.
+V Dynamics 365 Project Operations ima pogodbena vrstica projekta podrobnosti, ki pomagajo oceniti stroške in potencialni prihodek dela, vključenega v izvedbo pogodbene linije.
 
-Za ocenjevanje podrobnosti pogodbe, ki temelji na projektu, odprite zavihek **Podrobnosti vrstice pogodbe** za **Podrobnosti pogodbe**, ki temelji na projektu.  Obstajata dva načina za ustvarjanje ocene za podrobnosti pogodbe, ki temelji na projektu:
+Če želite oceniti pogodbeno vrstico projekta, pojdite na zavihek **Podrobnosti pogodbene vrstice** na projektu **pogodbene vrstice**.  Obstajata dva načina za ustvarjanje ocene za podrobnosti pogodbe, ki temelji na projektu:
 
    - Ustvarjanje ocene neposredno na podrobnostih pogodbe z ročnim dodajanjem podrobnosti vrstice pogodbe.
    - Ustvarjanje projekta in projektnega načrta, nato pa povezovanje projekta in opravila s podrobnostmi pogodbe. To omogoča proces, po katerem lahko uvozite oceno projektnega načrta v podrobnost pogodbe na podlagi komponent, vključenih v podrobnosti pogodbe.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Ustvarjanje ocene neposredno v podrobnostih pogodbe, ki temelji na projektu
 
-Za ustvarjanje ocene neposredno v podrobnosti pogodbe, ki temelji na projektu, upoštevajte naslednje korake:
+Če želite ustvariti oceno neposredno v pogodbeni vrstici projekta, sledite tem korakom:
 
 1. Pojdite v podrobnosti pogodbe in izberite zavihek **Podrobnost vrstice pogodbe**. Vrstice, ki jih ustvarite v tem zavihku, so povzete in prikazane kot **Pogodbena vrednost** za to možnost **Podrobnosti pogodbe**. 
 2. V podmreži **Podrobnosti pogodbe** izberite **Nove podrobnosti pogodbe**. Odpre se drsnik za hitro ustvarjanje. Naslednja polja so na voljo na strani **Podrobnosti pogodbe**.

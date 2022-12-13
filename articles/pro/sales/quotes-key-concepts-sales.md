@@ -1,17 +1,17 @@
 ---
-title: Ponudbe – ključni pojmi – poenostavljeno
+title: Koncepti, enolični za projektne ponudbe
 description: Ta članek vsebuje informacije o uporabi projektnih ponudb v aplikaciji Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916998"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825914"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Koncepti, enolični za projektne ponudbe
 
@@ -82,9 +82,13 @@ Razporedi izdajanja računov so specifični za vsako podrobnost ponudbe in so tu
 
 Ponudbe Project Operations temeljijo na ponudbah Dynamics 365 Sales. Obstajajo pa nekatere pomembne razlike v funkcionalnosti, ki se jih morate zavedati:
 
-- Dejanji **Preglej** in **Aktiviraj** nista podprti.
+
 - Ponudbe Project Operations imajo dve različni vrsti podrobnosti. Ena je za projekte in druga je za izdelke.
 - Ponudbe Project Operations imajo lastno obliko in elemente uporabniškega vmesnika, pravila poslovanja, poslovno logiko v vtičnikih in skripte na strani odjemalca, s čimer se razlikujejo od ponudb Sales.
+- Prodajne ponudbe vam omogočajo, da prodajni ponudbi pripnete več naročil. V projektnih operacijah je lahko projektni ponudbi priložena samo ena projektna pogodba.
+- Ko pridobite prodajno ponudbo, lahko povezana priložnost ostane odprta. Ko je projektna ponudba pridobljena, se povezana priložnost zapre.
+- Prodajna ponudba ne vključuje nekaterih polj in konceptov, ki so vključeni v projektno ponudbo. Polja vključujejo **pogodbeno enoto**, **upravitelja kupcev** in **ime stika za plačilo**.  
+- **Vrsta**: prodajne in projektne ponudbe so določene tudi s poljem, ki temelji na naboru možnosti in se imenuje **Vrsta**. Za prodajno ponudbo ima to polje vrednost **Temelji na elementu**. Za projektno ponudbo pa ima polje vrednost **Temelji na delu**.
 
 Iz teh razlogov ni priporočljivo, da se ponudba Sales in ponudba Project Operations uporabljata izmenično.
 
