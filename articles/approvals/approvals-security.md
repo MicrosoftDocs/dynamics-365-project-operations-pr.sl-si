@@ -3,15 +3,15 @@ title: Varnost in odobritve
 description: Ta članek vsebuje informacije o varnostni nastavitvi za delo z odobritvami v programu Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 08/29/2022
-ms.topic: security
+ms.topic: conceptual
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: 88186485dff43c3011095b267640151948b4d77c
+ms.sourcegitcommit: 0d11377bf3ac74c80afbd2013775fcc9869f926a
 ms.translationtype: MT
 ms.contentlocale: sl-SI
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709418"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "9841944"
 ---
 # <a name="security-and-approvals"></a>Varnost in odobritve
 
