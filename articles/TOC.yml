@@ -212,7 +212,7 @@
               items:
                 - name: 'Projektne pogodbe, ki temeljijo na predujmih in honorarjih'
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Nastavitev urnika za honorar
+                - name: Nastavitev načrta honorarjev
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Ustvarjanje ad hoc predujma za projektno pogodbo
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -224,7 +224,7 @@
               href: pricing-costing/price-list-setup.md
             - name: Nastavitev obračunske stopnje za delo
               href: pricing-costing/set-up-labor-bill-rate.md
-            - name: Nastavitev lastnih cen dela
+            - name: Nastavitev stroškov za delo
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: Nastavitev cen in stopenj prodaje za stroške
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
@@ -404,7 +404,7 @@
           href: pro/subcontracting/managing-subcontracts-overview.md
         - name: Ključni pojmi pri oddajanju naročil podizvajalcem
           href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Upravljanje dobaviteljev in projektnih cenikov
+        - name: Upravljanje dobaviteljev in cenikov projektov
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: 'Podizvajalci kot viri, ki jih je mogoče rezervirati'
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
@@ -610,7 +610,7 @@
               href: project-accounting/create-intercompany-transactions.md
             - name: Ustvarjanje računov med podjetji za stranke in delodajalce
               href: project-accounting/create-intercompany-customer-vendor-invoices.md
-    - name: Projektno računovodstvo
+    - name: Vodenje računov projekta
       items:
         - name: Privzete vrednosti finančnih razsežnosti
           href: project-accounting/financial-dimension-defaults.md
@@ -846,7 +846,7 @@
               items:
                 - name: 'Pogodbe, ki temeljijo na predujmih in honorarjih'
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Nastavitev razporeda honorarjevNastavitev razporeda honorarjev
+                - name: Nastavitev načrta honorarjev
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Ustvarjanje ad hoc predujma za projektno pogodbo
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -860,7 +860,7 @@
               href: pricing-costing/product-price-list.md
             - name: Nastavitev obračunske stopnje za delo
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: Nastavitev lastnih cen dela
+            - name: Nastavitev stroškov za delo
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
             - name: Nastavitev cen in stopenj prodaje za stroške
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
@@ -1038,7 +1038,7 @@
           href: pro/subcontracting/managing-subcontracts-overview.md
         - name: Ključni pojmi pri oddajanju naročil podizvajalcem
           href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Upravljanje dobaviteljev in projektnih cenikov
+        - name: Upravljanje dobaviteljev in cenikov projektov
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: 'Podizvajalci kot viri, ki jih je mogoče rezervirati'
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
@@ -1154,7 +1154,7 @@
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: Upravljanje predračuna projekta
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
-        - name: Izdaja računa za honorar ali predujem
+        - name: Izdaja računa za honorar ali predplačilo
           href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Potrditev predračuna projekta
           href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
@@ -1164,7 +1164,7 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
     - name: Nadgradnja
       items:
-        - name: Premisleki glede nadgradenj za sodobne odobritve
+        - name: Nadgradnja premislekov za sodobne odobritve
           href: upgrade/upgrade-considerations-modern-approvals.md
     - name: Aplikacije Project Operations
       items:
